@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AppMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
   * Possible Values: `debug`, `error`, `info`, `off`, `warn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#default_log_level AppMonitoring#default_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#default_log_level AppMonitoring#default_log_level}
   */
   readonly defaultLogLevel: string;
   /**
   * Possible Values: `off`, `on`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#default_trace_level AppMonitoring#default_trace_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#default_trace_level AppMonitoring#default_trace_level}
   */
   readonly defaultTraceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#id AppMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#id AppMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface AppMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
   * app_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#app_monitoring AppMonitoring#app_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#app_monitoring AppMonitoring#app_monitoring}
   */
   readonly appMonitoring?: AppMonitoringAppMonitoring;
 }
@@ -37,19 +37,19 @@ export interface AppMonitoringAppMonitoringAppMonitoring {
   /**
   * App ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#app_id AppMonitoring#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#app_id AppMonitoring#app_id}
   */
   readonly appId: string;
   /**
   * Possible Values: `debug`, `error`, `info`, `off`, `useDefault`, `warn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#custom_log_level AppMonitoring#custom_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#custom_log_level AppMonitoring#custom_log_level}
   */
   readonly customLogLevel: string;
   /**
   * Possible Values: `off`, `on`, `useDefault`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#custom_trace_level AppMonitoring#custom_trace_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#custom_trace_level AppMonitoring#custom_trace_level}
   */
   readonly customTraceLevel?: string;
 }
@@ -219,7 +219,7 @@ export interface AppMonitoringAppMonitoring {
   /**
   * app_monitoring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#app_monitoring AppMonitoring#app_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#app_monitoring AppMonitoring#app_monitoring}
   */
   readonly appMonitoring: AppMonitoringAppMonitoringAppMonitoring[] | cdktf.IResolvable;
 }
@@ -300,7 +300,7 @@ export class AppMonitoringAppMonitoringOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring dynatrace_app_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring dynatrace_app_monitoring}
 */
 export class AppMonitoring extends cdktf.TerraformResource {
 
@@ -316,7 +316,7 @@ export class AppMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppMonitoring to import
-  * @param importFromId The id of the existing AppMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -328,7 +328,7 @@ export class AppMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/app_monitoring dynatrace_app_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/app_monitoring dynatrace_app_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -339,8 +339,8 @@ export class AppMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_app_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

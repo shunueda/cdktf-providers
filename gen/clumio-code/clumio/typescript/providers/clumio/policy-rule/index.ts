@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,7 +11,7 @@ export interface PolicyRuleConfig extends cdktf.TerraformMetaArguments {
   * The policy rule ID before which this policy rule should be inserted. Each policy rule must have a unique before_rule_id. If the same before_rule_id is set for more than one policy rule, then only one will have that before_rule_id. The other rules will have a different before_rule_id assigned to them automatically. An empty value will set the rule to have lowest priority.
   * 	- NOTE: In the Global Organizational Unit, rules can also be prioritized against two virtual rules maintained by the system: `asset-level-rule` and `child-ou-rule`. `asset-level-rule` corresponds to the priority of Direct Assignments (when a policy is applied directly to an asset) whereas `child-ou-rule` corresponds to the priority of rules created by child organizational units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule#before_rule_id PolicyRule#before_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule#before_rule_id PolicyRule#before_rule_id}
   */
   readonly beforeRuleId: string;
   /**
@@ -20,25 +20,25 @@ export interface PolicyRuleConfig extends cdktf.TerraformMetaArguments {
   * 	2) `aws_account_native_id` and `aws_region` are optional and both support `$eq` and `$in` filters.
   * 	3) `aws_tag` is optional and supports `$eq`, `$in`, `$all`, and `$contains` filters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule#condition PolicyRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule#condition PolicyRule#condition}
   */
   readonly condition: string;
   /**
   * The name of the policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule#name PolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule#name PolicyRule#name}
   */
   readonly name: string;
   /**
   * The Clumio-assigned ID of the policy. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule#policy_id PolicyRule#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule#policy_id PolicyRule#policy_id}
   */
   readonly policyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule clumio_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule clumio_policy_rule}
 */
 export class PolicyRule extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class PolicyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyRule to import
-  * @param importFromId The id of the existing PolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class PolicyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_rule clumio_policy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_rule clumio_policy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class PolicyRule extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

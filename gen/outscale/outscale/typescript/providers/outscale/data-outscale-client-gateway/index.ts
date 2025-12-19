@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleClientGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#client_gateway_id DataOutscaleClientGateway#client_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#client_gateway_id DataOutscaleClientGateway#client_gateway_id}
   */
   readonly clientGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#id DataOutscaleClientGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#id DataOutscaleClientGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOutscaleClientGatewayConfig extends cdktf.TerraformMetaArgu
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#filter DataOutscaleClientGateway#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#filter DataOutscaleClientGateway#filter}
   */
   readonly filter?: DataOutscaleClientGatewayFilter[] | cdktf.IResolvable;
 }
@@ -107,11 +107,11 @@ export class DataOutscaleClientGatewayTagsList extends cdktf.ComplexList {
 }
 export interface DataOutscaleClientGatewayFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#name DataOutscaleClientGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#name DataOutscaleClientGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#values DataOutscaleClientGateway#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#values DataOutscaleClientGateway#values}
   */
   readonly values: string[];
 }
@@ -250,7 +250,7 @@ export class DataOutscaleClientGatewayFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway outscale_client_gateway}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway outscale_client_gateway}
 */
 export class DataOutscaleClientGateway extends cdktf.TerraformDataSource {
 
@@ -266,7 +266,7 @@ export class DataOutscaleClientGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleClientGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleClientGateway to import
-  * @param importFromId The id of the existing DataOutscaleClientGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleClientGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleClientGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class DataOutscaleClientGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/client_gateway outscale_client_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/client_gateway outscale_client_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class DataOutscaleClientGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_client_gateway',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -367,7 +367,7 @@ export class DataOutscaleClientGateway extends cdktf.TerraformDataSource {
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleClientGatewayTagsList(this, "tags", false);
+  private _tags = new DataOutscaleClientGatewayTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }

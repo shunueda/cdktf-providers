@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy
+// https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CsmThreatsPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description for the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#description CsmThreatsPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#description CsmThreatsPolicy#description}
   */
   readonly description?: string;
   /**
   * Indicates whether the policy is enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#enabled CsmThreatsPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#enabled CsmThreatsPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host tags that define where the policy is deployed. Inner values are ANDed, outer arrays are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#host_tags_lists CsmThreatsPolicy#host_tags_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#host_tags_lists CsmThreatsPolicy#host_tags_lists}
   */
   readonly hostTagsLists?: string[][] | cdktf.IResolvable;
   /**
   * The name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#name CsmThreatsPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#name CsmThreatsPolicy#name}
   */
   readonly name: string;
   /**
   * Host tags that define where the policy is deployed. Deprecated, use host_tags_lists instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#tags CsmThreatsPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#tags CsmThreatsPolicy#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy datadog_csm_threats_policy}
+* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy datadog_csm_threats_policy}
 */
 export class CsmThreatsPolicy extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class CsmThreatsPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsmThreatsPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsmThreatsPolicy to import
-  * @param importFromId The id of the existing CsmThreatsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsmThreatsPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsmThreatsPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CsmThreatsPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/csm_threats_policy datadog_csm_threats_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/csm_threats_policy datadog_csm_threats_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CsmThreatsPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_csm_threats_policy',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.82.0',
-        providerVersionConstraint: '3.82.0'
+        providerVersion: '3.83.0',
+        providerVersionConstraint: '3.83.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpenpipelineV2LogsRoutingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#id OpenpipelineV2LogsRouting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#id OpenpipelineV2LogsRouting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface OpenpipelineV2LogsRoutingConfig extends cdktf.TerraformMetaArgu
   /**
   * routing_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#routing_entries OpenpipelineV2LogsRouting#routing_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#routing_entries OpenpipelineV2LogsRouting#routing_entries}
   */
   readonly routingEntries?: OpenpipelineV2LogsRoutingRoutingEntries;
 }
@@ -25,37 +25,37 @@ export interface OpenpipelineV2LogsRoutingRoutingEntriesRoutingEntry {
   /**
   * Builtin Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#builtin_pipeline_id OpenpipelineV2LogsRouting#builtin_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#builtin_pipeline_id OpenpipelineV2LogsRouting#builtin_pipeline_id}
   */
   readonly builtinPipelineId?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#description OpenpipelineV2LogsRouting#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#description OpenpipelineV2LogsRouting#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#enabled OpenpipelineV2LogsRouting#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#enabled OpenpipelineV2LogsRouting#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Query which determines whether the record should be routed to the target pipeline of this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#matcher OpenpipelineV2LogsRouting#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#matcher OpenpipelineV2LogsRouting#matcher}
   */
   readonly matcher: string;
   /**
   * Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#pipeline_id OpenpipelineV2LogsRouting#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#pipeline_id OpenpipelineV2LogsRouting#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Pipeline Type. Possible Values: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#pipeline_type OpenpipelineV2LogsRouting#pipeline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#pipeline_type OpenpipelineV2LogsRouting#pipeline_type}
   */
   readonly pipelineType: string;
 }
@@ -306,7 +306,7 @@ export interface OpenpipelineV2LogsRoutingRoutingEntries {
   /**
   * routing_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#routing_entry OpenpipelineV2LogsRouting#routing_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#routing_entry OpenpipelineV2LogsRouting#routing_entry}
   */
   readonly routingEntry: OpenpipelineV2LogsRoutingRoutingEntriesRoutingEntry[] | cdktf.IResolvable;
 }
@@ -387,7 +387,7 @@ export class OpenpipelineV2LogsRoutingRoutingEntriesOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing dynatrace_openpipeline_v2_logs_routing}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing dynatrace_openpipeline_v2_logs_routing}
 */
 export class OpenpipelineV2LogsRouting extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class OpenpipelineV2LogsRouting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineV2LogsRouting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2LogsRouting to import
-  * @param importFromId The id of the existing OpenpipelineV2LogsRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2LogsRouting that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2LogsRouting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class OpenpipelineV2LogsRouting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_logs_routing dynatrace_openpipeline_v2_logs_routing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_logs_routing dynatrace_openpipeline_v2_logs_routing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class OpenpipelineV2LogsRouting extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_v2_logs_routing',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

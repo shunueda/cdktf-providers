@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FailureDetectionRuleSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#id FailureDetectionRuleSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#id FailureDetectionRuleSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface FailureDetectionRuleSetsConfig extends cdktf.TerraformMetaArgum
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#insert_after FailureDetectionRuleSets#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#insert_after FailureDetectionRuleSets#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The scope of this setting (CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#scope FailureDetectionRuleSets#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#scope FailureDetectionRuleSets#scope}
   */
   readonly scope?: string;
   /**
   * ruleset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#ruleset FailureDetectionRuleSets#ruleset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#ruleset FailureDetectionRuleSets#ruleset}
   */
   readonly ruleset: FailureDetectionRuleSetsRuleset;
 }
@@ -43,19 +43,19 @@ export interface FailureDetectionRuleSetsRulesetFailOnCustomRulesFailOnCustomRul
   /**
   * Custom rule based on span attributes using [DQL matcher](https://dt-url.net/l603wby).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#dql_condition FailureDetectionRuleSets#dql_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#dql_condition FailureDetectionRuleSets#dql_condition}
   */
   readonly dqlCondition: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#rule_name FailureDetectionRuleSets#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#rule_name FailureDetectionRuleSets#rule_name}
   */
   readonly ruleName: string;
 }
@@ -222,7 +222,7 @@ export interface FailureDetectionRuleSetsRulesetFailOnCustomRules {
   /**
   * fail_on_custom_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_custom_rule FailureDetectionRuleSets#fail_on_custom_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_custom_rule FailureDetectionRuleSets#fail_on_custom_rule}
   */
   readonly failOnCustomRule: FailureDetectionRuleSetsRulesetFailOnCustomRulesFailOnCustomRule[] | cdktf.IResolvable;
 }
@@ -305,19 +305,19 @@ export interface FailureDetectionRuleSetsRulesetFailOnExceptionsIgnoredException
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Evaluated attribute: `span.events[][exception.message]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#message FailureDetectionRuleSets#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#message FailureDetectionRuleSets#message}
   */
   readonly message?: string;
   /**
   * Evaluated attribute: `span.events[][exception.type]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#type FailureDetectionRuleSets#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#type FailureDetectionRuleSets#type}
   */
   readonly type?: string;
 }
@@ -490,7 +490,7 @@ export interface FailureDetectionRuleSetsRulesetFailOnExceptionsIgnoredException
   /**
   * ignored_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#ignored_exception FailureDetectionRuleSets#ignored_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#ignored_exception FailureDetectionRuleSets#ignored_exception}
   */
   readonly ignoredException: FailureDetectionRuleSetsRulesetFailOnExceptionsIgnoredExceptionsIgnoredException[] | cdktf.IResolvable;
 }
@@ -573,13 +573,13 @@ export interface FailureDetectionRuleSetsRulesetFailOnExceptions {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * ignored_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#ignored_exceptions FailureDetectionRuleSets#ignored_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#ignored_exceptions FailureDetectionRuleSets#ignored_exceptions}
   */
   readonly ignoredExceptions?: FailureDetectionRuleSetsRulesetFailOnExceptionsIgnoredExceptions;
 }
@@ -691,7 +691,7 @@ export interface FailureDetectionRuleSetsRulesetFailOnGrpcStatusCodes {
   /**
   * Status codes which indicate a failure on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
   */
   readonly statusCodes: string;
 }
@@ -774,7 +774,7 @@ export interface FailureDetectionRuleSetsRulesetFailOnHttpResponseStatusCodes {
   /**
   * Status codes which indicate a failure on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
   */
   readonly statusCodes: string;
 }
@@ -857,7 +857,7 @@ export interface FailureDetectionRuleSetsRulesetFailOnSpanStatusError {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -940,19 +940,19 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessOnException
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Evaluated attribute: `span.events[][exception.message]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#message FailureDetectionRuleSets#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#message FailureDetectionRuleSets#message}
   */
   readonly message?: string;
   /**
   * Evaluated attribute: `span.events[][exception.type]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#type FailureDetectionRuleSets#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#type FailureDetectionRuleSets#type}
   */
   readonly type?: string;
 }
@@ -1125,7 +1125,7 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessOnException
   /**
   * ignored_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#ignored_exception FailureDetectionRuleSets#ignored_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#ignored_exception FailureDetectionRuleSets#ignored_exception}
   */
   readonly ignoredException: FailureDetectionRuleSetsRulesetOverridesForceSuccessOnExceptionsIgnoredException[] | cdktf.IResolvable;
 }
@@ -1208,7 +1208,7 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessOnGrpcRespo
   /**
   * Status codes which force success on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
   */
   readonly statusCodes?: string;
 }
@@ -1294,7 +1294,7 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessOnHttpRespo
   /**
   * Status codes which force success on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#status_codes FailureDetectionRuleSets#status_codes}
   */
   readonly statusCodes?: string;
 }
@@ -1380,7 +1380,7 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessOnSpanStatu
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -1463,19 +1463,19 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessWithCustomR
   /**
   * Custom rule based on span attributes using [DQL matcher](https://dt-url.net/l603wby).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#dql_condition FailureDetectionRuleSets#dql_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#dql_condition FailureDetectionRuleSets#dql_condition}
   */
   readonly dqlCondition: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#enabled FailureDetectionRuleSets#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#rule_name FailureDetectionRuleSets#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#rule_name FailureDetectionRuleSets#rule_name}
   */
   readonly ruleName: string;
 }
@@ -1642,7 +1642,7 @@ export interface FailureDetectionRuleSetsRulesetOverridesForceSuccessWithCustomR
   /**
   * fail_on_custom_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_custom_rule FailureDetectionRuleSets#fail_on_custom_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_custom_rule FailureDetectionRuleSets#fail_on_custom_rule}
   */
   readonly failOnCustomRule: FailureDetectionRuleSetsRulesetOverridesForceSuccessWithCustomRulesFailOnCustomRule[] | cdktf.IResolvable;
 }
@@ -1725,31 +1725,31 @@ export interface FailureDetectionRuleSetsRulesetOverrides {
   /**
   * force_success_on_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#force_success_on_exceptions FailureDetectionRuleSets#force_success_on_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#force_success_on_exceptions FailureDetectionRuleSets#force_success_on_exceptions}
   */
   readonly forceSuccessOnExceptions?: FailureDetectionRuleSetsRulesetOverridesForceSuccessOnExceptions;
   /**
   * force_success_on_grpc_response_status_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#force_success_on_grpc_response_status_codes FailureDetectionRuleSets#force_success_on_grpc_response_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#force_success_on_grpc_response_status_codes FailureDetectionRuleSets#force_success_on_grpc_response_status_codes}
   */
   readonly forceSuccessOnGrpcResponseStatusCodes?: FailureDetectionRuleSetsRulesetOverridesForceSuccessOnGrpcResponseStatusCodes;
   /**
   * force_success_on_http_response_status_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#force_success_on_http_response_status_codes FailureDetectionRuleSets#force_success_on_http_response_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#force_success_on_http_response_status_codes FailureDetectionRuleSets#force_success_on_http_response_status_codes}
   */
   readonly forceSuccessOnHttpResponseStatusCodes?: FailureDetectionRuleSetsRulesetOverridesForceSuccessOnHttpResponseStatusCodes;
   /**
   * force_success_on_span_status_ok block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#force_success_on_span_status_ok FailureDetectionRuleSets#force_success_on_span_status_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#force_success_on_span_status_ok FailureDetectionRuleSets#force_success_on_span_status_ok}
   */
   readonly forceSuccessOnSpanStatusOk: FailureDetectionRuleSetsRulesetOverridesForceSuccessOnSpanStatusOk;
   /**
   * force_success_with_custom_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#force_success_with_custom_rules FailureDetectionRuleSets#force_success_with_custom_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#force_success_with_custom_rules FailureDetectionRuleSets#force_success_with_custom_rules}
   */
   readonly forceSuccessWithCustomRules?: FailureDetectionRuleSetsRulesetOverridesForceSuccessWithCustomRules;
 }
@@ -1950,55 +1950,55 @@ export interface FailureDetectionRuleSetsRuleset {
   * 
   * If empty, the condition will always match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#condition FailureDetectionRuleSets#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#condition FailureDetectionRuleSets#condition}
   */
   readonly condition?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#description FailureDetectionRuleSets#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#description FailureDetectionRuleSets#description}
   */
   readonly description?: string;
   /**
   * Ruleset name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#ruleset_name FailureDetectionRuleSets#ruleset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#ruleset_name FailureDetectionRuleSets#ruleset_name}
   */
   readonly rulesetName: string;
   /**
   * fail_on_custom_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_custom_rules FailureDetectionRuleSets#fail_on_custom_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_custom_rules FailureDetectionRuleSets#fail_on_custom_rules}
   */
   readonly failOnCustomRules?: FailureDetectionRuleSetsRulesetFailOnCustomRules;
   /**
   * fail_on_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_exceptions FailureDetectionRuleSets#fail_on_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_exceptions FailureDetectionRuleSets#fail_on_exceptions}
   */
   readonly failOnExceptions: FailureDetectionRuleSetsRulesetFailOnExceptions;
   /**
   * fail_on_grpc_status_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_grpc_status_codes FailureDetectionRuleSets#fail_on_grpc_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_grpc_status_codes FailureDetectionRuleSets#fail_on_grpc_status_codes}
   */
   readonly failOnGrpcStatusCodes: FailureDetectionRuleSetsRulesetFailOnGrpcStatusCodes;
   /**
   * fail_on_http_response_status_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_http_response_status_codes FailureDetectionRuleSets#fail_on_http_response_status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_http_response_status_codes FailureDetectionRuleSets#fail_on_http_response_status_codes}
   */
   readonly failOnHttpResponseStatusCodes: FailureDetectionRuleSetsRulesetFailOnHttpResponseStatusCodes;
   /**
   * fail_on_span_status_error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#fail_on_span_status_error FailureDetectionRuleSets#fail_on_span_status_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#fail_on_span_status_error FailureDetectionRuleSets#fail_on_span_status_error}
   */
   readonly failOnSpanStatusError: FailureDetectionRuleSetsRulesetFailOnSpanStatusError;
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#overrides FailureDetectionRuleSets#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#overrides FailureDetectionRuleSets#overrides}
   */
   readonly overrides: FailureDetectionRuleSetsRulesetOverrides;
 }
@@ -2296,7 +2296,7 @@ export class FailureDetectionRuleSetsRulesetOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets dynatrace_failure_detection_rule_sets}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets dynatrace_failure_detection_rule_sets}
 */
 export class FailureDetectionRuleSets extends cdktf.TerraformResource {
 
@@ -2312,7 +2312,7 @@ export class FailureDetectionRuleSets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FailureDetectionRuleSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FailureDetectionRuleSets to import
-  * @param importFromId The id of the existing FailureDetectionRuleSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FailureDetectionRuleSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FailureDetectionRuleSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2324,7 +2324,7 @@ export class FailureDetectionRuleSets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_rule_sets dynatrace_failure_detection_rule_sets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_rule_sets dynatrace_failure_detection_rule_sets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2335,8 +2335,8 @@ export class FailureDetectionRuleSets extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_failure_detection_rule_sets',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

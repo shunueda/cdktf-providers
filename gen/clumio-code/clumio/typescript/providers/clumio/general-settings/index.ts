@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface GeneralSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The length of time before a user is logged out of the Clumio system due to inactivity. Measured in seconds. The valid range is between 600 seconds (10 minutes) and 3600 seconds (60 minutes). If not configured, the value defaults to 900 seconds (15 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings#auto_logout_duration GeneralSettings#auto_logout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings#auto_logout_duration GeneralSettings#auto_logout_duration}
   */
   readonly autoLogoutDuration?: number;
   /**
   * The designated range of IP addresses that are allowed to access the Clumio REST API. API requests that originate from outside this list will be blocked. The IP address of the server from which this request is being made must be in this list; otherwise, the request will fail. Set the parameter to individual IP addresses and/or a range of IP addresses in CIDR notation. For example, [`193.168.1.0/24`, `193.172.1.1`]. If not configured, the value defaults to [`0.0.0.0/0`] meaning all addresses will be allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings#ip_allowlist GeneralSettings#ip_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings#ip_allowlist GeneralSettings#ip_allowlist}
   */
   readonly ipAllowlist?: string[];
   /**
   * The length of time a user password is valid before it must be changed. Measured in seconds. The valid range is between 2592000 seconds (30 days) and 15552000 seconds (180 days). If not configured, the value defaults to 7776000 seconds (90 days).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings#password_expiration_duration GeneralSettings#password_expiration_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings#password_expiration_duration GeneralSettings#password_expiration_duration}
   */
   readonly passwordExpirationDuration?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings clumio_general_settings}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings clumio_general_settings}
 */
 export class GeneralSettings extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class GeneralSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GeneralSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GeneralSettings to import
-  * @param importFromId The id of the existing GeneralSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GeneralSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GeneralSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class GeneralSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/general_settings clumio_general_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/general_settings clumio_general_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class GeneralSettings extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_general_settings',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

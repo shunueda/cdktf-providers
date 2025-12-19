@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudPrivateDnsEndPointsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#id DataTencentcloudPrivateDnsEndPoints#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#id DataTencentcloudPrivateDnsEndPoints#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudPrivateDnsEndPointsConfig extends cdktf.Terrafo
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#result_output_file DataTencentcloudPrivateDnsEndPoints#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#result_output_file DataTencentcloudPrivateDnsEndPoints#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#filters DataTencentcloudPrivateDnsEndPoints#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#filters DataTencentcloudPrivateDnsEndPoints#filters}
   */
   readonly filters?: DataTencentcloudPrivateDnsEndPointsFilters[] | cdktf.IResolvable;
 }
@@ -212,13 +212,13 @@ export interface DataTencentcloudPrivateDnsEndPointsFilters {
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#name DataTencentcloudPrivateDnsEndPoints#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#name DataTencentcloudPrivateDnsEndPoints#name}
   */
   readonly name: string;
   /**
   * Array of parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#values DataTencentcloudPrivateDnsEndPoints#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#values DataTencentcloudPrivateDnsEndPoints#values}
   */
   readonly values: string[];
 }
@@ -357,7 +357,7 @@ export class DataTencentcloudPrivateDnsEndPointsFiltersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points tencentcloud_private_dns_end_points}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points tencentcloud_private_dns_end_points}
 */
 export class DataTencentcloudPrivateDnsEndPoints extends cdktf.TerraformDataSource {
 
@@ -373,7 +373,7 @@ export class DataTencentcloudPrivateDnsEndPoints extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudPrivateDnsEndPoints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPrivateDnsEndPoints to import
-  * @param importFromId The id of the existing DataTencentcloudPrivateDnsEndPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPrivateDnsEndPoints that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPrivateDnsEndPoints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +385,7 @@ export class DataTencentcloudPrivateDnsEndPoints extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_end_points tencentcloud_private_dns_end_points} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_end_points tencentcloud_private_dns_end_points} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +396,8 @@ export class DataTencentcloudPrivateDnsEndPoints extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_private_dns_end_points',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

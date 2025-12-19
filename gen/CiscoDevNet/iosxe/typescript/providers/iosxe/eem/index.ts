@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,78 +10,78 @@ export interface EemConfig extends cdktf.TerraformMetaArguments {
   /**
   * Register an Event Manager applet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#applets Eem#applets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#applets Eem#applets}
   */
   readonly applets?: EemApplets[] | cdktf.IResolvable;
   /**
   * bootup delay in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#detector_routing_bootup_delay Eem#detector_routing_bootup_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#detector_routing_bootup_delay Eem#detector_routing_bootup_delay}
   */
   readonly detectorRoutingBootupDelay?: number;
   /**
   * Maximum number of RPC sessions
   *   - Range: `4`-`16`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#detector_rpc_max_sessions Eem#detector_rpc_max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#detector_rpc_max_sessions Eem#detector_rpc_max_sessions}
   */
   readonly detectorRpcMaxSessions?: number;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#device Eem#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#device Eem#device}
   */
   readonly device?: string;
   /**
   * Embedded Event Manager user policy directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#directory_user_policy Eem#directory_user_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#directory_user_policy Eem#directory_user_policy}
   */
   readonly directoryUserPolicy?: string;
   /**
   * Set an Embedded Event Manager global environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#environment_variables Eem#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#environment_variables Eem#environment_variables}
   */
   readonly environmentVariables?: EemEnvironmentVariables[] | cdktf.IResolvable;
   /**
   * Embedded Event Manager event history table size
   *   - Range: `0`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#history_size_events Eem#history_size_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#history_size_events Eem#history_size_events}
   */
   readonly historySizeEvents?: number;
   /**
   * Embedded Event Manager trap history table size
   *   - Range: `0`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#history_size_traps Eem#history_size_traps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#history_size_traps Eem#history_size_traps}
   */
   readonly historySizeTraps?: number;
   /**
   * default scheduler thread class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#scheduler_applet_thread_class_default Eem#scheduler_applet_thread_class_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#scheduler_applet_thread_class_default Eem#scheduler_applet_thread_class_default}
   */
   readonly schedulerAppletThreadClassDefault?: boolean | cdktf.IResolvable;
   /**
   * Number of concurrent execution threads
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#scheduler_applet_thread_class_number Eem#scheduler_applet_thread_class_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#scheduler_applet_thread_class_number Eem#scheduler_applet_thread_class_number}
   */
   readonly schedulerAppletThreadClassNumber?: number;
   /**
   * username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#session_cli_username Eem#session_cli_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#session_cli_username Eem#session_cli_username}
   */
   readonly sessionCliUsername?: string;
   /**
   * Set user privilege level
   *   - Range: `0`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#session_cli_username_privilege Eem#session_cli_username_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#session_cli_username_privilege Eem#session_cli_username_privilege}
   */
   readonly sessionCliUsernamePrivilege?: number;
 }
@@ -89,414 +89,414 @@ export interface EemAppletsActions {
   /**
   * Value of the variable of append conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#append_value Eem#append_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#append_value Eem#append_value}
   */
   readonly appendValue?: string;
   /**
   * Name of the variable of append conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#append_varname Eem#append_varname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#append_varname Eem#append_varname}
   */
   readonly appendVarname?: string;
   /**
   * break conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#break Eem#break}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#break Eem#break}
   */
   readonly break?: boolean | cdktf.IResolvable;
   /**
   * CLI command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#cli_command Eem#cli_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#cli_command Eem#cli_command}
   */
   readonly cliCommand?: string;
   /**
   * key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#context_retrieve_key Eem#context_retrieve_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#context_retrieve_key Eem#context_retrieve_key}
   */
   readonly contextRetrieveKey?: string;
   /**
   * variable name pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#context_retrieve_variable Eem#context_retrieve_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#context_retrieve_variable Eem#context_retrieve_variable}
   */
   readonly contextRetrieveVariable?: string;
   /**
   * key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#context_save_key Eem#context_save_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#context_save_key Eem#context_save_key}
   */
   readonly contextSaveKey?: string;
   /**
   * variable name pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#context_save_variable Eem#context_save_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#context_save_variable Eem#context_save_variable}
   */
   readonly contextSaveVariable?: string;
   /**
   * continue conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#continue Eem#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#continue Eem#continue}
   */
   readonly continue?: boolean | cdktf.IResolvable;
   /**
   * Name of the counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_name Eem#counter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_name Eem#counter_name}
   */
   readonly counterName?: string;
   /**
   * Decrement the value of the counter by the given value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_op_dec Eem#counter_op_dec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_op_dec Eem#counter_op_dec}
   */
   readonly counterOpDec?: boolean | cdktf.IResolvable;
   /**
   * Increment the value of the counter by the given value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_op_inc Eem#counter_op_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_op_inc Eem#counter_op_inc}
   */
   readonly counterOpInc?: boolean | cdktf.IResolvable;
   /**
   * Read the value of the counter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_op_nop Eem#counter_op_nop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_op_nop Eem#counter_op_nop}
   */
   readonly counterOpNop?: boolean | cdktf.IResolvable;
   /**
   * Set the value of the counter by the given value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_op_set Eem#counter_op_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_op_set Eem#counter_op_set}
   */
   readonly counterOpSet?: boolean | cdktf.IResolvable;
   /**
   * Value used to modify the counter
   *   - Range: `-2147483648`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#counter_value Eem#counter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#counter_value Eem#counter_value}
   */
   readonly counterValue?: number;
   /**
   * Value of the variable of decrement conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#decrement_value Eem#decrement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#decrement_value Eem#decrement_value}
   */
   readonly decrementValue?: string;
   /**
   * Name of the variable of decrement conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#decrement_varname Eem#decrement_varname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#decrement_varname Eem#decrement_varname}
   */
   readonly decrementVarname?: string;
   /**
   * First operand of divide conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#divide_operand1 Eem#divide_operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#divide_operand1 Eem#divide_operand1}
   */
   readonly divideOperand1?: string;
   /**
   * Second operand of divide conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#divide_operand2 Eem#divide_operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#divide_operand2 Eem#divide_operand2}
   */
   readonly divideOperand2?: string;
   /**
   * else conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#else Eem#else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#else Eem#else}
   */
   readonly else?: boolean | cdktf.IResolvable;
   /**
   * First operand of else if conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#elseif_operand1 Eem#elseif_operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#elseif_operand1 Eem#elseif_operand1}
   */
   readonly elseifOperand1?: string;
   /**
   * Second operand of else if conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#elseif_operand2 Eem#elseif_operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#elseif_operand2 Eem#elseif_operand2}
   */
   readonly elseifOperand2?: string;
   /**
   * Operation of else if conditional
   *   - Choices: `eq`, `ge`, `gt`, `le`, `lt`, `ne`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#elseif_operation Eem#elseif_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#elseif_operation Eem#elseif_operation}
   */
   readonly elseifOperation?: string;
   /**
   * end conditional block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#end Eem#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#end Eem#end}
   */
   readonly end?: boolean | cdktf.IResolvable;
   /**
   * Exit from applet run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#exit Eem#exit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#exit Eem#exit}
   */
   readonly exit?: boolean | cdktf.IResolvable;
   /**
   * Delimiter string of for each conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#foreach_delimiter Eem#foreach_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#foreach_delimiter Eem#foreach_delimiter}
   */
   readonly foreachDelimiter?: string;
   /**
   * String to iterate over
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#foreach_iterator Eem#foreach_iterator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#foreach_iterator Eem#foreach_iterator}
   */
   readonly foreachIterator?: string;
   /**
   * Loop variable name of for each conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#foreach_loopvar Eem#foreach_loopvar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#foreach_loopvar Eem#foreach_loopvar}
   */
   readonly foreachLoopvar?: string;
   /**
   * gets conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#gets Eem#gets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#gets Eem#gets}
   */
   readonly fetchs?: string;
   /**
   * Error handle type of handle-error conditional
   *   - Choices: `exit`, `ignore`, `warn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#handle_error_type Eem#handle_error_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#handle_error_type Eem#handle_error_type}
   */
   readonly handleErrorType?: string;
   /**
   * goto label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#if_goto Eem#if_goto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#if_goto Eem#if_goto}
   */
   readonly ifGoto?: string;
   /**
   * 
   *   - Choices: `eq`, `ge`, `gt`, `le`, `lt`, `ne`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#if_keyword Eem#if_keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#if_keyword Eem#if_keyword}
   */
   readonly ifKeyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#if_string_op_1 Eem#if_string_op_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#if_string_op_1 Eem#if_string_op_1}
   */
   readonly ifStringOp1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#if_string_op_2 Eem#if_string_op_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#if_string_op_2 Eem#if_string_op_2}
   */
   readonly ifStringOp2?: string;
   /**
   * value of the variable of increment conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#increment_value Eem#increment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#increment_value Eem#increment_value}
   */
   readonly incrementValue?: string;
   /**
   * Name of the variable of increment conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#increment_varname Eem#increment_varname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#increment_varname Eem#increment_varname}
   */
   readonly incrementVarname?: string;
   /**
   * Enterprise oid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_trap_enterprise_oid Eem#info_type_snmp_trap_enterprise_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_trap_enterprise_oid Eem#info_type_snmp_trap_enterprise_oid}
   */
   readonly infoTypeSnmpTrapEnterpriseOid?: string;
   /**
   * Generic trap number
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_trap_generic_trapnum Eem#info_type_snmp_trap_generic_trapnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_trap_generic_trapnum Eem#info_type_snmp_trap_generic_trapnum}
   */
   readonly infoTypeSnmpTrapGenericTrapnum?: number;
   /**
   * Specific trap number
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_trap_specific_trapnum Eem#info_type_snmp_trap_specific_trapnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_trap_specific_trapnum Eem#info_type_snmp_trap_specific_trapnum}
   */
   readonly infoTypeSnmpTrapSpecificTrapnum?: number;
   /**
   * Trap oid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_trap_trap_oid Eem#info_type_snmp_trap_trap_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_trap_trap_oid Eem#info_type_snmp_trap_trap_oid}
   */
   readonly infoTypeSnmpTrapTrapOid?: string;
   /**
   * Trap variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_trap_trap_var Eem#info_type_snmp_trap_trap_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_trap_trap_var Eem#info_type_snmp_trap_trap_var}
   */
   readonly infoTypeSnmpTrapTrapVar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_var Eem#info_type_snmp_var}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_var Eem#info_type_snmp_var}
   */
   readonly infoTypeSnmpVar?: string;
   /**
   * SNMP object id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_var_oid Eem#info_type_snmp_var_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_var_oid Eem#info_type_snmp_var_oid}
   */
   readonly infoTypeSnmpVarOid?: string;
   /**
   * 
   *   - Choices: `counter`, `gauge`, `int`, `ipv4`, `octet`, `string`, `uint`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_var_oid_type Eem#info_type_snmp_var_oid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_var_oid_type Eem#info_type_snmp_var_oid_type}
   */
   readonly infoTypeSnmpVarOidType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#info_type_snmp_var_oid_type_value Eem#info_type_snmp_var_oid_type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#info_type_snmp_var_oid_type_value Eem#info_type_snmp_var_oid_type_value}
   */
   readonly infoTypeSnmpVarOidTypeValue?: string;
   /**
   * Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#name Eem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#name Eem#name}
   */
   readonly name: string;
   /**
   * displays data to active tty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#puts Eem#puts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#puts Eem#puts}
   */
   readonly puts?: string;
   /**
   * input string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_input Eem#regexp_string_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_input Eem#regexp_string_input}
   */
   readonly regexpStringInput?: string;
   /**
   * match variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_match Eem#regexp_string_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_match Eem#regexp_string_match}
   */
   readonly regexpStringMatch?: string;
   /**
   * subsequent match variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_match1 Eem#regexp_string_match1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_match1 Eem#regexp_string_match1}
   */
   readonly regexpStringMatch1?: string;
   /**
   * subsequent match variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_match2 Eem#regexp_string_match2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_match2 Eem#regexp_string_match2}
   */
   readonly regexpStringMatch2?: string;
   /**
   * subsequent match variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_match3 Eem#regexp_string_match3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_match3 Eem#regexp_string_match3}
   */
   readonly regexpStringMatch3?: string;
   /**
   * regular expression pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#regexp_string_pattern Eem#regexp_string_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#regexp_string_pattern Eem#regexp_string_pattern}
   */
   readonly regexpStringPattern?: string;
   /**
   * Reload system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#reload Eem#reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#reload Eem#reload}
   */
   readonly reload?: boolean | cdktf.IResolvable;
   /**
   * Value of the variable of set conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#set_value Eem#set_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#set_value Eem#set_value}
   */
   readonly setValue?: string;
   /**
   * Name of the variable of set conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#set_varname Eem#set_varname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#set_varname Eem#set_varname}
   */
   readonly setVarname?: string;
   /**
   * SNMP integer data1
   *   - Range: `-2147483648`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#snmp_trap_intdata1 Eem#snmp_trap_intdata1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#snmp_trap_intdata1 Eem#snmp_trap_intdata1}
   */
   readonly snmpTrapIntdata1?: number;
   /**
   * SNMP integer data2
   *   - Range: `-2147483648`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#snmp_trap_intdata2 Eem#snmp_trap_intdata2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#snmp_trap_intdata2 Eem#snmp_trap_intdata2}
   */
   readonly snmpTrapIntdata2?: number;
   /**
   * SNMP trap string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#snmp_trap_strdata Eem#snmp_trap_strdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#snmp_trap_strdata Eem#snmp_trap_strdata}
   */
   readonly snmpTrapStrdata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#string_first_string_op_1 Eem#string_first_string_op_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#string_first_string_op_1 Eem#string_first_string_op_1}
   */
   readonly stringFirstStringOp1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#string_first_string_op_2 Eem#string_first_string_op_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#string_first_string_op_2 Eem#string_first_string_op_2}
   */
   readonly stringFirstStringOp2?: string;
   /**
   * trim characters from both ends of string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#string_trim Eem#string_trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#string_trim Eem#string_trim}
   */
   readonly stringTrim?: string;
   /**
   * Facility string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#syslog_facility Eem#syslog_facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#syslog_facility Eem#syslog_facility}
   */
   readonly syslogFacility?: string;
   /**
   * Syslog message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#syslog_msg Eem#syslog_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#syslog_msg Eem#syslog_msg}
   */
   readonly syslogMsg?: string;
   /**
   * Priority of syslog message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#syslog_priority Eem#syslog_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#syslog_priority Eem#syslog_priority}
   */
   readonly syslogPriority?: string;
   /**
   * Wait for a specified amount of time
   *   - Range: `1`-`31536000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#wait Eem#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#wait Eem#wait}
   */
   readonly wait?: number;
   /**
   * First operand of while conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#while_operand1 Eem#while_operand1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#while_operand1 Eem#while_operand1}
   */
   readonly whileOperand1?: string;
   /**
   * Second operand of while conditional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#while_operand2 Eem#while_operand2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#while_operand2 Eem#while_operand2}
   */
   readonly whileOperand2?: string;
   /**
   * Operation of while conditional
   *   - Choices: `eq`, `ge`, `gt`, `le`, `lt`, `ne`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#while_operation Eem#while_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#while_operation Eem#while_operation}
   */
   readonly whileOperation?: string;
 }
@@ -2583,139 +2583,139 @@ export interface EemApplets {
   /**
   * Add or modify an action statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#actions Eem#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#actions Eem#actions}
   */
   readonly actions?: EemAppletsActions[] | cdktf.IResolvable;
   /**
   * Specify an authorization type for the applet
   *   - Choices: `bypass`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#authorization Eem#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#authorization Eem#authorization}
   */
   readonly authorization?: string;
   /**
   * Specify a class for the applet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#class Eem#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#class Eem#class}
   */
   readonly class?: string;
   /**
   * Add or modify an applet description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#description Eem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#description Eem#description}
   */
   readonly description?: string;
   /**
   * CLI command pattern match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_cli_pattern Eem#event_cli_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_cli_pattern Eem#event_cli_pattern}
   */
   readonly eventCliPattern?: string;
   /**
   * describes whether to skip CLI command execution
   *   - Choices: `no`, `yes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_cli_skip Eem#event_cli_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_cli_skip Eem#event_cli_skip}
   */
   readonly eventCliSkip?: string;
   /**
   * CLI and EEM policy execution sync or async
   *   - Choices: `no`, `yes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_cli_sync Eem#event_cli_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_cli_sync Eem#event_cli_sync}
   */
   readonly eventCliSync?: string;
   /**
   * Maximum runtime of applet
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_syslog_maxrun Eem#event_syslog_maxrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_syslog_maxrun Eem#event_syslog_maxrun}
   */
   readonly eventSyslogMaxrun?: number;
   /**
   * Number of occurrences before raising event
   *   - Range: `1`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_syslog_occurs Eem#event_syslog_occurs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_syslog_occurs Eem#event_syslog_occurs}
   */
   readonly eventSyslogOccurs?: number;
   /**
   * Pattern match string for the entire message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_syslog_pattern Eem#event_syslog_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_syslog_pattern Eem#event_syslog_pattern}
   */
   readonly eventSyslogPattern?: string;
   /**
   * Occurrence period
   *   - Range: `0`-`4.294967295999e+12`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_syslog_period Eem#event_syslog_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_syslog_period Eem#event_syslog_period}
   */
   readonly eventSyslogPeriod?: number;
   /**
   * seconds[.milliseconds] value
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_syslog_ratelimit Eem#event_syslog_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_syslog_ratelimit Eem#event_syslog_ratelimit}
   */
   readonly eventSyslogRatelimit?: number;
   /**
   * Cron entry for cron timer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_cron_entry Eem#event_timer_cron_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_cron_entry Eem#event_timer_cron_entry}
   */
   readonly eventTimerCronEntry?: string;
   /**
   * Maximum runtime of applet
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_cron_maxrun Eem#event_timer_cron_maxrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_cron_maxrun Eem#event_timer_cron_maxrun}
   */
   readonly eventTimerCronMaxrun?: number;
   /**
   * Timer name string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_cron_name Eem#event_timer_cron_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_cron_name Eem#event_timer_cron_name}
   */
   readonly eventTimerCronName?: string;
   /**
   * seconds[.milliseconds] value
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_cron_ratelimit Eem#event_timer_cron_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_cron_ratelimit Eem#event_timer_cron_ratelimit}
   */
   readonly eventTimerCronRatelimit?: number;
   /**
   * Maximum runtime of applet
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_watchdog_maxrun Eem#event_timer_watchdog_maxrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_watchdog_maxrun Eem#event_timer_watchdog_maxrun}
   */
   readonly eventTimerWatchdogMaxrun?: number;
   /**
   * Timer name string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_watchdog_name Eem#event_timer_watchdog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_watchdog_name Eem#event_timer_watchdog_name}
   */
   readonly eventTimerWatchdogName?: string;
   /**
   * seconds[.milliseconds] value
   *   - Range: `0`-`3.1536000999e+10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_watchdog_ratelimit Eem#event_timer_watchdog_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_watchdog_ratelimit Eem#event_timer_watchdog_ratelimit}
   */
   readonly eventTimerWatchdogRatelimit?: number;
   /**
   * Time period for watchdog / countdown / absolute timer
   *   - Range: `1000`-`2.085978494999e+12`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#event_timer_watchdog_time Eem#event_timer_watchdog_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#event_timer_watchdog_time Eem#event_timer_watchdog_time}
   */
   readonly eventTimerWatchdogTime?: number;
   /**
   * Name of the Event Manager applet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#name Eem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#name Eem#name}
   */
   readonly name: string;
 }
@@ -3408,11 +3408,11 @@ export class EemAppletsList extends cdktf.ComplexList {
 }
 export interface EemEnvironmentVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#name Eem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#name Eem#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#value Eem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#value Eem#value}
   */
   readonly value?: string;
 }
@@ -3554,7 +3554,7 @@ export class EemEnvironmentVariablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem iosxe_eem}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem iosxe_eem}
 */
 export class Eem extends cdktf.TerraformResource {
 
@@ -3570,7 +3570,7 @@ export class Eem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Eem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Eem to import
-  * @param importFromId The id of the existing Eem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Eem that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Eem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3582,7 +3582,7 @@ export class Eem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/eem iosxe_eem} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/eem iosxe_eem} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3593,8 +3593,8 @@ export class Eem extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_eem',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

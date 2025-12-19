@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScheduledDeleteStackConfig extends cdktf.TerraformMetaArguments
   /**
   * Timestamp (unix timestamp) at which time the scheduling should happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#at ScheduledDeleteStack#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#at ScheduledDeleteStack#at}
   */
   readonly at: number;
   /**
   * Indicates whether the resources of the stack should be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#delete_resources ScheduledDeleteStack#delete_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#delete_resources ScheduledDeleteStack#delete_resources}
   */
   readonly deleteResources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#id ScheduledDeleteStack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#id ScheduledDeleteStack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ScheduledDeleteStackConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#schedule_id ScheduledDeleteStack#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#schedule_id ScheduledDeleteStack#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * ID of the stack for which to set up scheduling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#stack_id ScheduledDeleteStack#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#stack_id ScheduledDeleteStack#stack_id}
   */
   readonly stackId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack spacelift_scheduled_delete_stack}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack spacelift_scheduled_delete_stack}
 */
 export class ScheduledDeleteStack extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ScheduledDeleteStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScheduledDeleteStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScheduledDeleteStack to import
-  * @param importFromId The id of the existing ScheduledDeleteStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScheduledDeleteStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScheduledDeleteStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ScheduledDeleteStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/scheduled_delete_stack spacelift_scheduled_delete_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/scheduled_delete_stack spacelift_scheduled_delete_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ScheduledDeleteStack extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_scheduled_delete_stack',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

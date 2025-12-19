@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface TdmqProfessionalClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Whether to turn on automatic monthly renewal. `1`: turn on, `0`: turn off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#auto_renew_flag TdmqProfessionalCluster#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#auto_renew_flag TdmqProfessionalCluster#auto_renew_flag}
   */
   readonly autoRenewFlag: number;
   /**
   * Whether to automatically select vouchers. `1`: Yes, `0`: No. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#auto_voucher TdmqProfessionalCluster#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#auto_voucher TdmqProfessionalCluster#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Name of cluster. It does not support Chinese characters and special characters except dashes and underscores and cannot exceed 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#cluster_name TdmqProfessionalCluster#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#cluster_name TdmqProfessionalCluster#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#id TdmqProfessionalCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#id TdmqProfessionalCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface TdmqProfessionalClusterConfig extends cdktf.TerraformMetaArgume
   /**
   * Cluster specification code. Reference[Professional Cluster Specifications](https://cloud.tencent.com/document/product/1179/83705).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#product_name TdmqProfessionalCluster#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#product_name TdmqProfessionalCluster#product_name}
   */
   readonly productName: string;
   /**
   * Storage specifications. Reference[Professional Cluster Specifications](https://cloud.tencent.com/document/product/1179/83705).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#storage_size TdmqProfessionalCluster#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#storage_size TdmqProfessionalCluster#storage_size}
   */
   readonly storageSize: number;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#tags TdmqProfessionalCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#tags TdmqProfessionalCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Purchase duration, value range: 1~50. Default: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#time_span TdmqProfessionalCluster#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#time_span TdmqProfessionalCluster#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Multi-AZ deployment select three Availability Zones, like: [200002,200003,200004]. Single availability zone deployment selects an availability zone, like [200002].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#zone_ids TdmqProfessionalCluster#zone_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#zone_ids TdmqProfessionalCluster#zone_ids}
   */
   readonly zoneIds: number[];
   /**
   * vpc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#vpc TdmqProfessionalCluster#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#vpc TdmqProfessionalCluster#vpc}
   */
   readonly vpc?: TdmqProfessionalClusterVpc;
 }
@@ -73,13 +73,13 @@ export interface TdmqProfessionalClusterVpc {
   /**
   * Id of Subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#subnet_id TdmqProfessionalCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#subnet_id TdmqProfessionalCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Id of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#vpc_id TdmqProfessionalCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#vpc_id TdmqProfessionalCluster#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -186,7 +186,7 @@ export class TdmqProfessionalClusterVpcOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster tencentcloud_tdmq_professional_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster tencentcloud_tdmq_professional_cluster}
 */
 export class TdmqProfessionalCluster extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class TdmqProfessionalCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqProfessionalCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqProfessionalCluster to import
-  * @param importFromId The id of the existing TdmqProfessionalCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqProfessionalCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqProfessionalCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class TdmqProfessionalCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_professional_cluster tencentcloud_tdmq_professional_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_professional_cluster tencentcloud_tdmq_professional_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class TdmqProfessionalCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_professional_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

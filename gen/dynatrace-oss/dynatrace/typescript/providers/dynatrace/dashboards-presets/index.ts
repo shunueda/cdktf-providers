@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DashboardsPresetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dashboard presets are visible to all users by default. For a pristine environment you may disable them entirely or opt to manually limit visibility to selected user groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#enable_dashboard_presets DashboardsPresets#enable_dashboard_presets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#enable_dashboard_presets DashboardsPresets#enable_dashboard_presets}
   */
   readonly enableDashboardPresets: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#id DashboardsPresets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#id DashboardsPresets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DashboardsPresetsConfig extends cdktf.TerraformMetaArguments {
   /**
   * dashboard_presets_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#dashboard_presets_list DashboardsPresets#dashboard_presets_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#dashboard_presets_list DashboardsPresets#dashboard_presets_list}
   */
   readonly dashboardPresetsList?: DashboardsPresetsDashboardPresetsListStruct;
 }
@@ -31,13 +31,13 @@ export interface DashboardsPresetsDashboardPresetsListDashboardPresets {
   /**
   * Dashboard preset to limit visibility for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#dashboard_preset DashboardsPresets#dashboard_preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#dashboard_preset DashboardsPresets#dashboard_preset}
   */
   readonly dashboardPreset: string;
   /**
   * User group to show selected dashboard preset to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#user_group DashboardsPresets#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#user_group DashboardsPresets#user_group}
   */
   readonly userGroup: string;
 }
@@ -178,7 +178,7 @@ export interface DashboardsPresetsDashboardPresetsListStruct {
   /**
   * dashboard_presets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#dashboard_presets DashboardsPresets#dashboard_presets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#dashboard_presets DashboardsPresets#dashboard_presets}
   */
   readonly dashboardPresets: DashboardsPresetsDashboardPresetsListDashboardPresets[] | cdktf.IResolvable;
 }
@@ -259,7 +259,7 @@ export class DashboardsPresetsDashboardPresetsListStructOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets dynatrace_dashboards_presets}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets dynatrace_dashboards_presets}
 */
 export class DashboardsPresets extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class DashboardsPresets extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardsPresets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardsPresets to import
-  * @param importFromId The id of the existing DashboardsPresets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardsPresets that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardsPresets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class DashboardsPresets extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboards_presets dynatrace_dashboards_presets} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboards_presets dynatrace_dashboards_presets} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class DashboardsPresets extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_dashboards_presets',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,9 +1,5 @@
 import * as cdktf from 'cdktf';
-import { OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension,
-openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToTerraform,
-openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToHclTerraform,
-OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionList,
-OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategory,
+import { OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategory,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategoryToTerraform,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategoryToHclTerraform,
 OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategoryOutputReference,
@@ -15,10 +11,6 @@ OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorS
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventStatusToTerraform,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventStatusToHclTerraform,
 OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventStatusOutputReference,
-OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType,
-openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeToTerraform,
-openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeToHclTerraform,
-OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeOutputReference,
 OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorAzureLogForwarding,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorAzureLogForwardingToTerraform,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorAzureLogForwardingToHclTerraform,
@@ -79,11 +71,502 @@ OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorS
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareValueMetricToTerraform,
 openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareValueMetricToHclTerraform,
 OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareValueMetricOutputReference } from './structs1600'
+export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldOutputReference | OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldOutputReference | OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._defaultValue = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._defaultValue = value.defaultValue;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType {
+  /**
+  * Constant value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  */
+  readonly constant?: string;
+  /**
+  * Constant multi value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  */
+  readonly multiValueConstant?: string[];
+  /**
+  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  */
+  readonly type: string;
+  /**
+  * field block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  */
+  readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField;
+}
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeOutputReference | OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    constant: cdktf.stringToTerraform(struct!.constant),
+    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
+    type: cdktf.stringToTerraform(struct!.type),
+    field: openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldToTerraform(struct!.field),
+  }
+}
+
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeOutputReference | OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    constant: {
+      value: cdktf.stringToHclTerraform(struct!.constant),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    multi_value_constant: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    type: {
+      value: cdktf.stringToHclTerraform(struct!.type),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    field: {
+      value: openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldToHclTerraform(struct!.field),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._constant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.constant = this._constant;
+    }
+    if (this._multiValueConstant !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiValueConstant = this._multiValueConstant;
+    }
+    if (this._type !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.type = this._type;
+    }
+    if (this._field?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.field = this._field?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._constant = undefined;
+      this._multiValueConstant = undefined;
+      this._type = undefined;
+      this._field.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._constant = value.constant;
+      this._multiValueConstant = value.multiValueConstant;
+      this._type = value.type;
+      this._field.internalValue = value.field;
+    }
+  }
+
+  // constant - computed: false, optional: true, required: false
+  private _constant?: string; 
+  public get constant() {
+    return this.getStringAttribute('constant');
+  }
+  public set constant(value: string) {
+    this._constant = value;
+  }
+  public resetConstant() {
+    this._constant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get constantInput() {
+    return this._constant;
+  }
+
+  // multi_value_constant - computed: false, optional: true, required: false
+  private _multiValueConstant?: string[]; 
+  public get multiValueConstant() {
+    return this.getListAttribute('multi_value_constant');
+  }
+  public set multiValueConstant(value: string[]) {
+    this._multiValueConstant = value;
+  }
+  public resetMultiValueConstant() {
+    this._multiValueConstant = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiValueConstantInput() {
+    return this._multiValueConstant;
+  }
+
+  // type - computed: false, optional: false, required: true
+  private _type?: string; 
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+  public set type(value: string) {
+    this._type = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get typeInput() {
+    return this._type;
+  }
+
+  // field - computed: false, optional: true, required: false
+  private _field = new OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeFieldOutputReference(this, "field");
+  public get field() {
+    return this._field;
+  }
+  public putField(value: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventTypeField) {
+    this._field.internalValue = value;
+  }
+  public resetField() {
+    this._field.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fieldInput() {
+    return this._field.internalValue;
+  }
+}
+export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension {
+  /**
+  * Default value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  */
+  readonly defaultValue?: string;
+  /**
+  * Destination field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  */
+  readonly destinationFieldName?: string;
+  /**
+  * Source field name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  */
+  readonly sourceFieldName: string;
+}
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    default_value: cdktf.stringToTerraform(struct!.defaultValue),
+    destination_field_name: cdktf.stringToTerraform(struct!.destinationFieldName),
+    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
+  }
+}
+
+
+export function openpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    default_value: {
+      value: cdktf.stringToHclTerraform(struct!.defaultValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    destination_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.destinationFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    source_field_name: {
+      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._defaultValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.defaultValue = this._defaultValue;
+    }
+    if (this._destinationFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.destinationFieldName = this._destinationFieldName;
+    }
+    if (this._sourceFieldName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceFieldName = this._sourceFieldName;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._defaultValue = undefined;
+      this._destinationFieldName = undefined;
+      this._sourceFieldName = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._defaultValue = value.defaultValue;
+      this._destinationFieldName = value.destinationFieldName;
+      this._sourceFieldName = value.sourceFieldName;
+    }
+  }
+
+  // default_value - computed: false, optional: true, required: false
+  private _defaultValue?: string; 
+  public get defaultValue() {
+    return this.getStringAttribute('default_value');
+  }
+  public set defaultValue(value: string) {
+    this._defaultValue = value;
+  }
+  public resetDefaultValue() {
+    this._defaultValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultValueInput() {
+    return this._defaultValue;
+  }
+
+  // destination_field_name - computed: false, optional: true, required: false
+  private _destinationFieldName?: string; 
+  public get destinationFieldName() {
+    return this.getStringAttribute('destination_field_name');
+  }
+  public set destinationFieldName(value: string) {
+    this._destinationFieldName = value;
+  }
+  public resetDestinationFieldName() {
+    this._destinationFieldName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get destinationFieldNameInput() {
+    return this._destinationFieldName;
+  }
+
+  // source_field_name - computed: false, optional: false, required: true
+  private _sourceFieldName?: string; 
+  public get sourceFieldName() {
+    return this.getStringAttribute('source_field_name');
+  }
+  public set sourceFieldName(value: string) {
+    this._sourceFieldName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceFieldNameInput() {
+    return this._sourceFieldName;
+  }
+}
+
+export class OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference {
+    return new OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimensionOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionInclude {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -166,19 +649,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtractionInclude;
 }
@@ -319,31 +802,31 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * event_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_category OpenpipelineV2DavisProblemsPipelines#event_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_category OpenpipelineV2DavisProblemsPipelines#event_category}
   */
   readonly eventCategory: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventCategory;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
   */
   readonly eventProvider: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventProvider;
   /**
   * event_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_status OpenpipelineV2DavisProblemsPipelines#event_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_status OpenpipelineV2DavisProblemsPipelines#event_status}
   */
   readonly eventStatus: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventStatus;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
   */
   readonly eventType?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEventFieldExtraction;
 }
@@ -533,13 +1016,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -651,25 +1134,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityContextValueField;
 }
@@ -839,7 +1322,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityContextValue;
 }
@@ -922,19 +1405,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1107,7 +1590,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -1190,19 +1673,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityEventFieldExtractionInclude;
 }
@@ -1343,7 +1826,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityEventFieldExtraction;
 }
@@ -1426,31 +1909,31 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
   */
   readonly edgeType: string;
   /**
   * Source ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_id_field_name OpenpipelineV2DavisProblemsPipelines#source_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_id_field_name OpenpipelineV2DavisProblemsPipelines#source_id_field_name}
   */
   readonly sourceIdFieldName: string;
   /**
   * Source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_type OpenpipelineV2DavisProblemsPipelines#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_type OpenpipelineV2DavisProblemsPipelines#source_type}
   */
   readonly sourceType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
   */
   readonly targetType: string;
 }
@@ -1637,13 +2120,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_name OpenpipelineV2DavisProblemsPipelines#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_name OpenpipelineV2DavisProblemsPipelines#field_name}
   */
   readonly fieldName: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -1784,7 +2267,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * smartscape_field_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_field_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_field_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_field_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_field_extraction_entry}
   */
   readonly smartscapeFieldExtractionEntry: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable;
 }
@@ -1867,13 +2350,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * ID component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
   */
   readonly idComponent: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -2014,7 +2497,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * id_component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
   */
   readonly idComponent: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable;
 }
@@ -2097,13 +2580,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -2215,25 +2698,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeNodeNameField;
 }
@@ -2403,19 +2886,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
   */
   readonly edgeType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
   */
   readonly targetType: string;
 }
@@ -2582,7 +3065,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * smartscape_static_edge_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_static_edge_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_static_edge_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_static_edge_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_static_edge_extraction_entry}
   */
   readonly smartscapeStaticEdgeExtractionEntry: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable;
 }
@@ -2665,43 +3148,43 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Extract node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#extract_node OpenpipelineV2DavisProblemsPipelines#extract_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#extract_node OpenpipelineV2DavisProblemsPipelines#extract_node}
   */
   readonly extractNode: boolean | cdktf.IResolvable;
   /**
   * Node ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_id_field_name OpenpipelineV2DavisProblemsPipelines#node_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_id_field_name OpenpipelineV2DavisProblemsPipelines#node_id_field_name}
   */
   readonly nodeIdFieldName: string;
   /**
   * Node type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_type OpenpipelineV2DavisProblemsPipelines#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_type OpenpipelineV2DavisProblemsPipelines#node_type}
   */
   readonly nodeType: string;
   /**
   * fields_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_to_extract OpenpipelineV2DavisProblemsPipelines#fields_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_to_extract OpenpipelineV2DavisProblemsPipelines#fields_to_extract}
   */
   readonly fieldsToExtract?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeFieldsToExtract;
   /**
   * id_components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_components OpenpipelineV2DavisProblemsPipelines#id_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_components OpenpipelineV2DavisProblemsPipelines#id_components}
   */
   readonly idComponents: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeIdComponents;
   /**
   * node_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_name OpenpipelineV2DavisProblemsPipelines#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_name OpenpipelineV2DavisProblemsPipelines#node_name}
   */
   readonly nodeName?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeNodeName;
   /**
   * static_edges_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#static_edges_to_extract OpenpipelineV2DavisProblemsPipelines#static_edges_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#static_edges_to_extract OpenpipelineV2DavisProblemsPipelines#static_edges_to_extract}
   */
   readonly staticEdgesToExtract?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNodeStaticEdgesToExtract;
 }
@@ -2949,13 +3432,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Custom matching condition which should be used instead of technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#custom_matcher OpenpipelineV2DavisProblemsPipelines#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#custom_matcher OpenpipelineV2DavisProblemsPipelines#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Technology ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#technology_id OpenpipelineV2DavisProblemsPipelines#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#technology_id OpenpipelineV2DavisProblemsPipelines#technology_id}
   */
   readonly technologyId: string;
 }
@@ -3067,19 +3550,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -3252,7 +3735,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -3335,25 +3818,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorValueMetricDimensions;
 }
@@ -3520,19 +4003,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#description OpenpipelineV2DavisProblemsPipelines#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#description OpenpipelineV2DavisProblemsPipelines#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#enabled OpenpipelineV2DavisProblemsPipelines#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#enabled OpenpipelineV2DavisProblemsPipelines#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Processor identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id OpenpipelineV2DavisProblemsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id OpenpipelineV2DavisProblemsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3541,151 +4024,151 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#matcher OpenpipelineV2DavisProblemsPipelines#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#matcher OpenpipelineV2DavisProblemsPipelines#matcher}
   */
   readonly matcher?: string;
   /**
   * Sample data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sample_data OpenpipelineV2DavisProblemsPipelines#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sample_data OpenpipelineV2DavisProblemsPipelines#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Processor type. Possible Values: `azureLogForwarding`, `bizevent`, `bucketAssignment`, `costAllocation`, `counterMetric`, `davis`, `dql`, `drop`, `fieldsAdd`, `fieldsRemove`, `fieldsRename`, `histogramMetric`, `noStorage`, `productAllocation`, `samplingAwareCounterMetric`, `samplingAwareHistogramMetric`, `samplingAwareValueMetric`, `sdlcEvent`, `securityContext`, `securityEvent`, `smartscapeEdge`, `smartscapeNode`, `technology`, `valueMetric`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * azure_log_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#azure_log_forwarding OpenpipelineV2DavisProblemsPipelines#azure_log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#azure_log_forwarding OpenpipelineV2DavisProblemsPipelines#azure_log_forwarding}
   */
   readonly azureLogForwarding?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorAzureLogForwarding;
   /**
   * bizevent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bizevent OpenpipelineV2DavisProblemsPipelines#bizevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bizevent OpenpipelineV2DavisProblemsPipelines#bizevent}
   */
   readonly bizevent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorBizevent;
   /**
   * bucket_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_assignment OpenpipelineV2DavisProblemsPipelines#bucket_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_assignment OpenpipelineV2DavisProblemsPipelines#bucket_assignment}
   */
   readonly bucketAssignment?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorBucketAssignment;
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#cost_allocation OpenpipelineV2DavisProblemsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#cost_allocation OpenpipelineV2DavisProblemsPipelines#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorCostAllocation;
   /**
   * counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#counter_metric OpenpipelineV2DavisProblemsPipelines#counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#counter_metric OpenpipelineV2DavisProblemsPipelines#counter_metric}
   */
   readonly counterMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorCounterMetric;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#davis OpenpipelineV2DavisProblemsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#davis OpenpipelineV2DavisProblemsPipelines#davis}
   */
   readonly davis?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorDavis;
   /**
   * dql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dql OpenpipelineV2DavisProblemsPipelines#dql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dql OpenpipelineV2DavisProblemsPipelines#dql}
   */
   readonly dql?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorDql;
   /**
   * fields_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_add OpenpipelineV2DavisProblemsPipelines#fields_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_add OpenpipelineV2DavisProblemsPipelines#fields_add}
   */
   readonly fieldsAdd?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorFieldsAdd;
   /**
   * fields_remove block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_remove OpenpipelineV2DavisProblemsPipelines#fields_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_remove OpenpipelineV2DavisProblemsPipelines#fields_remove}
   */
   readonly fieldsRemove?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorFieldsRemove;
   /**
   * fields_rename block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_rename OpenpipelineV2DavisProblemsPipelines#fields_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_rename OpenpipelineV2DavisProblemsPipelines#fields_rename}
   */
   readonly fieldsRename?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorFieldsRename;
   /**
   * histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#histogram_metric OpenpipelineV2DavisProblemsPipelines#histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#histogram_metric OpenpipelineV2DavisProblemsPipelines#histogram_metric}
   */
   readonly histogramMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorHistogramMetric;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#product_allocation OpenpipelineV2DavisProblemsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#product_allocation OpenpipelineV2DavisProblemsPipelines#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorProductAllocation;
   /**
   * sampling_aware_counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_counter_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_counter_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_counter_metric}
   */
   readonly samplingAwareCounterMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareCounterMetric;
   /**
   * sampling_aware_histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_histogram_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_histogram_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_histogram_metric}
   */
   readonly samplingAwareHistogramMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareHistogramMetric;
   /**
   * sampling_aware_value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_value_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_value_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_value_metric}
   */
   readonly samplingAwareValueMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSamplingAwareValueMetric;
   /**
   * sdlc_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sdlc_event OpenpipelineV2DavisProblemsPipelines#sdlc_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sdlc_event OpenpipelineV2DavisProblemsPipelines#sdlc_event}
   */
   readonly sdlcEvent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSdlcEvent;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#security_context OpenpipelineV2DavisProblemsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#security_context OpenpipelineV2DavisProblemsPipelines#security_context}
   */
   readonly securityContext?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityContext;
   /**
   * security_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#security_event OpenpipelineV2DavisProblemsPipelines#security_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#security_event OpenpipelineV2DavisProblemsPipelines#security_event}
   */
   readonly securityEvent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSecurityEvent;
   /**
   * smartscape_edge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_edge OpenpipelineV2DavisProblemsPipelines#smartscape_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_edge OpenpipelineV2DavisProblemsPipelines#smartscape_edge}
   */
   readonly smartscapeEdge?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeEdge;
   /**
   * smartscape_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_node OpenpipelineV2DavisProblemsPipelines#smartscape_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_node OpenpipelineV2DavisProblemsPipelines#smartscape_node}
   */
   readonly smartscapeNode?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorSmartscapeNode;
   /**
   * technology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#technology OpenpipelineV2DavisProblemsPipelines#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#technology OpenpipelineV2DavisProblemsPipelines#technology}
   */
   readonly technology?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorTechnology;
   /**
   * value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value_metric OpenpipelineV2DavisProblemsPipelines#value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value_metric OpenpipelineV2DavisProblemsPipelines#value_metric}
   */
   readonly valueMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessorValueMetric;
 }
@@ -4574,7 +5057,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionPro
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#processor OpenpipelineV2DavisProblemsPipelines#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#processor OpenpipelineV2DavisProblemsPipelines#processor}
   */
   readonly processor: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -4657,7 +5140,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtraction {
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#processors OpenpipelineV2DavisProblemsPipelines#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#processors OpenpipelineV2DavisProblemsPipelines#processors}
   */
   readonly processors?: OpenpipelineV2DavisProblemsPipelinesSmartscapeEdgeExtractionProcessors;
 }
@@ -4743,19 +5226,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -4928,7 +5411,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorAzureLogForwardingFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -5011,19 +5494,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorAzureLogForwardingFieldExtractionInclude;
 }
@@ -5164,13 +5647,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#forwarder_config_id OpenpipelineV2DavisProblemsPipelines#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#forwarder_config_id OpenpipelineV2DavisProblemsPipelines#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorAzureLogForwardingFieldExtraction;
 }
@@ -5279,13 +5762,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5397,25 +5880,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventEventProviderField;
 }
@@ -5585,13 +6068,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5703,25 +6186,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventEventTypeField;
 }
@@ -5891,19 +6374,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6076,7 +6559,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -6159,19 +6642,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventFieldExtractionInclude;
 }
@@ -6312,19 +6795,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
   */
   readonly eventProvider: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
   */
   readonly eventType?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizeventFieldExtraction;
 }
@@ -6462,7 +6945,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_name OpenpipelineV2DavisProblemsPipelines#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_name OpenpipelineV2DavisProblemsPipelines#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -6545,13 +7028,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6663,25 +7146,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCostAllocationValueField;
 }
@@ -6851,7 +7334,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCostAllocationValue;
 }
@@ -6934,19 +7417,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -7119,7 +7602,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -7202,13 +7685,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCounterMetricDimensions;
 }
@@ -7320,13 +7803,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#key OpenpipelineV2DavisProblemsPipelines#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#key OpenpipelineV2DavisProblemsPipelines#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: string;
 }
@@ -7467,7 +7950,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#property OpenpipelineV2DavisProblemsPipelines#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#property OpenpipelineV2DavisProblemsPipelines#property}
   */
   readonly property: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorDavisPropertiesProperty[] | cdktf.IResolvable;
 }
@@ -7550,7 +8033,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#properties OpenpipelineV2DavisProblemsPipelines#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#properties OpenpipelineV2DavisProblemsPipelines#properties}
   */
   readonly properties: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorDavisProperties;
 }
@@ -7633,7 +8116,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * DQL script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#script OpenpipelineV2DavisProblemsPipelines#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#script OpenpipelineV2DavisProblemsPipelines#script}
   */
   readonly script: string;
 }
@@ -7716,13 +8199,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#name OpenpipelineV2DavisProblemsPipelines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#name OpenpipelineV2DavisProblemsPipelines#name}
   */
   readonly name: string;
   /**
   * Field's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: string;
 }
@@ -7863,7 +8346,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsAddFieldsField[] | cdktf.IResolvable;
 }
@@ -7946,7 +8429,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
   */
   readonly fields: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsAddFields;
 }
@@ -8029,7 +8512,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields to remove
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
   */
   readonly fields: string[];
 }
@@ -8112,13 +8595,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#from_name OpenpipelineV2DavisProblemsPipelines#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#from_name OpenpipelineV2DavisProblemsPipelines#from_name}
   */
   readonly fromName: string;
   /**
   * New field's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#to_name OpenpipelineV2DavisProblemsPipelines#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#to_name OpenpipelineV2DavisProblemsPipelines#to_name}
   */
   readonly toName: string;
 }
@@ -8259,7 +8742,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsRenameFieldsField[] | cdktf.IResolvable;
 }
@@ -8342,7 +8825,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields OpenpipelineV2DavisProblemsPipelines#fields}
   */
   readonly fields: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsRenameFields;
 }
@@ -8425,19 +8908,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -8610,7 +9093,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -8693,25 +9176,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorHistogramMetricDimensions;
 }
@@ -8878,13 +9361,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -8996,25 +9479,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorProductAllocationValueField;
 }
@@ -9184,7 +9667,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorProductAllocationValue;
 }
@@ -9267,19 +9750,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -9452,7 +9935,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -9535,25 +10018,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareCounterMetricDimensions;
 }
@@ -9723,19 +10206,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -9908,7 +10391,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -9991,43 +10474,43 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: string;
   /**
   * Possible Values: `duration`, `field`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#measurement OpenpipelineV2DavisProblemsPipelines#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#measurement OpenpipelineV2DavisProblemsPipelines#measurement}
   */
   readonly measurement: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareHistogramMetricDimensions;
 }
@@ -10281,19 +10764,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -10466,7 +10949,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -10549,43 +11032,43 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#aggregation OpenpipelineV2DavisProblemsPipelines#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: string;
   /**
   * Possible Values: `duration`, `field`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#measurement OpenpipelineV2DavisProblemsPipelines#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#measurement OpenpipelineV2DavisProblemsPipelines#measurement}
   */
   readonly measurement: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling OpenpipelineV2DavisProblemsPipelines#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareValueMetricDimensions;
 }
@@ -10839,13 +11322,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -10957,25 +11440,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventCategoryField;
 }
@@ -11145,13 +11628,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -11263,25 +11746,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventProviderField;
 }
@@ -11451,13 +11934,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -11569,25 +12052,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventStatusField;
 }
@@ -11757,13 +12240,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -11875,25 +12358,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventTypeField;
 }
@@ -12063,19 +12546,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -12248,7 +12731,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -12331,19 +12814,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventFieldExtractionInclude;
 }
@@ -12484,31 +12967,31 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * event_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_category OpenpipelineV2DavisProblemsPipelines#event_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_category OpenpipelineV2DavisProblemsPipelines#event_category}
   */
   readonly eventCategory: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventCategory;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
   */
   readonly eventProvider: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventProvider;
   /**
   * event_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_status OpenpipelineV2DavisProblemsPipelines#event_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_status OpenpipelineV2DavisProblemsPipelines#event_status}
   */
   readonly eventStatus: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventStatus;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
   */
   readonly eventType?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEventFieldExtraction;
 }
@@ -12698,13 +13181,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -12816,25 +13299,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityContextValueField;
 }
@@ -13004,7 +13487,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
   */
   readonly value: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityContextValue;
 }
@@ -13087,19 +13570,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -13272,7 +13755,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -13355,19 +13838,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityEventFieldExtractionInclude;
 }
@@ -13508,7 +13991,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityEventFieldExtraction;
 }
@@ -13591,31 +14074,31 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
   */
   readonly edgeType: string;
   /**
   * Source ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_id_field_name OpenpipelineV2DavisProblemsPipelines#source_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_id_field_name OpenpipelineV2DavisProblemsPipelines#source_id_field_name}
   */
   readonly sourceIdFieldName: string;
   /**
   * Source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_type OpenpipelineV2DavisProblemsPipelines#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_type OpenpipelineV2DavisProblemsPipelines#source_type}
   */
   readonly sourceType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
   */
   readonly targetType: string;
 }
@@ -13802,13 +14285,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_name OpenpipelineV2DavisProblemsPipelines#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_name OpenpipelineV2DavisProblemsPipelines#field_name}
   */
   readonly fieldName: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -13949,7 +14432,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * smartscape_field_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_field_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_field_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_field_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_field_extraction_entry}
   */
   readonly smartscapeFieldExtractionEntry: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable;
 }
@@ -14032,13 +14515,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * ID component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
   */
   readonly idComponent: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#referenced_field_name OpenpipelineV2DavisProblemsPipelines#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -14179,7 +14662,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * id_component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_component OpenpipelineV2DavisProblemsPipelines#id_component}
   */
   readonly idComponent: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable;
 }
@@ -14262,13 +14745,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -14380,25 +14863,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeNodeNameField;
 }
@@ -14568,19 +15051,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#edge_type OpenpipelineV2DavisProblemsPipelines#edge_type}
   */
   readonly edgeType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_id_field_name OpenpipelineV2DavisProblemsPipelines#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#target_type OpenpipelineV2DavisProblemsPipelines#target_type}
   */
   readonly targetType: string;
 }
@@ -14747,7 +15230,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * smartscape_static_edge_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_static_edge_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_static_edge_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_static_edge_extraction_entry OpenpipelineV2DavisProblemsPipelines#smartscape_static_edge_extraction_entry}
   */
   readonly smartscapeStaticEdgeExtractionEntry: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable;
 }
@@ -14830,43 +15313,43 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Extract node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#extract_node OpenpipelineV2DavisProblemsPipelines#extract_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#extract_node OpenpipelineV2DavisProblemsPipelines#extract_node}
   */
   readonly extractNode: boolean | cdktf.IResolvable;
   /**
   * Node ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_id_field_name OpenpipelineV2DavisProblemsPipelines#node_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_id_field_name OpenpipelineV2DavisProblemsPipelines#node_id_field_name}
   */
   readonly nodeIdFieldName: string;
   /**
   * Node type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_type OpenpipelineV2DavisProblemsPipelines#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_type OpenpipelineV2DavisProblemsPipelines#node_type}
   */
   readonly nodeType: string;
   /**
   * fields_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_to_extract OpenpipelineV2DavisProblemsPipelines#fields_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_to_extract OpenpipelineV2DavisProblemsPipelines#fields_to_extract}
   */
   readonly fieldsToExtract?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeFieldsToExtract;
   /**
   * id_components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id_components OpenpipelineV2DavisProblemsPipelines#id_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id_components OpenpipelineV2DavisProblemsPipelines#id_components}
   */
   readonly idComponents: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeIdComponents;
   /**
   * node_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#node_name OpenpipelineV2DavisProblemsPipelines#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#node_name OpenpipelineV2DavisProblemsPipelines#node_name}
   */
   readonly nodeName?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeNodeName;
   /**
   * static_edges_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#static_edges_to_extract OpenpipelineV2DavisProblemsPipelines#static_edges_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#static_edges_to_extract OpenpipelineV2DavisProblemsPipelines#static_edges_to_extract}
   */
   readonly staticEdgesToExtract?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNodeStaticEdgesToExtract;
 }
@@ -15114,13 +15597,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Custom matching condition which should be used instead of technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#custom_matcher OpenpipelineV2DavisProblemsPipelines#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#custom_matcher OpenpipelineV2DavisProblemsPipelines#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Technology ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#technology_id OpenpipelineV2DavisProblemsPipelines#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#technology_id OpenpipelineV2DavisProblemsPipelines#technology_id}
   */
   readonly technologyId: string;
 }
@@ -15232,19 +15715,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -15417,7 +15900,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -15500,25 +15983,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#metric_key OpenpipelineV2DavisProblemsPipelines#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimensions OpenpipelineV2DavisProblemsPipelines#dimensions}
   */
   readonly dimensions?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorValueMetricDimensions;
 }
@@ -15685,19 +16168,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#description OpenpipelineV2DavisProblemsPipelines#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#description OpenpipelineV2DavisProblemsPipelines#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#enabled OpenpipelineV2DavisProblemsPipelines#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#enabled OpenpipelineV2DavisProblemsPipelines#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Processor identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#id OpenpipelineV2DavisProblemsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#id OpenpipelineV2DavisProblemsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -15706,151 +16189,151 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#matcher OpenpipelineV2DavisProblemsPipelines#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#matcher OpenpipelineV2DavisProblemsPipelines#matcher}
   */
   readonly matcher?: string;
   /**
   * Sample data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sample_data OpenpipelineV2DavisProblemsPipelines#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sample_data OpenpipelineV2DavisProblemsPipelines#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Processor type. Possible Values: `azureLogForwarding`, `bizevent`, `bucketAssignment`, `costAllocation`, `counterMetric`, `davis`, `dql`, `drop`, `fieldsAdd`, `fieldsRemove`, `fieldsRename`, `histogramMetric`, `noStorage`, `productAllocation`, `samplingAwareCounterMetric`, `samplingAwareHistogramMetric`, `samplingAwareValueMetric`, `sdlcEvent`, `securityContext`, `securityEvent`, `smartscapeEdge`, `smartscapeNode`, `technology`, `valueMetric`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * azure_log_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#azure_log_forwarding OpenpipelineV2DavisProblemsPipelines#azure_log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#azure_log_forwarding OpenpipelineV2DavisProblemsPipelines#azure_log_forwarding}
   */
   readonly azureLogForwarding?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorAzureLogForwarding;
   /**
   * bizevent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bizevent OpenpipelineV2DavisProblemsPipelines#bizevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bizevent OpenpipelineV2DavisProblemsPipelines#bizevent}
   */
   readonly bizevent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBizevent;
   /**
   * bucket_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_assignment OpenpipelineV2DavisProblemsPipelines#bucket_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_assignment OpenpipelineV2DavisProblemsPipelines#bucket_assignment}
   */
   readonly bucketAssignment?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorBucketAssignment;
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#cost_allocation OpenpipelineV2DavisProblemsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#cost_allocation OpenpipelineV2DavisProblemsPipelines#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCostAllocation;
   /**
   * counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#counter_metric OpenpipelineV2DavisProblemsPipelines#counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#counter_metric OpenpipelineV2DavisProblemsPipelines#counter_metric}
   */
   readonly counterMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorCounterMetric;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#davis OpenpipelineV2DavisProblemsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#davis OpenpipelineV2DavisProblemsPipelines#davis}
   */
   readonly davis?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorDavis;
   /**
   * dql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dql OpenpipelineV2DavisProblemsPipelines#dql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dql OpenpipelineV2DavisProblemsPipelines#dql}
   */
   readonly dql?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorDql;
   /**
   * fields_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_add OpenpipelineV2DavisProblemsPipelines#fields_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_add OpenpipelineV2DavisProblemsPipelines#fields_add}
   */
   readonly fieldsAdd?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsAdd;
   /**
   * fields_remove block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_remove OpenpipelineV2DavisProblemsPipelines#fields_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_remove OpenpipelineV2DavisProblemsPipelines#fields_remove}
   */
   readonly fieldsRemove?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsRemove;
   /**
   * fields_rename block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_rename OpenpipelineV2DavisProblemsPipelines#fields_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#fields_rename OpenpipelineV2DavisProblemsPipelines#fields_rename}
   */
   readonly fieldsRename?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorFieldsRename;
   /**
   * histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#histogram_metric OpenpipelineV2DavisProblemsPipelines#histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#histogram_metric OpenpipelineV2DavisProblemsPipelines#histogram_metric}
   */
   readonly histogramMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorHistogramMetric;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#product_allocation OpenpipelineV2DavisProblemsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#product_allocation OpenpipelineV2DavisProblemsPipelines#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorProductAllocation;
   /**
   * sampling_aware_counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_counter_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_counter_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_counter_metric}
   */
   readonly samplingAwareCounterMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareCounterMetric;
   /**
   * sampling_aware_histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_histogram_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_histogram_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_histogram_metric}
   */
   readonly samplingAwareHistogramMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareHistogramMetric;
   /**
   * sampling_aware_value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_value_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sampling_aware_value_metric OpenpipelineV2DavisProblemsPipelines#sampling_aware_value_metric}
   */
   readonly samplingAwareValueMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSamplingAwareValueMetric;
   /**
   * sdlc_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#sdlc_event OpenpipelineV2DavisProblemsPipelines#sdlc_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#sdlc_event OpenpipelineV2DavisProblemsPipelines#sdlc_event}
   */
   readonly sdlcEvent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSdlcEvent;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#security_context OpenpipelineV2DavisProblemsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#security_context OpenpipelineV2DavisProblemsPipelines#security_context}
   */
   readonly securityContext?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityContext;
   /**
   * security_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#security_event OpenpipelineV2DavisProblemsPipelines#security_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#security_event OpenpipelineV2DavisProblemsPipelines#security_event}
   */
   readonly securityEvent?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSecurityEvent;
   /**
   * smartscape_edge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_edge OpenpipelineV2DavisProblemsPipelines#smartscape_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_edge OpenpipelineV2DavisProblemsPipelines#smartscape_edge}
   */
   readonly smartscapeEdge?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeEdge;
   /**
   * smartscape_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_node OpenpipelineV2DavisProblemsPipelines#smartscape_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#smartscape_node OpenpipelineV2DavisProblemsPipelines#smartscape_node}
   */
   readonly smartscapeNode?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorSmartscapeNode;
   /**
   * technology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#technology OpenpipelineV2DavisProblemsPipelines#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#technology OpenpipelineV2DavisProblemsPipelines#technology}
   */
   readonly technology?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorTechnology;
   /**
   * value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value_metric OpenpipelineV2DavisProblemsPipelines#value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#value_metric OpenpipelineV2DavisProblemsPipelines#value_metric}
   */
   readonly valueMetric?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessorValueMetric;
 }
@@ -16739,7 +17222,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionPro
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#processor OpenpipelineV2DavisProblemsPipelines#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#processor OpenpipelineV2DavisProblemsPipelines#processor}
   */
   readonly processor: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -16822,7 +17305,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtraction {
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#processors OpenpipelineV2DavisProblemsPipelines#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#processors OpenpipelineV2DavisProblemsPipelines#processors}
   */
   readonly processors?: OpenpipelineV2DavisProblemsPipelinesSmartscapeNodeExtractionProcessors;
 }
@@ -16908,19 +17391,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorA
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -17093,7 +17576,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorA
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorAzureLogForwardingFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -17176,19 +17659,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorA
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorAzureLogForwardingFieldExtractionInclude;
 }
@@ -17329,13 +17812,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorA
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#forwarder_config_id OpenpipelineV2DavisProblemsPipelines#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#forwarder_config_id OpenpipelineV2DavisProblemsPipelines#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorAzureLogForwardingFieldExtraction;
 }
@@ -17444,13 +17927,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -17562,25 +18045,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventEventProviderField;
 }
@@ -17750,13 +18233,13 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -17868,25 +18351,25 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
   */
   readonly field?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventEventTypeField;
 }
@@ -18056,19 +18539,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#destination_field_name OpenpipelineV2DavisProblemsPipelines#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -18241,7 +18724,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#dimension OpenpipelineV2DavisProblemsPipelines#dimension}
   */
   readonly dimension: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -18324,19 +18807,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#exclude OpenpipelineV2DavisProblemsPipelines#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#include OpenpipelineV2DavisProblemsPipelines#include}
   */
   readonly include?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventFieldExtractionInclude;
 }
@@ -18477,19 +18960,19 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_provider OpenpipelineV2DavisProblemsPipelines#event_provider}
   */
   readonly eventProvider: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#event_type OpenpipelineV2DavisProblemsPipelines#event_type}
   */
   readonly eventType?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#field_extraction OpenpipelineV2DavisProblemsPipelines#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBizeventFieldExtraction;
 }
@@ -18627,7 +19110,7 @@ export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorB
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_name OpenpipelineV2DavisProblemsPipelines#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_davis_problems_pipelines#bucket_name OpenpipelineV2DavisProblemsPipelines#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -18704,394 +19187,5 @@ export class OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorBucke
   // Temporarily expose input value. Use with caution.
   public get bucketNameInput() {
     return this._bucketName;
-  }
-}
-export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField {
-  /**
-  * Default value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#default_value OpenpipelineV2DavisProblemsPipelines#default_value}
-  */
-  readonly defaultValue?: string;
-  /**
-  * Source field name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#source_field_name OpenpipelineV2DavisProblemsPipelines#source_field_name}
-  */
-  readonly sourceFieldName: string;
-}
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    default_value: cdktf.stringToTerraform(struct!.defaultValue),
-    source_field_name: cdktf.stringToTerraform(struct!.sourceFieldName),
-  }
-}
-
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    default_value: {
-      value: cdktf.stringToHclTerraform(struct!.defaultValue),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    source_field_name: {
-      value: cdktf.stringToHclTerraform(struct!.sourceFieldName),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._defaultValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.defaultValue = this._defaultValue;
-    }
-    if (this._sourceFieldName !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sourceFieldName = this._sourceFieldName;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._defaultValue = undefined;
-      this._sourceFieldName = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._defaultValue = value.defaultValue;
-      this._sourceFieldName = value.sourceFieldName;
-    }
-  }
-
-  // default_value - computed: false, optional: true, required: false
-  private _defaultValue?: string; 
-  public get defaultValue() {
-    return this.getStringAttribute('default_value');
-  }
-  public set defaultValue(value: string) {
-    this._defaultValue = value;
-  }
-  public resetDefaultValue() {
-    this._defaultValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get defaultValueInput() {
-    return this._defaultValue;
-  }
-
-  // source_field_name - computed: false, optional: false, required: true
-  private _sourceFieldName?: string; 
-  public get sourceFieldName() {
-    return this.getStringAttribute('source_field_name');
-  }
-  public set sourceFieldName(value: string) {
-    this._sourceFieldName = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sourceFieldNameInput() {
-    return this._sourceFieldName;
-  }
-}
-export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue {
-  /**
-  * Constant value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#constant OpenpipelineV2DavisProblemsPipelines#constant}
-  */
-  readonly constant?: string;
-  /**
-  * Constant multi value
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#multi_value_constant OpenpipelineV2DavisProblemsPipelines#multi_value_constant}
-  */
-  readonly multiValueConstant?: string[];
-  /**
-  * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#type OpenpipelineV2DavisProblemsPipelines#type}
-  */
-  readonly type: string;
-  /**
-  * field block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#field OpenpipelineV2DavisProblemsPipelines#field}
-  */
-  readonly field?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField;
-}
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    constant: cdktf.stringToTerraform(struct!.constant),
-    multi_value_constant: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.multiValueConstant),
-    type: cdktf.stringToTerraform(struct!.type),
-    field: openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldToTerraform(struct!.field),
-  }
-}
-
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    constant: {
-      value: cdktf.stringToHclTerraform(struct!.constant),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    multi_value_constant: {
-      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.multiValueConstant),
-      isBlock: false,
-      type: "list",
-      storageClassType: "stringList",
-    },
-    type: {
-      value: cdktf.stringToHclTerraform(struct!.type),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    field: {
-      value: openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldToHclTerraform(struct!.field),
-      isBlock: true,
-      type: "list",
-      storageClassType: "OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._constant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.constant = this._constant;
-    }
-    if (this._multiValueConstant !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.multiValueConstant = this._multiValueConstant;
-    }
-    if (this._type !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.type = this._type;
-    }
-    if (this._field?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.field = this._field?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._constant = undefined;
-      this._multiValueConstant = undefined;
-      this._type = undefined;
-      this._field.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._constant = value.constant;
-      this._multiValueConstant = value.multiValueConstant;
-      this._type = value.type;
-      this._field.internalValue = value.field;
-    }
-  }
-
-  // constant - computed: false, optional: true, required: false
-  private _constant?: string; 
-  public get constant() {
-    return this.getStringAttribute('constant');
-  }
-  public set constant(value: string) {
-    this._constant = value;
-  }
-  public resetConstant() {
-    this._constant = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get constantInput() {
-    return this._constant;
-  }
-
-  // multi_value_constant - computed: false, optional: true, required: false
-  private _multiValueConstant?: string[]; 
-  public get multiValueConstant() {
-    return this.getListAttribute('multi_value_constant');
-  }
-  public set multiValueConstant(value: string[]) {
-    this._multiValueConstant = value;
-  }
-  public resetMultiValueConstant() {
-    this._multiValueConstant = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get multiValueConstantInput() {
-    return this._multiValueConstant;
-  }
-
-  // type - computed: false, optional: false, required: true
-  private _type?: string; 
-  public get type() {
-    return this.getStringAttribute('type');
-  }
-  public set type(value: string) {
-    this._type = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get typeInput() {
-    return this._type;
-  }
-
-  // field - computed: false, optional: true, required: false
-  private _field = new OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueFieldOutputReference(this, "field");
-  public get field() {
-    return this._field;
-  }
-  public putField(value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueField) {
-    this._field.internalValue = value;
-  }
-  public resetField() {
-    this._field.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fieldInput() {
-    return this._field.internalValue;
-  }
-}
-export interface OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocation {
-  /**
-  * value block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_davis_problems_pipelines#value OpenpipelineV2DavisProblemsPipelines#value}
-  */
-  readonly value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue;
-}
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationToTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    value: openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueToTerraform(struct!.value),
-  }
-}
-
-
-export function openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationToHclTerraform(struct?: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationOutputReference | OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocation): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    value: {
-      value: openpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueToHclTerraform(struct!.value),
-      isBlock: true,
-      type: "list",
-      storageClassType: "OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocation | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._value?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.value = this._value?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocation | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._value.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._value.internalValue = value.value;
-    }
-  }
-
-  // value - computed: false, optional: false, required: true
-  private _value = new OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValueOutputReference(this, "value");
-  public get value() {
-    return this._value;
-  }
-  public putValue(value: OpenpipelineV2DavisProblemsPipelinesStorageProcessorsProcessorCostAllocationValue) {
-    this._value.internalValue = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get valueInput() {
-    return this._value.internalValue;
   }
 }

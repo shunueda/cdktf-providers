@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCynosdbAccountAllGrantPrivilegesConfig extends 
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#cluster_id DataTencentcloudCynosdbAccountAllGrantPrivileges#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#cluster_id DataTencentcloudCynosdbAccountAllGrantPrivileges#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#id DataTencentcloudCynosdbAccountAllGrantPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#id DataTencentcloudCynosdbAccountAllGrantPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataTencentcloudCynosdbAccountAllGrantPrivilegesConfig extends 
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#result_output_file DataTencentcloudCynosdbAccountAllGrantPrivileges#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#result_output_file DataTencentcloudCynosdbAccountAllGrantPrivileges#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#account DataTencentcloudCynosdbAccountAllGrantPrivileges#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#account DataTencentcloudCynosdbAccountAllGrantPrivileges#account}
   */
   readonly account: DataTencentcloudCynosdbAccountAllGrantPrivilegesAccount;
 }
@@ -202,13 +202,13 @@ export interface DataTencentcloudCynosdbAccountAllGrantPrivilegesAccount {
   /**
   * Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#account_name DataTencentcloudCynosdbAccountAllGrantPrivileges#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#account_name DataTencentcloudCynosdbAccountAllGrantPrivileges#account_name}
   */
   readonly accountName: string;
   /**
   * Host, default `%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#host DataTencentcloudCynosdbAccountAllGrantPrivileges#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#host DataTencentcloudCynosdbAccountAllGrantPrivileges#host}
   */
   readonly host?: string;
 }
@@ -318,7 +318,7 @@ export class DataTencentcloudCynosdbAccountAllGrantPrivilegesAccountOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges tencentcloud_cynosdb_account_all_grant_privileges}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges tencentcloud_cynosdb_account_all_grant_privileges}
 */
 export class DataTencentcloudCynosdbAccountAllGrantPrivileges extends cdktf.TerraformDataSource {
 
@@ -334,7 +334,7 @@ export class DataTencentcloudCynosdbAccountAllGrantPrivileges extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudCynosdbAccountAllGrantPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbAccountAllGrantPrivileges to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbAccountAllGrantPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbAccountAllGrantPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbAccountAllGrantPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class DataTencentcloudCynosdbAccountAllGrantPrivileges extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cynosdb_account_all_grant_privileges tencentcloud_cynosdb_account_all_grant_privileges} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cynosdb_account_all_grant_privileges tencentcloud_cynosdb_account_all_grant_privileges} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class DataTencentcloudCynosdbAccountAllGrantPrivileges extends cdktf.Terr
       terraformResourceType: 'tencentcloud_cynosdb_account_all_grant_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

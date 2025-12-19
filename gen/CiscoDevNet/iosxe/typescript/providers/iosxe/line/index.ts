@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,84 +10,84 @@ export interface LineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Auxiliary line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#aux Line#aux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#aux Line#aux}
   */
   readonly aux?: LineAux[] | cdktf.IResolvable;
   /**
   * Primary terminal line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#console Line#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#console Line#console}
   */
   readonly console?: LineConsole[] | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#delete_mode Line#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#delete_mode Line#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#device Line#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#device Line#device}
   */
   readonly device?: string;
   /**
   * Virtual terminal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#vty Line#vty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#vty Line#vty}
   */
   readonly vty?: LineVty[] | cdktf.IResolvable;
 }
 export interface LineAux {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#escape_character Line#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#escape_character Line#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
   * <0-35791>;;Timeout in minutes
   *   - Range: `0`-`35791`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
   */
   readonly execTimeoutMinutes?: number;
   /**
   * <0-2147483>;;Timeout in seconds
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
   */
   readonly execTimeoutSeconds?: number;
   /**
   * Auxiliary line number
   *   - Choices: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#first Line#first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#first Line#first}
   */
   readonly first: string;
   /**
   * Synchronized message output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#logging_synchronous Line#logging_synchronous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#logging_synchronous Line#logging_synchronous}
   */
   readonly loggingSynchronous?: boolean | cdktf.IResolvable;
   /**
   * Copy debug output to the current terminal line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#monitor Line#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#monitor Line#monitor}
   */
   readonly monitor?: boolean | cdktf.IResolvable;
   /**
   * Set async line stop bits
   *   - Choices: `1`, `1.5`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#stopbits Line#stopbits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#stopbits Line#stopbits}
   */
   readonly stopbits?: string;
   /**
   * Define no transport protocols for line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output_none Line#transport_output_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output_none Line#transport_output_none}
   */
   readonly transportOutputNone?: boolean | cdktf.IResolvable;
 }
@@ -403,92 +403,92 @@ export class LineAuxList extends cdktf.ComplexList {
 }
 export interface LineConsole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#escape_character Line#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#escape_character Line#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
   * <0-35791>;;Timeout in minutes
   *   - Range: `0`-`35791`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
   */
   readonly execTimeoutMinutes?: number;
   /**
   * <0-2147483>;;Timeout in seconds
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
   */
   readonly execTimeoutSeconds?: number;
   /**
   * Console line number
   *   - Choices: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#first Line#first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#first Line#first}
   */
   readonly first: string;
   /**
   * Synchronized message output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#logging_synchronous Line#logging_synchronous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#logging_synchronous Line#logging_synchronous}
   */
   readonly loggingSynchronous?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#login_authentication Line#login_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#login_authentication Line#login_authentication}
   */
   readonly loginAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#login_local Line#login_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#login_local Line#login_local}
   */
   readonly loginLocal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password Line#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password Line#password}
   */
   readonly password?: string;
   /**
   * Set exec level password
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password_level Line#password_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password_level Line#password_level}
   */
   readonly passwordLevel?: number;
   /**
   * 
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password_type Line#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password_type Line#password_type}
   */
   readonly passwordType?: string;
   /**
   * 
   *   - Range: `0`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#privilege_level Line#privilege_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#privilege_level Line#privilege_level}
   */
   readonly privilegeLevel?: number;
   /**
   * Set async line stop bits
   *   - Choices: `1`, `1.5`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#stopbits Line#stopbits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#stopbits Line#stopbits}
   */
   readonly stopbits?: string;
   /**
   * Define which protocols to use for outgoing connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output Line#transport_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output Line#transport_output}
   */
   readonly transportOutput?: string[];
   /**
   * All protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output_all Line#transport_output_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output_all Line#transport_output_all}
   */
   readonly transportOutputAll?: boolean | cdktf.IResolvable;
   /**
   * Define no transport protocols for line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output_none Line#transport_output_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output_none Line#transport_output_none}
   */
   readonly transportOutputNone?: boolean | cdktf.IResolvable;
 }
@@ -1007,20 +1007,20 @@ export class LineConsoleList extends cdktf.ComplexList {
 }
 export interface LineVtyAccessClasses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#access_list Line#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#access_list Line#access_list}
   */
   readonly accessList: string;
   /**
   * Filter connections based on the incoming/outgoing direction
   *   - Choices: `in`, `out`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#direction Line#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#direction Line#direction}
   */
   readonly direction: string;
   /**
   * Same access list is applied for all VRFs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#vrf_also Line#vrf_also}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#vrf_also Line#vrf_also}
   */
   readonly vrfAlso?: boolean | cdktf.IResolvable;
 }
@@ -1190,144 +1190,144 @@ export interface LineVty {
   /**
   * Choose direction of the access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#access_classes Line#access_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#access_classes Line#access_classes}
   */
   readonly accessClasses?: LineVtyAccessClasses[] | cdktf.IResolvable;
   /**
   * Use an authorization list with this name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#authorization_exec Line#authorization_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#authorization_exec Line#authorization_exec}
   */
   readonly authorizationExec?: string;
   /**
   * Use the default authorization list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#authorization_exec_default Line#authorization_exec_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#authorization_exec_default Line#authorization_exec_default}
   */
   readonly authorizationExecDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#escape_character Line#escape_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#escape_character Line#escape_character}
   */
   readonly escapeCharacter?: string;
   /**
   * <0-35791>;;Timeout in minutes
   *   - Range: `0`-`35791`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_minutes Line#exec_timeout_minutes}
   */
   readonly execTimeoutMinutes?: number;
   /**
   * <0-2147483>;;Timeout in seconds
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#exec_timeout_seconds Line#exec_timeout_seconds}
   */
   readonly execTimeoutSeconds?: number;
   /**
   * Vty first line number
   *   - Range: `0`-`1869`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#first Line#first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#first Line#first}
   */
   readonly first: number;
   /**
   * Vty last line number
   *   - Range: `1`-`1869`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#last Line#last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#last Line#last}
   */
   readonly last?: number;
   /**
   * Synchronized message output
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#logging_synchronous Line#logging_synchronous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#logging_synchronous Line#logging_synchronous}
   */
   readonly loggingSynchronous?: boolean | cdktf.IResolvable;
   /**
   * Authentication list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#login_authentication Line#login_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#login_authentication Line#login_authentication}
   */
   readonly loginAuthentication?: string;
   /**
   * Copy debug output to the current terminal line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#monitor Line#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#monitor Line#monitor}
   */
   readonly monitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password Line#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password Line#password}
   */
   readonly password?: string;
   /**
   * Set exec level password
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password_level Line#password_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password_level Line#password_level}
   */
   readonly passwordLevel?: number;
   /**
   * 
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#password_type Line#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#password_type Line#password_type}
   */
   readonly passwordType?: string;
   /**
   * 
   *   - Range: `0`-`35791`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#session_timeout Line#session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#session_timeout Line#session_timeout}
   */
   readonly sessionTimeout?: number;
   /**
   * Set async line stop bits
   *   - Choices: `1`, `1.5`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#stopbits Line#stopbits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#stopbits Line#stopbits}
   */
   readonly stopbits?: string;
   /**
   * Define which protocols to use when connecting to the terminal server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_input Line#transport_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_input Line#transport_input}
   */
   readonly transportInput?: string[];
   /**
   * All protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_input_all Line#transport_input_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_input_all Line#transport_input_all}
   */
   readonly transportInputAll?: boolean | cdktf.IResolvable;
   /**
   * Define no transport protocols for line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_input_none Line#transport_input_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_input_none Line#transport_input_none}
   */
   readonly transportInputNone?: boolean | cdktf.IResolvable;
   /**
   * Define which protocols to use for outgoing connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output Line#transport_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output Line#transport_output}
   */
   readonly transportOutput?: string[];
   /**
   * All protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output_all Line#transport_output_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output_all Line#transport_output_all}
   */
   readonly transportOutputAll?: boolean | cdktf.IResolvable;
   /**
   * Define no transport protocols for line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_output_none Line#transport_output_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_output_none Line#transport_output_none}
   */
   readonly transportOutputNone?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `acercon`, `lat`, `mop`, `nasi`, `none`, `pad`, `rlogin`, `ssh`, `telnet`, `udptn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#transport_preferred_protocol Line#transport_preferred_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#transport_preferred_protocol Line#transport_preferred_protocol}
   */
   readonly transportPreferredProtocol?: string;
 }
@@ -2078,7 +2078,7 @@ export class LineVtyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line iosxe_line}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line iosxe_line}
 */
 export class Line extends cdktf.TerraformResource {
 
@@ -2094,7 +2094,7 @@ export class Line extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Line resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Line to import
-  * @param importFromId The id of the existing Line that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Line that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Line to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2106,7 +2106,7 @@ export class Line extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/line iosxe_line} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/line iosxe_line} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2117,8 +2117,8 @@ export class Line extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_line',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

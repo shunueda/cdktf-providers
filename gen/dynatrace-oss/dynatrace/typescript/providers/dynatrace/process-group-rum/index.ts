@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -14,11 +14,11 @@ export interface ProcessGroupRumConfig extends cdktf.TerraformMetaArguments {
   * * forward beacons to the cluster
   * * deliver the monitoring code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum#enable ProcessGroupRum#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum#enable ProcessGroupRum#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum#id ProcessGroupRum#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum#id ProcessGroupRum#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,13 +27,13 @@ export interface ProcessGroupRumConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting - PROCESS_GROUP-XXXXXXXXXXXXXXXX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum#process_group_id ProcessGroupRum#process_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum#process_group_id ProcessGroupRum#process_group_id}
   */
   readonly processGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum dynatrace_process_group_rum}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum dynatrace_process_group_rum}
 */
 export class ProcessGroupRum extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class ProcessGroupRum extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessGroupRum resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessGroupRum to import
-  * @param importFromId The id of the existing ProcessGroupRum that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessGroupRum that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessGroupRum to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class ProcessGroupRum extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_rum dynatrace_process_group_rum} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_rum dynatrace_process_group_rum} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class ProcessGroupRum extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_process_group_rum',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

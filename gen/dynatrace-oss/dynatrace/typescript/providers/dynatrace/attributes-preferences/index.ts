@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AttributesPreferencesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences#id AttributesPreferences#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences#id AttributesPreferences#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface AttributesPreferencesConfig extends cdktf.TerraformMetaArgument
   /**
   * Possible Values: `ALLOW_ALL_ATTRIBUTES`, `BLOCK_ALL_ATTRIBUTES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences#persistence_mode AttributesPreferences#persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences#persistence_mode AttributesPreferences#persistence_mode}
   */
   readonly persistenceMode: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences dynatrace_attributes_preferences}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences dynatrace_attributes_preferences}
 */
 export class AttributesPreferences extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class AttributesPreferences extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AttributesPreferences resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AttributesPreferences to import
-  * @param importFromId The id of the existing AttributesPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AttributesPreferences that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AttributesPreferences to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class AttributesPreferences extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/attributes_preferences dynatrace_attributes_preferences} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/attributes_preferences dynatrace_attributes_preferences} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class AttributesPreferences extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_attributes_preferences',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

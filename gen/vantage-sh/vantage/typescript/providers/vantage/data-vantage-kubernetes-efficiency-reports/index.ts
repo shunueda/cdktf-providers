@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/kubernetes_efficiency_reports
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/kubernetes_efficiency_reports
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -150,7 +150,7 @@ export class DataVantageKubernetesEfficiencyReportsKubernetesEfficiencyReportsLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/kubernetes_efficiency_reports vantage_kubernetes_efficiency_reports}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/kubernetes_efficiency_reports vantage_kubernetes_efficiency_reports}
 */
 export class DataVantageKubernetesEfficiencyReports extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataVantageKubernetesEfficiencyReports extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataVantageKubernetesEfficiencyReports resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageKubernetesEfficiencyReports to import
-  * @param importFromId The id of the existing DataVantageKubernetesEfficiencyReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/kubernetes_efficiency_reports#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageKubernetesEfficiencyReports that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/kubernetes_efficiency_reports#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageKubernetesEfficiencyReports to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataVantageKubernetesEfficiencyReports extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/kubernetes_efficiency_reports vantage_kubernetes_efficiency_reports} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/kubernetes_efficiency_reports vantage_kubernetes_efficiency_reports} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataVantageKubernetesEfficiencyReports extends cdktf.TerraformDataS
       terraformResourceType: 'vantage_kubernetes_efficiency_reports',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

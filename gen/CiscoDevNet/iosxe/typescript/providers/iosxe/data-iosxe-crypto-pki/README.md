@@ -1,3 +1,3 @@
 # `data_iosxe_crypto_pki`
 
-Refer to the Terraform Registry for docs: [`data_iosxe_crypto_pki`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/crypto_pki).
+Refer to the Terraform Registry for docs: [`data_iosxe_crypto_pki`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/crypto_pki).

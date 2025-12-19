@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DashboardSharingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Dynatrace entity ID of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#dashboard_id DashboardSharing#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#dashboard_id DashboardSharing#dashboard_id}
   */
   readonly dashboardId: string;
   /**
   * The dashboard is shared (`true`) or private (`false`). Make sure that this value is aligned with the attribute `shared` of the resources `dynatrace_dashboard` and `dynatrace_json_dashboard`. Otherwise you will encounter non-empty plans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#enabled DashboardSharing#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#enabled DashboardSharing#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#id DashboardSharing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#id DashboardSharing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DashboardSharingConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true` the dashboard will be marked as preset. Setting this attribute to `true` will automatically enforce a specific set of permissions - Dashboards flagged as Preset are shared by default. Make sure that this value is aligned with the attribute `preset` of the resources `dynatrace_dashboard` and `dynatrace_json_dashboard`. Otherwise you will encounter non-empty plans.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#preset DashboardSharing#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#preset DashboardSharing#preset}
   */
   readonly preset?: boolean | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#permissions DashboardSharing#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#permissions DashboardSharing#permissions}
   */
   readonly permissions?: DashboardSharingPermissions;
   /**
   * public block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#public DashboardSharing#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#public DashboardSharing#public}
   */
   readonly public?: DashboardSharingPublic;
 }
@@ -51,7 +51,7 @@ export interface DashboardSharingPermissionsPermission {
   * 
   * Not applicable if the **type** is set to `ALL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#id DashboardSharing#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#id DashboardSharing#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ export interface DashboardSharingPermissionsPermission {
   * * `VIEW`: The dashboard is shared with read permission. 
   * * `EDIT`: The dashboard is shared with edit permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#level DashboardSharing#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#level DashboardSharing#level}
   */
   readonly level: string;
   /**
@@ -73,7 +73,7 @@ export interface DashboardSharingPermissionsPermission {
   * * `GROUP`: The dashboard is shared with all users of the specified group. 
   * * `ALL`: The dashboard is shared via link. Any authenticated user with the link can view the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#type DashboardSharing#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#type DashboardSharing#type}
   */
   readonly type: string;
 }
@@ -243,7 +243,7 @@ export interface DashboardSharingPermissions {
   /**
   * permission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#permission DashboardSharing#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#permission DashboardSharing#permission}
   */
   readonly permission?: DashboardSharingPermissionsPermission[] | cdktf.IResolvable;
 }
@@ -331,13 +331,13 @@ export interface DashboardSharingPublic {
   * 
   * Specify management zone IDs here. For each management zone you specify Dynatrace generates an access link. To share the dashboard with its default management zone, use the `default` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#management_zones DashboardSharing#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#management_zones DashboardSharing#management_zones}
   */
   readonly managementZones: string[];
   /**
   * A list of URLs for anonymous access to the dashboard indexed by management zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#urls DashboardSharing#urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#urls DashboardSharing#urls}
   */
   readonly urls?: { [key: string]: string };
 }
@@ -447,7 +447,7 @@ export class DashboardSharingPublicOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing dynatrace_dashboard_sharing}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing dynatrace_dashboard_sharing}
 */
 export class DashboardSharing extends cdktf.TerraformResource {
 
@@ -463,7 +463,7 @@ export class DashboardSharing extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DashboardSharing resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DashboardSharing to import
-  * @param importFromId The id of the existing DashboardSharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DashboardSharing that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DashboardSharing to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -475,7 +475,7 @@ export class DashboardSharing extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/dashboard_sharing dynatrace_dashboard_sharing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/dashboard_sharing dynatrace_dashboard_sharing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -486,8 +486,8 @@ export class DashboardSharing extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_dashboard_sharing',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

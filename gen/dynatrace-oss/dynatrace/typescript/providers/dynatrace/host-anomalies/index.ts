@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HostAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#id HostAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#id HostAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface HostAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#connections HostAnomalies#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#connections HostAnomalies#connections}
   */
   readonly connections?: HostAnomaliesConnections;
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#cpu HostAnomalies#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#cpu HostAnomalies#cpu}
   */
   readonly cpu?: HostAnomaliesCpu;
   /**
   * disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#disks HostAnomalies#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#disks HostAnomalies#disks}
   */
   readonly disks?: HostAnomaliesDisks;
   /**
   * gc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#gc HostAnomalies#gc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#gc HostAnomalies#gc}
   */
   readonly gc?: HostAnomaliesGc;
   /**
   * java block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#java HostAnomalies#java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#java HostAnomalies#java}
   */
   readonly java?: HostAnomaliesJava;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#memory HostAnomalies#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#memory HostAnomalies#memory}
   */
   readonly memory?: HostAnomaliesMemory;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#network HostAnomalies#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#network HostAnomalies#network}
   */
   readonly network?: HostAnomaliesNetwork;
 }
@@ -61,13 +61,13 @@ export interface HostAnomaliesConnections {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Alert (`true`) on graceful host shutdowns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled_on_graceful_shutdowns HostAnomalies#enabled_on_graceful_shutdowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled_on_graceful_shutdowns HostAnomalies#enabled_on_graceful_shutdowns}
   */
   readonly enabledOnGracefulShutdowns: boolean | cdktf.IResolvable;
 }
@@ -176,7 +176,7 @@ export interface HostAnomaliesCpuThresholds {
   /**
   * Alert if CPU usage is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#saturation HostAnomalies#saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#saturation HostAnomalies#saturation}
   */
   readonly saturation: number;
 }
@@ -259,13 +259,13 @@ export interface HostAnomaliesCpu {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesCpuThresholds;
 }
@@ -377,7 +377,7 @@ export interface HostAnomaliesDisksInodesThresholds {
   /**
   * Alert if percentage of available inodes is lower than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#percentage HostAnomalies#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#percentage HostAnomalies#percentage}
   */
   readonly percentage: number;
 }
@@ -460,13 +460,13 @@ export interface HostAnomaliesDisksInodes {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesDisksInodesThresholds;
 }
@@ -578,7 +578,7 @@ export interface HostAnomaliesDisksSpaceThresholds {
   /**
   * Alert if free disk space is lower than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#percentage HostAnomalies#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#percentage HostAnomalies#percentage}
   */
   readonly percentage: number;
 }
@@ -661,13 +661,13 @@ export interface HostAnomaliesDisksSpace {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesDisksSpaceThresholds;
 }
@@ -779,7 +779,7 @@ export interface HostAnomaliesDisksSpeedThresholds {
   /**
   * Alert if disk read/write time is higher than *X* milliseconds in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#write_and_read_time HostAnomalies#write_and_read_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#write_and_read_time HostAnomalies#write_and_read_time}
   */
   readonly writeAndReadTime: number;
 }
@@ -862,13 +862,13 @@ export interface HostAnomaliesDisksSpeed {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesDisksSpeedThresholds;
 }
@@ -980,19 +980,19 @@ export interface HostAnomaliesDisks {
   /**
   * inodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#inodes HostAnomalies#inodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#inodes HostAnomalies#inodes}
   */
   readonly inodes?: HostAnomaliesDisksInodes;
   /**
   * space block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#space HostAnomalies#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#space HostAnomalies#space}
   */
   readonly space?: HostAnomaliesDisksSpace;
   /**
   * speed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#speed HostAnomalies#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#speed HostAnomalies#speed}
   */
   readonly speed?: HostAnomaliesDisksSpeed;
 }
@@ -1136,13 +1136,13 @@ export interface HostAnomaliesGcThresholds {
   /**
   * GC suspension is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#suspension_percentage HostAnomalies#suspension_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#suspension_percentage HostAnomalies#suspension_percentage}
   */
   readonly suspensionPercentage: number;
   /**
   * GC time is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#time_percentage HostAnomalies#time_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#time_percentage HostAnomalies#time_percentage}
   */
   readonly timePercentage: number;
 }
@@ -1251,13 +1251,13 @@ export interface HostAnomaliesGc {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesGcThresholds;
 }
@@ -1369,7 +1369,7 @@ export interface HostAnomaliesJavaOutOfMemoryThresholds {
   /**
   * Alert if the number of Java out of memory exceptions is *X* per minute or higher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#exception_count HostAnomalies#exception_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#exception_count HostAnomalies#exception_count}
   */
   readonly exceptionCount: number;
 }
@@ -1452,13 +1452,13 @@ export interface HostAnomaliesJavaOutOfMemory {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesJavaOutOfMemoryThresholds;
 }
@@ -1570,7 +1570,7 @@ export interface HostAnomaliesJavaOutOfThreadsThresholds {
   /**
   * Alert if the number of Java out of threads exceptions is *X* per minute or higher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#exception_count HostAnomalies#exception_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#exception_count HostAnomalies#exception_count}
   */
   readonly exceptionCount: number;
 }
@@ -1653,13 +1653,13 @@ export interface HostAnomaliesJavaOutOfThreads {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesJavaOutOfThreadsThresholds;
 }
@@ -1771,13 +1771,13 @@ export interface HostAnomaliesJava {
   /**
   * out_of_memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#out_of_memory HostAnomalies#out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#out_of_memory HostAnomalies#out_of_memory}
   */
   readonly outOfMemory?: HostAnomaliesJavaOutOfMemory;
   /**
   * out_of_threads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#out_of_threads HostAnomalies#out_of_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#out_of_threads HostAnomalies#out_of_threads}
   */
   readonly outOfThreads?: HostAnomaliesJavaOutOfThreads;
 }
@@ -1892,13 +1892,13 @@ export interface HostAnomaliesMemoryThresholdsLinux {
   /**
   * Memory page fault rate is higher than *X* faults per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#page_faults HostAnomalies#page_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#page_faults HostAnomalies#page_faults}
   */
   readonly pageFaults: number;
   /**
   * Memory usage is higher than *X*%
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#usage HostAnomalies#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#usage HostAnomalies#usage}
   */
   readonly usage: number;
 }
@@ -2007,13 +2007,13 @@ export interface HostAnomaliesMemoryThresholdsWindows {
   /**
   * Memory page fault rate is higher than *X* faults per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#page_faults HostAnomalies#page_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#page_faults HostAnomalies#page_faults}
   */
   readonly pageFaults: number;
   /**
   * Memory usage is higher than *X*%
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#usage HostAnomalies#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#usage HostAnomalies#usage}
   */
   readonly usage: number;
 }
@@ -2122,13 +2122,13 @@ export interface HostAnomaliesMemoryThresholds {
   /**
   * linux block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#linux HostAnomalies#linux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#linux HostAnomalies#linux}
   */
   readonly linux: HostAnomaliesMemoryThresholdsLinux;
   /**
   * windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#windows HostAnomalies#windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#windows HostAnomalies#windows}
   */
   readonly windows: HostAnomaliesMemoryThresholdsWindows;
 }
@@ -2237,13 +2237,13 @@ export interface HostAnomaliesMemory {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesMemoryThresholds;
 }
@@ -2355,13 +2355,13 @@ export interface HostAnomaliesNetworkConnectivityThresholds {
   /**
   * Number of failed connections is higher than *X* connections per minute in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#failed_connections HostAnomalies#failed_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#failed_connections HostAnomalies#failed_connections}
   */
   readonly failedConnections: number;
   /**
   * Percentage of new connection failures is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#new_connection_failures HostAnomalies#new_connection_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#new_connection_failures HostAnomalies#new_connection_failures}
   */
   readonly newConnectionFailures: number;
 }
@@ -2470,13 +2470,13 @@ export interface HostAnomaliesNetworkConnectivity {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesNetworkConnectivityThresholds;
 }
@@ -2588,13 +2588,13 @@ export interface HostAnomaliesNetworkDroppedPacketsThresholds {
   /**
   * Receive/transmit dropped packet percentage is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#dropped_packets HostAnomalies#dropped_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#dropped_packets HostAnomalies#dropped_packets}
   */
   readonly droppedPackets: number;
   /**
   * Total receive/transmit packets rate is higher than *X* packets per second in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#total_packets_rate HostAnomalies#total_packets_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#total_packets_rate HostAnomalies#total_packets_rate}
   */
   readonly totalPacketsRate: number;
 }
@@ -2703,13 +2703,13 @@ export interface HostAnomaliesNetworkDroppedPackets {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesNetworkDroppedPacketsThresholds;
 }
@@ -2821,13 +2821,13 @@ export interface HostAnomaliesNetworkErrorsThresholds {
   /**
   * Receive/transmit error packet percentage is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#errors_percentage HostAnomalies#errors_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#errors_percentage HostAnomalies#errors_percentage}
   */
   readonly errorsPercentage: number;
   /**
   * Total receive/transmit packets rate is higher than *X* packets per second in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#total_packets_rate HostAnomalies#total_packets_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#total_packets_rate HostAnomalies#total_packets_rate}
   */
   readonly totalPacketsRate: number;
 }
@@ -2936,13 +2936,13 @@ export interface HostAnomaliesNetworkErrors {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesNetworkErrorsThresholds;
 }
@@ -3054,13 +3054,13 @@ export interface HostAnomaliesNetworkRetransmissionThresholds {
   /**
   * Retransmission rate is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#retransmission_rate HostAnomalies#retransmission_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#retransmission_rate HostAnomalies#retransmission_rate}
   */
   readonly retransmissionRate: number;
   /**
   * Number of retransmitted packets is higher than *X* packets per minute in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#retransmitted_packets HostAnomalies#retransmitted_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#retransmitted_packets HostAnomalies#retransmitted_packets}
   */
   readonly retransmittedPackets: number;
 }
@@ -3169,13 +3169,13 @@ export interface HostAnomaliesNetworkRetransmission {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesNetworkRetransmissionThresholds;
 }
@@ -3287,7 +3287,7 @@ export interface HostAnomaliesNetworkUtilizationThresholds {
   /**
   * Alert if sent/received traffic utilization is higher than *X*% in 3 out of 5 samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#utilization HostAnomalies#utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#utilization HostAnomalies#utilization}
   */
   readonly utilization: number;
 }
@@ -3370,13 +3370,13 @@ export interface HostAnomaliesNetworkUtilization {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#enabled HostAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#thresholds HostAnomalies#thresholds}
   */
   readonly thresholds?: HostAnomaliesNetworkUtilizationThresholds;
 }
@@ -3488,31 +3488,31 @@ export interface HostAnomaliesNetwork {
   /**
   * connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#connectivity HostAnomalies#connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#connectivity HostAnomalies#connectivity}
   */
   readonly connectivity?: HostAnomaliesNetworkConnectivity;
   /**
   * dropped_packets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#dropped_packets HostAnomalies#dropped_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#dropped_packets HostAnomalies#dropped_packets}
   */
   readonly droppedPackets?: HostAnomaliesNetworkDroppedPackets;
   /**
   * errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#errors HostAnomalies#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#errors HostAnomalies#errors}
   */
   readonly errors?: HostAnomaliesNetworkErrors;
   /**
   * retransmission block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#retransmission HostAnomalies#retransmission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#retransmission HostAnomalies#retransmission}
   */
   readonly retransmission?: HostAnomaliesNetworkRetransmission;
   /**
   * utilization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#utilization HostAnomalies#utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#utilization HostAnomalies#utilization}
   */
   readonly utilization?: HostAnomaliesNetworkUtilization;
 }
@@ -3712,7 +3712,7 @@ export class HostAnomaliesNetworkOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies dynatrace_host_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies dynatrace_host_anomalies}
 */
 export class HostAnomalies extends cdktf.TerraformResource {
 
@@ -3728,7 +3728,7 @@ export class HostAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HostAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HostAnomalies to import
-  * @param importFromId The id of the existing HostAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HostAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HostAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3740,7 +3740,7 @@ export class HostAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/host_anomalies dynatrace_host_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/host_anomalies dynatrace_host_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3751,8 +3751,8 @@ export class HostAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_host_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

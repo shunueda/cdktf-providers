@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudSslDescribeManagersConfig extends cdktf.Terrafo
   /**
   * Company ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#company_id DataTencentcloudSslDescribeManagers#company_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#company_id DataTencentcloudSslDescribeManagers#company_id}
   */
   readonly companyId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#id DataTencentcloudSslDescribeManagers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#id DataTencentcloudSslDescribeManagers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudSslDescribeManagersConfig extends cdktf.Terrafo
   /**
   * Vague query manager email (will be abandoned), please use Searchkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#manager_mail DataTencentcloudSslDescribeManagers#manager_mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#manager_mail DataTencentcloudSslDescribeManagers#manager_mail}
   */
   readonly managerMail?: string;
   /**
   * Manager&amp;#39;s name (will be abandoned), please use Searchkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#manager_name DataTencentcloudSslDescribeManagers#manager_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#manager_name DataTencentcloudSslDescribeManagers#manager_name}
   */
   readonly managerName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#result_output_file DataTencentcloudSslDescribeManagers#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#result_output_file DataTencentcloudSslDescribeManagers#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Manager&amp;#39;s surname/Manager name/mailbox/department precise matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#search_key DataTencentcloudSslDescribeManagers#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#search_key DataTencentcloudSslDescribeManagers#search_key}
   */
   readonly searchKey?: string;
   /**
   * Filter according to the status of the manager, and the value is available&amp;#39;None&amp;#39; Unable to submit review&amp;#39;Audit&amp;#39;, Asian Credit Review&amp;#39;Caaudit&amp;#39; CA review&amp;#39;OK&amp;#39; has been reviewed&amp;#39;Invalid&amp;#39; review failed&amp;#39;Expiring&amp;#39; is about to expire&amp;#39;Expired&amp;#39; expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#status DataTencentcloudSslDescribeManagers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#status DataTencentcloudSslDescribeManagers#status}
   */
   readonly status?: string;
 }
@@ -193,7 +193,7 @@ export class DataTencentcloudSslDescribeManagersManagersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers tencentcloud_ssl_describe_managers}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers tencentcloud_ssl_describe_managers}
 */
 export class DataTencentcloudSslDescribeManagers extends cdktf.TerraformDataSource {
 
@@ -209,7 +209,7 @@ export class DataTencentcloudSslDescribeManagers extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudSslDescribeManagers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSslDescribeManagers to import
-  * @param importFromId The id of the existing DataTencentcloudSslDescribeManagers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSslDescribeManagers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSslDescribeManagers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class DataTencentcloudSslDescribeManagers extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ssl_describe_managers tencentcloud_ssl_describe_managers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ssl_describe_managers tencentcloud_ssl_describe_managers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,8 +232,8 @@ export class DataTencentcloudSslDescribeManagers extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_ssl_describe_managers',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

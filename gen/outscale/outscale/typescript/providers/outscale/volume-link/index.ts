@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface VolumeLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#device_name VolumeLink#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#device_name VolumeLink#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#force_unlink VolumeLink#force_unlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#force_unlink VolumeLink#force_unlink}
   */
   readonly forceUnlink?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#vm_id VolumeLink#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#vm_id VolumeLink#vm_id}
   */
   readonly vmId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#volume_id VolumeLink#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#volume_id VolumeLink#volume_id}
   */
   readonly volumeId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#timeouts VolumeLink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#timeouts VolumeLink#timeouts}
   */
   readonly timeouts?: VolumeLinkTimeouts;
 }
@@ -34,25 +34,25 @@ export interface VolumeLinkTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#create VolumeLink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#create VolumeLink#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#delete VolumeLink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#delete VolumeLink#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#read VolumeLink#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#read VolumeLink#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#update VolumeLink#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#update VolumeLink#update}
   */
   readonly update?: string;
 }
@@ -233,7 +233,7 @@ export class VolumeLinkTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link outscale_volume_link}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link outscale_volume_link}
 */
 export class VolumeLink extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class VolumeLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VolumeLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VolumeLink to import
-  * @param importFromId The id of the existing VolumeLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VolumeLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VolumeLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class VolumeLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/volume_link outscale_volume_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/volume_link outscale_volume_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class VolumeLink extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_volume_link',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

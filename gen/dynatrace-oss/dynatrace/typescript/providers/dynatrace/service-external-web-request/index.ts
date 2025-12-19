@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServiceExternalWebRequestConfig extends cdktf.TerraformMetaArgu
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#description ServiceExternalWebRequest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#description ServiceExternalWebRequest#description}
   */
   readonly description?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#enabled ServiceExternalWebRequest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#enabled ServiceExternalWebRequest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#id ServiceExternalWebRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#id ServiceExternalWebRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ServiceExternalWebRequestConfig extends cdktf.TerraformMetaArgu
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#insert_after ServiceExternalWebRequest#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#insert_after ServiceExternalWebRequest#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Define a management zone of the process group for which this service detection rule should be created.  Note: in case of external requests/services the PG might not always be known. See [here](https://dt-url.net/9i03b79)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#management_zones ServiceExternalWebRequest#management_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#management_zones ServiceExternalWebRequest#management_zones}
   */
   readonly managementZones?: string[];
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#name ServiceExternalWebRequest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#name ServiceExternalWebRequest#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#conditions ServiceExternalWebRequest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#conditions ServiceExternalWebRequest#conditions}
   */
   readonly conditions?: ServiceExternalWebRequestConditions;
   /**
   * id_contributors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#id_contributors ServiceExternalWebRequest#id_contributors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#id_contributors ServiceExternalWebRequest#id_contributors}
   */
   readonly idContributors: ServiceExternalWebRequestIdContributors;
 }
@@ -61,61 +61,61 @@ export interface ServiceExternalWebRequestConditionsCondition {
   /**
   * Take the value of this attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#attribute ServiceExternalWebRequest#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#attribute ServiceExternalWebRequest#attribute}
   */
   readonly attribute: string;
   /**
   * Apply this operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#compare_operation_type ServiceExternalWebRequest#compare_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#compare_operation_type ServiceExternalWebRequest#compare_operation_type}
   */
   readonly compareOperationType: string;
   /**
   * Technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#framework ServiceExternalWebRequest#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#framework ServiceExternalWebRequest#framework}
   */
   readonly framework?: string[];
   /**
   * Ignore case sensitivity for texts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#ignore_case ServiceExternalWebRequest#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#ignore_case ServiceExternalWebRequest#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#int_value ServiceExternalWebRequest#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#int_value ServiceExternalWebRequest#int_value}
   */
   readonly intValue?: number;
   /**
   * Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#int_values ServiceExternalWebRequest#int_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#int_values ServiceExternalWebRequest#int_values}
   */
   readonly intValues?: number[];
   /**
   * From
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#ip_range_from ServiceExternalWebRequest#ip_range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#ip_range_from ServiceExternalWebRequest#ip_range_from}
   */
   readonly ipRangeFrom?: string;
   /**
   * To
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#ip_range_to ServiceExternalWebRequest#ip_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#ip_range_to ServiceExternalWebRequest#ip_range_to}
   */
   readonly ipRangeTo?: string;
   /**
   * If multiple values are specified, at least one of them must match for the condition to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#tag_values ServiceExternalWebRequest#tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#tag_values ServiceExternalWebRequest#tag_values}
   */
   readonly tagValues?: string[];
   /**
   * If multiple values are specified, at least one of them must match for the condition to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#text_values ServiceExternalWebRequest#text_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#text_values ServiceExternalWebRequest#text_values}
   */
   readonly textValues?: string[];
 }
@@ -488,7 +488,7 @@ export interface ServiceExternalWebRequestConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#condition ServiceExternalWebRequest#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#condition ServiceExternalWebRequest#condition}
   */
   readonly condition: ServiceExternalWebRequestConditionsCondition[] | cdktf.IResolvable;
 }
@@ -571,61 +571,61 @@ export interface ServiceExternalWebRequestIdContributorsApplicationIdServiceIdCo
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#select_index ServiceExternalWebRequest#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#select_index ServiceExternalWebRequest#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#split_delimiter ServiceExternalWebRequest#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#split_delimiter ServiceExternalWebRequest#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#take_from_end ServiceExternalWebRequest#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#take_from_end ServiceExternalWebRequest#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -1001,7 +1001,7 @@ export interface ServiceExternalWebRequestIdContributorsApplicationIdServiceIdCo
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
   */
   readonly transformation: ServiceExternalWebRequestIdContributorsApplicationIdServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -1084,7 +1084,7 @@ export interface ServiceExternalWebRequestIdContributorsApplicationIdServiceIdCo
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
   */
   readonly value: string;
 }
@@ -1167,19 +1167,19 @@ export interface ServiceExternalWebRequestIdContributorsApplicationIdServiceIdCo
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
   */
   readonly contributionType: string;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
   */
   readonly transformations?: ServiceExternalWebRequestIdContributorsApplicationIdServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
   */
   readonly valueOverride?: ServiceExternalWebRequestIdContributorsApplicationIdServiceIdContributorValueOverride;
 }
@@ -1320,13 +1320,13 @@ export interface ServiceExternalWebRequestIdContributorsApplicationId {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceExternalWebRequestIdContributorsApplicationIdServiceIdContributor;
 }
@@ -1438,37 +1438,37 @@ export interface ServiceExternalWebRequestIdContributorsContextRootServiceIdCont
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
   */
   readonly suffix?: string;
   /**
   * Possible Values: `BEFORE`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -1728,7 +1728,7 @@ export interface ServiceExternalWebRequestIdContributorsContextRootServiceIdCont
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
   */
   readonly transformation: ServiceExternalWebRequestIdContributorsContextRootServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -1811,7 +1811,7 @@ export interface ServiceExternalWebRequestIdContributorsContextRootServiceIdCont
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
   */
   readonly value: string;
 }
@@ -1894,25 +1894,25 @@ export interface ServiceExternalWebRequestIdContributorsContextRootServiceIdCont
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformURL`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
   */
   readonly contributionType: string;
   /**
   * The number of segments of the URL to be kept. The URL is divided by slashes (/), the indexing starts with 1 at context root. For example, if you specify 2 for the `www.dynatrace.com/support/help/dynatrace-api/` URL, the value of `support/help` is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
   */
   readonly transformations?: ServiceExternalWebRequestIdContributorsContextRootServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
   */
   readonly valueOverride?: ServiceExternalWebRequestIdContributorsContextRootServiceIdContributorValueOverride;
 }
@@ -2082,13 +2082,13 @@ export interface ServiceExternalWebRequestIdContributorsContextRoot {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceExternalWebRequestIdContributorsContextRootServiceIdContributor;
 }
@@ -2200,61 +2200,61 @@ export interface ServiceExternalWebRequestIdContributorsPublicDomainNameServiceI
   /**
   * include hexadecimal numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#include_hex_numbers ServiceExternalWebRequest#include_hex_numbers}
   */
   readonly includeHexNumbers?: boolean | cdktf.IResolvable;
   /**
   * min digit count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#min_digit_count ServiceExternalWebRequest#min_digit_count}
   */
   readonly minDigitCount?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#prefix ServiceExternalWebRequest#prefix}
   */
   readonly prefix?: string;
   /**
   * replacement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#replacement_value ServiceExternalWebRequest#replacement_value}
   */
   readonly replacementValue?: string;
   /**
   * How many segments should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#segment_count ServiceExternalWebRequest#segment_count}
   */
   readonly segmentCount?: number;
   /**
   * select index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#select_index ServiceExternalWebRequest#select_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#select_index ServiceExternalWebRequest#select_index}
   */
   readonly selectIndex?: number;
   /**
   * split by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#split_delimiter ServiceExternalWebRequest#split_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#split_delimiter ServiceExternalWebRequest#split_delimiter}
   */
   readonly splitDelimiter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#suffix ServiceExternalWebRequest#suffix}
   */
   readonly suffix?: string;
   /**
   * take from end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#take_from_end ServiceExternalWebRequest#take_from_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#take_from_end ServiceExternalWebRequest#take_from_end}
   */
   readonly takeFromEnd?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `AFTER`, `BEFORE`, `BETWEEN`, `REMOVE_CREDIT_CARDS`, `REMOVE_IBANS`, `REMOVE_IPS`, `REMOVE_NUMBERS`, `REPLACE_BETWEEN`, `SPLIT_SELECT`, `TAKE_SEGMENTS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation_type ServiceExternalWebRequest#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -2630,7 +2630,7 @@ export interface ServiceExternalWebRequestIdContributorsPublicDomainNameServiceI
   /**
   * transformation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformation ServiceExternalWebRequest#transformation}
   */
   readonly transformation: ServiceExternalWebRequestIdContributorsPublicDomainNameServiceIdContributorTransformationsTransformation[] | cdktf.IResolvable;
 }
@@ -2713,7 +2713,7 @@ export interface ServiceExternalWebRequestIdContributorsPublicDomainNameServiceI
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value ServiceExternalWebRequest#value}
   */
   readonly value: string;
 }
@@ -2796,25 +2796,25 @@ export interface ServiceExternalWebRequestIdContributorsPublicDomainNameServiceI
   /**
   * Possible Values: `OriginalValue`, `OverrideValue`, `TransformValue`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#contribution_type ServiceExternalWebRequest#contribution_type}
   */
   readonly contributionType: string;
   /**
   * Use the detected host name instead of the request's domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#copy_from_host_name ServiceExternalWebRequest#copy_from_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#copy_from_host_name ServiceExternalWebRequest#copy_from_host_name}
   */
   readonly copyFromHostName?: boolean | cdktf.IResolvable;
   /**
   * transformations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#transformations ServiceExternalWebRequest#transformations}
   */
   readonly transformations?: ServiceExternalWebRequestIdContributorsPublicDomainNameServiceIdContributorTransformations;
   /**
   * value_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#value_override ServiceExternalWebRequest#value_override}
   */
   readonly valueOverride?: ServiceExternalWebRequestIdContributorsPublicDomainNameServiceIdContributorValueOverride;
 }
@@ -2984,13 +2984,13 @@ export interface ServiceExternalWebRequestIdContributorsPublicDomainName {
   /**
   * Transform this value before letting it contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#enable_id_contributor ServiceExternalWebRequest#enable_id_contributor}
   */
   readonly enableIdContributor: boolean | cdktf.IResolvable;
   /**
   * service_id_contributor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#service_id_contributor ServiceExternalWebRequest#service_id_contributor}
   */
   readonly serviceIdContributor?: ServiceExternalWebRequestIdContributorsPublicDomainNameServiceIdContributor;
 }
@@ -3102,25 +3102,25 @@ export interface ServiceExternalWebRequestIdContributors {
   /**
   * Let the port contribute to the Service Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#port_for_service_id ServiceExternalWebRequest#port_for_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#port_for_service_id ServiceExternalWebRequest#port_for_service_id}
   */
   readonly portForServiceId: boolean | cdktf.IResolvable;
   /**
   * application_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#application_id ServiceExternalWebRequest#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#application_id ServiceExternalWebRequest#application_id}
   */
   readonly applicationId: ServiceExternalWebRequestIdContributorsApplicationId;
   /**
   * context_root block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#context_root ServiceExternalWebRequest#context_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#context_root ServiceExternalWebRequest#context_root}
   */
   readonly contextRoot: ServiceExternalWebRequestIdContributorsContextRoot;
   /**
   * public_domain_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#public_domain_name ServiceExternalWebRequest#public_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#public_domain_name ServiceExternalWebRequest#public_domain_name}
   */
   readonly publicDomainName: ServiceExternalWebRequestIdContributorsPublicDomainName;
 }
@@ -3279,7 +3279,7 @@ export class ServiceExternalWebRequestIdContributorsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request dynatrace_service_external_web_request}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request dynatrace_service_external_web_request}
 */
 export class ServiceExternalWebRequest extends cdktf.TerraformResource {
 
@@ -3295,7 +3295,7 @@ export class ServiceExternalWebRequest extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceExternalWebRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceExternalWebRequest to import
-  * @param importFromId The id of the existing ServiceExternalWebRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceExternalWebRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceExternalWebRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3307,7 +3307,7 @@ export class ServiceExternalWebRequest extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_external_web_request dynatrace_service_external_web_request} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_external_web_request dynatrace_service_external_web_request} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3318,8 +3318,8 @@ export class ServiceExternalWebRequest extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_external_web_request',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

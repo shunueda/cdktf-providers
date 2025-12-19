@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface NetPeeringAcceptationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#net_peering_id NetPeeringAcceptation#net_peering_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#net_peering_id NetPeeringAcceptation#net_peering_id}
   */
   readonly netPeeringId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#timeouts NetPeeringAcceptation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#timeouts NetPeeringAcceptation#timeouts}
   */
   readonly timeouts?: NetPeeringAcceptationTimeouts;
 }
@@ -352,25 +352,25 @@ export interface NetPeeringAcceptationTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#create NetPeeringAcceptation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#create NetPeeringAcceptation#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#delete NetPeeringAcceptation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#delete NetPeeringAcceptation#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#read NetPeeringAcceptation#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#read NetPeeringAcceptation#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#update NetPeeringAcceptation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#update NetPeeringAcceptation#update}
   */
   readonly update?: string;
 }
@@ -551,7 +551,7 @@ export class NetPeeringAcceptationTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation outscale_net_peering_acceptation}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation outscale_net_peering_acceptation}
 */
 export class NetPeeringAcceptation extends cdktf.TerraformResource {
 
@@ -567,7 +567,7 @@ export class NetPeeringAcceptation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetPeeringAcceptation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetPeeringAcceptation to import
-  * @param importFromId The id of the existing NetPeeringAcceptation that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetPeeringAcceptation that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetPeeringAcceptation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -579,7 +579,7 @@ export class NetPeeringAcceptation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/net_peering_acceptation outscale_net_peering_acceptation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/net_peering_acceptation outscale_net_peering_acceptation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,8 +590,8 @@ export class NetPeeringAcceptation extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_net_peering_acceptation',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

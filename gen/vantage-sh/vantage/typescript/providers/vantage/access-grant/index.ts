@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface AccessGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access level of the grant. Must be either `allowed` or `denied`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant#access AccessGrant#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant#access AccessGrant#access}
   */
   readonly access?: string;
   /**
   * Token of the resource being granted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant#resource_token AccessGrant#resource_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant#resource_token AccessGrant#resource_token}
   */
   readonly resourceToken: string;
   /**
   * Token of the team being granted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant#team_token AccessGrant#team_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant#team_token AccessGrant#team_token}
   */
   readonly teamToken: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant vantage_access_grant}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant vantage_access_grant}
 */
 export class AccessGrant extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class AccessGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessGrant to import
-  * @param importFromId The id of the existing AccessGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class AccessGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/access_grant vantage_access_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/access_grant vantage_access_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class AccessGrant extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_access_grant',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

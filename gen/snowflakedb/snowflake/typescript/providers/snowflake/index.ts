@@ -120,6 +120,7 @@ export * as dataSnowflakeFunctions from './data-snowflake-functions';
 export * as dataSnowflakeGitRepositories from './data-snowflake-git-repositories';
 export * as dataSnowflakeGrants from './data-snowflake-grants';
 export * as dataSnowflakeImageRepositories from './data-snowflake-image-repositories';
+export * as dataSnowflakeListings from './data-snowflake-listings';
 export * as dataSnowflakeMaskingPolicies from './data-snowflake-masking-policies';
 export * as dataSnowflakeMaterializedViews from './data-snowflake-materialized-views';
 export * as dataSnowflakeNetworkPolicies from './data-snowflake-network-policies';

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AwsProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bucket ARN for where CUR data is being stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider#bucket_arn AwsProvider#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider#bucket_arn AwsProvider#bucket_arn}
   */
   readonly bucketArn?: string;
   /**
   * ARN to use for cross account access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider#cross_account_arn AwsProvider#cross_account_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider#cross_account_arn AwsProvider#cross_account_arn}
   */
   readonly crossAccountArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider vantage_aws_provider}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider vantage_aws_provider}
 */
 export class AwsProvider extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AwsProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsProvider to import
-  * @param importFromId The id of the existing AwsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AwsProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/aws_provider vantage_aws_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/aws_provider vantage_aws_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AwsProvider extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_aws_provider',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

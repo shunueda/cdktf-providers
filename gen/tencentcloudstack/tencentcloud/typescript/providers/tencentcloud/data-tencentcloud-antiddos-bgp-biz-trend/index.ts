@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudAntiddosBgpBizTrendConfig extends cdktf.Terrafo
   /**
   * Dayu sub product code (bgpip represents advanced defense IP; net represents professional version of advanced defense IP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#business DataTencentcloudAntiddosBgpBizTrend#business}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#business DataTencentcloudAntiddosBgpBizTrend#business}
   */
   readonly business: string;
   /**
   * Statistic end time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#end_time DataTencentcloudAntiddosBgpBizTrend#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#end_time DataTencentcloudAntiddosBgpBizTrend#end_time}
   */
   readonly endTime: string;
   /**
   * 0 represents fixed time, 1 represents custom time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#flag DataTencentcloudAntiddosBgpBizTrend#flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#flag DataTencentcloudAntiddosBgpBizTrend#flag}
   */
   readonly flag: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#id DataTencentcloudAntiddosBgpBizTrend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#id DataTencentcloudAntiddosBgpBizTrend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DataTencentcloudAntiddosBgpBizTrendConfig extends cdktf.Terrafo
   /**
   * Antiddos InstanceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#instance_id DataTencentcloudAntiddosBgpBizTrend#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#instance_id DataTencentcloudAntiddosBgpBizTrend#instance_id}
   */
   readonly instanceId: string;
   /**
   * Statistic metric name, for example: intraffic, outtraffic, inpkg, outpkg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#metric_name DataTencentcloudAntiddosBgpBizTrend#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#metric_name DataTencentcloudAntiddosBgpBizTrend#metric_name}
   */
   readonly metricName: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#result_output_file DataTencentcloudAntiddosBgpBizTrend#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#result_output_file DataTencentcloudAntiddosBgpBizTrend#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Statistic start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#start_time DataTencentcloudAntiddosBgpBizTrend#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#start_time DataTencentcloudAntiddosBgpBizTrend#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend tencentcloud_antiddos_bgp_biz_trend}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend tencentcloud_antiddos_bgp_biz_trend}
 */
 export class DataTencentcloudAntiddosBgpBizTrend extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataTencentcloudAntiddosBgpBizTrend extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudAntiddosBgpBizTrend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudAntiddosBgpBizTrend to import
-  * @param importFromId The id of the existing DataTencentcloudAntiddosBgpBizTrend that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudAntiddosBgpBizTrend that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudAntiddosBgpBizTrend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataTencentcloudAntiddosBgpBizTrend extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/antiddos_bgp_biz_trend tencentcloud_antiddos_bgp_biz_trend} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/antiddos_bgp_biz_trend tencentcloud_antiddos_bgp_biz_trend} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataTencentcloudAntiddosBgpBizTrend extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_antiddos_bgp_biz_trend',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

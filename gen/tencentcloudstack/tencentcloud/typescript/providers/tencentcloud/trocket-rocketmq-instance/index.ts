@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TrocketRocketmqInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Public network bandwidth. `bandwidth` must be greater than zero when `enable_public` equal true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#bandwidth TrocketRocketmqInstance#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#bandwidth TrocketRocketmqInstance#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Whether to enable the public network. Must set `bandwidth` when `enable_public` equal true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#enable_public TrocketRocketmqInstance#enable_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#enable_public TrocketRocketmqInstance#enable_public}
   */
   readonly enablePublic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#id TrocketRocketmqInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#id TrocketRocketmqInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface TrocketRocketmqInstanceConfig extends cdktf.TerraformMetaArgume
   /**
   * Instance type. Valid values: `EXPERIMENT`, `BASIC`, `PRO`, `PLATINUM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#instance_type TrocketRocketmqInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#instance_type TrocketRocketmqInstance#instance_type}
   */
   readonly instanceType: string;
   /**
   * Message retention time in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#message_retention TrocketRocketmqInstance#message_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#message_retention TrocketRocketmqInstance#message_retention}
   */
   readonly messageRetention?: number;
   /**
   * Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#name TrocketRocketmqInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#name TrocketRocketmqInstance#name}
   */
   readonly name: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#remark TrocketRocketmqInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#remark TrocketRocketmqInstance#remark}
   */
   readonly remark?: string;
   /**
   * SKU code. Available specifications are as follows: experiment_500, basic_1k, basic_2k, basic_3k, basic_4k, basic_5k, basic_6k, basic_7k, basic_8k, basic_9k, basic_10k, pro_4k, pro_6k, pro_8k, pro_1w, pro_15k, pro_2w, pro_25k, pro_3w, pro_35k, pro_4w, pro_45k, pro_5w, pro_55k, pro_60k, pro_65k, pro_70k, pro_75k, pro_80k, pro_85k, pro_90k, pro_95k, pro_100k, platinum_1w, platinum_2w, platinum_3w, platinum_4w, platinum_5w, platinum_6w, platinum_7w, platinum_8w, platinum_9w, platinum_10w, platinum_12w, platinum_14w, platinum_16w, platinum_18w, platinum_20w, platinum_25w, platinum_30w, platinum_35w, platinum_40w, platinum_45w, platinum_50w, platinum_60w, platinum_70w, platinum_80w, platinum_90w, platinum_100w.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#sku_code TrocketRocketmqInstance#sku_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#sku_code TrocketRocketmqInstance#sku_code}
   */
   readonly skuCode: string;
   /**
   * Subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#subnet_id TrocketRocketmqInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#subnet_id TrocketRocketmqInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#tags TrocketRocketmqInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#tags TrocketRocketmqInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * VPC id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#vpc_id TrocketRocketmqInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#vpc_id TrocketRocketmqInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * ip_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#ip_rules TrocketRocketmqInstance#ip_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#ip_rules TrocketRocketmqInstance#ip_rules}
   */
   readonly ipRules?: TrocketRocketmqInstanceIpRules[] | cdktf.IResolvable;
 }
@@ -85,19 +85,19 @@ export interface TrocketRocketmqInstanceIpRules {
   /**
   * Whether to allow release or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#allow TrocketRocketmqInstance#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#allow TrocketRocketmqInstance#allow}
   */
   readonly allow: boolean | cdktf.IResolvable;
   /**
   * IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#ip TrocketRocketmqInstance#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#ip TrocketRocketmqInstance#ip}
   */
   readonly ip: string;
   /**
   * Remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#remark TrocketRocketmqInstance#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#remark TrocketRocketmqInstance#remark}
   */
   readonly remark: string;
 }
@@ -262,7 +262,7 @@ export class TrocketRocketmqInstanceIpRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance tencentcloud_trocket_rocketmq_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance tencentcloud_trocket_rocketmq_instance}
 */
 export class TrocketRocketmqInstance extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class TrocketRocketmqInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TrocketRocketmqInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrocketRocketmqInstance to import
-  * @param importFromId The id of the existing TrocketRocketmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrocketRocketmqInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrocketRocketmqInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class TrocketRocketmqInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/trocket_rocketmq_instance tencentcloud_trocket_rocketmq_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/trocket_rocketmq_instance tencentcloud_trocket_rocketmq_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class TrocketRocketmqInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_trocket_rocketmq_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

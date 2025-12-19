@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VultrProviderConfig {
   /**
   * The API Key that allows interaction with the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs#api_key VultrProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs#api_key VultrProvider#api_key}
   */
   readonly apiKey: string;
   /**
   * Allows users to set the speed of API calls to work with the Vultr Rate Limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs#rate_limit VultrProvider#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs#rate_limit VultrProvider#rate_limit}
   */
   readonly rateLimit?: number;
   /**
   * Allows users to set the maximum number of retries allowed for a failed API call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs#retry_limit VultrProvider#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs#retry_limit VultrProvider#retry_limit}
   */
   readonly retryLimit?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs#alias VultrProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs#alias VultrProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs vultr}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs vultr}
 */
 export class VultrProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class VultrProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VultrProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VultrProvider to import
-  * @param importFromId The id of the existing VultrProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VultrProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VultrProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VultrProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs vultr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs vultr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class VultrProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vultr',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       terraformProviderSource: 'vultr/vultr'
     });

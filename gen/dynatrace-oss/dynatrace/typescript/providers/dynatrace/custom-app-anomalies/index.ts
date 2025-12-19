@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#id CustomAppAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#id CustomAppAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface CustomAppAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (DEVICE_APPLICATION_METHOD CUSTOM_APPLICATION environment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#scope CustomAppAnomalies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#scope CustomAppAnomalies#scope}
   */
   readonly scope?: string;
   /**
   * error_rate_increase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#error_rate_increase CustomAppAnomalies#error_rate_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#error_rate_increase CustomAppAnomalies#error_rate_increase}
   */
   readonly errorRateIncrease: CustomAppAnomaliesErrorRateIncrease;
   /**
   * slow_user_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#slow_user_actions CustomAppAnomalies#slow_user_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#slow_user_actions CustomAppAnomalies#slow_user_actions}
   */
   readonly slowUserActions: CustomAppAnomaliesSlowUserActions;
   /**
   * unexpected_high_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#unexpected_high_load CustomAppAnomalies#unexpected_high_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#unexpected_high_load CustomAppAnomalies#unexpected_high_load}
   */
   readonly unexpectedHighLoad: CustomAppAnomaliesUnexpectedHighLoad;
   /**
   * unexpected_low_load block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#unexpected_low_load CustomAppAnomalies#unexpected_low_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#unexpected_low_load CustomAppAnomalies#unexpected_low_load}
   */
   readonly unexpectedLowLoad: CustomAppAnomaliesUnexpectedLowLoad;
 }
@@ -49,13 +49,13 @@ export interface CustomAppAnomaliesErrorRateIncreaseErrorRateIncreaseAuto {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#threshold_absolute CustomAppAnomalies#threshold_absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#threshold_absolute CustomAppAnomalies#threshold_absolute}
   */
   readonly thresholdAbsolute: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#threshold_relative CustomAppAnomalies#threshold_relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#threshold_relative CustomAppAnomalies#threshold_relative}
   */
   readonly thresholdRelative: number;
 }
@@ -164,13 +164,13 @@ export interface CustomAppAnomaliesErrorRateIncreaseErrorRateIncreaseFixed {
   /**
   * Possible Values: `Low`, `Medium`, `High`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#sensitivity CustomAppAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#sensitivity CustomAppAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#threshold_absolute CustomAppAnomalies#threshold_absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#threshold_absolute CustomAppAnomalies#threshold_absolute}
   */
   readonly thresholdAbsolute: number;
 }
@@ -279,25 +279,25 @@ export interface CustomAppAnomaliesErrorRateIncrease {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#detection_mode CustomAppAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#detection_mode CustomAppAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * error_rate_increase_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#error_rate_increase_auto CustomAppAnomalies#error_rate_increase_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#error_rate_increase_auto CustomAppAnomalies#error_rate_increase_auto}
   */
   readonly errorRateIncreaseAuto?: CustomAppAnomaliesErrorRateIncreaseErrorRateIncreaseAuto;
   /**
   * error_rate_increase_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#error_rate_increase_fixed CustomAppAnomalies#error_rate_increase_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#error_rate_increase_fixed CustomAppAnomalies#error_rate_increase_fixed}
   */
   readonly errorRateIncreaseFixed?: CustomAppAnomaliesErrorRateIncreaseErrorRateIncreaseFixed;
 }
@@ -467,7 +467,7 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationAvo
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#min_action_rate CustomAppAnomalies#min_action_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#min_action_rate CustomAppAnomalies#min_action_rate}
   */
   readonly minActionRate: number;
 }
@@ -550,13 +550,13 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThr
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#slowdown_percentage CustomAppAnomalies#slowdown_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#slowdown_percentage CustomAppAnomalies#slowdown_percentage}
   */
   readonly slowdownPercentage: number;
 }
@@ -665,13 +665,13 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThr
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
   /**
   * Relative threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#slowdown_percentage CustomAppAnomalies#slowdown_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#slowdown_percentage CustomAppAnomalies#slowdown_percentage}
   */
   readonly slowdownPercentage: number;
 }
@@ -780,19 +780,19 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsAuto {
   /**
   * duration_avoid_overalerting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_avoid_overalerting CustomAppAnomalies#duration_avoid_overalerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_avoid_overalerting CustomAppAnomalies#duration_avoid_overalerting}
   */
   readonly durationAvoidOveralerting: CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationAvoidOveralerting;
   /**
   * duration_threshold_all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold_all CustomAppAnomalies#duration_threshold_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold_all CustomAppAnomalies#duration_threshold_all}
   */
   readonly durationThresholdAll: CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThresholdAll;
   /**
   * duration_threshold_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold_slowest CustomAppAnomalies#duration_threshold_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold_slowest CustomAppAnomalies#duration_threshold_slowest}
   */
   readonly durationThresholdSlowest: CustomAppAnomaliesSlowUserActionsSlowUserActionsAutoDurationThresholdSlowest;
 }
@@ -927,7 +927,7 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationAv
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#min_action_rate CustomAppAnomalies#min_action_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#min_action_rate CustomAppAnomalies#min_action_rate}
   */
   readonly minActionRate: number;
 }
@@ -1010,7 +1010,7 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationTh
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
 }
@@ -1093,7 +1093,7 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationTh
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold CustomAppAnomalies#duration_threshold}
   */
   readonly durationThreshold: number;
 }
@@ -1176,25 +1176,25 @@ export interface CustomAppAnomaliesSlowUserActionsSlowUserActionsFixed {
   /**
   * Possible Values: `Medium`, `High`, `Low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#sensitivity CustomAppAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#sensitivity CustomAppAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * duration_avoid_overalerting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_avoid_overalerting CustomAppAnomalies#duration_avoid_overalerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_avoid_overalerting CustomAppAnomalies#duration_avoid_overalerting}
   */
   readonly durationAvoidOveralerting: CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationAvoidOveralerting;
   /**
   * duration_threshold_all_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold_all_fixed CustomAppAnomalies#duration_threshold_all_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold_all_fixed CustomAppAnomalies#duration_threshold_all_fixed}
   */
   readonly durationThresholdAllFixed: CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationThresholdAllFixed;
   /**
   * duration_threshold_slowest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#duration_threshold_slowest CustomAppAnomalies#duration_threshold_slowest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#duration_threshold_slowest CustomAppAnomalies#duration_threshold_slowest}
   */
   readonly durationThresholdSlowest: CustomAppAnomaliesSlowUserActionsSlowUserActionsFixedDurationThresholdSlowest;
 }
@@ -1355,25 +1355,25 @@ export interface CustomAppAnomaliesSlowUserActions {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#detection_mode CustomAppAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#detection_mode CustomAppAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * slow_user_actions_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#slow_user_actions_auto CustomAppAnomalies#slow_user_actions_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#slow_user_actions_auto CustomAppAnomalies#slow_user_actions_auto}
   */
   readonly slowUserActionsAuto?: CustomAppAnomaliesSlowUserActionsSlowUserActionsAuto;
   /**
   * slow_user_actions_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#slow_user_actions_fixed CustomAppAnomalies#slow_user_actions_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#slow_user_actions_fixed CustomAppAnomalies#slow_user_actions_fixed}
   */
   readonly slowUserActionsFixed?: CustomAppAnomaliesSlowUserActionsSlowUserActionsFixed;
 }
@@ -1543,13 +1543,13 @@ export interface CustomAppAnomaliesUnexpectedHighLoad {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Dynatrace learns your typical application traffic over an observation period of one week. Depending on this expected value Dynatrace detects abnormal traffic spikes within your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#threshold_percentage CustomAppAnomalies#threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#threshold_percentage CustomAppAnomalies#threshold_percentage}
   */
   readonly thresholdPercentage?: number;
 }
@@ -1661,13 +1661,13 @@ export interface CustomAppAnomaliesUnexpectedLowLoad {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#enabled CustomAppAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Dynatrace learns your typical application traffic over an observation period of one week. Depending on this expected value Dynatrace detects abnormal traffic drops within your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#threshold_percentage CustomAppAnomalies#threshold_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#threshold_percentage CustomAppAnomalies#threshold_percentage}
   */
   readonly thresholdPercentage?: number;
 }
@@ -1777,7 +1777,7 @@ export class CustomAppAnomaliesUnexpectedLowLoadOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies dynatrace_custom_app_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies dynatrace_custom_app_anomalies}
 */
 export class CustomAppAnomalies extends cdktf.TerraformResource {
 
@@ -1793,7 +1793,7 @@ export class CustomAppAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomAppAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomAppAnomalies to import
-  * @param importFromId The id of the existing CustomAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomAppAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomAppAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1805,7 +1805,7 @@ export class CustomAppAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_anomalies dynatrace_custom_app_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_anomalies dynatrace_custom_app_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1816,8 +1816,8 @@ export class CustomAppAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_app_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

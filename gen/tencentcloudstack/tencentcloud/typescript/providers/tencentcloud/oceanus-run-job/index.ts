@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OceanusRunJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#id OceanusRunJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#id OceanusRunJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface OceanusRunJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#work_space_id OceanusRunJob#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#work_space_id OceanusRunJob#work_space_id}
   */
   readonly workSpaceId?: string;
   /**
   * run_job_descriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#run_job_descriptions OceanusRunJob#run_job_descriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#run_job_descriptions OceanusRunJob#run_job_descriptions}
   */
   readonly runJobDescriptions: OceanusRunJobRunJobDescriptions[] | cdktf.IResolvable;
 }
@@ -31,49 +31,49 @@ export interface OceanusRunJobRunJobDescriptions {
   /**
   * Custom timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#custom_timestamp OceanusRunJob#custom_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#custom_timestamp OceanusRunJob#custom_timestamp}
   */
   readonly customTimestamp?: number;
   /**
   * A certain version of the current job(Not passed by default as a non-draft job version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#job_config_version OceanusRunJob#job_config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#job_config_version OceanusRunJob#job_config_version}
   */
   readonly jobConfigVersion?: number;
   /**
   * Job ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#job_id OceanusRunJob#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#job_id OceanusRunJob#job_id}
   */
   readonly jobId: string;
   /**
   * The type of the run. 1 indicates start, and 2 indicates resume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#run_type OceanusRunJob#run_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#run_type OceanusRunJob#run_type}
   */
   readonly runType: number;
   /**
   * Savepoint ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#savepoint_id OceanusRunJob#savepoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#savepoint_id OceanusRunJob#savepoint_id}
   */
   readonly savepointId?: string;
   /**
   * Savepoint path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#savepoint_path OceanusRunJob#savepoint_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#savepoint_path OceanusRunJob#savepoint_path}
   */
   readonly savepointPath?: string;
   /**
   * Compatible with the startup parameters of the old SQL type job: specify the start time point of data source consumption (recommended to pass the value)Ensure that the parameter is LATEST, EARLIEST, T+Timestamp (example: T1557394288000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#start_mode OceanusRunJob#start_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#start_mode OceanusRunJob#start_mode}
   */
   readonly startMode?: string;
   /**
   * Use the historical version of the system dependency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#use_old_system_connector OceanusRunJob#use_old_system_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#use_old_system_connector OceanusRunJob#use_old_system_connector}
   */
   readonly useOldSystemConnector?: boolean | cdktf.IResolvable;
 }
@@ -386,7 +386,7 @@ export class OceanusRunJobRunJobDescriptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job tencentcloud_oceanus_run_job}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job tencentcloud_oceanus_run_job}
 */
 export class OceanusRunJob extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class OceanusRunJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanusRunJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanusRunJob to import
-  * @param importFromId The id of the existing OceanusRunJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanusRunJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanusRunJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class OceanusRunJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/oceanus_run_job tencentcloud_oceanus_run_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/oceanus_run_job tencentcloud_oceanus_run_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class OceanusRunJob extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_oceanus_run_job',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

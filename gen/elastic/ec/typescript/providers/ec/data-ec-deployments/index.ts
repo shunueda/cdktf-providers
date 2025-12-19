@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DataEcDeploymentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filter the result set by the ID of the deployment template the deployment is based off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#deployment_template_id DataEcDeployments#deployment_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#deployment_template_id DataEcDeployments#deployment_template_id}
   */
   readonly deploymentTemplateId?: string;
   /**
   * Filter the result set by their health status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Filter the result by the full deployment name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#name DataEcDeployments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#name DataEcDeployments#name}
   */
   readonly name?: string;
   /**
   * Prefix to filter the returned deployment list by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#name_prefix DataEcDeployments#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#name_prefix DataEcDeployments#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The maximum number of deployments to return. Defaults to `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#size DataEcDeployments#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#size DataEcDeployments#size}
   */
   readonly size?: number;
   /**
   * Filter the result set by their assigned tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#tags DataEcDeployments#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#tags DataEcDeployments#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * apm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#apm DataEcDeployments#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#apm DataEcDeployments#apm}
   */
   readonly apm?: DataEcDeploymentsApm[] | cdktf.IResolvable;
   /**
   * elasticsearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#elasticsearch DataEcDeployments#elasticsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#elasticsearch DataEcDeployments#elasticsearch}
   */
   readonly elasticsearch?: DataEcDeploymentsElasticsearch[] | cdktf.IResolvable;
   /**
   * enterprise_search block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#enterprise_search DataEcDeployments#enterprise_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#enterprise_search DataEcDeployments#enterprise_search}
   */
   readonly enterpriseSearch?: DataEcDeploymentsEnterpriseSearch[] | cdktf.IResolvable;
   /**
   * integrations_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#integrations_server DataEcDeployments#integrations_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#integrations_server DataEcDeployments#integrations_server}
   */
   readonly integrationsServer?: DataEcDeploymentsIntegrationsServer[] | cdktf.IResolvable;
   /**
   * kibana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#kibana DataEcDeployments#kibana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#kibana DataEcDeployments#kibana}
   */
   readonly kibana?: DataEcDeploymentsKibana[] | cdktf.IResolvable;
 }
@@ -213,19 +213,19 @@ export interface DataEcDeploymentsApm {
   /**
   * Overall health status of the resource instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Resource kind status. Can be one of `initializing`, `stopping`, `stopped`, `rebooting`, `restarting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#status DataEcDeployments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#status DataEcDeployments#status}
   */
   readonly status?: string;
   /**
   * Elastic stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#version DataEcDeployments#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#version DataEcDeployments#version}
   */
   readonly version?: string;
 }
@@ -401,19 +401,19 @@ export interface DataEcDeploymentsElasticsearch {
   /**
   * Overall health status of the resource instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Resource kind status. Can be one of `initializing`, `stopping`, `stopped`, `rebooting`, `restarting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#status DataEcDeployments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#status DataEcDeployments#status}
   */
   readonly status?: string;
   /**
   * Elastic stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#version DataEcDeployments#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#version DataEcDeployments#version}
   */
   readonly version?: string;
 }
@@ -589,19 +589,19 @@ export interface DataEcDeploymentsEnterpriseSearch {
   /**
   * Overall health status of the resource instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Resource kind status. Can be one of `initializing`, `stopping`, `stopped`, `rebooting`, `restarting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#status DataEcDeployments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#status DataEcDeployments#status}
   */
   readonly status?: string;
   /**
   * Elastic stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#version DataEcDeployments#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#version DataEcDeployments#version}
   */
   readonly version?: string;
 }
@@ -777,19 +777,19 @@ export interface DataEcDeploymentsIntegrationsServer {
   /**
   * Overall health status of the resource instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Resource kind status. Can be one of `initializing`, `stopping`, `stopped`, `rebooting`, `restarting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#status DataEcDeployments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#status DataEcDeployments#status}
   */
   readonly status?: string;
   /**
   * Elastic stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#version DataEcDeployments#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#version DataEcDeployments#version}
   */
   readonly version?: string;
 }
@@ -965,19 +965,19 @@ export interface DataEcDeploymentsKibana {
   /**
   * Overall health status of the resource instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#healthy DataEcDeployments#healthy}
   */
   readonly healthy?: string;
   /**
   * Resource kind status. Can be one of `initializing`, `stopping`, `stopped`, `rebooting`, `restarting`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#status DataEcDeployments#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#status DataEcDeployments#status}
   */
   readonly status?: string;
   /**
   * Elastic stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#version DataEcDeployments#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#version DataEcDeployments#version}
   */
   readonly version?: string;
 }
@@ -1151,7 +1151,7 @@ export class DataEcDeploymentsKibanaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments ec_deployments}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments ec_deployments}
 */
 export class DataEcDeployments extends cdktf.TerraformDataSource {
 
@@ -1167,7 +1167,7 @@ export class DataEcDeployments extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEcDeployments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEcDeployments to import
-  * @param importFromId The id of the existing DataEcDeployments that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEcDeployments that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEcDeployments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1179,7 +1179,7 @@ export class DataEcDeployments extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployments ec_deployments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployments ec_deployments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1190,8 +1190,8 @@ export class DataEcDeployments extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_deployments',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

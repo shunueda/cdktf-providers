@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LimitOutboundConnectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections#id LimitOutboundConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections#id LimitOutboundConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface LimitOutboundConnectionsConfig extends cdktf.TerraformMetaArgum
   /**
   * allowed_outbound_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections#allowed_outbound_connections LimitOutboundConnections#allowed_outbound_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections#allowed_outbound_connections LimitOutboundConnections#allowed_outbound_connections}
   */
   readonly allowedOutboundConnections: LimitOutboundConnectionsAllowedOutboundConnections;
 }
@@ -25,13 +25,13 @@ export interface LimitOutboundConnectionsAllowedOutboundConnections {
   /**
   * If enabled, the Dynatrace JavaScript runtime will only be able to connect to the specified hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections#enforced LimitOutboundConnections#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections#enforced LimitOutboundConnections#enforced}
   */
   readonly enforced: boolean | cdktf.IResolvable;
   /**
   * The Dynatrace JavaScript runtime will only be to connect to these hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections#host_list LimitOutboundConnections#host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections#host_list LimitOutboundConnections#host_list}
   */
   readonly hostList?: string[];
 }
@@ -141,7 +141,7 @@ export class LimitOutboundConnectionsAllowedOutboundConnectionsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections dynatrace_limit_outbound_connections}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections dynatrace_limit_outbound_connections}
 */
 export class LimitOutboundConnections extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class LimitOutboundConnections extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LimitOutboundConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LimitOutboundConnections to import
-  * @param importFromId The id of the existing LimitOutboundConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LimitOutboundConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LimitOutboundConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class LimitOutboundConnections extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/limit_outbound_connections dynatrace_limit_outbound_connections} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/limit_outbound_connections dynatrace_limit_outbound_connections} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class LimitOutboundConnections extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_limit_outbound_connections',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

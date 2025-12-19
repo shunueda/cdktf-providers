@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/aws_provider_info
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/aws_provider_info
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVantageAwsProviderInfoConfig extends cdktf.TerraformMetaArg
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/aws_provider_info vantage_aws_provider_info}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/aws_provider_info vantage_aws_provider_info}
 */
 export class DataVantageAwsProviderInfo extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataVantageAwsProviderInfo extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageAwsProviderInfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageAwsProviderInfo to import
-  * @param importFromId The id of the existing DataVantageAwsProviderInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/aws_provider_info#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageAwsProviderInfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/aws_provider_info#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageAwsProviderInfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataVantageAwsProviderInfo extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/aws_provider_info vantage_aws_provider_info} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/aws_provider_info vantage_aws_provider_info} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataVantageAwsProviderInfo extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_aws_provider_info',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

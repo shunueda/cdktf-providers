@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Ms365EmailConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * Application (client) ID of your app registered in Microsoft Azure App registrations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#client_id Ms365EmailConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#client_id Ms365EmailConnection#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret of your app registered in Microsoft Azure App registrations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#client_secret Ms365EmailConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#client_secret Ms365EmailConnection#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The email address from which the messages will be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#from_address Ms365EmailConnection#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#from_address Ms365EmailConnection#from_address}
   */
   readonly fromAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#id Ms365EmailConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#id Ms365EmailConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface Ms365EmailConnectionConfig extends cdktf.TerraformMetaArguments
   /**
   * A unique name for the Microsoft 365 email connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#name Ms365EmailConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#name Ms365EmailConnection#name}
   */
   readonly name: string;
   /**
   * Directory (tenant) ID of your Azure Active Directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#tenant_id Ms365EmailConnection#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#tenant_id Ms365EmailConnection#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Possible Values: `client_secret`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#type Ms365EmailConnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#type Ms365EmailConnection#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection dynatrace_ms365_email_connection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection dynatrace_ms365_email_connection}
 */
 export class Ms365EmailConnection extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class Ms365EmailConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ms365EmailConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ms365EmailConnection to import
-  * @param importFromId The id of the existing Ms365EmailConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ms365EmailConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ms365EmailConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class Ms365EmailConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ms365_email_connection dynatrace_ms365_email_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ms365_email_connection dynatrace_ms365_email_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class Ms365EmailConnection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ms365_email_connection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

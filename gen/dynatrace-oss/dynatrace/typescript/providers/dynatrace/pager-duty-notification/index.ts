@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PagerDutyNotificationConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the PagerDuty account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#account PagerDutyNotification#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#account PagerDutyNotification#account}
   */
   readonly account: string;
   /**
   * The configuration is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#active PagerDutyNotification#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#active PagerDutyNotification#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The API key to access PagerDuty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#api_key PagerDutyNotification#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#api_key PagerDutyNotification#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#id PagerDutyNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#id PagerDutyNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface PagerDutyNotificationConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of these settings when referred to from resources requiring the REST API V1 keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#legacy_id PagerDutyNotification#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#legacy_id PagerDutyNotification#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * The name of the notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#name PagerDutyNotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#name PagerDutyNotification#name}
   */
   readonly name: string;
   /**
   * The ID of the associated alerting profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#profile PagerDutyNotification#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#profile PagerDutyNotification#profile}
   */
   readonly profile: string;
   /**
   * The name of the PagerDuty Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#service PagerDutyNotification#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#service PagerDutyNotification#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification dynatrace_pager_duty_notification}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification dynatrace_pager_duty_notification}
 */
 export class PagerDutyNotification extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class PagerDutyNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PagerDutyNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PagerDutyNotification to import
-  * @param importFromId The id of the existing PagerDutyNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PagerDutyNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PagerDutyNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class PagerDutyNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/pager_duty_notification dynatrace_pager_duty_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/pager_duty_notification dynatrace_pager_duty_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class PagerDutyNotification extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_pager_duty_notification',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

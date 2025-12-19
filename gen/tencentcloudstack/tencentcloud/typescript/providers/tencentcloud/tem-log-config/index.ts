@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface TemLogConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#application_id TemLogConfig#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#application_id TemLogConfig#application_id}
   */
   readonly applicationId: string;
   /**
   * regex pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#beginning_regex TemLogConfig#beginning_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#beginning_regex TemLogConfig#beginning_regex}
   */
   readonly beginningRegex?: string;
   /**
   * environment ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#environment_id TemLogConfig#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#environment_id TemLogConfig#environment_id}
   */
   readonly environmentId: string;
   /**
   * file name pattern if container_file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#file_pattern TemLogConfig#file_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#file_pattern TemLogConfig#file_pattern}
   */
   readonly filePattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#id TemLogConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#id TemLogConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface TemLogConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * container_stdout or container_file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#input_type TemLogConfig#input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#input_type TemLogConfig#input_type}
   */
   readonly inputType: string;
   /**
   * directory if container_file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#log_path TemLogConfig#log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#log_path TemLogConfig#log_path}
   */
   readonly logPath?: string;
   /**
   * minimalist_log or multiline_log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#log_type TemLogConfig#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#log_type TemLogConfig#log_type}
   */
   readonly logType: string;
   /**
   * logset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#logset_id TemLogConfig#logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#logset_id TemLogConfig#logset_id}
   */
   readonly logsetId: string;
   /**
   * appConfig name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#name TemLogConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#name TemLogConfig#name}
   */
   readonly name: string;
   /**
   * topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#topic_id TemLogConfig#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#topic_id TemLogConfig#topic_id}
   */
   readonly topicId: string;
   /**
   * application ID, which is combined by environment ID and application ID, like `en-o5edaepv#app-3j29aa2p`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#workload_id TemLogConfig#workload_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#workload_id TemLogConfig#workload_id}
   */
   readonly workloadId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config tencentcloud_tem_log_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config tencentcloud_tem_log_config}
 */
 export class TemLogConfig extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class TemLogConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TemLogConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemLogConfig to import
-  * @param importFromId The id of the existing TemLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemLogConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class TemLogConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tem_log_config tencentcloud_tem_log_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tem_log_config tencentcloud_tem_log_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class TemLogConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tem_log_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

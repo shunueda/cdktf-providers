@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CloudFoundryConfig extends cdktf.TerraformMetaArguments {
   /**
   * ActiveGate group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#active_gate_group CloudFoundry#active_gate_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#active_gate_group CloudFoundry#active_gate_group}
   */
   readonly activeGateGroup?: string;
   /**
   * Cloud Foundry API Target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#api_url CloudFoundry#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#api_url CloudFoundry#api_url}
   */
   readonly apiUrl: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#enabled CloudFoundry#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#enabled CloudFoundry#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#id CloudFoundry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#id CloudFoundry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CloudFoundryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name this connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#label CloudFoundry#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#label CloudFoundry#label}
   */
   readonly label: string;
   /**
   * Cloud Foundry Authentication Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#login_url CloudFoundry#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#login_url CloudFoundry#login_url}
   */
   readonly loginUrl: string;
   /**
   * Cloud Foundry Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#password CloudFoundry#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#password CloudFoundry#password}
   */
   readonly password: string;
   /**
   * Cloud Foundry Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#username CloudFoundry#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#username CloudFoundry#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry dynatrace_cloud_foundry}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry dynatrace_cloud_foundry}
 */
 export class CloudFoundry extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CloudFoundry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudFoundry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudFoundry to import
-  * @param importFromId The id of the existing CloudFoundry that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudFoundry that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudFoundry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CloudFoundry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_foundry dynatrace_cloud_foundry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_foundry dynatrace_cloud_foundry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CloudFoundry extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_cloud_foundry',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

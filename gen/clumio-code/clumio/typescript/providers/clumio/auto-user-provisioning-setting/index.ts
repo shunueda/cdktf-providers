@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_setting
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface AutoUserProvisioningSettingConfig extends cdktf.TerraformMetaAr
   /**
   * Whether auto user provisioning is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_setting#is_enabled AutoUserProvisioningSetting#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_setting#is_enabled AutoUserProvisioningSetting#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_setting clumio_auto_user_provisioning_setting}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_setting clumio_auto_user_provisioning_setting}
 */
 export class AutoUserProvisioningSetting extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class AutoUserProvisioningSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoUserProvisioningSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoUserProvisioningSetting to import
-  * @param importFromId The id of the existing AutoUserProvisioningSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoUserProvisioningSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoUserProvisioningSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class AutoUserProvisioningSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_setting clumio_auto_user_provisioning_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_setting clumio_auto_user_provisioning_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class AutoUserProvisioningSetting extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_auto_user_provisioning_setting',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

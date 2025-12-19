@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription
+// https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Project description. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#description Subscription#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#description Subscription#description}
   */
   readonly description?: string;
   /**
   * Project Id. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#disabled Subscription#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#disabled Subscription#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * filter. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#filter Subscription#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#filter Subscription#filter}
   */
   readonly filter?: string;
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#group_id Subscription#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#group_id Subscription#group_id}
   */
   readonly groupId: string;
   /**
   * new Id to be used for subscription to be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#id Subscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#id Subscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,13 +43,13 @@ export interface SubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * pipeline to be used. Requires replacement if changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#pipeline Subscription#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#pipeline Subscription#pipeline}
   */
   readonly pipeline: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription criblio_subscription}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription criblio_subscription}
 */
 export class Subscription extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Subscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Subscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Subscription to import
-  * @param importFromId The id of the existing Subscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Subscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Subscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Subscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/subscription criblio_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/subscription criblio_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Subscription extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_subscription',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.69',
-        providerVersionConstraint: '1.20.69'
+        providerVersion: '1.20.72',
+        providerVersionConstraint: '1.20.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

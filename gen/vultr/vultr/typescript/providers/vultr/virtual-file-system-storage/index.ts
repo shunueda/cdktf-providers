@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualFileSystemStorageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#attached_instances VirtualFileSystemStorage#attached_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#attached_instances VirtualFileSystemStorage#attached_instances}
   */
   readonly attachedInstances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#disk_type VirtualFileSystemStorage#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#disk_type VirtualFileSystemStorage#disk_type}
   */
   readonly diskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#id VirtualFileSystemStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#id VirtualFileSystemStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#label VirtualFileSystemStorage#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#label VirtualFileSystemStorage#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#region VirtualFileSystemStorage#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#region VirtualFileSystemStorage#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#size_gb VirtualFileSystemStorage#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#size_gb VirtualFileSystemStorage#size_gb}
   */
   readonly sizeGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#tags VirtualFileSystemStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#tags VirtualFileSystemStorage#tags}
   */
   readonly tags?: string[];
 }
@@ -126,7 +126,7 @@ export class VirtualFileSystemStorageAttachmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage vultr_virtual_file_system_storage}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage vultr_virtual_file_system_storage}
 */
 export class VirtualFileSystemStorage extends cdktf.TerraformResource {
 
@@ -142,7 +142,7 @@ export class VirtualFileSystemStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualFileSystemStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualFileSystemStorage to import
-  * @param importFromId The id of the existing VirtualFileSystemStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualFileSystemStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualFileSystemStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class VirtualFileSystemStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/virtual_file_system_storage vultr_virtual_file_system_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/virtual_file_system_storage vultr_virtual_file_system_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class VirtualFileSystemStorage extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_virtual_file_system_storage',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

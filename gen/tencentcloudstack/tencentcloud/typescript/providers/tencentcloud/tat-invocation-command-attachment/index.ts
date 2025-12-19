@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TatInvocationCommandAttachmentConfig extends cdktf.TerraformMet
   /**
   * Command name. The name can be up to 60 bytes, and contain [a-z], [A-Z], [0-9] and [_-.].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#command_name TatInvocationCommandAttachment#command_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#command_name TatInvocationCommandAttachment#command_name}
   */
   readonly commandName?: string;
   /**
   * Command type. SHELL and POWERSHELL are supported. The default value is SHELL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#command_type TatInvocationCommandAttachment#command_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#command_type TatInvocationCommandAttachment#command_type}
   */
   readonly commandType?: string;
   /**
   * Base64-encoded command. The maximum length is 64 KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#content TatInvocationCommandAttachment#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#content TatInvocationCommandAttachment#content}
   */
   readonly content: string;
   /**
   * The default value of the custom parameter value when it is enabled. The field type is JSON encoded string. For example, {varA: 222}.key is the name of the custom parameter and value is the default value. Both key and value are strings.If Parameters is not provided, the default values specified here are used.Up to 20 custom parameters are supported.The name of the custom parameter cannot exceed 64 characters and can contain [a-z], [A-Z], [0-9] and [-_].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#default_parameters TatInvocationCommandAttachment#default_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#default_parameters TatInvocationCommandAttachment#default_parameters}
   */
   readonly defaultParameters?: string;
   /**
   * Command description. The maximum length is 120 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#description TatInvocationCommandAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#description TatInvocationCommandAttachment#description}
   */
   readonly description?: string;
   /**
   * Whether to enable the custom parameter feature.This cannot be modified once created.Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#enable_parameter TatInvocationCommandAttachment#enable_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#enable_parameter TatInvocationCommandAttachment#enable_parameter}
   */
   readonly enableParameter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#id TatInvocationCommandAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#id TatInvocationCommandAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface TatInvocationCommandAttachmentConfig extends cdktf.TerraformMet
   /**
   * ID of instances about to execute commands. Supported instance types:  CVM  LIGHTHOUSE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#instance_id TatInvocationCommandAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#instance_id TatInvocationCommandAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
   * The COS bucket URL for uploading logs; The URL must start with https, such as https://BucketName-123454321.cos.ap-beijing.myqcloud.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#output_cos_bucket_url TatInvocationCommandAttachment#output_cos_bucket_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#output_cos_bucket_url TatInvocationCommandAttachment#output_cos_bucket_url}
   */
   readonly outputCosBucketUrl?: string;
   /**
   * The COS bucket directory where the logs are saved; Check below for the rules of the directory name: 1 It must be a combination of number, letters, and visible characters, Up to 60 characters are allowed; 2 Use a slash (/) to create a subdirectory; 3 can not be used as the folder name; It cannot start with a slash (/), and cannot contain consecutive slashes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#output_cos_key_prefix TatInvocationCommandAttachment#output_cos_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#output_cos_key_prefix TatInvocationCommandAttachment#output_cos_key_prefix}
   */
   readonly outputCosKeyPrefix?: string;
   /**
   * Custom parameters of Command. The field type is JSON encoded string. For example, {varA: 222}.key is the name of the custom parameter and value is the default value. Both key and value are strings.If no parameter value is provided, the DefaultParameters is used.Up to 20 custom parameters are supported.The name of the custom parameter cannot exceed 64 characters and can contain [a-z], [A-Z], [0-9] and [-_].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#parameters TatInvocationCommandAttachment#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#parameters TatInvocationCommandAttachment#parameters}
   */
   readonly parameters?: string;
   /**
   * Whether to save the command. Valid values:rue: SaveFalse:Do not saveThe default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#save_command TatInvocationCommandAttachment#save_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#save_command TatInvocationCommandAttachment#save_command}
   */
   readonly saveCommand?: boolean | cdktf.IResolvable;
   /**
   * Command timeout period. Default value: 60 seconds. Value range: [1, 86400].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#timeout TatInvocationCommandAttachment#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#timeout TatInvocationCommandAttachment#timeout}
   */
   readonly timeout?: number;
   /**
   * The username used to execute the command on the CVM or Lighthouse instance.The principle of least privilege is the best practice for permission management. We recommend you execute TAT commands as a general user. By default, the user root is used to execute commands on Linux and the user System is used on Windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#username TatInvocationCommandAttachment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#username TatInvocationCommandAttachment#username}
   */
   readonly username?: string;
   /**
   * Command execution path. The default value is /root for SHELL commands and C:Program Filesqcloudtat_agentworkdir for POWERSHELL commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#working_directory TatInvocationCommandAttachment#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#working_directory TatInvocationCommandAttachment#working_directory}
   */
   readonly workingDirectory?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment tencentcloud_tat_invocation_command_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment tencentcloud_tat_invocation_command_attachment}
 */
 export class TatInvocationCommandAttachment extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class TatInvocationCommandAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TatInvocationCommandAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TatInvocationCommandAttachment to import
-  * @param importFromId The id of the existing TatInvocationCommandAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TatInvocationCommandAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TatInvocationCommandAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class TatInvocationCommandAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tat_invocation_command_attachment tencentcloud_tat_invocation_command_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tat_invocation_command_attachment tencentcloud_tat_invocation_command_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class TatInvocationCommandAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tat_invocation_command_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

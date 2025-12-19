@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudGaapAccessRegionsByDestRegionConfig extends cdk
   /**
   * Origin region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#dest_region DataTencentcloudGaapAccessRegionsByDestRegion#dest_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#dest_region DataTencentcloudGaapAccessRegionsByDestRegion#dest_region}
   */
   readonly destRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#id DataTencentcloudGaapAccessRegionsByDestRegion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#id DataTencentcloudGaapAccessRegionsByDestRegion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudGaapAccessRegionsByDestRegionConfig extends cdk
   /**
   * IP version, can be taken as IPv4 or IPv6, with a default value of IPv4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#ip_address_version DataTencentcloudGaapAccessRegionsByDestRegion#ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#ip_address_version DataTencentcloudGaapAccessRegionsByDestRegion#ip_address_version}
   */
   readonly ipAddressVersion?: string;
   /**
   * Channel package type, where Thunder represents a standard proxy group, Accelerator represents a game accelerator proxy, and CrossBorder represents a cross-border proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#package_type DataTencentcloudGaapAccessRegionsByDestRegion#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#package_type DataTencentcloudGaapAccessRegionsByDestRegion#package_type}
   */
   readonly packageType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#result_output_file DataTencentcloudGaapAccessRegionsByDestRegion#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#result_output_file DataTencentcloudGaapAccessRegionsByDestRegion#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -151,7 +151,7 @@ export class DataTencentcloudGaapAccessRegionsByDestRegionAccessRegionSetList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region tencentcloud_gaap_access_regions_by_dest_region}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region tencentcloud_gaap_access_regions_by_dest_region}
 */
 export class DataTencentcloudGaapAccessRegionsByDestRegion extends cdktf.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataTencentcloudGaapAccessRegionsByDestRegion extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataTencentcloudGaapAccessRegionsByDestRegion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapAccessRegionsByDestRegion to import
-  * @param importFromId The id of the existing DataTencentcloudGaapAccessRegionsByDestRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapAccessRegionsByDestRegion that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapAccessRegionsByDestRegion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataTencentcloudGaapAccessRegionsByDestRegion extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/gaap_access_regions_by_dest_region tencentcloud_gaap_access_regions_by_dest_region} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/gaap_access_regions_by_dest_region tencentcloud_gaap_access_regions_by_dest_region} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class DataTencentcloudGaapAccessRegionsByDestRegion extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_gaap_access_regions_by_dest_region',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

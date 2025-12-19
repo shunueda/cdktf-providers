@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityGroupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#flow SecurityGroupRule#flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#flow SecurityGroupRule#flow}
   */
   readonly flow: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#from_port_range SecurityGroupRule#from_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#from_port_range SecurityGroupRule#from_port_range}
   */
   readonly fromPortRange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#id SecurityGroupRule#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#ip_protocol SecurityGroupRule#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#ip_protocol SecurityGroupRule#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#ip_range SecurityGroupRule#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#ip_range SecurityGroupRule#ip_range}
   */
   readonly ipRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_group_account_id_to_link SecurityGroupRule#security_group_account_id_to_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_group_account_id_to_link SecurityGroupRule#security_group_account_id_to_link}
   */
   readonly securityGroupAccountIdToLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_group_name_to_link SecurityGroupRule#security_group_name_to_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_group_name_to_link SecurityGroupRule#security_group_name_to_link}
   */
   readonly securityGroupNameToLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#to_port_range SecurityGroupRule#to_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#to_port_range SecurityGroupRule#to_port_range}
   */
   readonly toPortRange?: number;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#rules SecurityGroupRule#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#rules SecurityGroupRule#rules}
   */
   readonly rules?: SecurityGroupRuleRules[] | cdktf.IResolvable;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#timeouts SecurityGroupRule#timeouts}
+  */
+  readonly timeouts?: SecurityGroupRuleTimeouts;
 }
 export interface SecurityGroupRuleRulesSecurityGroupsMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#account_id SecurityGroupRule#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#account_id SecurityGroupRule#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_group_id SecurityGroupRule#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_group_name SecurityGroupRule#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_group_name SecurityGroupRule#security_group_name}
   */
   readonly securityGroupName?: string;
 }
@@ -167,7 +166,7 @@ export class SecurityGroupRuleRulesSecurityGroupsMembersOutputReference extends 
     }
   }
 
-  // account_id - computed: false, optional: true, required: false
+  // account_id - computed: true, optional: true, required: false
   private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
@@ -183,7 +182,7 @@ export class SecurityGroupRuleRulesSecurityGroupsMembersOutputReference extends 
     return this._accountId;
   }
 
-  // security_group_id - computed: false, optional: true, required: false
+  // security_group_id - computed: true, optional: true, required: false
   private _securityGroupId?: string; 
   public get securityGroupId() {
     return this.getStringAttribute('security_group_id');
@@ -199,7 +198,7 @@ export class SecurityGroupRuleRulesSecurityGroupsMembersOutputReference extends 
     return this._securityGroupId;
   }
 
-  // security_group_name - computed: false, optional: true, required: false
+  // security_group_name - computed: true, optional: true, required: false
   private _securityGroupName?: string; 
   public get securityGroupName() {
     return this.getStringAttribute('security_group_name');
@@ -237,29 +236,29 @@ export class SecurityGroupRuleRulesSecurityGroupsMembersList extends cdktf.Compl
 }
 export interface SecurityGroupRuleRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#from_port_range SecurityGroupRule#from_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#from_port_range SecurityGroupRule#from_port_range}
   */
   readonly fromPortRange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#ip_protocol SecurityGroupRule#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#ip_protocol SecurityGroupRule#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#ip_ranges SecurityGroupRule#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#ip_ranges SecurityGroupRule#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#service_ids SecurityGroupRule#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#service_ids SecurityGroupRule#service_ids}
   */
   readonly serviceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#to_port_range SecurityGroupRule#to_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#to_port_range SecurityGroupRule#to_port_range}
   */
   readonly toPortRange?: number;
   /**
   * security_groups_members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#security_groups_members SecurityGroupRule#security_groups_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#security_groups_members SecurityGroupRule#security_groups_members}
   */
   readonly securityGroupsMembers?: SecurityGroupRuleRulesSecurityGroupsMembers[] | cdktf.IResolvable;
 }
@@ -418,7 +417,7 @@ export class SecurityGroupRuleRulesOutputReference extends cdktf.ComplexObject {
     return this._fromPortRange;
   }
 
-  // ip_protocol - computed: true, optional: true, required: false
+  // ip_protocol - computed: false, optional: true, required: false
   private _ipProtocol?: string; 
   public get ipProtocol() {
     return this.getStringAttribute('ip_protocol');
@@ -434,7 +433,7 @@ export class SecurityGroupRuleRulesOutputReference extends cdktf.ComplexObject {
     return this._ipProtocol;
   }
 
-  // ip_ranges - computed: false, optional: true, required: false
+  // ip_ranges - computed: true, optional: true, required: false
   private _ipRanges?: string[]; 
   public get ipRanges() {
     return this.getListAttribute('ip_ranges');
@@ -450,7 +449,7 @@ export class SecurityGroupRuleRulesOutputReference extends cdktf.ComplexObject {
     return this._ipRanges;
   }
 
-  // service_ids - computed: false, optional: true, required: false
+  // service_ids - computed: true, optional: true, required: false
   private _serviceIds?: string[]; 
   public get serviceIds() {
     return this.getListAttribute('service_ids');
@@ -518,9 +517,210 @@ export class SecurityGroupRuleRulesList extends cdktf.ComplexList {
     return new SecurityGroupRuleRulesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SecurityGroupRuleTimeouts {
+  /**
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#create SecurityGroupRule#create}
+  */
+  readonly create?: string;
+  /**
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#delete SecurityGroupRule#delete}
+  */
+  readonly delete?: string;
+  /**
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#read SecurityGroupRule#read}
+  */
+  readonly read?: string;
+  /**
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#update SecurityGroupRule#update}
+  */
+  readonly update?: string;
+}
+
+export function securityGroupRuleTimeoutsToTerraform(struct?: SecurityGroupRuleTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+    read: cdktf.stringToTerraform(struct!.read),
+    update: cdktf.stringToTerraform(struct!.update),
+  }
+}
+
+
+export function securityGroupRuleTimeoutsToHclTerraform(struct?: SecurityGroupRuleTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    read: {
+      value: cdktf.stringToHclTerraform(struct!.read),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    update: {
+      value: cdktf.stringToHclTerraform(struct!.update),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SecurityGroupRuleTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): SecurityGroupRuleTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    if (this._read !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.read = this._read;
+    }
+    if (this._update !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.update = this._update;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SecurityGroupRuleTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+      this._read = undefined;
+      this._update = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+      this._read = value.read;
+      this._update = value.update;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+
+  // read - computed: false, optional: true, required: false
+  private _read?: string; 
+  public get read() {
+    return this.getStringAttribute('read');
+  }
+  public set read(value: string) {
+    this._read = value;
+  }
+  public resetRead() {
+    this._read = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get readInput() {
+    return this._read;
+  }
+
+  // update - computed: false, optional: true, required: false
+  private _update?: string; 
+  public get update() {
+    return this.getStringAttribute('update');
+  }
+  public set update(value: string) {
+    this._update = value;
+  }
+  public resetUpdate() {
+    this._update = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updateInput() {
+    return this._update;
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule outscale_security_group_rule}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule outscale_security_group_rule}
 */
 export class SecurityGroupRule extends cdktf.TerraformResource {
 
@@ -536,7 +736,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupRule to import
-  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +748,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/security_group_rule outscale_security_group_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/security_group_rule outscale_security_group_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +759,8 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_security_group_rule',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -572,7 +772,6 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
     });
     this._flow = config.flow;
     this._fromPortRange = config.fromPortRange;
-    this._id = config.id;
     this._ipProtocol = config.ipProtocol;
     this._ipRange = config.ipRange;
     this._securityGroupAccountIdToLink = config.securityGroupAccountIdToLink;
@@ -580,6 +779,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
     this._securityGroupNameToLink = config.securityGroupNameToLink;
     this._toPortRange = config.toPortRange;
     this._rules.internalValue = config.rules;
+    this._timeouts.internalValue = config.timeouts;
   }
 
   // ==========
@@ -615,20 +815,9 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
     return this._fromPortRange;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // ip_protocol - computed: false, optional: true, required: false
@@ -755,6 +944,22 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
     return this._rules.internalValue;
   }
 
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new SecurityGroupRuleTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: SecurityGroupRuleTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -763,7 +968,6 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
     return {
       flow: cdktf.stringToTerraform(this._flow),
       from_port_range: cdktf.numberToTerraform(this._fromPortRange),
-      id: cdktf.stringToTerraform(this._id),
       ip_protocol: cdktf.stringToTerraform(this._ipProtocol),
       ip_range: cdktf.stringToTerraform(this._ipRange),
       security_group_account_id_to_link: cdktf.stringToTerraform(this._securityGroupAccountIdToLink),
@@ -771,6 +975,7 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
       security_group_name_to_link: cdktf.stringToTerraform(this._securityGroupNameToLink),
       to_port_range: cdktf.numberToTerraform(this._toPortRange),
       rules: cdktf.listMapper(securityGroupRuleRulesToTerraform, true)(this._rules.internalValue),
+      timeouts: securityGroupRuleTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
 
@@ -787,12 +992,6 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       ip_protocol: {
         value: cdktf.stringToHclTerraform(this._ipProtocol),
@@ -835,6 +1034,12 @@ export class SecurityGroupRule extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SecurityGroupRuleRulesList",
+      },
+      timeouts: {
+        value: securityGroupRuleTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "SecurityGroupRuleTimeouts",
       },
     };
 

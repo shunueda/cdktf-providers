@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VmwareAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#id VmwareAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#id VmwareAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface VmwareAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * dropped_packets_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#dropped_packets_detection VmwareAnomalies#dropped_packets_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#dropped_packets_detection VmwareAnomalies#dropped_packets_detection}
   */
   readonly droppedPacketsDetection: VmwareAnomaliesDroppedPacketsDetection;
   /**
   * esxi_high_cpu_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#esxi_high_cpu_detection VmwareAnomalies#esxi_high_cpu_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#esxi_high_cpu_detection VmwareAnomalies#esxi_high_cpu_detection}
   */
   readonly esxiHighCpuDetection: VmwareAnomaliesEsxiHighCpuDetection;
   /**
   * esxi_high_memory_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#esxi_high_memory_detection VmwareAnomalies#esxi_high_memory_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#esxi_high_memory_detection VmwareAnomalies#esxi_high_memory_detection}
   */
   readonly esxiHighMemoryDetection: VmwareAnomaliesEsxiHighMemoryDetection;
   /**
   * guest_cpu_limit_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#guest_cpu_limit_detection VmwareAnomalies#guest_cpu_limit_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#guest_cpu_limit_detection VmwareAnomalies#guest_cpu_limit_detection}
   */
   readonly guestCpuLimitDetection: VmwareAnomaliesGuestCpuLimitDetection;
   /**
   * low_datastore_space_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#low_datastore_space_detection VmwareAnomalies#low_datastore_space_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#low_datastore_space_detection VmwareAnomalies#low_datastore_space_detection}
   */
   readonly lowDatastoreSpaceDetection: VmwareAnomaliesLowDatastoreSpaceDetection;
   /**
   * overloaded_storage_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#overloaded_storage_detection VmwareAnomalies#overloaded_storage_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#overloaded_storage_detection VmwareAnomalies#overloaded_storage_detection}
   */
   readonly overloadedStorageDetection: VmwareAnomaliesOverloadedStorageDetection;
   /**
   * slow_physical_storage_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#slow_physical_storage_detection VmwareAnomalies#slow_physical_storage_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#slow_physical_storage_detection VmwareAnomalies#slow_physical_storage_detection}
   */
   readonly slowPhysicalStorageDetection: VmwareAnomaliesSlowPhysicalStorageDetection;
   /**
   * undersized_storage_detection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#undersized_storage_detection VmwareAnomalies#undersized_storage_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#undersized_storage_detection VmwareAnomalies#undersized_storage_detection}
   */
   readonly undersizedStorageDetection: VmwareAnomaliesUndersizedStorageDetection;
 }
@@ -67,7 +67,7 @@ export interface VmwareAnomaliesDroppedPacketsDetectionCustomThresholds {
   /**
   * Receive/transmit dropped packets rate on NIC is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#dropped_packets_per_second VmwareAnomalies#dropped_packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#dropped_packets_per_second VmwareAnomalies#dropped_packets_per_second}
   */
   readonly droppedPacketsPerSecond: number;
 }
@@ -150,19 +150,19 @@ export interface VmwareAnomaliesDroppedPacketsDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesDroppedPacketsDetectionCustomThresholds;
 }
@@ -303,19 +303,19 @@ export interface VmwareAnomaliesEsxiHighCpuDetectionCustomThresholds {
   /**
   * At least one peak occurred when Hypervisor CPU usage was higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#cpu_peak_percentage VmwareAnomalies#cpu_peak_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#cpu_peak_percentage VmwareAnomalies#cpu_peak_percentage}
   */
   readonly cpuPeakPercentage: number;
   /**
   * CPU usage is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#cpu_usage_percentage VmwareAnomalies#cpu_usage_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#cpu_usage_percentage VmwareAnomalies#cpu_usage_percentage}
   */
   readonly cpuUsagePercentage: number;
   /**
   * VM CPU ready is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#vm_cpu_ready_percentage VmwareAnomalies#vm_cpu_ready_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#vm_cpu_ready_percentage VmwareAnomalies#vm_cpu_ready_percentage}
   */
   readonly vmCpuReadyPercentage: number;
 }
@@ -450,19 +450,19 @@ export interface VmwareAnomaliesEsxiHighCpuDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesEsxiHighCpuDetectionCustomThresholds;
 }
@@ -603,7 +603,7 @@ export interface VmwareAnomaliesEsxiHighMemoryDetectionCustomThresholds {
   /**
   * ESXi host swap IN/OUT or compression/decompression rate is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#compression_decompression_rate VmwareAnomalies#compression_decompression_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#compression_decompression_rate VmwareAnomalies#compression_decompression_rate}
   */
   readonly compressionDecompressionRate: number;
 }
@@ -686,19 +686,19 @@ export interface VmwareAnomaliesEsxiHighMemoryDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesEsxiHighMemoryDetectionCustomThresholds;
 }
@@ -839,19 +839,19 @@ export interface VmwareAnomaliesGuestCpuLimitDetectionCustomThresholds {
   /**
   * Hypervisor CPU usage is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#host_cpu_usage_percentage VmwareAnomalies#host_cpu_usage_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#host_cpu_usage_percentage VmwareAnomalies#host_cpu_usage_percentage}
   */
   readonly hostCpuUsagePercentage: number;
   /**
   * VM CPU ready is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#vm_cpu_ready_percentage VmwareAnomalies#vm_cpu_ready_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#vm_cpu_ready_percentage VmwareAnomalies#vm_cpu_ready_percentage}
   */
   readonly vmCpuReadyPercentage: number;
   /**
   * VM CPU usage (VM CPU Usage Mhz / VM CPU limit in Mhz) is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#vm_cpu_usage_percentage VmwareAnomalies#vm_cpu_usage_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#vm_cpu_usage_percentage VmwareAnomalies#vm_cpu_usage_percentage}
   */
   readonly vmCpuUsagePercentage: number;
 }
@@ -986,19 +986,19 @@ export interface VmwareAnomaliesGuestCpuLimitDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesGuestCpuLimitDetectionCustomThresholds;
 }
@@ -1139,7 +1139,7 @@ export interface VmwareAnomaliesLowDatastoreSpaceDetectionCustomThresholds {
   /**
   * Datastore free space is lower than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#free_space_percentage VmwareAnomalies#free_space_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#free_space_percentage VmwareAnomalies#free_space_percentage}
   */
   readonly freeSpacePercentage: number;
 }
@@ -1222,19 +1222,19 @@ export interface VmwareAnomaliesLowDatastoreSpaceDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesLowDatastoreSpaceDetectionCustomThresholds;
 }
@@ -1375,7 +1375,7 @@ export interface VmwareAnomaliesOverloadedStorageDetectionCustomThresholds {
   /**
   * Number of command aborts is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#command_aborts_number VmwareAnomalies#command_aborts_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#command_aborts_number VmwareAnomalies#command_aborts_number}
   */
   readonly commandAbortsNumber: number;
 }
@@ -1458,19 +1458,19 @@ export interface VmwareAnomaliesOverloadedStorageDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesOverloadedStorageDetectionCustomThresholds;
 }
@@ -1611,13 +1611,13 @@ export interface VmwareAnomaliesSlowPhysicalStorageDetectionCustomThresholds {
   /**
   * Read/write latency is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#avg_read_write_latency VmwareAnomalies#avg_read_write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#avg_read_write_latency VmwareAnomalies#avg_read_write_latency}
   */
   readonly avgReadWriteLatency: number;
   /**
   * Peak value for read/write latency is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#peak_read_write_latency VmwareAnomalies#peak_read_write_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#peak_read_write_latency VmwareAnomalies#peak_read_write_latency}
   */
   readonly peakReadWriteLatency: number;
 }
@@ -1726,19 +1726,19 @@ export interface VmwareAnomaliesSlowPhysicalStorageDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesSlowPhysicalStorageDetectionCustomThresholds;
 }
@@ -1879,13 +1879,13 @@ export interface VmwareAnomaliesUndersizedStorageDetectionCustomThresholds {
   /**
   * Average queue command latency is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#average_queue_command_latency VmwareAnomalies#average_queue_command_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#average_queue_command_latency VmwareAnomalies#average_queue_command_latency}
   */
   readonly averageQueueCommandLatency: number;
   /**
   * Peak queue command latency is higher than
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#peak_queue_command_latency VmwareAnomalies#peak_queue_command_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#peak_queue_command_latency VmwareAnomalies#peak_queue_command_latency}
   */
   readonly peakQueueCommandLatency: number;
 }
@@ -1994,19 +1994,19 @@ export interface VmwareAnomaliesUndersizedStorageDetection {
   /**
   * Possible Values: `Auto`, `Custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#detection_mode VmwareAnomalies#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#enabled VmwareAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * custom_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#custom_thresholds VmwareAnomalies#custom_thresholds}
   */
   readonly customThresholds?: VmwareAnomaliesUndersizedStorageDetectionCustomThresholds;
 }
@@ -2145,7 +2145,7 @@ export class VmwareAnomaliesUndersizedStorageDetectionOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies dynatrace_vmware_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies dynatrace_vmware_anomalies}
 */
 export class VmwareAnomalies extends cdktf.TerraformResource {
 
@@ -2161,7 +2161,7 @@ export class VmwareAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmwareAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmwareAnomalies to import
-  * @param importFromId The id of the existing VmwareAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmwareAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmwareAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2173,7 +2173,7 @@ export class VmwareAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/vmware_anomalies dynatrace_vmware_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/vmware_anomalies dynatrace_vmware_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2184,8 +2184,8 @@ export class VmwareAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_vmware_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

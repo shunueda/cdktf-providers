@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudVpcSubnetsConfig extends cdktf.TerraformMetaArg
   /**
   * Zone of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#availability_zone DataTencentcloudVpcSubnets#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#availability_zone DataTencentcloudVpcSubnets#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * ID of CDC instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#cdc_id DataTencentcloudVpcSubnets#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#cdc_id DataTencentcloudVpcSubnets#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Filter subnet with this CIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#cidr_block DataTencentcloudVpcSubnets#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#cidr_block DataTencentcloudVpcSubnets#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#id DataTencentcloudVpcSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#id DataTencentcloudVpcSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface DataTencentcloudVpcSubnetsConfig extends cdktf.TerraformMetaArg
   /**
   * Filter default or no default subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#is_default DataTencentcloudVpcSubnets#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#is_default DataTencentcloudVpcSubnets#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Filter the VPC SNAT address pool subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#is_remote_vpc_snat DataTencentcloudVpcSubnets#is_remote_vpc_snat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#is_remote_vpc_snat DataTencentcloudVpcSubnets#is_remote_vpc_snat}
   */
   readonly isRemoteVpcSnat?: boolean | cdktf.IResolvable;
   /**
   * Name of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#name DataTencentcloudVpcSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#name DataTencentcloudVpcSubnets#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#result_output_file DataTencentcloudVpcSubnets#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#result_output_file DataTencentcloudVpcSubnets#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * ID of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#subnet_id DataTencentcloudVpcSubnets#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#subnet_id DataTencentcloudVpcSubnets#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * Filter if subnet has this tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#tag_key DataTencentcloudVpcSubnets#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#tag_key DataTencentcloudVpcSubnets#tag_key}
   */
   readonly tagKey?: string;
   /**
   * Tags of the subnet to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#tags DataTencentcloudVpcSubnets#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#tags DataTencentcloudVpcSubnets#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * ID of the VPC to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#vpc_id DataTencentcloudVpcSubnets#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#vpc_id DataTencentcloudVpcSubnets#vpc_id}
   */
   readonly vpcId?: string;
 }
@@ -214,7 +214,7 @@ export class DataTencentcloudVpcSubnetsInstanceListStructList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets tencentcloud_vpc_subnets}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets tencentcloud_vpc_subnets}
 */
 export class DataTencentcloudVpcSubnets extends cdktf.TerraformDataSource {
 
@@ -230,7 +230,7 @@ export class DataTencentcloudVpcSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudVpcSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcSubnets to import
-  * @param importFromId The id of the existing DataTencentcloudVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class DataTencentcloudVpcSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_subnets tencentcloud_vpc_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_subnets tencentcloud_vpc_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class DataTencentcloudVpcSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_vpc_subnets',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

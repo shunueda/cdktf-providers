@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TransactionStartFiltersConfig extends cdktf.TerraformMetaArgume
   /**
   * You can use * as wildcard. For example use A* to trace all transaction IDs that start with A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#cics_terminal_transaction_ids TransactionStartFilters#cics_terminal_transaction_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#cics_terminal_transaction_ids TransactionStartFilters#cics_terminal_transaction_ids}
   */
   readonly cicsTerminalTransactionIds?: string[];
   /**
   * You can use * as wildcard. For example use A* to trace all transaction IDs that start with A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#cics_transaction_ids TransactionStartFilters#cics_transaction_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#cics_transaction_ids TransactionStartFilters#cics_transaction_ids}
   */
   readonly cicsTransactionIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#id TransactionStartFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#id TransactionStartFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TransactionStartFiltersConfig extends cdktf.TerraformMetaArgume
   /**
   * You can use * as wildcard. For example use A* to trace all transaction IDs that start with A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#ims_terminal_transaction_ids TransactionStartFilters#ims_terminal_transaction_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#ims_terminal_transaction_ids TransactionStartFilters#ims_terminal_transaction_ids}
   */
   readonly imsTerminalTransactionIds?: string[];
   /**
   * You can use * as wildcard. For example use A* to trace all transaction IDs that start with A.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#ims_transaction_ids TransactionStartFilters#ims_transaction_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#ims_transaction_ids TransactionStartFilters#ims_transaction_ids}
   */
   readonly imsTransactionIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters dynatrace_transaction_start_filters}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters dynatrace_transaction_start_filters}
 */
 export class TransactionStartFilters extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class TransactionStartFilters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransactionStartFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransactionStartFilters to import
-  * @param importFromId The id of the existing TransactionStartFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransactionStartFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransactionStartFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class TransactionStartFilters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/transaction_start_filters dynatrace_transaction_start_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/transaction_start_filters dynatrace_transaction_start_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class TransactionStartFilters extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_transaction_start_filters',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

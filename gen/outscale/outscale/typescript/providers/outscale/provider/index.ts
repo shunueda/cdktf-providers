@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,77 @@ export interface OutscaleProviderConfig {
   /**
   * The Access Key ID for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#access_key_id OutscaleProvider#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#access_key_id OutscaleProvider#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The path to your configuration file in which you have defined your credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#config_file OutscaleProvider#config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#config_file OutscaleProvider#config_file}
   */
   readonly configFile?: string;
   /**
   * tls insecure connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#insecure OutscaleProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#insecure OutscaleProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The name of your profile in which you define your credencial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#profile OutscaleProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#profile OutscaleProvider#profile}
   */
   readonly profile?: string;
   /**
   * The Region for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#region OutscaleProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#region OutscaleProvider#region}
   */
   readonly region?: string;
   /**
   * The Secret Key ID for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#secret_key_id OutscaleProvider#secret_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#secret_key_id OutscaleProvider#secret_key_id}
   */
   readonly secretKeyId?: string;
   /**
   * The path to your x509 cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#x509_cert_path OutscaleProvider#x509_cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#x509_cert_path OutscaleProvider#x509_cert_path}
   */
   readonly x509CertPath?: string;
   /**
   * The path to your x509 key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#x509_key_path OutscaleProvider#x509_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#x509_key_path OutscaleProvider#x509_key_path}
   */
   readonly x509KeyPath?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#alias OutscaleProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#alias OutscaleProvider#alias}
   */
   readonly alias?: string;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#endpoints OutscaleProvider#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#endpoints OutscaleProvider#endpoints}
   */
   readonly endpoints?: OutscaleProviderEndpoints[] | cdktf.IResolvable;
 }
 export interface OutscaleProviderEndpoints {
   /**
-  * The Endpoints for API operations.
+  * The Endpoint for Outscale API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#api OutscaleProvider#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#api OutscaleProvider#api}
   */
   readonly api?: string;
+  /**
+  * The Endpoint for OKS API operations.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#oks OutscaleProvider#oks}
+  */
+  readonly oks?: string;
 }
 
 export function outscaleProviderEndpointsToTerraform(struct?: OutscaleProviderEndpoints | cdktf.IResolvable): any {
@@ -84,6 +90,7 @@ export function outscaleProviderEndpointsToTerraform(struct?: OutscaleProviderEn
   }
   return {
     api: cdktf.stringToTerraform(struct!.api),
+    oks: cdktf.stringToTerraform(struct!.oks),
   }
 }
 
@@ -100,6 +107,12 @@ export function outscaleProviderEndpointsToHclTerraform(struct?: OutscaleProvide
       type: "simple",
       storageClassType: "string",
     },
+    oks: {
+      value: cdktf.stringToHclTerraform(struct!.oks),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
   };
 
   // remove undefined attributes
@@ -108,7 +121,7 @@ export function outscaleProviderEndpointsToHclTerraform(struct?: OutscaleProvide
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs outscale}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs outscale}
 */
 export class OutscaleProvider extends cdktf.TerraformProvider {
 
@@ -124,7 +137,7 @@ export class OutscaleProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OutscaleProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutscaleProvider to import
-  * @param importFromId The id of the existing OutscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutscaleProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutscaleProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +149,7 @@ export class OutscaleProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs outscale} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs outscale} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +160,8 @@ export class OutscaleProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'outscale',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       terraformProviderSource: 'outscale/outscale'
     });

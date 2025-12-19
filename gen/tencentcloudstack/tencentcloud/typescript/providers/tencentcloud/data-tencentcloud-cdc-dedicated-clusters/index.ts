@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudCdcDedicatedClustersConfig extends cdktf.Terraf
   /**
   * Query by one or more instance IDs. Example of instance ID: cluster-xxxxxxxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#dedicated_cluster_ids DataTencentcloudCdcDedicatedClusters#dedicated_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#dedicated_cluster_ids DataTencentcloudCdcDedicatedClusters#dedicated_cluster_ids}
   */
   readonly dedicatedClusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#id DataTencentcloudCdcDedicatedClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#id DataTencentcloudCdcDedicatedClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudCdcDedicatedClustersConfig extends cdktf.Terraf
   /**
   * Filter by CDC life cycle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#lifecycle_statuses DataTencentcloudCdcDedicatedClusters#lifecycle_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#lifecycle_statuses DataTencentcloudCdcDedicatedClusters#lifecycle_statuses}
   */
   readonly lifecycleStatuses?: string[];
   /**
   * Name of fuzzy matching CDC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#name DataTencentcloudCdcDedicatedClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#name DataTencentcloudCdcDedicatedClusters#name}
   */
   readonly name?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#result_output_file DataTencentcloudCdcDedicatedClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#result_output_file DataTencentcloudCdcDedicatedClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter by site id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#site_ids DataTencentcloudCdcDedicatedClusters#site_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#site_ids DataTencentcloudCdcDedicatedClusters#site_ids}
   */
   readonly siteIds?: string[];
   /**
   * Filter by AZ name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#zones DataTencentcloudCdcDedicatedClusters#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#zones DataTencentcloudCdcDedicatedClusters#zones}
   */
   readonly zones?: string[];
 }
@@ -158,7 +158,7 @@ export class DataTencentcloudCdcDedicatedClustersDedicatedClusterSetList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters tencentcloud_cdc_dedicated_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters tencentcloud_cdc_dedicated_clusters}
 */
 export class DataTencentcloudCdcDedicatedClusters extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataTencentcloudCdcDedicatedClusters extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudCdcDedicatedClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCdcDedicatedClusters to import
-  * @param importFromId The id of the existing DataTencentcloudCdcDedicatedClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCdcDedicatedClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCdcDedicatedClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataTencentcloudCdcDedicatedClusters extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cdc_dedicated_clusters tencentcloud_cdc_dedicated_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cdc_dedicated_clusters tencentcloud_cdc_dedicated_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataTencentcloudCdcDedicatedClusters extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_cdc_dedicated_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#attached_instances LoadBalancer#attached_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#attached_instances LoadBalancer#attached_instances}
   */
   readonly attachedInstances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#balancing_algorithm LoadBalancer#balancing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#balancing_algorithm LoadBalancer#balancing_algorithm}
   */
   readonly balancingAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#cookie_name LoadBalancer#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#cookie_name LoadBalancer#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#id LoadBalancer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#id LoadBalancer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#label LoadBalancer#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#label LoadBalancer#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#proxy_protocol LoadBalancer#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#proxy_protocol LoadBalancer#proxy_protocol}
   */
   readonly proxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#region LoadBalancer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#region LoadBalancer#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#ssl_redirect LoadBalancer#ssl_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#ssl_redirect LoadBalancer#ssl_redirect}
   */
   readonly sslRedirect?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#vpc LoadBalancer#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#vpc LoadBalancer#vpc}
   */
   readonly vpc?: string;
   /**
   * firewall_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#firewall_rules LoadBalancer#firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#firewall_rules LoadBalancer#firewall_rules}
   */
   readonly firewallRules?: LoadBalancerFirewallRules[] | cdktf.IResolvable;
   /**
   * forwarding_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#forwarding_rules LoadBalancer#forwarding_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#forwarding_rules LoadBalancer#forwarding_rules}
   */
   readonly forwardingRules: LoadBalancerForwardingRules[] | cdktf.IResolvable;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#health_check LoadBalancer#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#health_check LoadBalancer#health_check}
   */
   readonly healthCheck?: LoadBalancerHealthCheck;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#ssl LoadBalancer#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#ssl LoadBalancer#ssl}
   */
   readonly ssl?: LoadBalancerSsl;
 }
 export interface LoadBalancerFirewallRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#ip_type LoadBalancer#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#ip_type LoadBalancer#ip_type}
   */
   readonly ipType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#port LoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#port LoadBalancer#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#source LoadBalancer#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#source LoadBalancer#source}
   */
   readonly source: string;
 }
@@ -251,19 +251,19 @@ export class LoadBalancerFirewallRulesList extends cdktf.ComplexList {
 }
 export interface LoadBalancerForwardingRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#backend_port LoadBalancer#backend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#backend_port LoadBalancer#backend_port}
   */
   readonly backendPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#backend_protocol LoadBalancer#backend_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#backend_protocol LoadBalancer#backend_protocol}
   */
   readonly backendProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#frontend_port LoadBalancer#frontend_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#frontend_port LoadBalancer#frontend_port}
   */
   readonly frontendPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#frontend_protocol LoadBalancer#frontend_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#frontend_protocol LoadBalancer#frontend_protocol}
   */
   readonly frontendProtocol: string;
 }
@@ -459,31 +459,31 @@ export class LoadBalancerForwardingRulesList extends cdktf.ComplexList {
 }
 export interface LoadBalancerHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#check_interval LoadBalancer#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#check_interval LoadBalancer#check_interval}
   */
   readonly checkInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#healthy_threshold LoadBalancer#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#healthy_threshold LoadBalancer#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#path LoadBalancer#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#path LoadBalancer#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#port LoadBalancer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#port LoadBalancer#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#protocol LoadBalancer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#protocol LoadBalancer#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#response_timeout LoadBalancer#response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#response_timeout LoadBalancer#response_timeout}
   */
   readonly responseTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#unhealthy_threshold LoadBalancer#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#unhealthy_threshold LoadBalancer#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -735,15 +735,15 @@ export class LoadBalancerHealthCheckOutputReference extends cdktf.ComplexObject 
 }
 export interface LoadBalancerSsl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#certificate LoadBalancer#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#certificate LoadBalancer#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#chain LoadBalancer#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#chain LoadBalancer#chain}
   */
   readonly chain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#private_key LoadBalancer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#private_key LoadBalancer#private_key}
   */
   readonly privateKey: string;
 }
@@ -879,7 +879,7 @@ export class LoadBalancerSslOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer vultr_load_balancer}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer vultr_load_balancer}
 */
 export class LoadBalancer extends cdktf.TerraformResource {
 
@@ -895,7 +895,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancer to import
-  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -907,7 +907,7 @@ export class LoadBalancer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/load_balancer vultr_load_balancer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/load_balancer vultr_load_balancer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -918,8 +918,8 @@ export class LoadBalancer extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_load_balancer',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

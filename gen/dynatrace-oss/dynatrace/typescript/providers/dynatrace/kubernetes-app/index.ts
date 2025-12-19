@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesAppConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app#id KubernetesApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app#id KubernetesApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface KubernetesAppConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (KUBERNETES_CLUSTER). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app#scope KubernetesApp#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app#scope KubernetesApp#scope}
   */
   readonly scope?: string;
   /**
   * kubernetes_app_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app#kubernetes_app_options KubernetesApp#kubernetes_app_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app#kubernetes_app_options KubernetesApp#kubernetes_app_options}
   */
   readonly kubernetesAppOptions: KubernetesAppKubernetesAppOptions;
 }
@@ -31,7 +31,7 @@ export interface KubernetesAppKubernetesAppOptions {
   /**
   * New Kubernetes experience
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app#enable_kubernetes_app KubernetesApp#enable_kubernetes_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app#enable_kubernetes_app KubernetesApp#enable_kubernetes_app}
   */
   readonly enableKubernetesApp: boolean | cdktf.IResolvable;
 }
@@ -112,7 +112,7 @@ export class KubernetesAppKubernetesAppOptionsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app dynatrace_kubernetes_app}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app dynatrace_kubernetes_app}
 */
 export class KubernetesApp extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class KubernetesApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesApp to import
-  * @param importFromId The id of the existing KubernetesApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class KubernetesApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes_app dynatrace_kubernetes_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes_app dynatrace_kubernetes_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class KubernetesApp extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_kubernetes_app',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

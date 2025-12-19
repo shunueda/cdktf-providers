@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagedRemoteAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#id ManagedRemoteAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#id ManagedRemoteAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface ManagedRemoteAccessConfig extends cdktf.TerraformMetaArguments 
   /**
   * Request reason description, cannot be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#reason ManagedRemoteAccess#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#reason ManagedRemoteAccess#reason}
   */
   readonly reason: string;
   /**
   * For how many days access is requested, cannot be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#requested_days ManagedRemoteAccess#requested_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#requested_days ManagedRemoteAccess#requested_days}
   */
   readonly requestedDays: number;
   /**
   * Requested role, cannot be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#role ManagedRemoteAccess#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#role ManagedRemoteAccess#role}
   */
   readonly role: string;
   /**
   * Access request state. Automatically set as `ACCEPTED` on create, state can be changed in subsequent updates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#state ManagedRemoteAccess#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#state ManagedRemoteAccess#state}
   */
   readonly state?: string;
   /**
   * User id, cannot be changed once created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#user_id ManagedRemoteAccess#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#user_id ManagedRemoteAccess#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access dynatrace_managed_remote_access}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access dynatrace_managed_remote_access}
 */
 export class ManagedRemoteAccess extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class ManagedRemoteAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedRemoteAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedRemoteAccess to import
-  * @param importFromId The id of the existing ManagedRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedRemoteAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class ManagedRemoteAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_remote_access dynatrace_managed_remote_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_remote_access dynatrace_managed_remote_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class ManagedRemoteAccess extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_remote_access',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

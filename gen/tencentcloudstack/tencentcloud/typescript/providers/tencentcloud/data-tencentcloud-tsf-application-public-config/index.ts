@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudTsfApplicationPublicConfigConfig extends cdktf.
   /**
   * Config ID. Query all items if not passed, high priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#config_id DataTencentcloudTsfApplicationPublicConfig#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#config_id DataTencentcloudTsfApplicationPublicConfig#config_id}
   */
   readonly configId?: string;
   /**
   * Config ID list. Query all items if not passed, low priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#config_id_list DataTencentcloudTsfApplicationPublicConfig#config_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#config_id_list DataTencentcloudTsfApplicationPublicConfig#config_id_list}
   */
   readonly configIdList?: string[];
   /**
   * Config name. Exact query. Query all items if not passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#config_name DataTencentcloudTsfApplicationPublicConfig#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#config_name DataTencentcloudTsfApplicationPublicConfig#config_name}
   */
   readonly configName?: string;
   /**
   * Config version. Exact query. Query all items if not passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#config_version DataTencentcloudTsfApplicationPublicConfig#config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#config_version DataTencentcloudTsfApplicationPublicConfig#config_version}
   */
   readonly configVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#id DataTencentcloudTsfApplicationPublicConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#id DataTencentcloudTsfApplicationPublicConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface DataTencentcloudTsfApplicationPublicConfigConfig extends cdktf.
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#result_output_file DataTencentcloudTsfApplicationPublicConfig#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#result_output_file DataTencentcloudTsfApplicationPublicConfig#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -258,7 +258,7 @@ export class DataTencentcloudTsfApplicationPublicConfigResultList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config tencentcloud_tsf_application_public_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config tencentcloud_tsf_application_public_config}
 */
 export class DataTencentcloudTsfApplicationPublicConfig extends cdktf.TerraformDataSource {
 
@@ -274,7 +274,7 @@ export class DataTencentcloudTsfApplicationPublicConfig extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudTsfApplicationPublicConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudTsfApplicationPublicConfig to import
-  * @param importFromId The id of the existing DataTencentcloudTsfApplicationPublicConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudTsfApplicationPublicConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudTsfApplicationPublicConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class DataTencentcloudTsfApplicationPublicConfig extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/tsf_application_public_config tencentcloud_tsf_application_public_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/tsf_application_public_config tencentcloud_tsf_application_public_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class DataTencentcloudTsfApplicationPublicConfig extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_tsf_application_public_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

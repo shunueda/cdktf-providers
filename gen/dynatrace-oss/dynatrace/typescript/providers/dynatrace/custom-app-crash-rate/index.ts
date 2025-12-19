@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CustomAppCrashRateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#id CustomAppCrashRate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#id CustomAppCrashRate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface CustomAppCrashRateConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (CUSTOM_APPLICATION environment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#scope CustomAppCrashRate#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#scope CustomAppCrashRate#scope}
   */
   readonly scope?: string;
   /**
   * crash_rate_increase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#crash_rate_increase CustomAppCrashRate#crash_rate_increase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#crash_rate_increase CustomAppCrashRate#crash_rate_increase}
   */
   readonly crashRateIncrease: CustomAppCrashRateCrashRateIncrease;
 }
@@ -31,19 +31,19 @@ export interface CustomAppCrashRateCrashRateIncreaseCrashRateIncreaseAuto {
   /**
   * Dynatrace learns the typical crash rate for all app versions and will create an alert if the baseline is violated by more than a specified threshold. Analysis happens based on a sliding window of 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#baseline_violation_percentage CustomAppCrashRate#baseline_violation_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#baseline_violation_percentage CustomAppCrashRate#baseline_violation_percentage}
   */
   readonly baselineViolationPercentage: number;
   /**
   * Amount of users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#concurrent_users CustomAppCrashRate#concurrent_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#concurrent_users CustomAppCrashRate#concurrent_users}
   */
   readonly concurrentUsers: number;
   /**
   * Possible Values: `Low`, `Medium`, `High`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#sensitivity CustomAppCrashRate#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#sensitivity CustomAppCrashRate#sensitivity}
   */
   readonly sensitivity: string;
 }
@@ -178,13 +178,13 @@ export interface CustomAppCrashRateCrashRateIncreaseCrashRateIncreaseFixed {
   /**
   * Absolute threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#absolute_crash_rate CustomAppCrashRate#absolute_crash_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#absolute_crash_rate CustomAppCrashRate#absolute_crash_rate}
   */
   readonly absoluteCrashRate: number;
   /**
   * Amount of users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#concurrent_users CustomAppCrashRate#concurrent_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#concurrent_users CustomAppCrashRate#concurrent_users}
   */
   readonly concurrentUsers: number;
 }
@@ -293,25 +293,25 @@ export interface CustomAppCrashRateCrashRateIncrease {
   /**
   * Possible Values: `Auto`, `Fixed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#detection_mode CustomAppCrashRate#detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#detection_mode CustomAppCrashRate#detection_mode}
   */
   readonly detectionMode?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#enabled CustomAppCrashRate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#enabled CustomAppCrashRate#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * crash_rate_increase_auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#crash_rate_increase_auto CustomAppCrashRate#crash_rate_increase_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#crash_rate_increase_auto CustomAppCrashRate#crash_rate_increase_auto}
   */
   readonly crashRateIncreaseAuto?: CustomAppCrashRateCrashRateIncreaseCrashRateIncreaseAuto;
   /**
   * crash_rate_increase_fixed block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#crash_rate_increase_fixed CustomAppCrashRate#crash_rate_increase_fixed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#crash_rate_increase_fixed CustomAppCrashRate#crash_rate_increase_fixed}
   */
   readonly crashRateIncreaseFixed?: CustomAppCrashRateCrashRateIncreaseCrashRateIncreaseFixed;
 }
@@ -479,7 +479,7 @@ export class CustomAppCrashRateCrashRateIncreaseOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate dynatrace_custom_app_crash_rate}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate dynatrace_custom_app_crash_rate}
 */
 export class CustomAppCrashRate extends cdktf.TerraformResource {
 
@@ -495,7 +495,7 @@ export class CustomAppCrashRate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomAppCrashRate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomAppCrashRate to import
-  * @param importFromId The id of the existing CustomAppCrashRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomAppCrashRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomAppCrashRate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +507,7 @@ export class CustomAppCrashRate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_app_crash_rate dynatrace_custom_app_crash_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_app_crash_rate dynatrace_custom_app_crash_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +518,8 @@ export class CustomAppCrashRate extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_app_crash_rate',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

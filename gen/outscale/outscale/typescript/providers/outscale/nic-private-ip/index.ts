@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface NicPrivateIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#allow_relink NicPrivateIp#allow_relink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#allow_relink NicPrivateIp#allow_relink}
   */
   readonly allowRelink?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#id NicPrivateIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#id NicPrivateIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#nic_id NicPrivateIp#nic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#nic_id NicPrivateIp#nic_id}
   */
   readonly nicId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#private_ips NicPrivateIp#private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#private_ips NicPrivateIp#private_ips}
   */
   readonly privateIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#secondary_private_ip_count NicPrivateIp#secondary_private_ip_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#secondary_private_ip_count NicPrivateIp#secondary_private_ip_count}
   */
   readonly secondaryPrivateIpCount?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip outscale_nic_private_ip}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip outscale_nic_private_ip}
 */
 export class NicPrivateIp extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class NicPrivateIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NicPrivateIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NicPrivateIp to import
-  * @param importFromId The id of the existing NicPrivateIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NicPrivateIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NicPrivateIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class NicPrivateIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/nic_private_ip outscale_nic_private_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/nic_private_ip outscale_nic_private_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class NicPrivateIp extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_nic_private_ip',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

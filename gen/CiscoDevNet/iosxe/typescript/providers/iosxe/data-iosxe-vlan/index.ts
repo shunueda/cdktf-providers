@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataIosxeVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan#device DataIosxeVlan#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan#device DataIosxeVlan#device}
   */
   readonly device?: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan#vlan_id DataIosxeVlan#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan#vlan_id DataIosxeVlan#vlan_id}
   */
   readonly vlanId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan iosxe_vlan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan iosxe_vlan}
 */
 export class DataIosxeVlan extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataIosxeVlan extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeVlan to import
-  * @param importFromId The id of the existing DataIosxeVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataIosxeVlan extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/vlan iosxe_vlan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/vlan iosxe_vlan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataIosxeVlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_vlan',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

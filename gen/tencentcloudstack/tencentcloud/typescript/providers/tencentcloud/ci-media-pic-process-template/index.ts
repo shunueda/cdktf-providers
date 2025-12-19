@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaPicProcessTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#bucket CiMediaPicProcessTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#bucket CiMediaPicProcessTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#id CiMediaPicProcessTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#id CiMediaPicProcessTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CiMediaPicProcessTemplateConfig extends cdktf.TerraformMetaArgu
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#name CiMediaPicProcessTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#name CiMediaPicProcessTemplate#name}
   */
   readonly name: string;
   /**
   * pic_process block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#pic_process CiMediaPicProcessTemplate#pic_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#pic_process CiMediaPicProcessTemplate#pic_process}
   */
   readonly picProcess?: CiMediaPicProcessTemplatePicProcess;
 }
@@ -37,13 +37,13 @@ export interface CiMediaPicProcessTemplatePicProcess {
   /**
   * Whether to return the original image information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#is_pic_info CiMediaPicProcessTemplate#is_pic_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#is_pic_info CiMediaPicProcessTemplate#is_pic_info}
   */
   readonly isPicInfo?: string;
   /**
   * Image processing rules, 1: basic image processing, please refer to the basic image processing document, 2: image compression, please refer to the image compression document, 3: blind watermark, please refer to the blind watermark document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#process_rule CiMediaPicProcessTemplate#process_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#process_rule CiMediaPicProcessTemplate#process_rule}
   */
   readonly processRule: string;
 }
@@ -153,7 +153,7 @@ export class CiMediaPicProcessTemplatePicProcessOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template tencentcloud_ci_media_pic_process_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template tencentcloud_ci_media_pic_process_template}
 */
 export class CiMediaPicProcessTemplate extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class CiMediaPicProcessTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaPicProcessTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaPicProcessTemplate to import
-  * @param importFromId The id of the existing CiMediaPicProcessTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaPicProcessTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaPicProcessTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class CiMediaPicProcessTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_pic_process_template tencentcloud_ci_media_pic_process_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_pic_process_template tencentcloud_ci_media_pic_process_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class CiMediaPicProcessTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_pic_process_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -12,6 +12,10 @@ OpenpipelineV2MetricsPipelinesDavis,
 openpipelineV2MetricsPipelinesDavisToTerraform, 
 openpipelineV2MetricsPipelinesDavisToHclTerraform, 
 OpenpipelineV2MetricsPipelinesDavisOutputReference, 
+OpenpipelineV2MetricsPipelinesMetadataListStruct, 
+openpipelineV2MetricsPipelinesMetadataListStructToTerraform, 
+openpipelineV2MetricsPipelinesMetadataListStructToHclTerraform, 
+OpenpipelineV2MetricsPipelinesMetadataListStructOutputReference, 
 OpenpipelineV2MetricsPipelinesMetricExtraction, 
 openpipelineV2MetricsPipelinesMetricExtractionToTerraform, 
 openpipelineV2MetricsPipelinesMetricExtractionToHclTerraform, 
@@ -47,17 +51,17 @@ export interface OpenpipelineV2MetricsPipelinesConfig extends cdktf.TerraformMet
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#custom_id OpenpipelineV2MetricsPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#custom_id OpenpipelineV2MetricsPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#display_name OpenpipelineV2MetricsPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#display_name OpenpipelineV2MetricsPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#id OpenpipelineV2MetricsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#id OpenpipelineV2MetricsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,67 +70,73 @@ export interface OpenpipelineV2MetricsPipelinesConfig extends cdktf.TerraformMet
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#cost_allocation OpenpipelineV2MetricsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#cost_allocation OpenpipelineV2MetricsPipelines#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2MetricsPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#data_extraction OpenpipelineV2MetricsPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#data_extraction OpenpipelineV2MetricsPipelines#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineV2MetricsPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#davis OpenpipelineV2MetricsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#davis OpenpipelineV2MetricsPipelines#davis}
   */
   readonly davis?: OpenpipelineV2MetricsPipelinesDavis;
   /**
+  * metadata_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#metadata_list OpenpipelineV2MetricsPipelines#metadata_list}
+  */
+  readonly metadataList?: OpenpipelineV2MetricsPipelinesMetadataListStruct;
+  /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#metric_extraction OpenpipelineV2MetricsPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#metric_extraction OpenpipelineV2MetricsPipelines#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineV2MetricsPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#processing OpenpipelineV2MetricsPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#processing OpenpipelineV2MetricsPipelines#processing}
   */
   readonly processing?: OpenpipelineV2MetricsPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#product_allocation OpenpipelineV2MetricsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#product_allocation OpenpipelineV2MetricsPipelines#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2MetricsPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#security_context OpenpipelineV2MetricsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#security_context OpenpipelineV2MetricsPipelines#security_context}
   */
   readonly securityContext?: OpenpipelineV2MetricsPipelinesSecurityContext;
   /**
   * smartscape_edge_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_edge_extraction OpenpipelineV2MetricsPipelines#smartscape_edge_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_edge_extraction OpenpipelineV2MetricsPipelines#smartscape_edge_extraction}
   */
   readonly smartscapeEdgeExtraction?: OpenpipelineV2MetricsPipelinesSmartscapeEdgeExtraction;
   /**
   * smartscape_node_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_node_extraction OpenpipelineV2MetricsPipelines#smartscape_node_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#smartscape_node_extraction OpenpipelineV2MetricsPipelines#smartscape_node_extraction}
   */
   readonly smartscapeNodeExtraction?: OpenpipelineV2MetricsPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#storage OpenpipelineV2MetricsPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#storage OpenpipelineV2MetricsPipelines#storage}
   */
   readonly storage?: OpenpipelineV2MetricsPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines}
 */
 export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
 
@@ -142,7 +152,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineV2MetricsPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2MetricsPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2MetricsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2MetricsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2MetricsPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +164,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_metrics_pipelines dynatrace_openpipeline_v2_metrics_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +175,8 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_v2_metrics_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -182,6 +192,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
     this._costAllocation.internalValue = config.costAllocation;
     this._dataExtraction.internalValue = config.dataExtraction;
     this._davis.internalValue = config.davis;
+    this._metadataList.internalValue = config.metadataList;
     this._metricExtraction.internalValue = config.metricExtraction;
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
@@ -283,6 +294,22 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
+  }
+
+  // metadata_list - computed: false, optional: true, required: false
+  private _metadataList = new OpenpipelineV2MetricsPipelinesMetadataListStructOutputReference(this, "metadata_list");
+  public get metadataList() {
+    return this._metadataList;
+  }
+  public putMetadataList(value: OpenpipelineV2MetricsPipelinesMetadataListStruct) {
+    this._metadataList.internalValue = value;
+  }
+  public resetMetadataList() {
+    this._metadataList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataListInput() {
+    return this._metadataList.internalValue;
   }
 
   // metric_extraction - computed: false, optional: true, required: false
@@ -409,6 +436,7 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
       cost_allocation: openpipelineV2MetricsPipelinesCostAllocationToTerraform(this._costAllocation.internalValue),
       data_extraction: openpipelineV2MetricsPipelinesDataExtractionToTerraform(this._dataExtraction.internalValue),
       davis: openpipelineV2MetricsPipelinesDavisToTerraform(this._davis.internalValue),
+      metadata_list: openpipelineV2MetricsPipelinesMetadataListStructToTerraform(this._metadataList.internalValue),
       metric_extraction: openpipelineV2MetricsPipelinesMetricExtractionToTerraform(this._metricExtraction.internalValue),
       processing: openpipelineV2MetricsPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2MetricsPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
@@ -456,6 +484,12 @@ export class OpenpipelineV2MetricsPipelines extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2MetricsPipelinesDavisList",
+      },
+      metadata_list: {
+        value: openpipelineV2MetricsPipelinesMetadataListStructToHclTerraform(this._metadataList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2MetricsPipelinesMetadataListStructList",
       },
       metric_extraction: {
         value: openpipelineV2MetricsPipelinesMetricExtractionToHclTerraform(this._metricExtraction.internalValue),

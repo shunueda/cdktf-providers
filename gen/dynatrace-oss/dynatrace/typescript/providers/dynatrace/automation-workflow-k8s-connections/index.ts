@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AutomationWorkflowK8SConnectionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#id AutomationWorkflowK8SConnections#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#id AutomationWorkflowK8SConnections#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface AutomationWorkflowK8SConnectionsConfig extends cdktf.TerraformM
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#insert_after AutomationWorkflowK8SConnections#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#insert_after AutomationWorkflowK8SConnections#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The name of the EdgeConnect deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#name AutomationWorkflowK8SConnections#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#name AutomationWorkflowK8SConnections#name}
   */
   readonly name: string;
   /**
   * The namespace where EdgeConnect is deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#namespace AutomationWorkflowK8SConnections#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#namespace AutomationWorkflowK8SConnections#namespace}
   */
   readonly namespace: string;
   /**
   * Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#token AutomationWorkflowK8SConnections#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#token AutomationWorkflowK8SConnections#token}
   */
   readonly token: string;
   /**
   * A pseudo-ID for the cluster, set to the UID of the kube-system namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#uid AutomationWorkflowK8SConnections#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#uid AutomationWorkflowK8SConnections#uid}
   */
   readonly uid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections dynatrace_automation_workflow_k8s_connections}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections dynatrace_automation_workflow_k8s_connections}
 */
 export class AutomationWorkflowK8SConnections extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class AutomationWorkflowK8SConnections extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomationWorkflowK8SConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomationWorkflowK8SConnections to import
-  * @param importFromId The id of the existing AutomationWorkflowK8SConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomationWorkflowK8SConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomationWorkflowK8SConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class AutomationWorkflowK8SConnections extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_k8s_connections dynatrace_automation_workflow_k8s_connections} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_k8s_connections dynatrace_automation_workflow_k8s_connections} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class AutomationWorkflowK8SConnections extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_workflow_k8s_connections',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

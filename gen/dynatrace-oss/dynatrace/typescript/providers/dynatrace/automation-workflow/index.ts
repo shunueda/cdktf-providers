@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AutomationWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * The user context the executions of the workflow will happen with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#actor AutomationWorkflow#actor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#actor AutomationWorkflow#actor}
   */
   readonly actor?: string;
   /**
   * An optional description for the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#description AutomationWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#description AutomationWorkflow#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#id AutomationWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#id AutomationWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface AutomationWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the owner of this workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#owner AutomationWorkflow#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#owner AutomationWorkflow#owner}
   */
   readonly owner?: string;
   /**
   * Defines whether this workflow is private to the owner or not. Default is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#private AutomationWorkflow#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#private AutomationWorkflow#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * The title / name of the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#title AutomationWorkflow#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#title AutomationWorkflow#title}
   */
   readonly title: string;
   /**
   * The type of the workflow. Possible values are `STANDARD` and `SIMPLE`. Defaults to `STANDARD`. Workflows of type `SIMPLE` are allowed to contain only one action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#type AutomationWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#type AutomationWorkflow#type}
   */
   readonly type?: string;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#tasks AutomationWorkflow#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#tasks AutomationWorkflow#tasks}
   */
   readonly tasks: AutomationWorkflowTasks;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#trigger AutomationWorkflow#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#trigger AutomationWorkflow#trigger}
   */
   readonly trigger?: AutomationWorkflowTrigger;
 }
@@ -67,19 +67,19 @@ export interface AutomationWorkflowTasksTaskConditions {
   /**
   * A custom condition that needs to be met for the current task to get executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#custom AutomationWorkflow#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#custom AutomationWorkflow#custom}
   */
   readonly custom?: string;
   /**
   * Possible values are `SKIP` and `STOP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#else AutomationWorkflow#else}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#else AutomationWorkflow#else}
   */
   readonly else?: string;
   /**
   * key/value pairs where the `key` is the name of another task and the value the status it needs to be for the current task to get executed. Possible values are `SUCCESS`, `ERROR`, `ANY`, `OK` (Success or Skipped) and `NOK` (Error or Cancelled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#states AutomationWorkflow#states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#states AutomationWorkflow#states}
   */
   readonly states?: { [key: string]: string };
 }
@@ -223,13 +223,13 @@ export interface AutomationWorkflowTasksTaskPosition {
   /**
   * x-coordinate for layouting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#x AutomationWorkflow#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#x AutomationWorkflow#x}
   */
   readonly x: number;
   /**
   * y-coordinate for layouting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#y AutomationWorkflow#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#y AutomationWorkflow#y}
   */
   readonly y: number;
 }
@@ -338,19 +338,19 @@ export interface AutomationWorkflowTasksTaskRetry {
   /**
   * Specifies a maximum number of times that a task can be repeated in case it fails on execution. You can specify either a number between 1 and 99 here or use an expression (`{{}}`). Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#count AutomationWorkflow#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#count AutomationWorkflow#count}
   */
   readonly count?: string;
   /**
   * Specifies a delay in seconds between subsequent task retries. You can specify either a number between 1 and 3600 here or an expression (`{{...}}`). Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#delay AutomationWorkflow#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#delay AutomationWorkflow#delay}
   */
   readonly delay?: string;
   /**
   * Specifies whether retrying the failed iterations or the whole loop. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#failed_loop_iterations_only AutomationWorkflow#failed_loop_iterations_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#failed_loop_iterations_only AutomationWorkflow#failed_loop_iterations_only}
   */
   readonly failedLoopIterationsOnly?: boolean | cdktf.IResolvable;
 }
@@ -494,73 +494,73 @@ export interface AutomationWorkflowTasksTask {
   /**
   * Specifies the action type for the task. Examples include `dynatrace.automations:http-function`, `dynatrace.automations:run-javascript`, and `dynatrace.automations:execute-dql-query`. Additional action types are also supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#action AutomationWorkflow#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#action AutomationWorkflow#action}
   */
   readonly action: string;
   /**
   * Specifies whether a task should be skipped as a no operation or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#active AutomationWorkflow#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#active AutomationWorkflow#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Required if `with_items` is specified. By default loops execute sequentially with concurrency set to 1. You can increase how often it runs in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#concurrency AutomationWorkflow#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#concurrency AutomationWorkflow#concurrency}
   */
   readonly concurrency?: string;
   /**
   * A description for this task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#description AutomationWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#description AutomationWorkflow#description}
   */
   readonly description?: string;
   /**
   * Parameters and values for this task as JSON code. Contents depend on the kind of task - determined by the attribute `action`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#input AutomationWorkflow#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#input AutomationWorkflow#input}
   */
   readonly input?: string;
   /**
   * The name of the task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#name AutomationWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#name AutomationWorkflow#name}
   */
   readonly name: string;
   /**
   * Specifies a default task timeout in seconds. 15 * 60 (15min) is used when not set. Minimum 1. Maximum 604800
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#timeout AutomationWorkflow#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#timeout AutomationWorkflow#timeout}
   */
   readonly timeout?: string;
   /**
   * Specifies a default task wait before in seconds. 0 is used when not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#wait_before AutomationWorkflow#wait_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#wait_before AutomationWorkflow#wait_before}
   */
   readonly waitBefore?: string;
   /**
   * Iterates over items in a list, allowing actions to be executed repeatedly. Example: Specifying `item in [1, 2, 3]` here will execute the task three times for the numbers 1, 2 and 3 - with the current number available for scripting using the expression `{{ _.item }}`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#with_items AutomationWorkflow#with_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#with_items AutomationWorkflow#with_items}
   */
   readonly withItems?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#conditions AutomationWorkflow#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#conditions AutomationWorkflow#conditions}
   */
   readonly conditions?: AutomationWorkflowTasksTaskConditions;
   /**
   * position block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#position AutomationWorkflow#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#position AutomationWorkflow#position}
   */
   readonly position?: AutomationWorkflowTasksTaskPosition;
   /**
   * retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#retry AutomationWorkflow#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#retry AutomationWorkflow#retry}
   */
   readonly retry?: AutomationWorkflowTasksTaskRetry;
 }
@@ -991,7 +991,7 @@ export interface AutomationWorkflowTasks {
   /**
   * task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#task AutomationWorkflow#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#task AutomationWorkflow#task}
   */
   readonly task?: AutomationWorkflowTasksTask[] | cdktf.IResolvable;
 }
@@ -1077,13 +1077,13 @@ export interface AutomationWorkflowTriggerEventConfigDavisEventNamesName {
   /**
   * Possible values: `equals` and `contains`. The Davis event name must equal or contain the string provided in attribute `name`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#match AutomationWorkflow#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#match AutomationWorkflow#match}
   */
   readonly match: string;
   /**
   * The event name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#name AutomationWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#name AutomationWorkflow#name}
   */
   readonly name: string;
 }
@@ -1224,7 +1224,7 @@ export interface AutomationWorkflowTriggerEventConfigDavisEventNames {
   /**
   * name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#name AutomationWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#name AutomationWorkflow#name}
   */
   readonly name?: AutomationWorkflowTriggerEventConfigDavisEventNamesName[] | cdktf.IResolvable;
 }
@@ -1308,33 +1308,39 @@ export class AutomationWorkflowTriggerEventConfigDavisEventNamesOutputReference 
 }
 export interface AutomationWorkflowTriggerEventConfigDavisEvent {
   /**
+  * Additional DQL matcher expression to further filter events to match
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#custom_filter AutomationWorkflow#custom_filter}
+  */
+  readonly customFilter?: string;
+  /**
   * key/value pairs for entity tags to match for. For tags that don't require a value, just specify an empty string as value. Multiple values can be provided separated by whitespace (e.g. "val1 val2") and will be parsed as multiple tag values. Omit this attribute if all entities should match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#entity_tags AutomationWorkflow#entity_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#entity_tags AutomationWorkflow#entity_tags}
   */
   readonly entityTags?: { [key: string]: string };
   /**
   * Specifies whether all or just any of the configured entity tags need to match. Possible values: `all` and `any`. Omit this attribute if all entities should match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#entity_tags_match AutomationWorkflow#entity_tags_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#entity_tags_match AutomationWorkflow#entity_tags_match}
   */
   readonly entityTagsMatch?: string;
   /**
   * If set to `true` closing a problem also is considered an event that triggers the execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#on_problem_close AutomationWorkflow#on_problem_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#on_problem_close AutomationWorkflow#on_problem_close}
   */
   readonly onProblemClose?: boolean | cdktf.IResolvable;
   /**
   * The types of davis events to trigger an execution. Possible values are `CUSTOM_ANNOTATION`, `APPLICATION_UNEXPECTED_HIGH_LOAD`, `APPLICATION_UNEXPECTED_LOW_LOAD`, `APPLICATION_OVERLOAD_PREVENTION`, `APPLICATION_SLOWDOWN`, `AVAILABILITY_EVENT`, `LOG_AVAILABILITY`, `EC2_HIGH_CPU`, `RDS_BACKUP_COMPLETED`, `RDS_BACKUP_STARTED`, `SYNTHETIC_GLOBAL_OUTAGE`, `SYNTHETIC_LOCAL_OUTAGE`, `SYNTHETIC_TEST_LOCATION_SLOWDOWN`, `CUSTOM_CONFIGURATION`, `PROCESS_NA_HIGH_CONN_FAIL_RATE`, `OSI_HIGH_CPU`, `CUSTOM_ALERT`, `CUSTOM_APP_CRASH_RATE_INCREASED`, `CUSTOM_APPLICATION_ERROR_RATE_INCREASED`, `CUSTOM_APPLICATION_UNEXPECTED_HIGH_LOAD`, `CUSTOM_APPLICATION_UNEXPECTED_LOW_LOAD`, `CUSTOM_APPLICATION_OVERLOAD_PREVENTION`, `CUSTOM_APPLICATION_SLOWDOWN`, `PGI_CUSTOM_AVAILABILITY`, `PGI_CUSTOM_ERROR`, `CUSTOM_INFO`, `PGI_CUSTOM_PERFORMANCE`, `CUSTOM_DEPLOYMENT`, `DEPLOYMENT_CHANGED_CHANGE`, `DEPLOYMENT_CHANGED_NEW`, `DEPLOYMENT_CHANGED_REMOVED`, `EBS_VOLUME_HIGH_LATENCY`, `ERROR_EVENT`, `LOG_ERROR`, `ESXI_HOST_CONNECTION_FAILED`, `ESXI_HOST_CONNECTION_LOST`, `ESXI_GUEST_CPU_LIMIT_REACHED`, `ESXI_GUEST_ACTIVE_SWAP_WAIT`, `ESXI_HOST_CPU_SATURATION`, `ESXI_HOST_MEMORY_SATURATION`, `ESXI_HOST_MAINTENANCE`, `ESXI_HOST_NETWORK_PROBLEMS`, `ESXI_HOST_NO_CONNECTION`, `ESXI_HOST_SHUTDOWN`, `ESXI_HOST_DISK_SLOW`, `ESXI_HOST_UP`, `ESXI_HOST_TIMEOUT`, `ESXI_VM_IMPACT_HOST_CPU_SATURATION`, `ESXI_VM_IMPACT_HOST_MEMORY_SATURATION`, `DATABASE_CONNECTION_FAILURE`, `RDS_AZ_FAILOVER_COMPLETED`, `RDS_AZ_FAILOVER_STARTED`, `SERVICE_ERROR_RATE_INCREASED`, `RDS_HIGH_LATENCY`, `OSI_NIC_UTILIZATION_HIGH`, `OSI_NIC_ERRORS_HIGH`, `PGI_HAPROXY_QUEUED_REQUESTS_HIGH`, `PGI_RMQ_HIGH_FILE_DESC_USAGE`, `PGI_RMQ_HIGH_MEM_USAGE`, `PGI_RMQ_HIGH_PROCESS_USAGE`, `PGI_RMQ_HIGH_SOCKETS_USAGE`, `OSI_NIC_DROPPED_PACKETS_HIGH`, `PGI_MYSQL_SLOW_QUERIES_RATE_HIGH`, `PGI_KEYSTONE_SLOW`, `PGI_HAPROXY_SESSION_USAGE_HIGH`, `HOST_LOG_AVAILABILITY`, `HOST_LOG_ERROR`, `OSI_GRACEFULLY_SHUTDOWN`, `HOST_LOG_MATCHED`, `OSI_UNEXPECTEDLY_UNAVAILABLE`, `HOST_LOG_PERFORMANCE`, `HOST_OF_SERVICE_UNAVAILABLE`, `HTTP_CHECK_GLOBAL_OUTAGE`, `HTTP_CHECK_LOCAL_OUTAGE`, `HTTP_CHECK_TEST_LOCATION_SLOWDOWN`, `ESXI_HOST_DISK_QUEUE_SLOW`, `LOG_MATCHED`, `APPLICATION_ERROR_RATE_INCREASED`, `APPLICATION_JS_FRAMEWORK_DETECTED`, `AWS_LAMBDA_HIGH_ERROR_RATE`, `ELB_HIGH_BACKEND_ERROR_RATE`, `ELB_HIGH_FRONTEND_ERROR_RATE`, `ELB_HIGH_UNHEALTHY_HOST_RATE`, `PROCESS_HIGH_GC_ACTIVITY`, `ESXI_HOST_DATASTORE_LOW_DISK_SPACE`, `OSI_DOCKER_DEVICEMAPPER_LOW_DATA_SPACE`, `OSI_LOW_DISK_SPACE`, `OSI_DOCKER_DEVICEMAPPER_LOW_METADATA_SPACE`, `OSI_DISK_LOW_INODES`, `PGI_RMQ_LOW_DISK_SPACE`, `RDS_LOW_STORAGE_SPACE`, `MARKED_FOR_TERMINATION`, `PROCESS_MEMORY_RESOURCE_EXHAUSTED`, `OSI_HIGH_MEMORY`, `MOBILE_APP_CRASH_RATE_INCREASED`, `MOBILE_APPLICATION_ERROR_RATE_INCREASED`, `MOBILE_APPLICATION_OVERLOAD_PREVENTION`, `MOBILE_APPLICATION_SLOWDOWN`, `MOBILE_APPLICATION_UNEXPECTED_HIGH_LOAD`, `MOBILE_APPLICATION_UNEXPECTED_LOW_LOAD`, `MONITORING_UNAVAILABLE`, `PROCESS_NA_HIGH_LOSS_RATE`, `PGI_KEYSTONE_UNHEALTHY`, `ESXI_HOST_OVERLOADED_STORAGE`, `PERFORMANCE_EVENT`, `LOG_PERFORMANCE`, `PGI_LOG_AVAILABILITY`, `PGI_CRASHED_INFO`, `PROCESS_CRASHED`, `PGI_LOG_ERROR`, `PG_LOW_INSTANCE_COUNT`, `PGI_LOG_MATCHED`, `PGI_MEMDUMP`, `PGI_LOG_PERFORMANCE`, `PROCESS_RESTART`, `PGI_UNAVAILABLE`, `RDS_HIGH_CPU`, `RDS_LOW_MEMORY`, `RDS_OF_SERVICE_UNAVAILABLE`, `RESOURCE_CONTENTION_EVENT`, `SERVICE_SLOWDOWN`, `RDS_RESTART`, `RDS_RESTART_SEQUENCE`, `PGI_OF_SERVICE_UNAVAILABLE`, `OSI_SLOW_DISK`, `SYNTHETIC_NODE_OUTAGE`, `SYNTHETIC_PRIVATE_LOCATION_OUTAGE`, `EXTERNAL_SYNTHETIC_TEST_OUTAGE`, `EXTERNAL_SYNTHETIC_TEST_SLOWDOWN`, `PROCESS_THREADS_RESOURCE_EXHAUSTED`, `SERVICE_UNEXPECTED_HIGH_LOAD`, `SERVICE_UNEXPECTED_LOW_LOAD`, `ESXI_VM_DISCONNECTED`, `OPENSTACK_VM_LAUNCH_FAILED`, `ESXI_HOST_VM_MOTION_LEFT`, `ESXI_HOST_VM_MOTION_ARRIVED`, `ESXI_VM_MOTION`, `OPENSTACK_VM_MOTION`, `ESXI_VM_POWER_OFF`, `ESXI_VM_SHUTDOWN`, `OPENSTACK_HOST_VM_SHUTDOWN`, `ESXI_VM_START`, `ESXI_HOST_VM_STARTED`, `OPENSTACK_HOST_VM_STARTED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#types AutomationWorkflow#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#types AutomationWorkflow#types}
   */
   readonly types?: string[];
   /**
   * names block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#names AutomationWorkflow#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#names AutomationWorkflow#names}
   */
   readonly names?: AutomationWorkflowTriggerEventConfigDavisEventNames;
 }
@@ -1345,6 +1351,7 @@ export function automationWorkflowTriggerEventConfigDavisEventToTerraform(struct
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    custom_filter: cdktf.stringToTerraform(struct!.customFilter),
     entity_tags: cdktf.hashMapper(cdktf.stringToTerraform)(struct!.entityTags),
     entity_tags_match: cdktf.stringToTerraform(struct!.entityTagsMatch),
     on_problem_close: cdktf.booleanToTerraform(struct!.onProblemClose),
@@ -1360,6 +1367,12 @@ export function automationWorkflowTriggerEventConfigDavisEventToHclTerraform(str
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    custom_filter: {
+      value: cdktf.stringToHclTerraform(struct!.customFilter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     entity_tags: {
       value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(struct!.entityTags),
       isBlock: false,
@@ -1410,6 +1423,10 @@ export class AutomationWorkflowTriggerEventConfigDavisEventOutputReference exten
   public get internalValue(): AutomationWorkflowTriggerEventConfigDavisEvent | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._customFilter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customFilter = this._customFilter;
+    }
     if (this._entityTags !== undefined) {
       hasAnyValues = true;
       internalValueResult.entityTags = this._entityTags;
@@ -1436,6 +1453,7 @@ export class AutomationWorkflowTriggerEventConfigDavisEventOutputReference exten
   public set internalValue(value: AutomationWorkflowTriggerEventConfigDavisEvent | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._customFilter = undefined;
       this._entityTags = undefined;
       this._entityTagsMatch = undefined;
       this._onProblemClose = undefined;
@@ -1444,12 +1462,29 @@ export class AutomationWorkflowTriggerEventConfigDavisEventOutputReference exten
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._customFilter = value.customFilter;
       this._entityTags = value.entityTags;
       this._entityTagsMatch = value.entityTagsMatch;
       this._onProblemClose = value.onProblemClose;
       this._types = value.types;
       this._names.internalValue = value.names;
     }
+  }
+
+  // custom_filter - computed: false, optional: true, required: false
+  private _customFilter?: string; 
+  public get customFilter() {
+    return this.getStringAttribute('custom_filter');
+  }
+  public set customFilter(value: string) {
+    this._customFilter = value;
+  }
+  public resetCustomFilter() {
+    this._customFilter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customFilterInput() {
+    return this._customFilter;
   }
 
   // entity_tags - computed: false, optional: true, required: false
@@ -1534,31 +1569,31 @@ export class AutomationWorkflowTriggerEventConfigDavisEventOutputReference exten
 }
 export interface AutomationWorkflowTriggerEventConfigDavisProblemCategories {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#availability AutomationWorkflow#availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#availability AutomationWorkflow#availability}
   */
   readonly availability?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#custom AutomationWorkflow#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#custom AutomationWorkflow#custom}
   */
   readonly custom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#error AutomationWorkflow#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#error AutomationWorkflow#error}
   */
   readonly error?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#info AutomationWorkflow#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#info AutomationWorkflow#info}
   */
   readonly info?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#monitoring_unavailable AutomationWorkflow#monitoring_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#monitoring_unavailable AutomationWorkflow#monitoring_unavailable}
   */
   readonly monitoringUnavailable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#resource AutomationWorkflow#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#resource AutomationWorkflow#resource}
   */
   readonly resource?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#slowdown AutomationWorkflow#slowdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#slowdown AutomationWorkflow#slowdown}
   */
   readonly slowdown?: boolean | cdktf.IResolvable;
 }
@@ -1848,31 +1883,33 @@ export class AutomationWorkflowTriggerEventConfigDavisProblemCategoriesList exte
 }
 export interface AutomationWorkflowTriggerEventConfigDavisProblem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#custom_filter AutomationWorkflow#custom_filter}
+  * Additional DQL matcher expression to further filter events to match
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#custom_filter AutomationWorkflow#custom_filter}
   */
   readonly customFilter?: string;
   /**
   * key/value pairs for entity tags to match for. For tags that don't require a value, just specify an empty string as value. Multiple values can be provided separated by whitespace (e.g. "val1 val2") and will be parsed as multiple tag values. Omit this attribute if all entities should match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#entity_tags AutomationWorkflow#entity_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#entity_tags AutomationWorkflow#entity_tags}
   */
   readonly entityTags?: { [key: string]: string };
   /**
   * Specifies whether all or just any of the configured entity tags need to match. Possible values: `all` and `any`. Omit this attribute if all entities should match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#entity_tags_match AutomationWorkflow#entity_tags_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#entity_tags_match AutomationWorkflow#entity_tags_match}
   */
   readonly entityTagsMatch?: string;
   /**
   * If set to `true` closing a problem also is considered an event that triggers the execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#on_problem_close AutomationWorkflow#on_problem_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#on_problem_close AutomationWorkflow#on_problem_close}
   */
   readonly onProblemClose?: boolean | cdktf.IResolvable;
   /**
   * categories block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#categories AutomationWorkflow#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#categories AutomationWorkflow#categories}
   */
   readonly categories: AutomationWorkflowTriggerEventConfigDavisProblemCategories[] | cdktf.IResolvable;
 }
@@ -2071,13 +2108,13 @@ export interface AutomationWorkflowTriggerEventConfigEvent {
   /**
   * Possible values: `events` or `bizevents`. Default: `events`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#event_type AutomationWorkflow#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#event_type AutomationWorkflow#event_type}
   */
   readonly eventType?: string;
   /**
   * A query based on DQL for events that trigger executions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#query AutomationWorkflow#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#query AutomationWorkflow#query}
   */
   readonly query: string;
 }
@@ -2189,31 +2226,31 @@ export interface AutomationWorkflowTriggerEventConfig {
   /**
   * The type of the trigger configuration to expect within attribute `value`. Only required if `config` is set. Must not be set if `davis_event`, `davis_problem` or `event` are present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#type AutomationWorkflow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#type AutomationWorkflow#type}
   */
   readonly type?: string;
   /**
   * Contains JSON encoded trigger configuration if the trigger type is neither `davis_event`, `davis_problem` or `event`. It requires the attribute `type` to be set in combination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#value AutomationWorkflow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#value AutomationWorkflow#value}
   */
   readonly value?: string;
   /**
   * davis_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#davis_event AutomationWorkflow#davis_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#davis_event AutomationWorkflow#davis_event}
   */
   readonly davisEvent?: AutomationWorkflowTriggerEventConfigDavisEvent;
   /**
   * davis_problem block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#davis_problem AutomationWorkflow#davis_problem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#davis_problem AutomationWorkflow#davis_problem}
   */
   readonly davisProblem?: AutomationWorkflowTriggerEventConfigDavisProblem;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#event AutomationWorkflow#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#event AutomationWorkflow#event}
   */
   readonly event?: AutomationWorkflowTriggerEventConfigEvent;
 }
@@ -2415,13 +2452,13 @@ export interface AutomationWorkflowTriggerEvent {
   /**
   * If specified the workflow is getting triggered based on a schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#active AutomationWorkflow#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#active AutomationWorkflow#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#config AutomationWorkflow#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#config AutomationWorkflow#config}
   */
   readonly config?: AutomationWorkflowTriggerEventConfig;
 }
@@ -2536,37 +2573,37 @@ export interface AutomationWorkflowTriggerScheduleFilterParameters {
   /**
   * If specified, the schedule will end triggering executions af the given amount of executions. Minimum: 1, Maximum: 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#count AutomationWorkflow#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#count AutomationWorkflow#count}
   */
   readonly count?: number;
   /**
   * If specified, the schedule won't trigger executions before the given date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#earliest_start AutomationWorkflow#earliest_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#earliest_start AutomationWorkflow#earliest_start}
   */
   readonly earliestStart?: string;
   /**
   * If specified, the schedule won't trigger executions before the given time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#earliest_start_time AutomationWorkflow#earliest_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#earliest_start_time AutomationWorkflow#earliest_start_time}
   */
   readonly earliestStartTime?: string;
   /**
   * If specified, the schedule won't trigger exeuctions on the given dates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#exclude_dates AutomationWorkflow#exclude_dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#exclude_dates AutomationWorkflow#exclude_dates}
   */
   readonly excludeDates?: string[];
   /**
   * If specified, the schedule will trigger executions on the given dates, even if the main configuration prohibits it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#include_dates AutomationWorkflow#include_dates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#include_dates AutomationWorkflow#include_dates}
   */
   readonly includeDates?: string[];
   /**
   * If specified, the schedule won't trigger executions after the given date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#until AutomationWorkflow#until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#until AutomationWorkflow#until}
   */
   readonly until?: string;
 }
@@ -2797,31 +2834,31 @@ export interface AutomationWorkflowTriggerScheduleTrigger {
   /**
   * Triggers the schedule every n minutes within a given time frame - specifying the end time on any valid day in 24h format (e.g. 14:22:44). Conflicts with `cron` and `time`. Required with `interval_minutes` and `between_start`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#between_end AutomationWorkflow#between_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#between_end AutomationWorkflow#between_end}
   */
   readonly betweenEnd?: string;
   /**
   * Triggers the schedule every n minutes within a given time frame - specifying the start time on any valid day in 24h format (e.g. 13:22:44). Conflicts with `cron` and `time`. Required with `interval_minutes` and `between_end`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#between_start AutomationWorkflow#between_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#between_start AutomationWorkflow#between_start}
   */
   readonly betweenStart?: string;
   /**
   * Configures using cron syntax. Conflicts with `time`, `interval_minutes`, `between_start` and `between_end`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#cron AutomationWorkflow#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#cron AutomationWorkflow#cron}
   */
   readonly cron?: string;
   /**
   * Triggers the schedule every n minutes within a given time frame. Minimum: 1, Maximum: 720. Required with `between_start` and `between_end`. Conflicts with `cron` and `time`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#interval_minutes AutomationWorkflow#interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#interval_minutes AutomationWorkflow#interval_minutes}
   */
   readonly intervalMinutes?: number;
   /**
   * Specifies a fixed time the schedule will trigger at in 24h format (e.g. `14:23:59`). Conflicts with `cron`, `interval_minutes`, `between_start` and `between_end`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#time AutomationWorkflow#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#time AutomationWorkflow#time}
   */
   readonly time?: string;
 }
@@ -3023,31 +3060,31 @@ export interface AutomationWorkflowTriggerSchedule {
   /**
   * The trigger is enabled (`true`) or not (`false`). Default is `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#active AutomationWorkflow#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#active AutomationWorkflow#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Refers to a configured rule that determines at which days the schedule should be active. If not specified it implies that the schedule is valid every day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#rule AutomationWorkflow#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#rule AutomationWorkflow#rule}
   */
   readonly rule?: string;
   /**
   * A time zone the scheduled times to align with. If not specified it will be chosen automatically based on the location of the Dynatrace Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#time_zone AutomationWorkflow#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#time_zone AutomationWorkflow#time_zone}
   */
   readonly timeZone?: string;
   /**
   * filter_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#filter_parameters AutomationWorkflow#filter_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#filter_parameters AutomationWorkflow#filter_parameters}
   */
   readonly filterParameters?: AutomationWorkflowTriggerScheduleFilterParameters;
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#trigger AutomationWorkflow#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#trigger AutomationWorkflow#trigger}
   */
   readonly trigger: AutomationWorkflowTriggerScheduleTrigger;
 }
@@ -3246,13 +3283,13 @@ export interface AutomationWorkflowTrigger {
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#event AutomationWorkflow#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#event AutomationWorkflow#event}
   */
   readonly event?: AutomationWorkflowTriggerEvent;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#schedule AutomationWorkflow#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#schedule AutomationWorkflow#schedule}
   */
   readonly schedule?: AutomationWorkflowTriggerSchedule;
 }
@@ -3365,7 +3402,7 @@ export class AutomationWorkflowTriggerOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow dynatrace_automation_workflow}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow dynatrace_automation_workflow}
 */
 export class AutomationWorkflow extends cdktf.TerraformResource {
 
@@ -3381,7 +3418,7 @@ export class AutomationWorkflow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomationWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomationWorkflow to import
-  * @param importFromId The id of the existing AutomationWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomationWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomationWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3393,7 +3430,7 @@ export class AutomationWorkflow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow dynatrace_automation_workflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow dynatrace_automation_workflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3404,8 +3441,8 @@ export class AutomationWorkflow extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_workflow',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

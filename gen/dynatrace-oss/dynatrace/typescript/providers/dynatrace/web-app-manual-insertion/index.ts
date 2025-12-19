@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppManualInsertionConfig extends cdktf.TerraformMetaArgument
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#application_id WebAppManualInsertion#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#application_id WebAppManualInsertion#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#id WebAppManualInsertion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#id WebAppManualInsertion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface WebAppManualInsertionConfig extends cdktf.TerraformMetaArgument
   /**
   * code_snippet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#code_snippet WebAppManualInsertion#code_snippet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#code_snippet WebAppManualInsertion#code_snippet}
   */
   readonly codeSnippet: WebAppManualInsertionCodeSnippet;
   /**
   * javascript_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#javascript_tag WebAppManualInsertion#javascript_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#javascript_tag WebAppManualInsertion#javascript_tag}
   */
   readonly javascriptTag: WebAppManualInsertionJavascriptTag;
   /**
   * oneagent_javascript_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#oneagent_javascript_tag WebAppManualInsertion#oneagent_javascript_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#oneagent_javascript_tag WebAppManualInsertion#oneagent_javascript_tag}
   */
   readonly oneagentJavascriptTag?: WebAppManualInsertionOneagentJavascriptTag;
   /**
   * oneagent_javascript_tag_sri block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#oneagent_javascript_tag_sri WebAppManualInsertion#oneagent_javascript_tag_sri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#oneagent_javascript_tag_sri WebAppManualInsertion#oneagent_javascript_tag_sri}
   */
   readonly oneagentJavascriptTagSri?: WebAppManualInsertionOneagentJavascriptTagSri;
 }
@@ -49,7 +49,7 @@ export interface WebAppManualInsertionCodeSnippet {
   /**
   * Possible Values: `DEFERRED`, `SYNCHRONOUSLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#code_snippet_type WebAppManualInsertion#code_snippet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#code_snippet_type WebAppManualInsertion#code_snippet_type}
   */
   readonly codeSnippetType: string;
 }
@@ -132,19 +132,19 @@ export interface WebAppManualInsertionJavascriptTag {
   /**
   * Duration in hours, possible Values: `1`, `12`, `144`, `24`, `3`, `6`, `72`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#cache_duration WebAppManualInsertion#cache_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#cache_duration WebAppManualInsertion#cache_duration}
   */
   readonly cacheDuration: string;
   /**
   * Add the `crossorigin=anonymous` attribute to capture JavaScript error messages and W3C resource timings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#crossorigin_anonymous WebAppManualInsertion#crossorigin_anonymous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#crossorigin_anonymous WebAppManualInsertion#crossorigin_anonymous}
   */
   readonly crossoriginAnonymous: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `Async`, `Defer`, `None`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
   */
   readonly scriptExecutionAttribute?: string;
 }
@@ -282,7 +282,7 @@ export interface WebAppManualInsertionOneagentJavascriptTag {
   /**
   * Possible Values: `Async`, `Defer`, `None`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
   */
   readonly scriptExecutionAttribute?: string;
 }
@@ -368,7 +368,7 @@ export interface WebAppManualInsertionOneagentJavascriptTagSri {
   /**
   * Possible Values: `Async`, `Defer`, `None`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#script_execution_attribute WebAppManualInsertion#script_execution_attribute}
   */
   readonly scriptExecutionAttribute?: string;
 }
@@ -452,7 +452,7 @@ export class WebAppManualInsertionOneagentJavascriptTagSriOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion dynatrace_web_app_manual_insertion}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion dynatrace_web_app_manual_insertion}
 */
 export class WebAppManualInsertion extends cdktf.TerraformResource {
 
@@ -468,7 +468,7 @@ export class WebAppManualInsertion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppManualInsertion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppManualInsertion to import
-  * @param importFromId The id of the existing WebAppManualInsertion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppManualInsertion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppManualInsertion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +480,7 @@ export class WebAppManualInsertion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_manual_insertion dynatrace_web_app_manual_insertion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_manual_insertion dynatrace_web_app_manual_insertion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,8 +491,8 @@ export class WebAppManualInsertion extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_manual_insertion',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

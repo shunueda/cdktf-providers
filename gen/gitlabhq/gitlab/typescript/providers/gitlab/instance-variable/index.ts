@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,49 @@ export interface InstanceVariableConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the variable. Maximum of 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#description InstanceVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#description InstanceVariable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#id InstanceVariable#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
   * The name of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#key InstanceVariable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#key InstanceVariable#key}
   */
   readonly key: string;
   /**
-  * If set to `true`, the value of the variable will be hidden in job logs. The value must meet the [masking requirements](https://docs.gitlab.com/ci/variables/#masked-variables). Defaults to `false`.
+  * If set to `true`, the value of the variable will be hidden in job logs. The value must meet the [masking requirements](https://docs.gitlab.com/ci/variables/#mask-a-cicd-variable). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#masked InstanceVariable#masked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#masked InstanceVariable#masked}
   */
   readonly masked?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, the variable will be passed only to pipelines running on protected branches and tags. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#protected InstanceVariable#protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#protected InstanceVariable#protected}
   */
   readonly protected?: boolean | cdktf.IResolvable;
   /**
   * Whether the variable is treated as a raw string. Default: false. When true, variables in the value are not expanded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#raw InstanceVariable#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#raw InstanceVariable#raw}
   */
   readonly raw?: boolean | cdktf.IResolvable;
   /**
   * The value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#value InstanceVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#value InstanceVariable#value}
   */
   readonly value: string;
   /**
   * The type of a variable. Valid values are: `env_var`, `file`. Default is `env_var`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#variable_type InstanceVariable#variable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#variable_type InstanceVariable#variable_type}
   */
   readonly variableType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable gitlab_instance_variable}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable gitlab_instance_variable}
 */
 export class InstanceVariable extends cdktf.TerraformResource {
 
@@ -75,7 +68,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InstanceVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InstanceVariable to import
-  * @param importFromId The id of the existing InstanceVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InstanceVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InstanceVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +80,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/instance_variable gitlab_instance_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/instance_variable gitlab_instance_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +91,8 @@ export class InstanceVariable extends cdktf.TerraformResource {
       terraformResourceType: 'gitlab_instance_variable',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.1',
-        providerVersionConstraint: '18.6.1'
+        providerVersion: '18.7.0',
+        providerVersionConstraint: '18.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -110,7 +103,6 @@ export class InstanceVariable extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._description = config.description;
-    this._id = config.id;
     this._key = config.key;
     this._masked = config.masked;
     this._protected = config.protected;
@@ -123,7 +115,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // description - computed: false, optional: true, required: false
+  // description - computed: true, optional: true, required: false
   private _description?: string; 
   public get description() {
     return this.getStringAttribute('description');
@@ -139,20 +131,9 @@ export class InstanceVariable extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // key - computed: false, optional: false, required: true
@@ -168,7 +149,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
     return this._key;
   }
 
-  // masked - computed: false, optional: true, required: false
+  // masked - computed: true, optional: true, required: false
   private _masked?: boolean | cdktf.IResolvable; 
   public get masked() {
     return this.getBooleanAttribute('masked');
@@ -184,7 +165,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
     return this._masked;
   }
 
-  // protected - computed: false, optional: true, required: false
+  // protected - computed: true, optional: true, required: false
   private _protected?: boolean | cdktf.IResolvable; 
   public get protected() {
     return this.getBooleanAttribute('protected');
@@ -200,7 +181,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
     return this._protected;
   }
 
-  // raw - computed: false, optional: true, required: false
+  // raw - computed: true, optional: true, required: false
   private _raw?: boolean | cdktf.IResolvable; 
   public get raw() {
     return this.getBooleanAttribute('raw');
@@ -229,7 +210,7 @@ export class InstanceVariable extends cdktf.TerraformResource {
     return this._value;
   }
 
-  // variable_type - computed: false, optional: true, required: false
+  // variable_type - computed: true, optional: true, required: false
   private _variableType?: string; 
   public get variableType() {
     return this.getStringAttribute('variable_type');
@@ -252,7 +233,6 @@ export class InstanceVariable extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       description: cdktf.stringToTerraform(this._description),
-      id: cdktf.stringToTerraform(this._id),
       key: cdktf.stringToTerraform(this._key),
       masked: cdktf.booleanToTerraform(this._masked),
       protected: cdktf.booleanToTerraform(this._protected),
@@ -266,12 +246,6 @@ export class InstanceVariable extends cdktf.TerraformResource {
     const attrs = {
       description: {
         value: cdktf.stringToHclTerraform(this._description),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TsfUnitRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#description TsfUnitRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#description TsfUnitRule#description}
   */
   readonly description?: string;
   /**
   * gateway entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#gateway_instance_id TsfUnitRule#gateway_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#gateway_instance_id TsfUnitRule#gateway_instance_id}
   */
   readonly gatewayInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#id TsfUnitRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#id TsfUnitRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface TsfUnitRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#name TsfUnitRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#name TsfUnitRule#name}
   */
   readonly name: string;
   /**
   * unit_rule_item_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#unit_rule_item_list TsfUnitRule#unit_rule_item_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#unit_rule_item_list TsfUnitRule#unit_rule_item_list}
   */
   readonly unitRuleItemList?: TsfUnitRuleUnitRuleItemListStruct[] | cdktf.IResolvable;
 }
@@ -43,37 +43,37 @@ export interface TsfUnitRuleUnitRuleItemListUnitRuleTagListStruct {
   /**
   * rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#rule_id TsfUnitRule#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#rule_id TsfUnitRule#rule_id}
   */
   readonly ruleId?: string;
   /**
   * label name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#tag_field TsfUnitRule#tag_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#tag_field TsfUnitRule#tag_field}
   */
   readonly tagField: string;
   /**
   * Operator: IN/NOT_IN/EQUAL/NOT_EQUAL/REGEX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#tag_operator TsfUnitRule#tag_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#tag_operator TsfUnitRule#tag_operator}
   */
   readonly tagOperator: string;
   /**
   * Tag Type: U(User Tag).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#tag_type TsfUnitRule#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#tag_type TsfUnitRule#tag_type}
   */
   readonly tagType: string;
   /**
   * tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#tag_value TsfUnitRule#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#tag_value TsfUnitRule#tag_value}
   */
   readonly tagValue: string;
   /**
   * Unitization rule item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#unit_rule_item_id TsfUnitRule#unit_rule_item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#unit_rule_item_id TsfUnitRule#unit_rule_item_id}
   */
   readonly unitRuleItemId?: string;
 }
@@ -324,55 +324,55 @@ export interface TsfUnitRuleUnitRuleItemListStruct {
   /**
   * rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#description TsfUnitRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#description TsfUnitRule#description}
   */
   readonly description?: string;
   /**
   * destination namespace ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#dest_namespace_id TsfUnitRule#dest_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#dest_namespace_id TsfUnitRule#dest_namespace_id}
   */
   readonly destNamespaceId: string;
   /**
   * destination namespace name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#dest_namespace_name TsfUnitRule#dest_namespace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#dest_namespace_name TsfUnitRule#dest_namespace_name}
   */
   readonly destNamespaceName: string;
   /**
   * rule item name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#name TsfUnitRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#name TsfUnitRule#name}
   */
   readonly name: string;
   /**
   * rule order, the smaller the higher the priority: the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#priority TsfUnitRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#priority TsfUnitRule#priority}
   */
   readonly priority?: number;
   /**
   * logical relationship: AND/OR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#relationship TsfUnitRule#relationship}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#relationship TsfUnitRule#relationship}
   */
   readonly relationship: string;
   /**
   * rule item ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#rule_id TsfUnitRule#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#rule_id TsfUnitRule#rule_id}
   */
   readonly ruleId?: string;
   /**
   * Unitization rule ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#unit_rule_id TsfUnitRule#unit_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#unit_rule_id TsfUnitRule#unit_rule_id}
   */
   readonly unitRuleId?: string;
   /**
   * unit_rule_tag_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#unit_rule_tag_list TsfUnitRule#unit_rule_tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#unit_rule_tag_list TsfUnitRule#unit_rule_tag_list}
   */
   readonly unitRuleTagList?: TsfUnitRuleUnitRuleItemListUnitRuleTagListStruct[] | cdktf.IResolvable;
 }
@@ -708,7 +708,7 @@ export class TsfUnitRuleUnitRuleItemListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule tencentcloud_tsf_unit_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule tencentcloud_tsf_unit_rule}
 */
 export class TsfUnitRule extends cdktf.TerraformResource {
 
@@ -724,7 +724,7 @@ export class TsfUnitRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfUnitRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfUnitRule to import
-  * @param importFromId The id of the existing TsfUnitRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfUnitRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfUnitRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -736,7 +736,7 @@ export class TsfUnitRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_unit_rule tencentcloud_tsf_unit_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_unit_rule tencentcloud_tsf_unit_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,8 +747,8 @@ export class TsfUnitRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_unit_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

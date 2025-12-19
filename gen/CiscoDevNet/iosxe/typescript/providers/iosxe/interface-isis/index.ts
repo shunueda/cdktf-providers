@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,36 +11,36 @@ export interface InterfaceIsisConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#delete_mode InterfaceIsis#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#delete_mode InterfaceIsis#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#device InterfaceIsis#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#device InterfaceIsis#device}
   */
   readonly device?: string;
   /**
   * Configure IS-IS metric for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#ipv4_metric_levels InterfaceIsis#ipv4_metric_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#ipv4_metric_levels InterfaceIsis#ipv4_metric_levels}
   */
   readonly ipv4MetricLevels?: InterfaceIsisIpv4MetricLevels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#name InterfaceIsis#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#name InterfaceIsis#name}
   */
   readonly name: string;
   /**
   * Set ISIS network type to point-to-point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#network_point_to_point InterfaceIsis#network_point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#network_point_to_point InterfaceIsis#network_point_to_point}
   */
   readonly networkPointToPoint?: boolean | cdktf.IResolvable;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`, `Loopback`, `Vlan`, `Port-channel`, `Port-channel-subinterface/Port-channel`, `Tunnel`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#type InterfaceIsis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#type InterfaceIsis#type}
   */
   readonly type: string;
 }
@@ -49,14 +49,14 @@ export interface InterfaceIsisIpv4MetricLevels {
   * IS-IS level (level-1 or level-2)
   *   - Choices: `level-1`, `level-2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#level InterfaceIsis#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#level InterfaceIsis#level}
   */
   readonly level: string;
   /**
   * Metric value (1-16777214)
   *   - Range: `1`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#value InterfaceIsis#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#value InterfaceIsis#value}
   */
   readonly value: number;
 }
@@ -195,7 +195,7 @@ export class InterfaceIsisIpv4MetricLevelsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis iosxe_interface_isis}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis iosxe_interface_isis}
 */
 export class InterfaceIsis extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class InterfaceIsis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceIsis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceIsis to import
-  * @param importFromId The id of the existing InterfaceIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceIsis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceIsis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class InterfaceIsis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/interface_isis iosxe_interface_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/interface_isis iosxe_interface_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class InterfaceIsis extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_isis',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

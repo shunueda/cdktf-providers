@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TcmAccessLogConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Third party grpc server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#address TcmAccessLogConfig#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#address TcmAccessLogConfig#address}
   */
   readonly address?: string;
   /**
   * Whether enable log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#enable TcmAccessLogConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#enable TcmAccessLogConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Whether enable third party grpc server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#enable_server TcmAccessLogConfig#enable_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#enable_server TcmAccessLogConfig#enable_server}
   */
   readonly enableServer?: boolean | cdktf.IResolvable;
   /**
   * Whether enable stdout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#enable_stdout TcmAccessLogConfig#enable_stdout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#enable_stdout TcmAccessLogConfig#enable_stdout}
   */
   readonly enableStdout?: boolean | cdktf.IResolvable;
   /**
   * Log encoding, TEXT or JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#encoding TcmAccessLogConfig#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#encoding TcmAccessLogConfig#encoding}
   */
   readonly encoding?: string;
   /**
   * Log format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#format TcmAccessLogConfig#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#format TcmAccessLogConfig#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#id TcmAccessLogConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#id TcmAccessLogConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface TcmAccessLogConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mesh ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#mesh_name TcmAccessLogConfig#mesh_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#mesh_name TcmAccessLogConfig#mesh_name}
   */
   readonly meshName: string;
   /**
   * Log template, istio/trace/custome.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#template TcmAccessLogConfig#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#template TcmAccessLogConfig#template}
   */
   readonly template?: string;
   /**
   * cls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#cls TcmAccessLogConfig#cls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#cls TcmAccessLogConfig#cls}
   */
   readonly cls?: TcmAccessLogConfigCls;
   /**
   * selected_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#selected_range TcmAccessLogConfig#selected_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#selected_range TcmAccessLogConfig#selected_range}
   */
   readonly selectedRange?: TcmAccessLogConfigSelectedRange;
 }
@@ -79,19 +79,19 @@ export interface TcmAccessLogConfigCls {
   /**
   * Whether enable CLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#enable TcmAccessLogConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#enable TcmAccessLogConfig#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * Log set of CLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#log_set TcmAccessLogConfig#log_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#log_set TcmAccessLogConfig#log_set}
   */
   readonly logSet?: string;
   /**
   * Log topic of CLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#topic TcmAccessLogConfig#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#topic TcmAccessLogConfig#topic}
   */
   readonly topic?: string;
 }
@@ -232,13 +232,13 @@ export interface TcmAccessLogConfigSelectedRangeItems {
   /**
   * Ingress gateway list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#gateways TcmAccessLogConfig#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#gateways TcmAccessLogConfig#gateways}
   */
   readonly gateways?: string[];
   /**
   * Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#namespace TcmAccessLogConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#namespace TcmAccessLogConfig#namespace}
   */
   readonly namespace?: string;
 }
@@ -385,13 +385,13 @@ export interface TcmAccessLogConfigSelectedRange {
   /**
   * Select all if true, default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#all TcmAccessLogConfig#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#all TcmAccessLogConfig#all}
   */
   readonly all?: boolean | cdktf.IResolvable;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#items TcmAccessLogConfig#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#items TcmAccessLogConfig#items}
   */
   readonly items?: TcmAccessLogConfigSelectedRangeItems[] | cdktf.IResolvable;
 }
@@ -504,7 +504,7 @@ export class TcmAccessLogConfigSelectedRangeOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config tencentcloud_tcm_access_log_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config tencentcloud_tcm_access_log_config}
 */
 export class TcmAccessLogConfig extends cdktf.TerraformResource {
 
@@ -520,7 +520,7 @@ export class TcmAccessLogConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmAccessLogConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmAccessLogConfig to import
-  * @param importFromId The id of the existing TcmAccessLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmAccessLogConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmAccessLogConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -532,7 +532,7 @@ export class TcmAccessLogConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_access_log_config tencentcloud_tcm_access_log_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_access_log_config tencentcloud_tcm_access_log_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -543,8 +543,8 @@ export class TcmAccessLogConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcm_access_log_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface UrlBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#enabled UrlBasedSampling#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#enabled UrlBasedSampling#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Select the scaling factor for the current sampling rate of the system. Possible values: `IncreaseCapturing128Times`, `IncreaseCapturing64Times`, `IncreaseCapturing32Times`, `IncreaseCapturing16Times`, `IncreaseCapturing8Times`, `IncreaseCapturing4Times`, `IncreaseCapturing2Times`, `ReduceCapturingByFactor2`, `ReduceCapturingByFactor4`, `ReduceCapturingByFactor8`, `ReduceCapturingByFactor16`, `ReduceCapturingByFactor32`, `ReduceCapturingByFactor64`, `ReduceCapturingByFactor128`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#factor UrlBasedSampling#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#factor UrlBasedSampling#factor}
   */
   readonly factor?: string;
   /**
   * Possible values: `GET`, `POST`, `PUT`, `DELETE`, `HEAD`, `CONNECT`, `OPTIONS`, `TRACE`, `PATCH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#http_method UrlBasedSampling#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#http_method UrlBasedSampling#http_method}
   */
   readonly httpMethod?: string[];
   /**
   * The scaling factor for the defined URL will be applied to any HTTP method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#http_method_any UrlBasedSampling#http_method_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#http_method_any UrlBasedSampling#http_method_any}
   */
   readonly httpMethodAny: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#id UrlBasedSampling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#id UrlBasedSampling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface UrlBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The matching URLs will always be ignored, also if Adaptive Traffic Management is not active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#ignore UrlBasedSampling#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#ignore UrlBasedSampling#ignore}
   */
   readonly ignore: boolean | cdktf.IResolvable;
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#insert_after UrlBasedSampling#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#insert_after UrlBasedSampling#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Path of the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#path UrlBasedSampling#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#path UrlBasedSampling#path}
   */
   readonly path?: string;
   /**
   * Path comparison condition. Possible values: `EQUALS`, `DOES_NOT_EQUAL`, `CONTAINS`, `DOES_NOT_CONTAIN`, `STARTS_WITH`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `DOES_NOT_END_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#path_comparison_type UrlBasedSampling#path_comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#path_comparison_type UrlBasedSampling#path_comparison_type}
   */
   readonly pathComparisonType?: string;
   /**
   * The scope of this setting (PROCESS_GROUP_INSTANCE, PROCESS_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#scope UrlBasedSampling#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#scope UrlBasedSampling#scope}
   */
   readonly scope?: string;
   /**
   * query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#query_parameters UrlBasedSampling#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#query_parameters UrlBasedSampling#query_parameters}
   */
   readonly queryParameters?: UrlBasedSamplingQueryParameters;
 }
@@ -79,19 +79,19 @@ export interface UrlBasedSamplingQueryParametersParameter {
   /**
   * Query parameter name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#name UrlBasedSampling#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#name UrlBasedSampling#name}
   */
   readonly name: string;
   /**
   * Query parameter value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#value UrlBasedSampling#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#value UrlBasedSampling#value}
   */
   readonly value?: string;
   /**
   * Query parameter value is undefined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#value_is_undefined UrlBasedSampling#value_is_undefined}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#value_is_undefined UrlBasedSampling#value_is_undefined}
   */
   readonly valueIsUndefined?: boolean | cdktf.IResolvable;
 }
@@ -264,7 +264,7 @@ export interface UrlBasedSamplingQueryParameters {
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#parameter UrlBasedSampling#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#parameter UrlBasedSampling#parameter}
   */
   readonly parameter: UrlBasedSamplingQueryParametersParameter[] | cdktf.IResolvable;
 }
@@ -345,7 +345,7 @@ export class UrlBasedSamplingQueryParametersOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling dynatrace_url_based_sampling}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling dynatrace_url_based_sampling}
 */
 export class UrlBasedSampling extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class UrlBasedSampling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UrlBasedSampling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UrlBasedSampling to import
-  * @param importFromId The id of the existing UrlBasedSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UrlBasedSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UrlBasedSampling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class UrlBasedSampling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/url_based_sampling dynatrace_url_based_sampling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/url_based_sampling dynatrace_url_based_sampling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class UrlBasedSampling extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_url_based_sampling',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

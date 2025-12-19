@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DirectSharesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access grants. Possible values are `read` and `read-write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#access DirectShares#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#access DirectShares#access}
   */
   readonly access?: string;
   /**
   * Document ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#document_id DirectShares#document_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#document_id DirectShares#document_id}
   */
   readonly documentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#id DirectShares#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#id DirectShares#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface DirectSharesConfig extends cdktf.TerraformMetaArguments {
   /**
   * recipients block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#recipients DirectShares#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#recipients DirectShares#recipients}
   */
   readonly recipients: DirectSharesRecipients;
 }
@@ -37,7 +37,7 @@ export interface DirectSharesRecipientsRecipient {
   /**
   * Identifier of the recipient
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#id DirectShares#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#id DirectShares#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ export interface DirectSharesRecipientsRecipient {
   /**
   * Type of the recipient. Possible values are `group' and `user'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#type DirectShares#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#type DirectShares#type}
   */
   readonly type?: string;
 }
@@ -190,7 +190,7 @@ export interface DirectSharesRecipients {
   /**
   * recipient block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#recipient DirectShares#recipient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#recipient DirectShares#recipient}
   */
   readonly recipient?: DirectSharesRecipientsRecipient[] | cdktf.IResolvable;
 }
@@ -274,7 +274,7 @@ export class DirectSharesRecipientsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares dynatrace_direct_shares}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares dynatrace_direct_shares}
 */
 export class DirectShares extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class DirectShares extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DirectShares resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DirectShares to import
-  * @param importFromId The id of the existing DirectShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DirectShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DirectShares to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DirectShares extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/direct_shares dynatrace_direct_shares} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/direct_shares dynatrace_direct_shares} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DirectShares extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_direct_shares',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

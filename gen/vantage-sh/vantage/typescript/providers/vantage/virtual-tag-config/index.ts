@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VirtualTagConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The earliest month the VirtualTagConfig should be backfilled to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#backfill_until VirtualTagConfig#backfill_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#backfill_until VirtualTagConfig#backfill_until}
   */
   readonly backfillUntil?: string;
   /**
   * Tag keys to collapse values for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#collapsed_tag_keys VirtualTagConfig#collapsed_tag_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#collapsed_tag_keys VirtualTagConfig#collapsed_tag_keys}
   */
   readonly collapsedTagKeys?: VirtualTagConfigCollapsedTagKeys[] | cdktf.IResolvable;
   /**
   * The key of the VirtualTagConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#key VirtualTagConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#key VirtualTagConfig#key}
   */
   readonly key: string;
   /**
   * Whether the VirtualTagConfig can override a provider-supplied tag on a matching Cost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#overridable VirtualTagConfig#overridable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#overridable VirtualTagConfig#overridable}
   */
   readonly overridable: boolean | cdktf.IResolvable;
   /**
   * Values for the VirtualTagConfig, with match precedence determined by order in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#values VirtualTagConfig#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#values VirtualTagConfig#values}
   */
   readonly values?: VirtualTagConfigValues[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface VirtualTagConfigCollapsedTagKeys {
   /**
   * The tag key to collapse values for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#key VirtualTagConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#key VirtualTagConfig#key}
   */
   readonly key: string;
   /**
   * The providers this collapsed tag key applies to. Defaults to all providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#providers VirtualTagConfig#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#providers VirtualTagConfig#providers}
   */
   readonly providers?: string[];
 }
@@ -192,7 +192,7 @@ export interface VirtualTagConfigValuesCostMetricAggregation {
   /**
   * The tag to aggregate on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#tag VirtualTagConfig#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#tag VirtualTagConfig#tag}
   */
   readonly tag?: string;
 }
@@ -286,13 +286,13 @@ export class VirtualTagConfigValuesCostMetricAggregationOutputReference extends 
 }
 export interface VirtualTagConfigValuesCostMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#aggregation VirtualTagConfig#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#aggregation VirtualTagConfig#aggregation}
   */
   readonly aggregation?: VirtualTagConfigValuesCostMetricAggregation;
   /**
   * The filter VQL for the cost metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#filter VirtualTagConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#filter VirtualTagConfig#filter}
   */
   readonly filter?: string;
 }
@@ -415,13 +415,13 @@ export class VirtualTagConfigValuesCostMetricOutputReference extends cdktf.Compl
 }
 export interface VirtualTagConfigValuesPercentages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#pct VirtualTagConfig#pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#pct VirtualTagConfig#pct}
   */
   readonly pct: number;
   /**
   * The tag value associated with a percentage of matched costs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#value VirtualTagConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#value VirtualTagConfig#value}
   */
   readonly value: string;
 }
@@ -562,29 +562,29 @@ export interface VirtualTagConfigValues {
   /**
   * The token of an associated business metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#business_metric_token VirtualTagConfig#business_metric_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#business_metric_token VirtualTagConfig#business_metric_token}
   */
   readonly businessMetricToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#cost_metric VirtualTagConfig#cost_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#cost_metric VirtualTagConfig#cost_metric}
   */
   readonly costMetric?: VirtualTagConfigValuesCostMetric;
   /**
   * The filter query language to apply to the value. Additional documentation available at https://docs.vantage.sh/vql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#filter VirtualTagConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#filter VirtualTagConfig#filter}
   */
   readonly filter: string;
   /**
   * The name of the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#name VirtualTagConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#name VirtualTagConfig#name}
   */
   readonly name?: string;
   /**
   * Labeled percentage allocations for matching costs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#percentages VirtualTagConfig#percentages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#percentages VirtualTagConfig#percentages}
   */
   readonly percentages?: VirtualTagConfigValuesPercentages[] | cdktf.IResolvable;
 }
@@ -813,7 +813,7 @@ export class VirtualTagConfigValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config vantage_virtual_tag_config}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config vantage_virtual_tag_config}
 */
 export class VirtualTagConfig extends cdktf.TerraformResource {
 
@@ -829,7 +829,7 @@ export class VirtualTagConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualTagConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualTagConfig to import
-  * @param importFromId The id of the existing VirtualTagConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualTagConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualTagConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -841,7 +841,7 @@ export class VirtualTagConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/virtual_tag_config vantage_virtual_tag_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/virtual_tag_config vantage_virtual_tag_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -852,8 +852,8 @@ export class VirtualTagConfig extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_virtual_tag_config',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

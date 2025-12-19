@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagedSmtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, we will send e-mails via Mission Control in case of problems with SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#allow_fallback_via_mission_control ManagedSmtp#allow_fallback_via_mission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#allow_fallback_via_mission_control ManagedSmtp#allow_fallback_via_mission_control}
   */
   readonly allowFallbackViaMissionControl?: boolean | cdktf.IResolvable;
   /**
   * Connection security, possible values: `NO_ENCRYPTION`, `OPTIONAL_STARTTLS`, `REQUIRE_STARTTLS`, `TLS`. Default: `NO_ENCRYPTION`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#connection_security ManagedSmtp#connection_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#connection_security ManagedSmtp#connection_security}
   */
   readonly connectionSecurity?: string;
   /**
   * Host Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#host_name ManagedSmtp#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#host_name ManagedSmtp#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#id ManagedSmtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#id ManagedSmtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface ManagedSmtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, a password has been configured. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#is_password_configured ManagedSmtp#is_password_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#is_password_configured ManagedSmtp#is_password_configured}
   */
   readonly isPasswordConfigured?: boolean | cdktf.IResolvable;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#password ManagedSmtp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#password ManagedSmtp#password}
   */
   readonly password: string;
   /**
   * Integer value of port. Default: `25`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#port ManagedSmtp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#port ManagedSmtp#port}
   */
   readonly port?: number;
   /**
   * Sender email address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#sender_email_address ManagedSmtp#sender_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#sender_email_address ManagedSmtp#sender_email_address}
   */
   readonly senderEmailAddress: string;
   /**
   * If true, we will send e-mails via SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#use_smtp_server ManagedSmtp#use_smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#use_smtp_server ManagedSmtp#use_smtp_server}
   */
   readonly useSmtpServer?: boolean | cdktf.IResolvable;
   /**
   * User Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#user_name ManagedSmtp#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#user_name ManagedSmtp#user_name}
   */
   readonly userName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp dynatrace_managed_smtp}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp dynatrace_managed_smtp}
 */
 export class ManagedSmtp extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ManagedSmtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedSmtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedSmtp to import
-  * @param importFromId The id of the existing ManagedSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedSmtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ManagedSmtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_smtp dynatrace_managed_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_smtp dynatrace_managed_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ManagedSmtp extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_smtp',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

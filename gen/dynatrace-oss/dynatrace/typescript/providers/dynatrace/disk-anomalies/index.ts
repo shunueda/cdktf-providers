@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DiskAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disk event rule enabled/disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#enabled DiskAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#enabled DiskAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Narrows the rule usage down to disks that run on hosts that themselves run on the specified host group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#host_group_id DiskAnomalies#host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#host_group_id DiskAnomalies#host_group_id}
   */
   readonly hostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#id DiskAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#id DiskAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DiskAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The metric to monitor. Possible values are: `LOW_DISK_SPACE`, `LOW_INODES`, `READ_TIME_EXCEEDING` and `WRITE_TIME_EXCEEDING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#metric DiskAnomalies#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#metric DiskAnomalies#metric}
   */
   readonly metric: string;
   /**
   * The name of the disk event rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#name DiskAnomalies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#name DiskAnomalies#name}
   */
   readonly name: string;
   /**
   * The number of samples to evaluate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#samples DiskAnomalies#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#samples DiskAnomalies#samples}
   */
   readonly samples: number;
   /**
   * The threshold to trigger disk event.   * A percentage for `LowDiskSpace` or `LowInodes` metrics.   * In milliseconds for `ReadTimeExceeding` or `WriteTimeExceeding` metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#threshold DiskAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#threshold DiskAnomalies#threshold}
   */
   readonly threshold: number;
   /**
   * The number of samples that must violate the threshold to trigger an event. Must not exceed the number of evaluated samples
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#violating_samples DiskAnomalies#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#violating_samples DiskAnomalies#violating_samples}
   */
   readonly violatingSamples: number;
   /**
   * disk_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#disk_name DiskAnomalies#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#disk_name DiskAnomalies#disk_name}
   */
   readonly diskName?: DiskAnomaliesDiskName;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#tags DiskAnomalies#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#tags DiskAnomalies#tags}
   */
   readonly tags?: DiskAnomaliesTags;
 }
@@ -73,13 +73,13 @@ export interface DiskAnomaliesDiskName {
   /**
   * Possible values are: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `EQUALS` and `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#operator DiskAnomalies#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#operator DiskAnomalies#operator}
   */
   readonly operator: string;
   /**
   * Value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#value DiskAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#value DiskAnomalies#value}
   */
   readonly value: string;
 }
@@ -188,19 +188,19 @@ export interface DiskAnomaliesTagsFilter {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#context DiskAnomalies#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#context DiskAnomalies#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#key DiskAnomalies#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#key DiskAnomalies#key}
   */
   readonly key: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#value DiskAnomalies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#value DiskAnomalies#value}
   */
   readonly value?: string;
 }
@@ -370,7 +370,7 @@ export interface DiskAnomaliesTags {
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#filter DiskAnomalies#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#filter DiskAnomalies#filter}
   */
   readonly filter?: DiskAnomaliesTagsFilter[] | cdktf.IResolvable;
 }
@@ -454,7 +454,7 @@ export class DiskAnomaliesTagsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies dynatrace_disk_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies dynatrace_disk_anomalies}
 */
 export class DiskAnomalies extends cdktf.TerraformResource {
 
@@ -470,7 +470,7 @@ export class DiskAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskAnomalies to import
-  * @param importFromId The id of the existing DiskAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -482,7 +482,7 @@ export class DiskAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_anomalies dynatrace_disk_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_anomalies dynatrace_disk_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -493,8 +493,8 @@ export class DiskAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

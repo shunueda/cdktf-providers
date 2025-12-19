@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CiMediaVideoProcessTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#bucket CiMediaVideoProcessTemplate#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#bucket CiMediaVideoProcessTemplate#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#id CiMediaVideoProcessTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#id CiMediaVideoProcessTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CiMediaVideoProcessTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * The template name only supports `Chinese`, `English`, `numbers`, `_`, `-` and `*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#name CiMediaVideoProcessTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#name CiMediaVideoProcessTemplate#name}
   */
   readonly name: string;
   /**
   * color_enhance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#color_enhance CiMediaVideoProcessTemplate#color_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#color_enhance CiMediaVideoProcessTemplate#color_enhance}
   */
   readonly colorEnhance?: CiMediaVideoProcessTemplateColorEnhance;
   /**
   * ms_sharpen block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#ms_sharpen CiMediaVideoProcessTemplate#ms_sharpen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#ms_sharpen CiMediaVideoProcessTemplate#ms_sharpen}
   */
   readonly msSharpen?: CiMediaVideoProcessTemplateMsSharpen;
 }
@@ -43,25 +43,25 @@ export interface CiMediaVideoProcessTemplateColorEnhance {
   /**
   * Contrast, value range: [0, 100], empty string (indicates automatic analysis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#contrast CiMediaVideoProcessTemplate#contrast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#contrast CiMediaVideoProcessTemplate#contrast}
   */
   readonly contrast?: string;
   /**
   * colorcorrection, value range: [0, 100], empty string (indicating automatic analysis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#correction CiMediaVideoProcessTemplate#correction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#correction CiMediaVideoProcessTemplate#correction}
   */
   readonly correction?: string;
   /**
   * Whether color enhancement is turned on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#enable CiMediaVideoProcessTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#enable CiMediaVideoProcessTemplate#enable}
   */
   readonly enable?: string;
   /**
   * Saturation, value range: [0, 100], empty string (indicating automatic analysis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#saturation CiMediaVideoProcessTemplate#saturation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#saturation CiMediaVideoProcessTemplate#saturation}
   */
   readonly saturation?: string;
 }
@@ -234,13 +234,13 @@ export interface CiMediaVideoProcessTemplateMsSharpen {
   /**
   * Whether detail enhancement is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#enable CiMediaVideoProcessTemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#enable CiMediaVideoProcessTemplate#enable}
   */
   readonly enable?: string;
   /**
   * Enhancement level, value range: [0, 10], empty string (indicates automatic analysis).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#sharpen_level CiMediaVideoProcessTemplate#sharpen_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#sharpen_level CiMediaVideoProcessTemplate#sharpen_level}
   */
   readonly sharpenLevel?: string;
 }
@@ -353,7 +353,7 @@ export class CiMediaVideoProcessTemplateMsSharpenOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template tencentcloud_ci_media_video_process_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template tencentcloud_ci_media_video_process_template}
 */
 export class CiMediaVideoProcessTemplate extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class CiMediaVideoProcessTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CiMediaVideoProcessTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CiMediaVideoProcessTemplate to import
-  * @param importFromId The id of the existing CiMediaVideoProcessTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CiMediaVideoProcessTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CiMediaVideoProcessTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class CiMediaVideoProcessTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/ci_media_video_process_template tencentcloud_ci_media_video_process_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/ci_media_video_process_template tencentcloud_ci_media_video_process_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class CiMediaVideoProcessTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_ci_media_video_process_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

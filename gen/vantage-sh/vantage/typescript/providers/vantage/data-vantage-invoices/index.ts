@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/invoices
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/invoices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVantageInvoicesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Filter invoices by managed account token (MSP accounts only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/invoices#managed_account_token DataVantageInvoices#managed_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/invoices#managed_account_token DataVantageInvoices#managed_account_token}
   */
   readonly managedAccountToken?: string;
 }
@@ -146,7 +146,7 @@ export class DataVantageInvoicesInvoicesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/invoices vantage_invoices}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/invoices vantage_invoices}
 */
 export class DataVantageInvoices extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataVantageInvoices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageInvoices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageInvoices to import
-  * @param importFromId The id of the existing DataVantageInvoices that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/invoices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageInvoices that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/invoices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageInvoices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataVantageInvoices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/invoices vantage_invoices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/invoices vantage_invoices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataVantageInvoices extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_invoices',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

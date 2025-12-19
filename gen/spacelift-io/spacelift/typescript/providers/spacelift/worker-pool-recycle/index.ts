@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WorkerPoolRecycleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle#id WorkerPoolRecycle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle#id WorkerPoolRecycle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface WorkerPoolRecycleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Arbitrary map of values that, when changed, will trigger recreation of the resource and thus a new worker pool recycle operation. This allows you to control when the worker pool recycle should happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle#keepers WorkerPoolRecycle#keepers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle#keepers WorkerPoolRecycle#keepers}
   */
   readonly keepers?: { [key: string]: string };
   /**
   * ID of the worker pool to recycle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle#worker_pool_id WorkerPoolRecycle#worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle#worker_pool_id WorkerPoolRecycle#worker_pool_id}
   */
   readonly workerPoolId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle spacelift_worker_pool_recycle}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle spacelift_worker_pool_recycle}
 */
 export class WorkerPoolRecycle extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class WorkerPoolRecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkerPoolRecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkerPoolRecycle to import
-  * @param importFromId The id of the existing WorkerPoolRecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkerPoolRecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkerPoolRecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class WorkerPoolRecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/worker_pool_recycle spacelift_worker_pool_recycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/worker_pool_recycle spacelift_worker_pool_recycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class WorkerPoolRecycle extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_worker_pool_recycle',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

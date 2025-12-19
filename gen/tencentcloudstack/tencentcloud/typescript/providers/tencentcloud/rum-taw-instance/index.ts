@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RumTawInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Region ID (at least greater than 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#area_id RumTawInstance#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#area_id RumTawInstance#area_id}
   */
   readonly areaId: number;
   /**
   * Billing type (1: Pay-as-you-go).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#charge_type RumTawInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#charge_type RumTawInstance#charge_type}
   */
   readonly chargeType: number;
   /**
   * Data retention period (at least greater than 0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#data_retention_days RumTawInstance#data_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#data_retention_days RumTawInstance#data_retention_days}
   */
   readonly dataRetentionDays: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#id RumTawInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#id RumTawInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface RumTawInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance description (up to 1,024 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#instance_desc RumTawInstance#instance_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#instance_desc RumTawInstance#instance_desc}
   */
   readonly instanceDesc?: string;
   /**
   * Instance name (up to 255 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#instance_name RumTawInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#instance_name RumTawInstance#instance_name}
   */
   readonly instanceName: string;
   /**
   * Tag description list. Up to 10 tag key-value pairs are supported and must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#tags RumTawInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#tags RumTawInstance#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance tencentcloud_rum_taw_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance tencentcloud_rum_taw_instance}
 */
 export class RumTawInstance extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class RumTawInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumTawInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumTawInstance to import
-  * @param importFromId The id of the existing RumTawInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumTawInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumTawInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class RumTawInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/rum_taw_instance tencentcloud_rum_taw_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/rum_taw_instance tencentcloud_rum_taw_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class RumTawInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_rum_taw_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

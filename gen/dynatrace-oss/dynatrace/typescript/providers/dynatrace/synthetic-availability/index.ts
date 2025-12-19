@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SyntheticAvailabilityConfig extends cdktf.TerraformMetaArgument
   /**
   * Exclude periods with maintenance windows from availability calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability#exclude_maintenance_windows SyntheticAvailability#exclude_maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability#exclude_maintenance_windows SyntheticAvailability#exclude_maintenance_windows}
   */
   readonly excludeMaintenanceWindows: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability#id SyntheticAvailability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability#id SyntheticAvailability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface SyntheticAvailabilityConfig extends cdktf.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability dynatrace_synthetic_availability}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability dynatrace_synthetic_availability}
 */
 export class SyntheticAvailability extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class SyntheticAvailability extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SyntheticAvailability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SyntheticAvailability to import
-  * @param importFromId The id of the existing SyntheticAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SyntheticAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SyntheticAvailability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class SyntheticAvailability extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/synthetic_availability dynatrace_synthetic_availability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/synthetic_availability dynatrace_synthetic_availability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class SyntheticAvailability extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_synthetic_availability',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

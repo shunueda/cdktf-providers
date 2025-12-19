@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CalculatedSyntheticMetricConfig extends cdktf.TerraformMetaArgu
   /**
   * Descriptor of a calculated synthetic metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#description CalculatedSyntheticMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#description CalculatedSyntheticMetric#description}
   */
   readonly description?: string;
   /**
   * The metric is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#enabled CalculatedSyntheticMetric#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#enabled CalculatedSyntheticMetric#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#id CalculatedSyntheticMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#id CalculatedSyntheticMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface CalculatedSyntheticMetricConfig extends cdktf.TerraformMetaArgu
   /**
   * The type of the synthetic metric. Possible values: [ ApplicationCache, Callback, CumulativeLayoutShift, DNSLookup, DOMComplete, DOMContentLoaded, DOMInteractive, FailedRequestsResources, FirstContentfulPaint, FirstInputDelay, FirstInputStart, FirstPaint, HTMLDownloaded, HttpErrors, JavaScriptErrors, LargestContentfulPaint, LoadEventEnd, LoadEventStart, LongTasks, NavigationStart, OnDOMContentLoaded, OnLoad, Processing, RedirectTime, Request, RequestStart, ResourceCount, Response, SecureConnect, SpeedIndex, TCPConnect, TimeToFirstByte, TotalDuration, TransferSize, UserActionDuration, VisuallyComplete ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#metric CalculatedSyntheticMetric#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#metric CalculatedSyntheticMetric#metric}
   */
   readonly metric: string;
   /**
   * The unique key of the calculated synthetic metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#metric_key CalculatedSyntheticMetric#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#metric_key CalculatedSyntheticMetric#metric_key}
   */
   readonly metricKey: string;
   /**
   * The Dynatrace entity ID of the monitor to which the metric belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#monitor_identifier CalculatedSyntheticMetric#monitor_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#monitor_identifier CalculatedSyntheticMetric#monitor_identifier}
   */
   readonly monitorIdentifier: string;
   /**
   * The displayed name of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#name CalculatedSyntheticMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#name CalculatedSyntheticMetric#name}
   */
   readonly name: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#dimensions CalculatedSyntheticMetric#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#dimensions CalculatedSyntheticMetric#dimensions}
   */
   readonly dimensions?: CalculatedSyntheticMetricDimensions[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#filter CalculatedSyntheticMetric#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#filter CalculatedSyntheticMetric#filter}
   */
   readonly filter?: CalculatedSyntheticMetricFilter;
 }
@@ -67,13 +67,13 @@ export interface CalculatedSyntheticMetricDimensionsDimension {
   /**
   * The dimension of the metric. Possible values are `Event`, `Location`, `ResourceOrigin`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#dimension CalculatedSyntheticMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#dimension CalculatedSyntheticMetric#dimension}
   */
   readonly dimension: string;
   /**
   * The number of top values to be calculated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#top_x CalculatedSyntheticMetric#top_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#top_x CalculatedSyntheticMetric#top_x}
   */
   readonly topX?: number;
 }
@@ -217,7 +217,7 @@ export interface CalculatedSyntheticMetricDimensions {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#dimension CalculatedSyntheticMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#dimension CalculatedSyntheticMetric#dimension}
   */
   readonly dimension?: CalculatedSyntheticMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -335,31 +335,31 @@ export interface CalculatedSyntheticMetricFilter {
   /**
   * Only user actions of the specified type are included in the metric calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#action_type CalculatedSyntheticMetric#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#action_type CalculatedSyntheticMetric#action_type}
   */
   readonly actionType?: string;
   /**
   * Only executions finished with the specified error code are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#error_code CalculatedSyntheticMetric#error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#error_code CalculatedSyntheticMetric#error_code}
   */
   readonly errorCode?: number;
   /**
   * Only the specified browser clickpath event is included in the metric calculation. Specify the Dynatrace entity ID of the event here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#event CalculatedSyntheticMetric#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#event CalculatedSyntheticMetric#event}
   */
   readonly event?: string;
   /**
   * The execution status of the monitors to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#has_error CalculatedSyntheticMetric#has_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#has_error CalculatedSyntheticMetric#has_error}
   */
   readonly hasError?: boolean | cdktf.IResolvable;
   /**
   * Only executions from the specified location are included in the metric calculation. Specify the Dynatrace entity ID of the location here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#location CalculatedSyntheticMetric#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#location CalculatedSyntheticMetric#location}
   */
   readonly location?: string;
 }
@@ -559,7 +559,7 @@ export class CalculatedSyntheticMetricFilterOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric dynatrace_calculated_synthetic_metric}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric dynatrace_calculated_synthetic_metric}
 */
 export class CalculatedSyntheticMetric extends cdktf.TerraformResource {
 
@@ -575,7 +575,7 @@ export class CalculatedSyntheticMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CalculatedSyntheticMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CalculatedSyntheticMetric to import
-  * @param importFromId The id of the existing CalculatedSyntheticMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CalculatedSyntheticMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CalculatedSyntheticMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class CalculatedSyntheticMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_synthetic_metric dynatrace_calculated_synthetic_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_synthetic_metric dynatrace_calculated_synthetic_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class CalculatedSyntheticMetric extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_calculated_synthetic_metric',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NetworkMonitorOutageConfig extends cdktf.TerraformMetaArguments
   /**
   * Alert if all locations are unable to access my target address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#global_consecutive_outage_count_threshold NetworkMonitorOutage#global_consecutive_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#global_consecutive_outage_count_threshold NetworkMonitorOutage#global_consecutive_outage_count_threshold}
   */
   readonly globalConsecutiveOutageCountThreshold?: number;
   /**
   * Generate a problem and send an alert when the monitor is unavailable at all configured locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#global_outages NetworkMonitorOutage#global_outages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#global_outages NetworkMonitorOutage#global_outages}
   */
   readonly globalOutages: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#id NetworkMonitorOutage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#id NetworkMonitorOutage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface NetworkMonitorOutageConfig extends cdktf.TerraformMetaArguments
   /**
   * are unable to access my target address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#local_consecutive_outage_count_threshold NetworkMonitorOutage#local_consecutive_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#local_consecutive_outage_count_threshold NetworkMonitorOutage#local_consecutive_outage_count_threshold}
   */
   readonly localConsecutiveOutageCountThreshold?: number;
   /**
   * Alert if at least
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#local_location_outage_count_threshold NetworkMonitorOutage#local_location_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#local_location_outage_count_threshold NetworkMonitorOutage#local_location_outage_count_threshold}
   */
   readonly localLocationOutageCountThreshold?: number;
   /**
   * Generate a problem and send an alert when the monitor is unavailable for one or more consecutive runs at any location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#local_outages NetworkMonitorOutage#local_outages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#local_outages NetworkMonitorOutage#local_outages}
   */
   readonly localOutages: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (MULTIPROTOCOL_MONITOR). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#scope NetworkMonitorOutage#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#scope NetworkMonitorOutage#scope}
   */
   readonly scope?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage dynatrace_network_monitor_outage}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage dynatrace_network_monitor_outage}
 */
 export class NetworkMonitorOutage extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class NetworkMonitorOutage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkMonitorOutage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkMonitorOutage to import
-  * @param importFromId The id of the existing NetworkMonitorOutage that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkMonitorOutage that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkMonitorOutage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class NetworkMonitorOutage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor_outage dynatrace_network_monitor_outage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor_outage dynatrace_network_monitor_outage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class NetworkMonitorOutage extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_network_monitor_outage',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

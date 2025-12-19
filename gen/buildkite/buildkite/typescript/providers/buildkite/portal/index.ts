@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PortalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Space-delimited list of IP addresses (in CIDR notation) allowed to invoke this portal. If not specified, all IP addresses are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#allowed_ip_addresses Portal#allowed_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#allowed_ip_addresses Portal#allowed_ip_addresses}
   */
   readonly allowedIpAddresses?: string;
   /**
   * A description of the portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#description Portal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#description Portal#description}
   */
   readonly description?: string;
   /**
   * The name of the portal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#name Portal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#name Portal#name}
   */
   readonly name: string;
   /**
   * The GraphQL query that the portal executes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#query Portal#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#query Portal#query}
   */
   readonly query: string;
   /**
   * The slug of the portal. Used in the portal's URL path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#slug Portal#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#slug Portal#slug}
   */
   readonly slug: string;
   /**
   * Whether users can invoke the portal. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#user_invokable Portal#user_invokable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#user_invokable Portal#user_invokable}
   */
   readonly userInvokable?: boolean | cdktf.IResolvable;
 }
@@ -110,7 +110,7 @@ export class PortalCreatedByOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal buildkite_portal}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal buildkite_portal}
 */
 export class Portal extends cdktf.TerraformResource {
 
@@ -126,7 +126,7 @@ export class Portal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Portal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Portal to import
-  * @param importFromId The id of the existing Portal that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Portal that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Portal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class Portal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/portal buildkite_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/portal buildkite_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class Portal extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_portal',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

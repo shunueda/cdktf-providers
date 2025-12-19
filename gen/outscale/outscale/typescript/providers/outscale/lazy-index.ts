@@ -28,7 +28,8 @@ Object.defineProperty(exports, 'netPeeringAcceptation', { get: function () { ret
 Object.defineProperty(exports, 'nic', { get: function () { return require('./nic'); } });
 Object.defineProperty(exports, 'nicLink', { get: function () { return require('./nic-link'); } });
 Object.defineProperty(exports, 'nicPrivateIp', { get: function () { return require('./nic-private-ip'); } });
-Object.defineProperty(exports, 'outboundRule', { get: function () { return require('./outbound-rule'); } });
+Object.defineProperty(exports, 'oksCluster', { get: function () { return require('./oks-cluster'); } });
+Object.defineProperty(exports, 'oksProject', { get: function () { return require('./oks-project'); } });
 Object.defineProperty(exports, 'policy', { get: function () { return require('./policy'); } });
 Object.defineProperty(exports, 'policyVersion', { get: function () { return require('./policy-version'); } });
 Object.defineProperty(exports, 'publicIp', { get: function () { return require('./public-ip'); } });
@@ -97,6 +98,8 @@ Object.defineProperty(exports, 'dataOutscaleNetPeerings', { get: function () { r
 Object.defineProperty(exports, 'dataOutscaleNets', { get: function () { return require('./data-outscale-nets'); } });
 Object.defineProperty(exports, 'dataOutscaleNic', { get: function () { return require('./data-outscale-nic'); } });
 Object.defineProperty(exports, 'dataOutscaleNics', { get: function () { return require('./data-outscale-nics'); } });
+Object.defineProperty(exports, 'dataOutscaleOksKubeconfig', { get: function () { return require('./data-outscale-oks-kubeconfig'); } });
+Object.defineProperty(exports, 'dataOutscaleOksQuotas', { get: function () { return require('./data-outscale-oks-quotas'); } });
 Object.defineProperty(exports, 'dataOutscalePolicies', { get: function () { return require('./data-outscale-policies'); } });
 Object.defineProperty(exports, 'dataOutscalePoliciesLinkedToUser', { get: function () { return require('./data-outscale-policies-linked-to-user'); } });
 Object.defineProperty(exports, 'dataOutscalePoliciesLinkedToUserGroup', { get: function () { return require('./data-outscale-policies-linked-to-user-group'); } });

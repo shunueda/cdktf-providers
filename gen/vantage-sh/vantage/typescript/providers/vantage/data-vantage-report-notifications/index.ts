@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/report_notifications
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/report_notifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -120,7 +120,7 @@ export class DataVantageReportNotificationsReportNotificationsList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/report_notifications vantage_report_notifications}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/report_notifications vantage_report_notifications}
 */
 export class DataVantageReportNotifications extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataVantageReportNotifications extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageReportNotifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageReportNotifications to import
-  * @param importFromId The id of the existing DataVantageReportNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/report_notifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageReportNotifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/report_notifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageReportNotifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataVantageReportNotifications extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/report_notifications vantage_report_notifications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/report_notifications vantage_report_notifications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataVantageReportNotifications extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_report_notifications',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

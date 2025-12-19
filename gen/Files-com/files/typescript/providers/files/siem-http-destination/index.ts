@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination
+// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,193 +10,193 @@ export interface SiemHttpDestinationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Additional HTTP Headers included in calls to the destination URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#additional_headers SiemHttpDestination#additional_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#additional_headers SiemHttpDestination#additional_headers}
   */
   readonly additionalHeaders?: { [key: string]: any };
   /**
   * Whether or not sending is enabled for api_request logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#api_request_send_enabled SiemHttpDestination#api_request_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#api_request_send_enabled SiemHttpDestination#api_request_send_enabled}
   */
   readonly apiRequestSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for automation logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#automation_send_enabled SiemHttpDestination#automation_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#automation_send_enabled SiemHttpDestination#automation_send_enabled}
   */
   readonly automationSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Applicable only for destination types: azure, azure_legacy. Immutable ID of the Data Collection Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#azure_dcr_immutable_id SiemHttpDestination#azure_dcr_immutable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#azure_dcr_immutable_id SiemHttpDestination#azure_dcr_immutable_id}
   */
   readonly azureDcrImmutableId?: string;
   /**
   * Applicable only for destination types: azure, azure_legacy. Client Credentials OAuth Client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#azure_oauth_client_credentials_client_id SiemHttpDestination#azure_oauth_client_credentials_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#azure_oauth_client_credentials_client_id SiemHttpDestination#azure_oauth_client_credentials_client_id}
   */
   readonly azureOauthClientCredentialsClientId?: string;
   /**
   * Applicable only for destination type: azure. Client Credentials OAuth Client Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#azure_oauth_client_credentials_client_secret SiemHttpDestination#azure_oauth_client_credentials_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#azure_oauth_client_credentials_client_secret SiemHttpDestination#azure_oauth_client_credentials_client_secret}
   */
   readonly azureOauthClientCredentialsClientSecret?: string;
   /**
   * Applicable only for destination types: azure, azure_legacy. Client Credentials OAuth Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#azure_oauth_client_credentials_tenant_id SiemHttpDestination#azure_oauth_client_credentials_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#azure_oauth_client_credentials_tenant_id SiemHttpDestination#azure_oauth_client_credentials_tenant_id}
   */
   readonly azureOauthClientCredentialsTenantId?: string;
   /**
   * Applicable only for destination type: azure. Name of the stream in the DCR that represents the destination table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#azure_stream_name SiemHttpDestination#azure_stream_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#azure_stream_name SiemHttpDestination#azure_stream_name}
   */
   readonly azureStreamName?: string;
   /**
   * Applicable only for destination type: datadog. API key provided by Datadog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#datadog_api_key SiemHttpDestination#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#datadog_api_key SiemHttpDestination#datadog_api_key}
   */
   readonly datadogApiKey?: string;
   /**
   * Destination Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#destination_type SiemHttpDestination#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#destination_type SiemHttpDestination#destination_type}
   */
   readonly destinationType: string;
   /**
   * Destination Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#destination_url SiemHttpDestination#destination_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#destination_url SiemHttpDestination#destination_url}
   */
   readonly destinationUrl?: string;
   /**
   * Whether or not sending is enabled for email logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#email_send_enabled SiemHttpDestination#email_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#email_send_enabled SiemHttpDestination#email_send_enabled}
   */
   readonly emailSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for exavault_api_request logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#exavault_api_request_send_enabled SiemHttpDestination#exavault_api_request_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#exavault_api_request_send_enabled SiemHttpDestination#exavault_api_request_send_enabled}
   */
   readonly exavaultApiRequestSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Applicable only for destination type: file. Destination folder path on Files.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#file_destination_path SiemHttpDestination#file_destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#file_destination_path SiemHttpDestination#file_destination_path}
   */
   readonly fileDestinationPath?: string;
   /**
   * Applicable only for destination type: file. Generated file format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#file_format SiemHttpDestination#file_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#file_format SiemHttpDestination#file_format}
   */
   readonly fileFormat?: string;
   /**
   * Applicable only for destination type: file. Interval, in minutes, between file deliveries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#file_interval_minutes SiemHttpDestination#file_interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#file_interval_minutes SiemHttpDestination#file_interval_minutes}
   */
   readonly fileIntervalMinutes?: number;
   /**
   * Whether or not sending is enabled for ftp_action logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#ftp_action_send_enabled SiemHttpDestination#ftp_action_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#ftp_action_send_enabled SiemHttpDestination#ftp_action_send_enabled}
   */
   readonly ftpActionSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Applicable only for destination type: generic. Indicates the type of HTTP body. Can be json_newline or json_array. json_newline is multiple log entries as JSON separated by newlines. json_array is a single JSON array containing multiple log entries as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#generic_payload_type SiemHttpDestination#generic_payload_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#generic_payload_type SiemHttpDestination#generic_payload_type}
   */
   readonly genericPayloadType?: string;
   /**
   * Name for this Destination
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#name SiemHttpDestination#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#name SiemHttpDestination#name}
   */
   readonly name?: string;
   /**
   * Applicable only for destination type: new_relic. API key provided by New Relic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#new_relic_api_key SiemHttpDestination#new_relic_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#new_relic_api_key SiemHttpDestination#new_relic_api_key}
   */
   readonly newRelicApiKey?: string;
   /**
   * Whether or not sending is enabled for outbound_connection logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#outbound_connection_send_enabled SiemHttpDestination#outbound_connection_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#outbound_connection_send_enabled SiemHttpDestination#outbound_connection_send_enabled}
   */
   readonly outboundConnectionSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for public_hosting_request logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#public_hosting_request_send_enabled SiemHttpDestination#public_hosting_request_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#public_hosting_request_send_enabled SiemHttpDestination#public_hosting_request_send_enabled}
   */
   readonly publicHostingRequestSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Applicable only for destination type: qradar. Basic auth password provided by QRadar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#qradar_password SiemHttpDestination#qradar_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#qradar_password SiemHttpDestination#qradar_password}
   */
   readonly qradarPassword?: string;
   /**
   * Applicable only for destination type: qradar. Basic auth username provided by QRadar.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#qradar_username SiemHttpDestination#qradar_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#qradar_username SiemHttpDestination#qradar_username}
   */
   readonly qradarUsername?: string;
   /**
   * Whether this SIEM HTTP Destination is currently being sent to or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#sending_active SiemHttpDestination#sending_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#sending_active SiemHttpDestination#sending_active}
   */
   readonly sendingActive?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for settings_change logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#settings_change_send_enabled SiemHttpDestination#settings_change_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#settings_change_send_enabled SiemHttpDestination#settings_change_send_enabled}
   */
   readonly settingsChangeSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for sftp_action logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#sftp_action_send_enabled SiemHttpDestination#sftp_action_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#sftp_action_send_enabled SiemHttpDestination#sftp_action_send_enabled}
   */
   readonly sftpActionSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Applicable only for destination type: solar_winds. Authentication token provided by Solar Winds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#solar_winds_token SiemHttpDestination#solar_winds_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#solar_winds_token SiemHttpDestination#solar_winds_token}
   */
   readonly solarWindsToken?: string;
   /**
   * Applicable only for destination type: splunk. Authentication token provided by Splunk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#splunk_token SiemHttpDestination#splunk_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#splunk_token SiemHttpDestination#splunk_token}
   */
   readonly splunkToken?: string;
   /**
   * Whether or not sending is enabled for sync logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#sync_send_enabled SiemHttpDestination#sync_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#sync_send_enabled SiemHttpDestination#sync_send_enabled}
   */
   readonly syncSendEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not sending is enabled for web_dav_action logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#web_dav_action_send_enabled SiemHttpDestination#web_dav_action_send_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#web_dav_action_send_enabled SiemHttpDestination#web_dav_action_send_enabled}
   */
   readonly webDavActionSendEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination files_siem_http_destination}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination files_siem_http_destination}
 */
 export class SiemHttpDestination extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class SiemHttpDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiemHttpDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiemHttpDestination to import
-  * @param importFromId The id of the existing SiemHttpDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiemHttpDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiemHttpDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class SiemHttpDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/siem_http_destination files_siem_http_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/siem_http_destination files_siem_http_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class SiemHttpDestination extends cdktf.TerraformResource {
       terraformResourceType: 'files_siem_http_destination',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.415',
-        providerVersionConstraint: '0.1.415'
+        providerVersion: '0.1.417',
+        providerVersionConstraint: '0.1.417'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

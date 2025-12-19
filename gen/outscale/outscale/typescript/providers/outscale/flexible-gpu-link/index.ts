@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface FlexibleGpuLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#flexible_gpu_ids FlexibleGpuLink#flexible_gpu_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#flexible_gpu_ids FlexibleGpuLink#flexible_gpu_ids}
   */
   readonly flexibleGpuIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#id FlexibleGpuLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#id FlexibleGpuLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#vm_id FlexibleGpuLink#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#vm_id FlexibleGpuLink#vm_id}
   */
   readonly vmId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#timeouts FlexibleGpuLink#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#timeouts FlexibleGpuLink#timeouts}
   */
   readonly timeouts?: FlexibleGpuLinkTimeouts;
 }
 export interface FlexibleGpuLinkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#create FlexibleGpuLink#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#create FlexibleGpuLink#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#delete FlexibleGpuLink#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#delete FlexibleGpuLink#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#read FlexibleGpuLink#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#read FlexibleGpuLink#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#update FlexibleGpuLink#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#update FlexibleGpuLink#update}
   */
   readonly update?: string;
 }
@@ -224,7 +224,7 @@ export class FlexibleGpuLinkTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link outscale_flexible_gpu_link}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link outscale_flexible_gpu_link}
 */
 export class FlexibleGpuLink extends cdktf.TerraformResource {
 
@@ -240,7 +240,7 @@ export class FlexibleGpuLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlexibleGpuLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlexibleGpuLink to import
-  * @param importFromId The id of the existing FlexibleGpuLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlexibleGpuLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlexibleGpuLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -252,7 +252,7 @@ export class FlexibleGpuLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/flexible_gpu_link outscale_flexible_gpu_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/flexible_gpu_link outscale_flexible_gpu_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -263,8 +263,8 @@ export class FlexibleGpuLink extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_flexible_gpu_link',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

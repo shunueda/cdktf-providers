@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface JsonDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Contains the JSON Code of the Dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard#contents JsonDashboard#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard#contents JsonDashboard#contents}
   */
   readonly contents: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard#id JsonDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard#id JsonDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface JsonDashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the dashboard, used with the json_dashboard_base resource and variables to create circular dependencies between dashboards for hyperlinks. See the documentation for `dynatrace_json_dashboard_base` for a concrete example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard#link_id JsonDashboard#link_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard#link_id JsonDashboard#link_id}
   */
   readonly linkId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard dynatrace_json_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard dynatrace_json_dashboard}
 */
 export class JsonDashboard extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class JsonDashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JsonDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JsonDashboard to import
-  * @param importFromId The id of the existing JsonDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JsonDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JsonDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class JsonDashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/json_dashboard dynatrace_json_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/json_dashboard dynatrace_json_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class JsonDashboard extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_json_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

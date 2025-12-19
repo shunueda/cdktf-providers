@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * A color representation of the Cluster. Accepts hex codes, eg #BADA55.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster#color Cluster#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster#color Cluster#color}
   */
   readonly color?: string;
   /**
@@ -18,7 +18,7 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   * which would help identify the Cluster's purpose.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster#description Cluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster#description Cluster#description}
   */
   readonly description?: string;
   /**
@@ -26,19 +26,19 @@ export interface ClusterConfig extends cdktf.TerraformMetaArguments {
   * emoji itself, such as 🚀.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster#emoji Cluster#emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster#emoji Cluster#emoji}
   */
   readonly emoji?: string;
   /**
   * The name of the Cluster. Can only contain numbers and letters, no spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster#name Cluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster#name Cluster#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster buildkite_cluster}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster buildkite_cluster}
 */
 export class Cluster extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class Cluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cluster to import
-  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class Cluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster buildkite_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster buildkite_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class Cluster extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

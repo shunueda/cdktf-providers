@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface NetworkMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#description NetworkMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#description NetworkMonitor#description}
   */
   readonly description?: string;
   /**
   * If true, the monitor is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#enabled NetworkMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#enabled NetworkMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency of the monitor, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#frequency_min NetworkMonitor#frequency_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#frequency_min NetworkMonitor#frequency_min}
   */
   readonly frequencyMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#id NetworkMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#id NetworkMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface NetworkMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The locations to which the monitor is assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#locations NetworkMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#locations NetworkMonitor#locations}
   */
   readonly locations: string[];
   /**
   * Name of the monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#name NetworkMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#name NetworkMonitor#name}
   */
   readonly name: string;
   /**
   * Type of the monitor, possible values: `MULTI_PROTOCOL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#type NetworkMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#type NetworkMonitor#type}
   */
   readonly type: string;
   /**
   * outage_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#outage_handling NetworkMonitor#outage_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#outage_handling NetworkMonitor#outage_handling}
   */
   readonly outageHandling?: NetworkMonitorOutageHandling;
   /**
   * performance_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#performance_thresholds NetworkMonitor#performance_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#performance_thresholds NetworkMonitor#performance_thresholds}
   */
   readonly performanceThresholds?: NetworkMonitorPerformanceThresholds;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#steps NetworkMonitor#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#steps NetworkMonitor#steps}
   */
   readonly steps: NetworkMonitorSteps[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#tags NetworkMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#tags NetworkMonitor#tags}
   */
   readonly tags?: NetworkMonitorTags[] | cdktf.IResolvable;
 }
@@ -79,31 +79,31 @@ export interface NetworkMonitorOutageHandling {
   /**
   * Number of consecutive failures for all locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#global_consecutive_outage_count_threshold NetworkMonitor#global_consecutive_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#global_consecutive_outage_count_threshold NetworkMonitor#global_consecutive_outage_count_threshold}
   */
   readonly globalConsecutiveOutageCountThreshold?: number;
   /**
   * Generate a problem and send an alert when the monitor is unavailable at all configured locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#global_outages NetworkMonitor#global_outages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#global_outages NetworkMonitor#global_outages}
   */
   readonly globalOutages?: boolean | cdktf.IResolvable;
   /**
   * Number of consecutive failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#local_consecutive_outage_count_threshold NetworkMonitor#local_consecutive_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#local_consecutive_outage_count_threshold NetworkMonitor#local_consecutive_outage_count_threshold}
   */
   readonly localConsecutiveOutageCountThreshold?: number;
   /**
   * Number of failing locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#local_location_outage_count_threshold NetworkMonitor#local_location_outage_count_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#local_location_outage_count_threshold NetworkMonitor#local_location_outage_count_threshold}
   */
   readonly localLocationOutageCountThreshold?: number;
   /**
   * Generate a problem and send an alert when the monitor is unavailable for one or more consecutive runs at any location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#local_outages NetworkMonitor#local_outages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#local_outages NetworkMonitor#local_outages}
   */
   readonly localOutages?: boolean | cdktf.IResolvable;
 }
@@ -305,37 +305,37 @@ export interface NetworkMonitorPerformanceThresholdsThresholdsThreshold {
   /**
   * Aggregation type, possible values: `AVG`, `MAX`, `MIN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#aggregation NetworkMonitor#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#aggregation NetworkMonitor#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Number of most recent non-violating request executions that closes the problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#dealerting_samples NetworkMonitor#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#dealerting_samples NetworkMonitor#dealerting_samples}
   */
   readonly dealertingSamples?: number;
   /**
   * Number of request executions in analyzed sliding window (sliding window size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#samples NetworkMonitor#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#samples NetworkMonitor#samples}
   */
   readonly samples?: number;
   /**
   * Specify the step's index to which a threshold applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#step_index NetworkMonitor#step_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#step_index NetworkMonitor#step_index}
   */
   readonly stepIndex?: number;
   /**
   * Notify if monitor request takes longer than X milliseconds to execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#threshold NetworkMonitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#threshold NetworkMonitor#threshold}
   */
   readonly threshold?: number;
   /**
   * Number of violating request executions in analyzed sliding window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#violating_samples NetworkMonitor#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#violating_samples NetworkMonitor#violating_samples}
   */
   readonly violatingSamples?: number;
 }
@@ -598,7 +598,7 @@ export interface NetworkMonitorPerformanceThresholdsThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#threshold NetworkMonitor#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#threshold NetworkMonitor#threshold}
   */
   readonly threshold?: NetworkMonitorPerformanceThresholdsThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -684,13 +684,13 @@ export interface NetworkMonitorPerformanceThresholds {
   /**
   * Performance threshold is enabled (true) or disabled (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#enabled NetworkMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#enabled NetworkMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#thresholds NetworkMonitor#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#thresholds NetworkMonitor#thresholds}
   */
   readonly thresholds?: NetworkMonitorPerformanceThresholdsThresholds;
 }
@@ -805,13 +805,13 @@ export interface NetworkMonitorStepsStepConstraintsConstraint {
   /**
   * Key/value pairs of constraint properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#properties NetworkMonitor#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#properties NetworkMonitor#properties}
   */
   readonly properties: { [key: string]: string };
   /**
   * Constraint type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#type NetworkMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#type NetworkMonitor#type}
   */
   readonly type: string;
 }
@@ -952,7 +952,7 @@ export interface NetworkMonitorStepsStepConstraints {
   /**
   * constraint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#constraint NetworkMonitor#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#constraint NetworkMonitor#constraint}
   */
   readonly constraint: NetworkMonitorStepsStepConstraintsConstraint[] | cdktf.IResolvable;
 }
@@ -1067,13 +1067,13 @@ export interface NetworkMonitorStepsStepRequestConfigurationsRequestConfiguratio
   /**
   * Key/value pairs of constraint properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#properties NetworkMonitor#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#properties NetworkMonitor#properties}
   */
   readonly properties: { [key: string]: string };
   /**
   * Constraint type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#type NetworkMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#type NetworkMonitor#type}
   */
   readonly type: string;
 }
@@ -1214,7 +1214,7 @@ export interface NetworkMonitorStepsStepRequestConfigurationsRequestConfiguratio
   /**
   * constraint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#constraint NetworkMonitor#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#constraint NetworkMonitor#constraint}
   */
   readonly constraint: NetworkMonitorStepsStepRequestConfigurationsRequestConfigurationConstraintsConstraint[] | cdktf.IResolvable;
 }
@@ -1329,7 +1329,7 @@ export interface NetworkMonitorStepsStepRequestConfigurationsRequestConfiguratio
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#constraints NetworkMonitor#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#constraints NetworkMonitor#constraints}
   */
   readonly constraints?: NetworkMonitorStepsStepRequestConfigurationsRequestConfigurationConstraints[] | cdktf.IResolvable;
 }
@@ -1447,7 +1447,7 @@ export interface NetworkMonitorStepsStepRequestConfigurations {
   /**
   * request_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#request_configuration NetworkMonitor#request_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#request_configuration NetworkMonitor#request_configuration}
   */
   readonly requestConfiguration: NetworkMonitorStepsStepRequestConfigurationsRequestConfiguration[] | cdktf.IResolvable;
 }
@@ -1562,43 +1562,43 @@ export interface NetworkMonitorStepsStep {
   /**
   * Step name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#name NetworkMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#name NetworkMonitor#name}
   */
   readonly name: string;
   /**
   * Key/value pairs of properties which apply to all requests in the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#properties NetworkMonitor#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#properties NetworkMonitor#properties}
   */
   readonly properties: { [key: string]: string };
   /**
   * Request type, possible values `ICMP`, `TCP`, `DNS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#request_type NetworkMonitor#request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#request_type NetworkMonitor#request_type}
   */
   readonly requestType: string;
   /**
   * Target filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#target_filter NetworkMonitor#target_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#target_filter NetworkMonitor#target_filter}
   */
   readonly targetFilter?: string;
   /**
   * Target list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#target_list NetworkMonitor#target_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#target_list NetworkMonitor#target_list}
   */
   readonly targetList: string[];
   /**
   * constraints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#constraints NetworkMonitor#constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#constraints NetworkMonitor#constraints}
   */
   readonly constraints: NetworkMonitorStepsStepConstraints[] | cdktf.IResolvable;
   /**
   * request_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#request_configurations NetworkMonitor#request_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#request_configurations NetworkMonitor#request_configurations}
   */
   readonly requestConfigurations?: NetworkMonitorStepsStepRequestConfigurations[] | cdktf.IResolvable;
 }
@@ -1875,7 +1875,7 @@ export interface NetworkMonitorSteps {
   /**
   * step block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#step NetworkMonitor#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#step NetworkMonitor#step}
   */
   readonly step: NetworkMonitorStepsStep[] | cdktf.IResolvable;
 }
@@ -1992,25 +1992,25 @@ export interface NetworkMonitorTagsTag {
   * 
   * Custom tags use the CONTEXTLESS value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#context NetworkMonitor#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#context NetworkMonitor#context}
   */
   readonly context?: string;
   /**
   * The key of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#key NetworkMonitor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#key NetworkMonitor#key}
   */
   readonly key: string;
   /**
   * The source of the tag, possible values: `AUTO`, `RULE_BASED` or `USER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#source NetworkMonitor#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#source NetworkMonitor#source}
   */
   readonly source?: string;
   /**
   *  The value of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#value NetworkMonitor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#value NetworkMonitor#value}
   */
   readonly value?: string;
 }
@@ -2212,7 +2212,7 @@ export interface NetworkMonitorTags {
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#tag NetworkMonitor#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#tag NetworkMonitor#tag}
   */
   readonly tag?: NetworkMonitorTagsTag[] | cdktf.IResolvable;
 }
@@ -2328,7 +2328,7 @@ export class NetworkMonitorTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor dynatrace_network_monitor}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor dynatrace_network_monitor}
 */
 export class NetworkMonitor extends cdktf.TerraformResource {
 
@@ -2344,7 +2344,7 @@ export class NetworkMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkMonitor to import
-  * @param importFromId The id of the existing NetworkMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2356,7 +2356,7 @@ export class NetworkMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/network_monitor dynatrace_network_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/network_monitor dynatrace_network_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2367,8 +2367,8 @@ export class NetworkMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_network_monitor',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

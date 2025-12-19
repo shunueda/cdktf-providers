@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface CosBucketObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The canned ACL to apply. Available values include `private`, `public-read`, and `public-read-write`. Defaults to `private`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#acl CosBucketObject#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#acl CosBucketObject#acl}
   */
   readonly acl?: string;
   /**
   * The name of a bucket to use. Bucket format should be [custom name]-[appid], for example `mycos-1258798060`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#bucket CosBucketObject#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#bucket CosBucketObject#bucket}
   */
   readonly bucket: string;
   /**
   * Specifies caching behavior along the request/reply chain. For further details, RFC2616 can be referred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#cache_control CosBucketObject#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#cache_control CosBucketObject#cache_control}
   */
   readonly cacheControl?: string;
   /**
   * Literal string value to use as the object content, which will be uploaded as UTF-8-encoded text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#content CosBucketObject#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#content CosBucketObject#content}
   */
   readonly content?: string;
   /**
   * Specifies presentational information for the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#content_disposition CosBucketObject#content_disposition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#content_disposition CosBucketObject#content_disposition}
   */
   readonly contentDisposition?: string;
   /**
   * Specifies what content encodings have been applied to the object and thus what decoding mechanisms must be applied to obtain the media-type referenced by the Content-Type header field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#content_encoding CosBucketObject#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#content_encoding CosBucketObject#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
   * A standard MIME type describing the format of the object data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#content_type CosBucketObject#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#content_type CosBucketObject#content_type}
   */
   readonly contentType?: string;
   /**
   * The ETag generated for the object (an MD5 sum of the object content).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#etag CosBucketObject#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#etag CosBucketObject#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#id CosBucketObject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#id CosBucketObject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,31 +65,31 @@ export interface CosBucketObjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the object once it is in the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#key CosBucketObject#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#key CosBucketObject#key}
   */
   readonly key: string;
   /**
   * The path to the source file being uploaded to the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#source CosBucketObject#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#source CosBucketObject#source}
   */
   readonly source?: string;
   /**
   * Object storage type, Available values include `STANDARD_IA`, `MAZ_STANDARD_IA`, `INTELLIGENT_TIERING`, `MAZ_INTELLIGENT_TIERING`, `ARCHIVE`, `DEEP_ARCHIVE`. For more information, please refer to: https://cloud.tencent.com/document/product/436/33417.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#storage_class CosBucketObject#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#storage_class CosBucketObject#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Tag of the object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#tags CosBucketObject#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#tags CosBucketObject#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object tencentcloud_cos_bucket_object}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object tencentcloud_cos_bucket_object}
 */
 export class CosBucketObject extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class CosBucketObject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosBucketObject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosBucketObject to import
-  * @param importFromId The id of the existing CosBucketObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosBucketObject that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosBucketObject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class CosBucketObject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_bucket_object tencentcloud_cos_bucket_object} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_bucket_object tencentcloud_cos_bucket_object} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class CosBucketObject extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_bucket_object',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

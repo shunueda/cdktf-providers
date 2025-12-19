@@ -13,7 +13,6 @@ export * as postProcessKms from './post-process-kms';
 export * as protectionGroup from './protection-group';
 export * as protectionGroupBucket from './protection-group-bucket';
 export * as reportConfiguration from './report-configuration';
-export * as s3BucketProperties from './s3-bucket-properties';
 export * as user from './user';
 export * as wallet from './wallet';
 export * as dataClumioAwsConnection from './data-clumio-aws-connection';

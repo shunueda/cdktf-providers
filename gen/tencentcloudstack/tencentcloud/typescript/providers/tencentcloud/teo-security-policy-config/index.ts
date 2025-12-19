@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TeoSecurityPolicyConfigConfig extends cdktf.TerraformMetaArgume
   /**
   * Security policy type. the following parameter values can be used: <li>ZoneDefaultPolicy: used to specify a site-level policy;</li> <li>Template: used to specify a policy Template. you need to simultaneously specify the TemplateId parameter;</li> <li>Host: used to specify a domain-level policy (note: when using a domain name to specify a dns service policy, only dns services or policy templates that have applied a domain-level policy are supported).</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#entity TeoSecurityPolicyConfig#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#entity TeoSecurityPolicyConfig#entity}
   */
   readonly entity?: string;
   /**
   * Specifies the specified domain. when the Entity parameter value is Host, use the domain-level policy specified by this parameter. for example: use www.example.com to configure the domain-level policy of the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#host TeoSecurityPolicyConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#host TeoSecurityPolicyConfig#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface TeoSecurityPolicyConfigConfig extends cdktf.TerraformMetaArgume
   /**
   * Specify the policy Template ID. use this parameter to specify the ID of the policy Template when the Entity parameter value is Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#template_id TeoSecurityPolicyConfig#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#template_id TeoSecurityPolicyConfig#template_id}
   */
   readonly templateId?: string;
   /**
   * Zone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#zone_id TeoSecurityPolicyConfig#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#zone_id TeoSecurityPolicyConfig#zone_id}
   */
   readonly zoneId: string;
   /**
   * security_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#security_policy TeoSecurityPolicyConfig#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#security_policy TeoSecurityPolicyConfig#security_policy}
   */
   readonly securityPolicy?: TeoSecurityPolicyConfigSecurityPolicy;
 }
@@ -49,7 +49,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRule
   /**
   * Penalty duration for blocking ips. supported units: <li>s: second, value range 1-120;</li> <li>m: minute, value range 1-120;</li> <li>h: hour, value range 1-48.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -132,7 +132,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRule
   /**
   * Redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -215,13 +215,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRule
   /**
   * Response custom page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -331,25 +331,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRule
   * Specific actions for safe execution. valid values:.
   * <li>Deny: block</li> <li>Monitor: Monitor</li> <li>ReturnCustomPage: use specified page to block</li> <li>Redirect: Redirect to URL</li> <li>BlockIP: IP block</li> <li>JSChallenge: JavaScript challenge</li> <li>ManagedChallenge: managed challenge</li> <li>Disabled: Disabled</li> <li>Allow: Allow</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRulesActionBlockIpActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRulesActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRulesActionReturnCustomPageActionParameters;
 }
@@ -519,31 +519,31 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRule
   /**
   * The specific content of the custom rule must comply with the expression grammar. please refer to the product document for detailed specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition: string;
   /**
   * Indicates whether the custom rule is enabled. valid values: <li>on: enabled</li> <li>off: disabled</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * The name of the custom rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * Customizes the priority of rules. value range: 0-100. it defaults to 0. only supports `rule_type` is `PreciseMatchRule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
   */
   readonly priority?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action: TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRulesAction;
 }
@@ -775,7 +775,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRul
   /**
   * Penalty duration for blocking ips. supported units: <li>s: second, value range 1-120;</li> <li>m: minute, value range 1-120;</li> <li>h: hour, value range 1-48.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -858,7 +858,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRul
   /**
   * Redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -941,13 +941,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRul
   /**
   * Response custom page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -1057,25 +1057,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRul
   * Specific actions for safe execution. valid values:.
   * <li>Deny: block</li> <li>Monitor: Monitor</li> <li>ReturnCustomPage: use specified page to block</li> <li>Redirect: Redirect to URL</li> <li>BlockIP: IP block</li> <li>JSChallenge: JavaScript challenge</li> <li>ManagedChallenge: managed challenge</li> <li>Disabled: Disabled</li> <li>Allow: Allow</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRulesActionBlockIpActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRulesActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRulesActionReturnCustomPageActionParameters;
 }
@@ -1245,31 +1245,31 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRul
   /**
   * The specific content of the custom rule must comply with the expression grammar. please refer to the product document for detailed specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition: string;
   /**
   * Indicates whether the custom rule is enabled. valid values: <li>on: enabled</li> <li>off: disabled</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * The name of the custom rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * Customizes the priority of rules. value range: 0-100. it defaults to 0. only supports `rule_type` is `PreciseMatchRule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
   */
   readonly priority?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action: TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRulesAction;
 }
@@ -1501,7 +1501,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionBloc
   /**
   * Penalty duration for blocking ips. supported units: <li>s: second, value range 1-120;</li> <li>m: minute, value range 1-120;</li> <li>h: hour, value range 1-48.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -1584,7 +1584,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionRedi
   /**
   * Redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -1667,13 +1667,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionRetu
   /**
   * Response custom page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -1783,25 +1783,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesAction {
   * Specific actions for safe execution. valid values:.
   * <li>Deny: block</li> <li>Monitor: Monitor</li> <li>ReturnCustomPage: use specified page to block</li> <li>Redirect: Redirect to URL</li> <li>BlockIP: IP block</li> <li>JSChallenge: JavaScript challenge</li> <li>ManagedChallenge: managed challenge</li> <li>Disabled: Disabled</li> <li>Allow: Allow</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionBlockIpActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesActionReturnCustomPageActionParameters;
 }
@@ -1971,19 +1971,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRules {
   /**
   * The specific content of the custom rule must comply with the expression grammar. please refer to the product document for detailed specifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition: string;
   /**
   * Indicates whether the custom rule is enabled. valid values: <li>on: enabled</li> <li>off: disabled</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * The ID of a custom rule. <br> the rule ID supports different rule configuration operations: <br> - add a new rule: ID is empty or the ID parameter is not specified; <br> - modify an existing rule: specify the rule ID that needs to be updated/modified; <br> - delete an existing rule: existing Rules not included in the Rules list of the CustomRules parameter will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1992,25 +1992,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRulesRules {
   /**
   * The name of the custom rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * Customizes the priority of rules. value range: 0-100. it defaults to 0. only supports `rule_type` is `PreciseMatchRule`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
   */
   readonly priority?: number;
   /**
   * Type of custom rule. valid values: <li>BasicAccessRule: basic access control;</li> <li>PreciseMatchRule: exact matching rule, default;</li> <li>ManagedAccessRule: expert customized rule, for output only.</li> the default value is PreciseMatchRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rule_type TeoSecurityPolicyConfig#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rule_type TeoSecurityPolicyConfig#rule_type}
   */
   readonly ruleType?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action: TeoSecurityPolicyConfigSecurityPolicyCustomRulesRulesAction;
 }
@@ -2290,19 +2290,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyCustomRules {
   /**
   * basic_access_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#basic_access_rules TeoSecurityPolicyConfig#basic_access_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#basic_access_rules TeoSecurityPolicyConfig#basic_access_rules}
   */
   readonly basicAccessRules?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesBasicAccessRules[] | cdktf.IResolvable;
   /**
   * precise_match_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#precise_match_rules TeoSecurityPolicyConfig#precise_match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#precise_match_rules TeoSecurityPolicyConfig#precise_match_rules}
   */
   readonly preciseMatchRules?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesPreciseMatchRules[] | cdktf.IResolvable;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
   */
   readonly rules?: TeoSecurityPolicyConfigSecurityPolicyCustomRulesRules[] | cdktf.IResolvable;
 }
@@ -2448,7 +2448,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRulesRequest
   * Condition supports expression configuration syntax: <li> Written according to the matching condition expression syntax of the rule, supporting references to key and value. </li>.<li> Supports in, like operators, and and logical combinations. </li>.
   * For example: <li>${key} in ['x-trace-id']: parameter name is equal to x-trace-id. </li>.<li>${key} in ['x-trace-id'] and ${value} like ['Bearer *']: parameter name is equal to x-trace-id and the parameter value wildcard matches Bearer *. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition: string;
   /**
@@ -2460,7 +2460,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRulesRequest
   * <li style="margin-top:5px">uri: request path URI; in this case, Condition must be empty, TargetField supports query, path, fullpath, for example, { "Scope": "uri", "Condition": "", "TargetField": "query" }, indicating that the request path URI only query parameters skip WAF scanning;</li>
   * <li style="margin-top:5px">body: request body content. In this case, Condition must be empty, TargetField supports fullbody and multipart, for example, { "Scope": "body", "Condition": "", "TargetField": "fullbody" }, indicating that the request body content is the complete request body and skips WAF scanning;</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#scope TeoSecurityPolicyConfig#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#scope TeoSecurityPolicyConfig#scope}
   */
   readonly scope: string;
   /**
@@ -2472,7 +2472,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRulesRequest
   * <li> uri: supports path, query and fullpath</li>
   * <li> body: supports fullbody and multipart</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#target_field TeoSecurityPolicyConfig#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#target_field TeoSecurityPolicyConfig#target_field}
   */
   readonly targetField: string;
 }
@@ -2639,19 +2639,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRules {
   /**
   * The specific content of the exception rule must comply with the expression syntax. For detailed specifications, see the product documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition?: string;
   /**
   * Whether the exception rule is enabled. The values are: <li>on: enabled</li><li>off: disabled</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled?: string;
   /**
   * The ID of the exception rule. <br>The rule ID can support different rule configuration operations: <br> <li> <b>Add</b> a new rule: the ID is empty or the ID parameter is not specified; </li><li> <b>Modify</b> an existing rule: specify the rule ID to be updated/modified; </li><li> <b>Delete</b> an existing rule: in the ExceptionRules parameter, the existing rules not included in the Rules list will be deleted. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2660,43 +2660,43 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRules {
   /**
   * Specifies the managed rule group for the exception rule. This is only valid when SkipScope is ManagedRules and ManagedRulesForException cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#managed_rule_groups_for_exception TeoSecurityPolicyConfig#managed_rule_groups_for_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#managed_rule_groups_for_exception TeoSecurityPolicyConfig#managed_rule_groups_for_exception}
   */
   readonly managedRuleGroupsForException?: string[];
   /**
   * Specifies the specific managed rule for the exception rule. This is only valid when SkipScope is ManagedRules and ManagedRuleGroupsForException cannot be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#managed_rules_for_exception TeoSecurityPolicyConfig#managed_rules_for_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#managed_rules_for_exception TeoSecurityPolicyConfig#managed_rules_for_exception}
   */
   readonly managedRulesForException?: string[];
   /**
   * The name of the exception rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name?: string;
   /**
   * The specific type of the skipped request. The possible values are: <li>SkipOnAllRequestFields: skip all requests; </li><li>SkipOnSpecifiedRequestFields: skip specified request fields. </li>. This option is only valid when SkipScope is ManagedRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#skip_option TeoSecurityPolicyConfig#skip_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#skip_option TeoSecurityPolicyConfig#skip_option}
   */
   readonly skipOption?: string;
   /**
   * Exception rule execution options, the values are: <li>WebSecurityModules: Specifies the security protection module for the exception rule. </li>.<li>ManagedRules: Specifies the managed rules. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#skip_scope TeoSecurityPolicyConfig#skip_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#skip_scope TeoSecurityPolicyConfig#skip_scope}
   */
   readonly skipScope?: string;
   /**
   * Specifies the security protection module for the exception rule. It is valid only when SkipScope is WebSecurityModules. The possible values are: <li>websec-mod-managed-rules: managed rules; </li><li>websec-mod-rate-limiting: rate limiting; </li><li>websec-mod-custom-rules: custom rules; </li><li>websec-mod-adaptive-control: adaptive frequency control, intelligent client filtering, slow attack protection, traffic theft protection; </li><li>websec-mod-bot: Bot management. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#web_security_modules_for_exception TeoSecurityPolicyConfig#web_security_modules_for_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#web_security_modules_for_exception TeoSecurityPolicyConfig#web_security_modules_for_exception}
   */
   readonly webSecurityModulesForException?: string[];
   /**
   * request_fields_for_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#request_fields_for_exception TeoSecurityPolicyConfig#request_fields_for_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#request_fields_for_exception TeoSecurityPolicyConfig#request_fields_for_exception}
   */
   readonly requestFieldsForException?: TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRulesRequestFieldsForException[] | cdktf.IResolvable;
 }
@@ -3075,7 +3075,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyExceptionRules {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
   */
   readonly rules?: TeoSecurityPolicyConfigSecurityPolicyExceptionRulesRules[] | cdktf.IResolvable;
 }
@@ -3161,7 +3161,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   /**
   * The penalty duration for banning an IP. Supported units are: <li>s: seconds, value range 1 to 120; </li><li>m: minutes, value range 1 to 120; </li><li>h: hours, value range 1 to 48. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -3244,19 +3244,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   /**
   * Client authentication method ID. This field is required when Name is InterstitialChallenge/InlineChallenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
   */
   readonly attesterId?: string;
   /**
   * The specific challenge action to be executed safely. The possible values are: <li> InterstitialChallenge: interstitial challenge; </li><li> InlineChallenge: embedded challenge; </li><li> JSChallenge: JavaScript challenge; </li><li> ManagedChallenge: managed challenge. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
   */
   readonly challengeOption: string;
   /**
   * The time interval for repeating the challenge. When Name is InterstitialChallenge/InlineChallenge, this field is required. The default value is 300s. Supported units are: <li>s: seconds, value range 1 to 60; </li><li>m: minutes, value range 1 to 60; </li><li>h: hours, value range 1 to 24. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
   */
   readonly interval?: string;
 }
@@ -3401,25 +3401,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   * When enabled, the client IP that triggers the rule will be blocked continuously. When this option is enabled, the BlockIpDuration parameter must be specified at the same time.
   * Note: This option cannot be enabled at the same time as the ReturnCustomPage or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
   */
   readonly blockIp?: string;
   /**
   * When BlockIP is on, the IP blocking duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
   */
   readonly blockIpDuration?: string;
   /**
   * The PageId of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId?: string;
   /**
   * Customize the status code of the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode?: string;
   /**
@@ -3429,7 +3429,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   * After enabling, use custom page content to intercept (respond to) requests. When enabling this option, you must specify the ResponseCode and ErrorPageId parameters at the same time.
   * Note: This option cannot be enabled at the same time as the BlockIp or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
   */
   readonly returnCustomPage?: string;
   /**
@@ -3439,7 +3439,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   * After enabling, it will no longer respond to requests in the current connection session and will not actively disconnect. It is used to fight against crawlers and consume client connection resources.
   * Note: This option cannot be enabled at the same time as the BlockIp or ReturnCustomPage options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
   */
   readonly stall?: string;
 }
@@ -3670,7 +3670,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   /**
   * The URL to redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -3753,13 +3753,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   /**
   * The custom page ID of the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -3878,37 +3878,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   * <li>JSChallenge: to be abandoned, JavaScript challenge;</li>
   * <li>ManagedChallenge: to be abandoned, managed challenge.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlActionBlockIpActionParameters;
   /**
   * challenge_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
   */
   readonly challengeActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlActionChallengeActionParameters;
   /**
   * deny_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
   */
   readonly denyActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlActionDenyActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlActionReturnCustomPageActionParameters;
 }
@@ -4136,19 +4136,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptive
   /**
   * Whether adaptive frequency control is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * The restriction level of adaptive frequency control. When Enabled is on, this field is required. The values are: <li>Loose: loose; </li><li>Moderate: moderate; </li><li>Strict: strict. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#sensitivity TeoSecurityPolicyConfig#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#sensitivity TeoSecurityPolicyConfig#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControlAction;
 }
@@ -4289,7 +4289,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   /**
   * The penalty duration for banning an IP. Supported units are: <li>s: seconds, value range 1 to 120; </li><li>m: minutes, value range 1 to 120; </li><li>h: hours, value range 1 to 48. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -4372,19 +4372,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   /**
   * Client authentication method ID. This field is required when Name is InterstitialChallenge/InlineChallenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
   */
   readonly attesterId?: string;
   /**
   * The specific challenge action to be executed safely. The possible values are: <li> InterstitialChallenge: interstitial challenge; </li><li> InlineChallenge: embedded challenge; </li><li> JSChallenge: JavaScript challenge; </li><li> ManagedChallenge: managed challenge. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
   */
   readonly challengeOption: string;
   /**
   * The time interval for repeating the challenge. When Name is InterstitialChallenge/InlineChallenge, this field is required. The default value is 300s. Supported units are: <li>s: seconds, value range 1 to 60; </li><li>m: minutes, value range 1 to 60; </li><li>h: hours, value range 1 to 24. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
   */
   readonly interval?: string;
 }
@@ -4529,25 +4529,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   * When enabled, the client IP that triggers the rule will be blocked continuously. When this option is enabled, the BlockIpDuration parameter must be specified at the same time.
   * Note: This option cannot be enabled at the same time as the ReturnCustomPage or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
   */
   readonly blockIp?: string;
   /**
   * When BlockIP is on, the IP blocking duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
   */
   readonly blockIpDuration?: string;
   /**
   * The PageId of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId?: string;
   /**
   * Customize the status code of the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode?: string;
   /**
@@ -4557,7 +4557,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   * After enabling, use custom page content to intercept (respond to) requests. When enabling this option, you must specify the ResponseCode and ErrorPageId parameters at the same time.
   * Note: This option cannot be enabled at the same time as the BlockIp or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
   */
   readonly returnCustomPage?: string;
   /**
@@ -4567,7 +4567,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   * After enabling, it will no longer respond to requests in the current connection session and will not actively disconnect. It is used to fight against crawlers and consume client connection resources.
   * Note: This option cannot be enabled at the same time as the BlockIp or ReturnCustomPage options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
   */
   readonly stall?: string;
 }
@@ -4798,7 +4798,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   /**
   * The URL to redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -4881,13 +4881,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   /**
   * The custom page ID of the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -5006,37 +5006,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   * <li>JSChallenge: to be abandoned, JavaScript challenge;</li>
   * <li>ManagedChallenge: to be abandoned, managed challenge.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseActionBlockIpActionParameters;
   /**
   * challenge_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
   */
   readonly challengeActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseActionChallengeActionParameters;
   /**
   * deny_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
   */
   readonly denyActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseActionDenyActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseActionReturnCustomPageActionParameters;
 }
@@ -5264,13 +5264,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidt
   /**
   * Whether the anti-theft feature (only applicable to mainland China) is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefenseAction;
 }
@@ -5382,7 +5382,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   /**
   * The penalty duration for banning an IP. Supported units are: <li>s: seconds, value range 1 to 120; </li><li>m: minutes, value range 1 to 120; </li><li>h: hours, value range 1 to 48. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -5465,19 +5465,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   /**
   * Client authentication method ID. This field is required when Name is InterstitialChallenge/InlineChallenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
   */
   readonly attesterId?: string;
   /**
   * The specific challenge action to be executed safely. The possible values are: <li> InterstitialChallenge: interstitial challenge; </li><li> InlineChallenge: embedded challenge; </li><li> JSChallenge: JavaScript challenge; </li><li> ManagedChallenge: managed challenge. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
   */
   readonly challengeOption: string;
   /**
   * The time interval for repeating the challenge. When Name is InterstitialChallenge/InlineChallenge, this field is required. The default value is 300s. Supported units are: <li>s: seconds, value range 1 to 60; </li><li>m: minutes, value range 1 to 60; </li><li>h: hours, value range 1 to 24. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
   */
   readonly interval?: string;
 }
@@ -5622,25 +5622,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   * When enabled, the client IP that triggers the rule will be blocked continuously. When this option is enabled, the BlockIpDuration parameter must be specified at the same time.
   * Note: This option cannot be enabled at the same time as the ReturnCustomPage or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
   */
   readonly blockIp?: string;
   /**
   * When BlockIP is on, the IP blocking duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
   */
   readonly blockIpDuration?: string;
   /**
   * The PageId of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId?: string;
   /**
   * Customize the status code of the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode?: string;
   /**
@@ -5650,7 +5650,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   * After enabling, use custom page content to intercept (respond to) requests. When enabling this option, you must specify the ResponseCode and ErrorPageId parameters at the same time.
   * Note: This option cannot be enabled at the same time as the BlockIp or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
   */
   readonly returnCustomPage?: string;
   /**
@@ -5660,7 +5660,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   * After enabling, it will no longer respond to requests in the current connection session and will not actively disconnect. It is used to fight against crawlers and consume client connection resources.
   * Note: This option cannot be enabled at the same time as the BlockIp or ReturnCustomPage options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
   */
   readonly stall?: string;
 }
@@ -5891,7 +5891,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   /**
   * The URL to redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -5974,13 +5974,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   /**
   * The custom page ID of the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -6099,37 +6099,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   * <li>JSChallenge: to be abandoned, JavaScript challenge;</li>
   * <li>ManagedChallenge: to be abandoned, managed challenge.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringActionBlockIpActionParameters;
   /**
   * challenge_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
   */
   readonly challengeActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringActionChallengeActionParameters;
   /**
   * deny_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
   */
   readonly denyActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringActionDenyActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringActionReturnCustomPageActionParameters;
 }
@@ -6357,13 +6357,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFi
   /**
   * Whether smart client filtering is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFilteringAction;
 }
@@ -6475,7 +6475,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * The penalty duration for banning an IP. Supported units are: <li>s: seconds, value range 1 to 120; </li><li>m: minutes, value range 1 to 120; </li><li>h: hours, value range 1 to 48. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -6558,19 +6558,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * Client authentication method ID. This field is required when Name is InterstitialChallenge/InlineChallenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
   */
   readonly attesterId?: string;
   /**
   * The specific challenge action to be executed safely. The possible values are: <li> InterstitialChallenge: interstitial challenge; </li><li> InlineChallenge: embedded challenge; </li><li> JSChallenge: JavaScript challenge; </li><li> ManagedChallenge: managed challenge. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
   */
   readonly challengeOption: string;
   /**
   * The time interval for repeating the challenge. When Name is InterstitialChallenge/InlineChallenge, this field is required. The default value is 300s. Supported units are: <li>s: seconds, value range 1 to 60; </li><li>m: minutes, value range 1 to 60; </li><li>h: hours, value range 1 to 24. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
   */
   readonly interval?: string;
 }
@@ -6715,25 +6715,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   * When enabled, the client IP that triggers the rule will be blocked continuously. When this option is enabled, the BlockIpDuration parameter must be specified at the same time.
   * Note: This option cannot be enabled at the same time as the ReturnCustomPage or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
   */
   readonly blockIp?: string;
   /**
   * When BlockIP is on, the IP blocking duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
   */
   readonly blockIpDuration?: string;
   /**
   * The PageId of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId?: string;
   /**
   * Customize the status code of the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode?: string;
   /**
@@ -6743,7 +6743,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   * After enabling, use custom page content to intercept (respond to) requests. When enabling this option, you must specify the ResponseCode and ErrorPageId parameters at the same time.
   * Note: This option cannot be enabled at the same time as the BlockIp or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
   */
   readonly returnCustomPage?: string;
   /**
@@ -6753,7 +6753,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   * After enabling, it will no longer respond to requests in the current connection session and will not actively disconnect. It is used to fight against crawlers and consume client connection resources.
   * Note: This option cannot be enabled at the same time as the BlockIp or ReturnCustomPage options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
   */
   readonly stall?: string;
 }
@@ -6984,7 +6984,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * The URL to redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -7067,13 +7067,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * The custom page ID of the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -7192,37 +7192,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   * <li>JSChallenge: to be abandoned, JavaScript challenge;</li>
   * <li>ManagedChallenge: to be abandoned, managed challenge.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseActionBlockIpActionParameters;
   /**
   * challenge_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
   */
   readonly challengeActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseActionChallengeActionParameters;
   /**
   * deny_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
   */
   readonly denyActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseActionDenyActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseActionReturnCustomPageActionParameters;
 }
@@ -7450,19 +7450,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * The minimum text transmission rate statistics time range, the possible values are: <li>10s: 10 seconds; </li><li>30s: 30 seconds; </li><li>60s: 60 seconds; </li><li>120s: 120 seconds. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#counting_period TeoSecurityPolicyConfig#counting_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#counting_period TeoSecurityPolicyConfig#counting_period}
   */
   readonly countingPeriod: string;
   /**
   * Whether the text transmission minimum rate threshold is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * Minimum text transmission rate threshold. The unit only supports bps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#minimal_avg_transfer_rate_threshold TeoSecurityPolicyConfig#minimal_avg_transfer_rate_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#minimal_avg_transfer_rate_threshold TeoSecurityPolicyConfig#minimal_avg_transfer_rate_threshold}
   */
   readonly minimalAvgTransferRateThreshold: string;
 }
@@ -7597,13 +7597,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * Whether the text transmission timeout is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * The text transmission timeout period is between 5 and 120, and the unit only supports seconds (s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#idle_timeout TeoSecurityPolicyConfig#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#idle_timeout TeoSecurityPolicyConfig#idle_timeout}
   */
   readonly idleTimeout: string;
 }
@@ -7712,25 +7712,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAtta
   /**
   * Whether slow attack protection is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseAction;
   /**
   * minimal_request_body_transfer_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#minimal_request_body_transfer_rate TeoSecurityPolicyConfig#minimal_request_body_transfer_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#minimal_request_body_transfer_rate TeoSecurityPolicyConfig#minimal_request_body_transfer_rate}
   */
   readonly minimalRequestBodyTransferRate?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseMinimalRequestBodyTransferRate;
   /**
   * request_body_transfer_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#request_body_transfer_timeout TeoSecurityPolicyConfig#request_body_transfer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#request_body_transfer_timeout TeoSecurityPolicyConfig#request_body_transfer_timeout}
   */
   readonly requestBodyTransferTimeout?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefenseRequestBodyTransferTimeout;
 }
@@ -7900,25 +7900,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtection {
   /**
   * adaptive_frequency_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#adaptive_frequency_control TeoSecurityPolicyConfig#adaptive_frequency_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#adaptive_frequency_control TeoSecurityPolicyConfig#adaptive_frequency_control}
   */
   readonly adaptiveFrequencyControl?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionAdaptiveFrequencyControl;
   /**
   * bandwidth_abuse_defense block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#bandwidth_abuse_defense TeoSecurityPolicyConfig#bandwidth_abuse_defense}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#bandwidth_abuse_defense TeoSecurityPolicyConfig#bandwidth_abuse_defense}
   */
   readonly bandwidthAbuseDefense?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionBandwidthAbuseDefense;
   /**
   * client_filtering block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#client_filtering TeoSecurityPolicyConfig#client_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#client_filtering TeoSecurityPolicyConfig#client_filtering}
   */
   readonly clientFiltering?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionClientFiltering;
   /**
   * slow_attack_defense block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#slow_attack_defense TeoSecurityPolicyConfig#slow_attack_defense}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#slow_attack_defense TeoSecurityPolicyConfig#slow_attack_defense}
   */
   readonly slowAttackDefense?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtectionSlowAttackDefense;
 }
@@ -8091,7 +8091,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesAutoUpdate {
   /**
   * Indicates whether to enable automatic update to the latest version. valid values: <li>on: enabled</li> <li>off: disabled</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#auto_update_to_latest_version TeoSecurityPolicyConfig#auto_update_to_latest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#auto_update_to_latest_version TeoSecurityPolicyConfig#auto_update_to_latest_version}
   */
   readonly autoUpdateToLatestVersion: string;
 }
@@ -8360,7 +8360,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Penalty duration for blocking ips. supported units: <li>s: second, value range 1-120;</li> <li>m: minute, value range 1-120;</li> <li>h: hour, value range 1-48.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -8443,7 +8443,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -8526,13 +8526,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Response custom page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -8642,25 +8642,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   * Specific actions for safe execution. valid values:.
   * <li>Deny: block</li> <li>Monitor: Monitor</li> <li>ReturnCustomPage: use specified page to block</li> <li>Redirect: Redirect to URL</li> <li>BlockIP: IP block</li> <li>JSChallenge: JavaScript challenge</li> <li>ManagedChallenge: managed challenge</li> <li>Disabled: Disabled</li> <li>Allow: Allow</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsActionBlockIpActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsActionReturnCustomPageActionParameters;
 }
@@ -8830,7 +8830,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Penalty duration for blocking ips. supported units: <li>s: second, value range 1-120;</li> <li>m: minute, value range 1-120;</li> <li>h: hour, value range 1-48.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -8913,7 +8913,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Redirect URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -8996,13 +8996,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Response custom page ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -9112,25 +9112,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   * Specific actions for safe execution. valid values:.
   * <li>Deny: block</li> <li>Monitor: Monitor</li> <li>ReturnCustomPage: use specified page to block</li> <li>Redirect: Redirect to URL</li> <li>BlockIP: IP block</li> <li>JSChallenge: JavaScript challenge</li> <li>ManagedChallenge: managed challenge</li> <li>Disabled: Disabled</li> <li>Allow: Allow</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsRuleActionsActionBlockIpActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsRuleActionsActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsRuleActionsActionReturnCustomPageActionParameters;
 }
@@ -9300,13 +9300,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Specific items under the managed rule group, which are used to rewrite the configuration content of this individual rule item. refer to product documentation for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rule_id TeoSecurityPolicyConfig#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rule_id TeoSecurityPolicyConfig#rule_id}
   */
   readonly ruleId: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsRuleActionsAction;
 }
@@ -9447,25 +9447,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGro
   /**
   * Group name of the managed rule. if the rule group for the configuration is not specified, it will be processed based on the default configuration. refer to product documentation for the specific value of GroupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#group_id TeoSecurityPolicyConfig#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#group_id TeoSecurityPolicyConfig#group_id}
   */
   readonly groupId: string;
   /**
   * Protection level of the managed rule group. valid values: <li>loose: lenient, only contains ultra-high risk rules. at this point, configure Action, and RuleActions configuration is invalid;</li> <li>normal: normal, contains ultra-high risk and high-risk rules. at this point, configure Action, and RuleActions configuration is invalid;</li> <li>strict: strict, contains ultra-high risk, high-risk and medium-risk rules. at this point, configure Action, and RuleActions configuration is invalid;</li> <li>extreme: super strict, contains ultra-high risk, high-risk, medium-risk and low-risk rules. at this point, configure Action, and RuleActions configuration is invalid;</li> <li>custom: custom, refined strategy. configure the disposal method for each individual rule. at this point, the Action field is invalid. use RuleActions to configure the refined strategy for each individual rule.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#sensitivity_level TeoSecurityPolicyConfig#sensitivity_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#sensitivity_level TeoSecurityPolicyConfig#sensitivity_level}
   */
   readonly sensitivityLevel: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsAction;
   /**
   * rule_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rule_actions TeoSecurityPolicyConfig#rule_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rule_actions TeoSecurityPolicyConfig#rule_actions}
   */
   readonly ruleActions?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroupsRuleActions[] | cdktf.IResolvable;
 }
@@ -9667,31 +9667,31 @@ export interface TeoSecurityPolicyConfigSecurityPolicyManagedRules {
   /**
   * Indicates whether the evaluation mode is Enabled. it is valid only when the Enabled parameter is set to on. valid values: <li>on: Enabled. all managed rules take effect in observation mode.</li> <li>off: disabled. all managed rules take effect according to the actual configuration.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#detection_only TeoSecurityPolicyConfig#detection_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#detection_only TeoSecurityPolicyConfig#detection_only}
   */
   readonly detectionOnly: string;
   /**
   * Indicates whether the managed rule is enabled. valid values: <li>on: enabled. all managed rules take effect as configured;</li> <li>off: disabled. all managed rules do not take effect.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled: string;
   /**
   * Whether the managed rule semantic analysis option is Enabled is valid only when the Enabled parameter is on. valid values: <li>on: enable. perform semantic analysis on requests before processing them;</li> <li>off: disable. process requests directly without semantic analysis.</li> <br/>default off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#semantic_analysis TeoSecurityPolicyConfig#semantic_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#semantic_analysis TeoSecurityPolicyConfig#semantic_analysis}
   */
   readonly semanticAnalysis?: string;
   /**
   * auto_update block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#auto_update TeoSecurityPolicyConfig#auto_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#auto_update TeoSecurityPolicyConfig#auto_update}
   */
   readonly autoUpdate?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesAutoUpdate;
   /**
   * managed_rule_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#managed_rule_groups TeoSecurityPolicyConfig#managed_rule_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#managed_rule_groups TeoSecurityPolicyConfig#managed_rule_groups}
   */
   readonly managedRuleGroups?: TeoSecurityPolicyConfigSecurityPolicyManagedRulesManagedRuleGroups[] | cdktf.IResolvable;
 }
@@ -9887,7 +9887,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   /**
   * The penalty duration for banning an IP. Supported units are: <li>s: seconds, value range 1 to 120; </li><li>m: minutes, value range 1 to 120; </li><li>h: hours, value range 1 to 48. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#duration TeoSecurityPolicyConfig#duration}
   */
   readonly duration: string;
 }
@@ -9970,19 +9970,19 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   /**
   * Client authentication method ID. This field is required when Name is InterstitialChallenge/InlineChallenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#attester_id TeoSecurityPolicyConfig#attester_id}
   */
   readonly attesterId?: string;
   /**
   * The specific challenge action to be executed safely. The possible values are: <li> InterstitialChallenge: interstitial challenge; </li><li> InlineChallenge: embedded challenge; </li><li> JSChallenge: JavaScript challenge; </li><li> ManagedChallenge: managed challenge. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_option TeoSecurityPolicyConfig#challenge_option}
   */
   readonly challengeOption: string;
   /**
   * The time interval for repeating the challenge. When Name is InterstitialChallenge/InlineChallenge, this field is required. The default value is 300s. Supported units are: <li>s: seconds, value range 1 to 60; </li><li>m: minutes, value range 1 to 60; </li><li>h: hours, value range 1 to 24. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#interval TeoSecurityPolicyConfig#interval}
   */
   readonly interval?: string;
 }
@@ -10127,25 +10127,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   * When enabled, the client IP that triggers the rule will be blocked continuously. When this option is enabled, the BlockIpDuration parameter must be specified at the same time.
   * Note: This option cannot be enabled at the same time as the ReturnCustomPage or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip TeoSecurityPolicyConfig#block_ip}
   */
   readonly blockIp?: string;
   /**
   * When BlockIP is on, the IP blocking duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_duration TeoSecurityPolicyConfig#block_ip_duration}
   */
   readonly blockIpDuration?: string;
   /**
   * The PageId of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId?: string;
   /**
   * Customize the status code of the page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode?: string;
   /**
@@ -10155,7 +10155,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   * After enabling, use custom page content to intercept (respond to) requests. When enabling this option, you must specify the ResponseCode and ErrorPageId parameters at the same time.
   * Note: This option cannot be enabled at the same time as the BlockIp or Stall options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page TeoSecurityPolicyConfig#return_custom_page}
   */
   readonly returnCustomPage?: string;
   /**
@@ -10165,7 +10165,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   * After enabling, it will no longer respond to requests in the current connection session and will not actively disconnect. It is used to fight against crawlers and consume client connection resources.
   * Note: This option cannot be enabled at the same time as the BlockIp or ReturnCustomPage options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#stall TeoSecurityPolicyConfig#stall}
   */
   readonly stall?: string;
 }
@@ -10396,7 +10396,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   /**
   * The URL to redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#url TeoSecurityPolicyConfig#url}
   */
   readonly url: string;
 }
@@ -10479,13 +10479,13 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   /**
   * The custom page ID of the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#error_page_id TeoSecurityPolicyConfig#error_page_id}
   */
   readonly errorPageId: string;
   /**
   * Response status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#response_code TeoSecurityPolicyConfig#response_code}
   */
   readonly responseCode: string;
 }
@@ -10604,37 +10604,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActi
   * <li>JSChallenge: to be abandoned, JavaScript challenge;</li>
   * <li>ManagedChallenge: to be abandoned, managed challenge.</li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name: string;
   /**
   * block_ip_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#block_ip_action_parameters TeoSecurityPolicyConfig#block_ip_action_parameters}
   */
   readonly blockIpActionParameters?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActionBlockIpActionParameters;
   /**
   * challenge_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#challenge_action_parameters TeoSecurityPolicyConfig#challenge_action_parameters}
   */
   readonly challengeActionParameters?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActionChallengeActionParameters;
   /**
   * deny_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#deny_action_parameters TeoSecurityPolicyConfig#deny_action_parameters}
   */
   readonly denyActionParameters?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActionDenyActionParameters;
   /**
   * redirect_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#redirect_action_parameters TeoSecurityPolicyConfig#redirect_action_parameters}
   */
   readonly redirectActionParameters?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActionRedirectActionParameters;
   /**
   * return_custom_page_action_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#return_custom_page_action_parameters TeoSecurityPolicyConfig#return_custom_page_action_parameters}
   */
   readonly returnCustomPageActionParameters?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesActionReturnCustomPageActionParameters;
 }
@@ -10862,37 +10862,37 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRules {
   /**
   * Action The duration of the action. The supported units are: <li>s: seconds, with a value of 1 to 120; </li><li>m: minutes, with a value of 1 to 120; </li><li>h: hours, with a value of 1 to 48; </li><li>d: days, with a value of 1 to 30. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action_duration TeoSecurityPolicyConfig#action_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action_duration TeoSecurityPolicyConfig#action_duration}
   */
   readonly actionDuration?: string;
   /**
   * The specific content of the precise rate limit must conform to the expression syntax. For detailed specifications, see the product documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#condition TeoSecurityPolicyConfig#condition}
   */
   readonly condition?: string;
   /**
   * The matching method of the rate threshold request feature. When Enabled is on, this field is required. <br /><br />When there are multiple conditions, multiple conditions will be combined for statistical calculation. The number of conditions cannot exceed 5. The possible values are: <br/><li><b>http.request.ip</b>: client IP; </li><li><b>http.request.xff_header_ip</b>: client IP (matching XFF header first); </li><li><b>http.request.uri.path</b>: requested access path; </li><li><b>http.request.cookies['session']</b>: cookie named session, where session can be replaced by the parameter you specify; </li><li><b>http.request.headers['user-agent']</b>: HTTP header named user-agent, where user-agent can be replaced by the parameter you specify; </li><li><b>http.request.ja3</b>: requested JA3 fingerprint; </li><li><b>http.request.uri.query['test']</b>: URL query parameter named test, where test can be replaced by the parameter you specify. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#count_by TeoSecurityPolicyConfig#count_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#count_by TeoSecurityPolicyConfig#count_by}
   */
   readonly countBy?: string[];
   /**
   * The statistical time window, the possible values are: <li>1s: 1 second; </li><li>5s: 5 seconds; </li><li>10s: 10 seconds; </li><li>20s: 20 seconds; </li><li>30s: 30 seconds; </li><li>40s: 40 seconds; </li><li>50s: 50 seconds; </li><li>1m: 1 minute; </li><li>2m: 2 minutes; </li><li>5m: 5 minutes; </li><li>10m: 10 minutes; </li><li>1h: 1 hour. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#counting_period TeoSecurityPolicyConfig#counting_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#counting_period TeoSecurityPolicyConfig#counting_period}
   */
   readonly countingPeriod?: string;
   /**
   * Whether the precise rate limit rule is enabled. The possible values are: <li>on: enabled; </li><li>off: disabled. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#enabled TeoSecurityPolicyConfig#enabled}
   */
   readonly enabled?: string;
   /**
   * The ID of the precise rate limit. <br>The rule ID can support different rule configuration operations: <br> <li> <b>Add</b> a new rule: the ID is empty or the ID parameter is not specified; </li><li> <b>Modify</b> an existing rule: specify the rule ID to be updated/modified; </li><li> <b>Delete</b> an existing rule: in the RateLimitingRules parameter, the existing rules not included in the Rules list will be deleted. </li>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#id TeoSecurityPolicyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10901,25 +10901,25 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRules {
   /**
   * The cumulative number of interceptions within the time range of the precise rate limit, ranging from 1 to 100000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#max_request_threshold TeoSecurityPolicyConfig#max_request_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#max_request_threshold TeoSecurityPolicyConfig#max_request_threshold}
   */
   readonly maxRequestThreshold?: number;
   /**
   * The name of the precise rate limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#name TeoSecurityPolicyConfig#name}
   */
   readonly name?: string;
   /**
   * The priority of precise rate limiting ranges from 0 to 100, and the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#priority TeoSecurityPolicyConfig#priority}
   */
   readonly priority?: number;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#action TeoSecurityPolicyConfig#action}
   */
   readonly action?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRulesAction;
 }
@@ -11298,7 +11298,7 @@ export interface TeoSecurityPolicyConfigSecurityPolicyRateLimitingRules {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rules TeoSecurityPolicyConfig#rules}
   */
   readonly rules?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRulesRules[] | cdktf.IResolvable;
 }
@@ -11384,31 +11384,31 @@ export interface TeoSecurityPolicyConfigSecurityPolicy {
   /**
   * custom_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#custom_rules TeoSecurityPolicyConfig#custom_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#custom_rules TeoSecurityPolicyConfig#custom_rules}
   */
   readonly customRules?: TeoSecurityPolicyConfigSecurityPolicyCustomRules;
   /**
   * exception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#exception_rules TeoSecurityPolicyConfig#exception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#exception_rules TeoSecurityPolicyConfig#exception_rules}
   */
   readonly exceptionRules?: TeoSecurityPolicyConfigSecurityPolicyExceptionRules;
   /**
   * http_ddos_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#http_ddos_protection TeoSecurityPolicyConfig#http_ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#http_ddos_protection TeoSecurityPolicyConfig#http_ddos_protection}
   */
   readonly httpDdosProtection?: TeoSecurityPolicyConfigSecurityPolicyHttpDdosProtection;
   /**
   * managed_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#managed_rules TeoSecurityPolicyConfig#managed_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#managed_rules TeoSecurityPolicyConfig#managed_rules}
   */
   readonly managedRules?: TeoSecurityPolicyConfigSecurityPolicyManagedRules;
   /**
   * rate_limiting_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#rate_limiting_rules TeoSecurityPolicyConfig#rate_limiting_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#rate_limiting_rules TeoSecurityPolicyConfig#rate_limiting_rules}
   */
   readonly rateLimitingRules?: TeoSecurityPolicyConfigSecurityPolicyRateLimitingRules;
 }
@@ -11608,7 +11608,7 @@ export class TeoSecurityPolicyConfigSecurityPolicyOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config tencentcloud_teo_security_policy_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config tencentcloud_teo_security_policy_config}
 */
 export class TeoSecurityPolicyConfig extends cdktf.TerraformResource {
 
@@ -11624,7 +11624,7 @@ export class TeoSecurityPolicyConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoSecurityPolicyConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoSecurityPolicyConfig to import
-  * @param importFromId The id of the existing TeoSecurityPolicyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoSecurityPolicyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoSecurityPolicyConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11636,7 +11636,7 @@ export class TeoSecurityPolicyConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_security_policy_config tencentcloud_teo_security_policy_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_security_policy_config tencentcloud_teo_security_policy_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11647,8 +11647,8 @@ export class TeoSecurityPolicyConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_security_policy_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

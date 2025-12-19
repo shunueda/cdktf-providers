@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FrequentIssuesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Detect frequent issues within applications, enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#detect_apps FrequentIssues#detect_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#detect_apps FrequentIssues#detect_apps}
   */
   readonly detectApps: boolean | cdktf.IResolvable;
   /**
   * Events raised at this level typically occur when no specific topological entity is applicable, often based on data such as logs and metrics. This does not impact the detection of issues within applications, transactions, services, or infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#detect_env FrequentIssues#detect_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#detect_env FrequentIssues#detect_env}
   */
   readonly detectEnv?: boolean | cdktf.IResolvable;
   /**
   * Detect frequent issues within infrastructure, enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#detect_infra FrequentIssues#detect_infra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#detect_infra FrequentIssues#detect_infra}
   */
   readonly detectInfra: boolean | cdktf.IResolvable;
   /**
   * Detect frequent issues within transactions and services, enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#detect_txn FrequentIssues#detect_txn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#detect_txn FrequentIssues#detect_txn}
   */
   readonly detectTxn: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#id FrequentIssues#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#id FrequentIssues#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface FrequentIssuesConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues dynatrace_frequent_issues}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues dynatrace_frequent_issues}
 */
 export class FrequentIssues extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class FrequentIssues extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FrequentIssues resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FrequentIssues to import
-  * @param importFromId The id of the existing FrequentIssues that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FrequentIssues that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FrequentIssues to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class FrequentIssues extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/frequent_issues dynatrace_frequent_issues} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/frequent_issues dynatrace_frequent_issues} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class FrequentIssues extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_frequent_issues',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

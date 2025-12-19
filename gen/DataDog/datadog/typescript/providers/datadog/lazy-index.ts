@@ -65,6 +65,7 @@ Object.defineProperty(exports, 'logsIndexOrder', { get: function () { return req
 Object.defineProperty(exports, 'logsIntegrationPipeline', { get: function () { return require('./logs-integration-pipeline'); } });
 Object.defineProperty(exports, 'logsMetric', { get: function () { return require('./logs-metric'); } });
 Object.defineProperty(exports, 'logsPipelineOrder', { get: function () { return require('./logs-pipeline-order'); } });
+Object.defineProperty(exports, 'logsRestrictionQuery', { get: function () { return require('./logs-restriction-query'); } });
 Object.defineProperty(exports, 'metricMetadata', { get: function () { return require('./metric-metadata'); } });
 Object.defineProperty(exports, 'metricTagConfiguration', { get: function () { return require('./metric-tag-configuration'); } });
 Object.defineProperty(exports, 'monitor', { get: function () { return require('./monitor'); } });
@@ -141,6 +142,7 @@ Object.defineProperty(exports, 'dataDatadogIntegrationAwsAvailableLogsServices',
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsAvailableNamespaces', { get: function () { return require('./data-datadog-integration-aws-available-namespaces'); } });
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsExternalId', { get: function () { return require('./data-datadog-integration-aws-external-id'); } });
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsIamPermissions', { get: function () { return require('./data-datadog-integration-aws-iam-permissions'); } });
+Object.defineProperty(exports, 'dataDatadogIntegrationAwsIamPermissionsResourceCollection', { get: function () { return require('./data-datadog-integration-aws-iam-permissions-resource-collection'); } });
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsIamPermissionsStandard', { get: function () { return require('./data-datadog-integration-aws-iam-permissions-standard'); } });
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsLogsServices', { get: function () { return require('./data-datadog-integration-aws-logs-services'); } });
 Object.defineProperty(exports, 'dataDatadogIntegrationAwsNamespaceRules', { get: function () { return require('./data-datadog-integration-aws-namespace-rules'); } });

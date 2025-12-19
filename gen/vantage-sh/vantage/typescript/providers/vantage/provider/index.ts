@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface VantageProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs#api_token VantageProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs#api_token VantageProvider#api_token}
   */
   readonly apiToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs#host VantageProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs#host VantageProvider#host}
   */
   readonly host?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs#alias VantageProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs#alias VantageProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs vantage}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs vantage}
 */
 export class VantageProvider extends cdktf.TerraformProvider {
 
@@ -40,7 +40,7 @@ export class VantageProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a VantageProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VantageProvider to import
-  * @param importFromId The id of the existing VantageProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VantageProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VantageProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class VantageProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs vantage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs vantage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class VantageProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'vantage',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       terraformProviderSource: 'vantage-sh/vantage'
     });

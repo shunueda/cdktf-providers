@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DasbUserGroupMembersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members#id DasbUserGroupMembers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members#id DasbUserGroupMembers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DasbUserGroupMembersConfig extends cdktf.TerraformMetaArguments
   /**
   * Collection of member user IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members#member_id_set DasbUserGroupMembers#member_id_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members#member_id_set DasbUserGroupMembers#member_id_set}
   */
   readonly memberIdSet: number[];
   /**
   * User Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members#user_group_id DasbUserGroupMembers#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members#user_group_id DasbUserGroupMembers#user_group_id}
   */
   readonly userGroupId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members tencentcloud_dasb_user_group_members}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members tencentcloud_dasb_user_group_members}
 */
 export class DasbUserGroupMembers extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DasbUserGroupMembers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbUserGroupMembers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbUserGroupMembers to import
-  * @param importFromId The id of the existing DasbUserGroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbUserGroupMembers that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbUserGroupMembers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DasbUserGroupMembers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dasb_user_group_members tencentcloud_dasb_user_group_members} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dasb_user_group_members tencentcloud_dasb_user_group_members} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DasbUserGroupMembers extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_user_group_members',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataVultrReservedIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip#id DataVultrReservedIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip#id DataVultrReservedIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataVultrReservedIpConfig extends cdktf.TerraformMetaArguments 
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip#filter DataVultrReservedIp#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip#filter DataVultrReservedIp#filter}
   */
   readonly filter?: DataVultrReservedIpFilter[] | cdktf.IResolvable;
 }
 export interface DataVultrReservedIpFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip#name DataVultrReservedIp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip#name DataVultrReservedIp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip#values DataVultrReservedIp#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip#values DataVultrReservedIp#values}
   */
   readonly values: string[];
 }
@@ -166,7 +166,7 @@ export class DataVultrReservedIpFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip vultr_reserved_ip}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip vultr_reserved_ip}
 */
 export class DataVultrReservedIp extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataVultrReservedIp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVultrReservedIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVultrReservedIp to import
-  * @param importFromId The id of the existing DataVultrReservedIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVultrReservedIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVultrReservedIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataVultrReservedIp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/reserved_ip vultr_reserved_ip} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/reserved_ip vultr_reserved_ip} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataVultrReservedIp extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_reserved_ip',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

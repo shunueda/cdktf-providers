@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface CostAlertConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email recipients for the Cost Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#email_recipients CostAlert#email_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#email_recipients CostAlert#email_recipients}
   */
   readonly emailRecipients?: string[];
   /**
   * The period of time used to compare costs. Options are 'day', 'week', 'month', 'quarter'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#interval CostAlert#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#interval CostAlert#interval}
   */
   readonly interval: string;
   /**
   * The tokens of the reports to alert on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#report_tokens CostAlert#report_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#report_tokens CostAlert#report_tokens}
   */
   readonly reportTokens?: string[];
   /**
   * The Slack channels that will receive the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#slack_channels CostAlert#slack_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#slack_channels CostAlert#slack_channels}
   */
   readonly slackChannels?: string[];
   /**
   * The Microsoft Teams channels that will receive the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#teams_channels CostAlert#teams_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#teams_channels CostAlert#teams_channels}
   */
   readonly teamsChannels?: string[];
   /**
   * The threshold value for the Cost Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#threshold CostAlert#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#threshold CostAlert#threshold}
   */
   readonly threshold: number;
   /**
   * The title of the Cost Alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#title CostAlert#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#title CostAlert#title}
   */
   readonly title: string;
   /**
   * The unit type used to compare costs. Options are 'currency' or 'percentage'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#unit_type CostAlert#unit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#unit_type CostAlert#unit_type}
   */
   readonly unitType: string;
   /**
   * The token of the Workspace to add the Cost Alert to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#workspace_token CostAlert#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#workspace_token CostAlert#workspace_token}
   */
   readonly workspaceToken: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert vantage_cost_alert}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert vantage_cost_alert}
 */
 export class CostAlert extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class CostAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CostAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CostAlert to import
-  * @param importFromId The id of the existing CostAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CostAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CostAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class CostAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/cost_alert vantage_cost_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/cost_alert vantage_cost_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class CostAlert extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_cost_alert',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

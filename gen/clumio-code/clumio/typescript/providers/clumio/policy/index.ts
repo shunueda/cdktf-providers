@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The status of the policy. Valid values are: `activated` and `deactivated`. `activated` backups will take place regularly according to the policy SLA. `deactivated` backups will not begin until the policy is reactivated. The assets associated with the policy will have their compliance status set to deactivated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#activation_status Policy#activation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#activation_status Policy#activation_status}
   */
   readonly activationStatus?: string;
   /**
   * The user-assigned name of the policy. Note that having identical names for different policies is permissible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#name Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#name Policy#name}
   */
   readonly name: string;
   /**
   * The time zone for the policy, in IANA format. For example: `America/Los_Angeles`, `America/New_York`, `Etc/UTC`, etc. For more information, see the Time Zone Database (https://www.iana.org/time-zones) on the IANA website.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#timezone Policy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#timezone Policy#timezone}
   */
   readonly timezone?: string;
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#operations Policy#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#operations Policy#operations}
   */
   readonly operations?: PolicyOperations[] | cdktf.IResolvable;
 }
@@ -38,7 +38,7 @@ export interface PolicyOperationsAdvancedSettingsAwsEbsVolumeBackup {
   * 	- `standard` = Clumio SecureVault Standard
   * 	- `lite` = Clumio SecureVault Lite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_tier Policy#backup_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_tier Policy#backup_tier}
   */
   readonly backupTier?: string;
 }
@@ -158,7 +158,7 @@ export interface PolicyOperationsAdvancedSettingsAwsEc2InstanceBackup {
   * 	- `standard` = Clumio SecureVault Standard
   * 	- `lite` = Clumio SecureVault Lite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_tier Policy#backup_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_tier Policy#backup_tier}
   */
   readonly backupTier?: string;
 }
@@ -276,7 +276,7 @@ export interface PolicyOperationsAdvancedSettingsAwsIcebergTableBackup {
   /**
   * Backup tier to store the backup in. Valid values are: `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_tier Policy#backup_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_tier Policy#backup_tier}
   */
   readonly backupTier?: string;
 }
@@ -394,7 +394,7 @@ export interface PolicyOperationsAdvancedSettingsAwsRdsConfigSync {
   /**
   * Additional policy configuration for syncing the configuration of Pitr in aws. Possible values include "immediate" and "maintenance_window". If "immediate" is provided, then configuration sync will be kicked in immediately. Otherwise configuration sync will be executed in a specific time user has provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#apply Policy#apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#apply Policy#apply}
   */
   readonly apply?: string;
 }
@@ -514,7 +514,7 @@ export interface PolicyOperationsAdvancedSettingsAwsRdsResourceGranularBackup {
   * 	- `frozen` = Clumio SecureVault Archive
   * 	- `standard` = Clumio SecureVault record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_tier Policy#backup_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_tier Policy#backup_tier}
   */
   readonly backupTier?: string;
 }
@@ -632,13 +632,13 @@ export interface PolicyOperationsAdvancedSettingsEc2MssqlDatabaseBackup {
   /**
   * The alternative replica for MSSQL database backups. This setting only applies to Availability Group databases. Possible values include "primary", "sync_secondary", and "stop". If "stop" is provided, then backups will not attempt to switch to a different replica when the preferred replica is unavailable. Otherwise, recurring backups will attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#alternative_replica Policy#alternative_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#alternative_replica Policy#alternative_replica}
   */
   readonly alternativeReplica?: string;
   /**
   * The primary preferred replica for MSSQL database backups. This setting only applies to Availability Group databases. Possible values include "primary" and "sync_secondary". Recurring backup will first attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#preferred_replica Policy#preferred_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#preferred_replica Policy#preferred_replica}
   */
   readonly preferredReplica?: string;
 }
@@ -785,13 +785,13 @@ export interface PolicyOperationsAdvancedSettingsEc2MssqlLogBackup {
   /**
   * The alternative replica for MSSQL log backups. This setting only applies to Availability Group databases. Possible values include "primary", "sync_secondary", and "stop". If "stop" is provided, then backups will not attempt to switch to a different replica when the preferred replica is unavailable. Otherwise, recurring backups will attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#alternative_replica Policy#alternative_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#alternative_replica Policy#alternative_replica}
   */
   readonly alternativeReplica?: string;
   /**
   * The primary preferred replica for MSSQL log backups. This setting only applies to Availability Group databases. Possible values include "primary" and "sync_secondary". Recurring backup will first attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#preferred_replica Policy#preferred_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#preferred_replica Policy#preferred_replica}
   */
   readonly preferredReplica?: string;
 }
@@ -938,13 +938,13 @@ export interface PolicyOperationsAdvancedSettingsMssqlDatabaseBackup {
   /**
   * The alternative replica for MSSQL database backups. This setting only applies to Availability Group databases. Possible values include "primary", "sync_secondary", and "stop". If "stop" is provided, then backups will not attempt to switch to a different replica when the preferred replica is unavailable. Otherwise, recurring backups will attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#alternative_replica Policy#alternative_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#alternative_replica Policy#alternative_replica}
   */
   readonly alternativeReplica?: string;
   /**
   * The primary preferred replica for MSSQL database backups. This setting only applies to Availability Group databases. Possible values include "primary" and "sync_secondary". Recurring backup will first attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#preferred_replica Policy#preferred_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#preferred_replica Policy#preferred_replica}
   */
   readonly preferredReplica?: string;
 }
@@ -1091,13 +1091,13 @@ export interface PolicyOperationsAdvancedSettingsMssqlLogBackup {
   /**
   * The alternative replica for MSSQL log backups. This setting only applies to Availability Group databases. Possible values include "primary", "sync_secondary", and "stop". If "stop" is provided, then backups will not attempt to switch to a different replica when the preferred replica is unavailable. Otherwise, recurring backups will attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#alternative_replica Policy#alternative_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#alternative_replica Policy#alternative_replica}
   */
   readonly alternativeReplica?: string;
   /**
   * The primary preferred replica for MSSQL log backups. This setting only applies to Availability Group databases. Possible values include "primary" and "sync_secondary". Recurring backup will first attempt to use either the primary replica or the secondary replica accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#preferred_replica Policy#preferred_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#preferred_replica Policy#preferred_replica}
   */
   readonly preferredReplica?: string;
 }
@@ -1246,7 +1246,7 @@ export interface PolicyOperationsAdvancedSettingsProtectionGroupBackup {
   * 	- `cold` = Clumio SecureVault Standard
   * 	- `frozen` = Clumio SecureVault Archive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_tier Policy#backup_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_tier Policy#backup_tier}
   */
   readonly backupTier?: string;
 }
@@ -1364,7 +1364,7 @@ export interface PolicyOperationsAdvancedSettingsProtectionGroupContinuousBackup
   /**
   * If true, tries to disable EventBridge notification for the given bucket, when continuous backup no longer conducts. It may override the existing bucket notification configuration in the customer's account. This takes effect only when event_bridge_enabled is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#disable_eventbridge_notification Policy#disable_eventbridge_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#disable_eventbridge_notification Policy#disable_eventbridge_notification}
   */
   readonly disableEventbridgeNotification?: boolean | cdktf.IResolvable;
 }
@@ -1482,67 +1482,67 @@ export interface PolicyOperationsAdvancedSettings {
   /**
   * aws_ebs_volume_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#aws_ebs_volume_backup Policy#aws_ebs_volume_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#aws_ebs_volume_backup Policy#aws_ebs_volume_backup}
   */
   readonly awsEbsVolumeBackup?: PolicyOperationsAdvancedSettingsAwsEbsVolumeBackup[] | cdktf.IResolvable;
   /**
   * aws_ec2_instance_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#aws_ec2_instance_backup Policy#aws_ec2_instance_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#aws_ec2_instance_backup Policy#aws_ec2_instance_backup}
   */
   readonly awsEc2InstanceBackup?: PolicyOperationsAdvancedSettingsAwsEc2InstanceBackup[] | cdktf.IResolvable;
   /**
   * aws_iceberg_table_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#aws_iceberg_table_backup Policy#aws_iceberg_table_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#aws_iceberg_table_backup Policy#aws_iceberg_table_backup}
   */
   readonly awsIcebergTableBackup?: PolicyOperationsAdvancedSettingsAwsIcebergTableBackup[] | cdktf.IResolvable;
   /**
   * aws_rds_config_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#aws_rds_config_sync Policy#aws_rds_config_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#aws_rds_config_sync Policy#aws_rds_config_sync}
   */
   readonly awsRdsConfigSync?: PolicyOperationsAdvancedSettingsAwsRdsConfigSync[] | cdktf.IResolvable;
   /**
   * aws_rds_resource_granular_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#aws_rds_resource_granular_backup Policy#aws_rds_resource_granular_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#aws_rds_resource_granular_backup Policy#aws_rds_resource_granular_backup}
   */
   readonly awsRdsResourceGranularBackup?: PolicyOperationsAdvancedSettingsAwsRdsResourceGranularBackup[] | cdktf.IResolvable;
   /**
   * ec2_mssql_database_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#ec2_mssql_database_backup Policy#ec2_mssql_database_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#ec2_mssql_database_backup Policy#ec2_mssql_database_backup}
   */
   readonly ec2MssqlDatabaseBackup?: PolicyOperationsAdvancedSettingsEc2MssqlDatabaseBackup[] | cdktf.IResolvable;
   /**
   * ec2_mssql_log_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#ec2_mssql_log_backup Policy#ec2_mssql_log_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#ec2_mssql_log_backup Policy#ec2_mssql_log_backup}
   */
   readonly ec2MssqlLogBackup?: PolicyOperationsAdvancedSettingsEc2MssqlLogBackup[] | cdktf.IResolvable;
   /**
   * mssql_database_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#mssql_database_backup Policy#mssql_database_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#mssql_database_backup Policy#mssql_database_backup}
   */
   readonly mssqlDatabaseBackup?: PolicyOperationsAdvancedSettingsMssqlDatabaseBackup[] | cdktf.IResolvable;
   /**
   * mssql_log_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#mssql_log_backup Policy#mssql_log_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#mssql_log_backup Policy#mssql_log_backup}
   */
   readonly mssqlLogBackup?: PolicyOperationsAdvancedSettingsMssqlLogBackup[] | cdktf.IResolvable;
   /**
   * protection_group_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#protection_group_backup Policy#protection_group_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#protection_group_backup Policy#protection_group_backup}
   */
   readonly protectionGroupBackup?: PolicyOperationsAdvancedSettingsProtectionGroupBackup[] | cdktf.IResolvable;
   /**
   * protection_group_continuous_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#protection_group_continuous_backup Policy#protection_group_continuous_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#protection_group_continuous_backup Policy#protection_group_continuous_backup}
   */
   readonly protectionGroupContinuousBackup?: PolicyOperationsAdvancedSettingsProtectionGroupContinuousBackup[] | cdktf.IResolvable;
 }
@@ -1950,13 +1950,13 @@ export interface PolicyOperationsBackupWindowTz {
   /**
   * The time when the backup window closes. Specify the end time in the format `hh:mm`, where `hh` represents the hour of the day and `mm` represents the minute of the day based on the 24 hour clock. Leave empty if you do not want to specify an end time. If the backup window closes while a backup is in progress, the entire backup process is aborted. The next backup will be performed when the  backup window re-opens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#end_time Policy#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#end_time Policy#end_time}
   */
   readonly endTime?: string;
   /**
   * The time when the backup window opens. Specify the start time in the format `hh:mm`, where `hh` represents the hour of the day and `mm` represents the minute of the day based on the 24 hour clock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#start_time Policy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#start_time Policy#start_time}
   */
   readonly startTime?: string;
 }
@@ -2103,13 +2103,13 @@ export interface PolicyOperationsSlasRetentionDuration {
   /**
   * The measurement unit of the SLA parameter. Values include days, weeks, months and years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#unit Policy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#unit Policy#unit}
   */
   readonly unit: string;
   /**
   * The measurement value of the SLA parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#value Policy#value}
   */
   readonly value: number;
 }
@@ -2250,19 +2250,19 @@ export interface PolicyOperationsSlasRpoFrequency {
   /**
   * The offset values of the SLA parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#offsets Policy#offsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#offsets Policy#offsets}
   */
   readonly offsets?: number[];
   /**
   * The measurement unit of the SLA parameter. Values include minutes, hours, days, weeks, months and years.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#unit Policy#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#unit Policy#unit}
   */
   readonly unit: string;
   /**
   * The measurement value of the SLA parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#value Policy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#value Policy#value}
   */
   readonly value: number;
 }
@@ -2432,13 +2432,13 @@ export interface PolicyOperationsSlas {
   /**
   * retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#retention_duration Policy#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#retention_duration Policy#retention_duration}
   */
   readonly retentionDuration?: PolicyOperationsSlasRetentionDuration[] | cdktf.IResolvable;
   /**
   * rpo_frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#rpo_frequency Policy#rpo_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#rpo_frequency Policy#rpo_frequency}
   */
   readonly rpoFrequency?: PolicyOperationsSlasRpoFrequency[] | cdktf.IResolvable;
 }
@@ -2585,43 +2585,43 @@ export interface PolicyOperations {
   /**
   * Determines whether the policy should take action now or during the specified backup window. Valid values are: `immediate` and `window`. `immediate` starts the backup process immediately while `window` starts the backup in the specified window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#action_setting Policy#action_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#action_setting Policy#action_setting}
   */
   readonly actionSetting: string;
   /**
   * The region in which this backup is stored. This might be used for cross-region backup. Possible values are AWS region string, for example: `us-east-1`, `us-west-2`, .... If no value is provided, it defaults to in-region (the asset's source region).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_aws_region Policy#backup_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_aws_region Policy#backup_aws_region}
   */
   readonly backupAwsRegion?: string;
   /**
   * The time zone for the policy, in IANA format. For example: `America/Los_Angeles`, `America/New_York`, `Etc/UTC`, etc. For more information, see the Time Zone Database (https://www.iana.org/time-zones) on the IANA website.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#timezone Policy#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#timezone Policy#timezone}
   */
   readonly timezone?: string;
   /**
   * The type of operation to be performed. Depending on the type selected, `advanced_settings` may also be required. See the [API Documentation for List policies](https://api.commvault.com/docs/latest/api/cv/ClumioAPIs/list-policy-definitions/) for more information about the supported types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#type Policy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#type Policy#type}
   */
   readonly type: string;
   /**
   * advanced_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#advanced_settings Policy#advanced_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#advanced_settings Policy#advanced_settings}
   */
   readonly advancedSettings?: PolicyOperationsAdvancedSettings[] | cdktf.IResolvable;
   /**
   * backup_window_tz block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#backup_window_tz Policy#backup_window_tz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#backup_window_tz Policy#backup_window_tz}
   */
   readonly backupWindowTz?: PolicyOperationsBackupWindowTz[] | cdktf.IResolvable;
   /**
   * slas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#slas Policy#slas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#slas Policy#slas}
   */
   readonly slas?: PolicyOperationsSlas[] | cdktf.IResolvable;
 }
@@ -2905,7 +2905,7 @@ export class PolicyOperationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy clumio_policy}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy clumio_policy}
 */
 export class Policy extends cdktf.TerraformResource {
 
@@ -2921,7 +2921,7 @@ export class Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Policy to import
-  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2933,7 +2933,7 @@ export class Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy clumio_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy clumio_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2944,8 +2944,8 @@ export class Policy extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_policy',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

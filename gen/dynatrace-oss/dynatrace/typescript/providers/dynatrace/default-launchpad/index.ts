@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DefaultLaunchpadConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#id DefaultLaunchpad#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#id DefaultLaunchpad#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DefaultLaunchpadConfig extends cdktf.TerraformMetaArguments {
   /**
   * group_launchpads block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#group_launchpads DefaultLaunchpad#group_launchpads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#group_launchpads DefaultLaunchpad#group_launchpads}
   */
   readonly groupLaunchpads?: DefaultLaunchpadGroupLaunchpads;
 }
@@ -25,19 +25,19 @@ export interface DefaultLaunchpadGroupLaunchpadsGroupLaunchpad {
   /**
   * State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#is_enabled DefaultLaunchpad#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#is_enabled DefaultLaunchpad#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * Launchpad
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#launchpad_id DefaultLaunchpad#launchpad_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#launchpad_id DefaultLaunchpad#launchpad_id}
   */
   readonly launchpadId: string;
   /**
   * User Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#user_group_id DefaultLaunchpad#user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#user_group_id DefaultLaunchpad#user_group_id}
   */
   readonly userGroupId: string;
 }
@@ -204,7 +204,7 @@ export interface DefaultLaunchpadGroupLaunchpads {
   /**
   * group_launchpad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#group_launchpad DefaultLaunchpad#group_launchpad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#group_launchpad DefaultLaunchpad#group_launchpad}
   */
   readonly groupLaunchpad: DefaultLaunchpadGroupLaunchpadsGroupLaunchpad[] | cdktf.IResolvable;
 }
@@ -285,7 +285,7 @@ export class DefaultLaunchpadGroupLaunchpadsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad dynatrace_default_launchpad}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad dynatrace_default_launchpad}
 */
 export class DefaultLaunchpad extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class DefaultLaunchpad extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DefaultLaunchpad resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DefaultLaunchpad to import
-  * @param importFromId The id of the existing DefaultLaunchpad that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DefaultLaunchpad that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DefaultLaunchpad to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class DefaultLaunchpad extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/default_launchpad dynatrace_default_launchpad} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/default_launchpad dynatrace_default_launchpad} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class DefaultLaunchpad extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_default_launchpad',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

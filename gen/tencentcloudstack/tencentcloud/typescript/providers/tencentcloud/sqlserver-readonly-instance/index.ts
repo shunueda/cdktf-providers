@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SqlserverReadonlyInstanceConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether to use the voucher automatically; 1 for yes, 0 for no, the default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#auto_voucher SqlserverReadonlyInstance#auto_voucher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#auto_voucher SqlserverReadonlyInstance#auto_voucher}
   */
   readonly autoVoucher?: number;
   /**
   * Availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#availability_zone SqlserverReadonlyInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#availability_zone SqlserverReadonlyInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Pay type of the SQL Server instance. Available values `PREPAID`, `POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#charge_type SqlserverReadonlyInstance#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#charge_type SqlserverReadonlyInstance#charge_type}
   */
   readonly chargeType?: string;
   /**
   * Indicate that the master instance upgrade or not. `true` for upgrading the master SQL Server instance to cluster type by force. Default is false. Note: this is not supported with `DUAL`(ha_type), `2017`(engine_version) master SQL Server instance, for it will cause ha_type of the master SQL Server instance change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#force_upgrade SqlserverReadonlyInstance#force_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#force_upgrade SqlserverReadonlyInstance#force_upgrade}
   */
   readonly forceUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#id SqlserverReadonlyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#id SqlserverReadonlyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,115 +41,115 @@ export interface SqlserverReadonlyInstanceConfig extends cdktf.TerraformMetaArgu
   /**
   * Indicates the master instance ID of recovery instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#master_instance_id SqlserverReadonlyInstance#master_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#master_instance_id SqlserverReadonlyInstance#master_instance_id}
   */
   readonly masterInstanceId: string;
   /**
   * Memory size (in GB). Allowed value must be larger than `memory` that data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#memory SqlserverReadonlyInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#memory SqlserverReadonlyInstance#memory}
   */
   readonly memory: number;
   /**
   * Name of the SQL Server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#name SqlserverReadonlyInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#name SqlserverReadonlyInstance#name}
   */
   readonly name: string;
   /**
   * Purchase instance period in month. The value does not exceed 48.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#period SqlserverReadonlyInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#period SqlserverReadonlyInstance#period}
   */
   readonly period?: number;
   /**
   * ID of the readonly group that this instance belongs to. When `readonly_group_type` set value `3`, it must be set with valid value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_group_id SqlserverReadonlyInstance#readonly_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_group_id SqlserverReadonlyInstance#readonly_group_id}
   */
   readonly readonlyGroupId?: string;
   /**
   * Required when `readonly_group_type`=2, the name of the newly created read-only group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_group_name SqlserverReadonlyInstance#readonly_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_group_name SqlserverReadonlyInstance#readonly_group_name}
   */
   readonly readonlyGroupName?: string;
   /**
   * Type of readonly group. Valid values: `1`, `3`. `1` for one auto-assigned readonly instance per one readonly group, `2` for creating new readonly group, `3` for all exist readonly instances stay in the exist readonly group. For now, only `1` and `3` are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_group_type SqlserverReadonlyInstance#readonly_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_group_type SqlserverReadonlyInstance#readonly_group_type}
   */
   readonly readonlyGroupType: number;
   /**
   * Required when `readonly_group_type`=2, whether the newly created read-only group has delay elimination enabled, 1-enabled, 0-disabled. When the delay between the read-only copy and the primary instance exceeds the threshold, it is automatically removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_groups_is_offline_delay SqlserverReadonlyInstance#readonly_groups_is_offline_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_groups_is_offline_delay SqlserverReadonlyInstance#readonly_groups_is_offline_delay}
   */
   readonly readonlyGroupsIsOfflineDelay?: number;
   /**
   * Required when `readonly_group_type`=2 and `readonly_groups_is_offline_delay`=1, the threshold for delayed elimination of newly created read-only groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_groups_max_delay_time SqlserverReadonlyInstance#readonly_groups_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_groups_max_delay_time SqlserverReadonlyInstance#readonly_groups_max_delay_time}
   */
   readonly readonlyGroupsMaxDelayTime?: number;
   /**
   * When `readonly_group_type`=2 and `readonly_groups_is_offline_delay`=1, it is required. After the newly created read-only group is delayed and removed, at least the number of read-only copies should be retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#readonly_groups_min_in_group SqlserverReadonlyInstance#readonly_groups_min_in_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#readonly_groups_min_in_group SqlserverReadonlyInstance#readonly_groups_min_in_group}
   */
   readonly readonlyGroupsMinInGroup?: number;
   /**
   * Security group bound to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#security_groups SqlserverReadonlyInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#security_groups SqlserverReadonlyInstance#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Disk size (in GB). Allowed value must be a multiple of 10. The storage must be set with the limit of `storage_min` and `storage_max` which data source `tencentcloud_sqlserver_specinfos` provides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#storage SqlserverReadonlyInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#storage SqlserverReadonlyInstance#storage}
   */
   readonly storage: number;
   /**
   * ID of subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#subnet_id SqlserverReadonlyInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#subnet_id SqlserverReadonlyInstance#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The tags of the SQL Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#tags SqlserverReadonlyInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#tags SqlserverReadonlyInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * System time zone, default: `China Standard Time`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#time_zone SqlserverReadonlyInstance#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#time_zone SqlserverReadonlyInstance#time_zone}
   */
   readonly timeZone?: string;
   /**
   * An array of voucher IDs, currently only one can be used for a single order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#voucher_ids SqlserverReadonlyInstance#voucher_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#voucher_ids SqlserverReadonlyInstance#voucher_ids}
   */
   readonly voucherIds?: string[];
   /**
   * ID of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#vpc_id SqlserverReadonlyInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#vpc_id SqlserverReadonlyInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * The way to execute the allocation. Supported values include: 0 - execute immediately, 1 - execute in maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#wait_switch SqlserverReadonlyInstance#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#wait_switch SqlserverReadonlyInstance#wait_switch}
   */
   readonly waitSwitch?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance tencentcloud_sqlserver_readonly_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance tencentcloud_sqlserver_readonly_instance}
 */
 export class SqlserverReadonlyInstance extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SqlserverReadonlyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SqlserverReadonlyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SqlserverReadonlyInstance to import
-  * @param importFromId The id of the existing SqlserverReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SqlserverReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SqlserverReadonlyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SqlserverReadonlyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/sqlserver_readonly_instance tencentcloud_sqlserver_readonly_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/sqlserver_readonly_instance tencentcloud_sqlserver_readonly_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SqlserverReadonlyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_sqlserver_readonly_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

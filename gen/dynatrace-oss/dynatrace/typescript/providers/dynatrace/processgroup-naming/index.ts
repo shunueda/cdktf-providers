@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProcessgroupNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#enabled ProcessgroupNaming#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#enabled ProcessgroupNaming#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The name to be assigned to matching entities. You can use the following placeholders here:  * `{AwsAutoScalingGroup:Name}`  * `{AwsAvailabilityZone:Name}`  * `{AwsElasticLoadBalancer:Name}`  * `{AwsRelationalDatabaseService:DBName}`  * `{AwsRelationalDatabaseService:Endpoint}`  * `{AwsRelationalDatabaseService:Engine}`  * `{AwsRelationalDatabaseService:InstanceClass}`  * `{AwsRelationalDatabaseService:Name}`  * `{AwsRelationalDatabaseService:Port}`  * `{AzureRegion:Name}`  * `{AzureScaleSet:Name}`  * `{AzureVm:Name}`  * `{CloudFoundryOrganization:Name}`  * `{CustomDevice:DetectedName}`  * `{CustomDevice:DnsName}`  * `{CustomDevice:IpAddress}`  * `{CustomDevice:Port}`  * `{DockerContainerGroupInstance:ContainerName}`  * `{DockerContainerGroupInstance:FullImageName}`  * `{DockerContainerGroupInstance:ImageVersion}`  * `{DockerContainerGroupInstance:StrippedImageName}`  * `{ESXIHost:HardwareModel}`  * `{ESXIHost:HardwareVendor}`  * `{ESXIHost:Name}`  * `{ESXIHost:ProductName}`  * `{ESXIHost:ProductVersion}`  * `{Ec2Instance:AmiId}`  * `{Ec2Instance:BeanstalkEnvironmentName}`  * `{Ec2Instance:InstanceId}`  * `{Ec2Instance:InstanceType}`  * `{Ec2Instance:LocalHostName}`  * `{Ec2Instance:Name}`  * `{Ec2Instance:PublicHostName}`  * `{Ec2Instance:SecurityGroup}`  * `{GoogleComputeInstance:Id}`  * `{GoogleComputeInstance:IpAddresses}`  * `{GoogleComputeInstance:MachineType}`  * `{GoogleComputeInstance:Name}`  * `{GoogleComputeInstance:ProjectId}`  * `{GoogleComputeInstance:Project}`  * `{Host:AWSNameTag}`  * `{Host:AixLogicalCpuCount}`  * `{Host:AzureHostName}`  * `{Host:AzureSiteName}`  * `{Host:BoshDeploymentId}`  * `{Host:BoshInstanceId}`  * `{Host:BoshInstanceName}`  * `{Host:BoshName}`  * `{Host:BoshStemcellVersion}`  * `{Host:CpuCores}`  * `{Host:DetectedName}`  * `{Host:Environment:AppName}`  * `{Host:Environment:BoshReleaseVersion}`  * `{Host:Environment:Environment}`  * `{Host:Environment:Link}`  * `{Host:Environment:Organization}`  * `{Host:Environment:Owner}`  * `{Host:Environment:Support}`  * `{Host:IpAddress}`  * `{Host:LogicalCpuCores}`  * `{Host:OneAgentCustomHostName}`  * `{Host:OperatingSystemVersion}`  * `{Host:PaasMemoryLimit}`  * `{HostGroup:Name}`  * `{KubernetesCluster:Name}`  * `{KubernetesNode:DetectedName}`  * `{OpenstackAvailabilityZone:Name}`  * `{OpenstackZone:Name}`  * `{OpenstackComputeNode:Name}`  * `{OpenstackProject:Name}`  * `{OpenstackVm:InstanceType}`  * `{OpenstackVm:Name}`  * `{OpenstackVm:SecurityGroup}`  * `{ProcessGroup:AmazonECRImageAccountId}`  * `{ProcessGroup:AmazonECRImageRegion}`  * `{ProcessGroup:AmazonECSCluster}`  * `{ProcessGroup:AmazonECSContainerName}`  * `{ProcessGroup:AmazonECSFamily}`  * `{ProcessGroup:AmazonECSRevision}`  * `{ProcessGroup:AmazonLambdaFunctionName}`  * `{ProcessGroup:AmazonRegion}`  * `{ProcessGroup:ApacheConfigPath}`  * `{ProcessGroup:ApacheSparkMasterIpAddress}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AspDotNetCoreApplicationPath}`  * `{ProcessGroup:AzureHostName}`  * `{ProcessGroup:AzureSiteName}`  * `{ProcessGroup:CassandraClusterName}`  * `{ProcessGroup:CatalinaBase}`  * `{ProcessGroup:CatalinaHome}`  * `{ProcessGroup:CloudFoundryAppId}`  * `{ProcessGroup:CloudFoundryAppName}`  * `{ProcessGroup:CloudFoundryInstanceIndex}`  * `{ProcessGroup:CloudFoundrySpaceId}`  * `{ProcessGroup:CloudFoundrySpaceName}`  * `{ProcessGroup:ColdFusionJvmConfigFile}`  * `{ProcessGroup:ColdFusionServiceName}`  * `{ProcessGroup:CommandLineArgs}`  * `{ProcessGroup:DetectedName}`  * `{ProcessGroup:DotNetCommandPath}`  * `{ProcessGroup:DotNetCommand}`  * `{ProcessGroup:DotNetClusterId}`  * `{ProcessGroup:DotNetNodeId}`  * `{ProcessGroup:ElasticsearchClusterName}`  * `{ProcessGroup:ElasticsearchNodeName}`  * `{ProcessGroup:EquinoxConfigPath}`  * `{ProcessGroup:ExeName}`  * `{ProcessGroup:ExePath}`  * `{ProcessGroup:GlassFishDomainName}`  * `{ProcessGroup:GlassFishInstanceName}`  * `{ProcessGroup:GoogleAppEngineInstance}`  * `{ProcessGroup:GoogleAppEngineService}`  * `{ProcessGroup:GoogleCloudProject}`  * `{ProcessGroup:HybrisBinDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisConfigDirectory}`  * `{ProcessGroup:HybrisDataDirectory}`  * `{ProcessGroup:IBMCicsRegion}`  * `{ProcessGroup:IBMCtgName}`  * `{ProcessGroup:IBMImsConnectRegion}`  * `{ProcessGroup:IBMImsControlRegion}`  * `{ProcessGroup:IBMImsMessageProcessingRegion}`  * `{ProcessGroup:IBMImsSoapGwName}`  * `{ProcessGroup:IBMIntegrationNodeName}`  * `{ProcessGroup:IBMIntegrationServerName}`  * `{ProcessGroup:IISAppPool}`  * `{ProcessGroup:IISRoleName}`  * `{ProcessGroup:JbossHome}`  * `{ProcessGroup:JbossMode}`  * `{ProcessGroup:JbossServerName}`  * `{ProcessGroup:JavaJarFile}`  * `{ProcessGroup:JavaJarPath}`  * `{ProcessGroup:JavaMainCLass}`  * `{ProcessGroup:KubernetesBasePodName}`  * `{ProcessGroup:KubernetesContainerName}`  * `{ProcessGroup:KubernetesFullPodName}`  * `{ProcessGroup:KubernetesNamespace}`  * `{ProcessGroup:KubernetesPodUid}`  * `{ProcessGroup:MssqlInstanceName}`  * `{ProcessGroup:NodeJsAppBaseDirectory}`  * `{ProcessGroup:NodeJsAppName}`  * `{ProcessGroup:NodeJsScriptName}`  * `{ProcessGroup:OracleSid}`  * `{ProcessGroup:PHPScriptPath}`  * `{ProcessGroup:PHPWorkingDirectory}`  * `{ProcessGroup:Ports}`  * `{ProcessGroup:RubyAppRootPath}`  * `{ProcessGroup:RubyScriptPath}`  * `{ProcessGroup:SoftwareAGInstallRoot}`  * `{ProcessGroup:SoftwareAGProductPropertyName}`  * `{ProcessGroup:SpringBootAppName}`  * `{ProcessGroup:SpringBootProfileName}`  * `{ProcessGroup:SpringBootStartupClass}`  * `{ProcessGroup:TIBCOBusinessWorksAppNodeName}`  * `{ProcessGroup:TIBCOBusinessWorksAppSpaceName}`  * `{ProcessGroup:TIBCOBusinessWorksCeAppName}`  * `{ProcessGroup:TIBCOBusinessWorksCeVersion}`  * `{ProcessGroup:TIBCOBusinessWorksDomainName}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFilePath}`  * `{ProcessGroup:TIBCOBusinessWorksEnginePropertyFile}`  * `{ProcessGroup:TIBCOBusinessWorksHome}`  * `{ProcessGroup:VarnishInstanceName}`  * `{ProcessGroup:WebLogicClusterName}`  * `{ProcessGroup:WebLogicDomainName}`  * `{ProcessGroup:WebLogicHome}`  * `{ProcessGroup:WebLogicName}`  * `{ProcessGroup:WebSphereCellName}`  * `{ProcessGroup:WebSphereClusterName}`  * `{ProcessGroup:WebSphereNodeName}`  * `{ProcessGroup:WebSphereServerName}`  * `{ProcessGroup:ActorSystem}`  * `{Service:STGServerName}`  * `{Service:DatabaseHostName}`  * `{Service:DatabaseName}`  * `{Service:DatabaseVendor}`  * `{Service:DetectedName}`  * `{Service:EndpointPath}`  * `{Service:EndpointPathGatewayUrl}`  * `{Service:IIBApplicationName}`  * `{Service:MessageListenerClassName}`  * `{Service:Port}`  * `{Service:PublicDomainName}`  * `{Service:RemoteEndpoint}`  * `{Service:RemoteName}`  * `{Service:WebApplicationId}`  * `{Service:WebContextRoot}`  * `{Service:WebServerName}`  * `{Service:WebServiceNamespace}`  * `{Service:WebServiceName}`  * `{VmwareDatacenter:Name}`  * `{VmwareVm:Name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#format ProcessgroupNaming#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#format ProcessgroupNaming#format}
   */
   readonly format: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#id ProcessgroupNaming#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#id ProcessgroupNaming#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ProcessgroupNamingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#name ProcessgroupNaming#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#name ProcessgroupNaming#name}
   */
   readonly name: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#conditions ProcessgroupNaming#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#conditions ProcessgroupNaming#conditions}
   */
   readonly conditions?: ProcessgroupNamingConditions[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface ProcessgroupNamingConditionsConditionApplicationType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -269,31 +269,31 @@ export interface ProcessgroupNamingConditionsConditionApplicationTypeComparison 
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -524,25 +524,25 @@ export interface ProcessgroupNamingConditionsConditionAzureComputeMode {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -744,25 +744,25 @@ export interface ProcessgroupNamingConditionsConditionAzureComputeModeComparison
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are DEDICATED or SHARED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -964,25 +964,25 @@ export interface ProcessgroupNamingConditionsConditionAzureSku {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -1184,31 +1184,31 @@ export interface ProcessgroupNamingConditionsConditionAzureSkuComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be AZURE_SKU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BASIC, DYNAMIC, FREE, PREMIUM, SHARED and STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -1439,19 +1439,19 @@ export interface ProcessgroupNamingConditionsConditionBaseComparisonBasic {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1624,19 +1624,19 @@ export interface ProcessgroupNamingConditionsConditionBaseConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1809,25 +1809,25 @@ export interface ProcessgroupNamingConditionsConditionBitness {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -2029,31 +2029,31 @@ export interface ProcessgroupNamingConditionsConditionBitnessComparision {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be BITNESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are 32 and 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -2284,25 +2284,25 @@ export interface ProcessgroupNamingConditionsConditionCloudType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -2504,31 +2504,31 @@ export interface ProcessgroupNamingConditionsConditionCloudTypeComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CLOUD_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AZURE, EC2, GOOGLE_CLOUD_PLATFORM, OPENSTACK, ORACLE and UNRECOGNIZED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -2759,19 +2759,19 @@ export interface ProcessgroupNamingConditionsConditionComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * The type of comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -2944,25 +2944,25 @@ export interface ProcessgroupNamingConditionsConditionCustomApplicationType {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -3164,31 +3164,31 @@ export interface ProcessgroupNamingConditionsConditionCustomApplicationTypeCompa
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be CUSTOM_APPLICATION_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AMAZON_ECHO, DESKTOP, EMBEDDED, IOT, MICROSOFT_HOLOLENS and UFO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -3419,19 +3419,19 @@ export interface ProcessgroupNamingConditionsConditionCustomHostMetadataDynamicK
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3569,19 +3569,19 @@ export interface ProcessgroupNamingConditionsConditionCustomHostMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: ProcessgroupNamingConditionsConditionCustomHostMetadataDynamicKey;
 }
@@ -3751,19 +3751,19 @@ export interface ProcessgroupNamingConditionsConditionCustomHostMetadataConditio
   /**
   * The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are ENVIRONMENT, GOOGLE_COMPUTE_ENGINE and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -3901,25 +3901,25 @@ export interface ProcessgroupNamingConditionsConditionCustomHostMetadataConditio
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be HOST_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: ProcessgroupNamingConditionsConditionCustomHostMetadataConditionKeyDynamicKey;
 }
@@ -4118,19 +4118,19 @@ export interface ProcessgroupNamingConditionsConditionCustomProcessMetadataDynam
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4268,19 +4268,19 @@ export interface ProcessgroupNamingConditionsConditionCustomProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: ProcessgroupNamingConditionsConditionCustomProcessMetadataDynamicKey;
 }
@@ -4450,19 +4450,19 @@ export interface ProcessgroupNamingConditionsConditionCustomProcessMetadataCondi
   /**
   *  The actual key of the custom metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * The source of the custom metadata. Possible values are CLOUD_FOUNDRY, ENVIRONMENT, GOOGLE_CLOUD, KUBERNETES and PLUGIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#source ProcessgroupNaming#source}
   */
   readonly source: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -4600,25 +4600,25 @@ export interface ProcessgroupNamingConditionsConditionCustomProcessMetadataCondi
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * if specified, needs to be PROCESS_CUSTOM_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * dynamic_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: ProcessgroupNamingConditionsConditionCustomProcessMetadataConditionKeyDynamicKey;
 }
@@ -4817,25 +4817,25 @@ export interface ProcessgroupNamingConditionsConditionDatabaseTopology {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -5037,31 +5037,31 @@ export interface ProcessgroupNamingConditionsConditionDatabaseTopologyComparison
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DATABASE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLUSTER, EMBEDDED, FAILOVER, IPC, LOAD_BALANCING, SINGLE_SERVER and UNSPECIFIED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -5292,25 +5292,25 @@ export interface ProcessgroupNamingConditionsConditionDcrumDecoder {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -5512,31 +5512,31 @@ export interface ProcessgroupNamingConditionsConditionDcrumDecoderComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be DCRUM_DECODER_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ALL_OTHER, CITRIX_APPFLOW, CITRIX_ICA, CITRIX_ICA_OVER_SSL, DB2_DRDA, HTTP, HTTPS, HTTP_EXPRESS, INFORMIX, MYSQL, ORACLE, SAP_GUI, SAP_GUI_OVER_HTTP, SAP_GUI_OVER_HTTPS, SAP_HANA_DB, SAP_RFC, SSL and TDS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -5767,25 +5767,25 @@ export interface ProcessgroupNamingConditionsConditionEntity {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -5987,31 +5987,31 @@ export interface ProcessgroupNamingConditionsConditionEntityIdComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Currently only EQUALS is supported. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be ENTITY_ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -6242,19 +6242,19 @@ export interface ProcessgroupNamingConditionsConditionHostTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -6398,25 +6398,25 @@ export interface ProcessgroupNamingConditionsConditionHostTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionHostTechValue;
 }
@@ -6618,25 +6618,25 @@ export interface ProcessgroupNamingConditionsConditionHypervisor {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -6838,31 +6838,31 @@ export interface ProcessgroupNamingConditionsConditionHypervisorTypeComparision 
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be HYPERVISOR_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AHV, HYPER_V, KVM, LPAR, QEMU, VIRTUAL_BOX, VMWARE, WPAR and XEN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -7093,25 +7093,25 @@ export interface ProcessgroupNamingConditionsConditionIndexedName {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -7313,31 +7313,31 @@ export interface ProcessgroupNamingConditionsConditionIndexedNameComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS, CONTAINS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -7568,25 +7568,25 @@ export interface ProcessgroupNamingConditionsConditionIndexedString {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -7788,31 +7788,31 @@ export interface ProcessgroupNamingConditionsConditionIndexedStringComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -8043,25 +8043,25 @@ export interface ProcessgroupNamingConditionsConditionIndexedTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -8228,25 +8228,25 @@ export interface ProcessgroupNamingConditionsConditionIndexedTag {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionIndexedTagValue;
 }
@@ -8448,25 +8448,25 @@ export interface ProcessgroupNamingConditionsConditionIndexedTagComparisonValue 
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -8633,31 +8633,31 @@ export interface ProcessgroupNamingConditionsConditionIndexedTagComparison {
   /**
   * Reverses the operator. For example it turns EQUALS into DOES NOT EQUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Either EQUALS or EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INDEXED_TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionIndexedTagComparisonValue;
 }
@@ -8888,25 +8888,25 @@ export interface ProcessgroupNamingConditionsConditionInteger {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: number;
 }
@@ -9108,31 +9108,31 @@ export interface ProcessgroupNamingConditionsConditionIntegerComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS, EXISTS, GREATER_THAN, GREATER_THAN_OR_EQUAL, LOWER_THAN and LOWER_THAN_OR_EQUAL. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be INTEGER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: number;
 }
@@ -9363,31 +9363,31 @@ export interface ProcessgroupNamingConditionsConditionIpaddress {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -9618,37 +9618,37 @@ export interface ProcessgroupNamingConditionsConditionIpaddressComparison {
   /**
   *  The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS, IS_IP_IN_RANGE and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be IP_ADDRESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -9908,19 +9908,19 @@ export interface ProcessgroupNamingConditionsConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * Defines the actual set of fields depending on the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -10093,25 +10093,25 @@ export interface ProcessgroupNamingConditionsConditionMobilePlatform {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -10313,31 +10313,31 @@ export interface ProcessgroupNamingConditionsConditionMobilePlatformComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be MOBILE_PLATFORM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ANDROID, IOS, LINUX, MAC_OS, OTHER, TVOS and WINDOWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -10568,25 +10568,25 @@ export interface ProcessgroupNamingConditionsConditionOsArch {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -10788,25 +10788,25 @@ export interface ProcessgroupNamingConditionsConditionOsType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -11008,31 +11008,31 @@ export interface ProcessgroupNamingConditionsConditionOsarchitectureComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_ARCHITECTURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are ARM, IA64, PARISC, PPC, PPCLE, S390, SPARC, X86 and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -11263,31 +11263,31 @@ export interface ProcessgroupNamingConditionsConditionOstypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be OS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AIX, DARWIN, HPUX, LINUX, SOLARIS, WINDOWS and ZOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -11518,25 +11518,25 @@ export interface ProcessgroupNamingConditionsConditionPaasType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -11738,31 +11738,31 @@ export interface ProcessgroupNamingConditionsConditionPaasTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be PAAS_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are AWS_ECS_EC2, AWS_ECS_FARGATE, AWS_LAMBDA, AZURE_FUNCTIONS, AZURE_WEBSITES, CLOUD_FOUNDRY, GOOGLE_APP_ENGINE, HEROKU, KUBERNETES and OPENSHIFT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -11993,19 +11993,19 @@ export interface ProcessgroupNamingConditionsConditionProcessMetadata {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12175,25 +12175,25 @@ export interface ProcessgroupNamingConditionsConditionProcessMetadataConditionKe
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
   * The key of the attribute, which need dynamic keys. Not applicable otherwise, as the attibute itself acts as a key. Possible values are AMAZON_ECR_IMAGE_ACCOUNT_ID,AMAZON_ECR_IMAGE_REGION, AMAZON_LAMBDA_FUNCTION_NAME, AMAZON_REGION, APACHE_CONFIG_PATH, APACHE_SPARK_MASTER_IP_ADDRESS, ASP_DOT_NET_CORE_APPLICATION_PATH, AWS_ECS_CLUSTER, AWS_ECS_CONTAINERNAME, AWS_ECS_FAMILY, AWS_ECS_REVISION, CASSANDRA_CLUSTER_NAME, CATALINA_BASE, CATALINA_HOME, CLOUD_FOUNDRY_APP_ID, CLOUD_FOUNDRY_APP_NAME, CLOUD_FOUNDRY_INSTANCE_INDEX, CLOUD_FOUNDRY_SPACE_ID, CLOUD_FOUNDRY_SPACE_NAME, COLDFUSION_JVM_CONFIG_FILE, COLDFUSION_SERVICE_NAME, COMMAND_LINE_ARGS, DOTNET_COMMAND, DOTNET_COMMAND_PATH, DYNATRACE_CLUSTER_ID, DYNATRACE_NODE_ID, ELASTICSEARCH_CLUSTER_NAME, ELASTICSEARCH_NODE_NAME, EQUINOX_CONFIG_PATH, EXE_NAME, EXE_PATH, GLASS_FISH_DOMAIN_NAME, GLASS_FISH_INSTANCE_NAME, GOOGLE_APP_ENGINE_INSTANCE, GOOGLE_APP_ENGINE_SERVICE, GOOGLE_CLOUD_PROJECT, HYBRIS_BIN_DIRECTORY, HYBRIS_CONFIG_DIRECTORY, HYBRIS_DATA_DIRECTORY, IBM_CICS_REGION, IBM_CTG_NAME, IBM_IMS_CONNECT_REGION, IBM_IMS_CONTROL_REGION, IBM_IMS_MESSAGE_PROCESSING_REGION, IBM_IMS_SOAP_GW_NAME, IBM_INTEGRATION_NODE_NAME, IBM_INTEGRATION_SERVER_NAME, IIS_APP_POOL, IIS_ROLE_NAME, JAVA_JAR_FILE, JAVA_JAR_PATH, JAVA_MAIN_CLASS, JAVA_MAIN_MODULE, JBOSS_HOME, JBOSS_MODE, JBOSS_SERVER_NAME, KUBERNETES_BASE_POD_NAME, KUBERNETES_CONTAINER_NAME, KUBERNETES_FULL_POD_NAME, KUBERNETES_NAMESPACE, KUBERNETES_POD_UID, MSSQL_INSTANCE_NAME, NODE_JS_APP_BASE_DIRECTORY, NODE_JS_APP_NAME, NODE_JS_SCRIPT_NAME, ORACLE_SID, PG_ID_CALC_INPUT_KEY_LINKAGE, PHP_SCRIPT_PATH, PHP_WORKING_DIRECTORY, RUBY_APP_ROOT_PATH, RUBY_SCRIPT_PATH, RULE_RESULT, SOFTWAREAG_INSTALL_ROOT, SOFTWAREAG_PRODUCTPROPNAME, SPRINGBOOT_APP_NAME, SPRINGBOOT_PROFILE_NAME, SPRINGBOOT_STARTUP_CLASS, TIBCO_BUSINESSWORKS_CE_APP_NAME, TIBCO_BUSINESSWORKS_CE_VERSION, TIBCO_BUSINESS_WORKS_APP_NODE_NAME, TIBCO_BUSINESS_WORKS_APP_SPACE_NAME, TIBCO_BUSINESS_WORKS_DOMAIN_NAME, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE, TIBCO_BUSINESS_WORKS_ENGINE_PROPERTY_FILE_PATH, TIBCO_BUSINESS_WORKS_HOME, VARNISH_INSTANCE_NAME, WEB_LOGIC_CLUSTER_NAME, WEB_LOGIC_DOMAIN_NAME, WEB_LOGIC_HOME, WEB_LOGIC_NAME, WEB_SPHERE_CELL_NAME, WEB_SPHERE_CLUSTER_NAME, WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be PROCESS_PREDEFINED_METADATA_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -12392,25 +12392,25 @@ export interface ProcessgroupNamingConditionsConditionServiceTopology {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -12612,31 +12612,31 @@ export interface ProcessgroupNamingConditionsConditionServiceTopologyComparison 
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TOPOLOGY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are EXTERNAL_SERVICE, FULLY_MONITORED and OPAQUE_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -12867,25 +12867,25 @@ export interface ProcessgroupNamingConditionsConditionServiceType {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -13087,31 +13087,31 @@ export interface ProcessgroupNamingConditionsConditionServiceTypeComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SERVICE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are BACKGROUND_ACTIVITY, CICS_SERVICE, CUSTOM_SERVICE, DATABASE_SERVICE, ENTERPRISE_SERVICE_BUS_SERVICE, EXTERNAL, IBM_INTEGRATION_BUS_SERVICE, IMS_SERVICE, MESSAGING_SERVICE, QUEUE_LISTENER_SERVICE, RMI_SERVICE, RPC_SERVICE, WEB_REQUEST_SERVICE and WEB_SERVICE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -13342,19 +13342,19 @@ export interface ProcessgroupNamingConditionsConditionSimpleHostTechComparisonVa
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set. Possible values are APPARMOR, BOSH, BOSHBPM, CLOUDFOUNDRY, CONTAINERD, CRIO, DIEGO_CELL, DOCKER, GARDEN, GRSECURITY, KUBERNETES, OPENSHIFT, OPENSTACK_COMPUTE, OPENSTACK_CONTROLLER and SELINUX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13498,31 +13498,31 @@ export interface ProcessgroupNamingConditionsConditionSimpleHostTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_HOST_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionSimpleHostTechComparisonValue;
 }
@@ -13753,19 +13753,19 @@ export interface ProcessgroupNamingConditionsConditionSimpleTechComparisonValue 
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -13909,31 +13909,31 @@ export interface ProcessgroupNamingConditionsConditionSimpleTechComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SIMPLE_TECH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionSimpleTechComparisonValue;
 }
@@ -14164,31 +14164,31 @@ export interface ProcessgroupNamingConditionsConditionString {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -14419,37 +14419,37 @@ export interface ProcessgroupNamingConditionsConditionStringComparison {
   /**
   * The comparison is case-sensitive (`true`) or insensitive (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#case_sensitive ProcessgroupNaming#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are BEGINS_WITH, CONTAINS, ENDS_WITH, EQUALS, EXISTS and REGEX_MATCHES. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be STRING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -14709,7 +14709,7 @@ export interface ProcessgroupNamingConditionsConditionStringConditionKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -14808,19 +14808,19 @@ export interface ProcessgroupNamingConditionsConditionStringConditionKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * if specified, needs to be `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15019,7 +15019,7 @@ export interface ProcessgroupNamingConditionsConditionStringKey {
   /**
   * The attribute to be used for comparision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#attribute ProcessgroupNaming#attribute}
   */
   readonly attribute: string;
   /**
@@ -15118,13 +15118,13 @@ export interface ProcessgroupNamingConditionsConditionStringKey {
   *    - `WEB_SPHERE_CLUSTER_NAME`
   *    - `WEB_SPHERE_NODE_NAME and WEB_SPHERE_SERVER_NAME`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dynamic_key ProcessgroupNaming#dynamic_key}
   */
   readonly dynamicKey: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -15294,25 +15294,25 @@ export interface ProcessgroupNamingConditionsConditionSyntheticEngine {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -15514,31 +15514,31 @@ export interface ProcessgroupNamingConditionsConditionSyntheticEngineTypeCompari
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are  EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be SYNTHETIC_ENGINE_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to. Possible values are CLASSIC and CUSTOM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -15769,25 +15769,25 @@ export interface ProcessgroupNamingConditionsConditionTagValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -15954,25 +15954,25 @@ export interface ProcessgroupNamingConditionsConditionTag {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionTagValue;
 }
@@ -16174,25 +16174,25 @@ export interface ProcessgroupNamingConditionsConditionTagComparisonValue {
   /**
   * The origin of the tag, such as AWS or Cloud Foundry. Possible values are AWS, AWS_GENERIC, AZURE, CLOUD_FOUNDRY, CONTEXTLESS, ENVIRONMENT, GOOGLE_CLOUD and KUBERNETES. Custom tags use the `CONTEXTLESS` value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#context ProcessgroupNaming#context}
   */
   readonly context: string;
   /**
   * The key of the tag. Custom tags have the tag value here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key: string;
   /**
   * Any attributes that aren't yet supported by this provider but have meanwhile gotten introduced by a newer version of the Dynatrace REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value of the tag. Not applicable to custom tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: string;
 }
@@ -16359,31 +16359,31 @@ export interface ProcessgroupNamingConditionsConditionTagComparison {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and TAG_KEY_EQUALS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * if specified, needs to be TAG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionTagComparisonValue;
 }
@@ -16614,19 +16614,19 @@ export interface ProcessgroupNamingConditionsConditionTechValue {
   /**
   * Predefined technology, if technology is not predefined, then the verbatim type must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#type ProcessgroupNaming#type}
   */
   readonly type?: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Non-predefined technology, use for custom technologies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#verbatim_type ProcessgroupNaming#verbatim_type}
   */
   readonly verbatimType?: string;
 }
@@ -16770,25 +16770,25 @@ export interface ProcessgroupNamingConditionsConditionTech {
   /**
   * Reverses the operator. For example it turns the **begins with** into **does not begin with**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#negate ProcessgroupNaming#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator of the comparison. Possible values are EQUALS and EXISTS. You can reverse it by setting **negate** to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#operator ProcessgroupNaming#operator}
   */
   readonly operator: string;
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#value ProcessgroupNaming#value}
   */
   readonly value?: ProcessgroupNamingConditionsConditionTechValue;
 }
@@ -16990,391 +16990,391 @@ export interface ProcessgroupNamingConditionsCondition {
   /**
   * Any attributes that aren't yet supported by this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#unknowns ProcessgroupNaming#unknowns}
   */
   readonly unknowns?: string;
   /**
   * application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#application_type ProcessgroupNaming#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#application_type ProcessgroupNaming#application_type}
   */
   readonly applicationType?: ProcessgroupNamingConditionsConditionApplicationType[] | cdktf.IResolvable;
   /**
   * application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#application_type_comparison ProcessgroupNaming#application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#application_type_comparison ProcessgroupNaming#application_type_comparison}
   */
   readonly applicationTypeComparison?: ProcessgroupNamingConditionsConditionApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * azure_compute_mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#azure_compute_mode ProcessgroupNaming#azure_compute_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#azure_compute_mode ProcessgroupNaming#azure_compute_mode}
   */
   readonly azureComputeMode?: ProcessgroupNamingConditionsConditionAzureComputeMode[] | cdktf.IResolvable;
   /**
   * azure_compute_mode_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#azure_compute_mode_comparison ProcessgroupNaming#azure_compute_mode_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#azure_compute_mode_comparison ProcessgroupNaming#azure_compute_mode_comparison}
   */
   readonly azureComputeModeComparison?: ProcessgroupNamingConditionsConditionAzureComputeModeComparison[] | cdktf.IResolvable;
   /**
   * azure_sku block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#azure_sku ProcessgroupNaming#azure_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#azure_sku ProcessgroupNaming#azure_sku}
   */
   readonly azureSku?: ProcessgroupNamingConditionsConditionAzureSku[] | cdktf.IResolvable;
   /**
   * azure_sku_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#azure_sku_comparision ProcessgroupNaming#azure_sku_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#azure_sku_comparision ProcessgroupNaming#azure_sku_comparision}
   */
   readonly azureSkuComparision?: ProcessgroupNamingConditionsConditionAzureSkuComparision[] | cdktf.IResolvable;
   /**
   * base_comparison_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#base_comparison_basic ProcessgroupNaming#base_comparison_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#base_comparison_basic ProcessgroupNaming#base_comparison_basic}
   */
   readonly baseComparisonBasic?: ProcessgroupNamingConditionsConditionBaseComparisonBasic[] | cdktf.IResolvable;
   /**
   * base_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#base_condition_key ProcessgroupNaming#base_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#base_condition_key ProcessgroupNaming#base_condition_key}
   */
   readonly baseConditionKey?: ProcessgroupNamingConditionsConditionBaseConditionKey[] | cdktf.IResolvable;
   /**
   * bitness block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#bitness ProcessgroupNaming#bitness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#bitness ProcessgroupNaming#bitness}
   */
   readonly bitness?: ProcessgroupNamingConditionsConditionBitness[] | cdktf.IResolvable;
   /**
   * bitness_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#bitness_comparision ProcessgroupNaming#bitness_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#bitness_comparision ProcessgroupNaming#bitness_comparision}
   */
   readonly bitnessComparision?: ProcessgroupNamingConditionsConditionBitnessComparision[] | cdktf.IResolvable;
   /**
   * cloud_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#cloud_type ProcessgroupNaming#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#cloud_type ProcessgroupNaming#cloud_type}
   */
   readonly cloudType?: ProcessgroupNamingConditionsConditionCloudType[] | cdktf.IResolvable;
   /**
   * cloud_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#cloud_type_comparison ProcessgroupNaming#cloud_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#cloud_type_comparison ProcessgroupNaming#cloud_type_comparison}
   */
   readonly cloudTypeComparison?: ProcessgroupNamingConditionsConditionCloudTypeComparison[] | cdktf.IResolvable;
   /**
   * comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#comparison ProcessgroupNaming#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#comparison ProcessgroupNaming#comparison}
   */
   readonly comparison?: ProcessgroupNamingConditionsConditionComparison[] | cdktf.IResolvable;
   /**
   * custom_application_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_application_type ProcessgroupNaming#custom_application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_application_type ProcessgroupNaming#custom_application_type}
   */
   readonly customApplicationType?: ProcessgroupNamingConditionsConditionCustomApplicationType[] | cdktf.IResolvable;
   /**
   * custom_application_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_application_type_comparison ProcessgroupNaming#custom_application_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_application_type_comparison ProcessgroupNaming#custom_application_type_comparison}
   */
   readonly customApplicationTypeComparison?: ProcessgroupNamingConditionsConditionCustomApplicationTypeComparison[] | cdktf.IResolvable;
   /**
   * custom_host_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_host_metadata ProcessgroupNaming#custom_host_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_host_metadata ProcessgroupNaming#custom_host_metadata}
   */
   readonly customHostMetadata?: ProcessgroupNamingConditionsConditionCustomHostMetadata[] | cdktf.IResolvable;
   /**
   * custom_host_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_host_metadata_condition_key ProcessgroupNaming#custom_host_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_host_metadata_condition_key ProcessgroupNaming#custom_host_metadata_condition_key}
   */
   readonly customHostMetadataConditionKey?: ProcessgroupNamingConditionsConditionCustomHostMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * custom_process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_process_metadata ProcessgroupNaming#custom_process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_process_metadata ProcessgroupNaming#custom_process_metadata}
   */
   readonly customProcessMetadata?: ProcessgroupNamingConditionsConditionCustomProcessMetadata[] | cdktf.IResolvable;
   /**
   * custom_process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#custom_process_metadata_condition_key ProcessgroupNaming#custom_process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#custom_process_metadata_condition_key ProcessgroupNaming#custom_process_metadata_condition_key}
   */
   readonly customProcessMetadataConditionKey?: ProcessgroupNamingConditionsConditionCustomProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * database_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#database_topology ProcessgroupNaming#database_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#database_topology ProcessgroupNaming#database_topology}
   */
   readonly databaseTopology?: ProcessgroupNamingConditionsConditionDatabaseTopology[] | cdktf.IResolvable;
   /**
   * database_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#database_topology_comparison ProcessgroupNaming#database_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#database_topology_comparison ProcessgroupNaming#database_topology_comparison}
   */
   readonly databaseTopologyComparison?: ProcessgroupNamingConditionsConditionDatabaseTopologyComparison[] | cdktf.IResolvable;
   /**
   * dcrum_decoder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dcrum_decoder ProcessgroupNaming#dcrum_decoder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dcrum_decoder ProcessgroupNaming#dcrum_decoder}
   */
   readonly dcrumDecoder?: ProcessgroupNamingConditionsConditionDcrumDecoder[] | cdktf.IResolvable;
   /**
   * dcrum_decoder_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#dcrum_decoder_comparison ProcessgroupNaming#dcrum_decoder_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#dcrum_decoder_comparison ProcessgroupNaming#dcrum_decoder_comparison}
   */
   readonly dcrumDecoderComparison?: ProcessgroupNamingConditionsConditionDcrumDecoderComparison[] | cdktf.IResolvable;
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#entity ProcessgroupNaming#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#entity ProcessgroupNaming#entity}
   */
   readonly entity?: ProcessgroupNamingConditionsConditionEntity[] | cdktf.IResolvable;
   /**
   * entity_id_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#entity_id_comparison ProcessgroupNaming#entity_id_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#entity_id_comparison ProcessgroupNaming#entity_id_comparison}
   */
   readonly entityIdComparison?: ProcessgroupNamingConditionsConditionEntityIdComparison[] | cdktf.IResolvable;
   /**
   * host_tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#host_tech ProcessgroupNaming#host_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#host_tech ProcessgroupNaming#host_tech}
   */
   readonly hostTech?: ProcessgroupNamingConditionsConditionHostTech[] | cdktf.IResolvable;
   /**
   * hypervisor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#hypervisor ProcessgroupNaming#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#hypervisor ProcessgroupNaming#hypervisor}
   */
   readonly hypervisor?: ProcessgroupNamingConditionsConditionHypervisor[] | cdktf.IResolvable;
   /**
   * hypervisor_type_comparision block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#hypervisor_type_comparision ProcessgroupNaming#hypervisor_type_comparision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#hypervisor_type_comparision ProcessgroupNaming#hypervisor_type_comparision}
   */
   readonly hypervisorTypeComparision?: ProcessgroupNamingConditionsConditionHypervisorTypeComparision[] | cdktf.IResolvable;
   /**
   * indexed_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_name ProcessgroupNaming#indexed_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_name ProcessgroupNaming#indexed_name}
   */
   readonly indexedName?: ProcessgroupNamingConditionsConditionIndexedName[] | cdktf.IResolvable;
   /**
   * indexed_name_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_name_comparison ProcessgroupNaming#indexed_name_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_name_comparison ProcessgroupNaming#indexed_name_comparison}
   */
   readonly indexedNameComparison?: ProcessgroupNamingConditionsConditionIndexedNameComparison[] | cdktf.IResolvable;
   /**
   * indexed_string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_string ProcessgroupNaming#indexed_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_string ProcessgroupNaming#indexed_string}
   */
   readonly indexedString?: ProcessgroupNamingConditionsConditionIndexedString[] | cdktf.IResolvable;
   /**
   * indexed_string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_string_comparison ProcessgroupNaming#indexed_string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_string_comparison ProcessgroupNaming#indexed_string_comparison}
   */
   readonly indexedStringComparison?: ProcessgroupNamingConditionsConditionIndexedStringComparison[] | cdktf.IResolvable;
   /**
   * indexed_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_tag ProcessgroupNaming#indexed_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_tag ProcessgroupNaming#indexed_tag}
   */
   readonly indexedTag?: ProcessgroupNamingConditionsConditionIndexedTag[] | cdktf.IResolvable;
   /**
   * indexed_tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#indexed_tag_comparison ProcessgroupNaming#indexed_tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#indexed_tag_comparison ProcessgroupNaming#indexed_tag_comparison}
   */
   readonly indexedTagComparison?: ProcessgroupNamingConditionsConditionIndexedTagComparison[] | cdktf.IResolvable;
   /**
   * integer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#integer ProcessgroupNaming#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#integer ProcessgroupNaming#integer}
   */
   readonly integer?: ProcessgroupNamingConditionsConditionInteger[] | cdktf.IResolvable;
   /**
   * integer_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#integer_comparison ProcessgroupNaming#integer_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#integer_comparison ProcessgroupNaming#integer_comparison}
   */
   readonly integerComparison?: ProcessgroupNamingConditionsConditionIntegerComparison[] | cdktf.IResolvable;
   /**
   * ipaddress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#ipaddress ProcessgroupNaming#ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#ipaddress ProcessgroupNaming#ipaddress}
   */
   readonly ipaddress?: ProcessgroupNamingConditionsConditionIpaddress[] | cdktf.IResolvable;
   /**
   * ipaddress_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#ipaddress_comparison ProcessgroupNaming#ipaddress_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#ipaddress_comparison ProcessgroupNaming#ipaddress_comparison}
   */
   readonly ipaddressComparison?: ProcessgroupNamingConditionsConditionIpaddressComparison[] | cdktf.IResolvable;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#key ProcessgroupNaming#key}
   */
   readonly key?: ProcessgroupNamingConditionsConditionKey[] | cdktf.IResolvable;
   /**
   * mobile_platform block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#mobile_platform ProcessgroupNaming#mobile_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#mobile_platform ProcessgroupNaming#mobile_platform}
   */
   readonly mobilePlatform?: ProcessgroupNamingConditionsConditionMobilePlatform[] | cdktf.IResolvable;
   /**
   * mobile_platform_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#mobile_platform_comparison ProcessgroupNaming#mobile_platform_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#mobile_platform_comparison ProcessgroupNaming#mobile_platform_comparison}
   */
   readonly mobilePlatformComparison?: ProcessgroupNamingConditionsConditionMobilePlatformComparison[] | cdktf.IResolvable;
   /**
   * os_arch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#os_arch ProcessgroupNaming#os_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#os_arch ProcessgroupNaming#os_arch}
   */
   readonly osArch?: ProcessgroupNamingConditionsConditionOsArch[] | cdktf.IResolvable;
   /**
   * os_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#os_type ProcessgroupNaming#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#os_type ProcessgroupNaming#os_type}
   */
   readonly osType?: ProcessgroupNamingConditionsConditionOsType[] | cdktf.IResolvable;
   /**
   * osarchitecture_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#osarchitecture_comparison ProcessgroupNaming#osarchitecture_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#osarchitecture_comparison ProcessgroupNaming#osarchitecture_comparison}
   */
   readonly osarchitectureComparison?: ProcessgroupNamingConditionsConditionOsarchitectureComparison[] | cdktf.IResolvable;
   /**
   * ostype_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#ostype_comparison ProcessgroupNaming#ostype_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#ostype_comparison ProcessgroupNaming#ostype_comparison}
   */
   readonly ostypeComparison?: ProcessgroupNamingConditionsConditionOstypeComparison[] | cdktf.IResolvable;
   /**
   * paas_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#paas_type ProcessgroupNaming#paas_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#paas_type ProcessgroupNaming#paas_type}
   */
   readonly paasType?: ProcessgroupNamingConditionsConditionPaasType[] | cdktf.IResolvable;
   /**
   * paas_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#paas_type_comparison ProcessgroupNaming#paas_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#paas_type_comparison ProcessgroupNaming#paas_type_comparison}
   */
   readonly paasTypeComparison?: ProcessgroupNamingConditionsConditionPaasTypeComparison[] | cdktf.IResolvable;
   /**
   * process_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#process_metadata ProcessgroupNaming#process_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#process_metadata ProcessgroupNaming#process_metadata}
   */
   readonly processMetadata?: ProcessgroupNamingConditionsConditionProcessMetadata[] | cdktf.IResolvable;
   /**
   * process_metadata_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#process_metadata_condition_key ProcessgroupNaming#process_metadata_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#process_metadata_condition_key ProcessgroupNaming#process_metadata_condition_key}
   */
   readonly processMetadataConditionKey?: ProcessgroupNamingConditionsConditionProcessMetadataConditionKey[] | cdktf.IResolvable;
   /**
   * service_topology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#service_topology ProcessgroupNaming#service_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#service_topology ProcessgroupNaming#service_topology}
   */
   readonly serviceTopology?: ProcessgroupNamingConditionsConditionServiceTopology[] | cdktf.IResolvable;
   /**
   * service_topology_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#service_topology_comparison ProcessgroupNaming#service_topology_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#service_topology_comparison ProcessgroupNaming#service_topology_comparison}
   */
   readonly serviceTopologyComparison?: ProcessgroupNamingConditionsConditionServiceTopologyComparison[] | cdktf.IResolvable;
   /**
   * service_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#service_type ProcessgroupNaming#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#service_type ProcessgroupNaming#service_type}
   */
   readonly serviceType?: ProcessgroupNamingConditionsConditionServiceType[] | cdktf.IResolvable;
   /**
   * service_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#service_type_comparison ProcessgroupNaming#service_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#service_type_comparison ProcessgroupNaming#service_type_comparison}
   */
   readonly serviceTypeComparison?: ProcessgroupNamingConditionsConditionServiceTypeComparison[] | cdktf.IResolvable;
   /**
   * simple_host_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#simple_host_tech_comparison ProcessgroupNaming#simple_host_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#simple_host_tech_comparison ProcessgroupNaming#simple_host_tech_comparison}
   */
   readonly simpleHostTechComparison?: ProcessgroupNamingConditionsConditionSimpleHostTechComparison[] | cdktf.IResolvable;
   /**
   * simple_tech_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#simple_tech_comparison ProcessgroupNaming#simple_tech_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#simple_tech_comparison ProcessgroupNaming#simple_tech_comparison}
   */
   readonly simpleTechComparison?: ProcessgroupNamingConditionsConditionSimpleTechComparison[] | cdktf.IResolvable;
   /**
   * string block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#string ProcessgroupNaming#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#string ProcessgroupNaming#string}
   */
   readonly string?: ProcessgroupNamingConditionsConditionString[] | cdktf.IResolvable;
   /**
   * string_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#string_comparison ProcessgroupNaming#string_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#string_comparison ProcessgroupNaming#string_comparison}
   */
   readonly stringComparison?: ProcessgroupNamingConditionsConditionStringComparison[] | cdktf.IResolvable;
   /**
   * string_condition_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#string_condition_key ProcessgroupNaming#string_condition_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#string_condition_key ProcessgroupNaming#string_condition_key}
   */
   readonly stringConditionKey?: ProcessgroupNamingConditionsConditionStringConditionKey[] | cdktf.IResolvable;
   /**
   * string_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#string_key ProcessgroupNaming#string_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#string_key ProcessgroupNaming#string_key}
   */
   readonly stringKey?: ProcessgroupNamingConditionsConditionStringKey[] | cdktf.IResolvable;
   /**
   * synthetic_engine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#synthetic_engine ProcessgroupNaming#synthetic_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#synthetic_engine ProcessgroupNaming#synthetic_engine}
   */
   readonly syntheticEngine?: ProcessgroupNamingConditionsConditionSyntheticEngine[] | cdktf.IResolvable;
   /**
   * synthetic_engine_type_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#synthetic_engine_type_comparison ProcessgroupNaming#synthetic_engine_type_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#synthetic_engine_type_comparison ProcessgroupNaming#synthetic_engine_type_comparison}
   */
   readonly syntheticEngineTypeComparison?: ProcessgroupNamingConditionsConditionSyntheticEngineTypeComparison[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#tag ProcessgroupNaming#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#tag ProcessgroupNaming#tag}
   */
   readonly tag?: ProcessgroupNamingConditionsConditionTag[] | cdktf.IResolvable;
   /**
   * tag_comparison block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#tag_comparison ProcessgroupNaming#tag_comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#tag_comparison ProcessgroupNaming#tag_comparison}
   */
   readonly tagComparison?: ProcessgroupNamingConditionsConditionTagComparison[] | cdktf.IResolvable;
   /**
   * tech block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#tech ProcessgroupNaming#tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#tech ProcessgroupNaming#tech}
   */
   readonly tech?: ProcessgroupNamingConditionsConditionTech[] | cdktf.IResolvable;
 }
@@ -19348,7 +19348,7 @@ export interface ProcessgroupNamingConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#condition ProcessgroupNaming#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#condition ProcessgroupNaming#condition}
   */
   readonly condition?: ProcessgroupNamingConditionsCondition[] | cdktf.IResolvable;
 }
@@ -19464,7 +19464,7 @@ export class ProcessgroupNamingConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming dynatrace_processgroup_naming}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming dynatrace_processgroup_naming}
 */
 export class ProcessgroupNaming extends cdktf.TerraformResource {
 
@@ -19480,7 +19480,7 @@ export class ProcessgroupNaming extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessgroupNaming resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessgroupNaming to import
-  * @param importFromId The id of the existing ProcessgroupNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessgroupNaming that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessgroupNaming to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19492,7 +19492,7 @@ export class ProcessgroupNaming extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/processgroup_naming dynatrace_processgroup_naming} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/processgroup_naming dynatrace_processgroup_naming} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19503,8 +19503,8 @@ export class ProcessgroupNaming extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_processgroup_naming',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

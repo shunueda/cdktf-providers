@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,49 +8,51 @@ import * as cdktf from 'cdktf';
 
 export interface KubernetesNodePoolsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#auto_scaler KubernetesNodePoolsA#auto_scaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#auto_scaler KubernetesNodePoolsA#auto_scaler}
   */
   readonly autoScaler?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#cluster_id KubernetesNodePoolsA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#cluster_id KubernetesNodePoolsA#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#label KubernetesNodePoolsA#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#label KubernetesNodePoolsA#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#labels KubernetesNodePoolsA#labels}
-  */
-  readonly labels?: { [key: string]: string };
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#max_nodes KubernetesNodePoolsA#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#max_nodes KubernetesNodePoolsA#max_nodes}
   */
   readonly maxNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#min_nodes KubernetesNodePoolsA#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#min_nodes KubernetesNodePoolsA#min_nodes}
   */
   readonly minNodes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#node_quantity KubernetesNodePoolsA#node_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#node_quantity KubernetesNodePoolsA#node_quantity}
   */
   readonly nodeQuantity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#plan KubernetesNodePoolsA#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#plan KubernetesNodePoolsA#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#tag KubernetesNodePoolsA#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#tag KubernetesNodePoolsA#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#user_data KubernetesNodePoolsA#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#user_data KubernetesNodePoolsA#user_data}
   */
   readonly userData?: string;
   /**
+  * labels block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#labels KubernetesNodePoolsA#labels}
+  */
+  readonly labels?: KubernetesNodePoolsLabelsA[] | cdktf.IResolvable;
+  /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#taints KubernetesNodePoolsA#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#taints KubernetesNodePoolsA#taints}
   */
   readonly taints?: KubernetesNodePoolsTaintsA[] | cdktf.IResolvable;
 }
@@ -144,17 +146,165 @@ export class KubernetesNodePoolsNodesAList extends cdktf.ComplexList {
     return new KubernetesNodePoolsNodesAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface KubernetesNodePoolsTaintsA {
+export interface KubernetesNodePoolsLabelsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#effect KubernetesNodePoolsA#effect}
-  */
-  readonly effect: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#key KubernetesNodePoolsA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#key KubernetesNodePoolsA#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#value KubernetesNodePoolsA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#value KubernetesNodePoolsA#value}
+  */
+  readonly value: string;
+}
+
+export function kubernetesNodePoolsLabelsAToTerraform(struct?: KubernetesNodePoolsLabelsA | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    key: cdktf.stringToTerraform(struct!.key),
+    value: cdktf.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function kubernetesNodePoolsLabelsAToHclTerraform(struct?: KubernetesNodePoolsLabelsA | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    key: {
+      value: cdktf.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktf.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class KubernetesNodePoolsLabelsAOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): KubernetesNodePoolsLabelsA | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: KubernetesNodePoolsLabelsA | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // key - computed: false, optional: false, required: true
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class KubernetesNodePoolsLabelsAList extends cdktf.ComplexList {
+  public internalValue? : KubernetesNodePoolsLabelsA[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): KubernetesNodePoolsLabelsAOutputReference {
+    return new KubernetesNodePoolsLabelsAOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface KubernetesNodePoolsTaintsA {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#effect KubernetesNodePoolsA#effect}
+  */
+  readonly effect: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#key KubernetesNodePoolsA#key}
+  */
+  readonly key: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#value KubernetesNodePoolsA#value}
   */
   readonly value: string;
 }
@@ -271,6 +421,11 @@ export class KubernetesNodePoolsTaintsAOutputReference extends cdktf.ComplexObje
     return this._effect;
   }
 
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
   // key - computed: false, optional: false, required: true
   private _key?: string; 
   public get key() {
@@ -319,7 +474,7 @@ export class KubernetesNodePoolsTaintsAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools vultr_kubernetes_node_pools}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools vultr_kubernetes_node_pools}
 */
 export class KubernetesNodePoolsA extends cdktf.TerraformResource {
 
@@ -335,7 +490,7 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodePoolsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodePoolsA to import
-  * @param importFromId The id of the existing KubernetesNodePoolsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodePoolsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodePoolsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +502,7 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes_node_pools vultr_kubernetes_node_pools} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes_node_pools vultr_kubernetes_node_pools} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +513,8 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_kubernetes_node_pools',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -372,13 +527,13 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
     this._autoScaler = config.autoScaler;
     this._clusterId = config.clusterId;
     this._label = config.label;
-    this._labels = config.labels;
     this._maxNodes = config.maxNodes;
     this._minNodes = config.minNodes;
     this._nodeQuantity = config.nodeQuantity;
     this._plan = config.plan;
     this._tag = config.tag;
     this._userData = config.userData;
+    this._labels.internalValue = config.labels;
     this._taints.internalValue = config.taints;
   }
 
@@ -441,22 +596,6 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get labelInput() {
     return this._label;
-  }
-
-  // labels - computed: false, optional: true, required: false
-  private _labels?: { [key: string]: string }; 
-  public get labels() {
-    return this.getStringMapAttribute('labels');
-  }
-  public set labels(value: { [key: string]: string }) {
-    this._labels = value;
-  }
-  public resetLabels() {
-    this._labels = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get labelsInput() {
-    return this._labels;
   }
 
   // max_nodes - computed: false, optional: true, required: false
@@ -560,6 +699,22 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
     return this._userData;
   }
 
+  // labels - computed: false, optional: true, required: false
+  private _labels = new KubernetesNodePoolsLabelsAList(this, "labels", true);
+  public get labels() {
+    return this._labels;
+  }
+  public putLabels(value: KubernetesNodePoolsLabelsA[] | cdktf.IResolvable) {
+    this._labels.internalValue = value;
+  }
+  public resetLabels() {
+    this._labels.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get labelsInput() {
+    return this._labels.internalValue;
+  }
+
   // taints - computed: false, optional: true, required: false
   private _taints = new KubernetesNodePoolsTaintsAList(this, "taints", true);
   public get taints() {
@@ -585,13 +740,13 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
       auto_scaler: cdktf.booleanToTerraform(this._autoScaler),
       cluster_id: cdktf.stringToTerraform(this._clusterId),
       label: cdktf.stringToTerraform(this._label),
-      labels: cdktf.hashMapper(cdktf.stringToTerraform)(this._labels),
       max_nodes: cdktf.numberToTerraform(this._maxNodes),
       min_nodes: cdktf.numberToTerraform(this._minNodes),
       node_quantity: cdktf.numberToTerraform(this._nodeQuantity),
       plan: cdktf.stringToTerraform(this._plan),
       tag: cdktf.stringToTerraform(this._tag),
       user_data: cdktf.stringToTerraform(this._userData),
+      labels: cdktf.listMapper(kubernetesNodePoolsLabelsAToTerraform, true)(this._labels.internalValue),
       taints: cdktf.listMapper(kubernetesNodePoolsTaintsAToTerraform, true)(this._taints.internalValue),
     };
   }
@@ -615,12 +770,6 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      labels: {
-        value: cdktf.hashMapperHcl(cdktf.stringToHclTerraform)(this._labels),
-        isBlock: false,
-        type: "map",
-        storageClassType: "stringMap",
       },
       max_nodes: {
         value: cdktf.numberToHclTerraform(this._maxNodes),
@@ -657,6 +806,12 @@ export class KubernetesNodePoolsA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      labels: {
+        value: cdktf.listMapperHcl(kubernetesNodePoolsLabelsAToHclTerraform, true)(this._labels.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "KubernetesNodePoolsLabelsAList",
       },
       taints: {
         value: cdktf.listMapperHcl(kubernetesNodePoolsTaintsAToHclTerraform, true)(this._taints.internalValue),

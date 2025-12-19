@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks
+// https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSnowflakeTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#id DataSnowflakeTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#id DataSnowflakeTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataSnowflakeTasksConfig extends cdktf.TerraformMetaArguments {
   /**
   * Filters the output with **case-insensitive** pattern, with support for SQL wildcard characters (`%` and `_`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#like DataSnowflakeTasks#like}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#like DataSnowflakeTasks#like}
   */
   readonly like?: string;
   /**
   * Filters the command output to return only root tasks (tasks with no predecessors).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#root_only DataSnowflakeTasks#root_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#root_only DataSnowflakeTasks#root_only}
   */
   readonly rootOnly?: boolean | cdktf.IResolvable;
   /**
   * Filters the output with **case-sensitive** characters indicating the beginning of the object name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#starts_with DataSnowflakeTasks#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#starts_with DataSnowflakeTasks#starts_with}
   */
   readonly startsWith?: string;
   /**
   * (Default: `true`) Runs SHOW PARAMETERS FOR TASK for each task returned by SHOW TASK and saves the output to the parameters field as a map. By default this value is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#with_parameters DataSnowflakeTasks#with_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#with_parameters DataSnowflakeTasks#with_parameters}
   */
   readonly withParameters?: boolean | cdktf.IResolvable;
   /**
   * in block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#in DataSnowflakeTasks#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#in DataSnowflakeTasks#in}
   */
   readonly in?: DataSnowflakeTasksIn;
   /**
   * limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#limit DataSnowflakeTasks#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#limit DataSnowflakeTasks#limit}
   */
   readonly limit?: DataSnowflakeTasksLimit;
 }
@@ -3091,6 +3091,196 @@ export class DataSnowflakeTasksTasksParametersSearchPathList extends cdktf.Compl
     return new DataSnowflakeTasksTasksParametersSearchPathOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSize {
+}
+
+export function dataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeToTerraform(struct?: DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSize): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeToHclTerraform(struct?: DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSize): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default - computed: true, optional: false, required: false
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // level - computed: true, optional: false, required: false
+  public get level() {
+    return this.getStringAttribute('level');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeOutputReference {
+    return new DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSize {
+}
+
+export function dataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeToTerraform(struct?: DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSize): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeToHclTerraform(struct?: DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSize): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSize | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSize | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default - computed: true, optional: false, required: false
+  public get default() {
+    return this.getStringAttribute('default');
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // level - computed: true, optional: false, required: false
+  public get level() {
+    return this.getStringAttribute('level');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeOutputReference {
+    return new DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataSnowflakeTasksTasksParametersStatementQueuedTimeoutInSeconds {
 }
 
@@ -5804,6 +5994,18 @@ export class DataSnowflakeTasksTasksParametersOutputReference extends cdktf.Comp
     return this._searchPath;
   }
 
+  // serverless_task_max_statement_size - computed: true, optional: false, required: false
+  private _serverlessTaskMaxStatementSize = new DataSnowflakeTasksTasksParametersServerlessTaskMaxStatementSizeList(this, "serverless_task_max_statement_size", false);
+  public get serverlessTaskMaxStatementSize() {
+    return this._serverlessTaskMaxStatementSize;
+  }
+
+  // serverless_task_min_statement_size - computed: true, optional: false, required: false
+  private _serverlessTaskMinStatementSize = new DataSnowflakeTasksTasksParametersServerlessTaskMinStatementSizeList(this, "serverless_task_min_statement_size", false);
+  public get serverlessTaskMinStatementSize() {
+    return this._serverlessTaskMinStatementSize;
+  }
+
   // statement_queued_timeout_in_seconds - computed: true, optional: false, required: false
   private _statementQueuedTimeoutInSeconds = new DataSnowflakeTasksTasksParametersStatementQueuedTimeoutInSecondsList(this, "statement_queued_timeout_in_seconds", false);
   public get statementQueuedTimeoutInSeconds() {
@@ -5977,6 +6179,91 @@ export class DataSnowflakeTasksTasksParametersList extends cdktf.ComplexList {
   */
   public get(index: number): DataSnowflakeTasksTasksParametersOutputReference {
     return new DataSnowflakeTasksTasksParametersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataSnowflakeTasksTasksShowOutputTargetCompletionInterval {
+}
+
+export function dataSnowflakeTasksTasksShowOutputTargetCompletionIntervalToTerraform(struct?: DataSnowflakeTasksTasksShowOutputTargetCompletionInterval): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSnowflakeTasksTasksShowOutputTargetCompletionIntervalToHclTerraform(struct?: DataSnowflakeTasksTasksShowOutputTargetCompletionInterval): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSnowflakeTasksTasksShowOutputTargetCompletionIntervalOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSnowflakeTasksTasksShowOutputTargetCompletionInterval | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSnowflakeTasksTasksShowOutputTargetCompletionInterval | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // hours - computed: true, optional: false, required: false
+  public get hours() {
+    return this.getNumberAttribute('hours');
+  }
+
+  // minutes - computed: true, optional: false, required: false
+  public get minutes() {
+    return this.getNumberAttribute('minutes');
+  }
+
+  // seconds - computed: true, optional: false, required: false
+  public get seconds() {
+    return this.getNumberAttribute('seconds');
+  }
+}
+
+export class DataSnowflakeTasksTasksShowOutputTargetCompletionIntervalList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSnowflakeTasksTasksShowOutputTargetCompletionIntervalOutputReference {
+    return new DataSnowflakeTasksTasksShowOutputTargetCompletionIntervalOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataSnowflakeTasksTasksShowOutputTaskRelations {
@@ -6215,6 +6502,12 @@ export class DataSnowflakeTasksTasksShowOutputOutputReference extends cdktf.Comp
     return this.getStringAttribute('state');
   }
 
+  // target_completion_interval - computed: true, optional: false, required: false
+  private _targetCompletionInterval = new DataSnowflakeTasksTasksShowOutputTargetCompletionIntervalList(this, "target_completion_interval", false);
+  public get targetCompletionInterval() {
+    return this._targetCompletionInterval;
+  }
+
   // task_relations - computed: true, optional: false, required: false
   private _taskRelations = new DataSnowflakeTasksTasksShowOutputTaskRelationsList(this, "task_relations", false);
   public get taskRelations() {
@@ -6331,31 +6624,31 @@ export interface DataSnowflakeTasksIn {
   /**
   * Returns records for the entire account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#account DataSnowflakeTasks#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#account DataSnowflakeTasks#account}
   */
   readonly account?: boolean | cdktf.IResolvable;
   /**
   * Returns records for the specified application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#application DataSnowflakeTasks#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#application DataSnowflakeTasks#application}
   */
   readonly application?: string;
   /**
   * Returns records for the specified application package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#application_package DataSnowflakeTasks#application_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#application_package DataSnowflakeTasks#application_package}
   */
   readonly applicationPackage?: string;
   /**
   * Returns records for the current database in use or for a specified database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#database DataSnowflakeTasks#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#database DataSnowflakeTasks#database}
   */
   readonly database?: string;
   /**
   * Returns records for the current schema in use or a specified schema. Use fully qualified name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#schema DataSnowflakeTasks#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#schema DataSnowflakeTasks#schema}
   */
   readonly schema?: string;
 }
@@ -6557,13 +6850,13 @@ export interface DataSnowflakeTasksLimit {
   /**
   * Specifies a **case-sensitive** pattern that is used to match object name. After the first match, the limit on the number of rows will be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#from DataSnowflakeTasks#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#from DataSnowflakeTasks#from}
   */
   readonly from?: string;
   /**
   * The maximum number of rows to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#rows DataSnowflakeTasks#rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#rows DataSnowflakeTasks#rows}
   */
   readonly rows: number;
 }
@@ -6673,7 +6966,7 @@ export class DataSnowflakeTasksLimitOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks snowflake_tasks}
+* Represents a {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks snowflake_tasks}
 */
 export class DataSnowflakeTasks extends cdktf.TerraformDataSource {
 
@@ -6689,7 +6982,7 @@ export class DataSnowflakeTasks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSnowflakeTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSnowflakeTasks to import
-  * @param importFromId The id of the existing DataSnowflakeTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSnowflakeTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSnowflakeTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6701,7 +6994,7 @@ export class DataSnowflakeTasks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/data-sources/tasks snowflake_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/data-sources/tasks snowflake_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6712,8 +7005,8 @@ export class DataSnowflakeTasks extends cdktf.TerraformDataSource {
       terraformResourceType: 'snowflake_tasks',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.11.0',
-        providerVersionConstraint: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

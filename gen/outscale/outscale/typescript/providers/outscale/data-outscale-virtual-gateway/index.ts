@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleVirtualGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#connection_type DataOutscaleVirtualGateway#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#connection_type DataOutscaleVirtualGateway#connection_type}
   */
   readonly connectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#id DataOutscaleVirtualGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#id DataOutscaleVirtualGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#state DataOutscaleVirtualGateway#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#state DataOutscaleVirtualGateway#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#virtual_gateway_id DataOutscaleVirtualGateway#virtual_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#virtual_gateway_id DataOutscaleVirtualGateway#virtual_gateway_id}
   */
   readonly virtualGatewayId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#filter DataOutscaleVirtualGateway#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#filter DataOutscaleVirtualGateway#filter}
   */
   readonly filter?: DataOutscaleVirtualGatewayFilter[] | cdktf.IResolvable;
 }
@@ -195,11 +195,11 @@ export class DataOutscaleVirtualGatewayTagsList extends cdktf.ComplexList {
 }
 export interface DataOutscaleVirtualGatewayFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#name DataOutscaleVirtualGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#name DataOutscaleVirtualGateway#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#values DataOutscaleVirtualGateway#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#values DataOutscaleVirtualGateway#values}
   */
   readonly values: string[];
 }
@@ -338,7 +338,7 @@ export class DataOutscaleVirtualGatewayFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway outscale_virtual_gateway}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway outscale_virtual_gateway}
 */
 export class DataOutscaleVirtualGateway extends cdktf.TerraformDataSource {
 
@@ -354,7 +354,7 @@ export class DataOutscaleVirtualGateway extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleVirtualGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleVirtualGateway to import
-  * @param importFromId The id of the existing DataOutscaleVirtualGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleVirtualGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleVirtualGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class DataOutscaleVirtualGateway extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/virtual_gateway outscale_virtual_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/virtual_gateway outscale_virtual_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class DataOutscaleVirtualGateway extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_virtual_gateway',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -459,7 +459,7 @@ export class DataOutscaleVirtualGateway extends cdktf.TerraformDataSource {
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleVirtualGatewayTagsList(this, "tags", false);
+  private _tags = new DataOutscaleVirtualGatewayTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }

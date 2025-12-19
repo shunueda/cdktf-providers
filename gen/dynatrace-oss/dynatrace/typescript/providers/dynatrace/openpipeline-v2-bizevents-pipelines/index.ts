@@ -12,6 +12,10 @@ OpenpipelineV2BizeventsPipelinesDavis,
 openpipelineV2BizeventsPipelinesDavisToTerraform, 
 openpipelineV2BizeventsPipelinesDavisToHclTerraform, 
 OpenpipelineV2BizeventsPipelinesDavisOutputReference, 
+OpenpipelineV2BizeventsPipelinesMetadataListStruct, 
+openpipelineV2BizeventsPipelinesMetadataListStructToTerraform, 
+openpipelineV2BizeventsPipelinesMetadataListStructToHclTerraform, 
+OpenpipelineV2BizeventsPipelinesMetadataListStructOutputReference, 
 OpenpipelineV2BizeventsPipelinesMetricExtraction, 
 openpipelineV2BizeventsPipelinesMetricExtractionToTerraform, 
 openpipelineV2BizeventsPipelinesMetricExtractionToHclTerraform, 
@@ -47,17 +51,17 @@ export interface OpenpipelineV2BizeventsPipelinesConfig extends cdktf.TerraformM
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#custom_id OpenpipelineV2BizeventsPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#custom_id OpenpipelineV2BizeventsPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#display_name OpenpipelineV2BizeventsPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#display_name OpenpipelineV2BizeventsPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#id OpenpipelineV2BizeventsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#id OpenpipelineV2BizeventsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,67 +70,73 @@ export interface OpenpipelineV2BizeventsPipelinesConfig extends cdktf.TerraformM
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#cost_allocation OpenpipelineV2BizeventsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#cost_allocation OpenpipelineV2BizeventsPipelines#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2BizeventsPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#data_extraction OpenpipelineV2BizeventsPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#data_extraction OpenpipelineV2BizeventsPipelines#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineV2BizeventsPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#davis OpenpipelineV2BizeventsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#davis OpenpipelineV2BizeventsPipelines#davis}
   */
   readonly davis?: OpenpipelineV2BizeventsPipelinesDavis;
   /**
+  * metadata_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#metadata_list OpenpipelineV2BizeventsPipelines#metadata_list}
+  */
+  readonly metadataList?: OpenpipelineV2BizeventsPipelinesMetadataListStruct;
+  /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#metric_extraction OpenpipelineV2BizeventsPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#metric_extraction OpenpipelineV2BizeventsPipelines#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineV2BizeventsPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#processing OpenpipelineV2BizeventsPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#processing OpenpipelineV2BizeventsPipelines#processing}
   */
   readonly processing?: OpenpipelineV2BizeventsPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#product_allocation OpenpipelineV2BizeventsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#product_allocation OpenpipelineV2BizeventsPipelines#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2BizeventsPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#security_context OpenpipelineV2BizeventsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#security_context OpenpipelineV2BizeventsPipelines#security_context}
   */
   readonly securityContext?: OpenpipelineV2BizeventsPipelinesSecurityContext;
   /**
   * smartscape_edge_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#smartscape_edge_extraction OpenpipelineV2BizeventsPipelines#smartscape_edge_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#smartscape_edge_extraction OpenpipelineV2BizeventsPipelines#smartscape_edge_extraction}
   */
   readonly smartscapeEdgeExtraction?: OpenpipelineV2BizeventsPipelinesSmartscapeEdgeExtraction;
   /**
   * smartscape_node_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#smartscape_node_extraction OpenpipelineV2BizeventsPipelines#smartscape_node_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#smartscape_node_extraction OpenpipelineV2BizeventsPipelines#smartscape_node_extraction}
   */
   readonly smartscapeNodeExtraction?: OpenpipelineV2BizeventsPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#storage OpenpipelineV2BizeventsPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#storage OpenpipelineV2BizeventsPipelines#storage}
   */
   readonly storage?: OpenpipelineV2BizeventsPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines dynatrace_openpipeline_v2_bizevents_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines dynatrace_openpipeline_v2_bizevents_pipelines}
 */
 export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
 
@@ -142,7 +152,7 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpenpipelineV2BizeventsPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2BizeventsPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2BizeventsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2BizeventsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2BizeventsPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +164,7 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_bizevents_pipelines dynatrace_openpipeline_v2_bizevents_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_bizevents_pipelines dynatrace_openpipeline_v2_bizevents_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +175,8 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_openpipeline_v2_bizevents_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -182,6 +192,7 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
     this._costAllocation.internalValue = config.costAllocation;
     this._dataExtraction.internalValue = config.dataExtraction;
     this._davis.internalValue = config.davis;
+    this._metadataList.internalValue = config.metadataList;
     this._metricExtraction.internalValue = config.metricExtraction;
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
@@ -283,6 +294,22 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
+  }
+
+  // metadata_list - computed: false, optional: true, required: false
+  private _metadataList = new OpenpipelineV2BizeventsPipelinesMetadataListStructOutputReference(this, "metadata_list");
+  public get metadataList() {
+    return this._metadataList;
+  }
+  public putMetadataList(value: OpenpipelineV2BizeventsPipelinesMetadataListStruct) {
+    this._metadataList.internalValue = value;
+  }
+  public resetMetadataList() {
+    this._metadataList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataListInput() {
+    return this._metadataList.internalValue;
   }
 
   // metric_extraction - computed: false, optional: true, required: false
@@ -409,6 +436,7 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
       cost_allocation: openpipelineV2BizeventsPipelinesCostAllocationToTerraform(this._costAllocation.internalValue),
       data_extraction: openpipelineV2BizeventsPipelinesDataExtractionToTerraform(this._dataExtraction.internalValue),
       davis: openpipelineV2BizeventsPipelinesDavisToTerraform(this._davis.internalValue),
+      metadata_list: openpipelineV2BizeventsPipelinesMetadataListStructToTerraform(this._metadataList.internalValue),
       metric_extraction: openpipelineV2BizeventsPipelinesMetricExtractionToTerraform(this._metricExtraction.internalValue),
       processing: openpipelineV2BizeventsPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2BizeventsPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
@@ -456,6 +484,12 @@ export class OpenpipelineV2BizeventsPipelines extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2BizeventsPipelinesDavisList",
+      },
+      metadata_list: {
+        value: openpipelineV2BizeventsPipelinesMetadataListStructToHclTerraform(this._metadataList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2BizeventsPipelinesMetadataListStructList",
       },
       metric_extraction: {
         value: openpipelineV2BizeventsPipelinesMetricExtractionToHclTerraform(this._metricExtraction.internalValue),

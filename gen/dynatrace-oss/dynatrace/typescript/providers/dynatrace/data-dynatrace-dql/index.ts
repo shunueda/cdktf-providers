@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataDynatraceDqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * In case not specified in the DQL string, the sampling ratio defined here is applied. Note that this is only applicable to log queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#default_sampling_ratio DataDynatraceDql#default_sampling_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#default_sampling_ratio DataDynatraceDql#default_sampling_ratio}
   */
   readonly defaultSamplingRatio?: number;
   /**
   * Limit in gigabytes for the amount data that will be scanned during read
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#default_scan_limit_gbytes DataDynatraceDql#default_scan_limit_gbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#default_scan_limit_gbytes DataDynatraceDql#default_scan_limit_gbytes}
   */
   readonly defaultScanLimitGbytes?: number;
   /**
   * The query timeframe 'end' timestamp in ISO-8601 or RFC3339 format. If the timeframe 'start' parameter is missing, the whole timeframe is ignored. Note that if a timeframe is specified within the query string (query) then it has precedence over this query request parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#default_timeframe_end DataDynatraceDql#default_timeframe_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#default_timeframe_end DataDynatraceDql#default_timeframe_end}
   */
   readonly defaultTimeframeEnd?: string;
   /**
   * The query timeframe 'start' timestamp in ISO-8601 or RFC3339 format. If the timeframe 'end' parameter is missing, the whole timeframe is ignored. Note that if a timeframe is specified within the query string (query) then it has precedence over this query request parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#default_timeframe_start DataDynatraceDql#default_timeframe_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#default_timeframe_start DataDynatraceDql#default_timeframe_start}
   */
   readonly defaultTimeframeStart?: string;
   /**
   * The query will stop reading data after reaching the fetch-timeout. The query execution will continue, providing a partial result based on the read data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#fetch_timeout_seconds DataDynatraceDql#fetch_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#fetch_timeout_seconds DataDynatraceDql#fetch_timeout_seconds}
   */
   readonly fetchTimeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#id DataDynatraceDql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#id DataDynatraceDql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface DataDynatraceDqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * The query locale. If none specified, then a language/country neutral locale is chosen. The input values take the ISO-639 Language code with an optional ISO-3166 country code appended to it with an underscore. For instance, both values are valid 'en' or 'en_US'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#locale DataDynatraceDql#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#locale DataDynatraceDql#locale}
   */
   readonly locale?: string;
   /**
   * The maximum number of result bytes that this query will return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#max_result_bytes DataDynatraceDql#max_result_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#max_result_bytes DataDynatraceDql#max_result_bytes}
   */
   readonly maxResultBytes?: number;
   /**
   * The maximum number of result records that this query will return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#max_result_records DataDynatraceDql#max_result_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#max_result_records DataDynatraceDql#max_result_records}
   */
   readonly maxResultRecords?: number;
   /**
   * example: fetch events | filter event.type == "davis" AND davis.status != "CLOSED" | fields timestamp, davis.title, davis.underMaintenance, davis.status | sort timestamp | limit 10
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#query DataDynatraceDql#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#query DataDynatraceDql#query}
   */
   readonly query: string;
   /**
   * The query timezone. If none is specified, UTC is used as fallback. The list of valid input values matches that of the IANA Time Zone Database (TZDB). It accepts values in their canonical names like 'Europe/Paris', the abbreviated version like CET or the UTC offset format like '+01:00'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#timezone DataDynatraceDql#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#timezone DataDynatraceDql#timezone}
   */
   readonly timezone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql dynatrace_dql}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql dynatrace_dql}
 */
 export class DataDynatraceDql extends cdktf.TerraformDataSource {
 
@@ -93,7 +93,7 @@ export class DataDynatraceDql extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDynatraceDql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatraceDql to import
-  * @param importFromId The id of the existing DataDynatraceDql that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatraceDql that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatraceDql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class DataDynatraceDql extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/dql dynatrace_dql} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/dql dynatrace_dql} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class DataDynatraceDql extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_dql',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

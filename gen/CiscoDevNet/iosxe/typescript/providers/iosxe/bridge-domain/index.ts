@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,31 +11,31 @@ export interface BridgeDomainConfig extends cdktf.TerraformMetaArguments {
   * <1..16000>;;bridge-domain ID
   *   - Range: `1`-`16000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#bridge_domain_id BridgeDomain#bridge_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#bridge_domain_id BridgeDomain#bridge_domain_id}
   */
   readonly bridgeDomainId: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#delete_mode BridgeDomain#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#delete_mode BridgeDomain#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#device BridgeDomain#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#device BridgeDomain#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#member_interfaces BridgeDomain#member_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#member_interfaces BridgeDomain#member_interfaces}
   */
   readonly memberInterfaces?: BridgeDomainMemberInterfaces[] | cdktf.IResolvable;
   /**
   * 
   *   - Range: `4096`-`16777215`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#member_vni BridgeDomain#member_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#member_vni BridgeDomain#member_vni}
   */
   readonly memberVni?: number;
 }
@@ -44,7 +44,7 @@ export interface BridgeDomainMemberInterfacesServiceInstances {
   * 
   *   - Range: `1`-`8000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#instance_id BridgeDomain#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#instance_id BridgeDomain#instance_id}
   */
   readonly instanceId: number;
 }
@@ -157,13 +157,13 @@ export class BridgeDomainMemberInterfacesServiceInstancesList extends cdktf.Comp
 }
 export interface BridgeDomainMemberInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#interface BridgeDomain#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#interface BridgeDomain#interface}
   */
   readonly interface: string;
   /**
   * ethernet service instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#service_instances BridgeDomain#service_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#service_instances BridgeDomain#service_instances}
   */
   readonly serviceInstances?: BridgeDomainMemberInterfacesServiceInstances[] | cdktf.IResolvable;
 }
@@ -305,7 +305,7 @@ export class BridgeDomainMemberInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain iosxe_bridge_domain}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain iosxe_bridge_domain}
 */
 export class BridgeDomain extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class BridgeDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BridgeDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BridgeDomain to import
-  * @param importFromId The id of the existing BridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BridgeDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BridgeDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class BridgeDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bridge_domain iosxe_bridge_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bridge_domain iosxe_bridge_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class BridgeDomain extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bridge_domain',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

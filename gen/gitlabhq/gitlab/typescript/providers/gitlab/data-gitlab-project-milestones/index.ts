@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DataGitlabProjectMilestonesConfig extends cdktf.TerraformMetaAr
   /**
   * Return only the milestones having the given `iid` (Note: ignored if `include_parent_milestones` is set as `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#iids DataGitlabProjectMilestones#iids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#iids DataGitlabProjectMilestones#iids}
   */
   readonly iids?: number[];
   /**
   * Include group milestones from parent group and its ancestors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#include_parent_milestones DataGitlabProjectMilestones#include_parent_milestones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#include_parent_milestones DataGitlabProjectMilestones#include_parent_milestones}
   */
   readonly includeParentMilestones?: boolean | cdktf.IResolvable;
   /**
   * The ID or URL-encoded path of the project owned by the authenticated user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#project DataGitlabProjectMilestones#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#project DataGitlabProjectMilestones#project}
   */
   readonly project: string;
   /**
   * Return only milestones with a title or description matching the provided string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#search DataGitlabProjectMilestones#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#search DataGitlabProjectMilestones#search}
   */
   readonly search?: string;
   /**
   * Return only `active` or `closed` milestones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#state DataGitlabProjectMilestones#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#state DataGitlabProjectMilestones#state}
   */
   readonly state?: string;
   /**
   * Return only the milestones having the given `title`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#title DataGitlabProjectMilestones#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#title DataGitlabProjectMilestones#title}
   */
   readonly title?: string;
 }
@@ -181,7 +181,7 @@ export class DataGitlabProjectMilestonesMilestonesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones gitlab_project_milestones}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones gitlab_project_milestones}
 */
 export class DataGitlabProjectMilestones extends cdktf.TerraformDataSource {
 
@@ -197,7 +197,7 @@ export class DataGitlabProjectMilestones extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGitlabProjectMilestones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitlabProjectMilestones to import
-  * @param importFromId The id of the existing DataGitlabProjectMilestones that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitlabProjectMilestones that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitlabProjectMilestones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DataGitlabProjectMilestones extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/project_milestones gitlab_project_milestones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_milestones gitlab_project_milestones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DataGitlabProjectMilestones extends cdktf.TerraformDataSource {
       terraformResourceType: 'gitlab_project_milestones',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.1',
-        providerVersionConstraint: '18.6.1'
+        providerVersion: '18.7.0',
+        providerVersionConstraint: '18.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

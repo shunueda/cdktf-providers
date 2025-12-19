@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ManagedBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cassandra backup bandwidth limit in Mbps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#bandwidth_limit_mbits ManagedBackup#bandwidth_limit_mbits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#bandwidth_limit_mbits ManagedBackup#bandwidth_limit_mbits}
   */
   readonly bandwidthLimitMbits?: number;
   /**
   * Hour to start Cassandra backups each day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#cassandra_scheduled_time ManagedBackup#cassandra_scheduled_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#cassandra_scheduled_time ManagedBackup#cassandra_scheduled_time}
   */
   readonly cassandraScheduledTime: number;
   /**
   * For internal use: current state of rules in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#current_state ManagedBackup#current_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#current_state ManagedBackup#current_state}
   */
   readonly currentState?: string;
   /**
   * Datacenter which will create backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#datacenter ManagedBackup#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#datacenter ManagedBackup#datacenter}
   */
   readonly datacenter?: string;
   /**
   * Backups are enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#enabled ManagedBackup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#enabled ManagedBackup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#id ManagedBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#id ManagedBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface ManagedBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include (true) or exclude (false) Log Monitoring v2 data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#include_lm20_data ManagedBackup#include_lm20_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#include_lm20_data ManagedBackup#include_lm20_data}
   */
   readonly includeLm20Data?: boolean | cdktf.IResolvable;
   /**
   * Include user sessions (true) or GDPR compliance (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#include_rum_data ManagedBackup#include_rum_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#include_rum_data ManagedBackup#include_rum_data}
   */
   readonly includeRumData?: boolean | cdktf.IResolvable;
   /**
   * Include time series metric-data (true) or retain configuration data only (false))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#include_ts_metric_data ManagedBackup#include_ts_metric_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#include_ts_metric_data ManagedBackup#include_ts_metric_data}
   */
   readonly includeTsMetricData?: boolean | cdktf.IResolvable;
   /**
   * Max number of Elasticsearch snapshots to clean. Elasticsearch snapshots won't be created anymore if there will be more backups to clean than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#max_es_snapshots_to_clean ManagedBackup#max_es_snapshots_to_clean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#max_es_snapshots_to_clean ManagedBackup#max_es_snapshots_to_clean}
   */
   readonly maxEsSnapshotsToClean?: number;
   /**
   * Pauses Elasticsearch and Cassandra backups. In comparison to enable/disable backup, this option does not modify any configuration like Elasticsearch properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#pause_backups ManagedBackup#pause_backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#pause_backups ManagedBackup#pause_backups}
   */
   readonly pauseBackups?: boolean | cdktf.IResolvable;
   /**
   * A full path to the backup archive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#storage_path ManagedBackup#storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#storage_path ManagedBackup#storage_path}
   */
   readonly storagePath?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup dynatrace_managed_backup}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup dynatrace_managed_backup}
 */
 export class ManagedBackup extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ManagedBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedBackup to import
-  * @param importFromId The id of the existing ManagedBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ManagedBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_backup dynatrace_managed_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_backup dynatrace_managed_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class ManagedBackup extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_backup',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

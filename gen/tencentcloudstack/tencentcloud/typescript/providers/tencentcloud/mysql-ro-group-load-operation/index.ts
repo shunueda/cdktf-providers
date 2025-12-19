@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlRoGroupLoadOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation#id MysqlRoGroupLoadOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation#id MysqlRoGroupLoadOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MysqlRoGroupLoadOperationConfig extends cdktf.TerraformMetaArgu
   /**
   * The ID of the RO group, in the format: cdbrg-c1nl9rpv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation#ro_group_id MysqlRoGroupLoadOperation#ro_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation#ro_group_id MysqlRoGroupLoadOperation#ro_group_id}
   */
   readonly roGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation tencentcloud_mysql_ro_group_load_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation tencentcloud_mysql_ro_group_load_operation}
 */
 export class MysqlRoGroupLoadOperation extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class MysqlRoGroupLoadOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlRoGroupLoadOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlRoGroupLoadOperation to import
-  * @param importFromId The id of the existing MysqlRoGroupLoadOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlRoGroupLoadOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlRoGroupLoadOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class MysqlRoGroupLoadOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_ro_group_load_operation tencentcloud_mysql_ro_group_load_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_ro_group_load_operation tencentcloud_mysql_ro_group_load_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class MysqlRoGroupLoadOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_ro_group_load_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

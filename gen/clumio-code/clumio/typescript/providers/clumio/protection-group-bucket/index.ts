@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ProtectionGroupBucketConfig extends cdktf.TerraformMetaArgument
   /**
   * Clumio assigned unique identifier of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket#bucket_id ProtectionGroupBucket#bucket_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket#bucket_id ProtectionGroupBucket#bucket_id}
   */
   readonly bucketId: string;
   /**
   * Unique identifier of the Protection Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket#protection_group_id ProtectionGroupBucket#protection_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket#protection_group_id ProtectionGroupBucket#protection_group_id}
   */
   readonly protectionGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket clumio_protection_group_bucket}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket clumio_protection_group_bucket}
 */
 export class ProtectionGroupBucket extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ProtectionGroupBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionGroupBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionGroupBucket to import
-  * @param importFromId The id of the existing ProtectionGroupBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionGroupBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionGroupBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ProtectionGroupBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group_bucket clumio_protection_group_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group_bucket clumio_protection_group_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ProtectionGroupBucket extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_protection_group_bucket',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PrivateDnsZoneVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#id PrivateDnsZoneVpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#id PrivateDnsZoneVpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface PrivateDnsZoneVpcAttachmentConfig extends cdktf.TerraformMetaAr
   /**
   * PrivateZone ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#zone_id PrivateDnsZoneVpcAttachment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#zone_id PrivateDnsZoneVpcAttachment#zone_id}
   */
   readonly zoneId: string;
   /**
   * account_vpc_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#account_vpc_set PrivateDnsZoneVpcAttachment#account_vpc_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#account_vpc_set PrivateDnsZoneVpcAttachment#account_vpc_set}
   */
   readonly accountVpcSet?: PrivateDnsZoneVpcAttachmentAccountVpcSet;
   /**
   * vpc_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#vpc_set PrivateDnsZoneVpcAttachment#vpc_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#vpc_set PrivateDnsZoneVpcAttachment#vpc_set}
   */
   readonly vpcSet?: PrivateDnsZoneVpcAttachmentVpcSet;
 }
@@ -37,19 +37,19 @@ export interface PrivateDnsZoneVpcAttachmentAccountVpcSet {
   /**
   * Vpc region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#region PrivateDnsZoneVpcAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#region PrivateDnsZoneVpcAttachment#region}
   */
   readonly region: string;
   /**
   * Vpc owner uin. To grant role authorization to this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#uin PrivateDnsZoneVpcAttachment#uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#uin PrivateDnsZoneVpcAttachment#uin}
   */
   readonly uin: string;
   /**
   * Uniq Vpc Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#uniq_vpc_id PrivateDnsZoneVpcAttachment#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#uniq_vpc_id PrivateDnsZoneVpcAttachment#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
 }
@@ -184,13 +184,13 @@ export interface PrivateDnsZoneVpcAttachmentVpcSet {
   /**
   * Vpc region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#region PrivateDnsZoneVpcAttachment#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#region PrivateDnsZoneVpcAttachment#region}
   */
   readonly region: string;
   /**
   * Uniq Vpc Id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#uniq_vpc_id PrivateDnsZoneVpcAttachment#uniq_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#uniq_vpc_id PrivateDnsZoneVpcAttachment#uniq_vpc_id}
   */
   readonly uniqVpcId: string;
 }
@@ -297,7 +297,7 @@ export class PrivateDnsZoneVpcAttachmentVpcSetOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment tencentcloud_private_dns_zone_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment tencentcloud_private_dns_zone_vpc_attachment}
 */
 export class PrivateDnsZoneVpcAttachment extends cdktf.TerraformResource {
 
@@ -313,7 +313,7 @@ export class PrivateDnsZoneVpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateDnsZoneVpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateDnsZoneVpcAttachment to import
-  * @param importFromId The id of the existing PrivateDnsZoneVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateDnsZoneVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateDnsZoneVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +325,7 @@ export class PrivateDnsZoneVpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/private_dns_zone_vpc_attachment tencentcloud_private_dns_zone_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/private_dns_zone_vpc_attachment tencentcloud_private_dns_zone_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +336,8 @@ export class PrivateDnsZoneVpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_private_dns_zone_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

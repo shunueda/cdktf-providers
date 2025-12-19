@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CatTaskSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Timer task cron expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#cron CatTaskSet#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#cron CatTaskSet#cron}
   */
   readonly cron?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#id CatTaskSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#id CatTaskSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface CatTaskSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Task interval minutes in (1,5,10,15,30,60,120,240).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#interval CatTaskSet#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#interval CatTaskSet#interval}
   */
   readonly interval: number;
   /**
   * `0`-Unlimit ip type, `1`-IPv4, `2`-IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#node_ip_type CatTaskSet#node_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#node_ip_type CatTaskSet#node_ip_type}
   */
   readonly nodeIpType?: number;
   /**
   * Task Nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#nodes CatTaskSet#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#nodes CatTaskSet#nodes}
   */
   readonly nodes: string[];
   /**
   * The input is valid when the parameter is modified, `suspend`/`resume`, used to suspend/resume the dial test task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#operate CatTaskSet#operate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#operate CatTaskSet#operate}
   */
   readonly operate?: string;
   /**
   * tasks parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#parameters CatTaskSet#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#parameters CatTaskSet#parameters}
   */
   readonly parameters: string;
   /**
   * Tag description list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#tags CatTaskSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#tags CatTaskSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Task category,1:PC,2:Mobile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#task_category CatTaskSet#task_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#task_category CatTaskSet#task_category}
   */
   readonly taskCategory: number;
   /**
   * Task Type 1:Page Performance, 2:File upload,3:File Download,4:Port performance 5:Audio and video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#task_type CatTaskSet#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#task_type CatTaskSet#task_type}
   */
   readonly taskType: number;
   /**
   * batch_tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#batch_tasks CatTaskSet#batch_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#batch_tasks CatTaskSet#batch_tasks}
   */
   readonly batchTasks: CatTaskSetBatchTasks;
 }
@@ -79,13 +79,13 @@ export interface CatTaskSetBatchTasks {
   /**
   * Task name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#name CatTaskSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#name CatTaskSet#name}
   */
   readonly name: string;
   /**
   * Target address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#target_address CatTaskSet#target_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#target_address CatTaskSet#target_address}
   */
   readonly targetAddress: string;
 }
@@ -192,7 +192,7 @@ export class CatTaskSetBatchTasksOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set tencentcloud_cat_task_set}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set tencentcloud_cat_task_set}
 */
 export class CatTaskSet extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class CatTaskSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatTaskSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatTaskSet to import
-  * @param importFromId The id of the existing CatTaskSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatTaskSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatTaskSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class CatTaskSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set tencentcloud_cat_task_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set tencentcloud_cat_task_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class CatTaskSet extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cat_task_set',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

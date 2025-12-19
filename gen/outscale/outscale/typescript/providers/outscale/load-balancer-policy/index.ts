@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#backend_vm_ids LoadBalancerPolicy#backend_vm_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#backend_vm_ids LoadBalancerPolicy#backend_vm_ids}
   */
   readonly backendVmIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#cookie_expiration_period LoadBalancerPolicy#cookie_expiration_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#cookie_expiration_period LoadBalancerPolicy#cookie_expiration_period}
   */
   readonly cookieExpirationPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#cookie_name LoadBalancerPolicy#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#cookie_name LoadBalancerPolicy#cookie_name}
   */
   readonly cookieName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#id LoadBalancerPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#id LoadBalancerPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#load_balancer_name LoadBalancerPolicy#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#load_balancer_name LoadBalancerPolicy#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#load_balancer_type LoadBalancerPolicy#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#load_balancer_type LoadBalancerPolicy#load_balancer_type}
   */
   readonly loadBalancerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#policy_name LoadBalancerPolicy#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#policy_name LoadBalancerPolicy#policy_name}
   */
   readonly policyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#policy_type LoadBalancerPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#policy_type LoadBalancerPolicy#policy_type}
   */
   readonly policyType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#security_groups LoadBalancerPolicy#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#security_groups LoadBalancerPolicy#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#subnets LoadBalancerPolicy#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#subnets LoadBalancerPolicy#subnets}
   */
   readonly subnets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#subregion_names LoadBalancerPolicy#subregion_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#subregion_names LoadBalancerPolicy#subregion_names}
   */
   readonly subregionNames?: string[];
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#access_log LoadBalancerPolicy#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#access_log LoadBalancerPolicy#access_log}
   */
   readonly accessLog?: LoadBalancerPolicyAccessLog[] | cdktf.IResolvable;
-  /**
-  * tags block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#tags LoadBalancerPolicy#tags}
-  */
-  readonly tags?: LoadBalancerPolicyTags[] | cdktf.IResolvable;
 }
 export interface LoadBalancerPolicyApplicationStickyCookiePolicies {
 }
@@ -507,6 +501,86 @@ export class LoadBalancerPolicySourceSecurityGroupList extends cdktf.ComplexList
     return new LoadBalancerPolicySourceSecurityGroupOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface LoadBalancerPolicyTags {
+}
+
+export function loadBalancerPolicyTagsToTerraform(struct?: LoadBalancerPolicyTags): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function loadBalancerPolicyTagsToHclTerraform(struct?: LoadBalancerPolicyTags): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class LoadBalancerPolicyTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): LoadBalancerPolicyTags | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: LoadBalancerPolicyTags | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class LoadBalancerPolicyTagsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): LoadBalancerPolicyTagsOutputReference {
+    return new LoadBalancerPolicyTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface LoadBalancerPolicyAccessLog {
 }
 
@@ -608,100 +682,9 @@ export class LoadBalancerPolicyAccessLogList extends cdktf.ComplexList {
     return new LoadBalancerPolicyAccessLogOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface LoadBalancerPolicyTags {
-}
-
-export function loadBalancerPolicyTagsToTerraform(struct?: LoadBalancerPolicyTags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function loadBalancerPolicyTagsToHclTerraform(struct?: LoadBalancerPolicyTags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class LoadBalancerPolicyTagsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): LoadBalancerPolicyTags | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: LoadBalancerPolicyTags | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-    }
-  }
-
-  // key - computed: true, optional: false, required: false
-  public get key() {
-    return this.getStringAttribute('key');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class LoadBalancerPolicyTagsList extends cdktf.ComplexList {
-  public internalValue? : LoadBalancerPolicyTags[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): LoadBalancerPolicyTagsOutputReference {
-    return new LoadBalancerPolicyTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy outscale_load_balancer_policy}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy outscale_load_balancer_policy}
 */
 export class LoadBalancerPolicy extends cdktf.TerraformResource {
 
@@ -717,7 +700,7 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerPolicy to import
-  * @param importFromId The id of the existing LoadBalancerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -729,7 +712,7 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_policy outscale_load_balancer_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_policy outscale_load_balancer_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -740,8 +723,8 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_load_balancer_policy',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -763,7 +746,6 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
     this._subnets = config.subnets;
     this._subregionNames = config.subregionNames;
     this._accessLog.internalValue = config.accessLog;
-    this._tags.internalValue = config.tags;
   }
 
   // ==========
@@ -992,6 +974,12 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
     return this._subregionNames;
   }
 
+  // tags - computed: true, optional: false, required: false
+  private _tags = new LoadBalancerPolicyTagsList(this, "tags", true);
+  public get tags() {
+    return this._tags;
+  }
+
   // access_log - computed: false, optional: true, required: false
   private _accessLog = new LoadBalancerPolicyAccessLogList(this, "access_log", false);
   public get accessLog() {
@@ -1006,22 +994,6 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get accessLogInput() {
     return this._accessLog.internalValue;
-  }
-
-  // tags - computed: false, optional: true, required: false
-  private _tags = new LoadBalancerPolicyTagsList(this, "tags", false);
-  public get tags() {
-    return this._tags;
-  }
-  public putTags(value: LoadBalancerPolicyTags[] | cdktf.IResolvable) {
-    this._tags.internalValue = value;
-  }
-  public resetTags() {
-    this._tags.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tagsInput() {
-    return this._tags.internalValue;
   }
 
   // =========
@@ -1042,7 +1014,6 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
       subnets: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subnets),
       subregion_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._subregionNames),
       access_log: cdktf.listMapper(loadBalancerPolicyAccessLogToTerraform, true)(this._accessLog.internalValue),
-      tags: cdktf.listMapper(loadBalancerPolicyTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 
@@ -1119,12 +1090,6 @@ export class LoadBalancerPolicy extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "LoadBalancerPolicyAccessLogList",
-      },
-      tags: {
-        value: cdktf.listMapperHcl(loadBalancerPolicyTagsToHclTerraform, true)(this._tags.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "LoadBalancerPolicyTagsList",
       },
     };
 

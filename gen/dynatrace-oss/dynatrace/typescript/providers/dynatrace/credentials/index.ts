@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow ad-hoc functions to access the credential details (requires the APP_ENGINE scope).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#allow_contextless_requests Credentials#allow_contextless_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#allow_contextless_requests Credentials#allow_contextless_requests}
   */
   readonly allowContextlessRequests?: boolean | cdktf.IResolvable;
   /**
   * The certificate in the string format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#certificate Credentials#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#certificate Credentials#certificate}
   */
   readonly certificate?: string;
   /**
   * A short description of the credentials set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#description Credentials#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#description Credentials#description}
   */
   readonly description?: string;
   /**
   * The certificate format. Possible values are `PEM`, `PKCS12` and `UNKNOWN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#format Credentials#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#format Credentials#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#id Credentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#id Credentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface CredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the credentials set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#name Credentials#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#name Credentials#name}
   */
   readonly name: string;
   /**
   * The credentials set is available to every user (`false`) or to owner only (`true`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#owner_access_only Credentials#owner_access_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#owner_access_only Credentials#owner_access_only}
   */
   readonly ownerAccessOnly?: boolean | cdktf.IResolvable;
   /**
   * The password of the credential. Note: Terraform treats an empty string for a value as if the attribute was absent. If you want to set an empty password, use the value `--empty--`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#password Credentials#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#password Credentials#password}
   */
   readonly password?: string;
   /**
   * For certificate authentication specifies whether it's public certificate auth (`true`) or not (`false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#public Credentials#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#public Credentials#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The scope of the credentials set. Possible values are `ALL`, `APP_ENGINE`, `EXTENSION` and `SYNTHETIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#scope Credentials#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#scope Credentials#scope}
   */
   readonly scope?: string;
   /**
   * The set of scopes of the credentials set. Possible values are `APP_ENGINE` and `SYNTHETIC`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#scopes Credentials#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#scopes Credentials#scopes}
   */
   readonly scopes?: string[];
   /**
   * Token in the string format. Specifying a token implies `Token Authentication`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#token Credentials#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#token Credentials#token}
   */
   readonly token?: string;
   /**
   * The username of the credentials set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#username Credentials#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#username Credentials#username}
   */
   readonly username?: string;
   /**
   * allowed_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#allowed_entities Credentials#allowed_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#allowed_entities Credentials#allowed_entities}
   */
   readonly allowedEntities?: CredentialsAllowedEntities;
   /**
   * credential_usage_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#credential_usage_summary Credentials#credential_usage_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#credential_usage_summary Credentials#credential_usage_summary}
   */
   readonly credentialUsageSummary?: CredentialsCredentialUsageSummary[] | cdktf.IResolvable;
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#external Credentials#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#external Credentials#external}
   */
   readonly external?: CredentialsExternal;
 }
@@ -109,7 +109,7 @@ export interface CredentialsAllowedEntitiesEntity {
   /**
   * ID of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#id Credentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#id Credentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ export interface CredentialsAllowedEntitiesEntity {
   /**
   * Type of entity. Possible values: `USER`, `APPLICATION`, `UNKNOWN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#type Credentials#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#type Credentials#type}
   */
   readonly type?: string;
 }
@@ -265,7 +265,7 @@ export interface CredentialsAllowedEntities {
   /**
   * entity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#entity Credentials#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#entity Credentials#entity}
   */
   readonly entity: CredentialsAllowedEntitiesEntity[] | cdktf.IResolvable;
 }
@@ -348,13 +348,13 @@ export interface CredentialsCredentialUsageSummary {
   /**
   * The number of uses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#count Credentials#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#count Credentials#count}
   */
   readonly count: number;
   /**
   * Type of usage, `HTTP_MONITOR` or `BROWSER_MONITOR`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#type Credentials#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#type Credentials#type}
   */
   readonly type: string;
 }
@@ -495,79 +495,79 @@ export interface CredentialsExternal {
   /**
   * Required for Hashicorp Certificate. The ID of Credentials within the Certificate Vault holding the certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#certificate Credentials#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#certificate Credentials#certificate}
   */
   readonly certificate?: string;
   /**
   * Required for Azure Client Secret. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#client_secret Credentials#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#client_secret Credentials#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Required for Azure Client Secret. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#clientid Credentials#clientid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#clientid Credentials#clientid}
   */
   readonly clientid?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#credentials_used_for_external_synchronization Credentials#credentials_used_for_external_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#credentials_used_for_external_synchronization Credentials#credentials_used_for_external_synchronization}
   */
   readonly credentialsUsedForExternalSynchronization?: string[];
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#password_secret_name Credentials#password_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#password_secret_name Credentials#password_secret_name}
   */
   readonly passwordSecretName?: string;
   /**
   * Required for Hashicorp App Role or Hashicorp Certificate. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#path_to_credentials Credentials#path_to_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#path_to_credentials Credentials#path_to_credentials}
   */
   readonly pathToCredentials?: string;
   /**
   * Required for Hashicorp App Role. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#roleid Credentials#roleid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#roleid Credentials#roleid}
   */
   readonly roleid?: string;
   /**
   * Required for Hashicorp App Role. The ID of Credentials within the Certificate Vault holding the secret id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#secretid Credentials#secretid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#secretid Credentials#secretid}
   */
   readonly secretid?: string;
   /**
   * Required for Azure Client Secret. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#tenantid Credentials#tenantid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#tenantid Credentials#tenantid}
   */
   readonly tenantid?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#token_secret_name Credentials#token_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#token_secret_name Credentials#token_secret_name}
   */
   readonly tokenSecretName?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#username_secret_name Credentials#username_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#username_secret_name Credentials#username_secret_name}
   */
   readonly usernameSecretName?: string;
   /**
   * Required for Hashicorp App Role. No further documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#vault_namespace Credentials#vault_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#vault_namespace Credentials#vault_namespace}
   */
   readonly vaultNamespace?: string;
   /**
   * No documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#vault_url Credentials#vault_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#vault_url Credentials#vault_url}
   */
   readonly vaultUrl?: string;
 }
@@ -999,7 +999,7 @@ export class CredentialsExternalOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials dynatrace_credentials}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials dynatrace_credentials}
 */
 export class Credentials extends cdktf.TerraformResource {
 
@@ -1015,7 +1015,7 @@ export class Credentials extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Credentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Credentials to import
-  * @param importFromId The id of the existing Credentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Credentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Credentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1027,7 +1027,7 @@ export class Credentials extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/credentials dynatrace_credentials} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/credentials dynatrace_credentials} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1038,8 +1038,8 @@ export class Credentials extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_credentials',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

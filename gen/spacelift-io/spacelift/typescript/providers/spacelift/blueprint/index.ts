@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#description Blueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#description Blueprint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#id Blueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#id Blueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface BlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
   * Labels of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#labels Blueprint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#labels Blueprint#labels}
   */
   readonly labels?: string[];
   /**
   * Name of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#name Blueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#name Blueprint#name}
   */
   readonly name: string;
   /**
   * ID of the space the blueprint is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#space Blueprint#space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#space Blueprint#space}
   */
   readonly space: string;
   /**
   * State of the blueprint. Value can be `DRAFT` or `PUBLISHED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#state Blueprint#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#state Blueprint#state}
   */
   readonly state: string;
   /**
   * Body of the blueprint. If `state` is set to `PUBLISHED`, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#template Blueprint#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#template Blueprint#template}
   */
   readonly template?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint spacelift_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint spacelift_blueprint}
 */
 export class Blueprint extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class Blueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Blueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Blueprint to import
-  * @param importFromId The id of the existing Blueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Blueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Blueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class Blueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/blueprint spacelift_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/blueprint spacelift_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class Blueprint extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

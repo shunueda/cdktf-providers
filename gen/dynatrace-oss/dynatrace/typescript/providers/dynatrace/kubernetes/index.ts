@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface KubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
   * ActiveGate Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#active_gate_group Kubernetes#active_gate_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#active_gate_group Kubernetes#active_gate_group}
   */
   readonly activeGateGroup?: string;
   /**
   * Create a bearer token for [Kubernetes](https://dt-url.net/og43szq "Kubernetes") or [OpenShift](https://dt-url.net/7l43xtp "OpenShift").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#auth_token Kubernetes#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#auth_token Kubernetes#auth_token}
   */
   readonly authToken?: string;
   /**
   * Require valid certificates for communication with API server (recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#certificate_check_enabled Kubernetes#certificate_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#certificate_check_enabled Kubernetes#certificate_check_enabled}
   */
   readonly certificateCheckEnabled?: boolean | cdktf.IResolvable;
   /**
   * Monitor Kubernetes namespaces, services, workloads, and pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#cloud_application_pipeline_enabled Kubernetes#cloud_application_pipeline_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#cloud_application_pipeline_enabled Kubernetes#cloud_application_pipeline_enabled}
   */
   readonly cloudApplicationPipelineEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique ID of the cluster, the containerized ActiveGate is deployed to. Defaults to the UUID of the kube-system namespace. The cluster ID of containerized ActiveGates is shown on the Deployment status screen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#cluster_id Kubernetes#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#cluster_id Kubernetes#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * For more information on local Kubernetes API monitoring, see the [documentation](https://dt-url.net/6q62uep).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#cluster_id_enabled Kubernetes#cluster_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#cluster_id_enabled Kubernetes#cluster_id_enabled}
   */
   readonly clusterIdEnabled: boolean | cdktf.IResolvable;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#enabled Kubernetes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#enabled Kubernetes#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Get the API URL for [Kubernetes](https://dt-url.net/kz23snj "Kubernetes") or [OpenShift](https://dt-url.net/d623xgw "OpenShift").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#endpoint_url Kubernetes#endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#endpoint_url Kubernetes#endpoint_url}
   */
   readonly endpointUrl?: string;
   /**
@@ -61,23 +61,23 @@ export interface KubernetesConfig extends cdktf.TerraformMetaArguments {
   * Kubernetes events are subject to Davis data units (DDU) licensing.
   * See [DDUs for events](https://dt-url.net/5n03vcu) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#event_processing_active Kubernetes#event_processing_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#event_processing_active Kubernetes#event_processing_active}
   */
   readonly eventProcessingActive?: boolean | cdktf.IResolvable;
   /**
   * Include only events specified by Events Field Selectors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#filter_events Kubernetes#filter_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#filter_events Kubernetes#filter_events}
   */
   readonly filterEvents?: boolean | cdktf.IResolvable;
   /**
   * Verify hostname in certificate against Kubernetes API URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#hostname_verification_enabled Kubernetes#hostname_verification_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#hostname_verification_enabled Kubernetes#hostname_verification_enabled}
   */
   readonly hostnameVerificationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#id Kubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#id Kubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,43 +86,43 @@ export interface KubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
   * For a list of included events, see the [documentation](https://dt-url.net/l61d02no).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#include_all_fdi_events Kubernetes#include_all_fdi_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#include_all_fdi_events Kubernetes#include_all_fdi_events}
   */
   readonly includeAllFdiEvents?: boolean | cdktf.IResolvable;
   /**
   * Renaming the cluster breaks configurations that are based on its name (e.g., management zones, and alerting).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#label Kubernetes#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#label Kubernetes#label}
   */
   readonly label: string;
   /**
   * The workload resource metrics are based on a subset of cAdvisor metrics. Depending on your Kubernetes cluster size, this may increase the CPU/memory resource consumption of your ActiveGate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#open_metrics_builtin_enabled Kubernetes#open_metrics_builtin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#open_metrics_builtin_enabled Kubernetes#open_metrics_builtin_enabled}
   */
   readonly openMetricsBuiltinEnabled?: boolean | cdktf.IResolvable;
   /**
   * For annotation guidance, see the [documentation](https://dt-url.net/g42i0ppw).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#open_metrics_pipeline_enabled Kubernetes#open_metrics_pipeline_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#open_metrics_pipeline_enabled Kubernetes#open_metrics_pipeline_enabled}
   */
   readonly openMetricsPipelineEnabled?: boolean | cdktf.IResolvable;
   /**
   * To enable dashboards and alerts, add the [Kubernetes persistent volume claims](ui/hub/ext/com.dynatrace.extension.kubernetes-pvc) extension to your environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#pvc_monitoring_enabled Kubernetes#pvc_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#pvc_monitoring_enabled Kubernetes#pvc_monitoring_enabled}
   */
   readonly pvcMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (KUBERNETES_CLUSTER)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#scope Kubernetes#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#scope Kubernetes#scope}
   */
   readonly scope?: string;
   /**
   * event_patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#event_patterns Kubernetes#event_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#event_patterns Kubernetes#event_patterns}
   */
   readonly eventPatterns?: KubernetesEventPatterns;
 }
@@ -130,19 +130,19 @@ export interface KubernetesEventPatternsEventPattern {
   /**
   * Activate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#active Kubernetes#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#active Kubernetes#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * Field selector name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#label Kubernetes#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#label Kubernetes#label}
   */
   readonly label: string;
   /**
   * The set of allowed characters for this field has been extended with ActiveGate version 1.259. For more details, see the [documentation](https://dt-url.net/7h23wuk#set-up-event-field-selectors).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#pattern Kubernetes#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#pattern Kubernetes#pattern}
   */
   readonly pattern: string;
 }
@@ -309,7 +309,7 @@ export interface KubernetesEventPatterns {
   /**
   * event_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#event_pattern Kubernetes#event_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#event_pattern Kubernetes#event_pattern}
   */
   readonly eventPattern: KubernetesEventPatternsEventPattern[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class KubernetesEventPatternsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes dynatrace_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes dynatrace_kubernetes}
 */
 export class Kubernetes extends cdktf.TerraformResource {
 
@@ -406,7 +406,7 @@ export class Kubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Kubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Kubernetes to import
-  * @param importFromId The id of the existing Kubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Kubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Kubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class Kubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/kubernetes dynatrace_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/kubernetes dynatrace_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class Kubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

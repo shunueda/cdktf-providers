@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface WebAppInjectionCookieConfig extends cdktf.TerraformMetaArgument
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#application_id WebAppInjectionCookie#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#application_id WebAppInjectionCookie#application_id}
   */
   readonly applicationId: string;
   /**
   * Specify an alternative domain for cookies set by Dynatrace. Keep in mind that your browser may not allow placement of cookies on certain domains (for example, top-level domains). Before typing a domain name here, confirm that the domain will accept cookies from your browser. For details, see the list of [forbidden top-level domains](https://dt-url.net/9n6b0pfz).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#cookie_placement_domain WebAppInjectionCookie#cookie_placement_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#cookie_placement_domain WebAppInjectionCookie#cookie_placement_domain}
   */
   readonly cookiePlacementDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#id WebAppInjectionCookie#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#id WebAppInjectionCookie#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface WebAppInjectionCookieConfig extends cdktf.TerraformMetaArgument
   /**
   * Possible Values: `LAX`, `NONE`, `NOTSET`, `STRICT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#same_site_cookie_attribute WebAppInjectionCookie#same_site_cookie_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#same_site_cookie_attribute WebAppInjectionCookie#same_site_cookie_attribute}
   */
   readonly sameSiteCookieAttribute: string;
   /**
   * If your application is only accessible via SSL, you can add the Secure attribute to all cookies set by Dynatrace. This setting prevents the display of warnings from PCI-compliance security scanners. Be aware that with this setting enabled Dynatrace correlation of user actions with server-side web requests is only possible over SSL connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#use_secure_cookie_attribute WebAppInjectionCookie#use_secure_cookie_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#use_secure_cookie_attribute WebAppInjectionCookie#use_secure_cookie_attribute}
   */
   readonly useSecureCookieAttribute: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie dynatrace_web_app_injection_cookie}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie dynatrace_web_app_injection_cookie}
 */
 export class WebAppInjectionCookie extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WebAppInjectionCookie extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppInjectionCookie resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppInjectionCookie to import
-  * @param importFromId The id of the existing WebAppInjectionCookie that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppInjectionCookie that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppInjectionCookie to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WebAppInjectionCookie extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_injection_cookie dynatrace_web_app_injection_cookie} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_injection_cookie dynatrace_web_app_injection_cookie} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WebAppInjectionCookie extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_injection_cookie',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

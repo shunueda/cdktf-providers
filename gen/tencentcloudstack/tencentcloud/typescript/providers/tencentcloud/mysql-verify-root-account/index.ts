@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlVerifyRootAccountConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account#id MysqlVerifyRootAccount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account#id MysqlVerifyRootAccount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface MysqlVerifyRootAccountConfig extends cdktf.TerraformMetaArgumen
   /**
   * The instance ID, in the format: cdb-c1nl9rpv, is the same as the instance ID displayed on the cloud database console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account#instance_id MysqlVerifyRootAccount#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account#instance_id MysqlVerifyRootAccount#instance_id}
   */
   readonly instanceId: string;
   /**
   * The password of the ROOT account of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account#password MysqlVerifyRootAccount#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account#password MysqlVerifyRootAccount#password}
   */
   readonly password: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account tencentcloud_mysql_verify_root_account}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account tencentcloud_mysql_verify_root_account}
 */
 export class MysqlVerifyRootAccount extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MysqlVerifyRootAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlVerifyRootAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlVerifyRootAccount to import
-  * @param importFromId The id of the existing MysqlVerifyRootAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlVerifyRootAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlVerifyRootAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MysqlVerifyRootAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_verify_root_account tencentcloud_mysql_verify_root_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_verify_root_account tencentcloud_mysql_verify_root_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MysqlVerifyRootAccount extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_verify_root_account',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

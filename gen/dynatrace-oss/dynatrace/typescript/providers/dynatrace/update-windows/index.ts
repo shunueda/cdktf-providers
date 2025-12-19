@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UpdateWindowsConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#enabled UpdateWindows#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#enabled UpdateWindows#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#id UpdateWindows#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#id UpdateWindows#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface UpdateWindowsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#name UpdateWindows#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#name UpdateWindows#name}
   */
   readonly name: string;
   /**
   * Possible Values: `MONTHLY`, `ONCE`, `DAILY`, `WEEKLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#recurrence UpdateWindows#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#recurrence UpdateWindows#recurrence}
   */
   readonly recurrence: string;
   /**
   * daily_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#daily_recurrence UpdateWindows#daily_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#daily_recurrence UpdateWindows#daily_recurrence}
   */
   readonly dailyRecurrence?: UpdateWindowsDailyRecurrence;
   /**
   * monthly_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#monthly_recurrence UpdateWindows#monthly_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#monthly_recurrence UpdateWindows#monthly_recurrence}
   */
   readonly monthlyRecurrence?: UpdateWindowsMonthlyRecurrence;
   /**
   * once_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#once_recurrence UpdateWindows#once_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#once_recurrence UpdateWindows#once_recurrence}
   */
   readonly onceRecurrence?: UpdateWindowsOnceRecurrence;
   /**
   * weekly_recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#weekly_recurrence UpdateWindows#weekly_recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#weekly_recurrence UpdateWindows#weekly_recurrence}
   */
   readonly weeklyRecurrence?: UpdateWindowsWeeklyRecurrence;
 }
@@ -61,13 +61,13 @@ export interface UpdateWindowsDailyRecurrenceRecurrenceRange {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#end UpdateWindows#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#end UpdateWindows#end}
   */
   readonly end: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start UpdateWindows#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start UpdateWindows#start}
   */
   readonly start: string;
 }
@@ -176,19 +176,19 @@ export interface UpdateWindowsDailyRecurrenceUpdateTime {
   /**
   * Duration (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#duration UpdateWindows#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#duration UpdateWindows#duration}
   */
   readonly duration: number;
   /**
   * Start time (24-hour clock)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start_time UpdateWindows#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start_time UpdateWindows#start_time}
   */
   readonly startTime: string;
   /**
   * Possible Values: `GMT_06_00`, `GMT_12_00`, `GMT_10_00`, `GMT_07_00`, `GMT_00_00`, `GMT_11_00`, `GMT_03_00`, `GMT_01_00`, `GMT_05_00`, `GMT_09_00`, `GMT_02_00`, `GMT_04_00`, `GMT_08_00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
   */
   readonly timeZone: string;
 }
@@ -327,19 +327,19 @@ export interface UpdateWindowsDailyRecurrence {
   * * `3` = every three days,
   * * etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#every UpdateWindows#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#every UpdateWindows#every}
   */
   readonly every: number;
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
   */
   readonly recurrenceRange: UpdateWindowsDailyRecurrenceRecurrenceRange;
   /**
   * update_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#update_time UpdateWindows#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#update_time UpdateWindows#update_time}
   */
   readonly updateTime: UpdateWindowsDailyRecurrenceUpdateTime;
 }
@@ -474,13 +474,13 @@ export interface UpdateWindowsMonthlyRecurrenceRecurrenceRange {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#end UpdateWindows#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#end UpdateWindows#end}
   */
   readonly end: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start UpdateWindows#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start UpdateWindows#start}
   */
   readonly start: string;
 }
@@ -589,19 +589,19 @@ export interface UpdateWindowsMonthlyRecurrenceUpdateTime {
   /**
   * Duration (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#duration UpdateWindows#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#duration UpdateWindows#duration}
   */
   readonly duration: number;
   /**
   * Start time (24-hour clock)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start_time UpdateWindows#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start_time UpdateWindows#start_time}
   */
   readonly startTime: string;
   /**
   * Possible Values: `GMT_06_00`, `GMT_12_00`, `GMT_10_00`, `GMT_07_00`, `GMT_00_00`, `GMT_11_00`, `GMT_03_00`, `GMT_01_00`, `GMT_05_00`, `GMT_09_00`, `GMT_02_00`, `GMT_04_00`, `GMT_08_00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
   */
   readonly timeZone: string;
 }
@@ -740,25 +740,25 @@ export interface UpdateWindowsMonthlyRecurrence {
   * * `3` = every three months,
   * * etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#every UpdateWindows#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#every UpdateWindows#every}
   */
   readonly every: number;
   /**
   * Day of the month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#selected_month_day UpdateWindows#selected_month_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#selected_month_day UpdateWindows#selected_month_day}
   */
   readonly selectedMonthDay: number;
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
   */
   readonly recurrenceRange: UpdateWindowsMonthlyRecurrenceRecurrenceRange;
   /**
   * update_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#update_time UpdateWindows#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#update_time UpdateWindows#update_time}
   */
   readonly updateTime: UpdateWindowsMonthlyRecurrenceUpdateTime;
 }
@@ -919,13 +919,13 @@ export interface UpdateWindowsOnceRecurrenceRecurrenceRange {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#end UpdateWindows#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#end UpdateWindows#end}
   */
   readonly end: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start UpdateWindows#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start UpdateWindows#start}
   */
   readonly start: string;
 }
@@ -1034,7 +1034,7 @@ export interface UpdateWindowsOnceRecurrence {
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
   */
   readonly recurrenceRange: UpdateWindowsOnceRecurrenceRecurrenceRange;
 }
@@ -1117,13 +1117,13 @@ export interface UpdateWindowsWeeklyRecurrenceRecurrenceRange {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#end UpdateWindows#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#end UpdateWindows#end}
   */
   readonly end: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start UpdateWindows#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start UpdateWindows#start}
   */
   readonly start: string;
 }
@@ -1232,43 +1232,43 @@ export interface UpdateWindowsWeeklyRecurrenceSelectedWeekDays {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#friday UpdateWindows#friday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#friday UpdateWindows#friday}
   */
   readonly friday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#monday UpdateWindows#monday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#monday UpdateWindows#monday}
   */
   readonly monday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#saturday UpdateWindows#saturday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#saturday UpdateWindows#saturday}
   */
   readonly saturday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#sunday UpdateWindows#sunday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#sunday UpdateWindows#sunday}
   */
   readonly sunday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#thursday UpdateWindows#thursday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#thursday UpdateWindows#thursday}
   */
   readonly thursday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#tuesday UpdateWindows#tuesday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#tuesday UpdateWindows#tuesday}
   */
   readonly tuesday: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#wednesday UpdateWindows#wednesday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#wednesday UpdateWindows#wednesday}
   */
   readonly wednesday: boolean | cdktf.IResolvable;
 }
@@ -1507,19 +1507,19 @@ export interface UpdateWindowsWeeklyRecurrenceUpdateTime {
   /**
   * Duration (minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#duration UpdateWindows#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#duration UpdateWindows#duration}
   */
   readonly duration: number;
   /**
   * Start time (24-hour clock)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#start_time UpdateWindows#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#start_time UpdateWindows#start_time}
   */
   readonly startTime: string;
   /**
   * Possible Values: `GMT_06_00`, `GMT_12_00`, `GMT_10_00`, `GMT_07_00`, `GMT_00_00`, `GMT_11_00`, `GMT_03_00`, `GMT_01_00`, `GMT_05_00`, `GMT_09_00`, `GMT_02_00`, `GMT_04_00`, `GMT_08_00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#time_zone UpdateWindows#time_zone}
   */
   readonly timeZone: string;
 }
@@ -1658,25 +1658,25 @@ export interface UpdateWindowsWeeklyRecurrence {
   * * `3` = every three weeks,
   * * etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#every UpdateWindows#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#every UpdateWindows#every}
   */
   readonly every: number;
   /**
   * recurrence_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#recurrence_range UpdateWindows#recurrence_range}
   */
   readonly recurrenceRange: UpdateWindowsWeeklyRecurrenceRecurrenceRange;
   /**
   * selected_week_days block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#selected_week_days UpdateWindows#selected_week_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#selected_week_days UpdateWindows#selected_week_days}
   */
   readonly selectedWeekDays: UpdateWindowsWeeklyRecurrenceSelectedWeekDays;
   /**
   * update_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#update_time UpdateWindows#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#update_time UpdateWindows#update_time}
   */
   readonly updateTime: UpdateWindowsWeeklyRecurrenceUpdateTime;
 }
@@ -1835,7 +1835,7 @@ export class UpdateWindowsWeeklyRecurrenceOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows dynatrace_update_windows}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows dynatrace_update_windows}
 */
 export class UpdateWindows extends cdktf.TerraformResource {
 
@@ -1851,7 +1851,7 @@ export class UpdateWindows extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UpdateWindows resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UpdateWindows to import
-  * @param importFromId The id of the existing UpdateWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UpdateWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UpdateWindows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1863,7 +1863,7 @@ export class UpdateWindows extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/update_windows dynatrace_update_windows} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/update_windows dynatrace_update_windows} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1874,8 +1874,8 @@ export class UpdateWindows extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_update_windows',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

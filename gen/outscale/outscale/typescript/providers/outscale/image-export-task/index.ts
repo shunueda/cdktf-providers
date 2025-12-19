@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ImageExportTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#id ImageExportTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#id ImageExportTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#image_id ImageExportTask#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#image_id ImageExportTask#image_id}
   */
   readonly imageId: string;
   /**
   * osu_export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#osu_export ImageExportTask#osu_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#osu_export ImageExportTask#osu_export}
   */
   readonly osuExport: ImageExportTaskOsuExport[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#tags ImageExportTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#tags ImageExportTask#tags}
   */
   readonly tags?: ImageExportTaskTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#timeouts ImageExportTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#timeouts ImageExportTask#timeouts}
   */
   readonly timeouts?: ImageExportTaskTimeouts;
 }
 export interface ImageExportTaskOsuExportOsuApiKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#api_key_id ImageExportTask#api_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#api_key_id ImageExportTask#api_key_id}
   */
   readonly apiKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#secret_key ImageExportTask#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#secret_key ImageExportTask#secret_key}
   */
   readonly secretKey: string;
 }
@@ -182,25 +182,25 @@ export class ImageExportTaskOsuExportOsuApiKeyList extends cdktf.ComplexList {
 }
 export interface ImageExportTaskOsuExport {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#disk_image_format ImageExportTask#disk_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#disk_image_format ImageExportTask#disk_image_format}
   */
   readonly diskImageFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#osu_bucket ImageExportTask#osu_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#osu_bucket ImageExportTask#osu_bucket}
   */
   readonly osuBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#osu_manifest_url ImageExportTask#osu_manifest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#osu_manifest_url ImageExportTask#osu_manifest_url}
   */
   readonly osuManifestUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#osu_prefix ImageExportTask#osu_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#osu_prefix ImageExportTask#osu_prefix}
   */
   readonly osuPrefix?: string;
   /**
   * osu_api_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#osu_api_key ImageExportTask#osu_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#osu_api_key ImageExportTask#osu_api_key}
   */
   readonly osuApiKey?: ImageExportTaskOsuExportOsuApiKey[] | cdktf.IResolvable;
 }
@@ -426,11 +426,11 @@ export class ImageExportTaskOsuExportList extends cdktf.ComplexList {
 }
 export interface ImageExportTaskTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#key ImageExportTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#key ImageExportTask#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#value ImageExportTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#value ImageExportTask#value}
   */
   readonly value?: string;
 }
@@ -575,11 +575,11 @@ export class ImageExportTaskTagsList extends cdktf.ComplexList {
 }
 export interface ImageExportTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#create ImageExportTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#create ImageExportTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#delete ImageExportTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#delete ImageExportTask#delete}
   */
   readonly delete?: string;
 }
@@ -702,7 +702,7 @@ export class ImageExportTaskTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task outscale_image_export_task}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task outscale_image_export_task}
 */
 export class ImageExportTask extends cdktf.TerraformResource {
 
@@ -718,7 +718,7 @@ export class ImageExportTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImageExportTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImageExportTask to import
-  * @param importFromId The id of the existing ImageExportTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImageExportTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImageExportTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -730,7 +730,7 @@ export class ImageExportTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/image_export_task outscale_image_export_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/image_export_task outscale_image_export_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -741,8 +741,8 @@ export class ImageExportTask extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_image_export_task',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLatitudeshTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tag ID to look up. Mutually exclusive with name and slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag#id DataLatitudeshTag#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag#id DataLatitudeshTag#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataLatitudeshTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tag name to look up. Mutually exclusive with id and slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag#name DataLatitudeshTag#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag#name DataLatitudeshTag#name}
   */
   readonly name?: string;
   /**
   * Tag slug to look up. Mutually exclusive with id and name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag#slug DataLatitudeshTag#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag#slug DataLatitudeshTag#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag latitudesh_tag}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag latitudesh_tag}
 */
 export class DataLatitudeshTag extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataLatitudeshTag extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLatitudeshTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLatitudeshTag to import
-  * @param importFromId The id of the existing DataLatitudeshTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLatitudeshTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLatitudeshTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataLatitudeshTag extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.7/docs/data-sources/tag latitudesh_tag} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.9/docs/data-sources/tag latitudesh_tag} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataLatitudeshTag extends cdktf.TerraformDataSource {
       terraformResourceType: 'latitudesh_tag',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.7',
-        providerVersionConstraint: '2.8.7'
+        providerVersion: '2.8.9',
+        providerVersionConstraint: '2.8.9'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

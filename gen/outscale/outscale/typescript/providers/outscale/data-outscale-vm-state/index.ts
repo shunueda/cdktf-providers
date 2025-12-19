@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleVmStateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#all_vms DataOutscaleVmState#all_vms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#all_vms DataOutscaleVmState#all_vms}
   */
   readonly allVms?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#id DataOutscaleVmState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#id DataOutscaleVmState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#vm_id DataOutscaleVmState#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#vm_id DataOutscaleVmState#vm_id}
   */
   readonly vmId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#filter DataOutscaleVmState#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#filter DataOutscaleVmState#filter}
   */
   readonly filter?: DataOutscaleVmStateFilter[] | cdktf.IResolvable;
 }
@@ -121,11 +121,11 @@ export class DataOutscaleVmStateMaintenanceEventsList extends cdktf.ComplexList 
 }
 export interface DataOutscaleVmStateFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#name DataOutscaleVmState#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#name DataOutscaleVmState#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#values DataOutscaleVmState#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#values DataOutscaleVmState#values}
   */
   readonly values: string[];
 }
@@ -264,7 +264,7 @@ export class DataOutscaleVmStateFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state outscale_vm_state}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state outscale_vm_state}
 */
 export class DataOutscaleVmState extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataOutscaleVmState extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleVmState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleVmState to import
-  * @param importFromId The id of the existing DataOutscaleVmState that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleVmState that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleVmState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataOutscaleVmState extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/vm_state outscale_vm_state} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/vm_state outscale_vm_state} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataOutscaleVmState extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_vm_state',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleKeypairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#id DataOutscaleKeypair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#id DataOutscaleKeypair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#keypair_name DataOutscaleKeypair#keypair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#keypair_name DataOutscaleKeypair#keypair_name}
   */
   readonly keypairName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#filter DataOutscaleKeypair#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#filter DataOutscaleKeypair#filter}
   */
   readonly filter?: DataOutscaleKeypairFilter[] | cdktf.IResolvable;
 }
@@ -107,11 +107,11 @@ export class DataOutscaleKeypairTagsList extends cdktf.ComplexList {
 }
 export interface DataOutscaleKeypairFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#name DataOutscaleKeypair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#name DataOutscaleKeypair#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#values DataOutscaleKeypair#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#values DataOutscaleKeypair#values}
   */
   readonly values: string[];
 }
@@ -250,7 +250,7 @@ export class DataOutscaleKeypairFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair outscale_keypair}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair outscale_keypair}
 */
 export class DataOutscaleKeypair extends cdktf.TerraformDataSource {
 
@@ -266,7 +266,7 @@ export class DataOutscaleKeypair extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleKeypair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleKeypair to import
-  * @param importFromId The id of the existing DataOutscaleKeypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleKeypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleKeypair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class DataOutscaleKeypair extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/keypair outscale_keypair} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/keypair outscale_keypair} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class DataOutscaleKeypair extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_keypair',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -362,7 +362,7 @@ export class DataOutscaleKeypair extends cdktf.TerraformDataSource {
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleKeypairTagsList(this, "tags", false);
+  private _tags = new DataOutscaleKeypairTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RemoteEnvironmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#id RemoteEnvironments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#id RemoteEnvironments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface RemoteEnvironmentsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#name RemoteEnvironments#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#name RemoteEnvironments#name}
   */
   readonly name: string;
   /**
   * Possible Values: `CLUSTER`, `EXTERNAL`, `INTERNAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#network_scope RemoteEnvironments#network_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#network_scope RemoteEnvironments#network_scope}
   */
   readonly networkScope: string;
   /**
   * Provide a valid token created on the remote environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#token RemoteEnvironments#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#token RemoteEnvironments#token}
   */
   readonly token: string;
   /**
   * Specify the full URI to the remote environment. Your local environment will have to be able to connect this URI on a network level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#uri RemoteEnvironments#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#uri RemoteEnvironments#uri}
   */
   readonly uri: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments dynatrace_remote_environments}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments dynatrace_remote_environments}
 */
 export class RemoteEnvironments extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class RemoteEnvironments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteEnvironments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteEnvironments to import
-  * @param importFromId The id of the existing RemoteEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteEnvironments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class RemoteEnvironments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/remote_environments dynatrace_remote_environments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/remote_environments dynatrace_remote_environments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class RemoteEnvironments extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_remote_environments',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs
+// https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DockerlessProviderConfig {
   /**
   * A map of docker registries and their authentication credentials. Keys are registry endpoints (e.g., ECR proxy endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs#registry_auth DockerlessProvider#registry_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs#registry_auth DockerlessProvider#registry_auth}
   */
   readonly registryAuth?: { [key: string]: DockerlessProviderRegistryAuth } | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs#alias DockerlessProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs#alias DockerlessProvider#alias}
   */
   readonly alias?: string;
 }
@@ -24,13 +24,13 @@ export interface DockerlessProviderRegistryAuth {
   /**
   * Password for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs#password DockerlessProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs#password DockerlessProvider#password}
   */
   readonly password?: string;
   /**
   * Username for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs#username DockerlessProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs#username DockerlessProvider#username}
   */
   readonly username?: string;
 }
@@ -73,7 +73,7 @@ export function dockerlessProviderRegistryAuthToHclTerraform(struct?: Dockerless
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs dockerless}
+* Represents a {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs dockerless}
 */
 export class DockerlessProvider extends cdktf.TerraformProvider {
 
@@ -89,7 +89,7 @@ export class DockerlessProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DockerlessProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DockerlessProvider to import
-  * @param importFromId The id of the existing DockerlessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DockerlessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DockerlessProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class DockerlessProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.2/docs dockerless} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nullstone-io/dockerless/0.1.3/docs dockerless} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class DockerlessProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'dockerless',
       terraformGeneratorMetadata: {
         providerName: 'dockerless',
-        providerVersion: '0.1.2',
-        providerVersionConstraint: '0.1.2'
+        providerVersion: '0.1.3',
+        providerVersionConstraint: '0.1.3'
       },
       terraformProviderSource: 'nullstone-io/dockerless'
     });

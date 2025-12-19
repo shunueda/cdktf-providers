@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RequestAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Aggregation type for the request values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#aggregation RequestAttribute#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#aggregation RequestAttribute#aggregation}
   */
   readonly aggregation: string;
   /**
   * Confidential data flag. Set `true` to treat the captured data as confidential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#confidential RequestAttribute#confidential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#confidential RequestAttribute#confidential}
   */
   readonly confidential?: boolean | cdktf.IResolvable;
   /**
   * The data type of the request attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#data_type RequestAttribute#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#data_type RequestAttribute#data_type}
   */
   readonly dataType: string;
   /**
   * The request attribute is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#enabled RequestAttribute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#enabled RequestAttribute#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#id RequestAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#id RequestAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface RequestAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the request attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#name RequestAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#name RequestAttribute#name}
   */
   readonly name: string;
   /**
   * String values transformation.   If the **dataType** is not `string`, set the `Original` here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#normalization RequestAttribute#normalization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#normalization RequestAttribute#normalization}
   */
   readonly normalization: string;
   /**
   * Personal data masking flag. Set `true` to skip masking.   Warning: This will potentially access personalized data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#skip_personal_data_masking RequestAttribute#skip_personal_data_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#skip_personal_data_masking RequestAttribute#skip_personal_data_masking}
   */
   readonly skipPersonalDataMasking?: boolean | cdktf.IResolvable;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * data_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#data_sources RequestAttribute#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#data_sources RequestAttribute#data_sources}
   */
   readonly dataSources?: RequestAttributeDataSources[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface RequestAttributeDataSourcesCicsSdkMethodNodeCondition {
   /**
   * Negate the comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#negate RequestAttribute#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#negate RequestAttribute#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator comparing the extracted value to the comparison value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#operator RequestAttribute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#operator RequestAttribute#operator}
   */
   readonly operator: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value RequestAttribute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value RequestAttribute#value}
   */
   readonly value: string;
 }
@@ -258,25 +258,25 @@ export interface RequestAttributeDataSourcesIibLabelMethodNodeCondition {
   /**
   * Negate the comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#negate RequestAttribute#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#negate RequestAttribute#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator comparing the extracted value to the comparison value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#operator RequestAttribute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#operator RequestAttribute#operator}
   */
   readonly operator: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value RequestAttribute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value RequestAttribute#value}
   */
   readonly value: string;
 }
@@ -443,25 +443,25 @@ export interface RequestAttributeDataSourcesIibMethodNodeCondition {
   /**
   * Negate the comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#negate RequestAttribute#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#negate RequestAttribute#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator comparing the extracted value to the comparison value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#operator RequestAttribute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#operator RequestAttribute#operator}
   */
   readonly operator: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value RequestAttribute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value RequestAttribute#value}
   */
   readonly value: string;
 }
@@ -628,25 +628,25 @@ export interface RequestAttributeDataSourcesIibNodeTypeCondition {
   /**
   * Negate the comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#negate RequestAttribute#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#negate RequestAttribute#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator comparing the extracted value to the comparison value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#operator RequestAttribute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#operator RequestAttribute#operator}
   */
   readonly operator: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value RequestAttribute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value RequestAttribute#value}
   */
   readonly value: string;
 }
@@ -813,55 +813,55 @@ export interface RequestAttributeDataSourcesMethodsMethod {
   /**
   * Configuration of a method to be captured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#argument_types RequestAttribute#argument_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#argument_types RequestAttribute#argument_types}
   */
   readonly argumentTypes?: string[];
   /**
   * The class name where the method to capture resides.   Either this or the **fileName** must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#class_name RequestAttribute#class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#class_name RequestAttribute#class_name}
   */
   readonly className?: string;
   /**
   * The file name where the method to capture resides.   Either this or **className** must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#file_name RequestAttribute#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#file_name RequestAttribute#file_name}
   */
   readonly fileName?: string;
   /**
   * The operator of the comparison. If not set, `EQUALS` is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#file_name_matcher RequestAttribute#file_name_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#file_name_matcher RequestAttribute#file_name_matcher}
   */
   readonly fileNameMatcher?: string;
   /**
   * The name of the method to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#method_name RequestAttribute#method_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#method_name RequestAttribute#method_name}
   */
   readonly methodName: string;
   /**
   * The modifiers of the method to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#modifiers RequestAttribute#modifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#modifiers RequestAttribute#modifiers}
   */
   readonly modifiers?: string[];
   /**
   * The return type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#return_type RequestAttribute#return_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#return_type RequestAttribute#return_type}
   */
   readonly returnType: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The visibility of the method to capture
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#visibility RequestAttribute#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#visibility RequestAttribute#visibility}
   */
   readonly visibility: string;
 }
@@ -1170,31 +1170,31 @@ export interface RequestAttributeDataSourcesMethods {
   /**
   * The index of the argument to capture. Set `0` to capture the return value, `1` or higher to capture a mehtod argument.   Required if the **capture** is set to `ARGUMENT`.  Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#argument_index RequestAttribute#argument_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#argument_index RequestAttribute#argument_index}
   */
   readonly argumentIndex?: number;
   /**
   * What to capture from the method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#capture RequestAttribute#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#capture RequestAttribute#capture}
   */
   readonly capture: string;
   /**
   * The getter chain to apply to the captured object. It is required in one of the following cases:  The **capture** is set to `THIS`.    The **capture** is set to `ARGUMENT`, and the argument is not a primitive, a primitive wrapper class, a string, or an array.   Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#deep_object_access RequestAttribute#deep_object_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#deep_object_access RequestAttribute#deep_object_access}
   */
   readonly deepObjectAccess?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#method RequestAttribute#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#method RequestAttribute#method}
   */
   readonly method?: RequestAttributeDataSourcesMethodsMethod;
 }
@@ -1425,31 +1425,31 @@ export interface RequestAttributeDataSourcesScope {
   /**
   * Only applies to this host group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#host_group RequestAttribute#host_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#host_group RequestAttribute#host_group}
   */
   readonly hostGroup?: string;
   /**
   * Only applies to this process group. Note that this can't be transferred between different clusters or environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#process_group RequestAttribute#process_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#process_group RequestAttribute#process_group}
   */
   readonly processGroup?: string;
   /**
   * Only applies to this service technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#service_technology RequestAttribute#service_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#service_technology RequestAttribute#service_technology}
   */
   readonly serviceTechnology?: string;
   /**
   * Only apply to process groups matching this tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#tag_of_process_group RequestAttribute#tag_of_process_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#tag_of_process_group RequestAttribute#tag_of_process_group}
   */
   readonly tagOfProcessGroup?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1651,25 +1651,25 @@ export interface RequestAttributeDataSourcesValueProcessingExtractSubstring {
   /**
   * The delimiter string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#delimiter RequestAttribute#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#delimiter RequestAttribute#delimiter}
   */
   readonly delimiter: string;
   /**
   * The end-delimiter string.   Required if the **position** value is `BETWEEN`. Otherwise not allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#end_delimiter RequestAttribute#end_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#end_delimiter RequestAttribute#end_delimiter}
   */
   readonly endDelimiter?: string;
   /**
   * The position of the extracted string relative to delimiters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#position RequestAttribute#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#position RequestAttribute#position}
   */
   readonly position: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -1836,25 +1836,25 @@ export interface RequestAttributeDataSourcesValueProcessingValueCondition {
   /**
   * Negate the comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#negate RequestAttribute#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#negate RequestAttribute#negate}
   */
   readonly negate?: boolean | cdktf.IResolvable;
   /**
   * Operator comparing the extracted value to the comparison value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#operator RequestAttribute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#operator RequestAttribute#operator}
   */
   readonly operator: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * The value to compare to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value RequestAttribute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value RequestAttribute#value}
   */
   readonly value: string;
 }
@@ -2021,37 +2021,37 @@ export interface RequestAttributeDataSourcesValueProcessing {
   /**
   * Split (preprocessed) string values at this separator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#split_at RequestAttribute#split_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#split_at RequestAttribute#split_at}
   */
   readonly splitAt?: string;
   /**
   * Prune Whitespaces. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#trim RequestAttribute#trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#trim RequestAttribute#trim}
   */
   readonly trim?: boolean | cdktf.IResolvable;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * Extract value from captured data per regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value_extractor_regex RequestAttribute#value_extractor_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value_extractor_regex RequestAttribute#value_extractor_regex}
   */
   readonly valueExtractorRegex?: string;
   /**
   * extract_substring block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#extract_substring RequestAttribute#extract_substring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#extract_substring RequestAttribute#extract_substring}
   */
   readonly extractSubstring?: RequestAttributeDataSourcesValueProcessingExtractSubstring;
   /**
   * value_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value_condition RequestAttribute#value_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value_condition RequestAttribute#value_condition}
   */
   readonly valueCondition?: RequestAttributeDataSourcesValueProcessingValueCondition;
 }
@@ -2282,37 +2282,37 @@ export interface RequestAttributeDataSources {
   /**
   * Specifies the location where the values are captured and stored.  Required if the **source** is one of the following: `GET_PARAMETER`, `URI`, `REQUEST_HEADER`, `RESPONSE_HEADER`.   Not applicable in other cases.   If the **source** value is `REQUEST_HEADER` or `RESPONSE_HEADER`, the `CAPTURE_AND_STORE_ON_BOTH` location is not allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#capturing_and_storage_location RequestAttribute#capturing_and_storage_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#capturing_and_storage_location RequestAttribute#capturing_and_storage_location}
   */
   readonly capturingAndStorageLocation?: string;
   /**
   * CICS transaction call type condition for which the value is captured. Required if the source is: `CICS_TRANSACTION_CALL_TYPE`. Not applicable in other cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#cics_transaction_call_type RequestAttribute#cics_transaction_call_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#cics_transaction_call_type RequestAttribute#cics_transaction_call_type}
   */
   readonly cicsTransactionCallType?: string;
   /**
   * The data source is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#enabled RequestAttribute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#enabled RequestAttribute#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The IBM integration bus node type for which the value is captured.  This or `iibMethodNodeCondition` is required if the **source** is: `IIB_NODE`.  Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#iib_node_type RequestAttribute#iib_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#iib_node_type RequestAttribute#iib_node_type}
   */
   readonly iibNodeType?: string;
   /**
   * IMS transaction call type condition for which the value is captured. Required if the source is: `IMS_TRANSACTION_CALL_TYPE`. Not applicable in other cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#ims_transaction_call_type RequestAttribute#ims_transaction_call_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#ims_transaction_call_type RequestAttribute#ims_transaction_call_type}
   */
   readonly imsTransactionCallType?: string;
   /**
   * The name of the web request parameter to capture.  Required if the **source** is one of the following: `POST_PARAMETER`, `GET_PARAMETER`, `REQUEST_HEADER`, `RESPONSE_HEADER`, `CUSTOM_ATTRIBUTE`.  Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#parameter_name RequestAttribute#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#parameter_name RequestAttribute#parameter_name}
   */
   readonly parameterName?: string;
   /**
@@ -2320,7 +2320,7 @@ export interface RequestAttributeDataSources {
   * 
   *  Not applicable in other cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#server_variable_technology RequestAttribute#server_variable_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#server_variable_technology RequestAttribute#server_variable_technology}
   */
   readonly serverVariableTechnology?: string;
   /**
@@ -2328,19 +2328,19 @@ export interface RequestAttributeDataSources {
   * 
   *  Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#session_attribute_technology RequestAttribute#session_attribute_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#session_attribute_technology RequestAttribute#session_attribute_technology}
   */
   readonly sessionAttributeTechnology?: string;
   /**
   * The source of the attribute to capture. Works in conjunction with **parameterName** or **methods** and **technology**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#source RequestAttribute#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#source RequestAttribute#source}
   */
   readonly source: string;
   /**
   * The key of the span attribute to capture. Required if the source is: `SPAN_ATTRIBUTE`. Not applicable in other cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#span_attribute_key RequestAttribute#span_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#span_attribute_key RequestAttribute#span_attribute_key}
   */
   readonly spanAttributeKey?: string;
   /**
@@ -2348,55 +2348,55 @@ export interface RequestAttributeDataSources {
   * 
   *  Not applicable in other cases
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#technology RequestAttribute#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#technology RequestAttribute#technology}
   */
   readonly technology?: string;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#unknowns RequestAttribute#unknowns}
   */
   readonly unknowns?: string;
   /**
   * cics_sdk_method_node_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#cics_sdk_method_node_condition RequestAttribute#cics_sdk_method_node_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#cics_sdk_method_node_condition RequestAttribute#cics_sdk_method_node_condition}
   */
   readonly cicsSdkMethodNodeCondition?: RequestAttributeDataSourcesCicsSdkMethodNodeCondition;
   /**
   * iib_label_method_node_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#iib_label_method_node_condition RequestAttribute#iib_label_method_node_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#iib_label_method_node_condition RequestAttribute#iib_label_method_node_condition}
   */
   readonly iibLabelMethodNodeCondition?: RequestAttributeDataSourcesIibLabelMethodNodeCondition;
   /**
   * iib_method_node_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#iib_method_node_condition RequestAttribute#iib_method_node_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#iib_method_node_condition RequestAttribute#iib_method_node_condition}
   */
   readonly iibMethodNodeCondition?: RequestAttributeDataSourcesIibMethodNodeCondition;
   /**
   * iib_node_type_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#iib_node_type_condition RequestAttribute#iib_node_type_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#iib_node_type_condition RequestAttribute#iib_node_type_condition}
   */
   readonly iibNodeTypeCondition?: RequestAttributeDataSourcesIibNodeTypeCondition;
   /**
   * methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#methods RequestAttribute#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#methods RequestAttribute#methods}
   */
   readonly methods?: RequestAttributeDataSourcesMethods[] | cdktf.IResolvable;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#scope RequestAttribute#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#scope RequestAttribute#scope}
   */
   readonly scope?: RequestAttributeDataSourcesScope;
   /**
   * value_processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#value_processing RequestAttribute#value_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#value_processing RequestAttribute#value_processing}
   */
   readonly valueProcessing?: RequestAttributeDataSourcesValueProcessing;
 }
@@ -3028,7 +3028,7 @@ export class RequestAttributeDataSourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute dynatrace_request_attribute}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute dynatrace_request_attribute}
 */
 export class RequestAttribute extends cdktf.TerraformResource {
 
@@ -3044,7 +3044,7 @@ export class RequestAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RequestAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RequestAttribute to import
-  * @param importFromId The id of the existing RequestAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RequestAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RequestAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3056,7 +3056,7 @@ export class RequestAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/request_attribute dynatrace_request_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/request_attribute dynatrace_request_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3067,8 +3067,8 @@ export class RequestAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_request_attribute',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

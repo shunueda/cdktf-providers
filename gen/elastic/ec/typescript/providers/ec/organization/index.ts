@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface OrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Manages the members of an Elastic Cloud organization. The key of each entry should be the email of the member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#members Organization#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#members Organization#members}
   */
   readonly members?: { [key: string]: OrganizationMembers } | cdktf.IResolvable;
 }
@@ -18,25 +18,25 @@ export interface OrganizationMembersDeploymentRoles {
   /**
   * Role applies to all deployments in the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#all_deployments Organization#all_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#all_deployments Organization#all_deployments}
   */
   readonly allDeployments?: boolean | cdktf.IResolvable;
   /**
   * If provided, the user assigned this role assignment will be granted this application role when signing in to the deployment(s) specified in the role assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#application_roles Organization#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#application_roles Organization#application_roles}
   */
   readonly applicationRoles?: string[];
   /**
   * Role applies to deployments listed here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#deployment_ids Organization#deployment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#deployment_ids Organization#deployment_ids}
   */
   readonly deploymentIds?: string[];
   /**
   * Assigned role. Must be on of `viewer`, `editor` or `admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#role Organization#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#role Organization#role}
   */
   readonly role: string;
 }
@@ -238,25 +238,25 @@ export interface OrganizationMembersProjectElasticsearchRoles {
   /**
   * Role applies to all projects in the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#all_projects Organization#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#all_projects Organization#all_projects}
   */
   readonly allProjects?: boolean | cdktf.IResolvable;
   /**
   * If provided, the user assigned this role assignment will be granted this application role when signing in to the project(s) specified in the role assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#application_roles Organization#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#application_roles Organization#application_roles}
   */
   readonly applicationRoles?: string[];
   /**
   * Role applies to projects listed here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_ids Organization#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_ids Organization#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * Assigned role. (Allowed values: `admin`, `developer`, `viewer`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#role Organization#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#role Organization#role}
   */
   readonly role: string;
 }
@@ -458,25 +458,25 @@ export interface OrganizationMembersProjectObservabilityRoles {
   /**
   * Role applies to all projects in the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#all_projects Organization#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#all_projects Organization#all_projects}
   */
   readonly allProjects?: boolean | cdktf.IResolvable;
   /**
   * If provided, the user assigned this role assignment will be granted this application role when signing in to the project(s) specified in the role assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#application_roles Organization#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#application_roles Organization#application_roles}
   */
   readonly applicationRoles?: string[];
   /**
   * Role applies to projects listed here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_ids Organization#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_ids Organization#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * Assigned role. (Allowed values: `admin`, `editor`, `viewer`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#role Organization#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#role Organization#role}
   */
   readonly role: string;
 }
@@ -678,25 +678,25 @@ export interface OrganizationMembersProjectSecurityRoles {
   /**
   * Role applies to all projects in the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#all_projects Organization#all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#all_projects Organization#all_projects}
   */
   readonly allProjects?: boolean | cdktf.IResolvable;
   /**
   * If provided, the user assigned this role assignment will be granted this application role when signing in to the project(s) specified in the role assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#application_roles Organization#application_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#application_roles Organization#application_roles}
   */
   readonly applicationRoles?: string[];
   /**
   * Role applies to projects listed here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_ids Organization#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_ids Organization#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * Assigned role. (Allowed values: `admin`, `editor`, `viewer`, `t1-analyst`, `t2-analyst`, `t3-analyst`, `threat-intel-analyst`, `rule-author`, `soc-manager`, `endpoint-operations-analyst`, `platform-engineer`, `detections-admin`, `endpoint-policy-manager`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#role Organization#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#role Organization#role}
   */
   readonly role: string;
 }
@@ -898,31 +898,31 @@ export interface OrganizationMembers {
   /**
   * Grant access to one or more deployments. For more info see: [Deployment instance roles](https://www.elastic.co/guide/en/cloud/current/ec-user-privileges.html#ec_instance_access_roles).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#deployment_roles Organization#deployment_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#deployment_roles Organization#deployment_roles}
   */
   readonly deploymentRoles?: OrganizationMembersDeploymentRoles[] | cdktf.IResolvable;
   /**
   * The optional organization role for the member. Can be one of `organization-admin`, `billing-admin`. For more info see: [Organization roles](https://www.elastic.co/guide/en/cloud/current/ec-user-privileges.html#ec_organization_level_roles)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#organization_role Organization#organization_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#organization_role Organization#organization_role}
   */
   readonly organizationRole?: string;
   /**
   * Roles assigned for elasticsearch projects. For more info see: [Serverless elasticsearch roles](https://www.elastic.co/docs/current/serverless/general/assign-user-roles#es) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_elasticsearch_roles Organization#project_elasticsearch_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_elasticsearch_roles Organization#project_elasticsearch_roles}
   */
   readonly projectElasticsearchRoles?: OrganizationMembersProjectElasticsearchRoles[] | cdktf.IResolvable;
   /**
   * Roles assigned for observability projects. For more info see: [Serverless observability roles](https://www.elastic.co/docs/current/serverless/general/assign-user-roles#observability)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_observability_roles Organization#project_observability_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_observability_roles Organization#project_observability_roles}
   */
   readonly projectObservabilityRoles?: OrganizationMembersProjectObservabilityRoles[] | cdktf.IResolvable;
   /**
   * Roles assigned for security projects. For more info see: [Serverless security roles](https://www.elastic.co/docs/current/serverless/general/assign-user-roles#security)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#project_security_roles Organization#project_security_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#project_security_roles Organization#project_security_roles}
   */
   readonly projectSecurityRoles?: OrganizationMembersProjectSecurityRoles[] | cdktf.IResolvable;
 }
@@ -1167,7 +1167,7 @@ export class OrganizationMembersMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization ec_organization}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization ec_organization}
 */
 export class Organization extends cdktf.TerraformResource {
 
@@ -1183,7 +1183,7 @@ export class Organization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Organization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Organization to import
-  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Organization that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Organization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1195,7 +1195,7 @@ export class Organization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/organization ec_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/organization ec_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1206,8 +1206,8 @@ export class Organization extends cdktf.TerraformResource {
       terraformResourceType: 'ec_organization',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

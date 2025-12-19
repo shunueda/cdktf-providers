@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/organizational_unit
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/organizational_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataClumioOrganizationalUnitConfig extends cdktf.TerraformMetaA
   /**
   * The name of the organizational unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/organizational_unit#name DataClumioOrganizationalUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/organizational_unit#name DataClumioOrganizationalUnit#name}
   */
   readonly name: string;
 }
@@ -197,7 +197,7 @@ export class DataClumioOrganizationalUnitOrganizationalUnitsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/organizational_unit clumio_organizational_unit}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/organizational_unit clumio_organizational_unit}
 */
 export class DataClumioOrganizationalUnit extends cdktf.TerraformDataSource {
 
@@ -213,7 +213,7 @@ export class DataClumioOrganizationalUnit extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataClumioOrganizationalUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioOrganizationalUnit to import
-  * @param importFromId The id of the existing DataClumioOrganizationalUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/organizational_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioOrganizationalUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/organizational_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioOrganizationalUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class DataClumioOrganizationalUnit extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/organizational_unit clumio_organizational_unit} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/organizational_unit clumio_organizational_unit} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class DataClumioOrganizationalUnit extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_organizational_unit',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

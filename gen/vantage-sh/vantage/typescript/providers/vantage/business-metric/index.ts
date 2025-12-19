@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface BusinessMetricConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloudwatch configuration fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#cloudwatch_fields BusinessMetric#cloudwatch_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#cloudwatch_fields BusinessMetric#cloudwatch_fields}
   */
   readonly cloudwatchFields?: BusinessMetricCloudwatchFields;
   /**
   * The tokens for any CostReports that use the BusinessMetric, the unit scale, and label filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#cost_report_tokens_with_metadata BusinessMetric#cost_report_tokens_with_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#cost_report_tokens_with_metadata BusinessMetric#cost_report_tokens_with_metadata}
   */
   readonly costReportTokensWithMetadata?: BusinessMetricCostReportTokensWithMetadata[] | cdktf.IResolvable;
   /**
   * Datadog metric configuration fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#datadog_metric_fields BusinessMetric#datadog_metric_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#datadog_metric_fields BusinessMetric#datadog_metric_fields}
   */
   readonly datadogMetricFields?: BusinessMetricDatadogMetricFields;
   /**
   * The title of the BusinessMetrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#title BusinessMetric#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#title BusinessMetric#title}
   */
   readonly title: string;
   /**
   * The dates, amounts, and (optional) labels for the BusinessMetric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#values BusinessMetric#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#values BusinessMetric#values}
   */
   readonly values?: BusinessMetricValues[] | cdktf.IResolvable;
 }
 export interface BusinessMetricCloudwatchFieldsDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#name BusinessMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#name BusinessMetric#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#value BusinessMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#value BusinessMetric#value}
   */
   readonly value?: string;
 }
@@ -191,43 +191,43 @@ export interface BusinessMetricCloudwatchFields {
   /**
   * The dimensions used to pull specific statistical data for Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#dimensions BusinessMetric#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#dimensions BusinessMetric#dimensions}
   */
   readonly dimensions?: BusinessMetricCloudwatchFieldsDimensions[] | cdktf.IResolvable;
   /**
   * Integration token for the account from which you would like to fetch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#integration_token BusinessMetric#integration_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#integration_token BusinessMetric#integration_token}
   */
   readonly integrationToken?: string;
   /**
   * The dimension used to aggregate the Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#label_dimension BusinessMetric#label_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#label_dimension BusinessMetric#label_dimension}
   */
   readonly labelDimension?: string;
   /**
   * The metric name used to import Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#metric_name BusinessMetric#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#metric_name BusinessMetric#metric_name}
   */
   readonly metricName?: string;
   /**
   * The namespace used to import Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#namespace BusinessMetric#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#namespace BusinessMetric#namespace}
   */
   readonly namespace?: string;
   /**
   * The region used to import Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#region BusinessMetric#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#region BusinessMetric#region}
   */
   readonly region?: string;
   /**
   * The time aggregation function used to import Cloudwatch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#stat BusinessMetric#stat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#stat BusinessMetric#stat}
   */
   readonly stat?: string;
 }
@@ -497,19 +497,19 @@ export interface BusinessMetricCostReportTokensWithMetadata {
   /**
   * The token of the CostReport the BusinessMetric is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#cost_report_token BusinessMetric#cost_report_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#cost_report_token BusinessMetric#cost_report_token}
   */
   readonly costReportToken: string;
   /**
   * Include only values with these labels in the CostReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#label_filter BusinessMetric#label_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#label_filter BusinessMetric#label_filter}
   */
   readonly labelFilter?: string[];
   /**
   * Determines the scale of the BusinessMetric's values within the CostReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#unit_scale BusinessMetric#unit_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#unit_scale BusinessMetric#unit_scale}
   */
   readonly unitScale?: string;
 }
@@ -682,13 +682,13 @@ export interface BusinessMetricDatadogMetricFields {
   /**
   * Integration token for the account from which you would like to fetch metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#integration_token BusinessMetric#integration_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#integration_token BusinessMetric#integration_token}
   */
   readonly integrationToken?: string;
   /**
   * Datadog metrics query string. e.g. sum:aws.applicationelb.request_count{region:us-east-1}.rollup(avg,daily)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#query BusinessMetric#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#query BusinessMetric#query}
   */
   readonly query?: string;
 }
@@ -811,15 +811,15 @@ export class BusinessMetricDatadogMetricFieldsOutputReference extends cdktf.Comp
 }
 export interface BusinessMetricValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#amount BusinessMetric#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#amount BusinessMetric#amount}
   */
   readonly amount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#date BusinessMetric#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#date BusinessMetric#date}
   */
   readonly date: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#label BusinessMetric#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#label BusinessMetric#label}
   */
   readonly label?: string;
 }
@@ -987,7 +987,7 @@ export class BusinessMetricValuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric vantage_business_metric}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric vantage_business_metric}
 */
 export class BusinessMetric extends cdktf.TerraformResource {
 
@@ -1003,7 +1003,7 @@ export class BusinessMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessMetric to import
-  * @param importFromId The id of the existing BusinessMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1015,7 +1015,7 @@ export class BusinessMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/business_metric vantage_business_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/business_metric vantage_business_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1026,8 +1026,8 @@ export class BusinessMetric extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_business_metric',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

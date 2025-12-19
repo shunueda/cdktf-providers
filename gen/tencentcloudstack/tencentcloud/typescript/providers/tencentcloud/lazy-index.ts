@@ -58,6 +58,18 @@ Object.defineProperty(exports, 'asStartInstances', { get: function () { return r
 Object.defineProperty(exports, 'asStopInstances', { get: function () { return require('./as-stop-instances'); } });
 Object.defineProperty(exports, 'auditTrack', { get: function () { return require('./audit-track'); } });
 Object.defineProperty(exports, 'batchApplyAccountBaselines', { get: function () { return require('./batch-apply-account-baselines'); } });
+Object.defineProperty(exports, 'bhAccessWhiteListConfig', { get: function () { return require('./bh-access-white-list-config'); } });
+Object.defineProperty(exports, 'bhAccessWhiteListRule', { get: function () { return require('./bh-access-white-list-rule'); } });
+Object.defineProperty(exports, 'bhAssetSyncFlagConfig', { get: function () { return require('./bh-asset-sync-flag-config'); } });
+Object.defineProperty(exports, 'bhAssetSyncJobOperation', { get: function () { return require('./bh-asset-sync-job-operation'); } });
+Object.defineProperty(exports, 'bhDevice', { get: function () { return require('./bh-device'); } });
+Object.defineProperty(exports, 'bhReconnectionSettingConfig', { get: function () { return require('./bh-reconnection-setting-config'); } });
+Object.defineProperty(exports, 'bhResource', { get: function () { return require('./bh-resource'); } });
+Object.defineProperty(exports, 'bhSyncDevicesToIoaOperation', { get: function () { return require('./bh-sync-devices-to-ioa-operation'); } });
+Object.defineProperty(exports, 'bhUser', { get: function () { return require('./bh-user'); } });
+Object.defineProperty(exports, 'bhUserDirectory', { get: function () { return require('./bh-user-directory'); } });
+Object.defineProperty(exports, 'bhUserGroup', { get: function () { return require('./bh-user-group'); } });
+Object.defineProperty(exports, 'bhUserSyncTaskOperation', { get: function () { return require('./bh-user-sync-task-operation'); } });
 Object.defineProperty(exports, 'biDatasource', { get: function () { return require('./bi-datasource'); } });
 Object.defineProperty(exports, 'biDatasourceCloud', { get: function () { return require('./bi-datasource-cloud'); } });
 Object.defineProperty(exports, 'biEmbedIntervalApply', { get: function () { return require('./bi-embed-interval-apply'); } });
@@ -307,6 +319,7 @@ Object.defineProperty(exports, 'cynosdbAuditLogFile', { get: function () { retur
 Object.defineProperty(exports, 'cynosdbAuditService', { get: function () { return require('./cynosdb-audit-service'); } });
 Object.defineProperty(exports, 'cynosdbBackupConfig', { get: function () { return require('./cynosdb-backup-config'); } });
 Object.defineProperty(exports, 'cynosdbBinlogSaveDays', { get: function () { return require('./cynosdb-binlog-save-days'); } });
+Object.defineProperty(exports, 'cynosdbClsDelivery', { get: function () { return require('./cynosdb-cls-delivery'); } });
 Object.defineProperty(exports, 'cynosdbCluster', { get: function () { return require('./cynosdb-cluster'); } });
 Object.defineProperty(exports, 'cynosdbClusterDatabases', { get: function () { return require('./cynosdb-cluster-databases'); } });
 Object.defineProperty(exports, 'cynosdbClusterPasswordComplexity', { get: function () { return require('./cynosdb-cluster-password-complexity'); } });
@@ -1225,6 +1238,8 @@ Object.defineProperty(exports, 'dataTencentcloudAudits', { get: function () { re
 Object.defineProperty(exports, 'dataTencentcloudAvailabilityRegions', { get: function () { return require('./data-tencentcloud-availability-regions'); } });
 Object.defineProperty(exports, 'dataTencentcloudAvailabilityZones', { get: function () { return require('./data-tencentcloud-availability-zones'); } });
 Object.defineProperty(exports, 'dataTencentcloudAvailabilityZonesByProduct', { get: function () { return require('./data-tencentcloud-availability-zones-by-product'); } });
+Object.defineProperty(exports, 'dataTencentcloudBhAccountGroups', { get: function () { return require('./data-tencentcloud-bh-account-groups'); } });
+Object.defineProperty(exports, 'dataTencentcloudBhSourceTypes', { get: function () { return require('./data-tencentcloud-bh-source-types'); } });
 Object.defineProperty(exports, 'dataTencentcloudBiProject', { get: function () { return require('./data-tencentcloud-bi-project'); } });
 Object.defineProperty(exports, 'dataTencentcloudBiUserProject', { get: function () { return require('./data-tencentcloud-bi-user-project'); } });
 Object.defineProperty(exports, 'dataTencentcloudBillingBudgetOperationLog', { get: function () { return require('./data-tencentcloud-billing-budget-operation-log'); } });

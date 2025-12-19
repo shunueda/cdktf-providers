@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface BillingProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Banking details (MSP accounts only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#banking_information_attributes BillingProfile#banking_information_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#banking_information_attributes BillingProfile#banking_information_attributes}
   */
   readonly bankingInformationAttributes?: BillingProfileBankingInformationAttributes;
   /**
   * Billing address and contact information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#billing_information_attributes BillingProfile#billing_information_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#billing_information_attributes BillingProfile#billing_information_attributes}
   */
   readonly billingInformationAttributes?: BillingProfileBillingInformationAttributes;
   /**
   * Business information and custom fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#business_information_attributes BillingProfile#business_information_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#business_information_attributes BillingProfile#business_information_attributes}
   */
   readonly businessInformationAttributes?: BillingProfileBusinessInformationAttributes;
   /**
   * Display name for the billing profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#nickname BillingProfile#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#nickname BillingProfile#nickname}
   */
   readonly nickname: string;
 }
@@ -36,25 +36,25 @@ export interface BillingProfileBankingInformationAttributesSecureData {
   /**
   * Bank account number (US)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#account_number BillingProfile#account_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#account_number BillingProfile#account_number}
   */
   readonly accountNumber?: string;
   /**
   * International Bank Account Number (EU)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#iban BillingProfile#iban}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#iban BillingProfile#iban}
   */
   readonly iban?: string;
   /**
   * Bank routing number (US)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#routing_number BillingProfile#routing_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#routing_number BillingProfile#routing_number}
   */
   readonly routingNumber?: string;
   /**
   * SWIFT/BIC code (EU)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#swift_bic BillingProfile#swift_bic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#swift_bic BillingProfile#swift_bic}
   */
   readonly swiftBic?: string;
 }
@@ -237,29 +237,29 @@ export interface BillingProfileBankingInformationAttributes {
   /**
   * Name of the bank
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#bank_name BillingProfile#bank_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#bank_name BillingProfile#bank_name}
   */
   readonly bankName?: string;
   /**
   * Name of the account beneficiary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#beneficiary_name BillingProfile#beneficiary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#beneficiary_name BillingProfile#beneficiary_name}
   */
   readonly beneficiaryName?: string;
   /**
   * Encrypted banking details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#secure_data BillingProfile#secure_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#secure_data BillingProfile#secure_data}
   */
   readonly secureData?: BillingProfileBankingInformationAttributesSecureData;
   /**
   * Tax identification number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#tax_id BillingProfile#tax_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#tax_id BillingProfile#tax_id}
   */
   readonly taxId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#token BillingProfile#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#token BillingProfile#token}
   */
   readonly token?: string;
 }
@@ -471,53 +471,53 @@ export interface BillingProfileBillingInformationAttributes {
   /**
   * First line of billing address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#address_line_1 BillingProfile#address_line_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#address_line_1 BillingProfile#address_line_1}
   */
   readonly addressLine1?: string;
   /**
   * Second line of billing address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#address_line_2 BillingProfile#address_line_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#address_line_2 BillingProfile#address_line_2}
   */
   readonly addressLine2?: string;
   /**
   * Array of billing email addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#billing_email BillingProfile#billing_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#billing_email BillingProfile#billing_email}
   */
   readonly billingEmail?: string[];
   /**
   * City for billing address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#city BillingProfile#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#city BillingProfile#city}
   */
   readonly city?: string;
   /**
   * Company name for billing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#company_name BillingProfile#company_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#company_name BillingProfile#company_name}
   */
   readonly companyName?: string;
   /**
   * ISO country code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#country_code BillingProfile#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#country_code BillingProfile#country_code}
   */
   readonly countryCode?: string;
   /**
   * Postal or ZIP code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#postal_code BillingProfile#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#postal_code BillingProfile#postal_code}
   */
   readonly postalCode?: string;
   /**
   * State or province for billing address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#state BillingProfile#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#state BillingProfile#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#token BillingProfile#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#token BillingProfile#token}
   */
   readonly token?: string;
 }
@@ -845,13 +845,13 @@ export interface BillingProfileBusinessInformationAttributesMetadataCustomFields
   /**
   * Custom field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#name BillingProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#name BillingProfile#name}
   */
   readonly name?: string;
   /**
   * Custom field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#value BillingProfile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#value BillingProfile#value}
   */
   readonly value?: string;
 }
@@ -998,7 +998,7 @@ export interface BillingProfileBusinessInformationAttributesMetadata {
   /**
   * Array of custom field objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#custom_fields BillingProfile#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#custom_fields BillingProfile#custom_fields}
   */
   readonly customFields?: BillingProfileBusinessInformationAttributesMetadataCustomFields[] | cdktf.IResolvable;
 }
@@ -1094,11 +1094,11 @@ export interface BillingProfileBusinessInformationAttributes {
   /**
   * Business metadata including custom fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#metadata BillingProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#metadata BillingProfile#metadata}
   */
   readonly metadata?: BillingProfileBusinessInformationAttributesMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#token BillingProfile#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#token BillingProfile#token}
   */
   readonly token?: string;
 }
@@ -1221,7 +1221,7 @@ export class BillingProfileBusinessInformationAttributesOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile vantage_billing_profile}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile vantage_billing_profile}
 */
 export class BillingProfile extends cdktf.TerraformResource {
 
@@ -1237,7 +1237,7 @@ export class BillingProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BillingProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingProfile to import
-  * @param importFromId The id of the existing BillingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1249,7 +1249,7 @@ export class BillingProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_profile vantage_billing_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_profile vantage_billing_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1260,8 +1260,8 @@ export class BillingProfile extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_billing_profile',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

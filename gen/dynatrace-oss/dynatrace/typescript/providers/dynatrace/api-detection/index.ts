@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApiDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * This color will be used to highlight APIs when viewing code level data, such as distributed traces or method hotspots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#api_color ApiDetection#api_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#api_color ApiDetection#api_color}
   */
   readonly apiColor: string;
   /**
   * API name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#api_name ApiDetection#api_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#api_name ApiDetection#api_name}
   */
   readonly apiName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#id ApiDetection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#id ApiDetection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface ApiDetectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#insert_after ApiDetection#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#insert_after ApiDetection#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Restrict this rule to a specific technology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#technology ApiDetection#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#technology ApiDetection#technology}
   */
   readonly technology?: string;
   /**
   * This API defines a third party library
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#third_party_api ApiDetection#third_party_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#third_party_api ApiDetection#third_party_api}
   */
   readonly thirdPartyApi: boolean | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#conditions ApiDetection#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#conditions ApiDetection#conditions}
   */
   readonly conditions?: ApiDetectionConditions;
 }
@@ -55,19 +55,19 @@ export interface ApiDetectionConditionsCondition {
   /**
   * Possible Values: `FILE_NAME`, `FQCN`, `PACKAGE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#base ApiDetection#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#base ApiDetection#base}
   */
   readonly base: string;
   /**
   * Possible Values: `BEGINS_WITH`, `CONTAINS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#matcher ApiDetection#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#matcher ApiDetection#matcher}
   */
   readonly matcher: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#pattern ApiDetection#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#pattern ApiDetection#pattern}
   */
   readonly pattern: string;
 }
@@ -234,7 +234,7 @@ export interface ApiDetectionConditions {
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#condition ApiDetection#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#condition ApiDetection#condition}
   */
   readonly condition: ApiDetectionConditionsCondition[] | cdktf.IResolvable;
 }
@@ -315,7 +315,7 @@ export class ApiDetectionConditionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection dynatrace_api_detection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection dynatrace_api_detection}
 */
 export class ApiDetection extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class ApiDetection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiDetection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiDetection to import
-  * @param importFromId The id of the existing ApiDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiDetection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiDetection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class ApiDetection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/api_detection dynatrace_api_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/api_detection dynatrace_api_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class ApiDetection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_api_detection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

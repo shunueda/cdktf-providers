@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface VictorOpsNotificationConfig extends cdktf.TerraformMetaArgument
   /**
   * The configuration is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#active VictorOpsNotification#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#active VictorOpsNotification#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The API key for the target Splunk On-Call account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#api_key VictorOpsNotification#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#api_key VictorOpsNotification#api_key}
   */
   readonly apiKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#id VictorOpsNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#id VictorOpsNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface VictorOpsNotificationConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of these settings when referred to from resources requiring the REST API V1 keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#legacy_id VictorOpsNotification#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#legacy_id VictorOpsNotification#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * The content of the message.  You can use the following placeholders:  * `{ImpactedEntity}`: The entity impacted by the problem or *X* impacted entities.  * `{ProblemDetailsText}`: All problem event details, including root cause, as a text-formatted string.  * `{ProblemID}`: The display number of the reported problem.  * `{ProblemImpact}`: The [impact level](https://www.dynatrace.com/support/help/shortlink/impact-analysis) of the problem. Possible values are `APPLICATION`, `SERVICE`, and `INFRASTRUCTURE`.  * `{ProblemSeverity}`: The [severity level](https://www.dynatrace.com/support/help/shortlink/event-types) of the problem. Possible values are `AVAILABILITY`, `ERROR`, `PERFORMANCE`, `RESOURCE_CONTENTION`, and `CUSTOM_ALERT`.  * `{ProblemTitle}`: A short description of the problem.  * `{ProblemURL}`: The URL of the problem within Dynatrace.  * `{State}`: The state of the problem. Possible values are `OPEN` and `RESOLVED`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#message VictorOpsNotification#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#message VictorOpsNotification#message}
   */
   readonly message: string;
   /**
   * The name of the notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#name VictorOpsNotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#name VictorOpsNotification#name}
   */
   readonly name: string;
   /**
   * The ID of the associated alerting profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#profile VictorOpsNotification#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#profile VictorOpsNotification#profile}
   */
   readonly profile: string;
   /**
   * The routing key, defining the group to be notified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#routing_key VictorOpsNotification#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#routing_key VictorOpsNotification#routing_key}
   */
   readonly routingKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification dynatrace_victor_ops_notification}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification dynatrace_victor_ops_notification}
 */
 export class VictorOpsNotification extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class VictorOpsNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VictorOpsNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VictorOpsNotification to import
-  * @param importFromId The id of the existing VictorOpsNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VictorOpsNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VictorOpsNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class VictorOpsNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/victor_ops_notification dynatrace_victor_ops_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/victor_ops_notification dynatrace_victor_ops_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class VictorOpsNotification extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_victor_ops_notification',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

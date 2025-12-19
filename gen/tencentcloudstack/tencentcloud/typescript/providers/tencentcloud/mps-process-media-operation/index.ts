@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MpsProcessMediaOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#id MpsProcessMediaOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#id MpsProcessMediaOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,85 +17,85 @@ export interface MpsProcessMediaOperationConfig extends cdktf.TerraformMetaArgum
   /**
   * The directory to save the media processing output file, which must start and end with `/`, such as `/movie/201907/`.If you do not specify this parameter, the file will be saved to the directory specified in `InputInfo`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_dir MpsProcessMediaOperation#output_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_dir MpsProcessMediaOperation#output_dir}
   */
   readonly outputDir?: string;
   /**
   * The scheme ID.Note 1: About `OutputStorage` and `OutputDir`If an output storage and directory are specified for a subtask of the scheme, those output settings will be applied.If an output storage and directory are not specified for the subtasks of a scheme, the output parameters passed in the `ProcessMedia` API will be applied.Note 2: If `TaskNotifyConfig` is specified, the specified settings will be used instead of the default callback settings of the scheme.Note 3: The trigger configured for a scheme is for automatically starting a scheme. It stops working when you manually call this API to start a scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#schedule_id MpsProcessMediaOperation#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#schedule_id MpsProcessMediaOperation#schedule_id}
   */
   readonly scheduleId?: number;
   /**
   * The source context which is used to pass through the user request information. The task flow status change callback will return the value of this field. It can contain up to 1,000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#session_context MpsProcessMediaOperation#session_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#session_context MpsProcessMediaOperation#session_context}
   */
   readonly sessionContext?: string;
   /**
   * The ID used for deduplication. If there was a request with the same ID in the last three days, the current request will return an error. The ID can contain up to 50 characters. If this parameter is left empty or an empty string is entered, no deduplication will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#session_id MpsProcessMediaOperation#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#session_id MpsProcessMediaOperation#session_id}
   */
   readonly sessionId?: string;
   /**
   * The task type. `Online` (default): A task that is executed immediately. `Offline`: A task that is executed when the system is idle (within three days by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#task_type MpsProcessMediaOperation#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#task_type MpsProcessMediaOperation#task_type}
   */
   readonly taskType?: string;
   /**
   * Task flow priority. The higher the value, the higher the priority. Value range: [-10, 10]. If this parameter is left empty, 0 will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#tasks_priority MpsProcessMediaOperation#tasks_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#tasks_priority MpsProcessMediaOperation#tasks_priority}
   */
   readonly tasksPriority?: number;
   /**
   * ai_analysis_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#ai_analysis_task MpsProcessMediaOperation#ai_analysis_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#ai_analysis_task MpsProcessMediaOperation#ai_analysis_task}
   */
   readonly aiAnalysisTask?: MpsProcessMediaOperationAiAnalysisTask;
   /**
   * ai_content_review_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#ai_content_review_task MpsProcessMediaOperation#ai_content_review_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#ai_content_review_task MpsProcessMediaOperation#ai_content_review_task}
   */
   readonly aiContentReviewTask?: MpsProcessMediaOperationAiContentReviewTask;
   /**
   * ai_quality_control_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#ai_quality_control_task MpsProcessMediaOperation#ai_quality_control_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#ai_quality_control_task MpsProcessMediaOperation#ai_quality_control_task}
   */
   readonly aiQualityControlTask?: MpsProcessMediaOperationAiQualityControlTask;
   /**
   * ai_recognition_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#ai_recognition_task MpsProcessMediaOperation#ai_recognition_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#ai_recognition_task MpsProcessMediaOperation#ai_recognition_task}
   */
   readonly aiRecognitionTask?: MpsProcessMediaOperationAiRecognitionTask;
   /**
   * input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#input_info MpsProcessMediaOperation#input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#input_info MpsProcessMediaOperation#input_info}
   */
   readonly inputInfo: MpsProcessMediaOperationInputInfo;
   /**
   * media_process_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#media_process_task MpsProcessMediaOperation#media_process_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#media_process_task MpsProcessMediaOperation#media_process_task}
   */
   readonly mediaProcessTask?: MpsProcessMediaOperationMediaProcessTask;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationOutputStorage;
   /**
   * task_notify_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#task_notify_config MpsProcessMediaOperation#task_notify_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#task_notify_config MpsProcessMediaOperation#task_notify_config}
   */
   readonly taskNotifyConfig?: MpsProcessMediaOperationTaskNotifyConfig;
 }
@@ -103,13 +103,13 @@ export interface MpsProcessMediaOperationAiAnalysisTask {
   /**
   * Video content analysis template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * An extended parameter, whose value is a stringfied JSON.Note: This parameter is for customers with special requirements. It needs to be customized offline.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#extended_parameter MpsProcessMediaOperation#extended_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#extended_parameter MpsProcessMediaOperation#extended_parameter}
   */
   readonly extendedParameter?: string;
 }
@@ -221,7 +221,7 @@ export interface MpsProcessMediaOperationAiContentReviewTask {
   /**
   * Video content audit template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
 }
@@ -304,13 +304,13 @@ export interface MpsProcessMediaOperationAiQualityControlTask {
   /**
   * The channel extension parameter, which is a serialized JSON string.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#channel_ext_para MpsProcessMediaOperation#channel_ext_para}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#channel_ext_para MpsProcessMediaOperation#channel_ext_para}
   */
   readonly channelExtPara?: string;
   /**
   * The ID of the quality control template.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition?: number;
 }
@@ -425,7 +425,7 @@ export interface MpsProcessMediaOperationAiRecognitionTask {
   /**
   * Intelligent video recognition template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
 }
@@ -508,19 +508,19 @@ export interface MpsProcessMediaOperationInputInfoCosInputInfo {
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -655,31 +655,31 @@ export interface MpsProcessMediaOperationInputInfoS3InputInfo {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -872,7 +872,7 @@ export interface MpsProcessMediaOperationInputInfoUrlInputInfo {
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -955,25 +955,25 @@ export interface MpsProcessMediaOperationInputInfo {
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationInputInfoCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationInputInfoS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationInputInfoUrlInputInfo;
 }
@@ -1143,19 +1143,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -1290,31 +1290,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -1507,7 +1507,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -1590,25 +1590,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetAddOnSubtitlesSubtitleCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetAddOnSubtitlesSubtitleS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetAddOnSubtitlesSubtitleUrlInputInfo;
 }
@@ -1778,13 +1778,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The mode. Valid values:`subtitle-stream`: Add a subtitle track.`close-caption-708`: Embed CEA-708 subtitles in SEI frames.`close-caption-608`: Embed CEA-608 subtitles in SEI frames.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type?: string;
   /**
   * subtitle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#subtitle MpsProcessMediaOperation#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#subtitle MpsProcessMediaOperation#subtitle}
   */
   readonly subtitle?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetAddOnSubtitlesSubtitle;
 }
@@ -1931,13 +1931,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -2052,25 +2052,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -2237,19 +2237,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetOutputStorageS3OutputStorage;
 }
@@ -2390,19 +2390,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -2537,31 +2537,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -2754,7 +2754,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -2837,25 +2837,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -3025,25 +3025,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * Watermark height. % and px formats are supported:If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values:`once`: no longer appears after watermark playback ends.`repeat_last_frame`: stays on the last frame after watermark playback ends.`repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported:If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width;If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
   */
   readonly imageContent: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -3213,31 +3213,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * Origin position, which currently can only be:TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values:image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width;If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height;If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
   */
   readonly imageTemplate?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameterImageTemplate;
 }
@@ -3436,37 +3436,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds.If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame;If this value is greater than 0 (e.g., n), the watermark will exist till second n;If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame.If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame;If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame;If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
   */
   readonly rawParameter?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSetRawParameter;
 }
@@ -3726,43 +3726,43 @@ export interface MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamin
   /**
   * Adaptive bitrate streaming template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * The relative or absolute output path of the manifest file after being transcoded to adaptive bitrate streaming. If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * The relative output path of the segment file after being transcoded to adaptive bitrate streaming (in HLS format only). If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}_{subStreamNumber}_{segmentNumber}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#segment_object_name MpsProcessMediaOperation#segment_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#segment_object_name MpsProcessMediaOperation#segment_object_name}
   */
   readonly segmentObjectName?: string;
   /**
   * The relative output path of the substream file after being transcoded to adaptive bitrate streaming. If this parameter is left empty, a relative path in the following format will be used by default: `{inputName}_adaptiveDynamicStreaming_{definition}_{subStreamNumber}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sub_stream_object_name MpsProcessMediaOperation#sub_stream_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sub_stream_object_name MpsProcessMediaOperation#sub_stream_object_name}
   */
   readonly subStreamObjectName?: string;
   /**
   * add_on_subtitles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#add_on_subtitles MpsProcessMediaOperation#add_on_subtitles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#add_on_subtitles MpsProcessMediaOperation#add_on_subtitles}
   */
   readonly addOnSubtitles?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetAddOnSubtitles[] | cdktf.IResolvable;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
   */
   readonly watermarkSet?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSetWatermarkSet[] | cdktf.IResolvable;
 }
@@ -4051,13 +4051,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetO
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -4172,25 +4172,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetO
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -4357,19 +4357,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetO
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetOutputStorageS3OutputStorage;
 }
@@ -4510,31 +4510,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSet 
   /**
   * Animated image generating template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time of an animated image in a video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset: number;
   /**
   * Output path to a generated animated image file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_animatedGraphic_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Start time of an animated image in a video in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset: number;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSetOutputStorage;
 }
@@ -4759,25 +4759,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetObjec
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -4950,13 +4950,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutpu
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -5071,25 +5071,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutpu
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -5256,19 +5256,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutpu
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutputStorageS3OutputStorage;
 }
@@ -5409,31 +5409,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSet {
   /**
   * ID of an image sprite generating template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * Output path to a generated image sprite file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_imageSprite_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Output path to the WebVTT file after an image sprite is generated, which can only be a relative path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_imageSprite_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#web_vtt_object_name MpsProcessMediaOperation#web_vtt_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#web_vtt_object_name MpsProcessMediaOperation#web_vtt_object_name}
   */
   readonly webVttObjectName?: string;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
   */
   readonly objectNumberFormat?: MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSetOutputStorage;
 }
@@ -5664,25 +5664,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOb
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -5855,13 +5855,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOu
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -5976,25 +5976,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOu
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -6161,19 +6161,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOu
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOutputStorageS3OutputStorage;
 }
@@ -6314,19 +6314,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -6461,31 +6461,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -6678,7 +6678,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -6761,25 +6761,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -6949,25 +6949,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * Watermark height. % and px formats are supported:If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values:`once`: no longer appears after watermark playback ends.`repeat_last_frame`: stays on the last frame after watermark playback ends.`repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported:If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width;If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
   */
   readonly imageContent: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -7137,31 +7137,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * Origin position, which currently can only be:TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values:image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width;If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height;If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
   */
   readonly imageTemplate?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameterImageTemplate;
 }
@@ -7360,37 +7360,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWa
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds.If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame;If this value is greater than 0 (e.g., n), the watermark will exist till second n;If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame.If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame;If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame;If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
   */
   readonly rawParameter?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSetRawParameter;
 }
@@ -7650,31 +7650,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSet {
   /**
   * Sampled screencapturing template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * Output path to a generated sampled screenshot, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_sampleSnapshot_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
   */
   readonly objectNumberFormat?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
   */
   readonly watermarkSet?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSetWatermarkSet[] | cdktf.IResolvable;
 }
@@ -7905,25 +7905,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -8096,13 +8096,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -8217,25 +8217,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -8402,19 +8402,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetOutputStorageS3OutputStorage;
 }
@@ -8555,19 +8555,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -8702,31 +8702,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -8919,7 +8919,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -9002,25 +9002,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -9190,25 +9190,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * Watermark height. % and px formats are supported:If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values:`once`: no longer appears after watermark playback ends.`repeat_last_frame`: stays on the last frame after watermark playback ends.`repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported:If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width;If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
   */
   readonly imageContent: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -9378,31 +9378,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * Origin position, which currently can only be:TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values:image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width;If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height;If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
   */
   readonly imageTemplate?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameterImageTemplate;
 }
@@ -9601,37 +9601,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds.If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame;If this value is greater than 0 (e.g., n), the watermark will exist till second n;If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame.If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame;If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame;If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
   */
   readonly rawParameter?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSetRawParameter;
 }
@@ -9891,43 +9891,43 @@ export interface MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTas
   /**
   * ID of a time point screencapturing template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * List of screenshot time points in the format of `s` or `%`:If the string ends in `s`, it means that the time point is in seconds; for example, `3.5s` means that the time point is the 3.5th second;If the string ends in `%`, it means that the time point is the specified percentage of the video duration; for example, `10%` means that the time point is 10% of the video duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#ext_time_offset_set MpsProcessMediaOperation#ext_time_offset_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#ext_time_offset_set MpsProcessMediaOperation#ext_time_offset_set}
   */
   readonly extTimeOffsetSet?: string[];
   /**
   * Output path to a generated time point screenshot, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_snapshotByTimeOffset_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * List of time points of screenshots in &lt;font color=red&gt;seconds&lt;/font&gt;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#time_offset_set MpsProcessMediaOperation#time_offset_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#time_offset_set MpsProcessMediaOperation#time_offset_set}
   */
   readonly timeOffsetSet?: number[];
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
   */
   readonly objectNumberFormat?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetOutputStorage;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
   */
   readonly watermarkSet?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSetWatermarkSet[] | cdktf.IResolvable;
 }
@@ -10216,19 +10216,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -10363,31 +10363,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -10580,7 +10580,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -10663,25 +10663,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterHeadSetCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterHeadSetS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterHeadSetUrlInputInfo;
 }
@@ -10883,19 +10883,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -11030,31 +11030,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -11247,7 +11247,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -11330,25 +11330,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterTailSetCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterTailSetS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterTailSetUrlInputInfo;
 }
@@ -11550,13 +11550,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTai
   /**
   * head_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#head_set MpsProcessMediaOperation#head_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#head_set MpsProcessMediaOperation#head_set}
   */
   readonly headSet?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterHeadSet[] | cdktf.IResolvable;
   /**
   * tail_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#tail_set MpsProcessMediaOperation#tail_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#tail_set MpsProcessMediaOperation#tail_set}
   */
   readonly tailSet?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameterTailSet[] | cdktf.IResolvable;
 }
@@ -11671,43 +11671,43 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetMosaicS
   /**
   * Origin position, which currently can only be:TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the blur is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * End time offset of blur in seconds.If this parameter is left empty or 0 is entered, the blur will exist till the last video frame;If this value is greater than 0 (e.g., n), the blur will exist till second n;If this value is smaller than 0 (e.g., -n), the blur will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Blur height. % and px formats are supported:If the string ends in %, the `Height` of the blur will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;If the string ends in px, the `Height` of the blur will be in px; for example, `100px` means that `Height` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: string;
   /**
   * Start time offset of blur in seconds. If this parameter is left empty or 0 is entered, the blur will appear upon the first video frame.If this parameter is left empty or 0 is entered, the blur will appear upon the first video frame;If this value is greater than 0 (e.g., n), the blur will appear at second n after the first video frame;If this value is smaller than 0 (e.g., -n), the blur will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * Blur width. % and px formats are supported:If the string ends in %, the `Width` of the blur will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width;If the string ends in px, the `Width` of the blur will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: string;
   /**
   * The horizontal position of the origin of the blur relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `XPos` of the blur will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width;If the string ends in px, the `XPos` of the blur will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
   */
   readonly xPos?: string;
   /**
   * Vertical position of the origin of blur relative to the origin of coordinates of video. % and px formats are supported:If the string ends in %, the `YPos` of the blur will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height;If the string ends in px, the `YPos` of the blur will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
   */
   readonly yPos?: string;
 }
@@ -11999,25 +11999,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetObjectN
   /**
   * Increment of the `{number}` variable. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#increment MpsProcessMediaOperation#increment}
   */
   readonly increment?: number;
   /**
   * Start value of the `{number}` variable. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#initial_value MpsProcessMediaOperation#initial_value}
   */
   readonly initialValue?: number;
   /**
   * Minimum length of the `{number}` variable. A placeholder will be used if the variable length is below the minimum requirement. Default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#min_length MpsProcessMediaOperation#min_length}
   */
   readonly minLength?: number;
   /**
   * Placeholder used when the `{number}` variable length is below the minimum requirement. Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#place_holder MpsProcessMediaOperation#place_holder}
   */
   readonly placeHolder?: string;
 }
@@ -12190,13 +12190,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputS
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -12311,25 +12311,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputS
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -12496,19 +12496,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputS
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputStorageS3OutputStorage;
 }
@@ -12649,19 +12649,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -12796,31 +12796,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -13013,7 +13013,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -13096,25 +13096,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddOnSubtitlesSubtitleCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddOnSubtitlesSubtitleS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddOnSubtitlesSubtitleUrlInputInfo;
 }
@@ -13284,13 +13284,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The mode. Valid values:`subtitle-stream`: Add a subtitle track.`close-caption-708`: Embed CEA-708 subtitles in SEI frames.`close-caption-608`: Embed CEA-608 subtitles in SEI frames.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type?: string;
   /**
   * subtitle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#subtitle MpsProcessMediaOperation#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#subtitle MpsProcessMediaOperation#subtitle}
   */
   readonly subtitle?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddOnSubtitlesSubtitle;
 }
@@ -13437,19 +13437,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -13584,31 +13584,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -13801,7 +13801,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -13884,25 +13884,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddonAudioStreamCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddonAudioStreamS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddonAudioStreamUrlInputInfo;
 }
@@ -14104,31 +14104,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * Audio channel system. Valid values:1: Mono2: Dual6: StereoWhen the media is packaged in audio format (FLAC, OGG, MP3, M4A), the sound channel cannot be set to stereo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#audio_channel MpsProcessMediaOperation#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#audio_channel MpsProcessMediaOperation#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Audio stream bitrate in Kbps. Value range: 0 and [26, 256]. If the value is 0, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
   */
   readonly bitrate?: number;
   /**
   * Audio stream codec.When the outer `Container` parameter is `mp3`, the valid value is:libmp3lame.When the outer `Container` parameter is `ogg` or `flac`, the valid value is:flac.When the outer `Container` parameter is `m4a`, the valid values include:libfdk_aac;libmp3lame;ac3.When the outer `Container` parameter is `mp4` or `flv`, the valid values include:libfdk_aac: More suitable for mp4;libmp3lame: More suitable for flv;mp2.When the outer `Container` parameter is `hls`, the valid values include:libfdk_aac;libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
   */
   readonly codec?: string;
   /**
   * Audio stream sample rate. Valid values:32,00044,10048,000In Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sample_rate MpsProcessMediaOperation#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sample_rate MpsProcessMediaOperation#sample_rate}
   */
   readonly sampleRate?: number;
   /**
   * The audio tracks to retain. All audio tracks are retained by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#stream_selects MpsProcessMediaOperation#stream_selects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#stream_selects MpsProcessMediaOperation#stream_selects}
   */
   readonly streamSelects?: number[];
 }
@@ -14330,37 +14330,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The text transparency. Value range: 0-1.`0`: Fully transparent.`1`: Fully opaque.Default value: 1.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#font_alpha MpsProcessMediaOperation#font_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#font_alpha MpsProcessMediaOperation#font_alpha}
   */
   readonly fontAlpha?: number;
   /**
   * The font color in 0xRRGGBB format. Default value: 0xFFFFFF (white).Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#font_color MpsProcessMediaOperation#font_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#font_color MpsProcessMediaOperation#font_color}
   */
   readonly fontColor?: string;
   /**
   * The font size (pixels). If this is not specified, the font size in the subtitle file will be used.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#font_size MpsProcessMediaOperation#font_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#font_size MpsProcessMediaOperation#font_size}
   */
   readonly fontSize?: string;
   /**
   * The font. Valid values:`hei.ttf`: Heiti.`song.ttf`: Songti.`simkai.ttf`: Kaiti.`arial.ttf`: Arial.The default is `hei.ttf`.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#font_type MpsProcessMediaOperation#font_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#font_type MpsProcessMediaOperation#font_type}
   */
   readonly fontType?: string;
   /**
   * The URL of the subtitles to add to the video.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#path MpsProcessMediaOperation#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#path MpsProcessMediaOperation#path}
   */
   readonly path?: string;
   /**
   * The subtitle track to add to the video. If both `Path` and `StreamIndex` are specified, `Path` will be used. You need to specify at least one of the two parameters.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#stream_index MpsProcessMediaOperation#stream_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#stream_index MpsProcessMediaOperation#stream_index}
   */
   readonly streamIndex?: number;
 }
@@ -14591,13 +14591,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * The maximum video bitrate. If this parameter is not specified, no modifications will be made.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#max_video_bitrate MpsProcessMediaOperation#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#max_video_bitrate MpsProcessMediaOperation#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * The TSC type. Valid values:`TEHD-100`: TSC-100 (video TSC). `TEHD-200`: TSC-200 (audio TSC). If this parameter is left blank, no modification will be made.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type?: string;
 }
@@ -14712,61 +14712,61 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * Bitrate of a video stream in Kbps. Value range: 0 and [128, 35,000].If the value is 0, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
   */
   readonly bitrate?: number;
   /**
   * The video codec. Valid values:libx264: H.264libx265: H.265av1: AOMedia Video 1Note: You must specify a resolution (not higher than 640 x 480) if the H.265 codec is used.Note: You can only use the AOMedia Video 1 codec for MP4 files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
   */
   readonly codec?: string;
   /**
   * Whether to enable adaptive encoding. Valid values:0: Disable1: EnableDefault value: 0. If this parameter is set to `1`, multiple streams with different resolutions and bitrates will be generated automatically. The highest resolution, bitrate, and quality of the streams are determined by the values of `width` and `height`, `Bitrate`, and `Vcrf` in `VideoTemplate` respectively. If these parameters are not set in `VideoTemplate`, the highest resolution generated will be the same as that of the source video, and the highest video quality will be close to VMAF 95. To use this parameter or learn about the billing details of adaptive encoding, please contact your sales rep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#content_adapt_stream MpsProcessMediaOperation#content_adapt_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#content_adapt_stream MpsProcessMediaOperation#content_adapt_stream}
   */
   readonly contentAdaptStream?: number;
   /**
   * Fill type. Fill refers to the way of processing a screenshot when its aspect ratio is different from that of the source video. The following fill types are supported: stretch: stretch. The screenshot will be stretched frame by frame to match the aspect ratio of the source video, which may make the screenshot shorter or longer;black: fill with black. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with black color blocks.white: fill with white. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with white color blocks.gauss: fill with Gaussian blur. This option retains the aspect ratio of the source video for the screenshot and fills the unmatched area with Gaussian blur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#fill_type MpsProcessMediaOperation#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#fill_type MpsProcessMediaOperation#fill_type}
   */
   readonly fillType?: string;
   /**
   * Video frame rate in Hz. Value range: [0, 100].If the value is 0, the frame rate will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#fps MpsProcessMediaOperation#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#fps MpsProcessMediaOperation#fps}
   */
   readonly fps?: number;
   /**
   * Frame interval between I keyframes. Value range: 0 and [1,100000]. If this parameter is 0, the system will automatically set the GOP length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#gop MpsProcessMediaOperation#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#gop MpsProcessMediaOperation#gop}
   */
   readonly gop?: number;
   /**
   * Maximum value of the height (or short side) of a video stream in px. Value range: 0 and [128, 4,096].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: number;
   /**
   * Resolution adaption. Valid values:open: Enabled. When resolution adaption is enabled, `Width` indicates the long side of a video, while `Height` indicates the short side.close: Disabled. When resolution adaption is disabled, `Width` indicates the width of a video, while `Height` indicates the height.Note: When resolution adaption is enabled, `Width` cannot be smaller than `Height`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#resolution_adaptive MpsProcessMediaOperation#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#resolution_adaptive MpsProcessMediaOperation#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The control factor of video constant bitrate. Value range: [0, 51]. This parameter will be disabled if you enter `0`.It is not recommended to specify this parameter if there are no special requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#vcrf MpsProcessMediaOperation#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#vcrf MpsProcessMediaOperation#vcrf}
   */
   readonly vcrf?: number;
   /**
   * Maximum value of the width (or long side) of a video stream in px. Value range: 0 and [128, 4,096].If both `Width` and `Height` are 0, the resolution will be the same as that of the source video;If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled;If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled;If both `Width` and `Height` are not 0, the custom resolution will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: number;
 }
@@ -15113,61 +15113,61 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrid
   /**
   * Container format. Valid values: mp4, flv, hls, mp3, flac, ogg, and m4a; mp3, flac, ogg, and m4a are formats of audio files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#container MpsProcessMediaOperation#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#container MpsProcessMediaOperation#container}
   */
   readonly container?: string;
   /**
   * Whether to remove audio data. Valid values:0: retain1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#remove_audio MpsProcessMediaOperation#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#remove_audio MpsProcessMediaOperation#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video data. Valid values:0: retain1: remove.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#remove_video MpsProcessMediaOperation#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#remove_video MpsProcessMediaOperation#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * An extended field for transcoding.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#std_ext_info MpsProcessMediaOperation#std_ext_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#std_ext_info MpsProcessMediaOperation#std_ext_info}
   */
   readonly stdExtInfo?: string;
   /**
   * add_on_subtitles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#add_on_subtitles MpsProcessMediaOperation#add_on_subtitles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#add_on_subtitles MpsProcessMediaOperation#add_on_subtitles}
   */
   readonly addOnSubtitles?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddOnSubtitles[] | cdktf.IResolvable;
   /**
   * addon_audio_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#addon_audio_stream MpsProcessMediaOperation#addon_audio_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#addon_audio_stream MpsProcessMediaOperation#addon_audio_stream}
   */
   readonly addonAudioStream?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAddonAudioStream[] | cdktf.IResolvable;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#audio_template MpsProcessMediaOperation#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#audio_template MpsProcessMediaOperation#audio_template}
   */
   readonly audioTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterAudioTemplate;
   /**
   * subtitle_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#subtitle_template MpsProcessMediaOperation#subtitle_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#subtitle_template MpsProcessMediaOperation#subtitle_template}
   */
   readonly subtitleTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterSubtitleTemplate;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#tehd_config MpsProcessMediaOperation#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#tehd_config MpsProcessMediaOperation#tehd_config}
   */
   readonly tehdConfig?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#video_template MpsProcessMediaOperation#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#video_template MpsProcessMediaOperation#video_template}
   */
   readonly videoTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameterVideoTemplate;
 }
@@ -15514,25 +15514,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawPara
   /**
   * Audio channel system. Valid values:1: Mono2: Dual6: StereoWhen the media is packaged in audio format (FLAC, OGG, MP3, M4A), the sound channel cannot be set to stereo.Default value: 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#audio_channel MpsProcessMediaOperation#audio_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#audio_channel MpsProcessMediaOperation#audio_channel}
   */
   readonly audioChannel?: number;
   /**
   * Audio stream bitrate in Kbps. Value range: 0 and [26, 256].If the value is 0, the bitrate of the audio stream will be the same as that of the original audio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
   */
   readonly bitrate: number;
   /**
   * Audio stream codec.When the outer `Container` parameter is `mp3`, the valid value is:libmp3lame.When the outer `Container` parameter is `ogg` or `flac`, the valid value is:flac.When the outer `Container` parameter is `m4a`, the valid values include:libfdk_aac;libmp3lame;ac3.When the outer `Container` parameter is `mp4` or `flv`, the valid values include:libfdk_aac: more suitable for mp4;libmp3lame: more suitable for flv.When the outer `Container` parameter is `hls`, the valid values include:libfdk_aac;libmp3lame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
   */
   readonly codec: string;
   /**
   * Audio stream sample rate. Valid values:32,00044,10048,000In Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sample_rate MpsProcessMediaOperation#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sample_rate MpsProcessMediaOperation#sample_rate}
   */
   readonly sampleRate: number;
 }
@@ -15696,13 +15696,13 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawPara
   /**
   * Maximum bitrate, which is valid when `Type` is `TESHD`.If this parameter is left empty or 0 is entered, there will be no upper limit for bitrate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#max_video_bitrate MpsProcessMediaOperation#max_video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#max_video_bitrate MpsProcessMediaOperation#max_video_bitrate}
   */
   readonly maxVideoBitrate?: number;
   /**
   * TESHD type. Valid values:TEHD-100: TESHD-100.If this parameter is left empty, TESHD will not be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
 }
@@ -15814,55 +15814,55 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawPara
   /**
   * The video bitrate (Kbps). Value range: 0 and [128, 35000].If the value is 0, the bitrate of the video will be the same as that of the source video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bitrate MpsProcessMediaOperation#bitrate}
   */
   readonly bitrate: number;
   /**
   * The video codec. Valid values:`libx264`: H.264`libx265`: H.265`av1`: AOMedia Video 1Note: You must specify a resolution (not higher than 640 x 480) if the H.265 codec is used.Note: You can only use the AOMedia Video 1 codec for MP4 files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#codec MpsProcessMediaOperation#codec}
   */
   readonly codec: string;
   /**
   * The fill mode, which indicates how a video is resized when the video's original aspect ratio is different from the target aspect ratio. Valid values:stretch: Stretch the image frame by frame to fill the entire screen. The video image may become squashed or stretched after transcoding.black: Keep the image&#39;s original aspect ratio and fill the blank space with black bars.white: Keep the image's original aspect ratio and fill the blank space with white bars.gauss: Keep the image's original aspect ratio and apply Gaussian blur to the blank space.Default value: black.Note: Only `stretch` and `black` are supported for adaptive bitrate streaming.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#fill_type MpsProcessMediaOperation#fill_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#fill_type MpsProcessMediaOperation#fill_type}
   */
   readonly fillType?: string;
   /**
   * The video frame rate (Hz). Value range: [0, 100].If the value is 0, the frame rate will be the same as that of the source video.Note: For adaptive bitrate streaming, the value range of this parameter is [0, 60].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#fps MpsProcessMediaOperation#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#fps MpsProcessMediaOperation#fps}
   */
   readonly fps: number;
   /**
   * Frame interval between I keyframes. Value range: 0 and [1,100000].If this parameter is 0 or left empty, the system will automatically set the GOP length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#gop MpsProcessMediaOperation#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#gop MpsProcessMediaOperation#gop}
   */
   readonly gop?: number;
   /**
   * Maximum value of the height (or short side) of a video stream in px. Value range: 0 and [128, 4,096].If both `Width` and `Height` are 0, the resolution will be the same as that of the source video;If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled;If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled;If both `Width` and `Height` are not 0, the custom resolution will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: number;
   /**
   * Resolution adaption. Valid values:open: Enabled. When resolution adaption is enabled, `Width` indicates the long side of a video, while `Height` indicates the short side.close: Disabled. When resolution adaption is disabled, `Width` indicates the width of a video, while `Height` indicates the height.Default value: open.Note: When resolution adaption is enabled, `Width` cannot be smaller than `Height`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#resolution_adaptive MpsProcessMediaOperation#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#resolution_adaptive MpsProcessMediaOperation#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The control factor of video constant bitrate. Value range: [1, 51]If this parameter is specified, CRF (a bitrate control method) will be used for transcoding. (Video bitrate will no longer take effect.)It is not recommended to specify this parameter if there are no special requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#vcrf MpsProcessMediaOperation#vcrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#vcrf MpsProcessMediaOperation#vcrf}
   */
   readonly vcrf?: number;
   /**
   * Maximum value of the width (or long side) of a video stream in px. Value range: 0 and [128, 4,096].If both `Width` and `Height` are 0, the resolution will be the same as that of the source video;If `Width` is 0, but `Height` is not 0, `Width` will be proportionally scaled;If `Width` is not 0, but `Height` is 0, `Height` will be proportionally scaled;If both `Width` and `Height` are not 0, the custom resolution will be used.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: number;
 }
@@ -16171,37 +16171,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawPara
   /**
   * Container. Valid values: mp4; flv; hls; mp3; flac; ogg; m4a. Among them, mp3, flac, ogg, and m4a are for audio files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#container MpsProcessMediaOperation#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#container MpsProcessMediaOperation#container}
   */
   readonly container: string;
   /**
   * Whether to remove audio data. Valid values:0: retain;1: remove.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#remove_audio MpsProcessMediaOperation#remove_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#remove_audio MpsProcessMediaOperation#remove_audio}
   */
   readonly removeAudio?: number;
   /**
   * Whether to remove video data. Valid values:0: retain;1: remove.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#remove_video MpsProcessMediaOperation#remove_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#remove_video MpsProcessMediaOperation#remove_video}
   */
   readonly removeVideo?: number;
   /**
   * audio_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#audio_template MpsProcessMediaOperation#audio_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#audio_template MpsProcessMediaOperation#audio_template}
   */
   readonly audioTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawParameterAudioTemplate;
   /**
   * tehd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#tehd_config MpsProcessMediaOperation#tehd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#tehd_config MpsProcessMediaOperation#tehd_config}
   */
   readonly tehdConfig?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawParameterTehdConfig;
   /**
   * video_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#video_template MpsProcessMediaOperation#video_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#video_template MpsProcessMediaOperation#video_template}
   */
   readonly videoTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawParameterVideoTemplate;
 }
@@ -16429,19 +16429,19 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object MpsProcessMediaOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region: string;
 }
@@ -16576,31 +16576,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_object MpsProcessMediaOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -16793,7 +16793,7 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url MpsProcessMediaOperation#url}
   */
   readonly url: string;
 }
@@ -16876,25 +16876,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * The input type. Valid values:`COS`: A COS bucket address. `URL`: A URL. `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_input_info MpsProcessMediaOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameterImageTemplateImageContentCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_input_info MpsProcessMediaOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameterImageTemplateImageContentS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#url_input_info MpsProcessMediaOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameterImageTemplateImageContentUrlInputInfo;
 }
@@ -17064,25 +17064,25 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * Watermark height. % and px formats are supported:If the string ends in %, the `Height` of the watermark will be the specified percentage of the video height; for example, `10%` means that `Height` is 10% of the video height;If the string ends in px, the `Height` of the watermark will be in px; for example, `100px` means that `Height` is 100 px.Default value: 0 px, which means that `Height` will be proportionally scaled according to the aspect ratio of the original watermark image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#height MpsProcessMediaOperation#height}
   */
   readonly height?: string;
   /**
   * Repeat type of an animated watermark. Valid values:`once`: no longer appears after watermark playback ends.`repeat_last_frame`: stays on the last frame after watermark playback ends.`repeat` (default): repeats the playback until the video ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#repeat_type MpsProcessMediaOperation#repeat_type}
   */
   readonly repeatType?: string;
   /**
   * Watermark width. % and px formats are supported:If the string ends in %, the `Width` of the watermark will be the specified percentage of the video width; for example, `10%` means that `Width` is 10% of the video width;If the string ends in px, the `Width` of the watermark will be in px; for example, `100px` means that `Width` is 100 px.Default value: 10%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#width MpsProcessMediaOperation#width}
   */
   readonly width?: string;
   /**
   * image_content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_content MpsProcessMediaOperation#image_content}
   */
   readonly imageContent: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameterImageTemplateImageContent;
 }
@@ -17252,31 +17252,31 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * Origin position, which currently can only be:TopLeft: the origin of coordinates is in the top-left corner of the video, and the origin of the watermark is in the top-left corner of the image or text.Default value: TopLeft.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#coordinate_origin MpsProcessMediaOperation#coordinate_origin}
   */
   readonly coordinateOrigin?: string;
   /**
   * Watermark type. Valid values:image: image watermark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * The horizontal position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `XPos` of the watermark will be the specified percentage of the video width; for example, `10%` means that `XPos` is 10% of the video width;If the string ends in px, the `XPos` of the watermark will be the specified px; for example, `100px` means that `XPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#x_pos MpsProcessMediaOperation#x_pos}
   */
   readonly xPos?: string;
   /**
   * The vertical position of the origin of the watermark relative to the origin of coordinates of the video. % and px formats are supported:If the string ends in %, the `YPos` of the watermark will be the specified percentage of the video height; for example, `10%` means that `YPos` is 10% of the video height;If the string ends in px, the `YPos` of the watermark will be the specified px; for example, `100px` means that `YPos` is 100 px.Default value: 0 px.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#y_pos MpsProcessMediaOperation#y_pos}
   */
   readonly yPos?: string;
   /**
   * image_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_template MpsProcessMediaOperation#image_template}
   */
   readonly imageTemplate?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameterImageTemplate;
 }
@@ -17475,37 +17475,37 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWaterma
   /**
   * ID of a watermarking template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a watermark in seconds.If this parameter is left empty or 0 is entered, the watermark will exist till the last video frame;If this value is greater than 0 (e.g., n), the watermark will exist till second n;If this value is smaller than 0 (e.g., -n), the watermark will exist till second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Start time offset of a watermark in seconds. If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame.If this parameter is left empty or 0 is entered, the watermark will appear upon the first video frame;If this value is greater than 0 (e.g., n), the watermark will appear at second n after the first video frame;If this value is smaller than 0 (e.g., -n), the watermark will appear at second n before the last video frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * SVG content of up to 2,000,000 characters. This field is required only when the watermark type is `SVG`.SVG watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#svg_content MpsProcessMediaOperation#svg_content}
   */
   readonly svgContent?: string;
   /**
   * Text content of up to 100 characters. This field is required only when the watermark type is text.Text watermark is not available for screenshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#text_content MpsProcessMediaOperation#text_content}
   */
   readonly textContent?: string;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
   */
   readonly rawParameter?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSetRawParameter;
 }
@@ -17765,73 +17765,73 @@ export interface MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSet {
   /**
   * ID of a video transcoding template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#definition MpsProcessMediaOperation#definition}
   */
   readonly definition: number;
   /**
   * End time offset of a transcoded video, in seconds.If this parameter is left empty or set to 0, the transcoded video will end at the same time as the original video.If this parameter is set to a positive number (n for example), the transcoded video will end at the nth second of the original video.If this parameter is set to a negative number (-n for example), the transcoded video will end at the nth second before the end of the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#end_time_offset MpsProcessMediaOperation#end_time_offset}
   */
   readonly endTimeOffset?: number;
   /**
   * Path to a primary output file, which can be a relative path or an absolute path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_transcode_{definition}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_object_path MpsProcessMediaOperation#output_object_path}
   */
   readonly outputObjectPath?: string;
   /**
   * Path to an output file part (the path to ts during transcoding to HLS), which can only be a relative path. If this parameter is left empty, the following relative path will be used by default: `{inputName}_transcode_{definition}_{number}.{format}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#segment_object_name MpsProcessMediaOperation#segment_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#segment_object_name MpsProcessMediaOperation#segment_object_name}
   */
   readonly segmentObjectName?: string;
   /**
   * Start time offset of a transcoded video, in seconds.If this parameter is left empty or set to 0, the transcoded video will start at the same time as the original video.If this parameter is set to a positive number (n for example), the transcoded video will start at the nth second of the original video.If this parameter is set to a negative number (-n for example), the transcoded video will start at the nth second before the end of the original video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#start_time_offset MpsProcessMediaOperation#start_time_offset}
   */
   readonly startTimeOffset?: number;
   /**
   * head_tail_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#head_tail_parameter MpsProcessMediaOperation#head_tail_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#head_tail_parameter MpsProcessMediaOperation#head_tail_parameter}
   */
   readonly headTailParameter?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetHeadTailParameter;
   /**
   * mosaic_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#mosaic_set MpsProcessMediaOperation#mosaic_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#mosaic_set MpsProcessMediaOperation#mosaic_set}
   */
   readonly mosaicSet?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetMosaicSet[] | cdktf.IResolvable;
   /**
   * object_number_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#object_number_format MpsProcessMediaOperation#object_number_format}
   */
   readonly objectNumberFormat?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetObjectNumberFormat;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#output_storage MpsProcessMediaOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOutputStorage;
   /**
   * override_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#override_parameter MpsProcessMediaOperation#override_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#override_parameter MpsProcessMediaOperation#override_parameter}
   */
   readonly overrideParameter?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetOverrideParameter;
   /**
   * raw_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#raw_parameter MpsProcessMediaOperation#raw_parameter}
   */
   readonly rawParameter?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetRawParameter;
   /**
   * watermark_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#watermark_set MpsProcessMediaOperation#watermark_set}
   */
   readonly watermarkSet?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSetWatermarkSet[] | cdktf.IResolvable;
 }
@@ -18265,37 +18265,37 @@ export interface MpsProcessMediaOperationMediaProcessTask {
   /**
   * adaptive_dynamic_streaming_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#adaptive_dynamic_streaming_task_set MpsProcessMediaOperation#adaptive_dynamic_streaming_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#adaptive_dynamic_streaming_task_set MpsProcessMediaOperation#adaptive_dynamic_streaming_task_set}
   */
   readonly adaptiveDynamicStreamingTaskSet?: MpsProcessMediaOperationMediaProcessTaskAdaptiveDynamicStreamingTaskSet[] | cdktf.IResolvable;
   /**
   * animated_graphic_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#animated_graphic_task_set MpsProcessMediaOperation#animated_graphic_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#animated_graphic_task_set MpsProcessMediaOperation#animated_graphic_task_set}
   */
   readonly animatedGraphicTaskSet?: MpsProcessMediaOperationMediaProcessTaskAnimatedGraphicTaskSet[] | cdktf.IResolvable;
   /**
   * image_sprite_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#image_sprite_task_set MpsProcessMediaOperation#image_sprite_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#image_sprite_task_set MpsProcessMediaOperation#image_sprite_task_set}
   */
   readonly imageSpriteTaskSet?: MpsProcessMediaOperationMediaProcessTaskImageSpriteTaskSet[] | cdktf.IResolvable;
   /**
   * sample_snapshot_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sample_snapshot_task_set MpsProcessMediaOperation#sample_snapshot_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sample_snapshot_task_set MpsProcessMediaOperation#sample_snapshot_task_set}
   */
   readonly sampleSnapshotTaskSet?: MpsProcessMediaOperationMediaProcessTaskSampleSnapshotTaskSet[] | cdktf.IResolvable;
   /**
   * snapshot_by_time_offset_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#snapshot_by_time_offset_task_set MpsProcessMediaOperation#snapshot_by_time_offset_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#snapshot_by_time_offset_task_set MpsProcessMediaOperation#snapshot_by_time_offset_task_set}
   */
   readonly snapshotByTimeOffsetTaskSet?: MpsProcessMediaOperationMediaProcessTaskSnapshotByTimeOffsetTaskSet[] | cdktf.IResolvable;
   /**
   * transcode_task_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#transcode_task_set MpsProcessMediaOperation#transcode_task_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#transcode_task_set MpsProcessMediaOperation#transcode_task_set}
   */
   readonly transcodeTaskSet?: MpsProcessMediaOperationMediaProcessTaskTranscodeTaskSet[] | cdktf.IResolvable;
 }
@@ -18526,13 +18526,13 @@ export interface MpsProcessMediaOperationOutputStorageCosOutputStorage {
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#bucket MpsProcessMediaOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#region MpsProcessMediaOperation#region}
   */
   readonly region?: string;
 }
@@ -18647,25 +18647,25 @@ export interface MpsProcessMediaOperationOutputStorageS3OutputStorage {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_bucket MpsProcessMediaOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_region MpsProcessMediaOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -18832,19 +18832,19 @@ export interface MpsProcessMediaOperationOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS`&gt;AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#type MpsProcessMediaOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cos_output_storage MpsProcessMediaOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessMediaOperationOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_output_storage MpsProcessMediaOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessMediaOperationOutputStorageS3OutputStorage;
 }
@@ -18985,25 +18985,25 @@ export interface MpsProcessMediaOperationTaskNotifyConfigAwsSqa {
   /**
   * The key ID required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_id MpsProcessMediaOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#s3_secret_key MpsProcessMediaOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * The name of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sqa_queue_name MpsProcessMediaOperation#sqa_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sqa_queue_name MpsProcessMediaOperation#sqa_queue_name}
   */
   readonly sqaQueueName: string;
   /**
   * The region of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#sqa_region MpsProcessMediaOperation#sqa_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#sqa_region MpsProcessMediaOperation#sqa_region}
   */
   readonly sqaRegion: string;
 }
@@ -19170,49 +19170,49 @@ export interface MpsProcessMediaOperationTaskNotifyConfig {
   /**
   * The CMQ or TDMQ-CMQ model. Valid values: Queue, Topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cmq_model MpsProcessMediaOperation#cmq_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cmq_model MpsProcessMediaOperation#cmq_model}
   */
   readonly cmqModel?: string;
   /**
   * The CMQ or TDMQ-CMQ region, such as `sh` (Shanghai) or `bj` (Beijing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#cmq_region MpsProcessMediaOperation#cmq_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#cmq_region MpsProcessMediaOperation#cmq_region}
   */
   readonly cmqRegion?: string;
   /**
   * Workflow notification method. Valid values: Finish, Change. If this parameter is left empty, `Finish` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#notify_mode MpsProcessMediaOperation#notify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#notify_mode MpsProcessMediaOperation#notify_mode}
   */
   readonly notifyMode?: string;
   /**
   * The notification type. Valid values:`CMQ`: This value is no longer used. Please use `TDMQ-CMQ` instead.`TDMQ-CMQ`: Message queue`URL`: If `NotifyType` is set to `URL`, HTTP callbacks are sent to the URL specified by `NotifyUrl`. HTTP and JSON are used for the callbacks. The packet contains the response parameters of the `ParseNotification` API.`SCF`: This notification type is not recommended. You need to configure it in the SCF console.`AWS-SQS`: AWS queue. This type is only supported for AWS tasks, and the queue must be in the same region as the AWS bucket.&lt;font color=red&gt;Note: If you do not pass this parameter or pass in an empty string, `CMQ` will be used. To use a different notification type, specify this parameter accordingly.&lt;/font&gt;.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#notify_type MpsProcessMediaOperation#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#notify_type MpsProcessMediaOperation#notify_type}
   */
   readonly notifyType?: string;
   /**
   * HTTP callback URL, required if `NotifyType` is set to `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#notify_url MpsProcessMediaOperation#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#notify_url MpsProcessMediaOperation#notify_url}
   */
   readonly notifyUrl?: string;
   /**
   * The CMQ or TDMQ-CMQ queue to receive notifications. This parameter is valid when `CmqModel` is `Queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#queue_name MpsProcessMediaOperation#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#queue_name MpsProcessMediaOperation#queue_name}
   */
   readonly queueName?: string;
   /**
   * The CMQ or TDMQ-CMQ topic to receive notifications. This parameter is valid when `CmqModel` is `Topic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#topic_name MpsProcessMediaOperation#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#topic_name MpsProcessMediaOperation#topic_name}
   */
   readonly topicName?: string;
   /**
   * aws_sqa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#aws_sqa MpsProcessMediaOperation#aws_sqa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#aws_sqa MpsProcessMediaOperation#aws_sqa}
   */
   readonly awsSqa?: MpsProcessMediaOperationTaskNotifyConfigAwsSqa;
 }
@@ -19499,7 +19499,7 @@ export class MpsProcessMediaOperationTaskNotifyConfigOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation tencentcloud_mps_process_media_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation tencentcloud_mps_process_media_operation}
 */
 export class MpsProcessMediaOperation extends cdktf.TerraformResource {
 
@@ -19515,7 +19515,7 @@ export class MpsProcessMediaOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsProcessMediaOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsProcessMediaOperation to import
-  * @param importFromId The id of the existing MpsProcessMediaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsProcessMediaOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsProcessMediaOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -19527,7 +19527,7 @@ export class MpsProcessMediaOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mps_process_media_operation tencentcloud_mps_process_media_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mps_process_media_operation tencentcloud_mps_process_media_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -19538,8 +19538,8 @@ export class MpsProcessMediaOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_process_media_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

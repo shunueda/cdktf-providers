@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,31 +17,31 @@ export interface AutoUserProvisioningRuleConfig extends cdktf.TerraformMetaArgum
   * 	6) `Group CONTAINS ALL of these keywords` - User's group must contain all the specified keywords
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule#condition AutoUserProvisioningRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule#condition AutoUserProvisioningRule#condition}
   */
   readonly condition: string;
   /**
   * The name of the auto user provisioning rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule#name AutoUserProvisioningRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule#name AutoUserProvisioningRule#name}
   */
   readonly name: string;
   /**
   * List of Clumio organizational unit identifiers to be assigned to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule#organizational_unit_ids AutoUserProvisioningRule#organizational_unit_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule#organizational_unit_ids AutoUserProvisioningRule#organizational_unit_ids}
   */
   readonly organizationalUnitIds: string[];
   /**
   * Identifier of the Clumio role to be assigned to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule#role_id AutoUserProvisioningRule#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule#role_id AutoUserProvisioningRule#role_id}
   */
   readonly roleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule clumio_auto_user_provisioning_rule}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule clumio_auto_user_provisioning_rule}
 */
 export class AutoUserProvisioningRule extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AutoUserProvisioningRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoUserProvisioningRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoUserProvisioningRule to import
-  * @param importFromId The id of the existing AutoUserProvisioningRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoUserProvisioningRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoUserProvisioningRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AutoUserProvisioningRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/auto_user_provisioning_rule clumio_auto_user_provisioning_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/auto_user_provisioning_rule clumio_auto_user_provisioning_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AutoUserProvisioningRule extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_auto_user_provisioning_rule',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

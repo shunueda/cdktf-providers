@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DbbrainModifyDiagDbInstanceOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#id DbbrainModifyDiagDbInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#id DbbrainModifyDiagDbInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DbbrainModifyDiagDbInstanceOperationConfig extends cdktf.Terraf
   /**
   * Specifies the ID of the instance whose inspection status is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#instance_ids DbbrainModifyDiagDbInstanceOperation#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#instance_ids DbbrainModifyDiagDbInstanceOperation#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * Service product type, supported values include: mysql - cloud database MySQL, cynosdb - cloud database CynosDB for MySQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#product DbbrainModifyDiagDbInstanceOperation#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#product DbbrainModifyDiagDbInstanceOperation#product}
   */
   readonly product: string;
   /**
   * Effective instance region, the value is All, which means all regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#regions DbbrainModifyDiagDbInstanceOperation#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#regions DbbrainModifyDiagDbInstanceOperation#regions}
   */
   readonly regions?: string;
   /**
   * instance_confs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#instance_confs DbbrainModifyDiagDbInstanceOperation#instance_confs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#instance_confs DbbrainModifyDiagDbInstanceOperation#instance_confs}
   */
   readonly instanceConfs: DbbrainModifyDiagDbInstanceOperationInstanceConfs;
 }
@@ -43,13 +43,13 @@ export interface DbbrainModifyDiagDbInstanceOperationInstanceConfs {
   /**
   * Database inspection switch, Yes/No.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#daily_inspection DbbrainModifyDiagDbInstanceOperation#daily_inspection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#daily_inspection DbbrainModifyDiagDbInstanceOperation#daily_inspection}
   */
   readonly dailyInspection?: string;
   /**
   * Instance overview switch, Yes/No.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#overview_display DbbrainModifyDiagDbInstanceOperation#overview_display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#overview_display DbbrainModifyDiagDbInstanceOperation#overview_display}
   */
   readonly overviewDisplay?: string;
 }
@@ -162,7 +162,7 @@ export class DbbrainModifyDiagDbInstanceOperationInstanceConfsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation tencentcloud_dbbrain_modify_diag_db_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation tencentcloud_dbbrain_modify_diag_db_instance_operation}
 */
 export class DbbrainModifyDiagDbInstanceOperation extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class DbbrainModifyDiagDbInstanceOperation extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a DbbrainModifyDiagDbInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbbrainModifyDiagDbInstanceOperation to import
-  * @param importFromId The id of the existing DbbrainModifyDiagDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbbrainModifyDiagDbInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbbrainModifyDiagDbInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class DbbrainModifyDiagDbInstanceOperation extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/dbbrain_modify_diag_db_instance_operation tencentcloud_dbbrain_modify_diag_db_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/dbbrain_modify_diag_db_instance_operation tencentcloud_dbbrain_modify_diag_db_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class DbbrainModifyDiagDbInstanceOperation extends cdktf.TerraformResourc
       terraformResourceType: 'tencentcloud_dbbrain_modify_diag_db_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

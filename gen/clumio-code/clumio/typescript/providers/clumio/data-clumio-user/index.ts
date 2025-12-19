@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataClumioUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user#name DataClumioUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user#name DataClumioUser#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the role assigned to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user#role_id DataClumioUser#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user#role_id DataClumioUser#role_id}
   */
   readonly roleId?: string;
 }
@@ -188,7 +188,7 @@ export class DataClumioUserUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user clumio_user}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user clumio_user}
 */
 export class DataClumioUser extends cdktf.TerraformDataSource {
 
@@ -204,7 +204,7 @@ export class DataClumioUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataClumioUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioUser to import
-  * @param importFromId The id of the existing DataClumioUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DataClumioUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/user clumio_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/user clumio_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DataClumioUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_user',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

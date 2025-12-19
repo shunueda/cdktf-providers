@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProcessAvailabilityConfig extends cdktf.TerraformMetaArguments 
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#enabled ProcessAvailability#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#enabled ProcessAvailability#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#id ProcessAvailability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#id ProcessAvailability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface ProcessAvailabilityConfig extends cdktf.TerraformMetaArguments 
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#insert_after ProcessAvailability#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#insert_after ProcessAvailability#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Specify a minimum number of processes matching the monitoring rule. If it's not satisfied, an alert will open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#minimum_processes ProcessAvailability#minimum_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#minimum_processes ProcessAvailability#minimum_processes}
   */
   readonly minimumProcesses?: number;
   /**
   * Monitoring rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#name ProcessAvailability#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#name ProcessAvailability#name}
   */
   readonly name: string;
   /**
   * Select the operating systems on which the monitoring rule should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#operating_system ProcessAvailability#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#operating_system ProcessAvailability#operating_system}
   */
   readonly operatingSystem?: string[];
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#scope ProcessAvailability#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#scope ProcessAvailability#scope}
   */
   readonly scope?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#metadata ProcessAvailability#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#metadata ProcessAvailability#metadata}
   */
   readonly metadata?: ProcessAvailabilityMetadata;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#rules ProcessAvailability#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#rules ProcessAvailability#rules}
   */
   readonly rules?: ProcessAvailabilityRules;
 }
@@ -67,13 +67,13 @@ export interface ProcessAvailabilityMetadataItem {
   /**
   * Type 'dt.' for key hints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#key ProcessAvailability#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#key ProcessAvailability#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#value ProcessAvailability#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#value ProcessAvailability#value}
   */
   readonly value: string;
 }
@@ -214,7 +214,7 @@ export interface ProcessAvailabilityMetadata {
   /**
   * item block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#item ProcessAvailability#item}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#item ProcessAvailability#item}
   */
   readonly item: ProcessAvailabilityMetadataItem[] | cdktf.IResolvable;
 }
@@ -297,7 +297,7 @@ export interface ProcessAvailabilityRulesRuleHostMetadataCondition {
   /**
   * When enabled, the condition requires a metadata key to exist and match the constraints; when disabled, the key is optional but must still match the constrains if it is present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#key_must_exist ProcessAvailability#key_must_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#key_must_exist ProcessAvailability#key_must_exist}
   */
   readonly keyMustExist?: boolean | cdktf.IResolvable;
   /**
@@ -315,13 +315,13 @@ export interface ProcessAvailabilityRulesRuleHostMetadataCondition {
   * 
   * Brackets **(** and **)** that are part of the matched property **must be escaped with a tilde (~)**
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#metadata_condition ProcessAvailability#metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#metadata_condition ProcessAvailability#metadata_condition}
   */
   readonly metadataCondition: string;
   /**
   * Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#metadata_key ProcessAvailability#metadata_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#metadata_key ProcessAvailability#metadata_key}
   */
   readonly metadataKey: string;
 }
@@ -466,25 +466,25 @@ export interface ProcessAvailabilityRulesRule {
   * 
   * For more details, see [Process availability](https://dt-url.net/v923x37).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#condition ProcessAvailability#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#condition ProcessAvailability#condition}
   */
   readonly condition?: string;
   /**
   * Possible Values: `CommandLine`, `Executable`, `ExecutablePath`, `User`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#property ProcessAvailability#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#property ProcessAvailability#property}
   */
   readonly property?: string;
   /**
   * Possible Values: `RuleTypeHost`, `RuleTypeProcess`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#rule_type ProcessAvailability#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#rule_type ProcessAvailability#rule_type}
   */
   readonly ruleType?: string;
   /**
   * host_metadata_condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#host_metadata_condition ProcessAvailability#host_metadata_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#host_metadata_condition ProcessAvailability#host_metadata_condition}
   */
   readonly hostMetadataCondition?: ProcessAvailabilityRulesRuleHostMetadataCondition;
 }
@@ -689,7 +689,7 @@ export interface ProcessAvailabilityRules {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#rule ProcessAvailability#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#rule ProcessAvailability#rule}
   */
   readonly rule: ProcessAvailabilityRulesRule[] | cdktf.IResolvable;
 }
@@ -770,7 +770,7 @@ export class ProcessAvailabilityRulesOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability dynatrace_process_availability}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability dynatrace_process_availability}
 */
 export class ProcessAvailability extends cdktf.TerraformResource {
 
@@ -786,7 +786,7 @@ export class ProcessAvailability extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessAvailability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessAvailability to import
-  * @param importFromId The id of the existing ProcessAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessAvailability that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessAvailability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -798,7 +798,7 @@ export class ProcessAvailability extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_availability dynatrace_process_availability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_availability dynatrace_process_availability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -809,8 +809,8 @@ export class ProcessAvailability extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_process_availability',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

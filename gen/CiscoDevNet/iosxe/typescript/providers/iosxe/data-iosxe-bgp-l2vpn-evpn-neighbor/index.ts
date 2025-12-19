@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,17 +8,17 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpL2VpnEvpnNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor#asn DataIosxeBgpL2VpnEvpnNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor#asn DataIosxeBgpL2VpnEvpnNeighbor#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor#device DataIosxeBgpL2VpnEvpnNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor#device DataIosxeBgpL2VpnEvpnNeighbor#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor#ip DataIosxeBgpL2VpnEvpnNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor#ip DataIosxeBgpL2VpnEvpnNeighbor#ip}
   */
   readonly ip: string;
 }
@@ -104,7 +104,7 @@ export class DataIosxeBgpL2VpnEvpnNeighborRouteMapsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
 */
 export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgpL2VpnEvpnNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgpL2VpnEvpnNeighbor to import
-  * @param importFromId The id of the existing DataIosxeBgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgpL2VpnEvpnNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataIosxeBgpL2VpnEvpnNeighbor extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp_l2vpn_evpn_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

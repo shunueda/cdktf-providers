@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/teams
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/teams
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -110,7 +110,7 @@ export class DataVantageTeamsTeamsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/teams vantage_teams}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/teams vantage_teams}
 */
 export class DataVantageTeams extends cdktf.TerraformDataSource {
 
@@ -126,7 +126,7 @@ export class DataVantageTeams extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageTeams resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageTeams to import
-  * @param importFromId The id of the existing DataVantageTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/teams#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageTeams that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/teams#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageTeams to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class DataVantageTeams extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/teams vantage_teams} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/teams vantage_teams} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class DataVantageTeams extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_teams',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

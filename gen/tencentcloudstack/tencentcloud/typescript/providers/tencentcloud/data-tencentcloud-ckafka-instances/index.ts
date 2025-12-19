@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudCkafkaInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#id DataTencentcloudCkafkaInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#id DataTencentcloudCkafkaInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataTencentcloudCkafkaInstancesConfig extends cdktf.TerraformMe
   /**
   * Filter by instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#instance_ids DataTencentcloudCkafkaInstances#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#instance_ids DataTencentcloudCkafkaInstances#instance_ids}
   */
   readonly instanceIds?: string[];
   /**
   * The number of pages, default is `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#limit DataTencentcloudCkafkaInstances#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#limit DataTencentcloudCkafkaInstances#limit}
   */
   readonly limit?: number;
   /**
   * The page start offset, default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#offset DataTencentcloudCkafkaInstances#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#offset DataTencentcloudCkafkaInstances#offset}
   */
   readonly offset?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#result_output_file DataTencentcloudCkafkaInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#result_output_file DataTencentcloudCkafkaInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Filter by instance name, support fuzzy query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#search_word DataTencentcloudCkafkaInstances#search_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#search_word DataTencentcloudCkafkaInstances#search_word}
   */
   readonly searchWord?: string;
   /**
   * (Filter Criteria) The status of the instance. 0: Create, 1: Run, 2: Delete, do not fill the default return all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#status DataTencentcloudCkafkaInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#status DataTencentcloudCkafkaInstances#status}
   */
   readonly status?: number[];
   /**
   * Matches the tag key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#tag_key DataTencentcloudCkafkaInstances#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#tag_key DataTencentcloudCkafkaInstances#tag_key}
   */
   readonly tagKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#filters DataTencentcloudCkafkaInstances#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#filters DataTencentcloudCkafkaInstances#filters}
   */
   readonly filters?: DataTencentcloudCkafkaInstancesFilters[] | cdktf.IResolvable;
 }
@@ -449,13 +449,13 @@ export interface DataTencentcloudCkafkaInstancesFilters {
   /**
   * The field that needs to be filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#name DataTencentcloudCkafkaInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#name DataTencentcloudCkafkaInstances#name}
   */
   readonly name: string;
   /**
   * The filtered value of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#values DataTencentcloudCkafkaInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#values DataTencentcloudCkafkaInstances#values}
   */
   readonly values: string[];
 }
@@ -594,7 +594,7 @@ export class DataTencentcloudCkafkaInstancesFiltersList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances tencentcloud_ckafka_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances tencentcloud_ckafka_instances}
 */
 export class DataTencentcloudCkafkaInstances extends cdktf.TerraformDataSource {
 
@@ -610,7 +610,7 @@ export class DataTencentcloudCkafkaInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCkafkaInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCkafkaInstances to import
-  * @param importFromId The id of the existing DataTencentcloudCkafkaInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCkafkaInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCkafkaInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -622,7 +622,7 @@ export class DataTencentcloudCkafkaInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ckafka_instances tencentcloud_ckafka_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ckafka_instances tencentcloud_ckafka_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -633,8 +633,8 @@ export class DataTencentcloudCkafkaInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_ckafka_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

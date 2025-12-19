@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "outscale": "1.2.1"
+    "outscale": "1.3.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CamSetPolicyVersionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config#id CamSetPolicyVersionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config#id CamSetPolicyVersionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CamSetPolicyVersionConfigConfig extends cdktf.TerraformMetaArgu
   /**
   * Policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config#policy_id CamSetPolicyVersionConfig#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config#policy_id CamSetPolicyVersionConfig#policy_id}
   */
   readonly policyId: number;
   /**
   * The policy version number, which can be obtained from ListPolicyVersions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config#version_id CamSetPolicyVersionConfig#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config#version_id CamSetPolicyVersionConfig#version_id}
   */
   readonly versionId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config tencentcloud_cam_set_policy_version_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config tencentcloud_cam_set_policy_version_config}
 */
 export class CamSetPolicyVersionConfig extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CamSetPolicyVersionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CamSetPolicyVersionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CamSetPolicyVersionConfig to import
-  * @param importFromId The id of the existing CamSetPolicyVersionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CamSetPolicyVersionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CamSetPolicyVersionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CamSetPolicyVersionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cam_set_policy_version_config tencentcloud_cam_set_policy_version_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cam_set_policy_version_config tencentcloud_cam_set_policy_version_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CamSetPolicyVersionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cam_set_policy_version_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

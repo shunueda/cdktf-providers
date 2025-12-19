@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OneagentSideMaskingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#id OneagentSideMasking#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#id OneagentSideMasking#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface OneagentSideMaskingConfig extends cdktf.TerraformMetaArguments 
   /**
   * Exclude email addresses from URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#is_email_masking_enabled OneagentSideMasking#is_email_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#is_email_masking_enabled OneagentSideMasking#is_email_masking_enabled}
   */
   readonly isEmailMaskingEnabled: boolean | cdktf.IResolvable;
   /**
   * Exclude IBANs and payment card numbers from URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#is_financial_masking_enabled OneagentSideMasking#is_financial_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#is_financial_masking_enabled OneagentSideMasking#is_financial_masking_enabled}
   */
   readonly isFinancialMaskingEnabled: boolean | cdktf.IResolvable;
   /**
   * Exclude hexadecimal IDs and consecutive numbers above 5 digits from URLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#is_numbers_masking_enabled OneagentSideMasking#is_numbers_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#is_numbers_masking_enabled OneagentSideMasking#is_numbers_masking_enabled}
   */
   readonly isNumbersMaskingEnabled: boolean | cdktf.IResolvable;
   /**
   * Exclude query parameters from URLs and web requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#is_query_masking_enabled OneagentSideMasking#is_query_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#is_query_masking_enabled OneagentSideMasking#is_query_masking_enabled}
   */
   readonly isQueryMaskingEnabled: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#process_group_id OneagentSideMasking#process_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#process_group_id OneagentSideMasking#process_group_id}
   */
   readonly processGroupId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking dynatrace_oneagent_side_masking}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking dynatrace_oneagent_side_masking}
 */
 export class OneagentSideMasking extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class OneagentSideMasking extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OneagentSideMasking resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OneagentSideMasking to import
-  * @param importFromId The id of the existing OneagentSideMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OneagentSideMasking that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OneagentSideMasking to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class OneagentSideMasking extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_side_masking dynatrace_oneagent_side_masking} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_side_masking dynatrace_oneagent_side_masking} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class OneagentSideMasking extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_oneagent_side_masking',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

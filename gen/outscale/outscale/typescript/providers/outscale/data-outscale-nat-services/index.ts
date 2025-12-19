@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleNatServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#id DataOutscaleNatServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#id DataOutscaleNatServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#nat_service_ids DataOutscaleNatServices#nat_service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#nat_service_ids DataOutscaleNatServices#nat_service_ids}
   */
   readonly natServiceIds?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#filter DataOutscaleNatServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#filter DataOutscaleNatServices#filter}
   */
   readonly filter?: DataOutscaleNatServicesFilter[] | cdktf.IResolvable;
 }
@@ -263,7 +263,7 @@ export class DataOutscaleNatServicesNatServicesOutputReference extends cdktf.Com
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleNatServicesNatServicesTagsList(this, "tags", false);
+  private _tags = new DataOutscaleNatServicesNatServicesTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }
@@ -289,11 +289,11 @@ export class DataOutscaleNatServicesNatServicesList extends cdktf.ComplexList {
 }
 export interface DataOutscaleNatServicesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#name DataOutscaleNatServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#name DataOutscaleNatServices#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#values DataOutscaleNatServices#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#values DataOutscaleNatServices#values}
   */
   readonly values: string[];
 }
@@ -432,7 +432,7 @@ export class DataOutscaleNatServicesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services outscale_nat_services}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services outscale_nat_services}
 */
 export class DataOutscaleNatServices extends cdktf.TerraformDataSource {
 
@@ -448,7 +448,7 @@ export class DataOutscaleNatServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleNatServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleNatServices to import
-  * @param importFromId The id of the existing DataOutscaleNatServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleNatServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleNatServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -460,7 +460,7 @@ export class DataOutscaleNatServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/nat_services outscale_nat_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/nat_services outscale_nat_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -471,8 +471,8 @@ export class DataOutscaleNatServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_nat_services',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

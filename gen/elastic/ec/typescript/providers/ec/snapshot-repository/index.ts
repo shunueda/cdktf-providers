@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SnapshotRepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Generic repository settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#generic SnapshotRepository#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#generic SnapshotRepository#generic}
   */
   readonly generic?: SnapshotRepositoryGeneric;
   /**
   * The name of the snapshot repository configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#name SnapshotRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#name SnapshotRepository#name}
   */
   readonly name: string;
   /**
   * S3 repository settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#s3 SnapshotRepository#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#s3 SnapshotRepository#s3}
   */
   readonly s3?: SnapshotRepositoryS3;
 }
@@ -30,13 +30,13 @@ export interface SnapshotRepositoryGeneric {
   /**
   * An arbitrary JSON object containing the repository settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#settings SnapshotRepository#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#settings SnapshotRepository#settings}
   */
   readonly settings: string;
   /**
   * Repository type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#type SnapshotRepository#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#type SnapshotRepository#type}
   */
   readonly type: string;
 }
@@ -155,43 +155,43 @@ export interface SnapshotRepositoryS3 {
   /**
   * An S3 access key. If set, the secret_key setting must also be specified. If unset, the client will use the instance or container role instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#access_key SnapshotRepository#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#access_key SnapshotRepository#access_key}
   */
   readonly accessKey?: string;
   /**
   * Name of the S3 bucket to use for snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#bucket SnapshotRepository#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#bucket SnapshotRepository#bucket}
   */
   readonly bucket: string;
   /**
   * The S3 service endpoint to connect to. This defaults to s3.amazonaws.com but the AWS documentation lists alternative S3 endpoints. If you are using an S3-compatible service then you should set this to the service’s endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#endpoint SnapshotRepository#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#endpoint SnapshotRepository#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to force the use of the path style access pattern. If true, the path style access pattern will be used. If false, the access pattern will be automatically determined by the AWS Java SDK (See AWS documentation for details). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#path_style_access SnapshotRepository#path_style_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#path_style_access SnapshotRepository#path_style_access}
   */
   readonly pathStyleAccess?: boolean | cdktf.IResolvable;
   /**
   * Allows specifying the signing region to use. Specifying this setting manually should not be necessary for most use cases. Generally, the SDK will correctly guess the signing region to use. It should be considered an expert level setting to support S3-compatible APIs that require v4 signatures and use a region other than the default us-east-1. Defaults to empty string which means that the SDK will try to automatically determine the correct signing region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#region SnapshotRepository#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#region SnapshotRepository#region}
   */
   readonly region?: string;
   /**
   * An S3 secret key. If set, the access_key setting must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#secret_key SnapshotRepository#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#secret_key SnapshotRepository#secret_key}
   */
   readonly secretKey?: string;
   /**
   * When set to true files are encrypted on server side using AES256 algorithm. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#server_side_encryption SnapshotRepository#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#server_side_encryption SnapshotRepository#server_side_encryption}
   */
   readonly serverSideEncryption?: boolean | cdktf.IResolvable;
 }
@@ -456,7 +456,7 @@ export class SnapshotRepositoryS3OutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository ec_snapshot_repository}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository ec_snapshot_repository}
 */
 export class SnapshotRepository extends cdktf.TerraformResource {
 
@@ -472,7 +472,7 @@ export class SnapshotRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnapshotRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnapshotRepository to import
-  * @param importFromId The id of the existing SnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnapshotRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class SnapshotRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/snapshot_repository ec_snapshot_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/snapshot_repository ec_snapshot_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class SnapshotRepository extends cdktf.TerraformResource {
       terraformResourceType: 'ec_snapshot_repository',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

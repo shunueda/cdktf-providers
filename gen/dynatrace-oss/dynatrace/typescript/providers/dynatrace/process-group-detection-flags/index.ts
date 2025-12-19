@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ProcessGroupDetectionFlagsConfig extends cdktf.TerraformMetaArg
   /**
   * In older versions, Node.js applications were distinguished based on their directory name, omitting the script name. Changing this setting may change the general handling of Node.js process groups. Leave unchanged if in doubt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#add_node_js_script_name ProcessGroupDetectionFlags#add_node_js_script_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#add_node_js_script_name ProcessGroupDetectionFlags#add_node_js_script_name}
   */
   readonly addNodeJsScriptName: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect separate Cassandra process groups based on the configured Cassandra cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_cassandra_clusters ProcessGroupDetectionFlags#auto_detect_cassandra_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_cassandra_clusters ProcessGroupDetectionFlags#auto_detect_cassandra_clusters}
   */
   readonly autoDetectCassandraClusters: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect Spring Boot process groups based on command line and applications' configuration files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_spring_boot ProcessGroupDetectionFlags#auto_detect_spring_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_spring_boot ProcessGroupDetectionFlags#auto_detect_spring_boot}
   */
   readonly autoDetectSpringBoot: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect separate TIBCO BusinessWorks process groups per engine property file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_tibco_container_edition_engines ProcessGroupDetectionFlags#auto_detect_tibco_container_edition_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_tibco_container_edition_engines ProcessGroupDetectionFlags#auto_detect_tibco_container_edition_engines}
   */
   readonly autoDetectTibcoContainerEditionEngines: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect separate TIBCO BusinessWorks process groups per engine property file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_tibco_engines ProcessGroupDetectionFlags#auto_detect_tibco_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_tibco_engines ProcessGroupDetectionFlags#auto_detect_tibco_engines}
   */
   readonly autoDetectTibcoEngines: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect webMethods Integration Server including specific properties like install root and product name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_web_methods_integration_server ProcessGroupDetectionFlags#auto_detect_web_methods_integration_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_web_methods_integration_server ProcessGroupDetectionFlags#auto_detect_web_methods_integration_server}
   */
   readonly autoDetectWebMethodsIntegrationServer: boolean | cdktf.IResolvable;
   /**
   * Enabling this flag will detect separate WebSphere Liberty process groups based on java command line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#auto_detect_web_sphere_liberty_application ProcessGroupDetectionFlags#auto_detect_web_sphere_liberty_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#auto_detect_web_sphere_liberty_application ProcessGroupDetectionFlags#auto_detect_web_sphere_liberty_application}
   */
   readonly autoDetectWebSphereLibertyApplication: boolean | cdktf.IResolvable;
   /**
   * Enable to group and separately analyze the processes of each IBM MQ Queue manager instance. Each process group receives a unique name based on the queue manager instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#group_ibmmqby_instance_name ProcessGroupDetectionFlags#group_ibmmqby_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#group_ibmmqby_instance_name ProcessGroupDetectionFlags#group_ibmmqby_instance_name}
   */
   readonly groupIbmmqbyInstanceName: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#id ProcessGroupDetectionFlags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#id ProcessGroupDetectionFlags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,67 +65,67 @@ export interface ProcessGroupDetectionFlagsConfig extends cdktf.TerraformMetaArg
   /**
   * Enabling this flag will detect the JBoss server name from the system property jboss.server.name=<server-name>, only if -D[Server:<server-name>] is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#identify_jboss_server_by_system_property ProcessGroupDetectionFlags#identify_jboss_server_by_system_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#identify_jboss_server_by_system_property ProcessGroupDetectionFlags#identify_jboss_server_by_system_property}
   */
   readonly identifyJbossServerBySystemProperty: boolean | cdktf.IResolvable;
   /**
   * To determine the unique identity of each detected process, and to generate a unique name for each detected process, Dynatrace evaluates the name of the directory that each process binary is contained within. For application containers like Tomcat and JBoss, Dynatrace evaluates important directories like CATALINA_HOME and JBOSS_HOME for this information. In some automated deployment scenarios such directory names are updated automatically with new version numbers, build numbers, dates, or GUIDs. Enable this setting to ensure that automated directory name changes don't result in Dynatrace registering pre-existing processes as new processes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#ignore_unique_identifiers ProcessGroupDetectionFlags#ignore_unique_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#ignore_unique_identifiers ProcessGroupDetectionFlags#ignore_unique_identifiers}
   */
   readonly ignoreUniqueIdentifiers: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#scope ProcessGroupDetectionFlags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#scope ProcessGroupDetectionFlags#scope}
   */
   readonly scope?: string;
   /**
   * This flag enables the detection of security software such as anti-malware protection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#security_software_detection_enabled ProcessGroupDetectionFlags#security_software_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#security_software_detection_enabled ProcessGroupDetectionFlags#security_software_detection_enabled}
   */
   readonly securitySoftwareDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable to monitor CPU and memory usage of short lived processes, otherwise being lost by traditional monitoring. Disabling this flag blocks passing data to cluster only, it does not stop data collection and has no effect on performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#short_lived_processes_monitoring ProcessGroupDetectionFlags#short_lived_processes_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#short_lived_processes_monitoring ProcessGroupDetectionFlags#short_lived_processes_monitoring}
   */
   readonly shortLivedProcessesMonitoring: boolean | cdktf.IResolvable;
   /**
   * Enable to group and separately analyze the processes of each DB2 Instance. Each process receives a unique name based on the DB2 Instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#split_db_2_grouping_by_instances ProcessGroupDetectionFlags#split_db_2_grouping_by_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#split_db_2_grouping_by_instances ProcessGroupDetectionFlags#split_db_2_grouping_by_instances}
   */
   readonly splitDb2GroupingByInstances?: boolean | cdktf.IResolvable;
   /**
   * Enable to group and separately analyze the processes of each Oracle DB. Each process group receives a unique name based on the Oracle DB SID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#split_oracle_database_pg ProcessGroupDetectionFlags#split_oracle_database_pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#split_oracle_database_pg ProcessGroupDetectionFlags#split_oracle_database_pg}
   */
   readonly splitOracleDatabasePg: boolean | cdktf.IResolvable;
   /**
   * Enable to group and separately analyze the processes of each Oracle Listener. Each process group receives a unique name based on the Oracle Listener name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#split_oracle_listener_pg ProcessGroupDetectionFlags#split_oracle_listener_pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#split_oracle_listener_pg ProcessGroupDetectionFlags#split_oracle_listener_pg}
   */
   readonly splitOracleListenerPg: boolean | cdktf.IResolvable;
   /**
   * By default, Tomcat clusters are identified and named based on the CATALINA_HOME directory name. This setting results in the use of the CATALINA_BASE directory name to identify multiple Tomcat nodes within each Tomcat cluster. If this setting is not enabled, each CATALINA_HOME+CATALINA_BASE combination will be considered a separate Tomcat cluster. In other words, Tomcat clusters can't have multiple nodes on a single host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#use_catalina_base ProcessGroupDetectionFlags#use_catalina_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#use_catalina_base ProcessGroupDetectionFlags#use_catalina_base}
   */
   readonly useCatalinaBase: boolean | cdktf.IResolvable;
   /**
   * By default, Dynatrace uses image names as identifiers for individual process groups, with one process-group instance per host. Normally Docker container names can't serve as stable identifiers of process group instances because they are variable and auto-generated. You can however manually assign proper container names to their Docker instances. Such manually-assigned container names can serve as reliable process-group instance identifiers. This flag instructs Dynatrace to use Docker-provided names to distinguish between multiple instances of the same image. If this flag is not applied and you run multiple containers of the same image on the same host, the resulting processes will be consolidated into a single process view. Use this flag with caution!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#use_docker_container_name ProcessGroupDetectionFlags#use_docker_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#use_docker_container_name ProcessGroupDetectionFlags#use_docker_container_name}
   */
   readonly useDockerContainerName: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags dynatrace_process_group_detection_flags}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags dynatrace_process_group_detection_flags}
 */
 export class ProcessGroupDetectionFlags extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ProcessGroupDetectionFlags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProcessGroupDetectionFlags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProcessGroupDetectionFlags to import
-  * @param importFromId The id of the existing ProcessGroupDetectionFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProcessGroupDetectionFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProcessGroupDetectionFlags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ProcessGroupDetectionFlags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/process_group_detection_flags dynatrace_process_group_detection_flags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/process_group_detection_flags dynatrace_process_group_detection_flags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class ProcessGroupDetectionFlags extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_process_group_detection_flags',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

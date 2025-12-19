@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MsentraidConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Application (client) ID of your app registered in Microsoft Azure App registrations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#application_id MsentraidConnection#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#application_id MsentraidConnection#application_id}
   */
   readonly applicationId: string;
   /**
   * Client secret of your app registered in Microsoft Azure App registrations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#client_secret MsentraidConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#client_secret MsentraidConnection#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#description MsentraidConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#description MsentraidConnection#description}
   */
   readonly description?: string;
   /**
   * Directory (tenant) ID of Microsoft Entra Identity Developer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#directory_id MsentraidConnection#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#directory_id MsentraidConnection#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#id MsentraidConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#id MsentraidConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,13 +41,13 @@ export interface MsentraidConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the Microsoft Entra Identity Developer connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#name MsentraidConnection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#name MsentraidConnection#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection dynatrace_msentraid_connection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection dynatrace_msentraid_connection}
 */
 export class MsentraidConnection extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class MsentraidConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MsentraidConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MsentraidConnection to import
-  * @param importFromId The id of the existing MsentraidConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MsentraidConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MsentraidConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class MsentraidConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/msentraid_connection dynatrace_msentraid_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/msentraid_connection dynatrace_msentraid_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class MsentraidConnection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_msentraid_connection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

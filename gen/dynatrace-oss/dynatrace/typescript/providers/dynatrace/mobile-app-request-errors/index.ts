@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MobileAppRequestErrorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#id MobileAppRequestErrors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#id MobileAppRequestErrors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface MobileAppRequestErrorsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The scope of this setting (MOBILE_APPLICATION, CUSTOM_APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#scope MobileAppRequestErrors#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#scope MobileAppRequestErrors#scope}
   */
   readonly scope: string;
   /**
   * error_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#error_rules MobileAppRequestErrors#error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#error_rules MobileAppRequestErrors#error_rules}
   */
   readonly errorRules?: MobileAppRequestErrorsErrorRules;
 }
@@ -31,7 +31,7 @@ export interface MobileAppRequestErrorsErrorRulesErrorRule {
   /**
   * Exclude response codes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#error_codes MobileAppRequestErrors#error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#error_codes MobileAppRequestErrors#error_codes}
   */
   readonly errorCodes: string;
 }
@@ -146,7 +146,7 @@ export interface MobileAppRequestErrorsErrorRules {
   /**
   * error_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#error_rule MobileAppRequestErrors#error_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#error_rule MobileAppRequestErrors#error_rule}
   */
   readonly errorRule: MobileAppRequestErrorsErrorRulesErrorRule[] | cdktf.IResolvable;
 }
@@ -227,7 +227,7 @@ export class MobileAppRequestErrorsErrorRulesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors dynatrace_mobile_app_request_errors}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors dynatrace_mobile_app_request_errors}
 */
 export class MobileAppRequestErrors extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class MobileAppRequestErrors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MobileAppRequestErrors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MobileAppRequestErrors to import
-  * @param importFromId The id of the existing MobileAppRequestErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MobileAppRequestErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MobileAppRequestErrors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class MobileAppRequestErrors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/mobile_app_request_errors dynatrace_mobile_app_request_errors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/mobile_app_request_errors dynatrace_mobile_app_request_errors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class MobileAppRequestErrors extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_mobile_app_request_errors',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

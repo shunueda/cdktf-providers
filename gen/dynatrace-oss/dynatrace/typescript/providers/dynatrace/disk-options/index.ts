@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DiskOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Deactivate NFS monitoring on all supported systems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#disable_nfs_disk_monitoring DiskOptions#disable_nfs_disk_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#disable_nfs_disk_monitoring DiskOptions#disable_nfs_disk_monitoring}
   */
   readonly disableNfsDiskMonitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#id DiskOptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#id DiskOptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DiskOptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * When disabled OneAgent will try to deduplicate some of nfs disks. Disabled by default, applies only to Linux hosts. Requires OneAgent 1.209 or later
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#nfs_show_all DiskOptions#nfs_show_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#nfs_show_all DiskOptions#nfs_show_all}
   */
   readonly nfsShowAll?: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#scope DiskOptions#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#scope DiskOptions#scope}
   */
   readonly scope?: string;
   /**
   * exclusions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#exclusions DiskOptions#exclusions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#exclusions DiskOptions#exclusions}
   */
   readonly exclusions?: DiskOptionsExclusions;
 }
@@ -52,7 +52,7 @@ export interface DiskOptionsExclusionsExclusion {
   * 
   * The wildcard in the last example means to exclude matching file systems such as types ext4 and ext3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#filesystem DiskOptions#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#filesystem DiskOptions#filesystem}
   */
   readonly filesystem?: string;
   /**
@@ -70,7 +70,7 @@ export interface DiskOptionsExclusionsExclusion {
   * 
   * The wildcard in ** /disk*** means to exclude every mount point starting with /disk, for example /disk1, /disk99,  /diskabc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#mountpoint DiskOptions#mountpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#mountpoint DiskOptions#mountpoint}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -78,7 +78,7 @@ export interface DiskOptionsExclusionsExclusion {
   /**
   * Possible Values: `OS_TYPE_AIX`, `OS_TYPE_DARWIN`, `OS_TYPE_HPUX`, `OS_TYPE_LINUX`, `OS_TYPE_SOLARIS`, `OS_TYPE_UNKNOWN`, `OS_TYPE_WINDOWS`, `OS_TYPE_ZOS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#os DiskOptions#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#os DiskOptions#os}
   */
   readonly os: string;
 }
@@ -251,7 +251,7 @@ export interface DiskOptionsExclusions {
   /**
   * exclusion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#exclusion DiskOptions#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#exclusion DiskOptions#exclusion}
   */
   readonly exclusion: DiskOptionsExclusionsExclusion[] | cdktf.IResolvable;
 }
@@ -332,7 +332,7 @@ export class DiskOptionsExclusionsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options dynatrace_disk_options}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options dynatrace_disk_options}
 */
 export class DiskOptions extends cdktf.TerraformResource {
 
@@ -348,7 +348,7 @@ export class DiskOptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskOptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskOptions to import
-  * @param importFromId The id of the existing DiskOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskOptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskOptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -360,7 +360,7 @@ export class DiskOptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/disk_options dynatrace_disk_options} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/disk_options dynatrace_disk_options} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,8 +371,8 @@ export class DiskOptions extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_disk_options',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

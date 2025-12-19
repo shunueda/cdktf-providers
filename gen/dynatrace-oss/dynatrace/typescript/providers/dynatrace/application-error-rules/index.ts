@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApplicationErrorRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#id ApplicationErrorRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#id ApplicationErrorRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface ApplicationErrorRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * (Field has overlap with `dynatrace_web_app_custom_errors`) Exclude (`true`) or include (`false`) custom errors listed in **customErrorRules** in Apdex calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#ignore_custom_errors_apdex ApplicationErrorRules#ignore_custom_errors_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#ignore_custom_errors_apdex ApplicationErrorRules#ignore_custom_errors_apdex}
   */
   readonly ignoreCustomErrorsApdex?: boolean | cdktf.IResolvable;
   /**
   * (Field has overlap with `dynatrace_web_app_request_errors`) Exclude (`true`) or include (`false`) HTTP errors listed in **httpErrorRules** in Apdex calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#ignore_http_errors_apdex ApplicationErrorRules#ignore_http_errors_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#ignore_http_errors_apdex ApplicationErrorRules#ignore_http_errors_apdex}
   */
   readonly ignoreHttpErrorsApdex?: boolean | cdktf.IResolvable;
   /**
   * Exclude (`true`) or include (`false`) JavaScript errors in Apdex calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#ignore_js_errors_apdex ApplicationErrorRules#ignore_js_errors_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#ignore_js_errors_apdex ApplicationErrorRules#ignore_js_errors_apdex}
   */
   readonly ignoreJsErrorsApdex?: boolean | cdktf.IResolvable;
   /**
   * The EntityID of the the WebApplication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#web_application_id ApplicationErrorRules#web_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#web_application_id ApplicationErrorRules#web_application_id}
   */
   readonly webApplicationId?: string;
   /**
   * custom_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#custom_errors ApplicationErrorRules#custom_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#custom_errors ApplicationErrorRules#custom_errors}
   */
   readonly customErrors?: ApplicationErrorRulesCustomErrors;
   /**
   * http_errors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#http_errors ApplicationErrorRules#http_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#http_errors ApplicationErrorRules#http_errors}
   */
   readonly httpErrors?: ApplicationErrorRulesHttpErrors;
 }
@@ -55,43 +55,43 @@ export interface ApplicationErrorRulesCustomErrorsRule {
   /**
   * Capture (`true`) or ignore (`false`) the error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#capture ApplicationErrorRules#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#capture ApplicationErrorRules#capture}
   */
   readonly capture?: boolean | cdktf.IResolvable;
   /**
   * Include (`true`) or exclude (`false`) the error in Davis AI [problem detection and analysis](https://dt-url.net/a963kd2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#custom_alerting ApplicationErrorRules#custom_alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#custom_alerting ApplicationErrorRules#custom_alerting}
   */
   readonly customAlerting?: boolean | cdktf.IResolvable;
   /**
   * Include (`true`) or exclude (`false`) the error in Apdex calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#impact_apdex ApplicationErrorRules#impact_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#impact_apdex ApplicationErrorRules#impact_apdex}
   */
   readonly impactApdex?: boolean | cdktf.IResolvable;
   /**
   * The matching operation for the **keyPattern**. Possible values are `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH` and `EQUALS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#key_matcher ApplicationErrorRules#key_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#key_matcher ApplicationErrorRules#key_matcher}
   */
   readonly keyMatcher?: string;
   /**
   * The key of the error to look for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#key_pattern ApplicationErrorRules#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#key_pattern ApplicationErrorRules#key_pattern}
   */
   readonly keyPattern?: string;
   /**
   * The matching operation for the **valuePattern**. Possible values are `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH` and `EQUALS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#value_matcher ApplicationErrorRules#value_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#value_matcher ApplicationErrorRules#value_matcher}
   */
   readonly valueMatcher?: string;
   /**
   * The value of the error to look for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#value_pattern ApplicationErrorRules#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#value_pattern ApplicationErrorRules#value_pattern}
   */
   readonly valuePattern?: string;
 }
@@ -383,7 +383,7 @@ export interface ApplicationErrorRulesCustomErrors {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#rule ApplicationErrorRules#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#rule ApplicationErrorRules#rule}
   */
   readonly rule: ApplicationErrorRulesCustomErrorsRule[] | cdktf.IResolvable;
 }
@@ -466,25 +466,25 @@ export interface ApplicationErrorRulesHttpErrorsRule {
   /**
   * Capture (`true`) or ignore (`false`) the error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#capture ApplicationErrorRules#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#capture ApplicationErrorRules#capture}
   */
   readonly capture?: boolean | cdktf.IResolvable;
   /**
   * If `true`, match by errors that have CSP Rule violations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#consider_blocked_requests ApplicationErrorRules#consider_blocked_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#consider_blocked_requests ApplicationErrorRules#consider_blocked_requests}
   */
   readonly considerBlockedRequests?: boolean | cdktf.IResolvable;
   /**
   * Include (`true`) or exclude (`false`) the error in Davis AI [problem detection and analysis](https://dt-url.net/a963kd2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#consider_for_ai ApplicationErrorRules#consider_for_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#consider_for_ai ApplicationErrorRules#consider_for_ai}
   */
   readonly considerForAi?: boolean | cdktf.IResolvable;
   /**
   * If `true`, match by errors that have unknown HTTP status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#consider_unknown_error_code ApplicationErrorRules#consider_unknown_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#consider_unknown_error_code ApplicationErrorRules#consider_unknown_error_code}
   */
   readonly considerUnknownErrorCode?: boolean | cdktf.IResolvable;
   /**
@@ -492,31 +492,31 @@ export interface ApplicationErrorRulesHttpErrorsRule {
   * 
   * This field is required if **considerUnknownErrorCode** AND **considerBlockedRequests** are both set to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#error_codes ApplicationErrorRules#error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#error_codes ApplicationErrorRules#error_codes}
   */
   readonly errorCodes?: string;
   /**
   * The matching rule for the URL. Popssible values are `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH` and `EQUALS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#filter ApplicationErrorRules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#filter ApplicationErrorRules#filter}
   */
   readonly filter?: string;
   /**
   * If `true`, filter errors by URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#filter_by_url ApplicationErrorRules#filter_by_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#filter_by_url ApplicationErrorRules#filter_by_url}
   */
   readonly filterByUrl?: boolean | cdktf.IResolvable;
   /**
   * Include (`true`) or exclude (`false`) the error in Apdex calculation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#impact_apdex ApplicationErrorRules#impact_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#impact_apdex ApplicationErrorRules#impact_apdex}
   */
   readonly impactApdex?: boolean | cdktf.IResolvable;
   /**
   * The URL to look for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#url ApplicationErrorRules#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#url ApplicationErrorRules#url}
   */
   readonly url?: string;
 }
@@ -866,7 +866,7 @@ export interface ApplicationErrorRulesHttpErrors {
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#rule ApplicationErrorRules#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#rule ApplicationErrorRules#rule}
   */
   readonly rule: ApplicationErrorRulesHttpErrorsRule[] | cdktf.IResolvable;
 }
@@ -947,7 +947,7 @@ export class ApplicationErrorRulesHttpErrorsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules dynatrace_application_error_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules dynatrace_application_error_rules}
 */
 export class ApplicationErrorRules extends cdktf.TerraformResource {
 
@@ -963,7 +963,7 @@ export class ApplicationErrorRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationErrorRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationErrorRules to import
-  * @param importFromId The id of the existing ApplicationErrorRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationErrorRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationErrorRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -975,7 +975,7 @@ export class ApplicationErrorRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_error_rules dynatrace_application_error_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_error_rules dynatrace_application_error_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -986,8 +986,8 @@ export class ApplicationErrorRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_application_error_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

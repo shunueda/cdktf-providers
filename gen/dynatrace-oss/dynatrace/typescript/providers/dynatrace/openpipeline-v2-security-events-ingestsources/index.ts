@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesConfig extends cdktf.T
   /**
   * Default Bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_bucket OpenpipelineV2SecurityEventsIngestsources#default_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_bucket OpenpipelineV2SecurityEventsIngestsources#default_bucket}
   */
   readonly defaultBucket?: string;
   /**
   * Endpoint display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#display_name OpenpipelineV2SecurityEventsIngestsources#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#display_name OpenpipelineV2SecurityEventsIngestsources#display_name}
   */
   readonly displayName: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#enabled OpenpipelineV2SecurityEventsIngestsources#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#enabled OpenpipelineV2SecurityEventsIngestsources#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#id OpenpipelineV2SecurityEventsIngestsources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#id OpenpipelineV2SecurityEventsIngestsources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,51 +35,290 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesConfig extends cdktf.T
   /**
   * Endpoint segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#path_segment OpenpipelineV2SecurityEventsIngestsources#path_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#path_segment OpenpipelineV2SecurityEventsIngestsources#path_segment}
   */
   readonly pathSegment?: string;
   /**
   * Source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source OpenpipelineV2SecurityEventsIngestsources#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source OpenpipelineV2SecurityEventsIngestsources#source}
   */
   readonly source?: string;
   /**
   * Source Type. Possible Values: `extension`, `http`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_type OpenpipelineV2SecurityEventsIngestsources#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_type OpenpipelineV2SecurityEventsIngestsources#source_type}
   */
   readonly sourceType?: string;
   /**
+  * metadata_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metadata_list OpenpipelineV2SecurityEventsIngestsources#metadata_list}
+  */
+  readonly metadataList?: OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct;
+  /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#processing OpenpipelineV2SecurityEventsIngestsources#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#processing OpenpipelineV2SecurityEventsIngestsources#processing}
   */
   readonly processing?: OpenpipelineV2SecurityEventsIngestsourcesProcessing;
   /**
   * static_routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#static_routing OpenpipelineV2SecurityEventsIngestsources#static_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#static_routing OpenpipelineV2SecurityEventsIngestsources#static_routing}
   */
   readonly staticRouting?: OpenpipelineV2SecurityEventsIngestsourcesStaticRouting;
+}
+export interface OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata {
+  /**
+  * Metadata entry key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#entry_key OpenpipelineV2SecurityEventsIngestsources#entry_key}
+  */
+  readonly entryKey: string;
+  /**
+  * Metadata entry value
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#entry_value OpenpipelineV2SecurityEventsIngestsources#entry_value}
+  */
+  readonly entryValue?: string;
+}
+
+export function openpipelineV2SecurityEventsIngestsourcesMetadataListMetadataToTerraform(struct?: OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    entry_key: cdktf.stringToTerraform(struct!.entryKey),
+    entry_value: cdktf.stringToTerraform(struct!.entryValue),
+  }
+}
+
+
+export function openpipelineV2SecurityEventsIngestsourcesMetadataListMetadataToHclTerraform(struct?: OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    entry_key: {
+      value: cdktf.stringToHclTerraform(struct!.entryKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    entry_value: {
+      value: cdktf.stringToHclTerraform(struct!.entryValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._entryKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entryKey = this._entryKey;
+    }
+    if (this._entryValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.entryValue = this._entryValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._entryKey = undefined;
+      this._entryValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._entryKey = value.entryKey;
+      this._entryValue = value.entryValue;
+    }
+  }
+
+  // entry_key - computed: false, optional: false, required: true
+  private _entryKey?: string; 
+  public get entryKey() {
+    return this.getStringAttribute('entry_key');
+  }
+  public set entryKey(value: string) {
+    this._entryKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entryKeyInput() {
+    return this._entryKey;
+  }
+
+  // entry_value - computed: false, optional: true, required: false
+  private _entryValue?: string; 
+  public get entryValue() {
+    return this.getStringAttribute('entry_value');
+  }
+  public set entryValue(value: string) {
+    this._entryValue = value;
+  }
+  public resetEntryValue() {
+    this._entryValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get entryValueInput() {
+    return this._entryValue;
+  }
+}
+
+export class OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataList extends cdktf.ComplexList {
+  public internalValue? : OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataOutputReference {
+    return new OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct {
+  /**
+  * metadata block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metadata OpenpipelineV2SecurityEventsIngestsources#metadata}
+  */
+  readonly metadata: OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata[] | cdktf.IResolvable;
+}
+
+export function openpipelineV2SecurityEventsIngestsourcesMetadataListStructToTerraform(struct?: OpenpipelineV2SecurityEventsIngestsourcesMetadataListStructOutputReference | OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    metadata: cdktf.listMapper(openpipelineV2SecurityEventsIngestsourcesMetadataListMetadataToTerraform, true)(struct!.metadata),
+  }
+}
+
+
+export function openpipelineV2SecurityEventsIngestsourcesMetadataListStructToHclTerraform(struct?: OpenpipelineV2SecurityEventsIngestsourcesMetadataListStructOutputReference | OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    metadata: {
+      value: cdktf.listMapperHcl(openpipelineV2SecurityEventsIngestsourcesMetadataListMetadataToHclTerraform, true)(struct!.metadata),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpenpipelineV2SecurityEventsIngestsourcesMetadataListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._metadata?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.metadata = this._metadata?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._metadata.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._metadata.internalValue = value.metadata;
+    }
+  }
+
+  // metadata - computed: false, optional: false, required: true
+  private _metadata = new OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadataList(this, "metadata", false);
+  public get metadata() {
+    return this._metadata;
+  }
+  public putMetadata(value: OpenpipelineV2SecurityEventsIngestsourcesMetadataListMetadata[] | cdktf.IResolvable) {
+    this._metadata.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataInput() {
+    return this._metadata.internalValue;
+  }
 }
 export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtractionIncludeDimension {
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -252,7 +491,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -335,19 +574,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
   */
   readonly include?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtractionInclude;
 }
@@ -488,13 +727,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#forwarder_config_id OpenpipelineV2SecurityEventsIngestsources#forwarder_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#forwarder_config_id OpenpipelineV2SecurityEventsIngestsources#forwarder_config_id}
   */
   readonly forwarderConfigId: string;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorAzureLogForwardingFieldExtraction;
 }
@@ -603,13 +842,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -721,25 +960,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventEventProviderField;
 }
@@ -909,13 +1148,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1027,25 +1266,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventEventTypeField;
 }
@@ -1215,19 +1454,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1400,7 +1639,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -1483,19 +1722,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
   */
   readonly include?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtractionInclude;
 }
@@ -1636,19 +1875,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_provider OpenpipelineV2SecurityEventsIngestsources#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_provider OpenpipelineV2SecurityEventsIngestsources#event_provider}
   */
   readonly eventProvider: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventEventProvider;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_type OpenpipelineV2SecurityEventsIngestsources#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_type OpenpipelineV2SecurityEventsIngestsources#event_type}
   */
   readonly eventType?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizeventFieldExtraction;
 }
@@ -1786,7 +2025,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#bucket_name OpenpipelineV2SecurityEventsIngestsources#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#bucket_name OpenpipelineV2SecurityEventsIngestsources#bucket_name}
   */
   readonly bucketName: string;
 }
@@ -1869,13 +2108,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -1987,25 +2226,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCostAllocationValueField;
 }
@@ -2175,7 +2414,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
   */
   readonly value: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCostAllocationValue;
 }
@@ -2258,19 +2497,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -2443,7 +2682,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -2526,13 +2765,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCounterMetricDimensions;
 }
@@ -2644,13 +2883,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#key OpenpipelineV2SecurityEventsIngestsources#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#key OpenpipelineV2SecurityEventsIngestsources#key}
   */
   readonly key: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
   */
   readonly value: string;
 }
@@ -2791,7 +3030,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#property OpenpipelineV2SecurityEventsIngestsources#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#property OpenpipelineV2SecurityEventsIngestsources#property}
   */
   readonly property: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorDavisPropertiesProperty[] | cdktf.IResolvable;
 }
@@ -2874,7 +3113,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#properties OpenpipelineV2SecurityEventsIngestsources#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#properties OpenpipelineV2SecurityEventsIngestsources#properties}
   */
   readonly properties: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorDavisProperties;
 }
@@ -2957,7 +3196,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * DQL script
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#script OpenpipelineV2SecurityEventsIngestsources#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#script OpenpipelineV2SecurityEventsIngestsources#script}
   */
   readonly script: string;
 }
@@ -3040,13 +3279,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#name OpenpipelineV2SecurityEventsIngestsources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#name OpenpipelineV2SecurityEventsIngestsources#name}
   */
   readonly name: string;
   /**
   * Field's value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
   */
   readonly value: string;
 }
@@ -3187,7 +3426,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsAddFieldsField[] | cdktf.IResolvable;
 }
@@ -3270,7 +3509,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
   */
   readonly fields: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsAddFields;
 }
@@ -3353,7 +3592,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields to remove
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
   */
   readonly fields: string[];
 }
@@ -3436,13 +3675,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#from_name OpenpipelineV2SecurityEventsIngestsources#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#from_name OpenpipelineV2SecurityEventsIngestsources#from_name}
   */
   readonly fromName: string;
   /**
   * New field's name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#to_name OpenpipelineV2SecurityEventsIngestsources#to_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#to_name OpenpipelineV2SecurityEventsIngestsources#to_name}
   */
   readonly toName: string;
 }
@@ -3583,7 +3822,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsRenameFieldsField[] | cdktf.IResolvable;
 }
@@ -3666,7 +3905,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields OpenpipelineV2SecurityEventsIngestsources#fields}
   */
   readonly fields: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsRenameFields;
 }
@@ -3749,19 +3988,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -3934,7 +4173,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -4017,25 +4256,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorHistogramMetricDimensions;
 }
@@ -4202,13 +4441,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -4320,25 +4559,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorProductAllocationValueField;
 }
@@ -4508,7 +4747,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
   */
   readonly value: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorProductAllocationValue;
 }
@@ -4591,19 +4830,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -4776,7 +5015,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -4859,25 +5098,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetricDimensions;
 }
@@ -5047,19 +5286,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5232,7 +5471,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -5315,43 +5554,43 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: string;
   /**
   * Possible Values: `duration`, `field`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#measurement OpenpipelineV2SecurityEventsIngestsources#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#measurement OpenpipelineV2SecurityEventsIngestsources#measurement}
   */
   readonly measurement: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetricDimensions;
 }
@@ -5605,19 +5844,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -5790,7 +6029,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -5873,43 +6112,43 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#aggregation OpenpipelineV2SecurityEventsIngestsources#aggregation}
   */
   readonly aggregation?: string;
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: string;
   /**
   * Possible Values: `duration`, `field`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#measurement OpenpipelineV2SecurityEventsIngestsources#measurement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#measurement OpenpipelineV2SecurityEventsIngestsources#measurement}
   */
   readonly measurement: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling OpenpipelineV2SecurityEventsIngestsources#sampling}
   */
   readonly sampling?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetricDimensions;
 }
@@ -6163,13 +6402,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6281,25 +6520,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategoryField;
 }
@@ -6469,13 +6708,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6587,25 +6826,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProviderField;
 }
@@ -6775,13 +7014,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -6893,25 +7132,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatusField;
 }
@@ -7081,13 +7320,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -7199,25 +7438,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventTypeField;
 }
@@ -7387,19 +7626,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -7572,7 +7811,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -7655,19 +7894,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
   */
   readonly include?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtractionInclude;
 }
@@ -7808,31 +8047,31 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * event_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_category OpenpipelineV2SecurityEventsIngestsources#event_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_category OpenpipelineV2SecurityEventsIngestsources#event_category}
   */
   readonly eventCategory: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventCategory;
   /**
   * event_provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_provider OpenpipelineV2SecurityEventsIngestsources#event_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_provider OpenpipelineV2SecurityEventsIngestsources#event_provider}
   */
   readonly eventProvider: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventProvider;
   /**
   * event_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_status OpenpipelineV2SecurityEventsIngestsources#event_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_status OpenpipelineV2SecurityEventsIngestsources#event_status}
   */
   readonly eventStatus: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventStatus;
   /**
   * event_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#event_type OpenpipelineV2SecurityEventsIngestsources#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#event_type OpenpipelineV2SecurityEventsIngestsources#event_type}
   */
   readonly eventType?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventEventType;
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEventFieldExtraction;
 }
@@ -8022,13 +8261,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -8140,25 +8379,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityContextValueField;
 }
@@ -8328,7 +8567,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value OpenpipelineV2SecurityEventsIngestsources#value}
   */
   readonly value: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityContextValue;
 }
@@ -8411,19 +8650,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -8596,7 +8835,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtractionIncludeDimension[] | cdktf.IResolvable;
 }
@@ -8679,19 +8918,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#exclude OpenpipelineV2SecurityEventsIngestsources#exclude}
   */
   readonly exclude?: string[];
   /**
   * Fields Extraction type. Possible Values: `exclude`, `include`, `includeAll`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * include block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#include OpenpipelineV2SecurityEventsIngestsources#include}
   */
   readonly include?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtractionInclude;
 }
@@ -8832,7 +9071,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * field_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field_extraction OpenpipelineV2SecurityEventsIngestsources#field_extraction}
   */
   readonly fieldExtraction: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityEventFieldExtraction;
 }
@@ -8915,31 +9154,31 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#edge_type OpenpipelineV2SecurityEventsIngestsources#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#edge_type OpenpipelineV2SecurityEventsIngestsources#edge_type}
   */
   readonly edgeType: string;
   /**
   * Source ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_id_field_name OpenpipelineV2SecurityEventsIngestsources#source_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_id_field_name OpenpipelineV2SecurityEventsIngestsources#source_id_field_name}
   */
   readonly sourceIdFieldName: string;
   /**
   * Source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_type OpenpipelineV2SecurityEventsIngestsources#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_type OpenpipelineV2SecurityEventsIngestsources#source_type}
   */
   readonly sourceType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#target_id_field_name OpenpipelineV2SecurityEventsIngestsources#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#target_id_field_name OpenpipelineV2SecurityEventsIngestsources#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#target_type OpenpipelineV2SecurityEventsIngestsources#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#target_type OpenpipelineV2SecurityEventsIngestsources#target_type}
   */
   readonly targetType: string;
 }
@@ -9126,13 +9365,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field_name OpenpipelineV2SecurityEventsIngestsources#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field_name OpenpipelineV2SecurityEventsIngestsources#field_name}
   */
   readonly fieldName: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#referenced_field_name OpenpipelineV2SecurityEventsIngestsources#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#referenced_field_name OpenpipelineV2SecurityEventsIngestsources#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -9273,7 +9512,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * smartscape_field_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_field_extraction_entry OpenpipelineV2SecurityEventsIngestsources#smartscape_field_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_field_extraction_entry OpenpipelineV2SecurityEventsIngestsources#smartscape_field_extraction_entry}
   */
   readonly smartscapeFieldExtractionEntry: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtractSmartscapeFieldExtractionEntry[] | cdktf.IResolvable;
 }
@@ -9356,13 +9595,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * ID component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#id_component OpenpipelineV2SecurityEventsIngestsources#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#id_component OpenpipelineV2SecurityEventsIngestsources#id_component}
   */
   readonly idComponent: string;
   /**
   * Referenced field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#referenced_field_name OpenpipelineV2SecurityEventsIngestsources#referenced_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#referenced_field_name OpenpipelineV2SecurityEventsIngestsources#referenced_field_name}
   */
   readonly referencedFieldName: string;
 }
@@ -9503,7 +9742,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * id_component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#id_component OpenpipelineV2SecurityEventsIngestsources#id_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#id_component OpenpipelineV2SecurityEventsIngestsources#id_component}
   */
   readonly idComponent: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponentsIdComponent[] | cdktf.IResolvable;
 }
@@ -9586,13 +9825,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -9704,25 +9943,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Constant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#constant OpenpipelineV2SecurityEventsIngestsources#constant}
   */
   readonly constant?: string;
   /**
   * Constant multi value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#multi_value_constant OpenpipelineV2SecurityEventsIngestsources#multi_value_constant}
   */
   readonly multiValueConstant?: string[];
   /**
   * Type of value assignment. Possible Values: `constant`, `field`, `multiValueConstant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeNameField;
 }
@@ -9892,19 +10131,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Edge type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#edge_type OpenpipelineV2SecurityEventsIngestsources#edge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#edge_type OpenpipelineV2SecurityEventsIngestsources#edge_type}
   */
   readonly edgeType: string;
   /**
   * Target ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#target_id_field_name OpenpipelineV2SecurityEventsIngestsources#target_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#target_id_field_name OpenpipelineV2SecurityEventsIngestsources#target_id_field_name}
   */
   readonly targetIdFieldName: string;
   /**
   * Target type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#target_type OpenpipelineV2SecurityEventsIngestsources#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#target_type OpenpipelineV2SecurityEventsIngestsources#target_type}
   */
   readonly targetType: string;
 }
@@ -10071,7 +10310,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * smartscape_static_edge_extraction_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_static_edge_extraction_entry OpenpipelineV2SecurityEventsIngestsources#smartscape_static_edge_extraction_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_static_edge_extraction_entry OpenpipelineV2SecurityEventsIngestsources#smartscape_static_edge_extraction_entry}
   */
   readonly smartscapeStaticEdgeExtractionEntry: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtractSmartscapeStaticEdgeExtractionEntry[] | cdktf.IResolvable;
 }
@@ -10154,43 +10393,43 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Extract node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#extract_node OpenpipelineV2SecurityEventsIngestsources#extract_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#extract_node OpenpipelineV2SecurityEventsIngestsources#extract_node}
   */
   readonly extractNode: boolean | cdktf.IResolvable;
   /**
   * Node ID field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#node_id_field_name OpenpipelineV2SecurityEventsIngestsources#node_id_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#node_id_field_name OpenpipelineV2SecurityEventsIngestsources#node_id_field_name}
   */
   readonly nodeIdFieldName: string;
   /**
   * Node type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#node_type OpenpipelineV2SecurityEventsIngestsources#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#node_type OpenpipelineV2SecurityEventsIngestsources#node_type}
   */
   readonly nodeType: string;
   /**
   * fields_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields_to_extract OpenpipelineV2SecurityEventsIngestsources#fields_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields_to_extract OpenpipelineV2SecurityEventsIngestsources#fields_to_extract}
   */
   readonly fieldsToExtract?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeFieldsToExtract;
   /**
   * id_components block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#id_components OpenpipelineV2SecurityEventsIngestsources#id_components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#id_components OpenpipelineV2SecurityEventsIngestsources#id_components}
   */
   readonly idComponents: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeIdComponents;
   /**
   * node_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#node_name OpenpipelineV2SecurityEventsIngestsources#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#node_name OpenpipelineV2SecurityEventsIngestsources#node_name}
   */
   readonly nodeName?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeNodeName;
   /**
   * static_edges_to_extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#static_edges_to_extract OpenpipelineV2SecurityEventsIngestsources#static_edges_to_extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#static_edges_to_extract OpenpipelineV2SecurityEventsIngestsources#static_edges_to_extract}
   */
   readonly staticEdgesToExtract?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNodeStaticEdgesToExtract;
 }
@@ -10438,13 +10677,13 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Custom matching condition which should be used instead of technology matcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#custom_matcher OpenpipelineV2SecurityEventsIngestsources#custom_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#custom_matcher OpenpipelineV2SecurityEventsIngestsources#custom_matcher}
   */
   readonly customMatcher?: string;
   /**
   * Technology ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#technology_id OpenpipelineV2SecurityEventsIngestsources#technology_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#technology_id OpenpipelineV2SecurityEventsIngestsources#technology_id}
   */
   readonly technologyId: string;
 }
@@ -10556,19 +10795,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Destination field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#destination_field_name OpenpipelineV2SecurityEventsIngestsources#destination_field_name}
   */
   readonly destinationFieldName?: string;
   /**
   * Source field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#source_field_name OpenpipelineV2SecurityEventsIngestsources#source_field_name}
   */
   readonly sourceFieldName: string;
 }
@@ -10741,7 +10980,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimension OpenpipelineV2SecurityEventsIngestsources#dimension}
   */
   readonly dimension: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorValueMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -10824,25 +11063,25 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * Default value with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#default_value OpenpipelineV2SecurityEventsIngestsources#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Field with metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#field OpenpipelineV2SecurityEventsIngestsources#field}
   */
   readonly field: string;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#metric_key OpenpipelineV2SecurityEventsIngestsources#metric_key}
   */
   readonly metricKey: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dimensions OpenpipelineV2SecurityEventsIngestsources#dimensions}
   */
   readonly dimensions?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorValueMetricDimensions;
 }
@@ -11009,19 +11248,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#description OpenpipelineV2SecurityEventsIngestsources#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#description OpenpipelineV2SecurityEventsIngestsources#description}
   */
   readonly description: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#enabled OpenpipelineV2SecurityEventsIngestsources#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#enabled OpenpipelineV2SecurityEventsIngestsources#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Processor identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#id OpenpipelineV2SecurityEventsIngestsources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#id OpenpipelineV2SecurityEventsIngestsources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -11030,151 +11269,151 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsPr
   /**
   * [See our documentation](https://dt-url.net/bp234rv)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#matcher OpenpipelineV2SecurityEventsIngestsources#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#matcher OpenpipelineV2SecurityEventsIngestsources#matcher}
   */
   readonly matcher?: string;
   /**
   * Sample data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sample_data OpenpipelineV2SecurityEventsIngestsources#sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sample_data OpenpipelineV2SecurityEventsIngestsources#sample_data}
   */
   readonly sampleData?: string;
   /**
   * Processor type. Possible Values: `azureLogForwarding`, `bizevent`, `bucketAssignment`, `costAllocation`, `counterMetric`, `davis`, `dql`, `drop`, `fieldsAdd`, `fieldsRemove`, `fieldsRename`, `histogramMetric`, `noStorage`, `productAllocation`, `samplingAwareCounterMetric`, `samplingAwareHistogramMetric`, `samplingAwareValueMetric`, `sdlcEvent`, `securityContext`, `securityEvent`, `smartscapeEdge`, `smartscapeNode`, `technology`, `valueMetric`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#type OpenpipelineV2SecurityEventsIngestsources#type}
   */
   readonly type: string;
   /**
   * azure_log_forwarding block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#azure_log_forwarding OpenpipelineV2SecurityEventsIngestsources#azure_log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#azure_log_forwarding OpenpipelineV2SecurityEventsIngestsources#azure_log_forwarding}
   */
   readonly azureLogForwarding?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorAzureLogForwarding;
   /**
   * bizevent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#bizevent OpenpipelineV2SecurityEventsIngestsources#bizevent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#bizevent OpenpipelineV2SecurityEventsIngestsources#bizevent}
   */
   readonly bizevent?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBizevent;
   /**
   * bucket_assignment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#bucket_assignment OpenpipelineV2SecurityEventsIngestsources#bucket_assignment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#bucket_assignment OpenpipelineV2SecurityEventsIngestsources#bucket_assignment}
   */
   readonly bucketAssignment?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorBucketAssignment;
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#cost_allocation OpenpipelineV2SecurityEventsIngestsources#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#cost_allocation OpenpipelineV2SecurityEventsIngestsources#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCostAllocation;
   /**
   * counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#counter_metric OpenpipelineV2SecurityEventsIngestsources#counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#counter_metric OpenpipelineV2SecurityEventsIngestsources#counter_metric}
   */
   readonly counterMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorCounterMetric;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#davis OpenpipelineV2SecurityEventsIngestsources#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#davis OpenpipelineV2SecurityEventsIngestsources#davis}
   */
   readonly davis?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorDavis;
   /**
   * dql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#dql OpenpipelineV2SecurityEventsIngestsources#dql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#dql OpenpipelineV2SecurityEventsIngestsources#dql}
   */
   readonly dql?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorDql;
   /**
   * fields_add block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields_add OpenpipelineV2SecurityEventsIngestsources#fields_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields_add OpenpipelineV2SecurityEventsIngestsources#fields_add}
   */
   readonly fieldsAdd?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsAdd;
   /**
   * fields_remove block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields_remove OpenpipelineV2SecurityEventsIngestsources#fields_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields_remove OpenpipelineV2SecurityEventsIngestsources#fields_remove}
   */
   readonly fieldsRemove?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsRemove;
   /**
   * fields_rename block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#fields_rename OpenpipelineV2SecurityEventsIngestsources#fields_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#fields_rename OpenpipelineV2SecurityEventsIngestsources#fields_rename}
   */
   readonly fieldsRename?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorFieldsRename;
   /**
   * histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#histogram_metric OpenpipelineV2SecurityEventsIngestsources#histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#histogram_metric OpenpipelineV2SecurityEventsIngestsources#histogram_metric}
   */
   readonly histogramMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorHistogramMetric;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#product_allocation OpenpipelineV2SecurityEventsIngestsources#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#product_allocation OpenpipelineV2SecurityEventsIngestsources#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorProductAllocation;
   /**
   * sampling_aware_counter_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_counter_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_counter_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_counter_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_counter_metric}
   */
   readonly samplingAwareCounterMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareCounterMetric;
   /**
   * sampling_aware_histogram_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_histogram_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_histogram_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_histogram_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_histogram_metric}
   */
   readonly samplingAwareHistogramMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareHistogramMetric;
   /**
   * sampling_aware_value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_value_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sampling_aware_value_metric OpenpipelineV2SecurityEventsIngestsources#sampling_aware_value_metric}
   */
   readonly samplingAwareValueMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSamplingAwareValueMetric;
   /**
   * sdlc_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#sdlc_event OpenpipelineV2SecurityEventsIngestsources#sdlc_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#sdlc_event OpenpipelineV2SecurityEventsIngestsources#sdlc_event}
   */
   readonly sdlcEvent?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSdlcEvent;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#security_context OpenpipelineV2SecurityEventsIngestsources#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#security_context OpenpipelineV2SecurityEventsIngestsources#security_context}
   */
   readonly securityContext?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityContext;
   /**
   * security_event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#security_event OpenpipelineV2SecurityEventsIngestsources#security_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#security_event OpenpipelineV2SecurityEventsIngestsources#security_event}
   */
   readonly securityEvent?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSecurityEvent;
   /**
   * smartscape_edge block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_edge OpenpipelineV2SecurityEventsIngestsources#smartscape_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_edge OpenpipelineV2SecurityEventsIngestsources#smartscape_edge}
   */
   readonly smartscapeEdge?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeEdge;
   /**
   * smartscape_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_node OpenpipelineV2SecurityEventsIngestsources#smartscape_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#smartscape_node OpenpipelineV2SecurityEventsIngestsources#smartscape_node}
   */
   readonly smartscapeNode?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorSmartscapeNode;
   /**
   * technology block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#technology OpenpipelineV2SecurityEventsIngestsources#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#technology OpenpipelineV2SecurityEventsIngestsources#technology}
   */
   readonly technology?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorTechnology;
   /**
   * value_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#value_metric OpenpipelineV2SecurityEventsIngestsources#value_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#value_metric OpenpipelineV2SecurityEventsIngestsources#value_metric}
   */
   readonly valueMetric?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessorValueMetric;
 }
@@ -12063,7 +12302,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessors {
   /**
   * processor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#processor OpenpipelineV2SecurityEventsIngestsources#processor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#processor OpenpipelineV2SecurityEventsIngestsources#processor}
   */
   readonly processor: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessorsProcessor[] | cdktf.IResolvable;
 }
@@ -12146,7 +12385,7 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesProcessing {
   /**
   * processors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#processors OpenpipelineV2SecurityEventsIngestsources#processors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#processors OpenpipelineV2SecurityEventsIngestsources#processors}
   */
   readonly processors?: OpenpipelineV2SecurityEventsIngestsourcesProcessingProcessors;
 }
@@ -12232,19 +12471,19 @@ export interface OpenpipelineV2SecurityEventsIngestsourcesStaticRouting {
   /**
   * Builtin Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#builtin_pipeline_id OpenpipelineV2SecurityEventsIngestsources#builtin_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#builtin_pipeline_id OpenpipelineV2SecurityEventsIngestsources#builtin_pipeline_id}
   */
   readonly builtinPipelineId?: string;
   /**
   * Pipeline ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#pipeline_id OpenpipelineV2SecurityEventsIngestsources#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#pipeline_id OpenpipelineV2SecurityEventsIngestsources#pipeline_id}
   */
   readonly pipelineId?: string;
   /**
   * Pipeline Type. Possible Values: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#pipeline_type OpenpipelineV2SecurityEventsIngestsources#pipeline_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#pipeline_type OpenpipelineV2SecurityEventsIngestsources#pipeline_type}
   */
   readonly pipelineType: string;
 }
@@ -12383,7 +12622,7 @@ export class OpenpipelineV2SecurityEventsIngestsourcesStaticRoutingOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources dynatrace_openpipeline_v2_security_events_ingestsources}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources dynatrace_openpipeline_v2_security_events_ingestsources}
 */
 export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformResource {
 
@@ -12399,7 +12638,7 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
   * Generates CDKTF code for importing a OpenpipelineV2SecurityEventsIngestsources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2SecurityEventsIngestsources to import
-  * @param importFromId The id of the existing OpenpipelineV2SecurityEventsIngestsources that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2SecurityEventsIngestsources that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2SecurityEventsIngestsources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12411,7 +12650,7 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_security_events_ingestsources dynatrace_openpipeline_v2_security_events_ingestsources} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_security_events_ingestsources dynatrace_openpipeline_v2_security_events_ingestsources} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12422,8 +12661,8 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
       terraformResourceType: 'dynatrace_openpipeline_v2_security_events_ingestsources',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -12440,6 +12679,7 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
     this._pathSegment = config.pathSegment;
     this._source = config.source;
     this._sourceType = config.sourceType;
+    this._metadataList.internalValue = config.metadataList;
     this._processing.internalValue = config.processing;
     this._staticRouting.internalValue = config.staticRouting;
   }
@@ -12554,6 +12794,22 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
     return this._sourceType;
   }
 
+  // metadata_list - computed: false, optional: true, required: false
+  private _metadataList = new OpenpipelineV2SecurityEventsIngestsourcesMetadataListStructOutputReference(this, "metadata_list");
+  public get metadataList() {
+    return this._metadataList;
+  }
+  public putMetadataList(value: OpenpipelineV2SecurityEventsIngestsourcesMetadataListStruct) {
+    this._metadataList.internalValue = value;
+  }
+  public resetMetadataList() {
+    this._metadataList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataListInput() {
+    return this._metadataList.internalValue;
+  }
+
   // processing - computed: false, optional: true, required: false
   private _processing = new OpenpipelineV2SecurityEventsIngestsourcesProcessingOutputReference(this, "processing");
   public get processing() {
@@ -12599,6 +12855,7 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
       path_segment: cdktf.stringToTerraform(this._pathSegment),
       source: cdktf.stringToTerraform(this._source),
       source_type: cdktf.stringToTerraform(this._sourceType),
+      metadata_list: openpipelineV2SecurityEventsIngestsourcesMetadataListStructToTerraform(this._metadataList.internalValue),
       processing: openpipelineV2SecurityEventsIngestsourcesProcessingToTerraform(this._processing.internalValue),
       static_routing: openpipelineV2SecurityEventsIngestsourcesStaticRoutingToTerraform(this._staticRouting.internalValue),
     };
@@ -12647,6 +12904,12 @@ export class OpenpipelineV2SecurityEventsIngestsources extends cdktf.TerraformRe
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      metadata_list: {
+        value: openpipelineV2SecurityEventsIngestsourcesMetadataListStructToHclTerraform(this._metadataList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2SecurityEventsIngestsourcesMetadataListStructList",
       },
       processing: {
         value: openpipelineV2SecurityEventsIngestsourcesProcessingToHclTerraform(this._processing.internalValue),

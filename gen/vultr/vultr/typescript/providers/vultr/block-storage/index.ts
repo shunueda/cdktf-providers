@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface BlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#attached_to_instance BlockStorage#attached_to_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#attached_to_instance BlockStorage#attached_to_instance}
   */
   readonly attachedToInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#block_type BlockStorage#block_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#block_type BlockStorage#block_type}
   */
   readonly blockType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#id BlockStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#id BlockStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#label BlockStorage#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#label BlockStorage#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#live BlockStorage#live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#live BlockStorage#live}
   */
   readonly live?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#region BlockStorage#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#region BlockStorage#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#size_gb BlockStorage#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#size_gb BlockStorage#size_gb}
   */
   readonly sizeGb: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage vultr_block_storage}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage vultr_block_storage}
 */
 export class BlockStorage extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class BlockStorage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BlockStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BlockStorage to import
-  * @param importFromId The id of the existing BlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BlockStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class BlockStorage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/block_storage vultr_block_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/block_storage vultr_block_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class BlockStorage extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_block_storage',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

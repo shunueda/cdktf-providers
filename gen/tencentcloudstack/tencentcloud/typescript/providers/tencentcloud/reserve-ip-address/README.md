@@ -1,3 +1,3 @@
 # `tencentcloud_reserve_ip_address`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_reserve_ip_address`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/reserve_ip_address).
+Refer to the Terraform Registry for docs: [`tencentcloud_reserve_ip_address`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/reserve_ip_address).

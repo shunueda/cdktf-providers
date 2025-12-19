@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TcmTracingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether enable tracing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#enable TcmTracingConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#enable TcmTracingConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#id TcmTracingConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#id TcmTracingConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TcmTracingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mesh ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#mesh_id TcmTracingConfig#mesh_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#mesh_id TcmTracingConfig#mesh_id}
   */
   readonly meshId: string;
   /**
   * Tracing sampling, 0.0-1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#sampling TcmTracingConfig#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#sampling TcmTracingConfig#sampling}
   */
   readonly sampling?: number;
   /**
   * apm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#apm TcmTracingConfig#apm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#apm TcmTracingConfig#apm}
   */
   readonly apm?: TcmTracingConfigApm;
   /**
   * zipkin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#zipkin TcmTracingConfig#zipkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#zipkin TcmTracingConfig#zipkin}
   */
   readonly zipkin?: TcmTracingConfigZipkin;
 }
@@ -49,19 +49,19 @@ export interface TcmTracingConfigApm {
   /**
   * Whether enable APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#enable TcmTracingConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#enable TcmTracingConfig#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Instance id of the APM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#instance_id TcmTracingConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#instance_id TcmTracingConfig#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#region TcmTracingConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#region TcmTracingConfig#region}
   */
   readonly region?: string;
 }
@@ -205,7 +205,7 @@ export interface TcmTracingConfigZipkin {
   /**
   * Zipkin address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#address TcmTracingConfig#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#address TcmTracingConfig#address}
   */
   readonly address: string;
 }
@@ -286,7 +286,7 @@ export class TcmTracingConfigZipkinOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config tencentcloud_tcm_tracing_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config tencentcloud_tcm_tracing_config}
 */
 export class TcmTracingConfig extends cdktf.TerraformResource {
 
@@ -302,7 +302,7 @@ export class TcmTracingConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcmTracingConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcmTracingConfig to import
-  * @param importFromId The id of the existing TcmTracingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcmTracingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcmTracingConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class TcmTracingConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tcm_tracing_config tencentcloud_tcm_tracing_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tcm_tracing_config tencentcloud_tcm_tracing_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class TcmTracingConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tcm_tracing_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

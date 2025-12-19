@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,30 +11,30 @@ export interface BgpAddressFamilyVpnv6Config extends cdktf.TerraformMetaArgument
   * 
   *   - Choices: `flowspec`, `multicast`, `unicast`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6#af_name BgpAddressFamilyVpnv6#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6#af_name BgpAddressFamilyVpnv6#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6#asn BgpAddressFamilyVpnv6#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6#asn BgpAddressFamilyVpnv6#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6#delete_mode BgpAddressFamilyVpnv6#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6#delete_mode BgpAddressFamilyVpnv6#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6#device BgpAddressFamilyVpnv6#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6#device BgpAddressFamilyVpnv6#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6 iosxe_bgp_address_family_vpnv6}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6 iosxe_bgp_address_family_vpnv6}
 */
 export class BgpAddressFamilyVpnv6 extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class BgpAddressFamilyVpnv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpAddressFamilyVpnv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpAddressFamilyVpnv6 to import
-  * @param importFromId The id of the existing BgpAddressFamilyVpnv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpAddressFamilyVpnv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpAddressFamilyVpnv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class BgpAddressFamilyVpnv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/bgp_address_family_vpnv6 iosxe_bgp_address_family_vpnv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_address_family_vpnv6 iosxe_bgp_address_family_vpnv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class BgpAddressFamilyVpnv6 extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_address_family_vpnv6',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

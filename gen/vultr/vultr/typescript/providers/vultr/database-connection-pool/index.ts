@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseConnectionPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#database DatabaseConnectionPool#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#database DatabaseConnectionPool#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#database_id DatabaseConnectionPool#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#database_id DatabaseConnectionPool#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#id DatabaseConnectionPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#id DatabaseConnectionPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#mode DatabaseConnectionPool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#mode DatabaseConnectionPool#mode}
   */
   readonly mode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#name DatabaseConnectionPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#name DatabaseConnectionPool#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#size DatabaseConnectionPool#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#size DatabaseConnectionPool#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#username DatabaseConnectionPool#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#username DatabaseConnectionPool#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool vultr_database_connection_pool}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool vultr_database_connection_pool}
 */
 export class DatabaseConnectionPool extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class DatabaseConnectionPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseConnectionPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseConnectionPool to import
-  * @param importFromId The id of the existing DatabaseConnectionPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseConnectionPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseConnectionPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DatabaseConnectionPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_connection_pool vultr_database_connection_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_connection_pool vultr_database_connection_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DatabaseConnectionPool extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_database_connection_pool',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

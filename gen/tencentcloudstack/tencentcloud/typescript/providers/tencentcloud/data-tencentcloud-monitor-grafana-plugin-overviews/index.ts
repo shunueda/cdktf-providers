@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudMonitorGrafanaPluginOverviewsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews#id DataTencentcloudMonitorGrafanaPluginOverviews#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews#id DataTencentcloudMonitorGrafanaPluginOverviews#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudMonitorGrafanaPluginOverviewsConfig extends cdk
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews#result_output_file DataTencentcloudMonitorGrafanaPluginOverviews#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews#result_output_file DataTencentcloudMonitorGrafanaPluginOverviews#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -103,7 +103,7 @@ export class DataTencentcloudMonitorGrafanaPluginOverviewsPluginSetList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews tencentcloud_monitor_grafana_plugin_overviews}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews tencentcloud_monitor_grafana_plugin_overviews}
 */
 export class DataTencentcloudMonitorGrafanaPluginOverviews extends cdktf.TerraformDataSource {
 
@@ -119,7 +119,7 @@ export class DataTencentcloudMonitorGrafanaPluginOverviews extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataTencentcloudMonitorGrafanaPluginOverviews resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorGrafanaPluginOverviews to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorGrafanaPluginOverviews that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorGrafanaPluginOverviews that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorGrafanaPluginOverviews to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -131,7 +131,7 @@ export class DataTencentcloudMonitorGrafanaPluginOverviews extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_grafana_plugin_overviews tencentcloud_monitor_grafana_plugin_overviews} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_grafana_plugin_overviews tencentcloud_monitor_grafana_plugin_overviews} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -142,8 +142,8 @@ export class DataTencentcloudMonitorGrafanaPluginOverviews extends cdktf.Terrafo
       terraformResourceType: 'tencentcloud_monitor_grafana_plugin_overviews',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresqlModifySwitchTimePeriodOperationConfig extends cdktf.T
   /**
   * The ID of the instance waiting for a switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation#db_instance_id PostgresqlModifySwitchTimePeriodOperation#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation#db_instance_id PostgresqlModifySwitchTimePeriodOperation#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation#id PostgresqlModifySwitchTimePeriodOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation#id PostgresqlModifySwitchTimePeriodOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface PostgresqlModifySwitchTimePeriodOperationConfig extends cdktf.T
   /**
   * Valid value: `0` (switch immediately).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation#switch_tag PostgresqlModifySwitchTimePeriodOperation#switch_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation#switch_tag PostgresqlModifySwitchTimePeriodOperation#switch_tag}
   */
   readonly switchTag: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation tencentcloud_postgresql_modify_switch_time_period_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation tencentcloud_postgresql_modify_switch_time_period_operation}
 */
 export class PostgresqlModifySwitchTimePeriodOperation extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class PostgresqlModifySwitchTimePeriodOperation extends cdktf.TerraformRe
   * Generates CDKTF code for importing a PostgresqlModifySwitchTimePeriodOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlModifySwitchTimePeriodOperation to import
-  * @param importFromId The id of the existing PostgresqlModifySwitchTimePeriodOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlModifySwitchTimePeriodOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlModifySwitchTimePeriodOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class PostgresqlModifySwitchTimePeriodOperation extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/postgresql_modify_switch_time_period_operation tencentcloud_postgresql_modify_switch_time_period_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/postgresql_modify_switch_time_period_operation tencentcloud_postgresql_modify_switch_time_period_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class PostgresqlModifySwitchTimePeriodOperation extends cdktf.TerraformRe
       terraformResourceType: 'tencentcloud_postgresql_modify_switch_time_period_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataVultrBlockStorageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage#id DataVultrBlockStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage#id DataVultrBlockStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataVultrBlockStorageConfig extends cdktf.TerraformMetaArgument
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage#filter DataVultrBlockStorage#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage#filter DataVultrBlockStorage#filter}
   */
   readonly filter?: DataVultrBlockStorageFilter[] | cdktf.IResolvable;
 }
 export interface DataVultrBlockStorageFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage#name DataVultrBlockStorage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage#name DataVultrBlockStorage#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage#values DataVultrBlockStorage#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage#values DataVultrBlockStorage#values}
   */
   readonly values: string[];
 }
@@ -166,7 +166,7 @@ export class DataVultrBlockStorageFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage vultr_block_storage}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage vultr_block_storage}
 */
 export class DataVultrBlockStorage extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataVultrBlockStorage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVultrBlockStorage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVultrBlockStorage to import
-  * @param importFromId The id of the existing DataVultrBlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVultrBlockStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVultrBlockStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataVultrBlockStorage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/block_storage vultr_block_storage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/block_storage vultr_block_storage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataVultrBlockStorage extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_block_storage',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

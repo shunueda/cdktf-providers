@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook
+// https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NotebookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies a comment for the notebook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#comment Notebook#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#comment Notebook#comment}
   */
   readonly comment?: string;
   /**
   * The database in which to create the notebook. Due to technical limitations (read more [here](../guides/identifiers_rework_design_decisions#known-limitations-and-identifier-recommendations)), avoid using the following characters: `|`, `.`, `"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#database Notebook#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#database Notebook#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#id Notebook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#id Notebook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface NotebookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the number of seconds of idle time before the notebook is shut down automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#idle_auto_shutdown_time_seconds Notebook#idle_auto_shutdown_time_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#idle_auto_shutdown_time_seconds Notebook#idle_auto_shutdown_time_seconds}
   */
   readonly idleAutoShutdownTimeSeconds?: number;
   /**
   * Specifies a user-specified identifier for the notebook file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#main_file Notebook#main_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#main_file Notebook#main_file}
   */
   readonly mainFile?: string;
   /**
   * Specifies the identifier for the notebook; must be unique for the schema in which the notebook is created. Due to technical limitations (read more [here](../guides/identifiers_rework_design_decisions#known-limitations-and-identifier-recommendations)), avoid using the following characters: `|`, `.`, `"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#name Notebook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#name Notebook#name}
   */
   readonly name: string;
   /**
-  * Specifies the warehouse where SQL queries in the notebook are run.
+  * Specifies the warehouse where SQL queries in the notebook are run. Only upper-case identifiers are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#query_warehouse Notebook#query_warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#query_warehouse Notebook#query_warehouse}
   */
   readonly queryWarehouse?: string;
   /**
   * The schema in which to create the notebook. Due to technical limitations (read more [here](../guides/identifiers_rework_design_decisions#known-limitations-and-identifier-recommendations)), avoid using the following characters: `|`, `.`, `"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#schema Notebook#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#schema Notebook#schema}
   */
   readonly schema: string;
   /**
-  * Specifies the warehouse that runs the notebook kernel and python code.
+  * Specifies the warehouse that runs the notebook kernel and python code. Only upper-case identifiers are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#warehouse Notebook#warehouse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#warehouse Notebook#warehouse}
   */
   readonly warehouse?: string;
   /**
   * from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#from Notebook#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#from Notebook#from}
   */
   readonly from?: NotebookFrom[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#timeouts Notebook#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#timeouts Notebook#timeouts}
   */
   readonly timeouts?: NotebookTimeouts;
 }
@@ -414,13 +414,13 @@ export interface NotebookFrom {
   /**
   * Location of the .ipynb file in the stage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#path Notebook#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#path Notebook#path}
   */
   readonly path?: string;
   /**
   * Identifier of the stage where the .ipynb file is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#stage Notebook#stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#stage Notebook#stage}
   */
   readonly stage: string;
 }
@@ -562,19 +562,19 @@ export class NotebookFromList extends cdktf.ComplexList {
 }
 export interface NotebookTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#create Notebook#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#create Notebook#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#delete Notebook#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#delete Notebook#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#read Notebook#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#read Notebook#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#update Notebook#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#update Notebook#update}
   */
   readonly update?: string;
 }
@@ -755,7 +755,7 @@ export class NotebookTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook snowflake_notebook}
+* Represents a {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook snowflake_notebook}
 */
 export class Notebook extends cdktf.TerraformResource {
 
@@ -771,7 +771,7 @@ export class Notebook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notebook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notebook to import
-  * @param importFromId The id of the existing Notebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notebook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -783,7 +783,7 @@ export class Notebook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.11.0/docs/resources/notebook snowflake_notebook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/snowflakedb/snowflake/2.12.0/docs/resources/notebook snowflake_notebook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -794,8 +794,8 @@ export class Notebook extends cdktf.TerraformResource {
       terraformResourceType: 'snowflake_notebook',
       terraformGeneratorMetadata: {
         providerName: 'snowflake',
-        providerVersion: '2.11.0',
-        providerVersionConstraint: '2.11.0'
+        providerVersion: '2.12.0',
+        providerVersionConstraint: '2.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

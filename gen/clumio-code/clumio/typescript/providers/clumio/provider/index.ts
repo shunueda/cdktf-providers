@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -32,31 +32,31 @@ export interface ClumioProviderConfig {
   * 
   * 		
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs#clumio_api_base_url ClumioProvider#clumio_api_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs#clumio_api_base_url ClumioProvider#clumio_api_base_url}
   */
   readonly clumioApiBaseUrl?: string;
   /**
   * The API token required to invoke Clumio APIs. Informations for generating this token are available here: https://documentation.commvault.com/clumio/api_tokens.html#manage-tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs#clumio_api_token ClumioProvider#clumio_api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs#clumio_api_token ClumioProvider#clumio_api_token}
   */
   readonly clumioApiToken?: string;
   /**
   * Organizational Unit context in which to create the clumio resources. If not set, the resources will be created in the context of the Global Organizational Unit. The value should be the id of the Organizational Unit and not the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs#clumio_organizational_unit_context ClumioProvider#clumio_organizational_unit_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs#clumio_organizational_unit_context ClumioProvider#clumio_organizational_unit_context}
   */
   readonly clumioOrganizationalUnitContext?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs#alias ClumioProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs#alias ClumioProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs clumio}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs clumio}
 */
 export class ClumioProvider extends cdktf.TerraformProvider {
 
@@ -72,7 +72,7 @@ export class ClumioProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ClumioProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClumioProvider to import
-  * @param importFromId The id of the existing ClumioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClumioProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClumioProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -84,7 +84,7 @@ export class ClumioProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs clumio} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs clumio} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -95,8 +95,8 @@ export class ClumioProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'clumio',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       terraformProviderSource: 'clumio-code/clumio'
     });

@@ -1,3 +1,3 @@
 # `tencentcloud_teo_dns_record`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_teo_dns_record`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_dns_record).
+Refer to the Terraform Registry for docs: [`tencentcloud_teo_dns_record`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_dns_record).

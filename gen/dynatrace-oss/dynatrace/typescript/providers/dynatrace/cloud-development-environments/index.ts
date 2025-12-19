@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CloudDevelopmentEnvironmentsConfig extends cdktf.TerraformMetaA
   /**
   * The URL to allow app development from. E.g. `https://*.my-company.my-cde-provider.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments#cloud_development_environments CloudDevelopmentEnvironments#cloud_development_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments#cloud_development_environments CloudDevelopmentEnvironments#cloud_development_environments}
   */
   readonly cloudDevelopmentEnvironments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments#id CloudDevelopmentEnvironments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments#id CloudDevelopmentEnvironments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface CloudDevelopmentEnvironmentsConfig extends cdktf.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments dynatrace_cloud_development_environments}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments dynatrace_cloud_development_environments}
 */
 export class CloudDevelopmentEnvironments extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class CloudDevelopmentEnvironments extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudDevelopmentEnvironments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudDevelopmentEnvironments to import
-  * @param importFromId The id of the existing CloudDevelopmentEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudDevelopmentEnvironments that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudDevelopmentEnvironments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class CloudDevelopmentEnvironments extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/cloud_development_environments dynatrace_cloud_development_environments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/cloud_development_environments dynatrace_cloud_development_environments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class CloudDevelopmentEnvironments extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_cloud_development_environments',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataClumioDynamodbTablesConfig extends cdktf.TerraformMetaArgum
   /**
   * The identifier of the AWS account under which the DynamoDB bucket was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables#account_native_id DataClumioDynamodbTables#account_native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables#account_native_id DataClumioDynamodbTables#account_native_id}
   */
   readonly accountNativeId: string;
   /**
   * The AWS region associated with the DynamoDB tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables#aws_region DataClumioDynamodbTables#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables#aws_region DataClumioDynamodbTables#aws_region}
   */
   readonly awsRegion: string;
   /**
   * The DynamoDB table name to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables#name DataClumioDynamodbTables#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables#name DataClumioDynamodbTables#name}
   */
   readonly name?: string;
   /**
   * Native identifier of the DynamoDB table to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables#table_native_id DataClumioDynamodbTables#table_native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables#table_native_id DataClumioDynamodbTables#table_native_id}
   */
   readonly tableNativeId?: string;
 }
@@ -119,7 +119,7 @@ export class DataClumioDynamodbTablesDynamodbTablesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables clumio_dynamodb_tables}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables clumio_dynamodb_tables}
 */
 export class DataClumioDynamodbTables extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataClumioDynamodbTables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataClumioDynamodbTables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioDynamodbTables to import
-  * @param importFromId The id of the existing DataClumioDynamodbTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioDynamodbTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioDynamodbTables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataClumioDynamodbTables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/dynamodb_tables clumio_dynamodb_tables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/dynamodb_tables clumio_dynamodb_tables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataClumioDynamodbTables extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_dynamodb_tables',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

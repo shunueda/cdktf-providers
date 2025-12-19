@@ -13,7 +13,6 @@ Object.defineProperty(exports, 'postProcessKms', { get: function () { return req
 Object.defineProperty(exports, 'protectionGroup', { get: function () { return require('./protection-group'); } });
 Object.defineProperty(exports, 'protectionGroupBucket', { get: function () { return require('./protection-group-bucket'); } });
 Object.defineProperty(exports, 'reportConfiguration', { get: function () { return require('./report-configuration'); } });
-Object.defineProperty(exports, 's3BucketProperties', { get: function () { return require('./s3-bucket-properties'); } });
 Object.defineProperty(exports, 'user', { get: function () { return require('./user'); } });
 Object.defineProperty(exports, 'wallet', { get: function () { return require('./wallet'); } });
 Object.defineProperty(exports, 'dataClumioAwsConnection', { get: function () { return require('./data-clumio-aws-connection'); } });

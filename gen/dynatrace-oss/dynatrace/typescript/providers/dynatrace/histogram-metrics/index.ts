@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -12,11 +12,11 @@ export interface HistogramMetricsConfig extends cdktf.TerraformMetaArguments {
   *  Enable this if you are using OpenTelemetry histograms or Prometheus histogram metrics.\
   * When disabled, only your histograms' sum and count metrics will be ingested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics#enable_histogram_bucket_ingest HistogramMetrics#enable_histogram_bucket_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics#enable_histogram_bucket_ingest HistogramMetrics#enable_histogram_bucket_ingest}
   */
   readonly enableHistogramBucketIngest: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics#id HistogramMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics#id HistogramMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface HistogramMetricsConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics dynatrace_histogram_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics dynatrace_histogram_metrics}
 */
 export class HistogramMetrics extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class HistogramMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HistogramMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HistogramMetrics to import
-  * @param importFromId The id of the existing HistogramMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HistogramMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HistogramMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class HistogramMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/histogram_metrics dynatrace_histogram_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/histogram_metrics dynatrace_histogram_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class HistogramMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_histogram_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

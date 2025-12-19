@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ManagedAccountConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access Credential (aka Integrations) tokens to assign to the Managed Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account#access_credential_tokens ManagedAccount#access_credential_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account#access_credential_tokens ManagedAccount#access_credential_tokens}
   */
   readonly accessCredentialTokens?: string[];
   /**
   * Billing Rule tokens to assign to the Managed Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account#billing_rule_tokens ManagedAccount#billing_rule_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account#billing_rule_tokens ManagedAccount#billing_rule_tokens}
   */
   readonly billingRuleTokens?: string[];
   /**
   * The contact email address for the Managed Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account#contact_email ManagedAccount#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account#contact_email ManagedAccount#contact_email}
   */
   readonly contactEmail: string;
   /**
   * The name of the Managed Account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account#name ManagedAccount#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account#name ManagedAccount#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account vantage_managed_account}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account vantage_managed_account}
 */
 export class ManagedAccount extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ManagedAccount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedAccount to import
-  * @param importFromId The id of the existing ManagedAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ManagedAccount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/managed_account vantage_managed_account} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/managed_account vantage_managed_account} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ManagedAccount extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_managed_account',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

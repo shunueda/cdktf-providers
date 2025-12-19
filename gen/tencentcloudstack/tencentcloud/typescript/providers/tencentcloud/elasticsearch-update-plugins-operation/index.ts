@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ElasticsearchUpdatePluginsOperationConfig extends cdktf.Terrafo
   /**
   * Whether to force a restart. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#force_restart ElasticsearchUpdatePluginsOperation#force_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#force_restart ElasticsearchUpdatePluginsOperation#force_restart}
   */
   readonly forceRestart?: boolean | cdktf.IResolvable;
   /**
   * Whether to reinstall, default value false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#force_update ElasticsearchUpdatePluginsOperation#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#force_update ElasticsearchUpdatePluginsOperation#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#id ElasticsearchUpdatePluginsOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#id ElasticsearchUpdatePluginsOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ElasticsearchUpdatePluginsOperationConfig extends cdktf.Terrafo
   /**
   * List of plugins that need to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#install_plugin_list ElasticsearchUpdatePluginsOperation#install_plugin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#install_plugin_list ElasticsearchUpdatePluginsOperation#install_plugin_list}
   */
   readonly installPluginList?: string[];
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#instance_id ElasticsearchUpdatePluginsOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#instance_id ElasticsearchUpdatePluginsOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Plugin type. 0: system plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#plugin_type ElasticsearchUpdatePluginsOperation#plugin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#plugin_type ElasticsearchUpdatePluginsOperation#plugin_type}
   */
   readonly pluginType?: number;
   /**
   * List of plugins that need to be uninstalled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#remove_plugin_list ElasticsearchUpdatePluginsOperation#remove_plugin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#remove_plugin_list ElasticsearchUpdatePluginsOperation#remove_plugin_list}
   */
   readonly removePluginList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation tencentcloud_elasticsearch_update_plugins_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation tencentcloud_elasticsearch_update_plugins_operation}
 */
 export class ElasticsearchUpdatePluginsOperation extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ElasticsearchUpdatePluginsOperation extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ElasticsearchUpdatePluginsOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchUpdatePluginsOperation to import
-  * @param importFromId The id of the existing ElasticsearchUpdatePluginsOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchUpdatePluginsOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchUpdatePluginsOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ElasticsearchUpdatePluginsOperation extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_update_plugins_operation tencentcloud_elasticsearch_update_plugins_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_update_plugins_operation tencentcloud_elasticsearch_update_plugins_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ElasticsearchUpdatePluginsOperation extends cdktf.TerraformResource
       terraformResourceType: 'tencentcloud_elasticsearch_update_plugins_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

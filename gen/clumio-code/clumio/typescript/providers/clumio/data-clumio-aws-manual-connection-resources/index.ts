@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DataClumioAwsManualConnectionResourcesConfig extends cdktf.Terr
   /**
   * AWS Account ID to be connected to Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#account_native_id DataClumioAwsManualConnectionResources#account_native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#account_native_id DataClumioAwsManualConnectionResources#account_native_id}
   */
   readonly accountNativeId: string;
   /**
   * Assets to be connected to Clumio. Note that `mssql` is only available for legacy connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#asset_types_enabled DataClumioAwsManualConnectionResources#asset_types_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#asset_types_enabled DataClumioAwsManualConnectionResources#asset_types_enabled}
   */
   readonly assetTypesEnabled: DataClumioAwsManualConnectionResourcesAssetTypesEnabled;
   /**
   * AWS Region to be connected to Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#aws_region DataClumioAwsManualConnectionResources#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#aws_region DataClumioAwsManualConnectionResources#aws_region}
   */
   readonly awsRegion: string;
 }
 export interface DataClumioAwsManualConnectionResourcesAssetTypesEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#ddb DataClumioAwsManualConnectionResources#ddb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#ddb DataClumioAwsManualConnectionResources#ddb}
   */
   readonly ddb: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#ebs DataClumioAwsManualConnectionResources#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#ebs DataClumioAwsManualConnectionResources#ebs}
   */
   readonly ebs: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#mssql DataClumioAwsManualConnectionResources#mssql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#mssql DataClumioAwsManualConnectionResources#mssql}
   */
   readonly mssql: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#rds DataClumioAwsManualConnectionResources#rds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#rds DataClumioAwsManualConnectionResources#rds}
   */
   readonly rds: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#s3 DataClumioAwsManualConnectionResources#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#s3 DataClumioAwsManualConnectionResources#s3}
   */
   readonly s3: boolean | cdktf.IResolvable;
 }
@@ -239,7 +239,7 @@ export class DataClumioAwsManualConnectionResourcesAssetTypesEnabledOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources clumio_aws_manual_connection_resources}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources clumio_aws_manual_connection_resources}
 */
 export class DataClumioAwsManualConnectionResources extends cdktf.TerraformDataSource {
 
@@ -255,7 +255,7 @@ export class DataClumioAwsManualConnectionResources extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataClumioAwsManualConnectionResources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioAwsManualConnectionResources to import
-  * @param importFromId The id of the existing DataClumioAwsManualConnectionResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioAwsManualConnectionResources that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioAwsManualConnectionResources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class DataClumioAwsManualConnectionResources extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_manual_connection_resources clumio_aws_manual_connection_resources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_manual_connection_resources clumio_aws_manual_connection_resources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class DataClumioAwsManualConnectionResources extends cdktf.TerraformDataS
       terraformResourceType: 'clumio_aws_manual_connection_resources',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

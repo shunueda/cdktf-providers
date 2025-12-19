@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LogAgentFeatureFlagsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#id LogAgentFeatureFlags#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#id LogAgentFeatureFlags#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface LogAgentFeatureFlagsConfig extends cdktf.TerraformMetaArguments
   * This setting enables:
   * * Detection and to have logs ingested matching ingest rule is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#journald_log_detector LogAgentFeatureFlags#journald_log_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#journald_log_detector LogAgentFeatureFlags#journald_log_detector}
   */
   readonly journaldLogDetector?: boolean | cdktf.IResolvable;
   /**
@@ -32,25 +32,25 @@ export interface LogAgentFeatureFlagsConfig extends cdktf.TerraformMetaArguments
   * 
   *  For more details, check our [documentation](https://dt-url.net/jn02ey0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#new_container_log_detector LogAgentFeatureFlags#new_container_log_detector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#new_container_log_detector LogAgentFeatureFlags#new_container_log_detector}
   */
   readonly newContainerLogDetector: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (HOST, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#scope LogAgentFeatureFlags#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#scope LogAgentFeatureFlags#scope}
   */
   readonly scope?: string;
   /**
   * Enable OneAgent to collect data from Event Logs in the User Data and Event Data sections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#user_and_event_data LogAgentFeatureFlags#user_and_event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#user_and_event_data LogAgentFeatureFlags#user_and_event_data}
   */
   readonly userAndEventData?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags dynatrace_log_agent_feature_flags}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags dynatrace_log_agent_feature_flags}
 */
 export class LogAgentFeatureFlags extends cdktf.TerraformResource {
 
@@ -66,7 +66,7 @@ export class LogAgentFeatureFlags extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogAgentFeatureFlags resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAgentFeatureFlags to import
-  * @param importFromId The id of the existing LogAgentFeatureFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAgentFeatureFlags that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAgentFeatureFlags to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -78,7 +78,7 @@ export class LogAgentFeatureFlags extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/log_agent_feature_flags dynatrace_log_agent_feature_flags} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/log_agent_feature_flags dynatrace_log_agent_feature_flags} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -89,8 +89,8 @@ export class LogAgentFeatureFlags extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_log_agent_feature_flags',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface EnvironmentVariableConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of the context on which the environment variable is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#context_id EnvironmentVariable#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#context_id EnvironmentVariable#context_id}
   */
   readonly contextId?: string;
   /**
   * Description of the environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#description EnvironmentVariable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#description EnvironmentVariable#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#id EnvironmentVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#id EnvironmentVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface EnvironmentVariableConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of the module on which the environment variable is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#module_id EnvironmentVariable#module_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#module_id EnvironmentVariable#module_id}
   */
   readonly moduleId?: string;
   /**
   * Name of the environment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#name EnvironmentVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#name EnvironmentVariable#name}
   */
   readonly name: string;
   /**
   * ID of the stack on which the environment variable is defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#stack_id EnvironmentVariable#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#stack_id EnvironmentVariable#stack_id}
   */
   readonly stackId?: string;
   /**
   * Value of the environment variable. Defaults to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#value EnvironmentVariable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#value EnvironmentVariable#value}
   */
   readonly value?: string;
   /**
   * Indicates whether the value is secret or not. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#write_only EnvironmentVariable#write_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#write_only EnvironmentVariable#write_only}
   */
   readonly writeOnly?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable spacelift_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable spacelift_environment_variable}
 */
 export class EnvironmentVariable extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentVariable to import
-  * @param importFromId The id of the existing EnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/environment_variable spacelift_environment_variable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/environment_variable spacelift_environment_variable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class EnvironmentVariable extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

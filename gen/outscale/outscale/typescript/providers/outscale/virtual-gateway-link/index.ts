@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,22 +8,22 @@ import * as cdktf from 'cdktf';
 
 export interface VirtualGatewayLinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link#dry_run VirtualGatewayLink#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link#dry_run VirtualGatewayLink#dry_run}
   */
   readonly dryRun?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link#id VirtualGatewayLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link#id VirtualGatewayLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link#net_id VirtualGatewayLink#net_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link#net_id VirtualGatewayLink#net_id}
   */
   readonly netId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link#virtual_gateway_id VirtualGatewayLink#virtual_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link#virtual_gateway_id VirtualGatewayLink#virtual_gateway_id}
   */
   readonly virtualGatewayId: string;
 }
@@ -109,7 +109,7 @@ export class VirtualGatewayLinkNetToVirtualGatewayLinksList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link outscale_virtual_gateway_link}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link outscale_virtual_gateway_link}
 */
 export class VirtualGatewayLink extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class VirtualGatewayLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualGatewayLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualGatewayLink to import
-  * @param importFromId The id of the existing VirtualGatewayLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualGatewayLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualGatewayLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class VirtualGatewayLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/virtual_gateway_link outscale_virtual_gateway_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/virtual_gateway_link outscale_virtual_gateway_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class VirtualGatewayLink extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_virtual_gateway_link',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

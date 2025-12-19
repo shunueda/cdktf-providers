@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppAutoInjectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#application_id WebAppAutoInjection#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#application_id WebAppAutoInjection#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#id WebAppAutoInjection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#id WebAppAutoInjection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface WebAppAutoInjectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * cache_control_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#cache_control_headers WebAppAutoInjection#cache_control_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#cache_control_headers WebAppAutoInjection#cache_control_headers}
   */
   readonly cacheControlHeaders: WebAppAutoInjectionCacheControlHeaders;
   /**
   * monitoring_code_source_section block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#monitoring_code_source_section WebAppAutoInjection#monitoring_code_source_section}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#monitoring_code_source_section WebAppAutoInjection#monitoring_code_source_section}
   */
   readonly monitoringCodeSourceSection: WebAppAutoInjectionMonitoringCodeSourceSection;
   /**
   * snippet_format block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#snippet_format WebAppAutoInjection#snippet_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#snippet_format WebAppAutoInjection#snippet_format}
   */
   readonly snippetFormat: WebAppAutoInjectionSnippetFormat;
 }
@@ -43,7 +43,7 @@ export interface WebAppAutoInjectionCacheControlHeaders {
   /**
   * [How to ensure timely configuration updates for automatic injection?](https://dt-url.net/m9039ea)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#cache_control_headers WebAppAutoInjection#cache_control_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#cache_control_headers WebAppAutoInjection#cache_control_headers}
   */
   readonly cacheControlHeaders: boolean | cdktf.IResolvable;
 }
@@ -126,13 +126,13 @@ export interface WebAppAutoInjectionMonitoringCodeSourceSection {
   /**
   * Real User Monitoring code source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#code_source WebAppAutoInjection#code_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#code_source WebAppAutoInjection#code_source}
   */
   readonly codeSource: string;
   /**
   * Specify the source path for placement of your application's custom JavaScript library file. By default, this path is set to the root directory of your web server. A custom source path may be necessary if your server operates behind a firewall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#monitoring_code_path WebAppAutoInjection#monitoring_code_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#monitoring_code_path WebAppAutoInjection#monitoring_code_path}
   */
   readonly monitoringCodePath?: string;
 }
@@ -244,19 +244,19 @@ export interface WebAppAutoInjectionSnippetFormat {
   /**
   * Possible Values: `DEFERRED`, `SYNCHRONOUSLY`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#code_snippet_type WebAppAutoInjection#code_snippet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#code_snippet_type WebAppAutoInjection#code_snippet_type}
   */
   readonly codeSnippetType?: string;
   /**
   * Possible Values: `async`, `defer`, `none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#script_execution_attribute WebAppAutoInjection#script_execution_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#script_execution_attribute WebAppAutoInjection#script_execution_attribute}
   */
   readonly scriptExecutionAttribute?: string;
   /**
   * Snippet format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#snippet_format WebAppAutoInjection#snippet_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#snippet_format WebAppAutoInjection#snippet_format}
   */
   readonly snippetFormat: string;
 }
@@ -395,7 +395,7 @@ export class WebAppAutoInjectionSnippetFormatOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection dynatrace_web_app_auto_injection}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection dynatrace_web_app_auto_injection}
 */
 export class WebAppAutoInjection extends cdktf.TerraformResource {
 
@@ -411,7 +411,7 @@ export class WebAppAutoInjection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppAutoInjection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppAutoInjection to import
-  * @param importFromId The id of the existing WebAppAutoInjection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppAutoInjection that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppAutoInjection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +423,7 @@ export class WebAppAutoInjection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_auto_injection dynatrace_web_app_auto_injection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_auto_injection dynatrace_web_app_auto_injection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +434,8 @@ export class WebAppAutoInjection extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_auto_injection',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DeploymentTrafficFilterAssociationConfig extends cdktf.Terrafor
   /**
   * Required deployment ID where the traffic filter will be associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association#deployment_id DeploymentTrafficFilterAssociation#deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association#deployment_id DeploymentTrafficFilterAssociation#deployment_id}
   */
   readonly deploymentId: string;
   /**
   * Required traffic filter ruleset ID to tie to a deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association#traffic_filter_id DeploymentTrafficFilterAssociation#traffic_filter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association#traffic_filter_id DeploymentTrafficFilterAssociation#traffic_filter_id}
   */
   readonly trafficFilterId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association ec_deployment_traffic_filter_association}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association ec_deployment_traffic_filter_association}
 */
 export class DeploymentTrafficFilterAssociation extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class DeploymentTrafficFilterAssociation extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DeploymentTrafficFilterAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentTrafficFilterAssociation to import
-  * @param importFromId The id of the existing DeploymentTrafficFilterAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentTrafficFilterAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentTrafficFilterAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DeploymentTrafficFilterAssociation extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/deployment_traffic_filter_association ec_deployment_traffic_filter_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/deployment_traffic_filter_association ec_deployment_traffic_filter_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DeploymentTrafficFilterAssociation extends cdktf.TerraformResource 
       terraformResourceType: 'ec_deployment_traffic_filter_association',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

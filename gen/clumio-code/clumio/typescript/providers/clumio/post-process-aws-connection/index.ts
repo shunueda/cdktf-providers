@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,139 +10,139 @@ export interface PostProcessAwsConnectionConfig extends cdktf.TerraformMetaArgum
   /**
   * Identifier of the AWS account to be linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#account_id PostProcessAwsConnection#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#account_id PostProcessAwsConnection#account_id}
   */
   readonly accountId: string;
   /**
   * Clumio Event Pub SNS topic ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#clumio_event_pub_id PostProcessAwsConnection#clumio_event_pub_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#clumio_event_pub_id PostProcessAwsConnection#clumio_event_pub_id}
   */
   readonly clumioEventPubId: string;
   /**
   * Clumio Config version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#config_version PostProcessAwsConnection#config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#config_version PostProcessAwsConnection#config_version}
   */
   readonly configVersion: string;
   /**
   * Clumio Discover version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#discover_version PostProcessAwsConnection#discover_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#discover_version PostProcessAwsConnection#discover_version}
   */
   readonly discoverVersion?: string;
   /**
   * Intermediate Role arn to be assumed before accessing ClumioRole in customer account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#intermediate_role_arn PostProcessAwsConnection#intermediate_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#intermediate_role_arn PostProcessAwsConnection#intermediate_role_arn}
   */
   readonly intermediateRoleArn?: string;
   /**
   * A map to pass in additional information to be consumed by Clumio Post Processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#properties PostProcessAwsConnection#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#properties PostProcessAwsConnection#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * Clumio Protect Config version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_config_version PostProcessAwsConnection#protect_config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_config_version PostProcessAwsConnection#protect_config_version}
   */
   readonly protectConfigVersion?: string;
   /**
   * Clumio DynamoDB Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_dynamodb_version PostProcessAwsConnection#protect_dynamodb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_dynamodb_version PostProcessAwsConnection#protect_dynamodb_version}
   */
   readonly protectDynamodbVersion?: string;
   /**
   * Clumio EBS Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_ebs_version PostProcessAwsConnection#protect_ebs_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_ebs_version PostProcessAwsConnection#protect_ebs_version}
   */
   readonly protectEbsVersion?: string;
   /**
   * Clumio EC2 MSSQL Protect version. This feature is only available for legacy connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_ec2_mssql_version PostProcessAwsConnection#protect_ec2_mssql_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_ec2_mssql_version PostProcessAwsConnection#protect_ec2_mssql_version}
   */
   readonly protectEc2MssqlVersion?: string;
   /**
   * Clumio Iceberg on Glue Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_iceberg_on_glue_version PostProcessAwsConnection#protect_iceberg_on_glue_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_iceberg_on_glue_version PostProcessAwsConnection#protect_iceberg_on_glue_version}
   */
   readonly protectIcebergOnGlueVersion?: string;
   /**
   * Clumio Iceberg on S3 Table Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_iceberg_on_s3_tables_version PostProcessAwsConnection#protect_iceberg_on_s3_tables_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_iceberg_on_s3_tables_version PostProcessAwsConnection#protect_iceberg_on_s3_tables_version}
   */
   readonly protectIcebergOnS3TablesVersion?: string;
   /**
   * Clumio RDS Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_rds_version PostProcessAwsConnection#protect_rds_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_rds_version PostProcessAwsConnection#protect_rds_version}
   */
   readonly protectRdsVersion?: string;
   /**
   * Clumio S3 Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_s3_version PostProcessAwsConnection#protect_s3_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_s3_version PostProcessAwsConnection#protect_s3_version}
   */
   readonly protectS3Version?: string;
   /**
   * Clumio DynamoDB Warm Tier Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_warm_tier_dynamodb_version PostProcessAwsConnection#protect_warm_tier_dynamodb_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_warm_tier_dynamodb_version PostProcessAwsConnection#protect_warm_tier_dynamodb_version}
   */
   readonly protectWarmTierDynamodbVersion?: string;
   /**
   * Clumio Warm Tier Protect version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#protect_warm_tier_version PostProcessAwsConnection#protect_warm_tier_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#protect_warm_tier_version PostProcessAwsConnection#protect_warm_tier_version}
   */
   readonly protectWarmTierVersion?: string;
   /**
   * Region of the AWS account to be linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#region PostProcessAwsConnection#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#region PostProcessAwsConnection#region}
   */
   readonly region: string;
   /**
   * ARN of the role which allows Clumio to access the linked account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#role_arn PostProcessAwsConnection#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#role_arn PostProcessAwsConnection#role_arn}
   */
   readonly roleArn: string;
   /**
   * Unique identifier Clumio uses to access the service role within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#role_external_id PostProcessAwsConnection#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#role_external_id PostProcessAwsConnection#role_external_id}
   */
   readonly roleExternalId: string;
   /**
   * Distinct 36-character token used to identify resources set up by the Clumio AWS template installation on the account being connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#token PostProcessAwsConnection#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#token PostProcessAwsConnection#token}
   */
   readonly token: string;
   /**
   * Wait for the data plane resources to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#wait_for_data_plane_resources PostProcessAwsConnection#wait_for_data_plane_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#wait_for_data_plane_resources PostProcessAwsConnection#wait_for_data_plane_resources}
   */
   readonly waitForDataPlaneResources?: boolean | cdktf.IResolvable;
   /**
   * Wait for the AWS connection ingestion task to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#wait_for_ingestion PostProcessAwsConnection#wait_for_ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#wait_for_ingestion PostProcessAwsConnection#wait_for_ingestion}
   */
   readonly waitForIngestion?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection clumio_post_process_aws_connection}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection clumio_post_process_aws_connection}
 */
 export class PostProcessAwsConnection extends cdktf.TerraformResource {
 
@@ -158,7 +158,7 @@ export class PostProcessAwsConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostProcessAwsConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostProcessAwsConnection to import
-  * @param importFromId The id of the existing PostProcessAwsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostProcessAwsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostProcessAwsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class PostProcessAwsConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_aws_connection clumio_post_process_aws_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_aws_connection clumio_post_process_aws_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class PostProcessAwsConnection extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_post_process_aws_connection',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AnomalyNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The token of the Cost Report that has the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification#cost_report_token AnomalyNotification#cost_report_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification#cost_report_token AnomalyNotification#cost_report_token}
   */
   readonly costReportToken: string;
   /**
   * The Slack/MS Teams channels that receive the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification#recipient_channels AnomalyNotification#recipient_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification#recipient_channels AnomalyNotification#recipient_channels}
   */
   readonly recipientChannels?: string[];
   /**
   * The threshold amount that must be met for the notification to fire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification#threshold AnomalyNotification#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification#threshold AnomalyNotification#threshold}
   */
   readonly threshold?: number;
   /**
   * The tokens of the Users that receive the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification#user_tokens AnomalyNotification#user_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification#user_tokens AnomalyNotification#user_tokens}
   */
   readonly userTokens?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification vantage_anomaly_notification}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification vantage_anomaly_notification}
 */
 export class AnomalyNotification extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AnomalyNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AnomalyNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AnomalyNotification to import
-  * @param importFromId The id of the existing AnomalyNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AnomalyNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AnomalyNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AnomalyNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/anomaly_notification vantage_anomaly_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/anomaly_notification vantage_anomaly_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AnomalyNotification extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_anomaly_notification',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

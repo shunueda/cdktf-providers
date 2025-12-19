@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleLoadBalancerVmHealthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#backend_vm_ids DataOutscaleLoadBalancerVmHealth#backend_vm_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#backend_vm_ids DataOutscaleLoadBalancerVmHealth#backend_vm_ids}
   */
   readonly backendVmIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#id DataOutscaleLoadBalancerVmHealth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#id DataOutscaleLoadBalancerVmHealth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#load_balancer_name DataOutscaleLoadBalancerVmHealth#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#load_balancer_name DataOutscaleLoadBalancerVmHealth#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#filter DataOutscaleLoadBalancerVmHealth#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#filter DataOutscaleLoadBalancerVmHealth#filter}
   */
   readonly filter?: DataOutscaleLoadBalancerVmHealthFilter[] | cdktf.IResolvable;
 }
@@ -121,11 +121,11 @@ export class DataOutscaleLoadBalancerVmHealthBackendVmHealthList extends cdktf.C
 }
 export interface DataOutscaleLoadBalancerVmHealthFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#name DataOutscaleLoadBalancerVmHealth#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#name DataOutscaleLoadBalancerVmHealth#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#values DataOutscaleLoadBalancerVmHealth#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#values DataOutscaleLoadBalancerVmHealth#values}
   */
   readonly values: string[];
 }
@@ -264,7 +264,7 @@ export class DataOutscaleLoadBalancerVmHealthFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health outscale_load_balancer_vm_health}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health outscale_load_balancer_vm_health}
 */
 export class DataOutscaleLoadBalancerVmHealth extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataOutscaleLoadBalancerVmHealth extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOutscaleLoadBalancerVmHealth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleLoadBalancerVmHealth to import
-  * @param importFromId The id of the existing DataOutscaleLoadBalancerVmHealth that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleLoadBalancerVmHealth that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleLoadBalancerVmHealth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataOutscaleLoadBalancerVmHealth extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/load_balancer_vm_health outscale_load_balancer_vm_health} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/load_balancer_vm_health outscale_load_balancer_vm_health} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataOutscaleLoadBalancerVmHealth extends cdktf.TerraformDataSource 
       terraformResourceType: 'outscale_load_balancer_vm_health',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

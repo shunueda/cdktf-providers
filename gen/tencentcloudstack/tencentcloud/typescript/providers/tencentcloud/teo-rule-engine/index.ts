@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoRuleEngineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#id TeoRuleEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#id TeoRuleEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface TeoRuleEngineConfig extends cdktf.TerraformMetaArguments {
   /**
   * The rule name (1 to 255 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#rule_name TeoRuleEngine#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#rule_name TeoRuleEngine#rule_name}
   */
   readonly ruleName: string;
   /**
@@ -25,25 +25,25 @@ export interface TeoRuleEngineConfig extends cdktf.TerraformMetaArguments {
   *   - `enable`: Enabled.
   *   - `disable`: Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#status TeoRuleEngine#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#status TeoRuleEngine#status}
   */
   readonly status: string;
   /**
   * rule tag list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#tags TeoRuleEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#tags TeoRuleEngine#tags}
   */
   readonly tags?: string[];
   /**
   * ID of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#zone_id TeoRuleEngine#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#zone_id TeoRuleEngine#zone_id}
   */
   readonly zoneId: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#rules TeoRuleEngine#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#rules TeoRuleEngine#rules}
   */
   readonly rules: TeoRuleEngineRules[] | cdktf.IResolvable;
 }
@@ -51,19 +51,19 @@ export interface TeoRuleEngineRulesActionsCodeActionParameters {
   /**
   * The parameter name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * The status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#status_code TeoRuleEngine#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#status_code TeoRuleEngine#status_code}
   */
   readonly statusCode: number;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -230,13 +230,13 @@ export interface TeoRuleEngineRulesActionsCodeAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesActionsCodeActionParameters[] | cdktf.IResolvable;
 }
@@ -345,13 +345,13 @@ export interface TeoRuleEngineRulesActionsNormalActionParameters {
   /**
   * Parameter name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -492,13 +492,13 @@ export interface TeoRuleEngineRulesActionsNormalAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesActionsNormalActionParameters[] | cdktf.IResolvable;
 }
@@ -610,19 +610,19 @@ export interface TeoRuleEngineRulesActionsRewriteActionParameters {
   *   - set: Rewrite the HTTP header.
   *   - del: Delete the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * Parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -789,13 +789,13 @@ export interface TeoRuleEngineRulesActionsRewriteAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesActionsRewriteActionParameters[] | cdktf.IResolvable;
 }
@@ -904,19 +904,19 @@ export interface TeoRuleEngineRulesActions {
   /**
   * code_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#code_action TeoRuleEngine#code_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#code_action TeoRuleEngine#code_action}
   */
   readonly codeAction?: TeoRuleEngineRulesActionsCodeAction;
   /**
   * normal_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#normal_action TeoRuleEngine#normal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#normal_action TeoRuleEngine#normal_action}
   */
   readonly normalAction?: TeoRuleEngineRulesActionsNormalAction;
   /**
   * rewrite_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#rewrite_action TeoRuleEngine#rewrite_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#rewrite_action TeoRuleEngine#rewrite_action}
   */
   readonly rewriteAction?: TeoRuleEngineRulesActionsRewriteAction;
 }
@@ -1092,7 +1092,7 @@ export interface TeoRuleEngineRulesOrAnd {
   /**
   * Whether the parameter value is case insensitive. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#ignore_case TeoRuleEngine#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#ignore_case TeoRuleEngine#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
@@ -1100,7 +1100,7 @@ export interface TeoRuleEngineRulesOrAnd {
   *   - `query_string`: Name of the query string, such as "lang" and "version" in "lang=cn&version=1".
   *   - `request_header`: Name of the HTTP request header, such as "Accept-Language" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name?: string;
   /**
@@ -1110,7 +1110,7 @@ export interface TeoRuleEngineRulesOrAnd {
   *   - `exist`: Exists.
   *   - `notexist`: Does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#operator TeoRuleEngine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#operator TeoRuleEngine#operator}
   */
   readonly operator: string;
   /**
@@ -1125,7 +1125,7 @@ export interface TeoRuleEngineRulesOrAnd {
   *   - `request_header`: HTTP request header.
   *   - `client_ip`: Client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#target TeoRuleEngine#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#target TeoRuleEngine#target}
   */
   readonly target: string;
   /**
@@ -1140,7 +1140,7 @@ export interface TeoRuleEngineRulesOrAnd {
   *   - When `Target=query_string`, enter the value of the query string, such as "cn" and "1" in "lang=cn&version=1".
   *   - When `Target=request_header`, enter the HTTP request header value, such as "zh-CN,zh;q=0.9" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values?: string[];
 }
@@ -1368,7 +1368,7 @@ export interface TeoRuleEngineRulesOr {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#and TeoRuleEngine#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#and TeoRuleEngine#and}
   */
   readonly and: TeoRuleEngineRulesOrAnd[] | cdktf.IResolvable;
 }
@@ -1483,19 +1483,19 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsCodeActionParameters {
   /**
   * The parameter name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * The status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#status_code TeoRuleEngine#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#status_code TeoRuleEngine#status_code}
   */
   readonly statusCode: number;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -1662,13 +1662,13 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsCodeAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesSubRulesRulesActionsCodeActionParameters[] | cdktf.IResolvable;
 }
@@ -1777,13 +1777,13 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsNormalActionParameters {
   /**
   * Parameter name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * The parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -1924,13 +1924,13 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsNormalAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesSubRulesRulesActionsNormalActionParameters[] | cdktf.IResolvable;
 }
@@ -2042,19 +2042,19 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsRewriteActionParameters {
   *   - set: Rewrite the HTTP header.
   *   - del: Delete the HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name: string;
   /**
   * Parameter value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values: string[];
 }
@@ -2221,13 +2221,13 @@ export interface TeoRuleEngineRulesSubRulesRulesActionsRewriteAction {
   /**
   * Feature name. You can call the [DescribeRulesSetting](https://tcloud4api.woa.com/document/product/1657/79433?!preview&!document=1) API to view the requirements for entering the feature name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#action TeoRuleEngine#action}
   */
   readonly action: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#parameters TeoRuleEngine#parameters}
   */
   readonly parameters: TeoRuleEngineRulesSubRulesRulesActionsRewriteActionParameters[] | cdktf.IResolvable;
 }
@@ -2336,19 +2336,19 @@ export interface TeoRuleEngineRulesSubRulesRulesActions {
   /**
   * code_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#code_action TeoRuleEngine#code_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#code_action TeoRuleEngine#code_action}
   */
   readonly codeAction?: TeoRuleEngineRulesSubRulesRulesActionsCodeAction;
   /**
   * normal_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#normal_action TeoRuleEngine#normal_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#normal_action TeoRuleEngine#normal_action}
   */
   readonly normalAction?: TeoRuleEngineRulesSubRulesRulesActionsNormalAction;
   /**
   * rewrite_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#rewrite_action TeoRuleEngine#rewrite_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#rewrite_action TeoRuleEngine#rewrite_action}
   */
   readonly rewriteAction?: TeoRuleEngineRulesSubRulesRulesActionsRewriteAction;
 }
@@ -2524,7 +2524,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOrAnd {
   /**
   * Whether the parameter value is case insensitive. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#ignore_case TeoRuleEngine#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#ignore_case TeoRuleEngine#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
@@ -2532,7 +2532,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOrAnd {
   *   - `query_string`: Name of the query string, such as "lang" and "version" in "lang=cn&version=1".
   *   - `request_header`: Name of the HTTP request header, such as "Accept-Language" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#name TeoRuleEngine#name}
   */
   readonly name?: string;
   /**
@@ -2542,7 +2542,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOrAnd {
   *   - `exist`: Exists.
   *   - `notexist`: Does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#operator TeoRuleEngine#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#operator TeoRuleEngine#operator}
   */
   readonly operator: string;
   /**
@@ -2556,7 +2556,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOrAnd {
   *   - `request_header`: HTTP request header.
   *   - `client_ip`: Client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#target TeoRuleEngine#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#target TeoRuleEngine#target}
   */
   readonly target: string;
   /**
@@ -2571,7 +2571,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOrAnd {
   *   - When `Target=query_string`, enter the value of the query string, such as "cn" and "1" in "lang=cn&version=1".
   *   - When `Target=request_header`, enter the HTTP request header value, such as "zh-CN,zh;q=0.9" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#values TeoRuleEngine#values}
   */
   readonly values?: string[];
 }
@@ -2799,7 +2799,7 @@ export interface TeoRuleEngineRulesSubRulesRulesOr {
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#and TeoRuleEngine#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#and TeoRuleEngine#and}
   */
   readonly and: TeoRuleEngineRulesSubRulesRulesOrAnd[] | cdktf.IResolvable;
 }
@@ -2914,13 +2914,13 @@ export interface TeoRuleEngineRulesSubRulesRules {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#actions TeoRuleEngine#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#actions TeoRuleEngine#actions}
   */
   readonly actions?: TeoRuleEngineRulesSubRulesRulesActions[] | cdktf.IResolvable;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#or TeoRuleEngine#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#or TeoRuleEngine#or}
   */
   readonly or: TeoRuleEngineRulesSubRulesRulesOr[] | cdktf.IResolvable;
 }
@@ -3064,13 +3064,13 @@ export interface TeoRuleEngineRulesSubRules {
   /**
   * Tag of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#tags TeoRuleEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#tags TeoRuleEngine#tags}
   */
   readonly tags?: string[];
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#rules TeoRuleEngine#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#rules TeoRuleEngine#rules}
   */
   readonly rules: TeoRuleEngineRulesSubRulesRules[] | cdktf.IResolvable;
 }
@@ -3214,19 +3214,19 @@ export interface TeoRuleEngineRules {
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#actions TeoRuleEngine#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#actions TeoRuleEngine#actions}
   */
   readonly actions?: TeoRuleEngineRulesActions[] | cdktf.IResolvable;
   /**
   * or block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#or TeoRuleEngine#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#or TeoRuleEngine#or}
   */
   readonly or: TeoRuleEngineRulesOr[] | cdktf.IResolvable;
   /**
   * sub_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#sub_rules TeoRuleEngine#sub_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#sub_rules TeoRuleEngine#sub_rules}
   */
   readonly subRules?: TeoRuleEngineRulesSubRules[] | cdktf.IResolvable;
 }
@@ -3397,7 +3397,7 @@ export class TeoRuleEngineRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine tencentcloud_teo_rule_engine}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine tencentcloud_teo_rule_engine}
 */
 export class TeoRuleEngine extends cdktf.TerraformResource {
 
@@ -3413,7 +3413,7 @@ export class TeoRuleEngine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoRuleEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoRuleEngine to import
-  * @param importFromId The id of the existing TeoRuleEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoRuleEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoRuleEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3425,7 +3425,7 @@ export class TeoRuleEngine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_rule_engine tencentcloud_teo_rule_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_rule_engine tencentcloud_teo_rule_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3436,8 +3436,8 @@ export class TeoRuleEngine extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_rule_engine',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

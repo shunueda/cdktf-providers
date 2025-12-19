@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ManagedNetworkZonesConfig extends cdktf.TerraformMetaArguments 
   /**
   * A list of alternative network zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#alternative_zones ManagedNetworkZones#alternative_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#alternative_zones ManagedNetworkZones#alternative_zones}
   */
   readonly alternativeZones?: string[];
   /**
   * A short description of the network zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#description ManagedNetworkZones#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#description ManagedNetworkZones#description}
   */
   readonly description?: string;
   /**
   * The fallback mode of the network zone. Possible values: `ANY_ACTIVE_GATE`, `NONE`, `ONLY_DEFAULT_ZONE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#fallback_mode ManagedNetworkZones#fallback_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#fallback_mode ManagedNetworkZones#fallback_mode}
   */
   readonly fallbackMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#id ManagedNetworkZones#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#id ManagedNetworkZones#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface ManagedNetworkZonesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the network zone cannot be modified once created. Dynatrace stores the field in lowercase, allowed characters: alphanumeric, hyphen, underscore, dot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#name ManagedNetworkZones#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#name ManagedNetworkZones#name}
   */
   readonly name?: string;
   /**
   * The number of ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#num_of_configured_activegates ManagedNetworkZones#num_of_configured_activegates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#num_of_configured_activegates ManagedNetworkZones#num_of_configured_activegates}
   */
   readonly numOfConfiguredActivegates?: number;
   /**
   * The number of OneAgents that are configured to use the network zone as primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#num_of_configured_oneagents ManagedNetworkZones#num_of_configured_oneagents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#num_of_configured_oneagents ManagedNetworkZones#num_of_configured_oneagents}
   */
   readonly numOfConfiguredOneagents?: number;
   /**
   * The number of OneAgents from other network zones that are using ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#num_of_oneagents_from_other_zones ManagedNetworkZones#num_of_oneagents_from_other_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#num_of_oneagents_from_other_zones ManagedNetworkZones#num_of_oneagents_from_other_zones}
   */
   readonly numOfOneagentsFromOtherZones?: number;
   /**
   * The number of OneAgents that are using ActiveGates in the network zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#num_of_oneagents_using ManagedNetworkZones#num_of_oneagents_using}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#num_of_oneagents_using ManagedNetworkZones#num_of_oneagents_using}
   */
   readonly numOfOneagentsUsing?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones dynatrace_managed_network_zones}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones dynatrace_managed_network_zones}
 */
 export class ManagedNetworkZones extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ManagedNetworkZones extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedNetworkZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedNetworkZones to import
-  * @param importFromId The id of the existing ManagedNetworkZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedNetworkZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedNetworkZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ManagedNetworkZones extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/managed_network_zones dynatrace_managed_network_zones} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/managed_network_zones dynatrace_managed_network_zones} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ManagedNetworkZones extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_managed_network_zones',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

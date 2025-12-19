@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEcTrafficFilterConfig extends cdktf.TerraformMetaArguments 
   /**
   * The id of the traffic filter to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter#id DataEcTrafficFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter#id DataEcTrafficFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataEcTrafficFilterConfig extends cdktf.TerraformMetaArguments 
   /**
   * The exact name of the traffic filter to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter#name DataEcTrafficFilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter#name DataEcTrafficFilter#name}
   */
   readonly name?: string;
   /**
   * Region where the traffic filter is. For Elastic Cloud Enterprise (ECE) installations, use `ece-region`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter#region DataEcTrafficFilter#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter#region DataEcTrafficFilter#region}
   */
   readonly region?: string;
 }
@@ -217,7 +217,7 @@ export class DataEcTrafficFilterRulesetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter ec_traffic_filter}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter ec_traffic_filter}
 */
 export class DataEcTrafficFilter extends cdktf.TerraformDataSource {
 
@@ -233,7 +233,7 @@ export class DataEcTrafficFilter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEcTrafficFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEcTrafficFilter to import
-  * @param importFromId The id of the existing DataEcTrafficFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEcTrafficFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEcTrafficFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class DataEcTrafficFilter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/traffic_filter ec_traffic_filter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/traffic_filter ec_traffic_filter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class DataEcTrafficFilter extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_traffic_filter',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

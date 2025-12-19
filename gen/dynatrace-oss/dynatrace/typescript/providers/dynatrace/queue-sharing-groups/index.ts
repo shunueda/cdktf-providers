@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface QueueSharingGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups#id QueueSharingGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups#id QueueSharingGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface QueueSharingGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Queue sharing group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups#name QueueSharingGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups#name QueueSharingGroups#name}
   */
   readonly name: string;
   /**
   * Queue managers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups#queue_managers QueueSharingGroups#queue_managers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups#queue_managers QueueSharingGroups#queue_managers}
   */
   readonly queueManagers?: string[];
   /**
   * Shared queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups#shared_queues QueueSharingGroups#shared_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups#shared_queues QueueSharingGroups#shared_queues}
   */
   readonly sharedQueues?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups dynatrace_queue_sharing_groups}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups dynatrace_queue_sharing_groups}
 */
 export class QueueSharingGroups extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class QueueSharingGroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueSharingGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueSharingGroups to import
-  * @param importFromId The id of the existing QueueSharingGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueSharingGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueSharingGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class QueueSharingGroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_sharing_groups dynatrace_queue_sharing_groups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_sharing_groups dynatrace_queue_sharing_groups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class QueueSharingGroups extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_queue_sharing_groups',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

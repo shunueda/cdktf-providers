@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,11 +13,11 @@ export interface ElasticsearchRestartInstanceOperationConfig extends cdktf.Terra
   * - false: No forced restart;
   * default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation#force_restart ElasticsearchRestartInstanceOperation#force_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation#force_restart ElasticsearchRestartInstanceOperation#force_restart}
   */
   readonly forceRestart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation#id ElasticsearchRestartInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation#id ElasticsearchRestartInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,19 +26,19 @@ export interface ElasticsearchRestartInstanceOperationConfig extends cdktf.Terra
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation#instance_id ElasticsearchRestartInstanceOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation#instance_id ElasticsearchRestartInstanceOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Restart mode: 0 roll restart; 1 full restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation#restart_mode ElasticsearchRestartInstanceOperation#restart_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation#restart_mode ElasticsearchRestartInstanceOperation#restart_mode}
   */
   readonly restartMode?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation tencentcloud_elasticsearch_restart_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation tencentcloud_elasticsearch_restart_instance_operation}
 */
 export class ElasticsearchRestartInstanceOperation extends cdktf.TerraformResource {
 
@@ -54,7 +54,7 @@ export class ElasticsearchRestartInstanceOperation extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ElasticsearchRestartInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchRestartInstanceOperation to import
-  * @param importFromId The id of the existing ElasticsearchRestartInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchRestartInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchRestartInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -66,7 +66,7 @@ export class ElasticsearchRestartInstanceOperation extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/elasticsearch_restart_instance_operation tencentcloud_elasticsearch_restart_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/elasticsearch_restart_instance_operation tencentcloud_elasticsearch_restart_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -77,8 +77,8 @@ export class ElasticsearchRestartInstanceOperation extends cdktf.TerraformResour
       terraformResourceType: 'tencentcloud_elasticsearch_restart_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

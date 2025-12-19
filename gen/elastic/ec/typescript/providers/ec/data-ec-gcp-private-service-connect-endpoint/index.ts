@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/gcp_private_service_connect_endpoint
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/gcp_private_service_connect_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataEcGcpPrivateServiceConnectEndpointConfig extends cdktf.Terr
   /**
   * Region to retrieve the Prive Link configuration for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/gcp_private_service_connect_endpoint#region DataEcGcpPrivateServiceConnectEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/gcp_private_service_connect_endpoint#region DataEcGcpPrivateServiceConnectEndpoint#region}
   */
   readonly region: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/gcp_private_service_connect_endpoint ec_gcp_private_service_connect_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/gcp_private_service_connect_endpoint ec_gcp_private_service_connect_endpoint}
 */
 export class DataEcGcpPrivateServiceConnectEndpoint extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataEcGcpPrivateServiceConnectEndpoint extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataEcGcpPrivateServiceConnectEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEcGcpPrivateServiceConnectEndpoint to import
-  * @param importFromId The id of the existing DataEcGcpPrivateServiceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/gcp_private_service_connect_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEcGcpPrivateServiceConnectEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/gcp_private_service_connect_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEcGcpPrivateServiceConnectEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataEcGcpPrivateServiceConnectEndpoint extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/gcp_private_service_connect_endpoint ec_gcp_private_service_connect_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/gcp_private_service_connect_endpoint ec_gcp_private_service_connect_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataEcGcpPrivateServiceConnectEndpoint extends cdktf.TerraformDataS
       terraformResourceType: 'ec_gcp_private_service_connect_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

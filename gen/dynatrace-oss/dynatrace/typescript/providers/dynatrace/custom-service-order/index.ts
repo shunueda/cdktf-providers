@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CustomServiceOrderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IDs of Custom Services for .Net in the desired order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#dotnet CustomServiceOrder#dotnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#dotnet CustomServiceOrder#dotnet}
   */
   readonly dotnet?: string[];
   /**
   * The IDs of Custom Services for Golang in the desired order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#golang CustomServiceOrder#golang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#golang CustomServiceOrder#golang}
   */
   readonly golang?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#id CustomServiceOrder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#id CustomServiceOrder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CustomServiceOrderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IDs of Custom Services for Java in the desired order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#java CustomServiceOrder#java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#java CustomServiceOrder#java}
   */
   readonly java?: string[];
   /**
   * The IDs of Custom Services for NodeJS in the desired order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#nodejs CustomServiceOrder#nodejs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#nodejs CustomServiceOrder#nodejs}
   */
   readonly nodejs?: string[];
   /**
   * The IDs of Custom Services for PHP in the desired order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#php CustomServiceOrder#php}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#php CustomServiceOrder#php}
   */
   readonly php?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order dynatrace_custom_service_order}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order dynatrace_custom_service_order}
 */
 export class CustomServiceOrder extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CustomServiceOrder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomServiceOrder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomServiceOrder to import
-  * @param importFromId The id of the existing CustomServiceOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomServiceOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomServiceOrder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CustomServiceOrder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/custom_service_order dynatrace_custom_service_order} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/custom_service_order dynatrace_custom_service_order} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CustomServiceOrder extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_custom_service_order',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

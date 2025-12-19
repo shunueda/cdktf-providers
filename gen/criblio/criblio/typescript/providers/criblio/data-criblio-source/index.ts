@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source
+// https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioSourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source#group_id DataCriblioSource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source#group_id DataCriblioSource#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source#id DataCriblioSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source#id DataCriblioSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataCriblioSourceConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source criblio_source}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source criblio_source}
 */
 export class DataCriblioSource extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataCriblioSource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSource to import
-  * @param importFromId The id of the existing DataCriblioSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataCriblioSource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/source criblio_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/source criblio_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataCriblioSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_source',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.69',
-        providerVersionConstraint: '1.20.69'
+        providerVersion: '1.20.72',
+        providerVersionConstraint: '1.20.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

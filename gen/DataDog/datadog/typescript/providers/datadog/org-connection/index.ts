@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection
+// https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OrgConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of connection types to enable for this connection (., metrics, logs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection#connection_types OrgConnection#connection_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection#connection_types OrgConnection#connection_types}
   */
   readonly connectionTypes: string[];
   /**
   * UUID of the sink (destination) organization. Must be a valid UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection#sink_org_id OrgConnection#sink_org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection#sink_org_id OrgConnection#sink_org_id}
   */
   readonly sinkOrgId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection datadog_org_connection}
+* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection datadog_org_connection}
 */
 export class OrgConnection extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class OrgConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgConnection to import
-  * @param importFromId The id of the existing OrgConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class OrgConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/org_connection datadog_org_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/org_connection datadog_org_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class OrgConnection extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_org_connection',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.82.0',
-        providerVersionConstraint: '3.82.0'
+        providerVersion: '3.83.0',
+        providerVersionConstraint: '3.83.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

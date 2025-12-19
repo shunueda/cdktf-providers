@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface SnapshotAttributesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#id SnapshotAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#id SnapshotAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#snapshot_id SnapshotAttributes#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#snapshot_id SnapshotAttributes#snapshot_id}
   */
   readonly snapshotId: string;
   /**
   * permissions_to_create_volume_additions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#permissions_to_create_volume_additions SnapshotAttributes#permissions_to_create_volume_additions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#permissions_to_create_volume_additions SnapshotAttributes#permissions_to_create_volume_additions}
   */
   readonly permissionsToCreateVolumeAdditions?: SnapshotAttributesPermissionsToCreateVolumeAdditions;
   /**
   * permissions_to_create_volume_removals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#permissions_to_create_volume_removals SnapshotAttributes#permissions_to_create_volume_removals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#permissions_to_create_volume_removals SnapshotAttributes#permissions_to_create_volume_removals}
   */
   readonly permissionsToCreateVolumeRemovals?: SnapshotAttributesPermissionsToCreateVolumeRemovals[] | cdktf.IResolvable;
 }
 export interface SnapshotAttributesPermissionsToCreateVolumeAdditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#account_ids SnapshotAttributes#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#account_ids SnapshotAttributes#account_ids}
   */
   readonly accountIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#global_permission SnapshotAttributes#global_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#global_permission SnapshotAttributes#global_permission}
   */
   readonly globalPermission?: boolean | cdktf.IResolvable;
 }
@@ -150,11 +150,11 @@ export class SnapshotAttributesPermissionsToCreateVolumeAdditionsOutputReference
 }
 export interface SnapshotAttributesPermissionsToCreateVolumeRemovals {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#account_ids SnapshotAttributes#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#account_ids SnapshotAttributes#account_ids}
   */
   readonly accountIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#global_permission SnapshotAttributes#global_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#global_permission SnapshotAttributes#global_permission}
   */
   readonly globalPermission?: boolean | cdktf.IResolvable;
 }
@@ -299,7 +299,7 @@ export class SnapshotAttributesPermissionsToCreateVolumeRemovalsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes outscale_snapshot_attributes}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes outscale_snapshot_attributes}
 */
 export class SnapshotAttributes extends cdktf.TerraformResource {
 
@@ -315,7 +315,7 @@ export class SnapshotAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnapshotAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnapshotAttributes to import
-  * @param importFromId The id of the existing SnapshotAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnapshotAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnapshotAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class SnapshotAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/snapshot_attributes outscale_snapshot_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/snapshot_attributes outscale_snapshot_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class SnapshotAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_snapshot_attributes',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

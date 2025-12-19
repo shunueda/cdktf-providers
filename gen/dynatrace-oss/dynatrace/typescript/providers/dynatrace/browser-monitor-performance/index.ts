@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BrowserMonitorPerformanceConfig extends cdktf.TerraformMetaArgu
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#enabled BrowserMonitorPerformance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#enabled BrowserMonitorPerformance#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#id BrowserMonitorPerformance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#id BrowserMonitorPerformance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface BrowserMonitorPerformanceConfig extends cdktf.TerraformMetaArgu
   /**
   * The scope of this setting (SYNTHETIC_TEST)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#scope BrowserMonitorPerformance#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#scope BrowserMonitorPerformance#scope}
   */
   readonly scope: string;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#thresholds BrowserMonitorPerformance#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#thresholds BrowserMonitorPerformance#thresholds}
   */
   readonly thresholds?: BrowserMonitorPerformanceThresholds;
 }
@@ -37,31 +37,31 @@ export interface BrowserMonitorPerformanceThresholdsThreshold {
   /**
   * Number of most recent non-violating executions that closes the problem
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#dealerting_samples BrowserMonitorPerformance#dealerting_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#dealerting_samples BrowserMonitorPerformance#dealerting_samples}
   */
   readonly dealertingSamples?: number;
   /**
   * Synthetic event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#event BrowserMonitorPerformance#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#event BrowserMonitorPerformance#event}
   */
   readonly event: string;
   /**
   * Number of executions in analyzed sliding window (sliding window size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#samples BrowserMonitorPerformance#samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#samples BrowserMonitorPerformance#samples}
   */
   readonly samples?: number;
   /**
   * Threshold (in seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
   */
   readonly threshold: number;
   /**
   * Number of violating executions in analyzed sliding window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#violating_samples BrowserMonitorPerformance#violating_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#violating_samples BrowserMonitorPerformance#violating_samples}
   */
   readonly violatingSamples?: number;
 }
@@ -289,7 +289,7 @@ export interface BrowserMonitorPerformanceThresholds {
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#threshold BrowserMonitorPerformance#threshold}
   */
   readonly threshold: BrowserMonitorPerformanceThresholdsThreshold[] | cdktf.IResolvable;
 }
@@ -370,7 +370,7 @@ export class BrowserMonitorPerformanceThresholdsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance}
 */
 export class BrowserMonitorPerformance extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BrowserMonitorPerformance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BrowserMonitorPerformance to import
-  * @param importFromId The id of the existing BrowserMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BrowserMonitorPerformance that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BrowserMonitorPerformance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/browser_monitor_performance dynatrace_browser_monitor_performance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class BrowserMonitorPerformance extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_browser_monitor_performance',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

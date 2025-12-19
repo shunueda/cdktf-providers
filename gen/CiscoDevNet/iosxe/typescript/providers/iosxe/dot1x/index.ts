@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,88 +10,88 @@ export interface Dot1XConfig extends cdktf.TerraformMetaArguments {
   /**
   * Send EAPOL-Success on successful auth-fail Authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#auth_fail_eapol Dot1X#auth_fail_eapol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#auth_fail_eapol Dot1X#auth_fail_eapol}
   */
   readonly authFailEapol?: boolean | cdktf.IResolvable;
   /**
   * Configure 802.1X credentials profiles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#credentials Dot1X#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#credentials Dot1X#credentials}
   */
   readonly credentials?: Dot1XCredentials[] | cdktf.IResolvable;
   /**
   * Send EAPOL-Success on successful Critical Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#critical_eapol Dot1X#critical_eapol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#critical_eapol Dot1X#critical_eapol}
   */
   readonly criticalEapol?: boolean | cdktf.IResolvable;
   /**
   * Block all EAPoL transaction on Critical Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#critical_eapol_block Dot1X#critical_eapol_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#critical_eapol_block Dot1X#critical_eapol_block}
   */
   readonly criticalEapolBlock?: boolean | cdktf.IResolvable;
   /**
   * Block all EAPoL transaction on Critical Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#critical_eapol_config_block Dot1X#critical_eapol_config_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#critical_eapol_config_block Dot1X#critical_eapol_config_block}
   */
   readonly criticalEapolConfigBlock?: boolean | cdktf.IResolvable;
   /**
   * Set 802.1x Critical Authentication Recovery Delay period
   *   - Range: `1`-`10000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#critical_recovery_delay Dot1X#critical_recovery_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#critical_recovery_delay Dot1X#critical_recovery_delay}
   */
   readonly criticalRecoveryDelay?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#delete_mode Dot1X#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#delete_mode Dot1X#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#device Dot1X#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#device Dot1X#device}
   */
   readonly device?: string;
   /**
   * Allow 802.1x capable supplicants to enter Guest Vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#guest_vlan_supplicant Dot1X#guest_vlan_supplicant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#guest_vlan_supplicant Dot1X#guest_vlan_supplicant}
   */
   readonly guestVlanSupplicant?: boolean | cdktf.IResolvable;
   /**
   * Show verbose messages in system logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#logging_verbose Dot1X#logging_verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#logging_verbose Dot1X#logging_verbose}
   */
   readonly loggingVerbose?: boolean | cdktf.IResolvable;
   /**
   * Controlled access is only applied during authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#supplicant_controlled_transient Dot1X#supplicant_controlled_transient}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#supplicant_controlled_transient Dot1X#supplicant_controlled_transient}
   */
   readonly supplicantControlledTransient?: boolean | cdktf.IResolvable;
   /**
   * Force 802.1X supplicant to send multicast packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#supplicant_force_multicast Dot1X#supplicant_force_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#supplicant_force_multicast Dot1X#supplicant_force_multicast}
   */
   readonly supplicantForceMulticast?: boolean | cdktf.IResolvable;
   /**
   * Enable or Disable SysAuthControl
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#system_auth_control Dot1X#system_auth_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#system_auth_control Dot1X#system_auth_control}
   */
   readonly systemAuthControl?: boolean | cdktf.IResolvable;
   /**
   * Timeout for device EAPOL capabilities test in seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#test_timeout Dot1X#test_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#test_timeout Dot1X#test_timeout}
   */
   readonly testTimeout?: number;
 }
@@ -99,42 +99,42 @@ export interface Dot1XCredentials {
   /**
   * Set the anonymous userid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#anonymous_id Dot1X#anonymous_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#anonymous_id Dot1X#anonymous_id}
   */
   readonly anonymousId?: string;
   /**
   * Provide a description for the credentials profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#description Dot1X#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#description Dot1X#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#password Dot1X#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#password Dot1X#password}
   */
   readonly password?: string;
   /**
   * 
   *   - Choices: `0`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#password_type Dot1X#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#password_type Dot1X#password_type}
   */
   readonly passwordType?: string;
   /**
   * Set the default pki trustpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#pki_trustpoint Dot1X#pki_trustpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#pki_trustpoint Dot1X#pki_trustpoint}
   */
   readonly pkiTrustpoint?: string;
   /**
   * Specify a profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#profile_name Dot1X#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#profile_name Dot1X#profile_name}
   */
   readonly profileName: string;
   /**
   * Set the authentication userid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#username Dot1X#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#username Dot1X#username}
   */
   readonly username?: string;
 }
@@ -421,7 +421,7 @@ export class Dot1XCredentialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x iosxe_dot1x}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x iosxe_dot1x}
 */
 export class Dot1X extends cdktf.TerraformResource {
 
@@ -437,7 +437,7 @@ export class Dot1X extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dot1X resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dot1X to import
-  * @param importFromId The id of the existing Dot1X that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dot1X that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dot1X to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -449,7 +449,7 @@ export class Dot1X extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/resources/dot1x iosxe_dot1x} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/dot1x iosxe_dot1x} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,8 +460,8 @@ export class Dot1X extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_dot1x',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

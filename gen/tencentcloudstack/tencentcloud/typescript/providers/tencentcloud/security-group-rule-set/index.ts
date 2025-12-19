@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityGroupRuleSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#id SecurityGroupRuleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#id SecurityGroupRuleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface SecurityGroupRuleSetConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the security group to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#security_group_id SecurityGroupRuleSet#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#security_group_id SecurityGroupRuleSet#security_group_id}
   */
   readonly securityGroupId: string;
   /**
   * egress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#egress SecurityGroupRuleSet#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#egress SecurityGroupRuleSet#egress}
   */
   readonly egress?: SecurityGroupRuleSetEgress[] | cdktf.IResolvable;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#ingress SecurityGroupRuleSet#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#ingress SecurityGroupRuleSet#ingress}
   */
   readonly ingress?: SecurityGroupRuleSetIngress[] | cdktf.IResolvable;
 }
@@ -37,67 +37,67 @@ export interface SecurityGroupRuleSetEgress {
   /**
   * Rule policy of security group. Valid values: `ACCEPT` and `DROP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#action SecurityGroupRuleSet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#action SecurityGroupRuleSet#action}
   */
   readonly action: string;
   /**
   * Specify Group ID of Address template like `ipmg-xxxxxxxx`, conflict with `source_security_id` and `cidr_block`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#address_template_group SecurityGroupRuleSet#address_template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#address_template_group SecurityGroupRuleSet#address_template_group}
   */
   readonly addressTemplateGroup?: string;
   /**
   * Specify Address template ID like `ipm-xxxxxxxx`, conflict with `source_security_id` and `cidr_block`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#address_template_id SecurityGroupRuleSet#address_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#address_template_id SecurityGroupRuleSet#address_template_id}
   */
   readonly addressTemplateId?: string;
   /**
   * An IP address network or CIDR segment. NOTE: `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` are exclusive and cannot be set in the same time; One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#cidr_block SecurityGroupRuleSet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#cidr_block SecurityGroupRuleSet#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Description of the security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#description SecurityGroupRuleSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#description SecurityGroupRuleSet#description}
   */
   readonly description?: string;
   /**
   * An IPV6 address network or CIDR segment, and conflict with `source_security_id` and `address_template_*`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#ipv6_cidr_block SecurityGroupRuleSet#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#ipv6_cidr_block SecurityGroupRuleSet#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * Range of the port. The available value can be `all`, a single port, or a port range. E.g. `80`, `80,90`, `80-90` or `all`. Note: If the `Protocol` value is set to `ALL`, the `Port` value also needs to be set to `all`. Default to all ports, and conflicts with `service_template_*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#port SecurityGroupRuleSet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#port SecurityGroupRuleSet#port}
   */
   readonly port?: string;
   /**
   * Type of IP protocol. Valid values: `TCP`, `UDP`, `ICMP`, `ICMPv6` and `ALL`. Default to all types protocol, and conflicts with `service_template_*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#protocol SecurityGroupRuleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#protocol SecurityGroupRuleSet#protocol}
   */
   readonly protocol?: string;
   /**
   * Specify Group ID of Protocol template ID like `ppmg-xxxxxxxx`, conflict with `protocol` and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#service_template_group SecurityGroupRuleSet#service_template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#service_template_group SecurityGroupRuleSet#service_template_group}
   */
   readonly serviceTemplateGroup?: string;
   /**
   * Specify Protocol template ID like `ppm-xxxxxxxx`, conflict with `protocol` and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#service_template_id SecurityGroupRuleSet#service_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#service_template_id SecurityGroupRuleSet#service_template_id}
   */
   readonly serviceTemplateId?: string;
   /**
   * ID of the nested security group, and conflicts with `cidr_block` and `address_template_*`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#source_security_id SecurityGroupRuleSet#source_security_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#source_security_id SecurityGroupRuleSet#source_security_id}
   */
   readonly sourceSecurityId?: string;
 }
@@ -507,67 +507,67 @@ export interface SecurityGroupRuleSetIngress {
   /**
   * Rule policy of security group. Valid values: `ACCEPT` and `DROP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#action SecurityGroupRuleSet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#action SecurityGroupRuleSet#action}
   */
   readonly action: string;
   /**
   * Specify Group ID of Address template like `ipmg-xxxxxxxx`, conflict with `source_security_id` and `cidr_block`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#address_template_group SecurityGroupRuleSet#address_template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#address_template_group SecurityGroupRuleSet#address_template_group}
   */
   readonly addressTemplateGroup?: string;
   /**
   * Specify Address template ID like `ipm-xxxxxxxx`, conflict with `source_security_id` and `cidr_block`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#address_template_id SecurityGroupRuleSet#address_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#address_template_id SecurityGroupRuleSet#address_template_id}
   */
   readonly addressTemplateId?: string;
   /**
   * An IP address network or CIDR segment. NOTE: `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` are exclusive and cannot be set in the same time; One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#cidr_block SecurityGroupRuleSet#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#cidr_block SecurityGroupRuleSet#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
   * Description of the security group rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#description SecurityGroupRuleSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#description SecurityGroupRuleSet#description}
   */
   readonly description?: string;
   /**
   * An IPV6 address network or CIDR segment, and conflict with `source_security_id` and `address_template_*`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#ipv6_cidr_block SecurityGroupRuleSet#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#ipv6_cidr_block SecurityGroupRuleSet#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * Range of the port. The available value can be `all`, a single port, or a port range. E.g. `80`, `80,90`, `80-90` or `all`. Note: If the `Protocol` value is set to `ALL`, the `Port` value also needs to be set to `all`. Default to all ports, and conflicts with `service_template_*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#port SecurityGroupRuleSet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#port SecurityGroupRuleSet#port}
   */
   readonly port?: string;
   /**
   * Type of IP protocol. Valid values: `TCP`, `UDP`, `ICMP`, `ICMPv6` and `ALL`. Default to all types protocol, and conflicts with `service_template_*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#protocol SecurityGroupRuleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#protocol SecurityGroupRuleSet#protocol}
   */
   readonly protocol?: string;
   /**
   * Specify Group ID of Protocol template ID like `ppmg-xxxxxxxx`, conflict with `protocol` and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#service_template_group SecurityGroupRuleSet#service_template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#service_template_group SecurityGroupRuleSet#service_template_group}
   */
   readonly serviceTemplateGroup?: string;
   /**
   * Specify Protocol template ID like `ppm-xxxxxxxx`, conflict with `protocol` and `port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#service_template_id SecurityGroupRuleSet#service_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#service_template_id SecurityGroupRuleSet#service_template_id}
   */
   readonly serviceTemplateId?: string;
   /**
   * ID of the nested security group, and conflicts with `cidr_block` and `address_template_*`. NOTE: One of `cidr_block`, `ipv6_cidr_block`, `source_security_id` and `address_template_*` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#source_security_id SecurityGroupRuleSet#source_security_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#source_security_id SecurityGroupRuleSet#source_security_id}
   */
   readonly sourceSecurityId?: string;
 }
@@ -975,7 +975,7 @@ export class SecurityGroupRuleSetIngressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set tencentcloud_security_group_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set tencentcloud_security_group_rule_set}
 */
 export class SecurityGroupRuleSet extends cdktf.TerraformResource {
 
@@ -991,7 +991,7 @@ export class SecurityGroupRuleSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityGroupRuleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityGroupRuleSet to import
-  * @param importFromId The id of the existing SecurityGroupRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityGroupRuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityGroupRuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1003,7 +1003,7 @@ export class SecurityGroupRuleSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/security_group_rule_set tencentcloud_security_group_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/security_group_rule_set tencentcloud_security_group_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1014,8 +1014,8 @@ export class SecurityGroupRuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_security_group_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

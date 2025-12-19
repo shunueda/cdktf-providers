@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbReadOnlyInstanceExclusiveAccessConfig extends cdktf.Terr
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#cluster_id CynosdbReadOnlyInstanceExclusiveAccess#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#cluster_id CynosdbReadOnlyInstanceExclusiveAccess#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#id CynosdbReadOnlyInstanceExclusiveAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#id CynosdbReadOnlyInstanceExclusiveAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface CynosdbReadOnlyInstanceExclusiveAccessConfig extends cdktf.Terr
   /**
   * Need to activate a read-only instance ID with unique access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#instance_id CynosdbReadOnlyInstanceExclusiveAccess#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#instance_id CynosdbReadOnlyInstanceExclusiveAccess#instance_id}
   */
   readonly instanceId: string;
   /**
   * port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#port CynosdbReadOnlyInstanceExclusiveAccess#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#port CynosdbReadOnlyInstanceExclusiveAccess#port}
   */
   readonly port: number;
   /**
   * Security Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#security_group_ids CynosdbReadOnlyInstanceExclusiveAccess#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#security_group_ids CynosdbReadOnlyInstanceExclusiveAccess#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The specified subnet ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#subnet_id CynosdbReadOnlyInstanceExclusiveAccess#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#subnet_id CynosdbReadOnlyInstanceExclusiveAccess#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Specified VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#vpc_id CynosdbReadOnlyInstanceExclusiveAccess#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#vpc_id CynosdbReadOnlyInstanceExclusiveAccess#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access tencentcloud_cynosdb_read_only_instance_exclusive_access}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access tencentcloud_cynosdb_read_only_instance_exclusive_access}
 */
 export class CynosdbReadOnlyInstanceExclusiveAccess extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CynosdbReadOnlyInstanceExclusiveAccess extends cdktf.TerraformResou
   * Generates CDKTF code for importing a CynosdbReadOnlyInstanceExclusiveAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbReadOnlyInstanceExclusiveAccess to import
-  * @param importFromId The id of the existing CynosdbReadOnlyInstanceExclusiveAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbReadOnlyInstanceExclusiveAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbReadOnlyInstanceExclusiveAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CynosdbReadOnlyInstanceExclusiveAccess extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_read_only_instance_exclusive_access tencentcloud_cynosdb_read_only_instance_exclusive_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_read_only_instance_exclusive_access tencentcloud_cynosdb_read_only_instance_exclusive_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class CynosdbReadOnlyInstanceExclusiveAccess extends cdktf.TerraformResou
       terraformResourceType: 'tencentcloud_cynosdb_read_only_instance_exclusive_access',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

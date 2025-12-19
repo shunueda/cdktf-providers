@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudOceanusResourceRelatedJobConfig extends cdktf.T
   /**
   * Default:0; 1:sort by job version creation time in descending order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#desc_by_job_config_create_time DataTencentcloudOceanusResourceRelatedJob#desc_by_job_config_create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#desc_by_job_config_create_time DataTencentcloudOceanusResourceRelatedJob#desc_by_job_config_create_time}
   */
   readonly descByJobConfigCreateTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#id DataTencentcloudOceanusResourceRelatedJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#id DataTencentcloudOceanusResourceRelatedJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataTencentcloudOceanusResourceRelatedJobConfig extends cdktf.T
   /**
   * Resource version number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#resource_config_version DataTencentcloudOceanusResourceRelatedJob#resource_config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#resource_config_version DataTencentcloudOceanusResourceRelatedJob#resource_config_version}
   */
   readonly resourceConfigVersion?: number;
   /**
   * Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#resource_id DataTencentcloudOceanusResourceRelatedJob#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#resource_id DataTencentcloudOceanusResourceRelatedJob#resource_id}
   */
   readonly resourceId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#result_output_file DataTencentcloudOceanusResourceRelatedJob#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#result_output_file DataTencentcloudOceanusResourceRelatedJob#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Workspace SerialId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#work_space_id DataTencentcloudOceanusResourceRelatedJob#work_space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#work_space_id DataTencentcloudOceanusResourceRelatedJob#work_space_id}
   */
   readonly workSpaceId?: string;
 }
@@ -132,7 +132,7 @@ export class DataTencentcloudOceanusResourceRelatedJobRefJobInfosList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job tencentcloud_oceanus_resource_related_job}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job tencentcloud_oceanus_resource_related_job}
 */
 export class DataTencentcloudOceanusResourceRelatedJob extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataTencentcloudOceanusResourceRelatedJob extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataTencentcloudOceanusResourceRelatedJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudOceanusResourceRelatedJob to import
-  * @param importFromId The id of the existing DataTencentcloudOceanusResourceRelatedJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudOceanusResourceRelatedJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudOceanusResourceRelatedJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataTencentcloudOceanusResourceRelatedJob extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/oceanus_resource_related_job tencentcloud_oceanus_resource_related_job} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/oceanus_resource_related_job tencentcloud_oceanus_resource_related_job} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataTencentcloudOceanusResourceRelatedJob extends cdktf.TerraformDa
       terraformResourceType: 'tencentcloud_oceanus_resource_related_job',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

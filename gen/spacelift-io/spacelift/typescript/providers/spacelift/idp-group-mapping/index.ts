@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdpGroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the IdP group mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#description IdpGroupMapping#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#description IdpGroupMapping#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#id IdpGroupMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#id IdpGroupMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface IdpGroupMappingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the IdP group as defined in the SSO provider - should be unique per account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#name IdpGroupMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#name IdpGroupMapping#name}
   */
   readonly name: string;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#policy IdpGroupMapping#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#policy IdpGroupMapping#policy}
   */
   readonly policy?: IdpGroupMappingPolicy[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface IdpGroupMappingPolicy {
   /**
   * Type of access to the space. Possible values are: READ, WRITE, ADMIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#role IdpGroupMapping#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#role IdpGroupMapping#role}
   */
   readonly role: string;
   /**
   * ID (slug) of the space the IdP group mapping has access to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#space_id IdpGroupMapping#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#space_id IdpGroupMapping#space_id}
   */
   readonly spaceId: string;
 }
@@ -182,7 +182,7 @@ export class IdpGroupMappingPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping spacelift_idp_group_mapping}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping spacelift_idp_group_mapping}
 */
 export class IdpGroupMapping extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class IdpGroupMapping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdpGroupMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdpGroupMapping to import
-  * @param importFromId The id of the existing IdpGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdpGroupMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdpGroupMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class IdpGroupMapping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/idp_group_mapping spacelift_idp_group_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/idp_group_mapping spacelift_idp_group_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class IdpGroupMapping extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_idp_group_mapping',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

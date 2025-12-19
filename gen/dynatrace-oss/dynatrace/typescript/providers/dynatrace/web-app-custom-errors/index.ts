@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppCustomErrorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#id WebAppCustomErrors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#id WebAppCustomErrors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface WebAppCustomErrorsConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Field has overlap with `dynatrace_application_error_rules`) This setting overrides Apdex settings for individual rules listed below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#ignore_custom_errors_in_apdex_calculation WebAppCustomErrors#ignore_custom_errors_in_apdex_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#ignore_custom_errors_in_apdex_calculation WebAppCustomErrors#ignore_custom_errors_in_apdex_calculation}
   */
   readonly ignoreCustomErrorsInApdexCalculation: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#scope WebAppCustomErrors#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#scope WebAppCustomErrors#scope}
   */
   readonly scope: string;
   /**
   * error_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#error_rules WebAppCustomErrors#error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#error_rules WebAppCustomErrors#error_rules}
   */
   readonly errorRules?: WebAppCustomErrorsErrorRules;
 }
@@ -37,19 +37,19 @@ export interface WebAppCustomErrorsErrorRulesErrorRuleCaptureSettings {
   /**
   * Capture this error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#capture WebAppCustomErrors#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#capture WebAppCustomErrors#capture}
   */
   readonly capture: boolean | cdktf.IResolvable;
   /**
   * [View more details](https://dt-url.net/hd580p2k)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#consider_for_ai WebAppCustomErrors#consider_for_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#consider_for_ai WebAppCustomErrors#consider_for_ai}
   */
   readonly considerForAi?: boolean | cdktf.IResolvable;
   /**
   * Include error in Apdex calculations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#impact_apdex WebAppCustomErrors#impact_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#impact_apdex WebAppCustomErrors#impact_apdex}
   */
   readonly impactApdex?: boolean | cdktf.IResolvable;
 }
@@ -190,31 +190,31 @@ export interface WebAppCustomErrorsErrorRulesErrorRule {
   /**
   * Possible Values: `ALL`, `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH`, `EQUALS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#key_matcher WebAppCustomErrors#key_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#key_matcher WebAppCustomErrors#key_matcher}
   */
   readonly keyMatcher: string;
   /**
   * A case-insensitive key pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#key_pattern WebAppCustomErrors#key_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#key_pattern WebAppCustomErrors#key_pattern}
   */
   readonly keyPattern?: string;
   /**
   * Possible Values: `ALL`, `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH`, `EQUALS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#value_matcher WebAppCustomErrors#value_matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#value_matcher WebAppCustomErrors#value_matcher}
   */
   readonly valueMatcher: string;
   /**
   * A case-insensitive value pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#value_pattern WebAppCustomErrors#value_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#value_pattern WebAppCustomErrors#value_pattern}
   */
   readonly valuePattern?: string;
   /**
   * capture_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#capture_settings WebAppCustomErrors#capture_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#capture_settings WebAppCustomErrors#capture_settings}
   */
   readonly captureSettings: WebAppCustomErrorsErrorRulesErrorRuleCaptureSettings;
 }
@@ -439,7 +439,7 @@ export interface WebAppCustomErrorsErrorRules {
   /**
   * error_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#error_rule WebAppCustomErrors#error_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#error_rule WebAppCustomErrors#error_rule}
   */
   readonly errorRule: WebAppCustomErrorsErrorRulesErrorRule[] | cdktf.IResolvable;
 }
@@ -520,7 +520,7 @@ export class WebAppCustomErrorsErrorRulesOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors dynatrace_web_app_custom_errors}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors dynatrace_web_app_custom_errors}
 */
 export class WebAppCustomErrors extends cdktf.TerraformResource {
 
@@ -536,7 +536,7 @@ export class WebAppCustomErrors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppCustomErrors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppCustomErrors to import
-  * @param importFromId The id of the existing WebAppCustomErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppCustomErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppCustomErrors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +548,7 @@ export class WebAppCustomErrors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_errors dynatrace_web_app_custom_errors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_errors dynatrace_web_app_custom_errors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +559,8 @@ export class WebAppCustomErrors extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_custom_errors',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

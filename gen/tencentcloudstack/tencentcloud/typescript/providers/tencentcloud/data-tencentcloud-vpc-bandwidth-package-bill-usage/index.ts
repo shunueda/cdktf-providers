@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVpcBandwidthPackageBillUsageConfig extends cdkt
   /**
   * The unique ID of the postpaid bandwidth package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage#bandwidth_package_id DataTencentcloudVpcBandwidthPackageBillUsage#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage#bandwidth_package_id DataTencentcloudVpcBandwidthPackageBillUsage#bandwidth_package_id}
   */
   readonly bandwidthPackageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage#id DataTencentcloudVpcBandwidthPackageBillUsage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage#id DataTencentcloudVpcBandwidthPackageBillUsage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudVpcBandwidthPackageBillUsageConfig extends cdkt
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage#result_output_file DataTencentcloudVpcBandwidthPackageBillUsage#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage#result_output_file DataTencentcloudVpcBandwidthPackageBillUsage#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -104,7 +104,7 @@ export class DataTencentcloudVpcBandwidthPackageBillUsageBandwidthPackageBillBan
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage tencentcloud_vpc_bandwidth_package_bill_usage}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage tencentcloud_vpc_bandwidth_package_bill_usage}
 */
 export class DataTencentcloudVpcBandwidthPackageBillUsage extends cdktf.TerraformDataSource {
 
@@ -120,7 +120,7 @@ export class DataTencentcloudVpcBandwidthPackageBillUsage extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataTencentcloudVpcBandwidthPackageBillUsage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVpcBandwidthPackageBillUsage to import
-  * @param importFromId The id of the existing DataTencentcloudVpcBandwidthPackageBillUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVpcBandwidthPackageBillUsage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVpcBandwidthPackageBillUsage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -132,7 +132,7 @@ export class DataTencentcloudVpcBandwidthPackageBillUsage extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vpc_bandwidth_package_bill_usage tencentcloud_vpc_bandwidth_package_bill_usage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vpc_bandwidth_package_bill_usage tencentcloud_vpc_bandwidth_package_bill_usage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -143,8 +143,8 @@ export class DataTencentcloudVpcBandwidthPackageBillUsage extends cdktf.Terrafor
       terraformResourceType: 'tencentcloud_vpc_bandwidth_package_bill_usage',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

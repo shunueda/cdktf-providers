@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppBeaconEndpointConfig extends cdktf.TerraformMetaArguments
   /**
   * The scope of this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#application_id WebAppBeaconEndpoint#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#application_id WebAppBeaconEndpoint#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#id WebAppBeaconEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#id WebAppBeaconEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface WebAppBeaconEndpointConfig extends cdktf.TerraformMetaArguments
   /**
   * Possible Values: `ACTIVEGATE`, `DEFAULT_CONFIG`, `ONEAGENT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#type WebAppBeaconEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#type WebAppBeaconEndpoint#type}
   */
   readonly type: string;
   /**
   * You can specify either path segments or an absolute URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#url WebAppBeaconEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#url WebAppBeaconEndpoint#url}
   */
   readonly url?: string;
   /**
   * Learn more about [sending beacon data via CORS](https://dt-url.net/r7038sa)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#use_cors WebAppBeaconEndpoint#use_cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#use_cors WebAppBeaconEndpoint#use_cors}
   */
   readonly useCors?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint dynatrace_web_app_beacon_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint dynatrace_web_app_beacon_endpoint}
 */
 export class WebAppBeaconEndpoint extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WebAppBeaconEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppBeaconEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppBeaconEndpoint to import
-  * @param importFromId The id of the existing WebAppBeaconEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppBeaconEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppBeaconEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WebAppBeaconEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_beacon_endpoint dynatrace_web_app_beacon_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_beacon_endpoint dynatrace_web_app_beacon_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WebAppBeaconEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_beacon_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

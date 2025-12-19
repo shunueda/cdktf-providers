@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Which days of the week to backup, 0-6, comma separated. Only effective for advanced backup.
+  * Specify the specific dates for automatic backups to be performed each week. Format: Enter a number between 0 and 6 to represent Sunday through Saturday (e.g., 1 represents Monday). Separate multiple dates with commas (,). Example: Entering 1,3,5 means the system will perform backups on Mondays, Wednesdays, and Fridays every week. Default: If not set, the default is a full cycle (0,1,2,3,4,5,6), meaning backups will be performed daily.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#active_weekdays MongodbInstanceBackupRule#active_weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#active_weekdays MongodbInstanceBackupRule#active_weekdays}
   */
   readonly activeWeekdays?: string;
   /**
-  * Alert threshold. Range: 50-300.
+  * Sets the alarm threshold for backup dataset storage space usage. Unit: %. Default value: 100. Value range: [50, 300].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#alarm_water_level MongodbInstanceBackupRule#alarm_water_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#alarm_water_level MongodbInstanceBackupRule#alarm_water_level}
   */
   readonly alarmWaterLevel?: number;
   /**
-  * Automatic backup frequency, for internal display, default value is 24h.
+  * Specify the daily automatic backup frequency. 12: Back up twice a day, approximately 12 hours apart; 24: Back up once a day (default), approximately 24 hours apart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#backup_frequency MongodbInstanceBackupRule#backup_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#backup_frequency MongodbInstanceBackupRule#backup_frequency}
   */
   readonly backupFrequency?: number;
   /**
@@ -31,29 +31,29 @@ export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArgu
   * - 1: Physical backup;
   * - 3: Snapshot backup (supported only in cloud disk version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#backup_method MongodbInstanceBackupRule#backup_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#backup_method MongodbInstanceBackupRule#backup_method}
   */
   readonly backupMethod: number;
   /**
-  * Specify the number of days to save backup data. The default is 7 days, and the support settings are 7, 30, 90, 180, 365.
+  * Specifies the retention period for backup data. Unit: days, default is 7 days. Value range: [7, 365].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#backup_retention_period MongodbInstanceBackupRule#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#backup_retention_period MongodbInstanceBackupRule#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
   * Set the start time for automatic backup. The value range is: [0,23]. For example, setting this parameter to 2 means that backup starts at 02:00.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#backup_time MongodbInstanceBackupRule#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#backup_time MongodbInstanceBackupRule#backup_time}
   */
   readonly backupTime: number;
   /**
   * Backup version. Old version backup is 0, advanced backup is 1. Set this value to 1 when enabling advanced backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#backup_version MongodbInstanceBackupRule#backup_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#backup_version MongodbInstanceBackupRule#backup_version}
   */
   readonly backupVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#id MongodbInstanceBackupRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#id MongodbInstanceBackupRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,25 +62,25 @@ export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArgu
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#instance_id MongodbInstanceBackupRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#instance_id MongodbInstanceBackupRule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Which days to retain long-term, week 0-6, month 1-31, comma separated.
+  * Specify the specific backup dates to be retained long-term. This setting only takes effect when LongTermUnit is set to weekly or monthly. Weekly Retention: Enter a number between 0 and 6 to represent Sunday through Saturday. Separate multiple dates with commas. Monthly Retention: Enter a number between 1 and 31 to represent specific dates within the month. Separate multiple dates with commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#long_term_active_days MongodbInstanceBackupRule#long_term_active_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#long_term_active_days MongodbInstanceBackupRule#long_term_active_days}
   */
   readonly longTermActiveDays?: string;
   /**
-  * How many days to retain long-term backups.
+  * Long-term backup retention period. Value range [30, 1075].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#long_term_expired_days MongodbInstanceBackupRule#long_term_expired_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#long_term_expired_days MongodbInstanceBackupRule#long_term_expired_days}
   */
   readonly longTermExpiredDays?: number;
   /**
-  * Long-term retention cycle, weekly, monthly, empty means not enabled.
+  * Long-term retention period. Supports selecting specific dates for backups on a weekly or monthly basis (e.g., backup data for the 1st and 15th of each month) to retain for a longer period. Disabled (default): Long-term retention is disabled. Weekly retention: Specify `weekly`. Monthly retention: Specify `monthly`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#long_term_unit MongodbInstanceBackupRule#long_term_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#long_term_unit MongodbInstanceBackupRule#long_term_unit}
   */
   readonly longTermUnit?: string;
   /**
@@ -88,19 +88,19 @@ export interface MongodbInstanceBackupRuleConfig extends cdktf.TerraformMetaArgu
   * - true: Send.
   * - false: Do not send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#notify MongodbInstanceBackupRule#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#notify MongodbInstanceBackupRule#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
-  * How many days to retain incremental backups.
+  * Incremental backup retention period. Unit: days. Default value: 7 days. Value range: [7,365].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#oplog_expired_days MongodbInstanceBackupRule#oplog_expired_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#oplog_expired_days MongodbInstanceBackupRule#oplog_expired_days}
   */
   readonly oplogExpiredDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule}
 */
 export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbInstanceBackupRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbInstanceBackupRule to import
-  * @param importFromId The id of the existing MongodbInstanceBackupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbInstanceBackupRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbInstanceBackupRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mongodb_instance_backup_rule tencentcloud_mongodb_instance_backup_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class MongodbInstanceBackupRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mongodb_instance_backup_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

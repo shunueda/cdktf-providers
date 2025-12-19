@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CosObjectDownloadOperationConfig extends cdktf.TerraformMetaArg
   /**
   * Bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#bucket CosObjectDownloadOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#bucket CosObjectDownloadOperation#bucket}
   */
   readonly bucket: string;
   /**
   * Download path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#download_path CosObjectDownloadOperation#download_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#download_path CosObjectDownloadOperation#download_path}
   */
   readonly downloadPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#id CosObjectDownloadOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#id CosObjectDownloadOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface CosObjectDownloadOperationConfig extends cdktf.TerraformMetaArg
   /**
   * Object key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#key CosObjectDownloadOperation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#key CosObjectDownloadOperation#key}
   */
   readonly key: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#timeouts CosObjectDownloadOperation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#timeouts CosObjectDownloadOperation#timeouts}
   */
   readonly timeouts?: CosObjectDownloadOperationTimeouts;
 }
 export interface CosObjectDownloadOperationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#create CosObjectDownloadOperation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#create CosObjectDownloadOperation#create}
   */
   readonly create?: string;
 }
@@ -135,7 +135,7 @@ export class CosObjectDownloadOperationTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation tencentcloud_cos_object_download_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation tencentcloud_cos_object_download_operation}
 */
 export class CosObjectDownloadOperation extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class CosObjectDownloadOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosObjectDownloadOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosObjectDownloadOperation to import
-  * @param importFromId The id of the existing CosObjectDownloadOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosObjectDownloadOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosObjectDownloadOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class CosObjectDownloadOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cos_object_download_operation tencentcloud_cos_object_download_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cos_object_download_operation tencentcloud_cos_object_download_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class CosObjectDownloadOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_object_download_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

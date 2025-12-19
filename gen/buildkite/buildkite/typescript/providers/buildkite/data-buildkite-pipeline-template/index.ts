@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBuildkitePipelineTemplateConfig extends cdktf.TerraformMeta
   /**
   * The GraphQL ID of the pipeline template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template#id DataBuildkitePipelineTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template#id DataBuildkitePipelineTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataBuildkitePipelineTemplateConfig extends cdktf.TerraformMeta
   /**
   * The name of the pipeline template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template#name DataBuildkitePipelineTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template#name DataBuildkitePipelineTemplate#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template buildkite_pipeline_template}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template buildkite_pipeline_template}
 */
 export class DataBuildkitePipelineTemplate extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataBuildkitePipelineTemplate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkitePipelineTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkitePipelineTemplate to import
-  * @param importFromId The id of the existing DataBuildkitePipelineTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkitePipelineTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkitePipelineTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataBuildkitePipelineTemplate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/pipeline_template buildkite_pipeline_template} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/pipeline_template buildkite_pipeline_template} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataBuildkitePipelineTemplate extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_pipeline_template',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

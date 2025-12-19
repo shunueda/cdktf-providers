@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppResourceCleanupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#id WebAppResourceCleanup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#id WebAppResourceCleanup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface WebAppResourceCleanupConfig extends cdktf.TerraformMetaArgument
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#insert_after WebAppResourceCleanup#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#insert_after WebAppResourceCleanup#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * For example: *Mask journeyId*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#name WebAppResourceCleanup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#name WebAppResourceCleanup#name}
   */
   readonly name: string;
   /**
   * For example: `(.*)(journeyId=)-?\d+(.*)`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#regular_expression WebAppResourceCleanup#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#regular_expression WebAppResourceCleanup#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * For example: `$1$2\*$3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#replace_with WebAppResourceCleanup#replace_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#replace_with WebAppResourceCleanup#replace_with}
   */
   readonly replaceWith: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup dynatrace_web_app_resource_cleanup}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup dynatrace_web_app_resource_cleanup}
 */
 export class WebAppResourceCleanup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WebAppResourceCleanup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppResourceCleanup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppResourceCleanup to import
-  * @param importFromId The id of the existing WebAppResourceCleanup that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppResourceCleanup that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppResourceCleanup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WebAppResourceCleanup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_cleanup dynatrace_web_app_resource_cleanup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_cleanup dynatrace_web_app_resource_cleanup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WebAppResourceCleanup extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_resource_cleanup',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SiteReliabilityGuardianConfig extends cdktf.TerraformMetaArgume
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#description SiteReliabilityGuardian#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#description SiteReliabilityGuardian#description}
   */
   readonly description?: string;
   /**
   * If set to null/'BIZ_EVENT' validation events stored as bizevents in Grail. If set to 'SDLC_EVENT' validation events stored as SDLC events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#event_kind SiteReliabilityGuardian#event_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#event_kind SiteReliabilityGuardian#event_kind}
   */
   readonly eventKind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#id SiteReliabilityGuardian#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#id SiteReliabilityGuardian#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface SiteReliabilityGuardianConfig extends cdktf.TerraformMetaArgume
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
   */
   readonly name: string;
   /**
   * Define key/value pairs that further describe this guardian.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#tags SiteReliabilityGuardian#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#tags SiteReliabilityGuardian#tags}
   */
   readonly tags?: string[];
   /**
   * objectives block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#objectives SiteReliabilityGuardian#objectives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#objectives SiteReliabilityGuardian#objectives}
   */
   readonly objectives: SiteReliabilityGuardianObjectives;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#variables SiteReliabilityGuardian#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#variables SiteReliabilityGuardian#variables}
   */
   readonly variables?: SiteReliabilityGuardianVariables;
 }
@@ -55,19 +55,19 @@ export interface SiteReliabilityGuardianObjectivesObjectiveDisplayUnit {
   /**
   * Base Unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#base SiteReliabilityGuardian#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#base SiteReliabilityGuardian#base}
   */
   readonly base: string;
   /**
   * Decimals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#decimals SiteReliabilityGuardian#decimals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#decimals SiteReliabilityGuardian#decimals}
   */
   readonly decimals: number;
   /**
   * display as unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#display SiteReliabilityGuardian#display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#display SiteReliabilityGuardian#display}
   */
   readonly display: string;
 }
@@ -202,13 +202,13 @@ export interface SiteReliabilityGuardianObjectivesObjectiveSegmentsSegmentVariab
   /**
   * Variable Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
   */
   readonly name: string;
   /**
   * Variable Values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#values SiteReliabilityGuardian#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#values SiteReliabilityGuardian#values}
   */
   readonly values?: string[];
 }
@@ -352,7 +352,7 @@ export interface SiteReliabilityGuardianObjectivesObjectiveSegmentsSegmentVariab
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#variable SiteReliabilityGuardian#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#variable SiteReliabilityGuardian#variable}
   */
   readonly variable: SiteReliabilityGuardianObjectivesObjectiveSegmentsSegmentVariablesVariable[] | cdktf.IResolvable;
 }
@@ -435,7 +435,7 @@ export interface SiteReliabilityGuardianObjectivesObjectiveSegmentsSegment {
   /**
   * Segment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#id SiteReliabilityGuardian#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#id SiteReliabilityGuardian#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -444,7 +444,7 @@ export interface SiteReliabilityGuardianObjectivesObjectiveSegmentsSegment {
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#variables SiteReliabilityGuardian#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#variables SiteReliabilityGuardian#variables}
   */
   readonly variables?: SiteReliabilityGuardianObjectivesObjectiveSegmentsSegmentVariables;
 }
@@ -588,7 +588,7 @@ export interface SiteReliabilityGuardianObjectivesObjectiveSegments {
   /**
   * segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#segment SiteReliabilityGuardian#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#segment SiteReliabilityGuardian#segment}
   */
   readonly segment: SiteReliabilityGuardianObjectivesObjectiveSegmentsSegment[] | cdktf.IResolvable;
 }
@@ -671,67 +671,67 @@ export interface SiteReliabilityGuardianObjectivesObjective {
   /**
   * Enable auto adaptive threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#auto_adaptive_threshold_enabled SiteReliabilityGuardian#auto_adaptive_threshold_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#auto_adaptive_threshold_enabled SiteReliabilityGuardian#auto_adaptive_threshold_enabled}
   */
   readonly autoAdaptiveThresholdEnabled?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `GREATER_THAN_OR_EQUAL`, `LESS_THAN_OR_EQUAL`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#comparison_operator SiteReliabilityGuardian#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#comparison_operator SiteReliabilityGuardian#comparison_operator}
   */
   readonly comparisonOperator: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#description SiteReliabilityGuardian#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#description SiteReliabilityGuardian#description}
   */
   readonly description?: string;
   /**
   * DQL query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#dql_query SiteReliabilityGuardian#dql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#dql_query SiteReliabilityGuardian#dql_query}
   */
   readonly dqlQuery?: string;
   /**
   * Objective name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
   */
   readonly name: string;
   /**
   * Possible Values: `DQL`, `REFERENCE_SLO`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#objective_type SiteReliabilityGuardian#objective_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#objective_type SiteReliabilityGuardian#objective_type}
   */
   readonly objectiveType: string;
   /**
   * Please enter the metric key of your desired SLO. SLO metric keys have to start with 'func:slo.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#reference_slo SiteReliabilityGuardian#reference_slo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#reference_slo SiteReliabilityGuardian#reference_slo}
   */
   readonly referenceSlo?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#target SiteReliabilityGuardian#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#target SiteReliabilityGuardian#target}
   */
   readonly target?: number;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#warning SiteReliabilityGuardian#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#warning SiteReliabilityGuardian#warning}
   */
   readonly warning?: number;
   /**
   * display_unit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#display_unit SiteReliabilityGuardian#display_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#display_unit SiteReliabilityGuardian#display_unit}
   */
   readonly displayUnit?: SiteReliabilityGuardianObjectivesObjectiveDisplayUnit;
   /**
   * segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#segments SiteReliabilityGuardian#segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#segments SiteReliabilityGuardian#segments}
   */
   readonly segments?: SiteReliabilityGuardianObjectivesObjectiveSegments;
 }
@@ -1130,7 +1130,7 @@ export interface SiteReliabilityGuardianObjectives {
   /**
   * objective block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#objective SiteReliabilityGuardian#objective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#objective SiteReliabilityGuardian#objective}
   */
   readonly objective: SiteReliabilityGuardianObjectivesObjective[] | cdktf.IResolvable;
 }
@@ -1213,13 +1213,13 @@ export interface SiteReliabilityGuardianVariablesVariable {
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#definition SiteReliabilityGuardian#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#definition SiteReliabilityGuardian#definition}
   */
   readonly definition: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#name SiteReliabilityGuardian#name}
   */
   readonly name: string;
 }
@@ -1360,7 +1360,7 @@ export interface SiteReliabilityGuardianVariables {
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#variable SiteReliabilityGuardian#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#variable SiteReliabilityGuardian#variable}
   */
   readonly variable: SiteReliabilityGuardianVariablesVariable[] | cdktf.IResolvable;
 }
@@ -1441,7 +1441,7 @@ export class SiteReliabilityGuardianVariablesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian dynatrace_site_reliability_guardian}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian dynatrace_site_reliability_guardian}
 */
 export class SiteReliabilityGuardian extends cdktf.TerraformResource {
 
@@ -1457,7 +1457,7 @@ export class SiteReliabilityGuardian extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SiteReliabilityGuardian resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SiteReliabilityGuardian to import
-  * @param importFromId The id of the existing SiteReliabilityGuardian that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SiteReliabilityGuardian that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SiteReliabilityGuardian to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1469,7 +1469,7 @@ export class SiteReliabilityGuardian extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/site_reliability_guardian dynatrace_site_reliability_guardian} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/site_reliability_guardian dynatrace_site_reliability_guardian} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1480,8 +1480,8 @@ export class SiteReliabilityGuardian extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_site_reliability_guardian',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

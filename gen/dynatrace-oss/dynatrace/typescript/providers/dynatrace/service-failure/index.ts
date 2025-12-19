@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceFailureConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#enabled ServiceFailure#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#enabled ServiceFailure#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#id ServiceFailure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#id ServiceFailure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ServiceFailureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#service_id ServiceFailure#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#service_id ServiceFailure#service_id}
   */
   readonly serviceId: string;
   /**
   * exception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#exception_rules ServiceFailure#exception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#exception_rules ServiceFailure#exception_rules}
   */
   readonly exceptionRules?: ServiceFailureExceptionRules;
 }
@@ -37,31 +37,31 @@ export interface ServiceFailureExceptionRulesCustomErrorRulesCustomErrorRuleCond
   /**
   * Case sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#case_sensitive ServiceFailure#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#case_sensitive ServiceFailure#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Apply this comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#compare_operation_type ServiceFailure#compare_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#compare_operation_type ServiceFailure#compare_operation_type}
   */
   readonly compareOperationType: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#double_value ServiceFailure#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#double_value ServiceFailure#double_value}
   */
   readonly doubleValue?: number;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#int_value ServiceFailure#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#int_value ServiceFailure#int_value}
   */
   readonly intValue?: number;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#text_value ServiceFailure#text_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#text_value ServiceFailure#text_value}
   */
   readonly textValue?: string;
 }
@@ -260,13 +260,13 @@ export interface ServiceFailureExceptionRulesCustomErrorRulesCustomErrorRule {
   /**
   * Request attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#request_attribute ServiceFailure#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#request_attribute ServiceFailure#request_attribute}
   */
   readonly requestAttribute: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#condition ServiceFailure#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#condition ServiceFailure#condition}
   */
   readonly condition: ServiceFailureExceptionRulesCustomErrorRulesCustomErrorRuleCondition;
 }
@@ -407,7 +407,7 @@ export interface ServiceFailureExceptionRulesCustomErrorRules {
   /**
   * custom_error_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_error_rule ServiceFailure#custom_error_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_error_rule ServiceFailure#custom_error_rule}
   */
   readonly customErrorRule: ServiceFailureExceptionRulesCustomErrorRulesCustomErrorRule[] | cdktf.IResolvable;
 }
@@ -490,13 +490,13 @@ export interface ServiceFailureExceptionRulesCustomHandledExceptionsCustomHandle
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -643,7 +643,7 @@ export interface ServiceFailureExceptionRulesCustomHandledExceptions {
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
   */
   readonly customHandledException: ServiceFailureExceptionRulesCustomHandledExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -726,13 +726,13 @@ export interface ServiceFailureExceptionRulesIgnoredExceptionsCustomHandledExcep
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -879,7 +879,7 @@ export interface ServiceFailureExceptionRulesIgnoredExceptions {
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
   */
   readonly customHandledException: ServiceFailureExceptionRulesIgnoredExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -962,13 +962,13 @@ export interface ServiceFailureExceptionRulesSuccessForcingExceptionsCustomHandl
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#class_pattern ServiceFailure#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#message_pattern ServiceFailure#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -1115,7 +1115,7 @@ export interface ServiceFailureExceptionRulesSuccessForcingExceptions {
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_handled_exception ServiceFailure#custom_handled_exception}
   */
   readonly customHandledException: ServiceFailureExceptionRulesSuccessForcingExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -1198,37 +1198,37 @@ export interface ServiceFailureExceptionRules {
   /**
   * Ignore all exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#ignore_all_exceptions ServiceFailure#ignore_all_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#ignore_all_exceptions ServiceFailure#ignore_all_exceptions}
   */
   readonly ignoreAllExceptions: boolean | cdktf.IResolvable;
   /**
   * Ignore span failure detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#ignore_span_failure_detection ServiceFailure#ignore_span_failure_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#ignore_span_failure_detection ServiceFailure#ignore_span_failure_detection}
   */
   readonly ignoreSpanFailureDetection: boolean | cdktf.IResolvable;
   /**
   * custom_error_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_error_rules ServiceFailure#custom_error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_error_rules ServiceFailure#custom_error_rules}
   */
   readonly customErrorRules?: ServiceFailureExceptionRulesCustomErrorRules;
   /**
   * custom_handled_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#custom_handled_exceptions ServiceFailure#custom_handled_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#custom_handled_exceptions ServiceFailure#custom_handled_exceptions}
   */
   readonly customHandledExceptions?: ServiceFailureExceptionRulesCustomHandledExceptions;
   /**
   * ignored_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#ignored_exceptions ServiceFailure#ignored_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#ignored_exceptions ServiceFailure#ignored_exceptions}
   */
   readonly ignoredExceptions?: ServiceFailureExceptionRulesIgnoredExceptions;
   /**
   * success_forcing_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#success_forcing_exceptions ServiceFailure#success_forcing_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#success_forcing_exceptions ServiceFailure#success_forcing_exceptions}
   */
   readonly successForcingExceptions?: ServiceFailureExceptionRulesSuccessForcingExceptions;
 }
@@ -1451,7 +1451,7 @@ export class ServiceFailureExceptionRulesOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure dynatrace_service_failure}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure dynatrace_service_failure}
 */
 export class ServiceFailure extends cdktf.TerraformResource {
 
@@ -1467,7 +1467,7 @@ export class ServiceFailure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceFailure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceFailure to import
-  * @param importFromId The id of the existing ServiceFailure that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceFailure that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceFailure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1479,7 +1479,7 @@ export class ServiceFailure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_failure dynatrace_service_failure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_failure dynatrace_service_failure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1490,8 +1490,8 @@ export class ServiceFailure extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_failure',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

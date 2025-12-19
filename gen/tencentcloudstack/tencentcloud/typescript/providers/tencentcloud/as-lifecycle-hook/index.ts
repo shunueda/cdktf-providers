@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AsLifecycleHookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines the action the AS group should take when the lifecycle hook timeout elapses or if an unexpected failure occurs. Valid values: `CONTINUE` and `ABANDON`. The default value is `CONTINUE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#default_result AsLifecycleHook#default_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#default_result AsLifecycleHook#default_result}
   */
   readonly defaultResult?: string;
   /**
   * Defines the amount of time, in seconds, that can elapse before the lifecycle hook times out. Valid value ranges: (30~7200). and default value is `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#heartbeat_timeout AsLifecycleHook#heartbeat_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#heartbeat_timeout AsLifecycleHook#heartbeat_timeout}
   */
   readonly heartbeatTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#id AsLifecycleHook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#id AsLifecycleHook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface AsLifecycleHookConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the lifecycle hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#lifecycle_hook_name AsLifecycleHook#lifecycle_hook_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#lifecycle_hook_name AsLifecycleHook#lifecycle_hook_name}
   */
   readonly lifecycleHookName: string;
   /**
   * The instance state to which you want to attach the lifecycle hook. Valid values: `INSTANCE_LAUNCHING` and `INSTANCE_TERMINATING`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#lifecycle_transition AsLifecycleHook#lifecycle_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#lifecycle_transition AsLifecycleHook#lifecycle_transition}
   */
   readonly lifecycleTransition: string;
   /**
   * The scenario where the lifecycle hook is applied. `EXTENSION`: the lifecycle hook will be triggered when AttachInstances, DetachInstances or RemoveInstaces is called. `NORMAL`: the lifecycle hook is not triggered by the above APIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#lifecycle_transition_type AsLifecycleHook#lifecycle_transition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#lifecycle_transition_type AsLifecycleHook#lifecycle_transition_type}
   */
   readonly lifecycleTransitionType?: string;
   /**
   * Contains additional information that you want to include any time AS sends a message to the notification target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#notification_metadata AsLifecycleHook#notification_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#notification_metadata AsLifecycleHook#notification_metadata}
   */
   readonly notificationMetadata?: string;
   /**
   * For CMQ_QUEUE type, a name of queue must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#notification_queue_name AsLifecycleHook#notification_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#notification_queue_name AsLifecycleHook#notification_queue_name}
   */
   readonly notificationQueueName?: string;
   /**
   * Target type. Valid values: `CMQ_QUEUE`, `CMQ_TOPIC`, `TDMQ_CMQ_QUEUE`, `TDMQ_CMQ_TOPIC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#notification_target_type AsLifecycleHook#notification_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#notification_target_type AsLifecycleHook#notification_target_type}
   */
   readonly notificationTargetType?: string;
   /**
   * For CMQ_TOPIC type, a name of topic must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#notification_topic_name AsLifecycleHook#notification_topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#notification_topic_name AsLifecycleHook#notification_topic_name}
   */
   readonly notificationTopicName?: string;
   /**
   * ID of a scaling group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#scaling_group_id AsLifecycleHook#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#scaling_group_id AsLifecycleHook#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
   * lifecycle_command block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#lifecycle_command AsLifecycleHook#lifecycle_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#lifecycle_command AsLifecycleHook#lifecycle_command}
   */
   readonly lifecycleCommand?: AsLifecycleHookLifecycleCommand;
 }
@@ -85,13 +85,13 @@ export interface AsLifecycleHookLifecycleCommand {
   /**
   * Remote command ID. It is required to execute a command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#command_id AsLifecycleHook#command_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#command_id AsLifecycleHook#command_id}
   */
   readonly commandId: string;
   /**
   * Custom parameter. The field type is JSON encoded string. For example, {"varA": "222"}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#parameters AsLifecycleHook#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#parameters AsLifecycleHook#parameters}
   */
   readonly parameters?: string;
 }
@@ -201,7 +201,7 @@ export class AsLifecycleHookLifecycleCommandOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook tencentcloud_as_lifecycle_hook}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook tencentcloud_as_lifecycle_hook}
 */
 export class AsLifecycleHook extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class AsLifecycleHook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsLifecycleHook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsLifecycleHook to import
-  * @param importFromId The id of the existing AsLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsLifecycleHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsLifecycleHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class AsLifecycleHook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_lifecycle_hook tencentcloud_as_lifecycle_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_lifecycle_hook tencentcloud_as_lifecycle_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class AsLifecycleHook extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_as_lifecycle_hook',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

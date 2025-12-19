@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface InvoiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Token of the managed account to invoice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice#account_token Invoice#account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice#account_token Invoice#account_token}
   */
   readonly accountToken: string;
   /**
   * End date of billing period (YYYY-MM-DD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice#billing_period_end Invoice#billing_period_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice#billing_period_end Invoice#billing_period_end}
   */
   readonly billingPeriodEnd: string;
   /**
   * Start date of billing period (YYYY-MM-DD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice#billing_period_start Invoice#billing_period_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice#billing_period_start Invoice#billing_period_start}
   */
   readonly billingPeriodStart: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice vantage_invoice}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice vantage_invoice}
 */
 export class Invoice extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Invoice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Invoice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Invoice to import
-  * @param importFromId The id of the existing Invoice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Invoice that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Invoice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Invoice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/invoice vantage_invoice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/invoice vantage_invoice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Invoice extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_invoice',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

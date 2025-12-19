@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MysqlSwitchMasterSlaveOperationConfig extends cdktf.TerraformMe
   /**
   * target instance. Possible values: `first` - first standby; `second` - second standby. The default value is `first`, and only multi-AZ instances support setting it to `second`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#dst_slave MysqlSwitchMasterSlaveOperation#dst_slave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#dst_slave MysqlSwitchMasterSlaveOperation#dst_slave}
   */
   readonly dstSlave?: string;
   /**
   * Whether to force switch. Default is False. Note that if you set the mandatory switch to True, there is a risk of data loss on the instance, so use it with caution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#force_switch MysqlSwitchMasterSlaveOperation#force_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#force_switch MysqlSwitchMasterSlaveOperation#force_switch}
   */
   readonly forceSwitch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#id MysqlSwitchMasterSlaveOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#id MysqlSwitchMasterSlaveOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface MysqlSwitchMasterSlaveOperationConfig extends cdktf.TerraformMe
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#instance_id MysqlSwitchMasterSlaveOperation#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#instance_id MysqlSwitchMasterSlaveOperation#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to switch within the time window. The default is False, i.e. do not switch within the time window. Note that if the ForceSwitch parameter is set to True, this parameter will not take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#wait_switch MysqlSwitchMasterSlaveOperation#wait_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#wait_switch MysqlSwitchMasterSlaveOperation#wait_switch}
   */
   readonly waitSwitch?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation tencentcloud_mysql_switch_master_slave_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation tencentcloud_mysql_switch_master_slave_operation}
 */
 export class MysqlSwitchMasterSlaveOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MysqlSwitchMasterSlaveOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlSwitchMasterSlaveOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlSwitchMasterSlaveOperation to import
-  * @param importFromId The id of the existing MysqlSwitchMasterSlaveOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlSwitchMasterSlaveOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlSwitchMasterSlaveOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MysqlSwitchMasterSlaveOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/mysql_switch_master_slave_operation tencentcloud_mysql_switch_master_slave_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/mysql_switch_master_slave_operation tencentcloud_mysql_switch_master_slave_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MysqlSwitchMasterSlaveOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mysql_switch_master_slave_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

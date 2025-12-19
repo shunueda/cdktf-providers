@@ -1,3 +1,3 @@
 # `spacelift_module`
 
-Refer to the Terraform Registry for docs: [`spacelift_module`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/module).
+Refer to the Terraform Registry for docs: [`spacelift_module`](https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/module).

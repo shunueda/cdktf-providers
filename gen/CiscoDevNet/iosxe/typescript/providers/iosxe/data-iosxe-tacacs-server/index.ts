@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/tacacs_server
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/tacacs_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeTacacsServerConfig extends cdktf.TerraformMetaArgument
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/tacacs_server#device DataIosxeTacacsServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/tacacs_server#device DataIosxeTacacsServer#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/tacacs_server iosxe_tacacs_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/tacacs_server iosxe_tacacs_server}
 */
 export class DataIosxeTacacsServer extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataIosxeTacacsServer extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeTacacsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeTacacsServer to import
-  * @param importFromId The id of the existing DataIosxeTacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/tacacs_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeTacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/tacacs_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeTacacsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataIosxeTacacsServer extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.4/docs/data-sources/tacacs_server iosxe_tacacs_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/data-sources/tacacs_server iosxe_tacacs_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataIosxeTacacsServer extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_tacacs_server',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.4',
-        providerVersionConstraint: '0.14.4'
+        providerVersion: '0.14.5',
+        providerVersionConstraint: '0.14.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

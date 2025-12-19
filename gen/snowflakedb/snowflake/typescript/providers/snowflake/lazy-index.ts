@@ -120,6 +120,7 @@ Object.defineProperty(exports, 'dataSnowflakeFunctions', { get: function () { re
 Object.defineProperty(exports, 'dataSnowflakeGitRepositories', { get: function () { return require('./data-snowflake-git-repositories'); } });
 Object.defineProperty(exports, 'dataSnowflakeGrants', { get: function () { return require('./data-snowflake-grants'); } });
 Object.defineProperty(exports, 'dataSnowflakeImageRepositories', { get: function () { return require('./data-snowflake-image-repositories'); } });
+Object.defineProperty(exports, 'dataSnowflakeListings', { get: function () { return require('./data-snowflake-listings'); } });
 Object.defineProperty(exports, 'dataSnowflakeMaskingPolicies', { get: function () { return require('./data-snowflake-masking-policies'); } });
 Object.defineProperty(exports, 'dataSnowflakeMaterializedViews', { get: function () { return require('./data-snowflake-materialized-views'); } });
 Object.defineProperty(exports, 'dataSnowflakeNetworkPolicies', { get: function () { return require('./data-snowflake-network-policies'); } });

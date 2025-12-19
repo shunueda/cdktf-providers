@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,49 @@ export interface SystemHookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Do SSL verification when triggering the hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#enable_ssl_verification SystemHook#enable_ssl_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#enable_ssl_verification SystemHook#enable_ssl_verification}
   */
   readonly enableSslVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#id SystemHook#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
   * Trigger hook on merge requests events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#merge_requests_events SystemHook#merge_requests_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#merge_requests_events SystemHook#merge_requests_events}
   */
   readonly mergeRequestsEvents?: boolean | cdktf.IResolvable;
   /**
   * When true, the hook fires on push events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#push_events SystemHook#push_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#push_events SystemHook#push_events}
   */
   readonly pushEvents?: boolean | cdktf.IResolvable;
   /**
   * Trigger hook on repository update events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#repository_update_events SystemHook#repository_update_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#repository_update_events SystemHook#repository_update_events}
   */
   readonly repositoryUpdateEvents?: boolean | cdktf.IResolvable;
   /**
   * When true, the hook fires on new tags being pushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#tag_push_events SystemHook#tag_push_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#tag_push_events SystemHook#tag_push_events}
   */
   readonly tagPushEvents?: boolean | cdktf.IResolvable;
   /**
-  * Secret token to validate received payloads; this isn’t returned in the response. This attribute is not available for imported resources.
+  * Secret token to validate received payloads; this isn't returned in the response. This attribute is not available for imported resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#token SystemHook#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#token SystemHook#token}
   */
   readonly token?: string;
   /**
   * The hook URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#url SystemHook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#url SystemHook#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook gitlab_system_hook}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook gitlab_system_hook}
 */
 export class SystemHook extends cdktf.TerraformResource {
 
@@ -75,7 +68,7 @@ export class SystemHook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemHook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemHook to import
-  * @param importFromId The id of the existing SystemHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemHook that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemHook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +80,7 @@ export class SystemHook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/resources/system_hook gitlab_system_hook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/resources/system_hook gitlab_system_hook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +91,8 @@ export class SystemHook extends cdktf.TerraformResource {
       terraformResourceType: 'gitlab_system_hook',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.1',
-        providerVersionConstraint: '18.6.1'
+        providerVersion: '18.7.0',
+        providerVersionConstraint: '18.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -110,7 +103,6 @@ export class SystemHook extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._enableSslVerification = config.enableSslVerification;
-    this._id = config.id;
     this._mergeRequestsEvents = config.mergeRequestsEvents;
     this._pushEvents = config.pushEvents;
     this._repositoryUpdateEvents = config.repositoryUpdateEvents;
@@ -144,20 +136,9 @@ export class SystemHook extends cdktf.TerraformResource {
     return this._enableSslVerification;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // merge_requests_events - computed: false, optional: true, required: false
@@ -260,7 +241,6 @@ export class SystemHook extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       enable_ssl_verification: cdktf.booleanToTerraform(this._enableSslVerification),
-      id: cdktf.stringToTerraform(this._id),
       merge_requests_events: cdktf.booleanToTerraform(this._mergeRequestsEvents),
       push_events: cdktf.booleanToTerraform(this._pushEvents),
       repository_update_events: cdktf.booleanToTerraform(this._repositoryUpdateEvents),
@@ -277,12 +257,6 @@ export class SystemHook extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       merge_requests_events: {
         value: cdktf.booleanToHclTerraform(this._mergeRequestsEvents),

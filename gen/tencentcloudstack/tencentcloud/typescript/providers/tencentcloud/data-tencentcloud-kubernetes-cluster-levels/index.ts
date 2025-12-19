@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudKubernetesClusterLevelsConfig extends cdktf.Ter
   /**
   * Specify cluster Id, if set will only query current cluster's available levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels#cluster_id DataTencentcloudKubernetesClusterLevels#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels#cluster_id DataTencentcloudKubernetesClusterLevels#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels#id DataTencentcloudKubernetesClusterLevels#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels#id DataTencentcloudKubernetesClusterLevels#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface DataTencentcloudKubernetesClusterLevelsConfig extends cdktf.Ter
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels#result_output_file DataTencentcloudKubernetesClusterLevels#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels#result_output_file DataTencentcloudKubernetesClusterLevels#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -139,7 +139,7 @@ export class DataTencentcloudKubernetesClusterLevelsListStructList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels tencentcloud_kubernetes_cluster_levels}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels tencentcloud_kubernetes_cluster_levels}
 */
 export class DataTencentcloudKubernetesClusterLevels extends cdktf.TerraformDataSource {
 
@@ -155,7 +155,7 @@ export class DataTencentcloudKubernetesClusterLevels extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataTencentcloudKubernetesClusterLevels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudKubernetesClusterLevels to import
-  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterLevels that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudKubernetesClusterLevels that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudKubernetesClusterLevels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -167,7 +167,7 @@ export class DataTencentcloudKubernetesClusterLevels extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/kubernetes_cluster_levels tencentcloud_kubernetes_cluster_levels} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/kubernetes_cluster_levels tencentcloud_kubernetes_cluster_levels} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -178,8 +178,8 @@ export class DataTencentcloudKubernetesClusterLevels extends cdktf.TerraformData
       terraformResourceType: 'tencentcloud_kubernetes_cluster_levels',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

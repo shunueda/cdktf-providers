@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppIpAddressExclusionConfig extends cdktf.TerraformMetaArgum
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#application_id WebAppIpAddressExclusion#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#application_id WebAppIpAddressExclusion#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#id WebAppIpAddressExclusion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#id WebAppIpAddressExclusion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface WebAppIpAddressExclusionConfig extends cdktf.TerraformMetaArgum
   /**
   * These are the only IP addresses that should be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#ip_address_exclusion_include WebAppIpAddressExclusion#ip_address_exclusion_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#ip_address_exclusion_include WebAppIpAddressExclusion#ip_address_exclusion_include}
   */
   readonly ipAddressExclusionInclude: boolean | cdktf.IResolvable;
   /**
   * ip_exclusion_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#ip_exclusion_list WebAppIpAddressExclusion#ip_exclusion_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#ip_exclusion_list WebAppIpAddressExclusion#ip_exclusion_list}
   */
   readonly ipExclusionList?: WebAppIpAddressExclusionIpExclusionListStruct;
 }
@@ -37,13 +37,13 @@ export interface WebAppIpAddressExclusionIpExclusionListIpExclusion {
   /**
   * Single IP or IP range start address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#ip WebAppIpAddressExclusion#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#ip WebAppIpAddressExclusion#ip}
   */
   readonly ip: string;
   /**
   * IP range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#ip_to WebAppIpAddressExclusion#ip_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#ip_to WebAppIpAddressExclusion#ip_to}
   */
   readonly ipTo?: string;
 }
@@ -187,7 +187,7 @@ export interface WebAppIpAddressExclusionIpExclusionListStruct {
   /**
   * ip_exclusion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#ip_exclusion WebAppIpAddressExclusion#ip_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#ip_exclusion WebAppIpAddressExclusion#ip_exclusion}
   */
   readonly ipExclusion: WebAppIpAddressExclusionIpExclusionListIpExclusion[] | cdktf.IResolvable;
 }
@@ -268,7 +268,7 @@ export class WebAppIpAddressExclusionIpExclusionListStructOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion dynatrace_web_app_ip_address_exclusion}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion dynatrace_web_app_ip_address_exclusion}
 */
 export class WebAppIpAddressExclusion extends cdktf.TerraformResource {
 
@@ -284,7 +284,7 @@ export class WebAppIpAddressExclusion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppIpAddressExclusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppIpAddressExclusion to import
-  * @param importFromId The id of the existing WebAppIpAddressExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppIpAddressExclusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppIpAddressExclusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class WebAppIpAddressExclusion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_ip_address_exclusion dynatrace_web_app_ip_address_exclusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_ip_address_exclusion dynatrace_web_app_ip_address_exclusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,8 +307,8 @@ export class WebAppIpAddressExclusion extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_ip_address_exclusion',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

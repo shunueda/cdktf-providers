@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "datadog": "3.82.0"
+    "datadog": "3.83.0"
   }
 }

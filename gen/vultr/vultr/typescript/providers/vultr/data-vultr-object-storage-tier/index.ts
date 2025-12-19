@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVultrObjectStorageTierConfig extends cdktf.TerraformMetaArg
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier#filter DataVultrObjectStorageTier#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier#filter DataVultrObjectStorageTier#filter}
   */
   readonly filter?: DataVultrObjectStorageTierFilter[] | cdktf.IResolvable;
 }
@@ -106,11 +106,11 @@ export class DataVultrObjectStorageTierLocationsList extends cdktf.ComplexList {
 }
 export interface DataVultrObjectStorageTierFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier#name DataVultrObjectStorageTier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier#name DataVultrObjectStorageTier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier#values DataVultrObjectStorageTier#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier#values DataVultrObjectStorageTier#values}
   */
   readonly values: string[];
 }
@@ -249,7 +249,7 @@ export class DataVultrObjectStorageTierFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier vultr_object_storage_tier}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier vultr_object_storage_tier}
 */
 export class DataVultrObjectStorageTier extends cdktf.TerraformDataSource {
 
@@ -265,7 +265,7 @@ export class DataVultrObjectStorageTier extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVultrObjectStorageTier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVultrObjectStorageTier to import
-  * @param importFromId The id of the existing DataVultrObjectStorageTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVultrObjectStorageTier that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVultrObjectStorageTier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DataVultrObjectStorageTier extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/object_storage_tier vultr_object_storage_tier} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/object_storage_tier vultr_object_storage_tier} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DataVultrObjectStorageTier extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_object_storage_tier',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

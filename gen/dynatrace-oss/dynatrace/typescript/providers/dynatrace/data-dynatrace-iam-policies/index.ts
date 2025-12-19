@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataDynatraceIamPoliciesConfig extends cdktf.TerraformMetaArgum
   /**
   * The results will contain policies defined for the given accountID. If one of the entries contains `*` the results will contain policies for all accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#accounts DataDynatraceIamPolicies#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#accounts DataDynatraceIamPolicies#accounts}
   */
   readonly accounts?: string[];
   /**
   * The results will contain policies defined for the given environments. If one of the entries contains `*` the results will contain policies for all environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#environments DataDynatraceIamPolicies#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#environments DataDynatraceIamPolicies#environments}
   */
   readonly environments?: string[];
   /**
   * If `true` the results will contain global policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#global DataDynatraceIamPolicies#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#global DataDynatraceIamPolicies#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * The results will only contain policies that are bound to the specified groups. Omit this attribute if you want to retrieve all policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#groups DataDynatraceIamPolicies#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#groups DataDynatraceIamPolicies#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#id DataDynatraceIamPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#id DataDynatraceIamPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -141,7 +141,7 @@ export class DataDynatraceIamPoliciesPoliciesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies dynatrace_iam_policies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies dynatrace_iam_policies}
 */
 export class DataDynatraceIamPolicies extends cdktf.TerraformDataSource {
 
@@ -157,7 +157,7 @@ export class DataDynatraceIamPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDynatraceIamPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDynatraceIamPolicies to import
-  * @param importFromId The id of the existing DataDynatraceIamPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDynatraceIamPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDynatraceIamPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class DataDynatraceIamPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/data-sources/iam_policies dynatrace_iam_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/data-sources/iam_policies dynatrace_iam_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class DataDynatraceIamPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'dynatrace_iam_policies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

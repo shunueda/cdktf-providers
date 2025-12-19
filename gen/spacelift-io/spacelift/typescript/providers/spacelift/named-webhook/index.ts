@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook
+// https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface NamedWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * enables or disables sending webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#enabled NamedWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#enabled NamedWebhook#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * endpoint to send the requests to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#endpoint NamedWebhook#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#endpoint NamedWebhook#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#id NamedWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#id NamedWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface NamedWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * labels for the webhook to use when referring in policies or filtering them
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#labels NamedWebhook#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#labels NamedWebhook#labels}
   */
   readonly labels?: string[];
   /**
   * the name for the webhook which will also be used to generate the id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#name NamedWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#name NamedWebhook#name}
   */
   readonly name: string;
   /**
   * whether to retry the webhook in case of failure. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#retry_on_failure NamedWebhook#retry_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#retry_on_failure NamedWebhook#retry_on_failure}
   */
   readonly retryOnFailure?: boolean | cdktf.IResolvable;
   /**
   * secret used to sign each request so you're able to verify that the request comes from us. Defaults to an empty value. Note that once it's created, it will be just an empty string in the state due to security reasons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#secret NamedWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#secret NamedWebhook#secret}
   */
   readonly secret?: string;
   /**
   * ID of the space the webhook is in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#space_id NamedWebhook#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#space_id NamedWebhook#space_id}
   */
   readonly spaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook spacelift_named_webhook}
+* Represents a {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook spacelift_named_webhook}
 */
 export class NamedWebhook extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class NamedWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NamedWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NamedWebhook to import
-  * @param importFromId The id of the existing NamedWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NamedWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NamedWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class NamedWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.41.0/docs/resources/named_webhook spacelift_named_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spacelift-io/spacelift/1.42.0/docs/resources/named_webhook spacelift_named_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class NamedWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'spacelift_named_webhook',
       terraformGeneratorMetadata: {
         providerName: 'spacelift',
-        providerVersion: '1.41.0',
-        providerVersionConstraint: '1.41.0'
+        providerVersion: '1.42.0',
+        providerVersionConstraint: '1.42.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

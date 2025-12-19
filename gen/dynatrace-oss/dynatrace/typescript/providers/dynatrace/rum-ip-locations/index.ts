@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface RumIpLocationsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The city name of the location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#city RumIpLocations#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#city RumIpLocations#city}
   */
   readonly city?: string;
   /**
@@ -18,11 +18,11 @@ export interface RumIpLocationsConfig extends cdktf.TerraformMetaArguments {
   * 
   *  Use the alpha-2 code of the [ISO 3166-2 standard](https://dt-url.net/iso3166-2), (for example, `AT` for Austria or `PL` for Poland).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#country_code RumIpLocations#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#country_code RumIpLocations#country_code}
   */
   readonly countryCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#id RumIpLocations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#id RumIpLocations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,25 +31,25 @@ export interface RumIpLocationsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Single IP or IP range start address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#ip RumIpLocations#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#ip RumIpLocations#ip}
   */
   readonly ip: string;
   /**
   * IP range end
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#ip_to RumIpLocations#ip_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#ip_to RumIpLocations#ip_to}
   */
   readonly ipTo?: string;
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#latitude RumIpLocations#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#latitude RumIpLocations#latitude}
   */
   readonly latitude?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#longitude RumIpLocations#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#longitude RumIpLocations#longitude}
   */
   readonly longitude?: number;
   /**
@@ -59,13 +59,13 @@ export interface RumIpLocationsConfig extends cdktf.TerraformMetaArguments {
   * 
   *  For the rest of the world use [FIPS 10-4 codes](https://dt-url.net/fipscodes) without country prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#region_code RumIpLocations#region_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#region_code RumIpLocations#region_code}
   */
   readonly regionCode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations dynatrace_rum_ip_locations}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations dynatrace_rum_ip_locations}
 */
 export class RumIpLocations extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class RumIpLocations extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumIpLocations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumIpLocations to import
-  * @param importFromId The id of the existing RumIpLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumIpLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumIpLocations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class RumIpLocations extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_ip_locations dynatrace_rum_ip_locations} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_ip_locations dynatrace_rum_ip_locations} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class RumIpLocations extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_rum_ip_locations',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GenericRelationshipsConfig extends cdktf.TerraformMetaArguments
   /**
   * The user or extension that created this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#created_by GenericRelationships#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#created_by GenericRelationships#created_by}
   */
   readonly createdBy: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#enabled GenericRelationships#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#enabled GenericRelationships#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Specify a role for the source entity. If both source and destination type are the same, referring different roles will allow identification of a relationships direction. If role is left blank, any role of the source type is considered for the relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#from_role GenericRelationships#from_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#from_role GenericRelationships#from_role}
   */
   readonly fromRole?: string;
   /**
   * Define an entity type as the source of the relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#from_type GenericRelationships#from_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#from_type GenericRelationships#from_type}
   */
   readonly fromType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#id GenericRelationships#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#id GenericRelationships#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface GenericRelationshipsConfig extends cdktf.TerraformMetaArguments
   /**
   * Specify a role for the destination entity. If both source and destination type are the same, referring different roles will allow identification of a relationships direction. If role is left blank, any role of the destination type is considered for the relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#to_role GenericRelationships#to_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#to_role GenericRelationships#to_role}
   */
   readonly toRole?: string;
   /**
   * Define an entity type as the destination of the relationship. You can choose the same type as the source type. In this case you also may assign different roles for source and destination for having directed relationships.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#to_type GenericRelationships#to_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#to_type GenericRelationships#to_type}
   */
   readonly toType: string;
   /**
   * Possible Values: `CALLS`, `CHILD_OF`, `INSTANCE_OF`, `PART_OF`, `RUNS_ON`, `SAME_AS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#type_of_relation GenericRelationships#type_of_relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#type_of_relation GenericRelationships#type_of_relation}
   */
   readonly typeOfRelation: string;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#sources GenericRelationships#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#sources GenericRelationships#sources}
   */
   readonly sources: GenericRelationshipsSources;
 }
@@ -67,25 +67,25 @@ export interface GenericRelationshipsSourcesSourceMappingRulesMappingRule {
   /**
   * The case-sensitive name of a property of the destination type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#destination_property GenericRelationships#destination_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#destination_property GenericRelationships#destination_property}
   */
   readonly destinationProperty: string;
   /**
   * Possible Values: `Leavetextas_is`, `Tolowercase`, `Touppercase`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#destination_transformation GenericRelationships#destination_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#destination_transformation GenericRelationships#destination_transformation}
   */
   readonly destinationTransformation: string;
   /**
   * The case-sensitive name of a property of the source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#source_property GenericRelationships#source_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#source_property GenericRelationships#source_property}
   */
   readonly sourceProperty: string;
   /**
   * Possible Values: `Leavetextas_is`, `Tolowercase`, `Touppercase`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#source_transformation GenericRelationships#source_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#source_transformation GenericRelationships#source_transformation}
   */
   readonly sourceTransformation: string;
 }
@@ -278,7 +278,7 @@ export interface GenericRelationshipsSourcesSourceMappingRules {
   /**
   * mapping_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#mapping_rule GenericRelationships#mapping_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#mapping_rule GenericRelationships#mapping_rule}
   */
   readonly mappingRule: GenericRelationshipsSourcesSourceMappingRulesMappingRule[] | cdktf.IResolvable;
 }
@@ -362,19 +362,19 @@ export interface GenericRelationshipsSourcesSource {
   * Specify a filter that needs to match in order for the extraction to happen.. Two different filters are supported: `$eq(value)` will ensure that the source matches exactly 'value', while `$prefix(value)` will ensure that the source begins with exactly 'value'.
   * If your value contains the characters '(', ')' or '\~', you need to escape them by adding a '\~' in front of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#condition GenericRelationships#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#condition GenericRelationships#condition}
   */
   readonly condition?: string;
   /**
   * Possible Values: `BusinessEvents`, `Entities`, `Events`, `Logs`, `Metrics`, `Spans`, `Topology`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#source_type GenericRelationships#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#source_type GenericRelationships#source_type}
   */
   readonly sourceType: string;
   /**
   * mapping_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#mapping_rules GenericRelationships#mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#mapping_rules GenericRelationships#mapping_rules}
   */
   readonly mappingRules?: GenericRelationshipsSourcesSourceMappingRules;
 }
@@ -547,7 +547,7 @@ export interface GenericRelationshipsSources {
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#source GenericRelationships#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#source GenericRelationships#source}
   */
   readonly source: GenericRelationshipsSourcesSource[] | cdktf.IResolvable;
 }
@@ -628,7 +628,7 @@ export class GenericRelationshipsSourcesOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships dynatrace_generic_relationships}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships dynatrace_generic_relationships}
 */
 export class GenericRelationships extends cdktf.TerraformResource {
 
@@ -644,7 +644,7 @@ export class GenericRelationships extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GenericRelationships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenericRelationships to import
-  * @param importFromId The id of the existing GenericRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenericRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenericRelationships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class GenericRelationships extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/generic_relationships dynatrace_generic_relationships} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/generic_relationships dynatrace_generic_relationships} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class GenericRelationships extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_generic_relationships',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

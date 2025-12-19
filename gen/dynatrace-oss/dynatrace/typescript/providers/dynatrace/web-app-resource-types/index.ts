@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppResourceTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#id WebAppResourceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#id WebAppResourceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface WebAppResourceTypesConfig extends cdktf.TerraformMetaArguments 
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#insert_after WebAppResourceTypes#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#insert_after WebAppResourceTypes#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Possible Values: `CSS`, `IMAGE`, `OTHER`, `SCRIPT`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#primary_resource_type WebAppResourceTypes#primary_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#primary_resource_type WebAppResourceTypes#primary_resource_type}
   */
   readonly primaryResourceType: string;
   /**
   * The regular expression to detect the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#regular_expression WebAppResourceTypes#regular_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#regular_expression WebAppResourceTypes#regular_expression}
   */
   readonly regularExpression: string;
   /**
   * The secondary type of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#secondary_resource_type WebAppResourceTypes#secondary_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#secondary_resource_type WebAppResourceTypes#secondary_resource_type}
   */
   readonly secondaryResourceType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types dynatrace_web_app_resource_types}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types dynatrace_web_app_resource_types}
 */
 export class WebAppResourceTypes extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class WebAppResourceTypes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppResourceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppResourceTypes to import
-  * @param importFromId The id of the existing WebAppResourceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppResourceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppResourceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class WebAppResourceTypes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_resource_types dynatrace_web_app_resource_types} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_resource_types dynatrace_web_app_resource_types} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class WebAppResourceTypes extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_resource_types',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

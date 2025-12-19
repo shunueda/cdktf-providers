@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ServiceHttpFailureConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#enabled ServiceHttpFailure#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#enabled ServiceHttpFailure#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#id ServiceHttpFailure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#id ServiceHttpFailure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface ServiceHttpFailureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#service_id ServiceHttpFailure#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#service_id ServiceHttpFailure#service_id}
   */
   readonly serviceId: string;
   /**
   * broken_links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#broken_links ServiceHttpFailure#broken_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#broken_links ServiceHttpFailure#broken_links}
   */
   readonly brokenLinks?: ServiceHttpFailureBrokenLinks;
   /**
   * http_response_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#http_response_codes ServiceHttpFailure#http_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#http_response_codes ServiceHttpFailure#http_response_codes}
   */
   readonly httpResponseCodes?: ServiceHttpFailureHttpResponseCodes;
 }
@@ -43,13 +43,13 @@ export interface ServiceHttpFailureBrokenLinks {
   /**
   * If your application relies on other hosts at other domains, add the associated domain names here. Once configured, Dynatrace will consider 404s thrown by hosts at these domains to be service failures related to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#broken_link_domains ServiceHttpFailure#broken_link_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#broken_link_domains ServiceHttpFailure#broken_link_domains}
   */
   readonly brokenLinkDomains?: string[];
   /**
   * Consider 404 HTTP response codes as failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#http_404_not_found_failures ServiceHttpFailure#http_404_not_found_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#http_404_not_found_failures ServiceHttpFailure#http_404_not_found_failures}
   */
   readonly http404NotFoundFailures: boolean | cdktf.IResolvable;
 }
@@ -161,25 +161,25 @@ export interface ServiceHttpFailureHttpResponseCodes {
   /**
   * HTTP response codes which indicate client side errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#client_side_errors ServiceHttpFailure#client_side_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#client_side_errors ServiceHttpFailure#client_side_errors}
   */
   readonly clientSideErrors: string;
   /**
   * Treat missing HTTP response code as client side error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#fail_on_missing_response_code_client_side ServiceHttpFailure#fail_on_missing_response_code_client_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#fail_on_missing_response_code_client_side ServiceHttpFailure#fail_on_missing_response_code_client_side}
   */
   readonly failOnMissingResponseCodeClientSide: boolean | cdktf.IResolvable;
   /**
   * Treat missing HTTP response code as server side errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#fail_on_missing_response_code_server_side ServiceHttpFailure#fail_on_missing_response_code_server_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#fail_on_missing_response_code_server_side ServiceHttpFailure#fail_on_missing_response_code_server_side}
   */
   readonly failOnMissingResponseCodeServerSide: boolean | cdktf.IResolvable;
   /**
   * HTTP response codes which indicate an error on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#server_side_errors ServiceHttpFailure#server_side_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#server_side_errors ServiceHttpFailure#server_side_errors}
   */
   readonly serverSideErrors: string;
 }
@@ -338,7 +338,7 @@ export class ServiceHttpFailureHttpResponseCodesOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure dynatrace_service_http_failure}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure dynatrace_service_http_failure}
 */
 export class ServiceHttpFailure extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class ServiceHttpFailure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceHttpFailure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceHttpFailure to import
-  * @param importFromId The id of the existing ServiceHttpFailure that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceHttpFailure that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceHttpFailure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class ServiceHttpFailure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/service_http_failure dynatrace_service_http_failure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/service_http_failure dynatrace_service_http_failure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class ServiceHttpFailure extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_service_http_failure',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

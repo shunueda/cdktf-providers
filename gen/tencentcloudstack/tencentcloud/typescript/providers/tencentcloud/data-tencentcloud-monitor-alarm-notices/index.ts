@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMonitorAlarmNoticesConfig extends cdktf.Terrafo
   /**
   * Receive group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#group_ids DataTencentcloudMonitorAlarmNotices#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#group_ids DataTencentcloudMonitorAlarmNotices#group_ids}
   */
   readonly groupIds?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#id DataTencentcloudMonitorAlarmNotices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#id DataTencentcloudMonitorAlarmNotices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataTencentcloudMonitorAlarmNoticesConfig extends cdktf.Terrafo
   /**
   * Alarm notification template name Used for fuzzy search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#name DataTencentcloudMonitorAlarmNotices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#name DataTencentcloudMonitorAlarmNotices#name}
   */
   readonly name?: string;
   /**
   * Receive group list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#notice_ids DataTencentcloudMonitorAlarmNotices#notice_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#notice_ids DataTencentcloudMonitorAlarmNotices#notice_ids}
   */
   readonly noticeIds?: string[];
   /**
   * Sort by update time ASC=forward order DESC=reverse order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#order DataTencentcloudMonitorAlarmNotices#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#order DataTencentcloudMonitorAlarmNotices#order}
   */
   readonly order?: string;
   /**
   * The primary account uid is used to create a preset notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#owner_uid DataTencentcloudMonitorAlarmNotices#owner_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#owner_uid DataTencentcloudMonitorAlarmNotices#owner_uid}
   */
   readonly ownerUid?: number;
   /**
   * To filter alarm notification templates according to recipients, you need to select the notification user type. USER=user GROUP=user group Leave blank = not filter by recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#receiver_type DataTencentcloudMonitorAlarmNotices#receiver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#receiver_type DataTencentcloudMonitorAlarmNotices#receiver_type}
   */
   readonly receiverType?: string;
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#result_output_file DataTencentcloudMonitorAlarmNotices#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#result_output_file DataTencentcloudMonitorAlarmNotices#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * List of recipients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#user_ids DataTencentcloudMonitorAlarmNotices#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#user_ids DataTencentcloudMonitorAlarmNotices#user_ids}
   */
   readonly userIds?: number[];
 }
@@ -513,7 +513,7 @@ export class DataTencentcloudMonitorAlarmNoticesAlarmNoticeList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices tencentcloud_monitor_alarm_notices}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices tencentcloud_monitor_alarm_notices}
 */
 export class DataTencentcloudMonitorAlarmNotices extends cdktf.TerraformDataSource {
 
@@ -529,7 +529,7 @@ export class DataTencentcloudMonitorAlarmNotices extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudMonitorAlarmNotices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorAlarmNotices to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmNotices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmNotices that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorAlarmNotices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -541,7 +541,7 @@ export class DataTencentcloudMonitorAlarmNotices extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/monitor_alarm_notices tencentcloud_monitor_alarm_notices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/monitor_alarm_notices tencentcloud_monitor_alarm_notices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,8 +552,8 @@ export class DataTencentcloudMonitorAlarmNotices extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_monitor_alarm_notices',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

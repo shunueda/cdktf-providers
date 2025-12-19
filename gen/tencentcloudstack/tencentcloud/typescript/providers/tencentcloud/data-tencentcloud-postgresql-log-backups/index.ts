@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudPostgresqlLogBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#id DataTencentcloudPostgresqlLogBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#id DataTencentcloudPostgresqlLogBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudPostgresqlLogBackupsConfig extends cdktf.Terraf
   /**
   * Maximum end time of a backup in the format of `2018-01-01 00:00:00`. It is the current time by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#max_finish_time DataTencentcloudPostgresqlLogBackups#max_finish_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#max_finish_time DataTencentcloudPostgresqlLogBackups#max_finish_time}
   */
   readonly maxFinishTime?: string;
   /**
   * Minimum end time of a backup in the format of `2018-01-01 00:00:00`. It is 7 days ago by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#min_finish_time DataTencentcloudPostgresqlLogBackups#min_finish_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#min_finish_time DataTencentcloudPostgresqlLogBackups#min_finish_time}
   */
   readonly minFinishTime?: string;
   /**
   * Sorting field. Valid values: `StartTime`, `FinishTime`, `Size`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#order_by DataTencentcloudPostgresqlLogBackups#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#order_by DataTencentcloudPostgresqlLogBackups#order_by}
   */
   readonly orderBy?: string;
   /**
   * Sorting order. Valid values: `asc` (ascending), `desc` (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#order_by_type DataTencentcloudPostgresqlLogBackups#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#order_by_type DataTencentcloudPostgresqlLogBackups#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#result_output_file DataTencentcloudPostgresqlLogBackups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#result_output_file DataTencentcloudPostgresqlLogBackups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#filters DataTencentcloudPostgresqlLogBackups#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#filters DataTencentcloudPostgresqlLogBackups#filters}
   */
   readonly filters?: DataTencentcloudPostgresqlLogBackupsFilters[] | cdktf.IResolvable;
 }
@@ -175,13 +175,13 @@ export interface DataTencentcloudPostgresqlLogBackupsFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#name DataTencentcloudPostgresqlLogBackups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#name DataTencentcloudPostgresqlLogBackups#name}
   */
   readonly name?: string;
   /**
   * One or more filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#values DataTencentcloudPostgresqlLogBackups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#values DataTencentcloudPostgresqlLogBackups#values}
   */
   readonly values?: string[];
 }
@@ -326,7 +326,7 @@ export class DataTencentcloudPostgresqlLogBackupsFiltersList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups tencentcloud_postgresql_log_backups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups tencentcloud_postgresql_log_backups}
 */
 export class DataTencentcloudPostgresqlLogBackups extends cdktf.TerraformDataSource {
 
@@ -342,7 +342,7 @@ export class DataTencentcloudPostgresqlLogBackups extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlLogBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlLogBackups to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlLogBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlLogBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlLogBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class DataTencentcloudPostgresqlLogBackups extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/postgresql_log_backups tencentcloud_postgresql_log_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/postgresql_log_backups tencentcloud_postgresql_log_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class DataTencentcloudPostgresqlLogBackups extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_postgresql_log_backups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

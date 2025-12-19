@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudMariadbPriceConfig extends cdktf.TerraformMetaA
   /**
   * Price unit. Valid values: `* pent` (cent), `* microPent` (microcent).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#amount_unit DataTencentcloudMariadbPrice#amount_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#amount_unit DataTencentcloudMariadbPrice#amount_unit}
   */
   readonly amountUnit?: string;
   /**
   * The quantity you want to purchase is queried by default for the price of purchasing 1 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#buy_count DataTencentcloudMariadbPrice#buy_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#buy_count DataTencentcloudMariadbPrice#buy_count}
   */
   readonly buyCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#id DataTencentcloudMariadbPrice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#id DataTencentcloudMariadbPrice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface DataTencentcloudMariadbPriceConfig extends cdktf.TerraformMetaA
   /**
   * Memory size in GB, which can be obtained by querying the instance specification through the `DescribeDBInstanceSpecs` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#memory DataTencentcloudMariadbPrice#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#memory DataTencentcloudMariadbPrice#memory}
   */
   readonly memory: number;
   /**
   * Number of instance nodes, which can be obtained by querying the instance specification through the `DescribeDBInstanceSpecs` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#node_count DataTencentcloudMariadbPrice#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#node_count DataTencentcloudMariadbPrice#node_count}
   */
   readonly nodeCount: number;
   /**
   * Billing type. Valid values: `postpaid` (pay-as-you-go), `prepaid` (monthly subscription).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#paymode DataTencentcloudMariadbPrice#paymode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#paymode DataTencentcloudMariadbPrice#paymode}
   */
   readonly paymode?: string;
   /**
   * Purchase period in months.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#period DataTencentcloudMariadbPrice#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#period DataTencentcloudMariadbPrice#period}
   */
   readonly period?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#result_output_file DataTencentcloudMariadbPrice#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#result_output_file DataTencentcloudMariadbPrice#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Storage capacity in GB. The maximum and minimum storage space can be obtained by querying instance specification through the `DescribeDBInstanceSpecs` API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#storage DataTencentcloudMariadbPrice#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#storage DataTencentcloudMariadbPrice#storage}
   */
   readonly storage: number;
   /**
   * AZ ID of the purchased instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#zone DataTencentcloudMariadbPrice#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#zone DataTencentcloudMariadbPrice#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price tencentcloud_mariadb_price}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price tencentcloud_mariadb_price}
 */
 export class DataTencentcloudMariadbPrice extends cdktf.TerraformDataSource {
 
@@ -87,7 +87,7 @@ export class DataTencentcloudMariadbPrice extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudMariadbPrice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMariadbPrice to import
-  * @param importFromId The id of the existing DataTencentcloudMariadbPrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMariadbPrice that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMariadbPrice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class DataTencentcloudMariadbPrice extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/mariadb_price tencentcloud_mariadb_price} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/mariadb_price tencentcloud_mariadb_price} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class DataTencentcloudMariadbPrice extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_mariadb_price',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

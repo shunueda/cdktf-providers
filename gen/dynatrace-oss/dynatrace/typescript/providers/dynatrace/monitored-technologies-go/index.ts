@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MonitoredTechnologiesGoConfig extends cdktf.TerraformMetaArgume
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go#enabled MonitoredTechnologiesGo#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go#enabled MonitoredTechnologiesGo#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Learn more about the [known limitations for Go static monitoring](https://www.dynatrace.com/support/help/technology-support/application-software/go/support/go-known-limitations#limitations)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go#enabled_go_static_monitoring MonitoredTechnologiesGo#enabled_go_static_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go#enabled_go_static_monitoring MonitoredTechnologiesGo#enabled_go_static_monitoring}
   */
   readonly enabledGoStaticMonitoring?: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go#host_id MonitoredTechnologiesGo#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go#host_id MonitoredTechnologiesGo#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go#id MonitoredTechnologiesGo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go#id MonitoredTechnologiesGo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface MonitoredTechnologiesGoConfig extends cdktf.TerraformMetaArgume
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go dynatrace_monitored_technologies_go}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go dynatrace_monitored_technologies_go}
 */
 export class MonitoredTechnologiesGo extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class MonitoredTechnologiesGo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitoredTechnologiesGo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitoredTechnologiesGo to import
-  * @param importFromId The id of the existing MonitoredTechnologiesGo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitoredTechnologiesGo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitoredTechnologiesGo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class MonitoredTechnologiesGo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_go dynatrace_monitored_technologies_go} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_go dynatrace_monitored_technologies_go} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class MonitoredTechnologiesGo extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_monitored_technologies_go',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

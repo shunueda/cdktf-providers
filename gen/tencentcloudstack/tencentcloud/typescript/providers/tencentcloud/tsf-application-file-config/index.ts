@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface TsfApplicationFileConfigConfig extends cdktf.TerraformMetaArgum
   /**
   * Config file associated application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#application_id TsfApplicationFileConfig#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#application_id TsfApplicationFileConfig#application_id}
   */
   readonly applicationId: string;
   /**
   * Configuration file encoding, utf-8 or gbk. Note: If you choose gbk, you need the support of a new version of tsf-consul-template (public cloud virtual machines need to use 1.32 tsf-agent, and containers need to obtain the latest tsf-consul-template-docker.tar.gz from the documentation).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_file_code TsfApplicationFileConfig#config_file_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_file_code TsfApplicationFileConfig#config_file_code}
   */
   readonly configFileCode?: string;
   /**
   * Config file name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_file_name TsfApplicationFileConfig#config_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_file_name TsfApplicationFileConfig#config_file_name}
   */
   readonly configFileName: string;
   /**
   * config release path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_file_path TsfApplicationFileConfig#config_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_file_path TsfApplicationFileConfig#config_file_path}
   */
   readonly configFilePath: string;
   /**
   * Configuration file content (the original content encoding needs to be in utf-8 format, if the ConfigFileCode is gbk, it will be converted in the background).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_file_value TsfApplicationFileConfig#config_file_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_file_value TsfApplicationFileConfig#config_file_value}
   */
   readonly configFileValue: string;
   /**
   * Config Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_name TsfApplicationFileConfig#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_name TsfApplicationFileConfig#config_name}
   */
   readonly configName: string;
   /**
   * post command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_post_cmd TsfApplicationFileConfig#config_post_cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_post_cmd TsfApplicationFileConfig#config_post_cmd}
   */
   readonly configPostCmd?: string;
   /**
   * Config version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_version TsfApplicationFileConfig#config_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_version TsfApplicationFileConfig#config_version}
   */
   readonly configVersion: string;
   /**
   * config version description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#config_version_desc TsfApplicationFileConfig#config_version_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#config_version_desc TsfApplicationFileConfig#config_version_desc}
   */
   readonly configVersionDesc?: string;
   /**
   * the config value is encoded with base64 or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#encode_with_base64 TsfApplicationFileConfig#encode_with_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#encode_with_base64 TsfApplicationFileConfig#encode_with_base64}
   */
   readonly encodeWithBase64?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#id TsfApplicationFileConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#id TsfApplicationFileConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,13 +77,13 @@ export interface TsfApplicationFileConfigConfig extends cdktf.TerraformMetaArgum
   /**
   * datasource for auth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#program_id_list TsfApplicationFileConfig#program_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#program_id_list TsfApplicationFileConfig#program_id_list}
   */
   readonly programIdList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config tencentcloud_tsf_application_file_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config tencentcloud_tsf_application_file_config}
 */
 export class TsfApplicationFileConfig extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class TsfApplicationFileConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfApplicationFileConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfApplicationFileConfig to import
-  * @param importFromId The id of the existing TsfApplicationFileConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfApplicationFileConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfApplicationFileConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class TsfApplicationFileConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tsf_application_file_config tencentcloud_tsf_application_file_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tsf_application_file_config tencentcloud_tsf_application_file_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class TsfApplicationFileConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_application_file_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

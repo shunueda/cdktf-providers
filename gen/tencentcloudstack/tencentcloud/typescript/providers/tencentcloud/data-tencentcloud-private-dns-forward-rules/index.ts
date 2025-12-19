@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudPrivateDnsForwardRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#id DataTencentcloudPrivateDnsForwardRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#id DataTencentcloudPrivateDnsForwardRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudPrivateDnsForwardRulesConfig extends cdktf.Terr
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#result_output_file DataTencentcloudPrivateDnsForwardRules#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#result_output_file DataTencentcloudPrivateDnsForwardRules#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#filters DataTencentcloudPrivateDnsForwardRules#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#filters DataTencentcloudPrivateDnsForwardRules#filters}
   */
   readonly filters?: DataTencentcloudPrivateDnsForwardRulesFilters[] | cdktf.IResolvable;
 }
@@ -323,13 +323,13 @@ export interface DataTencentcloudPrivateDnsForwardRulesFilters {
   /**
   * Parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#name DataTencentcloudPrivateDnsForwardRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#name DataTencentcloudPrivateDnsForwardRules#name}
   */
   readonly name: string;
   /**
   * Array of parameter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#values DataTencentcloudPrivateDnsForwardRules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#values DataTencentcloudPrivateDnsForwardRules#values}
   */
   readonly values: string[];
 }
@@ -468,7 +468,7 @@ export class DataTencentcloudPrivateDnsForwardRulesFiltersList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules tencentcloud_private_dns_forward_rules}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules tencentcloud_private_dns_forward_rules}
 */
 export class DataTencentcloudPrivateDnsForwardRules extends cdktf.TerraformDataSource {
 
@@ -484,7 +484,7 @@ export class DataTencentcloudPrivateDnsForwardRules extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudPrivateDnsForwardRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPrivateDnsForwardRules to import
-  * @param importFromId The id of the existing DataTencentcloudPrivateDnsForwardRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPrivateDnsForwardRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPrivateDnsForwardRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class DataTencentcloudPrivateDnsForwardRules extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/private_dns_forward_rules tencentcloud_private_dns_forward_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/private_dns_forward_rules tencentcloud_private_dns_forward_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class DataTencentcloudPrivateDnsForwardRules extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_private_dns_forward_rules',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

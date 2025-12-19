@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OpentelemetryMetricsConfig extends cdktf.TerraformMetaArguments
   /**
   * Add the resource and scope attributes configured below as dimensions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#additional_attributes_to_dimension_enabled OpentelemetryMetrics#additional_attributes_to_dimension_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#additional_attributes_to_dimension_enabled OpentelemetryMetrics#additional_attributes_to_dimension_enabled}
   */
   readonly additionalAttributesToDimensionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#id OpentelemetryMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#id OpentelemetryMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface OpentelemetryMetricsConfig extends cdktf.TerraformMetaArguments
   * 
   * **Note:** Modifying this setting will cause the metric to change. This may have an impact on existing dashboards, events and alerts that make use of these dimensions. In this case, they will need to be updated manually
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#meter_name_to_dimension_enabled OpentelemetryMetrics#meter_name_to_dimension_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#meter_name_to_dimension_enabled OpentelemetryMetrics#meter_name_to_dimension_enabled}
   */
   readonly meterNameToDimensionEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -37,25 +37,25 @@ export interface OpentelemetryMetricsConfig extends cdktf.TerraformMetaArguments
   * 
   * **Note:** Using `ADDITIVE` and `EXPLICIT` at the same time within differnt resource instances will lead to unexpected results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#mode OpentelemetryMetrics#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#mode OpentelemetryMetrics#mode}
   */
   readonly mode?: string;
   /**
   * The scope of this setting (environment-default). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#scope OpentelemetryMetrics#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#scope OpentelemetryMetrics#scope}
   */
   readonly scope?: string;
   /**
   * additional_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#additional_attributes OpentelemetryMetrics#additional_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#additional_attributes OpentelemetryMetrics#additional_attributes}
   */
   readonly additionalAttributes?: OpentelemetryMetricsAdditionalAttributes;
   /**
   * to_drop_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#to_drop_attributes OpentelemetryMetrics#to_drop_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#to_drop_attributes OpentelemetryMetrics#to_drop_attributes}
   */
   readonly toDropAttributes?: OpentelemetryMetricsToDropAttributes;
 }
@@ -63,13 +63,13 @@ export interface OpentelemetryMetricsAdditionalAttributesAdditionalAttribute {
   /**
   * Attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#attribute_key OpentelemetryMetrics#attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#attribute_key OpentelemetryMetrics#attribute_key}
   */
   readonly attributeKey: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#enabled OpentelemetryMetrics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#enabled OpentelemetryMetrics#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -210,7 +210,7 @@ export interface OpentelemetryMetricsAdditionalAttributes {
   /**
   * additional_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#additional_attribute OpentelemetryMetrics#additional_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#additional_attribute OpentelemetryMetrics#additional_attribute}
   */
   readonly additionalAttribute: OpentelemetryMetricsAdditionalAttributesAdditionalAttribute[] | cdktf.IResolvable;
 }
@@ -293,13 +293,13 @@ export interface OpentelemetryMetricsToDropAttributesToDropAttribute {
   /**
   * Attribute key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#attribute_key OpentelemetryMetrics#attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#attribute_key OpentelemetryMetrics#attribute_key}
   */
   readonly attributeKey: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#enabled OpentelemetryMetrics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#enabled OpentelemetryMetrics#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -440,7 +440,7 @@ export interface OpentelemetryMetricsToDropAttributes {
   /**
   * to_drop_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#to_drop_attribute OpentelemetryMetrics#to_drop_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#to_drop_attribute OpentelemetryMetrics#to_drop_attribute}
   */
   readonly toDropAttribute: OpentelemetryMetricsToDropAttributesToDropAttribute[] | cdktf.IResolvable;
 }
@@ -521,7 +521,7 @@ export class OpentelemetryMetricsToDropAttributesOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics dynatrace_opentelemetry_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics dynatrace_opentelemetry_metrics}
 */
 export class OpentelemetryMetrics extends cdktf.TerraformResource {
 
@@ -537,7 +537,7 @@ export class OpentelemetryMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpentelemetryMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpentelemetryMetrics to import
-  * @param importFromId The id of the existing OpentelemetryMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpentelemetryMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpentelemetryMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -549,7 +549,7 @@ export class OpentelemetryMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/opentelemetry_metrics dynatrace_opentelemetry_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/opentelemetry_metrics dynatrace_opentelemetry_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -560,8 +560,8 @@ export class OpentelemetryMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_opentelemetry_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface HttpMonitorCookiesConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#enabled HttpMonitorCookies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#enabled HttpMonitorCookies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#id HttpMonitorCookies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#id HttpMonitorCookies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface HttpMonitorCookiesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this setting (HTTP_CHECK)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#scope HttpMonitorCookies#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#scope HttpMonitorCookies#scope}
   */
   readonly scope: string;
   /**
   * cookies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#cookies HttpMonitorCookies#cookies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#cookies HttpMonitorCookies#cookies}
   */
   readonly cookies?: HttpMonitorCookiesCookies;
 }
@@ -37,25 +37,25 @@ export interface HttpMonitorCookiesCookiesCookie {
   /**
   * Enclose placeholder values in brackets, for example \{email\}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#domain HttpMonitorCookies#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#domain HttpMonitorCookies#domain}
   */
   readonly domain: string;
   /**
   * Enclose placeholder values in brackets, for example \{email\}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#name HttpMonitorCookies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#name HttpMonitorCookies#name}
   */
   readonly name: string;
   /**
   * Enclose placeholder values in brackets, for example \{email\}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#path HttpMonitorCookies#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#path HttpMonitorCookies#path}
   */
   readonly path?: string;
   /**
   * Enclose placeholder values in brackets, for example \{email\}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#value HttpMonitorCookies#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#value HttpMonitorCookies#value}
   */
   readonly value: string;
 }
@@ -251,7 +251,7 @@ export interface HttpMonitorCookiesCookies {
   /**
   * cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#cookie HttpMonitorCookies#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#cookie HttpMonitorCookies#cookie}
   */
   readonly cookie: HttpMonitorCookiesCookiesCookie[] | cdktf.IResolvable;
 }
@@ -332,7 +332,7 @@ export class HttpMonitorCookiesCookiesOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies dynatrace_http_monitor_cookies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies dynatrace_http_monitor_cookies}
 */
 export class HttpMonitorCookies extends cdktf.TerraformResource {
 
@@ -348,7 +348,7 @@ export class HttpMonitorCookies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HttpMonitorCookies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HttpMonitorCookies to import
-  * @param importFromId The id of the existing HttpMonitorCookies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HttpMonitorCookies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HttpMonitorCookies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -360,7 +360,7 @@ export class HttpMonitorCookies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/http_monitor_cookies dynatrace_http_monitor_cookies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/http_monitor_cookies dynatrace_http_monitor_cookies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,8 +371,8 @@ export class HttpMonitorCookies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_http_monitor_cookies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

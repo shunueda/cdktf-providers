@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface BuildkiteProviderConfig {
   /**
   * API token with GraphQL access and `write_pipelines`, `read_pipelines` and `write_suites` REST API scopes. You can generate a token from [your settings page](https://buildkite.com/user/api-access-tokens/new?description=terraform&scopes[]=write_pipelines&scopes[]=write_suites&scopes[]=read_pipelines&scopes[]=graphql). If not provided, the value is taken from the `BUILDKITE_API_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#api_token BuildkiteProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#api_token BuildkiteProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Enable this to archive pipelines when destroying the resource. This is opposed to completely deleting pipelines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#archive_pipeline_on_delete BuildkiteProvider#archive_pipeline_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#archive_pipeline_on_delete BuildkiteProvider#archive_pipeline_on_delete}
   */
   readonly archivePipelineOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Base URL for the GraphQL API to use. If not provided, the value is taken from the `BUILDKITE_GRAPHQL_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#graphql_url BuildkiteProvider#graphql_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#graphql_url BuildkiteProvider#graphql_url}
   */
   readonly graphqlUrl?: string;
   /**
   * Maximum number of retry attempts for retryable HTTP requests. Defaults to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#max_retries BuildkiteProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#max_retries BuildkiteProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * The Buildkite organization slug. This can be found on the [settings](https://buildkite.com/organizations/~/settings) page. If not provided, the value is taken from the `BUILDKITE_ORGANIZATION_SLUG` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#organization BuildkiteProvider#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#organization BuildkiteProvider#organization}
   */
   readonly organization?: string;
   /**
   * Base URL for the REST API to use. If not provided, the value is taken from the `BUILDKITE_REST_URL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#rest_url BuildkiteProvider#rest_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#rest_url BuildkiteProvider#rest_url}
   */
   readonly restUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#timeouts BuildkiteProvider#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#timeouts BuildkiteProvider#timeouts}
   */
   readonly timeouts?: BuildkiteProviderTimeouts;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#alias BuildkiteProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#alias BuildkiteProvider#alias}
   */
   readonly alias?: string;
 }
@@ -58,25 +58,25 @@ export interface BuildkiteProviderTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#create BuildkiteProvider#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#create BuildkiteProvider#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#delete BuildkiteProvider#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#delete BuildkiteProvider#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#read BuildkiteProvider#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#read BuildkiteProvider#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#update BuildkiteProvider#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#update BuildkiteProvider#update}
   */
   readonly update?: string;
 }
@@ -133,7 +133,7 @@ export function buildkiteProviderTimeoutsToHclTerraform(struct?: BuildkiteProvid
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs buildkite}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs buildkite}
 */
 export class BuildkiteProvider extends cdktf.TerraformProvider {
 
@@ -149,7 +149,7 @@ export class BuildkiteProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a BuildkiteProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuildkiteProvider to import
-  * @param importFromId The id of the existing BuildkiteProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuildkiteProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuildkiteProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -161,7 +161,7 @@ export class BuildkiteProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs buildkite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs buildkite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -172,8 +172,8 @@ export class BuildkiteProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'buildkite',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       terraformProviderSource: 'buildkite/buildkite'
     });

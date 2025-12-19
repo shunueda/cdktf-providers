@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CynosdbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#cluster_id CynosdbProxy#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#cluster_id CynosdbProxy#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Connection pool threshold: unit (second).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#connection_pool_time_out CynosdbProxy#connection_pool_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#connection_pool_time_out CynosdbProxy#connection_pool_time_out}
   */
   readonly connectionPoolTimeOut?: number;
   /**
   * Connection pool type: SessionConnectionPool (session level Connection pool).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#connection_pool_type CynosdbProxy#connection_pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#connection_pool_type CynosdbProxy#connection_pool_type}
   */
   readonly connectionPoolType?: string;
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#cpu CynosdbProxy#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#cpu CynosdbProxy#cpu}
   */
   readonly cpu: number;
   /**
   * Description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#description CynosdbProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#description CynosdbProxy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#id CynosdbProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#id CynosdbProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface CynosdbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#mem CynosdbProxy#mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#mem CynosdbProxy#mem}
   */
   readonly mem: number;
   /**
   * Whether to enable Connection pool, yes - enable, no - do not enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#open_connection_pool CynosdbProxy#open_connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#open_connection_pool CynosdbProxy#open_connection_pool}
   */
   readonly openConnectionPool?: string;
   /**
   * Number of database proxy group nodes. If it is set at the same time as the `proxy_zones` field, the `proxy_zones` parameter shall prevail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#proxy_count CynosdbProxy#proxy_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#proxy_count CynosdbProxy#proxy_count}
   */
   readonly proxyCount?: number;
   /**
   * Security Group ID Array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#security_group_ids CynosdbProxy#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#security_group_ids CynosdbProxy#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * The private network subnet ID is consistent with the cluster subnet ID by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#unique_subnet_id CynosdbProxy#unique_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#unique_subnet_id CynosdbProxy#unique_subnet_id}
   */
   readonly uniqueSubnetId?: string;
   /**
   * Private network ID, which is consistent with the cluster private network ID by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#unique_vpc_id CynosdbProxy#unique_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#unique_vpc_id CynosdbProxy#unique_vpc_id}
   */
   readonly uniqueVpcId?: string;
   /**
   * proxy_zones block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#proxy_zones CynosdbProxy#proxy_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#proxy_zones CynosdbProxy#proxy_zones}
   */
   readonly proxyZones?: CynosdbProxyProxyZones[] | cdktf.IResolvable;
 }
@@ -171,13 +171,13 @@ export interface CynosdbProxyProxyZones {
   /**
   * Number of proxy nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#proxy_node_count CynosdbProxy#proxy_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#proxy_node_count CynosdbProxy#proxy_node_count}
   */
   readonly proxyNodeCount?: number;
   /**
   * Proxy node availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#proxy_node_zone CynosdbProxy#proxy_node_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#proxy_node_zone CynosdbProxy#proxy_node_zone}
   */
   readonly proxyNodeZone?: string;
 }
@@ -322,7 +322,7 @@ export class CynosdbProxyProxyZonesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy tencentcloud_cynosdb_proxy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy tencentcloud_cynosdb_proxy}
 */
 export class CynosdbProxy extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class CynosdbProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbProxy to import
-  * @param importFromId The id of the existing CynosdbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class CynosdbProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_proxy tencentcloud_cynosdb_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_proxy tencentcloud_cynosdb_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class CynosdbProxy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_proxy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

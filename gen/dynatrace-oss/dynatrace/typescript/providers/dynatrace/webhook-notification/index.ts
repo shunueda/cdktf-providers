@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebhookNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The configuration is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#active WebhookNotification#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#active WebhookNotification#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#id WebhookNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#id WebhookNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,79 +23,79 @@ export interface WebhookNotificationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Accept any, including self-signed and invalid, SSL certificate (`true`) or only trusted (`false`) certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#insecure WebhookNotification#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#insecure WebhookNotification#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The ID of these settings when referred to from resources requiring the REST API V1 keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#legacy_id WebhookNotification#legacy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#legacy_id WebhookNotification#legacy_id}
   */
   readonly legacyId?: string;
   /**
   * The name of the notification configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#name WebhookNotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#name WebhookNotification#name}
   */
   readonly name: string;
   /**
   * Send email if problem is closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#notify_closed_problems WebhookNotification#notify_closed_problems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#notify_closed_problems WebhookNotification#notify_closed_problems}
   */
   readonly notifyClosedProblems?: boolean | cdktf.IResolvable;
   /**
   * Call webhook if new events merge into existing problems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#notify_event_merges WebhookNotification#notify_event_merges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#notify_event_merges WebhookNotification#notify_event_merges}
   */
   readonly notifyEventMerges?: boolean | cdktf.IResolvable;
   /**
   * The content of the notification message. You can use the following placeholders:  * `{ImpactedEntities}`: Details about the entities impacted by the problem in form of a JSON array.  * `{ImpactedEntity}`: The entity impacted by the problem or *X* impacted entities.  * `{PID}`: The ID of the reported problem.  * `{ProblemDetailsHTML}`: All problem event details, including root cause, as an HTML-formatted string.  * `{ProblemDetailsJSON}`: All problem event details, including root cause, as a JSON object.  * `{ProblemDetailsMarkdown}`: All problem event details, including root cause, as a [Markdown-formatted](https://www.markdownguide.org/cheat-sheet/) string.  * `{ProblemDetailsText}`: All problem event details, including root cause, as a text-formatted string.  * `{ProblemID}`: The display number of the reported problem.  * `{ProblemImpact}`: The [impact level](https://www.dynatrace.com/support/help/shortlink/impact-analysis) of the problem. Possible values are `APPLICATION`, `SERVICE`, and `INFRASTRUCTURE`.  * `{ProblemSeverity}`: The [severity level](https://www.dynatrace.com/support/help/shortlink/event-types) of the problem. Possible values are `AVAILABILITY`, `ERROR`, `PERFORMANCE`, `RESOURCE_CONTENTION`, and `CUSTOM_ALERT`.  * `{ProblemTitle}`: A short description of the problem.  * `{ProblemURL}`: The URL of the problem within Dynatrace.  * `{State}`: The state of the problem. Possible values are `OPEN` and `RESOLVED`.  * `{Tags}`: The list of tags that are defined for all impacted entities, separated by commas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#payload WebhookNotification#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#payload WebhookNotification#payload}
   */
   readonly payload: string;
   /**
   * The ID of the associated alerting profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#profile WebhookNotification#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#profile WebhookNotification#profile}
   */
   readonly profile: string;
   /**
   * The secret URL of the webhook endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#secret_url WebhookNotification#secret_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#secret_url WebhookNotification#secret_url}
   */
   readonly secretUrl?: string;
   /**
   * The URL of the WebHook endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#url WebhookNotification#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#url WebhookNotification#url}
   */
   readonly url?: string;
   /**
   * Secret webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#url_contains_secret WebhookNotification#url_contains_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#url_contains_secret WebhookNotification#url_contains_secret}
   */
   readonly urlContainsSecret?: boolean | cdktf.IResolvable;
   /**
   * Use OAuth 2.0 for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#use_oauth_2 WebhookNotification#use_oauth_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#use_oauth_2 WebhookNotification#use_oauth_2}
   */
   readonly useOauth2?: boolean | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#headers WebhookNotification#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#headers WebhookNotification#headers}
   */
   readonly headers?: WebhookNotificationHeaders;
   /**
   * oauth_2_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#oauth_2_credentials WebhookNotification#oauth_2_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#oauth_2_credentials WebhookNotification#oauth_2_credentials}
   */
   readonly oauth2Credentials?: WebhookNotificationOauth2Credentials;
 }
@@ -103,19 +103,19 @@ export interface WebhookNotificationHeadersHeader {
   /**
   * The name of the HTTP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#name WebhookNotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#name WebhookNotification#name}
   */
   readonly name: string;
   /**
   * The value of the HTTP header as a sensitive property. May contain an empty value. `secret_value` and `value` are mutually exclusive. Only one of those two is allowed to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#secret_value WebhookNotification#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#secret_value WebhookNotification#secret_value}
   */
   readonly secretValue?: string;
   /**
   * The value of the HTTP header. May contain an empty value. `secret_value` and `value` are mutually exclusive. Only one of those two is allowed to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#value WebhookNotification#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#value WebhookNotification#value}
   */
   readonly value?: string;
 }
@@ -288,7 +288,7 @@ export interface WebhookNotificationHeaders {
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#header WebhookNotification#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#header WebhookNotification#header}
   */
   readonly header: WebhookNotificationHeadersHeader[] | cdktf.IResolvable;
 }
@@ -371,31 +371,31 @@ export interface WebhookNotificationOauth2Credentials {
   /**
   * Access token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#access_token_url WebhookNotification#access_token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#access_token_url WebhookNotification#access_token_url}
   */
   readonly accessTokenUrl: string;
   /**
   * If false, the client credentials are included in the HTTP request body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#authenticate_via_request_header WebhookNotification#authenticate_via_request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#authenticate_via_request_header WebhookNotification#authenticate_via_request_header}
   */
   readonly authenticateViaRequestHeader?: boolean | cdktf.IResolvable;
   /**
   * Client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#client_id WebhookNotification#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#client_id WebhookNotification#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#client_secret WebhookNotification#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#client_secret WebhookNotification#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The scope of access you are requesting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#scope WebhookNotification#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#scope WebhookNotification#scope}
   */
   readonly scope?: string;
 }
@@ -586,7 +586,7 @@ export class WebhookNotificationOauth2CredentialsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification dynatrace_webhook_notification}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification dynatrace_webhook_notification}
 */
 export class WebhookNotification extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class WebhookNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebhookNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebhookNotification to import
-  * @param importFromId The id of the existing WebhookNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebhookNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebhookNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class WebhookNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/webhook_notification dynatrace_webhook_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/webhook_notification dynatrace_webhook_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class WebhookNotification extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_webhook_notification',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -65,6 +65,7 @@ export * as logsIndexOrder from './logs-index-order';
 export * as logsIntegrationPipeline from './logs-integration-pipeline';
 export * as logsMetric from './logs-metric';
 export * as logsPipelineOrder from './logs-pipeline-order';
+export * as logsRestrictionQuery from './logs-restriction-query';
 export * as metricMetadata from './metric-metadata';
 export * as metricTagConfiguration from './metric-tag-configuration';
 export * as monitor from './monitor';
@@ -141,6 +142,7 @@ export * as dataDatadogIntegrationAwsAvailableLogsServices from './data-datadog-
 export * as dataDatadogIntegrationAwsAvailableNamespaces from './data-datadog-integration-aws-available-namespaces';
 export * as dataDatadogIntegrationAwsExternalId from './data-datadog-integration-aws-external-id';
 export * as dataDatadogIntegrationAwsIamPermissions from './data-datadog-integration-aws-iam-permissions';
+export * as dataDatadogIntegrationAwsIamPermissionsResourceCollection from './data-datadog-integration-aws-iam-permissions-resource-collection';
 export * as dataDatadogIntegrationAwsIamPermissionsStandard from './data-datadog-integration-aws-iam-permissions-standard';
 export * as dataDatadogIntegrationAwsLogsServices from './data-datadog-integration-aws-logs-services';
 export * as dataDatadogIntegrationAwsNamespaceRules from './data-datadog-integration-aws-namespace-rules';

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server
+// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,421 +10,421 @@ export interface RemoteServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#aws_access_key RemoteServer#aws_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#aws_access_key RemoteServer#aws_access_key}
   */
   readonly awsAccessKey?: string;
   /**
   * AWS: secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#aws_secret_key RemoteServer#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#aws_secret_key RemoteServer#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Azure Blob Storage: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_access_key RemoteServer#azure_blob_storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_access_key RemoteServer#azure_blob_storage_access_key}
   */
   readonly azureBlobStorageAccessKey?: string;
   /**
   * Azure Blob Storage: Account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_account RemoteServer#azure_blob_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_account RemoteServer#azure_blob_storage_account}
   */
   readonly azureBlobStorageAccount?: string;
   /**
   * Azure Blob Storage: Container name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_container RemoteServer#azure_blob_storage_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_container RemoteServer#azure_blob_storage_container}
   */
   readonly azureBlobStorageContainer?: string;
   /**
   * Azure Blob Storage: Custom DNS suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_dns_suffix RemoteServer#azure_blob_storage_dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_dns_suffix RemoteServer#azure_blob_storage_dns_suffix}
   */
   readonly azureBlobStorageDnsSuffix?: string;
   /**
   * Azure Blob Storage: Does the storage account has hierarchical namespace feature enabled?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_hierarchical_namespace RemoteServer#azure_blob_storage_hierarchical_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_hierarchical_namespace RemoteServer#azure_blob_storage_hierarchical_namespace}
   */
   readonly azureBlobStorageHierarchicalNamespace?: boolean | cdktf.IResolvable;
   /**
   * Azure Blob Storage: Shared Access Signature (SAS) token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_blob_storage_sas_token RemoteServer#azure_blob_storage_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_blob_storage_sas_token RemoteServer#azure_blob_storage_sas_token}
   */
   readonly azureBlobStorageSasToken?: string;
   /**
   * Azure File Storage: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_files_storage_access_key RemoteServer#azure_files_storage_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_files_storage_access_key RemoteServer#azure_files_storage_access_key}
   */
   readonly azureFilesStorageAccessKey?: string;
   /**
   * Azure Files: Storage Account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_files_storage_account RemoteServer#azure_files_storage_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_files_storage_account RemoteServer#azure_files_storage_account}
   */
   readonly azureFilesStorageAccount?: string;
   /**
   * Azure Files: Custom DNS suffix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_files_storage_dns_suffix RemoteServer#azure_files_storage_dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_files_storage_dns_suffix RemoteServer#azure_files_storage_dns_suffix}
   */
   readonly azureFilesStorageDnsSuffix?: string;
   /**
   * Azure File Storage: Shared Access Signature (SAS) token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_files_storage_sas_token RemoteServer#azure_files_storage_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_files_storage_sas_token RemoteServer#azure_files_storage_sas_token}
   */
   readonly azureFilesStorageSasToken?: string;
   /**
   * Azure Files:  Storage Share name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#azure_files_storage_share_name RemoteServer#azure_files_storage_share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#azure_files_storage_share_name RemoteServer#azure_files_storage_share_name}
   */
   readonly azureFilesStorageShareName?: string;
   /**
   * Backblaze B2 Cloud Storage: applicationKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#backblaze_b2_application_key RemoteServer#backblaze_b2_application_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#backblaze_b2_application_key RemoteServer#backblaze_b2_application_key}
   */
   readonly backblazeB2ApplicationKey?: string;
   /**
   * Backblaze B2 Cloud Storage: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#backblaze_b2_bucket RemoteServer#backblaze_b2_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#backblaze_b2_bucket RemoteServer#backblaze_b2_bucket}
   */
   readonly backblazeB2Bucket?: string;
   /**
   * Backblaze B2 Cloud Storage: keyID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#backblaze_b2_key_id RemoteServer#backblaze_b2_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#backblaze_b2_key_id RemoteServer#backblaze_b2_key_id}
   */
   readonly backblazeB2KeyId?: string;
   /**
   * Backblaze B2 Cloud Storage: S3 Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#backblaze_b2_s3_endpoint RemoteServer#backblaze_b2_s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#backblaze_b2_s3_endpoint RemoteServer#backblaze_b2_s3_endpoint}
   */
   readonly backblazeB2S3Endpoint?: string;
   /**
   * If set to always, uploads to this server will be uploaded first to Files.com before being sent to the remote server. This can improve performance in certain access patterns, such as high-latency connections.  It will cause data to be temporarily stored in Files.com. If set to auto, we will perform this optimization if we believe it to be a benefit in a given situation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#buffer_uploads RemoteServer#buffer_uploads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#buffer_uploads RemoteServer#buffer_uploads}
   */
   readonly bufferUploads?: string;
   /**
   * Cloudflare: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#cloudflare_access_key RemoteServer#cloudflare_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#cloudflare_access_key RemoteServer#cloudflare_access_key}
   */
   readonly cloudflareAccessKey?: string;
   /**
   * Cloudflare: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#cloudflare_bucket RemoteServer#cloudflare_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#cloudflare_bucket RemoteServer#cloudflare_bucket}
   */
   readonly cloudflareBucket?: string;
   /**
   * Cloudflare: endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#cloudflare_endpoint RemoteServer#cloudflare_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#cloudflare_endpoint RemoteServer#cloudflare_endpoint}
   */
   readonly cloudflareEndpoint?: string;
   /**
   * Cloudflare: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#cloudflare_secret_key RemoteServer#cloudflare_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#cloudflare_secret_key RemoteServer#cloudflare_secret_key}
   */
   readonly cloudflareSecretKey?: string;
   /**
   * Internal description for your reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#description RemoteServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#description RemoteServer#description}
   */
   readonly description?: string;
   /**
   * Dropbox: If true, list Team folders in root?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#dropbox_teams RemoteServer#dropbox_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#dropbox_teams RemoteServer#dropbox_teams}
   */
   readonly dropboxTeams?: boolean | cdktf.IResolvable;
   /**
   * `true` if remote server only accepts connections from dedicated IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#enable_dedicated_ips RemoteServer#enable_dedicated_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#enable_dedicated_ips RemoteServer#enable_dedicated_ips}
   */
   readonly enableDedicatedIps?: boolean | cdktf.IResolvable;
   /**
   * Filebase: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#filebase_access_key RemoteServer#filebase_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#filebase_access_key RemoteServer#filebase_access_key}
   */
   readonly filebaseAccessKey?: string;
   /**
   * Filebase: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#filebase_bucket RemoteServer#filebase_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#filebase_bucket RemoteServer#filebase_bucket}
   */
   readonly filebaseBucket?: string;
   /**
   * Filebase: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#filebase_secret_key RemoteServer#filebase_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#filebase_secret_key RemoteServer#filebase_secret_key}
   */
   readonly filebaseSecretKey?: string;
   /**
   * Local permissions for files agent. read_only, write_only, or read_write
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#files_agent_permission_set RemoteServer#files_agent_permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#files_agent_permission_set RemoteServer#files_agent_permission_set}
   */
   readonly filesAgentPermissionSet?: string;
   /**
   * Agent local root path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#files_agent_root RemoteServer#files_agent_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#files_agent_root RemoteServer#files_agent_root}
   */
   readonly filesAgentRoot?: string;
   /**
   * Files Agent version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#files_agent_version RemoteServer#files_agent_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#files_agent_version RemoteServer#files_agent_version}
   */
   readonly filesAgentVersion?: string;
   /**
   * Google Cloud Storage: Bucket Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#google_cloud_storage_bucket RemoteServer#google_cloud_storage_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#google_cloud_storage_bucket RemoteServer#google_cloud_storage_bucket}
   */
   readonly googleCloudStorageBucket?: string;
   /**
   * Google Cloud Storage: JSON file that contains the private key. To generate see https://cloud.google.com/storage/docs/json_api/v1/how-tos/authorizing#APIKey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#google_cloud_storage_credentials_json RemoteServer#google_cloud_storage_credentials_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#google_cloud_storage_credentials_json RemoteServer#google_cloud_storage_credentials_json}
   */
   readonly googleCloudStorageCredentialsJson?: string;
   /**
   * Google Cloud Storage: Project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#google_cloud_storage_project_id RemoteServer#google_cloud_storage_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#google_cloud_storage_project_id RemoteServer#google_cloud_storage_project_id}
   */
   readonly googleCloudStorageProjectId?: string;
   /**
   * Google Cloud Storage: S3-compatible Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#google_cloud_storage_s3_compatible_access_key RemoteServer#google_cloud_storage_s3_compatible_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#google_cloud_storage_s3_compatible_access_key RemoteServer#google_cloud_storage_s3_compatible_access_key}
   */
   readonly googleCloudStorageS3CompatibleAccessKey?: string;
   /**
   * Google Cloud Storage: S3-compatible secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#google_cloud_storage_s3_compatible_secret_key RemoteServer#google_cloud_storage_s3_compatible_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#google_cloud_storage_s3_compatible_secret_key RemoteServer#google_cloud_storage_s3_compatible_secret_key}
   */
   readonly googleCloudStorageS3CompatibleSecretKey?: string;
   /**
   * Hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#hostname RemoteServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#hostname RemoteServer#hostname}
   */
   readonly hostname?: string;
   /**
   * Linode: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#linode_access_key RemoteServer#linode_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#linode_access_key RemoteServer#linode_access_key}
   */
   readonly linodeAccessKey?: string;
   /**
   * Linode: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#linode_bucket RemoteServer#linode_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#linode_bucket RemoteServer#linode_bucket}
   */
   readonly linodeBucket?: string;
   /**
   * Linode: region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#linode_region RemoteServer#linode_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#linode_region RemoteServer#linode_region}
   */
   readonly linodeRegion?: string;
   /**
   * Linode: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#linode_secret_key RemoteServer#linode_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#linode_secret_key RemoteServer#linode_secret_key}
   */
   readonly linodeSecretKey?: string;
   /**
   * Max number of parallel connections.  Ignored for S3 connections (we will parallelize these as much as possible).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#max_connections RemoteServer#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#max_connections RemoteServer#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * Internal name for your reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#name RemoteServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#name RemoteServer#name}
   */
   readonly name?: string;
   /**
   * OneDrive: Either personal or business_other account types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#one_drive_account_type RemoteServer#one_drive_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#one_drive_account_type RemoteServer#one_drive_account_type}
   */
   readonly oneDriveAccountType?: string;
   /**
   * Route traffic to outbound on a files-agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#outbound_agent_id RemoteServer#outbound_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#outbound_agent_id RemoteServer#outbound_agent_id}
   */
   readonly outboundAgentId?: number;
   /**
   * Password, if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#password RemoteServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#password RemoteServer#password}
   */
   readonly password?: string;
   /**
   * If true, we will ensure that all communications with this remote server are made through the primary region of the site.  This setting can also be overridden by a site-wide setting which will force it to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#pin_to_site_region RemoteServer#pin_to_site_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#pin_to_site_region RemoteServer#pin_to_site_region}
   */
   readonly pinToSiteRegion?: boolean | cdktf.IResolvable;
   /**
   * Port for remote server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#port RemoteServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#port RemoteServer#port}
   */
   readonly port?: number;
   /**
   * Private key, if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#private_key RemoteServer#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#private_key RemoteServer#private_key}
   */
   readonly privateKey?: string;
   /**
   * Passphrase for private key if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#private_key_passphrase RemoteServer#private_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#private_key_passphrase RemoteServer#private_key_passphrase}
   */
   readonly privateKeyPassphrase?: string;
   /**
   * ID of Remote Server Credential, if applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#remote_server_credential_id RemoteServer#remote_server_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#remote_server_credential_id RemoteServer#remote_server_credential_id}
   */
   readonly remoteServerCredentialId?: number;
   /**
   * Reset authenticated account?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#reset_authentication RemoteServer#reset_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#reset_authentication RemoteServer#reset_authentication}
   */
   readonly resetAuthentication?: boolean | cdktf.IResolvable;
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_bucket RemoteServer#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_bucket RemoteServer#s3_bucket}
   */
   readonly s3Bucket?: string;
   /**
   * S3-compatible: Access Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_compatible_access_key RemoteServer#s3_compatible_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_compatible_access_key RemoteServer#s3_compatible_access_key}
   */
   readonly s3CompatibleAccessKey?: string;
   /**
   * S3-compatible: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_compatible_bucket RemoteServer#s3_compatible_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_compatible_bucket RemoteServer#s3_compatible_bucket}
   */
   readonly s3CompatibleBucket?: string;
   /**
   * S3-compatible: endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_compatible_endpoint RemoteServer#s3_compatible_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_compatible_endpoint RemoteServer#s3_compatible_endpoint}
   */
   readonly s3CompatibleEndpoint?: string;
   /**
   * S3-compatible: region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_compatible_region RemoteServer#s3_compatible_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_compatible_region RemoteServer#s3_compatible_region}
   */
   readonly s3CompatibleRegion?: string;
   /**
   * S3-compatible: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_compatible_secret_key RemoteServer#s3_compatible_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_compatible_secret_key RemoteServer#s3_compatible_secret_key}
   */
   readonly s3CompatibleSecretKey?: string;
   /**
   * S3 region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#s3_region RemoteServer#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#s3_region RemoteServer#s3_region}
   */
   readonly s3Region?: string;
   /**
   * Remote server certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#server_certificate RemoteServer#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#server_certificate RemoteServer#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * Remote server SSH Host Key. If provided, we will require that the server host key matches the provided key. Uses OpenSSH format similar to what would go into ~/.ssh/known_hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#server_host_key RemoteServer#server_host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#server_host_key RemoteServer#server_host_key}
   */
   readonly serverHostKey?: string;
   /**
   * Remote server type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#server_type RemoteServer#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#server_type RemoteServer#server_type}
   */
   readonly serverType?: string;
   /**
   * Should we require SSL?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#ssl RemoteServer#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#ssl RemoteServer#ssl}
   */
   readonly ssl?: string;
   /**
   * SSL client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#ssl_certificate RemoteServer#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#ssl_certificate RemoteServer#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * Remote server username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#username RemoteServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#username RemoteServer#username}
   */
   readonly username?: string;
   /**
   * Wasabi: Access Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#wasabi_access_key RemoteServer#wasabi_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#wasabi_access_key RemoteServer#wasabi_access_key}
   */
   readonly wasabiAccessKey?: string;
   /**
   * Wasabi: Bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#wasabi_bucket RemoteServer#wasabi_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#wasabi_bucket RemoteServer#wasabi_bucket}
   */
   readonly wasabiBucket?: string;
   /**
   * Wasabi: Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#wasabi_region RemoteServer#wasabi_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#wasabi_region RemoteServer#wasabi_region}
   */
   readonly wasabiRegion?: string;
   /**
   * Wasabi: Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#wasabi_secret_key RemoteServer#wasabi_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#wasabi_secret_key RemoteServer#wasabi_secret_key}
   */
   readonly wasabiSecretKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server files_remote_server}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server files_remote_server}
 */
 export class RemoteServer extends cdktf.TerraformResource {
 
@@ -440,7 +440,7 @@ export class RemoteServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteServer to import
-  * @param importFromId The id of the existing RemoteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -452,7 +452,7 @@ export class RemoteServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/remote_server files_remote_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/remote_server files_remote_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -463,8 +463,8 @@ export class RemoteServer extends cdktf.TerraformResource {
       terraformResourceType: 'files_remote_server',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.415',
-        providerVersionConstraint: '0.1.415'
+        providerVersion: '0.1.417',
+        providerVersionConstraint: '0.1.417'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1022,6 +1022,11 @@ export class RemoteServer extends cdktf.TerraformResource {
     return this.getStringAttribute('files_agent_api_token');
   }
 
+  // files_agent_latest_version - computed: true, optional: false, required: false
+  public get filesAgentLatestVersion() {
+    return this.getStringAttribute('files_agent_latest_version');
+  }
+
   // files_agent_permission_set - computed: true, optional: true, required: false
   private _filesAgentPermissionSet?: string; 
   public get filesAgentPermissionSet() {
@@ -1052,6 +1057,11 @@ export class RemoteServer extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get filesAgentRootInput() {
     return this._filesAgentRoot;
+  }
+
+  // files_agent_up_to_date - computed: true, optional: false, required: false
+  public get filesAgentUpToDate() {
+    return this.getBooleanAttribute('files_agent_up_to_date');
   }
 
   // files_agent_version - computed: true, optional: true, required: false

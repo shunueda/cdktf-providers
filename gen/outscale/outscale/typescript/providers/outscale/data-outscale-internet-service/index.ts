@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleInternetServiceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service#id DataOutscaleInternetService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service#id DataOutscaleInternetService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOutscaleInternetServiceConfig extends cdktf.TerraformMetaAr
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service#filter DataOutscaleInternetService#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service#filter DataOutscaleInternetService#filter}
   */
   readonly filter?: DataOutscaleInternetServiceFilter[] | cdktf.IResolvable;
 }
@@ -103,11 +103,11 @@ export class DataOutscaleInternetServiceTagsList extends cdktf.ComplexList {
 }
 export interface DataOutscaleInternetServiceFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service#name DataOutscaleInternetService#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service#name DataOutscaleInternetService#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service#values DataOutscaleInternetService#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service#values DataOutscaleInternetService#values}
   */
   readonly values: string[];
 }
@@ -246,7 +246,7 @@ export class DataOutscaleInternetServiceFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service outscale_internet_service}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service outscale_internet_service}
 */
 export class DataOutscaleInternetService extends cdktf.TerraformDataSource {
 
@@ -262,7 +262,7 @@ export class DataOutscaleInternetService extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleInternetService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleInternetService to import
-  * @param importFromId The id of the existing DataOutscaleInternetService that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleInternetService that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleInternetService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class DataOutscaleInternetService extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_service outscale_internet_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_service outscale_internet_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class DataOutscaleInternetService extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_internet_service',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -341,7 +341,7 @@ export class DataOutscaleInternetService extends cdktf.TerraformDataSource {
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleInternetServiceTagsList(this, "tags", false);
+  private _tags = new DataOutscaleInternetServiceTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }

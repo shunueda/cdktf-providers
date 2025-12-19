@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/cluster
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBuildkiteClusterConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the cluster to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/cluster#name DataBuildkiteCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/cluster#name DataBuildkiteCluster#name}
   */
   readonly name: string;
 }
@@ -116,7 +116,7 @@ export class DataBuildkiteClusterMaintainersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/cluster buildkite_cluster}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/cluster buildkite_cluster}
 */
 export class DataBuildkiteCluster extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataBuildkiteCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkiteCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkiteCluster to import
-  * @param importFromId The id of the existing DataBuildkiteCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkiteCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkiteCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataBuildkiteCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/cluster buildkite_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/data-sources/cluster buildkite_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataBuildkiteCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_cluster',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

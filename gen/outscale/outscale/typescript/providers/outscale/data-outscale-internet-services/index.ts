@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleInternetServicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#id DataOutscaleInternetServices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#id DataOutscaleInternetServices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#internet_service_ids DataOutscaleInternetServices#internet_service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#internet_service_ids DataOutscaleInternetServices#internet_service_ids}
   */
   readonly internetServiceIds?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#filter DataOutscaleInternetServices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#filter DataOutscaleInternetServices#filter}
   */
   readonly filter?: DataOutscaleInternetServicesFilter[] | cdktf.IResolvable;
 }
@@ -172,7 +172,7 @@ export class DataOutscaleInternetServicesInternetServicesOutputReference extends
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleInternetServicesInternetServicesTagsList(this, "tags", false);
+  private _tags = new DataOutscaleInternetServicesInternetServicesTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }
@@ -198,11 +198,11 @@ export class DataOutscaleInternetServicesInternetServicesList extends cdktf.Comp
 }
 export interface DataOutscaleInternetServicesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#name DataOutscaleInternetServices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#name DataOutscaleInternetServices#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#values DataOutscaleInternetServices#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#values DataOutscaleInternetServices#values}
   */
   readonly values: string[];
 }
@@ -341,7 +341,7 @@ export class DataOutscaleInternetServicesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services outscale_internet_services}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services outscale_internet_services}
 */
 export class DataOutscaleInternetServices extends cdktf.TerraformDataSource {
 
@@ -357,7 +357,7 @@ export class DataOutscaleInternetServices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleInternetServices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleInternetServices to import
-  * @param importFromId The id of the existing DataOutscaleInternetServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleInternetServices that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleInternetServices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -369,7 +369,7 @@ export class DataOutscaleInternetServices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/internet_services outscale_internet_services} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/internet_services outscale_internet_services} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -380,8 +380,8 @@ export class DataOutscaleInternetServices extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_internet_services',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

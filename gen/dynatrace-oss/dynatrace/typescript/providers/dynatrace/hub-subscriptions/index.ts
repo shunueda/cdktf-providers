@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HubSubscriptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#id HubSubscriptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#id HubSubscriptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface HubSubscriptionsConfig extends cdktf.TerraformMetaArguments {
   /**
   * token_subscriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#token_subscriptions HubSubscriptions#token_subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#token_subscriptions HubSubscriptions#token_subscriptions}
   */
   readonly tokenSubscriptions?: HubSubscriptionsTokenSubscriptions;
 }
@@ -25,25 +25,25 @@ export interface HubSubscriptionsTokenSubscriptionsTokenSubscription {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#description HubSubscriptions#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#description HubSubscriptions#description}
   */
   readonly description?: string;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#enabled HubSubscriptions#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#enabled HubSubscriptions#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#name HubSubscriptions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#name HubSubscriptions#name}
   */
   readonly name: string;
   /**
   * Subscription token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#token HubSubscriptions#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#token HubSubscriptions#token}
   */
   readonly token: string;
 }
@@ -239,7 +239,7 @@ export interface HubSubscriptionsTokenSubscriptions {
   /**
   * token_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#token_subscription HubSubscriptions#token_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#token_subscription HubSubscriptions#token_subscription}
   */
   readonly tokenSubscription: HubSubscriptionsTokenSubscriptionsTokenSubscription[] | cdktf.IResolvable;
 }
@@ -320,7 +320,7 @@ export class HubSubscriptionsTokenSubscriptionsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions dynatrace_hub_subscriptions}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions dynatrace_hub_subscriptions}
 */
 export class HubSubscriptions extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class HubSubscriptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HubSubscriptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HubSubscriptions to import
-  * @param importFromId The id of the existing HubSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HubSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HubSubscriptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class HubSubscriptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_subscriptions dynatrace_hub_subscriptions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_subscriptions dynatrace_hub_subscriptions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class HubSubscriptions extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_hub_subscriptions',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

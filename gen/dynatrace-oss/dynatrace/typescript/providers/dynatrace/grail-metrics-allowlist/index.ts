@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface GrailMetricsAllowlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#id GrailMetricsAllowlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#id GrailMetricsAllowlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface GrailMetricsAllowlistConfig extends cdktf.TerraformMetaArgument
   /**
   * allow_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#allow_rules GrailMetricsAllowlist#allow_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#allow_rules GrailMetricsAllowlist#allow_rules}
   */
   readonly allowRules?: GrailMetricsAllowlistAllowRules;
 }
@@ -25,19 +25,19 @@ export interface GrailMetricsAllowlistAllowRulesAllowRule {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#enabled GrailMetricsAllowlist#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#enabled GrailMetricsAllowlist#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Metric key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#metric_key GrailMetricsAllowlist#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#metric_key GrailMetricsAllowlist#metric_key}
   */
   readonly metricKey: string;
   /**
   * Possible Values: `CONTAINS`, `EQUALS`, `STARTSWITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#pattern GrailMetricsAllowlist#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#pattern GrailMetricsAllowlist#pattern}
   */
   readonly pattern: string;
 }
@@ -204,7 +204,7 @@ export interface GrailMetricsAllowlistAllowRules {
   /**
   * allow_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#allow_rule GrailMetricsAllowlist#allow_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#allow_rule GrailMetricsAllowlist#allow_rule}
   */
   readonly allowRule: GrailMetricsAllowlistAllowRulesAllowRule[] | cdktf.IResolvable;
 }
@@ -285,7 +285,7 @@ export class GrailMetricsAllowlistAllowRulesOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist dynatrace_grail_metrics_allowlist}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist dynatrace_grail_metrics_allowlist}
 */
 export class GrailMetricsAllowlist extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class GrailMetricsAllowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GrailMetricsAllowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GrailMetricsAllowlist to import
-  * @param importFromId The id of the existing GrailMetricsAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GrailMetricsAllowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GrailMetricsAllowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class GrailMetricsAllowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/grail_metrics_allowlist dynatrace_grail_metrics_allowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/grail_metrics_allowlist dynatrace_grail_metrics_allowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class GrailMetricsAllowlist extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_grail_metrics_allowlist',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

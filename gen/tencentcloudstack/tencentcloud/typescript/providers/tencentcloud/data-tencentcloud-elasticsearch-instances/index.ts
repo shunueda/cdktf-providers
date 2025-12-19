@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudElasticsearchInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#id DataTencentcloudElasticsearchInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#id DataTencentcloudElasticsearchInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataTencentcloudElasticsearchInstancesConfig extends cdktf.Terr
   /**
   * ID of the instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#instance_id DataTencentcloudElasticsearchInstances#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#instance_id DataTencentcloudElasticsearchInstances#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#instance_name DataTencentcloudElasticsearchInstances#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#instance_name DataTencentcloudElasticsearchInstances#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#result_output_file DataTencentcloudElasticsearchInstances#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#result_output_file DataTencentcloudElasticsearchInstances#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Tag of the instance to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#tags DataTencentcloudElasticsearchInstances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#tags DataTencentcloudElasticsearchInstances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -389,7 +389,7 @@ export class DataTencentcloudElasticsearchInstancesInstanceListStructList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances tencentcloud_elasticsearch_instances}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances tencentcloud_elasticsearch_instances}
 */
 export class DataTencentcloudElasticsearchInstances extends cdktf.TerraformDataSource {
 
@@ -405,7 +405,7 @@ export class DataTencentcloudElasticsearchInstances extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudElasticsearchInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticsearchInstances to import
-  * @param importFromId The id of the existing DataTencentcloudElasticsearchInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticsearchInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticsearchInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class DataTencentcloudElasticsearchInstances extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/elasticsearch_instances tencentcloud_elasticsearch_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/elasticsearch_instances tencentcloud_elasticsearch_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class DataTencentcloudElasticsearchInstances extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_elasticsearch_instances',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

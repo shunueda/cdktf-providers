@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OneagentDefaultVersionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Default version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version#default_version OneagentDefaultVersion#default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version#default_version OneagentDefaultVersion#default_version}
   */
   readonly defaultVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version#id OneagentDefaultVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version#id OneagentDefaultVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface OneagentDefaultVersionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Revision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version#revision OneagentDefaultVersion#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version#revision OneagentDefaultVersion#revision}
   */
   readonly revision?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version dynatrace_oneagent_default_version}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version dynatrace_oneagent_default_version}
 */
 export class OneagentDefaultVersion extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class OneagentDefaultVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OneagentDefaultVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OneagentDefaultVersion to import
-  * @param importFromId The id of the existing OneagentDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OneagentDefaultVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OneagentDefaultVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class OneagentDefaultVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/oneagent_default_version dynatrace_oneagent_default_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/oneagent_default_version dynatrace_oneagent_default_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class OneagentDefaultVersion extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_oneagent_default_version',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

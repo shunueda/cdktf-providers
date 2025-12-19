@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudCssDomainsConfig extends cdktf.TerraformMetaArg
   /**
   * domain name prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#domain_prefix DataTencentcloudCssDomains#domain_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#domain_prefix DataTencentcloudCssDomains#domain_prefix}
   */
   readonly domainPrefix?: string;
   /**
   * domain name status filter. 0-disable, 1-enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#domain_status DataTencentcloudCssDomains#domain_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#domain_status DataTencentcloudCssDomains#domain_status}
   */
   readonly domainStatus?: number;
   /**
   * Domain name type filtering. 0-push, 1-play.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#domain_type DataTencentcloudCssDomains#domain_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#domain_type DataTencentcloudCssDomains#domain_type}
   */
   readonly domainType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#id DataTencentcloudCssDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#id DataTencentcloudCssDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataTencentcloudCssDomainsConfig extends cdktf.TerraformMetaArg
   /**
   * 0 normal live broadcast 1 slow live broadcast default 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#is_delay_live DataTencentcloudCssDomains#is_delay_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#is_delay_live DataTencentcloudCssDomains#is_delay_live}
   */
   readonly isDelayLive?: number;
   /**
   * Playing area, this parameter is meaningful only when DomainType=1. 1: Domestic.2: Global.3: Overseas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#play_type DataTencentcloudCssDomains#play_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#play_type DataTencentcloudCssDomains#play_type}
   */
   readonly playType?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#result_output_file DataTencentcloudCssDomains#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#result_output_file DataTencentcloudCssDomains#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -183,7 +183,7 @@ export class DataTencentcloudCssDomainsDomainListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains tencentcloud_css_domains}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains tencentcloud_css_domains}
 */
 export class DataTencentcloudCssDomains extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataTencentcloudCssDomains extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCssDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCssDomains to import
-  * @param importFromId The id of the existing DataTencentcloudCssDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCssDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCssDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataTencentcloudCssDomains extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/css_domains tencentcloud_css_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/css_domains tencentcloud_css_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataTencentcloudCssDomains extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_css_domains',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

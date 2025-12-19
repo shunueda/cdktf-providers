@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key
+// https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface KeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: "aes-256-cbc"; must be one of ["aes-256-cbc", "aes-256-gcm"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#algorithm Key#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#algorithm Key#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#description Key#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#description Key#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#expires Key#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#expires Key#expires}
   */
   readonly expires?: number;
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#group_id Key#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#group_id Key#group_id}
   */
   readonly groupId: string;
   /**
   * The id of this key metadata entity instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#id Key#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#id Key#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,25 +39,25 @@ export interface KeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#keyclass Key#keyclass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#keyclass Key#keyclass}
   */
   readonly keyclass?: number;
   /**
   * Default: "local"; must be "local"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#kms Key#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#kms Key#kms}
   */
   readonly kms?: string;
   /**
   * Seed encryption with a [nonce](https://en.wikipedia.org/wiki/Cryptographic_nonce) to make the key more random and unique. Must be enabled with the aes-256-gcm algorithm. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#use_iv Key#use_iv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#use_iv Key#use_iv}
   */
   readonly useIv?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key criblio_key}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key criblio_key}
 */
 export class Key extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class Key extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Key resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Key to import
-  * @param importFromId The id of the existing Key that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Key that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Key to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class Key extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/resources/key criblio_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/resources/key criblio_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class Key extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_key',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.69',
-        providerVersionConstraint: '1.20.69'
+        providerVersion: '1.20.72',
+        providerVersionConstraint: '1.20.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

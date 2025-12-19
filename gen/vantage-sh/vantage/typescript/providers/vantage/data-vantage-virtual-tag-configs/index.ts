@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/virtual_tag_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -493,7 +493,7 @@ export class DataVantageVirtualTagConfigsVirtualTagConfigsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs}
 */
 export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
 
@@ -509,7 +509,7 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVantageVirtualTagConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVantageVirtualTagConfigs to import
-  * @param importFromId The id of the existing DataVantageVirtualTagConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVantageVirtualTagConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/virtual_tag_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVantageVirtualTagConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -521,7 +521,7 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/data-sources/virtual_tag_configs vantage_virtual_tag_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -532,8 +532,8 @@ export class DataVantageVirtualTagConfigs extends cdktf.TerraformDataSource {
       terraformResourceType: 'vantage_virtual_tag_configs',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

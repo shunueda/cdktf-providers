@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface OrganizationalUnitConfig extends cdktf.TerraformMetaArguments {
   /**
   * Brief description to denote details of the organizational unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit#description OrganizationalUnit#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit#description OrganizationalUnit#description}
   */
   readonly description?: string;
   /**
   * Unique name assigned to the organizational unit. Root organizational unit is named as 'Global organizational unit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit#name OrganizationalUnit#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit#name OrganizationalUnit#name}
   */
   readonly name: string;
   /**
   * The identifier of the parent organizational unit under which the new organizational unit is to be created. If not provided, the resource will be created under the default organizational unit associated with the credentials used to create the organizational unit. Root organizational unit ID is '00000000-0000-0000-0000-000000000000'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit#parent_id OrganizationalUnit#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit#parent_id OrganizationalUnit#parent_id}
   */
   readonly parentId?: string;
 }
@@ -108,7 +108,7 @@ export class OrganizationalUnitUsersWithRoleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit clumio_organizational_unit}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit clumio_organizational_unit}
 */
 export class OrganizationalUnit extends cdktf.TerraformResource {
 
@@ -124,7 +124,7 @@ export class OrganizationalUnit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationalUnit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationalUnit to import
-  * @param importFromId The id of the existing OrganizationalUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationalUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationalUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class OrganizationalUnit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/organizational_unit clumio_organizational_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/organizational_unit clumio_organizational_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class OrganizationalUnit extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_organizational_unit',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

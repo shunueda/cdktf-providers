@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IbmMqFiltersConfig extends cdktf.TerraformMetaArguments {
   /**
   * CICS: Excluded MQ queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#cics_mq_queue_id_excludes IbmMqFilters#cics_mq_queue_id_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#cics_mq_queue_id_excludes IbmMqFilters#cics_mq_queue_id_excludes}
   */
   readonly cicsMqQueueIdExcludes?: string[];
   /**
   * CICS: Included MQ queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#cics_mq_queue_id_includes IbmMqFilters#cics_mq_queue_id_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#cics_mq_queue_id_includes IbmMqFilters#cics_mq_queue_id_includes}
   */
   readonly cicsMqQueueIdIncludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#id IbmMqFilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#id IbmMqFilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface IbmMqFiltersConfig extends cdktf.TerraformMetaArguments {
   /**
   * When you add a transaction ID to the exclude list remaining transactions are still monitored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#ims_cr_trn_id_excludes IbmMqFilters#ims_cr_trn_id_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#ims_cr_trn_id_excludes IbmMqFilters#ims_cr_trn_id_excludes}
   */
   readonly imsCrTrnIdExcludes?: string[];
   /**
   * When you add a transaction ID to the include list, all the remaining transactions are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#ims_cr_trn_id_includes IbmMqFilters#ims_cr_trn_id_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#ims_cr_trn_id_includes IbmMqFilters#ims_cr_trn_id_includes}
   */
   readonly imsCrTrnIdIncludes?: string[];
   /**
   * IMS: Excluded MQ queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#ims_mq_queue_id_excludes IbmMqFilters#ims_mq_queue_id_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#ims_mq_queue_id_excludes IbmMqFilters#ims_mq_queue_id_excludes}
   */
   readonly imsMqQueueIdExcludes?: string[];
   /**
   * IMS: Included MQ queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#ims_mq_queue_id_includes IbmMqFilters#ims_mq_queue_id_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#ims_mq_queue_id_includes IbmMqFilters#ims_mq_queue_id_includes}
   */
   readonly imsMqQueueIdIncludes?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters dynatrace_ibm_mq_filters}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters dynatrace_ibm_mq_filters}
 */
 export class IbmMqFilters extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class IbmMqFilters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IbmMqFilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IbmMqFilters to import
-  * @param importFromId The id of the existing IbmMqFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IbmMqFilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IbmMqFilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class IbmMqFilters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/ibm_mq_filters dynatrace_ibm_mq_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/ibm_mq_filters dynatrace_ibm_mq_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class IbmMqFilters extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_ibm_mq_filters',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

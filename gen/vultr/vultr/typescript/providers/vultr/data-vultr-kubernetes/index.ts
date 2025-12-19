@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,9 +10,94 @@ export interface DataVultrKubernetesConfig extends cdktf.TerraformMetaArguments 
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes#filter DataVultrKubernetes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes#filter DataVultrKubernetes#filter}
   */
   readonly filter?: DataVultrKubernetesFilter[] | cdktf.IResolvable;
+}
+export interface DataVultrKubernetesNodePoolsLabels {
+}
+
+export function dataVultrKubernetesNodePoolsLabelsToTerraform(struct?: DataVultrKubernetesNodePoolsLabels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataVultrKubernetesNodePoolsLabelsToHclTerraform(struct?: DataVultrKubernetesNodePoolsLabels): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataVultrKubernetesNodePoolsLabelsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVultrKubernetesNodePoolsLabels | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVultrKubernetesNodePoolsLabels | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class DataVultrKubernetesNodePoolsLabelsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVultrKubernetesNodePoolsLabelsOutputReference {
+    return new DataVultrKubernetesNodePoolsLabelsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataVultrKubernetesNodePoolsNodes {
 }
@@ -160,6 +245,11 @@ export class DataVultrKubernetesNodePoolsTaintsOutputReference extends cdktf.Com
     return this.getStringAttribute('effect');
   }
 
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
   // key - computed: true, optional: false, required: false
   public get key() {
     return this.getStringAttribute('key');
@@ -266,7 +356,7 @@ export class DataVultrKubernetesNodePoolsOutputReference extends cdktf.ComplexOb
   }
 
   // labels - computed: true, optional: false, required: false
-  private _labels = new cdktf.StringMap(this, "labels");
+  private _labels = new DataVultrKubernetesNodePoolsLabelsList(this, "labels", true);
   public get labels() {
     return this._labels;
   }
@@ -339,11 +429,11 @@ export class DataVultrKubernetesNodePoolsList extends cdktf.ComplexList {
 }
 export interface DataVultrKubernetesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes#name DataVultrKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes#name DataVultrKubernetes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes#values DataVultrKubernetes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes#values DataVultrKubernetes#values}
   */
   readonly values: string[];
 }
@@ -482,7 +572,7 @@ export class DataVultrKubernetesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes vultr_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes vultr_kubernetes}
 */
 export class DataVultrKubernetes extends cdktf.TerraformDataSource {
 
@@ -498,7 +588,7 @@ export class DataVultrKubernetes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVultrKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVultrKubernetes to import
-  * @param importFromId The id of the existing DataVultrKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVultrKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVultrKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +600,7 @@ export class DataVultrKubernetes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/data-sources/kubernetes vultr_kubernetes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/data-sources/kubernetes vultr_kubernetes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +611,8 @@ export class DataVultrKubernetes extends cdktf.TerraformDataSource {
       terraformResourceType: 'vultr_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

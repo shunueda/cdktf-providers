@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HubExtensionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Active Gate Group this monitoring configuration will be defined for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#active_gate_group HubExtensionConfig#active_gate_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#active_gate_group HubExtensionConfig#active_gate_group}
   */
   readonly activeGateGroup?: string;
   /**
   * The ID of the host this monitoring configuration will be defined for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#host HubExtensionConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#host HubExtensionConfig#host}
   */
   readonly host?: string;
   /**
   * The ID of the host group this monitoring configuration will be defined for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#host_group HubExtensionConfig#host_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#host_group HubExtensionConfig#host_group}
   */
   readonly hostGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#id HubExtensionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#id HubExtensionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,31 @@ export interface HubExtensionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Management Zone this monitoring configuration will be defined for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#management_zone HubExtensionConfig#management_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#management_zone HubExtensionConfig#management_zone}
   */
   readonly managementZone?: string;
   /**
   * The fully qualified name of the extension, such as `com.dynatrace.extension.jmx-liberty-cp`. You can query for these names using the data source `dynatrace_hub_items`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#name HubExtensionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#name HubExtensionConfig#name}
   */
   readonly name: string;
   /**
+  * The scope this monitoring configuration will be defined for
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#scope HubExtensionConfig#scope}
+  */
+  readonly scope?: string;
+  /**
   * The JSON encoded value for this monitoring configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#value HubExtensionConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#value HubExtensionConfig#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config dynatrace_hub_extension_config}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config dynatrace_hub_extension_config}
 */
 export class HubExtensionConfig extends cdktf.TerraformResource {
 
@@ -69,7 +75,7 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HubExtensionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HubExtensionConfig to import
-  * @param importFromId The id of the existing HubExtensionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HubExtensionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HubExtensionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +87,7 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/hub_extension_config dynatrace_hub_extension_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/hub_extension_config dynatrace_hub_extension_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +98,8 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_hub_extension_config',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -109,6 +115,7 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
     this._id = config.id;
     this._managementZone = config.managementZone;
     this._name = config.name;
+    this._scope = config.scope;
     this._value = config.value;
   }
 
@@ -209,6 +216,22 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // scope - computed: true, optional: true, required: false
+  private _scope?: string; 
+  public get scope() {
+    return this.getStringAttribute('scope');
+  }
+  public set scope(value: string) {
+    this._scope = value;
+  }
+  public resetScope() {
+    this._scope = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scopeInput() {
+    return this._scope;
+  }
+
   // value - computed: false, optional: false, required: true
   private _value?: string; 
   public get value() {
@@ -234,6 +257,7 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       management_zone: cdktf.stringToTerraform(this._managementZone),
       name: cdktf.stringToTerraform(this._name),
+      scope: cdktf.stringToTerraform(this._scope),
       value: cdktf.stringToTerraform(this._value),
     };
   }
@@ -272,6 +296,12 @@ export class HubExtensionConfig extends cdktf.TerraformResource {
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scope: {
+        value: cdktf.stringToHclTerraform(this._scope),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CfwNatFirewallSwitchConfig extends cdktf.TerraformMetaArguments
   /**
   * Switch, 0: off, 1: on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch#enable CfwNatFirewallSwitch#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch#enable CfwNatFirewallSwitch#enable}
   */
   readonly enable: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch#id CfwNatFirewallSwitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch#id CfwNatFirewallSwitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface CfwNatFirewallSwitchConfig extends cdktf.TerraformMetaArguments
   /**
   * Firewall instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch#nat_ins_id CfwNatFirewallSwitch#nat_ins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch#nat_ins_id CfwNatFirewallSwitch#nat_ins_id}
   */
   readonly natInsId: string;
   /**
   * subnet id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch#subnet_id CfwNatFirewallSwitch#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch#subnet_id CfwNatFirewallSwitch#subnet_id}
   */
   readonly subnetId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch tencentcloud_cfw_nat_firewall_switch}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch tencentcloud_cfw_nat_firewall_switch}
 */
 export class CfwNatFirewallSwitch extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class CfwNatFirewallSwitch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwNatFirewallSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwNatFirewallSwitch to import
-  * @param importFromId The id of the existing CfwNatFirewallSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwNatFirewallSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwNatFirewallSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class CfwNatFirewallSwitch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cfw_nat_firewall_switch tencentcloud_cfw_nat_firewall_switch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cfw_nat_firewall_switch tencentcloud_cfw_nat_firewall_switch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class CfwNatFirewallSwitch extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_nat_firewall_switch',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface MonitoredTechnologiesVarnishConfig extends cdktf.TerraformMetaA
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish#enabled MonitoredTechnologiesVarnish#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish#enabled MonitoredTechnologiesVarnish#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish#host_id MonitoredTechnologiesVarnish#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish#host_id MonitoredTechnologiesVarnish#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish#id MonitoredTechnologiesVarnish#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish#id MonitoredTechnologiesVarnish#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface MonitoredTechnologiesVarnishConfig extends cdktf.TerraformMetaA
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish dynatrace_monitored_technologies_varnish}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish dynatrace_monitored_technologies_varnish}
 */
 export class MonitoredTechnologiesVarnish extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MonitoredTechnologiesVarnish extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitoredTechnologiesVarnish resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitoredTechnologiesVarnish to import
-  * @param importFromId The id of the existing MonitoredTechnologiesVarnish that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitoredTechnologiesVarnish that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitoredTechnologiesVarnish to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MonitoredTechnologiesVarnish extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_varnish dynatrace_monitored_technologies_varnish} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_varnish dynatrace_monitored_technologies_varnish} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MonitoredTechnologiesVarnish extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_monitored_technologies_varnish',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

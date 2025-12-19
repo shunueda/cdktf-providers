@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DiscoveryDefaultRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#id DiscoveryDefaultRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#id DiscoveryDefaultRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DiscoveryDefaultRulesConfig extends cdktf.TerraformMetaArgument
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#rule DiscoveryDefaultRules#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#rule DiscoveryDefaultRules#rule}
   */
   readonly rule: DiscoveryDefaultRulesRule;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#settings DiscoveryDefaultRules#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#settings DiscoveryDefaultRules#settings}
   */
   readonly settings: DiscoveryDefaultRulesSettings;
 }
@@ -31,13 +31,13 @@ export interface DiscoveryDefaultRulesRuleActionsActionParametersParameter {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#name DiscoveryDefaultRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#name DiscoveryDefaultRules#name}
   */
   readonly name: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#value DiscoveryDefaultRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#value DiscoveryDefaultRules#value}
   */
   readonly value: string;
 }
@@ -178,7 +178,7 @@ export interface DiscoveryDefaultRulesRuleActionsActionParameters {
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#parameter DiscoveryDefaultRules#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#parameter DiscoveryDefaultRules#parameter}
   */
   readonly parameter: DiscoveryDefaultRulesRuleActionsActionParametersParameter[] | cdktf.IResolvable;
 }
@@ -261,19 +261,19 @@ export interface DiscoveryDefaultRulesRuleActionsAction {
   /**
   * Instant action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#instant_action DiscoveryDefaultRules#instant_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#instant_action DiscoveryDefaultRules#instant_action}
   */
   readonly instantAction?: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#name DiscoveryDefaultRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#name DiscoveryDefaultRules#name}
   */
   readonly name: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#parameters DiscoveryDefaultRules#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#parameters DiscoveryDefaultRules#parameters}
   */
   readonly parameters?: DiscoveryDefaultRulesRuleActionsActionParameters;
 }
@@ -446,7 +446,7 @@ export interface DiscoveryDefaultRulesRuleActions {
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#action DiscoveryDefaultRules#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#action DiscoveryDefaultRules#action}
   */
   readonly action: DiscoveryDefaultRulesRuleActionsAction[] | cdktf.IResolvable;
 }
@@ -529,25 +529,25 @@ export interface DiscoveryDefaultRulesRule {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#category DiscoveryDefaultRules#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#category DiscoveryDefaultRules#category}
   */
   readonly category: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#description DiscoveryDefaultRules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#description DiscoveryDefaultRules#description}
   */
   readonly description: string;
   /**
   * Environment scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#environment_scope DiscoveryDefaultRules#environment_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#environment_scope DiscoveryDefaultRules#environment_scope}
   */
   readonly environmentScope: boolean | cdktf.IResolvable;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#id DiscoveryDefaultRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#id DiscoveryDefaultRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -556,31 +556,31 @@ export interface DiscoveryDefaultRulesRule {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#priority DiscoveryDefaultRules#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#priority DiscoveryDefaultRules#priority}
   */
   readonly priority: string;
   /**
   * Rule query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#query DiscoveryDefaultRules#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#query DiscoveryDefaultRules#query}
   */
   readonly query: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#title DiscoveryDefaultRules#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#title DiscoveryDefaultRules#title}
   */
   readonly title: string;
   /**
   * Zero rated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#zero_rated DiscoveryDefaultRules#zero_rated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#zero_rated DiscoveryDefaultRules#zero_rated}
   */
   readonly zeroRated?: boolean | cdktf.IResolvable;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#actions DiscoveryDefaultRules#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#actions DiscoveryDefaultRules#actions}
   */
   readonly actions?: DiscoveryDefaultRulesRuleActions;
 }
@@ -877,7 +877,7 @@ export interface DiscoveryDefaultRulesSettings {
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#muted DiscoveryDefaultRules#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#muted DiscoveryDefaultRules#muted}
   */
   readonly muted: boolean | cdktf.IResolvable;
 }
@@ -958,7 +958,7 @@ export class DiscoveryDefaultRulesSettingsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules dynatrace_discovery_default_rules}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules dynatrace_discovery_default_rules}
 */
 export class DiscoveryDefaultRules extends cdktf.TerraformResource {
 
@@ -974,7 +974,7 @@ export class DiscoveryDefaultRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiscoveryDefaultRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiscoveryDefaultRules to import
-  * @param importFromId The id of the existing DiscoveryDefaultRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiscoveryDefaultRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiscoveryDefaultRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -986,7 +986,7 @@ export class DiscoveryDefaultRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/discovery_default_rules dynatrace_discovery_default_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/discovery_default_rules dynatrace_discovery_default_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -997,8 +997,8 @@ export class DiscoveryDefaultRules extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_discovery_default_rules',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

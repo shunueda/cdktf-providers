@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebAppRequestErrorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#id WebAppRequestErrors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#id WebAppRequestErrors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface WebAppRequestErrorsConfig extends cdktf.TerraformMetaArguments 
   /**
   * (Field has overlap with `dynatrace_application_error_rules`) This setting overrides Apdex settings for individual rules listed below
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#ignore_request_errors_in_apdex_calculation WebAppRequestErrors#ignore_request_errors_in_apdex_calculation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#ignore_request_errors_in_apdex_calculation WebAppRequestErrors#ignore_request_errors_in_apdex_calculation}
   */
   readonly ignoreRequestErrorsInApdexCalculation: boolean | cdktf.IResolvable;
   /**
   * The scope of this setting (APPLICATION)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#scope WebAppRequestErrors#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#scope WebAppRequestErrors#scope}
   */
   readonly scope: string;
   /**
   * error_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#error_rules WebAppRequestErrors#error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#error_rules WebAppRequestErrors#error_rules}
   */
   readonly errorRules?: WebAppRequestErrorsErrorRules;
 }
@@ -37,19 +37,19 @@ export interface WebAppRequestErrorsErrorRulesErrorRuleCaptureSettings {
   /**
   * Capture this error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#capture WebAppRequestErrors#capture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#capture WebAppRequestErrors#capture}
   */
   readonly capture: boolean | cdktf.IResolvable;
   /**
   * [View more details](https://dt-url.net/hd580p2k)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#consider_for_ai WebAppRequestErrors#consider_for_ai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#consider_for_ai WebAppRequestErrors#consider_for_ai}
   */
   readonly considerForAi?: boolean | cdktf.IResolvable;
   /**
   * Include error in Apdex calculations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#impact_apdex WebAppRequestErrors#impact_apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#impact_apdex WebAppRequestErrors#impact_apdex}
   */
   readonly impactApdex?: boolean | cdktf.IResolvable;
 }
@@ -190,13 +190,13 @@ export interface WebAppRequestErrorsErrorRulesErrorRuleFilterSettings {
   /**
   * Possible Values: `BEGINS_WITH`, `CONTAINS`, `ENDS_WITH`, `EQUALS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#filter WebAppRequestErrors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#filter WebAppRequestErrors#filter}
   */
   readonly filter?: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#url WebAppRequestErrors#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#url WebAppRequestErrors#url}
   */
   readonly url?: string;
 }
@@ -311,31 +311,31 @@ export interface WebAppRequestErrorsErrorRulesErrorRule {
   /**
   * Match by errors that have CSP violations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#consider_csp_violations WebAppRequestErrors#consider_csp_violations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#consider_csp_violations WebAppRequestErrors#consider_csp_violations}
   */
   readonly considerCspViolations: boolean | cdktf.IResolvable;
   /**
   * Match by errors that have failed image requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#consider_failed_images WebAppRequestErrors#consider_failed_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#consider_failed_images WebAppRequestErrors#consider_failed_images}
   */
   readonly considerFailedImages: boolean | cdktf.IResolvable;
   /**
   * Match by error code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#error_codes WebAppRequestErrors#error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#error_codes WebAppRequestErrors#error_codes}
   */
   readonly errorCodes?: string;
   /**
   * capture_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#capture_settings WebAppRequestErrors#capture_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#capture_settings WebAppRequestErrors#capture_settings}
   */
   readonly captureSettings: WebAppRequestErrorsErrorRulesErrorRuleCaptureSettings;
   /**
   * filter_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#filter_settings WebAppRequestErrors#filter_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#filter_settings WebAppRequestErrors#filter_settings}
   */
   readonly filterSettings: WebAppRequestErrorsErrorRulesErrorRuleFilterSettings;
 }
@@ -557,7 +557,7 @@ export interface WebAppRequestErrorsErrorRules {
   /**
   * error_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#error_rule WebAppRequestErrors#error_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#error_rule WebAppRequestErrors#error_rule}
   */
   readonly errorRule: WebAppRequestErrorsErrorRulesErrorRule[] | cdktf.IResolvable;
 }
@@ -638,7 +638,7 @@ export class WebAppRequestErrorsErrorRulesOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors dynatrace_web_app_request_errors}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors dynatrace_web_app_request_errors}
 */
 export class WebAppRequestErrors extends cdktf.TerraformResource {
 
@@ -654,7 +654,7 @@ export class WebAppRequestErrors extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppRequestErrors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppRequestErrors to import
-  * @param importFromId The id of the existing WebAppRequestErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppRequestErrors that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppRequestErrors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -666,7 +666,7 @@ export class WebAppRequestErrors extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_request_errors dynatrace_web_app_request_errors} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_request_errors dynatrace_web_app_request_errors} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -677,8 +677,8 @@ export class WebAppRequestErrors extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_request_errors',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

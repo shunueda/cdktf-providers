@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataEcDeploymentTemplatesConfig extends cdktf.TerraformMetaArgu
   /**
   * Filters for a deployment template with this id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates#id DataEcDeploymentTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates#id DataEcDeploymentTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataEcDeploymentTemplatesConfig extends cdktf.TerraformMetaArgu
   /**
   * Region to select. For Elastic Cloud Enterprise (ECE) installations, use `ece-region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates#region DataEcDeploymentTemplates#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates#region DataEcDeploymentTemplates#region}
   */
   readonly region: string;
   /**
   * Enable to also show deprecated deployment templates. (Set to false by default.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates#show_deprecated DataEcDeploymentTemplates#show_deprecated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates#show_deprecated DataEcDeploymentTemplates#show_deprecated}
   */
   readonly showDeprecated?: boolean | cdktf.IResolvable;
   /**
   * Filters for deployment templates compatible with this stack version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates#stack_version DataEcDeploymentTemplates#stack_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates#stack_version DataEcDeploymentTemplates#stack_version}
   */
   readonly stackVersion?: string;
 }
@@ -1632,7 +1632,7 @@ export class DataEcDeploymentTemplatesTemplatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates ec_deployment_templates}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates ec_deployment_templates}
 */
 export class DataEcDeploymentTemplates extends cdktf.TerraformDataSource {
 
@@ -1648,7 +1648,7 @@ export class DataEcDeploymentTemplates extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataEcDeploymentTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataEcDeploymentTemplates to import
-  * @param importFromId The id of the existing DataEcDeploymentTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataEcDeploymentTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataEcDeploymentTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1660,7 +1660,7 @@ export class DataEcDeploymentTemplates extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/data-sources/deployment_templates ec_deployment_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/data-sources/deployment_templates ec_deployment_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1671,8 +1671,8 @@ export class DataEcDeploymentTemplates extends cdktf.TerraformDataSource {
       terraformResourceType: 'ec_deployment_templates',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

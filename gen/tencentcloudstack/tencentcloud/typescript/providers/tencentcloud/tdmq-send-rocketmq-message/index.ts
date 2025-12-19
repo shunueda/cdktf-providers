@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TdmqSendRocketmqMessageConfig extends cdktf.TerraformMetaArgume
   /**
   * Cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#cluster_id TdmqSendRocketmqMessage#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#cluster_id TdmqSendRocketmqMessage#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#id TdmqSendRocketmqMessage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#id TdmqSendRocketmqMessage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TdmqSendRocketmqMessageConfig extends cdktf.TerraformMetaArgume
   /**
   * Information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#msg_body TdmqSendRocketmqMessage#msg_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#msg_body TdmqSendRocketmqMessage#msg_body}
   */
   readonly msgBody: string;
   /**
   * Message key information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#msg_key TdmqSendRocketmqMessage#msg_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#msg_key TdmqSendRocketmqMessage#msg_key}
   */
   readonly msgKey?: string;
   /**
   * Message tag information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#msg_tag TdmqSendRocketmqMessage#msg_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#msg_tag TdmqSendRocketmqMessage#msg_tag}
   */
   readonly msgTag?: string;
   /**
   * Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#namespace_id TdmqSendRocketmqMessage#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#namespace_id TdmqSendRocketmqMessage#namespace_id}
   */
   readonly namespaceId: string;
   /**
   * topic name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#topic_name TdmqSendRocketmqMessage#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#topic_name TdmqSendRocketmqMessage#topic_name}
   */
   readonly topicName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message tencentcloud_tdmq_send_rocketmq_message}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message tencentcloud_tdmq_send_rocketmq_message}
 */
 export class TdmqSendRocketmqMessage extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TdmqSendRocketmqMessage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TdmqSendRocketmqMessage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TdmqSendRocketmqMessage to import
-  * @param importFromId The id of the existing TdmqSendRocketmqMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TdmqSendRocketmqMessage that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TdmqSendRocketmqMessage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TdmqSendRocketmqMessage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/tdmq_send_rocketmq_message tencentcloud_tdmq_send_rocketmq_message} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/tdmq_send_rocketmq_message tencentcloud_tdmq_send_rocketmq_message} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TdmqSendRocketmqMessage extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tdmq_send_rocketmq_message',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

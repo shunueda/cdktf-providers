@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines how to group costs in the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#date_bin Dashboard#date_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#date_bin Dashboard#date_bin}
   */
   readonly dateBin?: string;
   /**
   * Determines the date range in the Dashboard. Incompatible with 'start_date' and 'end_date' parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#date_interval Dashboard#date_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#date_interval Dashboard#date_interval}
   */
   readonly dateInterval?: string;
   /**
   * The end date for the date range for costs in the Dashboard. ISO 8601 Formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#end_date Dashboard#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#end_date Dashboard#end_date}
   */
   readonly endDate?: string;
   /**
   * The tokens of the Saved Filters used in the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#saved_filter_tokens Dashboard#saved_filter_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#saved_filter_tokens Dashboard#saved_filter_tokens}
   */
   readonly savedFilterTokens?: string[];
   /**
   * The start date for the date range for costs in the Dashboard. ISO 8601 Formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#start_date Dashboard#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#start_date Dashboard#start_date}
   */
   readonly startDate?: string;
   /**
   * The title of the Dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
   * The widgets to add to the Dashboard. Currently supports CostReport, ResourceReport, KubernetesEfficiencyReport, and FinancialCommitmentReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#widgets Dashboard#widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#widgets Dashboard#widgets}
   */
   readonly widgets?: DashboardWidgets[] | cdktf.IResolvable;
   /**
   * The token of the Workspace to add the Dashboard to. Required if the API token is associated with multiple Workspaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#workspace_token Dashboard#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#workspace_token Dashboard#workspace_token}
   */
   readonly workspaceToken?: string;
 }
 export interface DashboardWidgetsSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#display_type Dashboard#display_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#display_type Dashboard#display_type}
   */
   readonly displayType: string;
 }
@@ -151,19 +151,19 @@ export interface DashboardWidgets {
   /**
   * The settings for the DashboardWidget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#settings Dashboard#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#settings Dashboard#settings}
   */
   readonly settings?: DashboardWidgetsSettings;
   /**
   * The title of the Widget (defaults to the title of the Resource).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#title Dashboard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#title Dashboard#title}
   */
   readonly title?: string;
   /**
   * The token of the represented Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#widgetable_token Dashboard#widgetable_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#widgetable_token Dashboard#widgetable_token}
   */
   readonly widgetableToken: string;
 }
@@ -334,7 +334,7 @@ export class DashboardWidgetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard vantage_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard vantage_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -350,7 +350,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/dashboard vantage_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/dashboard vantage_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

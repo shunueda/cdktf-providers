@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOutscaleSubnetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#id DataOutscaleSubnets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#id DataOutscaleSubnets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#subnet_ids DataOutscaleSubnets#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#subnet_ids DataOutscaleSubnets#subnet_ids}
   */
   readonly subnetIds?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#filter DataOutscaleSubnets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#filter DataOutscaleSubnets#filter}
   */
   readonly filter?: DataOutscaleSubnetsFilter[] | cdktf.IResolvable;
 }
@@ -192,7 +192,7 @@ export class DataOutscaleSubnetsSubnetsOutputReference extends cdktf.ComplexObje
   }
 
   // tags - computed: true, optional: false, required: false
-  private _tags = new DataOutscaleSubnetsSubnetsTagsList(this, "tags", false);
+  private _tags = new DataOutscaleSubnetsSubnetsTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
   }
@@ -218,11 +218,11 @@ export class DataOutscaleSubnetsSubnetsList extends cdktf.ComplexList {
 }
 export interface DataOutscaleSubnetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#name DataOutscaleSubnets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#name DataOutscaleSubnets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#values DataOutscaleSubnets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#values DataOutscaleSubnets#values}
   */
   readonly values: string[];
 }
@@ -361,7 +361,7 @@ export class DataOutscaleSubnetsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets outscale_subnets}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets outscale_subnets}
 */
 export class DataOutscaleSubnets extends cdktf.TerraformDataSource {
 
@@ -377,7 +377,7 @@ export class DataOutscaleSubnets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOutscaleSubnets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOutscaleSubnets to import
-  * @param importFromId The id of the existing DataOutscaleSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOutscaleSubnets that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOutscaleSubnets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -389,7 +389,7 @@ export class DataOutscaleSubnets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/data-sources/subnets outscale_subnets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/data-sources/subnets outscale_subnets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -400,8 +400,8 @@ export class DataOutscaleSubnets extends cdktf.TerraformDataSource {
       terraformResourceType: 'outscale_subnets',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

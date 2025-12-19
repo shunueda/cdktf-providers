@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataClumioPolicyRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the policy rule to filter in the list of policy rules returned by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule#name DataClumioPolicyRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule#name DataClumioPolicyRule#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the policy to filter in the list of policy rules returned by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule#policy_id DataClumioPolicyRule#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule#policy_id DataClumioPolicyRule#policy_id}
   */
   readonly policyId?: string;
 }
@@ -117,7 +117,7 @@ export class DataClumioPolicyRulePolicyRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule clumio_policy_rule}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule clumio_policy_rule}
 */
 export class DataClumioPolicyRule extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataClumioPolicyRule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataClumioPolicyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioPolicyRule to import
-  * @param importFromId The id of the existing DataClumioPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioPolicyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioPolicyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataClumioPolicyRule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/policy_rule clumio_policy_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/policy_rule clumio_policy_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataClumioPolicyRule extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_policy_rule',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

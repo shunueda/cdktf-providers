@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataClumioAwsConnectionConfig extends cdktf.TerraformMetaArgume
   /**
   * Identifier of the AWS account linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection#account_native_id DataClumioAwsConnection#account_native_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection#account_native_id DataClumioAwsConnection#account_native_id}
   */
   readonly accountNativeId: string;
   /**
   * Region of the AWS account linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection#aws_region DataClumioAwsConnection#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection#aws_region DataClumioAwsConnection#aws_region}
   */
   readonly awsRegion: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection clumio_aws_connection}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection clumio_aws_connection}
 */
 export class DataClumioAwsConnection extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataClumioAwsConnection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataClumioAwsConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataClumioAwsConnection to import
-  * @param importFromId The id of the existing DataClumioAwsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataClumioAwsConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataClumioAwsConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataClumioAwsConnection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/data-sources/aws_connection clumio_aws_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/data-sources/aws_connection clumio_aws_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataClumioAwsConnection extends cdktf.TerraformDataSource {
       terraformResourceType: 'clumio_aws_connection',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

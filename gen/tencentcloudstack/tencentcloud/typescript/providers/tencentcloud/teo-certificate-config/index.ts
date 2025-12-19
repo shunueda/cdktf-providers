@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoCertificateConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Acceleration domain name that needs to modify the certificate configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#host TeoCertificateConfig#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#host TeoCertificateConfig#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#id TeoCertificateConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#id TeoCertificateConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface TeoCertificateConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Mode of configuring the certificate, the values are: `disable`: Do not configure the certificate; `eofreecert`: Configure EdgeOne free certificate; `sslcert`: Configure SSL certificate. If not filled in, the default value is `disable`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#mode TeoCertificateConfig#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#mode TeoCertificateConfig#mode}
   */
   readonly mode?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#zone_id TeoCertificateConfig#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#zone_id TeoCertificateConfig#zone_id}
   */
   readonly zoneId: string;
   /**
   * server_cert_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#server_cert_info TeoCertificateConfig#server_cert_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#server_cert_info TeoCertificateConfig#server_cert_info}
   */
   readonly serverCertInfo?: TeoCertificateConfigServerCertInfo[] | cdktf.IResolvable;
   /**
   * upstream_cert_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#upstream_cert_info TeoCertificateConfig#upstream_cert_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#upstream_cert_info TeoCertificateConfig#upstream_cert_info}
   */
   readonly upstreamCertInfo?: TeoCertificateConfigUpstreamCertInfo;
 }
@@ -49,43 +49,43 @@ export interface TeoCertificateConfigServerCertInfo {
   /**
   * Alias of the certificate.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#alias TeoCertificateConfig#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#alias TeoCertificateConfig#alias}
   */
   readonly alias?: string;
   /**
   * ID of the server certificate.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#cert_id TeoCertificateConfig#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#cert_id TeoCertificateConfig#cert_id}
   */
   readonly certId: string;
   /**
   * Domain name of the certificate. Note: This field may return `null`, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#common_name TeoCertificateConfig#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#common_name TeoCertificateConfig#common_name}
   */
   readonly commonName?: string;
   /**
   * Time when the certificate is deployed. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#deploy_time TeoCertificateConfig#deploy_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#deploy_time TeoCertificateConfig#deploy_time}
   */
   readonly deployTime?: string;
   /**
   * Time when the certificate expires. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#expire_time TeoCertificateConfig#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#expire_time TeoCertificateConfig#expire_time}
   */
   readonly expireTime?: string;
   /**
   * Signature algorithm. Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#sign_algo TeoCertificateConfig#sign_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#sign_algo TeoCertificateConfig#sign_algo}
   */
   readonly signAlgo?: string;
   /**
   * Type of the certificate. Values: `default`: Default certificate; `upload`: Specified certificate; `managed`: Tencent Cloud-managed certificate. Note: This field may return `null`, indicating that no valid value can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#type TeoCertificateConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#type TeoCertificateConfig#type}
   */
   readonly type?: string;
 }
@@ -374,7 +374,7 @@ export interface TeoCertificateConfigUpstreamCertInfoUpstreamMutualTlsCertInfos 
   /**
   * Certificate ID, which originates from the SSL side. You can check the CertId from the [SSL Certificate List](https://console.cloud.tencent.com/ssl).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#cert_id TeoCertificateConfig#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#cert_id TeoCertificateConfig#cert_id}
   */
   readonly certId: string;
 }
@@ -514,13 +514,13 @@ export interface TeoCertificateConfigUpstreamCertInfoUpstreamMutualTls {
   /**
   * Mutual authentication configuration switch, the values are: `on`: enable; `off`: disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#switch TeoCertificateConfig#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#switch TeoCertificateConfig#switch}
   */
   readonly switch: string;
   /**
   * cert_infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#cert_infos TeoCertificateConfig#cert_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#cert_infos TeoCertificateConfig#cert_infos}
   */
   readonly certInfos?: TeoCertificateConfigUpstreamCertInfoUpstreamMutualTlsCertInfos[] | cdktf.IResolvable;
 }
@@ -632,7 +632,7 @@ export interface TeoCertificateConfigUpstreamCertInfo {
   /**
   * upstream_mutual_tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#upstream_mutual_tls TeoCertificateConfig#upstream_mutual_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#upstream_mutual_tls TeoCertificateConfig#upstream_mutual_tls}
   */
   readonly upstreamMutualTls?: TeoCertificateConfigUpstreamCertInfoUpstreamMutualTls;
 }
@@ -716,7 +716,7 @@ export class TeoCertificateConfigUpstreamCertInfoOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config tencentcloud_teo_certificate_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config tencentcloud_teo_certificate_config}
 */
 export class TeoCertificateConfig extends cdktf.TerraformResource {
 
@@ -732,7 +732,7 @@ export class TeoCertificateConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoCertificateConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoCertificateConfig to import
-  * @param importFromId The id of the existing TeoCertificateConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoCertificateConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoCertificateConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -744,7 +744,7 @@ export class TeoCertificateConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/teo_certificate_config tencentcloud_teo_certificate_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/teo_certificate_config tencentcloud_teo_certificate_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -755,8 +755,8 @@ export class TeoCertificateConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_certificate_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

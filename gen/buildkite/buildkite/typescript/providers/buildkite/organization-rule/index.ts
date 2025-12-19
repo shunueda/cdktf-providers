@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the organization rule. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule#description OrganizationRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule#description OrganizationRule#description}
   */
   readonly description?: string;
   /**
   * The type of organization rule. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule#type OrganizationRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule#type OrganizationRule#type}
   */
   readonly type: string;
   /**
   * The JSON document that this organization rule implements. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule#value OrganizationRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule#value OrganizationRule#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule buildkite_organization_rule}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule buildkite_organization_rule}
 */
 export class OrganizationRule extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class OrganizationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationRule to import
-  * @param importFromId The id of the existing OrganizationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OrganizationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_rule buildkite_organization_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/organization_rule buildkite_organization_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class OrganizationRule extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_organization_rule',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface PolicyAssignmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of the resource to which the policy will be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment#entity_id PolicyAssignment#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment#entity_id PolicyAssignment#entity_id}
   */
   readonly entityId: string;
   /**
   * Type of resource to which the policy will be assigned. `protection_group` and `aws_dynamodb_table` are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment#entity_type PolicyAssignment#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment#entity_type PolicyAssignment#entity_type}
   */
   readonly entityType: string;
   /**
   * Identifier of the Clumio policy to be assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment#policy_id PolicyAssignment#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment#policy_id PolicyAssignment#policy_id}
   */
   readonly policyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment clumio_policy_assignment}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment clumio_policy_assignment}
 */
 export class PolicyAssignment extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class PolicyAssignment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyAssignment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyAssignment to import
-  * @param importFromId The id of the existing PolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyAssignment that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyAssignment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class PolicyAssignment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/policy_assignment clumio_policy_assignment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/policy_assignment clumio_policy_assignment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class PolicyAssignment extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_policy_assignment',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

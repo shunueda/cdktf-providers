@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VpcNetDetectConfig extends cdktf.TerraformMetaArguments {
   /**
   * An array of probe destination IPv4 addresses. Up to two.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#detect_destination_ip VpcNetDetect#detect_destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#detect_destination_ip VpcNetDetect#detect_destination_ip}
   */
   readonly detectDestinationIp: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#id VpcNetDetect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#id VpcNetDetect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface VpcNetDetectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network probe description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#net_detect_description VpcNetDetect#net_detect_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#net_detect_description VpcNetDetect#net_detect_description}
   */
   readonly netDetectDescription?: string;
   /**
   * Network probe name, the maximum length cannot exceed 60 bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#net_detect_name VpcNetDetect#net_detect_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#net_detect_name VpcNetDetect#net_detect_name}
   */
   readonly netDetectName: string;
   /**
   * The destination gateway of the next hop, the value is related to the next hop type. If the next hop type is VPN, and the value is the VPN gateway ID, such as: vpngw-12345678; If the next hop type is DIRECTCONNECT, and the value is the private line gateway ID, such as: dcg-12345678; If the next hop type is PEERCONNECTION, which takes the value of the peer connection ID, such as: pcx-12345678; If the next hop type is NAT, and the value is Nat gateway, such as: nat-12345678; If the next hop type is NORMAL_CVM, which takes the IPv4 address of the cloud server, such as: 10.0.0.12; If the next hop type is CCN, and the value is the cloud network ID, such as: ccn-12345678; If the next hop type is NONEXTHOP, and the specified network probe is a network probe without a next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#next_hop_destination VpcNetDetect#next_hop_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#next_hop_destination VpcNetDetect#next_hop_destination}
   */
   readonly nextHopDestination?: string;
   /**
   * The next hop type, currently we support the following types: `VPN`: VPN gateway; `DIRECTCONNECT`: private line gateway; `PEERCONNECTION`: peer connection; `NAT`: NAT gateway; `NORMAL_CVM`: normal cloud server; `CCN`: cloud networking gateway; `NONEXTHOP`: no next hop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#next_hop_type VpcNetDetect#next_hop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#next_hop_type VpcNetDetect#next_hop_type}
   */
   readonly nextHopType?: string;
   /**
   * Subnet instance ID. Such as:subnet-12345678.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#subnet_id VpcNetDetect#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#subnet_id VpcNetDetect#subnet_id}
   */
   readonly subnetId: string;
   /**
   * `VPC` instance `ID`. Such as:`vpc-12345678`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#vpc_id VpcNetDetect#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#vpc_id VpcNetDetect#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect tencentcloud_vpc_net_detect}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect tencentcloud_vpc_net_detect}
 */
 export class VpcNetDetect extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class VpcNetDetect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcNetDetect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcNetDetect to import
-  * @param importFromId The id of the existing VpcNetDetect that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcNetDetect that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcNetDetect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class VpcNetDetect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/vpc_net_detect tencentcloud_vpc_net_detect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/vpc_net_detect tencentcloud_vpc_net_detect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class VpcNetDetect extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpc_net_detect',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

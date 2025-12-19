@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface BillingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The amount for the BillingRule. Required for Charge and Credit rules. Example value: 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#amount BillingRule#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#amount BillingRule#amount}
   */
   readonly amount?: number;
   /**
   * Determines if the BillingRule applies to all current and future managed accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#apply_to_all BillingRule#apply_to_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#apply_to_all BillingRule#apply_to_all}
   */
   readonly applyToAll?: boolean | cdktf.IResolvable;
   /**
   * The category of the BillingRule. Required for Charge and Credit rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#category BillingRule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#category BillingRule#category}
   */
   readonly category?: string;
   /**
   * The charge type of the BillingRule. Required for Exclusion rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#charge_type BillingRule#charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#charge_type BillingRule#charge_type}
   */
   readonly chargeType?: string;
   /**
   * The end date of the BillingRule. ISO 8601 formatted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#end_date BillingRule#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#end_date BillingRule#end_date}
   */
   readonly endDate?: string;
   /**
   * The percentage of the cost shown. Required for Adjustment rules. Example value: 75.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#percentage BillingRule#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#percentage BillingRule#percentage}
   */
   readonly percentage?: number;
   /**
   * The service of the BillingRule. Required for Charge and Credit rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#service BillingRule#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#service BillingRule#service}
   */
   readonly service?: string;
   /**
   * The SQL query for the BillingRule. Required for Custom rules. Example value: UPDATE costs SET costs.amount = costs.amount * 0.95
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#sql_query BillingRule#sql_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#sql_query BillingRule#sql_query}
   */
   readonly sqlQuery?: string;
   /**
   * The start date of the BillingRule. ISO 8601 formatted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#start_date BillingRule#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#start_date BillingRule#start_date}
   */
   readonly startDate?: string;
   /**
   * The start period of the BillingRule. DEPRECATED: use start_date instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#start_period BillingRule#start_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#start_period BillingRule#start_period}
   */
   readonly startPeriod?: string;
   /**
   * The subcategory of the BillingRule. Required for Charge and Credit rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#sub_category BillingRule#sub_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#sub_category BillingRule#sub_category}
   */
   readonly subCategory?: string;
   /**
   * The title of the BillingRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#title BillingRule#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#title BillingRule#title}
   */
   readonly title: string;
   /**
   * The type of the BillingRule. Note: the values are case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#type BillingRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#type BillingRule#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule vantage_billing_rule}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule vantage_billing_rule}
 */
 export class BillingRule extends cdktf.TerraformResource {
 
@@ -104,7 +104,7 @@ export class BillingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BillingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingRule to import
-  * @param importFromId The id of the existing BillingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -116,7 +116,7 @@ export class BillingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/billing_rule vantage_billing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/billing_rule vantage_billing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -127,8 +127,8 @@ export class BillingRule extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_billing_rule',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FailureDetectionParametersConfig extends cdktf.TerraformMetaArg
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#description FailureDetectionParameters#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#description FailureDetectionParameters#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#id FailureDetectionParameters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#id FailureDetectionParameters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface FailureDetectionParametersConfig extends cdktf.TerraformMetaArg
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#name FailureDetectionParameters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#name FailureDetectionParameters#name}
   */
   readonly name: string;
   /**
   * broken_links block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#broken_links FailureDetectionParameters#broken_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#broken_links FailureDetectionParameters#broken_links}
   */
   readonly brokenLinks: FailureDetectionParametersBrokenLinks;
   /**
   * exception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#exception_rules FailureDetectionParameters#exception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#exception_rules FailureDetectionParameters#exception_rules}
   */
   readonly exceptionRules: FailureDetectionParametersExceptionRules;
   /**
   * http_response_codes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#http_response_codes FailureDetectionParameters#http_response_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#http_response_codes FailureDetectionParameters#http_response_codes}
   */
   readonly httpResponseCodes: FailureDetectionParametersHttpResponseCodes;
 }
@@ -49,13 +49,13 @@ export interface FailureDetectionParametersBrokenLinks {
   /**
   * If your application relies on other hosts at other domains, add the associated domain names here. Once configured, Dynatrace will consider 404s thrown by hosts at these domains to be service failures related to your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#broken_link_domains FailureDetectionParameters#broken_link_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#broken_link_domains FailureDetectionParameters#broken_link_domains}
   */
   readonly brokenLinkDomains?: string[];
   /**
   * Consider 404 HTTP response codes as failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#http_404_not_found_failures FailureDetectionParameters#http_404_not_found_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#http_404_not_found_failures FailureDetectionParameters#http_404_not_found_failures}
   */
   readonly http404NotFoundFailures: boolean | cdktf.IResolvable;
 }
@@ -167,31 +167,31 @@ export interface FailureDetectionParametersExceptionRulesCustomErrorRulesCustomE
   /**
   * Case sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#case_sensitive FailureDetectionParameters#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#case_sensitive FailureDetectionParameters#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
   * Apply this comparison
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#compare_operation_type FailureDetectionParameters#compare_operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#compare_operation_type FailureDetectionParameters#compare_operation_type}
   */
   readonly compareOperationType: string;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#double_value FailureDetectionParameters#double_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#double_value FailureDetectionParameters#double_value}
   */
   readonly doubleValue?: number;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#int_value FailureDetectionParameters#int_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#int_value FailureDetectionParameters#int_value}
   */
   readonly intValue?: number;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#text_value FailureDetectionParameters#text_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#text_value FailureDetectionParameters#text_value}
   */
   readonly textValue?: string;
 }
@@ -390,13 +390,13 @@ export interface FailureDetectionParametersExceptionRulesCustomErrorRulesCustomE
   /**
   * Request attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#request_attribute FailureDetectionParameters#request_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#request_attribute FailureDetectionParameters#request_attribute}
   */
   readonly requestAttribute: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#condition FailureDetectionParameters#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#condition FailureDetectionParameters#condition}
   */
   readonly condition: FailureDetectionParametersExceptionRulesCustomErrorRulesCustomErrorRuleCondition;
 }
@@ -537,7 +537,7 @@ export interface FailureDetectionParametersExceptionRulesCustomErrorRules {
   /**
   * custom_error_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_error_rule FailureDetectionParameters#custom_error_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_error_rule FailureDetectionParameters#custom_error_rule}
   */
   readonly customErrorRule: FailureDetectionParametersExceptionRulesCustomErrorRulesCustomErrorRule[] | cdktf.IResolvable;
 }
@@ -620,13 +620,13 @@ export interface FailureDetectionParametersExceptionRulesCustomHandledExceptions
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -773,7 +773,7 @@ export interface FailureDetectionParametersExceptionRulesCustomHandledExceptions
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
   */
   readonly customHandledException: FailureDetectionParametersExceptionRulesCustomHandledExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -856,13 +856,13 @@ export interface FailureDetectionParametersExceptionRulesIgnoredExceptionsCustom
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -1009,7 +1009,7 @@ export interface FailureDetectionParametersExceptionRulesIgnoredExceptions {
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
   */
   readonly customHandledException: FailureDetectionParametersExceptionRulesIgnoredExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -1092,13 +1092,13 @@ export interface FailureDetectionParametersExceptionRulesSuccessForcingException
   /**
   * The pattern will match if it is contained within the actual class name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#class_pattern FailureDetectionParameters#class_pattern}
   */
   readonly classPattern?: string;
   /**
   * Optionally, define an exception message pattern. The pattern will match if the actual exception message contains the pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#message_pattern FailureDetectionParameters#message_pattern}
   */
   readonly messagePattern?: string;
 }
@@ -1245,7 +1245,7 @@ export interface FailureDetectionParametersExceptionRulesSuccessForcingException
   /**
   * custom_handled_exception block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_handled_exception FailureDetectionParameters#custom_handled_exception}
   */
   readonly customHandledException: FailureDetectionParametersExceptionRulesSuccessForcingExceptionsCustomHandledException[] | cdktf.IResolvable;
 }
@@ -1328,37 +1328,37 @@ export interface FailureDetectionParametersExceptionRules {
   /**
   * Ignore all exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#ignore_all_exceptions FailureDetectionParameters#ignore_all_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#ignore_all_exceptions FailureDetectionParameters#ignore_all_exceptions}
   */
   readonly ignoreAllExceptions: boolean | cdktf.IResolvable;
   /**
   * Ignore span failure detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#ignore_span_failure_detection FailureDetectionParameters#ignore_span_failure_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#ignore_span_failure_detection FailureDetectionParameters#ignore_span_failure_detection}
   */
   readonly ignoreSpanFailureDetection: boolean | cdktf.IResolvable;
   /**
   * custom_error_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_error_rules FailureDetectionParameters#custom_error_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_error_rules FailureDetectionParameters#custom_error_rules}
   */
   readonly customErrorRules?: FailureDetectionParametersExceptionRulesCustomErrorRules;
   /**
   * custom_handled_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#custom_handled_exceptions FailureDetectionParameters#custom_handled_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#custom_handled_exceptions FailureDetectionParameters#custom_handled_exceptions}
   */
   readonly customHandledExceptions?: FailureDetectionParametersExceptionRulesCustomHandledExceptions;
   /**
   * ignored_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#ignored_exceptions FailureDetectionParameters#ignored_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#ignored_exceptions FailureDetectionParameters#ignored_exceptions}
   */
   readonly ignoredExceptions?: FailureDetectionParametersExceptionRulesIgnoredExceptions;
   /**
   * success_forcing_exceptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#success_forcing_exceptions FailureDetectionParameters#success_forcing_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#success_forcing_exceptions FailureDetectionParameters#success_forcing_exceptions}
   */
   readonly successForcingExceptions?: FailureDetectionParametersExceptionRulesSuccessForcingExceptions;
 }
@@ -1583,25 +1583,25 @@ export interface FailureDetectionParametersHttpResponseCodes {
   /**
   * HTTP response codes which indicate client side errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#client_side_errors FailureDetectionParameters#client_side_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#client_side_errors FailureDetectionParameters#client_side_errors}
   */
   readonly clientSideErrors: string;
   /**
   * Treat missing HTTP response code as client side error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#fail_on_missing_response_code_client_side FailureDetectionParameters#fail_on_missing_response_code_client_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#fail_on_missing_response_code_client_side FailureDetectionParameters#fail_on_missing_response_code_client_side}
   */
   readonly failOnMissingResponseCodeClientSide: boolean | cdktf.IResolvable;
   /**
   * Treat missing HTTP response code as server side errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#fail_on_missing_response_code_server_side FailureDetectionParameters#fail_on_missing_response_code_server_side}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#fail_on_missing_response_code_server_side FailureDetectionParameters#fail_on_missing_response_code_server_side}
   */
   readonly failOnMissingResponseCodeServerSide: boolean | cdktf.IResolvable;
   /**
   * HTTP response codes which indicate an error on the server side
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#server_side_errors FailureDetectionParameters#server_side_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#server_side_errors FailureDetectionParameters#server_side_errors}
   */
   readonly serverSideErrors: string;
 }
@@ -1760,7 +1760,7 @@ export class FailureDetectionParametersHttpResponseCodesOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters dynatrace_failure_detection_parameters}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters dynatrace_failure_detection_parameters}
 */
 export class FailureDetectionParameters extends cdktf.TerraformResource {
 
@@ -1776,7 +1776,7 @@ export class FailureDetectionParameters extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FailureDetectionParameters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FailureDetectionParameters to import
-  * @param importFromId The id of the existing FailureDetectionParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FailureDetectionParameters that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FailureDetectionParameters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1788,7 +1788,7 @@ export class FailureDetectionParameters extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/failure_detection_parameters dynatrace_failure_detection_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/failure_detection_parameters dynatrace_failure_detection_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1799,8 +1799,8 @@ export class FailureDetectionParameters extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_failure_detection_parameters',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

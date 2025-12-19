@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project
+// https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ObservabilityProjectConfig extends cdktf.TerraformMetaArguments
   /**
   * A custom domain label compatible with RFC-1035 standards. Derived from the project name by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#alias ObservabilityProject#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project#alias ObservabilityProject#alias}
   */
   readonly alias?: string;
   /**
   * Descriptive name for a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#name ObservabilityProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project#name ObservabilityProject#name}
   */
   readonly name: string;
   /**
   * the tier of the observability project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#product_tier ObservabilityProject#product_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project#product_tier ObservabilityProject#product_tier}
   */
   readonly productTier?: string;
   /**
   * Unique human-readable identifier for a region in Elastic Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#region_id ObservabilityProject#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project#region_id ObservabilityProject#region_id}
   */
   readonly regionId: string;
 }
@@ -236,7 +236,7 @@ export class ObservabilityProjectMetadataOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project ec_observability_project}
+* Represents a {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project ec_observability_project}
 */
 export class ObservabilityProject extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObservabilityProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityProject to import
-  * @param importFromId The id of the existing ObservabilityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class ObservabilityProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.3/docs/resources/observability_project ec_observability_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/ec/0.12.4/docs/resources/observability_project ec_observability_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class ObservabilityProject extends cdktf.TerraformResource {
       terraformResourceType: 'ec_observability_project',
       terraformGeneratorMetadata: {
         providerName: 'ec',
-        providerVersion: '0.12.3',
-        providerVersionConstraint: '0.12.3'
+        providerVersion: '0.12.4',
+        providerVersionConstraint: '0.12.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

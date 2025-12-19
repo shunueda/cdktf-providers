@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RumProviderBreakdownConfig extends cdktf.TerraformMetaArguments
   /**
   * Specify an URL for the provider's brand icon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#icon_url RumProviderBreakdown#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#icon_url RumProviderBreakdown#icon_url}
   */
   readonly iconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#id RumProviderBreakdown#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#id RumProviderBreakdown#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface RumProviderBreakdownConfig extends cdktf.TerraformMetaArguments
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#insert_after RumProviderBreakdown#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#insert_after RumProviderBreakdown#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Send the patterns of this provider to Dynatrace to help us improve 3rd-party detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#report_public_improvement RumProviderBreakdown#report_public_improvement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#report_public_improvement RumProviderBreakdown#report_public_improvement}
   */
   readonly reportPublicImprovement: boolean | cdktf.IResolvable;
   /**
   * Resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#resource_name RumProviderBreakdown#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#resource_name RumProviderBreakdown#resource_name}
   */
   readonly resourceName: string;
   /**
   * Possible Values: `FirstParty`, `ThirdParty`, `Cdn`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#resource_type RumProviderBreakdown#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#resource_type RumProviderBreakdown#resource_type}
   */
   readonly resourceType: string;
   /**
   * domain_name_pattern_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#domain_name_pattern_list RumProviderBreakdown#domain_name_pattern_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#domain_name_pattern_list RumProviderBreakdown#domain_name_pattern_list}
   */
   readonly domainNamePatternList: RumProviderBreakdownDomainNamePatternListStruct;
 }
@@ -55,7 +55,7 @@ export interface RumProviderBreakdownDomainNamePatternListDomainNamePattern {
   /**
   * Use a ends-with pattern for this content provider's domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#pattern RumProviderBreakdown#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#pattern RumProviderBreakdown#pattern}
   */
   readonly pattern: string;
 }
@@ -170,7 +170,7 @@ export interface RumProviderBreakdownDomainNamePatternListStruct {
   /**
   * domain_name_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#domain_name_pattern RumProviderBreakdown#domain_name_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#domain_name_pattern RumProviderBreakdown#domain_name_pattern}
   */
   readonly domainNamePattern: RumProviderBreakdownDomainNamePatternListDomainNamePattern[] | cdktf.IResolvable;
 }
@@ -251,7 +251,7 @@ export class RumProviderBreakdownDomainNamePatternListStructOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown dynatrace_rum_provider_breakdown}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown dynatrace_rum_provider_breakdown}
 */
 export class RumProviderBreakdown extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class RumProviderBreakdown extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumProviderBreakdown resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumProviderBreakdown to import
-  * @param importFromId The id of the existing RumProviderBreakdown that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumProviderBreakdown that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumProviderBreakdown to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class RumProviderBreakdown extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_provider_breakdown dynatrace_rum_provider_breakdown} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_provider_breakdown dynatrace_rum_provider_breakdown} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class RumProviderBreakdown extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_rum_provider_breakdown',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

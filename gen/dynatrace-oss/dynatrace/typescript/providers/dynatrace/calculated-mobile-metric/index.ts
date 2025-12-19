@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CalculatedMobileMetricConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Dynatrace entity ID of the application to which the metric belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#app_identifier CalculatedMobileMetric#app_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#app_identifier CalculatedMobileMetric#app_identifier}
   */
   readonly appIdentifier: string;
   /**
   * Descriptor of a calculated mobile/custom app metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#description CalculatedMobileMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#description CalculatedMobileMetric#description}
   */
   readonly description?: string;
   /**
   * The metric is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#enabled CalculatedMobileMetric#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#enabled CalculatedMobileMetric#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#id CalculatedMobileMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#id CalculatedMobileMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CalculatedMobileMetricConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique key of the calculated mobile/custom app metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#metric_key CalculatedMobileMetric#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#metric_key CalculatedMobileMetric#metric_key}
   */
   readonly metricKey: string;
   /**
   * The type of the metric. Possible values: [ REPORTED_ERROR_COUNT, USER_ACTION_DURATION, WEB_REQUEST_COUNT, WEB_REQUEST_ERROR_COUNT ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#metric_type CalculatedMobileMetric#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#metric_type CalculatedMobileMetric#metric_type}
   */
   readonly metricType: string;
   /**
   * The displayed name of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#name CalculatedMobileMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#name CalculatedMobileMetric#name}
   */
   readonly name: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#dimensions CalculatedMobileMetric#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#dimensions CalculatedMobileMetric#dimensions}
   */
   readonly dimensions?: CalculatedMobileMetricDimensions[] | cdktf.IResolvable;
   /**
   * user_action_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#user_action_filter CalculatedMobileMetric#user_action_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#user_action_filter CalculatedMobileMetric#user_action_filter}
   */
   readonly userActionFilter?: CalculatedMobileMetricUserActionFilter;
 }
@@ -67,13 +67,13 @@ export interface CalculatedMobileMetricDimensionsDimension {
   /**
   * The dimension of the metric. Possible values are `ApdexType`, `Browser`, `ErrorContext`, `ErrorOrigin`, `ErrorType`, `GeoLocation`, `StringProperty`, `UserActionType`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#dimension CalculatedMobileMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#dimension CalculatedMobileMetric#dimension}
   */
   readonly dimension: string;
   /**
   * The number of top values to be calculated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#top_x CalculatedMobileMetric#top_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#top_x CalculatedMobileMetric#top_x}
   */
   readonly topX: number;
 }
@@ -214,7 +214,7 @@ export interface CalculatedMobileMetricDimensions {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#dimension CalculatedMobileMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#dimension CalculatedMobileMetric#dimension}
   */
   readonly dimension?: CalculatedMobileMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -332,127 +332,127 @@ export interface CalculatedMobileMetricUserActionFilter {
   /**
   * Only actions with a duration more than or equal to this value (in milliseconds) are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#action_duration_from_milliseconds CalculatedMobileMetric#action_duration_from_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#action_duration_from_milliseconds CalculatedMobileMetric#action_duration_from_milliseconds}
   */
   readonly actionDurationFromMilliseconds?: number;
   /**
   * Only actions with a duration less than or equal to this value (in milliseconds) are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#action_duration_to_milliseconds CalculatedMobileMetric#action_duration_to_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#action_duration_to_milliseconds CalculatedMobileMetric#action_duration_to_milliseconds}
   */
   readonly actionDurationToMilliseconds?: number;
   /**
   * Only actions with the specified Apdex score are included in the metric calculation. Possible values: [ Frustrated, Satisfied, Tolerating, Unknown ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#apdex CalculatedMobileMetric#apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#apdex CalculatedMobileMetric#apdex}
   */
   readonly apdex?: string;
   /**
   * Only actions coming from this app version are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#app_version CalculatedMobileMetric#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#app_version CalculatedMobileMetric#app_version}
   */
   readonly appVersion?: string;
   /**
   * Only actions coming from this carrier type are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#carrier CalculatedMobileMetric#carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#carrier CalculatedMobileMetric#carrier}
   */
   readonly carrier?: string;
   /**
   * Only actions of users from this city are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#city CalculatedMobileMetric#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#city CalculatedMobileMetric#city}
   */
   readonly city?: string;
   /**
   * Only actions coming from this connection type are included in the metric calculation. Possible values: [ LAN, MOBILE, OFFLINE, UNKNOWN, WIFI ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#connection_type CalculatedMobileMetric#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#connection_type CalculatedMobileMetric#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Only actions of users from this continent are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#continent CalculatedMobileMetric#continent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#continent CalculatedMobileMetric#continent}
   */
   readonly continent?: string;
   /**
   * Only actions of users from this country are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#country CalculatedMobileMetric#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#country CalculatedMobileMetric#country}
   */
   readonly country?: string;
   /**
   * Only actions coming from this app version are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#device CalculatedMobileMetric#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#device CalculatedMobileMetric#device}
   */
   readonly device?: string;
   /**
   * The request error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#has_http_error CalculatedMobileMetric#has_http_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#has_http_error CalculatedMobileMetric#has_http_error}
   */
   readonly hasHttpError?: boolean | cdktf.IResolvable;
   /**
   * The error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#has_reported_error CalculatedMobileMetric#has_reported_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#has_reported_error CalculatedMobileMetric#has_reported_error}
   */
   readonly hasReportedError?: boolean | cdktf.IResolvable;
   /**
   * Only actions coming from this internet service provider are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#isp CalculatedMobileMetric#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#isp CalculatedMobileMetric#isp}
   */
   readonly isp?: string;
   /**
   * Only actions coming from devices of this manufacturer are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#manufacturer CalculatedMobileMetric#manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#manufacturer CalculatedMobileMetric#manufacturer}
   */
   readonly manufacturer?: string;
   /**
   * Filter by network technology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#network_technology CalculatedMobileMetric#network_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#network_technology CalculatedMobileMetric#network_technology}
   */
   readonly networkTechnology?: string;
   /**
   * Only actions coming from devices with this display orientation are included in the metric calculation. Possible values: [ LANDSCAPE, PORTRAIT, UNKNOWN ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#orientation CalculatedMobileMetric#orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#orientation CalculatedMobileMetric#orientation}
   */
   readonly orientation?: string;
   /**
   * Only actions coming from this OS family are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#os_family CalculatedMobileMetric#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#os_family CalculatedMobileMetric#os_family}
   */
   readonly osFamily?: string;
   /**
   * Only actions coming from this OS version are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#os_version CalculatedMobileMetric#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#os_version CalculatedMobileMetric#os_version}
   */
   readonly osVersion?: string;
   /**
   * Only actions of users from this region are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#region CalculatedMobileMetric#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#region CalculatedMobileMetric#region}
   */
   readonly region?: string;
   /**
   * Only actions coming from devices with this display resolution are included in the metric calculation. Possible values: [ CGA, DCI2K, DCI4K, DVGA, FHD, FWVGA, FWXGA, GHDPlus, HD, HQVGA, HQVGA2, HSXGA, HUXGA, HVGA, HXGA, NTSC, PAL, QHD, QQVGA, QSXGA, QUXGA, QVGA, QWXGA, QXGA, SVGA, SXGA, SXGAMinus, SXGAPlus, UGA, UHD16K, UHD4K, UHD8K, UHDPlus, UNKNOWN, UWQHD, UXGA, VGA, WHSXGA, WHUXGA, WHXGA, WQSXGA, WQUXGA, WQVGA, WQVGA2, WQVGA3, WQXGA, WQXGA2, WSVGA, WSVGA2, WSXGA, WSXGAPlus, WUXGA, WVGA, WVGA2, WXGA, WXGA2, WXGA3, WXGAPlus, XGA, XGAPLUS, _1280x854, nHD, qHD ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#resolution CalculatedMobileMetric#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#resolution CalculatedMobileMetric#resolution}
   */
   readonly resolution?: string;
   /**
   * Only actions with this name are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#user_action_name CalculatedMobileMetric#user_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#user_action_name CalculatedMobileMetric#user_action_name}
   */
   readonly userActionName?: string;
 }
@@ -1116,7 +1116,7 @@ export class CalculatedMobileMetricUserActionFilterOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric dynatrace_calculated_mobile_metric}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric dynatrace_calculated_mobile_metric}
 */
 export class CalculatedMobileMetric extends cdktf.TerraformResource {
 
@@ -1132,7 +1132,7 @@ export class CalculatedMobileMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CalculatedMobileMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CalculatedMobileMetric to import
-  * @param importFromId The id of the existing CalculatedMobileMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CalculatedMobileMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CalculatedMobileMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1144,7 +1144,7 @@ export class CalculatedMobileMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_mobile_metric dynatrace_calculated_mobile_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_mobile_metric dynatrace_calculated_mobile_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1155,8 +1155,8 @@ export class CalculatedMobileMetric extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_calculated_mobile_metric',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

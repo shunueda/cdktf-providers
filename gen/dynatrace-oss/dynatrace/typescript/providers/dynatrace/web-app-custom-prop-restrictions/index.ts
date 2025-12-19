@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppCustomPropRestrictionsConfig extends cdktf.TerraformMetaA
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#application_id WebAppCustomPropRestrictions#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#application_id WebAppCustomPropRestrictions#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#id WebAppCustomPropRestrictions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#id WebAppCustomPropRestrictions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface WebAppCustomPropRestrictionsConfig extends cdktf.TerraformMetaA
   /**
   * custom_event_properties_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#custom_event_properties_allow_list WebAppCustomPropRestrictions#custom_event_properties_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#custom_event_properties_allow_list WebAppCustomPropRestrictions#custom_event_properties_allow_list}
   */
   readonly customEventPropertiesAllowList?: WebAppCustomPropRestrictionsCustomEventPropertiesAllowListStruct;
   /**
   * custom_session_properties_allow_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow_list WebAppCustomPropRestrictions#custom_session_properties_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow_list WebAppCustomPropRestrictions#custom_session_properties_allow_list}
   */
   readonly customSessionPropertiesAllowList?: WebAppCustomPropRestrictionsCustomSessionPropertiesAllowListStruct;
 }
@@ -37,19 +37,19 @@ export interface WebAppCustomPropRestrictionsCustomEventPropertiesAllowListCusto
   /**
   * Field name validation should be case-insensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#case_insensitive_naming_enabled WebAppCustomPropRestrictions#case_insensitive_naming_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#case_insensitive_naming_enabled WebAppCustomPropRestrictions#case_insensitive_naming_enabled}
   */
   readonly caseInsensitiveNamingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `BOOLEAN`, `NUMBER`, `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#field_data_type WebAppCustomPropRestrictions#field_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#field_data_type WebAppCustomPropRestrictions#field_data_type}
   */
   readonly fieldDataType: string;
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#field_name WebAppCustomPropRestrictions#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#field_name WebAppCustomPropRestrictions#field_name}
   */
   readonly fieldName: string;
 }
@@ -219,7 +219,7 @@ export interface WebAppCustomPropRestrictionsCustomEventPropertiesAllowListStruc
   /**
   * custom_session_properties_allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow WebAppCustomPropRestrictions#custom_session_properties_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow WebAppCustomPropRestrictions#custom_session_properties_allow}
   */
   readonly customSessionPropertiesAllow: WebAppCustomPropRestrictionsCustomEventPropertiesAllowListCustomSessionPropertiesAllow[] | cdktf.IResolvable;
 }
@@ -302,19 +302,19 @@ export interface WebAppCustomPropRestrictionsCustomSessionPropertiesAllowListCus
   /**
   * Field name validation should be case-insensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#case_insensitive_naming_enabled WebAppCustomPropRestrictions#case_insensitive_naming_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#case_insensitive_naming_enabled WebAppCustomPropRestrictions#case_insensitive_naming_enabled}
   */
   readonly caseInsensitiveNamingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `BOOLEAN`, `NUMBER`, `STRING`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#field_data_type WebAppCustomPropRestrictions#field_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#field_data_type WebAppCustomPropRestrictions#field_data_type}
   */
   readonly fieldDataType: string;
   /**
   * Field name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#field_name WebAppCustomPropRestrictions#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#field_name WebAppCustomPropRestrictions#field_name}
   */
   readonly fieldName: string;
 }
@@ -484,7 +484,7 @@ export interface WebAppCustomPropRestrictionsCustomSessionPropertiesAllowListStr
   /**
   * custom_session_properties_allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow WebAppCustomPropRestrictions#custom_session_properties_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#custom_session_properties_allow WebAppCustomPropRestrictions#custom_session_properties_allow}
   */
   readonly customSessionPropertiesAllow: WebAppCustomPropRestrictionsCustomSessionPropertiesAllowListCustomSessionPropertiesAllow[] | cdktf.IResolvable;
 }
@@ -565,7 +565,7 @@ export class WebAppCustomPropRestrictionsCustomSessionPropertiesAllowListStructO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions dynatrace_web_app_custom_prop_restrictions}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions dynatrace_web_app_custom_prop_restrictions}
 */
 export class WebAppCustomPropRestrictions extends cdktf.TerraformResource {
 
@@ -581,7 +581,7 @@ export class WebAppCustomPropRestrictions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppCustomPropRestrictions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppCustomPropRestrictions to import
-  * @param importFromId The id of the existing WebAppCustomPropRestrictions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppCustomPropRestrictions that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppCustomPropRestrictions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -593,7 +593,7 @@ export class WebAppCustomPropRestrictions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_custom_prop_restrictions dynatrace_web_app_custom_prop_restrictions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_custom_prop_restrictions dynatrace_web_app_custom_prop_restrictions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -604,8 +604,8 @@ export class WebAppCustomPropRestrictions extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_custom_prop_restrictions',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RumOverloadPreventionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention#id RumOverloadPrevention#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention#id RumOverloadPrevention#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface RumOverloadPreventionConfig extends cdktf.TerraformMetaArgument
   /**
   * Once this limit is reached, Dynatrace [throttles the number of captured user sessions](https://dt-url.net/fm3v0p7g).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention#overload_prevention_limit RumOverloadPrevention#overload_prevention_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention#overload_prevention_limit RumOverloadPrevention#overload_prevention_limit}
   */
   readonly overloadPreventionLimit: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention dynatrace_rum_overload_prevention}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention dynatrace_rum_overload_prevention}
 */
 export class RumOverloadPrevention extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class RumOverloadPrevention extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RumOverloadPrevention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RumOverloadPrevention to import
-  * @param importFromId The id of the existing RumOverloadPrevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RumOverloadPrevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RumOverloadPrevention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class RumOverloadPrevention extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rum_overload_prevention dynatrace_rum_overload_prevention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rum_overload_prevention dynatrace_rum_overload_prevention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class RumOverloadPrevention extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_rum_overload_prevention',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudClsShipperTasksConfig extends cdktf.TerraformMe
   /**
   * end time(ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#end_time DataTencentcloudClsShipperTasks#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#end_time DataTencentcloudClsShipperTasks#end_time}
   */
   readonly endTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#id DataTencentcloudClsShipperTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#id DataTencentcloudClsShipperTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudClsShipperTasksConfig extends cdktf.TerraformMe
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#result_output_file DataTencentcloudClsShipperTasks#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#result_output_file DataTencentcloudClsShipperTasks#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * shipper id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#shipper_id DataTencentcloudClsShipperTasks#shipper_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#shipper_id DataTencentcloudClsShipperTasks#shipper_id}
   */
   readonly shipperId: string;
   /**
   * start time(ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#start_time DataTencentcloudClsShipperTasks#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#start_time DataTencentcloudClsShipperTasks#start_time}
   */
   readonly startTime: number;
 }
@@ -156,7 +156,7 @@ export class DataTencentcloudClsShipperTasksTasksList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks tencentcloud_cls_shipper_tasks}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks tencentcloud_cls_shipper_tasks}
 */
 export class DataTencentcloudClsShipperTasks extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataTencentcloudClsShipperTasks extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudClsShipperTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudClsShipperTasks to import
-  * @param importFromId The id of the existing DataTencentcloudClsShipperTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudClsShipperTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudClsShipperTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataTencentcloudClsShipperTasks extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/cls_shipper_tasks tencentcloud_cls_shipper_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/cls_shipper_tasks tencentcloud_cls_shipper_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataTencentcloudClsShipperTasks extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cls_shipper_tasks',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

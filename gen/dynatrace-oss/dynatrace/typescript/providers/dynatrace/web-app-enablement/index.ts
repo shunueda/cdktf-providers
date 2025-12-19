@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WebAppEnablementConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#application_id WebAppEnablement#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#application_id WebAppEnablement#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#id WebAppEnablement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#id WebAppEnablement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface WebAppEnablementConfig extends cdktf.TerraformMetaArguments {
   /**
   * experience_analytics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#experience_analytics WebAppEnablement#experience_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#experience_analytics WebAppEnablement#experience_analytics}
   */
   readonly experienceAnalytics?: WebAppEnablementExperienceAnalytics;
   /**
   * rum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#rum WebAppEnablement#rum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#rum WebAppEnablement#rum}
   */
   readonly rum: WebAppEnablementRum;
   /**
   * session_replay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#session_replay WebAppEnablement#session_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#session_replay WebAppEnablement#session_replay}
   */
   readonly sessionReplay: WebAppEnablementSessionReplay;
 }
@@ -43,7 +43,7 @@ export interface WebAppEnablementExperienceAnalytics {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -126,19 +126,19 @@ export interface WebAppEnablementRum {
   /**
   * (Field has overlap with `dynatrace_web_application`) Percentage of user sessions captured and analyzed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#cost_and_traffic_control WebAppEnablement#cost_and_traffic_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#cost_and_traffic_control WebAppEnablement#cost_and_traffic_control}
   */
   readonly costAndTrafficControl: number;
   /**
   * (Field has overlap with `dynatrace_web_application`) This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Enable Real User Monitoring powered by Grail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#enabled_on_grail WebAppEnablement#enabled_on_grail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#enabled_on_grail WebAppEnablement#enabled_on_grail}
   */
   readonly enabledOnGrail?: boolean | cdktf.IResolvable;
 }
@@ -276,13 +276,13 @@ export interface WebAppEnablementSessionReplay {
   /**
   * (Field has overlap with `dynatrace_web_application`) [Percentage of user sessions recorded with Session Replay](https://dt-url.net/sr-cost-traffic-control). For example, if you have 50% for RUM and 50% for Session Replay, it results in 25% of sessions recorded with Session Replay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#cost_and_traffic_control WebAppEnablement#cost_and_traffic_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#cost_and_traffic_control WebAppEnablement#cost_and_traffic_control}
   */
   readonly costAndTrafficControl: number;
   /**
   * (Field has overlap with `dynatrace_web_application`) This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#enabled WebAppEnablement#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -389,7 +389,7 @@ export class WebAppEnablementSessionReplayOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement dynatrace_web_app_enablement}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement dynatrace_web_app_enablement}
 */
 export class WebAppEnablement extends cdktf.TerraformResource {
 
@@ -405,7 +405,7 @@ export class WebAppEnablement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebAppEnablement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebAppEnablement to import
-  * @param importFromId The id of the existing WebAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebAppEnablement that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebAppEnablement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class WebAppEnablement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/web_app_enablement dynatrace_web_app_enablement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/web_app_enablement dynatrace_web_app_enablement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class WebAppEnablement extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_web_app_enablement',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

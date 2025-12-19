@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "buildkite": "1.27.1"
+    "buildkite": "1.28.0"
   }
 }

@@ -1,3 +1,3 @@
 # `tencentcloud_as_scaling_policy`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_as_scaling_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/as_scaling_policy).
+Refer to the Terraform Registry for docs: [`tencentcloud_as_scaling_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/as_scaling_policy).

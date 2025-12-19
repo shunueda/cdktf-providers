@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformSloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#description PlatformSlo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#description PlatformSlo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#id PlatformSlo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#id PlatformSlo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface PlatformSloConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the SLO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#name PlatformSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#name PlatformSlo#name}
   */
   readonly name: string;
   /**
   * Tags of the SLO. Example: `Stage:DEV`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#tags PlatformSlo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#tags PlatformSlo#tags}
   */
   readonly tags?: string[];
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#criteria PlatformSlo#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#criteria PlatformSlo#criteria}
   */
   readonly criteria: PlatformSloCriteria;
   /**
   * custom_sli block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#custom_sli PlatformSlo#custom_sli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#custom_sli PlatformSlo#custom_sli}
   */
   readonly customSli?: PlatformSloCustomSli;
   /**
   * sli_reference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#sli_reference PlatformSlo#sli_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#sli_reference PlatformSlo#sli_reference}
   */
   readonly sliReference?: PlatformSloSliReference;
 }
@@ -55,25 +55,25 @@ export interface PlatformSloCriteriaCriteriaDetail {
   /**
   * Criteria target, example: `99.8`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#target PlatformSlo#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#target PlatformSlo#target}
   */
   readonly target: number;
   /**
   * Timeframe from, example: `now-7d`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#timeframe_from PlatformSlo#timeframe_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#timeframe_from PlatformSlo#timeframe_from}
   */
   readonly timeframeFrom: string;
   /**
   * Timeframe to, example: `now`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#timeframe_to PlatformSlo#timeframe_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#timeframe_to PlatformSlo#timeframe_to}
   */
   readonly timeframeTo?: string;
   /**
   * Criteria warning, example: `99.9`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#warning PlatformSlo#warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#warning PlatformSlo#warning}
   */
   readonly warning?: number;
 }
@@ -272,7 +272,7 @@ export interface PlatformSloCriteria {
   /**
   * criteria_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#criteria_detail PlatformSlo#criteria_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#criteria_detail PlatformSlo#criteria_detail}
   */
   readonly criteriaDetail: PlatformSloCriteriaCriteriaDetail[] | cdktf.IResolvable;
 }
@@ -355,13 +355,13 @@ export interface PlatformSloCustomSliFilterSegmentsFilterSegmentVariablesFilterS
   /**
   * Name of the filter segment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#name PlatformSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#name PlatformSlo#name}
   */
   readonly name: string;
   /**
   * Values of the filter segment variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#values PlatformSlo#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#values PlatformSlo#values}
   */
   readonly values: string[];
 }
@@ -502,7 +502,7 @@ export interface PlatformSloCustomSliFilterSegmentsFilterSegmentVariables {
   /**
   * filter_segment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#filter_segment_variable PlatformSlo#filter_segment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#filter_segment_variable PlatformSlo#filter_segment_variable}
   */
   readonly filterSegmentVariable: PlatformSloCustomSliFilterSegmentsFilterSegmentVariablesFilterSegmentVariable[] | cdktf.IResolvable;
 }
@@ -585,7 +585,7 @@ export interface PlatformSloCustomSliFilterSegmentsFilterSegment {
   /**
   * The ID of the filter segment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#id PlatformSlo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#id PlatformSlo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -594,7 +594,7 @@ export interface PlatformSloCustomSliFilterSegmentsFilterSegment {
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#variables PlatformSlo#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#variables PlatformSlo#variables}
   */
   readonly variables?: PlatformSloCustomSliFilterSegmentsFilterSegmentVariables;
 }
@@ -738,7 +738,7 @@ export interface PlatformSloCustomSliFilterSegments {
   /**
   * filter_segment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#filter_segment PlatformSlo#filter_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#filter_segment PlatformSlo#filter_segment}
   */
   readonly filterSegment: PlatformSloCustomSliFilterSegmentsFilterSegment[] | cdktf.IResolvable;
 }
@@ -821,13 +821,13 @@ export interface PlatformSloCustomSli {
   /**
   * Indicator of the custom SLI. Example: `timeseries sli=avg(dt.host.cpu.idle)`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#indicator PlatformSlo#indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#indicator PlatformSlo#indicator}
   */
   readonly indicator: string;
   /**
   * filter_segments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#filter_segments PlatformSlo#filter_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#filter_segments PlatformSlo#filter_segments}
   */
   readonly filterSegments?: PlatformSloCustomSliFilterSegments;
 }
@@ -939,13 +939,13 @@ export interface PlatformSloSliReferenceVariablesSliReferenceVariable {
   /**
   * Name of the SLI reference variable. Example: `hostIds`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#name PlatformSlo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#name PlatformSlo#name}
   */
   readonly name: string;
   /**
   * Value of the SLI reference variable. Example: `HOST-123456789ABCDEFG`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#value PlatformSlo#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#value PlatformSlo#value}
   */
   readonly value: string;
 }
@@ -1086,7 +1086,7 @@ export interface PlatformSloSliReferenceVariables {
   /**
   * sli_reference_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#sli_reference_variable PlatformSlo#sli_reference_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#sli_reference_variable PlatformSlo#sli_reference_variable}
   */
   readonly sliReferenceVariable: PlatformSloSliReferenceVariablesSliReferenceVariable[] | cdktf.IResolvable;
 }
@@ -1169,13 +1169,13 @@ export interface PlatformSloSliReference {
   /**
   * Template ID of the SLI reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#template_id PlatformSlo#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#template_id PlatformSlo#template_id}
   */
   readonly templateId: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#variables PlatformSlo#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#variables PlatformSlo#variables}
   */
   readonly variables: PlatformSloSliReferenceVariables;
 }
@@ -1282,7 +1282,7 @@ export class PlatformSloSliReferenceOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo dynatrace_platform_slo}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo dynatrace_platform_slo}
 */
 export class PlatformSlo extends cdktf.TerraformResource {
 
@@ -1298,7 +1298,7 @@ export class PlatformSlo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformSlo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformSlo to import
-  * @param importFromId The id of the existing PlatformSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformSlo that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformSlo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1310,7 +1310,7 @@ export class PlatformSlo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/platform_slo dynatrace_platform_slo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/platform_slo dynatrace_platform_slo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1321,8 +1321,8 @@ export class PlatformSlo extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_platform_slo',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

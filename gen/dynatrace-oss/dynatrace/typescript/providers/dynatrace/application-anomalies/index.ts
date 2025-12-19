@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApplicationAnomaliesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#id ApplicationAnomalies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#id ApplicationAnomalies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ApplicationAnomaliesConfig extends cdktf.TerraformMetaArguments
   /**
   * failure_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#failure_rate ApplicationAnomalies#failure_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#failure_rate ApplicationAnomalies#failure_rate}
   */
   readonly failureRate?: ApplicationAnomaliesFailureRate;
   /**
   * response_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#response_time ApplicationAnomalies#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#response_time ApplicationAnomalies#response_time}
   */
   readonly responseTime?: ApplicationAnomaliesResponseTime;
   /**
   * traffic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#traffic ApplicationAnomalies#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#traffic ApplicationAnomalies#traffic}
   */
   readonly traffic?: ApplicationAnomaliesTraffic;
 }
@@ -37,19 +37,19 @@ export interface ApplicationAnomaliesFailureRateAuto {
   /**
   * Absolute increase of failing service calls to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#absolute ApplicationAnomalies#absolute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#absolute ApplicationAnomalies#absolute}
   */
   readonly absolute: number;
   /**
   * Relative increase of failing service calls to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#relative ApplicationAnomalies#relative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#relative ApplicationAnomalies#relative}
   */
   readonly relative: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -187,19 +187,19 @@ export interface ApplicationAnomaliesFailureRateThresholds {
   /**
   * Sensitivity of the threshold.  With `low` sensitivity, high statistical confidence is used. Brief violations (for example, due to a surge in load) won't trigger alerts.  With `high` sensitivity, no statistical confidence is used. Each violation triggers alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#sensitivity ApplicationAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#sensitivity ApplicationAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Failure rate during any 5-minute period to trigger an alert, %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#threshold ApplicationAnomalies#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#threshold ApplicationAnomalies#threshold}
   */
   readonly threshold: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -337,13 +337,13 @@ export interface ApplicationAnomaliesFailureRate {
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#auto ApplicationAnomalies#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#auto ApplicationAnomalies#auto}
   */
   readonly auto?: ApplicationAnomaliesFailureRateAuto;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#thresholds ApplicationAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#thresholds ApplicationAnomalies#thresholds}
   */
   readonly thresholds?: ApplicationAnomaliesFailureRateThresholds;
 }
@@ -458,37 +458,37 @@ export interface ApplicationAnomaliesResponseTimeAuto {
   /**
   * Minimal service load to detect response time degradation. Response time degradation of services with smaller load won't trigger alerts. Possible values are `FIFTEEN_REQUESTS_PER_MINUTE`, `FIVE_REQUESTS_PER_MINUTE`, `ONE_REQUEST_PER_MINUTE` and `TEN_REQUESTS_PER_MINUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#load ApplicationAnomalies#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#load ApplicationAnomalies#load}
   */
   readonly load: string;
   /**
   * Alert if the response time degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#milliseconds ApplicationAnomalies#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#milliseconds ApplicationAnomalies#milliseconds}
   */
   readonly milliseconds: number;
   /**
   * Alert if the response time degrades by more than *X* %
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
   */
   readonly percent: number;
   /**
   * Alert if the response time of the slowest 10% degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#slowest_milliseconds ApplicationAnomalies#slowest_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#slowest_milliseconds ApplicationAnomalies#slowest_milliseconds}
   */
   readonly slowestMilliseconds: number;
   /**
   * Alert if the response time of the slowest 10% degrades by more than *X* milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#slowest_percent ApplicationAnomalies#slowest_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#slowest_percent ApplicationAnomalies#slowest_percent}
   */
   readonly slowestPercent: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -704,31 +704,31 @@ export interface ApplicationAnomaliesResponseTimeThresholds {
   /**
   * Minimal service load to detect response time degradation. Response time degradation of services with smaller load won't trigger alerts. Possible values are `FIFTEEN_REQUESTS_PER_MINUTE`, `FIVE_REQUESTS_PER_MINUTE`, `ONE_REQUEST_PER_MINUTE` and `TEN_REQUESTS_PER_MINUTE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#load ApplicationAnomalies#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#load ApplicationAnomalies#load}
   */
   readonly load: string;
   /**
   * Response time during any 5-minute period to trigger an alert, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#milliseconds ApplicationAnomalies#milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#milliseconds ApplicationAnomalies#milliseconds}
   */
   readonly milliseconds: number;
   /**
   * Sensitivity of the threshold.  With `low` sensitivity, high statistical confidence is used. Brief violations (for example, due to a surge in load) won't trigger alerts.  With `high` sensitivity, no statistical confidence is used. Each violation triggers an alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#sensitivity ApplicationAnomalies#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#sensitivity ApplicationAnomalies#sensitivity}
   */
   readonly sensitivity: string;
   /**
   * Response time of the 10% slowest during any 5-minute period to trigger an alert, in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#slowest_milliseconds ApplicationAnomalies#slowest_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#slowest_milliseconds ApplicationAnomalies#slowest_milliseconds}
   */
   readonly slowestMilliseconds: number;
   /**
   * allows for configuring properties that are not explicitly supported by the current version of this provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#unknowns ApplicationAnomalies#unknowns}
   */
   readonly unknowns?: string;
 }
@@ -918,13 +918,13 @@ export interface ApplicationAnomaliesResponseTime {
   /**
   * auto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#auto ApplicationAnomalies#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#auto ApplicationAnomalies#auto}
   */
   readonly auto?: ApplicationAnomaliesResponseTimeAuto;
   /**
   * thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#thresholds ApplicationAnomalies#thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#thresholds ApplicationAnomalies#thresholds}
   */
   readonly thresholds?: ApplicationAnomaliesResponseTimeThresholds;
 }
@@ -1039,13 +1039,13 @@ export interface ApplicationAnomaliesTrafficDrops {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#enabled ApplicationAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#enabled ApplicationAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Alert if the observed traffic is less than *X* % of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
   */
   readonly percent?: number;
 }
@@ -1157,13 +1157,13 @@ export interface ApplicationAnomaliesTrafficSpikes {
   /**
   * The detection is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#enabled ApplicationAnomalies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#enabled ApplicationAnomalies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Alert if the observed traffic is less than *X* % of the expected value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#percent ApplicationAnomalies#percent}
   */
   readonly percent?: number;
 }
@@ -1275,13 +1275,13 @@ export interface ApplicationAnomaliesTraffic {
   /**
   * drops block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#drops ApplicationAnomalies#drops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#drops ApplicationAnomalies#drops}
   */
   readonly drops?: ApplicationAnomaliesTrafficDrops;
   /**
   * spikes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#spikes ApplicationAnomalies#spikes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#spikes ApplicationAnomalies#spikes}
   */
   readonly spikes?: ApplicationAnomaliesTrafficSpikes;
 }
@@ -1394,7 +1394,7 @@ export class ApplicationAnomaliesTrafficOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies dynatrace_application_anomalies}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies dynatrace_application_anomalies}
 */
 export class ApplicationAnomalies extends cdktf.TerraformResource {
 
@@ -1410,7 +1410,7 @@ export class ApplicationAnomalies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationAnomalies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationAnomalies to import
-  * @param importFromId The id of the existing ApplicationAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationAnomalies that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationAnomalies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1422,7 +1422,7 @@ export class ApplicationAnomalies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/application_anomalies dynatrace_application_anomalies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/application_anomalies dynatrace_application_anomalies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1433,8 +1433,8 @@ export class ApplicationAnomalies extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_application_anomalies',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

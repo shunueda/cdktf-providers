@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProtectionGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The following table describes the possible conditions for a bucket to be automatically added to a protection group. <br><table><tr><th>Field</th><th>Rule Condition</th><th>Description</th></tr><tr><td>aws_tag</td><td>$eq, $not_eq, $contains, $not_contains, $all, $not_all, $in, $not_in</td><td>Denotes the AWS tag(s) to conditionalize on<code>{"aws_tag":{"$eq":{"key":"Environment", "value":"Prod"}}}</code></td></tr><tr><td>aws_account_native_id</td><td>$eq, $in</td><td>Denotes the AWS account to conditionalize on<code>{"aws_account_native_id":{"$eq":"111111111111"}}</code></td></tr><tr><td>account_native_id<br><b>Deprecated</b></td><td>$eq, $in</td><td>This will be deprecated and use aws_account_native_id instead.<br>Denotes the AWS account to conditionalize on<code>{"account_native_id":{"$in":["111111111111"]}}</code></td></tr><tr><td>aws_region</td><td>$eq, $in</td><td>Denotes the AWS region to conditionalize on<code>{"aws_region":{"$eq":"us-west-2"}}</code></td></tr></table>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#bucket_rule ProtectionGroup#bucket_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#bucket_rule ProtectionGroup#bucket_rule}
   */
   readonly bucketRule?: string;
   /**
   * Brief description to denote details of the protection group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#description ProtectionGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#description ProtectionGroup#description}
   */
   readonly description?: string;
   /**
   * The user-assigned name of the protection group. Must be globally-unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#name ProtectionGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#name ProtectionGroup#name}
   */
   readonly name: string;
   /**
   * object_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#object_filter ProtectionGroup#object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#object_filter ProtectionGroup#object_filter}
   */
   readonly objectFilter?: ProtectionGroupObjectFilter[] | cdktf.IResolvable;
 }
@@ -121,13 +121,13 @@ export interface ProtectionGroupObjectFilterPrefixFilters {
   /**
   * List of subprefixes to exclude from the prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#excluded_sub_prefixes ProtectionGroup#excluded_sub_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#excluded_sub_prefixes ProtectionGroup#excluded_sub_prefixes}
   */
   readonly excludedSubPrefixes?: string[];
   /**
   * Prefix to include. To include all objects in the bucket specify empty string "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#prefix ProtectionGroup#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#prefix ProtectionGroup#prefix}
   */
   readonly prefix: string;
 }
@@ -271,25 +271,25 @@ export interface ProtectionGroupObjectFilter {
   /**
   * The cutoff date for inclusion objects from the backup. Any object with a last modified date after or equal than this value will be included in the backup. This is useful for filtering out old or irrelevant objects based on their modification timestamps. This supports RFC-3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#earliest_last_modified_timestamp ProtectionGroup#earliest_last_modified_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#earliest_last_modified_timestamp ProtectionGroup#earliest_last_modified_timestamp}
   */
   readonly earliestLastModifiedTimestamp?: string;
   /**
   * Whether to back up only the latest object version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#latest_version_only ProtectionGroup#latest_version_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#latest_version_only ProtectionGroup#latest_version_only}
   */
   readonly latestVersionOnly?: boolean | cdktf.IResolvable;
   /**
   * Storage class to include in the backup. Valid values are: S3 Standard, S3 Standard-IA, S3 Intelligent-Tiering, and S3 One Zone-IA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#storage_classes ProtectionGroup#storage_classes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#storage_classes ProtectionGroup#storage_classes}
   */
   readonly storageClasses: string[];
   /**
   * prefix_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#prefix_filters ProtectionGroup#prefix_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#prefix_filters ProtectionGroup#prefix_filters}
   */
   readonly prefixFilters?: ProtectionGroupObjectFilterPrefixFilters[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class ProtectionGroupObjectFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group clumio_protection_group}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group clumio_protection_group}
 */
 export class ProtectionGroup extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class ProtectionGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProtectionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProtectionGroup to import
-  * @param importFromId The id of the existing ProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProtectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class ProtectionGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/protection_group clumio_protection_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/protection_group clumio_protection_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class ProtectionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_protection_group',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

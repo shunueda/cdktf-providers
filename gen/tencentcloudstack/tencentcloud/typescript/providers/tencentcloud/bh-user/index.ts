@@ -1,0 +1,415 @@
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface BhUserConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Authentication method, 0 - local, 1 - LDAP, 2 - OAuth. Default is 0 if not provided.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#auth_type BhUser#auth_type}
+  */
+  readonly authType?: number;
+  /**
+  * Department ID to which the user belongs, e.g.: "1.2.3".
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#department_id BhUser#department_id}
+  */
+  readonly departmentId?: string;
+  /**
+  * Email address. At least one of phone and email parameters must be provided.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#email BhUser#email}
+  */
+  readonly email?: string;
+  /**
+  * User group ID set to which the user belongs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#group_id_set BhUser#group_id_set}
+  */
+  readonly groupIdSet?: number[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#id BhUser#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Input in the format of "country code|phone number", e.g.: "+86|xxxxxxxx". At least one of phone and email parameters must be provided.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#phone BhUser#phone}
+  */
+  readonly phone?: string;
+  /**
+  * User's real name, maximum length 20 characters, cannot contain whitespace characters.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#real_name BhUser#real_name}
+  */
+  readonly realName: string;
+  /**
+  * Username, 3-20 characters, must start with an English letter and cannot contain characters other than `letters`, `numbers`, `.`, `_`, `-`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#user_name BhUser#user_name}
+  */
+  readonly userName: string;
+  /**
+  * User effective time, e.g.: "2021-09-22T00:00:00+00:00". If effective and expiration times are not filled, the user will be valid permanently.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_from BhUser#validate_from}
+  */
+  readonly validateFrom?: string;
+  /**
+  * Access time restriction, a string composed of 0 and 1 with length 168 (7 * 24), representing the time slots allowed for the user in a week. The Nth character in the string represents the Nth hour in the week, 0 - not allowed to access, 1 - allowed to access.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_time BhUser#validate_time}
+  */
+  readonly validateTime?: string;
+  /**
+  * User expiration time, e.g.: "2021-09-23T00:00:00+00:00". If effective and expiration times are not filled, the user will be valid permanently.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#validate_to BhUser#validate_to}
+  */
+  readonly validateTo?: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user tencentcloud_bh_user}
+*/
+export class BhUser extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "tencentcloud_bh_user";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a BhUser resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the BhUser to import
+  * @param importFromId The id of the existing BhUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the BhUser to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "tencentcloud_bh_user", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/bh_user tencentcloud_bh_user} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options BhUserConfig
+  */
+  public constructor(scope: Construct, id: string, config: BhUserConfig) {
+    super(scope, id, {
+      terraformResourceType: 'tencentcloud_bh_user',
+      terraformGeneratorMetadata: {
+        providerName: 'tencentcloud',
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._authType = config.authType;
+    this._departmentId = config.departmentId;
+    this._email = config.email;
+    this._groupIdSet = config.groupIdSet;
+    this._id = config.id;
+    this._phone = config.phone;
+    this._realName = config.realName;
+    this._userName = config.userName;
+    this._validateFrom = config.validateFrom;
+    this._validateTime = config.validateTime;
+    this._validateTo = config.validateTo;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // auth_type - computed: true, optional: true, required: false
+  private _authType?: number; 
+  public get authType() {
+    return this.getNumberAttribute('auth_type');
+  }
+  public set authType(value: number) {
+    this._authType = value;
+  }
+  public resetAuthType() {
+    this._authType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get authTypeInput() {
+    return this._authType;
+  }
+
+  // department_id - computed: true, optional: true, required: false
+  private _departmentId?: string; 
+  public get departmentId() {
+    return this.getStringAttribute('department_id');
+  }
+  public set departmentId(value: string) {
+    this._departmentId = value;
+  }
+  public resetDepartmentId() {
+    this._departmentId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get departmentIdInput() {
+    return this._departmentId;
+  }
+
+  // email - computed: false, optional: true, required: false
+  private _email?: string; 
+  public get email() {
+    return this.getStringAttribute('email');
+  }
+  public set email(value: string) {
+    this._email = value;
+  }
+  public resetEmail() {
+    this._email = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get emailInput() {
+    return this._email;
+  }
+
+  // group_id_set - computed: false, optional: true, required: false
+  private _groupIdSet?: number[]; 
+  public get groupIdSet() {
+    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('group_id_set')));
+  }
+  public set groupIdSet(value: number[]) {
+    this._groupIdSet = value;
+  }
+  public resetGroupIdSet() {
+    this._groupIdSet = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupIdSetInput() {
+    return this._groupIdSet;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // phone - computed: false, optional: true, required: false
+  private _phone?: string; 
+  public get phone() {
+    return this.getStringAttribute('phone');
+  }
+  public set phone(value: string) {
+    this._phone = value;
+  }
+  public resetPhone() {
+    this._phone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get phoneInput() {
+    return this._phone;
+  }
+
+  // real_name - computed: false, optional: false, required: true
+  private _realName?: string; 
+  public get realName() {
+    return this.getStringAttribute('real_name');
+  }
+  public set realName(value: string) {
+    this._realName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get realNameInput() {
+    return this._realName;
+  }
+
+  // user_id - computed: true, optional: false, required: false
+  public get userId() {
+    return this.getNumberAttribute('user_id');
+  }
+
+  // user_name - computed: false, optional: false, required: true
+  private _userName?: string; 
+  public get userName() {
+    return this.getStringAttribute('user_name');
+  }
+  public set userName(value: string) {
+    this._userName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userNameInput() {
+    return this._userName;
+  }
+
+  // validate_from - computed: true, optional: true, required: false
+  private _validateFrom?: string; 
+  public get validateFrom() {
+    return this.getStringAttribute('validate_from');
+  }
+  public set validateFrom(value: string) {
+    this._validateFrom = value;
+  }
+  public resetValidateFrom() {
+    this._validateFrom = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateFromInput() {
+    return this._validateFrom;
+  }
+
+  // validate_time - computed: false, optional: true, required: false
+  private _validateTime?: string; 
+  public get validateTime() {
+    return this.getStringAttribute('validate_time');
+  }
+  public set validateTime(value: string) {
+    this._validateTime = value;
+  }
+  public resetValidateTime() {
+    this._validateTime = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateTimeInput() {
+    return this._validateTime;
+  }
+
+  // validate_to - computed: true, optional: true, required: false
+  private _validateTo?: string; 
+  public get validateTo() {
+    return this.getStringAttribute('validate_to');
+  }
+  public set validateTo(value: string) {
+    this._validateTo = value;
+  }
+  public resetValidateTo() {
+    this._validateTo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateToInput() {
+    return this._validateTo;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      auth_type: cdktf.numberToTerraform(this._authType),
+      department_id: cdktf.stringToTerraform(this._departmentId),
+      email: cdktf.stringToTerraform(this._email),
+      group_id_set: cdktf.listMapper(cdktf.numberToTerraform, false)(this._groupIdSet),
+      id: cdktf.stringToTerraform(this._id),
+      phone: cdktf.stringToTerraform(this._phone),
+      real_name: cdktf.stringToTerraform(this._realName),
+      user_name: cdktf.stringToTerraform(this._userName),
+      validate_from: cdktf.stringToTerraform(this._validateFrom),
+      validate_time: cdktf.stringToTerraform(this._validateTime),
+      validate_to: cdktf.stringToTerraform(this._validateTo),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      auth_type: {
+        value: cdktf.numberToHclTerraform(this._authType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      department_id: {
+        value: cdktf.stringToHclTerraform(this._departmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      email: {
+        value: cdktf.stringToHclTerraform(this._email),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      group_id_set: {
+        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._groupIdSet),
+        isBlock: false,
+        type: "set",
+        storageClassType: "numberList",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      phone: {
+        value: cdktf.stringToHclTerraform(this._phone),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      real_name: {
+        value: cdktf.stringToHclTerraform(this._realName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      user_name: {
+        value: cdktf.stringToHclTerraform(this._userName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_from: {
+        value: cdktf.stringToHclTerraform(this._validateFrom),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_time: {
+        value: cdktf.stringToHclTerraform(this._validateTime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_to: {
+        value: cdktf.stringToHclTerraform(this._validateTo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

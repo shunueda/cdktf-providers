@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudSqlserverBackupsConfig extends cdktf.TerraformM
   /**
   * Filter by backup name, do not filter if left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#backup_name DataTencentcloudSqlserverBackups#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#backup_name DataTencentcloudSqlserverBackups#backup_name}
   */
   readonly backupName?: string;
   /**
   * End time of the instance list, like yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#end_time DataTencentcloudSqlserverBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#end_time DataTencentcloudSqlserverBackups#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#id DataTencentcloudSqlserverBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#id DataTencentcloudSqlserverBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudSqlserverBackupsConfig extends cdktf.TerraformM
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#instance_id DataTencentcloudSqlserverBackups#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#instance_id DataTencentcloudSqlserverBackups#instance_id}
   */
   readonly instanceId: string;
   /**
   * Used to store results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#result_output_file DataTencentcloudSqlserverBackups#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#result_output_file DataTencentcloudSqlserverBackups#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time of the instance list, like yyyy-MM-dd HH:mm:ss.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#start_time DataTencentcloudSqlserverBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#start_time DataTencentcloudSqlserverBackups#start_time}
   */
   readonly startTime: string;
 }
@@ -177,7 +177,7 @@ export class DataTencentcloudSqlserverBackupsListStructList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups tencentcloud_sqlserver_backups}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups tencentcloud_sqlserver_backups}
 */
 export class DataTencentcloudSqlserverBackups extends cdktf.TerraformDataSource {
 
@@ -193,7 +193,7 @@ export class DataTencentcloudSqlserverBackups extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudSqlserverBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSqlserverBackups to import
-  * @param importFromId The id of the existing DataTencentcloudSqlserverBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSqlserverBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSqlserverBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class DataTencentcloudSqlserverBackups extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/sqlserver_backups tencentcloud_sqlserver_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/sqlserver_backups tencentcloud_sqlserver_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class DataTencentcloudSqlserverBackups extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_sqlserver_backups',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

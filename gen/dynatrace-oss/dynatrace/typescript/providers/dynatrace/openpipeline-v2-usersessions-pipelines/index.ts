@@ -12,6 +12,10 @@ OpenpipelineV2UsersessionsPipelinesDavis,
 openpipelineV2UsersessionsPipelinesDavisToTerraform, 
 openpipelineV2UsersessionsPipelinesDavisToHclTerraform, 
 OpenpipelineV2UsersessionsPipelinesDavisOutputReference, 
+OpenpipelineV2UsersessionsPipelinesMetadataListStruct, 
+openpipelineV2UsersessionsPipelinesMetadataListStructToTerraform, 
+openpipelineV2UsersessionsPipelinesMetadataListStructToHclTerraform, 
+OpenpipelineV2UsersessionsPipelinesMetadataListStructOutputReference, 
 OpenpipelineV2UsersessionsPipelinesMetricExtraction, 
 openpipelineV2UsersessionsPipelinesMetricExtractionToTerraform, 
 openpipelineV2UsersessionsPipelinesMetricExtractionToHclTerraform, 
@@ -47,17 +51,17 @@ export interface OpenpipelineV2UsersessionsPipelinesConfig extends cdktf.Terrafo
   /**
   * Custom pipeline id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#custom_id OpenpipelineV2UsersessionsPipelines#custom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#custom_id OpenpipelineV2UsersessionsPipelines#custom_id}
   */
   readonly customId: string;
   /**
   * Display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#display_name OpenpipelineV2UsersessionsPipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#display_name OpenpipelineV2UsersessionsPipelines#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#id OpenpipelineV2UsersessionsPipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#id OpenpipelineV2UsersessionsPipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,67 +70,73 @@ export interface OpenpipelineV2UsersessionsPipelinesConfig extends cdktf.Terrafo
   /**
   * cost_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#cost_allocation OpenpipelineV2UsersessionsPipelines#cost_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#cost_allocation OpenpipelineV2UsersessionsPipelines#cost_allocation}
   */
   readonly costAllocation?: OpenpipelineV2UsersessionsPipelinesCostAllocation;
   /**
   * data_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#data_extraction OpenpipelineV2UsersessionsPipelines#data_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#data_extraction OpenpipelineV2UsersessionsPipelines#data_extraction}
   */
   readonly dataExtraction?: OpenpipelineV2UsersessionsPipelinesDataExtraction;
   /**
   * davis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#davis OpenpipelineV2UsersessionsPipelines#davis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#davis OpenpipelineV2UsersessionsPipelines#davis}
   */
   readonly davis?: OpenpipelineV2UsersessionsPipelinesDavis;
   /**
+  * metadata_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#metadata_list OpenpipelineV2UsersessionsPipelines#metadata_list}
+  */
+  readonly metadataList?: OpenpipelineV2UsersessionsPipelinesMetadataListStruct;
+  /**
   * metric_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#metric_extraction OpenpipelineV2UsersessionsPipelines#metric_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#metric_extraction OpenpipelineV2UsersessionsPipelines#metric_extraction}
   */
   readonly metricExtraction?: OpenpipelineV2UsersessionsPipelinesMetricExtraction;
   /**
   * processing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#processing OpenpipelineV2UsersessionsPipelines#processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#processing OpenpipelineV2UsersessionsPipelines#processing}
   */
   readonly processing?: OpenpipelineV2UsersessionsPipelinesProcessing;
   /**
   * product_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#product_allocation OpenpipelineV2UsersessionsPipelines#product_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#product_allocation OpenpipelineV2UsersessionsPipelines#product_allocation}
   */
   readonly productAllocation?: OpenpipelineV2UsersessionsPipelinesProductAllocation;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#security_context OpenpipelineV2UsersessionsPipelines#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#security_context OpenpipelineV2UsersessionsPipelines#security_context}
   */
   readonly securityContext?: OpenpipelineV2UsersessionsPipelinesSecurityContext;
   /**
   * smartscape_edge_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_edge_extraction OpenpipelineV2UsersessionsPipelines#smartscape_edge_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_edge_extraction OpenpipelineV2UsersessionsPipelines#smartscape_edge_extraction}
   */
   readonly smartscapeEdgeExtraction?: OpenpipelineV2UsersessionsPipelinesSmartscapeEdgeExtraction;
   /**
   * smartscape_node_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_node_extraction OpenpipelineV2UsersessionsPipelines#smartscape_node_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#smartscape_node_extraction OpenpipelineV2UsersessionsPipelines#smartscape_node_extraction}
   */
   readonly smartscapeNodeExtraction?: OpenpipelineV2UsersessionsPipelinesSmartscapeNodeExtraction;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#storage OpenpipelineV2UsersessionsPipelines#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#storage OpenpipelineV2UsersessionsPipelines#storage}
   */
   readonly storage?: OpenpipelineV2UsersessionsPipelinesStorage;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines}
 */
 export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource {
 
@@ -142,7 +152,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OpenpipelineV2UsersessionsPipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpenpipelineV2UsersessionsPipelines to import
-  * @param importFromId The id of the existing OpenpipelineV2UsersessionsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpenpipelineV2UsersessionsPipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpenpipelineV2UsersessionsPipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +164,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/openpipeline_v2_usersessions_pipelines dynatrace_openpipeline_v2_usersessions_pipelines} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +175,8 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
       terraformResourceType: 'dynatrace_openpipeline_v2_usersessions_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -182,6 +192,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
     this._costAllocation.internalValue = config.costAllocation;
     this._dataExtraction.internalValue = config.dataExtraction;
     this._davis.internalValue = config.davis;
+    this._metadataList.internalValue = config.metadataList;
     this._metricExtraction.internalValue = config.metricExtraction;
     this._processing.internalValue = config.processing;
     this._productAllocation.internalValue = config.productAllocation;
@@ -283,6 +294,22 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
   // Temporarily expose input value. Use with caution.
   public get davisInput() {
     return this._davis.internalValue;
+  }
+
+  // metadata_list - computed: false, optional: true, required: false
+  private _metadataList = new OpenpipelineV2UsersessionsPipelinesMetadataListStructOutputReference(this, "metadata_list");
+  public get metadataList() {
+    return this._metadataList;
+  }
+  public putMetadataList(value: OpenpipelineV2UsersessionsPipelinesMetadataListStruct) {
+    this._metadataList.internalValue = value;
+  }
+  public resetMetadataList() {
+    this._metadataList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get metadataListInput() {
+    return this._metadataList.internalValue;
   }
 
   // metric_extraction - computed: false, optional: true, required: false
@@ -409,6 +436,7 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
       cost_allocation: openpipelineV2UsersessionsPipelinesCostAllocationToTerraform(this._costAllocation.internalValue),
       data_extraction: openpipelineV2UsersessionsPipelinesDataExtractionToTerraform(this._dataExtraction.internalValue),
       davis: openpipelineV2UsersessionsPipelinesDavisToTerraform(this._davis.internalValue),
+      metadata_list: openpipelineV2UsersessionsPipelinesMetadataListStructToTerraform(this._metadataList.internalValue),
       metric_extraction: openpipelineV2UsersessionsPipelinesMetricExtractionToTerraform(this._metricExtraction.internalValue),
       processing: openpipelineV2UsersessionsPipelinesProcessingToTerraform(this._processing.internalValue),
       product_allocation: openpipelineV2UsersessionsPipelinesProductAllocationToTerraform(this._productAllocation.internalValue),
@@ -456,6 +484,12 @@ export class OpenpipelineV2UsersessionsPipelines extends cdktf.TerraformResource
         isBlock: true,
         type: "list",
         storageClassType: "OpenpipelineV2UsersessionsPipelinesDavisList",
+      },
+      metadata_list: {
+        value: openpipelineV2UsersessionsPipelinesMetadataListStructToHclTerraform(this._metadataList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "OpenpipelineV2UsersessionsPipelinesMetadataListStructList",
       },
       metric_extraction: {
         value: openpipelineV2UsersessionsPipelinesMetricExtractionToHclTerraform(this._metricExtraction.internalValue),

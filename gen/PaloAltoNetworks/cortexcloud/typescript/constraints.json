@@ -1,0 +1,6 @@
+{
+  "cdktf": "0.21.0",
+  "providers": {
+    "cortexcloud": "1.0.2"
+  }
+}

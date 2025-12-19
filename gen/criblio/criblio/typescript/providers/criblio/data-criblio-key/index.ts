@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key
+// https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,52 +10,52 @@ export interface DataCriblioKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * must be one of ["aes-256-cbc", "aes-256-gcm"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#algorithm DataCriblioKey#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#algorithm DataCriblioKey#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#description DataCriblioKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#description DataCriblioKey#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#expires DataCriblioKey#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#expires DataCriblioKey#expires}
   */
   readonly expires?: number;
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#group_id DataCriblioKey#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#group_id DataCriblioKey#group_id}
   */
   readonly groupId: string;
   /**
   * The id of this key metadata entity instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#id DataCriblioKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#id DataCriblioKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#keyclass DataCriblioKey#keyclass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#keyclass DataCriblioKey#keyclass}
   */
   readonly keyclass?: number;
   /**
   * must be "local"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#kms DataCriblioKey#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#kms DataCriblioKey#kms}
   */
   readonly kms?: string;
   /**
   * Seed encryption with a [nonce](https://en.wikipedia.org/wiki/Cryptographic_nonce) to make the key more random and unique. Must be enabled with the aes-256-gcm algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#use_iv DataCriblioKey#use_iv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#use_iv DataCriblioKey#use_iv}
   */
   readonly useIv?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key criblio_key}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key criblio_key}
 */
 export class DataCriblioKey extends cdktf.TerraformDataSource {
 
@@ -71,7 +71,7 @@ export class DataCriblioKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioKey to import
-  * @param importFromId The id of the existing DataCriblioKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -83,7 +83,7 @@ export class DataCriblioKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.69/docs/data-sources/key criblio_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.72/docs/data-sources/key criblio_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -94,8 +94,8 @@ export class DataCriblioKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_key',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.69',
-        providerVersionConstraint: '1.20.69'
+        providerVersion: '1.20.72',
+        providerVersionConstraint: '1.20.72'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

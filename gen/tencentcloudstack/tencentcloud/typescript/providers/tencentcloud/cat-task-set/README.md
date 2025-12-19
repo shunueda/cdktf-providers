@@ -1,3 +1,3 @@
 # `tencentcloud_cat_task_set`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cat_task_set`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cat_task_set).
+Refer to the Terraform Registry for docs: [`tencentcloud_cat_task_set`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cat_task_set).

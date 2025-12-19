@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface BusinessEventsOneagentConfig extends cdktf.TerraformMetaArgumen
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#enabled BusinessEventsOneagent#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#enabled BusinessEventsOneagent#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#id BusinessEventsOneagent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#id BusinessEventsOneagent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface BusinessEventsOneagentConfig extends cdktf.TerraformMetaArgumen
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#insert_after BusinessEventsOneagent#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#insert_after BusinessEventsOneagent#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#rule_name BusinessEventsOneagent#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#rule_name BusinessEventsOneagent#rule_name}
   */
   readonly ruleName: string;
   /**
   * The scope of this setting (HOST, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#scope BusinessEventsOneagent#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#scope BusinessEventsOneagent#scope}
   */
   readonly scope?: string;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#event BusinessEventsOneagent#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#event BusinessEventsOneagent#event}
   */
   readonly event: BusinessEventsOneagentEvent;
   /**
   * triggers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#triggers BusinessEventsOneagent#triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#triggers BusinessEventsOneagent#triggers}
   */
   readonly triggers: BusinessEventsOneagentTriggers;
 }
@@ -55,19 +55,19 @@ export interface BusinessEventsOneagentEventCategory {
   /**
   * [See our documentation](https://dt-url.net/ei034bx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
   */
   readonly path?: string;
   /**
   * Fixed value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source?: string;
   /**
-  * Possible Values: `Constant_string`, `Request_body`, `Request_headers`, `Request_method`, `Request_parameters`, `Request_path`, `Request_url`, `Response_body`, `Response_headers`, `Response_statusCode`
+  * Data source. Possible Values: `constant.string`, `request.body`, `request.headers`, `request.method`, `request.parameters`, `request.path`, `request.url`, `response.body`, `response.headers`, `response.statusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
   */
   readonly sourceType: string;
 }
@@ -208,19 +208,19 @@ export interface BusinessEventsOneagentEventDataEventDataFieldComplexSource {
   /**
   * [See our documentation](https://dt-url.net/ei034bx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
   */
   readonly path?: string;
   /**
   * Fixed value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source?: string;
   /**
-  * Possible Values: `Constant_string`, `Request_body`, `Request_headers`, `Request_method`, `Request_parameters`, `Request_path`, `Request_url`, `Response_body`, `Response_headers`, `Response_statusCode`
+  * Data source. Possible Values: `constant.string`, `request.body`, `request.headers`, `request.method`, `request.parameters`, `request.path`, `request.url`, `response.body`, `response.headers`, `response.statusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
   */
   readonly sourceType: string;
 }
@@ -361,13 +361,13 @@ export interface BusinessEventsOneagentEventDataEventDataFieldComplex {
   /**
   * Field name to be added to data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#name BusinessEventsOneagent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#name BusinessEventsOneagent#name}
   */
   readonly name: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source: BusinessEventsOneagentEventDataEventDataFieldComplexSource;
 }
@@ -508,7 +508,7 @@ export interface BusinessEventsOneagentEventData {
   /**
   * event_data_field_complex block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#event_data_field_complex BusinessEventsOneagent#event_data_field_complex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#event_data_field_complex BusinessEventsOneagent#event_data_field_complex}
   */
   readonly eventDataFieldComplex: BusinessEventsOneagentEventDataEventDataFieldComplex[] | cdktf.IResolvable;
 }
@@ -591,19 +591,19 @@ export interface BusinessEventsOneagentEventProvider {
   /**
   * [See our documentation](https://dt-url.net/ei034bx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
   */
   readonly path?: string;
   /**
   * Fixed value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source?: string;
   /**
-  * Possible Values: `Constant_string`, `Request_body`, `Request_headers`, `Request_method`, `Request_parameters`, `Request_path`, `Request_url`, `Response_body`, `Response_headers`, `Response_statusCode`
+  * Data source. Possible Values: `constant.string`, `request.body`, `request.headers`, `request.method`, `request.parameters`, `request.path`, `request.url`, `response.body`, `response.headers`, `response.statusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
   */
   readonly sourceType: string;
 }
@@ -744,19 +744,19 @@ export interface BusinessEventsOneagentEventType {
   /**
   * [See our documentation](https://dt-url.net/ei034bx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
   */
   readonly path?: string;
   /**
   * Fixed value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source?: string;
   /**
-  * Possible Values: `Constant_string`, `Request_body`, `Request_headers`, `Request_method`, `Request_parameters`, `Request_path`, `Request_url`, `Response_body`, `Response_headers`, `Response_statusCode`
+  * Data source. Possible Values: `constant.string`, `request.body`, `request.headers`, `request.method`, `request.parameters`, `request.path`, `request.url`, `response.body`, `response.headers`, `response.statusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source_type BusinessEventsOneagent#source_type}
   */
   readonly sourceType: string;
 }
@@ -897,25 +897,25 @@ export interface BusinessEventsOneagentEvent {
   /**
   * category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#category BusinessEventsOneagent#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#category BusinessEventsOneagent#category}
   */
   readonly category: BusinessEventsOneagentEventCategory;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#data BusinessEventsOneagent#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#data BusinessEventsOneagent#data}
   */
   readonly data?: BusinessEventsOneagentEventData;
   /**
   * provider block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#provider BusinessEventsOneagent#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#provider BusinessEventsOneagent#provider}
   */
   readonly provider: BusinessEventsOneagentEventProvider;
   /**
   * type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#type BusinessEventsOneagent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#type BusinessEventsOneagent#type}
   */
   readonly type: BusinessEventsOneagentEventType;
 }
@@ -1077,15 +1077,15 @@ export class BusinessEventsOneagentEventOutputReference extends cdktf.ComplexObj
 }
 export interface BusinessEventsOneagentTriggersTriggerSource {
   /**
-  * Possible Values: `Request_body`, `Request_headers`, `Request_method`, `Request_parameters`, `Request_path`, `Request_url`, `Response_body`, `Response_headers`, `Response_statusCode`
+  * Data source. Possible Values: `request.body`, `request.headers`, `request.method`, `request.parameters`, `request.path`, `request.url`, `response.body`, `response.headers`, `response.statusCode`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#data_source BusinessEventsOneagent#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#data_source BusinessEventsOneagent#data_source}
   */
   readonly dataSource: string;
   /**
   * [See our documentation](https://dt-url.net/ei034bx)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#path BusinessEventsOneagent#path}
   */
   readonly path?: string;
 }
@@ -1197,25 +1197,25 @@ export interface BusinessEventsOneagentTriggersTrigger {
   /**
   * Case sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#case_sensitive BusinessEventsOneagent#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#case_sensitive BusinessEventsOneagent#case_sensitive}
   */
   readonly caseSensitive?: boolean | cdktf.IResolvable;
   /**
-  * Possible Values: `CONTAINS`, `ENDS_WITH`, `EQUALS`, `EXISTS`, `N_CONTAINS`, `N_ENDS_WITH`, `N_EQUALS`, `N_EXISTS`, `N_STARTS_WITH`, `STARTS_WITH`
+  * Operator. Possible Values: `CONTAINS`, `ENDS_WITH`, `EQUALS`, `EXISTS`, `N_CONTAINS`, `N_ENDS_WITH`, `N_EQUALS`, `N_EXISTS`, `N_STARTS_WITH`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#type BusinessEventsOneagent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#type BusinessEventsOneagent#type}
   */
   readonly type: string;
   /**
   * no documentation available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#value BusinessEventsOneagent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#value BusinessEventsOneagent#value}
   */
   readonly value?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#source BusinessEventsOneagent#source}
   */
   readonly source: BusinessEventsOneagentTriggersTriggerSource;
 }
@@ -1414,7 +1414,7 @@ export interface BusinessEventsOneagentTriggers {
   /**
   * trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#trigger BusinessEventsOneagent#trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#trigger BusinessEventsOneagent#trigger}
   */
   readonly trigger: BusinessEventsOneagentTriggersTrigger[] | cdktf.IResolvable;
 }
@@ -1495,7 +1495,7 @@ export class BusinessEventsOneagentTriggersOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent dynatrace_business_events_oneagent}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent dynatrace_business_events_oneagent}
 */
 export class BusinessEventsOneagent extends cdktf.TerraformResource {
 
@@ -1511,7 +1511,7 @@ export class BusinessEventsOneagent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessEventsOneagent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessEventsOneagent to import
-  * @param importFromId The id of the existing BusinessEventsOneagent that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessEventsOneagent that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessEventsOneagent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1523,7 +1523,7 @@ export class BusinessEventsOneagent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/business_events_oneagent dynatrace_business_events_oneagent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/business_events_oneagent dynatrace_business_events_oneagent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1534,8 +1534,8 @@ export class BusinessEventsOneagent extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_business_events_oneagent',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AutomationWorkflowJiraConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#id AutomationWorkflowJira#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#id AutomationWorkflowJira#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface AutomationWorkflowJiraConfig extends cdktf.TerraformMetaArgumen
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#insert_after AutomationWorkflowJira#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#insert_after AutomationWorkflowJira#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * The name of the Jira connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#name AutomationWorkflowJira#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#name AutomationWorkflowJira#name}
   */
   readonly name: string;
   /**
   * Password of the Jira user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#password AutomationWorkflowJira#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#password AutomationWorkflowJira#password}
   */
   readonly password?: string;
   /**
   * Token for the selected authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#token AutomationWorkflowJira#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#token AutomationWorkflowJira#token}
   */
   readonly token?: string;
   /**
   * Possible Values: `Basic`, `Cloud_token`, `Pat`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#type AutomationWorkflowJira#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#type AutomationWorkflowJira#type}
   */
   readonly type: string;
   /**
   * URL of the Jira server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#url AutomationWorkflowJira#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#url AutomationWorkflowJira#url}
   */
   readonly url: string;
   /**
   * Username or E-Mail address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#user AutomationWorkflowJira#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#user AutomationWorkflowJira#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira dynatrace_automation_workflow_jira}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira dynatrace_automation_workflow_jira}
 */
 export class AutomationWorkflowJira extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class AutomationWorkflowJira extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomationWorkflowJira resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomationWorkflowJira to import
-  * @param importFromId The id of the existing AutomationWorkflowJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomationWorkflowJira that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomationWorkflowJira to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class AutomationWorkflowJira extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/automation_workflow_jira dynatrace_automation_workflow_jira} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/automation_workflow_jira dynatrace_automation_workflow_jira} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class AutomationWorkflowJira extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_automation_workflow_jira',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface InfraopsAppSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#id InfraopsAppSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#id InfraopsAppSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface InfraopsAppSettingsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The threshold at which a network device interface is deemed to be saturated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#interface_saturation_threshold InfraopsAppSettings#interface_saturation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#interface_saturation_threshold InfraopsAppSettings#interface_saturation_threshold}
   */
   readonly interfaceSaturationThreshold?: number;
   /**
   * Limit the number of results returned from Grail for Host, Network device, and Extensions entities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#invex_dql_query_limit InfraopsAppSettings#invex_dql_query_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#invex_dql_query_limit InfraopsAppSettings#invex_dql_query_limit}
   */
   readonly invexDqlQueryLimit?: number;
   /**
   * Limit for server-side sorting in Host, Network device and Extensions inventories. Sorting is disabled when the row count exceeds the configured threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#invex_dql_sort_limit InfraopsAppSettings#invex_dql_sort_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#invex_dql_sort_limit InfraopsAppSettings#invex_dql_sort_limit}
   */
   readonly invexDqlSortLimit?: number;
   /**
   * When set to true, the app will display monitoring candidates in the Hosts table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#show_monitoring_candidates InfraopsAppSettings#show_monitoring_candidates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#show_monitoring_candidates InfraopsAppSettings#show_monitoring_candidates}
   */
   readonly showMonitoringCandidates: boolean | cdktf.IResolvable;
   /**
   * When set to true, the app will display app only hosts in the Hosts table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#show_standalone_hosts InfraopsAppSettings#show_standalone_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#show_standalone_hosts InfraopsAppSettings#show_standalone_hosts}
   */
   readonly showStandaloneHosts: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings dynatrace_infraops_app_settings}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings dynatrace_infraops_app_settings}
 */
 export class InfraopsAppSettings extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class InfraopsAppSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InfraopsAppSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InfraopsAppSettings to import
-  * @param importFromId The id of the existing InfraopsAppSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InfraopsAppSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InfraopsAppSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class InfraopsAppSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/infraops_app_settings dynatrace_infraops_app_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/infraops_app_settings dynatrace_infraops_app_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class InfraopsAppSettings extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_infraops_app_settings',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

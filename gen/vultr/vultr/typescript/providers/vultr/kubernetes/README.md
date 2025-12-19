@@ -1,3 +1,3 @@
 # `vultr_kubernetes`
 
-Refer to the Terraform Registry for docs: [`vultr_kubernetes`](https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/kubernetes).
+Refer to the Terraform Registry for docs: [`vultr_kubernetes`](https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/kubernetes).

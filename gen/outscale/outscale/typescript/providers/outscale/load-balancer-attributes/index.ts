@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes
+// https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface LoadBalancerAttributesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#id LoadBalancerAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#id LoadBalancerAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#load_balancer_name LoadBalancerAttributes#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#load_balancer_name LoadBalancerAttributes#load_balancer_name}
   */
   readonly loadBalancerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#load_balancer_port LoadBalancerAttributes#load_balancer_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#load_balancer_port LoadBalancerAttributes#load_balancer_port}
   */
   readonly loadBalancerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#policy_names LoadBalancerAttributes#policy_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#policy_names LoadBalancerAttributes#policy_names}
   */
   readonly policyNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#server_certificate_id LoadBalancerAttributes#server_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#server_certificate_id LoadBalancerAttributes#server_certificate_id}
   */
   readonly serverCertificateId?: string;
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#access_log LoadBalancerAttributes#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#access_log LoadBalancerAttributes#access_log}
   */
   readonly accessLog?: LoadBalancerAttributesAccessLog;
   /**
   * health_check block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#health_check LoadBalancerAttributes#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#health_check LoadBalancerAttributes#health_check}
   */
   readonly healthCheck?: LoadBalancerAttributesHealthCheck;
-  /**
-  * tags block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#tags LoadBalancerAttributes#tags}
-  */
-  readonly tags?: LoadBalancerAttributesTags[] | cdktf.IResolvable;
 }
 export interface LoadBalancerAttributesApplicationStickyCookiePolicies {
 }
@@ -384,21 +378,101 @@ export class LoadBalancerAttributesSourceSecurityGroupList extends cdktf.Complex
     return new LoadBalancerAttributesSourceSecurityGroupOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface LoadBalancerAttributesTags {
+}
+
+export function loadBalancerAttributesTagsToTerraform(struct?: LoadBalancerAttributesTags): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function loadBalancerAttributesTagsToHclTerraform(struct?: LoadBalancerAttributesTags): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class LoadBalancerAttributesTagsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): LoadBalancerAttributesTags | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: LoadBalancerAttributesTags | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // key - computed: true, optional: false, required: false
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+
+  // value - computed: true, optional: false, required: false
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+}
+
+export class LoadBalancerAttributesTagsList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): LoadBalancerAttributesTagsOutputReference {
+    return new LoadBalancerAttributesTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface LoadBalancerAttributesAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#is_enabled LoadBalancerAttributes#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#is_enabled LoadBalancerAttributes#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#osu_bucket_name LoadBalancerAttributes#osu_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#osu_bucket_name LoadBalancerAttributes#osu_bucket_name}
   */
   readonly osuBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#osu_bucket_prefix LoadBalancerAttributes#osu_bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#osu_bucket_prefix LoadBalancerAttributes#osu_bucket_prefix}
   */
   readonly osuBucketPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#publication_interval LoadBalancerAttributes#publication_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#publication_interval LoadBalancerAttributes#publication_interval}
   */
   readonly publicationInterval?: number;
 }
@@ -569,31 +643,31 @@ export class LoadBalancerAttributesAccessLogOutputReference extends cdktf.Comple
 }
 export interface LoadBalancerAttributesHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#check_interval LoadBalancerAttributes#check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#check_interval LoadBalancerAttributes#check_interval}
   */
   readonly checkInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#healthy_threshold LoadBalancerAttributes#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#healthy_threshold LoadBalancerAttributes#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#path LoadBalancerAttributes#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#path LoadBalancerAttributes#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#port LoadBalancerAttributes#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#port LoadBalancerAttributes#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#protocol LoadBalancerAttributes#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#protocol LoadBalancerAttributes#protocol}
   */
   readonly protocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#timeout LoadBalancerAttributes#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#timeout LoadBalancerAttributes#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#unhealthy_threshold LoadBalancerAttributes#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#unhealthy_threshold LoadBalancerAttributes#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -843,100 +917,9 @@ export class LoadBalancerAttributesHealthCheckOutputReference extends cdktf.Comp
     return this._unhealthyThreshold;
   }
 }
-export interface LoadBalancerAttributesTags {
-}
-
-export function loadBalancerAttributesTagsToTerraform(struct?: LoadBalancerAttributesTags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-  }
-}
-
-
-export function loadBalancerAttributesTagsToHclTerraform(struct?: LoadBalancerAttributesTags | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-  };
-  return attrs;
-}
-
-export class LoadBalancerAttributesTagsOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): LoadBalancerAttributesTags | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: LoadBalancerAttributesTags | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-    }
-  }
-
-  // key - computed: true, optional: false, required: false
-  public get key() {
-    return this.getStringAttribute('key');
-  }
-
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
-  }
-}
-
-export class LoadBalancerAttributesTagsList extends cdktf.ComplexList {
-  public internalValue? : LoadBalancerAttributesTags[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): LoadBalancerAttributesTagsOutputReference {
-    return new LoadBalancerAttributesTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes outscale_load_balancer_attributes}
+* Represents a {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes outscale_load_balancer_attributes}
 */
 export class LoadBalancerAttributes extends cdktf.TerraformResource {
 
@@ -952,7 +935,7 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoadBalancerAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoadBalancerAttributes to import
-  * @param importFromId The id of the existing LoadBalancerAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoadBalancerAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoadBalancerAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -964,7 +947,7 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.2.1/docs/resources/load_balancer_attributes outscale_load_balancer_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/outscale/outscale/1.3.0/docs/resources/load_balancer_attributes outscale_load_balancer_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -975,8 +958,8 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'outscale_load_balancer_attributes',
       terraformGeneratorMetadata: {
         providerName: 'outscale',
-        providerVersion: '1.2.1',
-        providerVersionConstraint: '1.2.1'
+        providerVersion: '1.3.0',
+        providerVersionConstraint: '1.3.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -993,7 +976,6 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
     this._serverCertificateId = config.serverCertificateId;
     this._accessLog.internalValue = config.accessLog;
     this._healthCheck.internalValue = config.healthCheck;
-    this._tags.internalValue = config.tags;
   }
 
   // ==========
@@ -1136,6 +1118,12 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
     return this.getListAttribute('subregion_names');
   }
 
+  // tags - computed: true, optional: false, required: false
+  private _tags = new LoadBalancerAttributesTagsList(this, "tags", true);
+  public get tags() {
+    return this._tags;
+  }
+
   // access_log - computed: false, optional: true, required: false
   private _accessLog = new LoadBalancerAttributesAccessLogOutputReference(this, "access_log");
   public get accessLog() {
@@ -1168,22 +1156,6 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
     return this._healthCheck.internalValue;
   }
 
-  // tags - computed: false, optional: true, required: false
-  private _tags = new LoadBalancerAttributesTagsList(this, "tags", false);
-  public get tags() {
-    return this._tags;
-  }
-  public putTags(value: LoadBalancerAttributesTags[] | cdktf.IResolvable) {
-    this._tags.internalValue = value;
-  }
-  public resetTags() {
-    this._tags.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get tagsInput() {
-    return this._tags.internalValue;
-  }
-
   // =========
   // SYNTHESIS
   // =========
@@ -1197,7 +1169,6 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
       server_certificate_id: cdktf.stringToTerraform(this._serverCertificateId),
       access_log: loadBalancerAttributesAccessLogToTerraform(this._accessLog.internalValue),
       health_check: loadBalancerAttributesHealthCheckToTerraform(this._healthCheck.internalValue),
-      tags: cdktf.listMapper(loadBalancerAttributesTagsToTerraform, true)(this._tags.internalValue),
     };
   }
 
@@ -1244,12 +1215,6 @@ export class LoadBalancerAttributes extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "LoadBalancerAttributesHealthCheckList",
-      },
-      tags: {
-        value: cdktf.listMapperHcl(loadBalancerAttributesTagsToHclTerraform, true)(this._tags.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "LoadBalancerAttributesTagsList",
       },
     };
 

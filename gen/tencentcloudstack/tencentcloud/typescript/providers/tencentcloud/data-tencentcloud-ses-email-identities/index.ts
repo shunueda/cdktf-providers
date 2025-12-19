@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudSesEmailIdentitiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities#id DataTencentcloudSesEmailIdentities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities#id DataTencentcloudSesEmailIdentities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataTencentcloudSesEmailIdentitiesConfig extends cdktf.Terrafor
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities#result_output_file DataTencentcloudSesEmailIdentities#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities#result_output_file DataTencentcloudSesEmailIdentities#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -118,7 +118,7 @@ export class DataTencentcloudSesEmailIdentitiesEmailIdentitiesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities tencentcloud_ses_email_identities}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities tencentcloud_ses_email_identities}
 */
 export class DataTencentcloudSesEmailIdentities extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataTencentcloudSesEmailIdentities extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataTencentcloudSesEmailIdentities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudSesEmailIdentities to import
-  * @param importFromId The id of the existing DataTencentcloudSesEmailIdentities that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudSesEmailIdentities that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudSesEmailIdentities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataTencentcloudSesEmailIdentities extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/ses_email_identities tencentcloud_ses_email_identities} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/ses_email_identities tencentcloud_ses_email_identities} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataTencentcloudSesEmailIdentities extends cdktf.TerraformDataSourc
       terraformResourceType: 'tencentcloud_ses_email_identities',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships
+// https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataGitlabGroupBillableMemberMembershipsConfig extends cdktf.Te
   /**
   * The ID of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships#group_id DataGitlabGroupBillableMemberMemberships#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships#group_id DataGitlabGroupBillableMemberMemberships#group_id}
   */
   readonly groupId: string;
   /**
   * The ID of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships#user_id DataGitlabGroupBillableMemberMemberships#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships#user_id DataGitlabGroupBillableMemberMemberships#user_id}
   */
   readonly userId: number;
 }
@@ -127,7 +127,7 @@ export class DataGitlabGroupBillableMemberMembershipsMembershipsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships gitlab_group_billable_member_memberships}
+* Represents a {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships gitlab_group_billable_member_memberships}
 */
 export class DataGitlabGroupBillableMemberMemberships extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataGitlabGroupBillableMemberMemberships extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataGitlabGroupBillableMemberMemberships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGitlabGroupBillableMemberMemberships to import
-  * @param importFromId The id of the existing DataGitlabGroupBillableMemberMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGitlabGroupBillableMemberMemberships that should be imported. Refer to the {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGitlabGroupBillableMemberMemberships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataGitlabGroupBillableMemberMemberships extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.6.1/docs/data-sources/group_billable_member_memberships gitlab_group_billable_member_memberships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/group_billable_member_memberships gitlab_group_billable_member_memberships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataGitlabGroupBillableMemberMemberships extends cdktf.TerraformDat
       terraformResourceType: 'gitlab_group_billable_member_memberships',
       terraformGeneratorMetadata: {
         providerName: 'gitlab',
-        providerVersion: '18.6.1',
-        providerVersionConstraint: '18.6.1'
+        providerVersion: '18.7.0',
+        providerVersionConstraint: '18.7.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

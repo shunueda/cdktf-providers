@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`dynatrace`](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs).
+Refer to the Terraform Registry for docs: [`dynatrace`](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs).

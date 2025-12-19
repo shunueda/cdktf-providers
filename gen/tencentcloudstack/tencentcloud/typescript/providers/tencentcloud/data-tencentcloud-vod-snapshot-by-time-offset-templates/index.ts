@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudVodSnapshotByTimeOffsetTemplatesConfig extends 
   /**
   * Unique ID filter of snapshot by time offset template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#definition DataTencentcloudVodSnapshotByTimeOffsetTemplates#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#definition DataTencentcloudVodSnapshotByTimeOffsetTemplates#definition}
   */
   readonly definition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#id DataTencentcloudVodSnapshotByTimeOffsetTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#id DataTencentcloudVodSnapshotByTimeOffsetTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudVodSnapshotByTimeOffsetTemplatesConfig extends 
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#result_output_file DataTencentcloudVodSnapshotByTimeOffsetTemplates#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#result_output_file DataTencentcloudVodSnapshotByTimeOffsetTemplates#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Subapplication ID in VOD. If you need to access a resource in a subapplication, enter the subapplication ID in this field; otherwise, leave it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#sub_app_id DataTencentcloudVodSnapshotByTimeOffsetTemplates#sub_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#sub_app_id DataTencentcloudVodSnapshotByTimeOffsetTemplates#sub_app_id}
   */
   readonly subAppId?: number;
   /**
   * Template type filter. Valid values: `Preset`, `Custom`. `Preset`: preset template; `Custom`: custom template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#type DataTencentcloudVodSnapshotByTimeOffsetTemplates#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#type DataTencentcloudVodSnapshotByTimeOffsetTemplates#type}
   */
   readonly type?: string;
 }
@@ -166,7 +166,7 @@ export class DataTencentcloudVodSnapshotByTimeOffsetTemplatesTemplateListStructL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates tencentcloud_vod_snapshot_by_time_offset_templates}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates tencentcloud_vod_snapshot_by_time_offset_templates}
 */
 export class DataTencentcloudVodSnapshotByTimeOffsetTemplates extends cdktf.TerraformDataSource {
 
@@ -182,7 +182,7 @@ export class DataTencentcloudVodSnapshotByTimeOffsetTemplates extends cdktf.Terr
   * Generates CDKTF code for importing a DataTencentcloudVodSnapshotByTimeOffsetTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudVodSnapshotByTimeOffsetTemplates to import
-  * @param importFromId The id of the existing DataTencentcloudVodSnapshotByTimeOffsetTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudVodSnapshotByTimeOffsetTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudVodSnapshotByTimeOffsetTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataTencentcloudVodSnapshotByTimeOffsetTemplates extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/vod_snapshot_by_time_offset_templates tencentcloud_vod_snapshot_by_time_offset_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/vod_snapshot_by_time_offset_templates tencentcloud_vod_snapshot_by_time_offset_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataTencentcloudVodSnapshotByTimeOffsetTemplates extends cdktf.Terr
       terraformResourceType: 'tencentcloud_vod_snapshot_by_time_offset_templates',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

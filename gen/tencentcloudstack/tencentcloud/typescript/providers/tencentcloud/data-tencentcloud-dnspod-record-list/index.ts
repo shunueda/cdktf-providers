@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudDnspodRecordListConfig extends cdktf.TerraformM
   /**
   * The domain to which the resolution record belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#domain DataTencentcloudDnspodRecordList#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#domain DataTencentcloudDnspodRecordList#domain}
   */
   readonly domain: string;
   /**
   * The domain ID to which the resolution record belongs. If DomainId is provided, the system will ignore the Domain parameter. You can find all Domain and DomainId through the DescribeDomainList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#domain_id DataTencentcloudDnspodRecordList#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#domain_id DataTencentcloudDnspodRecordList#domain_id}
   */
   readonly domainId?: number;
   /**
   * Filter @ type NS records. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#filter_at_ns DataTencentcloudDnspodRecordList#filter_at_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#filter_at_ns DataTencentcloudDnspodRecordList#filter_at_ns}
   */
   readonly filterAtNs?: boolean | cdktf.IResolvable;
   /**
   * When retrieving resolution records under certain groups, pass this group ID. You can obtain the GroupId field through the DescribeRecordGroupList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#group_id DataTencentcloudDnspodRecordList#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#group_id DataTencentcloudDnspodRecordList#group_id}
   */
   readonly groupId?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#id DataTencentcloudDnspodRecordList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#id DataTencentcloudDnspodRecordList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,127 +41,127 @@ export interface DataTencentcloudDnspodRecordListConfig extends cdktf.TerraformM
   /**
   * Whether to perform an exact search based on the SubDomain parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#is_exact_sub_domain DataTencentcloudDnspodRecordList#is_exact_sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#is_exact_sub_domain DataTencentcloudDnspodRecordList#is_exact_sub_domain}
   */
   readonly isExactSubDomain?: boolean | cdktf.IResolvable;
   /**
   * Search for resolution records by keyword, currently supporting searching host headers and record values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#keyword DataTencentcloudDnspodRecordList#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#keyword DataTencentcloudDnspodRecordList#keyword}
   */
   readonly keyword?: string;
   /**
   * The starting point of the resolution record MX priority query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#mx_begin DataTencentcloudDnspodRecordList#mx_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#mx_begin DataTencentcloudDnspodRecordList#mx_begin}
   */
   readonly mxBegin?: number;
   /**
   * The endpoint of the resolution record MX priority query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#mx_end DataTencentcloudDnspodRecordList#mx_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#mx_end DataTencentcloudDnspodRecordList#mx_end}
   */
   readonly mxEnd?: number;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#project_id DataTencentcloudDnspodRecordList#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#project_id DataTencentcloudDnspodRecordList#project_id}
   */
   readonly projectId?: number;
   /**
   * Retrieve resolution records for certain line IDs. You can view the allowed line information for the current domain through the DescribeRecordLineList interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#record_line DataTencentcloudDnspodRecordList#record_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#record_line DataTencentcloudDnspodRecordList#record_line}
   */
   readonly recordLine?: string[];
   /**
   * Get the resolution record based on the resolution record status. The possible values are ENABLE and DISABLE. ENABLE: Normal DISABLE: Paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#record_status DataTencentcloudDnspodRecordList#record_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#record_status DataTencentcloudDnspodRecordList#record_status}
   */
   readonly recordStatus?: string[];
   /**
   * Retrieve certain types of resolution records, such as A, CNAME, NS, AAAA, explicit URL, implicit URL, CAA, SPF, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#record_type DataTencentcloudDnspodRecordList#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#record_type DataTencentcloudDnspodRecordList#record_type}
   */
   readonly recordType?: string[];
   /**
   * Get the resolution record based on the resolution record value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#record_value DataTencentcloudDnspodRecordList#record_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#record_value DataTencentcloudDnspodRecordList#record_value}
   */
   readonly recordValue?: string;
   /**
   * Get the resolution record based on the resolution record remark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#remark DataTencentcloudDnspodRecordList#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#remark DataTencentcloudDnspodRecordList#remark}
   */
   readonly remark?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#result_output_file DataTencentcloudDnspodRecordList#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#result_output_file DataTencentcloudDnspodRecordList#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Sorting field, supporting NAME, LINE, TYPE, VALUE, WEIGHT, MX, TTL, UPDATED_ON fields. NAME: The host header of the resolution record LINE: The resolution record line TYPE: The resolution record type VALUE: The resolution record value WEIGHT: The weight MX: MX priority TTL: The resolution record cache time UPDATED_ON: The resolution record update time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#sort_field DataTencentcloudDnspodRecordList#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#sort_field DataTencentcloudDnspodRecordList#sort_field}
   */
   readonly sortField?: string;
   /**
   * Sorting method, ascending: ASC, descending: DESC. The default value is ASC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#sort_type DataTencentcloudDnspodRecordList#sort_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#sort_type DataTencentcloudDnspodRecordList#sort_type}
   */
   readonly sortType?: string;
   /**
   * Retrieve resolution records based on the host header of the resolution record. Fuzzy matching is used by default. You can set the IsExactSubdomain parameter to true for precise searching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#sub_domain DataTencentcloudDnspodRecordList#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#sub_domain DataTencentcloudDnspodRecordList#sub_domain}
   */
   readonly subDomain?: string;
   /**
   * Sub domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#sub_domains DataTencentcloudDnspodRecordList#sub_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#sub_domains DataTencentcloudDnspodRecordList#sub_domains}
   */
   readonly subDomains?: string[];
   /**
   * The starting point of the resolution record TTL query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#ttl_begin DataTencentcloudDnspodRecordList#ttl_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#ttl_begin DataTencentcloudDnspodRecordList#ttl_begin}
   */
   readonly ttlBegin?: number;
   /**
   * The endpoint of the resolution record TTL query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#ttl_end DataTencentcloudDnspodRecordList#ttl_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#ttl_end DataTencentcloudDnspodRecordList#ttl_end}
   */
   readonly ttlEnd?: number;
   /**
   * The starting point of the resolution record update time query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#updated_at_begin DataTencentcloudDnspodRecordList#updated_at_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#updated_at_begin DataTencentcloudDnspodRecordList#updated_at_begin}
   */
   readonly updatedAtBegin?: string;
   /**
   * The endpoint of the resolution record update time query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#updated_at_end DataTencentcloudDnspodRecordList#updated_at_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#updated_at_end DataTencentcloudDnspodRecordList#updated_at_end}
   */
   readonly updatedAtEnd?: string;
   /**
   * The starting point of the resolution record weight query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#weight_begin DataTencentcloudDnspodRecordList#weight_begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#weight_begin DataTencentcloudDnspodRecordList#weight_begin}
   */
   readonly weightBegin?: number;
   /**
   * The endpoint of the resolution record weight query interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#weight_end DataTencentcloudDnspodRecordList#weight_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#weight_end DataTencentcloudDnspodRecordList#weight_end}
   */
   readonly weightEnd?: number;
 }
@@ -542,7 +542,7 @@ export class DataTencentcloudDnspodRecordListRecordListStructList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list tencentcloud_dnspod_record_list}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list tencentcloud_dnspod_record_list}
 */
 export class DataTencentcloudDnspodRecordList extends cdktf.TerraformDataSource {
 
@@ -558,7 +558,7 @@ export class DataTencentcloudDnspodRecordList extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataTencentcloudDnspodRecordList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDnspodRecordList to import
-  * @param importFromId The id of the existing DataTencentcloudDnspodRecordList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDnspodRecordList that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDnspodRecordList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class DataTencentcloudDnspodRecordList extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/data-sources/dnspod_record_list tencentcloud_dnspod_record_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/data-sources/dnspod_record_list tencentcloud_dnspod_record_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class DataTencentcloudDnspodRecordList extends cdktf.TerraformDataSource 
       terraformResourceType: 'tencentcloud_dnspod_record_list',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

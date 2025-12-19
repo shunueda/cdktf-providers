@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface UnifiedServicesMetricsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Should metrics be written for endpoints? Please be aware that this setting has billing implications. Check out this [documentation](https://dt-url.net/td23cgh) for further details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics#enable_endpoint_metrics UnifiedServicesMetrics#enable_endpoint_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics#enable_endpoint_metrics UnifiedServicesMetrics#enable_endpoint_metrics}
   */
   readonly enableEndpointMetrics: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics#id UnifiedServicesMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics#id UnifiedServicesMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface UnifiedServicesMetricsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics#service_id UnifiedServicesMetrics#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics#service_id UnifiedServicesMetrics#service_id}
   */
   readonly serviceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics dynatrace_unified_services_metrics}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics dynatrace_unified_services_metrics}
 */
 export class UnifiedServicesMetrics extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class UnifiedServicesMetrics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UnifiedServicesMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UnifiedServicesMetrics to import
-  * @param importFromId The id of the existing UnifiedServicesMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UnifiedServicesMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UnifiedServicesMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class UnifiedServicesMetrics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/unified_services_metrics dynatrace_unified_services_metrics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/unified_services_metrics dynatrace_unified_services_metrics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class UnifiedServicesMetrics extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_unified_services_metrics',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

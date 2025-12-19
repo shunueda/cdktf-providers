@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataPrivacyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#application_id DataPrivacy#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#application_id DataPrivacy#application_id}
   */
   readonly applicationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#id DataPrivacy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#id DataPrivacy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataPrivacyConfig extends cdktf.TerraformMetaArguments {
   /**
   * data_collection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#data_collection DataPrivacy#data_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#data_collection DataPrivacy#data_collection}
   */
   readonly dataCollection: DataPrivacyDataCollection;
   /**
   * do_not_track block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#do_not_track DataPrivacy#do_not_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#do_not_track DataPrivacy#do_not_track}
   */
   readonly doNotTrack: DataPrivacyDoNotTrack;
   /**
   * masking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#masking DataPrivacy#masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#masking DataPrivacy#masking}
   */
   readonly masking: DataPrivacyMasking;
   /**
   * user_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#user_tracking DataPrivacy#user_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#user_tracking DataPrivacy#user_tracking}
   */
   readonly userTracking: DataPrivacyUserTracking;
 }
@@ -49,7 +49,7 @@ export interface DataPrivacyDataCollection {
   /**
   * With [Data-collection and opt-in mode](https://dt-url.net/7l3p0p3h) enabled, Real User Monitoring data isn't captured until dtrum.enable() is called for specific user sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#opt_in_mode_enabled DataPrivacy#opt_in_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#opt_in_mode_enabled DataPrivacy#opt_in_mode_enabled}
   */
   readonly optInModeEnabled: boolean | cdktf.IResolvable;
 }
@@ -132,13 +132,13 @@ export interface DataPrivacyDoNotTrack {
   /**
   * Comply with "Do Not Track" browser settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#comply_with_do_not_track DataPrivacy#comply_with_do_not_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#comply_with_do_not_track DataPrivacy#comply_with_do_not_track}
   */
   readonly complyWithDoNotTrack: boolean | cdktf.IResolvable;
   /**
   * Possible Values: `Anonymous`, `Disable_rum`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#do_not_track DataPrivacy#do_not_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#do_not_track DataPrivacy#do_not_track}
   */
   readonly doNotTrack?: string;
 }
@@ -250,7 +250,7 @@ export interface DataPrivacyMasking {
   /**
   * Possible Values: `All`, `Public`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#ip_address_masking DataPrivacy#ip_address_masking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#ip_address_masking DataPrivacy#ip_address_masking}
   */
   readonly ipAddressMasking?: string;
   /**
@@ -258,13 +258,13 @@ export interface DataPrivacyMasking {
   * 
   * Once enabled, IP address masking sets the last octet of monitored IPv4 addresses and the last 80 bits of IPv6 addresses to zeroes. GPS coordinates are rounded up to 1 decimal place (~10 km). This masking occurs in memory. Full IP addresses are never written to disk. Location lookups are made using anonymized IP addresses and GPS coordinates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#ip_address_masking_enabled DataPrivacy#ip_address_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#ip_address_masking_enabled DataPrivacy#ip_address_masking_enabled}
   */
   readonly ipAddressMaskingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Dynatrace captures the URIs and request headers sent from desktop and mobile browsers. Dynatrace also captures full URIs on the server-side to enable detailed performance analysis of your applications. For complete details, visit [Mask personal data in URIs](https://dt-url.net/mask-personal-data-in-URIs).. URIs and request headers contain personal data. When this setting is enabled, Dynatrace automatically detects UUIDs, credit card numbers, email addresses, IP addresses, and other IDs and replaces those values with placeholders. The personal data is then masked in PurePath analysis, error analysis, user action naming for RUM, and elsewhere in Dynatrace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#personal_data_uri_masking_enabled DataPrivacy#personal_data_uri_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#personal_data_uri_masking_enabled DataPrivacy#personal_data_uri_masking_enabled}
   */
   readonly personalDataUriMaskingEnabled: boolean | cdktf.IResolvable;
   /**
@@ -285,7 +285,7 @@ export interface DataPrivacyMasking {
   * - keypress on TEXTAREA on page /contact.html
   * - touch on DIV of page /list.jsf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#user_action_masking_enabled DataPrivacy#user_action_masking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#user_action_masking_enabled DataPrivacy#user_action_masking_enabled}
   */
   readonly userActionMaskingEnabled: boolean | cdktf.IResolvable;
 }
@@ -452,7 +452,7 @@ export interface DataPrivacyUserTracking {
   /**
   * When enabled, Dynatrace places a [persistent cookie](https://dt-url.net/313o0p4n) on all end-user devices to identify returning users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#persistent_cookie_enabled DataPrivacy#persistent_cookie_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#persistent_cookie_enabled DataPrivacy#persistent_cookie_enabled}
   */
   readonly persistentCookieEnabled: boolean | cdktf.IResolvable;
 }
@@ -533,7 +533,7 @@ export class DataPrivacyUserTrackingOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy dynatrace_data_privacy}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy dynatrace_data_privacy}
 */
 export class DataPrivacy extends cdktf.TerraformResource {
 
@@ -549,7 +549,7 @@ export class DataPrivacy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataPrivacy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrivacy to import
-  * @param importFromId The id of the existing DataPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrivacy that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrivacy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -561,7 +561,7 @@ export class DataPrivacy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/data_privacy dynatrace_data_privacy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/data_privacy dynatrace_data_privacy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -572,8 +572,8 @@ export class DataPrivacy extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_data_privacy',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

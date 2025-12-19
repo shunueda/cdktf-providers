@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface PostProcessKmsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Identifier of the AWS account linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#account_id PostProcessKms#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#account_id PostProcessKms#account_id}
   */
   readonly accountId: string;
   /**
   * The ARN of the Clumio IAM role principal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#clumio_iam_role_principal PostProcessKms#clumio_iam_role_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#clumio_iam_role_principal PostProcessKms#clumio_iam_role_principal}
   */
   readonly clumioIamRolePrincipal: string;
   /**
   * Indicates if a new customer-managed key was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#created_multi_region_cmk PostProcessKms#created_multi_region_cmk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#created_multi_region_cmk PostProcessKms#created_multi_region_cmk}
   */
   readonly createdMultiRegionCmk?: boolean | cdktf.IResolvable;
   /**
   * Identifier of the multi region customer-managed key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#multi_region_cmk_key_id PostProcessKms#multi_region_cmk_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#multi_region_cmk_key_id PostProcessKms#multi_region_cmk_key_id}
   */
   readonly multiRegionCmkKeyId?: string;
   /**
   * Region of the AWS account linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#region PostProcessKms#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#region PostProcessKms#region}
   */
   readonly region: string;
   /**
   * The ARN of the IAM role to manage the customer-managed key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#role_arn PostProcessKms#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#role_arn PostProcessKms#role_arn}
   */
   readonly roleArn: string;
   /**
   * Unique identifier Clumio uses to access the service role within your account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#role_external_id PostProcessKms#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#role_external_id PostProcessKms#role_external_id}
   */
   readonly roleExternalId: string;
   /**
   * Identifier of the IAM role to manage the customer-managed key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#role_id PostProcessKms#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#role_id PostProcessKms#role_id}
   */
   readonly roleId: string;
   /**
   * Version of the BYOK template which was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#template_version PostProcessKms#template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#template_version PostProcessKms#template_version}
   */
   readonly templateVersion?: number;
   /**
   * Distinct 36-character token used to identify resources set up by the Clumio BYOK template installation on the account being connected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#token PostProcessKms#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#token PostProcessKms#token}
   */
   readonly token: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms clumio_post_process_kms}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms clumio_post_process_kms}
 */
 export class PostProcessKms extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class PostProcessKms extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostProcessKms resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostProcessKms to import
-  * @param importFromId The id of the existing PostProcessKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostProcessKms that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostProcessKms to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class PostProcessKms extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/post_process_kms clumio_post_process_kms} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/post_process_kms clumio_post_process_kms} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class PostProcessKms extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_post_process_kms',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

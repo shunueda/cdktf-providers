@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CynosdbAuditLogFileConfig extends cdktf.TerraformMetaArguments 
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#end_time CynosdbAuditLogFile#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#end_time CynosdbAuditLogFile#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#id CynosdbAuditLogFile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#id CynosdbAuditLogFile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CynosdbAuditLogFileConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#instance_id CynosdbAuditLogFile#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#instance_id CynosdbAuditLogFile#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sort by. Supported values are: `ASC` - ascending, `DESC` - descending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#order CynosdbAuditLogFile#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#order CynosdbAuditLogFile#order}
   */
   readonly order?: string;
   /**
@@ -38,19 +38,19 @@ export interface CynosdbAuditLogFileConfig extends cdktf.TerraformMetaArguments 
   * `affectRows` - affected rows
   * `execTime` - execution time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#order_by CynosdbAuditLogFile#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#order_by CynosdbAuditLogFile#order_by}
   */
   readonly orderBy?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#start_time CynosdbAuditLogFile#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#start_time CynosdbAuditLogFile#start_time}
   */
   readonly startTime: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#filter CynosdbAuditLogFile#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#filter CynosdbAuditLogFile#filter}
   */
   readonly filter?: CynosdbAuditLogFileFilter;
 }
@@ -58,79 +58,79 @@ export interface CynosdbAuditLogFileFilter {
   /**
   * Affects the number of rows. Indicates that the audit log whose number of affected rows is greater than this value is filtered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#affect_rows CynosdbAuditLogFile#affect_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#affect_rows CynosdbAuditLogFile#affect_rows}
   */
   readonly affectRows?: number;
   /**
   * The name of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#db_name CynosdbAuditLogFile#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#db_name CynosdbAuditLogFile#db_name}
   */
   readonly dbName?: string[];
   /**
   * Execution time. The unit is: ms. Indicates to filter audit logs whose execution time is greater than this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#exec_time CynosdbAuditLogFile#exec_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#exec_time CynosdbAuditLogFile#exec_time}
   */
   readonly execTime?: number;
   /**
   * Client host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#host CynosdbAuditLogFile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#host CynosdbAuditLogFile#host}
   */
   readonly host?: string[];
   /**
   * The name of audit policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#policy_name CynosdbAuditLogFile#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#policy_name CynosdbAuditLogFile#policy_name}
   */
   readonly policyName?: string[];
   /**
   * Return the number of rows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#sent_rows CynosdbAuditLogFile#sent_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#sent_rows CynosdbAuditLogFile#sent_rows}
   */
   readonly sentRows?: number;
   /**
   * SQL statement. Support fuzzy matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#sql CynosdbAuditLogFile#sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#sql CynosdbAuditLogFile#sql}
   */
   readonly sql?: string;
   /**
   * SQL type. currently supported: SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, SET, REPLACE, EXECUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#sql_type CynosdbAuditLogFile#sql_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#sql_type CynosdbAuditLogFile#sql_type}
   */
   readonly sqlType?: string;
   /**
   * SQL type. Supports simultaneous query of multiple types. currently supported: SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, ALTER, SET, REPLACE, EXECUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#sql_types CynosdbAuditLogFile#sql_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#sql_types CynosdbAuditLogFile#sql_types}
   */
   readonly sqlTypes?: string[];
   /**
   * SQL statement. Support passing multiple sql statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#sqls CynosdbAuditLogFile#sqls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#sqls CynosdbAuditLogFile#sqls}
   */
   readonly sqls?: string[];
   /**
   * The name of table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#table_name CynosdbAuditLogFile#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#table_name CynosdbAuditLogFile#table_name}
   */
   readonly tableName?: string[];
   /**
   * The ID of thread.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#thread_id CynosdbAuditLogFile#thread_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#thread_id CynosdbAuditLogFile#thread_id}
   */
   readonly threadId?: string[];
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#user CynosdbAuditLogFile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#user CynosdbAuditLogFile#user}
   */
   readonly user?: string[];
 }
@@ -562,7 +562,7 @@ export class CynosdbAuditLogFileFilterOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file tencentcloud_cynosdb_audit_log_file}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file tencentcloud_cynosdb_audit_log_file}
 */
 export class CynosdbAuditLogFile extends cdktf.TerraformResource {
 
@@ -578,7 +578,7 @@ export class CynosdbAuditLogFile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbAuditLogFile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbAuditLogFile to import
-  * @param importFromId The id of the existing CynosdbAuditLogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbAuditLogFile that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbAuditLogFile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -590,7 +590,7 @@ export class CynosdbAuditLogFile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.45/docs/resources/cynosdb_audit_log_file tencentcloud_cynosdb_audit_log_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.46/docs/resources/cynosdb_audit_log_file tencentcloud_cynosdb_audit_log_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -601,8 +601,8 @@ export class CynosdbAuditLogFile extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_audit_log_file',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.45',
-        providerVersionConstraint: '1.82.45'
+        providerVersion: '1.82.46',
+        providerVersionConstraint: '1.82.46'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

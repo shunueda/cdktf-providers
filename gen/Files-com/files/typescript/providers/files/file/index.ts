@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file
+// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface FileConfig extends cdktf.TerraformMetaArguments {
   /**
   * Custom metadata map of keys and values. Limited to 32 keys, 256 characters per key and 1024 characters per value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#custom_metadata File#custom_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#custom_metadata File#custom_metadata}
   */
   readonly customMetadata?: { [key: string]: any };
   /**
   * File MD5 checksum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#md5 File#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#md5 File#md5}
   */
   readonly md5?: string;
   /**
   * File/Folder path. This must be slash-delimited, but it must neither start nor end with a slash. Maximum of 5000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#path File#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#path File#path}
   */
   readonly path: string;
   /**
   * Bookmark/priority color of file/folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#priority_color File#priority_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#priority_color File#priority_color}
   */
   readonly priorityColor?: string;
   /**
   * File last modified date/time, according to the client who set it.  Files.com allows desktop, FTP, SFTP, and WebDAV clients to set modified at times.  This allows Desktop<->Cloud syncing to preserve modified at times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#provided_mtime File#provided_mtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#provided_mtime File#provided_mtime}
   */
   readonly providedMtime?: string;
   /**
   * File/Folder size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#size File#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#size File#size}
   */
   readonly size?: number;
   /**
   * Path to a file that will be read and uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#source File#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#source File#source}
   */
   readonly source: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file files_file}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file files_file}
 */
 export class File extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class File extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a File resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the File to import
-  * @param importFromId The id of the existing File that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing File that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the File to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class File extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file files_file} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file files_file} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class File extends cdktf.TerraformResource {
       terraformResourceType: 'files_file',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.415',
-        providerVersionConstraint: '0.1.415'
+        providerVersion: '0.1.417',
+        providerVersionConstraint: '0.1.417'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

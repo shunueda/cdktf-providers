@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer
+// https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ClusterMaintainerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The UUID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer#cluster_uuid ClusterMaintainer#cluster_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer#cluster_uuid ClusterMaintainer#cluster_uuid}
   */
   readonly clusterUuid: string;
   /**
@@ -18,7 +18,7 @@ export interface ClusterMaintainerConfig extends cdktf.TerraformMetaArguments {
   * Only one of user_uuid or team_uuid can be specified.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer#team_uuid ClusterMaintainer#team_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer#team_uuid ClusterMaintainer#team_uuid}
   */
   readonly teamUuid?: string;
   /**
@@ -26,13 +26,13 @@ export interface ClusterMaintainerConfig extends cdktf.TerraformMetaArguments {
   * Only one of user_uuid or team_uuid can be specified.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer#user_uuid ClusterMaintainer#user_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer#user_uuid ClusterMaintainer#user_uuid}
   */
   readonly userUuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer buildkite_cluster_maintainer}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer}
 */
 export class ClusterMaintainer extends cdktf.TerraformResource {
 
@@ -48,7 +48,7 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClusterMaintainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClusterMaintainer to import
-  * @param importFromId The id of the existing ClusterMaintainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClusterMaintainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClusterMaintainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60,7 +60,7 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/cluster_maintainer buildkite_cluster_maintainer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.28.0/docs/resources/cluster_maintainer buildkite_cluster_maintainer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -71,8 +71,8 @@ export class ClusterMaintainer extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_cluster_maintainer',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.1',
-        providerVersionConstraint: '1.27.1'
+        providerVersion: '1.28.0',
+        providerVersionConstraint: '1.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

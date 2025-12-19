@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment
+// https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface FileCommentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comment body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment#body FileComment#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment#body FileComment#body}
   */
   readonly body: string;
   /**
   * File path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment#path FileComment#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment#path FileComment#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment files_file_comment}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment files_file_comment}
 */
 export class FileComment extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class FileComment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileComment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileComment to import
-  * @param importFromId The id of the existing FileComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileComment that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileComment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class FileComment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.415/docs/resources/file_comment files_file_comment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.417/docs/resources/file_comment files_file_comment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class FileComment extends cdktf.TerraformResource {
       terraformResourceType: 'files_file_comment',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.415',
-        providerVersionConstraint: '0.1.415'
+        providerVersion: '0.1.417',
+        providerVersionConstraint: '0.1.417'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

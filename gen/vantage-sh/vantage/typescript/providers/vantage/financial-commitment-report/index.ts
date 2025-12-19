@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface FinancialCommitmentReportConfig extends cdktf.TerraformMetaArgu
   /**
   * The date bucket of the FinancialCommitmentReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#date_bucket FinancialCommitmentReport#date_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#date_bucket FinancialCommitmentReport#date_bucket}
   */
   readonly dateBucket?: string;
   /**
   * The date interval of the FinancialCommitmentReport. Unless 'custom' is used, this is incompatible with 'start_date' and 'end_date' parameters. Defaults to 'last_3_months'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#date_interval FinancialCommitmentReport#date_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#date_interval FinancialCommitmentReport#date_interval}
   */
   readonly dateInterval?: string;
   /**
   * The end date of the FinancialCommitmentReport. YYYY-MM-DD formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#end_date FinancialCommitmentReport#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#end_date FinancialCommitmentReport#end_date}
   */
   readonly endDate?: string;
   /**
   * The filter query language to apply to the FinancialCommitmentReport. Additional documentation available at https://docs.vantage.sh/vql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#filter FinancialCommitmentReport#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#filter FinancialCommitmentReport#filter}
   */
   readonly filter?: string;
   /**
   * Grouping values for aggregating costs on the FinancialCommitmentReport. Valid groupings: cost_type, commitment_type, service, resource_account_id, provider_account_id, region, cost_category, cost_sub_category, instance_type, tag, tag:<label_name>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#groupings FinancialCommitmentReport#groupings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#groupings FinancialCommitmentReport#groupings}
   */
   readonly groupings?: string[];
   /**
   * The scope for the costs. Possible values: discountable, all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#on_demand_costs_scope FinancialCommitmentReport#on_demand_costs_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#on_demand_costs_scope FinancialCommitmentReport#on_demand_costs_scope}
   */
   readonly onDemandCostsScope?: string;
   /**
   * The start date of the FinancialCommitmentReport. YYYY-MM-DD formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#start_date FinancialCommitmentReport#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#start_date FinancialCommitmentReport#start_date}
   */
   readonly startDate?: string;
   /**
   * The title of the FinancialCommitmentReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#title FinancialCommitmentReport#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#title FinancialCommitmentReport#title}
   */
   readonly title: string;
   /**
   * The Workspace in which the FinancialCommitmentReport will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#workspace_token FinancialCommitmentReport#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#workspace_token FinancialCommitmentReport#workspace_token}
   */
   readonly workspaceToken: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report vantage_financial_commitment_report}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report vantage_financial_commitment_report}
 */
 export class FinancialCommitmentReport extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class FinancialCommitmentReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FinancialCommitmentReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FinancialCommitmentReport to import
-  * @param importFromId The id of the existing FinancialCommitmentReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FinancialCommitmentReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FinancialCommitmentReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class FinancialCommitmentReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/financial_commitment_report vantage_financial_commitment_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/financial_commitment_report vantage_financial_commitment_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class FinancialCommitmentReport extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_financial_commitment_report',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

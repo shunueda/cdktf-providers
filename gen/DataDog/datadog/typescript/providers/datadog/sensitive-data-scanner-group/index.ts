@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group
+// https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SensitiveDataScannerGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Description of the Datadog scanning group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#description SensitiveDataScannerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#description SensitiveDataScannerGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#id SensitiveDataScannerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#id SensitiveDataScannerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SensitiveDataScannerGroupConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether or not the scanning group is enabled. If the group doesn't contain any rule or if all the rules in it are disabled, the group is force-disabled by our backend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#is_enabled SensitiveDataScannerGroup#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#is_enabled SensitiveDataScannerGroup#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
   * Name of the Datadog scanning group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#name SensitiveDataScannerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#name SensitiveDataScannerGroup#name}
   */
   readonly name: string;
   /**
   * List of products the scanning group applies. Valid values are `logs`, `rum`, `events`, `apm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#product_list SensitiveDataScannerGroup#product_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#product_list SensitiveDataScannerGroup#product_list}
   */
   readonly productList: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#filter SensitiveDataScannerGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#filter SensitiveDataScannerGroup#filter}
   */
   readonly filter: SensitiveDataScannerGroupFilter;
   /**
   * samplings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#samplings SensitiveDataScannerGroup#samplings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#samplings SensitiveDataScannerGroup#samplings}
   */
   readonly samplings?: SensitiveDataScannerGroupSamplings[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface SensitiveDataScannerGroupFilter {
   /**
   * Query to filter the events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#query SensitiveDataScannerGroup#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#query SensitiveDataScannerGroup#query}
   */
   readonly query: string;
 }
@@ -138,13 +138,13 @@ export interface SensitiveDataScannerGroupSamplings {
   /**
   * Product that the sampling rate applies to. Valid values are `logs`, `rum`, `events`, `apm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#product SensitiveDataScannerGroup#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#product SensitiveDataScannerGroup#product}
   */
   readonly product: string;
   /**
   * Percentage rate at which data for the product type is scanned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#rate SensitiveDataScannerGroup#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#rate SensitiveDataScannerGroup#rate}
   */
   readonly rate: number;
 }
@@ -283,7 +283,7 @@ export class SensitiveDataScannerGroupSamplingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group datadog_sensitive_data_scanner_group}
+* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group datadog_sensitive_data_scanner_group}
 */
 export class SensitiveDataScannerGroup extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class SensitiveDataScannerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensitiveDataScannerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensitiveDataScannerGroup to import
-  * @param importFromId The id of the existing SensitiveDataScannerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensitiveDataScannerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensitiveDataScannerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class SensitiveDataScannerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/resources/sensitive_data_scanner_group datadog_sensitive_data_scanner_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.83.0/docs/resources/sensitive_data_scanner_group datadog_sensitive_data_scanner_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class SensitiveDataScannerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'datadog_sensitive_data_scanner_group',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.82.0',
-        providerVersionConstraint: '3.82.0'
+        providerVersion: '3.83.0',
+        providerVersionConstraint: '3.83.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

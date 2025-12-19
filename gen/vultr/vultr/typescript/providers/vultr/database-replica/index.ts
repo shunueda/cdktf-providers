@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseReplicaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#backup_hour DatabaseReplica#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#backup_hour DatabaseReplica#backup_hour}
   */
   readonly backupHour?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#backup_minute DatabaseReplica#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#backup_minute DatabaseReplica#backup_minute}
   */
   readonly backupMinute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#database_id DatabaseReplica#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#database_id DatabaseReplica#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#eviction_policy DatabaseReplica#eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#eviction_policy DatabaseReplica#eviction_policy}
   */
   readonly evictionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#ferretdb_credentials DatabaseReplica#ferretdb_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#ferretdb_credentials DatabaseReplica#ferretdb_credentials}
   */
   readonly ferretdbCredentials?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#label DatabaseReplica#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#label DatabaseReplica#label}
   */
   readonly label: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#mysql_long_query_time DatabaseReplica#mysql_long_query_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#mysql_long_query_time DatabaseReplica#mysql_long_query_time}
   */
   readonly mysqlLongQueryTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#mysql_require_primary_key DatabaseReplica#mysql_require_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#mysql_require_primary_key DatabaseReplica#mysql_require_primary_key}
   */
   readonly mysqlRequirePrimaryKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#mysql_slow_query_log DatabaseReplica#mysql_slow_query_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#mysql_slow_query_log DatabaseReplica#mysql_slow_query_log}
   */
   readonly mysqlSlowQueryLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#mysql_sql_modes DatabaseReplica#mysql_sql_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#mysql_sql_modes DatabaseReplica#mysql_sql_modes}
   */
   readonly mysqlSqlModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#plan_disk DatabaseReplica#plan_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#plan_disk DatabaseReplica#plan_disk}
   */
   readonly planDisk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#public_host DatabaseReplica#public_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#public_host DatabaseReplica#public_host}
   */
   readonly publicHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#region DatabaseReplica#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#region DatabaseReplica#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#tag DatabaseReplica#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#tag DatabaseReplica#tag}
   */
   readonly tag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#trusted_ips DatabaseReplica#trusted_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#trusted_ips DatabaseReplica#trusted_ips}
   */
   readonly trustedIps?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#timeouts DatabaseReplica#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#timeouts DatabaseReplica#timeouts}
   */
   readonly timeouts?: DatabaseReplicaTimeouts;
 }
 export interface DatabaseReplicaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#create DatabaseReplica#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#create DatabaseReplica#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#update DatabaseReplica#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#update DatabaseReplica#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class DatabaseReplicaTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica vultr_database_replica}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica vultr_database_replica}
 */
 export class DatabaseReplica extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class DatabaseReplica extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseReplica resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseReplica to import
-  * @param importFromId The id of the existing DatabaseReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseReplica that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseReplica to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DatabaseReplica extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/database_replica vultr_database_replica} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/database_replica vultr_database_replica} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DatabaseReplica extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_database_replica',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

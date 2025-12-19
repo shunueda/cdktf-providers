@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface AwsManualConnectionConfig extends cdktf.TerraformMetaArguments 
   /**
   * Identifier of the AWS account to be linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#account_id AwsManualConnection#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#account_id AwsManualConnection#account_id}
   */
   readonly accountId: string;
   /**
   * Assets enabled for the connection. Note that `mssql` is only available for legacy connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#assets_enabled AwsManualConnection#assets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#assets_enabled AwsManualConnection#assets_enabled}
   */
   readonly assetsEnabled: AwsManualConnectionAssetsEnabled;
   /**
   * Region of the AWS account to be linked with Clumio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#aws_region AwsManualConnection#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#aws_region AwsManualConnection#aws_region}
   */
   readonly awsRegion: string;
   /**
   * An object containing the ARNs of the resources created for the manual AWS connection. Please refer to this guide for instructions on how to create them. - https://documentation.commvault.com/clumio/manual_setup_for_aws_account_integration.html. If any of the ARNs are not applicable to the manual connection, provide an empty string "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#resources AwsManualConnection#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#resources AwsManualConnection#resources}
   */
   readonly resources: AwsManualConnectionResources;
 }
 export interface AwsManualConnectionAssetsEnabled {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#ddb AwsManualConnection#ddb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#ddb AwsManualConnection#ddb}
   */
   readonly ddb: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#ebs AwsManualConnection#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#ebs AwsManualConnection#ebs}
   */
   readonly ebs: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#mssql AwsManualConnection#mssql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#mssql AwsManualConnection#mssql}
   */
   readonly mssql: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#rds AwsManualConnection#rds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#rds AwsManualConnection#rds}
   */
   readonly rds: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#s3 AwsManualConnection#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#s3 AwsManualConnection#s3}
   */
   readonly s3: boolean | cdktf.IResolvable;
 }
@@ -245,11 +245,11 @@ export class AwsManualConnectionAssetsEnabledOutputReference extends cdktf.Compl
 }
 export interface AwsManualConnectionResourcesEventRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#cloudtrail_rule_arn AwsManualConnection#cloudtrail_rule_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#cloudtrail_rule_arn AwsManualConnection#cloudtrail_rule_arn}
   */
   readonly cloudtrailRuleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#cloudwatch_rule_arn AwsManualConnection#cloudwatch_rule_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#cloudwatch_rule_arn AwsManualConnection#cloudwatch_rule_arn}
   */
   readonly cloudwatchRuleArn: string;
 }
@@ -366,11 +366,11 @@ export class AwsManualConnectionResourcesEventRulesOutputReference extends cdktf
 }
 export interface AwsManualConnectionResourcesServiceRolesMssql {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#ec2_ssm_instance_profile_arn AwsManualConnection#ec2_ssm_instance_profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#ec2_ssm_instance_profile_arn AwsManualConnection#ec2_ssm_instance_profile_arn}
   */
   readonly ec2SsmInstanceProfileArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#ssm_notification_role_arn AwsManualConnection#ssm_notification_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#ssm_notification_role_arn AwsManualConnection#ssm_notification_role_arn}
   */
   readonly ssmNotificationRoleArn: string;
 }
@@ -487,7 +487,7 @@ export class AwsManualConnectionResourcesServiceRolesMssqlOutputReference extend
 }
 export interface AwsManualConnectionResourcesServiceRolesS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#continuous_backups_role_arn AwsManualConnection#continuous_backups_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#continuous_backups_role_arn AwsManualConnection#continuous_backups_role_arn}
   */
   readonly continuousBackupsRoleArn: string;
 }
@@ -578,11 +578,11 @@ export class AwsManualConnectionResourcesServiceRolesS3OutputReference extends c
 }
 export interface AwsManualConnectionResourcesServiceRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#mssql AwsManualConnection#mssql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#mssql AwsManualConnection#mssql}
   */
   readonly mssql: AwsManualConnectionResourcesServiceRolesMssql;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#s3 AwsManualConnection#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#s3 AwsManualConnection#s3}
   */
   readonly s3: AwsManualConnectionResourcesServiceRolesS3;
 }
@@ -699,23 +699,23 @@ export class AwsManualConnectionResourcesServiceRolesOutputReference extends cdk
 }
 export interface AwsManualConnectionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#clumio_event_pub_arn AwsManualConnection#clumio_event_pub_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#clumio_event_pub_arn AwsManualConnection#clumio_event_pub_arn}
   */
   readonly clumioEventPubArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#clumio_iam_role_arn AwsManualConnection#clumio_iam_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#clumio_iam_role_arn AwsManualConnection#clumio_iam_role_arn}
   */
   readonly clumioIamRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#clumio_support_role_arn AwsManualConnection#clumio_support_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#clumio_support_role_arn AwsManualConnection#clumio_support_role_arn}
   */
   readonly clumioSupportRoleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#event_rules AwsManualConnection#event_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#event_rules AwsManualConnection#event_rules}
   */
   readonly eventRules: AwsManualConnectionResourcesEventRules;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#service_roles AwsManualConnection#service_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#service_roles AwsManualConnection#service_roles}
   */
   readonly serviceRoles: AwsManualConnectionResourcesServiceRoles;
 }
@@ -910,7 +910,7 @@ export class AwsManualConnectionResourcesOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection clumio_aws_manual_connection}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection clumio_aws_manual_connection}
 */
 export class AwsManualConnection extends cdktf.TerraformResource {
 
@@ -926,7 +926,7 @@ export class AwsManualConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsManualConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsManualConnection to import
-  * @param importFromId The id of the existing AwsManualConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsManualConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsManualConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -938,7 +938,7 @@ export class AwsManualConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/aws_manual_connection clumio_aws_manual_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/aws_manual_connection clumio_aws_manual_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -949,8 +949,8 @@ export class AwsManualConnection extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_aws_manual_connection',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

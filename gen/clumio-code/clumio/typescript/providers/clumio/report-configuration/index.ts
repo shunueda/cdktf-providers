@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration
+// https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ReportConfigurationConfig extends cdktf.TerraformMetaArguments 
   /**
   * The user-provided description of the compliance report configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#description ReportConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#description ReportConfiguration#description}
   */
   readonly description?: string;
   /**
   * The user-provided name of the compliance report configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#name ReportConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#name ReportConfiguration#name}
   */
   readonly name: string;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#notification ReportConfiguration#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#notification ReportConfiguration#notification}
   */
   readonly notification?: ReportConfigurationNotification[] | cdktf.IResolvable;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#parameter ReportConfiguration#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#parameter ReportConfiguration#parameter}
   */
   readonly parameter?: ReportConfigurationParameter[] | cdktf.IResolvable;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#schedule ReportConfiguration#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#schedule ReportConfiguration#schedule}
   */
   readonly schedule?: ReportConfigurationSchedule[] | cdktf.IResolvable;
 }
@@ -42,7 +42,7 @@ export interface ReportConfigurationNotification {
   /**
   * Email list to send a generated report run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#email_list ReportConfiguration#email_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#email_list ReportConfiguration#email_list}
   */
   readonly emailList?: string[];
 }
@@ -160,13 +160,13 @@ export interface ReportConfigurationParameterControlsAssetBackupLookBackPeriod {
   /**
   * Enum: `minutes` `hours` `days` `weeks` `months` `years`<br>Unit indicates the unit for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#unit ReportConfiguration#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#unit ReportConfiguration#unit}
   */
   readonly unit: string;
   /**
   * Value indicates the value for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: number;
 }
@@ -307,13 +307,13 @@ export interface ReportConfigurationParameterControlsAssetBackupMinimumRetention
   /**
   * Enum: `minutes` `hours` `days` `weeks` `months` `years`<br>Unit indicates the unit for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#unit ReportConfiguration#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#unit ReportConfiguration#unit}
   */
   readonly unit: string;
   /**
   * Value indicates the value for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: number;
 }
@@ -454,13 +454,13 @@ export interface ReportConfigurationParameterControlsAssetBackupWindowSize {
   /**
   * Enum: `minutes` `hours` `days` `weeks` `months` `years`<br>Unit indicates the unit for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#unit ReportConfiguration#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#unit ReportConfiguration#unit}
   */
   readonly unit: string;
   /**
   * Value indicates the value for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: number;
 }
@@ -601,19 +601,19 @@ export interface ReportConfigurationParameterControlsAssetBackup {
   /**
   * look_back_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#look_back_period ReportConfiguration#look_back_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#look_back_period ReportConfiguration#look_back_period}
   */
   readonly lookBackPeriod?: ReportConfigurationParameterControlsAssetBackupLookBackPeriod[] | cdktf.IResolvable;
   /**
   * minimum_retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#minimum_retention_duration ReportConfiguration#minimum_retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#minimum_retention_duration ReportConfiguration#minimum_retention_duration}
   */
   readonly minimumRetentionDuration?: ReportConfigurationParameterControlsAssetBackupMinimumRetentionDuration[] | cdktf.IResolvable;
   /**
   * window_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#window_size ReportConfiguration#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#window_size ReportConfiguration#window_size}
   */
   readonly windowSize?: ReportConfigurationParameterControlsAssetBackupWindowSize[] | cdktf.IResolvable;
 }
@@ -789,7 +789,7 @@ export interface ReportConfigurationParameterControlsAssetProtection {
   /**
   * Treat deactivated policies as compliant if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#should_ignore_deactivated_policy ReportConfiguration#should_ignore_deactivated_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#should_ignore_deactivated_policy ReportConfiguration#should_ignore_deactivated_policy}
   */
   readonly shouldIgnoreDeactivatedPolicy: boolean | cdktf.IResolvable;
 }
@@ -904,13 +904,13 @@ export interface ReportConfigurationParameterControlsPolicyMinimumRetentionDurat
   /**
   * Enum: `minutes` `hours` `days` `weeks` `months` `years`<br>Unit indicates the unit for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#unit ReportConfiguration#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#unit ReportConfiguration#unit}
   */
   readonly unit: string;
   /**
   * Value indicates the value for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: number;
 }
@@ -1051,13 +1051,13 @@ export interface ReportConfigurationParameterControlsPolicyMinimumRpoFrequency {
   /**
   * Enum: `minutes` `hours` `days` `weeks` `months` `years`<br>Unit indicates the unit for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#unit ReportConfiguration#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#unit ReportConfiguration#unit}
   */
   readonly unit: string;
   /**
   * Value indicates the value for time unit param.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: number;
 }
@@ -1198,13 +1198,13 @@ export interface ReportConfigurationParameterControlsPolicy {
   /**
   * minimum_retention_duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#minimum_retention_duration ReportConfiguration#minimum_retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#minimum_retention_duration ReportConfiguration#minimum_retention_duration}
   */
   readonly minimumRetentionDuration?: ReportConfigurationParameterControlsPolicyMinimumRetentionDuration[] | cdktf.IResolvable;
   /**
   * minimum_rpo_frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#minimum_rpo_frequency ReportConfiguration#minimum_rpo_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#minimum_rpo_frequency ReportConfiguration#minimum_rpo_frequency}
   */
   readonly minimumRpoFrequency?: ReportConfigurationParameterControlsPolicyMinimumRpoFrequency[] | cdktf.IResolvable;
 }
@@ -1351,19 +1351,19 @@ export interface ReportConfigurationParameterControls {
   /**
   * asset_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#asset_backup ReportConfiguration#asset_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#asset_backup ReportConfiguration#asset_backup}
   */
   readonly assetBackup?: ReportConfigurationParameterControlsAssetBackup[] | cdktf.IResolvable;
   /**
   * asset_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#asset_protection ReportConfiguration#asset_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#asset_protection ReportConfiguration#asset_protection}
   */
   readonly assetProtection?: ReportConfigurationParameterControlsAssetProtection[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#policy ReportConfiguration#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#policy ReportConfiguration#policy}
   */
   readonly policy?: ReportConfigurationParameterControlsPolicy[] | cdktf.IResolvable;
 }
@@ -1539,7 +1539,7 @@ export interface ReportConfigurationParameterFiltersAssetGroups {
   /**
   * The id of asset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#id ReportConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#id ReportConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1548,13 +1548,13 @@ export interface ReportConfigurationParameterFiltersAssetGroups {
   /**
   * The region of asset group. For example, `us-west-2`. This is supported for AWS asset groups only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#region ReportConfiguration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#region ReportConfiguration#region}
   */
   readonly region?: string;
   /**
   * Enum: `aws` `microsoft365` `vmware`<br>The type of asset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#type ReportConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#type ReportConfiguration#type}
   */
   readonly type: string;
 }
@@ -1727,13 +1727,13 @@ export interface ReportConfigurationParameterFiltersAssetTags {
   /**
   * The key of tag to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#key ReportConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#key ReportConfiguration#key}
   */
   readonly key: string;
   /**
   * The value of tag to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#value ReportConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#value ReportConfiguration#value}
   */
   readonly value: string;
 }
@@ -1874,19 +1874,19 @@ export interface ReportConfigurationParameterFiltersAsset {
   /**
   * Enum: `equal` `or` `and`<br>The tag filter operation to be applied to the given tags. This is supported for AWS assets only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#tag_op_mode ReportConfiguration#tag_op_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#tag_op_mode ReportConfiguration#tag_op_mode}
   */
   readonly tagOpMode?: string;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#groups ReportConfiguration#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#groups ReportConfiguration#groups}
   */
   readonly groups?: ReportConfigurationParameterFiltersAssetGroups[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#tags ReportConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#tags ReportConfiguration#tags}
   */
   readonly tags?: ReportConfigurationParameterFiltersAssetTags[] | cdktf.IResolvable;
 }
@@ -2062,19 +2062,19 @@ export interface ReportConfigurationParameterFiltersCommon {
   /**
   * The asset types to be included in the report. For example, [`aws_ec2_instance`, `microsoft365_drive`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#asset_types ReportConfiguration#asset_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#asset_types ReportConfiguration#asset_types}
   */
   readonly assetTypes?: string[];
   /**
   * The data sources to be included in the report. Possible values include `aws`, `microsoft365` or `vmware`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#data_sources ReportConfiguration#data_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#data_sources ReportConfiguration#data_sources}
   */
   readonly dataSources?: string[];
   /**
   * The organizational units to be included in the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#organizational_units ReportConfiguration#organizational_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#organizational_units ReportConfiguration#organizational_units}
   */
   readonly organizationalUnits?: string[];
 }
@@ -2250,13 +2250,13 @@ export interface ReportConfigurationParameterFilters {
   /**
   * asset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#asset ReportConfiguration#asset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#asset ReportConfiguration#asset}
   */
   readonly asset?: ReportConfigurationParameterFiltersAsset[] | cdktf.IResolvable;
   /**
   * common block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#common ReportConfiguration#common}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#common ReportConfiguration#common}
   */
   readonly common?: ReportConfigurationParameterFiltersCommon[] | cdktf.IResolvable;
 }
@@ -2403,13 +2403,13 @@ export interface ReportConfigurationParameter {
   /**
   * controls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#controls ReportConfiguration#controls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#controls ReportConfiguration#controls}
   */
   readonly controls?: ReportConfigurationParameterControls[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#filters ReportConfiguration#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#filters ReportConfiguration#filters}
   */
   readonly filters?: ReportConfigurationParameterFilters[] | cdktf.IResolvable;
 }
@@ -2556,31 +2556,31 @@ export interface ReportConfigurationSchedule {
   /**
   * The day of the month when the report will be sent out. This is required for the 'monthly' report frequency. It has to be >= 1 and <= 28, or '-1', which signifies end of month. If the day_of_month is set to -1 then the report will be sent out at the end of every month.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#day_of_month ReportConfiguration#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#day_of_month ReportConfiguration#day_of_month}
   */
   readonly dayOfMonth?: number;
   /**
   * Enum: `sunday` `monday` `tuesday` `wednesday` `thursday` `friday` `saturday`<br>Which day the report will be sent out. This is required for 'weekly' report frequency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#day_of_week ReportConfiguration#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#day_of_week ReportConfiguration#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Enum: `daily` `weekly` `monthly`<br>The unit of frequency in which the report is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#frequency ReportConfiguration#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#frequency ReportConfiguration#frequency}
   */
   readonly frequency?: string;
   /**
   * When the report will be send out. This field should follow the format `HH:MM` based on a 24-hour clock. Only values where HH ranges from 0 to 23 and MM ranges from 0 to 59 are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#start_time ReportConfiguration#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#start_time ReportConfiguration#start_time}
   */
   readonly startTime: string;
   /**
   * The timezone for the report schedule. The timezone must be a valid location name from the IANA Time Zone database. For instance, it can be `America/New_York`, `US/Central`, `UTC`, or similar. If empty, then the timezone is considered as UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#timezone ReportConfiguration#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#timezone ReportConfiguration#timezone}
   */
   readonly timezone?: string;
 }
@@ -2809,7 +2809,7 @@ export class ReportConfigurationScheduleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration clumio_report_configuration}
+* Represents a {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration clumio_report_configuration}
 */
 export class ReportConfiguration extends cdktf.TerraformResource {
 
@@ -2825,7 +2825,7 @@ export class ReportConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReportConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReportConfiguration to import
-  * @param importFromId The id of the existing ReportConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReportConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReportConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2837,7 +2837,7 @@ export class ReportConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.16.1/docs/resources/report_configuration clumio_report_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/clumio-code/clumio/0.17.0/docs/resources/report_configuration clumio_report_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2848,8 +2848,8 @@ export class ReportConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'clumio_report_configuration',
       terraformGeneratorMetadata: {
         providerName: 'clumio',
-        providerVersion: '0.16.1',
-        providerVersionConstraint: '0.16.1'
+        providerVersion: '0.17.0',
+        providerVersionConstraint: '0.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

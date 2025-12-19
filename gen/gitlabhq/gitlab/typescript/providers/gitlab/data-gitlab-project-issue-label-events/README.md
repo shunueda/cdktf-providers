@@ -1,0 +1,3 @@
+# `data_gitlab_project_issue_label_events`
+
+Refer to the Terraform Registry for docs: [`data_gitlab_project_issue_label_events`](https://registry.terraform.io/providers/gitlabhq/gitlab/18.7.0/docs/data-sources/project_issue_label_events).

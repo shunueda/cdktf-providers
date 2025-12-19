@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface QueueManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the cluster(s) this queue manager is part of
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#clusters QueueManager#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#clusters QueueManager#clusters}
   */
   readonly clusters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#id QueueManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#id QueueManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface QueueManagerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the queue manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#name QueueManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#name QueueManager#name}
   */
   readonly name: string;
   /**
   * alias_queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#alias_queues QueueManager#alias_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#alias_queues QueueManager#alias_queues}
   */
   readonly aliasQueues?: QueueManagerAliasQueues[] | cdktf.IResolvable;
   /**
   * cluster_queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#cluster_queues QueueManager#cluster_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#cluster_queues QueueManager#cluster_queues}
   */
   readonly clusterQueues?: QueueManagerClusterQueues[] | cdktf.IResolvable;
   /**
   * remote_queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#remote_queues QueueManager#remote_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#remote_queues QueueManager#remote_queues}
   */
   readonly remoteQueues?: QueueManagerRemoteQueues[] | cdktf.IResolvable;
 }
@@ -49,19 +49,19 @@ export interface QueueManagerAliasQueuesAliasQueue {
   /**
   * The name of the alias queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#alias_queue_name QueueManager#alias_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#alias_queue_name QueueManager#alias_queue_name}
   */
   readonly aliasQueueName: string;
   /**
   * The name of the base queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#base_queue_name QueueManager#base_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#base_queue_name QueueManager#base_queue_name}
   */
   readonly baseQueueName: string;
   /**
   * Name of the cluster(s) this alias should be visible in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
   */
   readonly clusterVisibility?: string[];
 }
@@ -231,7 +231,7 @@ export interface QueueManagerAliasQueues {
   /**
   * alias_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#alias_queue QueueManager#alias_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#alias_queue QueueManager#alias_queue}
   */
   readonly aliasQueue?: QueueManagerAliasQueuesAliasQueue[] | cdktf.IResolvable;
 }
@@ -349,13 +349,13 @@ export interface QueueManagerClusterQueuesClusterQueue {
   /**
   * Name of the cluster(s) this local queue should be visible in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
   */
   readonly clusterVisibility?: string[];
   /**
   * The name of the local queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#local_queue_name QueueManager#local_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#local_queue_name QueueManager#local_queue_name}
   */
   readonly localQueueName: string;
 }
@@ -499,7 +499,7 @@ export interface QueueManagerClusterQueues {
   /**
   * cluster_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#cluster_queue QueueManager#cluster_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#cluster_queue QueueManager#cluster_queue}
   */
   readonly clusterQueue?: QueueManagerClusterQueuesClusterQueue[] | cdktf.IResolvable;
 }
@@ -617,25 +617,25 @@ export interface QueueManagerRemoteQueuesRemoteQueue {
   /**
   * Name of the cluster(s) this local definition of the remote queue should be visible in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#cluster_visibility QueueManager#cluster_visibility}
   */
   readonly clusterVisibility?: string[];
   /**
   * The name of the local queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#local_queue_name QueueManager#local_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#local_queue_name QueueManager#local_queue_name}
   */
   readonly localQueueName: string;
   /**
   * The name of the remote queue manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#remote_queue_manager QueueManager#remote_queue_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#remote_queue_manager QueueManager#remote_queue_manager}
   */
   readonly remoteQueueManager: string;
   /**
   * The name of the remote queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#remote_queue_name QueueManager#remote_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#remote_queue_name QueueManager#remote_queue_name}
   */
   readonly remoteQueueName: string;
 }
@@ -831,7 +831,7 @@ export interface QueueManagerRemoteQueues {
   /**
   * remote_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#remote_queue QueueManager#remote_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#remote_queue QueueManager#remote_queue}
   */
   readonly remoteQueue?: QueueManagerRemoteQueuesRemoteQueue[] | cdktf.IResolvable;
 }
@@ -947,7 +947,7 @@ export class QueueManagerRemoteQueuesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager dynatrace_queue_manager}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager dynatrace_queue_manager}
 */
 export class QueueManager extends cdktf.TerraformResource {
 
@@ -963,7 +963,7 @@ export class QueueManager extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a QueueManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QueueManager to import
-  * @param importFromId The id of the existing QueueManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QueueManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QueueManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -975,7 +975,7 @@ export class QueueManager extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/queue_manager dynatrace_queue_manager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/queue_manager dynatrace_queue_manager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -986,8 +986,8 @@ export class QueueManager extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_queue_manager',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

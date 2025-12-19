@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server
+// https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface BareMetalServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#activation_email BareMetalServer#activation_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#activation_email BareMetalServer#activation_email}
   */
   readonly activationEmail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#app_id BareMetalServer#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#app_id BareMetalServer#app_id}
   */
   readonly appId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#app_variables BareMetalServer#app_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#app_variables BareMetalServer#app_variables}
   */
   readonly appVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#enable_ipv6 BareMetalServer#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#enable_ipv6 BareMetalServer#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#hostname BareMetalServer#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#hostname BareMetalServer#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#id BareMetalServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#id BareMetalServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#image_id BareMetalServer#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#image_id BareMetalServer#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#label BareMetalServer#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#label BareMetalServer#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#mdisk_mode BareMetalServer#mdisk_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#mdisk_mode BareMetalServer#mdisk_mode}
   */
   readonly mdiskMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#os_id BareMetalServer#os_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#os_id BareMetalServer#os_id}
   */
   readonly osId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#persistent_pxe BareMetalServer#persistent_pxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#persistent_pxe BareMetalServer#persistent_pxe}
   */
   readonly persistentPxe?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#plan BareMetalServer#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#plan BareMetalServer#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#region BareMetalServer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#region BareMetalServer#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#reserved_ipv4 BareMetalServer#reserved_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#reserved_ipv4 BareMetalServer#reserved_ipv4}
   */
   readonly reservedIpv4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#script_id BareMetalServer#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#script_id BareMetalServer#script_id}
   */
   readonly scriptId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#snapshot_id BareMetalServer#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#snapshot_id BareMetalServer#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#ssh_key_ids BareMetalServer#ssh_key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#ssh_key_ids BareMetalServer#ssh_key_ids}
   */
   readonly sshKeyIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#tags BareMetalServer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#tags BareMetalServer#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#user_data BareMetalServer#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#user_data BareMetalServer#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#user_scheme BareMetalServer#user_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#user_scheme BareMetalServer#user_scheme}
   */
   readonly userScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#vpc2_ids BareMetalServer#vpc2_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#vpc2_ids BareMetalServer#vpc2_ids}
   */
   readonly vpc2Ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#vpc_id BareMetalServer#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#vpc_id BareMetalServer#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#timeouts BareMetalServer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#timeouts BareMetalServer#timeouts}
   */
   readonly timeouts?: BareMetalServerTimeouts;
 }
 export interface BareMetalServerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#create BareMetalServer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#create BareMetalServer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#update BareMetalServer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#update BareMetalServer#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class BareMetalServerTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server vultr_bare_metal_server}
+* Represents a {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server vultr_bare_metal_server}
 */
 export class BareMetalServer extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class BareMetalServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BareMetalServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BareMetalServer to import
-  * @param importFromId The id of the existing BareMetalServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BareMetalServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BareMetalServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class BareMetalServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.27.1/docs/resources/bare_metal_server vultr_bare_metal_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vultr/vultr/2.28.0/docs/resources/bare_metal_server vultr_bare_metal_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class BareMetalServer extends cdktf.TerraformResource {
       terraformResourceType: 'vultr_bare_metal_server',
       terraformGeneratorMetadata: {
         providerName: 'vultr',
-        providerVersion: '2.27.1',
-        providerVersionConstraint: '2.27.1'
+        providerVersion: '2.28.0',
+        providerVersionConstraint: '2.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -597,7 +597,7 @@ export class BareMetalServer extends cdktf.TerraformResource {
     return this._scriptId;
   }
 
-  // snapshot_id - computed: false, optional: true, required: false
+  // snapshot_id - computed: true, optional: true, required: false
   private _snapshotId?: string; 
   public get snapshotId() {
     return this.getStringAttribute('snapshot_id');

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MonitoredTechnologiesPhpConfig extends cdktf.TerraformMetaArgum
   /**
   * Requires enabled PHP monitoring and Dynatrace OneAgent version 1.261 or later
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#enable_php_cli_server MonitoredTechnologiesPhp#enable_php_cli_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#enable_php_cli_server MonitoredTechnologiesPhp#enable_php_cli_server}
   */
   readonly enablePhpCliServer?: boolean | cdktf.IResolvable;
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#enabled MonitoredTechnologiesPhp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#enabled MonitoredTechnologiesPhp#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Requires PHP monitoring enabled and from Dynatrace OneAgent version 1.191 it's ignored and permanently enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#enabled_fast_cgi MonitoredTechnologiesPhp#enabled_fast_cgi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#enabled_fast_cgi MonitoredTechnologiesPhp#enabled_fast_cgi}
   */
   readonly enabledFastCgi?: boolean | cdktf.IResolvable;
   /**
   * The scope of this settings. If the settings should cover the whole environment, just don't specify any scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#host_id MonitoredTechnologiesPhp#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#host_id MonitoredTechnologiesPhp#host_id}
   */
   readonly hostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#id MonitoredTechnologiesPhp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#id MonitoredTechnologiesPhp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ export interface MonitoredTechnologiesPhpConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php dynatrace_monitored_technologies_php}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php dynatrace_monitored_technologies_php}
 */
 export class MonitoredTechnologiesPhp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MonitoredTechnologiesPhp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MonitoredTechnologiesPhp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MonitoredTechnologiesPhp to import
-  * @param importFromId The id of the existing MonitoredTechnologiesPhp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MonitoredTechnologiesPhp that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MonitoredTechnologiesPhp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MonitoredTechnologiesPhp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/monitored_technologies_php dynatrace_monitored_technologies_php} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/monitored_technologies_php dynatrace_monitored_technologies_php} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MonitoredTechnologiesPhp extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_monitored_technologies_php',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report
+// https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface KubernetesEfficiencyReportConfig extends cdktf.TerraformMetaArg
   /**
   * The column by which the costs are aggregated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#aggregated_by KubernetesEfficiencyReport#aggregated_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#aggregated_by KubernetesEfficiencyReport#aggregated_by}
   */
   readonly aggregatedBy?: string;
   /**
   * The date bucket of the KubernetesEfficiencyReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#date_bucket KubernetesEfficiencyReport#date_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#date_bucket KubernetesEfficiencyReport#date_bucket}
   */
   readonly dateBucket?: string;
   /**
   * The date interval of the KubernetesEfficiencyReport. Incompatible with 'start_date' and 'end_date' parameters. Defaults to 'this_month' if start_date and end_date are not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#date_interval KubernetesEfficiencyReport#date_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#date_interval KubernetesEfficiencyReport#date_interval}
   */
   readonly dateInterval?: string;
   /**
   * The end date of the KubernetesEfficiencyReport. ISO 8601 Formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#end_date KubernetesEfficiencyReport#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#end_date KubernetesEfficiencyReport#end_date}
   */
   readonly endDate?: string;
   /**
   * The filter query language to apply to the KubernetesEfficiencyReport. Additional documentation available at https://docs.vantage.sh/vql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#filter KubernetesEfficiencyReport#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#filter KubernetesEfficiencyReport#filter}
   */
   readonly filter?: string;
   /**
   * Grouping values for aggregating costs on the KubernetesEfficiencyReport. Valid groupings: cluster_id, namespace, labeled, category, pod, label, label:<label_name>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#groupings KubernetesEfficiencyReport#groupings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#groupings KubernetesEfficiencyReport#groupings}
   */
   readonly groupings?: string[];
   /**
   * The start date of the KubernetesEfficiencyReport. ISO 8601 Formatted. Incompatible with 'date_interval' parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#start_date KubernetesEfficiencyReport#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#start_date KubernetesEfficiencyReport#start_date}
   */
   readonly startDate?: string;
   /**
   * The title of the KubernetesEfficiencyReport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#title KubernetesEfficiencyReport#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#title KubernetesEfficiencyReport#title}
   */
   readonly title: string;
   /**
   * The Workspace in which the KubernetesEfficiencyReport will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#workspace_token KubernetesEfficiencyReport#workspace_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#workspace_token KubernetesEfficiencyReport#workspace_token}
   */
   readonly workspaceToken: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report vantage_kubernetes_efficiency_report}
+* Represents a {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report vantage_kubernetes_efficiency_report}
 */
 export class KubernetesEfficiencyReport extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class KubernetesEfficiencyReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesEfficiencyReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesEfficiencyReport to import
-  * @param importFromId The id of the existing KubernetesEfficiencyReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesEfficiencyReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesEfficiencyReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class KubernetesEfficiencyReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.70/docs/resources/kubernetes_efficiency_report vantage_kubernetes_efficiency_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vantage-sh/vantage/0.1.71/docs/resources/kubernetes_efficiency_report vantage_kubernetes_efficiency_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class KubernetesEfficiencyReport extends cdktf.TerraformResource {
       terraformResourceType: 'vantage_kubernetes_efficiency_report',
       terraformGeneratorMetadata: {
         providerName: 'vantage',
-        providerVersion: '0.1.70',
-        providerVersionConstraint: '0.1.70'
+        providerVersion: '0.1.71',
+        providerVersionConstraint: '0.1.71'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

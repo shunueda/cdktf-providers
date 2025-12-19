@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface RpcBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
   * This setting is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#enabled RpcBasedSampling#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#enabled RpcBasedSampling#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Specify the RPC endpoint name. If the endpoint name is empty, either remote operation name or remote service name must be specified that can be used for RPC matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#endpoint_name RpcBasedSampling#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#endpoint_name RpcBasedSampling#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#endpoint_name_comparison_type RpcBasedSampling#endpoint_name_comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#endpoint_name_comparison_type RpcBasedSampling#endpoint_name_comparison_type}
   */
   readonly endpointNameComparisonType: string;
   /**
@@ -56,11 +56,11 @@ export interface RpcBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   * 
   *   - `14`: Reduce capturing by factor 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#factor RpcBasedSampling#factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#factor RpcBasedSampling#factor}
   */
   readonly factor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#id RpcBasedSampling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#id RpcBasedSampling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,43 +69,43 @@ export interface RpcBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   /**
   * No Traces will be captured for matching RPC requests. This applies always, even if Adaptive Traffic Management is inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#ignore RpcBasedSampling#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#ignore RpcBasedSampling#ignore}
   */
   readonly ignore: boolean | cdktf.IResolvable;
   /**
   * Because this resource allows for ordering you may specify the ID of the resource instance that comes before this instance regarding order. If not specified when creating the setting will be added to the end of the list. If not specified during update the order will remain untouched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#insert_after RpcBasedSampling#insert_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#insert_after RpcBasedSampling#insert_after}
   */
   readonly insertAfter?: string;
   /**
   * Specify the RPC operation name. If the remote operation name is empty, either remote service name or endpoint name must be specified that can be used for RPC matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#remote_operation_name RpcBasedSampling#remote_operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#remote_operation_name RpcBasedSampling#remote_operation_name}
   */
   readonly remoteOperationName?: string;
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#remote_operation_name_comparison_type RpcBasedSampling#remote_operation_name_comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#remote_operation_name_comparison_type RpcBasedSampling#remote_operation_name_comparison_type}
   */
   readonly remoteOperationNameComparisonType: string;
   /**
   * Specify the RPC remote service name. If the remote service name is empty, either remote operation name or endpoint name must be specified that can be used for RPC matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#remote_service_name RpcBasedSampling#remote_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#remote_service_name RpcBasedSampling#remote_service_name}
   */
   readonly remoteServiceName?: string;
   /**
   * Possible Values: `CONTAINS`, `DOES_NOT_CONTAIN`, `DOES_NOT_END_WITH`, `DOES_NOT_EQUAL`, `DOES_NOT_START_WITH`, `ENDS_WITH`, `EQUALS`, `STARTS_WITH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#remote_service_name_comparison_type RpcBasedSampling#remote_service_name_comparison_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#remote_service_name_comparison_type RpcBasedSampling#remote_service_name_comparison_type}
   */
   readonly remoteServiceNameComparisonType: string;
   /**
   * The scope of this setting (PROCESS_GROUP_INSTANCE, PROCESS_GROUP, CLOUD_APPLICATION, CLOUD_APPLICATION_NAMESPACE, KUBERNETES_CLUSTER, HOST_GROUP). Omit this property if you want to cover the whole environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#scope RpcBasedSampling#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#scope RpcBasedSampling#scope}
   */
   readonly scope?: string;
   /**
@@ -131,13 +131,13 @@ export interface RpcBasedSamplingConfig extends cdktf.TerraformMetaArguments {
   * 
   *   - `10`: GRPC_CLIENTSTREAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#wire_protocol_type RpcBasedSampling#wire_protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#wire_protocol_type RpcBasedSampling#wire_protocol_type}
   */
   readonly wireProtocolType: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling dynatrace_rpc_based_sampling}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling dynatrace_rpc_based_sampling}
 */
 export class RpcBasedSampling extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class RpcBasedSampling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RpcBasedSampling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RpcBasedSampling to import
-  * @param importFromId The id of the existing RpcBasedSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RpcBasedSampling that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RpcBasedSampling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class RpcBasedSampling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/rpc_based_sampling dynatrace_rpc_based_sampling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/rpc_based_sampling dynatrace_rpc_based_sampling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class RpcBasedSampling extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_rpc_based_sampling',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

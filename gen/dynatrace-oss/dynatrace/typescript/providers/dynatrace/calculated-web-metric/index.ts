@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric
+// https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CalculatedWebMetricConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Dynatrace entity ID of the application to which the metric belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#app_identifier CalculatedWebMetric#app_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#app_identifier CalculatedWebMetric#app_identifier}
   */
   readonly appIdentifier: string;
   /**
   * Descriptor of a calculated web metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#description CalculatedWebMetric#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#description CalculatedWebMetric#description}
   */
   readonly description?: string;
   /**
   * The metric is enabled (`true`) or disabled (`false`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#enabled CalculatedWebMetric#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#enabled CalculatedWebMetric#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#id CalculatedWebMetric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#id CalculatedWebMetric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CalculatedWebMetricConfig extends cdktf.TerraformMetaArguments 
   /**
   * The unique key of the calculated web metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#metric_key CalculatedWebMetric#metric_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#metric_key CalculatedWebMetric#metric_key}
   */
   readonly metricKey: string;
   /**
   * The displayed name of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#name CalculatedWebMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#name CalculatedWebMetric#name}
   */
   readonly name: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#dimensions CalculatedWebMetric#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#dimensions CalculatedWebMetric#dimensions}
   */
   readonly dimensions?: CalculatedWebMetricDimensions[] | cdktf.IResolvable;
   /**
   * metric_definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#metric_definition CalculatedWebMetric#metric_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#metric_definition CalculatedWebMetric#metric_definition}
   */
   readonly metricDefinition: CalculatedWebMetricMetricDefinition;
   /**
   * user_action_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#user_action_filter CalculatedWebMetric#user_action_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#user_action_filter CalculatedWebMetric#user_action_filter}
   */
   readonly userActionFilter?: CalculatedWebMetricUserActionFilter;
 }
@@ -67,19 +67,19 @@ export interface CalculatedWebMetricDimensionsDimension {
   /**
   * The dimension of the metric. Possible values are `ApdexType`, `Browser`, `ErrorContext`, `ErrorOrigin`, `ErrorType`, `GeoLocation`, `StringProperty`, `UserActionType`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#dimension CalculatedWebMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#dimension CalculatedWebMetric#dimension}
   */
   readonly dimension: string;
   /**
   * The key of the user action property. Only applicable for the StringProperty dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#property_key CalculatedWebMetric#property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#property_key CalculatedWebMetric#property_key}
   */
   readonly propertyKey?: string;
   /**
   * The number of top values to be calculated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#top_x CalculatedWebMetric#top_x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#top_x CalculatedWebMetric#top_x}
   */
   readonly topX: number;
 }
@@ -249,7 +249,7 @@ export interface CalculatedWebMetricDimensions {
   /**
   * dimension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#dimension CalculatedWebMetric#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#dimension CalculatedWebMetric#dimension}
   */
   readonly dimension?: CalculatedWebMetricDimensionsDimension[] | cdktf.IResolvable;
 }
@@ -367,13 +367,13 @@ export interface CalculatedWebMetricMetricDefinition {
   /**
   * The metric to be captured. Possible values are `Apdex`, `ApplicationCache`, `Callback`, `CumulativeLayoutShift`, `DNSLookup`, `DOMComplete`, `DOMContentLoaded`, `DOMInteractive`, `DoubleProperty`, `ErrorCount`, `FirstContentfulPaint`, `FirstInputDelay`, `FirstInputStart`, `FirstPaint`, `HTMLDownloaded`, `LargestContentfulPaint`, `LoadEventEnd`, `LoadEventStart`, `LongProperty`, `LongTasksTime`, `NavigationStart`, `OnDOMContentLoaded`, `OnLoad`, `Processing`, `RedirectTime`, `Request`, `RequestStart`, `Response`, `SecureConnect`, `SpeedIndex`, `TCPConnect`, `TimeToFirstByte`, `UserActionDuration`, `VisuallyComplete`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#metric CalculatedWebMetric#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#metric CalculatedWebMetric#metric}
   */
   readonly metric: string;
   /**
   * The key of the user action property. Only applicable for DoubleProperty and LongProperty metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#property_key CalculatedWebMetric#property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#property_key CalculatedWebMetric#property_key}
   */
   readonly propertyKey?: string;
 }
@@ -485,31 +485,31 @@ export interface CalculatedWebMetricUserActionFilterUserActionPropertiesProperty
   /**
   * Only actions that have a value greater than or equal to this are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#from CalculatedWebMetric#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#from CalculatedWebMetric#from}
   */
   readonly from?: number;
   /**
   * The key of the action property we're checking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#key CalculatedWebMetric#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#key CalculatedWebMetric#key}
   */
   readonly key?: string;
   /**
   * Specifies the match type of a string filter, e.g. using Contains or Equals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#match_type CalculatedWebMetric#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#match_type CalculatedWebMetric#match_type}
   */
   readonly matchType?: string;
   /**
   * Only actions that have a value less than or equal to this are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#to CalculatedWebMetric#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#to CalculatedWebMetric#to}
   */
   readonly to?: number;
   /**
   * Only actions that have this value in the specified property are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#value CalculatedWebMetric#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#value CalculatedWebMetric#value}
   */
   readonly value?: string;
 }
@@ -743,7 +743,7 @@ export interface CalculatedWebMetricUserActionFilterUserActionProperties {
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#property CalculatedWebMetric#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#property CalculatedWebMetric#property}
   */
   readonly property?: CalculatedWebMetricUserActionFilterUserActionPropertiesProperty[] | cdktf.IResolvable;
 }
@@ -861,223 +861,223 @@ export interface CalculatedWebMetricUserActionFilter {
   /**
   * Only actions with a duration more than or equal to this value (in milliseconds) are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#action_duration_from_milliseconds CalculatedWebMetric#action_duration_from_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#action_duration_from_milliseconds CalculatedWebMetric#action_duration_from_milliseconds}
   */
   readonly actionDurationFromMilliseconds?: number;
   /**
   * Only actions with a duration less than or equal to this value (in milliseconds) are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#action_duration_to_milliseconds CalculatedWebMetric#action_duration_to_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#action_duration_to_milliseconds CalculatedWebMetric#action_duration_to_milliseconds}
   */
   readonly actionDurationToMilliseconds?: number;
   /**
   * Only actions with the specified Apdex score are included in the metric calculation. Possible values: [ Frustrated, Satisfied, Tolerating, Unknown ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#apdex CalculatedWebMetric#apdex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#apdex CalculatedWebMetric#apdex}
   */
   readonly apdex?: string;
   /**
   * Only user actions coming from the specified browser family are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#browser_family CalculatedWebMetric#browser_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#browser_family CalculatedWebMetric#browser_family}
   */
   readonly browserFamily?: string;
   /**
   * Only user actions coming from the specified browser type are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#browser_type CalculatedWebMetric#browser_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#browser_type CalculatedWebMetric#browser_type}
   */
   readonly browserType?: string;
   /**
   * Only user actions coming from the specified browser version are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#browser_version CalculatedWebMetric#browser_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#browser_version CalculatedWebMetric#browser_version}
   */
   readonly browserVersion?: string;
   /**
   * Only actions of users from this city are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#city CalculatedWebMetric#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#city CalculatedWebMetric#city}
   */
   readonly city?: string;
   /**
   * Only actions of users from this continent are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#continent CalculatedWebMetric#continent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#continent CalculatedWebMetric#continent}
   */
   readonly continent?: string;
   /**
   * Only actions of users from this country are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#country CalculatedWebMetric#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#country CalculatedWebMetric#country}
   */
   readonly country?: string;
   /**
   * The status of custom actions in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#custom_action CalculatedWebMetric#custom_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#custom_action CalculatedWebMetric#custom_action}
   */
   readonly customAction?: boolean | cdktf.IResolvable;
   /**
   * The custom error name of the actions to be included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#custom_error_name CalculatedWebMetric#custom_error_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#custom_error_name CalculatedWebMetric#custom_error_name}
   */
   readonly customErrorName?: string;
   /**
   * The custom error type of the actions to be included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#custom_error_type CalculatedWebMetric#custom_error_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#custom_error_type CalculatedWebMetric#custom_error_type}
   */
   readonly customErrorType?: string;
   /**
   * Only user actions coming from the specified domain are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#domain CalculatedWebMetric#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#domain CalculatedWebMetric#domain}
   */
   readonly domain?: string;
   /**
   * The error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#has_any_error CalculatedWebMetric#has_any_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#has_any_error CalculatedWebMetric#has_any_error}
   */
   readonly hasAnyError?: boolean | cdktf.IResolvable;
   /**
   * The custom error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#has_custom_errors CalculatedWebMetric#has_custom_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#has_custom_errors CalculatedWebMetric#has_custom_errors}
   */
   readonly hasCustomErrors?: boolean | cdktf.IResolvable;
   /**
   * The request error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#has_http_errors CalculatedWebMetric#has_http_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#has_http_errors CalculatedWebMetric#has_http_errors}
   */
   readonly hasHttpErrors?: boolean | cdktf.IResolvable;
   /**
   * The JavaScript error status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#has_javascript_errors CalculatedWebMetric#has_javascript_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#has_javascript_errors CalculatedWebMetric#has_javascript_errors}
   */
   readonly hasJavascriptErrors?: boolean | cdktf.IResolvable;
   /**
   * The HTTP error status code of the actions to be included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#http_error_code CalculatedWebMetric#http_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#http_error_code CalculatedWebMetric#http_error_code}
   */
   readonly httpErrorCode?: number;
   /**
   * Can be used in combination with httpErrorCode to define a range of error codes that will be included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#http_error_code_to CalculatedWebMetric#http_error_code_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#http_error_code_to CalculatedWebMetric#http_error_code_to}
   */
   readonly httpErrorCodeTo?: number;
   /**
   * The request path that has been determined to be the origin of an HTTP error of the actions to be included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#http_path CalculatedWebMetric#http_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#http_path CalculatedWebMetric#http_path}
   */
   readonly httpPath?: string;
   /**
   * Only actions coming from this IP address are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#ip CalculatedWebMetric#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#ip CalculatedWebMetric#ip}
   */
   readonly ip?: string;
   /**
   * The IPv6 status of the actions to be included in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#ip_v6_traffic CalculatedWebMetric#ip_v6_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#ip_v6_traffic CalculatedWebMetric#ip_v6_traffic}
   */
   readonly ipV6Traffic?: boolean | cdktf.IResolvable;
   /**
   * The status of load actions in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#load_action CalculatedWebMetric#load_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#load_action CalculatedWebMetric#load_action}
   */
   readonly loadAction?: boolean | cdktf.IResolvable;
   /**
   * Only actions coming from this OS family are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#os_family CalculatedWebMetric#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#os_family CalculatedWebMetric#os_family}
   */
   readonly osFamily?: string;
   /**
   * Only actions coming from this OS version are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#os_version CalculatedWebMetric#os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#os_version CalculatedWebMetric#os_version}
   */
   readonly osVersion?: string;
   /**
   * The status of actions coming from real users in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#real_user CalculatedWebMetric#real_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#real_user CalculatedWebMetric#real_user}
   */
   readonly realUser?: boolean | cdktf.IResolvable;
   /**
   * Only actions of users from this region are included in the metric calculation. Specify geolocation ID here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#region CalculatedWebMetric#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#region CalculatedWebMetric#region}
   */
   readonly region?: string;
   /**
   * The status of actions coming from robots in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#robot CalculatedWebMetric#robot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#robot CalculatedWebMetric#robot}
   */
   readonly robot?: boolean | cdktf.IResolvable;
   /**
   * The status of actions coming from synthetic monitors in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#synthetic CalculatedWebMetric#synthetic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#synthetic CalculatedWebMetric#synthetic}
   */
   readonly synthetic?: boolean | cdktf.IResolvable;
   /**
   * Only actions on the specified group of views are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#target_view_group CalculatedWebMetric#target_view_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#target_view_group CalculatedWebMetric#target_view_group}
   */
   readonly targetViewGroup?: string;
   /**
   * Specifies the match type of the view group filter, e.g. using Contains or Equals. Defaults to Equals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#target_view_group_name_match_type CalculatedWebMetric#target_view_group_name_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#target_view_group_name_match_type CalculatedWebMetric#target_view_group_name_match_type}
   */
   readonly targetViewGroupNameMatchType?: string;
   /**
   * Only actions on the specified view are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#target_view_name CalculatedWebMetric#target_view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#target_view_name CalculatedWebMetric#target_view_name}
   */
   readonly targetViewName?: string;
   /**
   * Specifies the match type of the view name filter, e.g. using Contains or Equals. Defaults to Equals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#target_view_name_match_type CalculatedWebMetric#target_view_name_match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#target_view_name_match_type CalculatedWebMetric#target_view_name_match_type}
   */
   readonly targetViewNameMatchType?: string;
   /**
   * Only actions with this name are included in the metric calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#user_action_name CalculatedWebMetric#user_action_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#user_action_name CalculatedWebMetric#user_action_name}
   */
   readonly userActionName?: string;
   /**
   * The status of xhr actions in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#xhr_action CalculatedWebMetric#xhr_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#xhr_action CalculatedWebMetric#xhr_action}
   */
   readonly xhrAction?: boolean | cdktf.IResolvable;
   /**
   * The status of route actions in the metric calculation: `true` or `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#xhr_route_change_action CalculatedWebMetric#xhr_route_change_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#xhr_route_change_action CalculatedWebMetric#xhr_route_change_action}
   */
   readonly xhrRouteChangeAction?: boolean | cdktf.IResolvable;
   /**
   * user_action_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#user_action_properties CalculatedWebMetric#user_action_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#user_action_properties CalculatedWebMetric#user_action_properties}
   */
   readonly userActionProperties?: CalculatedWebMetricUserActionFilterUserActionProperties[] | cdktf.IResolvable;
 }
@@ -2205,7 +2205,7 @@ export class CalculatedWebMetricUserActionFilterOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric dynatrace_calculated_web_metric}
+* Represents a {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric dynatrace_calculated_web_metric}
 */
 export class CalculatedWebMetric extends cdktf.TerraformResource {
 
@@ -2221,7 +2221,7 @@ export class CalculatedWebMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CalculatedWebMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CalculatedWebMetric to import
-  * @param importFromId The id of the existing CalculatedWebMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CalculatedWebMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CalculatedWebMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2233,7 +2233,7 @@ export class CalculatedWebMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.0/docs/resources/calculated_web_metric dynatrace_calculated_web_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/dynatrace-oss/dynatrace/1.88.1/docs/resources/calculated_web_metric dynatrace_calculated_web_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2244,8 +2244,8 @@ export class CalculatedWebMetric extends cdktf.TerraformResource {
       terraformResourceType: 'dynatrace_calculated_web_metric',
       terraformGeneratorMetadata: {
         providerName: 'dynatrace',
-        providerVersion: '1.88.0',
-        providerVersionConstraint: '1.88.0'
+        providerVersion: '1.88.1',
+        providerVersionConstraint: '1.88.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
