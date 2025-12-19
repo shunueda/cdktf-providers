@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SysUtEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * Event number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#event_number SysUtEvent#event_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#event_number SysUtEvent#event_number}
   */
   readonly eventNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#id SysUtEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#id SysUtEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface SysUtEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#user_tag SysUtEvent#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#user_tag SysUtEvent#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * action_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#action_list SysUtEvent#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#action_list SysUtEvent#action_list}
   */
   readonly actionList?: SysUtEventActionListStruct[] | cdktf.IResolvable;
 }
@@ -43,37 +43,37 @@ export interface SysUtEventActionListIgnoreValidation {
   /**
   * Skip validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#all SysUtEvent#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#all SysUtEvent#all}
   */
   readonly all?: number;
   /**
   * Dont validate TX descriptor. This includes Tx port, Len & vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l1 SysUtEvent#l1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l1 SysUtEvent#l1}
   */
   readonly l1?: number;
   /**
   * Dont validate L2 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l2 SysUtEvent#l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l2 SysUtEvent#l2}
   */
   readonly l2?: number;
   /**
   * Dont validate L3 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l3 SysUtEvent#l3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l3 SysUtEvent#l3}
   */
   readonly l3?: number;
   /**
   * Dont validate L4 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l4 SysUtEvent#l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l4 SysUtEvent#l4}
   */
   readonly l4?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
 }
@@ -304,13 +304,13 @@ export interface SysUtEventActionListL1EthListStruct {
   /**
   * Ethernet port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ethernet_end SysUtEvent#ethernet_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ethernet_end SysUtEvent#ethernet_end}
   */
   readonly ethernetEnd?: number;
   /**
   * Ethernet port (Interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ethernet_start SysUtEvent#ethernet_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ethernet_start SysUtEvent#ethernet_start}
   */
   readonly ethernetStart?: number;
 }
@@ -457,13 +457,13 @@ export interface SysUtEventActionListL1TrunkListStruct {
   /**
   * Trunk Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#trunk_end SysUtEvent#trunk_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#trunk_end SysUtEvent#trunk_end}
   */
   readonly trunkEnd?: number;
   /**
   * Trunk groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#trunk_start SysUtEvent#trunk_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#trunk_start SysUtEvent#trunk_start}
   */
   readonly trunkStart?: number;
 }
@@ -610,37 +610,37 @@ export interface SysUtEventActionListL1 {
   /**
   * Auto calculate pkt len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#auto SysUtEvent#auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#auto SysUtEvent#auto}
   */
   readonly auto?: number;
   /**
   * packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#length SysUtEvent#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#length SysUtEvent#length}
   */
   readonly length?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * Total packet length starting at L2 header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#value SysUtEvent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#value SysUtEvent#value}
   */
   readonly value?: number;
   /**
   * eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#eth_list SysUtEvent#eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#eth_list SysUtEvent#eth_list}
   */
   readonly ethList?: SysUtEventActionListL1EthListStruct[] | cdktf.IResolvable;
   /**
   * trunk_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#trunk_list SysUtEvent#trunk_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#trunk_list SysUtEvent#trunk_list}
   */
   readonly trunkList?: SysUtEventActionListL1TrunkListStruct[] | cdktf.IResolvable;
 }
@@ -871,55 +871,55 @@ export interface SysUtEventActionListL2MacListStruct {
   /**
   * 'broadcast': broadcast; 'multicast': multicast;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#address_type SysUtEvent#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#address_type SysUtEvent#address_type}
   */
   readonly addressType?: string;
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ethernet SysUtEvent#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ethernet SysUtEvent#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
   */
   readonly natPool?: string;
   /**
   * 'dest': dest; 'src': src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#src_dst SysUtEvent#src_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#src_dst SysUtEvent#src_dst}
   */
   readonly srcDst: string;
   /**
   * Trunk number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#trunk SysUtEvent#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#trunk SysUtEvent#trunk}
   */
   readonly trunk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * Mac Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#value SysUtEvent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#value SysUtEvent#value}
   */
   readonly value?: string;
   /**
   * Virtual Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ve SysUtEvent#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ve SysUtEvent#ve}
   */
   readonly ve?: number;
   /**
   * vip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#virtual_server SysUtEvent#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#virtual_server SysUtEvent#virtual_server}
   */
   readonly virtualServer?: string;
 }
@@ -1266,37 +1266,37 @@ export interface SysUtEventActionListL2 {
   /**
   * L2 frame type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ethertype SysUtEvent#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ethertype SysUtEvent#ethertype}
   */
   readonly ethertype?: number;
   /**
   * 'arp': arp; 'ipv4': ipv4; 'ipv6': ipv6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#protocol SysUtEvent#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#protocol SysUtEvent#protocol}
   */
   readonly protocol?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * ethertype number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#value SysUtEvent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#value SysUtEvent#value}
   */
   readonly value?: number;
   /**
   * Vlan ID on the packet. 0 is untagged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#vlan SysUtEvent#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#vlan SysUtEvent#vlan}
   */
   readonly vlan?: number;
   /**
   * mac_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#mac_list SysUtEvent#mac_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#mac_list SysUtEvent#mac_list}
   */
   readonly macList?: SysUtEventActionListL2MacListStruct[] | cdktf.IResolvable;
 }
@@ -1527,55 +1527,55 @@ export interface SysUtEventActionListL3IpListStruct {
   /**
   * Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ethernet SysUtEvent#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ethernet SysUtEvent#ethernet}
   */
   readonly ethernet?: number;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ipv4_address SysUtEvent#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ipv4_address SysUtEvent#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ipv6_address SysUtEvent#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ipv6_address SysUtEvent#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
   */
   readonly natPool?: string;
   /**
   * 'dest': dest; 'src': src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#src_dst SysUtEvent#src_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#src_dst SysUtEvent#src_dst}
   */
   readonly srcDst: string;
   /**
   * Trunk number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#trunk SysUtEvent#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#trunk SysUtEvent#trunk}
   */
   readonly trunk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * Virtual Ethernet interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ve SysUtEvent#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ve SysUtEvent#ve}
   */
   readonly ve?: number;
   /**
   * vip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#virtual_server SysUtEvent#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#virtual_server SysUtEvent#virtual_server}
   */
   readonly virtualServer?: string;
 }
@@ -1922,41 +1922,41 @@ export interface SysUtEventActionListL3 {
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
   */
   readonly checksum?: string;
   /**
   * L4 Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#protocol SysUtEvent#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#protocol SysUtEvent#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ttl SysUtEvent#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ttl SysUtEvent#ttl}
   */
   readonly ttl?: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#type SysUtEvent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#type SysUtEvent#type}
   */
   readonly type?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#value SysUtEvent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#value SysUtEvent#value}
   */
   readonly value?: number;
   /**
   * ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ip_list SysUtEvent#ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ip_list SysUtEvent#ip_list}
   */
   readonly ipList?: SysUtEventActionListL3IpListStruct[] | cdktf.IResolvable;
 }
@@ -2216,55 +2216,55 @@ export interface SysUtEventActionListTcpFlags {
   /**
   * Ack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ack SysUtEvent#ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ack SysUtEvent#ack}
   */
   readonly ack?: number;
   /**
   * Cwr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#cwr SysUtEvent#cwr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#cwr SysUtEvent#cwr}
   */
   readonly cwr?: number;
   /**
   * Ece
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ece SysUtEvent#ece}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ece SysUtEvent#ece}
   */
   readonly ece?: number;
   /**
   * Fin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#fin SysUtEvent#fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#fin SysUtEvent#fin}
   */
   readonly fin?: number;
   /**
   * Psh
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#psh SysUtEvent#psh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#psh SysUtEvent#psh}
   */
   readonly psh?: number;
   /**
   * Rst
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#rst SysUtEvent#rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#rst SysUtEvent#rst}
   */
   readonly rst?: number;
   /**
   * Syn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#syn SysUtEvent#syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#syn SysUtEvent#syn}
   */
   readonly syn?: number;
   /**
   * Urg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#urg SysUtEvent#urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#urg SysUtEvent#urg}
   */
   readonly urg?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
 }
@@ -2582,35 +2582,35 @@ export interface SysUtEventActionListTcpOptions {
   /**
   * TCP MSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#mss SysUtEvent#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#mss SysUtEvent#mss}
   */
   readonly mss?: number;
   /**
   * No Op
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#nop SysUtEvent#nop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#nop SysUtEvent#nop}
   */
   readonly nop?: number;
   /**
   * 'permitted': permitted; 'block': block;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#sack_type SysUtEvent#sack_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#sack_type SysUtEvent#sack_type}
   */
   readonly sackType?: string;
   /**
   * adds Time Stamp to options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#time_stamp_enable SysUtEvent#time_stamp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#time_stamp_enable SysUtEvent#time_stamp_enable}
   */
   readonly timeStampEnable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#wscale SysUtEvent#wscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#wscale SysUtEvent#wscale}
   */
   readonly wscale?: number;
 }
@@ -2841,73 +2841,73 @@ export interface SysUtEventActionListTcp {
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ack_seq_number SysUtEvent#ack_seq_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ack_seq_number SysUtEvent#ack_seq_number}
   */
   readonly ackSeqNumber?: string;
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
   */
   readonly checksum?: string;
   /**
   * Dest port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#dest_port SysUtEvent#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#dest_port SysUtEvent#dest_port}
   */
   readonly destPort?: number;
   /**
   * Dest port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#dest_port_value SysUtEvent#dest_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#dest_port_value SysUtEvent#dest_port_value}
   */
   readonly destPortValue?: number;
   /**
   * Nat pool port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
   */
   readonly natPool?: string;
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#seq_number SysUtEvent#seq_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#seq_number SysUtEvent#seq_number}
   */
   readonly seqNumber?: string;
   /**
   * Source port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#src_port SysUtEvent#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#src_port SysUtEvent#src_port}
   */
   readonly srcPort?: number;
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#urgent SysUtEvent#urgent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#urgent SysUtEvent#urgent}
   */
   readonly urgent?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#window SysUtEvent#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#window SysUtEvent#window}
   */
   readonly window?: string;
   /**
   * flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#flags SysUtEvent#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#flags SysUtEvent#flags}
   */
   readonly flags?: SysUtEventActionListTcpFlags;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#options SysUtEvent#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#options SysUtEvent#options}
   */
   readonly options?: SysUtEventActionListTcpOptions;
 }
@@ -3312,43 +3312,43 @@ export interface SysUtEventActionListUdp {
   /**
   * 'valid': valid; 'invalid': invalid;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#checksum SysUtEvent#checksum}
   */
   readonly checksum?: string;
   /**
   * Dest port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#dest_port SysUtEvent#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#dest_port SysUtEvent#dest_port}
   */
   readonly destPort?: number;
   /**
   * Dest port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#dest_port_value SysUtEvent#dest_port_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#dest_port_value SysUtEvent#dest_port_value}
   */
   readonly destPortValue?: number;
   /**
   * Total packet length starting at UDP header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#length SysUtEvent#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#length SysUtEvent#length}
   */
   readonly length?: number;
   /**
   * Nat pool port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#nat_pool SysUtEvent#nat_pool}
   */
   readonly natPool?: string;
   /**
   * Source port value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#src_port SysUtEvent#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#src_port SysUtEvent#src_port}
   */
   readonly srcPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
 }
@@ -3608,67 +3608,67 @@ export interface SysUtEventActionListStruct {
   /**
   * Delay in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#delay SysUtEvent#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#delay SysUtEvent#delay}
   */
   readonly delay?: number;
   /**
   * 'send': Test event; 'expect': Expected result; 'wait': Introduce a delay;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#direction SysUtEvent#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#direction SysUtEvent#direction}
   */
   readonly direction: string;
   /**
   * Packet drop. Only allowed for output spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#drop SysUtEvent#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#drop SysUtEvent#drop}
   */
   readonly drop?: number;
   /**
   * Packet template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#template SysUtEvent#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#template SysUtEvent#template}
   */
   readonly template?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#uuid SysUtEvent#uuid}
   */
   readonly uuid?: string;
   /**
   * ignore_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#ignore_validation SysUtEvent#ignore_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#ignore_validation SysUtEvent#ignore_validation}
   */
   readonly ignoreValidation?: SysUtEventActionListIgnoreValidation;
   /**
   * l1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l1 SysUtEvent#l1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l1 SysUtEvent#l1}
   */
   readonly l1?: SysUtEventActionListL1;
   /**
   * l2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l2 SysUtEvent#l2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l2 SysUtEvent#l2}
   */
   readonly l2?: SysUtEventActionListL2;
   /**
   * l3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#l3 SysUtEvent#l3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#l3 SysUtEvent#l3}
   */
   readonly l3?: SysUtEventActionListL3;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#tcp SysUtEvent#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#tcp SysUtEvent#tcp}
   */
   readonly tcp?: SysUtEventActionListTcp;
   /**
   * udp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#udp SysUtEvent#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#udp SysUtEvent#udp}
   */
   readonly udp?: SysUtEventActionListUdp;
 }
@@ -4071,7 +4071,7 @@ export class SysUtEventActionListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event thunder_sys_ut_event}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event thunder_sys_ut_event}
 */
 export class SysUtEvent extends cdktf.TerraformResource {
 
@@ -4087,7 +4087,7 @@ export class SysUtEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SysUtEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SysUtEvent to import
-  * @param importFromId The id of the existing SysUtEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SysUtEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SysUtEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4099,7 +4099,7 @@ export class SysUtEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sys_ut_event thunder_sys_ut_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sys_ut_event thunder_sys_ut_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4110,8 +4110,8 @@ export class SysUtEvent extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sys_ut_event',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface Cgnv6MapTranslationDomainConfig extends cdktf.TerraformMetaArgu
   /**
   * MAP-T domain description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#description Cgnv6MapTranslationDomain#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#description Cgnv6MapTranslationDomain#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#id Cgnv6MapTranslationDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#id Cgnv6MapTranslationDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface Cgnv6MapTranslationDomainConfig extends cdktf.TerraformMetaArgu
   /**
   * Domain MTU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#mtu Cgnv6MapTranslationDomain#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#mtu Cgnv6MapTranslationDomain#mtu}
   */
   readonly mtu?: number;
   /**
   * MAP-T domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#name Cgnv6MapTranslationDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#name Cgnv6MapTranslationDomain#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#packet_capture_template Cgnv6MapTranslationDomain#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#packet_capture_template Cgnv6MapTranslationDomain#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#user_tag Cgnv6MapTranslationDomain#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#user_tag Cgnv6MapTranslationDomain#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
   */
   readonly uuid?: string;
   /**
   * basic_mapping_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#basic_mapping_rule Cgnv6MapTranslationDomain#basic_mapping_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#basic_mapping_rule Cgnv6MapTranslationDomain#basic_mapping_rule}
   */
   readonly basicMappingRule?: Cgnv6MapTranslationDomainBasicMappingRule;
   /**
   * default_mapping_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#default_mapping_rule Cgnv6MapTranslationDomain#default_mapping_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#default_mapping_rule Cgnv6MapTranslationDomain#default_mapping_rule}
   */
   readonly defaultMappingRule?: Cgnv6MapTranslationDomainDefaultMappingRule;
   /**
   * health_check_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#health_check_gateway Cgnv6MapTranslationDomain#health_check_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#health_check_gateway Cgnv6MapTranslationDomain#health_check_gateway}
   */
   readonly healthCheckGateway?: Cgnv6MapTranslationDomainHealthCheckGateway;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#sampling_enable Cgnv6MapTranslationDomain#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#sampling_enable Cgnv6MapTranslationDomain#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6MapTranslationDomainSamplingEnable[] | cdktf.IResolvable;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#tcp Cgnv6MapTranslationDomain#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#tcp Cgnv6MapTranslationDomain#tcp}
   */
   readonly tcp?: Cgnv6MapTranslationDomainTcp;
 }
@@ -85,37 +85,37 @@ export interface Cgnv6MapTranslationDomainBasicMappingRulePrefixRuleListStruct {
   /**
   * Subnet mask (subnet bigger than /8 is not allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#ipv4_netmask Cgnv6MapTranslationDomain#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#ipv4_netmask Cgnv6MapTranslationDomain#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
   * MAP BMR prefix rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#name Cgnv6MapTranslationDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#name Cgnv6MapTranslationDomain#name}
   */
   readonly name: string;
   /**
   * IPv4 prefix of BMR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#rule_ipv4_prefix Cgnv6MapTranslationDomain#rule_ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#rule_ipv4_prefix Cgnv6MapTranslationDomain#rule_ipv4_prefix}
   */
   readonly ruleIpv4Prefix?: string;
   /**
   * IPv6 prefix of BMR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#rule_ipv6_prefix Cgnv6MapTranslationDomain#rule_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#rule_ipv6_prefix Cgnv6MapTranslationDomain#rule_ipv6_prefix}
   */
   readonly ruleIpv6Prefix?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#user_tag Cgnv6MapTranslationDomain#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#user_tag Cgnv6MapTranslationDomain#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
   */
   readonly uuid?: string;
 }
@@ -375,37 +375,37 @@ export interface Cgnv6MapTranslationDomainBasicMappingRule {
   /**
   * Length of Embedded Address (EA) bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#ea_length Cgnv6MapTranslationDomain#ea_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#ea_length Cgnv6MapTranslationDomain#ea_length}
   */
   readonly eaLength?: number;
   /**
   * Starting Port, Must be Power of 2 value or zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#port_start Cgnv6MapTranslationDomain#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#port_start Cgnv6MapTranslationDomain#port_start}
   */
   readonly portStart?: number;
   /**
   * 'prefix-addr': Each CE is assigned an IPv4 prefix; 'single-addr': Each CE is assigned an IPv4 address; 'shared-addr': Each CE is assigned a shared IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#rule_ipv4_address_port_settings Cgnv6MapTranslationDomain#rule_ipv4_address_port_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#rule_ipv4_address_port_settings Cgnv6MapTranslationDomain#rule_ipv4_address_port_settings}
   */
   readonly ruleIpv4AddressPortSettings?: string;
   /**
   * Port sharing ratio for each NAT IP. Must be Power of 2 value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#share_ratio Cgnv6MapTranslationDomain#share_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#share_ratio Cgnv6MapTranslationDomain#share_ratio}
   */
   readonly shareRatio?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
   */
   readonly uuid?: string;
   /**
   * prefix_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#prefix_rule_list Cgnv6MapTranslationDomain#prefix_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#prefix_rule_list Cgnv6MapTranslationDomain#prefix_rule_list}
   */
   readonly prefixRuleList?: Cgnv6MapTranslationDomainBasicMappingRulePrefixRuleListStruct[] | cdktf.IResolvable;
 }
@@ -636,13 +636,13 @@ export interface Cgnv6MapTranslationDomainDefaultMappingRule {
   /**
   * Rule IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#rule_ipv6_prefix Cgnv6MapTranslationDomain#rule_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#rule_ipv6_prefix Cgnv6MapTranslationDomain#rule_ipv6_prefix}
   */
   readonly ruleIpv6Prefix?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
   */
   readonly uuid?: string;
 }
@@ -757,7 +757,7 @@ export interface Cgnv6MapTranslationDomainHealthCheckGatewayAddressListStruct {
   /**
   * IPv4 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#ipv4_gateway Cgnv6MapTranslationDomain#ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#ipv4_gateway Cgnv6MapTranslationDomain#ipv4_gateway}
   */
   readonly ipv4Gateway?: string;
 }
@@ -875,7 +875,7 @@ export interface Cgnv6MapTranslationDomainHealthCheckGatewayIpv6AddressListStruc
   /**
   * IPv6 Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#ipv6_gateway Cgnv6MapTranslationDomain#ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#ipv6_gateway Cgnv6MapTranslationDomain#ipv6_gateway}
   */
   readonly ipv6Gateway?: string;
 }
@@ -993,25 +993,25 @@ export interface Cgnv6MapTranslationDomainHealthCheckGateway {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#uuid Cgnv6MapTranslationDomain#uuid}
   */
   readonly uuid?: string;
   /**
   * 'all-link-failure': Withdraw routes on health-check failure of all IPv4 gateways or all IPv6 gateways; 'any-link-failure': Withdraw routes on health-check failure of any gateway (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#withdraw_route Cgnv6MapTranslationDomain#withdraw_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#withdraw_route Cgnv6MapTranslationDomain#withdraw_route}
   */
   readonly withdrawRoute?: string;
   /**
   * address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#address_list Cgnv6MapTranslationDomain#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#address_list Cgnv6MapTranslationDomain#address_list}
   */
   readonly addressList?: Cgnv6MapTranslationDomainHealthCheckGatewayAddressListStruct[] | cdktf.IResolvable;
   /**
   * ipv6_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#ipv6_address_list Cgnv6MapTranslationDomain#ipv6_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#ipv6_address_list Cgnv6MapTranslationDomain#ipv6_address_list}
   */
   readonly ipv6AddressList?: Cgnv6MapTranslationDomainHealthCheckGatewayIpv6AddressListStruct[] | cdktf.IResolvable;
 }
@@ -1184,7 +1184,7 @@ export interface Cgnv6MapTranslationDomainSamplingEnable {
   /**
   * 'all': all; 'inbound_packet_received': Inbound IPv4 Packets Received; 'inbound_frag_packet_received': Inbound IPv4 Fragment Packets Received; 'inbound_addr_port_validation_failed': Inbound IPv4 Destination Address Port Validation Failed; 'inbound_rev_lookup_failed': Inbound IPv4 Reverse Route Lookup Failed; 'inbound_dest_unreachable': Inbound IPv6 Destination Address Unreachable; 'outbound_packet_received': Outbound IPv6 Packets Received; 'outbound_frag_packet_received': Outbound IPv6 Fragment Packets Received; 'outbound_addr_validation_failed': Outbound IPv6 Source Address Validation Failed; 'outbound_rev_lookup_failed': Outbound IPv6 Reverse Route Lookup Failed; 'outbound_dest_unreachable': Outbound IPv4 Destination Address Unreachable; 'packet_mtu_exceeded': Packet Exceeded MTU; 'frag_icmp_sent': ICMP Packet Too Big Sent; 'interface_not_configured': Interfaces not Configured Dropped; 'bmr_prefixrules_configured': BMR prefix rules configured; 'helper_count': Helper Count; 'active_dhcpv6_leases': Active DHCPv6 leases;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#counters1 Cgnv6MapTranslationDomain#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#counters1 Cgnv6MapTranslationDomain#counters1}
   */
   readonly counters1?: string;
 }
@@ -1302,25 +1302,25 @@ export interface Cgnv6MapTranslationDomainTcpMssClamp {
   /**
   * Specify the min value allowed for the TCP MSS (Specify the min value allowed for the TCP MSS (default: 516))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#min Cgnv6MapTranslationDomain#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#min Cgnv6MapTranslationDomain#min}
   */
   readonly min?: number;
   /**
   * 'fixed': Specify a fixed max value for the TCP MSS; 'none': No TCP MSS clamping(default); 'subtract': Specify the value to subtract from the TCP MSS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#mss_clamp_type Cgnv6MapTranslationDomain#mss_clamp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#mss_clamp_type Cgnv6MapTranslationDomain#mss_clamp_type}
   */
   readonly mssClampType?: string;
   /**
   * Specify the value to subtract from the TCP MSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#mss_subtract Cgnv6MapTranslationDomain#mss_subtract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#mss_subtract Cgnv6MapTranslationDomain#mss_subtract}
   */
   readonly mssSubtract?: number;
   /**
   * The max value allowed for the TCP MSS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#mss_value Cgnv6MapTranslationDomain#mss_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#mss_value Cgnv6MapTranslationDomain#mss_value}
   */
   readonly mssValue?: number;
 }
@@ -1493,7 +1493,7 @@ export interface Cgnv6MapTranslationDomainTcp {
   /**
   * mss_clamp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#mss_clamp Cgnv6MapTranslationDomain#mss_clamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#mss_clamp Cgnv6MapTranslationDomain#mss_clamp}
   */
   readonly mssClamp?: Cgnv6MapTranslationDomainTcpMssClamp;
 }
@@ -1577,7 +1577,7 @@ export class Cgnv6MapTranslationDomainTcpOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain thunder_cgnv6_map_translation_domain}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain thunder_cgnv6_map_translation_domain}
 */
 export class Cgnv6MapTranslationDomain extends cdktf.TerraformResource {
 
@@ -1593,7 +1593,7 @@ export class Cgnv6MapTranslationDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6MapTranslationDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6MapTranslationDomain to import
-  * @param importFromId The id of the existing Cgnv6MapTranslationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6MapTranslationDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6MapTranslationDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1605,7 +1605,7 @@ export class Cgnv6MapTranslationDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_translation_domain thunder_cgnv6_map_translation_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_translation_domain thunder_cgnv6_map_translation_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1616,8 +1616,8 @@ export class Cgnv6MapTranslationDomain extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_map_translation_domain',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

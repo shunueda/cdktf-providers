@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface SlbTemplateDiameterConfig extends cdktf.TerraformMetaArguments 
   /**
   * avp code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#avp_code SlbTemplateDiameter#avp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#avp_code SlbTemplateDiameter#avp_code}
   */
   readonly avpCode?: number;
   /**
   * pattern to be matched in the avp string name, max length 127 bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#avp_string SlbTemplateDiameter#avp_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#avp_string SlbTemplateDiameter#avp_string}
   */
   readonly avpString?: string;
   /**
   * customizing cea response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#customize_cea SlbTemplateDiameter#customize_cea}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#customize_cea SlbTemplateDiameter#customize_cea}
   */
   readonly customizeCea?: number;
   /**
   * dwr health-check timer interval (in 100 milli second unit, default is 100, 0 means unset this option)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#dwr_time SlbTemplateDiameter#dwr_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#dwr_time SlbTemplateDiameter#dwr_time}
   */
   readonly dwrTime?: number;
   /**
   * number of successful dwr health-check before declaring target up
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#dwr_up_retry SlbTemplateDiameter#dwr_up_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#dwr_up_retry SlbTemplateDiameter#dwr_up_retry}
   */
   readonly dwrUpRetry?: number;
   /**
   * Forward client message to the latest server that sends message with the same session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#forward_to_latest_server SlbTemplateDiameter#forward_to_latest_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#forward_to_latest_server SlbTemplateDiameter#forward_to_latest_server}
   */
   readonly forwardToLatestServer?: number;
   /**
   * Forward server message even it has unknown session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#forward_unknown_session_id SlbTemplateDiameter#forward_unknown_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#forward_unknown_session_id SlbTemplateDiameter#forward_unknown_session_id}
   */
   readonly forwardUnknownSessionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#id SlbTemplateDiameter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#id SlbTemplateDiameter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,97 +59,97 @@ export interface SlbTemplateDiameterConfig extends cdktf.TerraformMetaArguments 
   /**
   * user sesison idle timeout (in minutes, default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#idle_timeout SlbTemplateDiameter#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#idle_timeout SlbTemplateDiameter#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Load balance based on the session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#load_balance_on_session_id SlbTemplateDiameter#load_balance_on_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#load_balance_on_session_id SlbTemplateDiameter#load_balance_on_session_id}
   */
   readonly loadBalanceOnSessionId?: number;
   /**
   * allowing multiple origin-host to a single server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#multiple_origin_host SlbTemplateDiameter#multiple_origin_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#multiple_origin_host SlbTemplateDiameter#multiple_origin_host}
   */
   readonly multipleOriginHost?: number;
   /**
   * diameter template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#name SlbTemplateDiameter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#name SlbTemplateDiameter#name}
   */
   readonly name: string;
   /**
   * origin-realm name avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#origin_realm SlbTemplateDiameter#origin_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#origin_realm SlbTemplateDiameter#origin_realm}
   */
   readonly originRealm?: string;
   /**
   * product name avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#product_name SlbTemplateDiameter#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#product_name SlbTemplateDiameter#product_name}
   */
   readonly productName?: string;
   /**
   * Relaxed Origin-Host Format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#relaxed_origin_host SlbTemplateDiameter#relaxed_origin_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#relaxed_origin_host SlbTemplateDiameter#relaxed_origin_host}
   */
   readonly relaxedOriginHost?: number;
   /**
   * service group name, this is the service group that the message needs to be copied to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#service_group_name SlbTemplateDiameter#service_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#service_group_name SlbTemplateDiameter#service_group_name}
   */
   readonly serviceGroupName?: string;
   /**
   * user session age allowed (default 10), this is not idle-time (in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#session_age SlbTemplateDiameter#session_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#session_age SlbTemplateDiameter#session_age}
   */
   readonly sessionAge?: number;
   /**
   * remove diameter session when receiving CCA-T message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#terminate_on_cca_t SlbTemplateDiameter#terminate_on_cca_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#terminate_on_cca_t SlbTemplateDiameter#terminate_on_cca_t}
   */
   readonly terminateOnCcaT?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#user_tag SlbTemplateDiameter#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#user_tag SlbTemplateDiameter#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#uuid SlbTemplateDiameter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#uuid SlbTemplateDiameter#uuid}
   */
   readonly uuid?: string;
   /**
   * vendor-id avp (Vendor Id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#vendor_id SlbTemplateDiameter#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#vendor_id SlbTemplateDiameter#vendor_id}
   */
   readonly vendorId?: number;
   /**
   * avp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#avp_list SlbTemplateDiameter#avp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#avp_list SlbTemplateDiameter#avp_list}
   */
   readonly avpList?: SlbTemplateDiameterAvpListStruct[] | cdktf.IResolvable;
   /**
   * message_code_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#message_code_list SlbTemplateDiameter#message_code_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#message_code_list SlbTemplateDiameter#message_code_list}
   */
   readonly messageCodeList?: SlbTemplateDiameterMessageCodeListStruct[] | cdktf.IResolvable;
   /**
   * origin_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#origin_host SlbTemplateDiameter#origin_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#origin_host SlbTemplateDiameter#origin_host}
   */
   readonly originHost?: SlbTemplateDiameterOriginHost;
 }
@@ -157,31 +157,31 @@ export interface SlbTemplateDiameterAvpListStruct {
   /**
   * customize avps for cer to the server (avp number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#avp SlbTemplateDiameter#avp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#avp SlbTemplateDiameter#avp}
   */
   readonly avp?: number;
   /**
   * 32 bits integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#int32 SlbTemplateDiameter#int32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#int32 SlbTemplateDiameter#int32}
   */
   readonly int32?: number;
   /**
   * 64 bits integer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#int64 SlbTemplateDiameter#int64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#int64 SlbTemplateDiameter#int64}
   */
   readonly int64?: number;
   /**
   * mandatory avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#mandatory SlbTemplateDiameter#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#mandatory SlbTemplateDiameter#mandatory}
   */
   readonly mandatory?: number;
   /**
   * String (string name, max length 127 bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#string SlbTemplateDiameter#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#string SlbTemplateDiameter#string}
   */
   readonly string?: string;
 }
@@ -413,7 +413,7 @@ export class SlbTemplateDiameterAvpListStructList extends cdktf.ComplexList {
 }
 export interface SlbTemplateDiameterMessageCodeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#message_code SlbTemplateDiameter#message_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#message_code SlbTemplateDiameter#message_code}
   */
   readonly messageCode?: number;
 }
@@ -531,13 +531,13 @@ export interface SlbTemplateDiameterOriginHost {
   /**
   * origin-host name avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#origin_host_name SlbTemplateDiameter#origin_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#origin_host_name SlbTemplateDiameter#origin_host_name}
   */
   readonly originHostName?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#uuid SlbTemplateDiameter#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#uuid SlbTemplateDiameter#uuid}
   */
   readonly uuid?: string;
 }
@@ -650,7 +650,7 @@ export class SlbTemplateDiameterOriginHostOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter thunder_slb_template_diameter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter thunder_slb_template_diameter}
 */
 export class SlbTemplateDiameter extends cdktf.TerraformResource {
 
@@ -666,7 +666,7 @@ export class SlbTemplateDiameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDiameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDiameter to import
-  * @param importFromId The id of the existing SlbTemplateDiameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDiameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDiameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -678,7 +678,7 @@ export class SlbTemplateDiameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_diameter thunder_slb_template_diameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_diameter thunder_slb_template_diameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -689,8 +689,8 @@ export class SlbTemplateDiameter extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_diameter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

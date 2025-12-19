@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GslbServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dependency on site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#dependency_site GslbServiceGroup#dependency_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#dependency_site GslbServiceGroup#dependency_site}
   */
   readonly dependencySite?: number;
   /**
   * Disable all members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#disable GslbServiceGroup#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#disable GslbServiceGroup#disable}
   */
   readonly disable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#id GslbServiceGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#id GslbServiceGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface GslbServiceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify aging-time, unit: min, default is 5 (Aging time)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#persistent_aging_time GslbServiceGroup#persistent_aging_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#persistent_aging_time GslbServiceGroup#persistent_aging_time}
   */
   readonly persistentAgingTime?: number;
   /**
   * Specify IPv6 mask length, default is 128
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#persistent_ipv6_mask GslbServiceGroup#persistent_ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#persistent_ipv6_mask GslbServiceGroup#persistent_ipv6_mask}
   */
   readonly persistentIpv6Mask?: number;
   /**
   * Specify IP mask, default is /32
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#persistent_mask GslbServiceGroup#persistent_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#persistent_mask GslbServiceGroup#persistent_mask}
   */
   readonly persistentMask?: string;
   /**
   * Persistent based on site
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#persistent_site GslbServiceGroup#persistent_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#persistent_site GslbServiceGroup#persistent_site}
   */
   readonly persistentSite?: number;
   /**
   * Specify Service Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#service_group_name GslbServiceGroup#service_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#service_group_name GslbServiceGroup#service_group_name}
   */
   readonly serviceGroupName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#user_tag GslbServiceGroup#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#user_tag GslbServiceGroup#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#uuid GslbServiceGroup#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#uuid GslbServiceGroup#uuid}
   */
   readonly uuid?: string;
   /**
   * disable_site_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#disable_site_list GslbServiceGroup#disable_site_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#disable_site_list GslbServiceGroup#disable_site_list}
   */
   readonly disableSiteList?: GslbServiceGroupDisableSiteListStruct[] | cdktf.IResolvable;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#member GslbServiceGroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#member GslbServiceGroup#member}
   */
   readonly member?: GslbServiceGroupMember[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface GslbServiceGroupDisableSiteListStruct {
   /**
   * Site name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#disable_site GslbServiceGroup#disable_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#disable_site GslbServiceGroup#disable_site}
   */
   readonly disableSite?: string;
 }
@@ -203,7 +203,7 @@ export interface GslbServiceGroupMember {
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#member_name GslbServiceGroup#member_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#member_name GslbServiceGroup#member_name}
   */
   readonly memberName?: string;
 }
@@ -319,7 +319,7 @@ export class GslbServiceGroupMemberList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group thunder_gslb_service_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group thunder_gslb_service_group}
 */
 export class GslbServiceGroup extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class GslbServiceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbServiceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbServiceGroup to import
-  * @param importFromId The id of the existing GslbServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbServiceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbServiceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class GslbServiceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_service_group thunder_gslb_service_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_service_group thunder_gslb_service_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class GslbServiceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_service_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

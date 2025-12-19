@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AamAuthenticationOauthAuthorizationServerConfig extends cdktf.T
   /**
   * Specify URI for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#authorization_endpoint AamAuthenticationOauthAuthorizationServer#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#authorization_endpoint AamAuthenticationOauthAuthorizationServer#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
   * 'ignored': Clients' browser will send data according to server spec (default); 'post': Clients' browser will send data by POST; 'get': Clients' browser will send data by GET;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#client_method AamAuthenticationOauthAuthorizationServer#client_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#client_method AamAuthenticationOauthAuthorizationServer#client_method}
   */
   readonly clientMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#id AamAuthenticationOauthAuthorizationServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#id AamAuthenticationOauthAuthorizationServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface AamAuthenticationOauthAuthorizationServerConfig extends cdktf.T
   /**
   * Specify openid provider name for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#issuer AamAuthenticationOauthAuthorizationServer#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#issuer AamAuthenticationOauthAuthorizationServer#issuer}
   */
   readonly issuer?: string;
   /**
   * Specify authorization server object name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#name AamAuthenticationOauthAuthorizationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#name AamAuthenticationOauthAuthorizationServer#name}
   */
   readonly name: string;
   /**
   * 'post': AX will send data to server by POST (default); 'get': AX will send data to server by GET;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#server_method AamAuthenticationOauthAuthorizationServer#server_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#server_method AamAuthenticationOauthAuthorizationServer#server_method}
   */
   readonly serverMethod?: string;
   /**
   * Specify URI for token exchange
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#token_endpoint AamAuthenticationOauthAuthorizationServer#token_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#token_endpoint AamAuthenticationOauthAuthorizationServer#token_endpoint}
   */
   readonly tokenEndpoint?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#user_tag AamAuthenticationOauthAuthorizationServer#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#user_tag AamAuthenticationOauthAuthorizationServer#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#uuid AamAuthenticationOauthAuthorizationServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#uuid AamAuthenticationOauthAuthorizationServer#uuid}
   */
   readonly uuid?: string;
   /**
   * Specify certificate to verify ID token signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#verification_cert AamAuthenticationOauthAuthorizationServer#verification_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#verification_cert AamAuthenticationOauthAuthorizationServer#verification_cert}
   */
   readonly verificationCert?: string;
   /**
   * Specify jwks file to verify ID token signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#verification_jwks AamAuthenticationOauthAuthorizationServer#verification_jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#verification_jwks AamAuthenticationOauthAuthorizationServer#verification_jwks}
   */
   readonly verificationJwks?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#sampling_enable AamAuthenticationOauthAuthorizationServer#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#sampling_enable AamAuthenticationOauthAuthorizationServer#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationOauthAuthorizationServerSamplingEnable[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface AamAuthenticationOauthAuthorizationServerSamplingEnable {
   /**
   * 'all': all; 'auth-req': auth-req; 'auth-succ': auth-succ; 'auth-fail': auth-fail; 'auth-error': auth-error; 'other-error': other-error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#counters1 AamAuthenticationOauthAuthorizationServer#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#counters1 AamAuthenticationOauthAuthorizationServer#counters1}
   */
   readonly counters1?: string;
 }
@@ -201,7 +201,7 @@ export class AamAuthenticationOauthAuthorizationServerSamplingEnableList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server thunder_aam_authentication_oauth_authorization_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server thunder_aam_authentication_oauth_authorization_server}
 */
 export class AamAuthenticationOauthAuthorizationServer extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class AamAuthenticationOauthAuthorizationServer extends cdktf.TerraformRe
   * Generates CDKTF code for importing a AamAuthenticationOauthAuthorizationServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationOauthAuthorizationServer to import
-  * @param importFromId The id of the existing AamAuthenticationOauthAuthorizationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationOauthAuthorizationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationOauthAuthorizationServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class AamAuthenticationOauthAuthorizationServer extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_oauth_authorization_server thunder_aam_authentication_oauth_authorization_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_oauth_authorization_server thunder_aam_authentication_oauth_authorization_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class AamAuthenticationOauthAuthorizationServer extends cdktf.TerraformRe
       terraformResourceType: 'thunder_aam_authentication_oauth_authorization_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemIpDnsCacheOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#id DataThunderSystemIpDnsCacheOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#id DataThunderSystemIpDnsCacheOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderSystemIpDnsCacheOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#oper DataThunderSystemIpDnsCacheOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#oper DataThunderSystemIpDnsCacheOper#oper}
   */
   readonly oper?: DataThunderSystemIpDnsCacheOperOper;
 }
 export interface DataThunderSystemIpDnsCacheOperOperDomainIpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#address DataThunderSystemIpDnsCacheOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#address DataThunderSystemIpDnsCacheOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#domain DataThunderSystemIpDnsCacheOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#domain DataThunderSystemIpDnsCacheOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#interval DataThunderSystemIpDnsCacheOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#interval DataThunderSystemIpDnsCacheOper#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#ttl DataThunderSystemIpDnsCacheOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#ttl DataThunderSystemIpDnsCacheOper#ttl}
   */
   readonly ttl?: number;
 }
@@ -240,7 +240,7 @@ export interface DataThunderSystemIpDnsCacheOperOper {
   /**
   * domain_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#domain_ip_list DataThunderSystemIpDnsCacheOper#domain_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#domain_ip_list DataThunderSystemIpDnsCacheOper#domain_ip_list}
   */
   readonly domainIpList?: DataThunderSystemIpDnsCacheOperOperDomainIpListStruct[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderSystemIpDnsCacheOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper thunder_system_ip_dns_cache_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper thunder_system_ip_dns_cache_oper}
 */
 export class DataThunderSystemIpDnsCacheOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderSystemIpDnsCacheOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemIpDnsCacheOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemIpDnsCacheOper to import
-  * @param importFromId The id of the existing DataThunderSystemIpDnsCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemIpDnsCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemIpDnsCacheOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderSystemIpDnsCacheOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_dns_cache_oper thunder_system_ip_dns_cache_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_dns_cache_oper thunder_system_ip_dns_cache_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderSystemIpDnsCacheOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_ip_dns_cache_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

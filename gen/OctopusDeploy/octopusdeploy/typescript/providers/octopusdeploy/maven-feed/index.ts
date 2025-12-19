@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,51 +10,51 @@ export interface MavenFeedConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of times a deployment should attempt to download a package from this feed before failing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#download_attempts MavenFeed#download_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#download_attempts MavenFeed#download_attempts}
   */
   readonly downloadAttempts?: number;
   /**
   * The number of seconds to apply as a linear back off between download attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#download_retry_backoff_seconds MavenFeed#download_retry_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#download_retry_backoff_seconds MavenFeed#download_retry_backoff_seconds}
   */
   readonly downloadRetryBackoffSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#feed_uri MavenFeed#feed_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#feed_uri MavenFeed#feed_uri}
   */
   readonly feedUri: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#name MavenFeed#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#name MavenFeed#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#package_acquisition_location_options MavenFeed#package_acquisition_location_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#package_acquisition_location_options MavenFeed#package_acquisition_location_options}
   */
   readonly packageAcquisitionLocationOptions?: string[];
   /**
   * The password associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#password MavenFeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#password MavenFeed#password}
   */
   readonly password?: string;
   /**
   * The space ID associated with this maven feed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#space_id MavenFeed#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#space_id MavenFeed#space_id}
   */
   readonly spaceId?: string;
   /**
   * The username associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#username MavenFeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#username MavenFeed#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed octopusdeploy_maven_feed}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed octopusdeploy_maven_feed}
 */
 export class MavenFeed extends cdktf.TerraformResource {
 
@@ -70,7 +70,7 @@ export class MavenFeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MavenFeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MavenFeed to import
-  * @param importFromId The id of the existing MavenFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MavenFeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MavenFeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -82,7 +82,7 @@ export class MavenFeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/maven_feed octopusdeploy_maven_feed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/maven_feed octopusdeploy_maven_feed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -93,8 +93,8 @@ export class MavenFeed extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_maven_feed',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

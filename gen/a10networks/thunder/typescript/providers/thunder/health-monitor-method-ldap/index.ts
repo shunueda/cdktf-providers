@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface HealthMonitorMethodLdapAConfig extends cdktf.TerraformMetaArgum
   /**
   * Mark server up on receiving a not-found response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#acceptnotfound HealthMonitorMethodLdapA#acceptnotfound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#acceptnotfound HealthMonitorMethodLdapA#acceptnotfound}
   */
   readonly acceptnotfound?: number;
   /**
   * Mark server up on receiving a search result reference response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#acceptresref HealthMonitorMethodLdapA#acceptresref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#acceptresref HealthMonitorMethodLdapA#acceptresref}
   */
   readonly acceptresref?: number;
   /**
   * Specify LDAP DN distinguished name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#basedn HealthMonitorMethodLdapA#basedn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#basedn HealthMonitorMethodLdapA#basedn}
   */
   readonly basedn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#id HealthMonitorMethodLdapA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#id HealthMonitorMethodLdapA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface HealthMonitorMethodLdapAConfig extends cdktf.TerraformMetaArgum
   /**
   * LDAP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap HealthMonitorMethodLdapA#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap HealthMonitorMethodLdapA#ldap}
   */
   readonly ldap?: number;
   /**
   * Specify the distinguished name for bindRequest (LDAP DN distinguished name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_binddn HealthMonitorMethodLdapA#ldap_binddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_binddn HealthMonitorMethodLdapA#ldap_binddn}
   */
   readonly ldapBinddn?: string;
   /**
   * Specify the user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_password HealthMonitorMethodLdapA#ldap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_password HealthMonitorMethodLdapA#ldap_password}
   */
   readonly ldapPassword?: number;
   /**
   * Configure password, '' means empty password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_password_string HealthMonitorMethodLdapA#ldap_password_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_password_string HealthMonitorMethodLdapA#ldap_password_string}
   */
   readonly ldapPasswordString?: string;
   /**
   * Specify the LDAP port (Speciry port number, default is 389, or 636 if LDAP over SSL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_port HealthMonitorMethodLdapA#ldap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_port HealthMonitorMethodLdapA#ldap_port}
   */
   readonly ldapPort?: number;
   /**
   * LDAP query to be excuted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_query HealthMonitorMethodLdapA#ldap_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_query HealthMonitorMethodLdapA#ldap_query}
   */
   readonly ldapQuery?: string;
   /**
   * Specify a query to be executed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_run_search HealthMonitorMethodLdapA#ldap_run_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_run_search HealthMonitorMethodLdapA#ldap_run_search}
   */
   readonly ldapRunSearch?: number;
   /**
   * 'overssl': Set LDAP over SSL; 'StartTLS': LDAP switch to TLS;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#ldap_security HealthMonitorMethodLdapA#ldap_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#ldap_security HealthMonitorMethodLdapA#ldap_security}
   */
   readonly ldapSecurity?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#name HealthMonitorMethodLdapA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#monitor_name HealthMonitorMethodLdapA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#uuid HealthMonitorMethodLdapA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#uuid HealthMonitorMethodLdapA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap thunder_health_monitor_method_ldap}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap thunder_health_monitor_method_ldap}
 */
 export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodLdapA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodLdapA to import
-  * @param importFromId The id of the existing HealthMonitorMethodLdapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodLdapA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodLdapA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_ldap thunder_health_monitor_method_ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_ldap thunder_health_monitor_method_ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_ldap',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -157,7 +157,7 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
     this._ldapQuery = config.ldapQuery;
     this._ldapRunSearch = config.ldapRunSearch;
     this._ldapSecurity = config.ldapSecurity;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
   }
 
@@ -357,17 +357,17 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
     return this._ldapSecurity;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -404,7 +404,7 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
       ldap_query: cdktf.stringToTerraform(this._ldapQuery),
       ldap_run_search: cdktf.numberToTerraform(this._ldapRunSearch),
       ldap_security: cdktf.stringToTerraform(this._ldapSecurity),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -483,8 +483,8 @@ export class HealthMonitorMethodLdapA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

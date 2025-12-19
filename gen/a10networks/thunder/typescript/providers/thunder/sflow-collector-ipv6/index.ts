@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SflowCollectorIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * Configure sFlow collector IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#addr SflowCollectorIpv6#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#addr SflowCollectorIpv6#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#id SflowCollectorIpv6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#id SflowCollectorIpv6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface SflowCollectorIpv6Config extends cdktf.TerraformMetaArguments {
   /**
   * Port number (default is 6343)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#port SflowCollectorIpv6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#port SflowCollectorIpv6#port}
   */
   readonly port: number;
   /**
   * sFlow collector is through out-of-band management
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#use_mgmt_port SflowCollectorIpv6#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#use_mgmt_port SflowCollectorIpv6#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#user_tag SflowCollectorIpv6#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#user_tag SflowCollectorIpv6#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#uuid SflowCollectorIpv6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#uuid SflowCollectorIpv6#uuid}
   */
   readonly uuid?: string;
   /**
   * customized_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#customized_setting SflowCollectorIpv6#customized_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#customized_setting SflowCollectorIpv6#customized_setting}
   */
   readonly customizedSetting?: SflowCollectorIpv6CustomizedSetting;
 }
@@ -55,37 +55,37 @@ export interface SflowCollectorIpv6CustomizedSetting {
   /**
   * Enable counters for ACOS control blocks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#a10_proprietary_polling SflowCollectorIpv6#a10_proprietary_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#a10_proprietary_polling SflowCollectorIpv6#a10_proprietary_polling}
   */
   readonly a10ProprietaryPolling?: number;
   /**
   * Enable counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#counter_polling SflowCollectorIpv6#counter_polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#counter_polling SflowCollectorIpv6#counter_polling}
   */
   readonly counterPolling?: number;
   /**
   * Enable event notification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#event_notification SflowCollectorIpv6#event_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#event_notification SflowCollectorIpv6#event_notification}
   */
   readonly eventNotification?: number;
   /**
   * 'export': Customizes export settings for collector;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#export_enable SflowCollectorIpv6#export_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#export_enable SflowCollectorIpv6#export_enable}
   */
   readonly exportEnable?: string;
   /**
   * Enable packet sampling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#packet_sampling SflowCollectorIpv6#packet_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#packet_sampling SflowCollectorIpv6#packet_sampling}
   */
   readonly packetSampling?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#uuid SflowCollectorIpv6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#uuid SflowCollectorIpv6#uuid}
   */
   readonly uuid?: string;
 }
@@ -314,7 +314,7 @@ export class SflowCollectorIpv6CustomizedSettingOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6 thunder_sflow_collector_ipv6}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6 thunder_sflow_collector_ipv6}
 */
 export class SflowCollectorIpv6 extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class SflowCollectorIpv6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SflowCollectorIpv6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SflowCollectorIpv6 to import
-  * @param importFromId The id of the existing SflowCollectorIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SflowCollectorIpv6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SflowCollectorIpv6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class SflowCollectorIpv6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_collector_ipv6 thunder_sflow_collector_ipv6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_collector_ipv6 thunder_sflow_collector_ipv6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class SflowCollectorIpv6 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sflow_collector_ipv6',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSctpGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#id DataThunderSctpGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#id DataThunderSctpGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSctpGlobalStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#stats DataThunderSctpGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#stats DataThunderSctpGlobalStats#stats}
   */
   readonly stats?: DataThunderSctpGlobalStatsStats;
 }
@@ -25,367 +25,367 @@ export interface DataThunderSctpGlobalStatsStats {
   /**
   * Bad Alignment Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#bad_alignment_drop DataThunderSctpGlobalStats#bad_alignment_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#bad_alignment_drop DataThunderSctpGlobalStats#bad_alignment_drop}
   */
   readonly badAlignmentDrop?: number;
   /**
   * Bad Checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#bad_csum DataThunderSctpGlobalStats#bad_csum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#bad_csum DataThunderSctpGlobalStats#bad_csum}
   */
   readonly badCsum?: number;
   /**
   * Bad Payload Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#bad_payload_drop DataThunderSctpGlobalStats#bad_payload_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#bad_payload_drop DataThunderSctpGlobalStats#bad_payload_drop}
   */
   readonly badPayloadDrop?: number;
   /**
   * Configuration Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#cfg_err_drop DataThunderSctpGlobalStats#cfg_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#cfg_err_drop DataThunderSctpGlobalStats#cfg_err_drop}
   */
   readonly cfgErrDrop?: number;
   /**
   * Disallowed Chunk Filtered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#disallowed_chunk_filtered DataThunderSctpGlobalStats#disallowed_chunk_filtered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#disallowed_chunk_filtered DataThunderSctpGlobalStats#disallowed_chunk_filtered}
   */
   readonly disallowedChunkFiltered?: number;
   /**
   * Disallowed Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#disallowed_pkt_drop DataThunderSctpGlobalStats#disallowed_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#disallowed_pkt_drop DataThunderSctpGlobalStats#disallowed_pkt_drop}
   */
   readonly disallowedPktDrop?: number;
   /**
   * Invalid Fragmented Chunks Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#invalid_frag_chunk_drop DataThunderSctpGlobalStats#invalid_frag_chunk_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#invalid_frag_chunk_drop DataThunderSctpGlobalStats#invalid_frag_chunk_drop}
   */
   readonly invalidFragChunkDrop?: number;
   /**
   * Maximum Multi-homing IP Addresses Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#max_multi_home_drop DataThunderSctpGlobalStats#max_multi_home_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#max_multi_home_drop DataThunderSctpGlobalStats#max_multi_home_drop}
   */
   readonly maxMultiHomeDrop?: number;
   /**
   * Multi-homing IP Address Not Found Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#multi_home_addr_not_found_drop DataThunderSctpGlobalStats#multi_home_addr_not_found_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#multi_home_addr_not_found_drop DataThunderSctpGlobalStats#multi_home_addr_not_found_drop}
   */
   readonly multiHomeAddrNotFoundDrop?: number;
   /**
   * Multi-homing Remove IP Parameter Skip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#multi_home_remove_ip_skip DataThunderSctpGlobalStats#multi_home_remove_ip_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#multi_home_remove_ip_skip DataThunderSctpGlobalStats#multi_home_remove_ip_skip}
   */
   readonly multiHomeRemoveIpSkip?: number;
   /**
   * Out-of-state Packet Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#oos_pkt_drop DataThunderSctpGlobalStats#oos_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#oos_pkt_drop DataThunderSctpGlobalStats#oos_pkt_drop}
   */
   readonly oosPktDrop?: number;
   /**
   * Invalid Parameter Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#pkt_asconf_param_len_err_drop DataThunderSctpGlobalStats#pkt_asconf_param_len_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#pkt_asconf_param_len_err_drop DataThunderSctpGlobalStats#pkt_asconf_param_len_err_drop}
   */
   readonly pktAsconfParamLenErrDrop?: number;
   /**
   * Invalid Chunk Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#pkt_chunk_len_err_drop DataThunderSctpGlobalStats#pkt_chunk_len_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#pkt_chunk_len_err_drop DataThunderSctpGlobalStats#pkt_chunk_len_err_drop}
   */
   readonly pktChunkLenErrDrop?: number;
   /**
   * Packet Error Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#pkt_err_drop DataThunderSctpGlobalStats#pkt_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#pkt_err_drop DataThunderSctpGlobalStats#pkt_err_drop}
   */
   readonly pktErrDrop?: number;
   /**
   * Invalid Packet Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#pkt_len_err_drop DataThunderSctpGlobalStats#pkt_len_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#pkt_len_err_drop DataThunderSctpGlobalStats#pkt_len_err_drop}
   */
   readonly pktLenErrDrop?: number;
   /**
   * Rate-limit Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#rate_limit_drop DataThunderSctpGlobalStats#rate_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#rate_limit_drop DataThunderSctpGlobalStats#rate_limit_drop}
   */
   readonly rateLimitDrop?: number;
   /**
   * Standby Session Create Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sby_session_create_fail DataThunderSctpGlobalStats#sby_session_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sby_session_create_fail DataThunderSctpGlobalStats#sby_session_create_fail}
   */
   readonly sbySessionCreateFail?: number;
   /**
   * Standby Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sby_session_created DataThunderSctpGlobalStats#sby_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sby_session_created DataThunderSctpGlobalStats#sby_session_created}
   */
   readonly sbySessionCreated?: number;
   /**
   * Standby Session Update Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sby_session_update_fail DataThunderSctpGlobalStats#sby_session_update_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sby_session_update_fail DataThunderSctpGlobalStats#sby_session_update_fail}
   */
   readonly sbySessionUpdateFail?: number;
   /**
   * Standby Session Updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sby_session_updated DataThunderSctpGlobalStats#sby_session_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sby_session_updated DataThunderSctpGlobalStats#sby_session_updated}
   */
   readonly sbySessionUpdated?: number;
   /**
   * Static NAT Config Not Found on Standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sby_static_nat_cfg_not_found DataThunderSctpGlobalStats#sby_static_nat_cfg_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sby_static_nat_cfg_not_found DataThunderSctpGlobalStats#sby_static_nat_cfg_not_found}
   */
   readonly sbyStaticNatCfgNotFound?: number;
   /**
   * SCTP ASCONF process drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_asconf_process_drop DataThunderSctpGlobalStats#sctp_asconf_process_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_asconf_process_drop DataThunderSctpGlobalStats#sctp_asconf_process_drop}
   */
   readonly sctpAsconfProcessDrop?: number;
   /**
   * SCTP HEARTBEAT chunk with other chunk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_heart_beat_clubbed DataThunderSctpGlobalStats#sctp_chunk_heart_beat_clubbed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_heart_beat_clubbed DataThunderSctpGlobalStats#sctp_chunk_heart_beat_clubbed}
   */
   readonly sctpChunkHeartBeatClubbed?: number;
   /**
   * SCTP Chunk Type ABORT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_abort DataThunderSctpGlobalStats#sctp_chunk_type_abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_abort DataThunderSctpGlobalStats#sctp_chunk_type_abort}
   */
   readonly sctpChunkTypeAbort?: number;
   /**
   * SCTP Chunk Type with ABORT and DATA drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_abort_data_drop DataThunderSctpGlobalStats#sctp_chunk_type_abort_data_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_abort_data_drop DataThunderSctpGlobalStats#sctp_chunk_type_abort_data_drop}
   */
   readonly sctpChunkTypeAbortDataDrop?: number;
   /**
   * SCTP Chunk Type ASCONF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_asconf DataThunderSctpGlobalStats#sctp_chunk_type_asconf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_asconf DataThunderSctpGlobalStats#sctp_chunk_type_asconf}
   */
   readonly sctpChunkTypeAsconf?: number;
   /**
   * SCTP Chunk Type ASCONF-ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_asconf_ack DataThunderSctpGlobalStats#sctp_chunk_type_asconf_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_asconf_ack DataThunderSctpGlobalStats#sctp_chunk_type_asconf_ack}
   */
   readonly sctpChunkTypeAsconfAck?: number;
   /**
   * SCTP Chunk Type COOKIE-ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_cookie_ack DataThunderSctpGlobalStats#sctp_chunk_type_cookie_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_cookie_ack DataThunderSctpGlobalStats#sctp_chunk_type_cookie_ack}
   */
   readonly sctpChunkTypeCookieAck?: number;
   /**
   * SCTP Chunk Type COOKIE-ECHO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_cookie_echo DataThunderSctpGlobalStats#sctp_chunk_type_cookie_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_cookie_echo DataThunderSctpGlobalStats#sctp_chunk_type_cookie_echo}
   */
   readonly sctpChunkTypeCookieEcho?: number;
   /**
   * SCTP Chunk Type DATA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_data DataThunderSctpGlobalStats#sctp_chunk_type_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_data DataThunderSctpGlobalStats#sctp_chunk_type_data}
   */
   readonly sctpChunkTypeData?: number;
   /**
   * SCTP Chunk Type ERROR-OP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_error_op DataThunderSctpGlobalStats#sctp_chunk_type_error_op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_error_op DataThunderSctpGlobalStats#sctp_chunk_type_error_op}
   */
   readonly sctpChunkTypeErrorOp?: number;
   /**
   * SCTP Chunk Type HEARTBEAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_heartbeat DataThunderSctpGlobalStats#sctp_chunk_type_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_heartbeat DataThunderSctpGlobalStats#sctp_chunk_type_heartbeat}
   */
   readonly sctpChunkTypeHeartbeat?: number;
   /**
   * SCTP Chunk Type HEARTBEAT-ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_heartbeat_ack DataThunderSctpGlobalStats#sctp_chunk_type_heartbeat_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_heartbeat_ack DataThunderSctpGlobalStats#sctp_chunk_type_heartbeat_ack}
   */
   readonly sctpChunkTypeHeartbeatAck?: number;
   /**
   * SCTP Chunk Type INIT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_init DataThunderSctpGlobalStats#sctp_chunk_type_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_init DataThunderSctpGlobalStats#sctp_chunk_type_init}
   */
   readonly sctpChunkTypeInit?: number;
   /**
   * SCTP Chunk Type INIT-ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_ack DataThunderSctpGlobalStats#sctp_chunk_type_init_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_ack DataThunderSctpGlobalStats#sctp_chunk_type_init_ack}
   */
   readonly sctpChunkTypeInitAck?: number;
   /**
   * SCTP Chunk Type INIT-ACK drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_ack_drop DataThunderSctpGlobalStats#sctp_chunk_type_init_ack_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_ack_drop DataThunderSctpGlobalStats#sctp_chunk_type_init_ack_drop}
   */
   readonly sctpChunkTypeInitAckDrop?: number;
   /**
   * SCTP Chunk Type INIT drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_drop DataThunderSctpGlobalStats#sctp_chunk_type_init_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_init_drop DataThunderSctpGlobalStats#sctp_chunk_type_init_drop}
   */
   readonly sctpChunkTypeInitDrop?: number;
   /**
   * SCTP Chunk Type OTHER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_other DataThunderSctpGlobalStats#sctp_chunk_type_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_other DataThunderSctpGlobalStats#sctp_chunk_type_other}
   */
   readonly sctpChunkTypeOther?: number;
   /**
   * SCTP Chunk Type SACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_sack DataThunderSctpGlobalStats#sctp_chunk_type_sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_sack DataThunderSctpGlobalStats#sctp_chunk_type_sack}
   */
   readonly sctpChunkTypeSack?: number;
   /**
   * SCTP Chunk Type SHUTDOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown DataThunderSctpGlobalStats#sctp_chunk_type_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown DataThunderSctpGlobalStats#sctp_chunk_type_shutdown}
   */
   readonly sctpChunkTypeShutdown?: number;
   /**
   * SCTP Chunk Type SHUTDOWN-ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_ack DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_ack DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_ack}
   */
   readonly sctpChunkTypeShutdownAck?: number;
   /**
   * SCTP Chunk Type SHUTDOWN-COMPLETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_complete DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_complete DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_complete}
   */
   readonly sctpChunkTypeShutdownComplete?: number;
   /**
   * SCTP Chunk Type SHUTDOWN-COMPLETE drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_complete_drop DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_complete_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_chunk_type_shutdown_complete_drop DataThunderSctpGlobalStats#sctp_chunk_type_shutdown_complete_drop}
   */
   readonly sctpChunkTypeShutdownCompleteDrop?: number;
   /**
   * SCTP DATA no extended match found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_data_no_ext_match DataThunderSctpGlobalStats#sctp_data_no_ext_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_data_no_ext_match DataThunderSctpGlobalStats#sctp_data_no_ext_match}
   */
   readonly sctpDataNoExtMatch?: number;
   /**
   * SCTP DATA chunk no tuple found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_data_no_tuple DataThunderSctpGlobalStats#sctp_data_no_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_data_no_tuple DataThunderSctpGlobalStats#sctp_data_no_tuple}
   */
   readonly sctpDataNoTuple?: number;
   /**
   * SCTP Firewall Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_fw_session_created DataThunderSctpGlobalStats#sctp_fw_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_fw_session_created DataThunderSctpGlobalStats#sctp_fw_session_created}
   */
   readonly sctpFwSessionCreated?: number;
   /**
   * SCTP Firewall Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_fw_session_deleted DataThunderSctpGlobalStats#sctp_fw_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_fw_session_deleted DataThunderSctpGlobalStats#sctp_fw_session_deleted}
   */
   readonly sctpFwSessionDeleted?: number;
   /**
   * SCTP HEARTBEAT/ACK no tuple found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_heartbeat_no_tuple DataThunderSctpGlobalStats#sctp_heartbeat_no_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_heartbeat_no_tuple DataThunderSctpGlobalStats#sctp_heartbeat_no_tuple}
   */
   readonly sctpHeartbeatNoTuple?: number;
   /**
   * SCTP INIT VTAG ZERO drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_init_vtag_zero_drop DataThunderSctpGlobalStats#sctp_init_vtag_zero_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_init_vtag_zero_drop DataThunderSctpGlobalStats#sctp_init_vtag_zero_drop}
   */
   readonly sctpInitVtagZeroDrop?: number;
   /**
   * SCTP no extended match found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_no_ext_match DataThunderSctpGlobalStats#sctp_no_ext_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_no_ext_match DataThunderSctpGlobalStats#sctp_no_ext_match}
   */
   readonly sctpNoExtMatch?: number;
   /**
   * SCTP REROUTE lookup for chunks other than HEARTBEAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_reroute_failover DataThunderSctpGlobalStats#sctp_reroute_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_reroute_failover DataThunderSctpGlobalStats#sctp_reroute_failover}
   */
   readonly sctpRerouteFailover?: number;
   /**
   * SCTP Retransmitted INIT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_retx_init DataThunderSctpGlobalStats#sctp_retx_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_retx_init DataThunderSctpGlobalStats#sctp_retx_init}
   */
   readonly sctpRetxInit?: number;
   /**
   * SCTP Chunk Type INIT_ACK retransmitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_retx_init_ack DataThunderSctpGlobalStats#sctp_retx_init_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_retx_init_ack DataThunderSctpGlobalStats#sctp_retx_init_ack}
   */
   readonly sctpRetxInitAck?: number;
   /**
   * SCTP Chunk Type INIT_ACK with retx mismatched vtag drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_retx_init_ack_drop DataThunderSctpGlobalStats#sctp_retx_init_ack_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_retx_init_ack_drop DataThunderSctpGlobalStats#sctp_retx_init_ack_drop}
   */
   readonly sctpRetxInitAckDrop?: number;
   /**
   * SCTP Retransmitted INIT drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_retx_init_drop DataThunderSctpGlobalStats#sctp_retx_init_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_retx_init_drop DataThunderSctpGlobalStats#sctp_retx_init_drop}
   */
   readonly sctpRetxInitDrop?: number;
   /**
   * SCTP ROUTE lookup failed for chunks other than HEARTBEAT drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_route_err_drop DataThunderSctpGlobalStats#sctp_route_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_route_err_drop DataThunderSctpGlobalStats#sctp_route_err_drop}
   */
   readonly sctpRouteErrDrop?: number;
   /**
   * SCTP HEARTBEAT ROUTE lookup failed drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_route_err_heartbeat_drop DataThunderSctpGlobalStats#sctp_route_err_heartbeat_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_route_err_heartbeat_drop DataThunderSctpGlobalStats#sctp_route_err_heartbeat_drop}
   */
   readonly sctpRouteErrHeartbeatDrop?: number;
   /**
   * SCTP Static NAT Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_static_nat_session_created DataThunderSctpGlobalStats#sctp_static_nat_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_static_nat_session_created DataThunderSctpGlobalStats#sctp_static_nat_session_created}
   */
   readonly sctpStaticNatSessionCreated?: number;
   /**
   * SCTP Static NAT Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#sctp_static_nat_session_deleted DataThunderSctpGlobalStats#sctp_static_nat_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#sctp_static_nat_session_deleted DataThunderSctpGlobalStats#sctp_static_nat_session_deleted}
   */
   readonly sctpStaticNatSessionDeleted?: number;
   /**
   * Static NAT Config Not Found Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#static_nat_cfg_not_found DataThunderSctpGlobalStats#static_nat_cfg_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#static_nat_cfg_not_found DataThunderSctpGlobalStats#static_nat_cfg_not_found}
   */
   readonly staticNatCfgNotFound?: number;
   /**
   * NAT Resource VRRP-A Standby Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#vrrp_standby_drop DataThunderSctpGlobalStats#vrrp_standby_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#vrrp_standby_drop DataThunderSctpGlobalStats#vrrp_standby_drop}
   */
   readonly vrrpStandbyDrop?: number;
 }
@@ -2209,7 +2209,7 @@ export class DataThunderSctpGlobalStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats thunder_sctp_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats thunder_sctp_global_stats}
 */
 export class DataThunderSctpGlobalStats extends cdktf.TerraformDataSource {
 
@@ -2225,7 +2225,7 @@ export class DataThunderSctpGlobalStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSctpGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSctpGlobalStats to import
-  * @param importFromId The id of the existing DataThunderSctpGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSctpGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSctpGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2237,7 +2237,7 @@ export class DataThunderSctpGlobalStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sctp_global_stats thunder_sctp_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sctp_global_stats thunder_sctp_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2248,8 +2248,8 @@ export class DataThunderSctpGlobalStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_sctp_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

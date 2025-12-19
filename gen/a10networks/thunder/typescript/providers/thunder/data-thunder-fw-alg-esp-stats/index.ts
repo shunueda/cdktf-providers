@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwAlgEspStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#id DataThunderFwAlgEspStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#id DataThunderFwAlgEspStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderFwAlgEspStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#stats DataThunderFwAlgEspStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#stats DataThunderFwAlgEspStats#stats}
   */
   readonly stats?: DataThunderFwAlgEspStatsStats;
 }
@@ -25,19 +25,19 @@ export interface DataThunderFwAlgEspStatsStats {
   /**
   * ESP Helper Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#helper_created DataThunderFwAlgEspStats#helper_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#helper_created DataThunderFwAlgEspStats#helper_created}
   */
   readonly helperCreated?: number;
   /**
   * ESP Helper Sessions Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#helper_freed DataThunderFwAlgEspStats#helper_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#helper_freed DataThunderFwAlgEspStats#helper_freed}
   */
   readonly helperFreed?: number;
   /**
   * ESP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#session_created DataThunderFwAlgEspStats#session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#session_created DataThunderFwAlgEspStats#session_created}
   */
   readonly sessionCreated?: number;
 }
@@ -179,7 +179,7 @@ export class DataThunderFwAlgEspStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats thunder_fw_alg_esp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats thunder_fw_alg_esp_stats}
 */
 export class DataThunderFwAlgEspStats extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataThunderFwAlgEspStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwAlgEspStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwAlgEspStats to import
-  * @param importFromId The id of the existing DataThunderFwAlgEspStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwAlgEspStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwAlgEspStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataThunderFwAlgEspStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_alg_esp_stats thunder_fw_alg_esp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_alg_esp_stats thunder_fw_alg_esp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataThunderFwAlgEspStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_alg_esp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityMonitoredEntityDetailOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#id DataThunderVisibilityMonitoredEntityDetailOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#id DataThunderVisibilityMonitoredEntityDetailOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface DataThunderVisibilityMonitoredEntityDetailOperConfig extends cd
   /**
   * debug block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#debug DataThunderVisibilityMonitoredEntityDetailOper#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#debug DataThunderVisibilityMonitoredEntityDetailOper#debug}
   */
   readonly debug?: DataThunderVisibilityMonitoredEntityDetailOperDebug;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#oper DataThunderVisibilityMonitoredEntityDetailOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#oper DataThunderVisibilityMonitoredEntityDetailOper#oper}
   */
   readonly oper?: DataThunderVisibilityMonitoredEntityDetailOperOper;
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListEntityMetricListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
   */
   readonly anomaly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
   */
   readonly current?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#max DataThunderVisibilityMonitoredEntityDetailOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#max DataThunderVisibilityMonitoredEntityDetailOper#max}
   */
   readonly max?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mean DataThunderVisibilityMonitoredEntityDetailOper#mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mean DataThunderVisibilityMonitoredEntityDetailOper#mean}
   */
   readonly mean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#min DataThunderVisibilityMonitoredEntityDetailOper#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#min DataThunderVisibilityMonitoredEntityDetailOper#min}
   */
   readonly min?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#std_dev DataThunderVisibilityMonitoredEntityDetailOper#std_dev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#std_dev DataThunderVisibilityMonitoredEntityDetailOper#std_dev}
   */
   readonly stdDev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
   */
   readonly threshold?: string;
 }
@@ -376,35 +376,35 @@ export class DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityLis
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListSecEntityListEntityMetricListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
   */
   readonly anomaly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
   */
   readonly current?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#max DataThunderVisibilityMonitoredEntityDetailOper#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#max DataThunderVisibilityMonitoredEntityDetailOper#max}
   */
   readonly max?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mean DataThunderVisibilityMonitoredEntityDetailOper#mean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mean DataThunderVisibilityMonitoredEntityDetailOper#mean}
   */
   readonly mean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#min DataThunderVisibilityMonitoredEntityDetailOper#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#min DataThunderVisibilityMonitoredEntityDetailOper#min}
   */
   readonly min?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#std_dev DataThunderVisibilityMonitoredEntityDetailOper#std_dev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#std_dev DataThunderVisibilityMonitoredEntityDetailOper#std_dev}
   */
   readonly stdDev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
   */
   readonly threshold?: string;
 }
@@ -723,45 +723,45 @@ export class DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityLis
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListSecEntityListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
   */
   readonly entityKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
   */
   readonly flatOid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
   */
   readonly haState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
   */
   readonly l4Port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
   */
   readonly l4Proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
   */
   readonly uuid?: string;
   /**
   * entity_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
   */
   readonly entityMetricList?: DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListSecEntityListEntityMetricListStruct[] | cdktf.IResolvable;
 }
@@ -1138,51 +1138,51 @@ export class DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityLis
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
   */
   readonly entityKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
   */
   readonly flatOid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
   */
   readonly haState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
   */
   readonly l4Port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
   */
   readonly l4Proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
   */
   readonly uuid?: string;
   /**
   * entity_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
   */
   readonly entityMetricList?: DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListEntityMetricListStruct[] | cdktf.IResolvable;
   /**
   * sec_entity_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#sec_entity_list DataThunderVisibilityMonitoredEntityDetailOper#sec_entity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#sec_entity_list DataThunderVisibilityMonitoredEntityDetailOper#sec_entity_list}
   */
   readonly secEntityList?: DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListSecEntityListStruct[] | cdktf.IResolvable;
 }
@@ -1588,17 +1588,17 @@ export class DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityLis
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperDebugOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#all_keys DataThunderVisibilityMonitoredEntityDetailOper#all_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#all_keys DataThunderVisibilityMonitoredEntityDetailOper#all_keys}
   */
   readonly allKeys?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#primary_keys DataThunderVisibilityMonitoredEntityDetailOper#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#primary_keys DataThunderVisibilityMonitoredEntityDetailOper#primary_keys}
   */
   readonly primaryKeys?: number;
   /**
   * mon_entity_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mon_entity_list DataThunderVisibilityMonitoredEntityDetailOper#mon_entity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mon_entity_list DataThunderVisibilityMonitoredEntityDetailOper#mon_entity_list}
   */
   readonly monEntityList?: DataThunderVisibilityMonitoredEntityDetailOperDebugOperMonEntityListStruct[] | cdktf.IResolvable;
 }
@@ -1742,7 +1742,7 @@ export interface DataThunderVisibilityMonitoredEntityDetailOperDebug {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#oper DataThunderVisibilityMonitoredEntityDetailOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#oper DataThunderVisibilityMonitoredEntityDetailOper#oper}
   */
   readonly oper?: DataThunderVisibilityMonitoredEntityDetailOperDebugOper;
 }
@@ -1826,19 +1826,19 @@ export class DataThunderVisibilityMonitoredEntityDetailOperDebugOutputReference 
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListEntityMetricListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
   */
   readonly anomaly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
   */
   readonly current?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
   */
   readonly threshold?: string;
 }
@@ -2041,19 +2041,19 @@ export class DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListEnti
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecEntityListEntityMetricListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#anomaly DataThunderVisibilityMonitoredEntityDetailOper#anomaly}
   */
   readonly anomaly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#current DataThunderVisibilityMonitoredEntityDetailOper#current}
   */
   readonly current?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#metric_name DataThunderVisibilityMonitoredEntityDetailOper#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#threshold DataThunderVisibilityMonitoredEntityDetailOper#threshold}
   */
   readonly threshold?: string;
 }
@@ -2256,45 +2256,45 @@ export class DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecE
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecEntityListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
   */
   readonly entityKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
   */
   readonly flatOid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
   */
   readonly haState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
   */
   readonly l4Port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
   */
   readonly l4Proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
   */
   readonly uuid?: string;
   /**
   * entity_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
   */
   readonly entityMetricList?: DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecEntityListEntityMetricListStruct[] | cdktf.IResolvable;
 }
@@ -2671,51 +2671,51 @@ export class DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecE
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_key DataThunderVisibilityMonitoredEntityDetailOper#entity_key}
   */
   readonly entityKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#flat_oid DataThunderVisibilityMonitoredEntityDetailOper#flat_oid}
   */
   readonly flatOid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ha_state DataThunderVisibilityMonitoredEntityDetailOper#ha_state}
   */
   readonly haState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv4_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#ipv6_addr DataThunderVisibilityMonitoredEntityDetailOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_port DataThunderVisibilityMonitoredEntityDetailOper#l4_port}
   */
   readonly l4Port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#l4_proto DataThunderVisibilityMonitoredEntityDetailOper#l4_proto}
   */
   readonly l4Proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mode DataThunderVisibilityMonitoredEntityDetailOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#uuid DataThunderVisibilityMonitoredEntityDetailOper#uuid}
   */
   readonly uuid?: string;
   /**
   * entity_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#entity_metric_list DataThunderVisibilityMonitoredEntityDetailOper#entity_metric_list}
   */
   readonly entityMetricList?: DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListEntityMetricListStruct[] | cdktf.IResolvable;
   /**
   * sec_entity_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#sec_entity_list DataThunderVisibilityMonitoredEntityDetailOper#sec_entity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#sec_entity_list DataThunderVisibilityMonitoredEntityDetailOper#sec_entity_list}
   */
   readonly secEntityList?: DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListSecEntityListStruct[] | cdktf.IResolvable;
 }
@@ -3121,17 +3121,17 @@ export class DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListStru
 }
 export interface DataThunderVisibilityMonitoredEntityDetailOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#all_keys DataThunderVisibilityMonitoredEntityDetailOper#all_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#all_keys DataThunderVisibilityMonitoredEntityDetailOper#all_keys}
   */
   readonly allKeys?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#primary_keys DataThunderVisibilityMonitoredEntityDetailOper#primary_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#primary_keys DataThunderVisibilityMonitoredEntityDetailOper#primary_keys}
   */
   readonly primaryKeys?: number;
   /**
   * mon_entity_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#mon_entity_list DataThunderVisibilityMonitoredEntityDetailOper#mon_entity_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#mon_entity_list DataThunderVisibilityMonitoredEntityDetailOper#mon_entity_list}
   */
   readonly monEntityList?: DataThunderVisibilityMonitoredEntityDetailOperOperMonEntityListStruct[] | cdktf.IResolvable;
 }
@@ -3273,7 +3273,7 @@ export class DataThunderVisibilityMonitoredEntityDetailOperOperOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper thunder_visibility_monitored_entity_detail_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper thunder_visibility_monitored_entity_detail_oper}
 */
 export class DataThunderVisibilityMonitoredEntityDetailOper extends cdktf.TerraformDataSource {
 
@@ -3289,7 +3289,7 @@ export class DataThunderVisibilityMonitoredEntityDetailOper extends cdktf.Terraf
   * Generates CDKTF code for importing a DataThunderVisibilityMonitoredEntityDetailOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityMonitoredEntityDetailOper to import
-  * @param importFromId The id of the existing DataThunderVisibilityMonitoredEntityDetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityMonitoredEntityDetailOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityMonitoredEntityDetailOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3301,7 +3301,7 @@ export class DataThunderVisibilityMonitoredEntityDetailOper extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_monitored_entity_detail_oper thunder_visibility_monitored_entity_detail_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_monitored_entity_detail_oper thunder_visibility_monitored_entity_detail_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3312,8 +3312,8 @@ export class DataThunderVisibilityMonitoredEntityDetailOper extends cdktf.Terraf
       terraformResourceType: 'thunder_visibility_monitored_entity_detail_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,105 +11,105 @@ export interface RadiusConfig extends cdktf.TerraformMetaArguments {
   * UDP port for RADIUS accounting server (default is 1813)
   *   - Range: `0`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#accounting_port Radius#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#accounting_port Radius#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * UDP port for RADIUS authentication server (default is 1812)
   *   - Range: `0`-`65534`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#authentication_port Radius#authentication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#authentication_port Radius#authentication_port}
   */
   readonly authenticationPort?: number;
   /**
   * Minutes of idle-time after which server state should be verified.
   *   - Range: `1`-`35791`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#automate_tester_idle_time Radius#automate_tester_idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#automate_tester_idle_time Radius#automate_tester_idle_time}
   */
   readonly automateTesterIdleTime?: number;
   /**
   * Do not test accounting ports of the servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#automate_tester_ignore_acct_port Radius#automate_tester_ignore_acct_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#automate_tester_ignore_acct_port Radius#automate_tester_ignore_acct_port}
   */
   readonly automateTesterIgnoreAcctPort?: boolean | cdktf.IResolvable;
   /**
   * Do not test authentication port of the servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#automate_tester_ignore_auth_port Radius#automate_tester_ignore_auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#automate_tester_ignore_auth_port Radius#automate_tester_ignore_auth_port}
   */
   readonly automateTesterIgnoreAuthPort?: boolean | cdktf.IResolvable;
   /**
   * Send a packet to verify the server status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#automate_tester_probe_on_config Radius#automate_tester_probe_on_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#automate_tester_probe_on_config Radius#automate_tester_probe_on_config}
   */
   readonly automateTesterProbeOnConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#automate_tester_username Radius#automate_tester_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#automate_tester_username Radius#automate_tester_username}
   */
   readonly automateTesterUsername?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#device Radius#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#device Radius#device}
   */
   readonly device?: string;
   /**
   * IPv4 address or Hostname for radius server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#ipv4_address Radius#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#ipv4_address Radius#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#key Radius#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#key Radius#key}
   */
   readonly key?: string;
   /**
   * 
   *   - Choices: `0`, `5`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#key_encryption Radius#key_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#key_encryption Radius#key_encryption}
   */
   readonly keyEncryption?: string;
   /**
   * Name for the radius server configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#name Radius#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#name Radius#name}
   */
   readonly name: string;
   /**
   * The UNENCRYPTED (cleartext) server key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#pac_key Radius#pac_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#pac_key Radius#pac_key}
   */
   readonly pacKey?: string;
   /**
   * 0 - Specifies an UNENCRYPTED key will follow 6 - Specifies an ENCRYPTED key will follow 7 - Specifies HIDDEN key will follow
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#pac_key_encryption Radius#pac_key_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#pac_key_encryption Radius#pac_key_encryption}
   */
   readonly pacKeyEncryption?: string;
   /**
   * Number of retries to active server (overrides default)
   *   - Range: `0`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#retransmit Radius#retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#retransmit Radius#retransmit}
   */
   readonly retransmit?: number;
   /**
   * Time to wait for a RADIUS server to reply (overrides default)
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#timeout Radius#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#timeout Radius#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius iosxe_radius}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius iosxe_radius}
 */
 export class Radius extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class Radius extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Radius resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Radius to import
-  * @param importFromId The id of the existing Radius that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Radius that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Radius to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class Radius extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/radius iosxe_radius} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/radius iosxe_radius} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class Radius extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_radius',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

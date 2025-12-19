@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosL4IcmpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#id DataThunderDdosL4IcmpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#id DataThunderDdosL4IcmpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosL4IcmpStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#stats DataThunderDdosL4IcmpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#stats DataThunderDdosL4IcmpStats#stats}
   */
   readonly stats?: DataThunderDdosL4IcmpStatsStats;
 }
@@ -25,193 +25,193 @@ export interface DataThunderDdosL4IcmpStatsStats {
   /**
   * ICMP Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_any_exceed DataThunderDdosL4IcmpStats#icmp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_any_exceed DataThunderDdosL4IcmpStats#icmp_any_exceed}
   */
   readonly icmpAnyExceed?: number;
   /**
   * ICMP Blacklisted Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_drop_bl DataThunderDdosL4IcmpStats#icmp_drop_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_drop_bl DataThunderDdosL4IcmpStats#icmp_drop_bl}
   */
   readonly icmpDropBl?: number;
   /**
   * ICMP Dst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_dst_drop DataThunderDdosL4IcmpStats#icmp_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_dst_drop DataThunderDdosL4IcmpStats#icmp_dst_drop}
   */
   readonly icmpDstDrop?: number;
   /**
   * ICMP Echo Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_echo_rcvd DataThunderDdosL4IcmpStats#icmp_echo_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_echo_rcvd DataThunderDdosL4IcmpStats#icmp_echo_rcvd}
   */
   readonly icmpEchoRcvd?: number;
   /**
   * ICMP Frag Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_frag_drop DataThunderDdosL4IcmpStats#icmp_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_frag_drop DataThunderDdosL4IcmpStats#icmp_frag_drop}
   */
   readonly icmpFragDrop?: number;
   /**
   * ICMP Frag Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_frag_rcvd DataThunderDdosL4IcmpStats#icmp_frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_frag_rcvd DataThunderDdosL4IcmpStats#icmp_frag_rcvd}
   */
   readonly icmpFragRcvd?: number;
   /**
   * ICMP other Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_other_rcvd DataThunderDdosL4IcmpStats#icmp_other_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_other_rcvd DataThunderDdosL4IcmpStats#icmp_other_rcvd}
   */
   readonly icmpOtherRcvd?: number;
   /**
   * ICMP Type Rate 1 Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0 DataThunderDdosL4IcmpStats#icmp_rate_exceed0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0 DataThunderDdosL4IcmpStats#icmp_rate_exceed0}
   */
   readonly icmpRateExceed0?: number;
   /**
   * ICMP Type Rate 1 Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed0_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed0_bl}
   */
   readonly icmpRateExceed0Bl?: number;
   /**
   * ICMP Type Rate 1 Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed0_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed0_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed0_drop}
   */
   readonly icmpRateExceed0Drop?: number;
   /**
   * ICMP Type Rate 2 Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1 DataThunderDdosL4IcmpStats#icmp_rate_exceed1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1 DataThunderDdosL4IcmpStats#icmp_rate_exceed1}
   */
   readonly icmpRateExceed1?: number;
   /**
   * ICMP Type Rate 2 Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed1_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed1_bl}
   */
   readonly icmpRateExceed1Bl?: number;
   /**
   * ICMP Type Rate 2 Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed1_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed1_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed1_drop}
   */
   readonly icmpRateExceed1Drop?: number;
   /**
   * ICMP Type Rate 3 Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2 DataThunderDdosL4IcmpStats#icmp_rate_exceed2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2 DataThunderDdosL4IcmpStats#icmp_rate_exceed2}
   */
   readonly icmpRateExceed2?: number;
   /**
   * ICMP Type Rate 3 Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed2_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2_bl DataThunderDdosL4IcmpStats#icmp_rate_exceed2_bl}
   */
   readonly icmpRateExceed2Bl?: number;
   /**
   * ICMP Type Rate 3 Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed2_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rate_exceed2_drop DataThunderDdosL4IcmpStats#icmp_rate_exceed2_drop}
   */
   readonly icmpRateExceed2Drop?: number;
   /**
   * ICMP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_rcvd DataThunderDdosL4IcmpStats#icmp_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_rcvd DataThunderDdosL4IcmpStats#icmp_rcvd}
   */
   readonly icmpRcvd?: number;
   /**
   * ICMP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_src_drop DataThunderDdosL4IcmpStats#icmp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_src_drop DataThunderDdosL4IcmpStats#icmp_src_drop}
   */
   readonly icmpSrcDrop?: number;
   /**
   * ICMP SrcDst Blacklisted User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_src_dst_bl_drop_user_cfg DataThunderDdosL4IcmpStats#icmp_src_dst_bl_drop_user_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_src_dst_bl_drop_user_cfg DataThunderDdosL4IcmpStats#icmp_src_dst_bl_drop_user_cfg}
   */
   readonly icmpSrcDstBlDropUserCfg?: number;
   /**
   * ICMP SrcDst Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_src_dst_drop DataThunderDdosL4IcmpStats#icmp_src_dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_src_dst_drop DataThunderDdosL4IcmpStats#icmp_src_dst_drop}
   */
   readonly icmpSrcDstDrop?: number;
   /**
   * ICMP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_total_bytes_drop DataThunderDdosL4IcmpStats#icmp_total_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_total_bytes_drop DataThunderDdosL4IcmpStats#icmp_total_bytes_drop}
   */
   readonly icmpTotalBytesDrop?: number;
   /**
   * ICMP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_total_bytes_rcv DataThunderDdosL4IcmpStats#icmp_total_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_total_bytes_rcv DataThunderDdosL4IcmpStats#icmp_total_bytes_rcv}
   */
   readonly icmpTotalBytesRcv?: number;
   /**
   * ICMP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_total_drop DataThunderDdosL4IcmpStats#icmp_total_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_total_drop DataThunderDdosL4IcmpStats#icmp_total_drop}
   */
   readonly icmpTotalDrop?: number;
   /**
   * ICMP Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_type DataThunderDdosL4IcmpStats#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_type DataThunderDdosL4IcmpStats#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * ICMP Type Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_type_bl DataThunderDdosL4IcmpStats#icmp_type_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_type_bl DataThunderDdosL4IcmpStats#icmp_type_bl}
   */
   readonly icmpTypeBl?: number;
   /**
   * ICMP Type Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_type_deny_drop DataThunderDdosL4IcmpStats#icmp_type_deny_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_type_deny_drop DataThunderDdosL4IcmpStats#icmp_type_deny_drop}
   */
   readonly icmpTypeDenyDrop?: number;
   /**
   * ICMPv4 RFC Undef Type Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_v4_rfc_undef_drop DataThunderDdosL4IcmpStats#icmp_v4_rfc_undef_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_v4_rfc_undef_drop DataThunderDdosL4IcmpStats#icmp_v4_rfc_undef_drop}
   */
   readonly icmpV4RfcUndefDrop?: number;
   /**
   * ICMPv6 RFC Undef Type Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_v6_rfc_undef_drop DataThunderDdosL4IcmpStats#icmp_v6_rfc_undef_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_v6_rfc_undef_drop DataThunderDdosL4IcmpStats#icmp_v6_rfc_undef_drop}
   */
   readonly icmpV6RfcUndefDrop?: number;
   /**
   * ICMP Type Wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard DataThunderDdosL4IcmpStats#icmp_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard DataThunderDdosL4IcmpStats#icmp_wildcard}
   */
   readonly icmpWildcard?: number;
   /**
   * ICMP Type Wildcard Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard_bl DataThunderDdosL4IcmpStats#icmp_wildcard_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard_bl DataThunderDdosL4IcmpStats#icmp_wildcard_bl}
   */
   readonly icmpWildcardBl?: number;
   /**
   * ICMP Type Wildcard Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard_deny_drop DataThunderDdosL4IcmpStats#icmp_wildcard_deny_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#icmp_wildcard_deny_drop DataThunderDdosL4IcmpStats#icmp_wildcard_deny_drop}
   */
   readonly icmpWildcardDenyDrop?: number;
   /**
   * ICMP Src Blacklisted User Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#src_icmp_bl_user_config DataThunderDdosL4IcmpStats#src_icmp_bl_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#src_icmp_bl_user_config DataThunderDdosL4IcmpStats#src_icmp_bl_user_config}
   */
   readonly srcIcmpBlUserConfig?: number;
 }
@@ -1194,7 +1194,7 @@ export class DataThunderDdosL4IcmpStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats thunder_ddos_l4_icmp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats thunder_ddos_l4_icmp_stats}
 */
 export class DataThunderDdosL4IcmpStats extends cdktf.TerraformDataSource {
 
@@ -1210,7 +1210,7 @@ export class DataThunderDdosL4IcmpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosL4IcmpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosL4IcmpStats to import
-  * @param importFromId The id of the existing DataThunderDdosL4IcmpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosL4IcmpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosL4IcmpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1222,7 +1222,7 @@ export class DataThunderDdosL4IcmpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_l4_icmp_stats thunder_ddos_l4_icmp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_l4_icmp_stats thunder_ddos_l4_icmp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1233,8 +1233,8 @@ export class DataThunderDdosL4IcmpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_l4_icmp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

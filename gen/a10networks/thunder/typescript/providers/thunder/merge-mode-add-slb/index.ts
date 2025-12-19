@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MergeModeAddSlbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#id MergeModeAddSlb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#id MergeModeAddSlb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface MergeModeAddSlbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Control block-merge behavior for slb service-group member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#member MergeModeAddSlb#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#member MergeModeAddSlb#member}
   */
   readonly member?: number;
   /**
   * Control block-merge behavior for slb server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#server_port MergeModeAddSlb#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#server_port MergeModeAddSlb#server_port}
   */
   readonly serverPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#uuid MergeModeAddSlb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#uuid MergeModeAddSlb#uuid}
   */
   readonly uuid?: string;
   /**
   * Control block-merge behavior for slb virtual-server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#virtual_server_port MergeModeAddSlb#virtual_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#virtual_server_port MergeModeAddSlb#virtual_server_port}
   */
   readonly virtualServerPort?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb thunder_merge_mode_add_slb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb thunder_merge_mode_add_slb}
 */
 export class MergeModeAddSlb extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class MergeModeAddSlb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MergeModeAddSlb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MergeModeAddSlb to import
-  * @param importFromId The id of the existing MergeModeAddSlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MergeModeAddSlb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MergeModeAddSlb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class MergeModeAddSlb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/merge_mode_add_slb thunder_merge_mode_add_slb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/merge_mode_add_slb thunder_merge_mode_add_slb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class MergeModeAddSlb extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_merge_mode_add_slb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

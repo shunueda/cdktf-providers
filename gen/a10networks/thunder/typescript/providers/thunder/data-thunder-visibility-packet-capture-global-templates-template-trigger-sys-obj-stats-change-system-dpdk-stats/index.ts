@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#id DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#id DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Template_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#name DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#template_name DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#template_name}
   */
-  readonly name: string;
+  readonly templateName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#trigger_stats_inc DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#trigger_stats_inc DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#trigger_stats_inc}
   */
   readonly triggerStatsInc?: DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#trigger_stats_rate DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#trigger_stats_rate DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#trigger_stats_rate}
   */
   readonly triggerStatsRate?: DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsTriggerStatsRate;
 }
@@ -43,169 +43,169 @@ export interface DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTrigge
   /**
   * Enable automatic packet-capture for Total error packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#err_pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#err_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#err_pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#err_pkt_drop}
   */
   readonly errPktDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_ring_drop}
   */
   readonly ioRingDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core Rx queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_rx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_rx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_rx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_rx_que_drop}
   */
   readonly ioRxQueDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core TX queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_tx_que_drop}
   */
   readonly ioTxQueDrop?: number;
   /**
   * Enable automatic packet-capture for Total packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_drop}
   */
   readonly pktDrop?: number;
   /**
   * Enable automatic packet-capture for Total packets link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_lnk_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_lnk_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_lnk_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_lnk_down_drop}
   */
   readonly pktLnkDownDrop?: number;
   /**
   * Enable automatic packet-capture for Total RX packet align error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_align_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_align_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_align_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_align_err}
   */
   readonly rxAlignErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet CRC error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_crc_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_crc_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_crc_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_crc_err}
   */
   readonly rxCrcErr?: number;
   /**
   * Enable automatic packet-capture for Total Rx packet check-sum offload error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_csum_offload_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_csum_offload_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_csum_offload_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_csum_offload_err}
   */
   readonly rxCsumOffloadErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_err}
   */
   readonly rxErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet frame error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_frame_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_frame_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_frame_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_frame_err}
   */
   readonly rxFrameErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_len_err}
   */
   readonly rxLenErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet long length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_long_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_long_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_long_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_long_len_err}
   */
   readonly rxLongLenErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet miss error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_miss_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_miss_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_miss_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_miss_err}
   */
   readonly rxMissErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet no buffer error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_no_buff_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_no_buff_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_no_buff_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_no_buff_err}
   */
   readonly rxNoBuffErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet over error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_over_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_over_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_over_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_over_err}
   */
   readonly rxOverErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet short length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_short_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_short_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_short_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_short_len_err}
   */
   readonly rxShortLenErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet abort error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_abort_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_abort_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_abort_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_abort_err}
   */
   readonly txAbortErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packert carrier error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_carrier_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_carrier_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_carrier_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_carrier_err}
   */
   readonly txCarrierErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_drop}
   */
   readonly txDrop?: number;
   /**
   * Enable automatic packet-capture for Total TX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_err}
   */
   readonly txErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet fifo error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_fifo_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_fifo_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_fifo_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_fifo_err}
   */
   readonly txFifoErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet HBEAT error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_hbeat_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_hbeat_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_hbeat_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_hbeat_err}
   */
   readonly txHbeatErr?: number;
   /**
   * Enable automatic packet-capture for Total TX windows error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_windows_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_windows_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_windows_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_windows_err}
   */
   readonly txWindowsErr?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for Total worker core link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_link_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_link_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_link_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_link_down_drop}
   */
   readonly wLinkDownDrop?: number;
   /**
   * Enable automatic packet-capture for Total worker core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_ring_drop}
   */
   readonly wRingDrop?: number;
   /**
   * Enable automatic packet-capture for Total worker core queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_tx_que_drop}
   */
   readonly wTxQueDrop?: number;
 }
@@ -1074,181 +1074,181 @@ export interface DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTrigge
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#duration DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#duration DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total error packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#err_pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#err_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#err_pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#err_pkt_drop}
   */
   readonly errPktDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_ring_drop}
   */
   readonly ioRingDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core Rx queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_rx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_rx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_rx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_rx_que_drop}
   */
   readonly ioRxQueDrop?: number;
   /**
   * Enable automatic packet-capture for Total IO core TX queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#io_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#io_tx_que_drop}
   */
   readonly ioTxQueDrop?: number;
   /**
   * Enable automatic packet-capture for Total packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_drop}
   */
   readonly pktDrop?: number;
   /**
   * Enable automatic packet-capture for Total packets link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_lnk_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_lnk_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#pkt_lnk_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#pkt_lnk_down_drop}
   */
   readonly pktLnkDownDrop?: number;
   /**
   * Enable automatic packet-capture for Total RX packet align error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_align_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_align_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_align_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_align_err}
   */
   readonly rxAlignErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet CRC error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_crc_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_crc_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_crc_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_crc_err}
   */
   readonly rxCrcErr?: number;
   /**
   * Enable automatic packet-capture for Total Rx packet check-sum offload error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_csum_offload_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_csum_offload_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_csum_offload_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_csum_offload_err}
   */
   readonly rxCsumOffloadErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_err}
   */
   readonly rxErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet frame error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_frame_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_frame_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_frame_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_frame_err}
   */
   readonly rxFrameErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_len_err}
   */
   readonly rxLenErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet long length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_long_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_long_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_long_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_long_len_err}
   */
   readonly rxLongLenErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet miss error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_miss_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_miss_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_miss_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_miss_err}
   */
   readonly rxMissErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet no buffer error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_no_buff_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_no_buff_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_no_buff_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_no_buff_err}
   */
   readonly rxNoBuffErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet over error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_over_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_over_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_over_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_over_err}
   */
   readonly rxOverErr?: number;
   /**
   * Enable automatic packet-capture for Total RX packet short length error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_short_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_short_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#rx_short_len_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#rx_short_len_err}
   */
   readonly rxShortLenErr?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#threshold_exceeded_by DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#threshold_exceeded_by DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total TX packet abort error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_abort_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_abort_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_abort_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_abort_err}
   */
   readonly txAbortErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packert carrier error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_carrier_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_carrier_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_carrier_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_carrier_err}
   */
   readonly txCarrierErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_drop}
   */
   readonly txDrop?: number;
   /**
   * Enable automatic packet-capture for Total TX packet error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_err}
   */
   readonly txErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet fifo error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_fifo_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_fifo_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_fifo_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_fifo_err}
   */
   readonly txFifoErr?: number;
   /**
   * Enable automatic packet-capture for Total TX packet HBEAT error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_hbeat_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_hbeat_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_hbeat_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_hbeat_err}
   */
   readonly txHbeatErr?: number;
   /**
   * Enable automatic packet-capture for Total TX windows error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_windows_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_windows_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#tx_windows_err DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#tx_windows_err}
   */
   readonly txWindowsErr?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#uuid DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#uuid}
   */
   readonly uuid?: string;
   /**
   * Enable automatic packet-capture for Total worker core link down drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_link_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_link_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_link_down_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_link_down_drop}
   */
   readonly wLinkDownDrop?: number;
   /**
   * Enable automatic packet-capture for Total worker core ring drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_ring_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_ring_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_ring_drop}
   */
   readonly wRingDrop?: number;
   /**
   * Enable automatic packet-capture for Total worker core queue drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_tx_que_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#w_tx_que_drop DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats#w_tx_que_drop}
   */
   readonly wTxQueDrop?: number;
 }
@@ -2173,7 +2173,7 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats}
 */
 export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats extends cdktf.TerraformDataSource {
 
@@ -2189,7 +2189,7 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
   * Generates CDKTF code for importing a DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2201,7 +2201,7 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2212,8 +2212,8 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
       terraformResourceType: 'thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_system_dpdk_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2224,7 +2224,7 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._templateName = config.templateName;
     this._uuid = config.uuid;
     this._triggerStatsInc.internalValue = config.triggerStatsInc;
     this._triggerStatsRate.internalValue = config.triggerStatsRate;
@@ -2250,17 +2250,17 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // template_name - computed: false, optional: false, required: true
+  private _templateName?: string; 
+  public get templateName() {
+    return this.getStringAttribute('template_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set templateName(value: string) {
+    this._templateName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get templateNameInput() {
+    return this._templateName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -2318,7 +2318,7 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      template_name: cdktf.stringToTerraform(this._templateName),
       uuid: cdktf.stringToTerraform(this._uuid),
       trigger_stats_inc: dataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsTriggerStatsIncToTerraform(this._triggerStatsInc.internalValue),
       trigger_stats_rate: dataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsTriggerStatsRateToTerraform(this._triggerStatsRate.internalValue),
@@ -2333,8 +2333,8 @@ export class DataThunderVisibilityPacketCaptureGlobalTemplatesTemplateTriggerSys
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      template_name: {
+        value: cdktf.stringToHclTerraform(this._templateName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

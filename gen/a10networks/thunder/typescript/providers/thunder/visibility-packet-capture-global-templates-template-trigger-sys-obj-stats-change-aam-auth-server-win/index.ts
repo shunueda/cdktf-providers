@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Template_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#template_name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#template_name}
   */
-  readonly name: string;
+  readonly templateName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#trigger_stats_inc VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsIncA;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#trigger_stats_rate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsRateA;
 }
@@ -43,157 +43,85 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Deletion Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_delete_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_delete_kdc_keytab_failure}
   */
   readonly kerberosDeleteKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Generation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_generate_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_generate_kdc_keytab_failure}
   */
   readonly kerberosGenerateKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_job_start_error}
   */
   readonly kerberosJobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_other_error}
   */
   readonly kerberosOtherError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_polling_control_error}
   */
   readonly kerberosPollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_change_failure}
   */
   readonly kerberosPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_expiry}
   */
   readonly kerberosPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_request_dropped}
   */
   readonly kerberosRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_error}
   */
   readonly kerberosResponseError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_failure}
   */
   readonly kerberosResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_timeout}
   */
   readonly kerberosResponseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_timeout_error}
   */
   readonly kerberosTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_validate_kdc_failure}
   */
   readonly kerberosValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for Total NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_authentication_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_authentication_failure}
-  */
-  readonly ntlmAuthenticationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Job Start Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_job_start_error}
-  */
-  readonly ntlmJobStartError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Polling Control Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_polling_control_error}
-  */
-  readonly ntlmPollingControlError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Prepare Request Failed
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_prepare_req_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_prepare_req_failed}
-  */
-  readonly ntlmPrepareReqFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_proto_negotiation_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_proto_negotiation_failure}
-  */
-  readonly ntlmProtoNegotiationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Dropped Request
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_request_dropped}
-  */
-  readonly ntlmRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Error Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_error}
-  */
-  readonly ntlmResponseError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Failure Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_failure}
-  */
-  readonly ntlmResponseFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_timeout}
-  */
-  readonly ntlmResponseTimeout?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_session_setup_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_session_setup_failed}
-  */
-  readonly ntlmSessionSetupFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
   */
   readonly uuid?: string;
 }
@@ -217,18 +145,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     kerberos_response_timeout: cdktf.numberToTerraform(struct!.kerberosResponseTimeout),
     kerberos_timeout_error: cdktf.numberToTerraform(struct!.kerberosTimeoutError),
     kerberos_validate_kdc_failure: cdktf.numberToTerraform(struct!.kerberosValidateKdcFailure),
-    ntlm_authentication_failure: cdktf.numberToTerraform(struct!.ntlmAuthenticationFailure),
-    ntlm_job_start_error: cdktf.numberToTerraform(struct!.ntlmJobStartError),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_polling_control_error: cdktf.numberToTerraform(struct!.ntlmPollingControlError),
-    ntlm_prepare_req_failed: cdktf.numberToTerraform(struct!.ntlmPrepareReqFailed),
-    ntlm_proto_negotiation_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegotiationFailure),
-    ntlm_request_dropped: cdktf.numberToTerraform(struct!.ntlmRequestDropped),
-    ntlm_response_error: cdktf.numberToTerraform(struct!.ntlmResponseError),
-    ntlm_response_failure: cdktf.numberToTerraform(struct!.ntlmResponseFailure),
-    ntlm_response_timeout: cdktf.numberToTerraform(struct!.ntlmResponseTimeout),
-    ntlm_session_setup_failed: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailed),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
 }
@@ -318,78 +234,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    ntlm_authentication_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthenticationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_job_start_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmJobStartError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_polling_control_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPollingControlError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_negotiation_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegotiationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_timeout: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
       isBlock: false,
@@ -468,54 +312,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.kerberosValidateKdcFailure = this._kerberosValidateKdcFailure;
     }
-    if (this._ntlmAuthenticationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthenticationFailure = this._ntlmAuthenticationFailure;
-    }
-    if (this._ntlmJobStartError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmJobStartError = this._ntlmJobStartError;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPollingControlError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPollingControlError = this._ntlmPollingControlError;
-    }
-    if (this._ntlmPrepareReqFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqFailed = this._ntlmPrepareReqFailed;
-    }
-    if (this._ntlmProtoNegotiationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegotiationFailure = this._ntlmProtoNegotiationFailure;
-    }
-    if (this._ntlmRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmRequestDropped = this._ntlmRequestDropped;
-    }
-    if (this._ntlmResponseError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseError = this._ntlmResponseError;
-    }
-    if (this._ntlmResponseFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseFailure = this._ntlmResponseFailure;
-    }
-    if (this._ntlmResponseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseTimeout = this._ntlmResponseTimeout;
-    }
-    if (this._ntlmSessionSetupFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailed = this._ntlmSessionSetupFailed;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
@@ -539,18 +335,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = undefined;
       this._kerberosTimeoutError = undefined;
       this._kerberosValidateKdcFailure = undefined;
-      this._ntlmAuthenticationFailure = undefined;
-      this._ntlmJobStartError = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPollingControlError = undefined;
-      this._ntlmPrepareReqFailed = undefined;
-      this._ntlmProtoNegotiationFailure = undefined;
-      this._ntlmRequestDropped = undefined;
-      this._ntlmResponseError = undefined;
-      this._ntlmResponseFailure = undefined;
-      this._ntlmResponseTimeout = undefined;
-      this._ntlmSessionSetupFailed = undefined;
-      this._ntlmTimeoutError = undefined;
       this._uuid = undefined;
     }
     else {
@@ -568,18 +352,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = value.kerberosResponseTimeout;
       this._kerberosTimeoutError = value.kerberosTimeoutError;
       this._kerberosValidateKdcFailure = value.kerberosValidateKdcFailure;
-      this._ntlmAuthenticationFailure = value.ntlmAuthenticationFailure;
-      this._ntlmJobStartError = value.ntlmJobStartError;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPollingControlError = value.ntlmPollingControlError;
-      this._ntlmPrepareReqFailed = value.ntlmPrepareReqFailed;
-      this._ntlmProtoNegotiationFailure = value.ntlmProtoNegotiationFailure;
-      this._ntlmRequestDropped = value.ntlmRequestDropped;
-      this._ntlmResponseError = value.ntlmResponseError;
-      this._ntlmResponseFailure = value.ntlmResponseFailure;
-      this._ntlmResponseTimeout = value.ntlmResponseTimeout;
-      this._ntlmSessionSetupFailed = value.ntlmSessionSetupFailed;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._uuid = value.uuid;
     }
   }
@@ -792,198 +564,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._kerberosValidateKdcFailure;
   }
 
-  // ntlm_authentication_failure - computed: false, optional: true, required: false
-  private _ntlmAuthenticationFailure?: number; 
-  public get ntlmAuthenticationFailure() {
-    return this.getNumberAttribute('ntlm_authentication_failure');
-  }
-  public set ntlmAuthenticationFailure(value: number) {
-    this._ntlmAuthenticationFailure = value;
-  }
-  public resetNtlmAuthenticationFailure() {
-    this._ntlmAuthenticationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthenticationFailureInput() {
-    return this._ntlmAuthenticationFailure;
-  }
-
-  // ntlm_job_start_error - computed: false, optional: true, required: false
-  private _ntlmJobStartError?: number; 
-  public get ntlmJobStartError() {
-    return this.getNumberAttribute('ntlm_job_start_error');
-  }
-  public set ntlmJobStartError(value: number) {
-    this._ntlmJobStartError = value;
-  }
-  public resetNtlmJobStartError() {
-    this._ntlmJobStartError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmJobStartErrorInput() {
-    return this._ntlmJobStartError;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_polling_control_error - computed: false, optional: true, required: false
-  private _ntlmPollingControlError?: number; 
-  public get ntlmPollingControlError() {
-    return this.getNumberAttribute('ntlm_polling_control_error');
-  }
-  public set ntlmPollingControlError(value: number) {
-    this._ntlmPollingControlError = value;
-  }
-  public resetNtlmPollingControlError() {
-    this._ntlmPollingControlError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPollingControlErrorInput() {
-    return this._ntlmPollingControlError;
-  }
-
-  // ntlm_prepare_req_failed - computed: false, optional: true, required: false
-  private _ntlmPrepareReqFailed?: number; 
-  public get ntlmPrepareReqFailed() {
-    return this.getNumberAttribute('ntlm_prepare_req_failed');
-  }
-  public set ntlmPrepareReqFailed(value: number) {
-    this._ntlmPrepareReqFailed = value;
-  }
-  public resetNtlmPrepareReqFailed() {
-    this._ntlmPrepareReqFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqFailedInput() {
-    return this._ntlmPrepareReqFailed;
-  }
-
-  // ntlm_proto_negotiation_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegotiationFailure?: number; 
-  public get ntlmProtoNegotiationFailure() {
-    return this.getNumberAttribute('ntlm_proto_negotiation_failure');
-  }
-  public set ntlmProtoNegotiationFailure(value: number) {
-    this._ntlmProtoNegotiationFailure = value;
-  }
-  public resetNtlmProtoNegotiationFailure() {
-    this._ntlmProtoNegotiationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegotiationFailureInput() {
-    return this._ntlmProtoNegotiationFailure;
-  }
-
-  // ntlm_request_dropped - computed: false, optional: true, required: false
-  private _ntlmRequestDropped?: number; 
-  public get ntlmRequestDropped() {
-    return this.getNumberAttribute('ntlm_request_dropped');
-  }
-  public set ntlmRequestDropped(value: number) {
-    this._ntlmRequestDropped = value;
-  }
-  public resetNtlmRequestDropped() {
-    this._ntlmRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmRequestDroppedInput() {
-    return this._ntlmRequestDropped;
-  }
-
-  // ntlm_response_error - computed: false, optional: true, required: false
-  private _ntlmResponseError?: number; 
-  public get ntlmResponseError() {
-    return this.getNumberAttribute('ntlm_response_error');
-  }
-  public set ntlmResponseError(value: number) {
-    this._ntlmResponseError = value;
-  }
-  public resetNtlmResponseError() {
-    this._ntlmResponseError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseErrorInput() {
-    return this._ntlmResponseError;
-  }
-
-  // ntlm_response_failure - computed: false, optional: true, required: false
-  private _ntlmResponseFailure?: number; 
-  public get ntlmResponseFailure() {
-    return this.getNumberAttribute('ntlm_response_failure');
-  }
-  public set ntlmResponseFailure(value: number) {
-    this._ntlmResponseFailure = value;
-  }
-  public resetNtlmResponseFailure() {
-    this._ntlmResponseFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseFailureInput() {
-    return this._ntlmResponseFailure;
-  }
-
-  // ntlm_response_timeout - computed: false, optional: true, required: false
-  private _ntlmResponseTimeout?: number; 
-  public get ntlmResponseTimeout() {
-    return this.getNumberAttribute('ntlm_response_timeout');
-  }
-  public set ntlmResponseTimeout(value: number) {
-    this._ntlmResponseTimeout = value;
-  }
-  public resetNtlmResponseTimeout() {
-    this._ntlmResponseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseTimeoutInput() {
-    return this._ntlmResponseTimeout;
-  }
-
-  // ntlm_session_setup_failed - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailed?: number; 
-  public get ntlmSessionSetupFailed() {
-    return this.getNumberAttribute('ntlm_session_setup_failed');
-  }
-  public set ntlmSessionSetupFailed(value: number) {
-    this._ntlmSessionSetupFailed = value;
-  }
-  public resetNtlmSessionSetupFailed() {
-    this._ntlmSessionSetupFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailedInput() {
-    return this._ntlmSessionSetupFailed;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // uuid - computed: true, optional: true, required: false
   private _uuid?: string; 
   public get uuid() {
@@ -1004,169 +584,97 @@ export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStat
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#duration VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#duration VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Deletion Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_delete_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_delete_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_delete_kdc_keytab_failure}
   */
   readonly kerberosDeleteKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Keytab Generation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_generate_kdc_keytab_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_generate_kdc_keytab_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_generate_kdc_keytab_failure}
   */
   readonly kerberosGenerateKdcKeytabFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Job Start Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_job_start_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_job_start_error}
   */
   readonly kerberosJobStartError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_other_error}
   */
   readonly kerberosOtherError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Polling Control Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_polling_control_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_polling_control_error}
   */
   readonly kerberosPollingControlError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_change_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_change_failure}
   */
   readonly kerberosPwChangeFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_pw_expiry VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_pw_expiry}
   */
   readonly kerberosPwExpiry?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Dropped Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_request_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_request_dropped}
   */
   readonly kerberosRequestDropped?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Error Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_error}
   */
   readonly kerberosResponseError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Failure Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_failure}
   */
   readonly kerberosResponseFailure?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_response_timeout}
   */
   readonly kerberosResponseTimeout?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_timeout_error}
   */
   readonly kerberosTimeoutError?: number;
   /**
   * Enable automatic packet-capture for Total Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#kerberos_validate_kdc_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#kerberos_validate_kdc_failure}
   */
   readonly kerberosValidateKdcFailure?: number;
   /**
-  * Enable automatic packet-capture for Total NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_authentication_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_authentication_failure}
-  */
-  readonly ntlmAuthenticationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Job Start Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_job_start_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_job_start_error}
-  */
-  readonly ntlmJobStartError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_other_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Polling Control Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_polling_control_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_polling_control_error}
-  */
-  readonly ntlmPollingControlError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Prepare Request Failed
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_prepare_req_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_prepare_req_failed}
-  */
-  readonly ntlmPrepareReqFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_proto_negotiation_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_proto_negotiation_failure}
-  */
-  readonly ntlmProtoNegotiationFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Dropped Request
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_request_dropped VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_request_dropped}
-  */
-  readonly ntlmRequestDropped?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Error Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_error}
-  */
-  readonly ntlmResponseError?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Failure Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_failure VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_failure}
-  */
-  readonly ntlmResponseFailure?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout Response
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_response_timeout VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_response_timeout}
-  */
-  readonly ntlmResponseTimeout?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_session_setup_failed VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_session_setup_failed}
-  */
-  readonly ntlmSessionSetupFailed?: number;
-  /**
-  * Enable automatic packet-capture for Total NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#ntlm_timeout_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#threshold_exceeded_by VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1191,18 +699,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
     kerberos_response_timeout: cdktf.numberToTerraform(struct!.kerberosResponseTimeout),
     kerberos_timeout_error: cdktf.numberToTerraform(struct!.kerberosTimeoutError),
     kerberos_validate_kdc_failure: cdktf.numberToTerraform(struct!.kerberosValidateKdcFailure),
-    ntlm_authentication_failure: cdktf.numberToTerraform(struct!.ntlmAuthenticationFailure),
-    ntlm_job_start_error: cdktf.numberToTerraform(struct!.ntlmJobStartError),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_polling_control_error: cdktf.numberToTerraform(struct!.ntlmPollingControlError),
-    ntlm_prepare_req_failed: cdktf.numberToTerraform(struct!.ntlmPrepareReqFailed),
-    ntlm_proto_negotiation_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegotiationFailure),
-    ntlm_request_dropped: cdktf.numberToTerraform(struct!.ntlmRequestDropped),
-    ntlm_response_error: cdktf.numberToTerraform(struct!.ntlmResponseError),
-    ntlm_response_failure: cdktf.numberToTerraform(struct!.ntlmResponseFailure),
-    ntlm_response_timeout: cdktf.numberToTerraform(struct!.ntlmResponseTimeout),
-    ntlm_session_setup_failed: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailed),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
     threshold_exceeded_by: cdktf.numberToTerraform(struct!.thresholdExceededBy),
     uuid: cdktf.stringToTerraform(struct!.uuid),
   }
@@ -1299,78 +795,6 @@ export function visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStats
       type: "simple",
       storageClassType: "number",
     },
-    ntlm_authentication_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthenticationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_job_start_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmJobStartError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_polling_control_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPollingControlError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_negotiation_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegotiationFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_request_dropped: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmRequestDropped),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_response_timeout: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmResponseTimeout),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failed: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
     threshold_exceeded_by: {
       value: cdktf.numberToHclTerraform(struct!.thresholdExceededBy),
       isBlock: false,
@@ -1459,54 +883,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       hasAnyValues = true;
       internalValueResult.kerberosValidateKdcFailure = this._kerberosValidateKdcFailure;
     }
-    if (this._ntlmAuthenticationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthenticationFailure = this._ntlmAuthenticationFailure;
-    }
-    if (this._ntlmJobStartError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmJobStartError = this._ntlmJobStartError;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPollingControlError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPollingControlError = this._ntlmPollingControlError;
-    }
-    if (this._ntlmPrepareReqFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqFailed = this._ntlmPrepareReqFailed;
-    }
-    if (this._ntlmProtoNegotiationFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegotiationFailure = this._ntlmProtoNegotiationFailure;
-    }
-    if (this._ntlmRequestDropped !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmRequestDropped = this._ntlmRequestDropped;
-    }
-    if (this._ntlmResponseError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseError = this._ntlmResponseError;
-    }
-    if (this._ntlmResponseFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseFailure = this._ntlmResponseFailure;
-    }
-    if (this._ntlmResponseTimeout !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmResponseTimeout = this._ntlmResponseTimeout;
-    }
-    if (this._ntlmSessionSetupFailed !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailed = this._ntlmSessionSetupFailed;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     if (this._thresholdExceededBy !== undefined) {
       hasAnyValues = true;
       internalValueResult.thresholdExceededBy = this._thresholdExceededBy;
@@ -1535,18 +911,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = undefined;
       this._kerberosTimeoutError = undefined;
       this._kerberosValidateKdcFailure = undefined;
-      this._ntlmAuthenticationFailure = undefined;
-      this._ntlmJobStartError = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPollingControlError = undefined;
-      this._ntlmPrepareReqFailed = undefined;
-      this._ntlmProtoNegotiationFailure = undefined;
-      this._ntlmRequestDropped = undefined;
-      this._ntlmResponseError = undefined;
-      this._ntlmResponseFailure = undefined;
-      this._ntlmResponseTimeout = undefined;
-      this._ntlmSessionSetupFailed = undefined;
-      this._ntlmTimeoutError = undefined;
       this._thresholdExceededBy = undefined;
       this._uuid = undefined;
     }
@@ -1566,18 +930,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       this._kerberosResponseTimeout = value.kerberosResponseTimeout;
       this._kerberosTimeoutError = value.kerberosTimeoutError;
       this._kerberosValidateKdcFailure = value.kerberosValidateKdcFailure;
-      this._ntlmAuthenticationFailure = value.ntlmAuthenticationFailure;
-      this._ntlmJobStartError = value.ntlmJobStartError;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPollingControlError = value.ntlmPollingControlError;
-      this._ntlmPrepareReqFailed = value.ntlmPrepareReqFailed;
-      this._ntlmProtoNegotiationFailure = value.ntlmProtoNegotiationFailure;
-      this._ntlmRequestDropped = value.ntlmRequestDropped;
-      this._ntlmResponseError = value.ntlmResponseError;
-      this._ntlmResponseFailure = value.ntlmResponseFailure;
-      this._ntlmResponseTimeout = value.ntlmResponseTimeout;
-      this._ntlmSessionSetupFailed = value.ntlmSessionSetupFailed;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
       this._thresholdExceededBy = value.thresholdExceededBy;
       this._uuid = value.uuid;
     }
@@ -1807,198 +1159,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._kerberosValidateKdcFailure;
   }
 
-  // ntlm_authentication_failure - computed: false, optional: true, required: false
-  private _ntlmAuthenticationFailure?: number; 
-  public get ntlmAuthenticationFailure() {
-    return this.getNumberAttribute('ntlm_authentication_failure');
-  }
-  public set ntlmAuthenticationFailure(value: number) {
-    this._ntlmAuthenticationFailure = value;
-  }
-  public resetNtlmAuthenticationFailure() {
-    this._ntlmAuthenticationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthenticationFailureInput() {
-    return this._ntlmAuthenticationFailure;
-  }
-
-  // ntlm_job_start_error - computed: false, optional: true, required: false
-  private _ntlmJobStartError?: number; 
-  public get ntlmJobStartError() {
-    return this.getNumberAttribute('ntlm_job_start_error');
-  }
-  public set ntlmJobStartError(value: number) {
-    this._ntlmJobStartError = value;
-  }
-  public resetNtlmJobStartError() {
-    this._ntlmJobStartError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmJobStartErrorInput() {
-    return this._ntlmJobStartError;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_polling_control_error - computed: false, optional: true, required: false
-  private _ntlmPollingControlError?: number; 
-  public get ntlmPollingControlError() {
-    return this.getNumberAttribute('ntlm_polling_control_error');
-  }
-  public set ntlmPollingControlError(value: number) {
-    this._ntlmPollingControlError = value;
-  }
-  public resetNtlmPollingControlError() {
-    this._ntlmPollingControlError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPollingControlErrorInput() {
-    return this._ntlmPollingControlError;
-  }
-
-  // ntlm_prepare_req_failed - computed: false, optional: true, required: false
-  private _ntlmPrepareReqFailed?: number; 
-  public get ntlmPrepareReqFailed() {
-    return this.getNumberAttribute('ntlm_prepare_req_failed');
-  }
-  public set ntlmPrepareReqFailed(value: number) {
-    this._ntlmPrepareReqFailed = value;
-  }
-  public resetNtlmPrepareReqFailed() {
-    this._ntlmPrepareReqFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqFailedInput() {
-    return this._ntlmPrepareReqFailed;
-  }
-
-  // ntlm_proto_negotiation_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegotiationFailure?: number; 
-  public get ntlmProtoNegotiationFailure() {
-    return this.getNumberAttribute('ntlm_proto_negotiation_failure');
-  }
-  public set ntlmProtoNegotiationFailure(value: number) {
-    this._ntlmProtoNegotiationFailure = value;
-  }
-  public resetNtlmProtoNegotiationFailure() {
-    this._ntlmProtoNegotiationFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegotiationFailureInput() {
-    return this._ntlmProtoNegotiationFailure;
-  }
-
-  // ntlm_request_dropped - computed: false, optional: true, required: false
-  private _ntlmRequestDropped?: number; 
-  public get ntlmRequestDropped() {
-    return this.getNumberAttribute('ntlm_request_dropped');
-  }
-  public set ntlmRequestDropped(value: number) {
-    this._ntlmRequestDropped = value;
-  }
-  public resetNtlmRequestDropped() {
-    this._ntlmRequestDropped = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmRequestDroppedInput() {
-    return this._ntlmRequestDropped;
-  }
-
-  // ntlm_response_error - computed: false, optional: true, required: false
-  private _ntlmResponseError?: number; 
-  public get ntlmResponseError() {
-    return this.getNumberAttribute('ntlm_response_error');
-  }
-  public set ntlmResponseError(value: number) {
-    this._ntlmResponseError = value;
-  }
-  public resetNtlmResponseError() {
-    this._ntlmResponseError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseErrorInput() {
-    return this._ntlmResponseError;
-  }
-
-  // ntlm_response_failure - computed: false, optional: true, required: false
-  private _ntlmResponseFailure?: number; 
-  public get ntlmResponseFailure() {
-    return this.getNumberAttribute('ntlm_response_failure');
-  }
-  public set ntlmResponseFailure(value: number) {
-    this._ntlmResponseFailure = value;
-  }
-  public resetNtlmResponseFailure() {
-    this._ntlmResponseFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseFailureInput() {
-    return this._ntlmResponseFailure;
-  }
-
-  // ntlm_response_timeout - computed: false, optional: true, required: false
-  private _ntlmResponseTimeout?: number; 
-  public get ntlmResponseTimeout() {
-    return this.getNumberAttribute('ntlm_response_timeout');
-  }
-  public set ntlmResponseTimeout(value: number) {
-    this._ntlmResponseTimeout = value;
-  }
-  public resetNtlmResponseTimeout() {
-    this._ntlmResponseTimeout = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmResponseTimeoutInput() {
-    return this._ntlmResponseTimeout;
-  }
-
-  // ntlm_session_setup_failed - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailed?: number; 
-  public get ntlmSessionSetupFailed() {
-    return this.getNumberAttribute('ntlm_session_setup_failed');
-  }
-  public set ntlmSessionSetupFailed(value: number) {
-    this._ntlmSessionSetupFailed = value;
-  }
-  public resetNtlmSessionSetupFailed() {
-    this._ntlmSessionSetupFailed = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailedInput() {
-    return this._ntlmSessionSetupFailed;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -2033,7 +1193,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win}
 */
 export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA extends cdktf.TerraformResource {
 
@@ -2049,7 +1209,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   * Generates CDKTF code for importing a VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2061,7 +1221,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2072,8 +1232,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       terraformResourceType: 'thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change_aam_auth_server_win',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2084,7 +1244,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._templateName = config.templateName;
     this._uuid = config.uuid;
     this._triggerStatsInc.internalValue = config.triggerStatsInc;
     this._triggerStatsRate.internalValue = config.triggerStatsRate;
@@ -2110,17 +1270,17 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // template_name - computed: false, optional: false, required: true
+  private _templateName?: string; 
+  public get templateName() {
+    return this.getStringAttribute('template_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set templateName(value: string) {
+    this._templateName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get templateNameInput() {
+    return this._templateName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -2178,7 +1338,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      template_name: cdktf.stringToTerraform(this._templateName),
       uuid: cdktf.stringToTerraform(this._uuid),
       trigger_stats_inc: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsIncAToTerraform(this._triggerStatsInc.internalValue),
       trigger_stats_rate: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinTriggerStatsRateAToTerraform(this._triggerStatsRate.internalValue),
@@ -2193,8 +1353,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      template_name: {
+        value: cdktf.stringToHclTerraform(this._templateName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InterfaceLoopbackIsisAConfig extends cdktf.TerraformMetaArgumen
   /**
   * 'level-1': Level-1 only adjacencies are formed; 'level-1-2': Level-1-2 adjacencies are formed; 'level-2-only': Level-2 only adjacencies are formed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#circuit_type InterfaceLoopbackIsisA#circuit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#circuit_type InterfaceLoopbackIsisA#circuit_type}
   */
   readonly circuitType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#id InterfaceLoopbackIsisA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#id InterfaceLoopbackIsisA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,97 +23,97 @@ export interface InterfaceLoopbackIsisAConfig extends cdktf.TerraformMetaArgumen
   /**
   * Ifnum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#ifnum InterfaceLoopbackIsisA#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#ifnum InterfaceLoopbackIsisA#ifnum}
   */
   readonly ifnum: string;
   /**
   * Set LSP transmission interval (LSP transmission interval (milliseconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#lsp_interval InterfaceLoopbackIsisA#lsp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#lsp_interval InterfaceLoopbackIsisA#lsp_interval}
   */
   readonly lspInterval?: number;
   /**
   * Add padding to IS-IS hello packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#padding InterfaceLoopbackIsisA#padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#padding InterfaceLoopbackIsisA#padding}
   */
   readonly padding?: number;
   /**
   * Set per-LSP retransmission interval (Interval between retransmissions of the same LSP (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#retransmit_interval InterfaceLoopbackIsisA#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#retransmit_interval InterfaceLoopbackIsisA#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#uuid InterfaceLoopbackIsisA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#uuid InterfaceLoopbackIsisA#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#authentication InterfaceLoopbackIsisA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#authentication InterfaceLoopbackIsisA#authentication}
   */
   readonly authentication?: InterfaceLoopbackIsisAuthenticationA;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#bfd_cfg InterfaceLoopbackIsisA#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#bfd_cfg InterfaceLoopbackIsisA#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceLoopbackIsisBfdCfgA;
   /**
   * csnp_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#csnp_interval_list InterfaceLoopbackIsisA#csnp_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#csnp_interval_list InterfaceLoopbackIsisA#csnp_interval_list}
   */
   readonly csnpIntervalList?: InterfaceLoopbackIsisCsnpIntervalListStructA[] | cdktf.IResolvable;
   /**
   * hello_interval_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_interval_list InterfaceLoopbackIsisA#hello_interval_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_interval_list InterfaceLoopbackIsisA#hello_interval_list}
   */
   readonly helloIntervalList?: InterfaceLoopbackIsisHelloIntervalListStructA[] | cdktf.IResolvable;
   /**
   * hello_interval_minimal_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_interval_minimal_list InterfaceLoopbackIsisA#hello_interval_minimal_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_interval_minimal_list InterfaceLoopbackIsisA#hello_interval_minimal_list}
   */
   readonly helloIntervalMinimalList?: InterfaceLoopbackIsisHelloIntervalMinimalListStructA[] | cdktf.IResolvable;
   /**
   * hello_multiplier_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_multiplier_list InterfaceLoopbackIsisA#hello_multiplier_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_multiplier_list InterfaceLoopbackIsisA#hello_multiplier_list}
   */
   readonly helloMultiplierList?: InterfaceLoopbackIsisHelloMultiplierListStructA[] | cdktf.IResolvable;
   /**
   * mesh_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#mesh_group InterfaceLoopbackIsisA#mesh_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#mesh_group InterfaceLoopbackIsisA#mesh_group}
   */
   readonly meshGroup?: InterfaceLoopbackIsisMeshGroupA;
   /**
   * metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#metric_list InterfaceLoopbackIsisA#metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#metric_list InterfaceLoopbackIsisA#metric_list}
   */
   readonly metricList?: InterfaceLoopbackIsisMetricListStructA[] | cdktf.IResolvable;
   /**
   * password_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#password_list InterfaceLoopbackIsisA#password_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#password_list InterfaceLoopbackIsisA#password_list}
   */
   readonly passwordList?: InterfaceLoopbackIsisPasswordListStructA[] | cdktf.IResolvable;
   /**
   * priority_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#priority_list InterfaceLoopbackIsisA#priority_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#priority_list InterfaceLoopbackIsisA#priority_list}
   */
   readonly priorityList?: InterfaceLoopbackIsisPriorityListStructA[] | cdktf.IResolvable;
   /**
   * wide_metric_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#wide_metric_list InterfaceLoopbackIsisA#wide_metric_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#wide_metric_list InterfaceLoopbackIsisA#wide_metric_list}
   */
   readonly wideMetricList?: InterfaceLoopbackIsisWideMetricListStructA[] | cdktf.IResolvable;
 }
@@ -121,13 +121,13 @@ export interface InterfaceLoopbackIsisAuthenticationKeyChainListStructA {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#key_chain InterfaceLoopbackIsisA#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#key_chain InterfaceLoopbackIsisA#key_chain}
   */
   readonly keyChain?: string;
   /**
   * 'level-1': Specify authentication key-chain for level-1 PDUs; 'level-2': Specify authentication key-chain for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
 }
@@ -274,13 +274,13 @@ export interface InterfaceLoopbackIsisAuthenticationModeListStructA {
   /**
   * 'level-1': Specify authentication mode for level-1 PDUs; 'level-2': Specify authentication mode for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * 'md5': Keyed message digest;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#mode InterfaceLoopbackIsisA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#mode InterfaceLoopbackIsisA#mode}
   */
   readonly mode?: string;
 }
@@ -427,13 +427,13 @@ export interface InterfaceLoopbackIsisAuthenticationSendOnlyListStructA {
   /**
   * 'level-1': Specify authentication send-only for level-1 PDUs; 'level-2': Specify authentication send-only for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * Authentication send-only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#send_only InterfaceLoopbackIsisA#send_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#send_only InterfaceLoopbackIsisA#send_only}
   */
   readonly sendOnly?: number;
 }
@@ -580,19 +580,19 @@ export interface InterfaceLoopbackIsisAuthenticationA {
   /**
   * key_chain_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#key_chain_list InterfaceLoopbackIsisA#key_chain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#key_chain_list InterfaceLoopbackIsisA#key_chain_list}
   */
   readonly keyChainList?: InterfaceLoopbackIsisAuthenticationKeyChainListStructA[] | cdktf.IResolvable;
   /**
   * mode_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#mode_list InterfaceLoopbackIsisA#mode_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#mode_list InterfaceLoopbackIsisA#mode_list}
   */
   readonly modeList?: InterfaceLoopbackIsisAuthenticationModeListStructA[] | cdktf.IResolvable;
   /**
   * send_only_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#send_only_list InterfaceLoopbackIsisA#send_only_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#send_only_list InterfaceLoopbackIsisA#send_only_list}
   */
   readonly sendOnlyList?: InterfaceLoopbackIsisAuthenticationSendOnlyListStructA[] | cdktf.IResolvable;
 }
@@ -736,13 +736,13 @@ export interface InterfaceLoopbackIsisBfdCfgA {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#bfd InterfaceLoopbackIsisA#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#bfd InterfaceLoopbackIsisA#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#disable InterfaceLoopbackIsisA#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#disable InterfaceLoopbackIsisA#disable}
   */
   readonly disable?: number;
 }
@@ -857,13 +857,13 @@ export interface InterfaceLoopbackIsisCsnpIntervalListStructA {
   /**
   * Set CSNP interval in seconds (CSNP interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#csnp_interval InterfaceLoopbackIsisA#csnp_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#csnp_interval InterfaceLoopbackIsisA#csnp_interval}
   */
   readonly csnpInterval?: number;
   /**
   * 'level-1': Speficy interval for level-1 CSNPs; 'level-2': Specify interval for level-2 CSNPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
 }
@@ -1010,13 +1010,13 @@ export interface InterfaceLoopbackIsisHelloIntervalListStructA {
   /**
   * Set Hello interval in seconds (Hello interval value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_interval InterfaceLoopbackIsisA#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_interval InterfaceLoopbackIsisA#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
 }
@@ -1163,13 +1163,13 @@ export interface InterfaceLoopbackIsisHelloIntervalMinimalListStructA {
   /**
   * Set Hello holdtime 1 second, interval depends on multiplier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_interval_minimal InterfaceLoopbackIsisA#hello_interval_minimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_interval_minimal InterfaceLoopbackIsisA#hello_interval_minimal}
   */
   readonly helloIntervalMinimal?: number;
   /**
   * 'level-1': Specify hello-interval for level-1 IIHs; 'level-2': Specify hello-interval for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
 }
@@ -1316,13 +1316,13 @@ export interface InterfaceLoopbackIsisHelloMultiplierListStructA {
   /**
   * Set multiplier for Hello holding time (Hello multiplier value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#hello_multiplier InterfaceLoopbackIsisA#hello_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#hello_multiplier InterfaceLoopbackIsisA#hello_multiplier}
   */
   readonly helloMultiplier?: number;
   /**
   * 'level-1': Specify hello multiplier for level-1 IIHs; 'level-2': Specify hello multiplier for level-2 IIHs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
 }
@@ -1469,13 +1469,13 @@ export interface InterfaceLoopbackIsisMeshGroupA {
   /**
   * Block LSPs on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#blocked InterfaceLoopbackIsisA#blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#blocked InterfaceLoopbackIsisA#blocked}
   */
   readonly blocked?: number;
   /**
   * Mesh group number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#value InterfaceLoopbackIsisA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#value InterfaceLoopbackIsisA#value}
   */
   readonly value?: number;
 }
@@ -1590,13 +1590,13 @@ export interface InterfaceLoopbackIsisMetricListStructA {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the metric for interface (Default metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#metric InterfaceLoopbackIsisA#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#metric InterfaceLoopbackIsisA#metric}
   */
   readonly metric?: number;
 }
@@ -1743,13 +1743,13 @@ export interface InterfaceLoopbackIsisPasswordListStructA {
   /**
   * 'level-1': Specify password for level-1 PDUs; 'level-2': Specify password for level-2 PDUs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the authentication password for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#password InterfaceLoopbackIsisA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#password InterfaceLoopbackIsisA#password}
   */
   readonly password?: string;
 }
@@ -1896,13 +1896,13 @@ export interface InterfaceLoopbackIsisPriorityListStructA {
   /**
   * 'level-1': Specify priority for level-1 routing; 'level-2': Specify priority for level-2 routing;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * Set priority for Designated Router election (Priority value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#priority InterfaceLoopbackIsisA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#priority InterfaceLoopbackIsisA#priority}
   */
   readonly priority?: number;
 }
@@ -2049,13 +2049,13 @@ export interface InterfaceLoopbackIsisWideMetricListStructA {
   /**
   * 'level-1': Apply metric to level-1 links; 'level-2': Apply metric to level-2 links;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#level InterfaceLoopbackIsisA#level}
   */
   readonly level?: string;
   /**
   * Configure the wide metric for interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#wide_metric InterfaceLoopbackIsisA#wide_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#wide_metric InterfaceLoopbackIsisA#wide_metric}
   */
   readonly wideMetric?: number;
 }
@@ -2200,7 +2200,7 @@ export class InterfaceLoopbackIsisWideMetricListStructAList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis thunder_interface_loopback_isis}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis thunder_interface_loopback_isis}
 */
 export class InterfaceLoopbackIsisA extends cdktf.TerraformResource {
 
@@ -2216,7 +2216,7 @@ export class InterfaceLoopbackIsisA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLoopbackIsisA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLoopbackIsisA to import
-  * @param importFromId The id of the existing InterfaceLoopbackIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLoopbackIsisA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLoopbackIsisA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2228,7 +2228,7 @@ export class InterfaceLoopbackIsisA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_loopback_isis thunder_interface_loopback_isis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_loopback_isis thunder_interface_loopback_isis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2239,8 +2239,8 @@ export class InterfaceLoopbackIsisA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_loopback_isis',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

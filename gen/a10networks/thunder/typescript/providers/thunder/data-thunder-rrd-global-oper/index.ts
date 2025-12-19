@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRrdGlobalOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#id DataThunderRrdGlobalOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#id DataThunderRrdGlobalOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface DataThunderRrdGlobalOperConfig extends cdktf.TerraformMetaArgum
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#oper DataThunderRrdGlobalOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#oper DataThunderRrdGlobalOper#oper}
   */
   readonly oper?: DataThunderRrdGlobalOperOper;
 }
 export interface DataThunderRrdGlobalOperOperGlobalData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#conn_free_cnt DataThunderRrdGlobalOper#conn_free_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#conn_free_cnt DataThunderRrdGlobalOper#conn_free_cnt}
   */
   readonly connFreeCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#conn_get_cnt DataThunderRrdGlobalOper#conn_get_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#conn_get_cnt DataThunderRrdGlobalOper#conn_get_cnt}
   */
   readonly connGetCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#conn_smp_aged DataThunderRrdGlobalOper#conn_smp_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#conn_smp_aged DataThunderRrdGlobalOper#conn_smp_aged}
   */
   readonly connSmpAged?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#conn_smp_alloc DataThunderRrdGlobalOper#conn_smp_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#conn_smp_alloc DataThunderRrdGlobalOper#conn_smp_alloc}
   */
   readonly connSmpAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#conn_smp_free DataThunderRrdGlobalOper#conn_smp_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#conn_smp_free DataThunderRrdGlobalOper#conn_smp_free}
   */
   readonly connSmpFree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#curr_free_conn DataThunderRrdGlobalOper#curr_free_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#curr_free_conn DataThunderRrdGlobalOper#curr_free_conn}
   */
   readonly currFreeConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#free_buff_count DataThunderRrdGlobalOper#free_buff_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#free_buff_count DataThunderRrdGlobalOper#free_buff_count}
   */
   readonly freeBuffCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#ip_conn_count DataThunderRrdGlobalOper#ip_conn_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#ip_conn_count DataThunderRrdGlobalOper#ip_conn_count}
   */
   readonly ipConnCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#other_conn_count DataThunderRrdGlobalOper#other_conn_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#other_conn_count DataThunderRrdGlobalOper#other_conn_count}
   */
   readonly otherConnCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#snat_tcp_count DataThunderRrdGlobalOper#snat_tcp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#snat_tcp_count DataThunderRrdGlobalOper#snat_tcp_count}
   */
   readonly snatTcpCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#snat_udp_count DataThunderRrdGlobalOper#snat_udp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#snat_udp_count DataThunderRrdGlobalOper#snat_udp_count}
   */
   readonly snatUdpCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#syn_half_open DataThunderRrdGlobalOper#syn_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#syn_half_open DataThunderRrdGlobalOper#syn_half_open}
   */
   readonly synHalfOpen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#tcp_est_count DataThunderRrdGlobalOper#tcp_est_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#tcp_est_count DataThunderRrdGlobalOper#tcp_est_count}
   */
   readonly tcpEstCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#tcp_half_open DataThunderRrdGlobalOper#tcp_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#tcp_half_open DataThunderRrdGlobalOper#tcp_half_open}
   */
   readonly tcpHalfOpen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#time DataThunderRrdGlobalOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#time DataThunderRrdGlobalOper#time}
   */
   readonly time?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#udp_conn_count DataThunderRrdGlobalOper#udp_conn_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#udp_conn_count DataThunderRrdGlobalOper#udp_conn_count}
   */
   readonly udpConnCount?: number;
 }
@@ -634,17 +634,17 @@ export class DataThunderRrdGlobalOperOperGlobalDataList extends cdktf.ComplexLis
 }
 export interface DataThunderRrdGlobalOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#end_time DataThunderRrdGlobalOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#end_time DataThunderRrdGlobalOper#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#start_time DataThunderRrdGlobalOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#start_time DataThunderRrdGlobalOper#start_time}
   */
   readonly startTime?: number;
   /**
   * global_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#global_data DataThunderRrdGlobalOper#global_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#global_data DataThunderRrdGlobalOper#global_data}
   */
   readonly globalData?: DataThunderRrdGlobalOperOperGlobalData[] | cdktf.IResolvable;
 }
@@ -786,7 +786,7 @@ export class DataThunderRrdGlobalOperOperOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper thunder_rrd_global_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper thunder_rrd_global_oper}
 */
 export class DataThunderRrdGlobalOper extends cdktf.TerraformDataSource {
 
@@ -802,7 +802,7 @@ export class DataThunderRrdGlobalOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRrdGlobalOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRrdGlobalOper to import
-  * @param importFromId The id of the existing DataThunderRrdGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRrdGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRrdGlobalOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -814,7 +814,7 @@ export class DataThunderRrdGlobalOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_global_oper thunder_rrd_global_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_global_oper thunder_rrd_global_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -825,8 +825,8 @@ export class DataThunderRrdGlobalOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rrd_global_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

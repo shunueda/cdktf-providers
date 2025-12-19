@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LoggingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#id DataThunderCgnv6LoggingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#id DataThunderCgnv6LoggingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LoggingStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#stats DataThunderCgnv6LoggingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#stats DataThunderCgnv6LoggingStats#stats}
   */
   readonly stats?: DataThunderCgnv6LoggingStatsStats;
 }
@@ -25,313 +25,313 @@ export interface DataThunderCgnv6LoggingStatsStats {
   /**
   * TCP Connection Lost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#conn_tcp_dropped DataThunderCgnv6LoggingStats#conn_tcp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#conn_tcp_dropped DataThunderCgnv6LoggingStats#conn_tcp_dropped}
   */
   readonly connTcpDropped?: number;
   /**
   * TCP Connection Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#conn_tcp_established DataThunderCgnv6LoggingStats#conn_tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#conn_tcp_established DataThunderCgnv6LoggingStats#conn_tcp_established}
   */
   readonly connTcpEstablished?: number;
   /**
   * Enhanced User Log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#enhanced_user_log DataThunderCgnv6LoggingStats#enhanced_user_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#enhanced_user_log DataThunderCgnv6LoggingStats#enhanced_user_log}
   */
   readonly enhancedUserLog?: number;
   /**
   * ESP Resource Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#esp_resource_allocated DataThunderCgnv6LoggingStats#esp_resource_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#esp_resource_allocated DataThunderCgnv6LoggingStats#esp_resource_allocated}
   */
   readonly espResourceAllocated?: number;
   /**
   * ESP Resource Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#esp_resource_freed DataThunderCgnv6LoggingStats#esp_resource_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#esp_resource_freed DataThunderCgnv6LoggingStats#esp_resource_freed}
   */
   readonly espResourceFreed?: number;
   /**
   * ESP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#esp_session_created DataThunderCgnv6LoggingStats#esp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#esp_session_created DataThunderCgnv6LoggingStats#esp_session_created}
   */
   readonly espSessionCreated?: number;
   /**
   * ESP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#esp_session_deleted DataThunderCgnv6LoggingStats#esp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#esp_session_deleted DataThunderCgnv6LoggingStats#esp_session_deleted}
   */
   readonly espSessionDeleted?: number;
   /**
   * Fixed NAT Periodic Configs Logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_disable_config_logged DataThunderCgnv6LoggingStats#fixed_nat_disable_config_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_disable_config_logged DataThunderCgnv6LoggingStats#fixed_nat_disable_config_logged}
   */
   readonly fixedNatDisableConfigLogged?: number;
   /**
   * Fixed NAT Periodic Config Logs Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_disable_config_logs_sent DataThunderCgnv6LoggingStats#fixed_nat_disable_config_logs_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_disable_config_logs_sent DataThunderCgnv6LoggingStats#fixed_nat_disable_config_logs_sent}
   */
   readonly fixedNatDisableConfigLogsSent?: number;
   /**
   * Fixed NAT Interim Updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_interim_updated DataThunderCgnv6LoggingStats#fixed_nat_interim_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_interim_updated DataThunderCgnv6LoggingStats#fixed_nat_interim_updated}
   */
   readonly fixedNatInterimUpdated?: number;
   /**
   * Fixed NAT Disabled Config Logs Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_periodic_config_logged DataThunderCgnv6LoggingStats#fixed_nat_periodic_config_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_periodic_config_logged DataThunderCgnv6LoggingStats#fixed_nat_periodic_config_logged}
   */
   readonly fixedNatPeriodicConfigLogged?: number;
   /**
   * Fixed NAT Disabled Configs Logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_periodic_config_logs_sent DataThunderCgnv6LoggingStats#fixed_nat_periodic_config_logs_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_periodic_config_logs_sent DataThunderCgnv6LoggingStats#fixed_nat_periodic_config_logs_sent}
   */
   readonly fixedNatPeriodicConfigLogsSent?: number;
   /**
   * Fixed NAT Inside User Port Mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#fixed_nat_user_ports DataThunderCgnv6LoggingStats#fixed_nat_user_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#fixed_nat_user_ports DataThunderCgnv6LoggingStats#fixed_nat_user_ports}
   */
   readonly fixedNatUserPorts?: number;
   /**
   * GRE Resource Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#gre_resource_allocated DataThunderCgnv6LoggingStats#gre_resource_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#gre_resource_allocated DataThunderCgnv6LoggingStats#gre_resource_allocated}
   */
   readonly greResourceAllocated?: number;
   /**
   * GRE Resource Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#gre_resource_freed DataThunderCgnv6LoggingStats#gre_resource_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#gre_resource_freed DataThunderCgnv6LoggingStats#gre_resource_freed}
   */
   readonly greResourceFreed?: number;
   /**
   * GRE Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#gre_session_created DataThunderCgnv6LoggingStats#gre_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#gre_session_created DataThunderCgnv6LoggingStats#gre_session_created}
   */
   readonly greSessionCreated?: number;
   /**
   * GRE Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#gre_session_deleted DataThunderCgnv6LoggingStats#gre_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#gre_session_deleted DataThunderCgnv6LoggingStats#gre_session_deleted}
   */
   readonly greSessionDeleted?: number;
   /**
   * HTTP Request Logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#http_request_logged DataThunderCgnv6LoggingStats#http_request_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#http_request_logged DataThunderCgnv6LoggingStats#http_request_logged}
   */
   readonly httpRequestLogged?: number;
   /**
   * ICMP Resource Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmp_resource_allocated DataThunderCgnv6LoggingStats#icmp_resource_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmp_resource_allocated DataThunderCgnv6LoggingStats#icmp_resource_allocated}
   */
   readonly icmpResourceAllocated?: number;
   /**
   * ICMP Resource Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmp_resource_freed DataThunderCgnv6LoggingStats#icmp_resource_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmp_resource_freed DataThunderCgnv6LoggingStats#icmp_resource_freed}
   */
   readonly icmpResourceFreed?: number;
   /**
   * ICMP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmp_session_created DataThunderCgnv6LoggingStats#icmp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmp_session_created DataThunderCgnv6LoggingStats#icmp_session_created}
   */
   readonly icmpSessionCreated?: number;
   /**
   * ICMP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmp_session_deleted DataThunderCgnv6LoggingStats#icmp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmp_session_deleted DataThunderCgnv6LoggingStats#icmp_session_deleted}
   */
   readonly icmpSessionDeleted?: number;
   /**
   * ICMPV6 Resource Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmpv6_resource_allocated DataThunderCgnv6LoggingStats#icmpv6_resource_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmpv6_resource_allocated DataThunderCgnv6LoggingStats#icmpv6_resource_allocated}
   */
   readonly icmpv6ResourceAllocated?: number;
   /**
   * ICMPV6 Resource Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmpv6_resource_freed DataThunderCgnv6LoggingStats#icmpv6_resource_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmpv6_resource_freed DataThunderCgnv6LoggingStats#icmpv6_resource_freed}
   */
   readonly icmpv6ResourceFreed?: number;
   /**
   * ICMPV6 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmpv6_session_created DataThunderCgnv6LoggingStats#icmpv6_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmpv6_session_created DataThunderCgnv6LoggingStats#icmpv6_session_created}
   */
   readonly icmpv6SessionCreated?: number;
   /**
   * ICMPV6 Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#icmpv6_session_deleted DataThunderCgnv6LoggingStats#icmpv6_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#icmpv6_session_deleted DataThunderCgnv6LoggingStats#icmpv6_session_deleted}
   */
   readonly icmpv6SessionDeleted?: number;
   /**
   * iDDoS L3 Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#iddos_l3_entry_create DataThunderCgnv6LoggingStats#iddos_l3_entry_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#iddos_l3_entry_create DataThunderCgnv6LoggingStats#iddos_l3_entry_create}
   */
   readonly iddosL3EntryCreate?: number;
   /**
   * iDDoS L3 Entry Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#iddos_l3_entry_delete DataThunderCgnv6LoggingStats#iddos_l3_entry_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#iddos_l3_entry_delete DataThunderCgnv6LoggingStats#iddos_l3_entry_delete}
   */
   readonly iddosL3EntryDelete?: number;
   /**
   * iDDoS L4 Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#iddos_l4_entry_create DataThunderCgnv6LoggingStats#iddos_l4_entry_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#iddos_l4_entry_create DataThunderCgnv6LoggingStats#iddos_l4_entry_create}
   */
   readonly iddosL4EntryCreate?: number;
   /**
   * iDDoS L4 Entry Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#iddos_l4_entry_delete DataThunderCgnv6LoggingStats#iddos_l4_entry_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#iddos_l4_entry_delete DataThunderCgnv6LoggingStats#iddos_l4_entry_delete}
   */
   readonly iddosL4EntryDelete?: number;
   /**
   * Port Allocation Interim Update Scheduled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#interim_update_scheduled DataThunderCgnv6LoggingStats#interim_update_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#interim_update_scheduled DataThunderCgnv6LoggingStats#interim_update_scheduled}
   */
   readonly interimUpdateScheduled?: number;
   /**
   * Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#log_dropped DataThunderCgnv6LoggingStats#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#log_dropped DataThunderCgnv6LoggingStats#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * Log Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#log_sent DataThunderCgnv6LoggingStats#log_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#log_sent DataThunderCgnv6LoggingStats#log_sent}
   */
   readonly logSent?: number;
   /**
   * Reduced Logs by Destination Protocol and Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#reduced_logs_by_destination DataThunderCgnv6LoggingStats#reduced_logs_by_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#reduced_logs_by_destination DataThunderCgnv6LoggingStats#reduced_logs_by_destination}
   */
   readonly reducedLogsByDestination?: number;
   /**
   * TCP Port Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_allocated DataThunderCgnv6LoggingStats#tcp_port_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_allocated DataThunderCgnv6LoggingStats#tcp_port_allocated}
   */
   readonly tcpPortAllocated?: number;
   /**
   * TCP Port Batch Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_allocated DataThunderCgnv6LoggingStats#tcp_port_batch_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_allocated DataThunderCgnv6LoggingStats#tcp_port_batch_allocated}
   */
   readonly tcpPortBatchAllocated?: number;
   /**
   * TCP Port Batch Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_freed DataThunderCgnv6LoggingStats#tcp_port_batch_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_freed DataThunderCgnv6LoggingStats#tcp_port_batch_freed}
   */
   readonly tcpPortBatchFreed?: number;
   /**
   * TCP Port Batch Interim Updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_interim_updated DataThunderCgnv6LoggingStats#tcp_port_batch_interim_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_batch_interim_updated DataThunderCgnv6LoggingStats#tcp_port_batch_interim_updated}
   */
   readonly tcpPortBatchInterimUpdated?: number;
   /**
   * TCP Port Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_freed DataThunderCgnv6LoggingStats#tcp_port_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_freed DataThunderCgnv6LoggingStats#tcp_port_freed}
   */
   readonly tcpPortFreed?: number;
   /**
   * TCP Port Overloading Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_overloading_allocated DataThunderCgnv6LoggingStats#tcp_port_overloading_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_overloading_allocated DataThunderCgnv6LoggingStats#tcp_port_overloading_allocated}
   */
   readonly tcpPortOverloadingAllocated?: number;
   /**
   * TCP Port Overloading Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_port_overloading_freed DataThunderCgnv6LoggingStats#tcp_port_overloading_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_port_overloading_freed DataThunderCgnv6LoggingStats#tcp_port_overloading_freed}
   */
   readonly tcpPortOverloadingFreed?: number;
   /**
   * TCP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_session_created DataThunderCgnv6LoggingStats#tcp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_session_created DataThunderCgnv6LoggingStats#tcp_session_created}
   */
   readonly tcpSessionCreated?: number;
   /**
   * TCP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#tcp_session_deleted DataThunderCgnv6LoggingStats#tcp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#tcp_session_deleted DataThunderCgnv6LoggingStats#tcp_session_deleted}
   */
   readonly tcpSessionDeleted?: number;
   /**
   * UDP Port Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_allocated DataThunderCgnv6LoggingStats#udp_port_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_allocated DataThunderCgnv6LoggingStats#udp_port_allocated}
   */
   readonly udpPortAllocated?: number;
   /**
   * UDP Port Batch Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_batch_allocated DataThunderCgnv6LoggingStats#udp_port_batch_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_batch_allocated DataThunderCgnv6LoggingStats#udp_port_batch_allocated}
   */
   readonly udpPortBatchAllocated?: number;
   /**
   * UDP Port Batch Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_batch_freed DataThunderCgnv6LoggingStats#udp_port_batch_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_batch_freed DataThunderCgnv6LoggingStats#udp_port_batch_freed}
   */
   readonly udpPortBatchFreed?: number;
   /**
   * UDP Port Batch Interim Updated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_batch_interim_updated DataThunderCgnv6LoggingStats#udp_port_batch_interim_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_batch_interim_updated DataThunderCgnv6LoggingStats#udp_port_batch_interim_updated}
   */
   readonly udpPortBatchInterimUpdated?: number;
   /**
   * UDP Port Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_freed DataThunderCgnv6LoggingStats#udp_port_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_freed DataThunderCgnv6LoggingStats#udp_port_freed}
   */
   readonly udpPortFreed?: number;
   /**
   * UDP Port Overloading Allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_overloading_allocated DataThunderCgnv6LoggingStats#udp_port_overloading_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_overloading_allocated DataThunderCgnv6LoggingStats#udp_port_overloading_allocated}
   */
   readonly udpPortOverloadingAllocated?: number;
   /**
   * UDP Port Overloading Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_port_overloading_freed DataThunderCgnv6LoggingStats#udp_port_overloading_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_port_overloading_freed DataThunderCgnv6LoggingStats#udp_port_overloading_freed}
   */
   readonly udpPortOverloadingFreed?: number;
   /**
   * UDP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_session_created DataThunderCgnv6LoggingStats#udp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_session_created DataThunderCgnv6LoggingStats#udp_session_created}
   */
   readonly udpSessionCreated?: number;
   /**
   * UDP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#udp_session_deleted DataThunderCgnv6LoggingStats#udp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#udp_session_deleted DataThunderCgnv6LoggingStats#udp_session_deleted}
   */
   readonly udpSessionDeleted?: number;
 }
@@ -1894,7 +1894,7 @@ export class DataThunderCgnv6LoggingStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats thunder_cgnv6_logging_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats thunder_cgnv6_logging_stats}
 */
 export class DataThunderCgnv6LoggingStats extends cdktf.TerraformDataSource {
 
@@ -1910,7 +1910,7 @@ export class DataThunderCgnv6LoggingStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LoggingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LoggingStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LoggingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1922,7 +1922,7 @@ export class DataThunderCgnv6LoggingStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_logging_stats thunder_cgnv6_logging_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_logging_stats thunder_cgnv6_logging_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1933,8 +1933,8 @@ export class DataThunderCgnv6LoggingStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_logging_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

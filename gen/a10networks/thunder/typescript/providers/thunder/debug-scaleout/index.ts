@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DebugScaleoutConfig extends cdktf.TerraformMetaArguments {
   /**
   * Debug logs for scaleout config change
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#config DebugScaleout#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#config DebugScaleout#config}
   */
   readonly config?: number;
   /**
   * Debug level (Level 1-3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#debug_level DebugScaleout#debug_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#debug_level DebugScaleout#debug_level}
   */
   readonly debugLevel?: number;
   /**
   * Debug logs for scaleout events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#event DebugScaleout#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#event DebugScaleout#event}
   */
   readonly event?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#id DebugScaleout#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#id DebugScaleout#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface DebugScaleoutConfig extends cdktf.TerraformMetaArguments {
   /**
   * Debug logs for scaleout packet flow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#packet DebugScaleout#packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#packet DebugScaleout#packet}
   */
   readonly packet?: number;
   /**
   * Debug logs for scaleout session sync events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#session_sync DebugScaleout#session_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#session_sync DebugScaleout#session_sync}
   */
   readonly sessionSync?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#uuid DebugScaleout#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#uuid DebugScaleout#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout thunder_debug_scaleout}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout thunder_debug_scaleout}
 */
 export class DebugScaleout extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class DebugScaleout extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugScaleout resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugScaleout to import
-  * @param importFromId The id of the existing DebugScaleout that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugScaleout that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugScaleout to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DebugScaleout extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_scaleout thunder_debug_scaleout} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_scaleout thunder_debug_scaleout} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DebugScaleout extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_scaleout',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

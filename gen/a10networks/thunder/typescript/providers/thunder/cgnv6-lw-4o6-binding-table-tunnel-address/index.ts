@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6Lw4O6BindingTableTunnelAddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#id Cgnv6Lw4O6BindingTableTunnelAddress#id}
+  * Binding_table_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#binding_table_name Cgnv6Lw4O6BindingTableTunnelAddress#binding_table_name}
+  */
+  readonly bindingTableName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#id Cgnv6Lw4O6BindingTableTunnelAddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +23,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressConfig extends cdktf.Terrafo
   /**
   * Tunnel IPv6 Endpoint Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#ipv6_tunnel_addr Cgnv6Lw4O6BindingTableTunnelAddress#ipv6_tunnel_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#ipv6_tunnel_addr Cgnv6Lw4O6BindingTableTunnelAddress#ipv6_tunnel_addr}
   */
   readonly ipv6TunnelAddr: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#name Cgnv6Lw4O6BindingTableTunnelAddress#name}
-  */
-  readonly name: string;
-  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#user_tag Cgnv6Lw4O6BindingTableTunnelAddress#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#user_tag Cgnv6Lw4O6BindingTableTunnelAddress#user_tag}
   */
   readonly userTag?: string;
   /**
   * nat_address_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#nat_address_list Cgnv6Lw4O6BindingTableTunnelAddress#nat_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#nat_address_list Cgnv6Lw4O6BindingTableTunnelAddress#nat_address_list}
   */
   readonly natAddressList?: Cgnv6Lw4O6BindingTableTunnelAddressNatAddressListStruct[] | cdktf.IResolvable;
 }
@@ -43,19 +43,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressNatAddressListPortRangeListS
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_end Cgnv6Lw4O6BindingTableTunnelAddress#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_end Cgnv6Lw4O6BindingTableTunnelAddress#port_end}
   */
   readonly portEnd: number;
   /**
   * Single Port or Port Range Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_start Cgnv6Lw4O6BindingTableTunnelAddress#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_start Cgnv6Lw4O6BindingTableTunnelAddress#port_start}
   */
   readonly portStart: number;
   /**
   * Configure LW-4over6 IPIP Tunnel Endpoint Address (LW-4over6 Tunnel Endpoint Address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#tunnel_endpoint_address Cgnv6Lw4O6BindingTableTunnelAddress#tunnel_endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#tunnel_endpoint_address Cgnv6Lw4O6BindingTableTunnelAddress#tunnel_endpoint_address}
   */
   readonly tunnelEndpointAddress: string;
 }
@@ -222,19 +222,19 @@ export interface Cgnv6Lw4O6BindingTableTunnelAddressNatAddressListStruct {
   /**
   * NAT IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#ipv4_nat_addr Cgnv6Lw4O6BindingTableTunnelAddress#ipv4_nat_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#ipv4_nat_addr Cgnv6Lw4O6BindingTableTunnelAddress#ipv4_nat_addr}
   */
   readonly ipv4NatAddr: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#user_tag Cgnv6Lw4O6BindingTableTunnelAddress#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#user_tag Cgnv6Lw4O6BindingTableTunnelAddress#user_tag}
   */
   readonly userTag?: string;
   /**
   * port_range_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_range_list Cgnv6Lw4O6BindingTableTunnelAddress#port_range_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#port_range_list Cgnv6Lw4O6BindingTableTunnelAddress#port_range_list}
   */
   readonly portRangeList?: Cgnv6Lw4O6BindingTableTunnelAddressNatAddressListPortRangeListStruct[] | cdktf.IResolvable;
 }
@@ -405,7 +405,7 @@ export class Cgnv6Lw4O6BindingTableTunnelAddressNatAddressListStructList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address thunder_cgnv6_lw_4o6_binding_table_tunnel_address}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address thunder_cgnv6_lw_4o6_binding_table_tunnel_address}
 */
 export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
   * Generates CDKTF code for importing a Cgnv6Lw4O6BindingTableTunnelAddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Lw4O6BindingTableTunnelAddress to import
-  * @param importFromId The id of the existing Cgnv6Lw4O6BindingTableTunnelAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Lw4O6BindingTableTunnelAddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Lw4O6BindingTableTunnelAddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address thunder_cgnv6_lw_4o6_binding_table_tunnel_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lw_4o6_binding_table_tunnel_address thunder_cgnv6_lw_4o6_binding_table_tunnel_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
       terraformResourceType: 'thunder_cgnv6_lw_4o6_binding_table_tunnel_address',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -455,9 +455,9 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
       connection: config.connection,
       forEach: config.forEach
     });
+    this._bindingTableName = config.bindingTableName;
     this._id = config.id;
     this._ipv6TunnelAddr = config.ipv6TunnelAddr;
-    this._name = config.name;
     this._userTag = config.userTag;
     this._natAddressList.internalValue = config.natAddressList;
   }
@@ -465,6 +465,19 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // binding_table_name - computed: false, optional: false, required: true
+  private _bindingTableName?: string; 
+  public get bindingTableName() {
+    return this.getStringAttribute('binding_table_name');
+  }
+  public set bindingTableName(value: string) {
+    this._bindingTableName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bindingTableNameInput() {
+    return this._bindingTableName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -493,19 +506,6 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
   // Temporarily expose input value. Use with caution.
   public get ipv6TunnelAddrInput() {
     return this._ipv6TunnelAddr;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -546,9 +546,9 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      binding_table_name: cdktf.stringToTerraform(this._bindingTableName),
       id: cdktf.stringToTerraform(this._id),
       ipv6_tunnel_addr: cdktf.stringToTerraform(this._ipv6TunnelAddr),
-      name: cdktf.stringToTerraform(this._name),
       user_tag: cdktf.stringToTerraform(this._userTag),
       nat_address_list: cdktf.listMapper(cgnv6Lw4O6BindingTableTunnelAddressNatAddressListStructToTerraform, true)(this._natAddressList.internalValue),
     };
@@ -556,6 +556,12 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      binding_table_name: {
+        value: cdktf.stringToHclTerraform(this._bindingTableName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -564,12 +570,6 @@ export class Cgnv6Lw4O6BindingTableTunnelAddress extends cdktf.TerraformResource
       },
       ipv6_tunnel_addr: {
         value: cdktf.stringToHclTerraform(this._ipv6TunnelAddr),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

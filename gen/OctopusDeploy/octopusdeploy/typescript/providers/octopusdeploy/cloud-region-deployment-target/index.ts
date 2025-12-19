@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,186 +8,186 @@ import * as cdktf from 'cdktf';
 
 export interface CloudRegionDeploymentTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#default_worker_pool_id CloudRegionDeploymentTarget#default_worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#default_worker_pool_id CloudRegionDeploymentTarget#default_worker_pool_id}
   */
   readonly defaultWorkerPoolId?: string;
   /**
   * A list of environment IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#environments CloudRegionDeploymentTarget#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#environments CloudRegionDeploymentTarget#environments}
   */
   readonly environments: string[];
   /**
   * Represents the health status of this deployment target. Valid health statuses are `HasWarnings`, `Healthy`, `Unavailable`, `Unhealthy`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#health_status CloudRegionDeploymentTarget#health_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#health_status CloudRegionDeploymentTarget#health_status}
   */
   readonly healthStatus?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#id CloudRegionDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#id CloudRegionDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#is_disabled CloudRegionDeploymentTarget#is_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#is_disabled CloudRegionDeploymentTarget#is_disabled}
   */
   readonly isDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#machine_policy_id CloudRegionDeploymentTarget#machine_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#machine_policy_id CloudRegionDeploymentTarget#machine_policy_id}
   */
   readonly machinePolicyId?: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#name CloudRegionDeploymentTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#name CloudRegionDeploymentTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#operating_system CloudRegionDeploymentTarget#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#operating_system CloudRegionDeploymentTarget#operating_system}
   */
   readonly operatingSystem?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#roles CloudRegionDeploymentTarget#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#roles CloudRegionDeploymentTarget#roles}
   */
   readonly roles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#shell_name CloudRegionDeploymentTarget#shell_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#shell_name CloudRegionDeploymentTarget#shell_name}
   */
   readonly shellName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#shell_version CloudRegionDeploymentTarget#shell_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#shell_version CloudRegionDeploymentTarget#shell_version}
   */
   readonly shellVersion?: string;
   /**
   * The space ID associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#space_id CloudRegionDeploymentTarget#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#space_id CloudRegionDeploymentTarget#space_id}
   */
   readonly spaceId?: string;
   /**
   * The status of this resource. Valid statuses are `CalamariNeedsUpgrade`, `Disabled`, `NeedsUpgrade`, `Offline`, `Online`, or `Unknown`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#status CloudRegionDeploymentTarget#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#status CloudRegionDeploymentTarget#status}
   */
   readonly status?: string;
   /**
   * A summary elaborating on the status of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#status_summary CloudRegionDeploymentTarget#status_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#status_summary CloudRegionDeploymentTarget#status_summary}
   */
   readonly statusSummary?: string;
   /**
   * A list of tenant tags associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#tenant_tags CloudRegionDeploymentTarget#tenant_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#tenant_tags CloudRegionDeploymentTarget#tenant_tags}
   */
   readonly tenantTags?: string[];
   /**
   * The tenanted deployment mode of the resource. Valid account types are `Untenanted`, `TenantedOrUntenanted`, or `Tenanted`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#tenanted_deployment_participation CloudRegionDeploymentTarget#tenanted_deployment_participation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#tenanted_deployment_participation CloudRegionDeploymentTarget#tenanted_deployment_participation}
   */
   readonly tenantedDeploymentParticipation?: string;
   /**
   * A list of tenant IDs associated with this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#tenants CloudRegionDeploymentTarget#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#tenants CloudRegionDeploymentTarget#tenants}
   */
   readonly tenants?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#thumbprint CloudRegionDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#thumbprint CloudRegionDeploymentTarget#thumbprint}
   */
   readonly thumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#uri CloudRegionDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#uri CloudRegionDeploymentTarget#uri}
   */
   readonly uri?: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#endpoint CloudRegionDeploymentTarget#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#endpoint CloudRegionDeploymentTarget#endpoint}
   */
   readonly endpoint?: CloudRegionDeploymentTargetEndpoint[] | cdktf.IResolvable;
 }
 export interface CloudRegionDeploymentTargetEndpointAuthentication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#account_id CloudRegionDeploymentTarget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#account_id CloudRegionDeploymentTarget#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#admin_login CloudRegionDeploymentTarget#admin_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#admin_login CloudRegionDeploymentTarget#admin_login}
   */
   readonly adminLogin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#assume_role CloudRegionDeploymentTarget#assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#assume_role CloudRegionDeploymentTarget#assume_role}
   */
   readonly assumeRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#assume_role_external_id CloudRegionDeploymentTarget#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#assume_role_external_id CloudRegionDeploymentTarget#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#assume_role_session_duration CloudRegionDeploymentTarget#assume_role_session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#assume_role_session_duration CloudRegionDeploymentTarget#assume_role_session_duration}
   */
   readonly assumeRoleSessionDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#assumed_role_arn CloudRegionDeploymentTarget#assumed_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#assumed_role_arn CloudRegionDeploymentTarget#assumed_role_arn}
   */
   readonly assumedRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#assumed_role_session CloudRegionDeploymentTarget#assumed_role_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#assumed_role_session CloudRegionDeploymentTarget#assumed_role_session}
   */
   readonly assumedRoleSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#authentication_type CloudRegionDeploymentTarget#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#authentication_type CloudRegionDeploymentTarget#authentication_type}
   */
   readonly authenticationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#client_certificate CloudRegionDeploymentTarget#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#client_certificate CloudRegionDeploymentTarget#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cluster_name CloudRegionDeploymentTarget#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cluster_name CloudRegionDeploymentTarget#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cluster_resource_group CloudRegionDeploymentTarget#cluster_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cluster_resource_group CloudRegionDeploymentTarget#cluster_resource_group}
   */
   readonly clusterResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#impersonate_service_account CloudRegionDeploymentTarget#impersonate_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#impersonate_service_account CloudRegionDeploymentTarget#impersonate_service_account}
   */
   readonly impersonateServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#project CloudRegionDeploymentTarget#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#project CloudRegionDeploymentTarget#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#region CloudRegionDeploymentTarget#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#region CloudRegionDeploymentTarget#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#service_account_emails CloudRegionDeploymentTarget#service_account_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#service_account_emails CloudRegionDeploymentTarget#service_account_emails}
   */
   readonly serviceAccountEmails?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#token_path CloudRegionDeploymentTarget#token_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#token_path CloudRegionDeploymentTarget#token_path}
   */
   readonly tokenPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#use_instance_role CloudRegionDeploymentTarget#use_instance_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#use_instance_role CloudRegionDeploymentTarget#use_instance_role}
   */
   readonly useInstanceRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#use_vm_service_account CloudRegionDeploymentTarget#use_vm_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#use_vm_service_account CloudRegionDeploymentTarget#use_vm_service_account}
   */
   readonly useVmServiceAccount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#zone CloudRegionDeploymentTarget#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#zone CloudRegionDeploymentTarget#zone}
   */
   readonly zone?: string;
 }
@@ -793,11 +793,11 @@ export class CloudRegionDeploymentTargetEndpointAuthenticationOutputReference ex
 }
 export interface CloudRegionDeploymentTargetEndpointContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#feed_id CloudRegionDeploymentTarget#feed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#feed_id CloudRegionDeploymentTarget#feed_id}
   */
   readonly feedId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#image CloudRegionDeploymentTarget#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#image CloudRegionDeploymentTarget#image}
   */
   readonly image?: string;
 }
@@ -942,11 +942,11 @@ export class CloudRegionDeploymentTargetEndpointContainerList extends cdktf.Comp
 }
 export interface CloudRegionDeploymentTargetEndpointDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#destination_type CloudRegionDeploymentTarget#destination_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#destination_type CloudRegionDeploymentTarget#destination_type}
   */
   readonly destinationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#drop_folder_path CloudRegionDeploymentTarget#drop_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#drop_folder_path CloudRegionDeploymentTarget#drop_folder_path}
   */
   readonly dropFolderPath?: string;
 }
@@ -1091,19 +1091,19 @@ export class CloudRegionDeploymentTargetEndpointDestinationList extends cdktf.Co
 }
 export interface CloudRegionDeploymentTargetEndpointTentacleVersionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#upgrade_locked CloudRegionDeploymentTarget#upgrade_locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#upgrade_locked CloudRegionDeploymentTarget#upgrade_locked}
   */
   readonly upgradeLocked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#upgrade_required CloudRegionDeploymentTarget#upgrade_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#upgrade_required CloudRegionDeploymentTarget#upgrade_required}
   */
   readonly upgradeRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#upgrade_suggested CloudRegionDeploymentTarget#upgrade_suggested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#upgrade_suggested CloudRegionDeploymentTarget#upgrade_suggested}
   */
   readonly upgradeSuggested?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#version CloudRegionDeploymentTarget#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#version CloudRegionDeploymentTarget#version}
   */
   readonly version?: string;
 }
@@ -1306,184 +1306,184 @@ export class CloudRegionDeploymentTargetEndpointTentacleVersionDetailsList exten
 }
 export interface CloudRegionDeploymentTargetEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#aad_client_credential_secret CloudRegionDeploymentTarget#aad_client_credential_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#aad_client_credential_secret CloudRegionDeploymentTarget#aad_client_credential_secret}
   */
   readonly aadClientCredentialSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#aad_credential_type CloudRegionDeploymentTarget#aad_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#aad_credential_type CloudRegionDeploymentTarget#aad_credential_type}
   */
   readonly aadCredentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#aad_user_credential_username CloudRegionDeploymentTarget#aad_user_credential_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#aad_user_credential_username CloudRegionDeploymentTarget#aad_user_credential_username}
   */
   readonly aadUserCredentialUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#account_id CloudRegionDeploymentTarget#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#account_id CloudRegionDeploymentTarget#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#applications_directory CloudRegionDeploymentTarget#applications_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#applications_directory CloudRegionDeploymentTarget#applications_directory}
   */
   readonly applicationsDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#certificate_signature_algorithm CloudRegionDeploymentTarget#certificate_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#certificate_signature_algorithm CloudRegionDeploymentTarget#certificate_signature_algorithm}
   */
   readonly certificateSignatureAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#certificate_store_location CloudRegionDeploymentTarget#certificate_store_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#certificate_store_location CloudRegionDeploymentTarget#certificate_store_location}
   */
   readonly certificateStoreLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#certificate_store_name CloudRegionDeploymentTarget#certificate_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#certificate_store_name CloudRegionDeploymentTarget#certificate_store_name}
   */
   readonly certificateStoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#client_certificate_variable CloudRegionDeploymentTarget#client_certificate_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#client_certificate_variable CloudRegionDeploymentTarget#client_certificate_variable}
   */
   readonly clientCertificateVariable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cloud_service_name CloudRegionDeploymentTarget#cloud_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cloud_service_name CloudRegionDeploymentTarget#cloud_service_name}
   */
   readonly cloudServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cluster_certificate CloudRegionDeploymentTarget#cluster_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cluster_certificate CloudRegionDeploymentTarget#cluster_certificate}
   */
   readonly clusterCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cluster_certificate_path CloudRegionDeploymentTarget#cluster_certificate_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cluster_certificate_path CloudRegionDeploymentTarget#cluster_certificate_path}
   */
   readonly clusterCertificatePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#cluster_url CloudRegionDeploymentTarget#cluster_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#cluster_url CloudRegionDeploymentTarget#cluster_url}
   */
   readonly clusterUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#communication_style CloudRegionDeploymentTarget#communication_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#communication_style CloudRegionDeploymentTarget#communication_style}
   */
   readonly communicationStyle: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#connection_endpoint CloudRegionDeploymentTarget#connection_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#connection_endpoint CloudRegionDeploymentTarget#connection_endpoint}
   */
   readonly connectionEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#container_options CloudRegionDeploymentTarget#container_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#container_options CloudRegionDeploymentTarget#container_options}
   */
   readonly containerOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#default_worker_pool_id CloudRegionDeploymentTarget#default_worker_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#default_worker_pool_id CloudRegionDeploymentTarget#default_worker_pool_id}
   */
   readonly defaultWorkerPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#dot_net_core_platform CloudRegionDeploymentTarget#dot_net_core_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#dot_net_core_platform CloudRegionDeploymentTarget#dot_net_core_platform}
   */
   readonly dotNetCorePlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#fingerprint CloudRegionDeploymentTarget#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#fingerprint CloudRegionDeploymentTarget#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#host CloudRegionDeploymentTarget#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#host CloudRegionDeploymentTarget#host}
   */
   readonly host?: string;
   /**
   * The unique ID for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#id CloudRegionDeploymentTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#id CloudRegionDeploymentTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#namespace CloudRegionDeploymentTarget#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#namespace CloudRegionDeploymentTarget#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#port CloudRegionDeploymentTarget#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#port CloudRegionDeploymentTarget#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#proxy_id CloudRegionDeploymentTarget#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#proxy_id CloudRegionDeploymentTarget#proxy_id}
   */
   readonly proxyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#resource_group_name CloudRegionDeploymentTarget#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#resource_group_name CloudRegionDeploymentTarget#resource_group_name}
   */
   readonly resourceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#running_in_container CloudRegionDeploymentTarget#running_in_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#running_in_container CloudRegionDeploymentTarget#running_in_container}
   */
   readonly runningInContainer?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#security_mode CloudRegionDeploymentTarget#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#security_mode CloudRegionDeploymentTarget#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#server_certificate_thumbprint CloudRegionDeploymentTarget#server_certificate_thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#server_certificate_thumbprint CloudRegionDeploymentTarget#server_certificate_thumbprint}
   */
   readonly serverCertificateThumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#skip_tls_verification CloudRegionDeploymentTarget#skip_tls_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#skip_tls_verification CloudRegionDeploymentTarget#skip_tls_verification}
   */
   readonly skipTlsVerification?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#slot CloudRegionDeploymentTarget#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#slot CloudRegionDeploymentTarget#slot}
   */
   readonly slot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#storage_account_name CloudRegionDeploymentTarget#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#storage_account_name CloudRegionDeploymentTarget#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#swap_if_possible CloudRegionDeploymentTarget#swap_if_possible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#swap_if_possible CloudRegionDeploymentTarget#swap_if_possible}
   */
   readonly swapIfPossible?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#thumbprint CloudRegionDeploymentTarget#thumbprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#thumbprint CloudRegionDeploymentTarget#thumbprint}
   */
   readonly thumbprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#uri CloudRegionDeploymentTarget#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#uri CloudRegionDeploymentTarget#uri}
   */
   readonly uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#use_current_instance_count CloudRegionDeploymentTarget#use_current_instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#use_current_instance_count CloudRegionDeploymentTarget#use_current_instance_count}
   */
   readonly useCurrentInstanceCount?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#web_app_name CloudRegionDeploymentTarget#web_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#web_app_name CloudRegionDeploymentTarget#web_app_name}
   */
   readonly webAppName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#web_app_slot_name CloudRegionDeploymentTarget#web_app_slot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#web_app_slot_name CloudRegionDeploymentTarget#web_app_slot_name}
   */
   readonly webAppSlotName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#working_directory CloudRegionDeploymentTarget#working_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#working_directory CloudRegionDeploymentTarget#working_directory}
   */
   readonly workingDirectory?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#authentication CloudRegionDeploymentTarget#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#authentication CloudRegionDeploymentTarget#authentication}
   */
   readonly authentication?: CloudRegionDeploymentTargetEndpointAuthentication;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#container CloudRegionDeploymentTarget#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#container CloudRegionDeploymentTarget#container}
   */
   readonly container?: CloudRegionDeploymentTargetEndpointContainer[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#destination CloudRegionDeploymentTarget#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#destination CloudRegionDeploymentTarget#destination}
   */
   readonly destination?: CloudRegionDeploymentTargetEndpointDestination[] | cdktf.IResolvable;
   /**
   * tentacle_version_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#tentacle_version_details CloudRegionDeploymentTarget#tentacle_version_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#tentacle_version_details CloudRegionDeploymentTarget#tentacle_version_details}
   */
   readonly tentacleVersionDetails?: CloudRegionDeploymentTargetEndpointTentacleVersionDetails[] | cdktf.IResolvable;
 }
@@ -2785,7 +2785,7 @@ export class CloudRegionDeploymentTargetEndpointList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target octopusdeploy_cloud_region_deployment_target}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target octopusdeploy_cloud_region_deployment_target}
 */
 export class CloudRegionDeploymentTarget extends cdktf.TerraformResource {
 
@@ -2801,7 +2801,7 @@ export class CloudRegionDeploymentTarget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudRegionDeploymentTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudRegionDeploymentTarget to import
-  * @param importFromId The id of the existing CloudRegionDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudRegionDeploymentTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudRegionDeploymentTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2813,7 +2813,7 @@ export class CloudRegionDeploymentTarget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/cloud_region_deployment_target octopusdeploy_cloud_region_deployment_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/cloud_region_deployment_target octopusdeploy_cloud_region_deployment_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2824,8 +2824,8 @@ export class CloudRegionDeploymentTarget extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_cloud_region_deployment_target',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

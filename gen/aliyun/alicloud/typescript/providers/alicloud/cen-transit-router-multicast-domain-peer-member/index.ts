@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterMulticastDomainPeerMemberConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#dry_run CenTransitRouterMulticastDomainPeerMember#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#dry_run CenTransitRouterMulticastDomainPeerMember#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#group_ip_address CenTransitRouterMulticastDomainPeerMember#group_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#group_ip_address CenTransitRouterMulticastDomainPeerMember#group_ip_address}
   */
   readonly groupIpAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#id CenTransitRouterMulticastDomainPeerMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#id CenTransitRouterMulticastDomainPeerMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#peer_transit_router_multicast_domain_id CenTransitRouterMulticastDomainPeerMember#peer_transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#peer_transit_router_multicast_domain_id CenTransitRouterMulticastDomainPeerMember#peer_transit_router_multicast_domain_id}
   */
   readonly peerTransitRouterMulticastDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#transit_router_multicast_domain_id CenTransitRouterMulticastDomainPeerMember#transit_router_multicast_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#transit_router_multicast_domain_id CenTransitRouterMulticastDomainPeerMember#transit_router_multicast_domain_id}
   */
   readonly transitRouterMulticastDomainId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#timeouts CenTransitRouterMulticastDomainPeerMember#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#timeouts CenTransitRouterMulticastDomainPeerMember#timeouts}
   */
   readonly timeouts?: CenTransitRouterMulticastDomainPeerMemberTimeouts;
 }
 export interface CenTransitRouterMulticastDomainPeerMemberTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#create CenTransitRouterMulticastDomainPeerMember#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#create CenTransitRouterMulticastDomainPeerMember#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#delete CenTransitRouterMulticastDomainPeerMember#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#delete CenTransitRouterMulticastDomainPeerMember#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class CenTransitRouterMulticastDomainPeerMemberTimeoutsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member alicloud_cen_transit_router_multicast_domain_peer_member}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member alicloud_cen_transit_router_multicast_domain_peer_member}
 */
 export class CenTransitRouterMulticastDomainPeerMember extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class CenTransitRouterMulticastDomainPeerMember extends cdktf.TerraformRe
   * Generates CDKTF code for importing a CenTransitRouterMulticastDomainPeerMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterMulticastDomainPeerMember to import
-  * @param importFromId The id of the existing CenTransitRouterMulticastDomainPeerMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterMulticastDomainPeerMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterMulticastDomainPeerMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class CenTransitRouterMulticastDomainPeerMember extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cen_transit_router_multicast_domain_peer_member alicloud_cen_transit_router_multicast_domain_peer_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cen_transit_router_multicast_domain_peer_member alicloud_cen_transit_router_multicast_domain_peer_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class CenTransitRouterMulticastDomainPeerMember extends cdktf.TerraformRe
       terraformResourceType: 'alicloud_cen_transit_router_multicast_domain_peer_member',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

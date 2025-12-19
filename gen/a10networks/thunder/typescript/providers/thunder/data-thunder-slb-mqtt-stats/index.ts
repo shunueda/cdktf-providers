@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbMqttStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#id DataThunderSlbMqttStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#id DataThunderSlbMqttStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbMqttStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#stats DataThunderSlbMqttStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#stats DataThunderSlbMqttStats#stats}
   */
   readonly stats?: DataThunderSlbMqttStatsStats;
 }
@@ -25,181 +25,181 @@ export interface DataThunderSlbMqttStatsStats {
   /**
   * Null client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#client_id_null DataThunderSlbMqttStats#client_id_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#client_id_null DataThunderSlbMqttStats#client_id_null}
   */
   readonly clientIdNull?: number;
   /**
   * Null conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#conn_null DataThunderSlbMqttStats#conn_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#conn_null DataThunderSlbMqttStats#conn_null}
   */
   readonly connNull?: number;
   /**
   * Current proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#curr_proxy DataThunderSlbMqttStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#curr_proxy DataThunderSlbMqttStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Insertion failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#insertion_failed DataThunderSlbMqttStats#insertion_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#insertion_failed DataThunderSlbMqttStats#insertion_failed}
   */
   readonly insertionFailed?: number;
   /**
   * Insertion successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#insertion_successful DataThunderSlbMqttStats#insertion_successful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#insertion_successful DataThunderSlbMqttStats#insertion_successful}
   */
   readonly insertionSuccessful?: number;
   /**
   * Parse connect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#parse_connect_fail DataThunderSlbMqttStats#parse_connect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#parse_connect_fail DataThunderSlbMqttStats#parse_connect_fail}
   */
   readonly parseConnectFail?: number;
   /**
   * Parse publish failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#parse_publish_fail DataThunderSlbMqttStats#parse_publish_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#parse_publish_fail DataThunderSlbMqttStats#parse_publish_fail}
   */
   readonly parsePublishFail?: number;
   /**
   * Parse subscribe failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#parse_subscribe_fail DataThunderSlbMqttStats#parse_subscribe_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#parse_subscribe_fail DataThunderSlbMqttStats#parse_subscribe_fail}
   */
   readonly parseSubscribeFail?: number;
   /**
   * Parse unsubscribe failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#parse_unsubscribe_fail DataThunderSlbMqttStats#parse_unsubscribe_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#parse_unsubscribe_fail DataThunderSlbMqttStats#parse_unsubscribe_fail}
   */
   readonly parseUnsubscribeFail?: number;
   /**
   * MQTT Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_auth DataThunderSlbMqttStats#recv_mqtt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_auth DataThunderSlbMqttStats#recv_mqtt_auth}
   */
   readonly recvMqttAuth?: number;
   /**
   * MQTT Connack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_connack DataThunderSlbMqttStats#recv_mqtt_connack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_connack DataThunderSlbMqttStats#recv_mqtt_connack}
   */
   readonly recvMqttConnack?: number;
   /**
   * MQTT Connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_connect DataThunderSlbMqttStats#recv_mqtt_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_connect DataThunderSlbMqttStats#recv_mqtt_connect}
   */
   readonly recvMqttConnect?: number;
   /**
   * MQTT Disconnect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_disconnect DataThunderSlbMqttStats#recv_mqtt_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_disconnect DataThunderSlbMqttStats#recv_mqtt_disconnect}
   */
   readonly recvMqttDisconnect?: number;
   /**
   * MQTT Unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_other DataThunderSlbMqttStats#recv_mqtt_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_other DataThunderSlbMqttStats#recv_mqtt_other}
   */
   readonly recvMqttOther?: number;
   /**
   * MQTT Pingreq
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_pingreq DataThunderSlbMqttStats#recv_mqtt_pingreq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_pingreq DataThunderSlbMqttStats#recv_mqtt_pingreq}
   */
   readonly recvMqttPingreq?: number;
   /**
   * MQTT Pingresp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_pingresp DataThunderSlbMqttStats#recv_mqtt_pingresp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_pingresp DataThunderSlbMqttStats#recv_mqtt_pingresp}
   */
   readonly recvMqttPingresp?: number;
   /**
   * MQTT Puback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_puback DataThunderSlbMqttStats#recv_mqtt_puback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_puback DataThunderSlbMqttStats#recv_mqtt_puback}
   */
   readonly recvMqttPuback?: number;
   /**
   * MQTT Pubcomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubcomp DataThunderSlbMqttStats#recv_mqtt_pubcomp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubcomp DataThunderSlbMqttStats#recv_mqtt_pubcomp}
   */
   readonly recvMqttPubcomp?: number;
   /**
   * MQTT Publish
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_publish DataThunderSlbMqttStats#recv_mqtt_publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_publish DataThunderSlbMqttStats#recv_mqtt_publish}
   */
   readonly recvMqttPublish?: number;
   /**
   * MQTT Pubrec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubrec DataThunderSlbMqttStats#recv_mqtt_pubrec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubrec DataThunderSlbMqttStats#recv_mqtt_pubrec}
   */
   readonly recvMqttPubrec?: number;
   /**
   * MQTT Pubrel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubrel DataThunderSlbMqttStats#recv_mqtt_pubrel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_pubrel DataThunderSlbMqttStats#recv_mqtt_pubrel}
   */
   readonly recvMqttPubrel?: number;
   /**
   * MQTT Suback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_suback DataThunderSlbMqttStats#recv_mqtt_suback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_suback DataThunderSlbMqttStats#recv_mqtt_suback}
   */
   readonly recvMqttSuback?: number;
   /**
   * MQTT Subscribe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_subscribe DataThunderSlbMqttStats#recv_mqtt_subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_subscribe DataThunderSlbMqttStats#recv_mqtt_subscribe}
   */
   readonly recvMqttSubscribe?: number;
   /**
   * MQTT Unsuback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_unsuback DataThunderSlbMqttStats#recv_mqtt_unsuback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_unsuback DataThunderSlbMqttStats#recv_mqtt_unsuback}
   */
   readonly recvMqttUnsuback?: number;
   /**
   * MQTT Unsubscribe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#recv_mqtt_unsubscribe DataThunderSlbMqttStats#recv_mqtt_unsubscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#recv_mqtt_unsubscribe DataThunderSlbMqttStats#recv_mqtt_unsubscribe}
   */
   readonly recvMqttUnsubscribe?: number;
   /**
   * Total MQTT Commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#request DataThunderSlbMqttStats#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#request DataThunderSlbMqttStats#request}
   */
   readonly request?: number;
   /**
   * Session already exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#session_exist DataThunderSlbMqttStats#session_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#session_exist DataThunderSlbMqttStats#session_exist}
   */
   readonly sessionExist?: number;
   /**
   * Total proxy conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#total_proxy DataThunderSlbMqttStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#total_proxy DataThunderSlbMqttStats#total_proxy}
   */
   readonly totalProxy?: number;
   /**
   * tuple-already-linked failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#tuple_already_linked DataThunderSlbMqttStats#tuple_already_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#tuple_already_linked DataThunderSlbMqttStats#tuple_already_linked}
   */
   readonly tupleAlreadyLinked?: number;
   /**
   * tuple-not-linked failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#tuple_not_linked DataThunderSlbMqttStats#tuple_not_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#tuple_not_linked DataThunderSlbMqttStats#tuple_not_linked}
   */
   readonly tupleNotLinked?: number;
 }
@@ -1124,7 +1124,7 @@ export class DataThunderSlbMqttStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats thunder_slb_mqtt_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats thunder_slb_mqtt_stats}
 */
 export class DataThunderSlbMqttStats extends cdktf.TerraformDataSource {
 
@@ -1140,7 +1140,7 @@ export class DataThunderSlbMqttStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbMqttStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbMqttStats to import
-  * @param importFromId The id of the existing DataThunderSlbMqttStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbMqttStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbMqttStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1152,7 +1152,7 @@ export class DataThunderSlbMqttStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mqtt_stats thunder_slb_mqtt_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mqtt_stats thunder_slb_mqtt_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1163,8 +1163,8 @@ export class DataThunderSlbMqttStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_mqtt_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

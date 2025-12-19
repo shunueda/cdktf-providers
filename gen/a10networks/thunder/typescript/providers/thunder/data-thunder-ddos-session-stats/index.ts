@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosSessionStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#id DataThunderDdosSessionStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#id DataThunderDdosSessionStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosSessionStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#stats DataThunderDdosSessionStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#stats DataThunderDdosSessionStats#stats}
   */
   readonly stats?: DataThunderDdosSessionStatsStats;
 }
@@ -25,133 +25,133 @@ export interface DataThunderDdosSessionStatsStats {
   /**
   * Conn Entry Mismatch Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_entry_mismatch DataThunderDdosSessionStats#conn_entry_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_entry_mismatch DataThunderDdosSessionStats#conn_entry_mismatch}
   */
   readonly connEntryMismatch?: number;
   /**
   * TCP Conn Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_close DataThunderDdosSessionStats#conn_tcp_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_close DataThunderDdosSessionStats#conn_tcp_close}
   */
   readonly connTcpClose?: number;
   /**
   * TCP Conn Closed With FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_close_w_fin DataThunderDdosSessionStats#conn_tcp_close_w_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_close_w_fin DataThunderDdosSessionStats#conn_tcp_close_w_fin}
   */
   readonly connTcpCloseWFin?: number;
   /**
   * TCP Conn Closed With Half Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_close_w_half_open DataThunderDdosSessionStats#conn_tcp_close_w_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_close_w_half_open DataThunderDdosSessionStats#conn_tcp_close_w_half_open}
   */
   readonly connTcpCloseWHalfOpen?: number;
   /**
   * TCP Conn Closed With Idle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_close_w_idle DataThunderDdosSessionStats#conn_tcp_close_w_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_close_w_idle DataThunderDdosSessionStats#conn_tcp_close_w_idle}
   */
   readonly connTcpCloseWIdle?: number;
   /**
   * TCP Conn Closed With RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_close_w_rst DataThunderDdosSessionStats#conn_tcp_close_w_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_close_w_rst DataThunderDdosSessionStats#conn_tcp_close_w_rst}
   */
   readonly connTcpCloseWRst?: number;
   /**
   * TCP Conn Created From ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_create_from_ack DataThunderDdosSessionStats#conn_tcp_create_from_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_create_from_ack DataThunderDdosSessionStats#conn_tcp_create_from_ack}
   */
   readonly connTcpCreateFromAck?: number;
   /**
   * TCP Conn Created From SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_create_from_syn DataThunderDdosSessionStats#conn_tcp_create_from_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_create_from_syn DataThunderDdosSessionStats#conn_tcp_create_from_syn}
   */
   readonly connTcpCreateFromSyn?: number;
   /**
   * TCP Conn Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_est DataThunderDdosSessionStats#conn_tcp_est}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_est DataThunderDdosSessionStats#conn_tcp_est}
   */
   readonly connTcpEst?: number;
   /**
   * TCP Conn Established With ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_est_w_ack DataThunderDdosSessionStats#conn_tcp_est_w_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_est_w_ack DataThunderDdosSessionStats#conn_tcp_est_w_ack}
   */
   readonly connTcpEstWAck?: number;
   /**
   * TCP Conn Established With SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_tcp_est_w_syn DataThunderDdosSessionStats#conn_tcp_est_w_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_tcp_est_w_syn DataThunderDdosSessionStats#conn_tcp_est_w_syn}
   */
   readonly connTcpEstWSyn?: number;
   /**
   * UDP Conn Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_udp_close DataThunderDdosSessionStats#conn_udp_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_udp_close DataThunderDdosSessionStats#conn_udp_close}
   */
   readonly connUdpClose?: number;
   /**
   * UDP Conn Established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#conn_udp_est DataThunderDdosSessionStats#conn_udp_est}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#conn_udp_est DataThunderDdosSessionStats#conn_udp_est}
   */
   readonly connUdpEst?: number;
   /**
   * Session Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_aged_out DataThunderDdosSessionStats#sess_aged_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_aged_out DataThunderDdosSessionStats#sess_aged_out}
   */
   readonly sessAgedOut?: number;
   /**
   * UDP Helper Auth Sessions Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_aged_udp_auth DataThunderDdosSessionStats#sess_aged_udp_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_aged_udp_auth DataThunderDdosSessionStats#sess_aged_udp_auth}
   */
   readonly sessAgedUdpAuth?: number;
   /**
   * IPv4 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_create_ip DataThunderDdosSessionStats#sess_create_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_create_ip DataThunderDdosSessionStats#sess_create_ip}
   */
   readonly sessCreateIp?: number;
   /**
   * IPv6 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_create_ip6 DataThunderDdosSessionStats#sess_create_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_create_ip6 DataThunderDdosSessionStats#sess_create_ip6}
   */
   readonly sessCreateIp6?: number;
   /**
   * TCP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_create_tcp DataThunderDdosSessionStats#sess_create_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_create_tcp DataThunderDdosSessionStats#sess_create_tcp}
   */
   readonly sessCreateTcp?: number;
   /**
   * UDP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_create_udp DataThunderDdosSessionStats#sess_create_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_create_udp DataThunderDdosSessionStats#sess_create_udp}
   */
   readonly sessCreateUdp?: number;
   /**
   * UDP Helper Auth Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_create_udp_auth DataThunderDdosSessionStats#sess_create_udp_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_create_udp_auth DataThunderDdosSessionStats#sess_create_udp_auth}
   */
   readonly sessCreateUdpAuth?: number;
   /**
   * Out of Session Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_oom DataThunderDdosSessionStats#sess_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_oom DataThunderDdosSessionStats#sess_oom}
   */
   readonly sessOom?: number;
   /**
   * Session Source NAT Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#sess_snat_failed DataThunderDdosSessionStats#sess_snat_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#sess_snat_failed DataThunderDdosSessionStats#sess_snat_failed}
   */
   readonly sessSnatFailed?: number;
 }
@@ -844,7 +844,7 @@ export class DataThunderDdosSessionStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats thunder_ddos_session_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats thunder_ddos_session_stats}
 */
 export class DataThunderDdosSessionStats extends cdktf.TerraformDataSource {
 
@@ -860,7 +860,7 @@ export class DataThunderDdosSessionStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosSessionStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosSessionStats to import
-  * @param importFromId The id of the existing DataThunderDdosSessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosSessionStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosSessionStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -872,7 +872,7 @@ export class DataThunderDdosSessionStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_session_stats thunder_ddos_session_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_session_stats thunder_ddos_session_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -883,8 +883,8 @@ export class DataThunderDdosSessionStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_session_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

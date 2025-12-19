@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6HttpAlgStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#id DataThunderCgnv6HttpAlgStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#id DataThunderCgnv6HttpAlgStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6HttpAlgStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#stats DataThunderCgnv6HttpAlgStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#stats DataThunderCgnv6HttpAlgStats#stats}
   */
   readonly stats?: DataThunderCgnv6HttpAlgStatsStats;
 }
@@ -25,97 +25,97 @@ export interface DataThunderCgnv6HttpAlgStatsStats {
   /**
   * Buff Insertion Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#header_insertion_failed DataThunderCgnv6HttpAlgStats#header_insertion_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#header_insertion_failed DataThunderCgnv6HttpAlgStats#header_insertion_failed}
   */
   readonly headerInsertionFailed?: number;
   /**
   * Buff Removal Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#header_removal_failed DataThunderCgnv6HttpAlgStats#header_removal_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#header_removal_failed DataThunderCgnv6HttpAlgStats#header_removal_failed}
   */
   readonly headerRemovalFailed?: number;
   /**
   * Out-of-Memory Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#out_of_memory_dropped DataThunderCgnv6HttpAlgStats#out_of_memory_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#out_of_memory_dropped DataThunderCgnv6HttpAlgStats#out_of_memory_dropped}
   */
   readonly outOfMemoryDropped?: number;
   /**
   * Packet Out-of-Order Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#out_of_order_dropped DataThunderCgnv6HttpAlgStats#out_of_order_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#out_of_order_dropped DataThunderCgnv6HttpAlgStats#out_of_order_dropped}
   */
   readonly outOfOrderDropped?: number;
   /**
   * Queue Length Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#queue_len_exceed_dropped DataThunderCgnv6HttpAlgStats#queue_len_exceed_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#queue_len_exceed_dropped DataThunderCgnv6HttpAlgStats#queue_len_exceed_dropped}
   */
   readonly queueLenExceedDropped?: number;
   /**
   * Queued Session Exceed Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#queued_session_too_many DataThunderCgnv6HttpAlgStats#queued_session_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#queued_session_too_many DataThunderCgnv6HttpAlgStats#queued_session_too_many}
   */
   readonly queuedSessionTooMany?: number;
   /**
   * MSISDN Query Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_query_failed DataThunderCgnv6HttpAlgStats#radius_query_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_query_failed DataThunderCgnv6HttpAlgStats#radius_query_failed}
   */
   readonly radiusQueryFailed?: number;
   /**
   * MSISDN Query Succeed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_query_succeed DataThunderCgnv6HttpAlgStats#radius_query_succeed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_query_succeed DataThunderCgnv6HttpAlgStats#radius_query_succeed}
   */
   readonly radiusQuerySucceed?: number;
   /**
   * Query Request Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_requst_dropped DataThunderCgnv6HttpAlgStats#radius_requst_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_requst_dropped DataThunderCgnv6HttpAlgStats#radius_requst_dropped}
   */
   readonly radiusRequstDropped?: number;
   /**
   * Query Request Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_requst_sent DataThunderCgnv6HttpAlgStats#radius_requst_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_requst_sent DataThunderCgnv6HttpAlgStats#radius_requst_sent}
   */
   readonly radiusRequstSent?: number;
   /**
   * Query Response Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_response_dropped DataThunderCgnv6HttpAlgStats#radius_response_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_response_dropped DataThunderCgnv6HttpAlgStats#radius_response_dropped}
   */
   readonly radiusResponseDropped?: number;
   /**
   * Query Response Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#radius_response_received DataThunderCgnv6HttpAlgStats#radius_response_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#radius_response_received DataThunderCgnv6HttpAlgStats#radius_response_received}
   */
   readonly radiusResponseReceived?: number;
   /**
   * HTTP Client IP Insertion Performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#request_insert_client_ip_performed DataThunderCgnv6HttpAlgStats#request_insert_client_ip_performed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#request_insert_client_ip_performed DataThunderCgnv6HttpAlgStats#request_insert_client_ip_performed}
   */
   readonly requestInsertClientIpPerformed?: number;
   /**
   * HTTP MSISDN Insertion Performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#request_insert_msisdn_performed DataThunderCgnv6HttpAlgStats#request_insert_msisdn_performed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#request_insert_msisdn_performed DataThunderCgnv6HttpAlgStats#request_insert_msisdn_performed}
   */
   readonly requestInsertMsisdnPerformed?: number;
   /**
   * Inserted MSISDN is 0000 (MSISDN Unavailable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#request_insert_msisdn_unavailable DataThunderCgnv6HttpAlgStats#request_insert_msisdn_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#request_insert_msisdn_unavailable DataThunderCgnv6HttpAlgStats#request_insert_msisdn_unavailable}
   */
   readonly requestInsertMsisdnUnavailable?: number;
   /**
   * HTTP Request Processed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#request_processed DataThunderCgnv6HttpAlgStats#request_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#request_processed DataThunderCgnv6HttpAlgStats#request_processed}
   */
   readonly requestProcessed?: number;
 }
@@ -634,7 +634,7 @@ export class DataThunderCgnv6HttpAlgStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats thunder_cgnv6_http_alg_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats thunder_cgnv6_http_alg_stats}
 */
 export class DataThunderCgnv6HttpAlgStats extends cdktf.TerraformDataSource {
 
@@ -650,7 +650,7 @@ export class DataThunderCgnv6HttpAlgStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6HttpAlgStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6HttpAlgStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6HttpAlgStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6HttpAlgStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6HttpAlgStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +662,7 @@ export class DataThunderCgnv6HttpAlgStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_http_alg_stats thunder_cgnv6_http_alg_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_http_alg_stats thunder_cgnv6_http_alg_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,8 +673,8 @@ export class DataThunderCgnv6HttpAlgStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_http_alg_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

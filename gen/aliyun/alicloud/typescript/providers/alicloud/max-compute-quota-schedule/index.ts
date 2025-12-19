@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface MaxComputeQuotaScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#id MaxComputeQuotaSchedule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#id MaxComputeQuotaSchedule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#nickname MaxComputeQuotaSchedule#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#nickname MaxComputeQuotaSchedule#nickname}
   */
   readonly nickname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#timezone MaxComputeQuotaSchedule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#timezone MaxComputeQuotaSchedule#timezone}
   */
   readonly timezone: string;
   /**
   * schedule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#schedule_list MaxComputeQuotaSchedule#schedule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#schedule_list MaxComputeQuotaSchedule#schedule_list}
   */
   readonly scheduleList?: MaxComputeQuotaScheduleScheduleListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#timeouts MaxComputeQuotaSchedule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#timeouts MaxComputeQuotaSchedule#timeouts}
   */
   readonly timeouts?: MaxComputeQuotaScheduleTimeouts;
 }
 export interface MaxComputeQuotaScheduleScheduleListCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#at MaxComputeQuotaSchedule#at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#at MaxComputeQuotaSchedule#at}
   */
   readonly at: string;
 }
@@ -118,17 +118,17 @@ export class MaxComputeQuotaScheduleScheduleListConditionOutputReference extends
 }
 export interface MaxComputeQuotaScheduleScheduleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#plan MaxComputeQuotaSchedule#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#plan MaxComputeQuotaSchedule#plan}
   */
   readonly plan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#type MaxComputeQuotaSchedule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#type MaxComputeQuotaSchedule#type}
   */
   readonly type: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#condition MaxComputeQuotaSchedule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#condition MaxComputeQuotaSchedule#condition}
   */
   readonly condition?: MaxComputeQuotaScheduleScheduleListCondition;
 }
@@ -296,15 +296,15 @@ export class MaxComputeQuotaScheduleScheduleListStructList extends cdktf.Complex
 }
 export interface MaxComputeQuotaScheduleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#create MaxComputeQuotaSchedule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#create MaxComputeQuotaSchedule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#delete MaxComputeQuotaSchedule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#delete MaxComputeQuotaSchedule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#update MaxComputeQuotaSchedule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#update MaxComputeQuotaSchedule#update}
   */
   readonly update?: string;
 }
@@ -456,7 +456,7 @@ export class MaxComputeQuotaScheduleTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule alicloud_max_compute_quota_schedule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule alicloud_max_compute_quota_schedule}
 */
 export class MaxComputeQuotaSchedule extends cdktf.TerraformResource {
 
@@ -472,7 +472,7 @@ export class MaxComputeQuotaSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxComputeQuotaSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxComputeQuotaSchedule to import
-  * @param importFromId The id of the existing MaxComputeQuotaSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxComputeQuotaSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxComputeQuotaSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class MaxComputeQuotaSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_schedule alicloud_max_compute_quota_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_schedule alicloud_max_compute_quota_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class MaxComputeQuotaSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_max_compute_quota_schedule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

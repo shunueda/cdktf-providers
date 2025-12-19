@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodKerberosKdcAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#id HealthMonitorMethodKerberosKdcA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#id HealthMonitorMethodKerberosKdcA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#name HealthMonitorMethodKerberosKdcA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#monitor_name HealthMonitorMethodKerberosKdcA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#uuid HealthMonitorMethodKerberosKdcA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#uuid HealthMonitorMethodKerberosKdcA#uuid}
   */
   readonly uuid?: string;
   /**
   * kerberos_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kerberos_cfg HealthMonitorMethodKerberosKdcA#kerberos_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kerberos_cfg HealthMonitorMethodKerberosKdcA#kerberos_cfg}
   */
   readonly kerberosCfg?: HealthMonitorMethodKerberosKdcKerberosCfgA;
 }
@@ -37,97 +37,97 @@ export interface HealthMonitorMethodKerberosKdcKerberosCfgA {
   /**
   * Kerberos admin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin HealthMonitorMethodKerberosKdcA#kadmin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin HealthMonitorMethodKerberosKdcA#kadmin}
   */
   readonly kadmin?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin_kdc HealthMonitorMethodKerberosKdcA#kadmin_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin_kdc HealthMonitorMethodKerberosKdcA#kadmin_kdc}
   */
   readonly kadminKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin_password HealthMonitorMethodKerberosKdcA#kadmin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin_password HealthMonitorMethodKerberosKdcA#kadmin_password}
   */
   readonly kadminPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin_pricipal_name HealthMonitorMethodKerberosKdcA#kadmin_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin_pricipal_name HealthMonitorMethodKerberosKdcA#kadmin_pricipal_name}
   */
   readonly kadminPricipalName?: string;
   /**
   * Specify the realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin_realm HealthMonitorMethodKerberosKdcA#kadmin_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin_realm HealthMonitorMethodKerberosKdcA#kadmin_realm}
   */
   readonly kadminRealm?: string;
   /**
   * Specify the admin server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kadmin_server HealthMonitorMethodKerberosKdcA#kadmin_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kadmin_server HealthMonitorMethodKerberosKdcA#kadmin_server}
   */
   readonly kadminServer?: string;
   /**
   * Kerberos KDC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kinit HealthMonitorMethodKerberosKdcA#kinit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kinit HealthMonitorMethodKerberosKdcA#kinit}
   */
   readonly kinit?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kinit_kdc HealthMonitorMethodKerberosKdcA#kinit_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kinit_kdc HealthMonitorMethodKerberosKdcA#kinit_kdc}
   */
   readonly kinitKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kinit_password HealthMonitorMethodKerberosKdcA#kinit_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kinit_password HealthMonitorMethodKerberosKdcA#kinit_password}
   */
   readonly kinitPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kinit_pricipal_name HealthMonitorMethodKerberosKdcA#kinit_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kinit_pricipal_name HealthMonitorMethodKerberosKdcA#kinit_pricipal_name}
   */
   readonly kinitPricipalName?: string;
   /**
   * Kerberos change passwd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kpasswd HealthMonitorMethodKerberosKdcA#kpasswd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kpasswd HealthMonitorMethodKerberosKdcA#kpasswd}
   */
   readonly kpasswd?: number;
   /**
   * Specify the kdc server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_kdc HealthMonitorMethodKerberosKdcA#kpasswd_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_kdc HealthMonitorMethodKerberosKdcA#kpasswd_kdc}
   */
   readonly kpasswdKdc?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_password HealthMonitorMethodKerberosKdcA#kpasswd_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_password HealthMonitorMethodKerberosKdcA#kpasswd_password}
   */
   readonly kpasswdPassword?: string;
   /**
   * Specify the principal name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_pricipal_name HealthMonitorMethodKerberosKdcA#kpasswd_pricipal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_pricipal_name HealthMonitorMethodKerberosKdcA#kpasswd_pricipal_name}
   */
   readonly kpasswdPricipalName?: string;
   /**
   * Specify the Kerberos password server, host|ip [:port]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_server HealthMonitorMethodKerberosKdcA#kpasswd_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#kpasswd_server HealthMonitorMethodKerberosKdcA#kpasswd_server}
   */
   readonly kpasswdServer?: string;
   /**
   * Specify the kerberos tcp only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#tcp_only HealthMonitorMethodKerberosKdcA#tcp_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#tcp_only HealthMonitorMethodKerberosKdcA#tcp_only}
   */
   readonly tcpOnly?: number;
 }
@@ -646,7 +646,7 @@ export class HealthMonitorMethodKerberosKdcKerberosCfgAOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc thunder_health_monitor_method_kerberos_kdc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc thunder_health_monitor_method_kerberos_kdc}
 */
 export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
 
@@ -662,7 +662,7 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodKerberosKdcA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodKerberosKdcA to import
-  * @param importFromId The id of the existing HealthMonitorMethodKerberosKdcA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodKerberosKdcA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodKerberosKdcA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -674,7 +674,7 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_kerberos_kdc thunder_health_monitor_method_kerberos_kdc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_kerberos_kdc thunder_health_monitor_method_kerberos_kdc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -685,8 +685,8 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_kerberos_kdc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -697,7 +697,7 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
     this._kerberosCfg.internalValue = config.kerberosCfg;
   }
@@ -722,17 +722,17 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -774,7 +774,7 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
       kerberos_cfg: healthMonitorMethodKerberosKdcKerberosCfgAToTerraform(this._kerberosCfg.internalValue),
     };
@@ -788,8 +788,8 @@ export class HealthMonitorMethodKerberosKdcA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

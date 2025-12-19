@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDnsQueryTypeFilterAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#id SlbTemplateDnsQueryTypeFilterA#id}
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#dns_name SlbTemplateDnsQueryTypeFilterA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#id SlbTemplateDnsQueryTypeFilterA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#name SlbTemplateDnsQueryTypeFilterA#name}
-  */
-  readonly name: string;
-  /**
   * 'allow': Allow only certain DNS query types; 'deny': Deny only certain DNS query types;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#query_type_action SlbTemplateDnsQueryTypeFilterA#query_type_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#query_type_action SlbTemplateDnsQueryTypeFilterA#query_type_action}
   */
   readonly queryTypeAction: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#uuid SlbTemplateDnsQueryTypeFilterA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#uuid SlbTemplateDnsQueryTypeFilterA#uuid}
   */
   readonly uuid?: string;
   /**
   * query_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#query_type SlbTemplateDnsQueryTypeFilterA#query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#query_type SlbTemplateDnsQueryTypeFilterA#query_type}
   */
   readonly queryType?: SlbTemplateDnsQueryTypeFilterQueryTypeA[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface SlbTemplateDnsQueryTypeFilterQueryTypeA {
   /**
   * Other record type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#num_query_type SlbTemplateDnsQueryTypeFilterA#num_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#num_query_type SlbTemplateDnsQueryTypeFilterA#num_query_type}
   */
   readonly numQueryType?: number;
   /**
   * 'A': Address record; 'AAAA': IPv6 Address record; 'CNAME': Canonical name record; 'MX': Mail exchange record; 'NS': Name server record; 'SRV': Service locator; 'PTR': PTR resource record; 'SOA': Start of authority record; 'TXT': Text record; 'ANY': All cached record;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#str_query_type SlbTemplateDnsQueryTypeFilterA#str_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#str_query_type SlbTemplateDnsQueryTypeFilterA#str_query_type}
   */
   readonly strQueryType?: string;
 }
@@ -194,7 +194,7 @@ export class SlbTemplateDnsQueryTypeFilterQueryTypeAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter thunder_slb_template_dns_query_type_filter}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter thunder_slb_template_dns_query_type_filter}
 */
 export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDnsQueryTypeFilterA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsQueryTypeFilterA to import
-  * @param importFromId The id of the existing SlbTemplateDnsQueryTypeFilterA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsQueryTypeFilterA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsQueryTypeFilterA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_query_type_filter thunder_slb_template_dns_query_type_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_query_type_filter thunder_slb_template_dns_query_type_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns_query_type_filter',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -244,8 +244,8 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._id = config.id;
-    this._name = config.name;
     this._queryTypeAction = config.queryTypeAction;
     this._uuid = config.uuid;
     this._queryType.internalValue = config.queryType;
@@ -254,6 +254,19 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -269,19 +282,6 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // query_type_action - computed: false, optional: false, required: true
@@ -335,8 +335,8 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       query_type_action: cdktf.stringToTerraform(this._queryTypeAction),
       uuid: cdktf.stringToTerraform(this._uuid),
       query_type: cdktf.listMapper(slbTemplateDnsQueryTypeFilterQueryTypeAToTerraform, true)(this._queryType.internalValue),
@@ -345,14 +345,14 @@ export class SlbTemplateDnsQueryTypeFilterA extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

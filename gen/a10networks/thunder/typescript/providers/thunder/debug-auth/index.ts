@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DebugAuthConfig extends cdktf.TerraformMetaArguments {
   /**
   * enable detail authd log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#authd DebugAuth#authd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#authd DebugAuth#authd}
   */
   readonly authd?: number;
   /**
   * Filter SAML logs by client IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#client_addr DebugAuth#client_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#client_addr DebugAuth#client_addr}
   */
   readonly clientAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#id DebugAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#id DebugAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DebugAuthConfig extends cdktf.TerraformMetaArguments {
   /**
   * '1': Diagnose Problems; '2': Detail packet flow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#level DebugAuth#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#level DebugAuth#level}
   */
   readonly level?: string;
   /**
   * Enable debug SAML authentication logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#saml DebugAuth#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#saml DebugAuth#saml}
   */
   readonly saml?: number;
   /**
   * Filter SAML logs by SAML service provider name (SAML SP name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#saml_sp DebugAuth#saml_sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#saml_sp DebugAuth#saml_sp}
   */
   readonly samlSp?: string;
   /**
   * Show the logs of specific username (User name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#username DebugAuth#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#username DebugAuth#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#uuid DebugAuth#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#uuid DebugAuth#uuid}
   */
   readonly uuid?: string;
   /**
   * Show the logs of specific virtual-server (Virtual-server name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#virtual_server DebugAuth#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#virtual_server DebugAuth#virtual_server}
   */
   readonly virtualServer?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth thunder_debug_auth}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth thunder_debug_auth}
 */
 export class DebugAuth extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class DebugAuth extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugAuth to import
-  * @param importFromId The id of the existing DebugAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DebugAuth extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_auth thunder_debug_auth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_auth thunder_debug_auth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DebugAuth extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_auth',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

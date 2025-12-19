@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface CrStorageDomainRoutingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#id CrStorageDomainRoutingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#id CrStorageDomainRoutingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#instance_id CrStorageDomainRoutingRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#instance_id CrStorageDomainRoutingRule#instance_id}
   */
   readonly instanceId: string;
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#routes CrStorageDomainRoutingRule#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#routes CrStorageDomainRoutingRule#routes}
   */
   readonly routes: CrStorageDomainRoutingRuleRoutes[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#timeouts CrStorageDomainRoutingRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#timeouts CrStorageDomainRoutingRule#timeouts}
   */
   readonly timeouts?: CrStorageDomainRoutingRuleTimeouts;
 }
 export interface CrStorageDomainRoutingRuleRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#endpoint_type CrStorageDomainRoutingRule#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#endpoint_type CrStorageDomainRoutingRule#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#instance_domain CrStorageDomainRoutingRule#instance_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#instance_domain CrStorageDomainRoutingRule#instance_domain}
   */
   readonly instanceDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#storage_domain CrStorageDomainRoutingRule#storage_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#storage_domain CrStorageDomainRoutingRule#storage_domain}
   */
   readonly storageDomain: string;
 }
@@ -206,15 +206,15 @@ export class CrStorageDomainRoutingRuleRoutesList extends cdktf.ComplexList {
 }
 export interface CrStorageDomainRoutingRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#create CrStorageDomainRoutingRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#create CrStorageDomainRoutingRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#delete CrStorageDomainRoutingRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#delete CrStorageDomainRoutingRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#update CrStorageDomainRoutingRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#update CrStorageDomainRoutingRule#update}
   */
   readonly update?: string;
 }
@@ -366,7 +366,7 @@ export class CrStorageDomainRoutingRuleTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule alicloud_cr_storage_domain_routing_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule alicloud_cr_storage_domain_routing_rule}
 */
 export class CrStorageDomainRoutingRule extends cdktf.TerraformResource {
 
@@ -382,7 +382,7 @@ export class CrStorageDomainRoutingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CrStorageDomainRoutingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CrStorageDomainRoutingRule to import
-  * @param importFromId The id of the existing CrStorageDomainRoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CrStorageDomainRoutingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CrStorageDomainRoutingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +394,7 @@ export class CrStorageDomainRoutingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cr_storage_domain_routing_rule alicloud_cr_storage_domain_routing_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cr_storage_domain_routing_rule alicloud_cr_storage_domain_routing_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +405,8 @@ export class CrStorageDomainRoutingRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cr_storage_domain_routing_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

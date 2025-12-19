@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemDnsCacheStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#id DataThunderSystemDnsCacheStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#id DataThunderSystemDnsCacheStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSystemDnsCacheStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#stats DataThunderSystemDnsCacheStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#stats DataThunderSystemDnsCacheStats#stats}
   */
   readonly stats?: DataThunderSystemDnsCacheStatsStats;
 }
@@ -25,139 +25,151 @@ export interface DataThunderSystemDnsCacheStatsStats {
   /**
   * Total aged out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#ageout DataThunderSystemDnsCacheStats#ageout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#ageout DataThunderSystemDnsCacheStats#ageout}
   */
   readonly ageout?: number;
   /**
   * Total aged for lower weight
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#ageout_weight DataThunderSystemDnsCacheStats#ageout_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#ageout_weight DataThunderSystemDnsCacheStats#ageout_weight}
   */
   readonly ageoutWeight?: number;
   /**
   * Response with multiple answers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#answer_r DataThunderSystemDnsCacheStats#answer_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#answer_r DataThunderSystemDnsCacheStats#answer_r}
   */
   readonly answerR?: number;
   /**
   * Bad Answer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#bad_answer DataThunderSystemDnsCacheStats#bad_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#bad_answer DataThunderSystemDnsCacheStats#bad_answer}
   */
   readonly badAnswer?: number;
   /**
   * Query not passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#bad_q DataThunderSystemDnsCacheStats#bad_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#bad_q DataThunderSystemDnsCacheStats#bad_q}
   */
   readonly badQ?: number;
   /**
   * Response not passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#bad_r DataThunderSystemDnsCacheStats#bad_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#bad_r DataThunderSystemDnsCacheStats#bad_r}
   */
   readonly badR?: number;
   /**
   * Current allocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#current_allocate DataThunderSystemDnsCacheStats#current_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#current_allocate DataThunderSystemDnsCacheStats#current_allocate}
   */
   readonly currentAllocate?: number;
   /**
   * Current data allocate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#current_data_allocate DataThunderSystemDnsCacheStats#current_data_allocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#current_data_allocate DataThunderSystemDnsCacheStats#current_data_allocate}
   */
   readonly currentDataAllocate?: number;
   /**
   * Query encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#encode_q DataThunderSystemDnsCacheStats#encode_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#encode_q DataThunderSystemDnsCacheStats#encode_q}
   */
   readonly encodeQ?: number;
   /**
   * Response encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#encode_r DataThunderSystemDnsCacheStats#encode_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#encode_r DataThunderSystemDnsCacheStats#encode_r}
   */
   readonly encodeR?: number;
   /**
   * Total cache hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#hit DataThunderSystemDnsCacheStats#hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#hit DataThunderSystemDnsCacheStats#hit}
   */
   readonly hit?: number;
   /**
+  * Cache hit rate per second
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#hit_rate_per_sec DataThunderSystemDnsCacheStats#hit_rate_per_sec}
+  */
+  readonly hitRatePerSec?: number;
+  /**
   * Query with multiple questions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#multiple_q DataThunderSystemDnsCacheStats#multiple_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#multiple_q DataThunderSystemDnsCacheStats#multiple_q}
   */
   readonly multipleQ?: number;
   /**
   * Response with multiple questions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#multiple_r DataThunderSystemDnsCacheStats#multiple_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#multiple_r DataThunderSystemDnsCacheStats#multiple_r}
   */
   readonly multipleR?: number;
   /**
   * Query exceed cache size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#oversize_q DataThunderSystemDnsCacheStats#oversize_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#oversize_q DataThunderSystemDnsCacheStats#oversize_q}
   */
   readonly oversizeQ?: number;
   /**
   * Response exceed cache size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#oversize_r DataThunderSystemDnsCacheStats#oversize_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#oversize_r DataThunderSystemDnsCacheStats#oversize_r}
   */
   readonly oversizeR?: number;
   /**
+  * Cache Queries-per-second
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#qps DataThunderSystemDnsCacheStats#qps}
+  */
+  readonly qps?: number;
+  /**
   * Resolver task queue full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#resolver_queue_full DataThunderSystemDnsCacheStats#resolver_queue_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#resolver_queue_full DataThunderSystemDnsCacheStats#resolver_queue_full}
   */
   readonly resolverQueueFull?: number;
   /**
   * Total allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#total_alloc DataThunderSystemDnsCacheStats#total_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#total_alloc DataThunderSystemDnsCacheStats#total_alloc}
   */
   readonly totalAlloc?: number;
   /**
   * Total freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#total_freed DataThunderSystemDnsCacheStats#total_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#total_freed DataThunderSystemDnsCacheStats#total_freed}
   */
   readonly totalFreed?: number;
   /**
   * Total stats log sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#total_log DataThunderSystemDnsCacheStats#total_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#total_log DataThunderSystemDnsCacheStats#total_log}
   */
   readonly totalLog?: number;
   /**
   * Total query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#total_q DataThunderSystemDnsCacheStats#total_q}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#total_q DataThunderSystemDnsCacheStats#total_q}
   */
   readonly totalQ?: number;
   /**
   * Total server response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#total_r DataThunderSystemDnsCacheStats#total_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#total_r DataThunderSystemDnsCacheStats#total_r}
   */
   readonly totalR?: number;
   /**
   * Response with Truncation bit set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#truncated_r DataThunderSystemDnsCacheStats#truncated_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#truncated_r DataThunderSystemDnsCacheStats#truncated_r}
   */
   readonly truncatedR?: number;
   /**
   * Response with short TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#ttl_r DataThunderSystemDnsCacheStats#ttl_r}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#ttl_r DataThunderSystemDnsCacheStats#ttl_r}
   */
   readonly ttlR?: number;
 }
@@ -179,10 +191,12 @@ export function dataThunderSystemDnsCacheStatsStatsToTerraform(struct?: DataThun
     encode_q: cdktf.numberToTerraform(struct!.encodeQ),
     encode_r: cdktf.numberToTerraform(struct!.encodeR),
     hit: cdktf.numberToTerraform(struct!.hit),
+    hit_rate_per_sec: cdktf.numberToTerraform(struct!.hitRatePerSec),
     multiple_q: cdktf.numberToTerraform(struct!.multipleQ),
     multiple_r: cdktf.numberToTerraform(struct!.multipleR),
     oversize_q: cdktf.numberToTerraform(struct!.oversizeQ),
     oversize_r: cdktf.numberToTerraform(struct!.oversizeR),
+    qps: cdktf.numberToTerraform(struct!.qps),
     resolver_queue_full: cdktf.numberToTerraform(struct!.resolverQueueFull),
     total_alloc: cdktf.numberToTerraform(struct!.totalAlloc),
     total_freed: cdktf.numberToTerraform(struct!.totalFreed),
@@ -267,6 +281,12 @@ export function dataThunderSystemDnsCacheStatsStatsToHclTerraform(struct?: DataT
       type: "simple",
       storageClassType: "number",
     },
+    hit_rate_per_sec: {
+      value: cdktf.numberToHclTerraform(struct!.hitRatePerSec),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     multiple_q: {
       value: cdktf.numberToHclTerraform(struct!.multipleQ),
       isBlock: false,
@@ -287,6 +307,12 @@ export function dataThunderSystemDnsCacheStatsStatsToHclTerraform(struct?: DataT
     },
     oversize_r: {
       value: cdktf.numberToHclTerraform(struct!.oversizeR),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    qps: {
+      value: cdktf.numberToHclTerraform(struct!.qps),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -403,6 +429,10 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
       hasAnyValues = true;
       internalValueResult.hit = this._hit;
     }
+    if (this._hitRatePerSec !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hitRatePerSec = this._hitRatePerSec;
+    }
     if (this._multipleQ !== undefined) {
       hasAnyValues = true;
       internalValueResult.multipleQ = this._multipleQ;
@@ -418,6 +448,10 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
     if (this._oversizeR !== undefined) {
       hasAnyValues = true;
       internalValueResult.oversizeR = this._oversizeR;
+    }
+    if (this._qps !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.qps = this._qps;
     }
     if (this._resolverQueueFull !== undefined) {
       hasAnyValues = true;
@@ -468,10 +502,12 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
       this._encodeQ = undefined;
       this._encodeR = undefined;
       this._hit = undefined;
+      this._hitRatePerSec = undefined;
       this._multipleQ = undefined;
       this._multipleR = undefined;
       this._oversizeQ = undefined;
       this._oversizeR = undefined;
+      this._qps = undefined;
       this._resolverQueueFull = undefined;
       this._totalAlloc = undefined;
       this._totalFreed = undefined;
@@ -494,10 +530,12 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
       this._encodeQ = value.encodeQ;
       this._encodeR = value.encodeR;
       this._hit = value.hit;
+      this._hitRatePerSec = value.hitRatePerSec;
       this._multipleQ = value.multipleQ;
       this._multipleR = value.multipleR;
       this._oversizeQ = value.oversizeQ;
       this._oversizeR = value.oversizeR;
+      this._qps = value.qps;
       this._resolverQueueFull = value.resolverQueueFull;
       this._totalAlloc = value.totalAlloc;
       this._totalFreed = value.totalFreed;
@@ -685,6 +723,22 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
     return this._hit;
   }
 
+  // hit_rate_per_sec - computed: false, optional: true, required: false
+  private _hitRatePerSec?: number; 
+  public get hitRatePerSec() {
+    return this.getNumberAttribute('hit_rate_per_sec');
+  }
+  public set hitRatePerSec(value: number) {
+    this._hitRatePerSec = value;
+  }
+  public resetHitRatePerSec() {
+    this._hitRatePerSec = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hitRatePerSecInput() {
+    return this._hitRatePerSec;
+  }
+
   // multiple_q - computed: false, optional: true, required: false
   private _multipleQ?: number; 
   public get multipleQ() {
@@ -747,6 +801,22 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
   // Temporarily expose input value. Use with caution.
   public get oversizeRInput() {
     return this._oversizeR;
+  }
+
+  // qps - computed: false, optional: true, required: false
+  private _qps?: number; 
+  public get qps() {
+    return this.getNumberAttribute('qps');
+  }
+  public set qps(value: number) {
+    this._qps = value;
+  }
+  public resetQps() {
+    this._qps = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get qpsInput() {
+    return this._qps;
   }
 
   // resolver_queue_full - computed: false, optional: true, required: false
@@ -879,7 +949,7 @@ export class DataThunderSystemDnsCacheStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats thunder_system_dns_cache_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats thunder_system_dns_cache_stats}
 */
 export class DataThunderSystemDnsCacheStats extends cdktf.TerraformDataSource {
 
@@ -895,7 +965,7 @@ export class DataThunderSystemDnsCacheStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemDnsCacheStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemDnsCacheStats to import
-  * @param importFromId The id of the existing DataThunderSystemDnsCacheStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemDnsCacheStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemDnsCacheStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -907,7 +977,7 @@ export class DataThunderSystemDnsCacheStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_stats thunder_system_dns_cache_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_stats thunder_system_dns_cache_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -918,8 +988,8 @@ export class DataThunderSystemDnsCacheStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_dns_cache_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

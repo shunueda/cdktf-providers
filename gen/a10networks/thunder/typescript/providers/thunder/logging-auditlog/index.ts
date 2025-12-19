@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LoggingAuditlogConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'local0': Local use; 'local1': Local use; 'local2': Local use; 'local3': Local use; 'local4': Local use; 'local5': Local use; 'local6': Local use; 'local7': Local use;  (Configure the facility of auditlog)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#audit_facility LoggingAuditlog#audit_facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#audit_facility LoggingAuditlog#audit_facility}
   */
   readonly auditFacility?: string;
   /**
   * Configure the auditlog host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#host4 LoggingAuditlog#host4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#host4 LoggingAuditlog#host4}
   */
   readonly host4?: string;
   /**
   * Configure the auditlog host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#host6 LoggingAuditlog#host6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#host6 LoggingAuditlog#host6}
   */
   readonly host6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#id LoggingAuditlog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#id LoggingAuditlog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface LoggingAuditlogConfig extends cdktf.TerraformMetaArguments {
   /**
   * Select partition name for logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#partition_name LoggingAuditlog#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#partition_name LoggingAuditlog#partition_name}
   */
   readonly partitionName?: string;
   /**
   * Set remote audit log port number(Default 514)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#port LoggingAuditlog#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#port LoggingAuditlog#port}
   */
   readonly port?: number;
   /**
   * Select shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#shared LoggingAuditlog#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#shared LoggingAuditlog#shared}
   */
   readonly shared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#uuid LoggingAuditlog#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#uuid LoggingAuditlog#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog thunder_logging_auditlog}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog thunder_logging_auditlog}
 */
 export class LoggingAuditlog extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class LoggingAuditlog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingAuditlog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingAuditlog to import
-  * @param importFromId The id of the existing LoggingAuditlog that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingAuditlog that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingAuditlog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class LoggingAuditlog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_auditlog thunder_logging_auditlog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_auditlog thunder_logging_auditlog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class LoggingAuditlog extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_auditlog',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

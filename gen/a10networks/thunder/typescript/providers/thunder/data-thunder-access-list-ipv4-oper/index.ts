@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAccessListIpv4OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#id DataThunderAccessListIpv4Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#id DataThunderAccessListIpv4Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,117 +17,121 @@ export interface DataThunderAccessListIpv4OperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#oper DataThunderAccessListIpv4Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#oper DataThunderAccessListIpv4Oper#oper}
   */
   readonly oper?: DataThunderAccessListIpv4OperOper;
 }
 export interface DataThunderAccessListIpv4OperOperAclListRuleListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#action DataThunderAccessListIpv4Oper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#action DataThunderAccessListIpv4Oper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#data_plane_hits DataThunderAccessListIpv4Oper#data_plane_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#data_plane_hits DataThunderAccessListIpv4Oper#data_plane_hits}
   */
   readonly dataPlaneHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dscp DataThunderAccessListIpv4Oper#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dscp DataThunderAccessListIpv4Oper#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dst_host DataThunderAccessListIpv4Oper#dst_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dst_host DataThunderAccessListIpv4Oper#dst_host}
   */
   readonly dstHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dst_host_mask DataThunderAccessListIpv4Oper#dst_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dst_host_mask DataThunderAccessListIpv4Oper#dst_host_mask}
   */
   readonly dstHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dst_obj_id DataThunderAccessListIpv4Oper#dst_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dst_obj_id DataThunderAccessListIpv4Oper#dst_obj_id}
   */
   readonly dstObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dst_port_end DataThunderAccessListIpv4Oper#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dst_port_end DataThunderAccessListIpv4Oper#dst_port_end}
   */
   readonly dstPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#dst_port_start DataThunderAccessListIpv4Oper#dst_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#dst_port_start DataThunderAccessListIpv4Oper#dst_port_start}
   */
   readonly dstPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#eth DataThunderAccessListIpv4Oper#eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#eth DataThunderAccessListIpv4Oper#eth}
   */
   readonly eth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#geo_location_name DataThunderAccessListIpv4Oper#geo_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#geo_location_name DataThunderAccessListIpv4Oper#geo_location_name}
   */
   readonly geoLocationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#icmp_code DataThunderAccessListIpv4Oper#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#icmp_code DataThunderAccessListIpv4Oper#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#icmp_type DataThunderAccessListIpv4Oper#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#icmp_type DataThunderAccessListIpv4Oper#icmp_type}
   */
   readonly icmpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#ip_frag DataThunderAccessListIpv4Oper#ip_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#ip_frag DataThunderAccessListIpv4Oper#ip_frag}
   */
   readonly ipFrag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#log DataThunderAccessListIpv4Oper#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#log DataThunderAccessListIpv4Oper#log}
   */
   readonly log?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#log_transparent_sess_only DataThunderAccessListIpv4Oper#log_transparent_sess_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#log_transparent_sess_only DataThunderAccessListIpv4Oper#log_transparent_sess_only}
   */
   readonly logTransparentSessOnly?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#proto DataThunderAccessListIpv4Oper#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#mgmt_plane_hits DataThunderAccessListIpv4Oper#mgmt_plane_hits}
+  */
+  readonly mgmtPlaneHits?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#proto DataThunderAccessListIpv4Oper#proto}
   */
   readonly proto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#remark DataThunderAccessListIpv4Oper#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#remark DataThunderAccessListIpv4Oper#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#sequence_num DataThunderAccessListIpv4Oper#sequence_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#sequence_num DataThunderAccessListIpv4Oper#sequence_num}
   */
   readonly sequenceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#src_host DataThunderAccessListIpv4Oper#src_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#src_host DataThunderAccessListIpv4Oper#src_host}
   */
   readonly srcHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#src_host_mask DataThunderAccessListIpv4Oper#src_host_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#src_host_mask DataThunderAccessListIpv4Oper#src_host_mask}
   */
   readonly srcHostMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#src_obj_id DataThunderAccessListIpv4Oper#src_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#src_obj_id DataThunderAccessListIpv4Oper#src_obj_id}
   */
   readonly srcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#src_port_end DataThunderAccessListIpv4Oper#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#src_port_end DataThunderAccessListIpv4Oper#src_port_end}
   */
   readonly srcPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#src_port_start DataThunderAccessListIpv4Oper#src_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#src_port_start DataThunderAccessListIpv4Oper#src_port_start}
   */
   readonly srcPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#svc_obj_id DataThunderAccessListIpv4Oper#svc_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#svc_obj_id DataThunderAccessListIpv4Oper#svc_obj_id}
   */
   readonly svcObjId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#tcp_established DataThunderAccessListIpv4Oper#tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#tcp_established DataThunderAccessListIpv4Oper#tcp_established}
   */
   readonly tcpEstablished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#trunk DataThunderAccessListIpv4Oper#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#trunk DataThunderAccessListIpv4Oper#trunk}
   */
   readonly trunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#vlan_id DataThunderAccessListIpv4Oper#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#vlan_id DataThunderAccessListIpv4Oper#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -153,6 +157,7 @@ export function dataThunderAccessListIpv4OperOperAclListRuleListStructToTerrafor
     ip_frag: cdktf.numberToTerraform(struct!.ipFrag),
     log: cdktf.numberToTerraform(struct!.log),
     log_transparent_sess_only: cdktf.numberToTerraform(struct!.logTransparentSessOnly),
+    mgmt_plane_hits: cdktf.numberToTerraform(struct!.mgmtPlaneHits),
     proto: cdktf.stringToTerraform(struct!.proto),
     remark: cdktf.stringToTerraform(struct!.remark),
     sequence_num: cdktf.numberToTerraform(struct!.sequenceNum),
@@ -261,6 +266,12 @@ export function dataThunderAccessListIpv4OperOperAclListRuleListStructToHclTerra
     },
     log_transparent_sess_only: {
       value: cdktf.numberToHclTerraform(struct!.logTransparentSessOnly),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    mgmt_plane_hits: {
+      value: cdktf.numberToHclTerraform(struct!.mgmtPlaneHits),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -423,6 +434,10 @@ export class DataThunderAccessListIpv4OperOperAclListRuleListStructOutputReferen
       hasAnyValues = true;
       internalValueResult.logTransparentSessOnly = this._logTransparentSessOnly;
     }
+    if (this._mgmtPlaneHits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mgmtPlaneHits = this._mgmtPlaneHits;
+    }
     if (this._proto !== undefined) {
       hasAnyValues = true;
       internalValueResult.proto = this._proto;
@@ -493,6 +508,7 @@ export class DataThunderAccessListIpv4OperOperAclListRuleListStructOutputReferen
       this._ipFrag = undefined;
       this._log = undefined;
       this._logTransparentSessOnly = undefined;
+      this._mgmtPlaneHits = undefined;
       this._proto = undefined;
       this._remark = undefined;
       this._sequenceNum = undefined;
@@ -528,6 +544,7 @@ export class DataThunderAccessListIpv4OperOperAclListRuleListStructOutputReferen
       this._ipFrag = value.ipFrag;
       this._log = value.log;
       this._logTransparentSessOnly = value.logTransparentSessOnly;
+      this._mgmtPlaneHits = value.mgmtPlaneHits;
       this._proto = value.proto;
       this._remark = value.remark;
       this._sequenceNum = value.sequenceNum;
@@ -783,6 +800,22 @@ export class DataThunderAccessListIpv4OperOperAclListRuleListStructOutputReferen
     return this._logTransparentSessOnly;
   }
 
+  // mgmt_plane_hits - computed: false, optional: true, required: false
+  private _mgmtPlaneHits?: number; 
+  public get mgmtPlaneHits() {
+    return this.getNumberAttribute('mgmt_plane_hits');
+  }
+  public set mgmtPlaneHits(value: number) {
+    this._mgmtPlaneHits = value;
+  }
+  public resetMgmtPlaneHits() {
+    this._mgmtPlaneHits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mgmtPlaneHitsInput() {
+    return this._mgmtPlaneHits;
+  }
+
   // proto - computed: false, optional: true, required: false
   private _proto?: string; 
   public get proto() {
@@ -997,41 +1030,41 @@ export class DataThunderAccessListIpv4OperOperAclListRuleListStructList extends 
 }
 export interface DataThunderAccessListIpv4OperOperAclListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#binding DataThunderAccessListIpv4Oper#binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#binding DataThunderAccessListIpv4Oper#binding}
   */
   readonly binding?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#id1 DataThunderAccessListIpv4Oper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#id1 DataThunderAccessListIpv4Oper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#is_pool_group DataThunderAccessListIpv4Oper#is_pool_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#is_pool_group DataThunderAccessListIpv4Oper#is_pool_group}
   */
   readonly isPoolGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#mgmt_pkt_hit_count DataThunderAccessListIpv4Oper#mgmt_pkt_hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#mgmt_pkt_hit_count DataThunderAccessListIpv4Oper#mgmt_pkt_hit_count}
   */
   readonly mgmtPktHitCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#name DataThunderAccessListIpv4Oper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#name DataThunderAccessListIpv4Oper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#nat_pool_haid DataThunderAccessListIpv4Oper#nat_pool_haid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#nat_pool_haid DataThunderAccessListIpv4Oper#nat_pool_haid}
   */
   readonly natPoolHaid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#nat_pool_msl DataThunderAccessListIpv4Oper#nat_pool_msl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#nat_pool_msl DataThunderAccessListIpv4Oper#nat_pool_msl}
   */
   readonly natPoolMsl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#nat_pool_name DataThunderAccessListIpv4Oper#nat_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#nat_pool_name DataThunderAccessListIpv4Oper#nat_pool_name}
   */
   readonly natPoolName?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#rule_list DataThunderAccessListIpv4Oper#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#rule_list DataThunderAccessListIpv4Oper#rule_list}
   */
   readonly ruleList?: DataThunderAccessListIpv4OperOperAclListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1381,7 +1414,7 @@ export interface DataThunderAccessListIpv4OperOper {
   /**
   * acl_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#acl_list DataThunderAccessListIpv4Oper#acl_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#acl_list DataThunderAccessListIpv4Oper#acl_list}
   */
   readonly aclList?: DataThunderAccessListIpv4OperOperAclListStruct[] | cdktf.IResolvable;
 }
@@ -1465,7 +1498,7 @@ export class DataThunderAccessListIpv4OperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper thunder_access_list_ipv4_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper thunder_access_list_ipv4_oper}
 */
 export class DataThunderAccessListIpv4Oper extends cdktf.TerraformDataSource {
 
@@ -1481,7 +1514,7 @@ export class DataThunderAccessListIpv4Oper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderAccessListIpv4Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAccessListIpv4Oper to import
-  * @param importFromId The id of the existing DataThunderAccessListIpv4Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAccessListIpv4Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAccessListIpv4Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1493,7 +1526,7 @@ export class DataThunderAccessListIpv4Oper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/access_list_ipv4_oper thunder_access_list_ipv4_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/access_list_ipv4_oper thunder_access_list_ipv4_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1504,8 +1537,8 @@ export class DataThunderAccessListIpv4Oper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_access_list_ipv4_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

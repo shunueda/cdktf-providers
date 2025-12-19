@@ -1,3 +1,3 @@
 # `digitalocean_droplet`
 
-Refer to the Terraform Registry for docs: [`digitalocean_droplet`](https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/resources/droplet).
+Refer to the Terraform Registry for docs: [`digitalocean_droplet`](https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/resources/droplet).

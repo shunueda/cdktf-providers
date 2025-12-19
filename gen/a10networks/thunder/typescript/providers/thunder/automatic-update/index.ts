@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AutomaticUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Change GLM source url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#glm_source_url AutomaticUpdate#glm_source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#glm_source_url AutomaticUpdate#glm_source_url}
   */
   readonly glmSourceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#id AutomaticUpdate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#id AutomaticUpdate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface AutomaticUpdateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use management port to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#use_mgmt_port AutomaticUpdate#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#use_mgmt_port AutomaticUpdate#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
   */
   readonly uuid?: string;
   /**
   * check_now block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#check_now AutomaticUpdate#check_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#check_now AutomaticUpdate#check_now}
   */
   readonly checkNow?: AutomaticUpdateCheckNow;
   /**
   * checknow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#checknow AutomaticUpdate#checknow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#checknow AutomaticUpdate#checknow}
   */
   readonly checknow?: AutomaticUpdateChecknow;
   /**
   * config_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#config_list AutomaticUpdate#config_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#config_list AutomaticUpdate#config_list}
   */
   readonly configList?: AutomaticUpdateConfigListStruct[] | cdktf.IResolvable;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#info AutomaticUpdate#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#info AutomaticUpdate#info}
   */
   readonly info?: AutomaticUpdateInfo;
   /**
   * proxy_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#proxy_server AutomaticUpdate#proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#proxy_server AutomaticUpdate#proxy_server}
   */
   readonly proxyServer?: AutomaticUpdateProxyServer;
   /**
   * reset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#reset AutomaticUpdate#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#reset AutomaticUpdate#reset}
   */
   readonly reset?: AutomaticUpdateReset;
   /**
   * revert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#revert AutomaticUpdate#revert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#revert AutomaticUpdate#revert}
   */
   readonly revert?: AutomaticUpdateRevert;
 }
@@ -79,25 +79,25 @@ export interface AutomaticUpdateCheckNow {
   /**
   * 'app-fw': Application Firewall; 'ca-bundle': CA Certificate Bundle; 'a10-threat-intel': A10 Threat intel class list; 'central-cert-pin-list': Central updated cert pinning list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
   */
   readonly featureName?: string;
   /**
   * Get files from GLM Staging storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#from_staging_server AutomaticUpdate#from_staging_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#from_staging_server AutomaticUpdate#from_staging_server}
   */
   readonly fromStagingServer?: number;
   /**
   * update to this specific version, if this option is not configured, update to the latest version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#prod_ver AutomaticUpdate#prod_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#prod_ver AutomaticUpdate#prod_ver}
   */
   readonly prodVer?: string;
   /**
   * update this specific version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#stage_ver AutomaticUpdate#stage_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#stage_ver AutomaticUpdate#stage_ver}
   */
   readonly stageVer?: string;
 }
@@ -270,7 +270,7 @@ export interface AutomaticUpdateChecknow {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
   */
   readonly uuid?: string;
 }
@@ -356,59 +356,59 @@ export interface AutomaticUpdateConfigListStruct {
   /**
   * Every day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#daily AutomaticUpdate#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#daily AutomaticUpdate#daily}
   */
   readonly daily?: number;
   /**
   * Time of day to update (hh:mm) in 24 hour local time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#day_time AutomaticUpdate#day_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#day_time AutomaticUpdate#day_time}
   */
   readonly dayTime?: string;
   /**
   * Enable libcurl debug option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#debug AutomaticUpdate#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#debug AutomaticUpdate#debug}
   */
   readonly debug?: number;
   /**
   * Disable peer server certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#disable_ssl_verify AutomaticUpdate#disable_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#disable_ssl_verify AutomaticUpdate#disable_ssl_verify}
   */
   readonly disableSslVerify?: number;
   /**
   * 'app-fw': Application Firewall Configuration; 'ca-bundle': CA Certificate Bundle; 'a10-threat-intel': A10 Threat intel class list; 'central-cert-pin-list': Central updated cert pinning list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
   */
   readonly featureName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#schedule AutomaticUpdate#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#schedule AutomaticUpdate#schedule}
   */
   readonly schedule?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
   */
   readonly uuid?: string;
   /**
   * 'Monday': Monday; 'Tuesday': Tuesday; 'Wednesday': Wednesday; 'Thursday': Thursday; 'Friday': Friday; 'Saturday': Saturday; 'Sunday': Sunday;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#week_day AutomaticUpdate#week_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#week_day AutomaticUpdate#week_day}
   */
   readonly weekDay?: string;
   /**
   * Time of day to update (hh:mm) in 24 hour local time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#week_time AutomaticUpdate#week_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#week_time AutomaticUpdate#week_time}
   */
   readonly weekTime?: string;
   /**
   * Every week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#weekly AutomaticUpdate#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#weekly AutomaticUpdate#weekly}
   */
   readonly weekly?: number;
 }
@@ -784,7 +784,7 @@ export interface AutomaticUpdateInfo {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
   */
   readonly uuid?: string;
 }
@@ -870,49 +870,49 @@ export interface AutomaticUpdateProxyServer {
   /**
   * 'ntlm': NTLM authentication(default); 'basic': Basic authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#auth_type AutomaticUpdate#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#auth_type AutomaticUpdate#auth_type}
   */
   readonly authType?: string;
   /**
   * Realm for NTLM authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#domain AutomaticUpdate#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#domain AutomaticUpdate#domain}
   */
   readonly domain?: string;
   /**
   * Proxy server HTTPs port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#https_port AutomaticUpdate#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#https_port AutomaticUpdate#https_port}
   */
   readonly httpsPort?: number;
   /**
   * Password for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#password AutomaticUpdate#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#password AutomaticUpdate#password}
   */
   readonly password?: number;
   /**
   * Proxy server hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#proxy_host AutomaticUpdate#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#proxy_host AutomaticUpdate#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * password value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#secret_string AutomaticUpdate#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#secret_string AutomaticUpdate#secret_string}
   */
   readonly secretString?: string;
   /**
   * Username for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#username AutomaticUpdate#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#username AutomaticUpdate#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#uuid AutomaticUpdate#uuid}
   */
   readonly uuid?: string;
 }
@@ -1201,7 +1201,7 @@ export interface AutomaticUpdateReset {
   /**
   * 'app-fw': Application Firewall; 'ca-bundle': CA Certificate Bundle;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
   */
   readonly featureName?: string;
 }
@@ -1287,7 +1287,7 @@ export interface AutomaticUpdateRevert {
   /**
   * 'app-fw': Application Firewall; 'a10-threat-intel': A10 Threat intel class list; 'central-cert-pin-list': Central updated cert pinning list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#feature_name AutomaticUpdate#feature_name}
   */
   readonly featureName?: string;
 }
@@ -1371,7 +1371,7 @@ export class AutomaticUpdateRevertOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update thunder_automatic_update}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update thunder_automatic_update}
 */
 export class AutomaticUpdate extends cdktf.TerraformResource {
 
@@ -1387,7 +1387,7 @@ export class AutomaticUpdate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomaticUpdate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomaticUpdate to import
-  * @param importFromId The id of the existing AutomaticUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomaticUpdate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomaticUpdate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1399,7 +1399,7 @@ export class AutomaticUpdate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update thunder_automatic_update} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update thunder_automatic_update} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1410,8 +1410,8 @@ export class AutomaticUpdate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_automatic_update',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

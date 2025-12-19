@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SlbTemplateConnectionReuseConfig extends cdktf.TerraformMetaArg
   /**
   * Insert HTTP Connection: keep-alive header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#add_header SlbTemplateConnectionReuse#add_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#add_header SlbTemplateConnectionReuse#add_header}
   */
   readonly addHeader?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#id SlbTemplateConnectionReuse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#id SlbTemplateConnectionReuse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface SlbTemplateConnectionReuseConfig extends cdktf.TerraformMetaArg
   /**
   * Keep a number of server connections open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#keep_alive_conn SlbTemplateConnectionReuse#keep_alive_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#keep_alive_conn SlbTemplateConnectionReuse#keep_alive_conn}
   */
   readonly keepAliveConn?: number;
   /**
   * Max Server Connections allowed (Connections per Server Port (default 1000))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#limit_per_server SlbTemplateConnectionReuse#limit_per_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#limit_per_server SlbTemplateConnectionReuse#limit_per_server}
   */
   readonly limitPerServer?: number;
   /**
   * Connection Reuse Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#name SlbTemplateConnectionReuse#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#name SlbTemplateConnectionReuse#name}
   */
   readonly name: string;
   /**
   * Connections per Server Port (default 100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#num_conn_per_port SlbTemplateConnectionReuse#num_conn_per_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#num_conn_per_port SlbTemplateConnectionReuse#num_conn_per_port}
   */
   readonly numConnPerPort?: number;
   /**
   * Preopen server connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#preopen SlbTemplateConnectionReuse#preopen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#preopen SlbTemplateConnectionReuse#preopen}
   */
   readonly preopen?: number;
   /**
   * Timeout in seconds. Multiple of 60 (default 2400)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#timeout SlbTemplateConnectionReuse#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#timeout SlbTemplateConnectionReuse#timeout}
   */
   readonly timeout?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#user_tag SlbTemplateConnectionReuse#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#user_tag SlbTemplateConnectionReuse#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#uuid SlbTemplateConnectionReuse#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#uuid SlbTemplateConnectionReuse#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse thunder_slb_template_connection_reuse}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse thunder_slb_template_connection_reuse}
 */
 export class SlbTemplateConnectionReuse extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class SlbTemplateConnectionReuse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateConnectionReuse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateConnectionReuse to import
-  * @param importFromId The id of the existing SlbTemplateConnectionReuse that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateConnectionReuse that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateConnectionReuse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class SlbTemplateConnectionReuse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_connection_reuse thunder_slb_template_connection_reuse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_connection_reuse thunder_slb_template_connection_reuse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class SlbTemplateConnectionReuse extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_connection_reuse',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

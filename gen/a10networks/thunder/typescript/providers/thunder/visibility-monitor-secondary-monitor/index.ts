@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityMonitorSecondaryMonitorAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#id VisibilityMonitorSecondaryMonitorA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#id VisibilityMonitorSecondaryMonitorA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface VisibilityMonitorSecondaryMonitorAConfig extends cdktf.Terrafor
   /**
   * Enable topk for secondary entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#mon_entity_topk VisibilityMonitorSecondaryMonitorA#mon_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#mon_entity_topk VisibilityMonitorSecondaryMonitorA#mon_entity_topk}
   */
   readonly monEntityTopk?: number;
   /**
   * 'service': Monitor traffic to any service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#secondary_monitoring_key VisibilityMonitorSecondaryMonitorA#secondary_monitoring_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#secondary_monitoring_key VisibilityMonitorSecondaryMonitorA#secondary_monitoring_key}
   */
   readonly secondaryMonitoringKey: string;
   /**
   * Enable topk for sources to secondary-entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#source_entity_topk VisibilityMonitorSecondaryMonitorA#source_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#source_entity_topk VisibilityMonitorSecondaryMonitorA#source_entity_topk}
   */
   readonly sourceEntityTopk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#uuid VisibilityMonitorSecondaryMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#uuid VisibilityMonitorSecondaryMonitorA#uuid}
   */
   readonly uuid?: string;
   /**
   * debug_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_list VisibilityMonitorSecondaryMonitorA#debug_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_list VisibilityMonitorSecondaryMonitorA#debug_list}
   */
   readonly debugList?: VisibilityMonitorSecondaryMonitorDebugListStructA[] | cdktf.IResolvable;
   /**
   * delete_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#delete_debug_file VisibilityMonitorSecondaryMonitorA#delete_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#delete_debug_file VisibilityMonitorSecondaryMonitorA#delete_debug_file}
   */
   readonly deleteDebugFile?: VisibilityMonitorSecondaryMonitorDeleteDebugFileA;
   /**
   * replay_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#replay_debug_file VisibilityMonitorSecondaryMonitorA#replay_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#replay_debug_file VisibilityMonitorSecondaryMonitorA#replay_debug_file}
   */
   readonly replayDebugFile?: VisibilityMonitorSecondaryMonitorReplayDebugFileA;
 }
@@ -61,25 +61,25 @@ export interface VisibilityMonitorSecondaryMonitorDebugListStructA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
   */
   readonly debugPort: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
   */
   readonly debugProtocol: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#uuid VisibilityMonitorSecondaryMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#uuid VisibilityMonitorSecondaryMonitorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -275,19 +275,19 @@ export interface VisibilityMonitorSecondaryMonitorDeleteDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -431,19 +431,19 @@ export interface VisibilityMonitorSecondaryMonitorReplayDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_ip_addr VisibilityMonitorSecondaryMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_port VisibilityMonitorSecondaryMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#debug_protocol VisibilityMonitorSecondaryMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -585,7 +585,7 @@ export class VisibilityMonitorSecondaryMonitorReplayDebugFileAOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor thunder_visibility_monitor_secondary_monitor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor thunder_visibility_monitor_secondary_monitor}
 */
 export class VisibilityMonitorSecondaryMonitorA extends cdktf.TerraformResource {
 
@@ -601,7 +601,7 @@ export class VisibilityMonitorSecondaryMonitorA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a VisibilityMonitorSecondaryMonitorA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityMonitorSecondaryMonitorA to import
-  * @param importFromId The id of the existing VisibilityMonitorSecondaryMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityMonitorSecondaryMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityMonitorSecondaryMonitorA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -613,7 +613,7 @@ export class VisibilityMonitorSecondaryMonitorA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor_secondary_monitor thunder_visibility_monitor_secondary_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor_secondary_monitor thunder_visibility_monitor_secondary_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -624,8 +624,8 @@ export class VisibilityMonitorSecondaryMonitorA extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_visibility_monitor_secondary_monitor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

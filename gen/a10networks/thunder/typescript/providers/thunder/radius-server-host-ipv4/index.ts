@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RadiusServerHostIpv4Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#id RadiusServerHostIpv4#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#id RadiusServerHostIpv4#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface RadiusServerHostIpv4Config extends cdktf.TerraformMetaArguments
   /**
   * IPV4 address of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#ipv4_addr RadiusServerHostIpv4#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#ipv4_addr RadiusServerHostIpv4#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#uuid RadiusServerHostIpv4#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#uuid RadiusServerHostIpv4#uuid}
   */
   readonly uuid?: string;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#secret RadiusServerHostIpv4#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#secret RadiusServerHostIpv4#secret}
   */
   readonly secret?: RadiusServerHostIpv4Secret;
 }
@@ -37,25 +37,25 @@ export interface RadiusServerHostIpv4SecretPortCfg {
   /**
   * Specify the RADIUS server's accounting port (default 1813)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#acct_port RadiusServerHostIpv4#acct_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#acct_port RadiusServerHostIpv4#acct_port}
   */
   readonly acctPort?: number;
   /**
   * Specify the RADIUS server's authentication port (default 1812)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#auth_port RadiusServerHostIpv4#auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#auth_port RadiusServerHostIpv4#auth_port}
   */
   readonly authPort?: number;
   /**
   * Specify the maximum times allowed for resending an request to the radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#retransmit RadiusServerHostIpv4#retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#retransmit RadiusServerHostIpv4#retransmit}
   */
   readonly retransmit?: number;
   /**
   * Specify the maximum time allowed for waiting for a response from a radius server (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#timeout RadiusServerHostIpv4#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#timeout RadiusServerHostIpv4#timeout}
   */
   readonly timeout?: number;
 }
@@ -228,13 +228,13 @@ export interface RadiusServerHostIpv4Secret {
   /**
   * The RADIUS server's secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#secret_value RadiusServerHostIpv4#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#secret_value RadiusServerHostIpv4#secret_value}
   */
   readonly secretValue?: string;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#port_cfg RadiusServerHostIpv4#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#port_cfg RadiusServerHostIpv4#port_cfg}
   */
   readonly portCfg?: RadiusServerHostIpv4SecretPortCfg;
 }
@@ -347,7 +347,7 @@ export class RadiusServerHostIpv4SecretOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4 thunder_radius_server_host_ipv4}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4 thunder_radius_server_host_ipv4}
 */
 export class RadiusServerHostIpv4 extends cdktf.TerraformResource {
 
@@ -363,7 +363,7 @@ export class RadiusServerHostIpv4 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RadiusServerHostIpv4 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RadiusServerHostIpv4 to import
-  * @param importFromId The id of the existing RadiusServerHostIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RadiusServerHostIpv4 that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RadiusServerHostIpv4 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -375,7 +375,7 @@ export class RadiusServerHostIpv4 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/radius_server_host_ipv4 thunder_radius_server_host_ipv4} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/radius_server_host_ipv4 thunder_radius_server_host_ipv4} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -386,8 +386,8 @@ export class RadiusServerHostIpv4 extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_radius_server_host_ipv4',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSflowGlobalOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#id DataThunderSflowGlobalOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#id DataThunderSflowGlobalOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderSflowGlobalOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#oper DataThunderSflowGlobalOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#oper DataThunderSflowGlobalOper#oper}
   */
   readonly oper?: DataThunderSflowGlobalOperOper;
 }
 export interface DataThunderSflowGlobalOperOperIfStatsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#counter_sample_records DataThunderSflowGlobalOper#counter_sample_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#counter_sample_records DataThunderSflowGlobalOper#counter_sample_records}
   */
   readonly counterSampleRecords?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#if_num DataThunderSflowGlobalOper#if_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#if_num DataThunderSflowGlobalOper#if_num}
   */
   readonly ifNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#if_type DataThunderSflowGlobalOper#if_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#if_type DataThunderSflowGlobalOper#if_type}
   */
   readonly ifType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#packet_sample_records DataThunderSflowGlobalOper#packet_sample_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#packet_sample_records DataThunderSflowGlobalOper#packet_sample_records}
   */
   readonly packetSampleRecords?: number;
 }
@@ -240,7 +240,7 @@ export interface DataThunderSflowGlobalOperOper {
   /**
   * if_stats_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#if_stats_list DataThunderSflowGlobalOper#if_stats_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#if_stats_list DataThunderSflowGlobalOper#if_stats_list}
   */
   readonly ifStatsList?: DataThunderSflowGlobalOperOperIfStatsListStruct[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderSflowGlobalOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper thunder_sflow_global_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper thunder_sflow_global_oper}
 */
 export class DataThunderSflowGlobalOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderSflowGlobalOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSflowGlobalOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSflowGlobalOper to import
-  * @param importFromId The id of the existing DataThunderSflowGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSflowGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSflowGlobalOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderSflowGlobalOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/sflow_global_oper thunder_sflow_global_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/sflow_global_oper thunder_sflow_global_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderSflowGlobalOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_sflow_global_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

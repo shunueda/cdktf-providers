@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6FixedNatPortMappingOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#id DataThunderCgnv6FixedNatPortMappingOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#id DataThunderCgnv6FixedNatPortMappingOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderCgnv6FixedNatPortMappingOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#oper DataThunderCgnv6FixedNatPortMappingOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#oper DataThunderCgnv6FixedNatPortMappingOper#oper}
   */
   readonly oper?: DataThunderCgnv6FixedNatPortMappingOperOper;
 }
 export interface DataThunderCgnv6FixedNatPortMappingOperOperMappingListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#assigned_to DataThunderCgnv6FixedNatPortMappingOper#assigned_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#assigned_to DataThunderCgnv6FixedNatPortMappingOper#assigned_to}
   */
   readonly assignedTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#icmp_port_end DataThunderCgnv6FixedNatPortMappingOper#icmp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#icmp_port_end DataThunderCgnv6FixedNatPortMappingOper#icmp_port_end}
   */
   readonly icmpPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#icmp_port_start DataThunderCgnv6FixedNatPortMappingOper#icmp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#icmp_port_start DataThunderCgnv6FixedNatPortMappingOper#icmp_port_start}
   */
   readonly icmpPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_address DataThunderCgnv6FixedNatPortMappingOper#nat_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_address DataThunderCgnv6FixedNatPortMappingOper#nat_address}
   */
   readonly natAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#tcp_port_end DataThunderCgnv6FixedNatPortMappingOper#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#tcp_port_end DataThunderCgnv6FixedNatPortMappingOper#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#tcp_port_start DataThunderCgnv6FixedNatPortMappingOper#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#tcp_port_start DataThunderCgnv6FixedNatPortMappingOper#tcp_port_start}
   */
   readonly tcpPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#udp_port_end DataThunderCgnv6FixedNatPortMappingOper#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#udp_port_end DataThunderCgnv6FixedNatPortMappingOper#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#udp_port_start DataThunderCgnv6FixedNatPortMappingOper#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#udp_port_start DataThunderCgnv6FixedNatPortMappingOper#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -370,29 +370,29 @@ export class DataThunderCgnv6FixedNatPortMappingOperOperMappingListStructList ex
 }
 export interface DataThunderCgnv6FixedNatPortMappingOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#inside_user_v4 DataThunderCgnv6FixedNatPortMappingOper#inside_user_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#inside_user_v4 DataThunderCgnv6FixedNatPortMappingOper#inside_user_v4}
   */
   readonly insideUserV4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#inside_user_v6 DataThunderCgnv6FixedNatPortMappingOper#inside_user_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#inside_user_v6 DataThunderCgnv6FixedNatPortMappingOper#inside_user_v6}
   */
   readonly insideUserV6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_ip DataThunderCgnv6FixedNatPortMappingOper#nat_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_ip DataThunderCgnv6FixedNatPortMappingOper#nat_ip}
   */
   readonly natIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_port DataThunderCgnv6FixedNatPortMappingOper#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#nat_port DataThunderCgnv6FixedNatPortMappingOper#nat_port}
   */
   readonly natPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#partition DataThunderCgnv6FixedNatPortMappingOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#partition DataThunderCgnv6FixedNatPortMappingOper#partition}
   */
   readonly partition?: string;
   /**
   * mapping_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#mapping_list DataThunderCgnv6FixedNatPortMappingOper#mapping_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#mapping_list DataThunderCgnv6FixedNatPortMappingOper#mapping_list}
   */
   readonly mappingList?: DataThunderCgnv6FixedNatPortMappingOperOperMappingListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +621,7 @@ export class DataThunderCgnv6FixedNatPortMappingOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper thunder_cgnv6_fixed_nat_port_mapping_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper thunder_cgnv6_fixed_nat_port_mapping_oper}
 */
 export class DataThunderCgnv6FixedNatPortMappingOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +637,7 @@ export class DataThunderCgnv6FixedNatPortMappingOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderCgnv6FixedNatPortMappingOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6FixedNatPortMappingOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6FixedNatPortMappingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6FixedNatPortMappingOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6FixedNatPortMappingOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DataThunderCgnv6FixedNatPortMappingOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper thunder_cgnv6_fixed_nat_port_mapping_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_fixed_nat_port_mapping_oper thunder_cgnv6_fixed_nat_port_mapping_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DataThunderCgnv6FixedNatPortMappingOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_cgnv6_fixed_nat_port_mapping_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

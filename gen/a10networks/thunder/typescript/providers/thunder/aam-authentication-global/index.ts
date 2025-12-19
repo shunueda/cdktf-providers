@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#id AamAuthenticationGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#id AamAuthenticationGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface AamAuthenticationGlobalConfig extends cdktf.TerraformMetaArgume
   /**
   * Specify the max auth resp size in bytes(from authd to a10lb), default is 64KB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#max_auth_resp_size AamAuthenticationGlobal#max_auth_resp_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#max_auth_resp_size AamAuthenticationGlobal#max_auth_resp_size}
   */
   readonly maxAuthRespSize?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#uuid AamAuthenticationGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#uuid AamAuthenticationGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#sampling_enable AamAuthenticationGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#sampling_enable AamAuthenticationGlobal#sampling_enable}
   */
   readonly samplingEnable?: AamAuthenticationGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface AamAuthenticationGlobalSamplingEnable {
   /**
   * 'all': all; 'requests': Total Authentication Request; 'responses': Total Authentication Response; 'misses': Total Authentication Request Missed; 'ocsp-stapling-requests-to-a10authd': Total OCSP Stapling Request; 'ocsp-stapling-responses-from-a10authd': Total OCSP Stapling Response; 'opened-socket': Total AAM Socket Opened; 'open-socket-failed': Total AAM Open Socket Failed; 'connect': Total AAM Connection; 'connect-failed': Total AAM Connect Failed; 'created-timer': Total AAM Timer Created; 'create-timer-failed': Total AAM Timer Creation Failed; 'total-request': Total Request Received by A10 Auth Service; 'get-socket-option-failed': Total AAM Get Socket Option Failed; 'aflex-authz-succ': Total Authorization success number in aFleX; 'aflex-authz-fail': Total Authorization failure number in aFleX; 'authn-success': Total Authentication success number; 'authn-failure': Total Authentication failure number; 'authz-success': Total Authorization success number; 'authz-failure': Total Authorization failure number; 'active-session': Total Active Auth-Sessions; 'active-user': Total Active Users; 'dns-resolve-failed': Total AAM DNS resolve failed; 'domain-wlist-match': Total DOMAIN WHITELIST match number; 'domain-wlist-unmatch': Total DOMAIN WHITELIST unmatch number; 'auth_ctx_num': Total Auth Contexts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#counters1 AamAuthenticationGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#counters1 AamAuthenticationGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -153,7 +153,7 @@ export class AamAuthenticationGlobalSamplingEnableList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global thunder_aam_authentication_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global thunder_aam_authentication_global}
 */
 export class AamAuthenticationGlobal extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class AamAuthenticationGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationGlobal to import
-  * @param importFromId The id of the existing AamAuthenticationGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class AamAuthenticationGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_global thunder_aam_authentication_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_global thunder_aam_authentication_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class AamAuthenticationGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

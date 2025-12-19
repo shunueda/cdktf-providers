@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "octopusdeploy": "1.7.0"
+    "octopusdeploy": "1.7.1"
   }
 }

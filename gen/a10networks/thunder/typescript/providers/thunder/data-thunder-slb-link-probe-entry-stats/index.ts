@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbLinkProbeEntryStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#id DataThunderSlbLinkProbeEntryStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#id DataThunderSlbLinkProbeEntryStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbLinkProbeEntryStatsConfig extends cdktf.Terraform
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#stats DataThunderSlbLinkProbeEntryStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#stats DataThunderSlbLinkProbeEntryStats#stats}
   */
   readonly stats?: DataThunderSlbLinkProbeEntryStatsStats;
 }
@@ -25,121 +25,121 @@ export interface DataThunderSlbLinkProbeEntryStatsStats {
   /**
   * Current Entry Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#curr_entries DataThunderSlbLinkProbeEntryStats#curr_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#curr_entries DataThunderSlbLinkProbeEntryStats#curr_entries}
   */
   readonly currEntries?: number;
   /**
   * Entry Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_entry_create_failed DataThunderSlbLinkProbeEntryStats#err_entry_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_entry_create_failed DataThunderSlbLinkProbeEntryStats#err_entry_create_failed}
   */
   readonly errEntryCreateFailed?: number;
   /**
   * Entry Creation Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_entry_create_oom DataThunderSlbLinkProbeEntryStats#err_entry_create_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_entry_create_oom DataThunderSlbLinkProbeEntryStats#err_entry_create_oom}
   */
   readonly errEntryCreateOom?: number;
   /**
   * Entry Insert Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_entry_insert_failed DataThunderSlbLinkProbeEntryStats#err_entry_insert_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_entry_insert_failed DataThunderSlbLinkProbeEntryStats#err_entry_insert_failed}
   */
   readonly errEntryInsertFailed?: number;
   /**
   * Error allocating L4 session for probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_l4_sess_alloc DataThunderSlbLinkProbeEntryStats#err_l4_sess_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_l4_sess_alloc DataThunderSlbLinkProbeEntryStats#err_l4_sess_alloc}
   */
   readonly errL4SessAlloc?: number;
   /**
   * Error in initiating TCP connection for probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_probe_tcp_conn_send DataThunderSlbLinkProbeEntryStats#err_probe_tcp_conn_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_probe_tcp_conn_send DataThunderSlbLinkProbeEntryStats#err_probe_tcp_conn_send}
   */
   readonly errProbeTcpConnSend?: number;
   /**
   * Error creating Smart NAT Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_smart_nat_alloc DataThunderSlbLinkProbeEntryStats#err_smart_nat_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_smart_nat_alloc DataThunderSlbLinkProbeEntryStats#err_smart_nat_alloc}
   */
   readonly errSmartNatAlloc?: number;
   /**
   * Error obtaining Smart NAT source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_smart_nat_port_alloc DataThunderSlbLinkProbeEntryStats#err_smart_nat_port_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_smart_nat_port_alloc DataThunderSlbLinkProbeEntryStats#err_smart_nat_port_alloc}
   */
   readonly errSmartNatPortAlloc?: number;
   /**
   * Probe Template Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_tmpl_probe_create_failed DataThunderSlbLinkProbeEntryStats#err_tmpl_probe_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_tmpl_probe_create_failed DataThunderSlbLinkProbeEntryStats#err_tmpl_probe_create_failed}
   */
   readonly errTmplProbeCreateFailed?: number;
   /**
   * Probe Template Creation Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#err_tmpl_probe_create_oom DataThunderSlbLinkProbeEntryStats#err_tmpl_probe_create_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#err_tmpl_probe_create_oom DataThunderSlbLinkProbeEntryStats#err_tmpl_probe_create_oom}
   */
   readonly errTmplProbeCreateOom?: number;
   /**
   * TCP connection sent for probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#probe_tcp_conn_sent DataThunderSlbLinkProbeEntryStats#probe_tcp_conn_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#probe_tcp_conn_sent DataThunderSlbLinkProbeEntryStats#probe_tcp_conn_sent}
   */
   readonly probeTcpConnSent?: number;
   /**
   * Total Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_created DataThunderSlbLinkProbeEntryStats#total_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_created DataThunderSlbLinkProbeEntryStats#total_created}
   */
   readonly totalCreated?: number;
   /**
   * Total Entry Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_freed DataThunderSlbLinkProbeEntryStats#total_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_freed DataThunderSlbLinkProbeEntryStats#total_freed}
   */
   readonly totalFreed?: number;
   /**
   * Total HTTP Probes Sent out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_http_probes_sent DataThunderSlbLinkProbeEntryStats#total_http_probes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_http_probes_sent DataThunderSlbLinkProbeEntryStats#total_http_probes_sent}
   */
   readonly totalHttpProbesSent?: number;
   /**
   * Total HTTP responses not matching probe template config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_http_response_bad DataThunderSlbLinkProbeEntryStats#total_http_response_bad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_http_response_bad DataThunderSlbLinkProbeEntryStats#total_http_response_bad}
   */
   readonly totalHttpResponseBad?: number;
   /**
   * Total HTTP responses matching probe template config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_http_response_good DataThunderSlbLinkProbeEntryStats#total_http_response_good}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_http_response_good DataThunderSlbLinkProbeEntryStats#total_http_response_good}
   */
   readonly totalHttpResponseGood?: number;
   /**
   * Total HTTP responses received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_http_response_received DataThunderSlbLinkProbeEntryStats#total_http_response_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_http_response_received DataThunderSlbLinkProbeEntryStats#total_http_response_received}
   */
   readonly totalHttpResponseReceived?: number;
   /**
   * Total Entry Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_inserted DataThunderSlbLinkProbeEntryStats#total_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_inserted DataThunderSlbLinkProbeEntryStats#total_inserted}
   */
   readonly totalInserted?: number;
   /**
   * Total Entry Ready To Free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_ready_to_free DataThunderSlbLinkProbeEntryStats#total_ready_to_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_ready_to_free DataThunderSlbLinkProbeEntryStats#total_ready_to_free}
   */
   readonly totalReadyToFree?: number;
   /**
   * Total TCP errors in probes sent out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#total_tcp_err DataThunderSlbLinkProbeEntryStats#total_tcp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#total_tcp_err DataThunderSlbLinkProbeEntryStats#total_tcp_err}
   */
   readonly totalTcpErr?: number;
 }
@@ -774,7 +774,7 @@ export class DataThunderSlbLinkProbeEntryStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats thunder_slb_link_probe_entry_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats thunder_slb_link_probe_entry_stats}
 */
 export class DataThunderSlbLinkProbeEntryStats extends cdktf.TerraformDataSource {
 
@@ -790,7 +790,7 @@ export class DataThunderSlbLinkProbeEntryStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSlbLinkProbeEntryStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbLinkProbeEntryStats to import
-  * @param importFromId The id of the existing DataThunderSlbLinkProbeEntryStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbLinkProbeEntryStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbLinkProbeEntryStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -802,7 +802,7 @@ export class DataThunderSlbLinkProbeEntryStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_link_probe_entry_stats thunder_slb_link_probe_entry_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_link_probe_entry_stats thunder_slb_link_probe_entry_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,8 +813,8 @@ export class DataThunderSlbLinkProbeEntryStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_slb_link_probe_entry_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

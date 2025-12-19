@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnPortOverloadingTcpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#id Cgnv6LsnPortOverloadingTcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#id Cgnv6LsnPortOverloadingTcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6LsnPortOverloadingTcpConfig extends cdktf.TerraformMetaArg
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#uuid Cgnv6LsnPortOverloadingTcp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#uuid Cgnv6LsnPortOverloadingTcp#uuid}
   */
   readonly uuid?: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#port_list Cgnv6LsnPortOverloadingTcp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#port_list Cgnv6LsnPortOverloadingTcp#port_list}
   */
   readonly portList?: Cgnv6LsnPortOverloadingTcpPortListStruct[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface Cgnv6LsnPortOverloadingTcpPortListStruct {
   /**
   * Single Destination Port or Port Range Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#port Cgnv6LsnPortOverloadingTcp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#port Cgnv6LsnPortOverloadingTcp#port}
   */
   readonly port?: number;
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#port_end Cgnv6LsnPortOverloadingTcp#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#port_end Cgnv6LsnPortOverloadingTcp#port_end}
   */
   readonly portEnd?: number;
 }
@@ -182,7 +182,7 @@ export class Cgnv6LsnPortOverloadingTcpPortListStructList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp thunder_cgnv6_lsn_port_overloading_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp thunder_cgnv6_lsn_port_overloading_tcp}
 */
 export class Cgnv6LsnPortOverloadingTcp extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class Cgnv6LsnPortOverloadingTcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnPortOverloadingTcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnPortOverloadingTcp to import
-  * @param importFromId The id of the existing Cgnv6LsnPortOverloadingTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnPortOverloadingTcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnPortOverloadingTcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class Cgnv6LsnPortOverloadingTcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_overloading_tcp thunder_cgnv6_lsn_port_overloading_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_overloading_tcp thunder_cgnv6_lsn_port_overloading_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class Cgnv6LsnPortOverloadingTcp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_port_overloading_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

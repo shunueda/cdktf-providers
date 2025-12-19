@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface SlbCommonCertPinningCandidateListFeedbackOptInAConfig extends c
   /**
   * Every day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#daily SlbCommonCertPinningCandidateListFeedbackOptInA#daily}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#daily SlbCommonCertPinningCandidateListFeedbackOptInA#daily}
   */
   readonly daily?: number;
   /**
   * Time of day to update (hh:mm) in 24 hour local time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#day_time SlbCommonCertPinningCandidateListFeedbackOptInA#day_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#day_time SlbCommonCertPinningCandidateListFeedbackOptInA#day_time}
   */
   readonly dayTime?: string;
   /**
   * Enable the feedback function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#enable SlbCommonCertPinningCandidateListFeedbackOptInA#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#enable SlbCommonCertPinningCandidateListFeedbackOptInA#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#id SlbCommonCertPinningCandidateListFeedbackOptInA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#id SlbCommonCertPinningCandidateListFeedbackOptInA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface SlbCommonCertPinningCandidateListFeedbackOptInAConfig extends c
   /**
   * schedule the uploading time, default is daily 00:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#schedule SlbCommonCertPinningCandidateListFeedbackOptInA#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#schedule SlbCommonCertPinningCandidateListFeedbackOptInA#schedule}
   */
   readonly schedule?: number;
   /**
   * Use management port to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#use_mgmt_port SlbCommonCertPinningCandidateListFeedbackOptInA#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#use_mgmt_port SlbCommonCertPinningCandidateListFeedbackOptInA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#uuid SlbCommonCertPinningCandidateListFeedbackOptInA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#uuid SlbCommonCertPinningCandidateListFeedbackOptInA#uuid}
   */
   readonly uuid?: string;
   /**
   * 'Monday': Monday; 'Tuesday': Tuesday; 'Wednesday': Wednesday; 'Thursday': Thursday; 'Friday': Friday; 'Saturday': Saturday; 'Sunday': Sunday;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#week_day SlbCommonCertPinningCandidateListFeedbackOptInA#week_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#week_day SlbCommonCertPinningCandidateListFeedbackOptInA#week_day}
   */
   readonly weekDay?: string;
   /**
   * Time of day to update (hh:mm) in 24 hour local time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#week_time SlbCommonCertPinningCandidateListFeedbackOptInA#week_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#week_time SlbCommonCertPinningCandidateListFeedbackOptInA#week_time}
   */
   readonly weekTime?: string;
   /**
   * Every week
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#weekly SlbCommonCertPinningCandidateListFeedbackOptInA#weekly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#weekly SlbCommonCertPinningCandidateListFeedbackOptInA#weekly}
   */
   readonly weekly?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in thunder_slb_common_cert_pinning_candidate_list_feedback_opt_in}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in thunder_slb_common_cert_pinning_candidate_list_feedback_opt_in}
 */
 export class SlbCommonCertPinningCandidateListFeedbackOptInA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class SlbCommonCertPinningCandidateListFeedbackOptInA extends cdktf.Terra
   * Generates CDKTF code for importing a SlbCommonCertPinningCandidateListFeedbackOptInA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbCommonCertPinningCandidateListFeedbackOptInA to import
-  * @param importFromId The id of the existing SlbCommonCertPinningCandidateListFeedbackOptInA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbCommonCertPinningCandidateListFeedbackOptInA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbCommonCertPinningCandidateListFeedbackOptInA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class SlbCommonCertPinningCandidateListFeedbackOptInA extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in thunder_slb_common_cert_pinning_candidate_list_feedback_opt_in} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_common_cert_pinning_candidate_list_feedback_opt_in thunder_slb_common_cert_pinning_candidate_list_feedback_opt_in} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class SlbCommonCertPinningCandidateListFeedbackOptInA extends cdktf.Terra
       terraformResourceType: 'thunder_slb_common_cert_pinning_candidate_list_feedback_opt_in',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

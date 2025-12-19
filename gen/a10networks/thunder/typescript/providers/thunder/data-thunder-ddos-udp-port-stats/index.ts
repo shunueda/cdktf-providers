@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosUdpPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#id DataThunderDdosUdpPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#id DataThunderDdosUdpPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosUdpPortStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#stats DataThunderDdosUdpPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#stats DataThunderDdosUdpPortStats#stats}
   */
   readonly stats?: DataThunderDdosUdpPortStatsStats;
 }
@@ -25,625 +25,625 @@ export interface DataThunderDdosUdpPortStatsStats {
   /**
   * Dst Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#bl DataThunderDdosUdpPortStats#bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#bl DataThunderDdosUdpPortStats#bl}
   */
   readonly bl?: number;
   /**
   * UDP Conn Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#conn_prate_excd DataThunderDdosUdpPortStats#conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#conn_prate_excd DataThunderDdosUdpPortStats#conn_prate_excd}
   */
   readonly connPrateExcd?: number;
   /**
   * Dst Hardware Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#dst_hw_drop DataThunderDdosUdpPortStats#dst_hw_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#dst_hw_drop DataThunderDdosUdpPortStats#dst_hw_drop}
   */
   readonly dstHwDrop?: number;
   /**
   * Exceed Action: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_action_drop DataThunderDdosUdpPortStats#exceed_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_action_drop DataThunderDdosUdpPortStats#exceed_action_drop}
   */
   readonly exceedActionDrop?: number;
   /**
   * Exceed Action: Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_action_tunnel DataThunderDdosUdpPortStats#exceed_action_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_action_tunnel DataThunderDdosUdpPortStats#exceed_action_tunnel}
   */
   readonly exceedActionTunnel?: number;
   /**
   * Src KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_drop_brate_src DataThunderDdosUdpPortStats#exceed_drop_brate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_drop_brate_src DataThunderDdosUdpPortStats#exceed_drop_brate_src}
   */
   readonly exceedDropBrateSrc?: number;
   /**
   * Src KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_drop_brate_src_pkt DataThunderDdosUdpPortStats#exceed_drop_brate_src_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_drop_brate_src_pkt DataThunderDdosUdpPortStats#exceed_drop_brate_src_pkt}
   */
   readonly exceedDropBrateSrcPkt?: number;
   /**
   * Src Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_drop_climit_src DataThunderDdosUdpPortStats#exceed_drop_climit_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_drop_climit_src DataThunderDdosUdpPortStats#exceed_drop_climit_src}
   */
   readonly exceedDropClimitSrc?: number;
   /**
   * Src Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_drop_crate_src DataThunderDdosUdpPortStats#exceed_drop_crate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_drop_crate_src DataThunderDdosUdpPortStats#exceed_drop_crate_src}
   */
   readonly exceedDropCrateSrc?: number;
   /**
   * Src Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#exceed_drop_prate_src DataThunderDdosUdpPortStats#exceed_drop_prate_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#exceed_drop_prate_src DataThunderDdosUdpPortStats#exceed_drop_prate_src}
   */
   readonly exceedDropPrateSrc?: number;
   /**
   * Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter1_match DataThunderDdosUdpPortStats#filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter1_match DataThunderDdosUdpPortStats#filter1_match}
   */
   readonly filter1Match?: number;
   /**
   * Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter2_match DataThunderDdosUdpPortStats#filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter2_match DataThunderDdosUdpPortStats#filter2_match}
   */
   readonly filter2Match?: number;
   /**
   * Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter3_match DataThunderDdosUdpPortStats#filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter3_match DataThunderDdosUdpPortStats#filter3_match}
   */
   readonly filter3Match?: number;
   /**
   * Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter4_match DataThunderDdosUdpPortStats#filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter4_match DataThunderDdosUdpPortStats#filter4_match}
   */
   readonly filter4Match?: number;
   /**
   * Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter5_match DataThunderDdosUdpPortStats#filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter5_match DataThunderDdosUdpPortStats#filter5_match}
   */
   readonly filter5Match?: number;
   /**
   * Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_action_blacklist DataThunderDdosUdpPortStats#filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_action_blacklist DataThunderDdosUdpPortStats#filter_action_blacklist}
   */
   readonly filterActionBlacklist?: number;
   /**
   * Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_action_default_pass DataThunderDdosUdpPortStats#filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_action_default_pass DataThunderDdosUdpPortStats#filter_action_default_pass}
   */
   readonly filterActionDefaultPass?: number;
   /**
   * Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_action_drop DataThunderDdosUdpPortStats#filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_action_drop DataThunderDdosUdpPortStats#filter_action_drop}
   */
   readonly filterActionDrop?: number;
   /**
   * Filter Action Whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_action_whitelist DataThunderDdosUdpPortStats#filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_action_whitelist DataThunderDdosUdpPortStats#filter_action_whitelist}
   */
   readonly filterActionWhitelist?: number;
   /**
   * Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_auth_fail DataThunderDdosUdpPortStats#filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_auth_fail DataThunderDdosUdpPortStats#filter_auth_fail}
   */
   readonly filterAuthFail?: number;
   /**
   * Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_none_match DataThunderDdosUdpPortStats#filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_none_match DataThunderDdosUdpPortStats#filter_none_match}
   */
   readonly filterNoneMatch?: number;
   /**
   * Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#filter_total_not_match DataThunderDdosUdpPortStats#filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#filter_total_not_match DataThunderDdosUdpPortStats#filter_total_not_match}
   */
   readonly filterTotalNotMatch?: number;
   /**
   * Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#frag_drop DataThunderDdosUdpPortStats#frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#frag_drop DataThunderDdosUdpPortStats#frag_drop}
   */
   readonly fragDrop?: number;
   /**
   * Fragmented Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#frag_rcvd DataThunderDdosUdpPortStats#frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#frag_rcvd DataThunderDdosUdpPortStats#frag_rcvd}
   */
   readonly fragRcvd?: number;
   /**
   * Fragmented Packets Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#frag_timeout DataThunderDdosUdpPortStats#frag_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#frag_timeout DataThunderDdosUdpPortStats#frag_timeout}
   */
   readonly fragTimeout?: number;
   /**
   * NTP Monlist Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#ntp_monlist_req DataThunderDdosUdpPortStats#ntp_monlist_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#ntp_monlist_req DataThunderDdosUdpPortStats#ntp_monlist_req}
   */
   readonly ntpMonlistReq?: number;
   /**
   * NTP Monlist Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#ntp_monlist_resp DataThunderDdosUdpPortStats#ntp_monlist_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#ntp_monlist_resp DataThunderDdosUdpPortStats#ntp_monlist_resp}
   */
   readonly ntpMonlistResp?: number;
   /**
   * Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes DataThunderDdosUdpPortStats#outbound_port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes DataThunderDdosUdpPortStats#outbound_port_bytes}
   */
   readonly outboundPortBytes?: number;
   /**
   * Outbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes_drop DataThunderDdosUdpPortStats#outbound_port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes_drop DataThunderDdosUdpPortStats#outbound_port_bytes_drop}
   */
   readonly outboundPortBytesDrop?: number;
   /**
   * Outbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes_sent DataThunderDdosUdpPortStats#outbound_port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_bytes_sent DataThunderDdosUdpPortStats#outbound_port_bytes_sent}
   */
   readonly outboundPortBytesSent?: number;
   /**
   * Outbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_drop DataThunderDdosUdpPortStats#outbound_port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_drop DataThunderDdosUdpPortStats#outbound_port_drop}
   */
   readonly outboundPortDrop?: number;
   /**
   * Outbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_pkt_sent DataThunderDdosUdpPortStats#outbound_port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_pkt_sent DataThunderDdosUdpPortStats#outbound_port_pkt_sent}
   */
   readonly outboundPortPktSent?: number;
   /**
   * Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#outbound_port_rcvd DataThunderDdosUdpPortStats#outbound_port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#outbound_port_rcvd DataThunderDdosUdpPortStats#outbound_port_rcvd}
   */
   readonly outboundPortRcvd?: number;
   /**
   * Extracted Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter1_match DataThunderDdosUdpPortStats#pattern_filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter1_match DataThunderDdosUdpPortStats#pattern_filter1_match}
   */
   readonly patternFilter1Match?: number;
   /**
   * Extracted Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter2_match DataThunderDdosUdpPortStats#pattern_filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter2_match DataThunderDdosUdpPortStats#pattern_filter2_match}
   */
   readonly patternFilter2Match?: number;
   /**
   * Extracted Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter3_match DataThunderDdosUdpPortStats#pattern_filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter3_match DataThunderDdosUdpPortStats#pattern_filter3_match}
   */
   readonly patternFilter3Match?: number;
   /**
   * Extracted Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter4_match DataThunderDdosUdpPortStats#pattern_filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter4_match DataThunderDdosUdpPortStats#pattern_filter4_match}
   */
   readonly patternFilter4Match?: number;
   /**
   * Extracted Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter5_match DataThunderDdosUdpPortStats#pattern_filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter5_match DataThunderDdosUdpPortStats#pattern_filter5_match}
   */
   readonly patternFilter5Match?: number;
   /**
   * Extracted Filter Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_filter_drop DataThunderDdosUdpPortStats#pattern_filter_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_filter_drop DataThunderDdosUdpPortStats#pattern_filter_drop}
   */
   readonly patternFilterDrop?: number;
   /**
   * Pattern Recognition: Pattern Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_not_found DataThunderDdosUdpPortStats#pattern_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_not_found DataThunderDdosUdpPortStats#pattern_not_found}
   */
   readonly patternNotFound?: number;
   /**
   * Pattern Recognition: Exceptions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_recognition_generic_error DataThunderDdosUdpPortStats#pattern_recognition_generic_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_recognition_generic_error DataThunderDdosUdpPortStats#pattern_recognition_generic_error}
   */
   readonly patternRecognitionGenericError?: number;
   /**
   * Pattern Recognition: Pattern Change Detected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_recognition_pattern_changed DataThunderDdosUdpPortStats#pattern_recognition_pattern_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_recognition_pattern_changed DataThunderDdosUdpPortStats#pattern_recognition_pattern_changed}
   */
   readonly patternRecognitionPatternChanged?: number;
   /**
   * Pattern Recognition: Engine Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_recognition_proceeded DataThunderDdosUdpPortStats#pattern_recognition_proceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_recognition_proceeded DataThunderDdosUdpPortStats#pattern_recognition_proceeded}
   */
   readonly patternRecognitionProceeded?: number;
   /**
   * Pattern Recognition: Sampling Started
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#pattern_recognition_sampling_started DataThunderDdosUdpPortStats#pattern_recognition_sampling_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#pattern_recognition_sampling_started DataThunderDdosUdpPortStats#pattern_recognition_sampling_started}
   */
   readonly patternRecognitionSamplingStarted?: number;
   /**
   * UDP Payload Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#payload_too_big DataThunderDdosUdpPortStats#payload_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#payload_too_big DataThunderDdosUdpPortStats#payload_too_big}
   */
   readonly payloadTooBig?: number;
   /**
   * UDP Payload Too Small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#payload_too_small DataThunderDdosUdpPortStats#payload_too_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#payload_too_small DataThunderDdosUdpPortStats#payload_too_small}
   */
   readonly payloadTooSmall?: number;
   /**
   * Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_bytes DataThunderDdosUdpPortStats#port_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_bytes DataThunderDdosUdpPortStats#port_bytes}
   */
   readonly portBytes?: number;
   /**
   * Inbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_bytes_drop DataThunderDdosUdpPortStats#port_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_bytes_drop DataThunderDdosUdpPortStats#port_bytes_drop}
   */
   readonly portBytesDrop?: number;
   /**
   * Inbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_bytes_sent DataThunderDdosUdpPortStats#port_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_bytes_sent DataThunderDdosUdpPortStats#port_bytes_sent}
   */
   readonly portBytesSent?: number;
   /**
   * Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_conn_limm_exceed DataThunderDdosUdpPortStats#port_conn_limm_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_conn_limm_exceed DataThunderDdosUdpPortStats#port_conn_limm_exceed}
   */
   readonly portConnLimmExceed?: number;
   /**
   * Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_conn_rate_exceed DataThunderDdosUdpPortStats#port_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_conn_rate_exceed DataThunderDdosUdpPortStats#port_conn_rate_exceed}
   */
   readonly portConnRateExceed?: number;
   /**
   * Inbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_drop DataThunderDdosUdpPortStats#port_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_drop DataThunderDdosUdpPortStats#port_drop}
   */
   readonly portDrop?: number;
   /**
   * KiBit Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_kbit_rate_exceed DataThunderDdosUdpPortStats#port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_kbit_rate_exceed DataThunderDdosUdpPortStats#port_kbit_rate_exceed}
   */
   readonly portKbitRateExceed?: number;
   /**
   * KiBit Rate Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_kbit_rate_exceed_pkt DataThunderDdosUdpPortStats#port_kbit_rate_exceed_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_kbit_rate_exceed_pkt DataThunderDdosUdpPortStats#port_kbit_rate_exceed_pkt}
   */
   readonly portKbitRateExceedPkt?: number;
   /**
   * Packet Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_pkt_rate_exceed DataThunderDdosUdpPortStats#port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_pkt_rate_exceed DataThunderDdosUdpPortStats#port_pkt_rate_exceed}
   */
   readonly portPktRateExceed?: number;
   /**
   * Inbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_pkt_sent DataThunderDdosUdpPortStats#port_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_pkt_sent DataThunderDdosUdpPortStats#port_pkt_sent}
   */
   readonly portPktSent?: number;
   /**
   * Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_rcvd DataThunderDdosUdpPortStats#port_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_rcvd DataThunderDdosUdpPortStats#port_rcvd}
   */
   readonly portRcvd?: number;
   /**
   * Src Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#port_src_bl DataThunderDdosUdpPortStats#port_src_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#port_src_bl DataThunderDdosUdpPortStats#port_src_bl}
   */
   readonly portSrcBl?: number;
   /**
   * Sessions Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sess_aged DataThunderDdosUdpPortStats#sess_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sess_aged DataThunderDdosUdpPortStats#sess_aged}
   */
   readonly sessAged?: number;
   /**
   * Session Create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sess_create DataThunderDdosUdpPortStats#sess_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sess_create DataThunderDdosUdpPortStats#sess_create}
   */
   readonly sessCreate?: number;
   /**
   * Inbound Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sess_create_inbound DataThunderDdosUdpPortStats#sess_create_inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sess_create_inbound DataThunderDdosUdpPortStats#sess_create_inbound}
   */
   readonly sessCreateInbound?: number;
   /**
   * Outbound Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sess_create_outbound DataThunderDdosUdpPortStats#sess_create_outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sess_create_outbound DataThunderDdosUdpPortStats#sess_create_outbound}
   */
   readonly sessCreateOutbound?: number;
   /**
   * Sflow External Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sflow_external_packets_sent DataThunderDdosUdpPortStats#sflow_external_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sflow_external_packets_sent DataThunderDdosUdpPortStats#sflow_external_packets_sent}
   */
   readonly sflowExternalPacketsSent?: number;
   /**
   * Sflow External Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sflow_external_samples_packed DataThunderDdosUdpPortStats#sflow_external_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sflow_external_samples_packed DataThunderDdosUdpPortStats#sflow_external_samples_packed}
   */
   readonly sflowExternalSamplesPacked?: number;
   /**
   * Sflow Internal Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sflow_internal_packets_sent DataThunderDdosUdpPortStats#sflow_internal_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sflow_internal_packets_sent DataThunderDdosUdpPortStats#sflow_internal_packets_sent}
   */
   readonly sflowInternalPacketsSent?: number;
   /**
   * Sflow Internal Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#sflow_internal_samples_packed DataThunderDdosUdpPortStats#sflow_internal_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#sflow_internal_samples_packed DataThunderDdosUdpPortStats#sflow_internal_samples_packed}
   */
   readonly sflowInternalSamplesPacked?: number;
   /**
   * Source NAT Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#snat_fail DataThunderDdosUdpPortStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#snat_fail DataThunderDdosUdpPortStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * UDP Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#spoof_detect_fail DataThunderDdosUdpPortStats#spoof_detect_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#spoof_detect_fail DataThunderDdosUdpPortStats#spoof_detect_fail}
   */
   readonly spoofDetectFail?: number;
   /**
   * Src UDP Conn Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_conn_pkt_rate_excd DataThunderDdosUdpPortStats#src_conn_pkt_rate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_conn_pkt_rate_excd DataThunderDdosUdpPortStats#src_conn_pkt_rate_excd}
   */
   readonly srcConnPktRateExcd?: number;
   /**
   * Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_drop DataThunderDdosUdpPortStats#src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_drop DataThunderDdosUdpPortStats#src_drop}
   */
   readonly srcDrop?: number;
   /**
   * Src Filter1 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter1_match DataThunderDdosUdpPortStats#src_filter1_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter1_match DataThunderDdosUdpPortStats#src_filter1_match}
   */
   readonly srcFilter1Match?: number;
   /**
   * Src Filter2 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter2_match DataThunderDdosUdpPortStats#src_filter2_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter2_match DataThunderDdosUdpPortStats#src_filter2_match}
   */
   readonly srcFilter2Match?: number;
   /**
   * Src Filter3 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter3_match DataThunderDdosUdpPortStats#src_filter3_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter3_match DataThunderDdosUdpPortStats#src_filter3_match}
   */
   readonly srcFilter3Match?: number;
   /**
   * Src Filter4 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter4_match DataThunderDdosUdpPortStats#src_filter4_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter4_match DataThunderDdosUdpPortStats#src_filter4_match}
   */
   readonly srcFilter4Match?: number;
   /**
   * Src Filter5 Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter5_match DataThunderDdosUdpPortStats#src_filter5_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter5_match DataThunderDdosUdpPortStats#src_filter5_match}
   */
   readonly srcFilter5Match?: number;
   /**
   * Src Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_action_blacklist DataThunderDdosUdpPortStats#src_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_action_blacklist DataThunderDdosUdpPortStats#src_filter_action_blacklist}
   */
   readonly srcFilterActionBlacklist?: number;
   /**
   * Src Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_action_default_pass DataThunderDdosUdpPortStats#src_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_action_default_pass DataThunderDdosUdpPortStats#src_filter_action_default_pass}
   */
   readonly srcFilterActionDefaultPass?: number;
   /**
   * Src Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_action_drop DataThunderDdosUdpPortStats#src_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_action_drop DataThunderDdosUdpPortStats#src_filter_action_drop}
   */
   readonly srcFilterActionDrop?: number;
   /**
   * Src Filter Action Whitelist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_action_whitelist DataThunderDdosUdpPortStats#src_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_action_whitelist DataThunderDdosUdpPortStats#src_filter_action_whitelist}
   */
   readonly srcFilterActionWhitelist?: number;
   /**
   * Src Filter Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_auth_fail DataThunderDdosUdpPortStats#src_filter_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_auth_fail DataThunderDdosUdpPortStats#src_filter_auth_fail}
   */
   readonly srcFilterAuthFail?: number;
   /**
   * Src Filter No Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_none_match DataThunderDdosUdpPortStats#src_filter_none_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_none_match DataThunderDdosUdpPortStats#src_filter_none_match}
   */
   readonly srcFilterNoneMatch?: number;
   /**
   * Src Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_filter_total_not_match DataThunderDdosUdpPortStats#src_filter_total_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_filter_total_not_match DataThunderDdosUdpPortStats#src_filter_total_not_match}
   */
   readonly srcFilterTotalNotMatch?: number;
   /**
   * Src Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_frag_drop DataThunderDdosUdpPortStats#src_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_frag_drop DataThunderDdosUdpPortStats#src_frag_drop}
   */
   readonly srcFragDrop?: number;
   /**
   * Src NTP Monlist Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_ntp_monlist_req DataThunderDdosUdpPortStats#src_ntp_monlist_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_ntp_monlist_req DataThunderDdosUdpPortStats#src_ntp_monlist_req}
   */
   readonly srcNtpMonlistReq?: number;
   /**
   * Src NTP Monlist Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_ntp_monlist_resp DataThunderDdosUdpPortStats#src_ntp_monlist_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_ntp_monlist_resp DataThunderDdosUdpPortStats#src_ntp_monlist_resp}
   */
   readonly srcNtpMonlistResp?: number;
   /**
   * Src UDP Payload Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_payload_too_big DataThunderDdosUdpPortStats#src_payload_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_payload_too_big DataThunderDdosUdpPortStats#src_payload_too_big}
   */
   readonly srcPayloadTooBig?: number;
   /**
   * Src UDP Payload Too Small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_payload_too_small DataThunderDdosUdpPortStats#src_payload_too_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_payload_too_small DataThunderDdosUdpPortStats#src_payload_too_small}
   */
   readonly srcPayloadTooSmall?: number;
   /**
   * Src UDP Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_udp_auth_drop DataThunderDdosUdpPortStats#src_udp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_udp_auth_drop DataThunderDdosUdpPortStats#src_udp_auth_drop}
   */
   readonly srcUdpAuthDrop?: number;
   /**
   * Src UDP Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_udp_auth_timeout DataThunderDdosUdpPortStats#src_udp_auth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_udp_auth_timeout DataThunderDdosUdpPortStats#src_udp_auth_timeout}
   */
   readonly srcUdpAuthTimeout?: number;
   /**
   * Src UDP Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_udp_retry_gap_drop DataThunderDdosUdpPortStats#src_udp_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_udp_retry_gap_drop DataThunderDdosUdpPortStats#src_udp_retry_gap_drop}
   */
   readonly srcUdpRetryGapDrop?: number;
   /**
   * Src UDP Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_udp_retry_init DataThunderDdosUdpPortStats#src_udp_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_udp_retry_init DataThunderDdosUdpPortStats#src_udp_retry_init}
   */
   readonly srcUdpRetryInit?: number;
   /**
   * Src UDP Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_udp_retry_pass DataThunderDdosUdpPortStats#src_udp_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_udp_retry_pass DataThunderDdosUdpPortStats#src_udp_retry_pass}
   */
   readonly srcUdpRetryPass?: number;
   /**
   * Src UDP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#src_well_known_port DataThunderDdosUdpPortStats#src_well_known_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#src_well_known_port DataThunderDdosUdpPortStats#src_well_known_port}
   */
   readonly srcWellKnownPort?: number;
   /**
   * Token Authentication Current Salt Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_curr_salt_matched DataThunderDdosUdpPortStats#token_authentication_curr_salt_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_curr_salt_matched DataThunderDdosUdpPortStats#token_authentication_curr_salt_matched}
   */
   readonly tokenAuthenticationCurrSaltMatched?: number;
   /**
   * Token Authentication Invalid Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_invalid DataThunderDdosUdpPortStats#token_authentication_invalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_invalid DataThunderDdosUdpPortStats#token_authentication_invalid}
   */
   readonly tokenAuthenticationInvalid?: number;
   /**
   * Token Authentication Mismatched Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_mismatched DataThunderDdosUdpPortStats#token_authentication_mismatched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_mismatched DataThunderDdosUdpPortStats#token_authentication_mismatched}
   */
   readonly tokenAuthenticationMismatched?: number;
   /**
   * Token Authentication Previous Salt Matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_prev_salt_matched DataThunderDdosUdpPortStats#token_authentication_prev_salt_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_prev_salt_matched DataThunderDdosUdpPortStats#token_authentication_prev_salt_matched}
   */
   readonly tokenAuthenticationPrevSaltMatched?: number;
   /**
   * Token Authentication Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_session_created DataThunderDdosUdpPortStats#token_authentication_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_session_created DataThunderDdosUdpPortStats#token_authentication_session_created}
   */
   readonly tokenAuthenticationSessionCreated?: number;
   /**
   * Token Authentication Session Created Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#token_authentication_session_created_fail DataThunderDdosUdpPortStats#token_authentication_session_created_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#token_authentication_session_created_fail DataThunderDdosUdpPortStats#token_authentication_session_created_fail}
   */
   readonly tokenAuthenticationSessionCreatedFail?: number;
   /**
   * UDP Auth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#udp_auth_drop DataThunderDdosUdpPortStats#udp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#udp_auth_drop DataThunderDdosUdpPortStats#udp_auth_drop}
   */
   readonly udpAuthDrop?: number;
   /**
   * UDP Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#udp_retry_gap_drop DataThunderDdosUdpPortStats#udp_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#udp_retry_gap_drop DataThunderDdosUdpPortStats#udp_retry_gap_drop}
   */
   readonly udpRetryGapDrop?: number;
   /**
   * UDP Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#udp_retry_init DataThunderDdosUdpPortStats#udp_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#udp_retry_init DataThunderDdosUdpPortStats#udp_retry_init}
   */
   readonly udpRetryInit?: number;
   /**
   * UDP Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#udp_retry_pass DataThunderDdosUdpPortStats#udp_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#udp_retry_pass DataThunderDdosUdpPortStats#udp_retry_pass}
   */
   readonly udpRetryPass?: number;
   /**
   * UDP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#wellknown_sport_drop DataThunderDdosUdpPortStats#wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#wellknown_sport_drop DataThunderDdosUdpPortStats#wellknown_sport_drop}
   */
   readonly wellknownSportDrop?: number;
 }
@@ -3714,7 +3714,7 @@ export class DataThunderDdosUdpPortStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats thunder_ddos_udp_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats thunder_ddos_udp_port_stats}
 */
 export class DataThunderDdosUdpPortStats extends cdktf.TerraformDataSource {
 
@@ -3730,7 +3730,7 @@ export class DataThunderDdosUdpPortStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosUdpPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosUdpPortStats to import
-  * @param importFromId The id of the existing DataThunderDdosUdpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosUdpPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosUdpPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3742,7 +3742,7 @@ export class DataThunderDdosUdpPortStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_udp_port_stats thunder_ddos_udp_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_udp_port_stats thunder_ddos_udp_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3753,8 +3753,8 @@ export class DataThunderDdosUdpPortStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_udp_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

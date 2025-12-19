@@ -1,3 +1,3 @@
 # `thunder_snmp_server_SNMPv1_v2c_user_oid`
 
-Refer to the Terraform Registry for docs: [`thunder_snmp_server_SNMPv1_v2c_user_oid`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_snm_pv1_v2c_user_oid).
+Refer to the Terraform Registry for docs: [`thunder_snmp_server_SNMPv1_v2c_user_oid`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_snm_pv1_v2c_user_oid).

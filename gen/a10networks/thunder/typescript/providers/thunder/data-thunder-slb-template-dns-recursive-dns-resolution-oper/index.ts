@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbTemplateDnsRecursiveDnsResolutionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#id DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#id}
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#dns_name DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#dns_name}
+  */
+  readonly dnsName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#id DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#name DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#name}
-  */
-  readonly name: string;
-  /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#oper DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#oper DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#oper}
   */
   readonly oper?: DataThunderSlbTemplateDnsRecursiveDnsResolutionOperOper;
 }
 export interface DataThunderSlbTemplateDnsRecursiveDnsResolutionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_down_retries DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_down_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_down_retries DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_down_retries}
   */
   readonly gwhcDownRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_status DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_status DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_status}
   */
   readonly gwhcStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_up_retries DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_up_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#gwhc_up_retries DataThunderSlbTemplateDnsRecursiveDnsResolutionOper#gwhc_up_retries}
   */
   readonly gwhcUpRetries?: number;
 }
@@ -179,7 +179,7 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOperOperOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper thunder_slb_template_dns_recursive_dns_resolution_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper thunder_slb_template_dns_recursive_dns_resolution_oper}
 */
 export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
   * Generates CDKTF code for importing a DataThunderSlbTemplateDnsRecursiveDnsResolutionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbTemplateDnsRecursiveDnsResolutionOper to import
-  * @param importFromId The id of the existing DataThunderSlbTemplateDnsRecursiveDnsResolutionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbTemplateDnsRecursiveDnsResolutionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbTemplateDnsRecursiveDnsResolutionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper thunder_slb_template_dns_recursive_dns_resolution_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_dns_recursive_dns_resolution_oper thunder_slb_template_dns_recursive_dns_resolution_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
       terraformResourceType: 'thunder_slb_template_dns_recursive_dns_resolution_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -229,14 +229,27 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._id = config.id;
-    this._name = config.name;
     this._oper.internalValue = config.oper;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -252,19 +265,6 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // oper - computed: false, optional: true, required: false
@@ -289,22 +289,22 @@ export class DataThunderSlbTemplateDnsRecursiveDnsResolutionOper extends cdktf.T
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       oper: dataThunderSlbTemplateDnsRecursiveDnsResolutionOperOperToTerraform(this._oper.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

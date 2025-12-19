@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,527 +10,527 @@ export interface SlbTemplateClientSslConfig extends cdktf.TerraformMetaArguments
   /**
   * Forward proxy bypass if ad-group matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ad_group_list SlbTemplateClientSsl#ad_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ad_group_list SlbTemplateClientSsl#ad_group_list}
   */
   readonly adGroupList?: string;
   /**
   * 'fatal': Log fatal alerts;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#alert_type SlbTemplateClientSsl#alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#alert_type SlbTemplateClientSsl#alert_type}
   */
   readonly alertType?: string;
   /**
   * Specify authorization LDAP service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auth_sg SlbTemplateClientSsl#auth_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#auth_sg SlbTemplateClientSsl#auth_sg}
   */
   readonly authSg?: string;
   /**
   * Use Subject DN as LDAP search base DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auth_sg_dn SlbTemplateClientSsl#auth_sg_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#auth_sg_dn SlbTemplateClientSsl#auth_sg_dn}
   */
   readonly authSgDn?: number;
   /**
   * Specify LDAP search filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auth_sg_filter SlbTemplateClientSsl#auth_sg_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#auth_sg_filter SlbTemplateClientSsl#auth_sg_filter}
   */
   readonly authSgFilter?: string;
   /**
   * Specify the Username Field in the Client Certificate(If multi-fields are specificed, prior one has higher priority)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auth_username SlbTemplateClientSsl#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#auth_username SlbTemplateClientSsl#auth_username}
   */
   readonly authUsername?: string;
   /**
   * Specify attribute name of username for client SSL authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auth_username_attribute SlbTemplateClientSsl#auth_username_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#auth_username_attribute SlbTemplateClientSsl#auth_username_attribute}
   */
   readonly authUsernameAttribute?: string;
   /**
   * Specify authorization LDAP server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#authen_name SlbTemplateClientSsl#authen_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#authen_name SlbTemplateClientSsl#authen_name}
   */
   readonly authenName?: string;
   /**
   * Specify LDAP server for client SSL authorizaiton
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#authorization SlbTemplateClientSsl#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#authorization SlbTemplateClientSsl#authorization}
   */
   readonly authorization?: number;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_issuer_class_list_name SlbTemplateClientSsl#bypass_cert_issuer_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_issuer_class_list_name SlbTemplateClientSsl#bypass_cert_issuer_class_list_name}
   */
   readonly bypassCertIssuerClassListName?: string;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_san_class_list_name SlbTemplateClientSsl#bypass_cert_san_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_san_class_list_name SlbTemplateClientSsl#bypass_cert_san_class_list_name}
   */
   readonly bypassCertSanClassListName?: string;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_subject_class_list_name SlbTemplateClientSsl#bypass_cert_subject_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_subject_class_list_name SlbTemplateClientSsl#bypass_cert_subject_class_list_name}
   */
   readonly bypassCertSubjectClassListName?: string;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cache_persistence_list_name SlbTemplateClientSsl#cache_persistence_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cache_persistence_list_name SlbTemplateClientSsl#cache_persistence_list_name}
   */
   readonly cachePersistenceListName?: string;
   /**
   * Case insensitive forward proxy bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#case_insensitive SlbTemplateClientSsl#case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#case_insensitive SlbTemplateClientSsl#case_insensitive}
   */
   readonly caseInsensitive?: number;
   /**
   * Forward proxy bypass if SNI string is contained in central updated cert-pinning-candidate list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#central_cert_pin_list SlbTemplateClientSsl#central_cert_pin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#central_cert_pin_list SlbTemplateClientSsl#central_cert_pin_list}
   */
   readonly centralCertPinList?: number;
   /**
   * 'bypass': bypass SSLi processing; 'continue': continue the connection; 'drop': close the connection; 'block': block the connection with a warning page;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cert_revoke_action SlbTemplateClientSsl#cert_revoke_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cert_revoke_action SlbTemplateClientSsl#cert_revoke_action}
   */
   readonly certRevokeAction?: string;
   /**
   * 'bypass': bypass SSLi processing; 'continue': continue the connection; 'drop': close the connection; 'block': block the connection with a warning page;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cert_unknown_action SlbTemplateClientSsl#cert_unknown_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cert_unknown_action SlbTemplateClientSsl#cert_unknown_action}
   */
   readonly certUnknownAction?: string;
   /**
   * Chain Certificate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#chain_cert SlbTemplateClientSsl#chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#chain_cert SlbTemplateClientSsl#chain_cert}
   */
   readonly chainCert?: string;
   /**
   * Chain Certificate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#chain_cert_shared_str SlbTemplateClientSsl#chain_cert_shared_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#chain_cert_shared_str SlbTemplateClientSsl#chain_cert_shared_str}
   */
   readonly chainCertSharedStr?: string;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#class_list_name SlbTemplateClientSsl#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#class_list_name SlbTemplateClientSsl#class_list_name}
   */
   readonly classListName?: string;
   /**
   * Case insensitive forward proxy client auth bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_case_insensitive SlbTemplateClientSsl#client_auth_case_insensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_case_insensitive SlbTemplateClientSsl#client_auth_case_insensitive}
   */
   readonly clientAuthCaseInsensitive?: number;
   /**
   * Forward proxy client auth bypass if SNI string matches class-list (Class List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_class_list SlbTemplateClientSsl#client_auth_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_class_list SlbTemplateClientSsl#client_auth_class_list}
   */
   readonly clientAuthClassList?: string;
   /**
   * 'Ignore': Don't request client certificate; 'Require': Require client certificate; 'Request': Request client certificate;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_certificate SlbTemplateClientSsl#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_certificate SlbTemplateClientSsl#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * Send close notification when terminate connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#close_notify SlbTemplateClientSsl#close_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#close_notify SlbTemplateClientSsl#close_notify}
   */
   readonly closeNotify?: number;
   /**
   * Lower TLS/SSL version can be downgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#dgversion SlbTemplateClientSsl#dgversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#dgversion SlbTemplateClientSsl#dgversion}
   */
   readonly dgversion?: number;
   /**
   * '1024': 1024; '1024-dsa': 1024-dsa; '2048': 2048;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#dh_type SlbTemplateClientSsl#dh_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#dh_type SlbTemplateClientSsl#dh_type}
   */
   readonly dhType?: string;
   /**
   * Let backend server does SSL client authentication directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#direct_client_server_auth SlbTemplateClientSsl#direct_client_server_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#direct_client_server_auth SlbTemplateClientSsl#direct_client_server_auth}
   */
   readonly directClientServerAuth?: number;
   /**
   * Reject Client requests for SSL version 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#disable_sslv3 SlbTemplateClientSsl#disable_sslv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#disable_sslv3 SlbTemplateClientSsl#disable_sslv3}
   */
   readonly disableSslv3?: number;
   /**
   * Enable TLS 1.3 early data (0-RTT)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#early_data SlbTemplateClientSsl#early_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#early_data SlbTemplateClientSsl#early_data}
   */
   readonly earlyData?: number;
   /**
   * Enable SSLi FTP over TLS support at which port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#enable_ssli_ftp_alg SlbTemplateClientSsl#enable_ssli_ftp_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#enable_ssli_ftp_alg SlbTemplateClientSsl#enable_ssli_ftp_alg}
   */
   readonly enableSsliFtpAlg?: number;
   /**
   * Enable TLS alert logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#enable_tls_alert_logging SlbTemplateClientSsl#enable_tls_alert_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#enable_tls_alert_logging SlbTemplateClientSsl#enable_tls_alert_logging}
   */
   readonly enableTlsAlertLogging?: number;
   /**
   * Exceptions to forward proxy bypass if ad-group matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_ad_group_list SlbTemplateClientSsl#exception_ad_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_ad_group_list SlbTemplateClientSsl#exception_ad_group_list}
   */
   readonly exceptionAdGroupList?: string;
   /**
   * Exceptions to forward-proxy-bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_certificate_issuer_cl_name SlbTemplateClientSsl#exception_certificate_issuer_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_certificate_issuer_cl_name SlbTemplateClientSsl#exception_certificate_issuer_cl_name}
   */
   readonly exceptionCertificateIssuerClName?: string;
   /**
   * Exceptions to forward-proxy-bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_certificate_san_cl_name SlbTemplateClientSsl#exception_certificate_san_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_certificate_san_cl_name SlbTemplateClientSsl#exception_certificate_san_cl_name}
   */
   readonly exceptionCertificateSanClName?: string;
   /**
   * Exceptions to forward-proxy-bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_certificate_subject_cl_name SlbTemplateClientSsl#exception_certificate_subject_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_certificate_subject_cl_name SlbTemplateClientSsl#exception_certificate_subject_cl_name}
   */
   readonly exceptionCertificateSubjectClName?: string;
   /**
   * Exceptions to forward-proxy-bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_sni_cl_name SlbTemplateClientSsl#exception_sni_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_sni_cl_name SlbTemplateClientSsl#exception_sni_cl_name}
   */
   readonly exceptionSniClName?: string;
   /**
   * Exceptions to forward proxy bypass if user-name matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_user_name_list SlbTemplateClientSsl#exception_user_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_user_name_list SlbTemplateClientSsl#exception_user_name_list}
   */
   readonly exceptionUserNameList?: string;
   /**
   * Certificate lifetime in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#expire_hours SlbTemplateClientSsl#expire_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#expire_hours SlbTemplateClientSsl#expire_hours}
   */
   readonly expireHours?: number;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_passphrase SlbTemplateClientSsl#forward_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_passphrase SlbTemplateClientSsl#forward_passphrase}
   */
   readonly forwardPassphrase?: string;
   /**
   * Forward proxy alternate signing cert and key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_alt_sign SlbTemplateClientSsl#forward_proxy_alt_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_alt_sign SlbTemplateClientSsl#forward_proxy_alt_sign}
   */
   readonly forwardProxyAltSign?: number;
   /**
   * Message to be included on the block page (Message, enclose in quotes if spaces are present)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_block_message SlbTemplateClientSsl#forward_proxy_block_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_block_message SlbTemplateClientSsl#forward_proxy_block_message}
   */
   readonly forwardProxyBlockMessage?: string;
   /**
   * CA Certificate for forward proxy (SSL forward proxy CA Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_ca_cert SlbTemplateClientSsl#forward_proxy_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_ca_cert SlbTemplateClientSsl#forward_proxy_ca_cert}
   */
   readonly forwardProxyCaCert?: string;
   /**
   * CA Private Key for forward proxy (SSL forward proxy CA Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_ca_key SlbTemplateClientSsl#forward_proxy_ca_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_ca_key SlbTemplateClientSsl#forward_proxy_ca_key}
   */
   readonly forwardProxyCaKey?: string;
   /**
   * Certificate cache size limit, default is 524288 (set to 0 for unlimited size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_cache_limit SlbTemplateClientSsl#forward_proxy_cert_cache_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_cache_limit SlbTemplateClientSsl#forward_proxy_cert_cache_limit}
   */
   readonly forwardProxyCertCacheLimit?: number;
   /**
   * Certificate cache timeout, default is 1 hour (seconds, set to 0 for never timeout)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_cache_timeout SlbTemplateClientSsl#forward_proxy_cert_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_cache_timeout SlbTemplateClientSsl#forward_proxy_cert_cache_timeout}
   */
   readonly forwardProxyCertCacheTimeout?: number;
   /**
   * Adjust certificate expiry relative to the time when it is created on the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_expiry SlbTemplateClientSsl#forward_proxy_cert_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_expiry SlbTemplateClientSsl#forward_proxy_cert_expiry}
   */
   readonly forwardProxyCertExpiry?: number;
   /**
   * 'bypass': bypass the connection; 'reset': reset the connection; 'intercept': wait for cert and then inspect the connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_not_ready_action SlbTemplateClientSsl#forward_proxy_cert_not_ready_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_not_ready_action SlbTemplateClientSsl#forward_proxy_cert_not_ready_action}
   */
   readonly forwardProxyCertNotReadyAction?: string;
   /**
   * Action taken if a certificate is irreversibly revoked, bypass SSLi processing by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_revoke_action SlbTemplateClientSsl#forward_proxy_cert_revoke_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_revoke_action SlbTemplateClientSsl#forward_proxy_cert_revoke_action}
   */
   readonly forwardProxyCertRevokeAction?: number;
   /**
   * Action taken if a certificate revocation status is unknown, bypass SSLi processing by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_cert_unknown_action SlbTemplateClientSsl#forward_proxy_cert_unknown_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_cert_unknown_action SlbTemplateClientSsl#forward_proxy_cert_unknown_action}
   */
   readonly forwardProxyCertUnknownAction?: number;
   /**
   * Disable Certificate Revocation List checking for forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_crl_disable SlbTemplateClientSsl#forward_proxy_crl_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_crl_disable SlbTemplateClientSsl#forward_proxy_crl_disable}
   */
   readonly forwardProxyCrlDisable?: number;
   /**
   * Apply a DSCP to decrypted and bypassed traffic (DSCP to apply to decrypted traffic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_decrypted_dscp SlbTemplateClientSsl#forward_proxy_decrypted_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_decrypted_dscp SlbTemplateClientSsl#forward_proxy_decrypted_dscp}
   */
   readonly forwardProxyDecryptedDscp?: number;
   /**
   * DSCP to apply to bypassed traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_decrypted_dscp_bypass SlbTemplateClientSsl#forward_proxy_decrypted_dscp_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_decrypted_dscp_bypass SlbTemplateClientSsl#forward_proxy_decrypted_dscp_bypass}
   */
   readonly forwardProxyDecryptedDscpBypass?: number;
   /**
   * Enable SSL forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_enable SlbTemplateClientSsl#forward_proxy_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_enable SlbTemplateClientSsl#forward_proxy_enable}
   */
   readonly forwardProxyEnable?: number;
   /**
   * Action taken if receiving encrypted server name indication extension in client hello MSG, bypass the connection by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_esni_action SlbTemplateClientSsl#forward_proxy_esni_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_esni_action SlbTemplateClientSsl#forward_proxy_esni_action}
   */
   readonly forwardProxyEsniAction?: number;
   /**
   * Disable Failsafe for SSL forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_failsafe_disable SlbTemplateClientSsl#forward_proxy_failsafe_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_failsafe_disable SlbTemplateClientSsl#forward_proxy_failsafe_disable}
   */
   readonly forwardProxyFailsafeDisable?: number;
   /**
   * Set the time interval to save the hash persistence certs (Interval value, in minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_hash_persistence_interval SlbTemplateClientSsl#forward_proxy_hash_persistence_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_hash_persistence_interval SlbTemplateClientSsl#forward_proxy_hash_persistence_interval}
   */
   readonly forwardProxyHashPersistenceInterval?: number;
   /**
   * Disable SSL forward proxy logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_log_disable SlbTemplateClientSsl#forward_proxy_log_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_log_disable SlbTemplateClientSsl#forward_proxy_log_disable}
   */
   readonly forwardProxyLogDisable?: number;
   /**
   * Action taken if handshake fails due to no shared ciper, close the connection by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_no_shared_cipher_action SlbTemplateClientSsl#forward_proxy_no_shared_cipher_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_no_shared_cipher_action SlbTemplateClientSsl#forward_proxy_no_shared_cipher_action}
   */
   readonly forwardProxyNoSharedCipherAction?: number;
   /**
   * 'intercept': intercept in no SNI case; 'bypass': bypass in no SNI case; 'reset': reset in no SNI case;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_no_sni_action SlbTemplateClientSsl#forward_proxy_no_sni_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_no_sni_action SlbTemplateClientSsl#forward_proxy_no_sni_action}
   */
   readonly forwardProxyNoSniAction?: string;
   /**
   * Disable ocsp-stapling for forward proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_ocsp_disable SlbTemplateClientSsl#forward_proxy_ocsp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_ocsp_disable SlbTemplateClientSsl#forward_proxy_ocsp_disable}
   */
   readonly forwardProxyOcspDisable?: number;
   /**
   * 'no-match-action-inspect': Inspected if not matched; 'no-match-action-drop': Dropped if not matched;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_require_sni_cert_matched SlbTemplateClientSsl#forward_proxy_require_sni_cert_matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_require_sni_cert_matched SlbTemplateClientSsl#forward_proxy_require_sni_cert_matched}
   */
   readonly forwardProxyRequireSniCertMatched?: string;
   /**
   * Redirect connections to pages with self signed certs to a warning page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_selfsign_redir SlbTemplateClientSsl#forward_proxy_selfsign_redir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_selfsign_redir SlbTemplateClientSsl#forward_proxy_selfsign_redir}
   */
   readonly forwardProxySelfsignRedir?: number;
   /**
   * TLS/SSL version, default is TLS1.2 (TLS/SSL version: 31-TLSv1.0, 32-TLSv1.1, 33-TLSv1.2 and 34-TLSv1.3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_ssl_version SlbTemplateClientSsl#forward_proxy_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_ssl_version SlbTemplateClientSsl#forward_proxy_ssl_version}
   */
   readonly forwardProxySslVersion?: number;
   /**
   * Action taken if certificate verification fails, close the connection by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_verify_cert_fail_action SlbTemplateClientSsl#forward_proxy_verify_cert_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_verify_cert_fail_action SlbTemplateClientSsl#forward_proxy_verify_cert_fail_action}
   */
   readonly forwardProxyVerifyCertFailAction?: number;
   /**
   * CA Certificate for forward proxy alternate signing (Certificate name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_alt_cert SlbTemplateClientSsl#fp_alt_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_alt_cert SlbTemplateClientSsl#fp_alt_cert}
   */
   readonly fpAltCert?: string;
   /**
   * Chain Certificate (Chain Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_alt_chain_cert SlbTemplateClientSsl#fp_alt_chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_alt_chain_cert SlbTemplateClientSsl#fp_alt_chain_cert}
   */
   readonly fpAltChainCert?: string;
   /**
   * CA Private Key for forward proxy alternate signing (Key name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_alt_key SlbTemplateClientSsl#fp_alt_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_alt_key SlbTemplateClientSsl#fp_alt_key}
   */
   readonly fpAltKey?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_alt_passphrase SlbTemplateClientSsl#fp_alt_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_alt_passphrase SlbTemplateClientSsl#fp_alt_passphrase}
   */
   readonly fpAltPassphrase?: string;
   /**
   * Alternate CA Certificate and Private Key Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_alt_shared SlbTemplateClientSsl#fp_alt_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_alt_shared SlbTemplateClientSsl#fp_alt_shared}
   */
   readonly fpAltShared?: number;
   /**
   * CA Certificate for forward proxy (SSL forward proxy CA Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_certificate SlbTemplateClientSsl#fp_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_certificate SlbTemplateClientSsl#fp_ca_certificate}
   */
   readonly fpCaCertificate?: string;
   /**
   * CA Private Key Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_certificate_shared SlbTemplateClientSsl#fp_ca_certificate_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_certificate_shared SlbTemplateClientSsl#fp_ca_certificate_shared}
   */
   readonly fpCaCertificateShared?: number;
   /**
   * Chain Certificate (Chain Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_chain_cert SlbTemplateClientSsl#fp_ca_chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_chain_cert SlbTemplateClientSsl#fp_ca_chain_cert}
   */
   readonly fpCaChainCert?: string;
   /**
   * CA Private Key for forward proxy (SSL forward proxy CA Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_key SlbTemplateClientSsl#fp_ca_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_key SlbTemplateClientSsl#fp_ca_key}
   */
   readonly fpCaKey?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_key_passphrase SlbTemplateClientSsl#fp_ca_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_key_passphrase SlbTemplateClientSsl#fp_ca_key_passphrase}
   */
   readonly fpCaKeyPassphrase?: string;
   /**
   * CA Private Key Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_key_shared SlbTemplateClientSsl#fp_ca_key_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_key_shared SlbTemplateClientSsl#fp_ca_key_shared}
   */
   readonly fpCaKeyShared?: number;
   /**
   * CA Certificate Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_ca_shared SlbTemplateClientSsl#fp_ca_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_ca_shared SlbTemplateClientSsl#fp_ca_shared}
   */
   readonly fpCaShared?: number;
   /**
   * CA Issuers (Authority Information Access URI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_ext_aia_ca_issuers SlbTemplateClientSsl#fp_cert_ext_aia_ca_issuers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_ext_aia_ca_issuers SlbTemplateClientSsl#fp_cert_ext_aia_ca_issuers}
   */
   readonly fpCertExtAiaCaIssuers?: string;
   /**
   * OCSP (Authority Information Access URI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_ext_aia_ocsp SlbTemplateClientSsl#fp_cert_ext_aia_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_ext_aia_ocsp SlbTemplateClientSsl#fp_cert_ext_aia_ocsp}
   */
   readonly fpCertExtAiaOcsp?: string;
   /**
   * CRL Distribution Point (CRL Distribution Point URI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_ext_crldp SlbTemplateClientSsl#fp_cert_ext_crldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_ext_crldp SlbTemplateClientSsl#fp_cert_ext_crldp}
   */
   readonly fpCertExtCrldp?: string;
   /**
   * 'auto': Configure auto NAT for server certificate fetching;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_fetch_autonat SlbTemplateClientSsl#fp_cert_fetch_autonat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_fetch_autonat SlbTemplateClientSsl#fp_cert_fetch_autonat}
   */
   readonly fpCertFetchAutonat?: string;
   /**
   * Set this NAT pool as higher precedence than other source NAT like configued under template policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_fetch_autonat_precedence SlbTemplateClientSsl#fp_cert_fetch_autonat_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_fetch_autonat_precedence SlbTemplateClientSsl#fp_cert_fetch_autonat_precedence}
   */
   readonly fpCertFetchAutonatPrecedence?: number;
   /**
   * Specify NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_name SlbTemplateClientSsl#fp_cert_fetch_natpool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_name SlbTemplateClientSsl#fp_cert_fetch_natpool_name}
   */
   readonly fpCertFetchNatpoolName?: string;
   /**
   * Specify NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_name_shared SlbTemplateClientSsl#fp_cert_fetch_natpool_name_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_name_shared SlbTemplateClientSsl#fp_cert_fetch_natpool_name_shared}
   */
   readonly fpCertFetchNatpoolNameShared?: string;
   /**
   * Set this NAT pool as higher precedence than other source NAT like configued under template policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_precedence SlbTemplateClientSsl#fp_cert_fetch_natpool_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_cert_fetch_natpool_precedence SlbTemplateClientSsl#fp_cert_fetch_natpool_precedence}
   */
   readonly fpCertFetchNatpoolPrecedence?: number;
   /**
   * 'bypass': bypass SSLi processing; 'drop': close the connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_esni_action SlbTemplateClientSsl#fp_esni_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_esni_action SlbTemplateClientSsl#fp_esni_action}
   */
   readonly fpEsniAction?: string;
   /**
   * Enable SSL handshake logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#handshake_logging_enable SlbTemplateClientSsl#handshake_logging_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#handshake_logging_enable SlbTemplateClientSsl#handshake_logging_enable}
   */
   readonly handshakeLoggingEnable?: number;
   /**
   * 'thales-embed': Thales embed key; 'thales-hwcrhk': Thales hwcrhk Key;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#hsm_type SlbTemplateClientSsl#hsm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#hsm_type SlbTemplateClientSsl#hsm_type}
   */
   readonly hsmType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#id SlbTemplateClientSsl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#id SlbTemplateClientSsl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -539,661 +539,709 @@ export interface SlbTemplateClientSslConfig extends cdktf.TerraformMetaArguments
   /**
   * Forward proxy Inspect if Certificate issuer matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#inspect_certificate_issuer_cl_name SlbTemplateClientSsl#inspect_certificate_issuer_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#inspect_certificate_issuer_cl_name SlbTemplateClientSsl#inspect_certificate_issuer_cl_name}
   */
   readonly inspectCertificateIssuerClName?: string;
   /**
   * Forward proxy Inspect if Certificate Subject Alternative Name matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#inspect_certificate_san_cl_name SlbTemplateClientSsl#inspect_certificate_san_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#inspect_certificate_san_cl_name SlbTemplateClientSsl#inspect_certificate_san_cl_name}
   */
   readonly inspectCertificateSanClName?: string;
   /**
   * Forward proxy Inspect if Certificate Subject matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#inspect_certificate_subject_cl_name SlbTemplateClientSsl#inspect_certificate_subject_cl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#inspect_certificate_subject_cl_name SlbTemplateClientSsl#inspect_certificate_subject_cl_name}
   */
   readonly inspectCertificateSubjectClName?: string;
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#inspect_list_name SlbTemplateClientSsl#inspect_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#inspect_list_name SlbTemplateClientSsl#inspect_list_name}
   */
   readonly inspectListName?: string;
   /**
   * Enable JA3 features
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ja3_enable SlbTemplateClientSsl#ja3_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja3_enable SlbTemplateClientSsl#ja3_enable}
   */
   readonly ja3Enable?: number;
   /**
   * Insert the JA3 hash into this request as a HTTP header (HTTP Header Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ja3_insert_http_header SlbTemplateClientSsl#ja3_insert_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja3_insert_http_header SlbTemplateClientSsl#ja3_insert_http_header}
   */
   readonly ja3InsertHttpHeader?: string;
   /**
   * Drop request if the JA3 hash matches this class-list (type string-case-insensitive) (Class-List Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ja3_reject_class_list SlbTemplateClientSsl#ja3_reject_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja3_reject_class_list SlbTemplateClientSsl#ja3_reject_class_list}
   */
   readonly ja3RejectClassList?: string;
   /**
   * Drop request if numbers of JA3 of this client address exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ja3_reject_max_number_per_host SlbTemplateClientSsl#ja3_reject_max_number_per_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja3_reject_max_number_per_host SlbTemplateClientSsl#ja3_reject_max_number_per_host}
   */
   readonly ja3RejectMaxNumberPerHost?: number;
   /**
   * seconds to keep each JA3 record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ja3_ttl SlbTemplateClientSsl#ja3_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja3_ttl SlbTemplateClientSsl#ja3_ttl}
   */
   readonly ja3Ttl?: number;
   /**
+  * Enable JA4 features
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja4_enable SlbTemplateClientSsl#ja4_enable}
+  */
+  readonly ja4Enable?: number;
+  /**
+  * Insert the JA4 hash into this request as a HTTP header (HTTP Header Name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja4_insert_http_header SlbTemplateClientSsl#ja4_insert_http_header}
+  */
+  readonly ja4InsertHttpHeader?: string;
+  /**
+  * Drop request if the JA4 hash matches this class-list (type string-case-insensitive) (Class-List Name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja4_reject_class_list SlbTemplateClientSsl#ja4_reject_class_list}
+  */
+  readonly ja4RejectClassList?: string;
+  /**
+  * Drop request if numbers of JA4 of this client address exceeded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja4_reject_max_number_per_host SlbTemplateClientSsl#ja4_reject_max_number_per_host}
+  */
+  readonly ja4RejectMaxNumberPerHost?: number;
+  /**
+  * seconds to keep each JA4 record
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ja4_ttl SlbTemplateClientSsl#ja4_ttl}
+  */
+  readonly ja4Ttl?: number;
+  /**
   * Use Subject DN as LDAP search base DN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ldap_base_dn_from_cert SlbTemplateClientSsl#ldap_base_dn_from_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ldap_base_dn_from_cert SlbTemplateClientSsl#ldap_base_dn_from_cert}
   */
   readonly ldapBaseDnFromCert?: number;
   /**
   * Specify LDAP search filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ldap_search_filter SlbTemplateClientSsl#ldap_search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ldap_search_filter SlbTemplateClientSsl#ldap_search_filter}
   */
   readonly ldapSearchFilter?: string;
   /**
   * Enable local logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#local_logging SlbTemplateClientSsl#local_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#local_logging SlbTemplateClientSsl#local_logging}
   */
   readonly localLogging?: number;
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#name SlbTemplateClientSsl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#name SlbTemplateClientSsl#name}
   */
   readonly name: string;
   /**
   * Disable anti-replay protection for TLS 1.3 early data (0-RTT data)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#no_anti_replay SlbTemplateClientSsl#no_anti_replay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#no_anti_replay SlbTemplateClientSsl#no_anti_replay}
   */
   readonly noAntiReplay?: number;
   /**
   * 'bypass': bypass SSLi processing; 'drop': close the connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#no_shared_cipher_action SlbTemplateClientSsl#no_shared_cipher_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#no_shared_cipher_action SlbTemplateClientSsl#no_shared_cipher_action}
   */
   readonly noSharedCipherAction?: string;
   /**
   * Handle the non-ssl session as L4 for performance optimization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#non_ssl_bypass_l4session SlbTemplateClientSsl#non_ssl_bypass_l4session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#non_ssl_bypass_l4session SlbTemplateClientSsl#non_ssl_bypass_l4session}
   */
   readonly nonSslBypassL4Session?: number;
   /**
   * Service Group for Bypass non-ssl traffic (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#non_ssl_bypass_service_group SlbTemplateClientSsl#non_ssl_bypass_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#non_ssl_bypass_service_group SlbTemplateClientSsl#non_ssl_bypass_service_group}
   */
   readonly nonSslBypassServiceGroup?: string;
   /**
   * notAfter date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notafter SlbTemplateClientSsl#notafter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notafter SlbTemplateClientSsl#notafter}
   */
   readonly notafter?: number;
   /**
   * Day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notafterday SlbTemplateClientSsl#notafterday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notafterday SlbTemplateClientSsl#notafterday}
   */
   readonly notafterday?: number;
   /**
   * Month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notaftermonth SlbTemplateClientSsl#notaftermonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notaftermonth SlbTemplateClientSsl#notaftermonth}
   */
   readonly notaftermonth?: number;
   /**
   * Year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notafteryear SlbTemplateClientSsl#notafteryear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notafteryear SlbTemplateClientSsl#notafteryear}
   */
   readonly notafteryear?: number;
   /**
   * notBefore date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notbefore SlbTemplateClientSsl#notbefore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notbefore SlbTemplateClientSsl#notbefore}
   */
   readonly notbefore?: number;
   /**
   * Day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notbeforeday SlbTemplateClientSsl#notbeforeday}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notbeforeday SlbTemplateClientSsl#notbeforeday}
   */
   readonly notbeforeday?: number;
   /**
   * Month
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notbeforemonth SlbTemplateClientSsl#notbeforemonth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notbeforemonth SlbTemplateClientSsl#notbeforemonth}
   */
   readonly notbeforemonth?: number;
   /**
   * Year
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#notbeforeyear SlbTemplateClientSsl#notbeforeyear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#notbeforeyear SlbTemplateClientSsl#notbeforeyear}
   */
   readonly notbeforeyear?: number;
   /**
   * Config OCSP stapling support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocsp_stapling SlbTemplateClientSsl#ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocsp_stapling SlbTemplateClientSsl#ocsp_stapling}
   */
   readonly ocspStapling?: number;
   /**
   * CA certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_ca_cert SlbTemplateClientSsl#ocspst_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_ca_cert SlbTemplateClientSsl#ocspst_ca_cert}
   */
   readonly ocspstCaCert?: string;
   /**
   * Specify OCSP Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_ocsp SlbTemplateClientSsl#ocspst_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_ocsp SlbTemplateClientSsl#ocspst_ocsp}
   */
   readonly ocspstOcsp?: number;
   /**
   * Specify authentication service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_sg SlbTemplateClientSsl#ocspst_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_sg SlbTemplateClientSsl#ocspst_sg}
   */
   readonly ocspstSg?: string;
   /**
   * Specify update period, in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_sg_days SlbTemplateClientSsl#ocspst_sg_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_sg_days SlbTemplateClientSsl#ocspst_sg_days}
   */
   readonly ocspstSgDays?: number;
   /**
   * Specify update period, in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_sg_hours SlbTemplateClientSsl#ocspst_sg_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_sg_hours SlbTemplateClientSsl#ocspst_sg_hours}
   */
   readonly ocspstSgHours?: number;
   /**
   * Specify update period, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_sg_minutes SlbTemplateClientSsl#ocspst_sg_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_sg_minutes SlbTemplateClientSsl#ocspst_sg_minutes}
   */
   readonly ocspstSgMinutes?: number;
   /**
   * Specify retry timeout (Default is 30 mins)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_sg_timeout SlbTemplateClientSsl#ocspst_sg_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_sg_timeout SlbTemplateClientSsl#ocspst_sg_timeout}
   */
   readonly ocspstSgTimeout?: number;
   /**
   * Specify OCSP authentication server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_srvr SlbTemplateClientSsl#ocspst_srvr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_srvr SlbTemplateClientSsl#ocspst_srvr}
   */
   readonly ocspstSrvr?: string;
   /**
   * Specify update period, in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_srvr_days SlbTemplateClientSsl#ocspst_srvr_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_srvr_days SlbTemplateClientSsl#ocspst_srvr_days}
   */
   readonly ocspstSrvrDays?: number;
   /**
   * Specify update period, in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_srvr_hours SlbTemplateClientSsl#ocspst_srvr_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_srvr_hours SlbTemplateClientSsl#ocspst_srvr_hours}
   */
   readonly ocspstSrvrHours?: number;
   /**
   * Specify update period, in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_srvr_minutes SlbTemplateClientSsl#ocspst_srvr_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_srvr_minutes SlbTemplateClientSsl#ocspst_srvr_minutes}
   */
   readonly ocspstSrvrMinutes?: number;
   /**
   * Specify retry timeout (Default is 30 mins)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ocspst_srvr_timeout SlbTemplateClientSsl#ocspst_srvr_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ocspst_srvr_timeout SlbTemplateClientSsl#ocspst_srvr_timeout}
   */
   readonly ocspstSrvrTimeout?: number;
   /**
   * Disable SSL renegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#renegotiation_disable SlbTemplateClientSsl#renegotiation_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#renegotiation_disable SlbTemplateClientSsl#renegotiation_disable}
   */
   readonly renegotiationDisable?: number;
   /**
+  * SNI is required to match configured certificate subject or SAN
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#require_sni_cert_matched SlbTemplateClientSsl#require_sni_cert_matched}
+  */
+  readonly requireSniCertMatched?: number;
+  /**
   * Wait for web category to be resolved before taking bypass decision
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#require_web_category SlbTemplateClientSsl#require_web_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#require_web_category SlbTemplateClientSsl#require_web_category}
   */
   readonly requireWebCategory?: number;
   /**
   * Enable automatic mapping of server name indication in Client hello extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name_auto_map SlbTemplateClientSsl#server_name_auto_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name_auto_map SlbTemplateClientSsl#server_name_auto_map}
   */
   readonly serverNameAutoMap?: number;
   /**
   * Session Cache Size (Maximum cache size. Default value 0 (Session ID reuse disabled))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#session_cache_size SlbTemplateClientSsl#session_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#session_cache_size SlbTemplateClientSsl#session_cache_size}
   */
   readonly sessionCacheSize?: number;
   /**
   * Session Cache Timeout (Timeout value, in seconds. Default value 0 (Session cache timeout disabled))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#session_cache_timeout SlbTemplateClientSsl#session_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#session_cache_timeout SlbTemplateClientSsl#session_cache_timeout}
   */
   readonly sessionCacheTimeout?: number;
   /**
+  * Enable SSL session key logging
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#session_key_logging_enable SlbTemplateClientSsl#session_key_logging_enable}
+  */
+  readonly sessionKeyLoggingEnable?: number;
+  /**
   * Disable client side session ticket support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#session_ticket_disable SlbTemplateClientSsl#session_ticket_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#session_ticket_disable SlbTemplateClientSsl#session_ticket_disable}
   */
   readonly sessionTicketDisable?: number;
   /**
   * Session ticket lifetime in seconds from stateless session resumption (Lifetime value in seconds. Default value 0 (Session ticket lifetime is 7200 seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#session_ticket_lifetime SlbTemplateClientSsl#session_ticket_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#session_ticket_lifetime SlbTemplateClientSsl#session_ticket_lifetime}
   */
   readonly sessionTicketLifetime?: number;
   /**
   * Reference a cipher template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#shared_partition_cipher_template SlbTemplateClientSsl#shared_partition_cipher_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#shared_partition_cipher_template SlbTemplateClientSsl#shared_partition_cipher_template}
   */
   readonly sharedPartitionCipherTemplate?: number;
   /**
   * Reference a NAT pool or pool group from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#shared_partition_pool SlbTemplateClientSsl#shared_partition_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#shared_partition_pool SlbTemplateClientSsl#shared_partition_pool}
   */
   readonly sharedPartitionPool?: number;
   /**
   * Enable logging when bypass event happens, disabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_bypass_enable_log SlbTemplateClientSsl#sni_bypass_enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_bypass_enable_log SlbTemplateClientSsl#sni_bypass_enable_log}
   */
   readonly sniBypassEnableLog?: number;
   /**
   * Bypass when certificate expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_bypass_expired_cert SlbTemplateClientSsl#sni_bypass_expired_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_bypass_expired_cert SlbTemplateClientSsl#sni_bypass_expired_cert}
   */
   readonly sniBypassExpiredCert?: number;
   /**
   * Bypass when matched explicit bypass list (Specify class list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_bypass_explicit_list SlbTemplateClientSsl#sni_bypass_explicit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_bypass_explicit_list SlbTemplateClientSsl#sni_bypass_explicit_list}
   */
   readonly sniBypassExplicitList?: string;
   /**
   * Bypass when missing cert/key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_bypass_missing_cert SlbTemplateClientSsl#sni_bypass_missing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_bypass_missing_cert SlbTemplateClientSsl#sni_bypass_missing_cert}
   */
   readonly sniBypassMissingCert?: number;
   /**
   * Enable logging of sni-auto-map failures. Disable by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_enable_log SlbTemplateClientSsl#sni_enable_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_enable_log SlbTemplateClientSsl#sni_enable_log}
   */
   readonly sniEnableLog?: number;
   /**
   * disable SSL False Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ssl_false_start_disable SlbTemplateClientSsl#ssl_false_start_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ssl_false_start_disable SlbTemplateClientSsl#ssl_false_start_disable}
   */
   readonly sslFalseStartDisable?: number;
   /**
   * Enable inbound SSLi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ssli_inbound_enable SlbTemplateClientSsl#ssli_inbound_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ssli_inbound_enable SlbTemplateClientSsl#ssli_inbound_enable}
   */
   readonly ssliInboundEnable?: number;
   /**
   * SSLi logging level, default is error logging only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ssli_logging SlbTemplateClientSsl#ssli_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ssli_logging SlbTemplateClientSsl#ssli_logging}
   */
   readonly ssliLogging?: number;
   /**
   * 'disable': Disable all logging; 'all': enable all logging(error, info);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sslilogging SlbTemplateClientSsl#sslilogging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sslilogging SlbTemplateClientSsl#sslilogging}
   */
   readonly sslilogging?: string;
   /**
   * Service Group for Bypass SSLV2 (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sslv2_bypass_service_group SlbTemplateClientSsl#sslv2_bypass_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sslv2_bypass_service_group SlbTemplateClientSsl#sslv2_bypass_service_group}
   */
   readonly sslv2BypassServiceGroup?: string;
   /**
   * Cipher Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#template_cipher SlbTemplateClientSsl#template_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#template_cipher SlbTemplateClientSsl#template_cipher}
   */
   readonly templateCipher?: string;
   /**
   * Cipher Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#template_cipher_shared SlbTemplateClientSsl#template_cipher_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#template_cipher_shared SlbTemplateClientSsl#template_cipher_shared}
   */
   readonly templateCipherShared?: string;
   /**
   * HSM Template (HSM Template Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#template_hsm SlbTemplateClientSsl#template_hsm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#template_hsm SlbTemplateClientSsl#template_hsm}
   */
   readonly templateHsm?: string;
   /**
   * Forward proxy bypass if user-name matches class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#user_name_list SlbTemplateClientSsl#user_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#user_name_list SlbTemplateClientSsl#user_name_list}
   */
   readonly userNameList?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#user_tag SlbTemplateClientSsl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#user_tag SlbTemplateClientSsl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#uuid SlbTemplateClientSsl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#uuid SlbTemplateClientSsl#uuid}
   */
   readonly uuid?: string;
   /**
   * 'bypass': bypass SSLi processing; 'continue': continue the connection; 'drop': close the connection; 'block': block the connection with a warning page;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#verify_cert_fail_action SlbTemplateClientSsl#verify_cert_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#verify_cert_fail_action SlbTemplateClientSsl#verify_cert_fail_action}
   */
   readonly verifyCertFailAction?: string;
   /**
   * TLS/SSL version, default is the highest number supported (TLS/SSL version: 30-SSLv3.0, 31-TLSv1.0, 32-TLSv1.1, 33-TLSv1.2 and 34-TLSv1.3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#version SlbTemplateClientSsl#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#version SlbTemplateClientSsl#version}
   */
   readonly version?: number;
   /**
   * bypass_cert_issuer_multi_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_issuer_multi_class_list SlbTemplateClientSsl#bypass_cert_issuer_multi_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_issuer_multi_class_list SlbTemplateClientSsl#bypass_cert_issuer_multi_class_list}
   */
   readonly bypassCertIssuerMultiClassList?: SlbTemplateClientSslBypassCertIssuerMultiClassListStruct[] | cdktf.IResolvable;
   /**
   * bypass_cert_san_multi_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_san_multi_class_list SlbTemplateClientSsl#bypass_cert_san_multi_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_san_multi_class_list SlbTemplateClientSsl#bypass_cert_san_multi_class_list}
   */
   readonly bypassCertSanMultiClassList?: SlbTemplateClientSslBypassCertSanMultiClassListStruct[] | cdktf.IResolvable;
   /**
   * bypass_cert_subject_multi_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_subject_multi_class_list SlbTemplateClientSsl#bypass_cert_subject_multi_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_subject_multi_class_list SlbTemplateClientSsl#bypass_cert_subject_multi_class_list}
   */
   readonly bypassCertSubjectMultiClassList?: SlbTemplateClientSslBypassCertSubjectMultiClassListStruct[] | cdktf.IResolvable;
   /**
   * ca_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ca_certs SlbTemplateClientSsl#ca_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ca_certs SlbTemplateClientSsl#ca_certs}
   */
   readonly caCerts?: SlbTemplateClientSslCaCerts[] | cdktf.IResolvable;
   /**
   * certificate_issuer_contains_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_contains_list SlbTemplateClientSsl#certificate_issuer_contains_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_contains_list SlbTemplateClientSsl#certificate_issuer_contains_list}
   */
   readonly certificateIssuerContainsList?: SlbTemplateClientSslCertificateIssuerContainsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_issuer_ends_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_ends_with_list SlbTemplateClientSsl#certificate_issuer_ends_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_ends_with_list SlbTemplateClientSsl#certificate_issuer_ends_with_list}
   */
   readonly certificateIssuerEndsWithList?: SlbTemplateClientSslCertificateIssuerEndsWithListStruct[] | cdktf.IResolvable;
   /**
   * certificate_issuer_equals_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_equals_list SlbTemplateClientSsl#certificate_issuer_equals_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_equals_list SlbTemplateClientSsl#certificate_issuer_equals_list}
   */
   readonly certificateIssuerEqualsList?: SlbTemplateClientSslCertificateIssuerEqualsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_issuer_starts_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_starts_with_list SlbTemplateClientSsl#certificate_issuer_starts_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_starts_with_list SlbTemplateClientSsl#certificate_issuer_starts_with_list}
   */
   readonly certificateIssuerStartsWithList?: SlbTemplateClientSslCertificateIssuerStartsWithListStruct[] | cdktf.IResolvable;
   /**
   * certificate_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_list SlbTemplateClientSsl#certificate_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_list SlbTemplateClientSsl#certificate_list}
   */
   readonly certificateList?: SlbTemplateClientSslCertificateListStruct[] | cdktf.IResolvable;
   /**
   * certificate_san_contains_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_contains_list SlbTemplateClientSsl#certificate_san_contains_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_contains_list SlbTemplateClientSsl#certificate_san_contains_list}
   */
   readonly certificateSanContainsList?: SlbTemplateClientSslCertificateSanContainsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_san_ends_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_ends_with_list SlbTemplateClientSsl#certificate_san_ends_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_ends_with_list SlbTemplateClientSsl#certificate_san_ends_with_list}
   */
   readonly certificateSanEndsWithList?: SlbTemplateClientSslCertificateSanEndsWithListStruct[] | cdktf.IResolvable;
   /**
   * certificate_san_equals_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_equals_list SlbTemplateClientSsl#certificate_san_equals_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_equals_list SlbTemplateClientSsl#certificate_san_equals_list}
   */
   readonly certificateSanEqualsList?: SlbTemplateClientSslCertificateSanEqualsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_san_starts_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_starts_with_list SlbTemplateClientSsl#certificate_san_starts_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_starts_with_list SlbTemplateClientSsl#certificate_san_starts_with_list}
   */
   readonly certificateSanStartsWithList?: SlbTemplateClientSslCertificateSanStartsWithListStruct[] | cdktf.IResolvable;
   /**
   * certificate_subject_contains_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_contains_list SlbTemplateClientSsl#certificate_subject_contains_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_contains_list SlbTemplateClientSsl#certificate_subject_contains_list}
   */
   readonly certificateSubjectContainsList?: SlbTemplateClientSslCertificateSubjectContainsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_subject_ends_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_ends_with_list SlbTemplateClientSsl#certificate_subject_ends_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_ends_with_list SlbTemplateClientSsl#certificate_subject_ends_with_list}
   */
   readonly certificateSubjectEndsWithList?: SlbTemplateClientSslCertificateSubjectEndsWithListStruct[] | cdktf.IResolvable;
   /**
   * certificate_subject_equals_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_equals_list SlbTemplateClientSsl#certificate_subject_equals_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_equals_list SlbTemplateClientSsl#certificate_subject_equals_list}
   */
   readonly certificateSubjectEqualsList?: SlbTemplateClientSslCertificateSubjectEqualsListStruct[] | cdktf.IResolvable;
   /**
   * certificate_subject_starts_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_starts_with_list SlbTemplateClientSsl#certificate_subject_starts_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_starts_with_list SlbTemplateClientSsl#certificate_subject_starts_with_list}
   */
   readonly certificateSubjectStartsWithList?: SlbTemplateClientSslCertificateSubjectStartsWithListStruct[] | cdktf.IResolvable;
   /**
   * cipher_without_prio_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cipher_without_prio_list SlbTemplateClientSsl#cipher_without_prio_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cipher_without_prio_list SlbTemplateClientSsl#cipher_without_prio_list}
   */
   readonly cipherWithoutPrioList?: SlbTemplateClientSslCipherWithoutPrioListStruct[] | cdktf.IResolvable;
   /**
   * client_auth_contains_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_contains_list SlbTemplateClientSsl#client_auth_contains_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_contains_list SlbTemplateClientSsl#client_auth_contains_list}
   */
   readonly clientAuthContainsList?: SlbTemplateClientSslClientAuthContainsListStruct[] | cdktf.IResolvable;
   /**
   * client_auth_ends_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_ends_with_list SlbTemplateClientSsl#client_auth_ends_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_ends_with_list SlbTemplateClientSsl#client_auth_ends_with_list}
   */
   readonly clientAuthEndsWithList?: SlbTemplateClientSslClientAuthEndsWithListStruct[] | cdktf.IResolvable;
   /**
   * client_auth_equals_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_equals_list SlbTemplateClientSsl#client_auth_equals_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_equals_list SlbTemplateClientSsl#client_auth_equals_list}
   */
   readonly clientAuthEqualsList?: SlbTemplateClientSslClientAuthEqualsListStruct[] | cdktf.IResolvable;
   /**
   * client_auth_starts_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_starts_with_list SlbTemplateClientSsl#client_auth_starts_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_starts_with_list SlbTemplateClientSsl#client_auth_starts_with_list}
   */
   readonly clientAuthStartsWithList?: SlbTemplateClientSslClientAuthStartsWithListStruct[] | cdktf.IResolvable;
   /**
   * client_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ipv4_list SlbTemplateClientSsl#client_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ipv4_list SlbTemplateClientSsl#client_ipv4_list}
   */
   readonly clientIpv4List?: SlbTemplateClientSslClientIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * client_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ipv6_list SlbTemplateClientSsl#client_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ipv6_list SlbTemplateClientSsl#client_ipv6_list}
   */
   readonly clientIpv6List?: SlbTemplateClientSslClientIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * contains_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#contains_list SlbTemplateClientSsl#contains_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#contains_list SlbTemplateClientSsl#contains_list}
   */
   readonly containsList?: SlbTemplateClientSslContainsListStruct[] | cdktf.IResolvable;
   /**
   * crl_certs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#crl_certs SlbTemplateClientSsl#crl_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#crl_certs SlbTemplateClientSsl#crl_certs}
   */
   readonly crlCerts?: SlbTemplateClientSslCrlCerts[] | cdktf.IResolvable;
   /**
   * ec_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ec_list SlbTemplateClientSsl#ec_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ec_list SlbTemplateClientSsl#ec_list}
   */
   readonly ecList?: SlbTemplateClientSslEcListStruct[] | cdktf.IResolvable;
   /**
   * ends_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ends_with_list SlbTemplateClientSsl#ends_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ends_with_list SlbTemplateClientSsl#ends_with_list}
   */
   readonly endsWithList?: SlbTemplateClientSslEndsWithListStruct[] | cdktf.IResolvable;
   /**
   * equals_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#equals_list SlbTemplateClientSsl#equals_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#equals_list SlbTemplateClientSsl#equals_list}
   */
   readonly equalsList?: SlbTemplateClientSslEqualsListStruct[] | cdktf.IResolvable;
   /**
   * exception_client_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_client_ipv4_list SlbTemplateClientSsl#exception_client_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_client_ipv4_list SlbTemplateClientSsl#exception_client_ipv4_list}
   */
   readonly exceptionClientIpv4List?: SlbTemplateClientSslExceptionClientIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * exception_client_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_client_ipv6_list SlbTemplateClientSsl#exception_client_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_client_ipv6_list SlbTemplateClientSsl#exception_client_ipv6_list}
   */
   readonly exceptionClientIpv6List?: SlbTemplateClientSslExceptionClientIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * exception_server_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_server_ipv4_list SlbTemplateClientSsl#exception_server_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_server_ipv4_list SlbTemplateClientSsl#exception_server_ipv4_list}
   */
   readonly exceptionServerIpv4List?: SlbTemplateClientSslExceptionServerIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * exception_server_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_server_ipv6_list SlbTemplateClientSsl#exception_server_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_server_ipv6_list SlbTemplateClientSsl#exception_server_ipv6_list}
   */
   readonly exceptionServerIpv6List?: SlbTemplateClientSslExceptionServerIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * exception_web_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_web_category SlbTemplateClientSsl#exception_web_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_web_category SlbTemplateClientSsl#exception_web_category}
   */
   readonly exceptionWebCategory?: SlbTemplateClientSslExceptionWebCategory;
   /**
   * exception_web_reputation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_web_reputation SlbTemplateClientSsl#exception_web_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_web_reputation SlbTemplateClientSsl#exception_web_reputation}
   */
   readonly exceptionWebReputation?: SlbTemplateClientSslExceptionWebReputation;
   /**
   * forward_proxy_trusted_ca_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_trusted_ca_lists SlbTemplateClientSsl#forward_proxy_trusted_ca_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_trusted_ca_lists SlbTemplateClientSsl#forward_proxy_trusted_ca_lists}
   */
   readonly forwardProxyTrustedCaLists?: SlbTemplateClientSslForwardProxyTrustedCaLists[] | cdktf.IResolvable;
   /**
   * local_cert_pin_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#local_cert_pin_list SlbTemplateClientSsl#local_cert_pin_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#local_cert_pin_list SlbTemplateClientSsl#local_cert_pin_list}
   */
   readonly localCertPinList?: SlbTemplateClientSslLocalCertPinListStruct;
   /**
   * multi_class_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#multi_class_list SlbTemplateClientSsl#multi_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#multi_class_list SlbTemplateClientSsl#multi_class_list}
   */
   readonly multiClassList?: SlbTemplateClientSslMultiClassListStruct[] | cdktf.IResolvable;
   /**
   * req_ca_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#req_ca_lists SlbTemplateClientSsl#req_ca_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#req_ca_lists SlbTemplateClientSsl#req_ca_lists}
   */
   readonly reqCaLists?: SlbTemplateClientSslReqCaLists[] | cdktf.IResolvable;
   /**
+  * sampling_enable block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sampling_enable SlbTemplateClientSsl#sampling_enable}
+  */
+  readonly samplingEnable?: SlbTemplateClientSslSamplingEnable[] | cdktf.IResolvable;
+  /**
   * server_ipv4_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_ipv4_list SlbTemplateClientSsl#server_ipv4_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_ipv4_list SlbTemplateClientSsl#server_ipv4_list}
   */
   readonly serverIpv4List?: SlbTemplateClientSslServerIpv4ListStruct[] | cdktf.IResolvable;
   /**
   * server_ipv6_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_ipv6_list SlbTemplateClientSsl#server_ipv6_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_ipv6_list SlbTemplateClientSsl#server_ipv6_list}
   */
   readonly serverIpv6List?: SlbTemplateClientSslServerIpv6ListStruct[] | cdktf.IResolvable;
   /**
   * server_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name_list SlbTemplateClientSsl#server_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name_list SlbTemplateClientSsl#server_name_list}
   */
   readonly serverNameList?: SlbTemplateClientSslServerNameListStruct[] | cdktf.IResolvable;
   /**
   * starts_with_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#starts_with_list SlbTemplateClientSsl#starts_with_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#starts_with_list SlbTemplateClientSsl#starts_with_list}
   */
   readonly startsWithList?: SlbTemplateClientSslStartsWithListStruct[] | cdktf.IResolvable;
   /**
   * web_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#web_category SlbTemplateClientSsl#web_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#web_category SlbTemplateClientSsl#web_category}
   */
   readonly webCategory?: SlbTemplateClientSslWebCategory;
   /**
   * web_reputation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#web_reputation SlbTemplateClientSsl#web_reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#web_reputation SlbTemplateClientSsl#web_reputation}
   */
   readonly webReputation?: SlbTemplateClientSslWebReputation;
 }
@@ -1201,7 +1249,7 @@ export interface SlbTemplateClientSslBypassCertIssuerMultiClassListStruct {
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_issuer_multi_class_list_name SlbTemplateClientSsl#bypass_cert_issuer_multi_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_issuer_multi_class_list_name SlbTemplateClientSsl#bypass_cert_issuer_multi_class_list_name}
   */
   readonly bypassCertIssuerMultiClassListName?: string;
 }
@@ -1319,7 +1367,7 @@ export interface SlbTemplateClientSslBypassCertSanMultiClassListStruct {
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_san_multi_class_list_name SlbTemplateClientSsl#bypass_cert_san_multi_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_san_multi_class_list_name SlbTemplateClientSsl#bypass_cert_san_multi_class_list_name}
   */
   readonly bypassCertSanMultiClassListName?: string;
 }
@@ -1437,7 +1485,7 @@ export interface SlbTemplateClientSslBypassCertSubjectMultiClassListStruct {
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_cert_subject_multi_class_list_name SlbTemplateClientSsl#bypass_cert_subject_multi_class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_cert_subject_multi_class_list_name SlbTemplateClientSsl#bypass_cert_subject_multi_class_list_name}
   */
   readonly bypassCertSubjectMultiClassListName?: string;
 }
@@ -1555,31 +1603,31 @@ export interface SlbTemplateClientSslCaCerts {
   /**
   * CA Certificate (CA Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ca_cert SlbTemplateClientSsl#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ca_cert SlbTemplateClientSsl#ca_cert}
   */
   readonly caCert?: string;
   /**
   * CA Certificate Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ca_shared SlbTemplateClientSsl#ca_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ca_shared SlbTemplateClientSsl#ca_shared}
   */
   readonly caShared?: number;
   /**
   * Specify ocsp authentication server(s) for client certificate verification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ocsp SlbTemplateClientSsl#client_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ocsp SlbTemplateClientSsl#client_ocsp}
   */
   readonly clientOcsp?: number;
   /**
   * Specify service-group (Service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ocsp_sg SlbTemplateClientSsl#client_ocsp_sg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ocsp_sg SlbTemplateClientSsl#client_ocsp_sg}
   */
   readonly clientOcspSg?: string;
   /**
   * Specify authentication server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ocsp_srvr SlbTemplateClientSsl#client_ocsp_srvr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ocsp_srvr SlbTemplateClientSsl#client_ocsp_srvr}
   */
   readonly clientOcspSrvr?: string;
 }
@@ -1813,7 +1861,7 @@ export interface SlbTemplateClientSslCertificateIssuerContainsListStruct {
   /**
   * Forward proxy bypass if Certificate  issuer contains another string (Certificate issuer)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_contains SlbTemplateClientSsl#certificate_issuer_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_contains SlbTemplateClientSsl#certificate_issuer_contains}
   */
   readonly certificateIssuerContains?: string;
 }
@@ -1931,7 +1979,7 @@ export interface SlbTemplateClientSslCertificateIssuerEndsWithListStruct {
   /**
   * Forward proxy bypass if Certificate issuer ends with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_ends_with SlbTemplateClientSsl#certificate_issuer_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_ends_with SlbTemplateClientSsl#certificate_issuer_ends_with}
   */
   readonly certificateIssuerEndsWith?: string;
 }
@@ -2049,7 +2097,7 @@ export interface SlbTemplateClientSslCertificateIssuerEqualsListStruct {
   /**
   * Forward proxy bypass if Certificate issuer equals another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_equals SlbTemplateClientSsl#certificate_issuer_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_equals SlbTemplateClientSsl#certificate_issuer_equals}
   */
   readonly certificateIssuerEquals?: string;
 }
@@ -2167,7 +2215,7 @@ export interface SlbTemplateClientSslCertificateIssuerStartsWithListStruct {
   /**
   * Forward proxy bypass if Certificate issuer starts with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_issuer_starts SlbTemplateClientSsl#certificate_issuer_starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_issuer_starts SlbTemplateClientSsl#certificate_issuer_starts}
   */
   readonly certificateIssuerStarts?: string;
 }
@@ -2285,37 +2333,37 @@ export interface SlbTemplateClientSslCertificateListStruct {
   /**
   * Certificate Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cert SlbTemplateClientSsl#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cert SlbTemplateClientSsl#cert}
   */
   readonly cert: string;
   /**
   * Chain Certificate (Chain Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#chain_cert SlbTemplateClientSsl#chain_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#chain_cert SlbTemplateClientSsl#chain_cert}
   */
   readonly chainCert?: string;
   /**
   * Server Private Key (Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#key SlbTemplateClientSsl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#key SlbTemplateClientSsl#key}
   */
   readonly key?: string;
   /**
   * Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#passphrase SlbTemplateClientSsl#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#passphrase SlbTemplateClientSsl#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Server Certificate and Key Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#shared SlbTemplateClientSsl#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#shared SlbTemplateClientSsl#shared}
   */
   readonly shared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#uuid SlbTemplateClientSsl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#uuid SlbTemplateClientSsl#uuid}
   */
   readonly uuid?: string;
 }
@@ -2575,7 +2623,7 @@ export interface SlbTemplateClientSslCertificateSanContainsListStruct {
   /**
   * Forward proxy bypass if Certificate SAN contains another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_contains SlbTemplateClientSsl#certificate_san_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_contains SlbTemplateClientSsl#certificate_san_contains}
   */
   readonly certificateSanContains?: string;
 }
@@ -2693,7 +2741,7 @@ export interface SlbTemplateClientSslCertificateSanEndsWithListStruct {
   /**
   * Forward proxy bypass if Certificate SAN ends with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_ends_with SlbTemplateClientSsl#certificate_san_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_ends_with SlbTemplateClientSsl#certificate_san_ends_with}
   */
   readonly certificateSanEndsWith?: string;
 }
@@ -2811,7 +2859,7 @@ export interface SlbTemplateClientSslCertificateSanEqualsListStruct {
   /**
   * Forward proxy bypass if Certificate SAN equals another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_equals SlbTemplateClientSsl#certificate_san_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_equals SlbTemplateClientSsl#certificate_san_equals}
   */
   readonly certificateSanEquals?: string;
 }
@@ -2929,7 +2977,7 @@ export interface SlbTemplateClientSslCertificateSanStartsWithListStruct {
   /**
   * Forward proxy bypass if Certificate SAN starts with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_san_starts SlbTemplateClientSsl#certificate_san_starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_san_starts SlbTemplateClientSsl#certificate_san_starts}
   */
   readonly certificateSanStarts?: string;
 }
@@ -3047,7 +3095,7 @@ export interface SlbTemplateClientSslCertificateSubjectContainsListStruct {
   /**
   * Forward proxy bypass if Certificate Subject contains another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_contains SlbTemplateClientSsl#certificate_subject_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_contains SlbTemplateClientSsl#certificate_subject_contains}
   */
   readonly certificateSubjectContains?: string;
 }
@@ -3165,7 +3213,7 @@ export interface SlbTemplateClientSslCertificateSubjectEndsWithListStruct {
   /**
   * Forward proxy bypass if Certificate Subject ends with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_ends_with SlbTemplateClientSsl#certificate_subject_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_ends_with SlbTemplateClientSsl#certificate_subject_ends_with}
   */
   readonly certificateSubjectEndsWith?: string;
 }
@@ -3283,7 +3331,7 @@ export interface SlbTemplateClientSslCertificateSubjectEqualsListStruct {
   /**
   * Forward proxy bypass if Certificate Subject equals another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_equals SlbTemplateClientSsl#certificate_subject_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_equals SlbTemplateClientSsl#certificate_subject_equals}
   */
   readonly certificateSubjectEquals?: string;
 }
@@ -3401,7 +3449,7 @@ export interface SlbTemplateClientSslCertificateSubjectStartsWithListStruct {
   /**
   * Forward proxy bypass if Certificate Subject starts with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#certificate_subject_starts SlbTemplateClientSsl#certificate_subject_starts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#certificate_subject_starts SlbTemplateClientSsl#certificate_subject_starts}
   */
   readonly certificateSubjectStarts?: string;
 }
@@ -3519,7 +3567,7 @@ export interface SlbTemplateClientSslCipherWithoutPrioListStruct {
   /**
   * 'SSL3_RSA_DES_192_CBC3_SHA': TLS_RSA_WITH_3DES_EDE_CBC_SHA (0x000A); 'SSL3_RSA_RC4_128_MD5': TLS_RSA_WITH_RC4_128_MD5 (0x0004); 'SSL3_RSA_RC4_128_SHA': TLS_RSA_WITH_RC4_128_SHA (0x0005); 'TLS1_RSA_AES_128_SHA': TLS_RSA_WITH_AES_128_CBC_SHA (0x002F); 'TLS1_RSA_AES_256_SHA': TLS_RSA_WITH_AES_256_CBC_SHA (0x0035); 'TLS1_RSA_AES_128_SHA256': TLS_RSA_WITH_AES_128_CBC_SHA256 (0x003C); 'TLS1_RSA_AES_256_SHA256': TLS_RSA_WITH_AES_256_CBC_SHA256 (0x003D); 'TLS1_DHE_RSA_AES_128_GCM_SHA256': TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 (0x009E); 'TLS1_DHE_RSA_AES_128_SHA': TLS_DHE_RSA_WITH_AES_128_CBC_SHA (0x0033); 'TLS1_DHE_RSA_AES_128_SHA256': TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 (0x0067); 'TLS1_DHE_RSA_AES_256_GCM_SHA384': TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 (0x009F); 'TLS1_DHE_RSA_AES_256_SHA': TLS_DHE_RSA_WITH_AES_256_CBC_SHA (0x0039); 'TLS1_DHE_RSA_AES_256_SHA256': TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 (0x006B); 'TLS1_ECDHE_ECDSA_AES_128_GCM_SHA256': TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 (0xC02B); 'TLS1_ECDHE_ECDSA_AES_128_SHA': TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA (0xC009); 'TLS1_ECDHE_ECDSA_AES_128_SHA256': TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 (0xC023); 'TLS1_ECDHE_ECDSA_AES_256_GCM_SHA384': TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 (0xC02C); 'TLS1_ECDHE_ECDSA_AES_256_SHA': TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA (0xC00A); 'TLS1_ECDHE_RSA_AES_128_GCM_SHA256': TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 (0xC02F); 'TLS1_ECDHE_RSA_AES_128_SHA': TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (0xC013); 'TLS1_ECDHE_RSA_AES_128_SHA256': TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 (0xC027); 'TLS1_ECDHE_RSA_AES_256_GCM_SHA384': TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 (0xC030); 'TLS1_ECDHE_RSA_AES_256_SHA': TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (0xC014); 'TLS1_RSA_AES_128_GCM_SHA256': TLS_RSA_WITH_AES_128_GCM_SHA256 (0x009C); 'TLS1_RSA_AES_256_GCM_SHA384': TLS_RSA_WITH_AES_256_GCM_SHA384 (0x009D); 'TLS1_ECDHE_RSA_AES_256_SHA384': TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 (0xC028); 'TLS1_ECDHE_ECDSA_AES_256_SHA384': TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 (0xC024); 'TLS1_ECDHE_RSA_CHACHA20_POLY1305_SHA256': TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCA8); 'TLS1_ECDHE_ECDSA_CHACHA20_POLY1305_SHA256': TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCA9); 'TLS1_DHE_RSA_CHACHA20_POLY1305_SHA256': TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256 (0xCCAA);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cipher_wo_prio SlbTemplateClientSsl#cipher_wo_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#cipher_wo_prio SlbTemplateClientSsl#cipher_wo_prio}
   */
   readonly cipherWoPrio?: string;
 }
@@ -3637,7 +3685,7 @@ export interface SlbTemplateClientSslClientAuthContainsListStruct {
   /**
   * Forward proxy bypass if SNI string contains another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_contains SlbTemplateClientSsl#client_auth_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_contains SlbTemplateClientSsl#client_auth_contains}
   */
   readonly clientAuthContains?: string;
 }
@@ -3755,7 +3803,7 @@ export interface SlbTemplateClientSslClientAuthEndsWithListStruct {
   /**
   * Forward proxy bypass if SNI string ends with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_ends_with SlbTemplateClientSsl#client_auth_ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_ends_with SlbTemplateClientSsl#client_auth_ends_with}
   */
   readonly clientAuthEndsWith?: string;
 }
@@ -3873,7 +3921,7 @@ export interface SlbTemplateClientSslClientAuthEqualsListStruct {
   /**
   * Forward proxy bypass if SNI string equals another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_equals SlbTemplateClientSsl#client_auth_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_equals SlbTemplateClientSsl#client_auth_equals}
   */
   readonly clientAuthEquals?: string;
 }
@@ -3991,7 +4039,7 @@ export interface SlbTemplateClientSslClientAuthStartsWithListStruct {
   /**
   * Forward proxy bypass if SNI string starts with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_auth_starts_with SlbTemplateClientSsl#client_auth_starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_auth_starts_with SlbTemplateClientSsl#client_auth_starts_with}
   */
   readonly clientAuthStartsWith?: string;
 }
@@ -4109,7 +4157,7 @@ export interface SlbTemplateClientSslClientIpv4ListStruct {
   /**
   * IPV4 client class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ipv4_list_name SlbTemplateClientSsl#client_ipv4_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ipv4_list_name SlbTemplateClientSsl#client_ipv4_list_name}
   */
   readonly clientIpv4ListName?: string;
 }
@@ -4227,7 +4275,7 @@ export interface SlbTemplateClientSslClientIpv6ListStruct {
   /**
   * IPV6 client class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_ipv6_list_name SlbTemplateClientSsl#client_ipv6_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_ipv6_list_name SlbTemplateClientSsl#client_ipv6_list_name}
   */
   readonly clientIpv6ListName?: string;
 }
@@ -4345,7 +4393,7 @@ export interface SlbTemplateClientSslContainsListStruct {
   /**
   * Forward proxy bypass if SNI string contains another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#contains SlbTemplateClientSsl#contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#contains SlbTemplateClientSsl#contains}
   */
   readonly contains?: string;
 }
@@ -4463,13 +4511,13 @@ export interface SlbTemplateClientSslCrlCerts {
   /**
   * Certificate Revocation Lists (Certificate Revocation Lists file name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#crl SlbTemplateClientSsl#crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#crl SlbTemplateClientSsl#crl}
   */
   readonly crl?: string;
   /**
   * Certificate Revocation Lists Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#crl_shared SlbTemplateClientSsl#crl_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#crl_shared SlbTemplateClientSsl#crl_shared}
   */
   readonly crlShared?: number;
 }
@@ -4614,9 +4662,9 @@ export class SlbTemplateClientSslCrlCertsList extends cdktf.ComplexList {
 }
 export interface SlbTemplateClientSslEcListStruct {
   /**
-  * 'secp256r1': X9_62_prime256v1; 'secp384r1': secp384r1;
+  * 'secp256r1': X9_62_prime256v1; 'secp384r1': secp384r1; 'secp521r1': secp521r1; 'x25519': x25519;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ec SlbTemplateClientSsl#ec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ec SlbTemplateClientSsl#ec}
   */
   readonly ec?: string;
 }
@@ -4734,7 +4782,7 @@ export interface SlbTemplateClientSslEndsWithListStruct {
   /**
   * Forward proxy bypass if SNI string ends with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#ends_with SlbTemplateClientSsl#ends_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#ends_with SlbTemplateClientSsl#ends_with}
   */
   readonly endsWith?: string;
 }
@@ -4852,7 +4900,7 @@ export interface SlbTemplateClientSslEqualsListStruct {
   /**
   * Forward proxy bypass if SNI string equals another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#equals SlbTemplateClientSsl#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#equals SlbTemplateClientSsl#equals}
   */
   readonly equalTo?: string;
 }
@@ -4970,7 +5018,7 @@ export interface SlbTemplateClientSslExceptionClientIpv4ListStruct {
   /**
   * IPV4 exception client class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_client_ipv4_list_name SlbTemplateClientSsl#exception_client_ipv4_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_client_ipv4_list_name SlbTemplateClientSsl#exception_client_ipv4_list_name}
   */
   readonly exceptionClientIpv4ListName?: string;
 }
@@ -5088,7 +5136,7 @@ export interface SlbTemplateClientSslExceptionClientIpv6ListStruct {
   /**
   * IPV6 exception client class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_client_ipv6_list_name SlbTemplateClientSsl#exception_client_ipv6_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_client_ipv6_list_name SlbTemplateClientSsl#exception_client_ipv6_list_name}
   */
   readonly exceptionClientIpv6ListName?: string;
 }
@@ -5206,7 +5254,7 @@ export interface SlbTemplateClientSslExceptionServerIpv4ListStruct {
   /**
   * IPV4 exception server class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_server_ipv4_list_name SlbTemplateClientSsl#exception_server_ipv4_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_server_ipv4_list_name SlbTemplateClientSsl#exception_server_ipv4_list_name}
   */
   readonly exceptionServerIpv4ListName?: string;
 }
@@ -5324,7 +5372,7 @@ export interface SlbTemplateClientSslExceptionServerIpv6ListStruct {
   /**
   * IPV6 exception server class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_server_ipv6_list_name SlbTemplateClientSsl#exception_server_ipv6_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_server_ipv6_list_name SlbTemplateClientSsl#exception_server_ipv6_list_name}
   */
   readonly exceptionServerIpv6ListName?: string;
 }
@@ -5440,491 +5488,11 @@ export class SlbTemplateClientSslExceptionServerIpv6ListStructList extends cdktf
 }
 export interface SlbTemplateClientSslExceptionWebCategory {
   /**
-  * Category Abortion
+  * 'uncategorized': Uncategorized URLs; 'real-estate': Category Real Estate; 'computer-and-internet-security': Category Computer and Internet Security; 'financial-services': Category Financial Services; 'business-and-economy': Category Business and Economy; 'computer-and-internet-info': Category Computer and Internet Info; 'auctions': Category Auctions; 'shopping': Category Shopping; 'cult-and-occult': Category Cult and Occult; 'travel': Category Travel; 'drugs': Category Abused Drugs; 'adult-and-pornography': Category Adult and Pornography; 'home-and-garden': Category Home and Garden; 'military': Category Military; 'social-network': Category Social Network; 'dead-sites': Category Dead Sites (db Ops only); 'stock-advice-and-tools': Category Stock Advice and Tools; 'training-and-tools': Category Training and Tools; 'dating': Category Dating; 'sex-education': Category Sex Education; 'religion': Category Religion; 'entertainment-and-arts': Category Entertainment and Arts; 'personal-sites-and-blogs': Category Personal sites and Blogs; 'legal': Category Legal; 'local-information': Category Local Information; 'streaming-media': Category Streaming Media; 'job-search': Category Job Search; 'gambling': Category Gambling; 'translation': Category Translation; 'reference-and-research': Category Reference and Research; 'shareware-and-freeware': Category Shareware and Freeware; 'peer-to-peer': Category Peer to Peer; 'marijuana': Category Marijuana; 'hacking': Category Hacking; 'games': Category Games; 'philosophy-and-politics': Category Philosophy and Political Advocacy; 'weapons': Category Weapons; 'pay-to-surf': Category Pay to Surf; 'hunting-and-fishing': Category Hunting and Fishing; 'society': Category Society; 'educational-institutions': Category Educational Institutions; 'online-greeting-cards': Category Online Greeting cards; 'sports': Category Sports; 'swimsuits-and-intimate-apparel': Category Swimsuits and Intimate Apparel; 'questionable': Category Questionable; 'kids': Category Kids; 'hate-and-racism': Category Hate and Racism; 'personal-storage': Category Personal Storage; 'violence': Category Violence; 'keyloggers-and-monitoring': Category Keyloggers and Monitoring; 'search-engines': Category Search Engines; 'internet-portals': Category Internet Portals; 'web-advertisements': Category Web Advertisements; 'cheating': Category Cheating; 'gross': Category Gross; 'web-based-email': Category Web based email; 'malware-sites': Category Malware Sites; 'phishing-and-other-fraud': Category Phishing and Other Frauds; 'proxy-avoid-and-anonymizers': Category Proxy Avoid and Anonymizers; 'spyware-and-adware': Category Spyware and Adware; 'music': Category Music; 'government': Category Government; 'nudity': Category Nudity; 'news-and-media': Category News and Media; 'illegal': Category Illegal; 'cdns': Category CDNs; 'internet-communications': Category Internet Communications; 'bot-nets': Category Bot Nets; 'abortion': Category Abortion; 'health-and-medicine': Category Health and Medicine; 'spam-urls': Category SPAM URLs; 'dynamically-generated-content': Category Dynamically Generated Content; 'parked-domains': Category Parked Domains; 'alcohol-and-tobacco': Category Alcohol and Tobacco; 'image-and-video-search': Category Image and Video Search; 'fashion-and-beauty': Category Fashion and Beauty; 'recreation-and-hobbies': Category Recreation and Hobbies; 'motor-vehicles': Category Motor Vehicles; 'web-hosting-sites': Category Web Hosting Sites; 'self-harm': Category Self Harm; 'dns-over-https': Category DNS over HTTPs; 'low-thc-cannabis-products': Category Low-THC Cannabis Products; 'generative-ai': Category Generative AI; 'nudity-artistic': Category Artistic Nudity; 'illegal-pornography': Category Illegal Pornography eg. Child Sexual Abuse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_abortion SlbTemplateClientSsl#exception_abortion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_category SlbTemplateClientSsl#exception_category}
   */
-  readonly exceptionAbortion?: number;
-  /**
-  * Category Adult and Pornography
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_adult_and_pornography SlbTemplateClientSsl#exception_adult_and_pornography}
-  */
-  readonly exceptionAdultAndPornography?: number;
-  /**
-  * Category Alcohol and Tobacco
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_alcohol_and_tobacco SlbTemplateClientSsl#exception_alcohol_and_tobacco}
-  */
-  readonly exceptionAlcoholAndTobacco?: number;
-  /**
-  * Category Auctions
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_auctions SlbTemplateClientSsl#exception_auctions}
-  */
-  readonly exceptionAuctions?: number;
-  /**
-  * Category Bot Nets
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_bot_nets SlbTemplateClientSsl#exception_bot_nets}
-  */
-  readonly exceptionBotNets?: number;
-  /**
-  * Category Business and Economy
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_business_and_economy SlbTemplateClientSsl#exception_business_and_economy}
-  */
-  readonly exceptionBusinessAndEconomy?: number;
-  /**
-  * Category CDNs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_cdns SlbTemplateClientSsl#exception_cdns}
-  */
-  readonly exceptionCdns?: number;
-  /**
-  * Category Cheating
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_cheating SlbTemplateClientSsl#exception_cheating}
-  */
-  readonly exceptionCheating?: number;
-  /**
-  * Category Computer and Internet Info
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_computer_and_internet_info SlbTemplateClientSsl#exception_computer_and_internet_info}
-  */
-  readonly exceptionComputerAndInternetInfo?: number;
-  /**
-  * Category Computer and Internet Security
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_computer_and_internet_security SlbTemplateClientSsl#exception_computer_and_internet_security}
-  */
-  readonly exceptionComputerAndInternetSecurity?: number;
-  /**
-  * Category Cult and Occult
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_cult_and_occult SlbTemplateClientSsl#exception_cult_and_occult}
-  */
-  readonly exceptionCultAndOccult?: number;
-  /**
-  * Category Dating
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_dating SlbTemplateClientSsl#exception_dating}
-  */
-  readonly exceptionDating?: number;
-  /**
-  * Category Dead Sites (db Ops only)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_dead_sites SlbTemplateClientSsl#exception_dead_sites}
-  */
-  readonly exceptionDeadSites?: number;
-  /**
-  * Category Abused Drugs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_drugs SlbTemplateClientSsl#exception_drugs}
-  */
-  readonly exceptionDrugs?: number;
-  /**
-  * Dynamically Generated Content
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_dynamically_generated_content SlbTemplateClientSsl#exception_dynamically_generated_content}
-  */
-  readonly exceptionDynamicallyGeneratedContent?: number;
-  /**
-  * Category Educational Institutions
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_educational_institutions SlbTemplateClientSsl#exception_educational_institutions}
-  */
-  readonly exceptionEducationalInstitutions?: number;
-  /**
-  * Category Entertainment and Arts
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_entertainment_and_arts SlbTemplateClientSsl#exception_entertainment_and_arts}
-  */
-  readonly exceptionEntertainmentAndArts?: number;
-  /**
-  * Category Fashion and Beauty
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_fashion_and_beauty SlbTemplateClientSsl#exception_fashion_and_beauty}
-  */
-  readonly exceptionFashionAndBeauty?: number;
-  /**
-  * Category Financial Services
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_financial_services SlbTemplateClientSsl#exception_financial_services}
-  */
-  readonly exceptionFinancialServices?: number;
-  /**
-  * Category Gambling
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_gambling SlbTemplateClientSsl#exception_gambling}
-  */
-  readonly exceptionGambling?: number;
-  /**
-  * Category Games
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_games SlbTemplateClientSsl#exception_games}
-  */
-  readonly exceptionGames?: number;
-  /**
-  * Category Government
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_government SlbTemplateClientSsl#exception_government}
-  */
-  readonly exceptionGovernment?: number;
-  /**
-  * Category Gross
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_gross SlbTemplateClientSsl#exception_gross}
-  */
-  readonly exceptionGross?: number;
-  /**
-  * Category Hacking
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_hacking SlbTemplateClientSsl#exception_hacking}
-  */
-  readonly exceptionHacking?: number;
-  /**
-  * Category Hate and Racism
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_hate_and_racism SlbTemplateClientSsl#exception_hate_and_racism}
-  */
-  readonly exceptionHateAndRacism?: number;
-  /**
-  * Category Health and Medicine
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_health_and_medicine SlbTemplateClientSsl#exception_health_and_medicine}
-  */
-  readonly exceptionHealthAndMedicine?: number;
-  /**
-  * Category Home and Garden
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_home_and_garden SlbTemplateClientSsl#exception_home_and_garden}
-  */
-  readonly exceptionHomeAndGarden?: number;
-  /**
-  * Category Hunting and Fishing
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_hunting_and_fishing SlbTemplateClientSsl#exception_hunting_and_fishing}
-  */
-  readonly exceptionHuntingAndFishing?: number;
-  /**
-  * Category Illegal
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_illegal SlbTemplateClientSsl#exception_illegal}
-  */
-  readonly exceptionIllegal?: number;
-  /**
-  * Category Illegal join Adult and Pornography
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_illegal_pornography SlbTemplateClientSsl#exception_illegal_pornography}
-  */
-  readonly exceptionIllegalPornography?: number;
-  /**
-  * Category Image and Video Search
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_image_and_video_search SlbTemplateClientSsl#exception_image_and_video_search}
-  */
-  readonly exceptionImageAndVideoSearch?: number;
-  /**
-  * Category Internet Communications
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_internet_communications SlbTemplateClientSsl#exception_internet_communications}
-  */
-  readonly exceptionInternetCommunications?: number;
-  /**
-  * Category Internet Portals
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_internet_portals SlbTemplateClientSsl#exception_internet_portals}
-  */
-  readonly exceptionInternetPortals?: number;
-  /**
-  * Category Job Search
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_job_search SlbTemplateClientSsl#exception_job_search}
-  */
-  readonly exceptionJobSearch?: number;
-  /**
-  * Category Keyloggers and Monitoring
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_keyloggers_and_monitoring SlbTemplateClientSsl#exception_keyloggers_and_monitoring}
-  */
-  readonly exceptionKeyloggersAndMonitoring?: number;
-  /**
-  * Category Kids
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_kids SlbTemplateClientSsl#exception_kids}
-  */
-  readonly exceptionKids?: number;
-  /**
-  * Category Legal
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_legal SlbTemplateClientSsl#exception_legal}
-  */
-  readonly exceptionLegal?: number;
-  /**
-  * Category Local Information
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_local_information SlbTemplateClientSsl#exception_local_information}
-  */
-  readonly exceptionLocalInformation?: number;
-  /**
-  * Category Malware Sites
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_malware_sites SlbTemplateClientSsl#exception_malware_sites}
-  */
-  readonly exceptionMalwareSites?: number;
-  /**
-  * Category Marijuana
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_marijuana SlbTemplateClientSsl#exception_marijuana}
-  */
-  readonly exceptionMarijuana?: number;
-  /**
-  * Category Military
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_military SlbTemplateClientSsl#exception_military}
-  */
-  readonly exceptionMilitary?: number;
-  /**
-  * Category Motor Vehicles
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_motor_vehicles SlbTemplateClientSsl#exception_motor_vehicles}
-  */
-  readonly exceptionMotorVehicles?: number;
-  /**
-  * Category Music
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_music SlbTemplateClientSsl#exception_music}
-  */
-  readonly exceptionMusic?: number;
-  /**
-  * Category News and Media
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_news_and_media SlbTemplateClientSsl#exception_news_and_media}
-  */
-  readonly exceptionNewsAndMedia?: number;
-  /**
-  * Category Nudity
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_nudity SlbTemplateClientSsl#exception_nudity}
-  */
-  readonly exceptionNudity?: number;
-  /**
-  * Category Nudity join Entertainment and Arts
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_nudity_artistic SlbTemplateClientSsl#exception_nudity_artistic}
-  */
-  readonly exceptionNudityArtistic?: number;
-  /**
-  * Category Online Greeting cards
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_online_greeting_cards SlbTemplateClientSsl#exception_online_greeting_cards}
-  */
-  readonly exceptionOnlineGreetingCards?: number;
-  /**
-  * Category Parked Domains
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_parked_domains SlbTemplateClientSsl#exception_parked_domains}
-  */
-  readonly exceptionParkedDomains?: number;
-  /**
-  * Category Pay to Surf
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_pay_to_surf SlbTemplateClientSsl#exception_pay_to_surf}
-  */
-  readonly exceptionPayToSurf?: number;
-  /**
-  * Category Peer to Peer
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_peer_to_peer SlbTemplateClientSsl#exception_peer_to_peer}
-  */
-  readonly exceptionPeerToPeer?: number;
-  /**
-  * Category Personal sites and Blogs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_personal_sites_and_blogs SlbTemplateClientSsl#exception_personal_sites_and_blogs}
-  */
-  readonly exceptionPersonalSitesAndBlogs?: number;
-  /**
-  * Category Personal Storage
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_personal_storage SlbTemplateClientSsl#exception_personal_storage}
-  */
-  readonly exceptionPersonalStorage?: number;
-  /**
-  * Category Philosophy and Political Advocacy
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_philosophy_and_politics SlbTemplateClientSsl#exception_philosophy_and_politics}
-  */
-  readonly exceptionPhilosophyAndPolitics?: number;
-  /**
-  * Category Phishing and Other Frauds
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_phishing_and_other_fraud SlbTemplateClientSsl#exception_phishing_and_other_fraud}
-  */
-  readonly exceptionPhishingAndOtherFraud?: number;
-  /**
-  * Category Proxy Avoid and Anonymizers
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_proxy_avoid_and_anonymizers SlbTemplateClientSsl#exception_proxy_avoid_and_anonymizers}
-  */
-  readonly exceptionProxyAvoidAndAnonymizers?: number;
-  /**
-  * Category Questionable
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_questionable SlbTemplateClientSsl#exception_questionable}
-  */
-  readonly exceptionQuestionable?: number;
-  /**
-  * Category Real Estate
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_real_estate SlbTemplateClientSsl#exception_real_estate}
-  */
-  readonly exceptionRealEstate?: number;
-  /**
-  * Category Recreation and Hobbies
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_recreation_and_hobbies SlbTemplateClientSsl#exception_recreation_and_hobbies}
-  */
-  readonly exceptionRecreationAndHobbies?: number;
-  /**
-  * Category Reference and Research
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_reference_and_research SlbTemplateClientSsl#exception_reference_and_research}
-  */
-  readonly exceptionReferenceAndResearch?: number;
-  /**
-  * Category Religion
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_religion SlbTemplateClientSsl#exception_religion}
-  */
-  readonly exceptionReligion?: number;
-  /**
-  * Category Search Engines
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_search_engines SlbTemplateClientSsl#exception_search_engines}
-  */
-  readonly exceptionSearchEngines?: number;
-  /**
-  * Category Sex Education
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_sex_education SlbTemplateClientSsl#exception_sex_education}
-  */
-  readonly exceptionSexEducation?: number;
-  /**
-  * Category Shareware and Freeware
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_shareware_and_freeware SlbTemplateClientSsl#exception_shareware_and_freeware}
-  */
-  readonly exceptionSharewareAndFreeware?: number;
-  /**
-  * Category Shopping
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_shopping SlbTemplateClientSsl#exception_shopping}
-  */
-  readonly exceptionShopping?: number;
-  /**
-  * Category Social Network
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_social_network SlbTemplateClientSsl#exception_social_network}
-  */
-  readonly exceptionSocialNetwork?: number;
-  /**
-  * Category Society
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_society SlbTemplateClientSsl#exception_society}
-  */
-  readonly exceptionSociety?: number;
-  /**
-  * Category SPAM URLs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_spam_urls SlbTemplateClientSsl#exception_spam_urls}
-  */
-  readonly exceptionSpamUrls?: number;
-  /**
-  * Category Sports
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_sports SlbTemplateClientSsl#exception_sports}
-  */
-  readonly exceptionSports?: number;
-  /**
-  * Category Spyware and Adware
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_spyware_and_adware SlbTemplateClientSsl#exception_spyware_and_adware}
-  */
-  readonly exceptionSpywareAndAdware?: number;
-  /**
-  * Category Stock Advice and Tools
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_stock_advice_and_tools SlbTemplateClientSsl#exception_stock_advice_and_tools}
-  */
-  readonly exceptionStockAdviceAndTools?: number;
-  /**
-  * Category Streaming Media
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_streaming_media SlbTemplateClientSsl#exception_streaming_media}
-  */
-  readonly exceptionStreamingMedia?: number;
-  /**
-  * Category Swimsuits and Intimate Apparel
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_swimsuits_and_intimate_apparel SlbTemplateClientSsl#exception_swimsuits_and_intimate_apparel}
-  */
-  readonly exceptionSwimsuitsAndIntimateApparel?: number;
-  /**
-  * Category Training and Tools
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_training_and_tools SlbTemplateClientSsl#exception_training_and_tools}
-  */
-  readonly exceptionTrainingAndTools?: number;
-  /**
-  * Category Translation
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_translation SlbTemplateClientSsl#exception_translation}
-  */
-  readonly exceptionTranslation?: number;
-  /**
-  * Category Travel
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_travel SlbTemplateClientSsl#exception_travel}
-  */
-  readonly exceptionTravel?: number;
-  /**
-  * Uncategorized URLs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_uncategorized SlbTemplateClientSsl#exception_uncategorized}
-  */
-  readonly exceptionUncategorized?: number;
-  /**
-  * Category Violence
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_violence SlbTemplateClientSsl#exception_violence}
-  */
-  readonly exceptionViolence?: number;
-  /**
-  * Category Weapons
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_weapons SlbTemplateClientSsl#exception_weapons}
-  */
-  readonly exceptionWeapons?: number;
-  /**
-  * Category Web Advertisements
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_web_advertisements SlbTemplateClientSsl#exception_web_advertisements}
-  */
-  readonly exceptionWebAdvertisements?: number;
-  /**
-  * Category Web based email
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_web_based_email SlbTemplateClientSsl#exception_web_based_email}
-  */
-  readonly exceptionWebBasedEmail?: number;
-  /**
-  * Category Web Hosting Sites
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_web_hosting_sites SlbTemplateClientSsl#exception_web_hosting_sites}
-  */
-  readonly exceptionWebHostingSites?: number;
+  readonly exceptionCategory?: string;
 }
 
 export function slbTemplateClientSslExceptionWebCategoryToTerraform(struct?: SlbTemplateClientSslExceptionWebCategoryOutputReference | SlbTemplateClientSslExceptionWebCategory): any {
@@ -5933,87 +5501,7 @@ export function slbTemplateClientSslExceptionWebCategoryToTerraform(struct?: Slb
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    exception_abortion: cdktf.numberToTerraform(struct!.exceptionAbortion),
-    exception_adult_and_pornography: cdktf.numberToTerraform(struct!.exceptionAdultAndPornography),
-    exception_alcohol_and_tobacco: cdktf.numberToTerraform(struct!.exceptionAlcoholAndTobacco),
-    exception_auctions: cdktf.numberToTerraform(struct!.exceptionAuctions),
-    exception_bot_nets: cdktf.numberToTerraform(struct!.exceptionBotNets),
-    exception_business_and_economy: cdktf.numberToTerraform(struct!.exceptionBusinessAndEconomy),
-    exception_cdns: cdktf.numberToTerraform(struct!.exceptionCdns),
-    exception_cheating: cdktf.numberToTerraform(struct!.exceptionCheating),
-    exception_computer_and_internet_info: cdktf.numberToTerraform(struct!.exceptionComputerAndInternetInfo),
-    exception_computer_and_internet_security: cdktf.numberToTerraform(struct!.exceptionComputerAndInternetSecurity),
-    exception_cult_and_occult: cdktf.numberToTerraform(struct!.exceptionCultAndOccult),
-    exception_dating: cdktf.numberToTerraform(struct!.exceptionDating),
-    exception_dead_sites: cdktf.numberToTerraform(struct!.exceptionDeadSites),
-    exception_drugs: cdktf.numberToTerraform(struct!.exceptionDrugs),
-    exception_dynamically_generated_content: cdktf.numberToTerraform(struct!.exceptionDynamicallyGeneratedContent),
-    exception_educational_institutions: cdktf.numberToTerraform(struct!.exceptionEducationalInstitutions),
-    exception_entertainment_and_arts: cdktf.numberToTerraform(struct!.exceptionEntertainmentAndArts),
-    exception_fashion_and_beauty: cdktf.numberToTerraform(struct!.exceptionFashionAndBeauty),
-    exception_financial_services: cdktf.numberToTerraform(struct!.exceptionFinancialServices),
-    exception_gambling: cdktf.numberToTerraform(struct!.exceptionGambling),
-    exception_games: cdktf.numberToTerraform(struct!.exceptionGames),
-    exception_government: cdktf.numberToTerraform(struct!.exceptionGovernment),
-    exception_gross: cdktf.numberToTerraform(struct!.exceptionGross),
-    exception_hacking: cdktf.numberToTerraform(struct!.exceptionHacking),
-    exception_hate_and_racism: cdktf.numberToTerraform(struct!.exceptionHateAndRacism),
-    exception_health_and_medicine: cdktf.numberToTerraform(struct!.exceptionHealthAndMedicine),
-    exception_home_and_garden: cdktf.numberToTerraform(struct!.exceptionHomeAndGarden),
-    exception_hunting_and_fishing: cdktf.numberToTerraform(struct!.exceptionHuntingAndFishing),
-    exception_illegal: cdktf.numberToTerraform(struct!.exceptionIllegal),
-    exception_illegal_pornography: cdktf.numberToTerraform(struct!.exceptionIllegalPornography),
-    exception_image_and_video_search: cdktf.numberToTerraform(struct!.exceptionImageAndVideoSearch),
-    exception_internet_communications: cdktf.numberToTerraform(struct!.exceptionInternetCommunications),
-    exception_internet_portals: cdktf.numberToTerraform(struct!.exceptionInternetPortals),
-    exception_job_search: cdktf.numberToTerraform(struct!.exceptionJobSearch),
-    exception_keyloggers_and_monitoring: cdktf.numberToTerraform(struct!.exceptionKeyloggersAndMonitoring),
-    exception_kids: cdktf.numberToTerraform(struct!.exceptionKids),
-    exception_legal: cdktf.numberToTerraform(struct!.exceptionLegal),
-    exception_local_information: cdktf.numberToTerraform(struct!.exceptionLocalInformation),
-    exception_malware_sites: cdktf.numberToTerraform(struct!.exceptionMalwareSites),
-    exception_marijuana: cdktf.numberToTerraform(struct!.exceptionMarijuana),
-    exception_military: cdktf.numberToTerraform(struct!.exceptionMilitary),
-    exception_motor_vehicles: cdktf.numberToTerraform(struct!.exceptionMotorVehicles),
-    exception_music: cdktf.numberToTerraform(struct!.exceptionMusic),
-    exception_news_and_media: cdktf.numberToTerraform(struct!.exceptionNewsAndMedia),
-    exception_nudity: cdktf.numberToTerraform(struct!.exceptionNudity),
-    exception_nudity_artistic: cdktf.numberToTerraform(struct!.exceptionNudityArtistic),
-    exception_online_greeting_cards: cdktf.numberToTerraform(struct!.exceptionOnlineGreetingCards),
-    exception_parked_domains: cdktf.numberToTerraform(struct!.exceptionParkedDomains),
-    exception_pay_to_surf: cdktf.numberToTerraform(struct!.exceptionPayToSurf),
-    exception_peer_to_peer: cdktf.numberToTerraform(struct!.exceptionPeerToPeer),
-    exception_personal_sites_and_blogs: cdktf.numberToTerraform(struct!.exceptionPersonalSitesAndBlogs),
-    exception_personal_storage: cdktf.numberToTerraform(struct!.exceptionPersonalStorage),
-    exception_philosophy_and_politics: cdktf.numberToTerraform(struct!.exceptionPhilosophyAndPolitics),
-    exception_phishing_and_other_fraud: cdktf.numberToTerraform(struct!.exceptionPhishingAndOtherFraud),
-    exception_proxy_avoid_and_anonymizers: cdktf.numberToTerraform(struct!.exceptionProxyAvoidAndAnonymizers),
-    exception_questionable: cdktf.numberToTerraform(struct!.exceptionQuestionable),
-    exception_real_estate: cdktf.numberToTerraform(struct!.exceptionRealEstate),
-    exception_recreation_and_hobbies: cdktf.numberToTerraform(struct!.exceptionRecreationAndHobbies),
-    exception_reference_and_research: cdktf.numberToTerraform(struct!.exceptionReferenceAndResearch),
-    exception_religion: cdktf.numberToTerraform(struct!.exceptionReligion),
-    exception_search_engines: cdktf.numberToTerraform(struct!.exceptionSearchEngines),
-    exception_sex_education: cdktf.numberToTerraform(struct!.exceptionSexEducation),
-    exception_shareware_and_freeware: cdktf.numberToTerraform(struct!.exceptionSharewareAndFreeware),
-    exception_shopping: cdktf.numberToTerraform(struct!.exceptionShopping),
-    exception_social_network: cdktf.numberToTerraform(struct!.exceptionSocialNetwork),
-    exception_society: cdktf.numberToTerraform(struct!.exceptionSociety),
-    exception_spam_urls: cdktf.numberToTerraform(struct!.exceptionSpamUrls),
-    exception_sports: cdktf.numberToTerraform(struct!.exceptionSports),
-    exception_spyware_and_adware: cdktf.numberToTerraform(struct!.exceptionSpywareAndAdware),
-    exception_stock_advice_and_tools: cdktf.numberToTerraform(struct!.exceptionStockAdviceAndTools),
-    exception_streaming_media: cdktf.numberToTerraform(struct!.exceptionStreamingMedia),
-    exception_swimsuits_and_intimate_apparel: cdktf.numberToTerraform(struct!.exceptionSwimsuitsAndIntimateApparel),
-    exception_training_and_tools: cdktf.numberToTerraform(struct!.exceptionTrainingAndTools),
-    exception_translation: cdktf.numberToTerraform(struct!.exceptionTranslation),
-    exception_travel: cdktf.numberToTerraform(struct!.exceptionTravel),
-    exception_uncategorized: cdktf.numberToTerraform(struct!.exceptionUncategorized),
-    exception_violence: cdktf.numberToTerraform(struct!.exceptionViolence),
-    exception_weapons: cdktf.numberToTerraform(struct!.exceptionWeapons),
-    exception_web_advertisements: cdktf.numberToTerraform(struct!.exceptionWebAdvertisements),
-    exception_web_based_email: cdktf.numberToTerraform(struct!.exceptionWebBasedEmail),
-    exception_web_hosting_sites: cdktf.numberToTerraform(struct!.exceptionWebHostingSites),
+    exception_category: cdktf.stringToTerraform(struct!.exceptionCategory),
   }
 }
 
@@ -6024,491 +5512,11 @@ export function slbTemplateClientSslExceptionWebCategoryToHclTerraform(struct?: 
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    exception_abortion: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionAbortion),
+    exception_category: {
+      value: cdktf.stringToHclTerraform(struct!.exceptionCategory),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
-    },
-    exception_adult_and_pornography: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionAdultAndPornography),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_alcohol_and_tobacco: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionAlcoholAndTobacco),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_auctions: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionAuctions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_bot_nets: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionBotNets),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_business_and_economy: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionBusinessAndEconomy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_cdns: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionCdns),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_cheating: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionCheating),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_computer_and_internet_info: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionComputerAndInternetInfo),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_computer_and_internet_security: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionComputerAndInternetSecurity),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_cult_and_occult: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionCultAndOccult),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_dating: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionDating),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_dead_sites: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionDeadSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_drugs: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionDrugs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_dynamically_generated_content: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionDynamicallyGeneratedContent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_educational_institutions: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionEducationalInstitutions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_entertainment_and_arts: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionEntertainmentAndArts),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_fashion_and_beauty: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionFashionAndBeauty),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_financial_services: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionFinancialServices),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_gambling: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionGambling),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_games: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionGames),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_government: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionGovernment),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_gross: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionGross),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_hacking: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionHacking),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_hate_and_racism: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionHateAndRacism),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_health_and_medicine: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionHealthAndMedicine),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_home_and_garden: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionHomeAndGarden),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_hunting_and_fishing: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionHuntingAndFishing),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_illegal: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionIllegal),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_illegal_pornography: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionIllegalPornography),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_image_and_video_search: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionImageAndVideoSearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_internet_communications: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionInternetCommunications),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_internet_portals: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionInternetPortals),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_job_search: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionJobSearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_keyloggers_and_monitoring: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionKeyloggersAndMonitoring),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_kids: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionKids),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_legal: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionLegal),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_local_information: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionLocalInformation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_malware_sites: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionMalwareSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_marijuana: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionMarijuana),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_military: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionMilitary),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_motor_vehicles: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionMotorVehicles),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_music: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionMusic),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_news_and_media: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionNewsAndMedia),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_nudity: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionNudity),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_nudity_artistic: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionNudityArtistic),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_online_greeting_cards: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionOnlineGreetingCards),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_parked_domains: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionParkedDomains),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_pay_to_surf: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPayToSurf),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_peer_to_peer: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPeerToPeer),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_personal_sites_and_blogs: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPersonalSitesAndBlogs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_personal_storage: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPersonalStorage),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_philosophy_and_politics: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPhilosophyAndPolitics),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_phishing_and_other_fraud: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionPhishingAndOtherFraud),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_proxy_avoid_and_anonymizers: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionProxyAvoidAndAnonymizers),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_questionable: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionQuestionable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_real_estate: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionRealEstate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_recreation_and_hobbies: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionRecreationAndHobbies),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_reference_and_research: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionReferenceAndResearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_religion: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionReligion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_search_engines: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSearchEngines),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_sex_education: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSexEducation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_shareware_and_freeware: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSharewareAndFreeware),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_shopping: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionShopping),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_social_network: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSocialNetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_society: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSociety),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_spam_urls: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSpamUrls),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_sports: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSports),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_spyware_and_adware: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSpywareAndAdware),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_stock_advice_and_tools: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionStockAdviceAndTools),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_streaming_media: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionStreamingMedia),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_swimsuits_and_intimate_apparel: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionSwimsuitsAndIntimateApparel),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_training_and_tools: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionTrainingAndTools),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_translation: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionTranslation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_travel: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionTravel),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_uncategorized: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionUncategorized),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_violence: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionViolence),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_weapons: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionWeapons),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_web_advertisements: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionWebAdvertisements),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_web_based_email: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionWebBasedEmail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    exception_web_hosting_sites: {
-      value: cdktf.numberToHclTerraform(struct!.exceptionWebHostingSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
+      storageClassType: "string",
     },
   };
 
@@ -6530,329 +5538,9 @@ export class SlbTemplateClientSslExceptionWebCategoryOutputReference extends cdk
   public get internalValue(): SlbTemplateClientSslExceptionWebCategory | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._exceptionAbortion !== undefined) {
+    if (this._exceptionCategory !== undefined) {
       hasAnyValues = true;
-      internalValueResult.exceptionAbortion = this._exceptionAbortion;
-    }
-    if (this._exceptionAdultAndPornography !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionAdultAndPornography = this._exceptionAdultAndPornography;
-    }
-    if (this._exceptionAlcoholAndTobacco !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionAlcoholAndTobacco = this._exceptionAlcoholAndTobacco;
-    }
-    if (this._exceptionAuctions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionAuctions = this._exceptionAuctions;
-    }
-    if (this._exceptionBotNets !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionBotNets = this._exceptionBotNets;
-    }
-    if (this._exceptionBusinessAndEconomy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionBusinessAndEconomy = this._exceptionBusinessAndEconomy;
-    }
-    if (this._exceptionCdns !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionCdns = this._exceptionCdns;
-    }
-    if (this._exceptionCheating !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionCheating = this._exceptionCheating;
-    }
-    if (this._exceptionComputerAndInternetInfo !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionComputerAndInternetInfo = this._exceptionComputerAndInternetInfo;
-    }
-    if (this._exceptionComputerAndInternetSecurity !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionComputerAndInternetSecurity = this._exceptionComputerAndInternetSecurity;
-    }
-    if (this._exceptionCultAndOccult !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionCultAndOccult = this._exceptionCultAndOccult;
-    }
-    if (this._exceptionDating !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionDating = this._exceptionDating;
-    }
-    if (this._exceptionDeadSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionDeadSites = this._exceptionDeadSites;
-    }
-    if (this._exceptionDrugs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionDrugs = this._exceptionDrugs;
-    }
-    if (this._exceptionDynamicallyGeneratedContent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionDynamicallyGeneratedContent = this._exceptionDynamicallyGeneratedContent;
-    }
-    if (this._exceptionEducationalInstitutions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionEducationalInstitutions = this._exceptionEducationalInstitutions;
-    }
-    if (this._exceptionEntertainmentAndArts !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionEntertainmentAndArts = this._exceptionEntertainmentAndArts;
-    }
-    if (this._exceptionFashionAndBeauty !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionFashionAndBeauty = this._exceptionFashionAndBeauty;
-    }
-    if (this._exceptionFinancialServices !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionFinancialServices = this._exceptionFinancialServices;
-    }
-    if (this._exceptionGambling !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionGambling = this._exceptionGambling;
-    }
-    if (this._exceptionGames !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionGames = this._exceptionGames;
-    }
-    if (this._exceptionGovernment !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionGovernment = this._exceptionGovernment;
-    }
-    if (this._exceptionGross !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionGross = this._exceptionGross;
-    }
-    if (this._exceptionHacking !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionHacking = this._exceptionHacking;
-    }
-    if (this._exceptionHateAndRacism !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionHateAndRacism = this._exceptionHateAndRacism;
-    }
-    if (this._exceptionHealthAndMedicine !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionHealthAndMedicine = this._exceptionHealthAndMedicine;
-    }
-    if (this._exceptionHomeAndGarden !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionHomeAndGarden = this._exceptionHomeAndGarden;
-    }
-    if (this._exceptionHuntingAndFishing !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionHuntingAndFishing = this._exceptionHuntingAndFishing;
-    }
-    if (this._exceptionIllegal !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionIllegal = this._exceptionIllegal;
-    }
-    if (this._exceptionIllegalPornography !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionIllegalPornography = this._exceptionIllegalPornography;
-    }
-    if (this._exceptionImageAndVideoSearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionImageAndVideoSearch = this._exceptionImageAndVideoSearch;
-    }
-    if (this._exceptionInternetCommunications !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionInternetCommunications = this._exceptionInternetCommunications;
-    }
-    if (this._exceptionInternetPortals !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionInternetPortals = this._exceptionInternetPortals;
-    }
-    if (this._exceptionJobSearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionJobSearch = this._exceptionJobSearch;
-    }
-    if (this._exceptionKeyloggersAndMonitoring !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionKeyloggersAndMonitoring = this._exceptionKeyloggersAndMonitoring;
-    }
-    if (this._exceptionKids !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionKids = this._exceptionKids;
-    }
-    if (this._exceptionLegal !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionLegal = this._exceptionLegal;
-    }
-    if (this._exceptionLocalInformation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionLocalInformation = this._exceptionLocalInformation;
-    }
-    if (this._exceptionMalwareSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionMalwareSites = this._exceptionMalwareSites;
-    }
-    if (this._exceptionMarijuana !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionMarijuana = this._exceptionMarijuana;
-    }
-    if (this._exceptionMilitary !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionMilitary = this._exceptionMilitary;
-    }
-    if (this._exceptionMotorVehicles !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionMotorVehicles = this._exceptionMotorVehicles;
-    }
-    if (this._exceptionMusic !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionMusic = this._exceptionMusic;
-    }
-    if (this._exceptionNewsAndMedia !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionNewsAndMedia = this._exceptionNewsAndMedia;
-    }
-    if (this._exceptionNudity !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionNudity = this._exceptionNudity;
-    }
-    if (this._exceptionNudityArtistic !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionNudityArtistic = this._exceptionNudityArtistic;
-    }
-    if (this._exceptionOnlineGreetingCards !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionOnlineGreetingCards = this._exceptionOnlineGreetingCards;
-    }
-    if (this._exceptionParkedDomains !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionParkedDomains = this._exceptionParkedDomains;
-    }
-    if (this._exceptionPayToSurf !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPayToSurf = this._exceptionPayToSurf;
-    }
-    if (this._exceptionPeerToPeer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPeerToPeer = this._exceptionPeerToPeer;
-    }
-    if (this._exceptionPersonalSitesAndBlogs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPersonalSitesAndBlogs = this._exceptionPersonalSitesAndBlogs;
-    }
-    if (this._exceptionPersonalStorage !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPersonalStorage = this._exceptionPersonalStorage;
-    }
-    if (this._exceptionPhilosophyAndPolitics !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPhilosophyAndPolitics = this._exceptionPhilosophyAndPolitics;
-    }
-    if (this._exceptionPhishingAndOtherFraud !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionPhishingAndOtherFraud = this._exceptionPhishingAndOtherFraud;
-    }
-    if (this._exceptionProxyAvoidAndAnonymizers !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionProxyAvoidAndAnonymizers = this._exceptionProxyAvoidAndAnonymizers;
-    }
-    if (this._exceptionQuestionable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionQuestionable = this._exceptionQuestionable;
-    }
-    if (this._exceptionRealEstate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionRealEstate = this._exceptionRealEstate;
-    }
-    if (this._exceptionRecreationAndHobbies !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionRecreationAndHobbies = this._exceptionRecreationAndHobbies;
-    }
-    if (this._exceptionReferenceAndResearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionReferenceAndResearch = this._exceptionReferenceAndResearch;
-    }
-    if (this._exceptionReligion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionReligion = this._exceptionReligion;
-    }
-    if (this._exceptionSearchEngines !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSearchEngines = this._exceptionSearchEngines;
-    }
-    if (this._exceptionSexEducation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSexEducation = this._exceptionSexEducation;
-    }
-    if (this._exceptionSharewareAndFreeware !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSharewareAndFreeware = this._exceptionSharewareAndFreeware;
-    }
-    if (this._exceptionShopping !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionShopping = this._exceptionShopping;
-    }
-    if (this._exceptionSocialNetwork !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSocialNetwork = this._exceptionSocialNetwork;
-    }
-    if (this._exceptionSociety !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSociety = this._exceptionSociety;
-    }
-    if (this._exceptionSpamUrls !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSpamUrls = this._exceptionSpamUrls;
-    }
-    if (this._exceptionSports !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSports = this._exceptionSports;
-    }
-    if (this._exceptionSpywareAndAdware !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSpywareAndAdware = this._exceptionSpywareAndAdware;
-    }
-    if (this._exceptionStockAdviceAndTools !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionStockAdviceAndTools = this._exceptionStockAdviceAndTools;
-    }
-    if (this._exceptionStreamingMedia !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionStreamingMedia = this._exceptionStreamingMedia;
-    }
-    if (this._exceptionSwimsuitsAndIntimateApparel !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionSwimsuitsAndIntimateApparel = this._exceptionSwimsuitsAndIntimateApparel;
-    }
-    if (this._exceptionTrainingAndTools !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionTrainingAndTools = this._exceptionTrainingAndTools;
-    }
-    if (this._exceptionTranslation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionTranslation = this._exceptionTranslation;
-    }
-    if (this._exceptionTravel !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionTravel = this._exceptionTravel;
-    }
-    if (this._exceptionUncategorized !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionUncategorized = this._exceptionUncategorized;
-    }
-    if (this._exceptionViolence !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionViolence = this._exceptionViolence;
-    }
-    if (this._exceptionWeapons !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionWeapons = this._exceptionWeapons;
-    }
-    if (this._exceptionWebAdvertisements !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionWebAdvertisements = this._exceptionWebAdvertisements;
-    }
-    if (this._exceptionWebBasedEmail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionWebBasedEmail = this._exceptionWebBasedEmail;
-    }
-    if (this._exceptionWebHostingSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.exceptionWebHostingSites = this._exceptionWebHostingSites;
+      internalValueResult.exceptionCategory = this._exceptionCategory;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -6860,1505 +5548,65 @@ export class SlbTemplateClientSslExceptionWebCategoryOutputReference extends cdk
   public set internalValue(value: SlbTemplateClientSslExceptionWebCategory | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._exceptionAbortion = undefined;
-      this._exceptionAdultAndPornography = undefined;
-      this._exceptionAlcoholAndTobacco = undefined;
-      this._exceptionAuctions = undefined;
-      this._exceptionBotNets = undefined;
-      this._exceptionBusinessAndEconomy = undefined;
-      this._exceptionCdns = undefined;
-      this._exceptionCheating = undefined;
-      this._exceptionComputerAndInternetInfo = undefined;
-      this._exceptionComputerAndInternetSecurity = undefined;
-      this._exceptionCultAndOccult = undefined;
-      this._exceptionDating = undefined;
-      this._exceptionDeadSites = undefined;
-      this._exceptionDrugs = undefined;
-      this._exceptionDynamicallyGeneratedContent = undefined;
-      this._exceptionEducationalInstitutions = undefined;
-      this._exceptionEntertainmentAndArts = undefined;
-      this._exceptionFashionAndBeauty = undefined;
-      this._exceptionFinancialServices = undefined;
-      this._exceptionGambling = undefined;
-      this._exceptionGames = undefined;
-      this._exceptionGovernment = undefined;
-      this._exceptionGross = undefined;
-      this._exceptionHacking = undefined;
-      this._exceptionHateAndRacism = undefined;
-      this._exceptionHealthAndMedicine = undefined;
-      this._exceptionHomeAndGarden = undefined;
-      this._exceptionHuntingAndFishing = undefined;
-      this._exceptionIllegal = undefined;
-      this._exceptionIllegalPornography = undefined;
-      this._exceptionImageAndVideoSearch = undefined;
-      this._exceptionInternetCommunications = undefined;
-      this._exceptionInternetPortals = undefined;
-      this._exceptionJobSearch = undefined;
-      this._exceptionKeyloggersAndMonitoring = undefined;
-      this._exceptionKids = undefined;
-      this._exceptionLegal = undefined;
-      this._exceptionLocalInformation = undefined;
-      this._exceptionMalwareSites = undefined;
-      this._exceptionMarijuana = undefined;
-      this._exceptionMilitary = undefined;
-      this._exceptionMotorVehicles = undefined;
-      this._exceptionMusic = undefined;
-      this._exceptionNewsAndMedia = undefined;
-      this._exceptionNudity = undefined;
-      this._exceptionNudityArtistic = undefined;
-      this._exceptionOnlineGreetingCards = undefined;
-      this._exceptionParkedDomains = undefined;
-      this._exceptionPayToSurf = undefined;
-      this._exceptionPeerToPeer = undefined;
-      this._exceptionPersonalSitesAndBlogs = undefined;
-      this._exceptionPersonalStorage = undefined;
-      this._exceptionPhilosophyAndPolitics = undefined;
-      this._exceptionPhishingAndOtherFraud = undefined;
-      this._exceptionProxyAvoidAndAnonymizers = undefined;
-      this._exceptionQuestionable = undefined;
-      this._exceptionRealEstate = undefined;
-      this._exceptionRecreationAndHobbies = undefined;
-      this._exceptionReferenceAndResearch = undefined;
-      this._exceptionReligion = undefined;
-      this._exceptionSearchEngines = undefined;
-      this._exceptionSexEducation = undefined;
-      this._exceptionSharewareAndFreeware = undefined;
-      this._exceptionShopping = undefined;
-      this._exceptionSocialNetwork = undefined;
-      this._exceptionSociety = undefined;
-      this._exceptionSpamUrls = undefined;
-      this._exceptionSports = undefined;
-      this._exceptionSpywareAndAdware = undefined;
-      this._exceptionStockAdviceAndTools = undefined;
-      this._exceptionStreamingMedia = undefined;
-      this._exceptionSwimsuitsAndIntimateApparel = undefined;
-      this._exceptionTrainingAndTools = undefined;
-      this._exceptionTranslation = undefined;
-      this._exceptionTravel = undefined;
-      this._exceptionUncategorized = undefined;
-      this._exceptionViolence = undefined;
-      this._exceptionWeapons = undefined;
-      this._exceptionWebAdvertisements = undefined;
-      this._exceptionWebBasedEmail = undefined;
-      this._exceptionWebHostingSites = undefined;
+      this._exceptionCategory = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._exceptionAbortion = value.exceptionAbortion;
-      this._exceptionAdultAndPornography = value.exceptionAdultAndPornography;
-      this._exceptionAlcoholAndTobacco = value.exceptionAlcoholAndTobacco;
-      this._exceptionAuctions = value.exceptionAuctions;
-      this._exceptionBotNets = value.exceptionBotNets;
-      this._exceptionBusinessAndEconomy = value.exceptionBusinessAndEconomy;
-      this._exceptionCdns = value.exceptionCdns;
-      this._exceptionCheating = value.exceptionCheating;
-      this._exceptionComputerAndInternetInfo = value.exceptionComputerAndInternetInfo;
-      this._exceptionComputerAndInternetSecurity = value.exceptionComputerAndInternetSecurity;
-      this._exceptionCultAndOccult = value.exceptionCultAndOccult;
-      this._exceptionDating = value.exceptionDating;
-      this._exceptionDeadSites = value.exceptionDeadSites;
-      this._exceptionDrugs = value.exceptionDrugs;
-      this._exceptionDynamicallyGeneratedContent = value.exceptionDynamicallyGeneratedContent;
-      this._exceptionEducationalInstitutions = value.exceptionEducationalInstitutions;
-      this._exceptionEntertainmentAndArts = value.exceptionEntertainmentAndArts;
-      this._exceptionFashionAndBeauty = value.exceptionFashionAndBeauty;
-      this._exceptionFinancialServices = value.exceptionFinancialServices;
-      this._exceptionGambling = value.exceptionGambling;
-      this._exceptionGames = value.exceptionGames;
-      this._exceptionGovernment = value.exceptionGovernment;
-      this._exceptionGross = value.exceptionGross;
-      this._exceptionHacking = value.exceptionHacking;
-      this._exceptionHateAndRacism = value.exceptionHateAndRacism;
-      this._exceptionHealthAndMedicine = value.exceptionHealthAndMedicine;
-      this._exceptionHomeAndGarden = value.exceptionHomeAndGarden;
-      this._exceptionHuntingAndFishing = value.exceptionHuntingAndFishing;
-      this._exceptionIllegal = value.exceptionIllegal;
-      this._exceptionIllegalPornography = value.exceptionIllegalPornography;
-      this._exceptionImageAndVideoSearch = value.exceptionImageAndVideoSearch;
-      this._exceptionInternetCommunications = value.exceptionInternetCommunications;
-      this._exceptionInternetPortals = value.exceptionInternetPortals;
-      this._exceptionJobSearch = value.exceptionJobSearch;
-      this._exceptionKeyloggersAndMonitoring = value.exceptionKeyloggersAndMonitoring;
-      this._exceptionKids = value.exceptionKids;
-      this._exceptionLegal = value.exceptionLegal;
-      this._exceptionLocalInformation = value.exceptionLocalInformation;
-      this._exceptionMalwareSites = value.exceptionMalwareSites;
-      this._exceptionMarijuana = value.exceptionMarijuana;
-      this._exceptionMilitary = value.exceptionMilitary;
-      this._exceptionMotorVehicles = value.exceptionMotorVehicles;
-      this._exceptionMusic = value.exceptionMusic;
-      this._exceptionNewsAndMedia = value.exceptionNewsAndMedia;
-      this._exceptionNudity = value.exceptionNudity;
-      this._exceptionNudityArtistic = value.exceptionNudityArtistic;
-      this._exceptionOnlineGreetingCards = value.exceptionOnlineGreetingCards;
-      this._exceptionParkedDomains = value.exceptionParkedDomains;
-      this._exceptionPayToSurf = value.exceptionPayToSurf;
-      this._exceptionPeerToPeer = value.exceptionPeerToPeer;
-      this._exceptionPersonalSitesAndBlogs = value.exceptionPersonalSitesAndBlogs;
-      this._exceptionPersonalStorage = value.exceptionPersonalStorage;
-      this._exceptionPhilosophyAndPolitics = value.exceptionPhilosophyAndPolitics;
-      this._exceptionPhishingAndOtherFraud = value.exceptionPhishingAndOtherFraud;
-      this._exceptionProxyAvoidAndAnonymizers = value.exceptionProxyAvoidAndAnonymizers;
-      this._exceptionQuestionable = value.exceptionQuestionable;
-      this._exceptionRealEstate = value.exceptionRealEstate;
-      this._exceptionRecreationAndHobbies = value.exceptionRecreationAndHobbies;
-      this._exceptionReferenceAndResearch = value.exceptionReferenceAndResearch;
-      this._exceptionReligion = value.exceptionReligion;
-      this._exceptionSearchEngines = value.exceptionSearchEngines;
-      this._exceptionSexEducation = value.exceptionSexEducation;
-      this._exceptionSharewareAndFreeware = value.exceptionSharewareAndFreeware;
-      this._exceptionShopping = value.exceptionShopping;
-      this._exceptionSocialNetwork = value.exceptionSocialNetwork;
-      this._exceptionSociety = value.exceptionSociety;
-      this._exceptionSpamUrls = value.exceptionSpamUrls;
-      this._exceptionSports = value.exceptionSports;
-      this._exceptionSpywareAndAdware = value.exceptionSpywareAndAdware;
-      this._exceptionStockAdviceAndTools = value.exceptionStockAdviceAndTools;
-      this._exceptionStreamingMedia = value.exceptionStreamingMedia;
-      this._exceptionSwimsuitsAndIntimateApparel = value.exceptionSwimsuitsAndIntimateApparel;
-      this._exceptionTrainingAndTools = value.exceptionTrainingAndTools;
-      this._exceptionTranslation = value.exceptionTranslation;
-      this._exceptionTravel = value.exceptionTravel;
-      this._exceptionUncategorized = value.exceptionUncategorized;
-      this._exceptionViolence = value.exceptionViolence;
-      this._exceptionWeapons = value.exceptionWeapons;
-      this._exceptionWebAdvertisements = value.exceptionWebAdvertisements;
-      this._exceptionWebBasedEmail = value.exceptionWebBasedEmail;
-      this._exceptionWebHostingSites = value.exceptionWebHostingSites;
+      this._exceptionCategory = value.exceptionCategory;
     }
   }
 
-  // exception_abortion - computed: false, optional: true, required: false
-  private _exceptionAbortion?: number; 
-  public get exceptionAbortion() {
-    return this.getNumberAttribute('exception_abortion');
+  // exception_category - computed: false, optional: true, required: false
+  private _exceptionCategory?: string; 
+  public get exceptionCategory() {
+    return this.getStringAttribute('exception_category');
   }
-  public set exceptionAbortion(value: number) {
-    this._exceptionAbortion = value;
+  public set exceptionCategory(value: string) {
+    this._exceptionCategory = value;
   }
-  public resetExceptionAbortion() {
-    this._exceptionAbortion = undefined;
+  public resetExceptionCategory() {
+    this._exceptionCategory = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get exceptionAbortionInput() {
-    return this._exceptionAbortion;
-  }
-
-  // exception_adult_and_pornography - computed: false, optional: true, required: false
-  private _exceptionAdultAndPornography?: number; 
-  public get exceptionAdultAndPornography() {
-    return this.getNumberAttribute('exception_adult_and_pornography');
-  }
-  public set exceptionAdultAndPornography(value: number) {
-    this._exceptionAdultAndPornography = value;
-  }
-  public resetExceptionAdultAndPornography() {
-    this._exceptionAdultAndPornography = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionAdultAndPornographyInput() {
-    return this._exceptionAdultAndPornography;
-  }
-
-  // exception_alcohol_and_tobacco - computed: false, optional: true, required: false
-  private _exceptionAlcoholAndTobacco?: number; 
-  public get exceptionAlcoholAndTobacco() {
-    return this.getNumberAttribute('exception_alcohol_and_tobacco');
-  }
-  public set exceptionAlcoholAndTobacco(value: number) {
-    this._exceptionAlcoholAndTobacco = value;
-  }
-  public resetExceptionAlcoholAndTobacco() {
-    this._exceptionAlcoholAndTobacco = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionAlcoholAndTobaccoInput() {
-    return this._exceptionAlcoholAndTobacco;
-  }
-
-  // exception_auctions - computed: false, optional: true, required: false
-  private _exceptionAuctions?: number; 
-  public get exceptionAuctions() {
-    return this.getNumberAttribute('exception_auctions');
-  }
-  public set exceptionAuctions(value: number) {
-    this._exceptionAuctions = value;
-  }
-  public resetExceptionAuctions() {
-    this._exceptionAuctions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionAuctionsInput() {
-    return this._exceptionAuctions;
-  }
-
-  // exception_bot_nets - computed: false, optional: true, required: false
-  private _exceptionBotNets?: number; 
-  public get exceptionBotNets() {
-    return this.getNumberAttribute('exception_bot_nets');
-  }
-  public set exceptionBotNets(value: number) {
-    this._exceptionBotNets = value;
-  }
-  public resetExceptionBotNets() {
-    this._exceptionBotNets = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionBotNetsInput() {
-    return this._exceptionBotNets;
-  }
-
-  // exception_business_and_economy - computed: false, optional: true, required: false
-  private _exceptionBusinessAndEconomy?: number; 
-  public get exceptionBusinessAndEconomy() {
-    return this.getNumberAttribute('exception_business_and_economy');
-  }
-  public set exceptionBusinessAndEconomy(value: number) {
-    this._exceptionBusinessAndEconomy = value;
-  }
-  public resetExceptionBusinessAndEconomy() {
-    this._exceptionBusinessAndEconomy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionBusinessAndEconomyInput() {
-    return this._exceptionBusinessAndEconomy;
-  }
-
-  // exception_cdns - computed: false, optional: true, required: false
-  private _exceptionCdns?: number; 
-  public get exceptionCdns() {
-    return this.getNumberAttribute('exception_cdns');
-  }
-  public set exceptionCdns(value: number) {
-    this._exceptionCdns = value;
-  }
-  public resetExceptionCdns() {
-    this._exceptionCdns = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionCdnsInput() {
-    return this._exceptionCdns;
-  }
-
-  // exception_cheating - computed: false, optional: true, required: false
-  private _exceptionCheating?: number; 
-  public get exceptionCheating() {
-    return this.getNumberAttribute('exception_cheating');
-  }
-  public set exceptionCheating(value: number) {
-    this._exceptionCheating = value;
-  }
-  public resetExceptionCheating() {
-    this._exceptionCheating = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionCheatingInput() {
-    return this._exceptionCheating;
-  }
-
-  // exception_computer_and_internet_info - computed: false, optional: true, required: false
-  private _exceptionComputerAndInternetInfo?: number; 
-  public get exceptionComputerAndInternetInfo() {
-    return this.getNumberAttribute('exception_computer_and_internet_info');
-  }
-  public set exceptionComputerAndInternetInfo(value: number) {
-    this._exceptionComputerAndInternetInfo = value;
-  }
-  public resetExceptionComputerAndInternetInfo() {
-    this._exceptionComputerAndInternetInfo = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionComputerAndInternetInfoInput() {
-    return this._exceptionComputerAndInternetInfo;
-  }
-
-  // exception_computer_and_internet_security - computed: false, optional: true, required: false
-  private _exceptionComputerAndInternetSecurity?: number; 
-  public get exceptionComputerAndInternetSecurity() {
-    return this.getNumberAttribute('exception_computer_and_internet_security');
-  }
-  public set exceptionComputerAndInternetSecurity(value: number) {
-    this._exceptionComputerAndInternetSecurity = value;
-  }
-  public resetExceptionComputerAndInternetSecurity() {
-    this._exceptionComputerAndInternetSecurity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionComputerAndInternetSecurityInput() {
-    return this._exceptionComputerAndInternetSecurity;
-  }
-
-  // exception_cult_and_occult - computed: false, optional: true, required: false
-  private _exceptionCultAndOccult?: number; 
-  public get exceptionCultAndOccult() {
-    return this.getNumberAttribute('exception_cult_and_occult');
-  }
-  public set exceptionCultAndOccult(value: number) {
-    this._exceptionCultAndOccult = value;
-  }
-  public resetExceptionCultAndOccult() {
-    this._exceptionCultAndOccult = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionCultAndOccultInput() {
-    return this._exceptionCultAndOccult;
-  }
-
-  // exception_dating - computed: false, optional: true, required: false
-  private _exceptionDating?: number; 
-  public get exceptionDating() {
-    return this.getNumberAttribute('exception_dating');
-  }
-  public set exceptionDating(value: number) {
-    this._exceptionDating = value;
-  }
-  public resetExceptionDating() {
-    this._exceptionDating = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionDatingInput() {
-    return this._exceptionDating;
-  }
-
-  // exception_dead_sites - computed: false, optional: true, required: false
-  private _exceptionDeadSites?: number; 
-  public get exceptionDeadSites() {
-    return this.getNumberAttribute('exception_dead_sites');
-  }
-  public set exceptionDeadSites(value: number) {
-    this._exceptionDeadSites = value;
-  }
-  public resetExceptionDeadSites() {
-    this._exceptionDeadSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionDeadSitesInput() {
-    return this._exceptionDeadSites;
-  }
-
-  // exception_drugs - computed: false, optional: true, required: false
-  private _exceptionDrugs?: number; 
-  public get exceptionDrugs() {
-    return this.getNumberAttribute('exception_drugs');
-  }
-  public set exceptionDrugs(value: number) {
-    this._exceptionDrugs = value;
-  }
-  public resetExceptionDrugs() {
-    this._exceptionDrugs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionDrugsInput() {
-    return this._exceptionDrugs;
-  }
-
-  // exception_dynamically_generated_content - computed: false, optional: true, required: false
-  private _exceptionDynamicallyGeneratedContent?: number; 
-  public get exceptionDynamicallyGeneratedContent() {
-    return this.getNumberAttribute('exception_dynamically_generated_content');
-  }
-  public set exceptionDynamicallyGeneratedContent(value: number) {
-    this._exceptionDynamicallyGeneratedContent = value;
-  }
-  public resetExceptionDynamicallyGeneratedContent() {
-    this._exceptionDynamicallyGeneratedContent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionDynamicallyGeneratedContentInput() {
-    return this._exceptionDynamicallyGeneratedContent;
-  }
-
-  // exception_educational_institutions - computed: false, optional: true, required: false
-  private _exceptionEducationalInstitutions?: number; 
-  public get exceptionEducationalInstitutions() {
-    return this.getNumberAttribute('exception_educational_institutions');
-  }
-  public set exceptionEducationalInstitutions(value: number) {
-    this._exceptionEducationalInstitutions = value;
-  }
-  public resetExceptionEducationalInstitutions() {
-    this._exceptionEducationalInstitutions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionEducationalInstitutionsInput() {
-    return this._exceptionEducationalInstitutions;
-  }
-
-  // exception_entertainment_and_arts - computed: false, optional: true, required: false
-  private _exceptionEntertainmentAndArts?: number; 
-  public get exceptionEntertainmentAndArts() {
-    return this.getNumberAttribute('exception_entertainment_and_arts');
-  }
-  public set exceptionEntertainmentAndArts(value: number) {
-    this._exceptionEntertainmentAndArts = value;
-  }
-  public resetExceptionEntertainmentAndArts() {
-    this._exceptionEntertainmentAndArts = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionEntertainmentAndArtsInput() {
-    return this._exceptionEntertainmentAndArts;
-  }
-
-  // exception_fashion_and_beauty - computed: false, optional: true, required: false
-  private _exceptionFashionAndBeauty?: number; 
-  public get exceptionFashionAndBeauty() {
-    return this.getNumberAttribute('exception_fashion_and_beauty');
-  }
-  public set exceptionFashionAndBeauty(value: number) {
-    this._exceptionFashionAndBeauty = value;
-  }
-  public resetExceptionFashionAndBeauty() {
-    this._exceptionFashionAndBeauty = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionFashionAndBeautyInput() {
-    return this._exceptionFashionAndBeauty;
-  }
-
-  // exception_financial_services - computed: false, optional: true, required: false
-  private _exceptionFinancialServices?: number; 
-  public get exceptionFinancialServices() {
-    return this.getNumberAttribute('exception_financial_services');
-  }
-  public set exceptionFinancialServices(value: number) {
-    this._exceptionFinancialServices = value;
-  }
-  public resetExceptionFinancialServices() {
-    this._exceptionFinancialServices = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionFinancialServicesInput() {
-    return this._exceptionFinancialServices;
-  }
-
-  // exception_gambling - computed: false, optional: true, required: false
-  private _exceptionGambling?: number; 
-  public get exceptionGambling() {
-    return this.getNumberAttribute('exception_gambling');
-  }
-  public set exceptionGambling(value: number) {
-    this._exceptionGambling = value;
-  }
-  public resetExceptionGambling() {
-    this._exceptionGambling = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionGamblingInput() {
-    return this._exceptionGambling;
-  }
-
-  // exception_games - computed: false, optional: true, required: false
-  private _exceptionGames?: number; 
-  public get exceptionGames() {
-    return this.getNumberAttribute('exception_games');
-  }
-  public set exceptionGames(value: number) {
-    this._exceptionGames = value;
-  }
-  public resetExceptionGames() {
-    this._exceptionGames = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionGamesInput() {
-    return this._exceptionGames;
-  }
-
-  // exception_government - computed: false, optional: true, required: false
-  private _exceptionGovernment?: number; 
-  public get exceptionGovernment() {
-    return this.getNumberAttribute('exception_government');
-  }
-  public set exceptionGovernment(value: number) {
-    this._exceptionGovernment = value;
-  }
-  public resetExceptionGovernment() {
-    this._exceptionGovernment = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionGovernmentInput() {
-    return this._exceptionGovernment;
-  }
-
-  // exception_gross - computed: false, optional: true, required: false
-  private _exceptionGross?: number; 
-  public get exceptionGross() {
-    return this.getNumberAttribute('exception_gross');
-  }
-  public set exceptionGross(value: number) {
-    this._exceptionGross = value;
-  }
-  public resetExceptionGross() {
-    this._exceptionGross = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionGrossInput() {
-    return this._exceptionGross;
-  }
-
-  // exception_hacking - computed: false, optional: true, required: false
-  private _exceptionHacking?: number; 
-  public get exceptionHacking() {
-    return this.getNumberAttribute('exception_hacking');
-  }
-  public set exceptionHacking(value: number) {
-    this._exceptionHacking = value;
-  }
-  public resetExceptionHacking() {
-    this._exceptionHacking = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionHackingInput() {
-    return this._exceptionHacking;
-  }
-
-  // exception_hate_and_racism - computed: false, optional: true, required: false
-  private _exceptionHateAndRacism?: number; 
-  public get exceptionHateAndRacism() {
-    return this.getNumberAttribute('exception_hate_and_racism');
-  }
-  public set exceptionHateAndRacism(value: number) {
-    this._exceptionHateAndRacism = value;
-  }
-  public resetExceptionHateAndRacism() {
-    this._exceptionHateAndRacism = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionHateAndRacismInput() {
-    return this._exceptionHateAndRacism;
-  }
-
-  // exception_health_and_medicine - computed: false, optional: true, required: false
-  private _exceptionHealthAndMedicine?: number; 
-  public get exceptionHealthAndMedicine() {
-    return this.getNumberAttribute('exception_health_and_medicine');
-  }
-  public set exceptionHealthAndMedicine(value: number) {
-    this._exceptionHealthAndMedicine = value;
-  }
-  public resetExceptionHealthAndMedicine() {
-    this._exceptionHealthAndMedicine = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionHealthAndMedicineInput() {
-    return this._exceptionHealthAndMedicine;
-  }
-
-  // exception_home_and_garden - computed: false, optional: true, required: false
-  private _exceptionHomeAndGarden?: number; 
-  public get exceptionHomeAndGarden() {
-    return this.getNumberAttribute('exception_home_and_garden');
-  }
-  public set exceptionHomeAndGarden(value: number) {
-    this._exceptionHomeAndGarden = value;
-  }
-  public resetExceptionHomeAndGarden() {
-    this._exceptionHomeAndGarden = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionHomeAndGardenInput() {
-    return this._exceptionHomeAndGarden;
-  }
-
-  // exception_hunting_and_fishing - computed: false, optional: true, required: false
-  private _exceptionHuntingAndFishing?: number; 
-  public get exceptionHuntingAndFishing() {
-    return this.getNumberAttribute('exception_hunting_and_fishing');
-  }
-  public set exceptionHuntingAndFishing(value: number) {
-    this._exceptionHuntingAndFishing = value;
-  }
-  public resetExceptionHuntingAndFishing() {
-    this._exceptionHuntingAndFishing = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionHuntingAndFishingInput() {
-    return this._exceptionHuntingAndFishing;
-  }
-
-  // exception_illegal - computed: false, optional: true, required: false
-  private _exceptionIllegal?: number; 
-  public get exceptionIllegal() {
-    return this.getNumberAttribute('exception_illegal');
-  }
-  public set exceptionIllegal(value: number) {
-    this._exceptionIllegal = value;
-  }
-  public resetExceptionIllegal() {
-    this._exceptionIllegal = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionIllegalInput() {
-    return this._exceptionIllegal;
-  }
-
-  // exception_illegal_pornography - computed: false, optional: true, required: false
-  private _exceptionIllegalPornography?: number; 
-  public get exceptionIllegalPornography() {
-    return this.getNumberAttribute('exception_illegal_pornography');
-  }
-  public set exceptionIllegalPornography(value: number) {
-    this._exceptionIllegalPornography = value;
-  }
-  public resetExceptionIllegalPornography() {
-    this._exceptionIllegalPornography = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionIllegalPornographyInput() {
-    return this._exceptionIllegalPornography;
-  }
-
-  // exception_image_and_video_search - computed: false, optional: true, required: false
-  private _exceptionImageAndVideoSearch?: number; 
-  public get exceptionImageAndVideoSearch() {
-    return this.getNumberAttribute('exception_image_and_video_search');
-  }
-  public set exceptionImageAndVideoSearch(value: number) {
-    this._exceptionImageAndVideoSearch = value;
-  }
-  public resetExceptionImageAndVideoSearch() {
-    this._exceptionImageAndVideoSearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionImageAndVideoSearchInput() {
-    return this._exceptionImageAndVideoSearch;
-  }
-
-  // exception_internet_communications - computed: false, optional: true, required: false
-  private _exceptionInternetCommunications?: number; 
-  public get exceptionInternetCommunications() {
-    return this.getNumberAttribute('exception_internet_communications');
-  }
-  public set exceptionInternetCommunications(value: number) {
-    this._exceptionInternetCommunications = value;
-  }
-  public resetExceptionInternetCommunications() {
-    this._exceptionInternetCommunications = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionInternetCommunicationsInput() {
-    return this._exceptionInternetCommunications;
-  }
-
-  // exception_internet_portals - computed: false, optional: true, required: false
-  private _exceptionInternetPortals?: number; 
-  public get exceptionInternetPortals() {
-    return this.getNumberAttribute('exception_internet_portals');
-  }
-  public set exceptionInternetPortals(value: number) {
-    this._exceptionInternetPortals = value;
-  }
-  public resetExceptionInternetPortals() {
-    this._exceptionInternetPortals = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionInternetPortalsInput() {
-    return this._exceptionInternetPortals;
-  }
-
-  // exception_job_search - computed: false, optional: true, required: false
-  private _exceptionJobSearch?: number; 
-  public get exceptionJobSearch() {
-    return this.getNumberAttribute('exception_job_search');
-  }
-  public set exceptionJobSearch(value: number) {
-    this._exceptionJobSearch = value;
-  }
-  public resetExceptionJobSearch() {
-    this._exceptionJobSearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionJobSearchInput() {
-    return this._exceptionJobSearch;
-  }
-
-  // exception_keyloggers_and_monitoring - computed: false, optional: true, required: false
-  private _exceptionKeyloggersAndMonitoring?: number; 
-  public get exceptionKeyloggersAndMonitoring() {
-    return this.getNumberAttribute('exception_keyloggers_and_monitoring');
-  }
-  public set exceptionKeyloggersAndMonitoring(value: number) {
-    this._exceptionKeyloggersAndMonitoring = value;
-  }
-  public resetExceptionKeyloggersAndMonitoring() {
-    this._exceptionKeyloggersAndMonitoring = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionKeyloggersAndMonitoringInput() {
-    return this._exceptionKeyloggersAndMonitoring;
-  }
-
-  // exception_kids - computed: false, optional: true, required: false
-  private _exceptionKids?: number; 
-  public get exceptionKids() {
-    return this.getNumberAttribute('exception_kids');
-  }
-  public set exceptionKids(value: number) {
-    this._exceptionKids = value;
-  }
-  public resetExceptionKids() {
-    this._exceptionKids = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionKidsInput() {
-    return this._exceptionKids;
-  }
-
-  // exception_legal - computed: false, optional: true, required: false
-  private _exceptionLegal?: number; 
-  public get exceptionLegal() {
-    return this.getNumberAttribute('exception_legal');
-  }
-  public set exceptionLegal(value: number) {
-    this._exceptionLegal = value;
-  }
-  public resetExceptionLegal() {
-    this._exceptionLegal = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionLegalInput() {
-    return this._exceptionLegal;
-  }
-
-  // exception_local_information - computed: false, optional: true, required: false
-  private _exceptionLocalInformation?: number; 
-  public get exceptionLocalInformation() {
-    return this.getNumberAttribute('exception_local_information');
-  }
-  public set exceptionLocalInformation(value: number) {
-    this._exceptionLocalInformation = value;
-  }
-  public resetExceptionLocalInformation() {
-    this._exceptionLocalInformation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionLocalInformationInput() {
-    return this._exceptionLocalInformation;
-  }
-
-  // exception_malware_sites - computed: false, optional: true, required: false
-  private _exceptionMalwareSites?: number; 
-  public get exceptionMalwareSites() {
-    return this.getNumberAttribute('exception_malware_sites');
-  }
-  public set exceptionMalwareSites(value: number) {
-    this._exceptionMalwareSites = value;
-  }
-  public resetExceptionMalwareSites() {
-    this._exceptionMalwareSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionMalwareSitesInput() {
-    return this._exceptionMalwareSites;
-  }
-
-  // exception_marijuana - computed: false, optional: true, required: false
-  private _exceptionMarijuana?: number; 
-  public get exceptionMarijuana() {
-    return this.getNumberAttribute('exception_marijuana');
-  }
-  public set exceptionMarijuana(value: number) {
-    this._exceptionMarijuana = value;
-  }
-  public resetExceptionMarijuana() {
-    this._exceptionMarijuana = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionMarijuanaInput() {
-    return this._exceptionMarijuana;
-  }
-
-  // exception_military - computed: false, optional: true, required: false
-  private _exceptionMilitary?: number; 
-  public get exceptionMilitary() {
-    return this.getNumberAttribute('exception_military');
-  }
-  public set exceptionMilitary(value: number) {
-    this._exceptionMilitary = value;
-  }
-  public resetExceptionMilitary() {
-    this._exceptionMilitary = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionMilitaryInput() {
-    return this._exceptionMilitary;
-  }
-
-  // exception_motor_vehicles - computed: false, optional: true, required: false
-  private _exceptionMotorVehicles?: number; 
-  public get exceptionMotorVehicles() {
-    return this.getNumberAttribute('exception_motor_vehicles');
-  }
-  public set exceptionMotorVehicles(value: number) {
-    this._exceptionMotorVehicles = value;
-  }
-  public resetExceptionMotorVehicles() {
-    this._exceptionMotorVehicles = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionMotorVehiclesInput() {
-    return this._exceptionMotorVehicles;
-  }
-
-  // exception_music - computed: false, optional: true, required: false
-  private _exceptionMusic?: number; 
-  public get exceptionMusic() {
-    return this.getNumberAttribute('exception_music');
-  }
-  public set exceptionMusic(value: number) {
-    this._exceptionMusic = value;
-  }
-  public resetExceptionMusic() {
-    this._exceptionMusic = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionMusicInput() {
-    return this._exceptionMusic;
-  }
-
-  // exception_news_and_media - computed: false, optional: true, required: false
-  private _exceptionNewsAndMedia?: number; 
-  public get exceptionNewsAndMedia() {
-    return this.getNumberAttribute('exception_news_and_media');
-  }
-  public set exceptionNewsAndMedia(value: number) {
-    this._exceptionNewsAndMedia = value;
-  }
-  public resetExceptionNewsAndMedia() {
-    this._exceptionNewsAndMedia = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionNewsAndMediaInput() {
-    return this._exceptionNewsAndMedia;
-  }
-
-  // exception_nudity - computed: false, optional: true, required: false
-  private _exceptionNudity?: number; 
-  public get exceptionNudity() {
-    return this.getNumberAttribute('exception_nudity');
-  }
-  public set exceptionNudity(value: number) {
-    this._exceptionNudity = value;
-  }
-  public resetExceptionNudity() {
-    this._exceptionNudity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionNudityInput() {
-    return this._exceptionNudity;
-  }
-
-  // exception_nudity_artistic - computed: false, optional: true, required: false
-  private _exceptionNudityArtistic?: number; 
-  public get exceptionNudityArtistic() {
-    return this.getNumberAttribute('exception_nudity_artistic');
-  }
-  public set exceptionNudityArtistic(value: number) {
-    this._exceptionNudityArtistic = value;
-  }
-  public resetExceptionNudityArtistic() {
-    this._exceptionNudityArtistic = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionNudityArtisticInput() {
-    return this._exceptionNudityArtistic;
-  }
-
-  // exception_online_greeting_cards - computed: false, optional: true, required: false
-  private _exceptionOnlineGreetingCards?: number; 
-  public get exceptionOnlineGreetingCards() {
-    return this.getNumberAttribute('exception_online_greeting_cards');
-  }
-  public set exceptionOnlineGreetingCards(value: number) {
-    this._exceptionOnlineGreetingCards = value;
-  }
-  public resetExceptionOnlineGreetingCards() {
-    this._exceptionOnlineGreetingCards = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionOnlineGreetingCardsInput() {
-    return this._exceptionOnlineGreetingCards;
-  }
-
-  // exception_parked_domains - computed: false, optional: true, required: false
-  private _exceptionParkedDomains?: number; 
-  public get exceptionParkedDomains() {
-    return this.getNumberAttribute('exception_parked_domains');
-  }
-  public set exceptionParkedDomains(value: number) {
-    this._exceptionParkedDomains = value;
-  }
-  public resetExceptionParkedDomains() {
-    this._exceptionParkedDomains = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionParkedDomainsInput() {
-    return this._exceptionParkedDomains;
-  }
-
-  // exception_pay_to_surf - computed: false, optional: true, required: false
-  private _exceptionPayToSurf?: number; 
-  public get exceptionPayToSurf() {
-    return this.getNumberAttribute('exception_pay_to_surf');
-  }
-  public set exceptionPayToSurf(value: number) {
-    this._exceptionPayToSurf = value;
-  }
-  public resetExceptionPayToSurf() {
-    this._exceptionPayToSurf = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPayToSurfInput() {
-    return this._exceptionPayToSurf;
-  }
-
-  // exception_peer_to_peer - computed: false, optional: true, required: false
-  private _exceptionPeerToPeer?: number; 
-  public get exceptionPeerToPeer() {
-    return this.getNumberAttribute('exception_peer_to_peer');
-  }
-  public set exceptionPeerToPeer(value: number) {
-    this._exceptionPeerToPeer = value;
-  }
-  public resetExceptionPeerToPeer() {
-    this._exceptionPeerToPeer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPeerToPeerInput() {
-    return this._exceptionPeerToPeer;
-  }
-
-  // exception_personal_sites_and_blogs - computed: false, optional: true, required: false
-  private _exceptionPersonalSitesAndBlogs?: number; 
-  public get exceptionPersonalSitesAndBlogs() {
-    return this.getNumberAttribute('exception_personal_sites_and_blogs');
-  }
-  public set exceptionPersonalSitesAndBlogs(value: number) {
-    this._exceptionPersonalSitesAndBlogs = value;
-  }
-  public resetExceptionPersonalSitesAndBlogs() {
-    this._exceptionPersonalSitesAndBlogs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPersonalSitesAndBlogsInput() {
-    return this._exceptionPersonalSitesAndBlogs;
-  }
-
-  // exception_personal_storage - computed: false, optional: true, required: false
-  private _exceptionPersonalStorage?: number; 
-  public get exceptionPersonalStorage() {
-    return this.getNumberAttribute('exception_personal_storage');
-  }
-  public set exceptionPersonalStorage(value: number) {
-    this._exceptionPersonalStorage = value;
-  }
-  public resetExceptionPersonalStorage() {
-    this._exceptionPersonalStorage = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPersonalStorageInput() {
-    return this._exceptionPersonalStorage;
-  }
-
-  // exception_philosophy_and_politics - computed: false, optional: true, required: false
-  private _exceptionPhilosophyAndPolitics?: number; 
-  public get exceptionPhilosophyAndPolitics() {
-    return this.getNumberAttribute('exception_philosophy_and_politics');
-  }
-  public set exceptionPhilosophyAndPolitics(value: number) {
-    this._exceptionPhilosophyAndPolitics = value;
-  }
-  public resetExceptionPhilosophyAndPolitics() {
-    this._exceptionPhilosophyAndPolitics = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPhilosophyAndPoliticsInput() {
-    return this._exceptionPhilosophyAndPolitics;
-  }
-
-  // exception_phishing_and_other_fraud - computed: false, optional: true, required: false
-  private _exceptionPhishingAndOtherFraud?: number; 
-  public get exceptionPhishingAndOtherFraud() {
-    return this.getNumberAttribute('exception_phishing_and_other_fraud');
-  }
-  public set exceptionPhishingAndOtherFraud(value: number) {
-    this._exceptionPhishingAndOtherFraud = value;
-  }
-  public resetExceptionPhishingAndOtherFraud() {
-    this._exceptionPhishingAndOtherFraud = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionPhishingAndOtherFraudInput() {
-    return this._exceptionPhishingAndOtherFraud;
-  }
-
-  // exception_proxy_avoid_and_anonymizers - computed: false, optional: true, required: false
-  private _exceptionProxyAvoidAndAnonymizers?: number; 
-  public get exceptionProxyAvoidAndAnonymizers() {
-    return this.getNumberAttribute('exception_proxy_avoid_and_anonymizers');
-  }
-  public set exceptionProxyAvoidAndAnonymizers(value: number) {
-    this._exceptionProxyAvoidAndAnonymizers = value;
-  }
-  public resetExceptionProxyAvoidAndAnonymizers() {
-    this._exceptionProxyAvoidAndAnonymizers = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionProxyAvoidAndAnonymizersInput() {
-    return this._exceptionProxyAvoidAndAnonymizers;
-  }
-
-  // exception_questionable - computed: false, optional: true, required: false
-  private _exceptionQuestionable?: number; 
-  public get exceptionQuestionable() {
-    return this.getNumberAttribute('exception_questionable');
-  }
-  public set exceptionQuestionable(value: number) {
-    this._exceptionQuestionable = value;
-  }
-  public resetExceptionQuestionable() {
-    this._exceptionQuestionable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionQuestionableInput() {
-    return this._exceptionQuestionable;
-  }
-
-  // exception_real_estate - computed: false, optional: true, required: false
-  private _exceptionRealEstate?: number; 
-  public get exceptionRealEstate() {
-    return this.getNumberAttribute('exception_real_estate');
-  }
-  public set exceptionRealEstate(value: number) {
-    this._exceptionRealEstate = value;
-  }
-  public resetExceptionRealEstate() {
-    this._exceptionRealEstate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionRealEstateInput() {
-    return this._exceptionRealEstate;
-  }
-
-  // exception_recreation_and_hobbies - computed: false, optional: true, required: false
-  private _exceptionRecreationAndHobbies?: number; 
-  public get exceptionRecreationAndHobbies() {
-    return this.getNumberAttribute('exception_recreation_and_hobbies');
-  }
-  public set exceptionRecreationAndHobbies(value: number) {
-    this._exceptionRecreationAndHobbies = value;
-  }
-  public resetExceptionRecreationAndHobbies() {
-    this._exceptionRecreationAndHobbies = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionRecreationAndHobbiesInput() {
-    return this._exceptionRecreationAndHobbies;
-  }
-
-  // exception_reference_and_research - computed: false, optional: true, required: false
-  private _exceptionReferenceAndResearch?: number; 
-  public get exceptionReferenceAndResearch() {
-    return this.getNumberAttribute('exception_reference_and_research');
-  }
-  public set exceptionReferenceAndResearch(value: number) {
-    this._exceptionReferenceAndResearch = value;
-  }
-  public resetExceptionReferenceAndResearch() {
-    this._exceptionReferenceAndResearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionReferenceAndResearchInput() {
-    return this._exceptionReferenceAndResearch;
-  }
-
-  // exception_religion - computed: false, optional: true, required: false
-  private _exceptionReligion?: number; 
-  public get exceptionReligion() {
-    return this.getNumberAttribute('exception_religion');
-  }
-  public set exceptionReligion(value: number) {
-    this._exceptionReligion = value;
-  }
-  public resetExceptionReligion() {
-    this._exceptionReligion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionReligionInput() {
-    return this._exceptionReligion;
-  }
-
-  // exception_search_engines - computed: false, optional: true, required: false
-  private _exceptionSearchEngines?: number; 
-  public get exceptionSearchEngines() {
-    return this.getNumberAttribute('exception_search_engines');
-  }
-  public set exceptionSearchEngines(value: number) {
-    this._exceptionSearchEngines = value;
-  }
-  public resetExceptionSearchEngines() {
-    this._exceptionSearchEngines = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSearchEnginesInput() {
-    return this._exceptionSearchEngines;
-  }
-
-  // exception_sex_education - computed: false, optional: true, required: false
-  private _exceptionSexEducation?: number; 
-  public get exceptionSexEducation() {
-    return this.getNumberAttribute('exception_sex_education');
-  }
-  public set exceptionSexEducation(value: number) {
-    this._exceptionSexEducation = value;
-  }
-  public resetExceptionSexEducation() {
-    this._exceptionSexEducation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSexEducationInput() {
-    return this._exceptionSexEducation;
-  }
-
-  // exception_shareware_and_freeware - computed: false, optional: true, required: false
-  private _exceptionSharewareAndFreeware?: number; 
-  public get exceptionSharewareAndFreeware() {
-    return this.getNumberAttribute('exception_shareware_and_freeware');
-  }
-  public set exceptionSharewareAndFreeware(value: number) {
-    this._exceptionSharewareAndFreeware = value;
-  }
-  public resetExceptionSharewareAndFreeware() {
-    this._exceptionSharewareAndFreeware = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSharewareAndFreewareInput() {
-    return this._exceptionSharewareAndFreeware;
-  }
-
-  // exception_shopping - computed: false, optional: true, required: false
-  private _exceptionShopping?: number; 
-  public get exceptionShopping() {
-    return this.getNumberAttribute('exception_shopping');
-  }
-  public set exceptionShopping(value: number) {
-    this._exceptionShopping = value;
-  }
-  public resetExceptionShopping() {
-    this._exceptionShopping = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionShoppingInput() {
-    return this._exceptionShopping;
-  }
-
-  // exception_social_network - computed: false, optional: true, required: false
-  private _exceptionSocialNetwork?: number; 
-  public get exceptionSocialNetwork() {
-    return this.getNumberAttribute('exception_social_network');
-  }
-  public set exceptionSocialNetwork(value: number) {
-    this._exceptionSocialNetwork = value;
-  }
-  public resetExceptionSocialNetwork() {
-    this._exceptionSocialNetwork = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSocialNetworkInput() {
-    return this._exceptionSocialNetwork;
-  }
-
-  // exception_society - computed: false, optional: true, required: false
-  private _exceptionSociety?: number; 
-  public get exceptionSociety() {
-    return this.getNumberAttribute('exception_society');
-  }
-  public set exceptionSociety(value: number) {
-    this._exceptionSociety = value;
-  }
-  public resetExceptionSociety() {
-    this._exceptionSociety = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSocietyInput() {
-    return this._exceptionSociety;
-  }
-
-  // exception_spam_urls - computed: false, optional: true, required: false
-  private _exceptionSpamUrls?: number; 
-  public get exceptionSpamUrls() {
-    return this.getNumberAttribute('exception_spam_urls');
-  }
-  public set exceptionSpamUrls(value: number) {
-    this._exceptionSpamUrls = value;
-  }
-  public resetExceptionSpamUrls() {
-    this._exceptionSpamUrls = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSpamUrlsInput() {
-    return this._exceptionSpamUrls;
-  }
-
-  // exception_sports - computed: false, optional: true, required: false
-  private _exceptionSports?: number; 
-  public get exceptionSports() {
-    return this.getNumberAttribute('exception_sports');
-  }
-  public set exceptionSports(value: number) {
-    this._exceptionSports = value;
-  }
-  public resetExceptionSports() {
-    this._exceptionSports = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSportsInput() {
-    return this._exceptionSports;
-  }
-
-  // exception_spyware_and_adware - computed: false, optional: true, required: false
-  private _exceptionSpywareAndAdware?: number; 
-  public get exceptionSpywareAndAdware() {
-    return this.getNumberAttribute('exception_spyware_and_adware');
-  }
-  public set exceptionSpywareAndAdware(value: number) {
-    this._exceptionSpywareAndAdware = value;
-  }
-  public resetExceptionSpywareAndAdware() {
-    this._exceptionSpywareAndAdware = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSpywareAndAdwareInput() {
-    return this._exceptionSpywareAndAdware;
-  }
-
-  // exception_stock_advice_and_tools - computed: false, optional: true, required: false
-  private _exceptionStockAdviceAndTools?: number; 
-  public get exceptionStockAdviceAndTools() {
-    return this.getNumberAttribute('exception_stock_advice_and_tools');
-  }
-  public set exceptionStockAdviceAndTools(value: number) {
-    this._exceptionStockAdviceAndTools = value;
-  }
-  public resetExceptionStockAdviceAndTools() {
-    this._exceptionStockAdviceAndTools = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionStockAdviceAndToolsInput() {
-    return this._exceptionStockAdviceAndTools;
-  }
-
-  // exception_streaming_media - computed: false, optional: true, required: false
-  private _exceptionStreamingMedia?: number; 
-  public get exceptionStreamingMedia() {
-    return this.getNumberAttribute('exception_streaming_media');
-  }
-  public set exceptionStreamingMedia(value: number) {
-    this._exceptionStreamingMedia = value;
-  }
-  public resetExceptionStreamingMedia() {
-    this._exceptionStreamingMedia = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionStreamingMediaInput() {
-    return this._exceptionStreamingMedia;
-  }
-
-  // exception_swimsuits_and_intimate_apparel - computed: false, optional: true, required: false
-  private _exceptionSwimsuitsAndIntimateApparel?: number; 
-  public get exceptionSwimsuitsAndIntimateApparel() {
-    return this.getNumberAttribute('exception_swimsuits_and_intimate_apparel');
-  }
-  public set exceptionSwimsuitsAndIntimateApparel(value: number) {
-    this._exceptionSwimsuitsAndIntimateApparel = value;
-  }
-  public resetExceptionSwimsuitsAndIntimateApparel() {
-    this._exceptionSwimsuitsAndIntimateApparel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionSwimsuitsAndIntimateApparelInput() {
-    return this._exceptionSwimsuitsAndIntimateApparel;
-  }
-
-  // exception_training_and_tools - computed: false, optional: true, required: false
-  private _exceptionTrainingAndTools?: number; 
-  public get exceptionTrainingAndTools() {
-    return this.getNumberAttribute('exception_training_and_tools');
-  }
-  public set exceptionTrainingAndTools(value: number) {
-    this._exceptionTrainingAndTools = value;
-  }
-  public resetExceptionTrainingAndTools() {
-    this._exceptionTrainingAndTools = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionTrainingAndToolsInput() {
-    return this._exceptionTrainingAndTools;
-  }
-
-  // exception_translation - computed: false, optional: true, required: false
-  private _exceptionTranslation?: number; 
-  public get exceptionTranslation() {
-    return this.getNumberAttribute('exception_translation');
-  }
-  public set exceptionTranslation(value: number) {
-    this._exceptionTranslation = value;
-  }
-  public resetExceptionTranslation() {
-    this._exceptionTranslation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionTranslationInput() {
-    return this._exceptionTranslation;
-  }
-
-  // exception_travel - computed: false, optional: true, required: false
-  private _exceptionTravel?: number; 
-  public get exceptionTravel() {
-    return this.getNumberAttribute('exception_travel');
-  }
-  public set exceptionTravel(value: number) {
-    this._exceptionTravel = value;
-  }
-  public resetExceptionTravel() {
-    this._exceptionTravel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionTravelInput() {
-    return this._exceptionTravel;
-  }
-
-  // exception_uncategorized - computed: false, optional: true, required: false
-  private _exceptionUncategorized?: number; 
-  public get exceptionUncategorized() {
-    return this.getNumberAttribute('exception_uncategorized');
-  }
-  public set exceptionUncategorized(value: number) {
-    this._exceptionUncategorized = value;
-  }
-  public resetExceptionUncategorized() {
-    this._exceptionUncategorized = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionUncategorizedInput() {
-    return this._exceptionUncategorized;
-  }
-
-  // exception_violence - computed: false, optional: true, required: false
-  private _exceptionViolence?: number; 
-  public get exceptionViolence() {
-    return this.getNumberAttribute('exception_violence');
-  }
-  public set exceptionViolence(value: number) {
-    this._exceptionViolence = value;
-  }
-  public resetExceptionViolence() {
-    this._exceptionViolence = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionViolenceInput() {
-    return this._exceptionViolence;
-  }
-
-  // exception_weapons - computed: false, optional: true, required: false
-  private _exceptionWeapons?: number; 
-  public get exceptionWeapons() {
-    return this.getNumberAttribute('exception_weapons');
-  }
-  public set exceptionWeapons(value: number) {
-    this._exceptionWeapons = value;
-  }
-  public resetExceptionWeapons() {
-    this._exceptionWeapons = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionWeaponsInput() {
-    return this._exceptionWeapons;
-  }
-
-  // exception_web_advertisements - computed: false, optional: true, required: false
-  private _exceptionWebAdvertisements?: number; 
-  public get exceptionWebAdvertisements() {
-    return this.getNumberAttribute('exception_web_advertisements');
-  }
-  public set exceptionWebAdvertisements(value: number) {
-    this._exceptionWebAdvertisements = value;
-  }
-  public resetExceptionWebAdvertisements() {
-    this._exceptionWebAdvertisements = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionWebAdvertisementsInput() {
-    return this._exceptionWebAdvertisements;
-  }
-
-  // exception_web_based_email - computed: false, optional: true, required: false
-  private _exceptionWebBasedEmail?: number; 
-  public get exceptionWebBasedEmail() {
-    return this.getNumberAttribute('exception_web_based_email');
-  }
-  public set exceptionWebBasedEmail(value: number) {
-    this._exceptionWebBasedEmail = value;
-  }
-  public resetExceptionWebBasedEmail() {
-    this._exceptionWebBasedEmail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionWebBasedEmailInput() {
-    return this._exceptionWebBasedEmail;
-  }
-
-  // exception_web_hosting_sites - computed: false, optional: true, required: false
-  private _exceptionWebHostingSites?: number; 
-  public get exceptionWebHostingSites() {
-    return this.getNumberAttribute('exception_web_hosting_sites');
-  }
-  public set exceptionWebHostingSites(value: number) {
-    this._exceptionWebHostingSites = value;
-  }
-  public resetExceptionWebHostingSites() {
-    this._exceptionWebHostingSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get exceptionWebHostingSitesInput() {
-    return this._exceptionWebHostingSites;
+  public get exceptionCategoryInput() {
+    return this._exceptionCategory;
   }
 }
 export interface SlbTemplateClientSslExceptionWebReputation {
   /**
   * Intercept when reputation score is less than or equal to 80
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_low_risk SlbTemplateClientSsl#exception_low_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_low_risk SlbTemplateClientSsl#exception_low_risk}
   */
   readonly exceptionLowRisk?: number;
   /**
   * Intercept when reputation score is less than or equal to 20
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_malicious SlbTemplateClientSsl#exception_malicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_malicious SlbTemplateClientSsl#exception_malicious}
   */
   readonly exceptionMalicious?: number;
   /**
   * Intercept when reputation score is less than or equal to 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_moderate_risk SlbTemplateClientSsl#exception_moderate_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_moderate_risk SlbTemplateClientSsl#exception_moderate_risk}
   */
   readonly exceptionModerateRisk?: number;
   /**
   * Intercept when reputation score is less than or equal to 40
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_suspicious SlbTemplateClientSsl#exception_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_suspicious SlbTemplateClientSsl#exception_suspicious}
   */
   readonly exceptionSuspicious?: number;
   /**
   * Intercept when reputation score is less than or equal to a customized value (1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_threshold SlbTemplateClientSsl#exception_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_threshold SlbTemplateClientSsl#exception_threshold}
   */
   readonly exceptionThreshold?: number;
   /**
   * Intercept when reputation score is less than or equal to 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#exception_trustworthy SlbTemplateClientSsl#exception_trustworthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#exception_trustworthy SlbTemplateClientSsl#exception_trustworthy}
   */
   readonly exceptionTrustworthy?: number;
 }
@@ -8589,13 +5837,13 @@ export interface SlbTemplateClientSslForwardProxyTrustedCaLists {
   /**
   * Forward proxy trusted CA file (CA file name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#forward_proxy_trusted_ca SlbTemplateClientSsl#forward_proxy_trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#forward_proxy_trusted_ca SlbTemplateClientSsl#forward_proxy_trusted_ca}
   */
   readonly forwardProxyTrustedCa?: string;
   /**
   * Trusted CA Certificate Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fp_trusted_ca_shared SlbTemplateClientSsl#fp_trusted_ca_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#fp_trusted_ca_shared SlbTemplateClientSsl#fp_trusted_ca_shared}
   */
   readonly fpTrustedCaShared?: number;
 }
@@ -8742,7 +5990,7 @@ export interface SlbTemplateClientSslLocalCertPinListStruct {
   /**
   * Set the connection fail count as bypass criteria (Bypass when connection failure count is greater than the criteria (1-65536))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#local_cert_pin_list_bypass_fail_count SlbTemplateClientSsl#local_cert_pin_list_bypass_fail_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#local_cert_pin_list_bypass_fail_count SlbTemplateClientSsl#local_cert_pin_list_bypass_fail_count}
   */
   readonly localCertPinListBypassFailCount?: number;
 }
@@ -8828,7 +6076,7 @@ export interface SlbTemplateClientSslMultiClassListStruct {
   /**
   * Class List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#multi_clist_name SlbTemplateClientSsl#multi_clist_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#multi_clist_name SlbTemplateClientSsl#multi_clist_name}
   */
   readonly multiClistName?: string;
 }
@@ -8946,13 +6194,13 @@ export interface SlbTemplateClientSslReqCaLists {
   /**
   * CA Certificate Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_cert_req_ca_shared SlbTemplateClientSsl#client_cert_req_ca_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_cert_req_ca_shared SlbTemplateClientSsl#client_cert_req_ca_shared}
   */
   readonly clientCertReqCaShared?: number;
   /**
   * Send CA lists in certificate request (CA Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#client_certificate_request_ca SlbTemplateClientSsl#client_certificate_request_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#client_certificate_request_ca SlbTemplateClientSsl#client_certificate_request_ca}
   */
   readonly clientCertificateRequestCa?: string;
 }
@@ -9095,11 +6343,129 @@ export class SlbTemplateClientSslReqCaListsList extends cdktf.ComplexList {
     return new SlbTemplateClientSslReqCaListsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface SlbTemplateClientSslSamplingEnable {
+  /**
+  * 'all': all; 'real-estate': real estate category; 'computer-and-internet-security': computer and internet security category; 'financial-services': financial services category; 'business-and-economy': business and economy category; 'computer-and-internet-info': computer and internet info category; 'auctions': auctions category; 'shopping': shopping category; 'cult-and-occult': cult and occult category; 'travel': travel category; 'drugs': drugs category; 'adult-and-pornography': adult and pornography category; 'home-and-garden': home and garden category; 'military': military category; 'social-network': social network category; 'dead-sites': dead sites category; 'stock-advice-and-tools': stock advice and tools category; 'training-and-tools': training and tools category; 'dating': dating category; 'sex-education': sex education category; 'religion': religion category; 'entertainment-and-arts': entertainment and arts category; 'personal-sites-and-blogs': personal sites and blogs category; 'legal': legal category; 'local-information': local information category; 'streaming-media': streaming media category; 'job-search': job search category; 'gambling': gambling category; 'translation': translation category; 'reference-and-research': reference and research category; 'shareware-and-freeware': shareware and freeware category; 'peer-to-peer': peer to peer category; 'marijuana': marijuana category; 'hacking': hacking category; 'games': games category; 'philosophy-and-politics': philosophy and politics category; 'weapons': weapons category; 'pay-to-surf': pay to surf category; 'hunting-and-fishing': hunting and fishing category; 'society': society category; 'educational-institutions': educational institutions category; 'online-greeting-cards': online greeting cards category; 'sports': sports category; 'swimsuits-and-intimate-apparel': swimsuits and intimate apparel category; 'questionable': questionable category; 'kids': kids category; 'hate-and-racism': hate and racism category; 'personal-storage': personal storage category; 'violence': violence category; 'keyloggers-and-monitoring': keyloggers and monitoring category; 'search-engines': search engines category; 'internet-portals': internet portals category; 'web-advertisements': web advertisements category; 'cheating': cheating category; 'gross': gross category; 'web-based-email': web based email category; 'malware-sites': malware sites category; 'phishing-and-other-fraud': phishing and other fraud category; 'proxy-avoid-and-anonymizers': proxy avoid and anonymizers category; 'spyware-and-adware': spyware and adware category; 'music': music category; 'government': government category; 'nudity': nudity category; 'news-and-media': news and media category; 'illegal': illegal category; 'CDNs': content delivery networks category; 'internet-communications': internet communications category; 'bot-nets': bot nets category; 'abortion': abortion category; 'health-and-medicine': health and medicine category; 'confirmed-SPAM-sources': confirmed SPAM sources category; 'SPAM-URLs': SPAM URLs category; 'unconfirmed-SPAM-sources': unconfirmed SPAM sources category; 'open-HTTP-proxies': open HTTP proxies category; 'dynamically-generated-content': dynamically generated content category; 'parked-domains': parked domains category; 'alcohol-and-tobacco': alcohol and tobacco category; 'private-IP-addresses': private IP addresses category; 'image-and-video-search': image and video search category; 'fashion-and-beauty': fashion and beauty category; 'recreation-and-hobbies': recreation and hobbies category; 'motor-vehicles': motor vehicles category; 'web-hosting-sites': web hosting sites category; 'food-and-dining': food and dining category; 'dummy-item': dummy item category; 'self-harm': self harm category; 'dns-over-https': dns over https category; 'low-thc-cannabis-products': low-thc cannabis products; 'generative-ai': generative ai category; 'nudity-artistic': artistic nudity; 'illegal-pornography': illegal pornography eg. child sexual abuse; 'uncategorised': uncategorised; 'other-category': other category; 'trustworthy': Trustworthy level(81-100); 'low-risk': Low-risk level(61-80); 'moderate-risk': Moderate-risk level(41-60); 'suspicious': Suspicious level(21-40); 'malicious': Malicious level(1-20);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#counters1 SlbTemplateClientSsl#counters1}
+  */
+  readonly counters1?: string;
+}
+
+export function slbTemplateClientSslSamplingEnableToTerraform(struct?: SlbTemplateClientSslSamplingEnable | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    counters1: cdktf.stringToTerraform(struct!.counters1),
+  }
+}
+
+
+export function slbTemplateClientSslSamplingEnableToHclTerraform(struct?: SlbTemplateClientSslSamplingEnable | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    counters1: {
+      value: cdktf.stringToHclTerraform(struct!.counters1),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SlbTemplateClientSslSamplingEnableOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SlbTemplateClientSslSamplingEnable | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._counters1 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.counters1 = this._counters1;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SlbTemplateClientSslSamplingEnable | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._counters1 = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._counters1 = value.counters1;
+    }
+  }
+
+  // counters1 - computed: false, optional: true, required: false
+  private _counters1?: string; 
+  public get counters1() {
+    return this.getStringAttribute('counters1');
+  }
+  public set counters1(value: string) {
+    this._counters1 = value;
+  }
+  public resetCounters1() {
+    this._counters1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get counters1Input() {
+    return this._counters1;
+  }
+}
+
+export class SlbTemplateClientSslSamplingEnableList extends cdktf.ComplexList {
+  public internalValue? : SlbTemplateClientSslSamplingEnable[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SlbTemplateClientSslSamplingEnableOutputReference {
+    return new SlbTemplateClientSslSamplingEnableOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface SlbTemplateClientSslServerIpv4ListStruct {
   /**
   * IPV4 server class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_ipv4_list_name SlbTemplateClientSsl#server_ipv4_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_ipv4_list_name SlbTemplateClientSsl#server_ipv4_list_name}
   */
   readonly serverIpv4ListName?: string;
 }
@@ -9217,7 +6583,7 @@ export interface SlbTemplateClientSslServerIpv6ListStruct {
   /**
   * IPV6 server class-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_ipv6_list_name SlbTemplateClientSsl#server_ipv6_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_ipv6_list_name SlbTemplateClientSsl#server_ipv6_list_name}
   */
   readonly serverIpv6ListName?: string;
 }
@@ -9335,133 +6701,133 @@ export interface SlbTemplateClientSslServerNameListStruct {
   /**
   * Server Certificate associated to SNI (Server Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_cert SlbTemplateClientSsl#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_cert SlbTemplateClientSsl#server_cert}
   */
   readonly serverCert?: string;
   /**
   * Server Certificate associated to SNI regex (Server Certificate Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_cert_regex SlbTemplateClientSsl#server_cert_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_cert_regex SlbTemplateClientSsl#server_cert_regex}
   */
   readonly serverCertRegex?: string;
   /**
   * Server Certificate Chain associated to SNI (Server Certificate Chain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_chain SlbTemplateClientSsl#server_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_chain SlbTemplateClientSsl#server_chain}
   */
   readonly serverChain?: string;
   /**
   * Server Certificate Chain associated to SNI regex (Server Certificate Chain Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_chain_regex SlbTemplateClientSsl#server_chain_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_chain_regex SlbTemplateClientSsl#server_chain_regex}
   */
   readonly serverChainRegex?: string;
   /**
   * Server Private Key associated to SNI (Server Private Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_key SlbTemplateClientSsl#server_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_key SlbTemplateClientSsl#server_key}
   */
   readonly serverKey?: string;
   /**
   * Server Private Key associated to SNI regex (Server Private Key Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_key_regex SlbTemplateClientSsl#server_key_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_key_regex SlbTemplateClientSsl#server_key_regex}
   */
   readonly serverKeyRegex?: string;
   /**
   * Server name indication in Client hello extension (Server name String)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name SlbTemplateClientSsl#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name SlbTemplateClientSsl#server_name}
   */
   readonly serverName?: string;
   /**
   * Specific the second certifcate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name_alternate SlbTemplateClientSsl#server_name_alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name_alternate SlbTemplateClientSsl#server_name_alternate}
   */
   readonly serverNameAlternate?: number;
   /**
   * Server name indication in Client hello extension with regular expression (Server name String with regex)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name_regex SlbTemplateClientSsl#server_name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name_regex SlbTemplateClientSsl#server_name_regex}
   */
   readonly serverNameRegex?: string;
   /**
   * Specific the second certifcate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_name_regex_alternate SlbTemplateClientSsl#server_name_regex_alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_name_regex_alternate SlbTemplateClientSsl#server_name_regex_alternate}
   */
   readonly serverNameRegexAlternate?: number;
   /**
   * help Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_passphrase SlbTemplateClientSsl#server_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_passphrase SlbTemplateClientSsl#server_passphrase}
   */
   readonly serverPassphrase?: string;
   /**
   * help Password Phrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_passphrase_regex SlbTemplateClientSsl#server_passphrase_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_passphrase_regex SlbTemplateClientSsl#server_passphrase_regex}
   */
   readonly serverPassphraseRegex?: string;
   /**
   * Server Name Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_shared SlbTemplateClientSsl#server_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_shared SlbTemplateClientSsl#server_shared}
   */
   readonly serverShared?: number;
   /**
   * Server Name Partition Shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#server_shared_regex SlbTemplateClientSsl#server_shared_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#server_shared_regex SlbTemplateClientSsl#server_shared_regex}
   */
   readonly serverSharedRegex?: number;
   /**
   * Reference a Client SSL template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_regex_shared_partition_client_ssl_template SlbTemplateClientSsl#sni_regex_shared_partition_client_ssl_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_regex_shared_partition_client_ssl_template SlbTemplateClientSsl#sni_regex_shared_partition_client_ssl_template}
   */
   readonly sniRegexSharedPartitionClientSslTemplate?: number;
   /**
   * Template associated to SNI regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_regex_template SlbTemplateClientSsl#sni_regex_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_regex_template SlbTemplateClientSsl#sni_regex_template}
   */
   readonly sniRegexTemplate?: number;
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_regex_template_client_ssl SlbTemplateClientSsl#sni_regex_template_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_regex_template_client_ssl SlbTemplateClientSsl#sni_regex_template_client_ssl}
   */
   readonly sniRegexTemplateClientSsl?: string;
   /**
-  * Client SSL Template Name
+  * Shared Partition Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_regex_template_client_ssl_shared_name SlbTemplateClientSsl#sni_regex_template_client_ssl_shared_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_regex_template_client_ssl_shared_name SlbTemplateClientSsl#sni_regex_template_client_ssl_shared_name}
   */
   readonly sniRegexTemplateClientSslSharedName?: string;
   /**
   * Reference a Client SSL template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_shared_partition_client_ssl_template SlbTemplateClientSsl#sni_shared_partition_client_ssl_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_shared_partition_client_ssl_template SlbTemplateClientSsl#sni_shared_partition_client_ssl_template}
   */
   readonly sniSharedPartitionClientSslTemplate?: number;
   /**
   * Template associated to SNI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_template SlbTemplateClientSsl#sni_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_template SlbTemplateClientSsl#sni_template}
   */
   readonly sniTemplate?: number;
   /**
   * Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_template_client_ssl SlbTemplateClientSsl#sni_template_client_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_template_client_ssl SlbTemplateClientSsl#sni_template_client_ssl}
   */
   readonly sniTemplateClientSsl?: string;
   /**
-  * Client SSL Template Name
+  * Shared Partition Client SSL Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sni_template_client_ssl_shared_name SlbTemplateClientSsl#sni_template_client_ssl_shared_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#sni_template_client_ssl_shared_name SlbTemplateClientSsl#sni_template_client_ssl_shared_name}
   */
   readonly sniTemplateClientSslSharedName?: string;
 }
@@ -10188,7 +7554,7 @@ export interface SlbTemplateClientSslStartsWithListStruct {
   /**
   * Forward proxy bypass if SNI string starts with another string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#starts_with SlbTemplateClientSsl#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#starts_with SlbTemplateClientSsl#starts_with}
   */
   readonly startsWith?: string;
 }
@@ -10304,491 +7670,11 @@ export class SlbTemplateClientSslStartsWithListStructList extends cdktf.ComplexL
 }
 export interface SlbTemplateClientSslWebCategory {
   /**
-  * Category Abortion
+  * 'uncategorized': Uncategorized URLs; 'real-estate': Category Real Estate; 'computer-and-internet-security': Category Computer and Internet Security; 'financial-services': Category Financial Services; 'business-and-economy': Category Business and Economy; 'computer-and-internet-info': Category Computer and Internet Info; 'auctions': Category Auctions; 'shopping': Category Shopping; 'cult-and-occult': Category Cult and Occult; 'travel': Category Travel; 'drugs': Category Abused Drugs; 'adult-and-pornography': Category Adult and Pornography; 'home-and-garden': Category Home and Garden; 'military': Category Military; 'social-network': Category Social Network; 'dead-sites': Category Dead Sites (db Ops only); 'stock-advice-and-tools': Category Stock Advice and Tools; 'training-and-tools': Category Training and Tools; 'dating': Category Dating; 'sex-education': Category Sex Education; 'religion': Category Religion; 'entertainment-and-arts': Category Entertainment and Arts; 'personal-sites-and-blogs': Category Personal sites and Blogs; 'legal': Category Legal; 'local-information': Category Local Information; 'streaming-media': Category Streaming Media; 'job-search': Category Job Search; 'gambling': Category Gambling; 'translation': Category Translation; 'reference-and-research': Category Reference and Research; 'shareware-and-freeware': Category Shareware and Freeware; 'peer-to-peer': Category Peer to Peer; 'marijuana': Category Marijuana; 'hacking': Category Hacking; 'games': Category Games; 'philosophy-and-politics': Category Philosophy and Political Advocacy; 'weapons': Category Weapons; 'pay-to-surf': Category Pay to Surf; 'hunting-and-fishing': Category Hunting and Fishing; 'society': Category Society; 'educational-institutions': Category Educational Institutions; 'online-greeting-cards': Category Online Greeting cards; 'sports': Category Sports; 'swimsuits-and-intimate-apparel': Category Swimsuits and Intimate Apparel; 'questionable': Category Questionable; 'kids': Category Kids; 'hate-and-racism': Category Hate and Racism; 'personal-storage': Category Personal Storage; 'violence': Category Violence; 'keyloggers-and-monitoring': Category Keyloggers and Monitoring; 'search-engines': Category Search Engines; 'internet-portals': Category Internet Portals; 'web-advertisements': Category Web Advertisements; 'cheating': Category Cheating; 'gross': Category Gross; 'web-based-email': Category Web based email; 'malware-sites': Category Malware Sites; 'phishing-and-other-fraud': Category Phishing and Other Frauds; 'proxy-avoid-and-anonymizers': Category Proxy Avoid and Anonymizers; 'spyware-and-adware': Category Spyware and Adware; 'music': Category Music; 'government': Category Government; 'nudity': Category Nudity; 'news-and-media': Category News and Media; 'illegal': Category Illegal; 'cdns': Category CDNs; 'internet-communications': Category Internet Communications; 'bot-nets': Category Bot Nets; 'abortion': Category Abortion; 'health-and-medicine': Category Health and Medicine; 'spam-urls': Category SPAM URLs; 'dynamically-generated-content': Category Dynamically Generated Content; 'parked-domains': Category Parked Domains; 'alcohol-and-tobacco': Category Alcohol and Tobacco; 'image-and-video-search': Category Image and Video Search; 'fashion-and-beauty': Category Fashion and Beauty; 'recreation-and-hobbies': Category Recreation and Hobbies; 'motor-vehicles': Category Motor Vehicles; 'web-hosting-sites': Category Web Hosting Sites; 'self-harm': Category Self Harm; 'dns-over-https': Category DNS over HTTPs; 'low-thc-cannabis-products': Category Low-THC Cannabis Products; 'generative-ai': Category Generative AI; 'nudity-artistic': Category Artistic Nudity; 'illegal-pornography': Category Illegal Pornography eg. Child Sexual Abuse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#abortion SlbTemplateClientSsl#abortion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypassed_category SlbTemplateClientSsl#bypassed_category}
   */
-  readonly abortion?: number;
-  /**
-  * Category Adult and Pornography
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#adult_and_pornography SlbTemplateClientSsl#adult_and_pornography}
-  */
-  readonly adultAndPornography?: number;
-  /**
-  * Category Alcohol and Tobacco
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#alcohol_and_tobacco SlbTemplateClientSsl#alcohol_and_tobacco}
-  */
-  readonly alcoholAndTobacco?: number;
-  /**
-  * Category Auctions
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#auctions SlbTemplateClientSsl#auctions}
-  */
-  readonly auctions?: number;
-  /**
-  * Category Bot Nets
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bot_nets SlbTemplateClientSsl#bot_nets}
-  */
-  readonly botNets?: number;
-  /**
-  * Category Business and Economy
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#business_and_economy SlbTemplateClientSsl#business_and_economy}
-  */
-  readonly businessAndEconomy?: number;
-  /**
-  * Category CDNs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cdns SlbTemplateClientSsl#cdns}
-  */
-  readonly cdns?: number;
-  /**
-  * Category Cheating
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cheating SlbTemplateClientSsl#cheating}
-  */
-  readonly cheating?: number;
-  /**
-  * Category Computer and Internet Info
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#computer_and_internet_info SlbTemplateClientSsl#computer_and_internet_info}
-  */
-  readonly computerAndInternetInfo?: number;
-  /**
-  * Category Computer and Internet Security
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#computer_and_internet_security SlbTemplateClientSsl#computer_and_internet_security}
-  */
-  readonly computerAndInternetSecurity?: number;
-  /**
-  * Category Cult and Occult
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#cult_and_occult SlbTemplateClientSsl#cult_and_occult}
-  */
-  readonly cultAndOccult?: number;
-  /**
-  * Category Dating
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#dating SlbTemplateClientSsl#dating}
-  */
-  readonly dating?: number;
-  /**
-  * Category Dead Sites (db Ops only)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#dead_sites SlbTemplateClientSsl#dead_sites}
-  */
-  readonly deadSites?: number;
-  /**
-  * Category Abused Drugs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#drugs SlbTemplateClientSsl#drugs}
-  */
-  readonly drugs?: number;
-  /**
-  * Dynamically Generated Content
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#dynamically_generated_content SlbTemplateClientSsl#dynamically_generated_content}
-  */
-  readonly dynamicallyGeneratedContent?: number;
-  /**
-  * Category Educational Institutions
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#educational_institutions SlbTemplateClientSsl#educational_institutions}
-  */
-  readonly educationalInstitutions?: number;
-  /**
-  * Category Entertainment and Arts
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#entertainment_and_arts SlbTemplateClientSsl#entertainment_and_arts}
-  */
-  readonly entertainmentAndArts?: number;
-  /**
-  * Category Fashion and Beauty
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#fashion_and_beauty SlbTemplateClientSsl#fashion_and_beauty}
-  */
-  readonly fashionAndBeauty?: number;
-  /**
-  * Category Financial Services
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#financial_services SlbTemplateClientSsl#financial_services}
-  */
-  readonly financialServices?: number;
-  /**
-  * Category Gambling
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#gambling SlbTemplateClientSsl#gambling}
-  */
-  readonly gambling?: number;
-  /**
-  * Category Games
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#games SlbTemplateClientSsl#games}
-  */
-  readonly games?: number;
-  /**
-  * Category Government
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#government SlbTemplateClientSsl#government}
-  */
-  readonly government?: number;
-  /**
-  * Category Gross
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#gross SlbTemplateClientSsl#gross}
-  */
-  readonly gross?: number;
-  /**
-  * Category Hacking
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#hacking SlbTemplateClientSsl#hacking}
-  */
-  readonly hacking?: number;
-  /**
-  * Category Hate and Racism
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#hate_and_racism SlbTemplateClientSsl#hate_and_racism}
-  */
-  readonly hateAndRacism?: number;
-  /**
-  * Category Health and Medicine
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#health_and_medicine SlbTemplateClientSsl#health_and_medicine}
-  */
-  readonly healthAndMedicine?: number;
-  /**
-  * Category Home and Garden
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#home_and_garden SlbTemplateClientSsl#home_and_garden}
-  */
-  readonly homeAndGarden?: number;
-  /**
-  * Category Hunting and Fishing
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#hunting_and_fishing SlbTemplateClientSsl#hunting_and_fishing}
-  */
-  readonly huntingAndFishing?: number;
-  /**
-  * Category Illegal
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#illegal SlbTemplateClientSsl#illegal}
-  */
-  readonly illegal?: number;
-  /**
-  * Category Illegal join Adult and Pornography
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#illegal_pornography SlbTemplateClientSsl#illegal_pornography}
-  */
-  readonly illegalPornography?: number;
-  /**
-  * Category Image and Video Search
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#image_and_video_search SlbTemplateClientSsl#image_and_video_search}
-  */
-  readonly imageAndVideoSearch?: number;
-  /**
-  * Category Internet Communications
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#internet_communications SlbTemplateClientSsl#internet_communications}
-  */
-  readonly internetCommunications?: number;
-  /**
-  * Category Internet Portals
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#internet_portals SlbTemplateClientSsl#internet_portals}
-  */
-  readonly internetPortals?: number;
-  /**
-  * Category Job Search
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#job_search SlbTemplateClientSsl#job_search}
-  */
-  readonly jobSearch?: number;
-  /**
-  * Category Keyloggers and Monitoring
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#keyloggers_and_monitoring SlbTemplateClientSsl#keyloggers_and_monitoring}
-  */
-  readonly keyloggersAndMonitoring?: number;
-  /**
-  * Category Kids
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#kids SlbTemplateClientSsl#kids}
-  */
-  readonly kids?: number;
-  /**
-  * Category Legal
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#legal SlbTemplateClientSsl#legal}
-  */
-  readonly legal?: number;
-  /**
-  * Category Local Information
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#local_information SlbTemplateClientSsl#local_information}
-  */
-  readonly localInformation?: number;
-  /**
-  * Category Malware Sites
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#malware_sites SlbTemplateClientSsl#malware_sites}
-  */
-  readonly malwareSites?: number;
-  /**
-  * Category Marijuana
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#marijuana SlbTemplateClientSsl#marijuana}
-  */
-  readonly marijuana?: number;
-  /**
-  * Category Military
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#military SlbTemplateClientSsl#military}
-  */
-  readonly military?: number;
-  /**
-  * Category Motor Vehicles
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#motor_vehicles SlbTemplateClientSsl#motor_vehicles}
-  */
-  readonly motorVehicles?: number;
-  /**
-  * Category Music
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#music SlbTemplateClientSsl#music}
-  */
-  readonly music?: number;
-  /**
-  * Category News and Media
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#news_and_media SlbTemplateClientSsl#news_and_media}
-  */
-  readonly newsAndMedia?: number;
-  /**
-  * Category Nudity
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#nudity SlbTemplateClientSsl#nudity}
-  */
-  readonly nudity?: number;
-  /**
-  * Category Nudity join Entertainment and Arts
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#nudity_artistic SlbTemplateClientSsl#nudity_artistic}
-  */
-  readonly nudityArtistic?: number;
-  /**
-  * Category Online Greeting cards
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#online_greeting_cards SlbTemplateClientSsl#online_greeting_cards}
-  */
-  readonly onlineGreetingCards?: number;
-  /**
-  * Category Parked Domains
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#parked_domains SlbTemplateClientSsl#parked_domains}
-  */
-  readonly parkedDomains?: number;
-  /**
-  * Category Pay to Surf
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#pay_to_surf SlbTemplateClientSsl#pay_to_surf}
-  */
-  readonly payToSurf?: number;
-  /**
-  * Category Peer to Peer
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#peer_to_peer SlbTemplateClientSsl#peer_to_peer}
-  */
-  readonly peerToPeer?: number;
-  /**
-  * Category Personal sites and Blogs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#personal_sites_and_blogs SlbTemplateClientSsl#personal_sites_and_blogs}
-  */
-  readonly personalSitesAndBlogs?: number;
-  /**
-  * Category Personal Storage
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#personal_storage SlbTemplateClientSsl#personal_storage}
-  */
-  readonly personalStorage?: number;
-  /**
-  * Category Philosophy and Political Advocacy
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#philosophy_and_politics SlbTemplateClientSsl#philosophy_and_politics}
-  */
-  readonly philosophyAndPolitics?: number;
-  /**
-  * Category Phishing and Other Frauds
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#phishing_and_other_fraud SlbTemplateClientSsl#phishing_and_other_fraud}
-  */
-  readonly phishingAndOtherFraud?: number;
-  /**
-  * Category Proxy Avoid and Anonymizers
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#proxy_avoid_and_anonymizers SlbTemplateClientSsl#proxy_avoid_and_anonymizers}
-  */
-  readonly proxyAvoidAndAnonymizers?: number;
-  /**
-  * Category Questionable
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#questionable SlbTemplateClientSsl#questionable}
-  */
-  readonly questionable?: number;
-  /**
-  * Category Real Estate
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#real_estate SlbTemplateClientSsl#real_estate}
-  */
-  readonly realEstate?: number;
-  /**
-  * Category Recreation and Hobbies
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#recreation_and_hobbies SlbTemplateClientSsl#recreation_and_hobbies}
-  */
-  readonly recreationAndHobbies?: number;
-  /**
-  * Category Reference and Research
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#reference_and_research SlbTemplateClientSsl#reference_and_research}
-  */
-  readonly referenceAndResearch?: number;
-  /**
-  * Category Religion
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#religion SlbTemplateClientSsl#religion}
-  */
-  readonly religion?: number;
-  /**
-  * Category Search Engines
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#search_engines SlbTemplateClientSsl#search_engines}
-  */
-  readonly searchEngines?: number;
-  /**
-  * Category Sex Education
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sex_education SlbTemplateClientSsl#sex_education}
-  */
-  readonly sexEducation?: number;
-  /**
-  * Category Shareware and Freeware
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#shareware_and_freeware SlbTemplateClientSsl#shareware_and_freeware}
-  */
-  readonly sharewareAndFreeware?: number;
-  /**
-  * Category Shopping
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#shopping SlbTemplateClientSsl#shopping}
-  */
-  readonly shopping?: number;
-  /**
-  * Category Social Network
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#social_network SlbTemplateClientSsl#social_network}
-  */
-  readonly socialNetwork?: number;
-  /**
-  * Category Society
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#society SlbTemplateClientSsl#society}
-  */
-  readonly society?: number;
-  /**
-  * Category SPAM URLs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#spam_urls SlbTemplateClientSsl#spam_urls}
-  */
-  readonly spamUrls?: number;
-  /**
-  * Category Sports
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#sports SlbTemplateClientSsl#sports}
-  */
-  readonly sports?: number;
-  /**
-  * Category Spyware and Adware
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#spyware_and_adware SlbTemplateClientSsl#spyware_and_adware}
-  */
-  readonly spywareAndAdware?: number;
-  /**
-  * Category Stock Advice and Tools
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#stock_advice_and_tools SlbTemplateClientSsl#stock_advice_and_tools}
-  */
-  readonly stockAdviceAndTools?: number;
-  /**
-  * Category Streaming Media
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#streaming_media SlbTemplateClientSsl#streaming_media}
-  */
-  readonly streamingMedia?: number;
-  /**
-  * Category Swimsuits and Intimate Apparel
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#swimsuits_and_intimate_apparel SlbTemplateClientSsl#swimsuits_and_intimate_apparel}
-  */
-  readonly swimsuitsAndIntimateApparel?: number;
-  /**
-  * Category Training and Tools
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#training_and_tools SlbTemplateClientSsl#training_and_tools}
-  */
-  readonly trainingAndTools?: number;
-  /**
-  * Category Translation
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#translation SlbTemplateClientSsl#translation}
-  */
-  readonly translation?: number;
-  /**
-  * Category Travel
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#travel SlbTemplateClientSsl#travel}
-  */
-  readonly travel?: number;
-  /**
-  * Uncategorized URLs
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#uncategorized SlbTemplateClientSsl#uncategorized}
-  */
-  readonly uncategorized?: number;
-  /**
-  * Category Violence
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#violence SlbTemplateClientSsl#violence}
-  */
-  readonly violence?: number;
-  /**
-  * Category Weapons
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#weapons SlbTemplateClientSsl#weapons}
-  */
-  readonly weapons?: number;
-  /**
-  * Category Web Advertisements
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#web_advertisements SlbTemplateClientSsl#web_advertisements}
-  */
-  readonly webAdvertisements?: number;
-  /**
-  * Category Web based email
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#web_based_email SlbTemplateClientSsl#web_based_email}
-  */
-  readonly webBasedEmail?: number;
-  /**
-  * Category Web Hosting Sites
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#web_hosting_sites SlbTemplateClientSsl#web_hosting_sites}
-  */
-  readonly webHostingSites?: number;
+  readonly bypassedCategory?: string;
 }
 
 export function slbTemplateClientSslWebCategoryToTerraform(struct?: SlbTemplateClientSslWebCategoryOutputReference | SlbTemplateClientSslWebCategory): any {
@@ -10797,87 +7683,7 @@ export function slbTemplateClientSslWebCategoryToTerraform(struct?: SlbTemplateC
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    abortion: cdktf.numberToTerraform(struct!.abortion),
-    adult_and_pornography: cdktf.numberToTerraform(struct!.adultAndPornography),
-    alcohol_and_tobacco: cdktf.numberToTerraform(struct!.alcoholAndTobacco),
-    auctions: cdktf.numberToTerraform(struct!.auctions),
-    bot_nets: cdktf.numberToTerraform(struct!.botNets),
-    business_and_economy: cdktf.numberToTerraform(struct!.businessAndEconomy),
-    cdns: cdktf.numberToTerraform(struct!.cdns),
-    cheating: cdktf.numberToTerraform(struct!.cheating),
-    computer_and_internet_info: cdktf.numberToTerraform(struct!.computerAndInternetInfo),
-    computer_and_internet_security: cdktf.numberToTerraform(struct!.computerAndInternetSecurity),
-    cult_and_occult: cdktf.numberToTerraform(struct!.cultAndOccult),
-    dating: cdktf.numberToTerraform(struct!.dating),
-    dead_sites: cdktf.numberToTerraform(struct!.deadSites),
-    drugs: cdktf.numberToTerraform(struct!.drugs),
-    dynamically_generated_content: cdktf.numberToTerraform(struct!.dynamicallyGeneratedContent),
-    educational_institutions: cdktf.numberToTerraform(struct!.educationalInstitutions),
-    entertainment_and_arts: cdktf.numberToTerraform(struct!.entertainmentAndArts),
-    fashion_and_beauty: cdktf.numberToTerraform(struct!.fashionAndBeauty),
-    financial_services: cdktf.numberToTerraform(struct!.financialServices),
-    gambling: cdktf.numberToTerraform(struct!.gambling),
-    games: cdktf.numberToTerraform(struct!.games),
-    government: cdktf.numberToTerraform(struct!.government),
-    gross: cdktf.numberToTerraform(struct!.gross),
-    hacking: cdktf.numberToTerraform(struct!.hacking),
-    hate_and_racism: cdktf.numberToTerraform(struct!.hateAndRacism),
-    health_and_medicine: cdktf.numberToTerraform(struct!.healthAndMedicine),
-    home_and_garden: cdktf.numberToTerraform(struct!.homeAndGarden),
-    hunting_and_fishing: cdktf.numberToTerraform(struct!.huntingAndFishing),
-    illegal: cdktf.numberToTerraform(struct!.illegal),
-    illegal_pornography: cdktf.numberToTerraform(struct!.illegalPornography),
-    image_and_video_search: cdktf.numberToTerraform(struct!.imageAndVideoSearch),
-    internet_communications: cdktf.numberToTerraform(struct!.internetCommunications),
-    internet_portals: cdktf.numberToTerraform(struct!.internetPortals),
-    job_search: cdktf.numberToTerraform(struct!.jobSearch),
-    keyloggers_and_monitoring: cdktf.numberToTerraform(struct!.keyloggersAndMonitoring),
-    kids: cdktf.numberToTerraform(struct!.kids),
-    legal: cdktf.numberToTerraform(struct!.legal),
-    local_information: cdktf.numberToTerraform(struct!.localInformation),
-    malware_sites: cdktf.numberToTerraform(struct!.malwareSites),
-    marijuana: cdktf.numberToTerraform(struct!.marijuana),
-    military: cdktf.numberToTerraform(struct!.military),
-    motor_vehicles: cdktf.numberToTerraform(struct!.motorVehicles),
-    music: cdktf.numberToTerraform(struct!.music),
-    news_and_media: cdktf.numberToTerraform(struct!.newsAndMedia),
-    nudity: cdktf.numberToTerraform(struct!.nudity),
-    nudity_artistic: cdktf.numberToTerraform(struct!.nudityArtistic),
-    online_greeting_cards: cdktf.numberToTerraform(struct!.onlineGreetingCards),
-    parked_domains: cdktf.numberToTerraform(struct!.parkedDomains),
-    pay_to_surf: cdktf.numberToTerraform(struct!.payToSurf),
-    peer_to_peer: cdktf.numberToTerraform(struct!.peerToPeer),
-    personal_sites_and_blogs: cdktf.numberToTerraform(struct!.personalSitesAndBlogs),
-    personal_storage: cdktf.numberToTerraform(struct!.personalStorage),
-    philosophy_and_politics: cdktf.numberToTerraform(struct!.philosophyAndPolitics),
-    phishing_and_other_fraud: cdktf.numberToTerraform(struct!.phishingAndOtherFraud),
-    proxy_avoid_and_anonymizers: cdktf.numberToTerraform(struct!.proxyAvoidAndAnonymizers),
-    questionable: cdktf.numberToTerraform(struct!.questionable),
-    real_estate: cdktf.numberToTerraform(struct!.realEstate),
-    recreation_and_hobbies: cdktf.numberToTerraform(struct!.recreationAndHobbies),
-    reference_and_research: cdktf.numberToTerraform(struct!.referenceAndResearch),
-    religion: cdktf.numberToTerraform(struct!.religion),
-    search_engines: cdktf.numberToTerraform(struct!.searchEngines),
-    sex_education: cdktf.numberToTerraform(struct!.sexEducation),
-    shareware_and_freeware: cdktf.numberToTerraform(struct!.sharewareAndFreeware),
-    shopping: cdktf.numberToTerraform(struct!.shopping),
-    social_network: cdktf.numberToTerraform(struct!.socialNetwork),
-    society: cdktf.numberToTerraform(struct!.society),
-    spam_urls: cdktf.numberToTerraform(struct!.spamUrls),
-    sports: cdktf.numberToTerraform(struct!.sports),
-    spyware_and_adware: cdktf.numberToTerraform(struct!.spywareAndAdware),
-    stock_advice_and_tools: cdktf.numberToTerraform(struct!.stockAdviceAndTools),
-    streaming_media: cdktf.numberToTerraform(struct!.streamingMedia),
-    swimsuits_and_intimate_apparel: cdktf.numberToTerraform(struct!.swimsuitsAndIntimateApparel),
-    training_and_tools: cdktf.numberToTerraform(struct!.trainingAndTools),
-    translation: cdktf.numberToTerraform(struct!.translation),
-    travel: cdktf.numberToTerraform(struct!.travel),
-    uncategorized: cdktf.numberToTerraform(struct!.uncategorized),
-    violence: cdktf.numberToTerraform(struct!.violence),
-    weapons: cdktf.numberToTerraform(struct!.weapons),
-    web_advertisements: cdktf.numberToTerraform(struct!.webAdvertisements),
-    web_based_email: cdktf.numberToTerraform(struct!.webBasedEmail),
-    web_hosting_sites: cdktf.numberToTerraform(struct!.webHostingSites),
+    bypassed_category: cdktf.stringToTerraform(struct!.bypassedCategory),
   }
 }
 
@@ -10888,491 +7694,11 @@ export function slbTemplateClientSslWebCategoryToHclTerraform(struct?: SlbTempla
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    abortion: {
-      value: cdktf.numberToHclTerraform(struct!.abortion),
+    bypassed_category: {
+      value: cdktf.stringToHclTerraform(struct!.bypassedCategory),
       isBlock: false,
       type: "simple",
-      storageClassType: "number",
-    },
-    adult_and_pornography: {
-      value: cdktf.numberToHclTerraform(struct!.adultAndPornography),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    alcohol_and_tobacco: {
-      value: cdktf.numberToHclTerraform(struct!.alcoholAndTobacco),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    auctions: {
-      value: cdktf.numberToHclTerraform(struct!.auctions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    bot_nets: {
-      value: cdktf.numberToHclTerraform(struct!.botNets),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    business_and_economy: {
-      value: cdktf.numberToHclTerraform(struct!.businessAndEconomy),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    cdns: {
-      value: cdktf.numberToHclTerraform(struct!.cdns),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    cheating: {
-      value: cdktf.numberToHclTerraform(struct!.cheating),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    computer_and_internet_info: {
-      value: cdktf.numberToHclTerraform(struct!.computerAndInternetInfo),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    computer_and_internet_security: {
-      value: cdktf.numberToHclTerraform(struct!.computerAndInternetSecurity),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    cult_and_occult: {
-      value: cdktf.numberToHclTerraform(struct!.cultAndOccult),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    dating: {
-      value: cdktf.numberToHclTerraform(struct!.dating),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    dead_sites: {
-      value: cdktf.numberToHclTerraform(struct!.deadSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    drugs: {
-      value: cdktf.numberToHclTerraform(struct!.drugs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    dynamically_generated_content: {
-      value: cdktf.numberToHclTerraform(struct!.dynamicallyGeneratedContent),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    educational_institutions: {
-      value: cdktf.numberToHclTerraform(struct!.educationalInstitutions),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    entertainment_and_arts: {
-      value: cdktf.numberToHclTerraform(struct!.entertainmentAndArts),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    fashion_and_beauty: {
-      value: cdktf.numberToHclTerraform(struct!.fashionAndBeauty),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    financial_services: {
-      value: cdktf.numberToHclTerraform(struct!.financialServices),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    gambling: {
-      value: cdktf.numberToHclTerraform(struct!.gambling),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    games: {
-      value: cdktf.numberToHclTerraform(struct!.games),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    government: {
-      value: cdktf.numberToHclTerraform(struct!.government),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    gross: {
-      value: cdktf.numberToHclTerraform(struct!.gross),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    hacking: {
-      value: cdktf.numberToHclTerraform(struct!.hacking),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    hate_and_racism: {
-      value: cdktf.numberToHclTerraform(struct!.hateAndRacism),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    health_and_medicine: {
-      value: cdktf.numberToHclTerraform(struct!.healthAndMedicine),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    home_and_garden: {
-      value: cdktf.numberToHclTerraform(struct!.homeAndGarden),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    hunting_and_fishing: {
-      value: cdktf.numberToHclTerraform(struct!.huntingAndFishing),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    illegal: {
-      value: cdktf.numberToHclTerraform(struct!.illegal),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    illegal_pornography: {
-      value: cdktf.numberToHclTerraform(struct!.illegalPornography),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    image_and_video_search: {
-      value: cdktf.numberToHclTerraform(struct!.imageAndVideoSearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    internet_communications: {
-      value: cdktf.numberToHclTerraform(struct!.internetCommunications),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    internet_portals: {
-      value: cdktf.numberToHclTerraform(struct!.internetPortals),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    job_search: {
-      value: cdktf.numberToHclTerraform(struct!.jobSearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    keyloggers_and_monitoring: {
-      value: cdktf.numberToHclTerraform(struct!.keyloggersAndMonitoring),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    kids: {
-      value: cdktf.numberToHclTerraform(struct!.kids),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    legal: {
-      value: cdktf.numberToHclTerraform(struct!.legal),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    local_information: {
-      value: cdktf.numberToHclTerraform(struct!.localInformation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    malware_sites: {
-      value: cdktf.numberToHclTerraform(struct!.malwareSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    marijuana: {
-      value: cdktf.numberToHclTerraform(struct!.marijuana),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    military: {
-      value: cdktf.numberToHclTerraform(struct!.military),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    motor_vehicles: {
-      value: cdktf.numberToHclTerraform(struct!.motorVehicles),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    music: {
-      value: cdktf.numberToHclTerraform(struct!.music),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    news_and_media: {
-      value: cdktf.numberToHclTerraform(struct!.newsAndMedia),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    nudity: {
-      value: cdktf.numberToHclTerraform(struct!.nudity),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    nudity_artistic: {
-      value: cdktf.numberToHclTerraform(struct!.nudityArtistic),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    online_greeting_cards: {
-      value: cdktf.numberToHclTerraform(struct!.onlineGreetingCards),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    parked_domains: {
-      value: cdktf.numberToHclTerraform(struct!.parkedDomains),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    pay_to_surf: {
-      value: cdktf.numberToHclTerraform(struct!.payToSurf),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    peer_to_peer: {
-      value: cdktf.numberToHclTerraform(struct!.peerToPeer),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    personal_sites_and_blogs: {
-      value: cdktf.numberToHclTerraform(struct!.personalSitesAndBlogs),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    personal_storage: {
-      value: cdktf.numberToHclTerraform(struct!.personalStorage),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    philosophy_and_politics: {
-      value: cdktf.numberToHclTerraform(struct!.philosophyAndPolitics),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    phishing_and_other_fraud: {
-      value: cdktf.numberToHclTerraform(struct!.phishingAndOtherFraud),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    proxy_avoid_and_anonymizers: {
-      value: cdktf.numberToHclTerraform(struct!.proxyAvoidAndAnonymizers),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    questionable: {
-      value: cdktf.numberToHclTerraform(struct!.questionable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    real_estate: {
-      value: cdktf.numberToHclTerraform(struct!.realEstate),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    recreation_and_hobbies: {
-      value: cdktf.numberToHclTerraform(struct!.recreationAndHobbies),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    reference_and_research: {
-      value: cdktf.numberToHclTerraform(struct!.referenceAndResearch),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    religion: {
-      value: cdktf.numberToHclTerraform(struct!.religion),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    search_engines: {
-      value: cdktf.numberToHclTerraform(struct!.searchEngines),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    sex_education: {
-      value: cdktf.numberToHclTerraform(struct!.sexEducation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    shareware_and_freeware: {
-      value: cdktf.numberToHclTerraform(struct!.sharewareAndFreeware),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    shopping: {
-      value: cdktf.numberToHclTerraform(struct!.shopping),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    social_network: {
-      value: cdktf.numberToHclTerraform(struct!.socialNetwork),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    society: {
-      value: cdktf.numberToHclTerraform(struct!.society),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    spam_urls: {
-      value: cdktf.numberToHclTerraform(struct!.spamUrls),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    sports: {
-      value: cdktf.numberToHclTerraform(struct!.sports),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    spyware_and_adware: {
-      value: cdktf.numberToHclTerraform(struct!.spywareAndAdware),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    stock_advice_and_tools: {
-      value: cdktf.numberToHclTerraform(struct!.stockAdviceAndTools),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    streaming_media: {
-      value: cdktf.numberToHclTerraform(struct!.streamingMedia),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    swimsuits_and_intimate_apparel: {
-      value: cdktf.numberToHclTerraform(struct!.swimsuitsAndIntimateApparel),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    training_and_tools: {
-      value: cdktf.numberToHclTerraform(struct!.trainingAndTools),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    translation: {
-      value: cdktf.numberToHclTerraform(struct!.translation),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    travel: {
-      value: cdktf.numberToHclTerraform(struct!.travel),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uncategorized: {
-      value: cdktf.numberToHclTerraform(struct!.uncategorized),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    violence: {
-      value: cdktf.numberToHclTerraform(struct!.violence),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    weapons: {
-      value: cdktf.numberToHclTerraform(struct!.weapons),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    web_advertisements: {
-      value: cdktf.numberToHclTerraform(struct!.webAdvertisements),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    web_based_email: {
-      value: cdktf.numberToHclTerraform(struct!.webBasedEmail),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    web_hosting_sites: {
-      value: cdktf.numberToHclTerraform(struct!.webHostingSites),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
+      storageClassType: "string",
     },
   };
 
@@ -11394,329 +7720,9 @@ export class SlbTemplateClientSslWebCategoryOutputReference extends cdktf.Comple
   public get internalValue(): SlbTemplateClientSslWebCategory | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._abortion !== undefined) {
+    if (this._bypassedCategory !== undefined) {
       hasAnyValues = true;
-      internalValueResult.abortion = this._abortion;
-    }
-    if (this._adultAndPornography !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.adultAndPornography = this._adultAndPornography;
-    }
-    if (this._alcoholAndTobacco !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.alcoholAndTobacco = this._alcoholAndTobacco;
-    }
-    if (this._auctions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.auctions = this._auctions;
-    }
-    if (this._botNets !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.botNets = this._botNets;
-    }
-    if (this._businessAndEconomy !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.businessAndEconomy = this._businessAndEconomy;
-    }
-    if (this._cdns !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cdns = this._cdns;
-    }
-    if (this._cheating !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cheating = this._cheating;
-    }
-    if (this._computerAndInternetInfo !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.computerAndInternetInfo = this._computerAndInternetInfo;
-    }
-    if (this._computerAndInternetSecurity !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.computerAndInternetSecurity = this._computerAndInternetSecurity;
-    }
-    if (this._cultAndOccult !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.cultAndOccult = this._cultAndOccult;
-    }
-    if (this._dating !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dating = this._dating;
-    }
-    if (this._deadSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.deadSites = this._deadSites;
-    }
-    if (this._drugs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.drugs = this._drugs;
-    }
-    if (this._dynamicallyGeneratedContent !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.dynamicallyGeneratedContent = this._dynamicallyGeneratedContent;
-    }
-    if (this._educationalInstitutions !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.educationalInstitutions = this._educationalInstitutions;
-    }
-    if (this._entertainmentAndArts !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.entertainmentAndArts = this._entertainmentAndArts;
-    }
-    if (this._fashionAndBeauty !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fashionAndBeauty = this._fashionAndBeauty;
-    }
-    if (this._financialServices !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.financialServices = this._financialServices;
-    }
-    if (this._gambling !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gambling = this._gambling;
-    }
-    if (this._games !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.games = this._games;
-    }
-    if (this._government !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.government = this._government;
-    }
-    if (this._gross !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.gross = this._gross;
-    }
-    if (this._hacking !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.hacking = this._hacking;
-    }
-    if (this._hateAndRacism !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.hateAndRacism = this._hateAndRacism;
-    }
-    if (this._healthAndMedicine !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.healthAndMedicine = this._healthAndMedicine;
-    }
-    if (this._homeAndGarden !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.homeAndGarden = this._homeAndGarden;
-    }
-    if (this._huntingAndFishing !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.huntingAndFishing = this._huntingAndFishing;
-    }
-    if (this._illegal !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.illegal = this._illegal;
-    }
-    if (this._illegalPornography !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.illegalPornography = this._illegalPornography;
-    }
-    if (this._imageAndVideoSearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.imageAndVideoSearch = this._imageAndVideoSearch;
-    }
-    if (this._internetCommunications !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.internetCommunications = this._internetCommunications;
-    }
-    if (this._internetPortals !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.internetPortals = this._internetPortals;
-    }
-    if (this._jobSearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.jobSearch = this._jobSearch;
-    }
-    if (this._keyloggersAndMonitoring !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.keyloggersAndMonitoring = this._keyloggersAndMonitoring;
-    }
-    if (this._kids !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.kids = this._kids;
-    }
-    if (this._legal !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.legal = this._legal;
-    }
-    if (this._localInformation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.localInformation = this._localInformation;
-    }
-    if (this._malwareSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.malwareSites = this._malwareSites;
-    }
-    if (this._marijuana !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.marijuana = this._marijuana;
-    }
-    if (this._military !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.military = this._military;
-    }
-    if (this._motorVehicles !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.motorVehicles = this._motorVehicles;
-    }
-    if (this._music !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.music = this._music;
-    }
-    if (this._newsAndMedia !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.newsAndMedia = this._newsAndMedia;
-    }
-    if (this._nudity !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nudity = this._nudity;
-    }
-    if (this._nudityArtistic !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.nudityArtistic = this._nudityArtistic;
-    }
-    if (this._onlineGreetingCards !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.onlineGreetingCards = this._onlineGreetingCards;
-    }
-    if (this._parkedDomains !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.parkedDomains = this._parkedDomains;
-    }
-    if (this._payToSurf !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.payToSurf = this._payToSurf;
-    }
-    if (this._peerToPeer !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.peerToPeer = this._peerToPeer;
-    }
-    if (this._personalSitesAndBlogs !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.personalSitesAndBlogs = this._personalSitesAndBlogs;
-    }
-    if (this._personalStorage !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.personalStorage = this._personalStorage;
-    }
-    if (this._philosophyAndPolitics !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.philosophyAndPolitics = this._philosophyAndPolitics;
-    }
-    if (this._phishingAndOtherFraud !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.phishingAndOtherFraud = this._phishingAndOtherFraud;
-    }
-    if (this._proxyAvoidAndAnonymizers !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.proxyAvoidAndAnonymizers = this._proxyAvoidAndAnonymizers;
-    }
-    if (this._questionable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.questionable = this._questionable;
-    }
-    if (this._realEstate !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.realEstate = this._realEstate;
-    }
-    if (this._recreationAndHobbies !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.recreationAndHobbies = this._recreationAndHobbies;
-    }
-    if (this._referenceAndResearch !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.referenceAndResearch = this._referenceAndResearch;
-    }
-    if (this._religion !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.religion = this._religion;
-    }
-    if (this._searchEngines !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.searchEngines = this._searchEngines;
-    }
-    if (this._sexEducation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sexEducation = this._sexEducation;
-    }
-    if (this._sharewareAndFreeware !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sharewareAndFreeware = this._sharewareAndFreeware;
-    }
-    if (this._shopping !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.shopping = this._shopping;
-    }
-    if (this._socialNetwork !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.socialNetwork = this._socialNetwork;
-    }
-    if (this._society !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.society = this._society;
-    }
-    if (this._spamUrls !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.spamUrls = this._spamUrls;
-    }
-    if (this._sports !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.sports = this._sports;
-    }
-    if (this._spywareAndAdware !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.spywareAndAdware = this._spywareAndAdware;
-    }
-    if (this._stockAdviceAndTools !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.stockAdviceAndTools = this._stockAdviceAndTools;
-    }
-    if (this._streamingMedia !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.streamingMedia = this._streamingMedia;
-    }
-    if (this._swimsuitsAndIntimateApparel !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.swimsuitsAndIntimateApparel = this._swimsuitsAndIntimateApparel;
-    }
-    if (this._trainingAndTools !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.trainingAndTools = this._trainingAndTools;
-    }
-    if (this._translation !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.translation = this._translation;
-    }
-    if (this._travel !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.travel = this._travel;
-    }
-    if (this._uncategorized !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uncategorized = this._uncategorized;
-    }
-    if (this._violence !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.violence = this._violence;
-    }
-    if (this._weapons !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.weapons = this._weapons;
-    }
-    if (this._webAdvertisements !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.webAdvertisements = this._webAdvertisements;
-    }
-    if (this._webBasedEmail !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.webBasedEmail = this._webBasedEmail;
-    }
-    if (this._webHostingSites !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.webHostingSites = this._webHostingSites;
+      internalValueResult.bypassedCategory = this._bypassedCategory;
     }
     return hasAnyValues ? internalValueResult : undefined;
   }
@@ -11724,1505 +7730,65 @@ export class SlbTemplateClientSslWebCategoryOutputReference extends cdktf.Comple
   public set internalValue(value: SlbTemplateClientSslWebCategory | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._abortion = undefined;
-      this._adultAndPornography = undefined;
-      this._alcoholAndTobacco = undefined;
-      this._auctions = undefined;
-      this._botNets = undefined;
-      this._businessAndEconomy = undefined;
-      this._cdns = undefined;
-      this._cheating = undefined;
-      this._computerAndInternetInfo = undefined;
-      this._computerAndInternetSecurity = undefined;
-      this._cultAndOccult = undefined;
-      this._dating = undefined;
-      this._deadSites = undefined;
-      this._drugs = undefined;
-      this._dynamicallyGeneratedContent = undefined;
-      this._educationalInstitutions = undefined;
-      this._entertainmentAndArts = undefined;
-      this._fashionAndBeauty = undefined;
-      this._financialServices = undefined;
-      this._gambling = undefined;
-      this._games = undefined;
-      this._government = undefined;
-      this._gross = undefined;
-      this._hacking = undefined;
-      this._hateAndRacism = undefined;
-      this._healthAndMedicine = undefined;
-      this._homeAndGarden = undefined;
-      this._huntingAndFishing = undefined;
-      this._illegal = undefined;
-      this._illegalPornography = undefined;
-      this._imageAndVideoSearch = undefined;
-      this._internetCommunications = undefined;
-      this._internetPortals = undefined;
-      this._jobSearch = undefined;
-      this._keyloggersAndMonitoring = undefined;
-      this._kids = undefined;
-      this._legal = undefined;
-      this._localInformation = undefined;
-      this._malwareSites = undefined;
-      this._marijuana = undefined;
-      this._military = undefined;
-      this._motorVehicles = undefined;
-      this._music = undefined;
-      this._newsAndMedia = undefined;
-      this._nudity = undefined;
-      this._nudityArtistic = undefined;
-      this._onlineGreetingCards = undefined;
-      this._parkedDomains = undefined;
-      this._payToSurf = undefined;
-      this._peerToPeer = undefined;
-      this._personalSitesAndBlogs = undefined;
-      this._personalStorage = undefined;
-      this._philosophyAndPolitics = undefined;
-      this._phishingAndOtherFraud = undefined;
-      this._proxyAvoidAndAnonymizers = undefined;
-      this._questionable = undefined;
-      this._realEstate = undefined;
-      this._recreationAndHobbies = undefined;
-      this._referenceAndResearch = undefined;
-      this._religion = undefined;
-      this._searchEngines = undefined;
-      this._sexEducation = undefined;
-      this._sharewareAndFreeware = undefined;
-      this._shopping = undefined;
-      this._socialNetwork = undefined;
-      this._society = undefined;
-      this._spamUrls = undefined;
-      this._sports = undefined;
-      this._spywareAndAdware = undefined;
-      this._stockAdviceAndTools = undefined;
-      this._streamingMedia = undefined;
-      this._swimsuitsAndIntimateApparel = undefined;
-      this._trainingAndTools = undefined;
-      this._translation = undefined;
-      this._travel = undefined;
-      this._uncategorized = undefined;
-      this._violence = undefined;
-      this._weapons = undefined;
-      this._webAdvertisements = undefined;
-      this._webBasedEmail = undefined;
-      this._webHostingSites = undefined;
+      this._bypassedCategory = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._abortion = value.abortion;
-      this._adultAndPornography = value.adultAndPornography;
-      this._alcoholAndTobacco = value.alcoholAndTobacco;
-      this._auctions = value.auctions;
-      this._botNets = value.botNets;
-      this._businessAndEconomy = value.businessAndEconomy;
-      this._cdns = value.cdns;
-      this._cheating = value.cheating;
-      this._computerAndInternetInfo = value.computerAndInternetInfo;
-      this._computerAndInternetSecurity = value.computerAndInternetSecurity;
-      this._cultAndOccult = value.cultAndOccult;
-      this._dating = value.dating;
-      this._deadSites = value.deadSites;
-      this._drugs = value.drugs;
-      this._dynamicallyGeneratedContent = value.dynamicallyGeneratedContent;
-      this._educationalInstitutions = value.educationalInstitutions;
-      this._entertainmentAndArts = value.entertainmentAndArts;
-      this._fashionAndBeauty = value.fashionAndBeauty;
-      this._financialServices = value.financialServices;
-      this._gambling = value.gambling;
-      this._games = value.games;
-      this._government = value.government;
-      this._gross = value.gross;
-      this._hacking = value.hacking;
-      this._hateAndRacism = value.hateAndRacism;
-      this._healthAndMedicine = value.healthAndMedicine;
-      this._homeAndGarden = value.homeAndGarden;
-      this._huntingAndFishing = value.huntingAndFishing;
-      this._illegal = value.illegal;
-      this._illegalPornography = value.illegalPornography;
-      this._imageAndVideoSearch = value.imageAndVideoSearch;
-      this._internetCommunications = value.internetCommunications;
-      this._internetPortals = value.internetPortals;
-      this._jobSearch = value.jobSearch;
-      this._keyloggersAndMonitoring = value.keyloggersAndMonitoring;
-      this._kids = value.kids;
-      this._legal = value.legal;
-      this._localInformation = value.localInformation;
-      this._malwareSites = value.malwareSites;
-      this._marijuana = value.marijuana;
-      this._military = value.military;
-      this._motorVehicles = value.motorVehicles;
-      this._music = value.music;
-      this._newsAndMedia = value.newsAndMedia;
-      this._nudity = value.nudity;
-      this._nudityArtistic = value.nudityArtistic;
-      this._onlineGreetingCards = value.onlineGreetingCards;
-      this._parkedDomains = value.parkedDomains;
-      this._payToSurf = value.payToSurf;
-      this._peerToPeer = value.peerToPeer;
-      this._personalSitesAndBlogs = value.personalSitesAndBlogs;
-      this._personalStorage = value.personalStorage;
-      this._philosophyAndPolitics = value.philosophyAndPolitics;
-      this._phishingAndOtherFraud = value.phishingAndOtherFraud;
-      this._proxyAvoidAndAnonymizers = value.proxyAvoidAndAnonymizers;
-      this._questionable = value.questionable;
-      this._realEstate = value.realEstate;
-      this._recreationAndHobbies = value.recreationAndHobbies;
-      this._referenceAndResearch = value.referenceAndResearch;
-      this._religion = value.religion;
-      this._searchEngines = value.searchEngines;
-      this._sexEducation = value.sexEducation;
-      this._sharewareAndFreeware = value.sharewareAndFreeware;
-      this._shopping = value.shopping;
-      this._socialNetwork = value.socialNetwork;
-      this._society = value.society;
-      this._spamUrls = value.spamUrls;
-      this._sports = value.sports;
-      this._spywareAndAdware = value.spywareAndAdware;
-      this._stockAdviceAndTools = value.stockAdviceAndTools;
-      this._streamingMedia = value.streamingMedia;
-      this._swimsuitsAndIntimateApparel = value.swimsuitsAndIntimateApparel;
-      this._trainingAndTools = value.trainingAndTools;
-      this._translation = value.translation;
-      this._travel = value.travel;
-      this._uncategorized = value.uncategorized;
-      this._violence = value.violence;
-      this._weapons = value.weapons;
-      this._webAdvertisements = value.webAdvertisements;
-      this._webBasedEmail = value.webBasedEmail;
-      this._webHostingSites = value.webHostingSites;
+      this._bypassedCategory = value.bypassedCategory;
     }
   }
 
-  // abortion - computed: false, optional: true, required: false
-  private _abortion?: number; 
-  public get abortion() {
-    return this.getNumberAttribute('abortion');
+  // bypassed_category - computed: false, optional: true, required: false
+  private _bypassedCategory?: string; 
+  public get bypassedCategory() {
+    return this.getStringAttribute('bypassed_category');
   }
-  public set abortion(value: number) {
-    this._abortion = value;
+  public set bypassedCategory(value: string) {
+    this._bypassedCategory = value;
   }
-  public resetAbortion() {
-    this._abortion = undefined;
+  public resetBypassedCategory() {
+    this._bypassedCategory = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get abortionInput() {
-    return this._abortion;
-  }
-
-  // adult_and_pornography - computed: false, optional: true, required: false
-  private _adultAndPornography?: number; 
-  public get adultAndPornography() {
-    return this.getNumberAttribute('adult_and_pornography');
-  }
-  public set adultAndPornography(value: number) {
-    this._adultAndPornography = value;
-  }
-  public resetAdultAndPornography() {
-    this._adultAndPornography = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get adultAndPornographyInput() {
-    return this._adultAndPornography;
-  }
-
-  // alcohol_and_tobacco - computed: false, optional: true, required: false
-  private _alcoholAndTobacco?: number; 
-  public get alcoholAndTobacco() {
-    return this.getNumberAttribute('alcohol_and_tobacco');
-  }
-  public set alcoholAndTobacco(value: number) {
-    this._alcoholAndTobacco = value;
-  }
-  public resetAlcoholAndTobacco() {
-    this._alcoholAndTobacco = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get alcoholAndTobaccoInput() {
-    return this._alcoholAndTobacco;
-  }
-
-  // auctions - computed: false, optional: true, required: false
-  private _auctions?: number; 
-  public get auctions() {
-    return this.getNumberAttribute('auctions');
-  }
-  public set auctions(value: number) {
-    this._auctions = value;
-  }
-  public resetAuctions() {
-    this._auctions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get auctionsInput() {
-    return this._auctions;
-  }
-
-  // bot_nets - computed: false, optional: true, required: false
-  private _botNets?: number; 
-  public get botNets() {
-    return this.getNumberAttribute('bot_nets');
-  }
-  public set botNets(value: number) {
-    this._botNets = value;
-  }
-  public resetBotNets() {
-    this._botNets = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get botNetsInput() {
-    return this._botNets;
-  }
-
-  // business_and_economy - computed: false, optional: true, required: false
-  private _businessAndEconomy?: number; 
-  public get businessAndEconomy() {
-    return this.getNumberAttribute('business_and_economy');
-  }
-  public set businessAndEconomy(value: number) {
-    this._businessAndEconomy = value;
-  }
-  public resetBusinessAndEconomy() {
-    this._businessAndEconomy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get businessAndEconomyInput() {
-    return this._businessAndEconomy;
-  }
-
-  // cdns - computed: false, optional: true, required: false
-  private _cdns?: number; 
-  public get cdns() {
-    return this.getNumberAttribute('cdns');
-  }
-  public set cdns(value: number) {
-    this._cdns = value;
-  }
-  public resetCdns() {
-    this._cdns = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cdnsInput() {
-    return this._cdns;
-  }
-
-  // cheating - computed: false, optional: true, required: false
-  private _cheating?: number; 
-  public get cheating() {
-    return this.getNumberAttribute('cheating');
-  }
-  public set cheating(value: number) {
-    this._cheating = value;
-  }
-  public resetCheating() {
-    this._cheating = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cheatingInput() {
-    return this._cheating;
-  }
-
-  // computer_and_internet_info - computed: false, optional: true, required: false
-  private _computerAndInternetInfo?: number; 
-  public get computerAndInternetInfo() {
-    return this.getNumberAttribute('computer_and_internet_info');
-  }
-  public set computerAndInternetInfo(value: number) {
-    this._computerAndInternetInfo = value;
-  }
-  public resetComputerAndInternetInfo() {
-    this._computerAndInternetInfo = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get computerAndInternetInfoInput() {
-    return this._computerAndInternetInfo;
-  }
-
-  // computer_and_internet_security - computed: false, optional: true, required: false
-  private _computerAndInternetSecurity?: number; 
-  public get computerAndInternetSecurity() {
-    return this.getNumberAttribute('computer_and_internet_security');
-  }
-  public set computerAndInternetSecurity(value: number) {
-    this._computerAndInternetSecurity = value;
-  }
-  public resetComputerAndInternetSecurity() {
-    this._computerAndInternetSecurity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get computerAndInternetSecurityInput() {
-    return this._computerAndInternetSecurity;
-  }
-
-  // cult_and_occult - computed: false, optional: true, required: false
-  private _cultAndOccult?: number; 
-  public get cultAndOccult() {
-    return this.getNumberAttribute('cult_and_occult');
-  }
-  public set cultAndOccult(value: number) {
-    this._cultAndOccult = value;
-  }
-  public resetCultAndOccult() {
-    this._cultAndOccult = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cultAndOccultInput() {
-    return this._cultAndOccult;
-  }
-
-  // dating - computed: false, optional: true, required: false
-  private _dating?: number; 
-  public get dating() {
-    return this.getNumberAttribute('dating');
-  }
-  public set dating(value: number) {
-    this._dating = value;
-  }
-  public resetDating() {
-    this._dating = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get datingInput() {
-    return this._dating;
-  }
-
-  // dead_sites - computed: false, optional: true, required: false
-  private _deadSites?: number; 
-  public get deadSites() {
-    return this.getNumberAttribute('dead_sites');
-  }
-  public set deadSites(value: number) {
-    this._deadSites = value;
-  }
-  public resetDeadSites() {
-    this._deadSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deadSitesInput() {
-    return this._deadSites;
-  }
-
-  // drugs - computed: false, optional: true, required: false
-  private _drugs?: number; 
-  public get drugs() {
-    return this.getNumberAttribute('drugs');
-  }
-  public set drugs(value: number) {
-    this._drugs = value;
-  }
-  public resetDrugs() {
-    this._drugs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get drugsInput() {
-    return this._drugs;
-  }
-
-  // dynamically_generated_content - computed: false, optional: true, required: false
-  private _dynamicallyGeneratedContent?: number; 
-  public get dynamicallyGeneratedContent() {
-    return this.getNumberAttribute('dynamically_generated_content');
-  }
-  public set dynamicallyGeneratedContent(value: number) {
-    this._dynamicallyGeneratedContent = value;
-  }
-  public resetDynamicallyGeneratedContent() {
-    this._dynamicallyGeneratedContent = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dynamicallyGeneratedContentInput() {
-    return this._dynamicallyGeneratedContent;
-  }
-
-  // educational_institutions - computed: false, optional: true, required: false
-  private _educationalInstitutions?: number; 
-  public get educationalInstitutions() {
-    return this.getNumberAttribute('educational_institutions');
-  }
-  public set educationalInstitutions(value: number) {
-    this._educationalInstitutions = value;
-  }
-  public resetEducationalInstitutions() {
-    this._educationalInstitutions = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get educationalInstitutionsInput() {
-    return this._educationalInstitutions;
-  }
-
-  // entertainment_and_arts - computed: false, optional: true, required: false
-  private _entertainmentAndArts?: number; 
-  public get entertainmentAndArts() {
-    return this.getNumberAttribute('entertainment_and_arts');
-  }
-  public set entertainmentAndArts(value: number) {
-    this._entertainmentAndArts = value;
-  }
-  public resetEntertainmentAndArts() {
-    this._entertainmentAndArts = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get entertainmentAndArtsInput() {
-    return this._entertainmentAndArts;
-  }
-
-  // fashion_and_beauty - computed: false, optional: true, required: false
-  private _fashionAndBeauty?: number; 
-  public get fashionAndBeauty() {
-    return this.getNumberAttribute('fashion_and_beauty');
-  }
-  public set fashionAndBeauty(value: number) {
-    this._fashionAndBeauty = value;
-  }
-  public resetFashionAndBeauty() {
-    this._fashionAndBeauty = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fashionAndBeautyInput() {
-    return this._fashionAndBeauty;
-  }
-
-  // financial_services - computed: false, optional: true, required: false
-  private _financialServices?: number; 
-  public get financialServices() {
-    return this.getNumberAttribute('financial_services');
-  }
-  public set financialServices(value: number) {
-    this._financialServices = value;
-  }
-  public resetFinancialServices() {
-    this._financialServices = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get financialServicesInput() {
-    return this._financialServices;
-  }
-
-  // gambling - computed: false, optional: true, required: false
-  private _gambling?: number; 
-  public get gambling() {
-    return this.getNumberAttribute('gambling');
-  }
-  public set gambling(value: number) {
-    this._gambling = value;
-  }
-  public resetGambling() {
-    this._gambling = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gamblingInput() {
-    return this._gambling;
-  }
-
-  // games - computed: false, optional: true, required: false
-  private _games?: number; 
-  public get games() {
-    return this.getNumberAttribute('games');
-  }
-  public set games(value: number) {
-    this._games = value;
-  }
-  public resetGames() {
-    this._games = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get gamesInput() {
-    return this._games;
-  }
-
-  // government - computed: false, optional: true, required: false
-  private _government?: number; 
-  public get government() {
-    return this.getNumberAttribute('government');
-  }
-  public set government(value: number) {
-    this._government = value;
-  }
-  public resetGovernment() {
-    this._government = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get governmentInput() {
-    return this._government;
-  }
-
-  // gross - computed: false, optional: true, required: false
-  private _gross?: number; 
-  public get gross() {
-    return this.getNumberAttribute('gross');
-  }
-  public set gross(value: number) {
-    this._gross = value;
-  }
-  public resetGross() {
-    this._gross = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get grossInput() {
-    return this._gross;
-  }
-
-  // hacking - computed: false, optional: true, required: false
-  private _hacking?: number; 
-  public get hacking() {
-    return this.getNumberAttribute('hacking');
-  }
-  public set hacking(value: number) {
-    this._hacking = value;
-  }
-  public resetHacking() {
-    this._hacking = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hackingInput() {
-    return this._hacking;
-  }
-
-  // hate_and_racism - computed: false, optional: true, required: false
-  private _hateAndRacism?: number; 
-  public get hateAndRacism() {
-    return this.getNumberAttribute('hate_and_racism');
-  }
-  public set hateAndRacism(value: number) {
-    this._hateAndRacism = value;
-  }
-  public resetHateAndRacism() {
-    this._hateAndRacism = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get hateAndRacismInput() {
-    return this._hateAndRacism;
-  }
-
-  // health_and_medicine - computed: false, optional: true, required: false
-  private _healthAndMedicine?: number; 
-  public get healthAndMedicine() {
-    return this.getNumberAttribute('health_and_medicine');
-  }
-  public set healthAndMedicine(value: number) {
-    this._healthAndMedicine = value;
-  }
-  public resetHealthAndMedicine() {
-    this._healthAndMedicine = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get healthAndMedicineInput() {
-    return this._healthAndMedicine;
-  }
-
-  // home_and_garden - computed: false, optional: true, required: false
-  private _homeAndGarden?: number; 
-  public get homeAndGarden() {
-    return this.getNumberAttribute('home_and_garden');
-  }
-  public set homeAndGarden(value: number) {
-    this._homeAndGarden = value;
-  }
-  public resetHomeAndGarden() {
-    this._homeAndGarden = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get homeAndGardenInput() {
-    return this._homeAndGarden;
-  }
-
-  // hunting_and_fishing - computed: false, optional: true, required: false
-  private _huntingAndFishing?: number; 
-  public get huntingAndFishing() {
-    return this.getNumberAttribute('hunting_and_fishing');
-  }
-  public set huntingAndFishing(value: number) {
-    this._huntingAndFishing = value;
-  }
-  public resetHuntingAndFishing() {
-    this._huntingAndFishing = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get huntingAndFishingInput() {
-    return this._huntingAndFishing;
-  }
-
-  // illegal - computed: false, optional: true, required: false
-  private _illegal?: number; 
-  public get illegal() {
-    return this.getNumberAttribute('illegal');
-  }
-  public set illegal(value: number) {
-    this._illegal = value;
-  }
-  public resetIllegal() {
-    this._illegal = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get illegalInput() {
-    return this._illegal;
-  }
-
-  // illegal_pornography - computed: false, optional: true, required: false
-  private _illegalPornography?: number; 
-  public get illegalPornography() {
-    return this.getNumberAttribute('illegal_pornography');
-  }
-  public set illegalPornography(value: number) {
-    this._illegalPornography = value;
-  }
-  public resetIllegalPornography() {
-    this._illegalPornography = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get illegalPornographyInput() {
-    return this._illegalPornography;
-  }
-
-  // image_and_video_search - computed: false, optional: true, required: false
-  private _imageAndVideoSearch?: number; 
-  public get imageAndVideoSearch() {
-    return this.getNumberAttribute('image_and_video_search');
-  }
-  public set imageAndVideoSearch(value: number) {
-    this._imageAndVideoSearch = value;
-  }
-  public resetImageAndVideoSearch() {
-    this._imageAndVideoSearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get imageAndVideoSearchInput() {
-    return this._imageAndVideoSearch;
-  }
-
-  // internet_communications - computed: false, optional: true, required: false
-  private _internetCommunications?: number; 
-  public get internetCommunications() {
-    return this.getNumberAttribute('internet_communications');
-  }
-  public set internetCommunications(value: number) {
-    this._internetCommunications = value;
-  }
-  public resetInternetCommunications() {
-    this._internetCommunications = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get internetCommunicationsInput() {
-    return this._internetCommunications;
-  }
-
-  // internet_portals - computed: false, optional: true, required: false
-  private _internetPortals?: number; 
-  public get internetPortals() {
-    return this.getNumberAttribute('internet_portals');
-  }
-  public set internetPortals(value: number) {
-    this._internetPortals = value;
-  }
-  public resetInternetPortals() {
-    this._internetPortals = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get internetPortalsInput() {
-    return this._internetPortals;
-  }
-
-  // job_search - computed: false, optional: true, required: false
-  private _jobSearch?: number; 
-  public get jobSearch() {
-    return this.getNumberAttribute('job_search');
-  }
-  public set jobSearch(value: number) {
-    this._jobSearch = value;
-  }
-  public resetJobSearch() {
-    this._jobSearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get jobSearchInput() {
-    return this._jobSearch;
-  }
-
-  // keyloggers_and_monitoring - computed: false, optional: true, required: false
-  private _keyloggersAndMonitoring?: number; 
-  public get keyloggersAndMonitoring() {
-    return this.getNumberAttribute('keyloggers_and_monitoring');
-  }
-  public set keyloggersAndMonitoring(value: number) {
-    this._keyloggersAndMonitoring = value;
-  }
-  public resetKeyloggersAndMonitoring() {
-    this._keyloggersAndMonitoring = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get keyloggersAndMonitoringInput() {
-    return this._keyloggersAndMonitoring;
-  }
-
-  // kids - computed: false, optional: true, required: false
-  private _kids?: number; 
-  public get kids() {
-    return this.getNumberAttribute('kids');
-  }
-  public set kids(value: number) {
-    this._kids = value;
-  }
-  public resetKids() {
-    this._kids = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get kidsInput() {
-    return this._kids;
-  }
-
-  // legal - computed: false, optional: true, required: false
-  private _legal?: number; 
-  public get legal() {
-    return this.getNumberAttribute('legal');
-  }
-  public set legal(value: number) {
-    this._legal = value;
-  }
-  public resetLegal() {
-    this._legal = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get legalInput() {
-    return this._legal;
-  }
-
-  // local_information - computed: false, optional: true, required: false
-  private _localInformation?: number; 
-  public get localInformation() {
-    return this.getNumberAttribute('local_information');
-  }
-  public set localInformation(value: number) {
-    this._localInformation = value;
-  }
-  public resetLocalInformation() {
-    this._localInformation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get localInformationInput() {
-    return this._localInformation;
-  }
-
-  // malware_sites - computed: false, optional: true, required: false
-  private _malwareSites?: number; 
-  public get malwareSites() {
-    return this.getNumberAttribute('malware_sites');
-  }
-  public set malwareSites(value: number) {
-    this._malwareSites = value;
-  }
-  public resetMalwareSites() {
-    this._malwareSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get malwareSitesInput() {
-    return this._malwareSites;
-  }
-
-  // marijuana - computed: false, optional: true, required: false
-  private _marijuana?: number; 
-  public get marijuana() {
-    return this.getNumberAttribute('marijuana');
-  }
-  public set marijuana(value: number) {
-    this._marijuana = value;
-  }
-  public resetMarijuana() {
-    this._marijuana = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get marijuanaInput() {
-    return this._marijuana;
-  }
-
-  // military - computed: false, optional: true, required: false
-  private _military?: number; 
-  public get military() {
-    return this.getNumberAttribute('military');
-  }
-  public set military(value: number) {
-    this._military = value;
-  }
-  public resetMilitary() {
-    this._military = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get militaryInput() {
-    return this._military;
-  }
-
-  // motor_vehicles - computed: false, optional: true, required: false
-  private _motorVehicles?: number; 
-  public get motorVehicles() {
-    return this.getNumberAttribute('motor_vehicles');
-  }
-  public set motorVehicles(value: number) {
-    this._motorVehicles = value;
-  }
-  public resetMotorVehicles() {
-    this._motorVehicles = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get motorVehiclesInput() {
-    return this._motorVehicles;
-  }
-
-  // music - computed: false, optional: true, required: false
-  private _music?: number; 
-  public get music() {
-    return this.getNumberAttribute('music');
-  }
-  public set music(value: number) {
-    this._music = value;
-  }
-  public resetMusic() {
-    this._music = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get musicInput() {
-    return this._music;
-  }
-
-  // news_and_media - computed: false, optional: true, required: false
-  private _newsAndMedia?: number; 
-  public get newsAndMedia() {
-    return this.getNumberAttribute('news_and_media');
-  }
-  public set newsAndMedia(value: number) {
-    this._newsAndMedia = value;
-  }
-  public resetNewsAndMedia() {
-    this._newsAndMedia = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get newsAndMediaInput() {
-    return this._newsAndMedia;
-  }
-
-  // nudity - computed: false, optional: true, required: false
-  private _nudity?: number; 
-  public get nudity() {
-    return this.getNumberAttribute('nudity');
-  }
-  public set nudity(value: number) {
-    this._nudity = value;
-  }
-  public resetNudity() {
-    this._nudity = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nudityInput() {
-    return this._nudity;
-  }
-
-  // nudity_artistic - computed: false, optional: true, required: false
-  private _nudityArtistic?: number; 
-  public get nudityArtistic() {
-    return this.getNumberAttribute('nudity_artistic');
-  }
-  public set nudityArtistic(value: number) {
-    this._nudityArtistic = value;
-  }
-  public resetNudityArtistic() {
-    this._nudityArtistic = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nudityArtisticInput() {
-    return this._nudityArtistic;
-  }
-
-  // online_greeting_cards - computed: false, optional: true, required: false
-  private _onlineGreetingCards?: number; 
-  public get onlineGreetingCards() {
-    return this.getNumberAttribute('online_greeting_cards');
-  }
-  public set onlineGreetingCards(value: number) {
-    this._onlineGreetingCards = value;
-  }
-  public resetOnlineGreetingCards() {
-    this._onlineGreetingCards = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get onlineGreetingCardsInput() {
-    return this._onlineGreetingCards;
-  }
-
-  // parked_domains - computed: false, optional: true, required: false
-  private _parkedDomains?: number; 
-  public get parkedDomains() {
-    return this.getNumberAttribute('parked_domains');
-  }
-  public set parkedDomains(value: number) {
-    this._parkedDomains = value;
-  }
-  public resetParkedDomains() {
-    this._parkedDomains = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get parkedDomainsInput() {
-    return this._parkedDomains;
-  }
-
-  // pay_to_surf - computed: false, optional: true, required: false
-  private _payToSurf?: number; 
-  public get payToSurf() {
-    return this.getNumberAttribute('pay_to_surf');
-  }
-  public set payToSurf(value: number) {
-    this._payToSurf = value;
-  }
-  public resetPayToSurf() {
-    this._payToSurf = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get payToSurfInput() {
-    return this._payToSurf;
-  }
-
-  // peer_to_peer - computed: false, optional: true, required: false
-  private _peerToPeer?: number; 
-  public get peerToPeer() {
-    return this.getNumberAttribute('peer_to_peer');
-  }
-  public set peerToPeer(value: number) {
-    this._peerToPeer = value;
-  }
-  public resetPeerToPeer() {
-    this._peerToPeer = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get peerToPeerInput() {
-    return this._peerToPeer;
-  }
-
-  // personal_sites_and_blogs - computed: false, optional: true, required: false
-  private _personalSitesAndBlogs?: number; 
-  public get personalSitesAndBlogs() {
-    return this.getNumberAttribute('personal_sites_and_blogs');
-  }
-  public set personalSitesAndBlogs(value: number) {
-    this._personalSitesAndBlogs = value;
-  }
-  public resetPersonalSitesAndBlogs() {
-    this._personalSitesAndBlogs = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get personalSitesAndBlogsInput() {
-    return this._personalSitesAndBlogs;
-  }
-
-  // personal_storage - computed: false, optional: true, required: false
-  private _personalStorage?: number; 
-  public get personalStorage() {
-    return this.getNumberAttribute('personal_storage');
-  }
-  public set personalStorage(value: number) {
-    this._personalStorage = value;
-  }
-  public resetPersonalStorage() {
-    this._personalStorage = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get personalStorageInput() {
-    return this._personalStorage;
-  }
-
-  // philosophy_and_politics - computed: false, optional: true, required: false
-  private _philosophyAndPolitics?: number; 
-  public get philosophyAndPolitics() {
-    return this.getNumberAttribute('philosophy_and_politics');
-  }
-  public set philosophyAndPolitics(value: number) {
-    this._philosophyAndPolitics = value;
-  }
-  public resetPhilosophyAndPolitics() {
-    this._philosophyAndPolitics = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get philosophyAndPoliticsInput() {
-    return this._philosophyAndPolitics;
-  }
-
-  // phishing_and_other_fraud - computed: false, optional: true, required: false
-  private _phishingAndOtherFraud?: number; 
-  public get phishingAndOtherFraud() {
-    return this.getNumberAttribute('phishing_and_other_fraud');
-  }
-  public set phishingAndOtherFraud(value: number) {
-    this._phishingAndOtherFraud = value;
-  }
-  public resetPhishingAndOtherFraud() {
-    this._phishingAndOtherFraud = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get phishingAndOtherFraudInput() {
-    return this._phishingAndOtherFraud;
-  }
-
-  // proxy_avoid_and_anonymizers - computed: false, optional: true, required: false
-  private _proxyAvoidAndAnonymizers?: number; 
-  public get proxyAvoidAndAnonymizers() {
-    return this.getNumberAttribute('proxy_avoid_and_anonymizers');
-  }
-  public set proxyAvoidAndAnonymizers(value: number) {
-    this._proxyAvoidAndAnonymizers = value;
-  }
-  public resetProxyAvoidAndAnonymizers() {
-    this._proxyAvoidAndAnonymizers = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get proxyAvoidAndAnonymizersInput() {
-    return this._proxyAvoidAndAnonymizers;
-  }
-
-  // questionable - computed: false, optional: true, required: false
-  private _questionable?: number; 
-  public get questionable() {
-    return this.getNumberAttribute('questionable');
-  }
-  public set questionable(value: number) {
-    this._questionable = value;
-  }
-  public resetQuestionable() {
-    this._questionable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get questionableInput() {
-    return this._questionable;
-  }
-
-  // real_estate - computed: false, optional: true, required: false
-  private _realEstate?: number; 
-  public get realEstate() {
-    return this.getNumberAttribute('real_estate');
-  }
-  public set realEstate(value: number) {
-    this._realEstate = value;
-  }
-  public resetRealEstate() {
-    this._realEstate = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get realEstateInput() {
-    return this._realEstate;
-  }
-
-  // recreation_and_hobbies - computed: false, optional: true, required: false
-  private _recreationAndHobbies?: number; 
-  public get recreationAndHobbies() {
-    return this.getNumberAttribute('recreation_and_hobbies');
-  }
-  public set recreationAndHobbies(value: number) {
-    this._recreationAndHobbies = value;
-  }
-  public resetRecreationAndHobbies() {
-    this._recreationAndHobbies = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get recreationAndHobbiesInput() {
-    return this._recreationAndHobbies;
-  }
-
-  // reference_and_research - computed: false, optional: true, required: false
-  private _referenceAndResearch?: number; 
-  public get referenceAndResearch() {
-    return this.getNumberAttribute('reference_and_research');
-  }
-  public set referenceAndResearch(value: number) {
-    this._referenceAndResearch = value;
-  }
-  public resetReferenceAndResearch() {
-    this._referenceAndResearch = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get referenceAndResearchInput() {
-    return this._referenceAndResearch;
-  }
-
-  // religion - computed: false, optional: true, required: false
-  private _religion?: number; 
-  public get religion() {
-    return this.getNumberAttribute('religion');
-  }
-  public set religion(value: number) {
-    this._religion = value;
-  }
-  public resetReligion() {
-    this._religion = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get religionInput() {
-    return this._religion;
-  }
-
-  // search_engines - computed: false, optional: true, required: false
-  private _searchEngines?: number; 
-  public get searchEngines() {
-    return this.getNumberAttribute('search_engines');
-  }
-  public set searchEngines(value: number) {
-    this._searchEngines = value;
-  }
-  public resetSearchEngines() {
-    this._searchEngines = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get searchEnginesInput() {
-    return this._searchEngines;
-  }
-
-  // sex_education - computed: false, optional: true, required: false
-  private _sexEducation?: number; 
-  public get sexEducation() {
-    return this.getNumberAttribute('sex_education');
-  }
-  public set sexEducation(value: number) {
-    this._sexEducation = value;
-  }
-  public resetSexEducation() {
-    this._sexEducation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sexEducationInput() {
-    return this._sexEducation;
-  }
-
-  // shareware_and_freeware - computed: false, optional: true, required: false
-  private _sharewareAndFreeware?: number; 
-  public get sharewareAndFreeware() {
-    return this.getNumberAttribute('shareware_and_freeware');
-  }
-  public set sharewareAndFreeware(value: number) {
-    this._sharewareAndFreeware = value;
-  }
-  public resetSharewareAndFreeware() {
-    this._sharewareAndFreeware = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sharewareAndFreewareInput() {
-    return this._sharewareAndFreeware;
-  }
-
-  // shopping - computed: false, optional: true, required: false
-  private _shopping?: number; 
-  public get shopping() {
-    return this.getNumberAttribute('shopping');
-  }
-  public set shopping(value: number) {
-    this._shopping = value;
-  }
-  public resetShopping() {
-    this._shopping = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get shoppingInput() {
-    return this._shopping;
-  }
-
-  // social_network - computed: false, optional: true, required: false
-  private _socialNetwork?: number; 
-  public get socialNetwork() {
-    return this.getNumberAttribute('social_network');
-  }
-  public set socialNetwork(value: number) {
-    this._socialNetwork = value;
-  }
-  public resetSocialNetwork() {
-    this._socialNetwork = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get socialNetworkInput() {
-    return this._socialNetwork;
-  }
-
-  // society - computed: false, optional: true, required: false
-  private _society?: number; 
-  public get society() {
-    return this.getNumberAttribute('society');
-  }
-  public set society(value: number) {
-    this._society = value;
-  }
-  public resetSociety() {
-    this._society = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get societyInput() {
-    return this._society;
-  }
-
-  // spam_urls - computed: false, optional: true, required: false
-  private _spamUrls?: number; 
-  public get spamUrls() {
-    return this.getNumberAttribute('spam_urls');
-  }
-  public set spamUrls(value: number) {
-    this._spamUrls = value;
-  }
-  public resetSpamUrls() {
-    this._spamUrls = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get spamUrlsInput() {
-    return this._spamUrls;
-  }
-
-  // sports - computed: false, optional: true, required: false
-  private _sports?: number; 
-  public get sports() {
-    return this.getNumberAttribute('sports');
-  }
-  public set sports(value: number) {
-    this._sports = value;
-  }
-  public resetSports() {
-    this._sports = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get sportsInput() {
-    return this._sports;
-  }
-
-  // spyware_and_adware - computed: false, optional: true, required: false
-  private _spywareAndAdware?: number; 
-  public get spywareAndAdware() {
-    return this.getNumberAttribute('spyware_and_adware');
-  }
-  public set spywareAndAdware(value: number) {
-    this._spywareAndAdware = value;
-  }
-  public resetSpywareAndAdware() {
-    this._spywareAndAdware = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get spywareAndAdwareInput() {
-    return this._spywareAndAdware;
-  }
-
-  // stock_advice_and_tools - computed: false, optional: true, required: false
-  private _stockAdviceAndTools?: number; 
-  public get stockAdviceAndTools() {
-    return this.getNumberAttribute('stock_advice_and_tools');
-  }
-  public set stockAdviceAndTools(value: number) {
-    this._stockAdviceAndTools = value;
-  }
-  public resetStockAdviceAndTools() {
-    this._stockAdviceAndTools = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get stockAdviceAndToolsInput() {
-    return this._stockAdviceAndTools;
-  }
-
-  // streaming_media - computed: false, optional: true, required: false
-  private _streamingMedia?: number; 
-  public get streamingMedia() {
-    return this.getNumberAttribute('streaming_media');
-  }
-  public set streamingMedia(value: number) {
-    this._streamingMedia = value;
-  }
-  public resetStreamingMedia() {
-    this._streamingMedia = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get streamingMediaInput() {
-    return this._streamingMedia;
-  }
-
-  // swimsuits_and_intimate_apparel - computed: false, optional: true, required: false
-  private _swimsuitsAndIntimateApparel?: number; 
-  public get swimsuitsAndIntimateApparel() {
-    return this.getNumberAttribute('swimsuits_and_intimate_apparel');
-  }
-  public set swimsuitsAndIntimateApparel(value: number) {
-    this._swimsuitsAndIntimateApparel = value;
-  }
-  public resetSwimsuitsAndIntimateApparel() {
-    this._swimsuitsAndIntimateApparel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get swimsuitsAndIntimateApparelInput() {
-    return this._swimsuitsAndIntimateApparel;
-  }
-
-  // training_and_tools - computed: false, optional: true, required: false
-  private _trainingAndTools?: number; 
-  public get trainingAndTools() {
-    return this.getNumberAttribute('training_and_tools');
-  }
-  public set trainingAndTools(value: number) {
-    this._trainingAndTools = value;
-  }
-  public resetTrainingAndTools() {
-    this._trainingAndTools = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get trainingAndToolsInput() {
-    return this._trainingAndTools;
-  }
-
-  // translation - computed: false, optional: true, required: false
-  private _translation?: number; 
-  public get translation() {
-    return this.getNumberAttribute('translation');
-  }
-  public set translation(value: number) {
-    this._translation = value;
-  }
-  public resetTranslation() {
-    this._translation = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get translationInput() {
-    return this._translation;
-  }
-
-  // travel - computed: false, optional: true, required: false
-  private _travel?: number; 
-  public get travel() {
-    return this.getNumberAttribute('travel');
-  }
-  public set travel(value: number) {
-    this._travel = value;
-  }
-  public resetTravel() {
-    this._travel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get travelInput() {
-    return this._travel;
-  }
-
-  // uncategorized - computed: false, optional: true, required: false
-  private _uncategorized?: number; 
-  public get uncategorized() {
-    return this.getNumberAttribute('uncategorized');
-  }
-  public set uncategorized(value: number) {
-    this._uncategorized = value;
-  }
-  public resetUncategorized() {
-    this._uncategorized = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uncategorizedInput() {
-    return this._uncategorized;
-  }
-
-  // violence - computed: false, optional: true, required: false
-  private _violence?: number; 
-  public get violence() {
-    return this.getNumberAttribute('violence');
-  }
-  public set violence(value: number) {
-    this._violence = value;
-  }
-  public resetViolence() {
-    this._violence = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get violenceInput() {
-    return this._violence;
-  }
-
-  // weapons - computed: false, optional: true, required: false
-  private _weapons?: number; 
-  public get weapons() {
-    return this.getNumberAttribute('weapons');
-  }
-  public set weapons(value: number) {
-    this._weapons = value;
-  }
-  public resetWeapons() {
-    this._weapons = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get weaponsInput() {
-    return this._weapons;
-  }
-
-  // web_advertisements - computed: false, optional: true, required: false
-  private _webAdvertisements?: number; 
-  public get webAdvertisements() {
-    return this.getNumberAttribute('web_advertisements');
-  }
-  public set webAdvertisements(value: number) {
-    this._webAdvertisements = value;
-  }
-  public resetWebAdvertisements() {
-    this._webAdvertisements = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get webAdvertisementsInput() {
-    return this._webAdvertisements;
-  }
-
-  // web_based_email - computed: false, optional: true, required: false
-  private _webBasedEmail?: number; 
-  public get webBasedEmail() {
-    return this.getNumberAttribute('web_based_email');
-  }
-  public set webBasedEmail(value: number) {
-    this._webBasedEmail = value;
-  }
-  public resetWebBasedEmail() {
-    this._webBasedEmail = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get webBasedEmailInput() {
-    return this._webBasedEmail;
-  }
-
-  // web_hosting_sites - computed: false, optional: true, required: false
-  private _webHostingSites?: number; 
-  public get webHostingSites() {
-    return this.getNumberAttribute('web_hosting_sites');
-  }
-  public set webHostingSites(value: number) {
-    this._webHostingSites = value;
-  }
-  public resetWebHostingSites() {
-    this._webHostingSites = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get webHostingSitesInput() {
-    return this._webHostingSites;
+  public get bypassedCategoryInput() {
+    return this._bypassedCategory;
   }
 }
 export interface SlbTemplateClientSslWebReputation {
   /**
   * Bypass when reputation score is greater than or equal to 61
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_low_risk SlbTemplateClientSsl#bypass_low_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_low_risk SlbTemplateClientSsl#bypass_low_risk}
   */
   readonly bypassLowRisk?: number;
   /**
   * Bypass when reputation score is greater than or equal to 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_malicious SlbTemplateClientSsl#bypass_malicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_malicious SlbTemplateClientSsl#bypass_malicious}
   */
   readonly bypassMalicious?: number;
   /**
   * Bypass when reputation score is greater than or equal to 41
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_moderate_risk SlbTemplateClientSsl#bypass_moderate_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_moderate_risk SlbTemplateClientSsl#bypass_moderate_risk}
   */
   readonly bypassModerateRisk?: number;
   /**
   * Bypass when reputation score is greater than or equal to 21
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_suspicious SlbTemplateClientSsl#bypass_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_suspicious SlbTemplateClientSsl#bypass_suspicious}
   */
   readonly bypassSuspicious?: number;
   /**
   * Bypass when reputation score is greater than or equal to the customized score (1-100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_threshold SlbTemplateClientSsl#bypass_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_threshold SlbTemplateClientSsl#bypass_threshold}
   */
   readonly bypassThreshold?: number;
   /**
   * Bypass when reputation score is greater than or equal to 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#bypass_trustworthy SlbTemplateClientSsl#bypass_trustworthy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#bypass_trustworthy SlbTemplateClientSsl#bypass_trustworthy}
   */
   readonly bypassTrustworthy?: number;
 }
@@ -13451,7 +8017,7 @@ export class SlbTemplateClientSslWebReputationOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl thunder_slb_template_client_ssl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl thunder_slb_template_client_ssl}
 */
 export class SlbTemplateClientSsl extends cdktf.TerraformResource {
 
@@ -13467,7 +8033,7 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateClientSsl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateClientSsl to import
-  * @param importFromId The id of the existing SlbTemplateClientSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateClientSsl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateClientSsl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -13479,7 +8045,7 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_client_ssl thunder_slb_template_client_ssl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_client_ssl thunder_slb_template_client_ssl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -13490,8 +8056,8 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_client_ssl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -13598,6 +8164,11 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     this._ja3RejectClassList = config.ja3RejectClassList;
     this._ja3RejectMaxNumberPerHost = config.ja3RejectMaxNumberPerHost;
     this._ja3Ttl = config.ja3Ttl;
+    this._ja4Enable = config.ja4Enable;
+    this._ja4InsertHttpHeader = config.ja4InsertHttpHeader;
+    this._ja4RejectClassList = config.ja4RejectClassList;
+    this._ja4RejectMaxNumberPerHost = config.ja4RejectMaxNumberPerHost;
+    this._ja4Ttl = config.ja4Ttl;
     this._ldapBaseDnFromCert = config.ldapBaseDnFromCert;
     this._ldapSearchFilter = config.ldapSearchFilter;
     this._localLogging = config.localLogging;
@@ -13628,10 +8199,12 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     this._ocspstSrvrMinutes = config.ocspstSrvrMinutes;
     this._ocspstSrvrTimeout = config.ocspstSrvrTimeout;
     this._renegotiationDisable = config.renegotiationDisable;
+    this._requireSniCertMatched = config.requireSniCertMatched;
     this._requireWebCategory = config.requireWebCategory;
     this._serverNameAutoMap = config.serverNameAutoMap;
     this._sessionCacheSize = config.sessionCacheSize;
     this._sessionCacheTimeout = config.sessionCacheTimeout;
+    this._sessionKeyLoggingEnable = config.sessionKeyLoggingEnable;
     this._sessionTicketDisable = config.sessionTicketDisable;
     this._sessionTicketLifetime = config.sessionTicketLifetime;
     this._sharedPartitionCipherTemplate = config.sharedPartitionCipherTemplate;
@@ -13693,6 +8266,7 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     this._localCertPinList.internalValue = config.localCertPinList;
     this._multiClassList.internalValue = config.multiClassList;
     this._reqCaLists.internalValue = config.reqCaLists;
+    this._samplingEnable.internalValue = config.samplingEnable;
     this._serverIpv4List.internalValue = config.serverIpv4List;
     this._serverIpv6List.internalValue = config.serverIpv6List;
     this._serverNameList.internalValue = config.serverNameList;
@@ -15257,6 +9831,86 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     return this._ja3Ttl;
   }
 
+  // ja4_enable - computed: false, optional: true, required: false
+  private _ja4Enable?: number; 
+  public get ja4Enable() {
+    return this.getNumberAttribute('ja4_enable');
+  }
+  public set ja4Enable(value: number) {
+    this._ja4Enable = value;
+  }
+  public resetJa4Enable() {
+    this._ja4Enable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ja4EnableInput() {
+    return this._ja4Enable;
+  }
+
+  // ja4_insert_http_header - computed: false, optional: true, required: false
+  private _ja4InsertHttpHeader?: string; 
+  public get ja4InsertHttpHeader() {
+    return this.getStringAttribute('ja4_insert_http_header');
+  }
+  public set ja4InsertHttpHeader(value: string) {
+    this._ja4InsertHttpHeader = value;
+  }
+  public resetJa4InsertHttpHeader() {
+    this._ja4InsertHttpHeader = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ja4InsertHttpHeaderInput() {
+    return this._ja4InsertHttpHeader;
+  }
+
+  // ja4_reject_class_list - computed: false, optional: true, required: false
+  private _ja4RejectClassList?: string; 
+  public get ja4RejectClassList() {
+    return this.getStringAttribute('ja4_reject_class_list');
+  }
+  public set ja4RejectClassList(value: string) {
+    this._ja4RejectClassList = value;
+  }
+  public resetJa4RejectClassList() {
+    this._ja4RejectClassList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ja4RejectClassListInput() {
+    return this._ja4RejectClassList;
+  }
+
+  // ja4_reject_max_number_per_host - computed: false, optional: true, required: false
+  private _ja4RejectMaxNumberPerHost?: number; 
+  public get ja4RejectMaxNumberPerHost() {
+    return this.getNumberAttribute('ja4_reject_max_number_per_host');
+  }
+  public set ja4RejectMaxNumberPerHost(value: number) {
+    this._ja4RejectMaxNumberPerHost = value;
+  }
+  public resetJa4RejectMaxNumberPerHost() {
+    this._ja4RejectMaxNumberPerHost = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ja4RejectMaxNumberPerHostInput() {
+    return this._ja4RejectMaxNumberPerHost;
+  }
+
+  // ja4_ttl - computed: false, optional: true, required: false
+  private _ja4Ttl?: number; 
+  public get ja4Ttl() {
+    return this.getNumberAttribute('ja4_ttl');
+  }
+  public set ja4Ttl(value: number) {
+    this._ja4Ttl = value;
+  }
+  public resetJa4Ttl() {
+    this._ja4Ttl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ja4TtlInput() {
+    return this._ja4Ttl;
+  }
+
   // ldap_base_dn_from_cert - computed: false, optional: true, required: false
   private _ldapBaseDnFromCert?: number; 
   public get ldapBaseDnFromCert() {
@@ -15734,6 +10388,22 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     return this._renegotiationDisable;
   }
 
+  // require_sni_cert_matched - computed: false, optional: true, required: false
+  private _requireSniCertMatched?: number; 
+  public get requireSniCertMatched() {
+    return this.getNumberAttribute('require_sni_cert_matched');
+  }
+  public set requireSniCertMatched(value: number) {
+    this._requireSniCertMatched = value;
+  }
+  public resetRequireSniCertMatched() {
+    this._requireSniCertMatched = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireSniCertMatchedInput() {
+    return this._requireSniCertMatched;
+  }
+
   // require_web_category - computed: false, optional: true, required: false
   private _requireWebCategory?: number; 
   public get requireWebCategory() {
@@ -15796,6 +10466,22 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get sessionCacheTimeoutInput() {
     return this._sessionCacheTimeout;
+  }
+
+  // session_key_logging_enable - computed: false, optional: true, required: false
+  private _sessionKeyLoggingEnable?: number; 
+  public get sessionKeyLoggingEnable() {
+    return this.getNumberAttribute('session_key_logging_enable');
+  }
+  public set sessionKeyLoggingEnable(value: number) {
+    this._sessionKeyLoggingEnable = value;
+  }
+  public resetSessionKeyLoggingEnable() {
+    this._sessionKeyLoggingEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sessionKeyLoggingEnableInput() {
+    return this._sessionKeyLoggingEnable;
   }
 
   // session_ticket_disable - computed: false, optional: true, required: false
@@ -16774,6 +11460,22 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
     return this._reqCaLists.internalValue;
   }
 
+  // sampling_enable - computed: false, optional: true, required: false
+  private _samplingEnable = new SlbTemplateClientSslSamplingEnableList(this, "sampling_enable", false);
+  public get samplingEnable() {
+    return this._samplingEnable;
+  }
+  public putSamplingEnable(value: SlbTemplateClientSslSamplingEnable[] | cdktf.IResolvable) {
+    this._samplingEnable.internalValue = value;
+  }
+  public resetSamplingEnable() {
+    this._samplingEnable.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samplingEnableInput() {
+    return this._samplingEnable.internalValue;
+  }
+
   // server_ipv4_list - computed: false, optional: true, required: false
   private _serverIpv4List = new SlbTemplateClientSslServerIpv4ListStructList(this, "server_ipv4_list", false);
   public get serverIpv4List() {
@@ -16973,6 +11675,11 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
       ja3_reject_class_list: cdktf.stringToTerraform(this._ja3RejectClassList),
       ja3_reject_max_number_per_host: cdktf.numberToTerraform(this._ja3RejectMaxNumberPerHost),
       ja3_ttl: cdktf.numberToTerraform(this._ja3Ttl),
+      ja4_enable: cdktf.numberToTerraform(this._ja4Enable),
+      ja4_insert_http_header: cdktf.stringToTerraform(this._ja4InsertHttpHeader),
+      ja4_reject_class_list: cdktf.stringToTerraform(this._ja4RejectClassList),
+      ja4_reject_max_number_per_host: cdktf.numberToTerraform(this._ja4RejectMaxNumberPerHost),
+      ja4_ttl: cdktf.numberToTerraform(this._ja4Ttl),
       ldap_base_dn_from_cert: cdktf.numberToTerraform(this._ldapBaseDnFromCert),
       ldap_search_filter: cdktf.stringToTerraform(this._ldapSearchFilter),
       local_logging: cdktf.numberToTerraform(this._localLogging),
@@ -17003,10 +11710,12 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
       ocspst_srvr_minutes: cdktf.numberToTerraform(this._ocspstSrvrMinutes),
       ocspst_srvr_timeout: cdktf.numberToTerraform(this._ocspstSrvrTimeout),
       renegotiation_disable: cdktf.numberToTerraform(this._renegotiationDisable),
+      require_sni_cert_matched: cdktf.numberToTerraform(this._requireSniCertMatched),
       require_web_category: cdktf.numberToTerraform(this._requireWebCategory),
       server_name_auto_map: cdktf.numberToTerraform(this._serverNameAutoMap),
       session_cache_size: cdktf.numberToTerraform(this._sessionCacheSize),
       session_cache_timeout: cdktf.numberToTerraform(this._sessionCacheTimeout),
+      session_key_logging_enable: cdktf.numberToTerraform(this._sessionKeyLoggingEnable),
       session_ticket_disable: cdktf.numberToTerraform(this._sessionTicketDisable),
       session_ticket_lifetime: cdktf.numberToTerraform(this._sessionTicketLifetime),
       shared_partition_cipher_template: cdktf.numberToTerraform(this._sharedPartitionCipherTemplate),
@@ -17068,6 +11777,7 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
       local_cert_pin_list: slbTemplateClientSslLocalCertPinListStructToTerraform(this._localCertPinList.internalValue),
       multi_class_list: cdktf.listMapper(slbTemplateClientSslMultiClassListStructToTerraform, true)(this._multiClassList.internalValue),
       req_ca_lists: cdktf.listMapper(slbTemplateClientSslReqCaListsToTerraform, true)(this._reqCaLists.internalValue),
+      sampling_enable: cdktf.listMapper(slbTemplateClientSslSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
       server_ipv4_list: cdktf.listMapper(slbTemplateClientSslServerIpv4ListStructToTerraform, true)(this._serverIpv4List.internalValue),
       server_ipv6_list: cdktf.listMapper(slbTemplateClientSslServerIpv6ListStructToTerraform, true)(this._serverIpv6List.internalValue),
       server_name_list: cdktf.listMapper(slbTemplateClientSslServerNameListStructToTerraform, true)(this._serverNameList.internalValue),
@@ -17661,6 +12371,36 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      ja4_enable: {
+        value: cdktf.numberToHclTerraform(this._ja4Enable),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      ja4_insert_http_header: {
+        value: cdktf.stringToHclTerraform(this._ja4InsertHttpHeader),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ja4_reject_class_list: {
+        value: cdktf.stringToHclTerraform(this._ja4RejectClassList),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ja4_reject_max_number_per_host: {
+        value: cdktf.numberToHclTerraform(this._ja4RejectMaxNumberPerHost),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      ja4_ttl: {
+        value: cdktf.numberToHclTerraform(this._ja4Ttl),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       ldap_base_dn_from_cert: {
         value: cdktf.numberToHclTerraform(this._ldapBaseDnFromCert),
         isBlock: false,
@@ -17841,6 +12581,12 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      require_sni_cert_matched: {
+        value: cdktf.numberToHclTerraform(this._requireSniCertMatched),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       require_web_category: {
         value: cdktf.numberToHclTerraform(this._requireWebCategory),
         isBlock: false,
@@ -17861,6 +12607,12 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
       },
       session_cache_timeout: {
         value: cdktf.numberToHclTerraform(this._sessionCacheTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      session_key_logging_enable: {
+        value: cdktf.numberToHclTerraform(this._sessionKeyLoggingEnable),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -18230,6 +12982,12 @@ export class SlbTemplateClientSsl extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SlbTemplateClientSslReqCaListsList",
+      },
+      sampling_enable: {
+        value: cdktf.listMapperHcl(slbTemplateClientSslSamplingEnableToHclTerraform, true)(this._samplingEnable.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SlbTemplateClientSslSamplingEnableList",
       },
       server_ipv4_list: {
         value: cdktf.listMapperHcl(slbTemplateClientSslServerIpv4ListStructToHclTerraform, true)(this._serverIpv4List.internalValue),

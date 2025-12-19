@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVisibilityReportingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#id DataThunderVisibilityReportingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#id DataThunderVisibilityReportingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderVisibilityReportingStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#stats DataThunderVisibilityReportingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#stats DataThunderVisibilityReportingStats#stats}
   */
   readonly stats?: DataThunderVisibilityReportingStatsStats;
 }
@@ -25,37 +25,37 @@ export interface DataThunderVisibilityReportingStatsStats {
   /**
   * Total reporting buffer allocation failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#buffer_alloc_failure DataThunderVisibilityReportingStats#buffer_alloc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#buffer_alloc_failure DataThunderVisibilityReportingStats#buffer_alloc_failure}
   */
   readonly bufferAllocFailure?: number;
   /**
   * Total jobs dequeued
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#dequeued DataThunderVisibilityReportingStats#dequeued}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#dequeued DataThunderVisibilityReportingStats#dequeued}
   */
   readonly dequeued?: number;
   /**
   * Total enqueue jobs failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#enqueue_fail DataThunderVisibilityReportingStats#enqueue_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#enqueue_fail DataThunderVisibilityReportingStats#enqueue_fail}
   */
   readonly enqueueFail?: number;
   /**
   * Total enqueue jobs passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#enqueue_pass DataThunderVisibilityReportingStats#enqueue_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#enqueue_pass DataThunderVisibilityReportingStats#enqueue_pass}
   */
   readonly enqueuePass?: number;
   /**
   * Total log transmit failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#log_transmit_failure DataThunderVisibilityReportingStats#log_transmit_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#log_transmit_failure DataThunderVisibilityReportingStats#log_transmit_failure}
   */
   readonly logTransmitFailure?: number;
   /**
   * Total notification jobs in queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#notif_jobs_in_queue DataThunderVisibilityReportingStats#notif_jobs_in_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#notif_jobs_in_queue DataThunderVisibilityReportingStats#notif_jobs_in_queue}
   */
   readonly notifJobsInQueue?: number;
 }
@@ -284,7 +284,7 @@ export class DataThunderVisibilityReportingStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats thunder_visibility_reporting_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats thunder_visibility_reporting_stats}
 */
 export class DataThunderVisibilityReportingStats extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataThunderVisibilityReportingStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderVisibilityReportingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVisibilityReportingStats to import
-  * @param importFromId The id of the existing DataThunderVisibilityReportingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVisibilityReportingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVisibilityReportingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataThunderVisibilityReportingStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/visibility_reporting_stats thunder_visibility_reporting_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/visibility_reporting_stats thunder_visibility_reporting_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataThunderVisibilityReportingStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_visibility_reporting_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

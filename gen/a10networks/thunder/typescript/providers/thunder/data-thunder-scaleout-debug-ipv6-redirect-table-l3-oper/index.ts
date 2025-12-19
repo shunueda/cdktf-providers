@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#id DataThunderScaleoutDebugIpv6RedirectTableL3Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#id DataThunderScaleoutDebugIpv6RedirectTableL3Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperConfig extends c
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#oper DataThunderScaleoutDebugIpv6RedirectTableL3Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#oper DataThunderScaleoutDebugIpv6RedirectTableL3Oper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugIpv6RedirectTableL3OperOper;
 }
 export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTableListCountListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_index DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_index DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_index}
   */
   readonly dstIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_index_valid DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_index_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_index_valid DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_index_valid}
   */
   readonly dstIndexValid?: number;
 }
@@ -172,33 +172,33 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTab
 }
 export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTableListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dir DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dir DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dir}
   */
   readonly dir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_ip DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#dst_ip DataThunderScaleoutDebugIpv6RedirectTableL3Oper#dst_ip}
   */
   readonly dstIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#id1 DataThunderScaleoutDebugIpv6RedirectTableL3Oper#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#id1 DataThunderScaleoutDebugIpv6RedirectTableL3Oper#id1}
   */
   readonly id1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#mac DataThunderScaleoutDebugIpv6RedirectTableL3Oper#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#mac DataThunderScaleoutDebugIpv6RedirectTableL3Oper#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#real_port DataThunderScaleoutDebugIpv6RedirectTableL3Oper#real_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#real_port DataThunderScaleoutDebugIpv6RedirectTableL3Oper#real_port}
   */
   readonly realPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#total_count DataThunderScaleoutDebugIpv6RedirectTableL3Oper#total_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#total_count DataThunderScaleoutDebugIpv6RedirectTableL3Oper#total_count}
   */
   readonly totalCount?: number;
   /**
   * count_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#count_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#count_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#count_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#count_list}
   */
   readonly countList?: DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTableListCountListStruct[] | cdktf.IResolvable;
 }
@@ -488,17 +488,17 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTab
 }
 export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#device_id DataThunderScaleoutDebugIpv6RedirectTableL3Oper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#device_id DataThunderScaleoutDebugIpv6RedirectTableL3Oper#device_id}
   */
   readonly deviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#red_follow_shared DataThunderScaleoutDebugIpv6RedirectTableL3Oper#red_follow_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#red_follow_shared DataThunderScaleoutDebugIpv6RedirectTableL3Oper#red_follow_shared}
   */
   readonly redFollowShared?: number;
   /**
   * red_table_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#red_table_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#red_table_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#red_table_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#red_table_list}
   */
   readonly redTableList?: DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListRedTableListStruct[] | cdktf.IResolvable;
 }
@@ -672,13 +672,13 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListStruct
 }
 export interface DataThunderScaleoutDebugIpv6RedirectTableL3OperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#part_name DataThunderScaleoutDebugIpv6RedirectTableL3Oper#part_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#part_name DataThunderScaleoutDebugIpv6RedirectTableL3Oper#part_name}
   */
   readonly partName?: string;
   /**
   * device_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#device_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#device_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#device_list DataThunderScaleoutDebugIpv6RedirectTableL3Oper#device_list}
   */
   readonly deviceList?: DataThunderScaleoutDebugIpv6RedirectTableL3OperOperDeviceListStruct[] | cdktf.IResolvable;
 }
@@ -791,7 +791,7 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3OperOperOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper thunder_scaleout_debug_ipv6_redirect_table_l3_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper thunder_scaleout_debug_ipv6_redirect_table_l3_oper}
 */
 export class DataThunderScaleoutDebugIpv6RedirectTableL3Oper extends cdktf.TerraformDataSource {
 
@@ -807,7 +807,7 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3Oper extends cdktf.Terra
   * Generates CDKTF code for importing a DataThunderScaleoutDebugIpv6RedirectTableL3Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugIpv6RedirectTableL3Oper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugIpv6RedirectTableL3Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugIpv6RedirectTableL3Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugIpv6RedirectTableL3Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -819,7 +819,7 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3Oper extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper thunder_scaleout_debug_ipv6_redirect_table_l3_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_ipv6_redirect_table_l3_oper thunder_scaleout_debug_ipv6_redirect_table_l3_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -830,8 +830,8 @@ export class DataThunderScaleoutDebugIpv6RedirectTableL3Oper extends cdktf.Terra
       terraformResourceType: 'thunder_scaleout_debug_ipv6_redirect_table_l3_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderBootimageOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#id DataThunderBootimageOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#id DataThunderBootimageOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderBootimageOperConfig extends cdktf.TerraformMetaArgum
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#oper DataThunderBootimageOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#oper DataThunderBootimageOper#oper}
   */
   readonly oper?: DataThunderBootimageOperOper;
 }
 export interface DataThunderBootimageOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#cf_default DataThunderBootimageOper#cf_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#cf_default DataThunderBootimageOper#cf_default}
   */
   readonly cfDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#cf_pri DataThunderBootimageOper#cf_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#cf_pri DataThunderBootimageOper#cf_pri}
   */
   readonly cfPri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#cf_sec DataThunderBootimageOper#cf_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#cf_sec DataThunderBootimageOper#cf_sec}
   */
   readonly cfSec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#hd_default DataThunderBootimageOper#hd_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#hd_default DataThunderBootimageOper#hd_default}
   */
   readonly hdDefault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#hd_pri DataThunderBootimageOper#hd_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#hd_pri DataThunderBootimageOper#hd_pri}
   */
   readonly hdPri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#hd_sec DataThunderBootimageOper#hd_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#hd_sec DataThunderBootimageOper#hd_sec}
   */
   readonly hdSec?: string;
 }
@@ -272,7 +272,7 @@ export class DataThunderBootimageOperOperOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper thunder_bootimage_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper thunder_bootimage_oper}
 */
 export class DataThunderBootimageOper extends cdktf.TerraformDataSource {
 
@@ -288,7 +288,7 @@ export class DataThunderBootimageOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderBootimageOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderBootimageOper to import
-  * @param importFromId The id of the existing DataThunderBootimageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderBootimageOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderBootimageOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -300,7 +300,7 @@ export class DataThunderBootimageOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/bootimage_oper thunder_bootimage_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/bootimage_oper thunder_bootimage_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -311,8 +311,8 @@ export class DataThunderBootimageOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_bootimage_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

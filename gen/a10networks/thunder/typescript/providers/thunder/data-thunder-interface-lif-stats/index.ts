@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderInterfaceLifStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#id DataThunderInterfaceLifStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#id DataThunderInterfaceLifStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,75 +17,75 @@ export interface DataThunderInterfaceLifStatsConfig extends cdktf.TerraformMetaA
   /**
   * Lif interface name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#ifname DataThunderInterfaceLifStats#ifname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#ifname DataThunderInterfaceLifStats#ifname}
   */
   readonly ifname: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#stats DataThunderInterfaceLifStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#stats DataThunderInterfaceLifStats#stats}
   */
   readonly stats?: DataThunderInterfaceLifStatsStats;
 }
 export interface DataThunderInterfaceLifStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#dropped_dis_rx_pkts DataThunderInterfaceLifStats#dropped_dis_rx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#dropped_dis_rx_pkts DataThunderInterfaceLifStats#dropped_dis_rx_pkts}
   */
   readonly droppedDisRxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#dropped_dis_tx_pkts DataThunderInterfaceLifStats#dropped_dis_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#dropped_dis_tx_pkts DataThunderInterfaceLifStats#dropped_dis_tx_pkts}
   */
   readonly droppedDisTxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#dropped_rx_pkts DataThunderInterfaceLifStats#dropped_rx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#dropped_rx_pkts DataThunderInterfaceLifStats#dropped_rx_pkts}
   */
   readonly droppedRxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#dropped_rx_pkts_gre_key DataThunderInterfaceLifStats#dropped_rx_pkts_gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#dropped_rx_pkts_gre_key DataThunderInterfaceLifStats#dropped_rx_pkts_gre_key}
   */
   readonly droppedRxPktsGreKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#dropped_tx_pkts DataThunderInterfaceLifStats#dropped_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#dropped_tx_pkts DataThunderInterfaceLifStats#dropped_tx_pkts}
   */
   readonly droppedTxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_broadcast_pkts DataThunderInterfaceLifStats#num_broadcast_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_broadcast_pkts DataThunderInterfaceLifStats#num_broadcast_pkts}
   */
   readonly numBroadcastPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_broadcast_tx_pkts DataThunderInterfaceLifStats#num_broadcast_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_broadcast_tx_pkts DataThunderInterfaceLifStats#num_broadcast_tx_pkts}
   */
   readonly numBroadcastTxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_multicast_pkts DataThunderInterfaceLifStats#num_multicast_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_multicast_pkts DataThunderInterfaceLifStats#num_multicast_pkts}
   */
   readonly numMulticastPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_multicast_tx_pkts DataThunderInterfaceLifStats#num_multicast_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_multicast_tx_pkts DataThunderInterfaceLifStats#num_multicast_tx_pkts}
   */
   readonly numMulticastTxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_pkts DataThunderInterfaceLifStats#num_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_pkts DataThunderInterfaceLifStats#num_pkts}
   */
   readonly numPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_total_bytes DataThunderInterfaceLifStats#num_total_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_total_bytes DataThunderInterfaceLifStats#num_total_bytes}
   */
   readonly numTotalBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_total_tx_bytes DataThunderInterfaceLifStats#num_total_tx_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_total_tx_bytes DataThunderInterfaceLifStats#num_total_tx_bytes}
   */
   readonly numTotalTxBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_tx_pkts DataThunderInterfaceLifStats#num_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_tx_pkts DataThunderInterfaceLifStats#num_tx_pkts}
   */
   readonly numTxPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_unicast_pkts DataThunderInterfaceLifStats#num_unicast_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_unicast_pkts DataThunderInterfaceLifStats#num_unicast_pkts}
   */
   readonly numUnicastPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#num_unicast_tx_pkts DataThunderInterfaceLifStats#num_unicast_tx_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#num_unicast_tx_pkts DataThunderInterfaceLifStats#num_unicast_tx_pkts}
   */
   readonly numUnicastTxPkts?: number;
 }
@@ -575,7 +575,7 @@ export class DataThunderInterfaceLifStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats thunder_interface_lif_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats thunder_interface_lif_stats}
 */
 export class DataThunderInterfaceLifStats extends cdktf.TerraformDataSource {
 
@@ -591,7 +591,7 @@ export class DataThunderInterfaceLifStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderInterfaceLifStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderInterfaceLifStats to import
-  * @param importFromId The id of the existing DataThunderInterfaceLifStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderInterfaceLifStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderInterfaceLifStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -603,7 +603,7 @@ export class DataThunderInterfaceLifStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/interface_lif_stats thunder_interface_lif_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/interface_lif_stats thunder_interface_lif_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,8 +614,8 @@ export class DataThunderInterfaceLifStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_interface_lif_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

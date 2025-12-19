@@ -1,3 +1,3 @@
 # `thunder_ip_nat_pool_group_member`
 
-Refer to the Terraform Registry for docs: [`thunder_ip_nat_pool_group_member`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ip_nat_pool_group_member).
+Refer to the Terraform Registry for docs: [`thunder_ip_nat_pool_group_member`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ip_nat_pool_group_member).

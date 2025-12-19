@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationRelayKerberosInstanceOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#id DataThunderAamAuthenticationRelayKerberosInstanceOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#id DataThunderAamAuthenticationRelayKerberosInstanceOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,39 +17,39 @@ export interface DataThunderAamAuthenticationRelayKerberosInstanceOperConfig ext
   /**
   * Specify Kerberos authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#name DataThunderAamAuthenticationRelayKerberosInstanceOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#name DataThunderAamAuthenticationRelayKerberosInstanceOper#name}
   */
   readonly name: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#oper DataThunderAamAuthenticationRelayKerberosInstanceOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#oper DataThunderAamAuthenticationRelayKerberosInstanceOper#oper}
   */
   readonly oper?: DataThunderAamAuthenticationRelayKerberosInstanceOperOper;
 }
 export interface DataThunderAamAuthenticationRelayKerberosInstanceOperOperItemListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#client_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#client_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#client_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#client_principal}
   */
   readonly clientPrincipal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#end_time DataThunderAamAuthenticationRelayKerberosInstanceOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#end_time DataThunderAamAuthenticationRelayKerberosInstanceOper#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#flags DataThunderAamAuthenticationRelayKerberosInstanceOper#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#flags DataThunderAamAuthenticationRelayKerberosInstanceOper#flags}
   */
   readonly flags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#renew_time DataThunderAamAuthenticationRelayKerberosInstanceOper#renew_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#renew_time DataThunderAamAuthenticationRelayKerberosInstanceOper#renew_time}
   */
   readonly renewTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#service_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#service_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#service_principal}
   */
   readonly servicePrincipal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#start_time DataThunderAamAuthenticationRelayKerberosInstanceOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#start_time DataThunderAamAuthenticationRelayKerberosInstanceOper#start_time}
   */
   readonly startTime?: string;
 }
@@ -310,17 +310,17 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceOperOperItemListSt
 }
 export interface DataThunderAamAuthenticationRelayKerberosInstanceOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#default_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#default_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#default_principal DataThunderAamAuthenticationRelayKerberosInstanceOper#default_principal}
   */
   readonly defaultPrincipal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#ticket_cache DataThunderAamAuthenticationRelayKerberosInstanceOper#ticket_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#ticket_cache DataThunderAamAuthenticationRelayKerberosInstanceOper#ticket_cache}
   */
   readonly ticketCache?: string;
   /**
   * item_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#item_list DataThunderAamAuthenticationRelayKerberosInstanceOper#item_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#item_list DataThunderAamAuthenticationRelayKerberosInstanceOper#item_list}
   */
   readonly itemList?: DataThunderAamAuthenticationRelayKerberosInstanceOperOperItemListStruct[] | cdktf.IResolvable;
 }
@@ -462,7 +462,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceOperOperOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper thunder_aam_authentication_relay_kerberos_instance_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper thunder_aam_authentication_relay_kerberos_instance_oper}
 */
 export class DataThunderAamAuthenticationRelayKerberosInstanceOper extends cdktf.TerraformDataSource {
 
@@ -478,7 +478,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceOper extends cdktf
   * Generates CDKTF code for importing a DataThunderAamAuthenticationRelayKerberosInstanceOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationRelayKerberosInstanceOper to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayKerberosInstanceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayKerberosInstanceOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationRelayKerberosInstanceOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -490,7 +490,7 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceOper extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_kerberos_instance_oper thunder_aam_authentication_relay_kerberos_instance_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_kerberos_instance_oper thunder_aam_authentication_relay_kerberos_instance_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -501,8 +501,8 @@ export class DataThunderAamAuthenticationRelayKerberosInstanceOper extends cdktf
       terraformResourceType: 'thunder_aam_authentication_relay_kerberos_instance_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

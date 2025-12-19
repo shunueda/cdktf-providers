@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderRrdCpuavgOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#id DataThunderRrdCpuavgOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#id DataThunderRrdCpuavgOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderRrdCpuavgOperConfig extends cdktf.TerraformMetaArgum
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#oper DataThunderRrdCpuavgOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#oper DataThunderRrdCpuavgOper#oper}
   */
   readonly oper?: DataThunderRrdCpuavgOperOper;
 }
 export interface DataThunderRrdCpuavgOperOperCpuUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#cpu_num DataThunderRrdCpuavgOper#cpu_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#cpu_num DataThunderRrdCpuavgOper#cpu_num}
   */
   readonly cpuNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#cpu_type DataThunderRrdCpuavgOper#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#cpu_type DataThunderRrdCpuavgOper#cpu_type}
   */
   readonly cpuType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#cpu_usage DataThunderRrdCpuavgOper#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#cpu_usage DataThunderRrdCpuavgOper#cpu_usage}
   */
   readonly cpuUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#time DataThunderRrdCpuavgOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#time DataThunderRrdCpuavgOper#time}
   */
   readonly time?: number;
 }
@@ -238,17 +238,17 @@ export class DataThunderRrdCpuavgOperOperCpuUsageList extends cdktf.ComplexList 
 }
 export interface DataThunderRrdCpuavgOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#end_time DataThunderRrdCpuavgOper#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#end_time DataThunderRrdCpuavgOper#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#start_time DataThunderRrdCpuavgOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#start_time DataThunderRrdCpuavgOper#start_time}
   */
   readonly startTime?: number;
   /**
   * cpu_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#cpu_usage DataThunderRrdCpuavgOper#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#cpu_usage DataThunderRrdCpuavgOper#cpu_usage}
   */
   readonly cpuUsage?: DataThunderRrdCpuavgOperOperCpuUsage[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderRrdCpuavgOperOperOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper thunder_rrd_cpuavg_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper thunder_rrd_cpuavg_oper}
 */
 export class DataThunderRrdCpuavgOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderRrdCpuavgOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderRrdCpuavgOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderRrdCpuavgOper to import
-  * @param importFromId The id of the existing DataThunderRrdCpuavgOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderRrdCpuavgOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderRrdCpuavgOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderRrdCpuavgOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/rrd_cpuavg_oper thunder_rrd_cpuavg_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/rrd_cpuavg_oper thunder_rrd_cpuavg_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderRrdCpuavgOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_rrd_cpuavg_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

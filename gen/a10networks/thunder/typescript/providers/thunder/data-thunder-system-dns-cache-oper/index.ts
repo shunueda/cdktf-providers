@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemDnsCacheOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#id DataThunderSystemDnsCacheOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#id DataThunderSystemDnsCacheOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderSystemDnsCacheOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#oper DataThunderSystemDnsCacheOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#oper DataThunderSystemDnsCacheOper#oper}
   */
   readonly oper?: DataThunderSystemDnsCacheOperOper;
 }
 export interface DataThunderSystemDnsCacheOperOperCacheClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#address DataThunderSystemDnsCacheOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#address DataThunderSystemDnsCacheOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#curr_rate DataThunderSystemDnsCacheOper#curr_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#curr_rate DataThunderSystemDnsCacheOper#curr_rate}
   */
   readonly currRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#domain DataThunderSystemDnsCacheOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#domain DataThunderSystemDnsCacheOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#lockup DataThunderSystemDnsCacheOper#lockup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#lockup DataThunderSystemDnsCacheOper#lockup}
   */
   readonly lockup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#lockup_time DataThunderSystemDnsCacheOper#lockup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#lockup_time DataThunderSystemDnsCacheOper#lockup_time}
   */
   readonly lockupTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#over_rate_limit_times DataThunderSystemDnsCacheOper#over_rate_limit_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#over_rate_limit_times DataThunderSystemDnsCacheOper#over_rate_limit_times}
   */
   readonly overRateLimitTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#unit_type DataThunderSystemDnsCacheOper#unit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#unit_type DataThunderSystemDnsCacheOper#unit_type}
   */
   readonly unitType?: string;
 }
@@ -337,27 +337,27 @@ export class DataThunderSystemDnsCacheOperOperCacheClientList extends cdktf.Comp
 }
 export interface DataThunderSystemDnsCacheOperOperCacheEntryEntryRecord {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_class DataThunderSystemDnsCacheOper#record_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_class DataThunderSystemDnsCacheOper#record_class}
   */
   readonly recordClass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_rdata DataThunderSystemDnsCacheOper#record_rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_rdata DataThunderSystemDnsCacheOper#record_rdata}
   */
   readonly recordRdata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_rdata_tc DataThunderSystemDnsCacheOper#record_rdata_tc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_rdata_tc DataThunderSystemDnsCacheOper#record_rdata_tc}
   */
   readonly recordRdataTc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_rdlen DataThunderSystemDnsCacheOper#record_rdlen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_rdlen DataThunderSystemDnsCacheOper#record_rdlen}
   */
   readonly recordRdlen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_ttl DataThunderSystemDnsCacheOper#record_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_ttl DataThunderSystemDnsCacheOper#record_ttl}
   */
   readonly recordTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_type DataThunderSystemDnsCacheOper#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_type DataThunderSystemDnsCacheOper#record_type}
   */
   readonly recordType?: number;
 }
@@ -618,69 +618,69 @@ export class DataThunderSystemDnsCacheOperOperCacheEntryEntryRecordList extends 
 }
 export interface DataThunderSystemDnsCacheOperOperCacheEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#age DataThunderSystemDnsCacheOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#age DataThunderSystemDnsCacheOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#an_count DataThunderSystemDnsCacheOper#an_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#an_count DataThunderSystemDnsCacheOper#an_count}
   */
   readonly anCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#ar_count DataThunderSystemDnsCacheOper#ar_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#ar_count DataThunderSystemDnsCacheOper#ar_count}
   */
   readonly arCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_class DataThunderSystemDnsCacheOper#cache_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_class DataThunderSystemDnsCacheOper#cache_class}
   */
   readonly cacheClass?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_negative DataThunderSystemDnsCacheOper#cache_negative}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_negative DataThunderSystemDnsCacheOper#cache_negative}
   */
   readonly cacheNegative?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_type DataThunderSystemDnsCacheOper#cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_type DataThunderSystemDnsCacheOper#cache_type}
   */
   readonly cacheType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#dnssec DataThunderSystemDnsCacheOper#dnssec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#dnssec DataThunderSystemDnsCacheOper#dnssec}
   */
   readonly dnssec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#domain DataThunderSystemDnsCacheOper#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#domain DataThunderSystemDnsCacheOper#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#hits DataThunderSystemDnsCacheOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#hits DataThunderSystemDnsCacheOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#name DataThunderSystemDnsCacheOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#name DataThunderSystemDnsCacheOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#ns_count DataThunderSystemDnsCacheOper#ns_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#ns_count DataThunderSystemDnsCacheOper#ns_count}
   */
   readonly nsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#q_length DataThunderSystemDnsCacheOper#q_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#q_length DataThunderSystemDnsCacheOper#q_length}
   */
   readonly qLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#r_length DataThunderSystemDnsCacheOper#r_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#r_length DataThunderSystemDnsCacheOper#r_length}
   */
   readonly rLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#ttl DataThunderSystemDnsCacheOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#ttl DataThunderSystemDnsCacheOper#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#weight DataThunderSystemDnsCacheOper#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#weight DataThunderSystemDnsCacheOper#weight}
   */
   readonly weight?: number;
   /**
   * entry_record block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#entry_record DataThunderSystemDnsCacheOper#entry_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#entry_record DataThunderSystemDnsCacheOper#entry_record}
   */
   readonly entryRecord?: DataThunderSystemDnsCacheOperOperCacheEntryEntryRecord[] | cdktf.IResolvable;
 }
@@ -1231,101 +1231,113 @@ export class DataThunderSystemDnsCacheOperOperCacheEntryList extends cdktf.Compl
 }
 export interface DataThunderSystemDnsCacheOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_content DataThunderSystemDnsCacheOper#cache_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_content DataThunderSystemDnsCacheOper#cache_content}
   */
   readonly cacheContent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#class_string DataThunderSystemDnsCacheOper#class_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_hit_ratio DataThunderSystemDnsCacheOper#cache_hit_ratio}
+  */
+  readonly cacheHitRatio?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_usage DataThunderSystemDnsCacheOper#cache_usage}
+  */
+  readonly cacheUsage?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#class_string DataThunderSystemDnsCacheOper#class_string}
   */
   readonly classString?: string;
   /**
   * type value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#class_value DataThunderSystemDnsCacheOper#class_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#class_value DataThunderSystemDnsCacheOper#class_value}
   */
   readonly classValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#client DataThunderSystemDnsCacheOper#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#client DataThunderSystemDnsCacheOper#client}
   */
   readonly client?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#content_mode DataThunderSystemDnsCacheOper#content_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#content_mode DataThunderSystemDnsCacheOper#content_mode}
   */
   readonly contentMode?: string;
   /**
   * domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#domain_name DataThunderSystemDnsCacheOper#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#domain_name DataThunderSystemDnsCacheOper#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#entry DataThunderSystemDnsCacheOper#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#entry DataThunderSystemDnsCacheOper#entry}
   */
   readonly entry?: number;
   /**
   * domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#fqdn_domain DataThunderSystemDnsCacheOper#fqdn_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#fqdn_domain DataThunderSystemDnsCacheOper#fqdn_domain}
   */
   readonly fqdnDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#global DataThunderSystemDnsCacheOper#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#global DataThunderSystemDnsCacheOper#global}
   */
   readonly global?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#port_num DataThunderSystemDnsCacheOper#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#hit_ratio_percentage_per_sec DataThunderSystemDnsCacheOper#hit_ratio_percentage_per_sec}
+  */
+  readonly hitRatioPercentagePerSec?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#port_num DataThunderSystemDnsCacheOper#port_num}
   */
   readonly portNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#port_type DataThunderSystemDnsCacheOper#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#port_type DataThunderSystemDnsCacheOper#port_type}
   */
   readonly portType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#rdata_all DataThunderSystemDnsCacheOper#rdata_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#rdata_all DataThunderSystemDnsCacheOper#rdata_all}
   */
   readonly rdataAll?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#rdata_size_value DataThunderSystemDnsCacheOper#rdata_size_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#rdata_size_value DataThunderSystemDnsCacheOper#rdata_size_value}
   */
   readonly rdataSizeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_all DataThunderSystemDnsCacheOper#record_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_all DataThunderSystemDnsCacheOper#record_all}
   */
   readonly recordAll?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#record_num_value DataThunderSystemDnsCacheOper#record_num_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#record_num_value DataThunderSystemDnsCacheOper#record_num_value}
   */
   readonly recordNumValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#total DataThunderSystemDnsCacheOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#total DataThunderSystemDnsCacheOper#total}
   */
   readonly total?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#type_string DataThunderSystemDnsCacheOper#type_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#type_string DataThunderSystemDnsCacheOper#type_string}
   */
   readonly typeString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#type_value DataThunderSystemDnsCacheOper#type_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#type_value DataThunderSystemDnsCacheOper#type_value}
   */
   readonly typeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#vport DataThunderSystemDnsCacheOper#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#vport DataThunderSystemDnsCacheOper#vport}
   */
   readonly vport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#vs_name DataThunderSystemDnsCacheOper#vs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#vs_name DataThunderSystemDnsCacheOper#vs_name}
   */
   readonly vsName?: string;
   /**
   * cache_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_client DataThunderSystemDnsCacheOper#cache_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_client DataThunderSystemDnsCacheOper#cache_client}
   */
   readonly cacheClient?: DataThunderSystemDnsCacheOperOperCacheClient[] | cdktf.IResolvable;
   /**
   * cache_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#cache_entry DataThunderSystemDnsCacheOper#cache_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#cache_entry DataThunderSystemDnsCacheOper#cache_entry}
   */
   readonly cacheEntry?: DataThunderSystemDnsCacheOperOperCacheEntry[] | cdktf.IResolvable;
 }
@@ -1337,6 +1349,8 @@ export function dataThunderSystemDnsCacheOperOperToTerraform(struct?: DataThunde
   }
   return {
     cache_content: cdktf.numberToTerraform(struct!.cacheContent),
+    cache_hit_ratio: cdktf.stringToTerraform(struct!.cacheHitRatio),
+    cache_usage: cdktf.stringToTerraform(struct!.cacheUsage),
     class_string: cdktf.stringToTerraform(struct!.classString),
     class_value: cdktf.numberToTerraform(struct!.classValue),
     client: cdktf.numberToTerraform(struct!.client),
@@ -1345,6 +1359,7 @@ export function dataThunderSystemDnsCacheOperOperToTerraform(struct?: DataThunde
     entry: cdktf.numberToTerraform(struct!.entry),
     fqdn_domain: cdktf.stringToTerraform(struct!.fqdnDomain),
     global: cdktf.numberToTerraform(struct!.global),
+    hit_ratio_percentage_per_sec: cdktf.numberToTerraform(struct!.hitRatioPercentagePerSec),
     port_num: cdktf.numberToTerraform(struct!.portNum),
     port_type: cdktf.stringToTerraform(struct!.portType),
     rdata_all: cdktf.numberToTerraform(struct!.rdataAll),
@@ -1373,6 +1388,18 @@ export function dataThunderSystemDnsCacheOperOperToHclTerraform(struct?: DataThu
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    cache_hit_ratio: {
+      value: cdktf.stringToHclTerraform(struct!.cacheHitRatio),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    cache_usage: {
+      value: cdktf.stringToHclTerraform(struct!.cacheUsage),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     class_string: {
       value: cdktf.stringToHclTerraform(struct!.classString),
@@ -1418,6 +1445,12 @@ export function dataThunderSystemDnsCacheOperOperToHclTerraform(struct?: DataThu
     },
     global: {
       value: cdktf.numberToHclTerraform(struct!.global),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    hit_ratio_percentage_per_sec: {
+      value: cdktf.numberToHclTerraform(struct!.hitRatioPercentagePerSec),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1524,6 +1557,14 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.cacheContent = this._cacheContent;
     }
+    if (this._cacheHitRatio !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheHitRatio = this._cacheHitRatio;
+    }
+    if (this._cacheUsage !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cacheUsage = this._cacheUsage;
+    }
     if (this._classString !== undefined) {
       hasAnyValues = true;
       internalValueResult.classString = this._classString;
@@ -1555,6 +1596,10 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
     if (this._global !== undefined) {
       hasAnyValues = true;
       internalValueResult.global = this._global;
+    }
+    if (this._hitRatioPercentagePerSec !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hitRatioPercentagePerSec = this._hitRatioPercentagePerSec;
     }
     if (this._portNum !== undefined) {
       hasAnyValues = true;
@@ -1615,6 +1660,8 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
     if (value === undefined) {
       this.isEmptyObject = false;
       this._cacheContent = undefined;
+      this._cacheHitRatio = undefined;
+      this._cacheUsage = undefined;
       this._classString = undefined;
       this._classValue = undefined;
       this._client = undefined;
@@ -1623,6 +1670,7 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
       this._entry = undefined;
       this._fqdnDomain = undefined;
       this._global = undefined;
+      this._hitRatioPercentagePerSec = undefined;
       this._portNum = undefined;
       this._portType = undefined;
       this._rdataAll = undefined;
@@ -1640,6 +1688,8 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._cacheContent = value.cacheContent;
+      this._cacheHitRatio = value.cacheHitRatio;
+      this._cacheUsage = value.cacheUsage;
       this._classString = value.classString;
       this._classValue = value.classValue;
       this._client = value.client;
@@ -1648,6 +1698,7 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
       this._entry = value.entry;
       this._fqdnDomain = value.fqdnDomain;
       this._global = value.global;
+      this._hitRatioPercentagePerSec = value.hitRatioPercentagePerSec;
       this._portNum = value.portNum;
       this._portType = value.portType;
       this._rdataAll = value.rdataAll;
@@ -1678,6 +1729,38 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get cacheContentInput() {
     return this._cacheContent;
+  }
+
+  // cache_hit_ratio - computed: false, optional: true, required: false
+  private _cacheHitRatio?: string; 
+  public get cacheHitRatio() {
+    return this.getStringAttribute('cache_hit_ratio');
+  }
+  public set cacheHitRatio(value: string) {
+    this._cacheHitRatio = value;
+  }
+  public resetCacheHitRatio() {
+    this._cacheHitRatio = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheHitRatioInput() {
+    return this._cacheHitRatio;
+  }
+
+  // cache_usage - computed: false, optional: true, required: false
+  private _cacheUsage?: string; 
+  public get cacheUsage() {
+    return this.getStringAttribute('cache_usage');
+  }
+  public set cacheUsage(value: string) {
+    this._cacheUsage = value;
+  }
+  public resetCacheUsage() {
+    this._cacheUsage = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cacheUsageInput() {
+    return this._cacheUsage;
   }
 
   // class_string - computed: false, optional: true, required: false
@@ -1806,6 +1889,22 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get globalInput() {
     return this._global;
+  }
+
+  // hit_ratio_percentage_per_sec - computed: false, optional: true, required: false
+  private _hitRatioPercentagePerSec?: number; 
+  public get hitRatioPercentagePerSec() {
+    return this.getNumberAttribute('hit_ratio_percentage_per_sec');
+  }
+  public set hitRatioPercentagePerSec(value: number) {
+    this._hitRatioPercentagePerSec = value;
+  }
+  public resetHitRatioPercentagePerSec() {
+    this._hitRatioPercentagePerSec = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hitRatioPercentagePerSecInput() {
+    return this._hitRatioPercentagePerSec;
   }
 
   // port_num - computed: false, optional: true, required: false
@@ -2018,7 +2117,7 @@ export class DataThunderSystemDnsCacheOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper thunder_system_dns_cache_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper thunder_system_dns_cache_oper}
 */
 export class DataThunderSystemDnsCacheOper extends cdktf.TerraformDataSource {
 
@@ -2034,7 +2133,7 @@ export class DataThunderSystemDnsCacheOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemDnsCacheOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemDnsCacheOper to import
-  * @param importFromId The id of the existing DataThunderSystemDnsCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemDnsCacheOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemDnsCacheOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2046,7 +2145,7 @@ export class DataThunderSystemDnsCacheOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_dns_cache_oper thunder_system_dns_cache_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_dns_cache_oper thunder_system_dns_cache_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2057,8 +2156,8 @@ export class DataThunderSystemDnsCacheOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_dns_cache_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

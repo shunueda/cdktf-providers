@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#id DataThunderDdosPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#id DataThunderDdosPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosPortStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#stats DataThunderDdosPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#stats DataThunderDdosPortStats#stats}
   */
   readonly stats?: DataThunderDdosPortStatsStats;
 }
@@ -25,91 +25,97 @@ export interface DataThunderDdosPortStatsStats {
   /**
   * Dst Port Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_bl DataThunderDdosPortStats#dst_port_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_bl DataThunderDdosPortStats#dst_port_bl}
   */
   readonly dstPortBl?: number;
   /**
   * Dst Port Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_conn_limit_exceed DataThunderDdosPortStats#dst_port_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_conn_limit_exceed DataThunderDdosPortStats#dst_port_conn_limit_exceed}
   */
   readonly dstPortConnLimitExceed?: number;
   /**
   * Dst Port Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_conn_rate_exceed DataThunderDdosPortStats#dst_port_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_conn_rate_exceed DataThunderDdosPortStats#dst_port_conn_rate_exceed}
   */
   readonly dstPortConnRateExceed?: number;
   /**
   * Dst Port Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_exceed_drop_any DataThunderDdosPortStats#dst_port_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_exceed_drop_any DataThunderDdosPortStats#dst_port_exceed_drop_any}
   */
   readonly dstPortExceedDropAny?: number;
   /**
   * Dst Port Frag Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_frag_rate_exceed DataThunderDdosPortStats#dst_port_frag_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_frag_rate_exceed DataThunderDdosPortStats#dst_port_frag_rate_exceed}
   */
   readonly dstPortFragRateExceed?: number;
   /**
   * Dst Port KiBit Rate Exceeded (KiBit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_kbit_rate_exceed DataThunderDdosPortStats#dst_port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_kbit_rate_exceed DataThunderDdosPortStats#dst_port_kbit_rate_exceed}
   */
   readonly dstPortKbitRateExceed?: number;
   /**
   * Dst Port Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_pkt_rate_exceed DataThunderDdosPortStats#dst_port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_pkt_rate_exceed DataThunderDdosPortStats#dst_port_pkt_rate_exceed}
   */
   readonly dstPortPktRateExceed?: number;
   /**
+  * Dst Port Same Src Port Dropped
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_same_sport_drop DataThunderDdosPortStats#dst_port_same_sport_drop}
+  */
+  readonly dstPortSameSportDrop?: number;
+  /**
   * Dst Port Undefined Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_port_undef_drop DataThunderDdosPortStats#dst_port_undef_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_port_undef_drop DataThunderDdosPortStats#dst_port_undef_drop}
   */
   readonly dstPortUndefDrop?: number;
   /**
   * Dst SrcPort Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_bl DataThunderDdosPortStats#dst_sport_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_bl DataThunderDdosPortStats#dst_sport_bl}
   */
   readonly dstSportBl?: number;
   /**
   * Dst SrcPort Conn Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_conn_limit_exceed DataThunderDdosPortStats#dst_sport_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_conn_limit_exceed DataThunderDdosPortStats#dst_sport_conn_limit_exceed}
   */
   readonly dstSportConnLimitExceed?: number;
   /**
   * Dst SrcPort Conn Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_conn_rate_exceed DataThunderDdosPortStats#dst_sport_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_conn_rate_exceed DataThunderDdosPortStats#dst_sport_conn_rate_exceed}
   */
   readonly dstSportConnRateExceed?: number;
   /**
   * Dst SrcPort Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_exceed_drop_any DataThunderDdosPortStats#dst_sport_exceed_drop_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_exceed_drop_any DataThunderDdosPortStats#dst_sport_exceed_drop_any}
   */
   readonly dstSportExceedDropAny?: number;
   /**
   * Dst SrcPort Frag Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_frag_rate_exceed DataThunderDdosPortStats#dst_sport_frag_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_frag_rate_exceed DataThunderDdosPortStats#dst_sport_frag_rate_exceed}
   */
   readonly dstSportFragRateExceed?: number;
   /**
   * Dst SrcPort KiBit Rate Exceeded (KiBit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_kbit_rate_exceed DataThunderDdosPortStats#dst_sport_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_kbit_rate_exceed DataThunderDdosPortStats#dst_sport_kbit_rate_exceed}
   */
   readonly dstSportKbitRateExceed?: number;
   /**
   * Dst SrcPort Pkt Rate Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#dst_sport_pkt_rate_exceed DataThunderDdosPortStats#dst_sport_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#dst_sport_pkt_rate_exceed DataThunderDdosPortStats#dst_sport_pkt_rate_exceed}
   */
   readonly dstSportPktRateExceed?: number;
 }
@@ -127,6 +133,7 @@ export function dataThunderDdosPortStatsStatsToTerraform(struct?: DataThunderDdo
     dst_port_frag_rate_exceed: cdktf.numberToTerraform(struct!.dstPortFragRateExceed),
     dst_port_kbit_rate_exceed: cdktf.numberToTerraform(struct!.dstPortKbitRateExceed),
     dst_port_pkt_rate_exceed: cdktf.numberToTerraform(struct!.dstPortPktRateExceed),
+    dst_port_same_sport_drop: cdktf.numberToTerraform(struct!.dstPortSameSportDrop),
     dst_port_undef_drop: cdktf.numberToTerraform(struct!.dstPortUndefDrop),
     dst_sport_bl: cdktf.numberToTerraform(struct!.dstSportBl),
     dst_sport_conn_limit_exceed: cdktf.numberToTerraform(struct!.dstSportConnLimitExceed),
@@ -183,6 +190,12 @@ export function dataThunderDdosPortStatsStatsToHclTerraform(struct?: DataThunder
     },
     dst_port_pkt_rate_exceed: {
       value: cdktf.numberToHclTerraform(struct!.dstPortPktRateExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    dst_port_same_sport_drop: {
+      value: cdktf.numberToHclTerraform(struct!.dstPortSameSportDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -283,6 +296,10 @@ export class DataThunderDdosPortStatsStatsOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.dstPortPktRateExceed = this._dstPortPktRateExceed;
     }
+    if (this._dstPortSameSportDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dstPortSameSportDrop = this._dstPortSameSportDrop;
+    }
     if (this._dstPortUndefDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.dstPortUndefDrop = this._dstPortUndefDrop;
@@ -328,6 +345,7 @@ export class DataThunderDdosPortStatsStatsOutputReference extends cdktf.ComplexO
       this._dstPortFragRateExceed = undefined;
       this._dstPortKbitRateExceed = undefined;
       this._dstPortPktRateExceed = undefined;
+      this._dstPortSameSportDrop = undefined;
       this._dstPortUndefDrop = undefined;
       this._dstSportBl = undefined;
       this._dstSportConnLimitExceed = undefined;
@@ -346,6 +364,7 @@ export class DataThunderDdosPortStatsStatsOutputReference extends cdktf.ComplexO
       this._dstPortFragRateExceed = value.dstPortFragRateExceed;
       this._dstPortKbitRateExceed = value.dstPortKbitRateExceed;
       this._dstPortPktRateExceed = value.dstPortPktRateExceed;
+      this._dstPortSameSportDrop = value.dstPortSameSportDrop;
       this._dstPortUndefDrop = value.dstPortUndefDrop;
       this._dstSportBl = value.dstSportBl;
       this._dstSportConnLimitExceed = value.dstSportConnLimitExceed;
@@ -467,6 +486,22 @@ export class DataThunderDdosPortStatsStatsOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get dstPortPktRateExceedInput() {
     return this._dstPortPktRateExceed;
+  }
+
+  // dst_port_same_sport_drop - computed: false, optional: true, required: false
+  private _dstPortSameSportDrop?: number; 
+  public get dstPortSameSportDrop() {
+    return this.getNumberAttribute('dst_port_same_sport_drop');
+  }
+  public set dstPortSameSportDrop(value: number) {
+    this._dstPortSameSportDrop = value;
+  }
+  public resetDstPortSameSportDrop() {
+    this._dstPortSameSportDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dstPortSameSportDropInput() {
+    return this._dstPortSameSportDrop;
   }
 
   // dst_port_undef_drop - computed: false, optional: true, required: false
@@ -599,7 +634,7 @@ export class DataThunderDdosPortStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats thunder_ddos_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats thunder_ddos_port_stats}
 */
 export class DataThunderDdosPortStats extends cdktf.TerraformDataSource {
 
@@ -615,7 +650,7 @@ export class DataThunderDdosPortStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosPortStats to import
-  * @param importFromId The id of the existing DataThunderDdosPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +662,7 @@ export class DataThunderDdosPortStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_port_stats thunder_ddos_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_port_stats thunder_ddos_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +673,8 @@ export class DataThunderDdosPortStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

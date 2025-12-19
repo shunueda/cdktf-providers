@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemViewShowMonitorOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#id DataThunderSystemViewShowMonitorOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#id DataThunderSystemViewShowMonitorOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,77 +17,77 @@ export interface DataThunderSystemViewShowMonitorOperConfig extends cdktf.Terraf
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#oper DataThunderSystemViewShowMonitorOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#oper DataThunderSystemViewShowMonitorOper#oper}
   */
   readonly oper?: DataThunderSystemViewShowMonitorOperOper;
 }
 export interface DataThunderSystemViewShowMonitorOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#buff_drop DataThunderSystemViewShowMonitorOper#buff_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#buff_drop DataThunderSystemViewShowMonitorOper#buff_drop}
   */
   readonly buffDrop?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#buff_value DataThunderSystemViewShowMonitorOper#buff_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#buff_value DataThunderSystemViewShowMonitorOper#buff_value}
   */
   readonly buffValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#ctrl_cpu DataThunderSystemViewShowMonitorOper#ctrl_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#ctrl_cpu DataThunderSystemViewShowMonitorOper#ctrl_cpu}
   */
   readonly ctrlCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#data_cpu DataThunderSystemViewShowMonitorOper#data_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#data_cpu DataThunderSystemViewShowMonitorOper#data_cpu}
   */
   readonly dataCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#disk_value DataThunderSystemViewShowMonitorOper#disk_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#disk_value DataThunderSystemViewShowMonitorOper#disk_value}
   */
   readonly diskValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#mem_value DataThunderSystemViewShowMonitorOper#mem_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#mem_value DataThunderSystemViewShowMonitorOper#mem_value}
   */
   readonly memValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#smp0 DataThunderSystemViewShowMonitorOper#smp0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#smp0 DataThunderSystemViewShowMonitorOper#smp0}
   */
   readonly smp0?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#smp1 DataThunderSystemViewShowMonitorOper#smp1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#smp1 DataThunderSystemViewShowMonitorOper#smp1}
   */
   readonly smp1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#smp2 DataThunderSystemViewShowMonitorOper#smp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#smp2 DataThunderSystemViewShowMonitorOper#smp2}
   */
   readonly smp2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#smp3 DataThunderSystemViewShowMonitorOper#smp3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#smp3 DataThunderSystemViewShowMonitorOper#smp3}
   */
   readonly smp3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#smp4 DataThunderSystemViewShowMonitorOper#smp4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#smp4 DataThunderSystemViewShowMonitorOper#smp4}
   */
   readonly smp4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#spm0 DataThunderSystemViewShowMonitorOper#spm0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#spm0 DataThunderSystemViewShowMonitorOper#spm0}
   */
   readonly spm0?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#spm1 DataThunderSystemViewShowMonitorOper#spm1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#spm1 DataThunderSystemViewShowMonitorOper#spm1}
   */
   readonly spm1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#spm2 DataThunderSystemViewShowMonitorOper#spm2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#spm2 DataThunderSystemViewShowMonitorOper#spm2}
   */
   readonly spm2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#spm3 DataThunderSystemViewShowMonitorOper#spm3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#spm3 DataThunderSystemViewShowMonitorOper#spm3}
   */
   readonly spm3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#spm4 DataThunderSystemViewShowMonitorOper#spm4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#spm4 DataThunderSystemViewShowMonitorOper#spm4}
   */
   readonly spm4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#warn_temp DataThunderSystemViewShowMonitorOper#warn_temp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#warn_temp DataThunderSystemViewShowMonitorOper#warn_temp}
   */
   readonly warnTemp?: number;
 }
@@ -635,7 +635,7 @@ export class DataThunderSystemViewShowMonitorOperOperOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper thunder_system_view_show_monitor_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper thunder_system_view_show_monitor_oper}
 */
 export class DataThunderSystemViewShowMonitorOper extends cdktf.TerraformDataSource {
 
@@ -651,7 +651,7 @@ export class DataThunderSystemViewShowMonitorOper extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataThunderSystemViewShowMonitorOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemViewShowMonitorOper to import
-  * @param importFromId The id of the existing DataThunderSystemViewShowMonitorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemViewShowMonitorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemViewShowMonitorOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -663,7 +663,7 @@ export class DataThunderSystemViewShowMonitorOper extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_view_show_monitor_oper thunder_system_view_show_monitor_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_view_show_monitor_oper thunder_system_view_show_monitor_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -674,8 +674,8 @@ export class DataThunderSystemViewShowMonitorOper extends cdktf.TerraformDataSou
       terraformResourceType: 'thunder_system_view_show_monitor_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

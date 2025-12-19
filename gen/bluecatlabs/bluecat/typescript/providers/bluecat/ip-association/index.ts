@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Configuration. Associate the IP address/Host record in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#configuration IpAssociation#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#configuration IpAssociation#configuration}
   */
   readonly configuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#id IpAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#id IpAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,53 @@ export interface IpAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#ip_address IpAssociation#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#ip_address IpAssociation#ip_address}
   */
   readonly ipAddress: string;
   /**
   * IP Address version: ipv4 or ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#ip_version IpAssociation#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#ip_version IpAssociation#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#mac_address IpAssociation#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#mac_address IpAssociation#mac_address}
   */
   readonly macAddress: string;
   /**
   * The name of the Host record. Must be FQDN if the Zone is not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#name IpAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#name IpAssociation#name}
   */
   readonly name: string;
   /**
   * The Network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#network IpAssociation#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#network IpAssociation#network}
   */
   readonly network: string;
   /**
-  * IP address/Host record's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#properties IpAssociation#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#properties IpAssociation#properties}
   */
   readonly properties?: string;
   /**
   * The view which contains the details of the zone. If not provided, uses the default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#view IpAssociation#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#view IpAssociation#view}
   */
   readonly view?: string;
   /**
   * The Zone in which you want to update a host record. If not provided, the absolute name must be FQDN ones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#zone IpAssociation#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#zone IpAssociation#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association bluecat_ip_association}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association bluecat_ip_association}
 */
 export class IpAssociation extends cdktf.TerraformResource {
 
@@ -87,7 +85,7 @@ export class IpAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpAssociation to import
-  * @param importFromId The id of the existing IpAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +97,7 @@ export class IpAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/ip_association bluecat_ip_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/ip_association bluecat_ip_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +108,8 @@ export class IpAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_ip_association',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

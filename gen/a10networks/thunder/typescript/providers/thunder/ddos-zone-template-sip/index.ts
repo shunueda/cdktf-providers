@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DdosZoneTemplateSipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#id DdosZoneTemplateSip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#id DdosZoneTemplateSip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface DdosZoneTemplateSipConfig extends cdktf.TerraformMetaArguments 
   /**
   * DDOS SIP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_tmpl_name DdosZoneTemplateSip#sip_tmpl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_tmpl_name DdosZoneTemplateSip#sip_tmpl_name}
   */
   readonly sipTmplName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#user_tag DdosZoneTemplateSip#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#user_tag DdosZoneTemplateSip#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
   */
   readonly uuid?: string;
   /**
   * dst block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst DdosZoneTemplateSip#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst DdosZoneTemplateSip#dst}
   */
   readonly dst?: DdosZoneTemplateSipDst;
   /**
   * filter_header_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#filter_header_list DdosZoneTemplateSip#filter_header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#filter_header_list DdosZoneTemplateSip#filter_header_list}
   */
   readonly filterHeaderList?: DdosZoneTemplateSipFilterHeaderListStruct[] | cdktf.IResolvable;
   /**
   * idle_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#idle_timeout DdosZoneTemplateSip#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#idle_timeout DdosZoneTemplateSip#idle_timeout}
   */
   readonly idleTimeout?: DdosZoneTemplateSipIdleTimeout;
   /**
   * malformed_sip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip DdosZoneTemplateSip#malformed_sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip DdosZoneTemplateSip#malformed_sip}
   */
   readonly malformedSip?: DdosZoneTemplateSipMalformedSip;
   /**
   * multi_pu_threshold_distribution block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution DdosZoneTemplateSip#multi_pu_threshold_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution DdosZoneTemplateSip#multi_pu_threshold_distribution}
   */
   readonly multiPuThresholdDistribution?: DdosZoneTemplateSipMultiPuThresholdDistribution;
   /**
   * src block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src DdosZoneTemplateSip#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src DdosZoneTemplateSip#src}
   */
   readonly src?: DdosZoneTemplateSipSrc;
 }
@@ -73,11 +73,11 @@ export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodByeCfg {
   /**
   * BYE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#bye DdosZoneTemplateSip#bye}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#bye DdosZoneTemplateSip#bye}
   */
   readonly bye?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_bye_rate DdosZoneTemplateSip#dst_sip_bye_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_bye_rate DdosZoneTemplateSip#dst_sip_bye_rate}
   */
   readonly dstSipByeRate?: number;
 }
@@ -190,13 +190,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodByeCfgOutputReferenc
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodInviteCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_invite_rate DdosZoneTemplateSip#dst_sip_invite_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_invite_rate DdosZoneTemplateSip#dst_sip_invite_rate}
   */
   readonly dstSipInviteRate?: number;
   /**
   * INVITE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#invite DdosZoneTemplateSip#invite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#invite DdosZoneTemplateSip#invite}
   */
   readonly invite?: number;
 }
@@ -309,13 +309,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodInviteCfgOutputRefer
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodMessageCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_message_rate DdosZoneTemplateSip#dst_sip_message_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_message_rate DdosZoneTemplateSip#dst_sip_message_rate}
   */
   readonly dstSipMessageRate?: number;
   /**
   * MESSAGE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#message DdosZoneTemplateSip#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#message DdosZoneTemplateSip#message}
   */
   readonly message?: number;
 }
@@ -428,13 +428,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodMessageCfgOutputRefe
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodNotifyCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_notify_rate DdosZoneTemplateSip#dst_sip_notify_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_notify_rate DdosZoneTemplateSip#dst_sip_notify_rate}
   */
   readonly dstSipNotifyRate?: number;
   /**
   * NOTIFY method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#notify DdosZoneTemplateSip#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#notify DdosZoneTemplateSip#notify}
   */
   readonly notify?: number;
 }
@@ -547,13 +547,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodNotifyCfgOutputRefer
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodOptionsCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_options_rate DdosZoneTemplateSip#dst_sip_options_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_options_rate DdosZoneTemplateSip#dst_sip_options_rate}
   */
   readonly dstSipOptionsRate?: number;
   /**
   * OPTIONS method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#options DdosZoneTemplateSip#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#options DdosZoneTemplateSip#options}
   */
   readonly options?: number;
 }
@@ -666,13 +666,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodOptionsCfgOutputRefe
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodReferCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_refer_rate DdosZoneTemplateSip#dst_sip_refer_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_refer_rate DdosZoneTemplateSip#dst_sip_refer_rate}
   */
   readonly dstSipReferRate?: number;
   /**
   * REFER method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#refer DdosZoneTemplateSip#refer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#refer DdosZoneTemplateSip#refer}
   */
   readonly refer?: number;
 }
@@ -785,13 +785,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodReferCfgOutputRefere
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodRegisterCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_register_rate DdosZoneTemplateSip#dst_sip_register_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_register_rate DdosZoneTemplateSip#dst_sip_register_rate}
   */
   readonly dstSipRegisterRate?: number;
   /**
   * REGISTER method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#register DdosZoneTemplateSip#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#register DdosZoneTemplateSip#register}
   */
   readonly register?: number;
 }
@@ -904,13 +904,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodRegisterCfgOutputRef
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodSubscribeCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_subscribe_rate DdosZoneTemplateSip#dst_sip_subscribe_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_subscribe_rate DdosZoneTemplateSip#dst_sip_subscribe_rate}
   */
   readonly dstSipSubscribeRate?: number;
   /**
   * SUBSCRIBE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#subscribe DdosZoneTemplateSip#subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#subscribe DdosZoneTemplateSip#subscribe}
   */
   readonly subscribe?: number;
 }
@@ -1023,13 +1023,13 @@ export class DdosZoneTemplateSipDstSipRequestRateLimitMethodSubscribeCfgOutputRe
 }
 export interface DdosZoneTemplateSipDstSipRequestRateLimitMethodUpdateCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_update_rate DdosZoneTemplateSip#dst_sip_update_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_update_rate DdosZoneTemplateSip#dst_sip_update_rate}
   */
   readonly dstSipUpdateRate?: number;
   /**
   * UPDATE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#update DdosZoneTemplateSip#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#update DdosZoneTemplateSip#update}
   */
   readonly update?: number;
 }
@@ -1144,55 +1144,55 @@ export interface DdosZoneTemplateSipDstSipRequestRateLimitMethod {
   /**
   * bye_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#bye_cfg DdosZoneTemplateSip#bye_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#bye_cfg DdosZoneTemplateSip#bye_cfg}
   */
   readonly byeCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodByeCfg;
   /**
   * invite_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#invite_cfg DdosZoneTemplateSip#invite_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#invite_cfg DdosZoneTemplateSip#invite_cfg}
   */
   readonly inviteCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodInviteCfg;
   /**
   * message_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#message_cfg DdosZoneTemplateSip#message_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#message_cfg DdosZoneTemplateSip#message_cfg}
   */
   readonly messageCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodMessageCfg;
   /**
   * notify_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#notify_cfg DdosZoneTemplateSip#notify_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#notify_cfg DdosZoneTemplateSip#notify_cfg}
   */
   readonly notifyCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodNotifyCfg;
   /**
   * options_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#options_cfg DdosZoneTemplateSip#options_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#options_cfg DdosZoneTemplateSip#options_cfg}
   */
   readonly optionsCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodOptionsCfg;
   /**
   * refer_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#refer_cfg DdosZoneTemplateSip#refer_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#refer_cfg DdosZoneTemplateSip#refer_cfg}
   */
   readonly referCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodReferCfg;
   /**
   * register_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#register_cfg DdosZoneTemplateSip#register_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#register_cfg DdosZoneTemplateSip#register_cfg}
   */
   readonly registerCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodRegisterCfg;
   /**
   * subscribe_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#subscribe_cfg DdosZoneTemplateSip#subscribe_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#subscribe_cfg DdosZoneTemplateSip#subscribe_cfg}
   */
   readonly subscribeCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodSubscribeCfg;
   /**
   * update_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#update_cfg DdosZoneTemplateSip#update_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#update_cfg DdosZoneTemplateSip#update_cfg}
   */
   readonly updateCfg?: DdosZoneTemplateSipDstSipRequestRateLimitMethodUpdateCfg;
 }
@@ -1510,19 +1510,19 @@ export interface DdosZoneTemplateSipDstSipRequestRateLimit {
   /**
   * 'drop': Drop packets(Default); 'ignore': Take no action; 'reset': Reset (sip-tcp) client connection; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_rate_action DdosZoneTemplateSip#dst_sip_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_rate_action DdosZoneTemplateSip#dst_sip_rate_action}
   */
   readonly dstSipRateAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#dst_sip_rate_action_list_name DdosZoneTemplateSip#dst_sip_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#dst_sip_rate_action_list_name DdosZoneTemplateSip#dst_sip_rate_action_list_name}
   */
   readonly dstSipRateActionListName?: string;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#method DdosZoneTemplateSip#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#method DdosZoneTemplateSip#method}
   */
   readonly method?: DdosZoneTemplateSipDstSipRequestRateLimitMethod;
 }
@@ -1666,7 +1666,7 @@ export interface DdosZoneTemplateSipDst {
   /**
   * sip_request_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_request_rate_limit DdosZoneTemplateSip#sip_request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_request_rate_limit DdosZoneTemplateSip#sip_request_rate_limit}
   */
   readonly sipRequestRateLimit?: DdosZoneTemplateSipDstSipRequestRateLimit;
 }
@@ -1750,13 +1750,13 @@ export class DdosZoneTemplateSipDstOutputReference extends cdktf.ComplexObject {
 }
 export interface DdosZoneTemplateSipFilterHeaderListSipHeaderCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_header_inverse_match DdosZoneTemplateSip#sip_filter_header_inverse_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_header_inverse_match DdosZoneTemplateSip#sip_filter_header_inverse_match}
   */
   readonly sipFilterHeaderInverseMatch?: number;
   /**
   * Regex Expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_header_regex DdosZoneTemplateSip#sip_filter_header_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_header_regex DdosZoneTemplateSip#sip_filter_header_regex}
   */
   readonly sipFilterHeaderRegex?: string;
 }
@@ -1871,41 +1871,41 @@ export interface DdosZoneTemplateSipFilterHeaderListStruct {
   /**
   * 'drop': Drop packets (Default); 'ignore': Take no action; 'blacklist-src': Blacklist-src; 'authenticate-src': Authenticate-src; 'reset': Reset client connection(for sip-tcp);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_action DdosZoneTemplateSip#sip_filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_action DdosZoneTemplateSip#sip_filter_action}
   */
   readonly sipFilterAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_action_list_name DdosZoneTemplateSip#sip_filter_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_action_list_name DdosZoneTemplateSip#sip_filter_action_list_name}
   */
   readonly sipFilterActionListName?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_header_seq DdosZoneTemplateSip#sip_filter_header_seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_header_seq DdosZoneTemplateSip#sip_filter_header_seq}
   */
   readonly sipFilterHeaderSeq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_filter_name DdosZoneTemplateSip#sip_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_filter_name DdosZoneTemplateSip#sip_filter_name}
   */
   readonly sipFilterName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#user_tag DdosZoneTemplateSip#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#user_tag DdosZoneTemplateSip#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
   */
   readonly uuid?: string;
   /**
   * sip_header_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_header_cfg DdosZoneTemplateSip#sip_header_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_header_cfg DdosZoneTemplateSip#sip_header_cfg}
   */
   readonly sipHeaderCfg?: DdosZoneTemplateSipFilterHeaderListSipHeaderCfg;
 }
@@ -2194,25 +2194,25 @@ export interface DdosZoneTemplateSipIdleTimeout {
   /**
   * 'drop': Drop packets (Default); 'blacklist-src': Blacklist-src; 'reset': Reset (sip-tcp) client connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#idle_timeout_action DdosZoneTemplateSip#idle_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#idle_timeout_action DdosZoneTemplateSip#idle_timeout_action}
   */
   readonly idleTimeoutAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#idle_timeout_action_list_name DdosZoneTemplateSip#idle_timeout_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#idle_timeout_action_list_name DdosZoneTemplateSip#idle_timeout_action_list_name}
   */
   readonly idleTimeoutActionListName?: string;
   /**
   * Set the the idle timeout value for SIP-TCP connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#idle_timeout_value DdosZoneTemplateSip#idle_timeout_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#idle_timeout_value DdosZoneTemplateSip#idle_timeout_value}
   */
   readonly idleTimeoutValue?: number;
   /**
   * Don't reset idle timer on packets with zero payload length from clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#ignore_zero_payload DdosZoneTemplateSip#ignore_zero_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#ignore_zero_payload DdosZoneTemplateSip#ignore_zero_payload}
   */
   readonly ignoreZeroPayload?: number;
 }
@@ -2385,61 +2385,61 @@ export interface DdosZoneTemplateSipMalformedSip {
   /**
   * 'drop': Drop packets (Default); 'reset': Reset (sip-tcp) client connection; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_action DdosZoneTemplateSip#malformed_sip_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_action DdosZoneTemplateSip#malformed_sip_action}
   */
   readonly malformedSipAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_action_list_name DdosZoneTemplateSip#malformed_sip_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_action_list_name DdosZoneTemplateSip#malformed_sip_action_list_name}
   */
   readonly malformedSipActionListName?: string;
   /**
   * Set the maximum call-id length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_call_id_max_length DdosZoneTemplateSip#malformed_sip_call_id_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_call_id_max_length DdosZoneTemplateSip#malformed_sip_call_id_max_length}
   */
   readonly malformedSipCallIdMaxLength?: number;
   /**
   * 'enable-check': Enable malformed SIP parameters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_check DdosZoneTemplateSip#malformed_sip_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_check DdosZoneTemplateSip#malformed_sip_check}
   */
   readonly malformedSipCheck?: string;
   /**
   * Set the maximum header name length. Default value is 63
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_max_header_name_length DdosZoneTemplateSip#malformed_sip_max_header_name_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_max_header_name_length DdosZoneTemplateSip#malformed_sip_max_header_name_length}
   */
   readonly malformedSipMaxHeaderNameLength?: number;
   /**
   * Set the maximum header value length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_max_header_value_length DdosZoneTemplateSip#malformed_sip_max_header_value_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_max_header_value_length DdosZoneTemplateSip#malformed_sip_max_header_value_length}
   */
   readonly malformedSipMaxHeaderValueLength?: number;
   /**
   * Set the maximum line size. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_max_line_size DdosZoneTemplateSip#malformed_sip_max_line_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_max_line_size DdosZoneTemplateSip#malformed_sip_max_line_size}
   */
   readonly malformedSipMaxLineSize?: number;
   /**
   * Set the maximum uri size. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_max_uri_length DdosZoneTemplateSip#malformed_sip_max_uri_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_max_uri_length DdosZoneTemplateSip#malformed_sip_max_uri_length}
   */
   readonly malformedSipMaxUriLength?: number;
   /**
   * Set the maxinum SDP content length. Default value is 32511
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#malformed_sip_sdp_max_length DdosZoneTemplateSip#malformed_sip_sdp_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#malformed_sip_sdp_max_length DdosZoneTemplateSip#malformed_sip_sdp_max_length}
   */
   readonly malformedSipSdpMaxLength?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#uuid DdosZoneTemplateSip#uuid}
   */
   readonly uuid?: string;
 }
@@ -2786,13 +2786,13 @@ export interface DdosZoneTemplateSipMultiPuThresholdDistribution {
   /**
   * 'disable': Destination side rate limit only. Default: Enable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution_disable DdosZoneTemplateSip#multi_pu_threshold_distribution_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution_disable DdosZoneTemplateSip#multi_pu_threshold_distribution_disable}
   */
   readonly multiPuThresholdDistributionDisable?: string;
   /**
   * Destination side rate limit only. Default: 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution_value DdosZoneTemplateSip#multi_pu_threshold_distribution_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#multi_pu_threshold_distribution_value DdosZoneTemplateSip#multi_pu_threshold_distribution_value}
   */
   readonly multiPuThresholdDistributionValue?: number;
 }
@@ -2907,11 +2907,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodByeCfg {
   /**
   * BYE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#bye DdosZoneTemplateSip#bye}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#bye DdosZoneTemplateSip#bye}
   */
   readonly bye?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_bye_rate DdosZoneTemplateSip#src_sip_bye_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_bye_rate DdosZoneTemplateSip#src_sip_bye_rate}
   */
   readonly srcSipByeRate?: number;
 }
@@ -3026,11 +3026,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodInviteCfg {
   /**
   * INVITE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#invite DdosZoneTemplateSip#invite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#invite DdosZoneTemplateSip#invite}
   */
   readonly invite?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_invite_rate DdosZoneTemplateSip#src_sip_invite_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_invite_rate DdosZoneTemplateSip#src_sip_invite_rate}
   */
   readonly srcSipInviteRate?: number;
 }
@@ -3145,11 +3145,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodMessageCfg {
   /**
   * MESSAGE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#message DdosZoneTemplateSip#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#message DdosZoneTemplateSip#message}
   */
   readonly message?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_message_rate DdosZoneTemplateSip#src_sip_message_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_message_rate DdosZoneTemplateSip#src_sip_message_rate}
   */
   readonly srcSipMessageRate?: number;
 }
@@ -3264,11 +3264,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodNotifyCfg {
   /**
   * NOTIFY method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#notify DdosZoneTemplateSip#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#notify DdosZoneTemplateSip#notify}
   */
   readonly notify?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_notify_rate DdosZoneTemplateSip#src_sip_notify_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_notify_rate DdosZoneTemplateSip#src_sip_notify_rate}
   */
   readonly srcSipNotifyRate?: number;
 }
@@ -3383,11 +3383,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodOptionsCfg {
   /**
   * OPTIONS method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#options DdosZoneTemplateSip#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#options DdosZoneTemplateSip#options}
   */
   readonly options?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_options_rate DdosZoneTemplateSip#src_sip_options_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_options_rate DdosZoneTemplateSip#src_sip_options_rate}
   */
   readonly srcSipOptionsRate?: number;
 }
@@ -3502,11 +3502,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodReferCfg {
   /**
   * REFER method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#refer DdosZoneTemplateSip#refer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#refer DdosZoneTemplateSip#refer}
   */
   readonly refer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_refer_rate DdosZoneTemplateSip#src_sip_refer_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_refer_rate DdosZoneTemplateSip#src_sip_refer_rate}
   */
   readonly srcSipReferRate?: number;
 }
@@ -3621,11 +3621,11 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodRegisterCfg {
   /**
   * REGISTER method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#register DdosZoneTemplateSip#register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#register DdosZoneTemplateSip#register}
   */
   readonly register?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_register_rate DdosZoneTemplateSip#src_sip_register_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_register_rate DdosZoneTemplateSip#src_sip_register_rate}
   */
   readonly srcSipRegisterRate?: number;
 }
@@ -3738,13 +3738,13 @@ export class DdosZoneTemplateSipSrcSipRequestRateLimitMethodRegisterCfgOutputRef
 }
 export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodSubscribeCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_subscribe_rate DdosZoneTemplateSip#src_sip_subscribe_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_subscribe_rate DdosZoneTemplateSip#src_sip_subscribe_rate}
   */
   readonly srcSipSubscribeRate?: number;
   /**
   * SUBSCRIBE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#subscribe DdosZoneTemplateSip#subscribe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#subscribe DdosZoneTemplateSip#subscribe}
   */
   readonly subscribe?: number;
 }
@@ -3857,13 +3857,13 @@ export class DdosZoneTemplateSipSrcSipRequestRateLimitMethodSubscribeCfgOutputRe
 }
 export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethodUpdateCfg {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_update_rate DdosZoneTemplateSip#src_sip_update_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_update_rate DdosZoneTemplateSip#src_sip_update_rate}
   */
   readonly srcSipUpdateRate?: number;
   /**
   * UPDATE method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#update DdosZoneTemplateSip#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#update DdosZoneTemplateSip#update}
   */
   readonly update?: number;
 }
@@ -3978,55 +3978,55 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimitMethod {
   /**
   * bye_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#bye_cfg DdosZoneTemplateSip#bye_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#bye_cfg DdosZoneTemplateSip#bye_cfg}
   */
   readonly byeCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodByeCfg;
   /**
   * invite_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#invite_cfg DdosZoneTemplateSip#invite_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#invite_cfg DdosZoneTemplateSip#invite_cfg}
   */
   readonly inviteCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodInviteCfg;
   /**
   * message_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#message_cfg DdosZoneTemplateSip#message_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#message_cfg DdosZoneTemplateSip#message_cfg}
   */
   readonly messageCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodMessageCfg;
   /**
   * notify_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#notify_cfg DdosZoneTemplateSip#notify_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#notify_cfg DdosZoneTemplateSip#notify_cfg}
   */
   readonly notifyCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodNotifyCfg;
   /**
   * options_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#options_cfg DdosZoneTemplateSip#options_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#options_cfg DdosZoneTemplateSip#options_cfg}
   */
   readonly optionsCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodOptionsCfg;
   /**
   * refer_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#refer_cfg DdosZoneTemplateSip#refer_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#refer_cfg DdosZoneTemplateSip#refer_cfg}
   */
   readonly referCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodReferCfg;
   /**
   * register_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#register_cfg DdosZoneTemplateSip#register_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#register_cfg DdosZoneTemplateSip#register_cfg}
   */
   readonly registerCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodRegisterCfg;
   /**
   * subscribe_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#subscribe_cfg DdosZoneTemplateSip#subscribe_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#subscribe_cfg DdosZoneTemplateSip#subscribe_cfg}
   */
   readonly subscribeCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodSubscribeCfg;
   /**
   * update_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#update_cfg DdosZoneTemplateSip#update_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#update_cfg DdosZoneTemplateSip#update_cfg}
   */
   readonly updateCfg?: DdosZoneTemplateSipSrcSipRequestRateLimitMethodUpdateCfg;
 }
@@ -4344,19 +4344,19 @@ export interface DdosZoneTemplateSipSrcSipRequestRateLimit {
   /**
   * 'drop': Drop packets(Default); 'ignore': Take no action; 'reset': Reset (sip-tcp) client connection; 'blacklist-src': Blacklist-src;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_rate_action DdosZoneTemplateSip#src_sip_rate_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_rate_action DdosZoneTemplateSip#src_sip_rate_action}
   */
   readonly srcSipRateAction?: string;
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#src_sip_rate_action_list_name DdosZoneTemplateSip#src_sip_rate_action_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#src_sip_rate_action_list_name DdosZoneTemplateSip#src_sip_rate_action_list_name}
   */
   readonly srcSipRateActionListName?: string;
   /**
   * method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#method DdosZoneTemplateSip#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#method DdosZoneTemplateSip#method}
   */
   readonly method?: DdosZoneTemplateSipSrcSipRequestRateLimitMethod;
 }
@@ -4500,7 +4500,7 @@ export interface DdosZoneTemplateSipSrc {
   /**
   * sip_request_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#sip_request_rate_limit DdosZoneTemplateSip#sip_request_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#sip_request_rate_limit DdosZoneTemplateSip#sip_request_rate_limit}
   */
   readonly sipRequestRateLimit?: DdosZoneTemplateSipSrcSipRequestRateLimit;
 }
@@ -4584,7 +4584,7 @@ export class DdosZoneTemplateSipSrcOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip thunder_ddos_zone_template_sip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip thunder_ddos_zone_template_sip}
 */
 export class DdosZoneTemplateSip extends cdktf.TerraformResource {
 
@@ -4600,7 +4600,7 @@ export class DdosZoneTemplateSip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosZoneTemplateSip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosZoneTemplateSip to import
-  * @param importFromId The id of the existing DdosZoneTemplateSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosZoneTemplateSip that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosZoneTemplateSip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4612,7 +4612,7 @@ export class DdosZoneTemplateSip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_zone_template_sip thunder_ddos_zone_template_sip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_zone_template_sip thunder_ddos_zone_template_sip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4623,8 +4623,8 @@ export class DdosZoneTemplateSip extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_zone_template_sip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

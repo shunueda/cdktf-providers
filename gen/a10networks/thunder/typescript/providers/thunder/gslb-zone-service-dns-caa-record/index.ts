@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface GslbZoneServiceDnsCaaRecordConfig extends cdktf.TerraformMetaAr
   /**
   * Issuer Critical Flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#critical_flag GslbZoneServiceDnsCaaRecord#critical_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#critical_flag GslbZoneServiceDnsCaaRecord#critical_flag}
   */
   readonly criticalFlag: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#id GslbZoneServiceDnsCaaRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#id GslbZoneServiceDnsCaaRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#name GslbZoneServiceDnsCaaRecord#name}
-  */
-  readonly name: string;
-  /**
   * Specify other property tags, only allowed lowercase alphanumeric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#property_tag GslbZoneServiceDnsCaaRecord#property_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#property_tag GslbZoneServiceDnsCaaRecord#property_tag}
   */
   readonly propertyTag: string;
   /**
   * Specify the Issuer Domain Name or a URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#rdata GslbZoneServiceDnsCaaRecord#rdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#rdata GslbZoneServiceDnsCaaRecord#rdata}
   */
   readonly rdata: string;
   /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#service_name GslbZoneServiceDnsCaaRecord#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#service_name GslbZoneServiceDnsCaaRecord#service_name}
   */
   readonly serviceName: string;
   /**
   * ServicePort
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#service_port GslbZoneServiceDnsCaaRecord#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#service_port GslbZoneServiceDnsCaaRecord#service_port}
   */
   readonly servicePort: string;
   /**
   * Specify TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#ttl GslbZoneServiceDnsCaaRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#ttl GslbZoneServiceDnsCaaRecord#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#uuid GslbZoneServiceDnsCaaRecord#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#uuid GslbZoneServiceDnsCaaRecord#uuid}
   */
   readonly uuid?: string;
   /**
+  * Zone_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#zone_name GslbZoneServiceDnsCaaRecord#zone_name}
+  */
+  readonly zoneName: string;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#sampling_enable GslbZoneServiceDnsCaaRecord#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#sampling_enable GslbZoneServiceDnsCaaRecord#sampling_enable}
   */
   readonly samplingEnable?: GslbZoneServiceDnsCaaRecordSamplingEnable[] | cdktf.IResolvable;
 }
@@ -73,7 +73,7 @@ export interface GslbZoneServiceDnsCaaRecordSamplingEnable {
   /**
   * 'all': all; 'hits': Number of times the CAA has been used;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#counters1 GslbZoneServiceDnsCaaRecord#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#counters1 GslbZoneServiceDnsCaaRecord#counters1}
   */
   readonly counters1?: string;
 }
@@ -189,7 +189,7 @@ export class GslbZoneServiceDnsCaaRecordSamplingEnableList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record thunder_gslb_zone_service_dns_caa_record}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record thunder_gslb_zone_service_dns_caa_record}
 */
 export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GslbZoneServiceDnsCaaRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GslbZoneServiceDnsCaaRecord to import
-  * @param importFromId The id of the existing GslbZoneServiceDnsCaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GslbZoneServiceDnsCaaRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GslbZoneServiceDnsCaaRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/gslb_zone_service_dns_caa_record thunder_gslb_zone_service_dns_caa_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/gslb_zone_service_dns_caa_record thunder_gslb_zone_service_dns_caa_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_gslb_zone_service_dns_caa_record',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -241,13 +241,13 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
     });
     this._criticalFlag = config.criticalFlag;
     this._id = config.id;
-    this._name = config.name;
     this._propertyTag = config.propertyTag;
     this._rdata = config.rdata;
     this._serviceName = config.serviceName;
     this._servicePort = config.servicePort;
     this._ttl = config.ttl;
     this._uuid = config.uuid;
+    this._zoneName = config.zoneName;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
 
@@ -282,19 +282,6 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // property_tag - computed: false, optional: false, required: true
@@ -381,6 +368,19 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // zone_name - computed: false, optional: false, required: true
+  private _zoneName?: string; 
+  public get zoneName() {
+    return this.getStringAttribute('zone_name');
+  }
+  public set zoneName(value: string) {
+    this._zoneName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneNameInput() {
+    return this._zoneName;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new GslbZoneServiceDnsCaaRecordSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -405,13 +405,13 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
     return {
       critical_flag: cdktf.numberToTerraform(this._criticalFlag),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       property_tag: cdktf.stringToTerraform(this._propertyTag),
       rdata: cdktf.stringToTerraform(this._rdata),
       service_name: cdktf.stringToTerraform(this._serviceName),
       service_port: cdktf.stringToTerraform(this._servicePort),
       ttl: cdktf.numberToTerraform(this._ttl),
       uuid: cdktf.stringToTerraform(this._uuid),
+      zone_name: cdktf.stringToTerraform(this._zoneName),
       sampling_enable: cdktf.listMapper(gslbZoneServiceDnsCaaRecordSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
     };
   }
@@ -426,12 +426,6 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -468,6 +462,12 @@ export class GslbZoneServiceDnsCaaRecord extends cdktf.TerraformResource {
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      zone_name: {
+        value: cdktf.stringToHclTerraform(this._zoneName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

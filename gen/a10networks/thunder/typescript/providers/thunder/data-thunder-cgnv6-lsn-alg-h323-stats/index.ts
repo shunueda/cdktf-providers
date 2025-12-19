@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnAlgH323StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#id DataThunderCgnv6LsnAlgH323Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#id DataThunderCgnv6LsnAlgH323Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnAlgH323StatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#stats DataThunderCgnv6LsnAlgH323Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#stats DataThunderCgnv6LsnAlgH323Stats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnAlgH323StatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderCgnv6LsnAlgH323StatsStats {
   /**
   * H323 FastStart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#fast_start DataThunderCgnv6LsnAlgH323Stats#fast_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#fast_start DataThunderCgnv6LsnAlgH323Stats#fast_start}
   */
   readonly fastStart?: number;
   /**
   * H323 H225 Call Signaling Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#h225cs_message DataThunderCgnv6LsnAlgH323Stats#h225cs_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#h225cs_message DataThunderCgnv6LsnAlgH323Stats#h225cs_message}
   */
   readonly h225CsMessage?: number;
   /**
   * H323 H225 RAS Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#h225ras_message DataThunderCgnv6LsnAlgH323Stats#h225ras_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#h225ras_message DataThunderCgnv6LsnAlgH323Stats#h225ras_message}
   */
   readonly h225RasMessage?: number;
   /**
   * H323 H245 Tunnelled Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#h245_tunneled DataThunderCgnv6LsnAlgH323Stats#h245_tunneled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#h245_tunneled DataThunderCgnv6LsnAlgH323Stats#h245_tunneled}
   */
   readonly h245Tunneled?: number;
   /**
   * H323 H245 Media Control Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#h245ctl_message DataThunderCgnv6LsnAlgH323Stats#h245ctl_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#h245ctl_message DataThunderCgnv6LsnAlgH323Stats#h245ctl_message}
   */
   readonly h245CtlMessage?: number;
   /**
   * Message Parse Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#parse_error DataThunderCgnv6LsnAlgH323Stats#parse_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#parse_error DataThunderCgnv6LsnAlgH323Stats#parse_error}
   */
   readonly parseError?: number;
   /**
   * TCP Out-of-Order Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgH323Stats#tcp_out_of_order_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#tcp_out_of_order_drop DataThunderCgnv6LsnAlgH323Stats#tcp_out_of_order_drop}
   */
   readonly tcpOutOfOrderDrop?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderCgnv6LsnAlgH323StatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats thunder_cgnv6_lsn_alg_h323_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats thunder_cgnv6_lsn_alg_h323_stats}
 */
 export class DataThunderCgnv6LsnAlgH323Stats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderCgnv6LsnAlgH323Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnAlgH323Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnAlgH323Stats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgH323Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgH323Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnAlgH323Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderCgnv6LsnAlgH323Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_h323_stats thunder_cgnv6_lsn_alg_h323_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_h323_stats thunder_cgnv6_lsn_alg_h323_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderCgnv6LsnAlgH323Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_h323_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

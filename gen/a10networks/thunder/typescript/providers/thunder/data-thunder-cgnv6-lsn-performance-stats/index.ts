@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnPerformanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#id DataThunderCgnv6LsnPerformanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#id DataThunderCgnv6LsnPerformanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,45 +17,45 @@ export interface DataThunderCgnv6LsnPerformanceStatsConfig extends cdktf.Terrafo
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#stats DataThunderCgnv6LsnPerformanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#stats DataThunderCgnv6LsnPerformanceStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnPerformanceStatsStats;
 }
 export interface DataThunderCgnv6LsnPerformanceStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_current_epoch DataThunderCgnv6LsnPerformanceStats#data_sessions_current_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_current_epoch DataThunderCgnv6LsnPerformanceStats#data_sessions_current_epoch}
   */
   readonly dataSessionsCurrentEpoch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#data_sessions_previous_epoch_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#data_sessions_previous_epoch_first}
   */
   readonly dataSessionsPreviousEpochFirst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#data_sessions_previous_epoch_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#data_sessions_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#data_sessions_previous_epoch_last}
   */
   readonly dataSessionsPreviousEpochLast?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_current_epoch DataThunderCgnv6LsnPerformanceStats#fullcone_created_current_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_current_epoch DataThunderCgnv6LsnPerformanceStats#fullcone_created_current_epoch}
   */
   readonly fullconeCreatedCurrentEpoch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#fullcone_created_previous_epoch_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#fullcone_created_previous_epoch_first}
   */
   readonly fullconeCreatedPreviousEpochFirst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#fullcone_created_previous_epoch_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#fullcone_created_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#fullcone_created_previous_epoch_last}
   */
   readonly fullconeCreatedPreviousEpochLast?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_current_epoch DataThunderCgnv6LsnPerformanceStats#user_quote_created_current_epoch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_current_epoch DataThunderCgnv6LsnPerformanceStats#user_quote_created_current_epoch}
   */
   readonly userQuoteCreatedCurrentEpoch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#user_quote_created_previous_epoch_first}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_previous_epoch_first DataThunderCgnv6LsnPerformanceStats#user_quote_created_previous_epoch_first}
   */
   readonly userQuoteCreatedPreviousEpochFirst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#user_quote_created_previous_epoch_last}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#user_quote_created_previous_epoch_last DataThunderCgnv6LsnPerformanceStats#user_quote_created_previous_epoch_last}
   */
   readonly userQuoteCreatedPreviousEpochLast?: number;
 }
@@ -371,7 +371,7 @@ export class DataThunderCgnv6LsnPerformanceStatsStatsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats thunder_cgnv6_lsn_performance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats thunder_cgnv6_lsn_performance_stats}
 */
 export class DataThunderCgnv6LsnPerformanceStats extends cdktf.TerraformDataSource {
 
@@ -387,7 +387,7 @@ export class DataThunderCgnv6LsnPerformanceStats extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataThunderCgnv6LsnPerformanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnPerformanceStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnPerformanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnPerformanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnPerformanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class DataThunderCgnv6LsnPerformanceStats extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_performance_stats thunder_cgnv6_lsn_performance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_performance_stats thunder_cgnv6_lsn_performance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class DataThunderCgnv6LsnPerformanceStats extends cdktf.TerraformDataSour
       terraformResourceType: 'thunder_cgnv6_lsn_performance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

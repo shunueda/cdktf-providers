@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DomainListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Create/Edit a domain-list stored as a file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#file DomainList#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#file DomainList#file}
   */
   readonly file?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#id DomainList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#id DomainList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,57 +23,63 @@ export interface DomainListConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify name of the domain list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#name DomainList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#name DomainList#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#user_tag DomainList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#user_tag DomainList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#uuid DomainList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#uuid DomainList#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#domain_name_list DomainList#domain_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#domain_name_list DomainList#domain_name_list}
   */
   readonly domainNameList?: DomainListDomainNameListStruct[] | cdktf.IResolvable;
   /**
   * match_type_axfr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#match_type_axfr DomainList#match_type_axfr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#match_type_axfr DomainList#match_type_axfr}
   */
   readonly matchTypeAxfr?: DomainListMatchTypeAxfr[] | cdktf.IResolvable;
   /**
   * match_type_equals block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#match_type_equals DomainList#match_type_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#match_type_equals DomainList#match_type_equals}
   */
   readonly matchTypeEquals?: DomainListMatchTypeEquals[] | cdktf.IResolvable;
   /**
   * match_type_suffix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#match_type_suffix DomainList#match_type_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#match_type_suffix DomainList#match_type_suffix}
   */
   readonly matchTypeSuffix?: DomainListMatchTypeSuffix[] | cdktf.IResolvable;
 }
 export interface DomainListDomainNameListStruct {
   /**
-  * Domain name to be added to this domain list
+  * Specify the domain name to be added in the domain list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#domain_name DomainList#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#domain_name DomainList#domain_name}
   */
   readonly domainName?: string;
   /**
-  * DNS query interval (in minute, default is 10)
+  * Set up the failure interval in second for the DNS resolution. (default is 30-second)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#interval DomainList#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#fail_interval DomainList#fail_interval}
+  */
+  readonly failInterval?: number;
+  /**
+  * Set up the query interval in minute for the DNS resolution. (default is 10-minute)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#interval DomainList#interval}
   */
   readonly interval?: number;
 }
@@ -85,6 +91,7 @@ export function domainListDomainNameListStructToTerraform(struct?: DomainListDom
   }
   return {
     domain_name: cdktf.stringToTerraform(struct!.domainName),
+    fail_interval: cdktf.numberToTerraform(struct!.failInterval),
     interval: cdktf.numberToTerraform(struct!.interval),
   }
 }
@@ -101,6 +108,12 @@ export function domainListDomainNameListStructToHclTerraform(struct?: DomainList
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    fail_interval: {
+      value: cdktf.numberToHclTerraform(struct!.failInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     interval: {
       value: cdktf.numberToHclTerraform(struct!.interval),
@@ -138,6 +151,10 @@ export class DomainListDomainNameListStructOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.domainName = this._domainName;
     }
+    if (this._failInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failInterval = this._failInterval;
+    }
     if (this._interval !== undefined) {
       hasAnyValues = true;
       internalValueResult.interval = this._interval;
@@ -150,6 +167,7 @@ export class DomainListDomainNameListStructOutputReference extends cdktf.Complex
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._domainName = undefined;
+      this._failInterval = undefined;
       this._interval = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -160,6 +178,7 @@ export class DomainListDomainNameListStructOutputReference extends cdktf.Complex
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._domainName = value.domainName;
+      this._failInterval = value.failInterval;
       this._interval = value.interval;
     }
   }
@@ -178,6 +197,22 @@ export class DomainListDomainNameListStructOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get domainNameInput() {
     return this._domainName;
+  }
+
+  // fail_interval - computed: false, optional: true, required: false
+  private _failInterval?: number; 
+  public get failInterval() {
+    return this.getNumberAttribute('fail_interval');
+  }
+  public set failInterval(value: number) {
+    this._failInterval = value;
+  }
+  public resetFailInterval() {
+    this._failInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failIntervalInput() {
+    return this._failInterval;
   }
 
   // interval - computed: false, optional: true, required: false
@@ -220,43 +255,43 @@ export interface DomainListMatchTypeAxfr {
   /**
   * Import the list of domains via zone-transfer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#axfr_domain DomainList#axfr_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#axfr_domain DomainList#axfr_domain}
   */
   readonly axfrDomain?: string;
   /**
   * IP address of the listening DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#axfr_ip_address DomainList#axfr_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#axfr_ip_address DomainList#axfr_ip_address}
   */
   readonly axfrIpAddress?: string;
   /**
   * IPv6 address of the listening DNS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#axfr_ipv6_address DomainList#axfr_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#axfr_ipv6_address DomainList#axfr_ipv6_address}
   */
   readonly axfrIpv6Address?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#ip_axfr_port_num DomainList#ip_axfr_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#ip_axfr_port_num DomainList#ip_axfr_port_num}
   */
   readonly ipAxfrPortNum?: number;
   /**
   * Poll every x minutes to check for an Updated axfr default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#ip_refresh_intvl DomainList#ip_refresh_intvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#ip_refresh_intvl DomainList#ip_refresh_intvl}
   */
   readonly ipRefreshIntvl?: number;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#ipv6_axfr_port_num DomainList#ipv6_axfr_port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#ipv6_axfr_port_num DomainList#ipv6_axfr_port_num}
   */
   readonly ipv6AxfrPortNum?: number;
   /**
   * Poll every x minutes to check for an Updated axfr default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#ipv6_refresh_intvl DomainList#ipv6_refresh_intvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#ipv6_refresh_intvl DomainList#ipv6_refresh_intvl}
   */
   readonly ipv6RefreshIntvl?: number;
 }
@@ -548,7 +583,7 @@ export interface DomainListMatchTypeEquals {
   /**
   * Specify exact match for the Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#equals DomainList#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#equals DomainList#equals}
   */
   readonly equalTo?: string;
 }
@@ -666,7 +701,7 @@ export interface DomainListMatchTypeSuffix {
   /**
   * Specify suffix matching the Domain Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#suffix DomainList#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#suffix DomainList#suffix}
   */
   readonly suffix?: string;
 }
@@ -782,7 +817,7 @@ export class DomainListMatchTypeSuffixList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list thunder_domain_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list thunder_domain_list}
 */
 export class DomainList extends cdktf.TerraformResource {
 
@@ -798,7 +833,7 @@ export class DomainList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainList to import
-  * @param importFromId The id of the existing DomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -810,7 +845,7 @@ export class DomainList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_list thunder_domain_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_list thunder_domain_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -821,8 +856,8 @@ export class DomainList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_domain_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

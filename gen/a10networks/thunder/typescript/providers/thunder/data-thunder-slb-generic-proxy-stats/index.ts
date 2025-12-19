@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbGenericProxyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#id DataThunderSlbGenericProxyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#id DataThunderSlbGenericProxyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbGenericProxyStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#stats DataThunderSlbGenericProxyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#stats DataThunderSlbGenericProxyStats#stats}
   */
   readonly stats?: DataThunderSlbGenericProxyStatsStats;
 }
@@ -25,439 +25,451 @@ export interface DataThunderSlbGenericProxyStatsStats {
   /**
   * Number of ACAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#aca_in DataThunderSlbGenericProxyStats#aca_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#aca_in DataThunderSlbGenericProxyStats#aca_in}
   */
   readonly acaIn?: number;
   /**
   * Number of ACAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#aca_out DataThunderSlbGenericProxyStats#aca_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#aca_out DataThunderSlbGenericProxyStats#aca_out}
   */
   readonly acaOut?: number;
   /**
   * Number of ACRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#acr_in DataThunderSlbGenericProxyStats#acr_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#acr_in DataThunderSlbGenericProxyStats#acr_in}
   */
   readonly acrIn?: number;
   /**
   * Number of ACRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#acr_out DataThunderSlbGenericProxyStats#acr_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#acr_out DataThunderSlbGenericProxyStats#acr_out}
   */
   readonly acrOut?: number;
   /**
   * Number of ASAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#asa_in DataThunderSlbGenericProxyStats#asa_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#asa_in DataThunderSlbGenericProxyStats#asa_in}
   */
   readonly asaIn?: number;
   /**
   * Number of ASAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#asa_out DataThunderSlbGenericProxyStats#asa_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#asa_out DataThunderSlbGenericProxyStats#asa_out}
   */
   readonly asaOut?: number;
   /**
   * Number of ASRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#asr_in DataThunderSlbGenericProxyStats#asr_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#asr_in DataThunderSlbGenericProxyStats#asr_in}
   */
   readonly asrIn?: number;
   /**
   * Number of ASRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#asr_out DataThunderSlbGenericProxyStats#asr_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#asr_out DataThunderSlbGenericProxyStats#asr_out}
   */
   readonly asrOut?: number;
   /**
   * Number of CCAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cca_in DataThunderSlbGenericProxyStats#cca_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cca_in DataThunderSlbGenericProxyStats#cca_in}
   */
   readonly ccaIn?: number;
   /**
   * Number of CCAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cca_out DataThunderSlbGenericProxyStats#cca_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cca_out DataThunderSlbGenericProxyStats#cca_out}
   */
   readonly ccaOut?: number;
   /**
   * Number of CCAs terminate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cca_t DataThunderSlbGenericProxyStats#cca_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cca_t DataThunderSlbGenericProxyStats#cca_t}
   */
   readonly ccaT?: number;
   /**
   * Number of CCRs initial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#ccr_i DataThunderSlbGenericProxyStats#ccr_i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#ccr_i DataThunderSlbGenericProxyStats#ccr_i}
   */
   readonly ccrI?: number;
   /**
   * Number of CCRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#ccr_in DataThunderSlbGenericProxyStats#ccr_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#ccr_in DataThunderSlbGenericProxyStats#ccr_in}
   */
   readonly ccrIn?: number;
   /**
   * Number of CCRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#ccr_out DataThunderSlbGenericProxyStats#ccr_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#ccr_out DataThunderSlbGenericProxyStats#ccr_out}
   */
   readonly ccrOut?: number;
   /**
   * Number of CCRs terminate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#ccr_t DataThunderSlbGenericProxyStats#ccr_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#ccr_t DataThunderSlbGenericProxyStats#ccr_t}
   */
   readonly ccrT?: number;
   /**
   * Number of CCRs update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#ccr_u DataThunderSlbGenericProxyStats#ccr_u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#ccr_u DataThunderSlbGenericProxyStats#ccr_u}
   */
   readonly ccrU?: number;
   /**
   * Number of CEAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cea_in DataThunderSlbGenericProxyStats#cea_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cea_in DataThunderSlbGenericProxyStats#cea_in}
   */
   readonly ceaIn?: number;
   /**
   * Number of CEAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cea_out DataThunderSlbGenericProxyStats#cea_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cea_out DataThunderSlbGenericProxyStats#cea_out}
   */
   readonly ceaOut?: number;
   /**
   * Number of CERs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cer_in DataThunderSlbGenericProxyStats#cer_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cer_in DataThunderSlbGenericProxyStats#cer_in}
   */
   readonly cerIn?: number;
   /**
   * Number of CERs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#cer_out DataThunderSlbGenericProxyStats#cer_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#cer_out DataThunderSlbGenericProxyStats#cer_out}
   */
   readonly cerOut?: number;
   /**
   * Number of client failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#client_fail DataThunderSlbGenericProxyStats#client_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#client_fail DataThunderSlbGenericProxyStats#client_fail}
   */
   readonly clientFail?: number;
   /**
   * Fail to select client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#client_select_fail DataThunderSlbGenericProxyStats#client_select_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#client_select_fail DataThunderSlbGenericProxyStats#client_select_fail}
   */
   readonly clientSelectFail?: number;
   /**
   * Close client conn when virtual port is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#close_conn_when_vport_down DataThunderSlbGenericProxyStats#close_conn_when_vport_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#close_conn_when_vport_down DataThunderSlbGenericProxyStats#close_conn_when_vport_down}
   */
   readonly closeConnWhenVportDown?: number;
   /**
   * Client initiates TCP close/reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#conn_closed_by_client DataThunderSlbGenericProxyStats#conn_closed_by_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#conn_closed_by_client DataThunderSlbGenericProxyStats#conn_closed_by_client}
   */
   readonly connClosedByClient?: number;
   /**
   * Server initiates TCP close/reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#conn_closed_by_server DataThunderSlbGenericProxyStats#conn_closed_by_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#conn_closed_by_server DataThunderSlbGenericProxyStats#conn_closed_by_server}
   */
   readonly connClosedByServer?: number;
   /**
   * Current
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#curr DataThunderSlbGenericProxyStats#curr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#curr DataThunderSlbGenericProxyStats#curr}
   */
   readonly curr?: number;
   /**
   * Diameter cross cpu error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dcmsg_error DataThunderSlbGenericProxyStats#dcmsg_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dcmsg_error DataThunderSlbGenericProxyStats#dcmsg_error}
   */
   readonly dcmsgError?: number;
   /**
   * Diameter cross cpu fwd in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dcmsg_fwd_in DataThunderSlbGenericProxyStats#dcmsg_fwd_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dcmsg_fwd_in DataThunderSlbGenericProxyStats#dcmsg_fwd_in}
   */
   readonly dcmsgFwdIn?: number;
   /**
   * Diameter cross cpu fwd out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dcmsg_fwd_out DataThunderSlbGenericProxyStats#dcmsg_fwd_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dcmsg_fwd_out DataThunderSlbGenericProxyStats#dcmsg_fwd_out}
   */
   readonly dcmsgFwdOut?: number;
   /**
   * Diameter cross cpu rev in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dcmsg_rev_in DataThunderSlbGenericProxyStats#dcmsg_rev_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dcmsg_rev_in DataThunderSlbGenericProxyStats#dcmsg_rev_in}
   */
   readonly dcmsgRevIn?: number;
   /**
   * Diameter cross cpu rev out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dcmsg_rev_out DataThunderSlbGenericProxyStats#dcmsg_rev_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dcmsg_rev_out DataThunderSlbGenericProxyStats#dcmsg_rev_out}
   */
   readonly dcmsgRevOut?: number;
   /**
+  * Number of DIAMETER_TOO_BUSY in
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#diameter_too_busy_in DataThunderSlbGenericProxyStats#diameter_too_busy_in}
+  */
+  readonly diameterTooBusyIn?: number;
+  /**
+  * Number of DIAMETER_TOO_BUSY out
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#diameter_too_busy_out DataThunderSlbGenericProxyStats#diameter_too_busy_out}
+  */
+  readonly diameterTooBusyOut?: number;
+  /**
   * Number of DPAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dpa_in DataThunderSlbGenericProxyStats#dpa_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dpa_in DataThunderSlbGenericProxyStats#dpa_in}
   */
   readonly dpaIn?: number;
   /**
   * Number of DPAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dpa_out DataThunderSlbGenericProxyStats#dpa_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dpa_out DataThunderSlbGenericProxyStats#dpa_out}
   */
   readonly dpaOut?: number;
   /**
   * Number of DPRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dpr_in DataThunderSlbGenericProxyStats#dpr_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dpr_in DataThunderSlbGenericProxyStats#dpr_in}
   */
   readonly dprIn?: number;
   /**
   * Number of DPRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dpr_out DataThunderSlbGenericProxyStats#dpr_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dpr_out DataThunderSlbGenericProxyStats#dpr_out}
   */
   readonly dprOut?: number;
   /**
   * Number of DWAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dwa_in DataThunderSlbGenericProxyStats#dwa_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dwa_in DataThunderSlbGenericProxyStats#dwa_in}
   */
   readonly dwaIn?: number;
   /**
   * Number of DWAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dwa_out DataThunderSlbGenericProxyStats#dwa_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dwa_out DataThunderSlbGenericProxyStats#dwa_out}
   */
   readonly dwaOut?: number;
   /**
   * Number of DWRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dwr_in DataThunderSlbGenericProxyStats#dwr_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dwr_in DataThunderSlbGenericProxyStats#dwr_in}
   */
   readonly dwrIn?: number;
   /**
   * Number of DWRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#dwr_out DataThunderSlbGenericProxyStats#dwr_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#dwr_out DataThunderSlbGenericProxyStats#dwr_out}
   */
   readonly dwrOut?: number;
   /**
   * Forward server side message with unknown session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#forward_unknown_session_id DataThunderSlbGenericProxyStats#forward_unknown_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#forward_unknown_session_id DataThunderSlbGenericProxyStats#forward_unknown_session_id}
   */
   readonly forwardUnknownSessionId?: number;
   /**
   * AVP value contains illegal chars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#invalid_avp DataThunderSlbGenericProxyStats#invalid_avp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#invalid_avp DataThunderSlbGenericProxyStats#invalid_avp}
   */
   readonly invalidAvp?: number;
   /**
   * Diameter mismatch fwd session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#mismatch_fwd_id DataThunderSlbGenericProxyStats#mismatch_fwd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#mismatch_fwd_id DataThunderSlbGenericProxyStats#mismatch_fwd_id}
   */
   readonly mismatchFwdId?: number;
   /**
   * Diameter mismatch rev session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#mismatch_rev_id DataThunderSlbGenericProxyStats#mismatch_rev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#mismatch_rev_id DataThunderSlbGenericProxyStats#mismatch_rev_id}
   */
   readonly mismatchRevId?: number;
   /**
   * Diameter no fwd tuple matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#no_fwd_tuple DataThunderSlbGenericProxyStats#no_fwd_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#no_fwd_tuple DataThunderSlbGenericProxyStats#no_fwd_tuple}
   */
   readonly noFwdTuple?: number;
   /**
   * Diameter no rev tuple matched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#no_rev_tuple DataThunderSlbGenericProxyStats#no_rev_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#no_rev_tuple DataThunderSlbGenericProxyStats#no_rev_tuple}
   */
   readonly noRevTuple?: number;
   /**
   * Number of no routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#no_route DataThunderSlbGenericProxyStats#no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#no_route DataThunderSlbGenericProxyStats#no_route}
   */
   readonly noRoute?: number;
   /**
   * Number of no sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#no_sess DataThunderSlbGenericProxyStats#no_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#no_sess DataThunderSlbGenericProxyStats#no_sess}
   */
   readonly noSess?: number;
   /**
   * Diameter no session id avp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#no_session_id DataThunderSlbGenericProxyStats#no_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#no_session_id DataThunderSlbGenericProxyStats#no_session_id}
   */
   readonly noSessionId?: number;
   /**
   * Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#num DataThunderSlbGenericProxyStats#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#num DataThunderSlbGenericProxyStats#num}
   */
   readonly num?: number;
   /**
   * Number of other messages in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#other_in DataThunderSlbGenericProxyStats#other_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#other_in DataThunderSlbGenericProxyStats#other_in}
   */
   readonly otherIn?: number;
   /**
   * Number of other messages out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#other_out DataThunderSlbGenericProxyStats#other_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#other_out DataThunderSlbGenericProxyStats#other_out}
   */
   readonly otherOut?: number;
   /**
   * Fail to reply error info to peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reply_error_info_fail DataThunderSlbGenericProxyStats#reply_error_info_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reply_error_info_fail DataThunderSlbGenericProxyStats#reply_error_info_fail}
   */
   readonly replyErrorInfoFail?: number;
   /**
   * Reply with invalid AVP error info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reply_invalid_avp_value DataThunderSlbGenericProxyStats#reply_invalid_avp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reply_invalid_avp_value DataThunderSlbGenericProxyStats#reply_invalid_avp_value}
   */
   readonly replyInvalidAvpValue?: number;
   /**
   * Reply with unable to deliver error info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reply_unable_to_deliver DataThunderSlbGenericProxyStats#reply_unable_to_deliver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reply_unable_to_deliver DataThunderSlbGenericProxyStats#reply_unable_to_deliver}
   */
   readonly replyUnableToDeliver?: number;
   /**
   * Reply with unknown session ID error info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reply_unknown_session_id DataThunderSlbGenericProxyStats#reply_unknown_session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reply_unknown_session_id DataThunderSlbGenericProxyStats#reply_unknown_session_id}
   */
   readonly replyUnknownSessionId?: number;
   /**
   * Original client tuple does not exist so reselect another one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reselect_fwd_tuple DataThunderSlbGenericProxyStats#reselect_fwd_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reselect_fwd_tuple DataThunderSlbGenericProxyStats#reselect_fwd_tuple}
   */
   readonly reselectFwdTuple?: number;
   /**
   * Original client tuple does not exist so reselect another one on other CPUs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reselect_fwd_tuple_other_cpu DataThunderSlbGenericProxyStats#reselect_fwd_tuple_other_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reselect_fwd_tuple_other_cpu DataThunderSlbGenericProxyStats#reselect_fwd_tuple_other_cpu}
   */
   readonly reselectFwdTupleOtherCpu?: number;
   /**
   * Original server tuple does not exist so reselect another one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#reselect_rev_tuple DataThunderSlbGenericProxyStats#reselect_rev_tuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#reselect_rev_tuple DataThunderSlbGenericProxyStats#reselect_rev_tuple}
   */
   readonly reselectRevTuple?: number;
   /**
   * Diameter retry client request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#retry_client_request DataThunderSlbGenericProxyStats#retry_client_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#retry_client_request DataThunderSlbGenericProxyStats#retry_client_request}
   */
   readonly retryClientRequest?: number;
   /**
   * Diameter retry client request fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#retry_client_request_fail DataThunderSlbGenericProxyStats#retry_client_request_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#retry_client_request_fail DataThunderSlbGenericProxyStats#retry_client_request_fail}
   */
   readonly retryClientRequestFail?: number;
   /**
   * Number of server failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#server_fail DataThunderSlbGenericProxyStats#server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#server_fail DataThunderSlbGenericProxyStats#server_fail}
   */
   readonly serverFail?: number;
   /**
   * Number of snat failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#snat_fail DataThunderSlbGenericProxyStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#snat_fail DataThunderSlbGenericProxyStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Number of STAs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#sta_in DataThunderSlbGenericProxyStats#sta_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#sta_in DataThunderSlbGenericProxyStats#sta_in}
   */
   readonly staIn?: number;
   /**
   * Number of STAs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#sta_out DataThunderSlbGenericProxyStats#sta_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#sta_out DataThunderSlbGenericProxyStats#sta_out}
   */
   readonly staOut?: number;
   /**
   * Number of STRs in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#str_in DataThunderSlbGenericProxyStats#str_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#str_in DataThunderSlbGenericProxyStats#str_in}
   */
   readonly strIn?: number;
   /**
   * Number of STRs out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#str_out DataThunderSlbGenericProxyStats#str_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#str_out DataThunderSlbGenericProxyStats#str_out}
   */
   readonly strOut?: number;
   /**
   * Number of server selection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#svrsel_fail DataThunderSlbGenericProxyStats#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#svrsel_fail DataThunderSlbGenericProxyStats#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Diameter terminate on cca_t
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#terminate_on_cca_t DataThunderSlbGenericProxyStats#terminate_on_cca_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#terminate_on_cca_t DataThunderSlbGenericProxyStats#terminate_on_cca_t}
   */
   readonly terminateOnCcaT?: number;
   /**
   * Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#total DataThunderSlbGenericProxyStats#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#total DataThunderSlbGenericProxyStats#total}
   */
   readonly total?: number;
   /**
   * Total number of HTTP requests enter generic proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#total_http_req_enter_gen DataThunderSlbGenericProxyStats#total_http_req_enter_gen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#total_http_req_enter_gen DataThunderSlbGenericProxyStats#total_http_req_enter_gen}
   */
   readonly totalHttpReqEnterGen?: number;
   /**
   * Diameter unkown cmd code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#unkwn_cmd_code DataThunderSlbGenericProxyStats#unkwn_cmd_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#unkwn_cmd_code DataThunderSlbGenericProxyStats#unkwn_cmd_code}
   */
   readonly unkwnCmdCode?: number;
   /**
   * Update to the latest server that used a session id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#update_latest_server DataThunderSlbGenericProxyStats#update_latest_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#update_latest_server DataThunderSlbGenericProxyStats#update_latest_server}
   */
   readonly updateLatestServer?: number;
   /**
   * Number of user sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#user_session DataThunderSlbGenericProxyStats#user_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#user_session DataThunderSlbGenericProxyStats#user_session}
   */
   readonly userSession?: number;
 }
@@ -499,6 +511,8 @@ export function dataThunderSlbGenericProxyStatsStatsToTerraform(struct?: DataThu
     dcmsg_fwd_out: cdktf.numberToTerraform(struct!.dcmsgFwdOut),
     dcmsg_rev_in: cdktf.numberToTerraform(struct!.dcmsgRevIn),
     dcmsg_rev_out: cdktf.numberToTerraform(struct!.dcmsgRevOut),
+    diameter_too_busy_in: cdktf.numberToTerraform(struct!.diameterTooBusyIn),
+    diameter_too_busy_out: cdktf.numberToTerraform(struct!.diameterTooBusyOut),
     dpa_in: cdktf.numberToTerraform(struct!.dpaIn),
     dpa_out: cdktf.numberToTerraform(struct!.dpaOut),
     dpr_in: cdktf.numberToTerraform(struct!.dprIn),
@@ -733,6 +747,18 @@ export function dataThunderSlbGenericProxyStatsStatsToHclTerraform(struct?: Data
     },
     dcmsg_rev_out: {
       value: cdktf.numberToHclTerraform(struct!.dcmsgRevOut),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    diameter_too_busy_in: {
+      value: cdktf.numberToHclTerraform(struct!.diameterTooBusyIn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    diameter_too_busy_out: {
+      value: cdktf.numberToHclTerraform(struct!.diameterTooBusyOut),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1133,6 +1159,14 @@ export class DataThunderSlbGenericProxyStatsStatsOutputReference extends cdktf.C
       hasAnyValues = true;
       internalValueResult.dcmsgRevOut = this._dcmsgRevOut;
     }
+    if (this._diameterTooBusyIn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diameterTooBusyIn = this._diameterTooBusyIn;
+    }
+    if (this._diameterTooBusyOut !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diameterTooBusyOut = this._diameterTooBusyOut;
+    }
     if (this._dpaIn !== undefined) {
       hasAnyValues = true;
       internalValueResult.dpaIn = this._dpaIn;
@@ -1338,6 +1372,8 @@ export class DataThunderSlbGenericProxyStatsStatsOutputReference extends cdktf.C
       this._dcmsgFwdOut = undefined;
       this._dcmsgRevIn = undefined;
       this._dcmsgRevOut = undefined;
+      this._diameterTooBusyIn = undefined;
+      this._diameterTooBusyOut = undefined;
       this._dpaIn = undefined;
       this._dpaOut = undefined;
       this._dprIn = undefined;
@@ -1414,6 +1450,8 @@ export class DataThunderSlbGenericProxyStatsStatsOutputReference extends cdktf.C
       this._dcmsgFwdOut = value.dcmsgFwdOut;
       this._dcmsgRevIn = value.dcmsgRevIn;
       this._dcmsgRevOut = value.dcmsgRevOut;
+      this._diameterTooBusyIn = value.diameterTooBusyIn;
+      this._diameterTooBusyOut = value.diameterTooBusyOut;
       this._dpaIn = value.dpaIn;
       this._dpaOut = value.dpaOut;
       this._dprIn = value.dprIn;
@@ -1953,6 +1991,38 @@ export class DataThunderSlbGenericProxyStatsStatsOutputReference extends cdktf.C
   // Temporarily expose input value. Use with caution.
   public get dcmsgRevOutInput() {
     return this._dcmsgRevOut;
+  }
+
+  // diameter_too_busy_in - computed: false, optional: true, required: false
+  private _diameterTooBusyIn?: number; 
+  public get diameterTooBusyIn() {
+    return this.getNumberAttribute('diameter_too_busy_in');
+  }
+  public set diameterTooBusyIn(value: number) {
+    this._diameterTooBusyIn = value;
+  }
+  public resetDiameterTooBusyIn() {
+    this._diameterTooBusyIn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diameterTooBusyInInput() {
+    return this._diameterTooBusyIn;
+  }
+
+  // diameter_too_busy_out - computed: false, optional: true, required: false
+  private _diameterTooBusyOut?: number; 
+  public get diameterTooBusyOut() {
+    return this.getNumberAttribute('diameter_too_busy_out');
+  }
+  public set diameterTooBusyOut(value: number) {
+    this._diameterTooBusyOut = value;
+  }
+  public resetDiameterTooBusyOut() {
+    this._diameterTooBusyOut = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diameterTooBusyOutInput() {
+    return this._diameterTooBusyOut;
   }
 
   // dpa_in - computed: false, optional: true, required: false
@@ -2629,7 +2699,7 @@ export class DataThunderSlbGenericProxyStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats thunder_slb_generic_proxy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats thunder_slb_generic_proxy_stats}
 */
 export class DataThunderSlbGenericProxyStats extends cdktf.TerraformDataSource {
 
@@ -2645,7 +2715,7 @@ export class DataThunderSlbGenericProxyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbGenericProxyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbGenericProxyStats to import
-  * @param importFromId The id of the existing DataThunderSlbGenericProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbGenericProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbGenericProxyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2657,7 +2727,7 @@ export class DataThunderSlbGenericProxyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_generic_proxy_stats thunder_slb_generic_proxy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_generic_proxy_stats thunder_slb_generic_proxy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2668,8 +2738,8 @@ export class DataThunderSlbGenericProxyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_generic_proxy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface CsAutoscalingConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#cluster_id CsAutoscalingConfig#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#cluster_id CsAutoscalingConfig#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#cool_down_duration CsAutoscalingConfig#cool_down_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#cool_down_duration CsAutoscalingConfig#cool_down_duration}
   */
   readonly coolDownDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#daemonset_eviction_for_nodes CsAutoscalingConfig#daemonset_eviction_for_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#daemonset_eviction_for_nodes CsAutoscalingConfig#daemonset_eviction_for_nodes}
   */
   readonly daemonsetEvictionForNodes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#expander CsAutoscalingConfig#expander}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#expander CsAutoscalingConfig#expander}
   */
   readonly expander?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#gpu_utilization_threshold CsAutoscalingConfig#gpu_utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#gpu_utilization_threshold CsAutoscalingConfig#gpu_utilization_threshold}
   */
   readonly gpuUtilizationThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#id CsAutoscalingConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#id CsAutoscalingConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#max_graceful_termination_sec CsAutoscalingConfig#max_graceful_termination_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#max_graceful_termination_sec CsAutoscalingConfig#max_graceful_termination_sec}
   */
   readonly maxGracefulTerminationSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#min_replica_count CsAutoscalingConfig#min_replica_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#min_replica_count CsAutoscalingConfig#min_replica_count}
   */
   readonly minReplicaCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#priorities CsAutoscalingConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#priorities CsAutoscalingConfig#priorities}
   */
   readonly priorities?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#recycle_node_deletion_enabled CsAutoscalingConfig#recycle_node_deletion_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#recycle_node_deletion_enabled CsAutoscalingConfig#recycle_node_deletion_enabled}
   */
   readonly recycleNodeDeletionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#scale_down_enabled CsAutoscalingConfig#scale_down_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#scale_down_enabled CsAutoscalingConfig#scale_down_enabled}
   */
   readonly scaleDownEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#scale_up_from_zero CsAutoscalingConfig#scale_up_from_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#scale_up_from_zero CsAutoscalingConfig#scale_up_from_zero}
   */
   readonly scaleUpFromZero?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#scaler_type CsAutoscalingConfig#scaler_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#scaler_type CsAutoscalingConfig#scaler_type}
   */
   readonly scalerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#scan_interval CsAutoscalingConfig#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#scan_interval CsAutoscalingConfig#scan_interval}
   */
   readonly scanInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#skip_nodes_with_local_storage CsAutoscalingConfig#skip_nodes_with_local_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#skip_nodes_with_local_storage CsAutoscalingConfig#skip_nodes_with_local_storage}
   */
   readonly skipNodesWithLocalStorage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#skip_nodes_with_system_pods CsAutoscalingConfig#skip_nodes_with_system_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#skip_nodes_with_system_pods CsAutoscalingConfig#skip_nodes_with_system_pods}
   */
   readonly skipNodesWithSystemPods?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#unneeded_duration CsAutoscalingConfig#unneeded_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#unneeded_duration CsAutoscalingConfig#unneeded_duration}
   */
   readonly unneededDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#utilization_threshold CsAutoscalingConfig#utilization_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#utilization_threshold CsAutoscalingConfig#utilization_threshold}
   */
   readonly utilizationThreshold?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#timeouts CsAutoscalingConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#timeouts CsAutoscalingConfig#timeouts}
   */
   readonly timeouts?: CsAutoscalingConfigTimeouts;
 }
 export interface CsAutoscalingConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#create CsAutoscalingConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#create CsAutoscalingConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#delete CsAutoscalingConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#delete CsAutoscalingConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#update CsAutoscalingConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#update CsAutoscalingConfig#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class CsAutoscalingConfigTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config alicloud_cs_autoscaling_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config alicloud_cs_autoscaling_config}
 */
 export class CsAutoscalingConfig extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class CsAutoscalingConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsAutoscalingConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsAutoscalingConfig to import
-  * @param importFromId The id of the existing CsAutoscalingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsAutoscalingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsAutoscalingConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class CsAutoscalingConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cs_autoscaling_config alicloud_cs_autoscaling_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cs_autoscaling_config alicloud_cs_autoscaling_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class CsAutoscalingConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_autoscaling_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

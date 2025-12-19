@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_saml_service_prov_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#aam_auth_saml_service_prov_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#aam_auth_saml_service_prov_tmpl_name}
+  */
+  readonly aamAuthSamlServiceProvTmplName: string;
+  /**
   * Enable automatic packet-capture for SAML Single-Sign-On Authorization Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#acs_authz_fail VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#acs_authz_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#acs_authz_fail VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#acs_authz_fail}
   */
   readonly acsAuthzFail?: number;
   /**
   * Enable automatic packet-capture for SAML Single-Sign-On Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#acs_error VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#acs_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#acs_error VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#acs_error}
   */
   readonly acsError?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_saml_service_prov_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -103,11 +103,11 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthSamlServiceProvTmplName = config.aamAuthSamlServiceProvTmplName;
     this._acsAuthzFail = config.acsAuthzFail;
     this._acsError = config.acsError;
     this._duration = config.duration;
     this._id = config.id;
-    this._name = config.name;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
   }
@@ -115,6 +115,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_saml_service_prov_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthSamlServiceProvTmplName?: string; 
+  public get aamAuthSamlServiceProvTmplName() {
+    return this.getStringAttribute('aam_auth_saml_service_prov_tmpl_name');
+  }
+  public set aamAuthSamlServiceProvTmplName(value: string) {
+    this._aamAuthSamlServiceProvTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthSamlServiceProvTmplNameInput() {
+    return this._aamAuthSamlServiceProvTmplName;
+  }
 
   // acs_authz_fail - computed: false, optional: true, required: false
   private _acsAuthzFail?: number; 
@@ -180,19 +193,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // threshold_exceeded_by - computed: false, optional: true, required: false
   private _thresholdExceededBy?: number; 
   public get thresholdExceededBy() {
@@ -231,11 +231,11 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_saml_service_prov_tmpl_name: cdktf.stringToTerraform(this._aamAuthSamlServiceProvTmplName),
       acs_authz_fail: cdktf.numberToTerraform(this._acsAuthzFail),
       acs_error: cdktf.numberToTerraform(this._acsError),
       duration: cdktf.numberToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -243,6 +243,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_saml_service_prov_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthSamlServiceProvTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       acs_authz_fail: {
         value: cdktf.numberToHclTerraform(this._acsAuthzFail),
         isBlock: false,
@@ -263,12 +269,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthSamlServiceProvTmplTri
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

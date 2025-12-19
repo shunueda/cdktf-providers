@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwLoggingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#id DataThunderFwLoggingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#id DataThunderFwLoggingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderFwLoggingStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * gtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#gtp DataThunderFwLoggingStats#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#gtp DataThunderFwLoggingStats#gtp}
   */
   readonly gtp?: DataThunderFwLoggingStatsGtp;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#stats DataThunderFwLoggingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#stats DataThunderFwLoggingStats#stats}
   */
   readonly stats?: DataThunderFwLoggingStatsStats;
 }
@@ -31,157 +31,157 @@ export interface DataThunderFwLoggingStatsGtpStats {
   /**
   * Log Event Type GTP Reserved IE Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_gtp_type_reserved_ie_present DataThunderFwLoggingStats#log_gtp_type_reserved_ie_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_gtp_type_reserved_ie_present DataThunderFwLoggingStats#log_gtp_type_reserved_ie_present}
   */
   readonly logGtpTypeReservedIePresent?: number;
   /**
   * Log Event GTP Country Code Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_country_code_mismatch DataThunderFwLoggingStats#log_type_country_code_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_country_code_mismatch DataThunderFwLoggingStats#log_type_country_code_mismatch}
   */
   readonly logTypeCountryCodeMismatch?: number;
   /**
   * Log Event GTP Crosslayer Correlation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_crosslayer_correlation DataThunderFwLoggingStats#log_type_crosslayer_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_crosslayer_correlation DataThunderFwLoggingStats#log_type_crosslayer_correlation}
   */
   readonly logTypeCrosslayerCorrelation?: number;
   /**
   * Log Event Type GTP Enduser IP Spoofed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_enduser_ip_spoofed DataThunderFwLoggingStats#log_type_enduser_ip_spoofed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_enduser_ip_spoofed DataThunderFwLoggingStats#log_type_enduser_ip_spoofed}
   */
   readonly logTypeEnduserIpSpoofed?: number;
   /**
   * Log Event Type GTP Apn Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_apn_filtering DataThunderFwLoggingStats#log_type_gtp_apn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_apn_filtering DataThunderFwLoggingStats#log_type_gtp_apn_filtering}
   */
   readonly logTypeGtpApnFiltering?: number;
   /**
   * Log Event GTP invalid piggyback flag in header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_piggy_flag DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_piggy_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_piggy_flag DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_piggy_flag}
   */
   readonly logTypeGtpHdrInvalidPiggyFlag?: number;
   /**
   * Log Event GTP Protocol flag in header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_protocol_flag DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_protocol_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_protocol_flag DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_protocol_flag}
   */
   readonly logTypeGtpHdrInvalidProtocolFlag?: number;
   /**
   * Log Event GTP invalid spare bits in header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_spare_bits DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_spare_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_hdr_invalid_spare_bits DataThunderFwLoggingStats#log_type_gtp_hdr_invalid_spare_bits}
   */
   readonly logTypeGtpHdrInvalidSpareBits?: number;
   /**
   * Log Event GTP in GTP Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_in_gtp_filtering DataThunderFwLoggingStats#log_type_gtp_in_gtp_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_in_gtp_filtering DataThunderFwLoggingStats#log_type_gtp_in_gtp_filtering}
   */
   readonly logTypeGtpInGtpFiltering?: number;
   /**
   * Log Event GTP Invalid message length across layers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_message_length DataThunderFwLoggingStats#log_type_gtp_invalid_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_message_length DataThunderFwLoggingStats#log_type_gtp_invalid_message_length}
   */
   readonly logTypeGtpInvalidMessageLength?: number;
   /**
   * Log Event mismatch of GTP message and ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_ports DataThunderFwLoggingStats#log_type_gtp_invalid_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_ports DataThunderFwLoggingStats#log_type_gtp_invalid_ports}
   */
   readonly logTypeGtpInvalidPorts?: number;
   /**
   * Log Event Type GTP Invalid TEID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_teid DataThunderFwLoggingStats#log_type_gtp_invalid_teid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_teid DataThunderFwLoggingStats#log_type_gtp_invalid_teid}
   */
   readonly logTypeGtpInvalidTeid?: number;
   /**
   * Log Event invalid GTP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_version DataThunderFwLoggingStats#log_type_gtp_invalid_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_invalid_version DataThunderFwLoggingStats#log_type_gtp_invalid_version}
   */
   readonly logTypeGtpInvalidVersion?: number;
   /**
   * Log Event Type GTP Mandatory IE Missing Inside Grouped IE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_mandatory_ie_inside_grouped_ie_missing DataThunderFwLoggingStats#log_type_gtp_mandatory_ie_inside_grouped_ie_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_mandatory_ie_inside_grouped_ie_missing DataThunderFwLoggingStats#log_type_gtp_mandatory_ie_inside_grouped_ie_missing}
   */
   readonly logTypeGtpMandatoryIeInsideGroupedIeMissing?: number;
   /**
   * Log Event Type GTP Mandatory IE Missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_mandatory_ie_missing DataThunderFwLoggingStats#log_type_gtp_mandatory_ie_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_mandatory_ie_missing DataThunderFwLoggingStats#log_type_gtp_mandatory_ie_missing}
   */
   readonly logTypeGtpMandatoryIeMissing?: number;
   /**
   * Log Event Type GTP Message Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_message_filtering DataThunderFwLoggingStats#log_type_gtp_message_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_message_filtering DataThunderFwLoggingStats#log_type_gtp_message_filtering}
   */
   readonly logTypeGtpMessageFiltering?: number;
   /**
   * Log Event Type GTP MSISDN Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_msisdn_filtering DataThunderFwLoggingStats#log_type_gtp_msisdn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_msisdn_filtering DataThunderFwLoggingStats#log_type_gtp_msisdn_filtering}
   */
   readonly logTypeGtpMsisdnFiltering?: number;
   /**
   * Log Event GTP SGW/PGW restarted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_node_restart DataThunderFwLoggingStats#log_type_gtp_node_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_node_restart DataThunderFwLoggingStats#log_type_gtp_node_restart}
   */
   readonly logTypeGtpNodeRestart?: number;
   /**
   * Log Event Type GTP Out of Order IE V1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_out_of_order_ie DataThunderFwLoggingStats#log_type_gtp_out_of_order_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_out_of_order_ie DataThunderFwLoggingStats#log_type_gtp_out_of_order_ie}
   */
   readonly logTypeGtpOutOfOrderIe?: number;
   /**
   * Log Event Type GTP Out of State IE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_out_of_state_ie DataThunderFwLoggingStats#log_type_gtp_out_of_state_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_out_of_state_ie DataThunderFwLoggingStats#log_type_gtp_out_of_state_ie}
   */
   readonly logTypeGtpOutOfStateIe?: number;
   /**
   * Log Event GTP RAT Type Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_rat_type_filtering DataThunderFwLoggingStats#log_type_gtp_rat_type_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_rat_type_filtering DataThunderFwLoggingStats#log_type_gtp_rat_type_filtering}
   */
   readonly logTypeGtpRatTypeFiltering?: number;
   /**
   * Log Event GTP Rate Limit Periodic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_rate_limit_periodic DataThunderFwLoggingStats#log_type_gtp_rate_limit_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_rate_limit_periodic DataThunderFwLoggingStats#log_type_gtp_rate_limit_periodic}
   */
   readonly logTypeGtpRateLimitPeriodic?: number;
   /**
   * Log Event GTP Response Sequence number Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_gtp_seq_num_mismatch DataThunderFwLoggingStats#log_type_gtp_seq_num_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_gtp_seq_num_mismatch DataThunderFwLoggingStats#log_type_gtp_seq_num_mismatch}
   */
   readonly logTypeGtpSeqNumMismatch?: number;
   /**
   * Log Event GTP Message Length Exceeded Max
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_max_msg_length DataThunderFwLoggingStats#log_type_max_msg_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_max_msg_length DataThunderFwLoggingStats#log_type_max_msg_length}
   */
   readonly logTypeMaxMsgLength?: number;
   /**
   * Log Event GTP Reserved Message Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_message_not_supported DataThunderFwLoggingStats#log_type_message_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_message_not_supported DataThunderFwLoggingStats#log_type_message_not_supported}
   */
   readonly logTypeMessageNotSupported?: number;
   /**
   * Log Event GTP Out of State Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_out_of_state DataThunderFwLoggingStats#log_type_out_of_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_out_of_state DataThunderFwLoggingStats#log_type_out_of_state}
   */
   readonly logTypeOutOfState?: number;
 }
@@ -992,7 +992,7 @@ export interface DataThunderFwLoggingStatsGtp {
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#stats DataThunderFwLoggingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#stats DataThunderFwLoggingStats#stats}
   */
   readonly stats?: DataThunderFwLoggingStatsGtpStats;
 }
@@ -1078,151 +1078,151 @@ export interface DataThunderFwLoggingStatsStats {
   /**
   * HTTP Logging Invalid Format Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#http_logging_invalid_format DataThunderFwLoggingStats#http_logging_invalid_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#http_logging_invalid_format DataThunderFwLoggingStats#http_logging_invalid_format}
   */
   readonly httpLoggingInvalidFormat?: number;
   /**
   * HTTP Request Logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#http_request_logged DataThunderFwLoggingStats#http_request_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#http_request_logged DataThunderFwLoggingStats#http_request_logged}
   */
   readonly httpRequestLogged?: number;
   /**
   * ICMP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#icmp_session_created DataThunderFwLoggingStats#icmp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#icmp_session_created DataThunderFwLoggingStats#icmp_session_created}
   */
   readonly icmpSessionCreated?: number;
   /**
   * ICMP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#icmp_session_deleted DataThunderFwLoggingStats#icmp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#icmp_session_deleted DataThunderFwLoggingStats#icmp_session_deleted}
   */
   readonly icmpSessionDeleted?: number;
   /**
   * ICMPV6 Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#icmpv6_session_created DataThunderFwLoggingStats#icmpv6_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#icmpv6_session_created DataThunderFwLoggingStats#icmpv6_session_created}
   */
   readonly icmpv6SessionCreated?: number;
   /**
   * ICMPV6 Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#icmpv6_session_deleted DataThunderFwLoggingStats#icmpv6_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#icmpv6_session_deleted DataThunderFwLoggingStats#icmpv6_session_deleted}
   */
   readonly icmpv6SessionDeleted?: number;
   /**
   * iDDoS IP Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#iddos_blackhole_entry_create DataThunderFwLoggingStats#iddos_blackhole_entry_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#iddos_blackhole_entry_create DataThunderFwLoggingStats#iddos_blackhole_entry_create}
   */
   readonly iddosBlackholeEntryCreate?: number;
   /**
   * iDDoS IP Entry Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#iddos_blackhole_entry_delete DataThunderFwLoggingStats#iddos_blackhole_entry_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#iddos_blackhole_entry_delete DataThunderFwLoggingStats#iddos_blackhole_entry_delete}
   */
   readonly iddosBlackholeEntryDelete?: number;
   /**
   * Log Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_dropped DataThunderFwLoggingStats#log_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_dropped DataThunderFwLoggingStats#log_dropped}
   */
   readonly logDropped?: number;
   /**
   * Log Packet Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_message_sent DataThunderFwLoggingStats#log_message_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_message_sent DataThunderFwLoggingStats#log_message_sent}
   */
   readonly logMessageSent?: number;
   /**
   * Log Event Type Deny
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_deny DataThunderFwLoggingStats#log_type_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_deny DataThunderFwLoggingStats#log_type_deny}
   */
   readonly logTypeDeny?: number;
   /**
   * Log Event Type Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_reset DataThunderFwLoggingStats#log_type_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_reset DataThunderFwLoggingStats#log_type_reset}
   */
   readonly logTypeReset?: number;
   /**
   * Log Event Type SCTP Inner Proto Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_sctp_inner_proto_filter DataThunderFwLoggingStats#log_type_sctp_inner_proto_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_sctp_inner_proto_filter DataThunderFwLoggingStats#log_type_sctp_inner_proto_filter}
   */
   readonly logTypeSctpInnerProtoFilter?: number;
   /**
   * Log Event Type Session Close
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_session_closed DataThunderFwLoggingStats#log_type_session_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_session_closed DataThunderFwLoggingStats#log_type_session_closed}
   */
   readonly logTypeSessionClosed?: number;
   /**
   * Log Event Type Session Open
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#log_type_session_opened DataThunderFwLoggingStats#log_type_session_opened}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#log_type_session_opened DataThunderFwLoggingStats#log_type_session_opened}
   */
   readonly logTypeSessionOpened?: number;
   /**
   * Other Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#other_session_created DataThunderFwLoggingStats#other_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#other_session_created DataThunderFwLoggingStats#other_session_created}
   */
   readonly otherSessionCreated?: number;
   /**
   * Other Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#other_session_deleted DataThunderFwLoggingStats#other_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#other_session_deleted DataThunderFwLoggingStats#other_session_deleted}
   */
   readonly otherSessionDeleted?: number;
   /**
   * Firewall Rule Not Logged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#rule_not_logged DataThunderFwLoggingStats#rule_not_logged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#rule_not_logged DataThunderFwLoggingStats#rule_not_logged}
   */
   readonly ruleNotLogged?: number;
   /**
   * SCTP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#sctp_session_created DataThunderFwLoggingStats#sctp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#sctp_session_created DataThunderFwLoggingStats#sctp_session_created}
   */
   readonly sctpSessionCreated?: number;
   /**
   * SCTP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#sctp_session_deleted DataThunderFwLoggingStats#sctp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#sctp_session_deleted DataThunderFwLoggingStats#sctp_session_deleted}
   */
   readonly sctpSessionDeleted?: number;
   /**
   * Session Limit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#session_limit_exceeded DataThunderFwLoggingStats#session_limit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#session_limit_exceeded DataThunderFwLoggingStats#session_limit_exceeded}
   */
   readonly sessionLimitExceeded?: number;
   /**
   * TCP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#tcp_session_created DataThunderFwLoggingStats#tcp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#tcp_session_created DataThunderFwLoggingStats#tcp_session_created}
   */
   readonly tcpSessionCreated?: number;
   /**
   * TCP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#tcp_session_deleted DataThunderFwLoggingStats#tcp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#tcp_session_deleted DataThunderFwLoggingStats#tcp_session_deleted}
   */
   readonly tcpSessionDeleted?: number;
   /**
   * UDP Session Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#udp_session_created DataThunderFwLoggingStats#udp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#udp_session_created DataThunderFwLoggingStats#udp_session_created}
   */
   readonly udpSessionCreated?: number;
   /**
   * UDP Session Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#udp_session_deleted DataThunderFwLoggingStats#udp_session_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#udp_session_deleted DataThunderFwLoggingStats#udp_session_deleted}
   */
   readonly udpSessionDeleted?: number;
 }
@@ -2002,7 +2002,7 @@ export class DataThunderFwLoggingStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats thunder_fw_logging_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats thunder_fw_logging_stats}
 */
 export class DataThunderFwLoggingStats extends cdktf.TerraformDataSource {
 
@@ -2018,7 +2018,7 @@ export class DataThunderFwLoggingStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwLoggingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwLoggingStats to import
-  * @param importFromId The id of the existing DataThunderFwLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwLoggingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2030,7 +2030,7 @@ export class DataThunderFwLoggingStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_logging_stats thunder_fw_logging_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_logging_stats thunder_fw_logging_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2041,8 +2041,8 @@ export class DataThunderFwLoggingStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_logging_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

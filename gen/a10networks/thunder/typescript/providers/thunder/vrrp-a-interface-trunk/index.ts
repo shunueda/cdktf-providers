@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VrrpAInterfaceTrunkConfig extends cdktf.TerraformMetaArguments 
   /**
   * both a router and server interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#both VrrpAInterfaceTrunk#both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#both VrrpAInterfaceTrunk#both}
   */
   readonly both?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#id VrrpAInterfaceTrunk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#id VrrpAInterfaceTrunk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface VrrpAInterfaceTrunkConfig extends cdktf.TerraformMetaArguments 
   /**
   * do not send out heartbeat packet from this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#no_heartbeat VrrpAInterfaceTrunk#no_heartbeat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#no_heartbeat VrrpAInterfaceTrunk#no_heartbeat}
   */
   readonly noHeartbeat?: number;
   /**
   * interface to upstream router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#router_interface VrrpAInterfaceTrunk#router_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#router_interface VrrpAInterfaceTrunk#router_interface}
   */
   readonly routerInterface?: number;
   /**
   * interface to real server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#server_interface VrrpAInterfaceTrunk#server_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#server_interface VrrpAInterfaceTrunk#server_interface}
   */
   readonly serverInterface?: number;
   /**
   * Ethernet Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#trunk_val VrrpAInterfaceTrunk#trunk_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#trunk_val VrrpAInterfaceTrunk#trunk_val}
   */
   readonly trunkVal: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#user_tag VrrpAInterfaceTrunk#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#user_tag VrrpAInterfaceTrunk#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#uuid VrrpAInterfaceTrunk#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#uuid VrrpAInterfaceTrunk#uuid}
   */
   readonly uuid?: string;
   /**
   * vlan_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#vlan_cfg VrrpAInterfaceTrunk#vlan_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#vlan_cfg VrrpAInterfaceTrunk#vlan_cfg}
   */
   readonly vlanCfg?: VrrpAInterfaceTrunkVlanCfg[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface VrrpAInterfaceTrunkVlanCfg {
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#vlan VrrpAInterfaceTrunk#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#vlan VrrpAInterfaceTrunk#vlan}
   */
   readonly vlan?: number;
 }
@@ -183,7 +183,7 @@ export class VrrpAInterfaceTrunkVlanCfgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk thunder_vrrp_a_interface_trunk}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk thunder_vrrp_a_interface_trunk}
 */
 export class VrrpAInterfaceTrunk extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class VrrpAInterfaceTrunk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpAInterfaceTrunk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpAInterfaceTrunk to import
-  * @param importFromId The id of the existing VrrpAInterfaceTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpAInterfaceTrunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpAInterfaceTrunk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class VrrpAInterfaceTrunk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_interface_trunk thunder_vrrp_a_interface_trunk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_interface_trunk thunder_vrrp_a_interface_trunk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class VrrpAInterfaceTrunk extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_interface_trunk',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

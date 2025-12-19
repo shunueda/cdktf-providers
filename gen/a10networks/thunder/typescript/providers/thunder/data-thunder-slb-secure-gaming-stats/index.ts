@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSecureGamingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats#id DataThunderSlbSecureGamingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats#id DataThunderSlbSecureGamingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSecureGamingStatsConfig extends cdktf.TerraformMe
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats#stats DataThunderSlbSecureGamingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats#stats DataThunderSlbSecureGamingStats#stats}
   */
   readonly stats?: DataThunderSlbSecureGamingStatsStats;
 }
@@ -25,13 +25,13 @@ export interface DataThunderSlbSecureGamingStatsStats {
   /**
   * Secure Gaming dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats#secure_gaming_drop DataThunderSlbSecureGamingStats#secure_gaming_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats#secure_gaming_drop DataThunderSlbSecureGamingStats#secure_gaming_drop}
   */
   readonly secureGamingDrop?: number;
   /**
   * Secure Gaming passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats#secure_gaming_pass DataThunderSlbSecureGamingStats#secure_gaming_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats#secure_gaming_pass DataThunderSlbSecureGamingStats#secure_gaming_pass}
   */
   readonly secureGamingPass?: number;
 }
@@ -144,7 +144,7 @@ export class DataThunderSlbSecureGamingStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats thunder_slb_secure_gaming_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats thunder_slb_secure_gaming_stats}
 */
 export class DataThunderSlbSecureGamingStats extends cdktf.TerraformDataSource {
 
@@ -160,7 +160,7 @@ export class DataThunderSlbSecureGamingStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSecureGamingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSecureGamingStats to import
-  * @param importFromId The id of the existing DataThunderSlbSecureGamingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSecureGamingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSecureGamingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -172,7 +172,7 @@ export class DataThunderSlbSecureGamingStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_secure_gaming_stats thunder_slb_secure_gaming_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_secure_gaming_stats thunder_slb_secure_gaming_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -183,8 +183,8 @@ export class DataThunderSlbSecureGamingStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_secure_gaming_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

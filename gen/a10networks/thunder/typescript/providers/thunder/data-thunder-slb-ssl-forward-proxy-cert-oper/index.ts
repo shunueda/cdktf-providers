@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslForwardProxyCertOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#id DataThunderSlbSslForwardProxyCertOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#id DataThunderSlbSslForwardProxyCertOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslForwardProxyCertOperConfig extends cdktf.Terra
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#oper DataThunderSlbSslForwardProxyCertOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#oper DataThunderSlbSslForwardProxyCertOper#oper}
   */
   readonly oper?: DataThunderSlbSslForwardProxyCertOperOper;
 }
@@ -25,145 +25,145 @@ export interface DataThunderSlbSslForwardProxyCertOperOperHashedCertificate {
   /**
   * ALPN Protocol (0:None, 1:HTTP, 2:SPDY, 3:HTTP2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#alpn_protocol DataThunderSlbSslForwardProxyCertOper#alpn_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#alpn_protocol DataThunderSlbSslForwardProxyCertOper#alpn_protocol}
   */
   readonly alpnProtocol?: number;
   /**
   * Certificate common name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#common_name DataThunderSlbSslForwardProxyCertOper#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#common_name DataThunderSlbSslForwardProxyCertOper#common_name}
   */
   readonly commonName?: string;
   /**
   * Certificate country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#country DataThunderSlbSslForwardProxyCertOper#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#country DataThunderSlbSslForwardProxyCertOper#country}
   */
   readonly country?: string;
   /**
   * Certificate division
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#division DataThunderSlbSslForwardProxyCertOper#division}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#division DataThunderSlbSslForwardProxyCertOper#division}
   */
   readonly division?: string;
   /**
   * Certificate email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#email DataThunderSlbSslForwardProxyCertOper#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#email DataThunderSlbSslForwardProxyCertOper#email}
   */
   readonly email?: string;
   /**
   * Certificate expiration time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#expire_time DataThunderSlbSslForwardProxyCertOper#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#expire_time DataThunderSlbSslForwardProxyCertOper#expire_time}
   */
   readonly expireTime?: string;
   /**
   * Expires after (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#expires_after DataThunderSlbSslForwardProxyCertOper#expires_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#expires_after DataThunderSlbSslForwardProxyCertOper#expires_after}
   */
   readonly expiresAfter?: number;
   /**
   * hit times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hit_times DataThunderSlbSslForwardProxyCertOper#hit_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hit_times DataThunderSlbSslForwardProxyCertOper#hit_times}
   */
   readonly hitTimes?: number;
   /**
   * Idle time in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#idle_time DataThunderSlbSslForwardProxyCertOper#idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#idle_time DataThunderSlbSslForwardProxyCertOper#idle_time}
   */
   readonly idleTime?: number;
   /**
   * Certificate issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#issuer DataThunderSlbSslForwardProxyCertOper#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#issuer DataThunderSlbSslForwardProxyCertOper#issuer}
   */
   readonly issuer?: string;
   /**
   * Certificate locality
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#locality DataThunderSlbSslForwardProxyCertOper#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#locality DataThunderSlbSslForwardProxyCertOper#locality}
   */
   readonly locality?: string;
   /**
   * protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#protocol DataThunderSlbSslForwardProxyCertOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#protocol DataThunderSlbSslForwardProxyCertOper#protocol}
   */
   readonly protocol?: string;
   /**
   * Real Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#real_port DataThunderSlbSslForwardProxyCertOper#real_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#real_port DataThunderSlbSslForwardProxyCertOper#real_port}
   */
   readonly realPort?: number;
   /**
   * Certificate serial number in hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#serial DataThunderSlbSslForwardProxyCertOper#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#serial DataThunderSlbSslForwardProxyCertOper#serial}
   */
   readonly serial?: string;
   /**
   * Server IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ip DataThunderSlbSslForwardProxyCertOper#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ip DataThunderSlbSslForwardProxyCertOper#server_ip}
   */
   readonly serverIp?: string;
   /**
   * Server IPV6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ipv6 DataThunderSlbSslForwardProxyCertOper#server_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ipv6 DataThunderSlbSslForwardProxyCertOper#server_ipv6}
   */
   readonly serverIpv6?: string;
   /**
   * Server Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_name DataThunderSlbSslForwardProxyCertOper#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_name DataThunderSlbSslForwardProxyCertOper#server_name}
   */
   readonly serverName?: string;
   /**
   * Certificate start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#start_time DataThunderSlbSslForwardProxyCertOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#start_time DataThunderSlbSslForwardProxyCertOper#start_time}
   */
   readonly startTime?: string;
   /**
   * State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#state DataThunderSlbSslForwardProxyCertOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#state DataThunderSlbSslForwardProxyCertOper#state}
   */
   readonly state?: string;
   /**
   * Certificate state or province
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#state_province DataThunderSlbSslForwardProxyCertOper#state_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#state_province DataThunderSlbSslForwardProxyCertOper#state_province}
   */
   readonly stateProvince?: string;
   /**
   * Certificate subject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#subject DataThunderSlbSslForwardProxyCertOper#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#subject DataThunderSlbSslForwardProxyCertOper#subject}
   */
   readonly subject?: string;
   /**
   * Certificate subject alternative name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#subject_alt_name DataThunderSlbSslForwardProxyCertOper#subject_alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#subject_alt_name DataThunderSlbSslForwardProxyCertOper#subject_alt_name}
   */
   readonly subjectAltName?: string;
   /**
   * Timeout after (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#timeout_after DataThunderSlbSslForwardProxyCertOper#timeout_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#timeout_after DataThunderSlbSslForwardProxyCertOper#timeout_after}
   */
   readonly timeoutAfter?: number;
   /**
   * Certificate version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#version DataThunderSlbSslForwardProxyCertOper#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#version DataThunderSlbSslForwardProxyCertOper#version}
   */
   readonly version?: number;
 }
@@ -948,43 +948,43 @@ export interface DataThunderSlbSslForwardProxyCertOperOper {
   /**
   * DELETE method specific option to clear the hashed persistence entries for one vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hashed_persist_entries DataThunderSlbSslForwardProxyCertOper#hashed_persist_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hashed_persist_entries DataThunderSlbSslForwardProxyCertOper#hashed_persist_entries}
   */
   readonly hashedPersistEntries?: number;
   /**
   * Virtual Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#port DataThunderSlbSslForwardProxyCertOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#port DataThunderSlbSslForwardProxyCertOper#port}
   */
   readonly port?: number;
   /**
   * IPv4 or IPv6 address of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ip DataThunderSlbSslForwardProxyCertOper#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_ip DataThunderSlbSslForwardProxyCertOper#server_ip}
   */
   readonly serverIp?: string;
   /**
   * Name of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_name DataThunderSlbSslForwardProxyCertOper#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_name DataThunderSlbSslForwardProxyCertOper#server_name}
   */
   readonly serverName?: string;
   /**
   * Port of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_port DataThunderSlbSslForwardProxyCertOper#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#server_port DataThunderSlbSslForwardProxyCertOper#server_port}
   */
   readonly serverPort?: number;
   /**
   * virtual server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#vserver DataThunderSlbSslForwardProxyCertOper#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#vserver DataThunderSlbSslForwardProxyCertOper#vserver}
   */
   readonly vserver?: string;
   /**
   * hashed_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hashed_certificate DataThunderSlbSslForwardProxyCertOper#hashed_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#hashed_certificate DataThunderSlbSslForwardProxyCertOper#hashed_certificate}
   */
   readonly hashedCertificate?: DataThunderSlbSslForwardProxyCertOperOperHashedCertificate[] | cdktf.IResolvable;
 }
@@ -1242,7 +1242,7 @@ export class DataThunderSlbSslForwardProxyCertOperOperOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper thunder_slb_ssl_forward_proxy_cert_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper thunder_slb_ssl_forward_proxy_cert_oper}
 */
 export class DataThunderSlbSslForwardProxyCertOper extends cdktf.TerraformDataSource {
 
@@ -1258,7 +1258,7 @@ export class DataThunderSlbSslForwardProxyCertOper extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderSlbSslForwardProxyCertOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslForwardProxyCertOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslForwardProxyCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslForwardProxyCertOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslForwardProxyCertOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1270,7 +1270,7 @@ export class DataThunderSlbSslForwardProxyCertOper extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_forward_proxy_cert_oper thunder_slb_ssl_forward_proxy_cert_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_forward_proxy_cert_oper thunder_slb_ssl_forward_proxy_cert_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1281,8 +1281,8 @@ export class DataThunderSlbSslForwardProxyCertOper extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_slb_ssl_forward_proxy_cert_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

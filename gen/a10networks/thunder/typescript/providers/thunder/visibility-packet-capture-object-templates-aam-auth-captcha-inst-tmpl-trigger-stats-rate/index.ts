@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_captcha_inst_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#aam_auth_captcha_inst_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#aam_auth_captcha_inst_tmpl_name}
+  */
+  readonly aamAuthCaptchaInstTmplName: string;
+  /**
   * Enable automatic packet-capture for Total Attibute Check Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#attr_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#attr_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#attr_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#attr_fail}
   */
   readonly attrFail?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +35,43 @@ export interface VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTri
   /**
   * Enable automatic packet-capture for Total Failure JSON Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#json_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#json_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#json_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#json_fail}
   */
   readonly jsonFail?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Total Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#other_error VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#other_error VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#other_error}
   */
   readonly otherError?: number;
   /**
   * Enable automatic packet-capture for Total JSON Response Parse Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#parse_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#parse_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#parse_fail VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#parse_fail}
   */
   readonly parseFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Total Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_captcha_inst_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,11 +121,11 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthCaptchaInstTmplName = config.aamAuthCaptchaInstTmplName;
     this._attrFail = config.attrFail;
     this._duration = config.duration;
     this._id = config.id;
     this._jsonFail = config.jsonFail;
-    this._name = config.name;
     this._otherError = config.otherError;
     this._parseFail = config.parseFail;
     this._thresholdExceededBy = config.thresholdExceededBy;
@@ -136,6 +136,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_captcha_inst_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthCaptchaInstTmplName?: string; 
+  public get aamAuthCaptchaInstTmplName() {
+    return this.getStringAttribute('aam_auth_captcha_inst_tmpl_name');
+  }
+  public set aamAuthCaptchaInstTmplName(value: string) {
+    this._aamAuthCaptchaInstTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthCaptchaInstTmplNameInput() {
+    return this._aamAuthCaptchaInstTmplName;
+  }
 
   // attr_fail - computed: false, optional: true, required: false
   private _attrFail?: number; 
@@ -199,19 +212,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
   // Temporarily expose input value. Use with caution.
   public get jsonFailInput() {
     return this._jsonFail;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // other_error - computed: false, optional: true, required: false
@@ -300,11 +300,11 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_captcha_inst_tmpl_name: cdktf.stringToTerraform(this._aamAuthCaptchaInstTmplName),
       attr_fail: cdktf.numberToTerraform(this._attrFail),
       duration: cdktf.numberToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
       json_fail: cdktf.numberToTerraform(this._jsonFail),
-      name: cdktf.stringToTerraform(this._name),
       other_error: cdktf.numberToTerraform(this._otherError),
       parse_fail: cdktf.numberToTerraform(this._parseFail),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
@@ -315,6 +315,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_captcha_inst_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthCaptchaInstTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       attr_fail: {
         value: cdktf.numberToHclTerraform(this._attrFail),
         isBlock: false,
@@ -338,12 +344,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthCaptchaInstTmplTrigger
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       other_error: {
         value: cdktf.numberToHclTerraform(this._otherError),

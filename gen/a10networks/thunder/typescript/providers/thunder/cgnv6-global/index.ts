@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6GlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#id Cgnv6Global#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#id Cgnv6Global#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,230 @@ export interface Cgnv6GlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable ping sweep detection; 'disable': Disable ping sweep detection(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#ping_sweep_detection Cgnv6Global#ping_sweep_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#ping_sweep_detection Cgnv6Global#ping_sweep_detection}
   */
   readonly pingSweepDetection?: string;
   /**
   * 'enable': Enable port scan detection; 'disable': Disable port scan detection(default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#port_scan_detection Cgnv6Global#port_scan_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#port_scan_detection Cgnv6Global#port_scan_detection}
   */
   readonly portScanDetection?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#uuid Cgnv6Global#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#uuid Cgnv6Global#uuid}
   */
   readonly uuid?: string;
   /**
+  * domain_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#domain_list Cgnv6Global#domain_list}
+  */
+  readonly domainList?: Cgnv6GlobalDomainListStruct;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#sampling_enable Cgnv6Global#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#sampling_enable Cgnv6Global#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6GlobalSamplingEnable[] | cdktf.IResolvable;
+}
+export interface Cgnv6GlobalDomainListStruct {
+  /**
+  * 'enable': Enable the DNS AAAA query for each domain in the domain list.; 'disable': Disable the DNS AAAA query for each domain in the domain list.;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#aaaa_query Cgnv6Global#aaaa_query}
+  */
+  readonly aaaaQuery?: string;
+  /**
+  * Set up the global failure interval in second for the DNS resolution.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#fail_interval Cgnv6Global#fail_interval}
+  */
+  readonly failInterval?: number;
+  /**
+  * Set up the global query interval in minute for the DNS resolution.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#interval Cgnv6Global#interval}
+  */
+  readonly interval?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#uuid Cgnv6Global#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function cgnv6GlobalDomainListStructToTerraform(struct?: Cgnv6GlobalDomainListStructOutputReference | Cgnv6GlobalDomainListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    aaaa_query: cdktf.stringToTerraform(struct!.aaaaQuery),
+    fail_interval: cdktf.numberToTerraform(struct!.failInterval),
+    interval: cdktf.numberToTerraform(struct!.interval),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function cgnv6GlobalDomainListStructToHclTerraform(struct?: Cgnv6GlobalDomainListStructOutputReference | Cgnv6GlobalDomainListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    aaaa_query: {
+      value: cdktf.stringToHclTerraform(struct!.aaaaQuery),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    fail_interval: {
+      value: cdktf.numberToHclTerraform(struct!.failInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    interval: {
+      value: cdktf.numberToHclTerraform(struct!.interval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class Cgnv6GlobalDomainListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): Cgnv6GlobalDomainListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._aaaaQuery !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.aaaaQuery = this._aaaaQuery;
+    }
+    if (this._failInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.failInterval = this._failInterval;
+    }
+    if (this._interval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interval = this._interval;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: Cgnv6GlobalDomainListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._aaaaQuery = undefined;
+      this._failInterval = undefined;
+      this._interval = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._aaaaQuery = value.aaaaQuery;
+      this._failInterval = value.failInterval;
+      this._interval = value.interval;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // aaaa_query - computed: false, optional: true, required: false
+  private _aaaaQuery?: string; 
+  public get aaaaQuery() {
+    return this.getStringAttribute('aaaa_query');
+  }
+  public set aaaaQuery(value: string) {
+    this._aaaaQuery = value;
+  }
+  public resetAaaaQuery() {
+    this._aaaaQuery = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aaaaQueryInput() {
+    return this._aaaaQuery;
+  }
+
+  // fail_interval - computed: false, optional: true, required: false
+  private _failInterval?: number; 
+  public get failInterval() {
+    return this.getNumberAttribute('fail_interval');
+  }
+  public set failInterval(value: number) {
+    this._failInterval = value;
+  }
+  public resetFailInterval() {
+    this._failInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get failIntervalInput() {
+    return this._failInterval;
+  }
+
+  // interval - computed: false, optional: true, required: false
+  private _interval?: number; 
+  public get interval() {
+    return this.getNumberAttribute('interval');
+  }
+  public set interval(value: number) {
+    this._interval = value;
+  }
+  public resetInterval() {
+    this._interval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalInput() {
+    return this._interval;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
 }
 export interface Cgnv6GlobalSamplingEnable {
   /**
   * 'all': all; 'tcp-total-ports-allocated': Total TCP ports allocated; 'udp-total-ports-allocated': Total UDP ports allocated; 'icmp-total-ports-allocated': Total ICMP ports allocated;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#counters1 Cgnv6Global#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#counters1 Cgnv6Global#counters1}
   */
   readonly counters1?: string;
 }
@@ -159,7 +356,7 @@ export class Cgnv6GlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global thunder_cgnv6_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global thunder_cgnv6_global}
 */
 export class Cgnv6Global extends cdktf.TerraformResource {
 
@@ -175,7 +372,7 @@ export class Cgnv6Global extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Global resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Global to import
-  * @param importFromId The id of the existing Cgnv6Global that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Global that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Global to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +384,7 @@ export class Cgnv6Global extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_global thunder_cgnv6_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_global thunder_cgnv6_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +395,8 @@ export class Cgnv6Global extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -213,6 +410,7 @@ export class Cgnv6Global extends cdktf.TerraformResource {
     this._pingSweepDetection = config.pingSweepDetection;
     this._portScanDetection = config.portScanDetection;
     this._uuid = config.uuid;
+    this._domainList.internalValue = config.domainList;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
 
@@ -284,6 +482,22 @@ export class Cgnv6Global extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // domain_list - computed: false, optional: true, required: false
+  private _domainList = new Cgnv6GlobalDomainListStructOutputReference(this, "domain_list");
+  public get domainList() {
+    return this._domainList;
+  }
+  public putDomainList(value: Cgnv6GlobalDomainListStruct) {
+    this._domainList.internalValue = value;
+  }
+  public resetDomainList() {
+    this._domainList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainListInput() {
+    return this._domainList.internalValue;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new Cgnv6GlobalSamplingEnableList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -310,6 +524,7 @@ export class Cgnv6Global extends cdktf.TerraformResource {
       ping_sweep_detection: cdktf.stringToTerraform(this._pingSweepDetection),
       port_scan_detection: cdktf.stringToTerraform(this._portScanDetection),
       uuid: cdktf.stringToTerraform(this._uuid),
+      domain_list: cgnv6GlobalDomainListStructToTerraform(this._domainList.internalValue),
       sampling_enable: cdktf.listMapper(cgnv6GlobalSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
     };
   }
@@ -339,6 +554,12 @@ export class Cgnv6Global extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      domain_list: {
+        value: cgnv6GlobalDomainListStructToHclTerraform(this._domainList.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "Cgnv6GlobalDomainListStructList",
       },
       sampling_enable: {
         value: cdktf.listMapperHcl(cgnv6GlobalSamplingEnableToHclTerraform, true)(this._samplingEnable.internalValue),

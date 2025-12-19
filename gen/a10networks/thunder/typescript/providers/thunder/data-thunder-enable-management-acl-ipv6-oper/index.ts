@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderEnableManagementAclIpv6OperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#id DataThunderEnableManagementAclIpv6Oper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#id DataThunderEnableManagementAclIpv6Oper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,29 +17,33 @@ export interface DataThunderEnableManagementAclIpv6OperConfig extends cdktf.Terr
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#oper DataThunderEnableManagementAclIpv6Oper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#oper DataThunderEnableManagementAclIpv6Oper#oper}
   */
   readonly oper?: DataThunderEnableManagementAclIpv6OperOper;
 }
 export interface DataThunderEnableManagementAclIpv6OperOperPortListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#action DataThunderEnableManagementAclIpv6Oper#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#action DataThunderEnableManagementAclIpv6Oper#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#ethernet DataThunderEnableManagementAclIpv6Oper#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#ethernet DataThunderEnableManagementAclIpv6Oper#ethernet}
   */
   readonly ethernet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#management DataThunderEnableManagementAclIpv6Oper#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#lif DataThunderEnableManagementAclIpv6Oper#lif}
+  */
+  readonly lif?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#management DataThunderEnableManagementAclIpv6Oper#management}
   */
   readonly management?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#tunnel DataThunderEnableManagementAclIpv6Oper#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#tunnel DataThunderEnableManagementAclIpv6Oper#tunnel}
   */
   readonly tunnel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#ve DataThunderEnableManagementAclIpv6Oper#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#ve DataThunderEnableManagementAclIpv6Oper#ve}
   */
   readonly ve?: number;
 }
@@ -52,6 +56,7 @@ export function dataThunderEnableManagementAclIpv6OperOperPortListStructToTerraf
   return {
     action: cdktf.stringToTerraform(struct!.action),
     ethernet: cdktf.numberToTerraform(struct!.ethernet),
+    lif: cdktf.stringToTerraform(struct!.lif),
     management: cdktf.numberToTerraform(struct!.management),
     tunnel: cdktf.numberToTerraform(struct!.tunnel),
     ve: cdktf.numberToTerraform(struct!.ve),
@@ -76,6 +81,12 @@ export function dataThunderEnableManagementAclIpv6OperOperPortListStructToHclTer
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    lif: {
+      value: cdktf.stringToHclTerraform(struct!.lif),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     management: {
       value: cdktf.numberToHclTerraform(struct!.management),
@@ -129,6 +140,10 @@ export class DataThunderEnableManagementAclIpv6OperOperPortListStructOutputRefer
       hasAnyValues = true;
       internalValueResult.ethernet = this._ethernet;
     }
+    if (this._lif !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.lif = this._lif;
+    }
     if (this._management !== undefined) {
       hasAnyValues = true;
       internalValueResult.management = this._management;
@@ -150,6 +165,7 @@ export class DataThunderEnableManagementAclIpv6OperOperPortListStructOutputRefer
       this.resolvableValue = undefined;
       this._action = undefined;
       this._ethernet = undefined;
+      this._lif = undefined;
       this._management = undefined;
       this._tunnel = undefined;
       this._ve = undefined;
@@ -163,6 +179,7 @@ export class DataThunderEnableManagementAclIpv6OperOperPortListStructOutputRefer
       this.resolvableValue = undefined;
       this._action = value.action;
       this._ethernet = value.ethernet;
+      this._lif = value.lif;
       this._management = value.management;
       this._tunnel = value.tunnel;
       this._ve = value.ve;
@@ -199,6 +216,22 @@ export class DataThunderEnableManagementAclIpv6OperOperPortListStructOutputRefer
   // Temporarily expose input value. Use with caution.
   public get ethernetInput() {
     return this._ethernet;
+  }
+
+  // lif - computed: false, optional: true, required: false
+  private _lif?: string; 
+  public get lif() {
+    return this.getStringAttribute('lif');
+  }
+  public set lif(value: string) {
+    this._lif = value;
+  }
+  public resetLif() {
+    this._lif = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lifInput() {
+    return this._lif;
   }
 
   // management - computed: false, optional: true, required: false
@@ -273,7 +306,7 @@ export interface DataThunderEnableManagementAclIpv6OperOper {
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#port_list DataThunderEnableManagementAclIpv6Oper#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#port_list DataThunderEnableManagementAclIpv6Oper#port_list}
   */
   readonly portList?: DataThunderEnableManagementAclIpv6OperOperPortListStruct[] | cdktf.IResolvable;
 }
@@ -357,7 +390,7 @@ export class DataThunderEnableManagementAclIpv6OperOperOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper thunder_enable_management_acl_ipv6_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper thunder_enable_management_acl_ipv6_oper}
 */
 export class DataThunderEnableManagementAclIpv6Oper extends cdktf.TerraformDataSource {
 
@@ -373,7 +406,7 @@ export class DataThunderEnableManagementAclIpv6Oper extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderEnableManagementAclIpv6Oper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderEnableManagementAclIpv6Oper to import
-  * @param importFromId The id of the existing DataThunderEnableManagementAclIpv6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderEnableManagementAclIpv6Oper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderEnableManagementAclIpv6Oper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -385,7 +418,7 @@ export class DataThunderEnableManagementAclIpv6Oper extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/enable_management_acl_ipv6_oper thunder_enable_management_acl_ipv6_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/enable_management_acl_ipv6_oper thunder_enable_management_acl_ipv6_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -396,8 +429,8 @@ export class DataThunderEnableManagementAclIpv6Oper extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_enable_management_acl_ipv6_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

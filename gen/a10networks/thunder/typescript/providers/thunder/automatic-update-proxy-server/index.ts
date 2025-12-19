@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AutomaticUpdateProxyServerAConfig extends cdktf.TerraformMetaAr
   /**
   * 'ntlm': NTLM authentication(default); 'basic': Basic authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#auth_type AutomaticUpdateProxyServerA#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#auth_type AutomaticUpdateProxyServerA#auth_type}
   */
   readonly authType?: string;
   /**
   * Realm for NTLM authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#domain AutomaticUpdateProxyServerA#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#domain AutomaticUpdateProxyServerA#domain}
   */
   readonly domain?: string;
   /**
   * Proxy server HTTPs port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#https_port AutomaticUpdateProxyServerA#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#https_port AutomaticUpdateProxyServerA#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#id AutomaticUpdateProxyServerA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#id AutomaticUpdateProxyServerA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface AutomaticUpdateProxyServerAConfig extends cdktf.TerraformMetaAr
   /**
   * Password for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#password AutomaticUpdateProxyServerA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#password AutomaticUpdateProxyServerA#password}
   */
   readonly password?: number;
   /**
   * Proxy server hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#proxy_host AutomaticUpdateProxyServerA#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#proxy_host AutomaticUpdateProxyServerA#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * password value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#secret_string AutomaticUpdateProxyServerA#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#secret_string AutomaticUpdateProxyServerA#secret_string}
   */
   readonly secretString?: string;
   /**
   * Username for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#username AutomaticUpdateProxyServerA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#username AutomaticUpdateProxyServerA#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#uuid AutomaticUpdateProxyServerA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#uuid AutomaticUpdateProxyServerA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server thunder_automatic_update_proxy_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server thunder_automatic_update_proxy_server}
 */
 export class AutomaticUpdateProxyServerA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class AutomaticUpdateProxyServerA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomaticUpdateProxyServerA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomaticUpdateProxyServerA to import
-  * @param importFromId The id of the existing AutomaticUpdateProxyServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomaticUpdateProxyServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomaticUpdateProxyServerA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class AutomaticUpdateProxyServerA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/automatic_update_proxy_server thunder_automatic_update_proxy_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/automatic_update_proxy_server thunder_automatic_update_proxy_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class AutomaticUpdateProxyServerA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_automatic_update_proxy_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

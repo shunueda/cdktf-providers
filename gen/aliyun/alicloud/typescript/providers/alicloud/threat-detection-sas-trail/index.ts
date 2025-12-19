@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionSasTrailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail#id ThreatDetectionSasTrail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail#id ThreatDetectionSasTrail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface ThreatDetectionSasTrailConfig extends cdktf.TerraformMetaArgume
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail#timeouts ThreatDetectionSasTrail#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail#timeouts ThreatDetectionSasTrail#timeouts}
   */
   readonly timeouts?: ThreatDetectionSasTrailTimeouts;
 }
@@ -103,11 +103,11 @@ export class ThreatDetectionSasTrailServiceTrailList extends cdktf.ComplexList {
 }
 export interface ThreatDetectionSasTrailTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail#create ThreatDetectionSasTrail#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail#create ThreatDetectionSasTrail#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail#delete ThreatDetectionSasTrail#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail#delete ThreatDetectionSasTrail#delete}
   */
   readonly delete?: string;
 }
@@ -230,7 +230,7 @@ export class ThreatDetectionSasTrailTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail alicloud_threat_detection_sas_trail}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail alicloud_threat_detection_sas_trail}
 */
 export class ThreatDetectionSasTrail extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class ThreatDetectionSasTrail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionSasTrail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionSasTrail to import
-  * @param importFromId The id of the existing ThreatDetectionSasTrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionSasTrail that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionSasTrail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class ThreatDetectionSasTrail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/threat_detection_sas_trail alicloud_threat_detection_sas_trail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/threat_detection_sas_trail alicloud_threat_detection_sas_trail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class ThreatDetectionSasTrail extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_sas_trail',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

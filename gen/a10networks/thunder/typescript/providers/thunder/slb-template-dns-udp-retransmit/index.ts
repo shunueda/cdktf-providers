@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface SlbTemplateDnsUdpRetransmitAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#id SlbTemplateDnsUdpRetransmitA#id}
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#dns_name SlbTemplateDnsUdpRetransmitA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#id SlbTemplateDnsUdpRetransmitA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +23,25 @@ export interface SlbTemplateDnsUdpRetransmitAConfig extends cdktf.TerraformMetaA
   /**
   * Total number of times to try DNS query to server before closing client connection, default 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#max_trials SlbTemplateDnsUdpRetransmitA#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#max_trials SlbTemplateDnsUdpRetransmitA#max_trials}
   */
   readonly maxTrials?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#name SlbTemplateDnsUdpRetransmitA#name}
-  */
-  readonly name: string;
-  /**
   * DNS Retry Interval value 1 - 400 in units of 100ms, default is 10 (default is 1000ms) (1 - 400 in units of 100ms, default is 10 (1000ms/1sec))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#retry_interval SlbTemplateDnsUdpRetransmitA#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#retry_interval SlbTemplateDnsUdpRetransmitA#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#uuid SlbTemplateDnsUdpRetransmitA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#uuid SlbTemplateDnsUdpRetransmitA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit thunder_slb_template_dns_udp_retransmit}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit thunder_slb_template_dns_udp_retransmit}
 */
 export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDnsUdpRetransmitA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDnsUdpRetransmitA to import
-  * @param importFromId The id of the existing SlbTemplateDnsUdpRetransmitA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDnsUdpRetransmitA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDnsUdpRetransmitA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_dns_udp_retransmit thunder_slb_template_dns_udp_retransmit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_dns_udp_retransmit thunder_slb_template_dns_udp_retransmit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_dns_udp_retransmit',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -91,9 +91,9 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._id = config.id;
     this._maxTrials = config.maxTrials;
-    this._name = config.name;
     this._retryInterval = config.retryInterval;
     this._uuid = config.uuid;
   }
@@ -101,6 +101,19 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -132,19 +145,6 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get maxTrialsInput() {
     return this._maxTrials;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // retry_interval - computed: false, optional: true, required: false
@@ -185,9 +185,9 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       id: cdktf.stringToTerraform(this._id),
       max_trials: cdktf.numberToTerraform(this._maxTrials),
-      name: cdktf.stringToTerraform(this._name),
       retry_interval: cdktf.numberToTerraform(this._retryInterval),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -195,6 +195,12 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -206,12 +212,6 @@ export class SlbTemplateDnsUdpRetransmitA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
       },
       retry_interval: {
         value: cdktf.numberToHclTerraform(this._retryInterval),

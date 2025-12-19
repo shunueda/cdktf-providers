@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SlbPlayerIdGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Absolute max record expiration value (default 10 minutes) (Absolute max record expiration time in minutes, default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#abs_max_expiration SlbPlayerIdGlobal#abs_max_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#abs_max_expiration SlbPlayerIdGlobal#abs_max_expiration}
   */
   readonly absMaxExpiration?: number;
   /**
   * Enable 64 bit player id check. Default is 32 bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#enable_64bit_player_id SlbPlayerIdGlobal#enable_64bit_player_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#enable_64bit_player_id SlbPlayerIdGlobal#enable_64bit_player_id}
   */
   readonly enable64BitPlayerId?: number;
   /**
   * Time to playerid enforcement after bootup (default 480 seconds) (Time to playerid enforcement in seconds, default 480)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#enforcement_timer SlbPlayerIdGlobal#enforcement_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#enforcement_timer SlbPlayerIdGlobal#enforcement_timer}
   */
   readonly enforcementTimer?: number;
   /**
   * Forces the device to be in passive mode (Only stats and no packet drops)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#force_passive SlbPlayerIdGlobal#force_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#force_passive SlbPlayerIdGlobal#force_passive}
   */
   readonly forcePassive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#id SlbPlayerIdGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#id SlbPlayerIdGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface SlbPlayerIdGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * Minimum record expiration value (default 1 min) (Min record expiration time in minutes, default 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#min_expiration SlbPlayerIdGlobal#min_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#min_expiration SlbPlayerIdGlobal#min_expiration}
   */
   readonly minExpiration?: number;
   /**
   * Packet activity record expiration value (default 5 minutes) (Packet activity record expiration time in minutes, default 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#pkt_activity_expiration SlbPlayerIdGlobal#pkt_activity_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#pkt_activity_expiration SlbPlayerIdGlobal#pkt_activity_expiration}
   */
   readonly pktActivityExpiration?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#uuid SlbPlayerIdGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#uuid SlbPlayerIdGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#sampling_enable SlbPlayerIdGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#sampling_enable SlbPlayerIdGlobal#sampling_enable}
   */
   readonly samplingEnable?: SlbPlayerIdGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface SlbPlayerIdGlobalSamplingEnable {
   /**
   * 'all': all; 'total_playerids_created': Playerid records created; 'total_playerids_deleted': Playerid records deleted; 'total_abs_max_age_outs': Playerid records max time aged out; 'total_pkt_activity_age_outs': Playerid records idle timeout; 'total_invalid_playerid_pkts': Invalid playerid packets; 'total_invalid_playerid_drops': Invalid playerid packet drops; 'total_valid_playerid_pkts': Valid playerid packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#counters1 SlbPlayerIdGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#counters1 SlbPlayerIdGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -183,7 +183,7 @@ export class SlbPlayerIdGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global thunder_slb_player_id_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global thunder_slb_player_id_global}
 */
 export class SlbPlayerIdGlobal extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class SlbPlayerIdGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbPlayerIdGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbPlayerIdGlobal to import
-  * @param importFromId The id of the existing SlbPlayerIdGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbPlayerIdGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbPlayerIdGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class SlbPlayerIdGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_player_id_global thunder_slb_player_id_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_player_id_global thunder_slb_player_id_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class SlbPlayerIdGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_player_id_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

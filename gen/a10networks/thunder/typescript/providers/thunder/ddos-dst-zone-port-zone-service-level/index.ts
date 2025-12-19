@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,35 @@ export interface DdosDstZonePortZoneServiceLevelConfig extends cdktf.TerraformMe
   /**
   * Apply extracted filters from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#apply_extracted_filters DdosDstZonePortZoneServiceLevel#apply_extracted_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#apply_extracted_filters DdosDstZonePortZoneServiceLevel#apply_extracted_filters}
   */
   readonly applyExtractedFilters?: number;
   /**
+  * Clear sources upon de-escalation from level 1 to 0 or manual to 0
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#clear_sources_upon_deescalation DdosDstZonePortZoneServiceLevel#clear_sources_upon_deescalation}
+  */
+  readonly clearSourcesUponDeescalation?: number;
+  /**
+  * Close session for all sources
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#close_sessions_for_all_sources DdosDstZonePortZoneServiceLevel#close_sessions_for_all_sources}
+  */
+  readonly closeSessionsForAllSources?: number;
+  /**
   * Close session for unauthenticated sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#close_sessions_for_unauth_sources DdosDstZonePortZoneServiceLevel#close_sessions_for_unauth_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#close_sessions_for_unauth_sources DdosDstZonePortZoneServiceLevel#close_sessions_for_unauth_sources}
   */
   readonly closeSessionsForUnauthSources?: number;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'blacklist-src': Blacklist-src for glid exceed; 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#glid_action DdosDstZonePortZoneServiceLevel#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#glid_action DdosDstZonePortZoneServiceLevel#glid_action}
   */
   readonly glidAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#id DdosDstZonePortZoneServiceLevel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#id DdosDstZonePortZoneServiceLevel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,91 +47,91 @@ export interface DdosDstZonePortZoneServiceLevelConfig extends cdktf.TerraformMe
   /**
   * '0': Default policy level; '1': Policy level 1; '2': Policy level 2; '3': Policy level 3; '4': Policy level 4;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#level_num DdosDstZonePortZoneServiceLevel#level_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#level_num DdosDstZonePortZoneServiceLevel#level_num}
   */
   readonly levelNum: string;
   /**
   * PortNum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#port_num DdosDstZonePortZoneServiceLevel#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#port_num DdosDstZonePortZoneServiceLevel#port_num}
   */
   readonly portNum: string;
   /**
   * Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#protocol DdosDstZonePortZoneServiceLevel#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#protocol DdosDstZonePortZoneServiceLevel#protocol}
   */
   readonly protocol: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_default_glid DdosDstZonePortZoneServiceLevel#src_default_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_default_glid DdosDstZonePortZoneServiceLevel#src_default_glid}
   */
   readonly srcDefaultGlid?: string;
   /**
   * Source activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_escalation_score DdosDstZonePortZoneServiceLevel#src_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_escalation_score DdosDstZonePortZoneServiceLevel#src_escalation_score}
   */
   readonly srcEscalationScore?: number;
   /**
   * Violation actions apply due to source escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_violation_actions DdosDstZonePortZoneServiceLevel#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_violation_actions DdosDstZonePortZoneServiceLevel#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
   * Start pattern recognition from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#start_pattern_recognition DdosDstZonePortZoneServiceLevel#start_pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#start_pattern_recognition DdosDstZonePortZoneServiceLevel#start_pattern_recognition}
   */
   readonly startPatternRecognition?: number;
   /**
   * Start signature extraction from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#start_signature_extraction DdosDstZonePortZoneServiceLevel#start_signature_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#start_signature_extraction DdosDstZonePortZoneServiceLevel#start_signature_extraction}
   */
   readonly startSignatureExtraction?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#user_tag DdosDstZonePortZoneServiceLevel#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#user_tag DdosDstZonePortZoneServiceLevel#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#uuid DdosDstZonePortZoneServiceLevel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#uuid DdosDstZonePortZoneServiceLevel#uuid}
   */
   readonly uuid?: string;
   /**
   * Zone activation score of this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_escalation_score DdosDstZonePortZoneServiceLevel#zone_escalation_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_escalation_score DdosDstZonePortZoneServiceLevel#zone_escalation_score}
   */
   readonly zoneEscalationScore?: number;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_name DdosDstZonePortZoneServiceLevel#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_name DdosDstZonePortZoneServiceLevel#zone_name}
   */
   readonly zoneName: string;
   /**
   * Violation actions apply due to zone escalate from this level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_violation_actions DdosDstZonePortZoneServiceLevel#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_violation_actions DdosDstZonePortZoneServiceLevel#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#indicator_list DdosDstZonePortZoneServiceLevel#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#indicator_list DdosDstZonePortZoneServiceLevel#indicator_list}
   */
   readonly indicatorList?: DdosDstZonePortZoneServiceLevelIndicatorListStruct[] | cdktf.IResolvable;
   /**
   * zone_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_template DdosDstZonePortZoneServiceLevel#zone_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_template DdosDstZonePortZoneServiceLevel#zone_template}
   */
   readonly zoneTemplate?: DdosDstZonePortZoneServiceLevelZoneTemplate;
 }
@@ -127,85 +139,85 @@ export interface DdosDstZonePortZoneServiceLevelIndicatorListStruct {
   /**
   * Expected minimal data size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#data_packet_size DdosDstZonePortZoneServiceLevel#data_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#data_packet_size DdosDstZonePortZoneServiceLevel#data_packet_size}
   */
   readonly dataPacketSize?: number;
   /**
   * Score corresponding to the indicator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#score DdosDstZonePortZoneServiceLevel#score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#score DdosDstZonePortZoneServiceLevel#score}
   */
   readonly score?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_large_num DdosDstZonePortZoneServiceLevel#src_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_large_num DdosDstZonePortZoneServiceLevel#src_threshold_large_num}
   */
   readonly srcThresholdLargeNum?: number;
   /**
   * Indicator per-src threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_num DdosDstZonePortZoneServiceLevel#src_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_num DdosDstZonePortZoneServiceLevel#src_threshold_num}
   */
   readonly srcThresholdNum?: number;
   /**
   * Indicator per-src threshold (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_str DdosDstZonePortZoneServiceLevel#src_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_threshold_str DdosDstZonePortZoneServiceLevel#src_threshold_str}
   */
   readonly srcThresholdStr?: string;
   /**
   * Violation actions to use when this src indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#src_violation_actions DdosDstZonePortZoneServiceLevel#src_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#src_violation_actions DdosDstZonePortZoneServiceLevel#src_violation_actions}
   */
   readonly srcViolationActions?: string;
   /**
   * Expected minimal window size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#tcp_window_size DdosDstZonePortZoneServiceLevel#tcp_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#tcp_window_size DdosDstZonePortZoneServiceLevel#tcp_window_size}
   */
   readonly tcpWindowSize?: number;
   /**
-  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'concurrent-conns': number of concurrent connections; 'conn-miss-rate': rate of incoming packets for which no previously established connection exists; 'syn-rate': rate on incoming SYN packets; 'fin-rate': rate on incoming FIN packets; 'rst-rate': rate of incoming RST packets; 'small-window-ack-rate': rate of small window advertisement; 'empty-ack-rate': rate of incoming packets which have no payload; 'small-payload-rate': rate of short payload packet; 'syn-fin-ratio': ratio of incoming SYN packet rate divided by the rate of incoming FIN packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization;
+  * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'concurrent-conns': number of concurrent connections; 'conn-miss-rate': rate of incoming packets for which no previously established connection exists; 'syn-rate': rate on incoming SYN packets; 'fin-rate': rate on incoming FIN packets; 'rst-rate': rate of incoming RST packets; 'syn-ack-rate': rate on incoming SYN-ACK packets; 'small-window-ack-rate': rate of small window advertisement; 'empty-ack-rate': rate of incoming packets which have no payload; 'small-payload-rate': rate of short payload packet; 'syn-fin-ratio': ratio of incoming SYN packet rate divided by the rate of incoming FIN packets; 'cpu-utilization': average data CPU utilization; 'interface-utilization': outside interface utilization; 'learnt-sources': learnt sources;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#type DdosDstZonePortZoneServiceLevel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#type DdosDstZonePortZoneServiceLevel#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#user_tag DdosDstZonePortZoneServiceLevel#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#user_tag DdosDstZonePortZoneServiceLevel#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#uuid DdosDstZonePortZoneServiceLevel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#uuid DdosDstZonePortZoneServiceLevel#uuid}
   */
   readonly uuid?: string;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_large_num DdosDstZonePortZoneServiceLevel#zone_threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_large_num DdosDstZonePortZoneServiceLevel#zone_threshold_large_num}
   */
   readonly zoneThresholdLargeNum?: number;
   /**
   * Threshold for the entire zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_num DdosDstZonePortZoneServiceLevel#zone_threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_num DdosDstZonePortZoneServiceLevel#zone_threshold_num}
   */
   readonly zoneThresholdNum?: number;
   /**
   * Threshold for the entire zone (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_str DdosDstZonePortZoneServiceLevel#zone_threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_threshold_str DdosDstZonePortZoneServiceLevel#zone_threshold_str}
   */
   readonly zoneThresholdStr?: string;
   /**
   * Violation actions to use when this zone indicator threshold reaches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#zone_violation_actions DdosDstZonePortZoneServiceLevel#zone_violation_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#zone_violation_actions DdosDstZonePortZoneServiceLevel#zone_violation_actions}
   */
   readonly zoneViolationActions?: string;
 }
@@ -697,49 +709,49 @@ export interface DdosDstZonePortZoneServiceLevelZoneTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#dns DdosDstZonePortZoneServiceLevel#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#dns DdosDstZonePortZoneServiceLevel#dns}
   */
   readonly dns?: string;
   /**
   * DDOS encap template (IPv6-over-IPv4 / IPv4-over-IPv6 are not supported.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#encap DdosDstZonePortZoneServiceLevel#encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#encap DdosDstZonePortZoneServiceLevel#encap}
   */
   readonly encap?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#http DdosDstZonePortZoneServiceLevel#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#http DdosDstZonePortZoneServiceLevel#http}
   */
   readonly http?: string;
   /**
   * DDOS quic template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#quic DdosDstZonePortZoneServiceLevel#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#quic DdosDstZonePortZoneServiceLevel#quic}
   */
   readonly quic?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#sip DdosDstZonePortZoneServiceLevel#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#sip DdosDstZonePortZoneServiceLevel#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#ssl_l4 DdosDstZonePortZoneServiceLevel#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#ssl_l4 DdosDstZonePortZoneServiceLevel#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#tcp DdosDstZonePortZoneServiceLevel#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#tcp DdosDstZonePortZoneServiceLevel#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#udp DdosDstZonePortZoneServiceLevel#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#udp DdosDstZonePortZoneServiceLevel#udp}
   */
   readonly udp?: string;
 }
@@ -1026,7 +1038,7 @@ export class DdosDstZonePortZoneServiceLevelZoneTemplateOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level thunder_ddos_dst_zone_port_zone_service_level}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level thunder_ddos_dst_zone_port_zone_service_level}
 */
 export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
 
@@ -1042,7 +1054,7 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZonePortZoneServiceLevel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZonePortZoneServiceLevel to import
-  * @param importFromId The id of the existing DdosDstZonePortZoneServiceLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZonePortZoneServiceLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZonePortZoneServiceLevel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1054,7 +1066,7 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_port_zone_service_level thunder_ddos_dst_zone_port_zone_service_level} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_port_zone_service_level thunder_ddos_dst_zone_port_zone_service_level} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1065,8 +1077,8 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_port_zone_service_level',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1077,6 +1089,8 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._applyExtractedFilters = config.applyExtractedFilters;
+    this._clearSourcesUponDeescalation = config.clearSourcesUponDeescalation;
+    this._closeSessionsForAllSources = config.closeSessionsForAllSources;
     this._closeSessionsForUnauthSources = config.closeSessionsForUnauthSources;
     this._glidAction = config.glidAction;
     this._id = config.id;
@@ -1115,6 +1129,38 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get applyExtractedFiltersInput() {
     return this._applyExtractedFilters;
+  }
+
+  // clear_sources_upon_deescalation - computed: false, optional: true, required: false
+  private _clearSourcesUponDeescalation?: number; 
+  public get clearSourcesUponDeescalation() {
+    return this.getNumberAttribute('clear_sources_upon_deescalation');
+  }
+  public set clearSourcesUponDeescalation(value: number) {
+    this._clearSourcesUponDeescalation = value;
+  }
+  public resetClearSourcesUponDeescalation() {
+    this._clearSourcesUponDeescalation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clearSourcesUponDeescalationInput() {
+    return this._clearSourcesUponDeescalation;
+  }
+
+  // close_sessions_for_all_sources - computed: false, optional: true, required: false
+  private _closeSessionsForAllSources?: number; 
+  public get closeSessionsForAllSources() {
+    return this.getNumberAttribute('close_sessions_for_all_sources');
+  }
+  public set closeSessionsForAllSources(value: number) {
+    this._closeSessionsForAllSources = value;
+  }
+  public resetCloseSessionsForAllSources() {
+    this._closeSessionsForAllSources = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get closeSessionsForAllSourcesInput() {
+    return this._closeSessionsForAllSources;
   }
 
   // close_sessions_for_unauth_sources - computed: false, optional: true, required: false
@@ -1400,6 +1446,8 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       apply_extracted_filters: cdktf.numberToTerraform(this._applyExtractedFilters),
+      clear_sources_upon_deescalation: cdktf.numberToTerraform(this._clearSourcesUponDeescalation),
+      close_sessions_for_all_sources: cdktf.numberToTerraform(this._closeSessionsForAllSources),
       close_sessions_for_unauth_sources: cdktf.numberToTerraform(this._closeSessionsForUnauthSources),
       glid_action: cdktf.stringToTerraform(this._glidAction),
       id: cdktf.stringToTerraform(this._id),
@@ -1425,6 +1473,18 @@ export class DdosDstZonePortZoneServiceLevel extends cdktf.TerraformResource {
     const attrs = {
       apply_extracted_filters: {
         value: cdktf.numberToHclTerraform(this._applyExtractedFilters),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      clear_sources_upon_deescalation: {
+        value: cdktf.numberToHclTerraform(this._clearSourcesUponDeescalation),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      close_sessions_for_all_sources: {
+        value: cdktf.numberToHclTerraform(this._closeSessionsForAllSources),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

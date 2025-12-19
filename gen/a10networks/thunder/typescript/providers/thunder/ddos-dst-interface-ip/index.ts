@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DdosDstInterfaceIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP address of interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#addr DdosDstInterfaceIp#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#addr DdosDstInterfaceIp#addr}
   */
   readonly addr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#id DdosDstInterfaceIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#id DdosDstInterfaceIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DdosDstInterfaceIpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable logging of limit exceed drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#log_enable DdosDstInterfaceIp#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#log_enable DdosDstInterfaceIp#log_enable}
   */
   readonly logEnable?: number;
   /**
   * Enable periodic log while event is continuing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#log_periodic DdosDstInterfaceIp#log_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#log_periodic DdosDstInterfaceIp#log_periodic}
   */
   readonly logPeriodic?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
   */
   readonly uuid?: string;
   /**
   * ip_proto_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#ip_proto_list DdosDstInterfaceIp#ip_proto_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#ip_proto_list DdosDstInterfaceIp#ip_proto_list}
   */
   readonly ipProtoList?: DdosDstInterfaceIpIpProtoListStruct[] | cdktf.IResolvable;
   /**
   * l4_type_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#l4_type_list DdosDstInterfaceIp#l4_type_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#l4_type_list DdosDstInterfaceIp#l4_type_list}
   */
   readonly l4TypeList?: DdosDstInterfaceIpL4TypeListStruct[] | cdktf.IResolvable;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#port_list DdosDstInterfaceIp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#port_list DdosDstInterfaceIp#port_list}
   */
   readonly portList?: DdosDstInterfaceIpPortListStruct[] | cdktf.IResolvable;
 }
@@ -67,31 +67,31 @@ export interface DdosDstInterfaceIpIpProtoListStruct {
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
   */
   readonly deny?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
   */
   readonly glid?: string;
   /**
   * IP protocol number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#port_num DdosDstInterfaceIp#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#port_num DdosDstInterfaceIp#port_num}
   */
   readonly portNum: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
   */
   readonly uuid?: string;
 }
@@ -322,7 +322,7 @@ export interface DdosDstInterfaceIpL4TypeListTunnelDecapKeyCfg {
   /**
   * Only decapsulate GRE packet with this key (Hexadecimal 0x0-0xFFFFFFFF,decimal 0-4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#key DdosDstInterfaceIp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#key DdosDstInterfaceIp#key}
   */
   readonly key?: string;
 }
@@ -440,19 +440,19 @@ export interface DdosDstInterfaceIpL4TypeListTunnelDecap {
   /**
   * Enable GRE Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#gre_decap DdosDstInterfaceIp#gre_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#gre_decap DdosDstInterfaceIp#gre_decap}
   */
   readonly greDecap?: number;
   /**
   * Enable IP Tunnel decapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#ip_decap DdosDstInterfaceIp#ip_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#ip_decap DdosDstInterfaceIp#ip_decap}
   */
   readonly ipDecap?: number;
   /**
   * key_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#key_cfg DdosDstInterfaceIp#key_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#key_cfg DdosDstInterfaceIp#key_cfg}
   */
   readonly keyCfg?: DdosDstInterfaceIpL4TypeListTunnelDecapKeyCfg[] | cdktf.IResolvable;
 }
@@ -596,13 +596,13 @@ export interface DdosDstInterfaceIpL4TypeListTunnelRateLimit {
   /**
   * Enable inner IP rate limiting on GRE traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#gre_rate_limit DdosDstInterfaceIp#gre_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#gre_rate_limit DdosDstInterfaceIp#gre_rate_limit}
   */
   readonly greRateLimit?: number;
   /**
   * Enable inner IP rate limiting on IPinIP traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#ip_rate_limit DdosDstInterfaceIp#ip_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#ip_rate_limit DdosDstInterfaceIp#ip_rate_limit}
   */
   readonly ipRateLimit?: number;
 }
@@ -717,49 +717,49 @@ export interface DdosDstInterfaceIpL4TypeListStruct {
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
   */
   readonly deny?: number;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#drop_frag_pkt DdosDstInterfaceIp#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#drop_frag_pkt DdosDstInterfaceIp#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
   */
   readonly glid?: string;
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp; 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#protocol DdosDstInterfaceIp#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#protocol DdosDstInterfaceIp#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
   */
   readonly uuid?: string;
   /**
   * tunnel_decap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#tunnel_decap DdosDstInterfaceIp#tunnel_decap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#tunnel_decap DdosDstInterfaceIp#tunnel_decap}
   */
   readonly tunnelDecap?: DdosDstInterfaceIpL4TypeListTunnelDecap;
   /**
   * tunnel_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#tunnel_rate_limit DdosDstInterfaceIp#tunnel_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#tunnel_rate_limit DdosDstInterfaceIp#tunnel_rate_limit}
   */
   readonly tunnelRateLimit?: DdosDstInterfaceIpL4TypeListTunnelRateLimit;
 }
@@ -1077,37 +1077,37 @@ export interface DdosDstInterfaceIpPortListStruct {
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#deny DdosDstInterfaceIp#deny}
   */
   readonly deny?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#glid DdosDstInterfaceIp#glid}
   */
   readonly glid?: string;
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#port_num DdosDstInterfaceIp#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#port_num DdosDstInterfaceIp#port_num}
   */
   readonly portNum: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'http-probe': http port for interface health check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#protocol DdosDstInterfaceIp#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#protocol DdosDstInterfaceIp#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#user_tag DdosDstInterfaceIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#uuid DdosDstInterfaceIp#uuid}
   */
   readonly uuid?: string;
 }
@@ -1362,7 +1362,7 @@ export class DdosDstInterfaceIpPortListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip thunder_ddos_dst_interface_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip thunder_ddos_dst_interface_ip}
 */
 export class DdosDstInterfaceIp extends cdktf.TerraformResource {
 
@@ -1378,7 +1378,7 @@ export class DdosDstInterfaceIp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstInterfaceIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstInterfaceIp to import
-  * @param importFromId The id of the existing DdosDstInterfaceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstInterfaceIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstInterfaceIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1390,7 +1390,7 @@ export class DdosDstInterfaceIp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_interface_ip thunder_ddos_dst_interface_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_interface_ip thunder_ddos_dst_interface_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1401,8 +1401,8 @@ export class DdosDstInterfaceIp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_interface_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

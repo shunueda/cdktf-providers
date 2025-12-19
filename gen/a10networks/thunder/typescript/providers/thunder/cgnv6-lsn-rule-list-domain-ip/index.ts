@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnRuleListDomainIpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#id Cgnv6LsnRuleListDomainIpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#id Cgnv6LsnRuleListDomainIpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Lsn_rule_list_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#name Cgnv6LsnRuleListDomainIpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#lsn_rule_list_name Cgnv6LsnRuleListDomainIpA#lsn_rule_list_name}
   */
-  readonly name: string;
+  readonly lsnRuleListName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#uuid Cgnv6LsnRuleListDomainIpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#uuid Cgnv6LsnRuleListDomainIpA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#sampling_enable Cgnv6LsnRuleListDomainIpA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#sampling_enable Cgnv6LsnRuleListDomainIpA#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6LsnRuleListDomainIpSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -37,7 +37,7 @@ export interface Cgnv6LsnRuleListDomainIpSamplingEnableA {
   /**
   * 'all': all; 'placeholder': placeholder;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#counters1 Cgnv6LsnRuleListDomainIpA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#counters1 Cgnv6LsnRuleListDomainIpA#counters1}
   */
   readonly counters1?: string;
 }
@@ -153,7 +153,7 @@ export class Cgnv6LsnRuleListDomainIpSamplingEnableAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip thunder_cgnv6_lsn_rule_list_domain_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip thunder_cgnv6_lsn_rule_list_domain_ip}
 */
 export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnRuleListDomainIpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnRuleListDomainIpA to import
-  * @param importFromId The id of the existing Cgnv6LsnRuleListDomainIpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnRuleListDomainIpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnRuleListDomainIpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_rule_list_domain_ip thunder_cgnv6_lsn_rule_list_domain_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_rule_list_domain_ip thunder_cgnv6_lsn_rule_list_domain_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_rule_list_domain_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -204,7 +204,7 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._lsnRuleListName = config.lsnRuleListName;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
@@ -229,17 +229,17 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // lsn_rule_list_name - computed: false, optional: false, required: true
+  private _lsnRuleListName?: string; 
+  public get lsnRuleListName() {
+    return this.getStringAttribute('lsn_rule_list_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set lsnRuleListName(value: string) {
+    this._lsnRuleListName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get lsnRuleListNameInput() {
+    return this._lsnRuleListName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -281,7 +281,7 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      lsn_rule_list_name: cdktf.stringToTerraform(this._lsnRuleListName),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(cgnv6LsnRuleListDomainIpSamplingEnableAToTerraform, true)(this._samplingEnable.internalValue),
     };
@@ -295,8 +295,8 @@ export class Cgnv6LsnRuleListDomainIpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      lsn_rule_list_name: {
+        value: cdktf.stringToHclTerraform(this._lsnRuleListName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

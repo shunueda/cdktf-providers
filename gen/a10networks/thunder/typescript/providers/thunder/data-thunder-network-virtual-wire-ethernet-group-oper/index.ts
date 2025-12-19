@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkVirtualWireEthernetGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#group_id DataThunderNetworkVirtualWireEthernetGroupOper#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#group_id DataThunderNetworkVirtualWireEthernetGroupOper#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#id DataThunderNetworkVirtualWireEthernetGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#id DataThunderNetworkVirtualWireEthernetGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,17 +21,17 @@ export interface DataThunderNetworkVirtualWireEthernetGroupOperConfig extends cd
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#oper DataThunderNetworkVirtualWireEthernetGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#oper DataThunderNetworkVirtualWireEthernetGroupOper#oper}
   */
   readonly oper?: DataThunderNetworkVirtualWireEthernetGroupOperOper;
 }
 export interface DataThunderNetworkVirtualWireEthernetGroupOperOperEthMemberStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_num DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_num DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_num}
   */
   readonly ethMemberNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_status DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_status DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_status}
   */
   readonly ethMemberStatus?: string;
 }
@@ -176,11 +176,11 @@ export class DataThunderNetworkVirtualWireEthernetGroupOperOperEthMemberStatusLi
 }
 export interface DataThunderNetworkVirtualWireEthernetGroupOperOperTrunkMemberStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_num DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_num DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_num}
   */
   readonly trunkMemberNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_status DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_status DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_status}
   */
   readonly trunkMemberStatus?: string;
 }
@@ -325,23 +325,23 @@ export class DataThunderNetworkVirtualWireEthernetGroupOperOperTrunkMemberStatus
 }
 export interface DataThunderNetworkVirtualWireEthernetGroupOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#group_status DataThunderNetworkVirtualWireEthernetGroupOper#group_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#group_status DataThunderNetworkVirtualWireEthernetGroupOper#group_status}
   */
   readonly groupStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#lead_port DataThunderNetworkVirtualWireEthernetGroupOper#lead_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#lead_port DataThunderNetworkVirtualWireEthernetGroupOper#lead_port}
   */
   readonly leadPort?: number;
   /**
   * eth_member_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_status DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#eth_member_status DataThunderNetworkVirtualWireEthernetGroupOper#eth_member_status}
   */
   readonly ethMemberStatus?: DataThunderNetworkVirtualWireEthernetGroupOperOperEthMemberStatus[] | cdktf.IResolvable;
   /**
   * trunk_member_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_status DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#trunk_member_status DataThunderNetworkVirtualWireEthernetGroupOper#trunk_member_status}
   */
   readonly trunkMemberStatus?: DataThunderNetworkVirtualWireEthernetGroupOperOperTrunkMemberStatus[] | cdktf.IResolvable;
 }
@@ -512,7 +512,7 @@ export class DataThunderNetworkVirtualWireEthernetGroupOperOperOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper thunder_network_virtual_wire_ethernet_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper thunder_network_virtual_wire_ethernet_group_oper}
 */
 export class DataThunderNetworkVirtualWireEthernetGroupOper extends cdktf.TerraformDataSource {
 
@@ -528,7 +528,7 @@ export class DataThunderNetworkVirtualWireEthernetGroupOper extends cdktf.Terraf
   * Generates CDKTF code for importing a DataThunderNetworkVirtualWireEthernetGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkVirtualWireEthernetGroupOper to import
-  * @param importFromId The id of the existing DataThunderNetworkVirtualWireEthernetGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkVirtualWireEthernetGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkVirtualWireEthernetGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -540,7 +540,7 @@ export class DataThunderNetworkVirtualWireEthernetGroupOper extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_ethernet_group_oper thunder_network_virtual_wire_ethernet_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_ethernet_group_oper thunder_network_virtual_wire_ethernet_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -551,8 +551,8 @@ export class DataThunderNetworkVirtualWireEthernetGroupOper extends cdktf.Terraf
       terraformResourceType: 'thunder_network_virtual_wire_ethernet_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

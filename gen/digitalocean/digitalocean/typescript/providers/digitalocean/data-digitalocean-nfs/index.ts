@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs
+// https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataDigitaloceanNfsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs#id DataDigitaloceanNfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs#id DataDigitaloceanNfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataDigitaloceanNfsConfig extends cdktf.TerraformMetaArguments 
   /**
   * name of the share
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs#name DataDigitaloceanNfs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs#name DataDigitaloceanNfs#name}
   */
   readonly name: string;
   /**
   * the region that the share is created in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs#region DataDigitaloceanNfs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs#region DataDigitaloceanNfs#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs digitalocean_nfs}
+* Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs digitalocean_nfs}
 */
 export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDigitaloceanNfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDigitaloceanNfs to import
-  * @param importFromId The id of the existing DataDigitaloceanNfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDigitaloceanNfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDigitaloceanNfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.71.0/docs/data-sources/nfs digitalocean_nfs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.72.0/docs/data-sources/nfs digitalocean_nfs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
       terraformResourceType: 'digitalocean_nfs',
       terraformGeneratorMetadata: {
         providerName: 'digitalocean',
-        providerVersion: '2.71.0',
-        providerVersionConstraint: '2.71.0'
+        providerVersion: '2.72.0',
+        providerVersionConstraint: '2.72.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -88,6 +88,11 @@ export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
   // ATTRIBUTES
   // ==========
 
+  // host - computed: true, optional: false, required: false
+  public get host() {
+    return this.getStringAttribute('host');
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -102,6 +107,11 @@ export class DataDigitaloceanNfs extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // mount_path - computed: true, optional: false, required: false
+  public get mountPath() {
+    return this.getStringAttribute('mount_path');
   }
 
   // name - computed: false, optional: false, required: true

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AccessListExtendedConfig extends cdktf.TerraformMetaArguments {
   /**
   * IP extended access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#extd AccessListExtended#extd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#extd AccessListExtended#extd}
   */
   readonly extd: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#id AccessListExtended#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#id AccessListExtended#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface AccessListExtendedConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#uuid AccessListExtended#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#uuid AccessListExtended#uuid}
   */
   readonly uuid?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#rules AccessListExtended#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#rules AccessListExtended#rules}
   */
   readonly rules?: AccessListExtendedRules[] | cdktf.IResolvable;
 }
@@ -37,253 +37,253 @@ export interface AccessListExtendedRules {
   /**
   * Log matches against this entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#acl_log AccessListExtended#acl_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#acl_log AccessListExtended#acl_log}
   */
   readonly aclLog?: number;
   /**
   * Any ICMP code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#any_code AccessListExtended#any_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#any_code AccessListExtended#any_code}
   */
   readonly anyCode?: number;
   /**
   * Any ICMP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#any_type AccessListExtended#any_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#any_type AccessListExtended#any_type}
   */
   readonly anyType?: number;
   /**
   * DSCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dscp AccessListExtended#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dscp AccessListExtended#dscp}
   */
   readonly dscp?: number;
   /**
   * Any destination host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_any AccessListExtended#dst_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_any AccessListExtended#dst_any}
   */
   readonly dstAny?: number;
   /**
   * Match only packets on a given destination port (port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_eq AccessListExtended#dst_eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_eq AccessListExtended#dst_eq}
   */
   readonly dstEq?: number;
   /**
   * Match only packets with a greater port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_gt AccessListExtended#dst_gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_gt AccessListExtended#dst_gt}
   */
   readonly dstGt?: number;
   /**
   * A single destination host (Host address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_host AccessListExtended#dst_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_host AccessListExtended#dst_host}
   */
   readonly dstHost?: string;
   /**
   * Match only packets with a lesser port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_lt AccessListExtended#dst_lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_lt AccessListExtended#dst_lt}
   */
   readonly dstLt?: number;
   /**
   * Destination Mask 0=apply 255=ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_mask AccessListExtended#dst_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_mask AccessListExtended#dst_mask}
   */
   readonly dstMask?: string;
   /**
   * Destination network object group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_object_group AccessListExtended#dst_object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_object_group AccessListExtended#dst_object_group}
   */
   readonly dstObjectGroup?: string;
   /**
   * Edning Destination Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_port_end AccessListExtended#dst_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_port_end AccessListExtended#dst_port_end}
   */
   readonly dstPortEnd?: number;
   /**
   * Match only packets in the range of port numbers (Starting Destination Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_range AccessListExtended#dst_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_range AccessListExtended#dst_range}
   */
   readonly dstRange?: number;
   /**
   * Destination Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#dst_subnet AccessListExtended#dst_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#dst_subnet AccessListExtended#dst_subnet}
   */
   readonly dstSubnet?: string;
   /**
   * TCP established
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#established AccessListExtended#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#established AccessListExtended#established}
   */
   readonly established?: number;
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#ethernet AccessListExtended#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#ethernet AccessListExtended#ethernet}
   */
   readonly ethernet?: number;
   /**
   * 'deny': Deny; 'permit': Permit; 'l3-vlan-fwd-disable': Disable L3 forwarding between VLANs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#extd_action AccessListExtended#extd_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#extd_action AccessListExtended#extd_action}
   */
   readonly extdAction?: string;
   /**
   * Access list entry comment (Notes for this ACL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#extd_remark AccessListExtended#extd_remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#extd_remark AccessListExtended#extd_remark}
   */
   readonly extdRemark?: string;
   /**
   * Sequence number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#extd_seq_num AccessListExtended#extd_seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#extd_seq_num AccessListExtended#extd_seq_num}
   */
   readonly extdSeqNum?: number;
   /**
   * IP fragments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#fragments AccessListExtended#fragments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#fragments AccessListExtended#fragments}
   */
   readonly fragments?: number;
   /**
   * Internet Control Message Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#icmp AccessListExtended#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#icmp AccessListExtended#icmp}
   */
   readonly icmp?: number;
   /**
   * ICMP code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#icmp_code AccessListExtended#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#icmp_code AccessListExtended#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#icmp_type AccessListExtended#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#icmp_type AccessListExtended#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * Any Internet Protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#ip AccessListExtended#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#ip AccessListExtended#ip}
   */
   readonly ip?: number;
   /**
   * Service object group (Source object group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#service_obj_group AccessListExtended#service_obj_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#service_obj_group AccessListExtended#service_obj_group}
   */
   readonly serviceObjGroup?: string;
   /**
   * 'frag-required': Code 4, fragmentation required; 'host-unreachable': Code 1, destination host unreachable; 'network-unreachable': Code 0, destination network unreachable; 'port-unreachable': Code 3, destination port unreachable; 'proto-unreachable': Code 2, destination protocol unreachable; 'route-failed': Code 5, source route failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#special_code AccessListExtended#special_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#special_code AccessListExtended#special_code}
   */
   readonly specialCode?: string;
   /**
   * 'echo-reply': Type 0, echo reply; 'echo-request': Type 8, echo request; 'info-reply': Type 16, information reply; 'info-request': Type 15, information request; 'mask-reply': Type 18, address mask reply; 'mask-request': Type 17, address mask request; 'parameter-problem': Type 12, parameter problem; 'redirect': Type 5, redirect message; 'source-quench': Type 4, source quench; 'time-exceeded': Type 11, time exceeded; 'timestamp': Type 13, timestamp; 'timestamp-reply': Type 14, timestamp reply; 'dest-unreachable': Type 3, destination unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#special_type AccessListExtended#special_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#special_type AccessListExtended#special_type}
   */
   readonly specialType?: string;
   /**
   * Any source host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_any AccessListExtended#src_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_any AccessListExtended#src_any}
   */
   readonly srcAny?: number;
   /**
   * Match only packets on a given source port (port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_eq AccessListExtended#src_eq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_eq AccessListExtended#src_eq}
   */
   readonly srcEq?: number;
   /**
   * Match only packets with a greater port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_gt AccessListExtended#src_gt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_gt AccessListExtended#src_gt}
   */
   readonly srcGt?: number;
   /**
   * A single source host (Host address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_host AccessListExtended#src_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_host AccessListExtended#src_host}
   */
   readonly srcHost?: string;
   /**
   * Match only packets with a lower port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_lt AccessListExtended#src_lt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_lt AccessListExtended#src_lt}
   */
   readonly srcLt?: number;
   /**
   * Source Mask 0=apply 255=ignore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_mask AccessListExtended#src_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_mask AccessListExtended#src_mask}
   */
   readonly srcMask?: string;
   /**
   * Network object group (Source network object group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_object_group AccessListExtended#src_object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_object_group AccessListExtended#src_object_group}
   */
   readonly srcObjectGroup?: string;
   /**
   * Ending Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_port_end AccessListExtended#src_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_port_end AccessListExtended#src_port_end}
   */
   readonly srcPortEnd?: number;
   /**
   * match only packets in the range of port numbers (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_range AccessListExtended#src_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_range AccessListExtended#src_range}
   */
   readonly srcRange?: number;
   /**
   * Source Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#src_subnet AccessListExtended#src_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#src_subnet AccessListExtended#src_subnet}
   */
   readonly srcSubnet?: string;
   /**
   * protocol TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#tcp AccessListExtended#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#tcp AccessListExtended#tcp}
   */
   readonly tcp?: number;
   /**
   * Only log transparent sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#transparent_session_only AccessListExtended#transparent_session_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#transparent_session_only AccessListExtended#transparent_session_only}
   */
   readonly transparentSessionOnly?: number;
   /**
   * Ethernet trunk (trunk number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#trunk AccessListExtended#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#trunk AccessListExtended#trunk}
   */
   readonly trunk?: number;
   /**
   * protocol UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#udp AccessListExtended#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#udp AccessListExtended#udp}
   */
   readonly udp?: number;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#vlan AccessListExtended#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#vlan AccessListExtended#vlan}
   */
   readonly vlan?: number;
 }
@@ -1588,7 +1588,7 @@ export class AccessListExtendedRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended thunder_access_list_extended}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended thunder_access_list_extended}
 */
 export class AccessListExtended extends cdktf.TerraformResource {
 
@@ -1604,7 +1604,7 @@ export class AccessListExtended extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessListExtended resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessListExtended to import
-  * @param importFromId The id of the existing AccessListExtended that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessListExtended that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessListExtended to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1616,7 +1616,7 @@ export class AccessListExtended extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/access_list_extended thunder_access_list_extended} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/access_list_extended thunder_access_list_extended} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1627,8 +1627,8 @@ export class AccessListExtended extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_access_list_extended',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

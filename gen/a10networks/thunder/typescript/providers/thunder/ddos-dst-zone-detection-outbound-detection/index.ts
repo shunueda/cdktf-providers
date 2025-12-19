@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstZoneDetectionOutboundDetectionAConfig extends cdktf.Terr
   /**
   * 'configuration': configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#configuration DdosDstZoneDetectionOutboundDetectionA#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#configuration DdosDstZoneDetectionOutboundDetectionA#configuration}
   */
   readonly configuration: string;
   /**
   * 'asn': Autonomous Systems number; 'country': Country;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#discovery_method DdosDstZoneDetectionOutboundDetectionA#discovery_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#discovery_method DdosDstZoneDetectionOutboundDetectionA#discovery_method}
   */
   readonly discoveryMethod?: string;
   /**
   * Maximum number of top locations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#discovery_record DdosDstZoneDetectionOutboundDetectionA#discovery_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#discovery_record DdosDstZoneDetectionOutboundDetectionA#discovery_record}
   */
   readonly discoveryRecord?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#id DdosDstZoneDetectionOutboundDetectionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#id DdosDstZoneDetectionOutboundDetectionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface DdosDstZoneDetectionOutboundDetectionAConfig extends cdktf.Terr
   /**
   * 'enable': Enable outbound detection; 'disable': Disable outbound detection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#toggle DdosDstZoneDetectionOutboundDetectionA#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#toggle DdosDstZoneDetectionOutboundDetectionA#toggle}
   */
   readonly toggle?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#zone_name DdosDstZoneDetectionOutboundDetectionA#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#zone_name DdosDstZoneDetectionOutboundDetectionA#zone_name}
   */
   readonly zoneName: string;
   /**
   * enable_top_k block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#enable_top_k DdosDstZoneDetectionOutboundDetectionA#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#enable_top_k DdosDstZoneDetectionOutboundDetectionA#enable_top_k}
   */
   readonly enableTopK?: DdosDstZoneDetectionOutboundDetectionEnableTopKA[] | cdktf.IResolvable;
   /**
   * indicator_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#indicator_list DdosDstZoneDetectionOutboundDetectionA#indicator_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#indicator_list DdosDstZoneDetectionOutboundDetectionA#indicator_list}
   */
   readonly indicatorList?: DdosDstZoneDetectionOutboundDetectionIndicatorListStructA[] | cdktf.IResolvable;
   /**
   * topk_source_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_source_subnet DdosDstZoneDetectionOutboundDetectionA#topk_source_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_source_subnet DdosDstZoneDetectionOutboundDetectionA#topk_source_subnet}
   */
   readonly topkSourceSubnet?: DdosDstZoneDetectionOutboundDetectionTopkSourceSubnetA;
 }
@@ -73,19 +73,19 @@ export interface DdosDstZoneDetectionOutboundDetectionEnableTopKA {
   /**
   * Subnet mask. The value should be less than or equal to the minimum zone subnet mask + 8 (IPv6 Subnet mask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_netmask DdosDstZoneDetectionOutboundDetectionA#topk_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_netmask DdosDstZoneDetectionOutboundDetectionA#topk_netmask}
   */
   readonly topkNetmask?: number;
   /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_num_records DdosDstZoneDetectionOutboundDetectionA#topk_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_num_records DdosDstZoneDetectionOutboundDetectionA#topk_num_records}
   */
   readonly topkNumRecords?: number;
   /**
   * 'source-subnet': Topk source subnet;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_type DdosDstZoneDetectionOutboundDetectionA#topk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#topk_type DdosDstZoneDetectionOutboundDetectionA#topk_type}
   */
   readonly topkType?: string;
 }
@@ -261,49 +261,49 @@ export interface DdosDstZoneDetectionOutboundDetectionIndicatorListStructA {
   /**
   * Expected minimal data size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#data_packet_size DdosDstZoneDetectionOutboundDetectionA#data_packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#data_packet_size DdosDstZoneDetectionOutboundDetectionA#data_packet_size}
   */
   readonly dataPacketSize?: number;
   /**
   * Expected minimal window size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#tcp_window_size DdosDstZoneDetectionOutboundDetectionA#tcp_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#tcp_window_size DdosDstZoneDetectionOutboundDetectionA#tcp_window_size}
   */
   readonly tcpWindowSize?: number;
   /**
   * Threshold for each geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_large_num DdosDstZoneDetectionOutboundDetectionA#threshold_large_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_large_num DdosDstZoneDetectionOutboundDetectionA#threshold_large_num}
   */
   readonly thresholdLargeNum?: number;
   /**
   * Threshold for each geo-location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_num DdosDstZoneDetectionOutboundDetectionA#threshold_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_num DdosDstZoneDetectionOutboundDetectionA#threshold_num}
   */
   readonly thresholdNum?: number;
   /**
   * Threshold for each geo-location (Non-zero floating point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_str DdosDstZoneDetectionOutboundDetectionA#threshold_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#threshold_str DdosDstZoneDetectionOutboundDetectionA#threshold_str}
   */
   readonly thresholdStr?: string;
   /**
   * 'pkt-rate': rate of incoming packets; 'pkt-drop-rate': rate of packets got dropped; 'bit-rate': rate of incoming bits; 'pkt-drop-ratio': ratio of incoming packet rate divided by the rate of dropping packets; 'bytes-to-bytes-from-ratio': ratio of incoming packet rate divided by the rate of outgoing packets; 'syn-rate': rate on incoming SYN packets; 'fin-rate': rate on incoming FIN packets; 'rst-rate': rate of incoming RST packets; 'small-window-ack-rate': rate of small window advertisement; 'empty-ack-rate': rate of incoming packets which have no payload; 'small-payload-rate': rate of short payload packet; 'syn-fin-ratio': ratio of incoming SYN packet rate divided by the rate of incoming FIN packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#type DdosDstZoneDetectionOutboundDetectionA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#type DdosDstZoneDetectionOutboundDetectionA#type}
   */
   readonly type: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#user_tag DdosDstZoneDetectionOutboundDetectionA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#user_tag DdosDstZoneDetectionOutboundDetectionA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
   */
   readonly uuid?: string;
 }
@@ -621,7 +621,7 @@ export interface DdosDstZoneDetectionOutboundDetectionTopkSourceSubnetA {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#uuid DdosDstZoneDetectionOutboundDetectionA#uuid}
   */
   readonly uuid?: string;
 }
@@ -705,7 +705,7 @@ export class DdosDstZoneDetectionOutboundDetectionTopkSourceSubnetAOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection thunder_ddos_dst_zone_detection_outbound_detection}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection thunder_ddos_dst_zone_detection_outbound_detection}
 */
 export class DdosDstZoneDetectionOutboundDetectionA extends cdktf.TerraformResource {
 
@@ -721,7 +721,7 @@ export class DdosDstZoneDetectionOutboundDetectionA extends cdktf.TerraformResou
   * Generates CDKTF code for importing a DdosDstZoneDetectionOutboundDetectionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneDetectionOutboundDetectionA to import
-  * @param importFromId The id of the existing DdosDstZoneDetectionOutboundDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneDetectionOutboundDetectionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneDetectionOutboundDetectionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -733,7 +733,7 @@ export class DdosDstZoneDetectionOutboundDetectionA extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_detection_outbound_detection thunder_ddos_dst_zone_detection_outbound_detection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_detection_outbound_detection thunder_ddos_dst_zone_detection_outbound_detection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -744,8 +744,8 @@ export class DdosDstZoneDetectionOutboundDetectionA extends cdktf.TerraformResou
       terraformResourceType: 'thunder_ddos_dst_zone_detection_outbound_detection',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

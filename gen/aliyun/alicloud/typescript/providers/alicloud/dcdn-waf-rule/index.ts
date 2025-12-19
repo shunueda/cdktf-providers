@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface DcdnWafRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#action DcdnWafRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#action DcdnWafRule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#cc_status DcdnWafRule#cc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#cc_status DcdnWafRule#cc_status}
   */
   readonly ccStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#cn_region_list DcdnWafRule#cn_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#cn_region_list DcdnWafRule#cn_region_list}
   */
   readonly cnRegionList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#effect DcdnWafRule#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#effect DcdnWafRule#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#id DcdnWafRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#id DcdnWafRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#other_region_list DcdnWafRule#other_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#other_region_list DcdnWafRule#other_region_list}
   */
   readonly otherRegionList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#policy_id DcdnWafRule#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#policy_id DcdnWafRule#policy_id}
   */
   readonly policyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#regular_rules DcdnWafRule#regular_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#regular_rules DcdnWafRule#regular_rules}
   */
   readonly regularRules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#regular_types DcdnWafRule#regular_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#regular_types DcdnWafRule#regular_types}
   */
   readonly regularTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#remote_addr DcdnWafRule#remote_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#remote_addr DcdnWafRule#remote_addr}
   */
   readonly remoteAddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#rule_name DcdnWafRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#rule_name DcdnWafRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#scenes DcdnWafRule#scenes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#scenes DcdnWafRule#scenes}
   */
   readonly scenes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#status DcdnWafRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#status DcdnWafRule#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#waf_group_ids DcdnWafRule#waf_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#waf_group_ids DcdnWafRule#waf_group_ids}
   */
   readonly wafGroupIds?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#conditions DcdnWafRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#conditions DcdnWafRule#conditions}
   */
   readonly conditions?: DcdnWafRuleConditions[] | cdktf.IResolvable;
   /**
   * rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#rate_limit DcdnWafRule#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#rate_limit DcdnWafRule#rate_limit}
   */
   readonly rateLimit?: DcdnWafRuleRateLimit;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#timeouts DcdnWafRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#timeouts DcdnWafRule#timeouts}
   */
   readonly timeouts?: DcdnWafRuleTimeouts;
 }
 export interface DcdnWafRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#key DcdnWafRule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#key DcdnWafRule#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#op_value DcdnWafRule#op_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#op_value DcdnWafRule#op_value}
   */
   readonly opValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#sub_key DcdnWafRule#sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#sub_key DcdnWafRule#sub_key}
   */
   readonly subKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#values DcdnWafRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#values DcdnWafRule#values}
   */
   readonly values?: string;
 }
@@ -296,15 +296,15 @@ export class DcdnWafRuleConditionsList extends cdktf.ComplexList {
 }
 export interface DcdnWafRuleRateLimitStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#code DcdnWafRule#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#code DcdnWafRule#code}
   */
   readonly code?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#count DcdnWafRule#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#count DcdnWafRule#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#ratio DcdnWafRule#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#ratio DcdnWafRule#ratio}
   */
   readonly ratio?: number;
 }
@@ -446,29 +446,29 @@ export class DcdnWafRuleRateLimitStatusOutputReference extends cdktf.ComplexObje
 }
 export interface DcdnWafRuleRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#interval DcdnWafRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#interval DcdnWafRule#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#sub_key DcdnWafRule#sub_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#sub_key DcdnWafRule#sub_key}
   */
   readonly subKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#target DcdnWafRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#target DcdnWafRule#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#threshold DcdnWafRule#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#threshold DcdnWafRule#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#ttl DcdnWafRule#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#ttl DcdnWafRule#ttl}
   */
   readonly ttl?: number;
   /**
   * status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#status DcdnWafRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#status DcdnWafRule#status}
   */
   readonly status?: DcdnWafRuleRateLimitStatus;
 }
@@ -697,15 +697,15 @@ export class DcdnWafRuleRateLimitOutputReference extends cdktf.ComplexObject {
 }
 export interface DcdnWafRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#create DcdnWafRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#create DcdnWafRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#delete DcdnWafRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#delete DcdnWafRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#update DcdnWafRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#update DcdnWafRule#update}
   */
   readonly update?: string;
 }
@@ -857,7 +857,7 @@ export class DcdnWafRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule alicloud_dcdn_waf_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule alicloud_dcdn_waf_rule}
 */
 export class DcdnWafRule extends cdktf.TerraformResource {
 
@@ -873,7 +873,7 @@ export class DcdnWafRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdnWafRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdnWafRule to import
-  * @param importFromId The id of the existing DcdnWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdnWafRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdnWafRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -885,7 +885,7 @@ export class DcdnWafRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/dcdn_waf_rule alicloud_dcdn_waf_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/dcdn_waf_rule alicloud_dcdn_waf_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -896,8 +896,8 @@ export class DcdnWafRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dcdn_waf_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

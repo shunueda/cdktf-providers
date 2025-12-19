@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnEndpointIndependentFilteringUdpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#id Cgnv6LsnEndpointIndependentFilteringUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#id Cgnv6LsnEndpointIndependentFilteringUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface Cgnv6LsnEndpointIndependentFilteringUdpConfig extends cdktf.Ter
   /**
   * Limit number of EIF sessions that can be created per port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#session_limit Cgnv6LsnEndpointIndependentFilteringUdp#session_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#session_limit Cgnv6LsnEndpointIndependentFilteringUdp#session_limit}
   */
   readonly sessionLimit?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#uuid Cgnv6LsnEndpointIndependentFilteringUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#uuid Cgnv6LsnEndpointIndependentFilteringUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * port_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port_list Cgnv6LsnEndpointIndependentFilteringUdp#port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port_list Cgnv6LsnEndpointIndependentFilteringUdp#port_list}
   */
   readonly portList?: Cgnv6LsnEndpointIndependentFilteringUdpPortListStruct[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface Cgnv6LsnEndpointIndependentFilteringUdpPortListStruct {
   /**
   * Single Destination Port or Port Range Start
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port Cgnv6LsnEndpointIndependentFilteringUdp#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port Cgnv6LsnEndpointIndependentFilteringUdp#port}
   */
   readonly port?: number;
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port_end Cgnv6LsnEndpointIndependentFilteringUdp#port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#port_end Cgnv6LsnEndpointIndependentFilteringUdp#port_end}
   */
   readonly portEnd?: number;
 }
@@ -188,7 +188,7 @@ export class Cgnv6LsnEndpointIndependentFilteringUdpPortListStructList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp thunder_cgnv6_lsn_endpoint_independent_filtering_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp thunder_cgnv6_lsn_endpoint_independent_filtering_udp}
 */
 export class Cgnv6LsnEndpointIndependentFilteringUdp extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class Cgnv6LsnEndpointIndependentFilteringUdp extends cdktf.TerraformReso
   * Generates CDKTF code for importing a Cgnv6LsnEndpointIndependentFilteringUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnEndpointIndependentFilteringUdp to import
-  * @param importFromId The id of the existing Cgnv6LsnEndpointIndependentFilteringUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnEndpointIndependentFilteringUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnEndpointIndependentFilteringUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class Cgnv6LsnEndpointIndependentFilteringUdp extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp thunder_cgnv6_lsn_endpoint_independent_filtering_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_endpoint_independent_filtering_udp thunder_cgnv6_lsn_endpoint_independent_filtering_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class Cgnv6LsnEndpointIndependentFilteringUdp extends cdktf.TerraformReso
       terraformResourceType: 'thunder_cgnv6_lsn_endpoint_independent_filtering_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AcosCloudIntegrationEcosystemConsulAConfig extends cdktf.Terraf
   /**
   * 'enable': Enable Configuration; 'disable': Disable Configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#action AcosCloudIntegrationEcosystemConsulA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#action AcosCloudIntegrationEcosystemConsulA#action}
   */
   readonly action?: string;
   /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '20': 20 seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#health_check_interval AcosCloudIntegrationEcosystemConsulA#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#health_check_interval AcosCloudIntegrationEcosystemConsulA#health_check_interval}
   */
   readonly healthCheckInterval?: string;
   /**
   * Configure the host name for bootstrap server(e.g www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#host_name AcosCloudIntegrationEcosystemConsulA#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#host_name AcosCloudIntegrationEcosystemConsulA#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#id AcosCloudIntegrationEcosystemConsulA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#id AcosCloudIntegrationEcosystemConsulA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface AcosCloudIntegrationEcosystemConsulAConfig extends cdktf.Terraf
   /**
   * Configure the bootstrap server's IPv4 address (the host IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#ipv4_address AcosCloudIntegrationEcosystemConsulA#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#ipv4_address AcosCloudIntegrationEcosystemConsulA#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Configure the bootstrap server's IPv6 address (the host IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#ipv6_address AcosCloudIntegrationEcosystemConsulA#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#ipv6_address AcosCloudIntegrationEcosystemConsulA#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Configure the http port to use (port 8500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#port AcosCloudIntegrationEcosystemConsulA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#port AcosCloudIntegrationEcosystemConsulA#port}
   */
   readonly port?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#uuid AcosCloudIntegrationEcosystemConsulA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#uuid AcosCloudIntegrationEcosystemConsulA#uuid}
   */
   readonly uuid?: string;
   /**
   * service_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#service_label AcosCloudIntegrationEcosystemConsulA#service_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#service_label AcosCloudIntegrationEcosystemConsulA#service_label}
   */
   readonly serviceLabel?: AcosCloudIntegrationEcosystemConsulServiceLabelA[] | cdktf.IResolvable;
 }
@@ -67,7 +67,7 @@ export interface AcosCloudIntegrationEcosystemConsulServiceLabelA {
   /**
   * Name service group to be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#service_label_name AcosCloudIntegrationEcosystemConsulA#service_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#service_label_name AcosCloudIntegrationEcosystemConsulA#service_label_name}
   */
   readonly serviceLabelName?: string;
 }
@@ -183,7 +183,7 @@ export class AcosCloudIntegrationEcosystemConsulServiceLabelAList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul thunder_acos_cloud_integration_ecosystem_consul}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul thunder_acos_cloud_integration_ecosystem_consul}
 */
 export class AcosCloudIntegrationEcosystemConsulA extends cdktf.TerraformResource {
 
@@ -199,7 +199,7 @@ export class AcosCloudIntegrationEcosystemConsulA extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a AcosCloudIntegrationEcosystemConsulA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosCloudIntegrationEcosystemConsulA to import
-  * @param importFromId The id of the existing AcosCloudIntegrationEcosystemConsulA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosCloudIntegrationEcosystemConsulA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosCloudIntegrationEcosystemConsulA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class AcosCloudIntegrationEcosystemConsulA extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_consul thunder_acos_cloud_integration_ecosystem_consul} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_consul thunder_acos_cloud_integration_ecosystem_consul} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class AcosCloudIntegrationEcosystemConsulA extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_acos_cloud_integration_ecosystem_consul',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

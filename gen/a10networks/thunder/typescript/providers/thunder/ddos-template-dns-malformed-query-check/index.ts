@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DdosTemplateDnsMalformedQueryCheckAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#id DdosTemplateDnsMalformedQueryCheckA#id}
+  * Dns_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#dns_name DdosTemplateDnsMalformedQueryCheckA#dns_name}
+  */
+  readonly dnsName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#id DdosTemplateDnsMalformedQueryCheckA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#name DdosTemplateDnsMalformedQueryCheckA#name}
-  */
-  readonly name: string;
-  /**
   * 'disable': When malform check is enabled, TPS always drops DNS query with non query opcode, this option disables this opcode check;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#non_query_opcode_check DdosTemplateDnsMalformedQueryCheckA#non_query_opcode_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#non_query_opcode_check DdosTemplateDnsMalformedQueryCheckA#non_query_opcode_check}
   */
   readonly nonQueryOpcodeCheck?: string;
   /**
   * Bypass DNS fragmented and TCP segmented Queries(Default: dropped)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#skip_multi_packet_check DdosTemplateDnsMalformedQueryCheckA#skip_multi_packet_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#skip_multi_packet_check DdosTemplateDnsMalformedQueryCheckA#skip_multi_packet_check}
   */
   readonly skipMultiPacketCheck?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#uuid DdosTemplateDnsMalformedQueryCheckA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#uuid DdosTemplateDnsMalformedQueryCheckA#uuid}
   */
   readonly uuid?: string;
   /**
   * 'basic-header-check': Basic header validation for DNS TCP/UDP queries; 'extended-header-check': Extended header/query validation for DNS TCP/UDP queries; 'disable': Disable Malform query validation for DNS TCP/UDP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#validation_type DdosTemplateDnsMalformedQueryCheckA#validation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#validation_type DdosTemplateDnsMalformedQueryCheckA#validation_type}
   */
   readonly validationType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check thunder_ddos_template_dns_malformed_query_check}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check thunder_ddos_template_dns_malformed_query_check}
 */
 export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
   * Generates CDKTF code for importing a DdosTemplateDnsMalformedQueryCheckA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosTemplateDnsMalformedQueryCheckA to import
-  * @param importFromId The id of the existing DdosTemplateDnsMalformedQueryCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosTemplateDnsMalformedQueryCheckA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosTemplateDnsMalformedQueryCheckA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_template_dns_malformed_query_check thunder_ddos_template_dns_malformed_query_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_template_dns_malformed_query_check thunder_ddos_template_dns_malformed_query_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
       terraformResourceType: 'thunder_ddos_template_dns_malformed_query_check',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -97,8 +97,8 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
       connection: config.connection,
       forEach: config.forEach
     });
+    this._dnsName = config.dnsName;
     this._id = config.id;
-    this._name = config.name;
     this._nonQueryOpcodeCheck = config.nonQueryOpcodeCheck;
     this._skipMultiPacketCheck = config.skipMultiPacketCheck;
     this._uuid = config.uuid;
@@ -108,6 +108,19 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // dns_name - computed: false, optional: false, required: true
+  private _dnsName?: string; 
+  public get dnsName() {
+    return this.getStringAttribute('dns_name');
+  }
+  public set dnsName(value: string) {
+    this._dnsName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dnsNameInput() {
+    return this._dnsName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -123,19 +136,6 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // non_query_opcode_check - computed: false, optional: true, required: false
@@ -208,8 +208,8 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      dns_name: cdktf.stringToTerraform(this._dnsName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       non_query_opcode_check: cdktf.stringToTerraform(this._nonQueryOpcodeCheck),
       skip_multi_packet_check: cdktf.numberToTerraform(this._skipMultiPacketCheck),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -219,14 +219,14 @@ export class DdosTemplateDnsMalformedQueryCheckA extends cdktf.TerraformResource
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      dns_name: {
+        value: cdktf.stringToHclTerraform(this._dnsName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

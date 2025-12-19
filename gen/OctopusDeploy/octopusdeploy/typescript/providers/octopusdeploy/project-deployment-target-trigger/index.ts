@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ProjectDeploymentTargetTriggerConfig extends cdktf.TerraformMet
   /**
   * Apply environment id filters to restrict which deployment targets will actually cause the trigger to fire, and consequently, which deployment targets will be automatically deployed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#environment_ids ProjectDeploymentTargetTrigger#environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#environment_ids ProjectDeploymentTargetTrigger#environment_ids}
   */
   readonly environmentIds?: string[];
   /**
   * Apply event category filters to restrict which deployment targets will actually cause the trigger to fire, and consequently, which deployment targets will be automatically deployed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#event_categories ProjectDeploymentTargetTrigger#event_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#event_categories ProjectDeploymentTargetTrigger#event_categories}
   */
   readonly eventCategories?: string[];
   /**
   * Apply event group filters to restrict which deployment targets will actually cause the trigger to fire, and consequently, which deployment targets will be automatically deployed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#event_groups ProjectDeploymentTargetTrigger#event_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#event_groups ProjectDeploymentTargetTrigger#event_groups}
   */
   readonly eventGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#id ProjectDeploymentTargetTrigger#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#id ProjectDeploymentTargetTrigger#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface ProjectDeploymentTargetTriggerConfig extends cdktf.TerraformMet
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#name ProjectDeploymentTargetTrigger#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#name ProjectDeploymentTargetTrigger#name}
   */
   readonly name: string;
   /**
   * The ID of the project to attach the trigger.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#project_id ProjectDeploymentTargetTrigger#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#project_id ProjectDeploymentTargetTrigger#project_id}
   */
   readonly projectId: string;
   /**
   * Apply event role filters to restrict which deployment targets will actually cause the trigger to fire, and consequently, which deployment targets will be automatically deployed to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#roles ProjectDeploymentTargetTrigger#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#roles ProjectDeploymentTargetTrigger#roles}
   */
   readonly roles?: string[];
   /**
   * Enable to re-deploy to the deployment targets even if they are already up-to-date with the current deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#should_redeploy ProjectDeploymentTargetTrigger#should_redeploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#should_redeploy ProjectDeploymentTargetTrigger#should_redeploy}
   */
   readonly shouldRedeploy?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger octopusdeploy_project_deployment_target_trigger}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger octopusdeploy_project_deployment_target_trigger}
 */
 export class ProjectDeploymentTargetTrigger extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ProjectDeploymentTargetTrigger extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectDeploymentTargetTrigger resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectDeploymentTargetTrigger to import
-  * @param importFromId The id of the existing ProjectDeploymentTargetTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectDeploymentTargetTrigger that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectDeploymentTargetTrigger to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ProjectDeploymentTargetTrigger extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/project_deployment_target_trigger octopusdeploy_project_deployment_target_trigger} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/project_deployment_target_trigger octopusdeploy_project_deployment_target_trigger} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ProjectDeploymentTargetTrigger extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_project_deployment_target_trigger',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

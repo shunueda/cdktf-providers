@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityTopnCgnv6NatPoolTopnTmplConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#id VisibilityTopnCgnv6NatPoolTopnTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#id VisibilityTopnCgnv6NatPoolTopnTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface VisibilityTopnCgnv6NatPoolTopnTmplConfig extends cdktf.Terrafor
   /**
   * '5': 5 minutes; '15': 15 minutes; '30': 30 minutes; '60': 60 minutes; 'all-time': Since template is activated;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#interval VisibilityTopnCgnv6NatPoolTopnTmpl#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#interval VisibilityTopnCgnv6NatPoolTopnTmpl#interval}
   */
   readonly interval?: string;
   /**
   * Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#name VisibilityTopnCgnv6NatPoolTopnTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#name VisibilityTopnCgnv6NatPoolTopnTmpl#name}
   */
   readonly name: string;
   /**
   * Congure value of N for topn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#topn_size VisibilityTopnCgnv6NatPoolTopnTmpl#topn_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#topn_size VisibilityTopnCgnv6NatPoolTopnTmpl#topn_size}
   */
   readonly topnSize?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#user_tag VisibilityTopnCgnv6NatPoolTopnTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#user_tag VisibilityTopnCgnv6NatPoolTopnTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#uuid VisibilityTopnCgnv6NatPoolTopnTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#uuid VisibilityTopnCgnv6NatPoolTopnTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#metrics VisibilityTopnCgnv6NatPoolTopnTmpl#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#metrics VisibilityTopnCgnv6NatPoolTopnTmpl#metrics}
   */
   readonly metrics?: VisibilityTopnCgnv6NatPoolTopnTmplMetrics;
 }
@@ -55,19 +55,19 @@ export interface VisibilityTopnCgnv6NatPoolTopnTmplMetrics {
   /**
   * Track Top-N entities for TCP total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#tcp_total VisibilityTopnCgnv6NatPoolTopnTmpl#tcp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#tcp_total VisibilityTopnCgnv6NatPoolTopnTmpl#tcp_total}
   */
   readonly tcpTotal?: number;
   /**
   * Track Top-N entities for UDP Total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#udp_total VisibilityTopnCgnv6NatPoolTopnTmpl#udp_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#udp_total VisibilityTopnCgnv6NatPoolTopnTmpl#udp_total}
   */
   readonly udpTotal?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#uuid VisibilityTopnCgnv6NatPoolTopnTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#uuid VisibilityTopnCgnv6NatPoolTopnTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -209,7 +209,7 @@ export class VisibilityTopnCgnv6NatPoolTopnTmplMetricsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl}
 */
 export class VisibilityTopnCgnv6NatPoolTopnTmpl extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class VisibilityTopnCgnv6NatPoolTopnTmpl extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a VisibilityTopnCgnv6NatPoolTopnTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityTopnCgnv6NatPoolTopnTmpl to import
-  * @param importFromId The id of the existing VisibilityTopnCgnv6NatPoolTopnTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityTopnCgnv6NatPoolTopnTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityTopnCgnv6NatPoolTopnTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class VisibilityTopnCgnv6NatPoolTopnTmpl extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_cgnv6_nat_pool_topn_tmpl thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class VisibilityTopnCgnv6NatPoolTopnTmpl extends cdktf.TerraformResource 
       terraformResourceType: 'thunder_visibility_topn_cgnv6_nat_pool_topn_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnIkeSaOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#id DataThunderVpnIkeSaOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#id DataThunderVpnIkeSaOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface DataThunderVpnIkeSaOperConfig extends cdktf.TerraformMetaArgume
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#oper DataThunderVpnIkeSaOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#oper DataThunderVpnIkeSaOper#oper}
   */
   readonly oper?: DataThunderVpnIkeSaOperOper;
 }
 export interface DataThunderVpnIkeSaOperOperIkeSaListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#encryption DataThunderVpnIkeSaOper#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#encryption DataThunderVpnIkeSaOper#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#hash DataThunderVpnIkeSaOper#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#hash DataThunderVpnIkeSaOper#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#initiator_spi DataThunderVpnIkeSaOper#initiator_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#initiator_spi DataThunderVpnIkeSaOper#initiator_spi}
   */
   readonly initiatorSpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#lifetime DataThunderVpnIkeSaOper#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#lifetime DataThunderVpnIkeSaOper#lifetime}
   */
   readonly lifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#local_ip DataThunderVpnIkeSaOper#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#local_ip DataThunderVpnIkeSaOper#local_ip}
   */
   readonly localIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#name DataThunderVpnIkeSaOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#name DataThunderVpnIkeSaOper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#nat_traversal DataThunderVpnIkeSaOper#nat_traversal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#nat_traversal DataThunderVpnIkeSaOper#nat_traversal}
   */
   readonly natTraversal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#remote_ip DataThunderVpnIkeSaOper#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#remote_ip DataThunderVpnIkeSaOper#remote_ip}
   */
   readonly remoteIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#responder_spi DataThunderVpnIkeSaOper#responder_spi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#responder_spi DataThunderVpnIkeSaOper#responder_spi}
   */
   readonly responderSpi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#status DataThunderVpnIkeSaOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#status DataThunderVpnIkeSaOper#status}
   */
   readonly status?: string;
 }
@@ -438,7 +438,7 @@ export interface DataThunderVpnIkeSaOperOper {
   /**
   * ike_sa_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#ike_sa_list DataThunderVpnIkeSaOper#ike_sa_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#ike_sa_list DataThunderVpnIkeSaOper#ike_sa_list}
   */
   readonly ikeSaList?: DataThunderVpnIkeSaOperOperIkeSaListStruct[] | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export class DataThunderVpnIkeSaOperOperOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper thunder_vpn_ike_sa_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper thunder_vpn_ike_sa_oper}
 */
 export class DataThunderVpnIkeSaOper extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataThunderVpnIkeSaOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnIkeSaOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnIkeSaOper to import
-  * @param importFromId The id of the existing DataThunderVpnIkeSaOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnIkeSaOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnIkeSaOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataThunderVpnIkeSaOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_ike_sa_oper thunder_vpn_ike_sa_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_ike_sa_oper thunder_vpn_ike_sa_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class DataThunderVpnIkeSaOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_ike_sa_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

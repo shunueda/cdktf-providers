@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OrgApitokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#name OrgApitoken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#name OrgApitoken#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#org_id OrgApitoken#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#org_id OrgApitoken#org_id}
   */
   readonly orgId: string;
   /**
   * List of privileges the token has on the orgs/sites
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#privileges OrgApitoken#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#privileges OrgApitoken#privileges}
   */
   readonly privileges: OrgApitokenPrivileges[] | cdktf.IResolvable;
   /**
   * List of allowed IP addresses from where the token can be used from. At most 10 IP addresses can be specified, cannot be changed once the API Token is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#src_ips OrgApitoken#src_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#src_ips OrgApitoken#src_ips}
   */
   readonly srcIps?: string[];
 }
@@ -34,25 +34,25 @@ export interface OrgApitokenPrivileges {
   /**
   * access permissions. enum: `admin`, `helpdesk`, `installer`, `read`, `write`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#role OrgApitoken#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#role OrgApitoken#role}
   */
   readonly role: string;
   /**
   * enum: `org`, `site`, `sitegroup`, `orgsites`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#scope OrgApitoken#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#scope OrgApitoken#scope}
   */
   readonly scope: string;
   /**
   * Required if `scope`==`site`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#site_id OrgApitoken#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#site_id OrgApitoken#site_id}
   */
   readonly siteId?: string;
   /**
   * Required if `scope`==`sitegroup`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#sitegroup_id OrgApitoken#sitegroup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#sitegroup_id OrgApitoken#sitegroup_id}
   */
   readonly sitegroupId?: string;
 }
@@ -249,7 +249,7 @@ export class OrgApitokenPrivilegesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken mist_org_apitoken}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken mist_org_apitoken}
 */
 export class OrgApitoken extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class OrgApitoken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgApitoken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgApitoken to import
-  * @param importFromId The id of the existing OrgApitoken that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgApitoken that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgApitoken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class OrgApitoken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/org_apitoken mist_org_apitoken} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/org_apitoken mist_org_apitoken} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class OrgApitoken extends cdktf.TerraformResource {
       terraformResourceType: 'mist_org_apitoken',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

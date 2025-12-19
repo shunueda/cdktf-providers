@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbRcCacheGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#id DataThunderSlbRcCacheGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#id DataThunderSlbRcCacheGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbRcCacheGlobalStatsConfig extends cdktf.TerraformM
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#stats DataThunderSlbRcCacheGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#stats DataThunderSlbRcCacheGlobalStats#stats}
   */
   readonly stats?: DataThunderSlbRcCacheGlobalStatsStats;
 }
@@ -25,193 +25,193 @@ export interface DataThunderSlbRcCacheGlobalStatsStats {
   /**
   * Entry Aged Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#aging_entry DataThunderSlbRcCacheGlobalStats#aging_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#aging_entry DataThunderSlbRcCacheGlobalStats#aging_entry}
   */
   readonly agingEntry?: number;
   /**
   * Bytes Served
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#bytes_served DataThunderSlbRcCacheGlobalStats#bytes_served}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#bytes_served DataThunderSlbRcCacheGlobalStats#bytes_served}
   */
   readonly bytesServed?: number;
   /**
   * Cacheable Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#caching_req DataThunderSlbRcCacheGlobalStats#caching_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#caching_req DataThunderSlbRcCacheGlobalStats#caching_req}
   */
   readonly cachingReq?: number;
   /**
   * Entry Cleaned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#cleaned_entry DataThunderSlbRcCacheGlobalStats#cleaned_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#cleaned_entry DataThunderSlbRcCacheGlobalStats#cleaned_entry}
   */
   readonly cleanedEntry?: number;
   /**
   * Policy Content Too Big
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#content_toobig DataThunderSlbRcCacheGlobalStats#content_toobig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#content_toobig DataThunderSlbRcCacheGlobalStats#content_toobig}
   */
   readonly contentToobig?: number;
   /**
   * Policy Content Too Small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#content_toosmall DataThunderSlbRcCacheGlobalStats#content_toosmall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#content_toosmall DataThunderSlbRcCacheGlobalStats#content_toosmall}
   */
   readonly contentToosmall?: number;
   /**
   * Entry Create failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#entry_create_failures DataThunderSlbRcCacheGlobalStats#entry_create_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#entry_create_failures DataThunderSlbRcCacheGlobalStats#entry_create_failures}
   */
   readonly entryCreateFailures?: number;
   /**
   * Entry Cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#entry_num DataThunderSlbRcCacheGlobalStats#entry_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#entry_num DataThunderSlbRcCacheGlobalStats#entry_num}
   */
   readonly entryNum?: number;
   /**
   * Cache Hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#hits DataThunderSlbRcCacheGlobalStats#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#hits DataThunderSlbRcCacheGlobalStats#hits}
   */
   readonly hits?: number;
   /**
   * IMS Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#ims_request DataThunderSlbRcCacheGlobalStats#ims_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#ims_request DataThunderSlbRcCacheGlobalStats#ims_request}
   */
   readonly imsRequest?: number;
   /**
   * Policy URI invalidate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#invalidate_match DataThunderSlbRcCacheGlobalStats#invalidate_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#invalidate_match DataThunderSlbRcCacheGlobalStats#invalidate_match}
   */
   readonly invalidateMatch?: number;
   /**
   * Policy URI cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#match DataThunderSlbRcCacheGlobalStats#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#match DataThunderSlbRcCacheGlobalStats#match}
   */
   readonly match?: number;
   /**
   * Memory Used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#mem_size DataThunderSlbRcCacheGlobalStats#mem_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#mem_size DataThunderSlbRcCacheGlobalStats#mem_size}
   */
   readonly memSize?: number;
   /**
   * Cache Misses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#miss DataThunderSlbRcCacheGlobalStats#miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#miss DataThunderSlbRcCacheGlobalStats#miss}
   */
   readonly miss?: number;
   /**
   * No-cache Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#nc_req_header DataThunderSlbRcCacheGlobalStats#nc_req_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#nc_req_header DataThunderSlbRcCacheGlobalStats#nc_req_header}
   */
   readonly ncReqHeader?: number;
   /**
   * Not cacheable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#nc_res_header DataThunderSlbRcCacheGlobalStats#nc_res_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#nc_res_header DataThunderSlbRcCacheGlobalStats#nc_res_header}
   */
   readonly ncResHeader?: number;
   /**
   * Responses from cache 304 Not Modified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#nm_response DataThunderSlbRcCacheGlobalStats#nm_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#nm_response DataThunderSlbRcCacheGlobalStats#nm_response}
   */
   readonly nmResponse?: number;
   /**
   * Policy URI nocache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#nocache_match DataThunderSlbRcCacheGlobalStats#nocache_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#nocache_match DataThunderSlbRcCacheGlobalStats#nocache_match}
   */
   readonly nocacheMatch?: number;
   /**
   * Entry Replaced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#replaced_entry DataThunderSlbRcCacheGlobalStats#replaced_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#replaced_entry DataThunderSlbRcCacheGlobalStats#replaced_entry}
   */
   readonly replacedEntry?: number;
   /**
   * Responses from cache 200 OK - Brotli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_br DataThunderSlbRcCacheGlobalStats#rsp_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_br DataThunderSlbRcCacheGlobalStats#rsp_br}
   */
   readonly rspBr?: number;
   /**
   * Responses from cache 200 OK - Deflate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_deflate DataThunderSlbRcCacheGlobalStats#rsp_deflate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_deflate DataThunderSlbRcCacheGlobalStats#rsp_deflate}
   */
   readonly rspDeflate?: number;
   /**
   * Responses from cache 200 OK - Gzip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_gzip DataThunderSlbRcCacheGlobalStats#rsp_gzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_gzip DataThunderSlbRcCacheGlobalStats#rsp_gzip}
   */
   readonly rspGzip?: number;
   /**
   * Responses from cache 200 OK - No Comp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_no_compress DataThunderSlbRcCacheGlobalStats#rsp_no_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_no_compress DataThunderSlbRcCacheGlobalStats#rsp_no_compress}
   */
   readonly rspNoCompress?: number;
   /**
   * Responses from cache Other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_other DataThunderSlbRcCacheGlobalStats#rsp_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_other DataThunderSlbRcCacheGlobalStats#rsp_other}
   */
   readonly rspOther?: number;
   /**
   * Responses from server 304 Not Modified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_type_304 DataThunderSlbRcCacheGlobalStats#rsp_type_304}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_type_304 DataThunderSlbRcCacheGlobalStats#rsp_type_304}
   */
   readonly rspType304?: number;
   /**
   * Responses from server 200 OK - Chnk Enc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_type_ce DataThunderSlbRcCacheGlobalStats#rsp_type_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_type_ce DataThunderSlbRcCacheGlobalStats#rsp_type_ce}
   */
   readonly rspTypeCe?: number;
   /**
   * Responses from server 200 OK - Cont Len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_type_cl DataThunderSlbRcCacheGlobalStats#rsp_type_cl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_type_cl DataThunderSlbRcCacheGlobalStats#rsp_type_cl}
   */
   readonly rspTypeCl?: number;
   /**
   * Responses from server 200 OK - Other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_type_other DataThunderSlbRcCacheGlobalStats#rsp_type_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_type_other DataThunderSlbRcCacheGlobalStats#rsp_type_other}
   */
   readonly rspTypeOther?: number;
   /**
   * Responses from http2 server 200 OK - Stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rsp_type_stream DataThunderSlbRcCacheGlobalStats#rsp_type_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rsp_type_stream DataThunderSlbRcCacheGlobalStats#rsp_type_stream}
   */
   readonly rspTypeStream?: number;
   /**
   * Revalidation Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rv_failure DataThunderSlbRcCacheGlobalStats#rv_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rv_failure DataThunderSlbRcCacheGlobalStats#rv_failure}
   */
   readonly rvFailure?: number;
   /**
   * Revalidation Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#rv_success DataThunderSlbRcCacheGlobalStats#rv_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#rv_success DataThunderSlbRcCacheGlobalStats#rv_success}
   */
   readonly rvSuccess?: number;
   /**
   * Total Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#total_req DataThunderSlbRcCacheGlobalStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#total_req DataThunderSlbRcCacheGlobalStats#total_req}
   */
   readonly totalReq?: number;
 }
@@ -1194,7 +1194,7 @@ export class DataThunderSlbRcCacheGlobalStatsStatsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats thunder_slb_rc_cache_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats thunder_slb_rc_cache_global_stats}
 */
 export class DataThunderSlbRcCacheGlobalStats extends cdktf.TerraformDataSource {
 
@@ -1210,7 +1210,7 @@ export class DataThunderSlbRcCacheGlobalStats extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderSlbRcCacheGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbRcCacheGlobalStats to import
-  * @param importFromId The id of the existing DataThunderSlbRcCacheGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbRcCacheGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbRcCacheGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1222,7 +1222,7 @@ export class DataThunderSlbRcCacheGlobalStats extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_stats thunder_slb_rc_cache_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_stats thunder_slb_rc_cache_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1233,8 +1233,8 @@ export class DataThunderSlbRcCacheGlobalStats extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_slb_rc_cache_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

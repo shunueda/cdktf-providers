@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,74 +10,74 @@ export interface Cgnv6ServerPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': enable; 'disable': disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#action Cgnv6ServerPort#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#action Cgnv6ServerPort#action}
   */
   readonly action?: string;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#follow_port_protocol Cgnv6ServerPort#follow_port_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#follow_port_protocol Cgnv6ServerPort#follow_port_protocol}
   */
   readonly followPortProtocol?: string;
   /**
   * Health Check (Monitor Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#health_check Cgnv6ServerPort#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#health_check Cgnv6ServerPort#health_check}
   */
   readonly healthCheck?: string;
   /**
   * Disable health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#health_check_disable Cgnv6ServerPort#health_check_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#health_check_disable Cgnv6ServerPort#health_check_disable}
   */
   readonly healthCheckDisable?: number;
   /**
   * Specify which port to follow for health status (Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#health_check_follow_port Cgnv6ServerPort#health_check_follow_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#health_check_follow_port Cgnv6ServerPort#health_check_follow_port}
   */
   readonly healthCheckFollowPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#id Cgnv6ServerPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#id Cgnv6ServerPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#name Cgnv6ServerPort#name}
-  */
-  readonly name: string;
-  /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#port_number Cgnv6ServerPort#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#port_number Cgnv6ServerPort#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#protocol Cgnv6ServerPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#protocol Cgnv6ServerPort#protocol}
   */
   readonly protocol: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#server_name Cgnv6ServerPort#server_name}
+  */
+  readonly serverName: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#user_tag Cgnv6ServerPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#user_tag Cgnv6ServerPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#uuid Cgnv6ServerPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#uuid Cgnv6ServerPort#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#sampling_enable Cgnv6ServerPort#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#sampling_enable Cgnv6ServerPort#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6ServerPortSamplingEnable[] | cdktf.IResolvable;
 }
@@ -85,7 +85,7 @@ export interface Cgnv6ServerPortSamplingEnable {
   /**
   * 'all': all; 'curr_conn': Current connections; 'curr_req': Current requests; 'total_req': Total requests; 'total_req_succ': Total request success; 'total_fwd_bytes': Forward bytes; 'total_fwd_pkts': Forward packets; 'total_rev_bytes': Reverse bytes; 'total_rev_pkts': Reverse packets; 'total_conn': Total connections; 'last_total_conn': Last total connections; 'peak_conn': Peak connections; 'es_resp_200': Response status 200; 'es_resp_300': Response status 300; 'es_resp_400': Response status 400; 'es_resp_500': Response status 500; 'es_resp_other': Response status other; 'es_req_count': Total proxy request; 'es_resp_count': Total proxy Response; 'es_resp_invalid_http': Total non-http response; 'total_rev_pkts_inspected': Total reverse packets inspected; 'total_rev_pkts_inspected_good_status_code': Total reverse packets with good status code inspected; 'response_time': Response time; 'fastest_rsp_time': Fastest response time; 'slowest_rsp_time': Slowest response time;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#counters1 Cgnv6ServerPort#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#counters1 Cgnv6ServerPort#counters1}
   */
   readonly counters1?: string;
 }
@@ -201,7 +201,7 @@ export class Cgnv6ServerPortSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port thunder_cgnv6_server_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port thunder_cgnv6_server_port}
 */
 export class Cgnv6ServerPort extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6ServerPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6ServerPort to import
-  * @param importFromId The id of the existing Cgnv6ServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6ServerPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6ServerPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_server_port thunder_cgnv6_server_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_server_port thunder_cgnv6_server_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_server_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -257,9 +257,9 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
     this._healthCheckDisable = config.healthCheckDisable;
     this._healthCheckFollowPort = config.healthCheckFollowPort;
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
+    this._serverName = config.serverName;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._samplingEnable.internalValue = config.samplingEnable;
@@ -365,19 +365,6 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // port_number - computed: false, optional: false, required: true
   private _portNumber?: number; 
   public get portNumber() {
@@ -402,6 +389,19 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get protocolInput() {
     return this._protocol;
+  }
+
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -464,9 +464,9 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
       health_check_disable: cdktf.numberToTerraform(this._healthCheckDisable),
       health_check_follow_port: cdktf.numberToTerraform(this._healthCheckFollowPort),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
+      server_name: cdktf.stringToTerraform(this._serverName),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       sampling_enable: cdktf.listMapper(cgnv6ServerPortSamplingEnableToTerraform, true)(this._samplingEnable.internalValue),
@@ -511,12 +511,6 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       port_number: {
         value: cdktf.numberToHclTerraform(this._portNumber),
         isBlock: false,
@@ -525,6 +519,12 @@ export class Cgnv6ServerPort extends cdktf.TerraformResource {
       },
       protocol: {
         value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

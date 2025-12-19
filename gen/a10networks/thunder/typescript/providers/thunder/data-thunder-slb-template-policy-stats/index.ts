@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbTemplatePolicyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#id DataThunderSlbTemplatePolicyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#id DataThunderSlbTemplatePolicyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderSlbTemplatePolicyStatsConfig extends cdktf.Terraform
   /**
   * Policy template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#name DataThunderSlbTemplatePolicyStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#name DataThunderSlbTemplatePolicyStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#stats DataThunderSlbTemplatePolicyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#stats DataThunderSlbTemplatePolicyStats#stats}
   */
   readonly stats?: DataThunderSlbTemplatePolicyStatsStats;
 }
@@ -31,61 +31,61 @@ export interface DataThunderSlbTemplatePolicyStatsStats {
   /**
   * Expected Client HELLO requests not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#exp_client_hello_not_found DataThunderSlbTemplatePolicyStats#exp_client_hello_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#exp_client_hello_not_found DataThunderSlbTemplatePolicyStats#exp_client_hello_not_found}
   */
   readonly expClientHelloNotFound?: number;
   /**
   * Forward-policy current DNS outstanding requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_dns_outstanding DataThunderSlbTemplatePolicyStats#fwd_policy_dns_outstanding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_dns_outstanding DataThunderSlbTemplatePolicyStats#fwd_policy_dns_outstanding}
   */
   readonly fwdPolicyDnsOutstanding?: number;
   /**
   * Forward-policy unresolved DNS queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_dns_unresolved DataThunderSlbTemplatePolicyStats#fwd_policy_dns_unresolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_dns_unresolved DataThunderSlbTemplatePolicyStats#fwd_policy_dns_unresolved}
   */
   readonly fwdPolicyDnsUnresolved?: number;
   /**
   * Number of forward-policy requests forwarded to internet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_internet DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_internet DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_internet}
   */
   readonly fwdPolicyForwardToInternet?: number;
   /**
   * Number of forward-policy requests forwarded to proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_proxy DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_proxy DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_proxy}
   */
   readonly fwdPolicyForwardToProxy?: number;
   /**
   * Number of forward-policy requests forwarded to service group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_service_group DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_forward_to_service_group DataThunderSlbTemplatePolicyStats#fwd_policy_forward_to_service_group}
   */
   readonly fwdPolicyForwardToServiceGroup?: number;
   /**
   * Number of forward-policy requests for this policy template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_hits DataThunderSlbTemplatePolicyStats#fwd_policy_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_hits DataThunderSlbTemplatePolicyStats#fwd_policy_hits}
   */
   readonly fwdPolicyHits?: number;
   /**
   * Number of forward-policy requests dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_policy_drop DataThunderSlbTemplatePolicyStats#fwd_policy_policy_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_policy_drop DataThunderSlbTemplatePolicyStats#fwd_policy_policy_drop}
   */
   readonly fwdPolicyPolicyDrop?: number;
   /**
   * Forward-policy source-nat translation failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_snat_fail DataThunderSlbTemplatePolicyStats#fwd_policy_snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_snat_fail DataThunderSlbTemplatePolicyStats#fwd_policy_snat_fail}
   */
   readonly fwdPolicySnatFail?: number;
   /**
   * Forward-policy requests without matching source rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#fwd_policy_source_match_not_found DataThunderSlbTemplatePolicyStats#fwd_policy_source_match_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#fwd_policy_source_match_not_found DataThunderSlbTemplatePolicyStats#fwd_policy_source_match_not_found}
   */
   readonly fwdPolicySourceMatchNotFound?: number;
 }
@@ -430,7 +430,7 @@ export class DataThunderSlbTemplatePolicyStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats thunder_slb_template_policy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats thunder_slb_template_policy_stats}
 */
 export class DataThunderSlbTemplatePolicyStats extends cdktf.TerraformDataSource {
 
@@ -446,7 +446,7 @@ export class DataThunderSlbTemplatePolicyStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSlbTemplatePolicyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbTemplatePolicyStats to import
-  * @param importFromId The id of the existing DataThunderSlbTemplatePolicyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbTemplatePolicyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbTemplatePolicyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class DataThunderSlbTemplatePolicyStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_template_policy_stats thunder_slb_template_policy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_template_policy_stats thunder_slb_template_policy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class DataThunderSlbTemplatePolicyStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_slb_template_policy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

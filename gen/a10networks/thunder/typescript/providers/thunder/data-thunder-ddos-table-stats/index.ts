@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosTableStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#id DataThunderDdosTableStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#id DataThunderDdosTableStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosTableStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#stats DataThunderDdosTableStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#stats DataThunderDdosTableStats#stats}
   */
   readonly stats?: DataThunderDdosTableStatsStats;
 }
@@ -25,289 +25,289 @@ export interface DataThunderDdosTableStatsStats {
   /**
   * Dst Entry Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_black_list DataThunderDdosTableStats#dst_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_black_list DataThunderDdosTableStats#dst_black_list}
   */
   readonly dstBlackList?: number;
   /**
   * Dst Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_entry_aged DataThunderDdosTableStats#dst_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_entry_aged DataThunderDdosTableStats#dst_entry_aged}
   */
   readonly dstEntryAged?: number;
   /**
   * Dst Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_hit DataThunderDdosTableStats#dst_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_hit DataThunderDdosTableStats#dst_hit}
   */
   readonly dstHit?: number;
   /**
   * Dst Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_learn DataThunderDdosTableStats#dst_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_learn DataThunderDdosTableStats#dst_learn}
   */
   readonly dstLearn?: number;
   /**
   * Dst Dynamic Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_learning_thre_exceed DataThunderDdosTableStats#dst_learning_thre_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_learning_thre_exceed DataThunderDdosTableStats#dst_learning_thre_exceed}
   */
   readonly dstLearningThreExceed?: number;
   /**
   * Dst Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_miss DataThunderDdosTableStats#dst_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_miss DataThunderDdosTableStats#dst_miss}
   */
   readonly dstMiss?: number;
   /**
   * Dst Overflow Policy Hit At Learning Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_over_thre_policy_at_learning DataThunderDdosTableStats#dst_over_thre_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_over_thre_policy_at_learning DataThunderDdosTableStats#dst_over_thre_policy_at_learning}
   */
   readonly dstOverThrePolicyAtLearning?: number;
   /**
   * Dst Entry Whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#dst_white_list DataThunderDdosTableStats#dst_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#dst_white_list DataThunderDdosTableStats#dst_white_list}
   */
   readonly dstWhiteList?: number;
   /**
   * Out of Entry Extension Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#entry_ext_oom DataThunderDdosTableStats#entry_ext_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#entry_ext_oom DataThunderDdosTableStats#entry_ext_oom}
   */
   readonly entryExtOom?: number;
   /**
   * Out of Entry Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#entry_oom DataThunderDdosTableStats#entry_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#entry_oom DataThunderDdosTableStats#entry_oom}
   */
   readonly entryOom?: number;
   /**
   * Src Entry Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_black_list DataThunderDdosTableStats#src_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_black_list DataThunderDdosTableStats#src_black_list}
   */
   readonly srcBlackList?: number;
   /**
   * SrcDst Entry Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_black_list DataThunderDdosTableStats#src_dst_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_black_list DataThunderDdosTableStats#src_dst_black_list}
   */
   readonly srcDstBlackList?: number;
   /**
   * SrcDst Class-List Overflow Policy Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_classlist_overflow_policy_at_learning DataThunderDdosTableStats#src_dst_classlist_overflow_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_classlist_overflow_policy_at_learning DataThunderDdosTableStats#src_dst_classlist_overflow_policy_at_learning}
   */
   readonly srcDstClasslistOverflowPolicyAtLearning?: number;
   /**
   * SrcDst Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_entry_aged DataThunderDdosTableStats#src_dst_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_entry_aged DataThunderDdosTableStats#src_dst_entry_aged}
   */
   readonly srcDstEntryAged?: number;
   /**
   * SrcDst Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_hit DataThunderDdosTableStats#src_dst_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_hit DataThunderDdosTableStats#src_dst_hit}
   */
   readonly srcDstHit?: number;
   /**
   * SrcDst Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_learn DataThunderDdosTableStats#src_dst_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_learn DataThunderDdosTableStats#src_dst_learn}
   */
   readonly srcDstLearn?: number;
   /**
   * SrcDst Dynamic Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_learning_thre_exceed DataThunderDdosTableStats#src_dst_learning_thre_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_learning_thre_exceed DataThunderDdosTableStats#src_dst_learning_thre_exceed}
   */
   readonly srcDstLearningThreExceed?: number;
   /**
   * SrcDst Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_miss DataThunderDdosTableStats#src_dst_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_miss DataThunderDdosTableStats#src_dst_miss}
   */
   readonly srcDstMiss?: number;
   /**
   * SrcDst Overflow Policy Hit At Learning Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_over_thre_policy_at_learning DataThunderDdosTableStats#src_dst_over_thre_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_over_thre_policy_at_learning DataThunderDdosTableStats#src_dst_over_thre_policy_at_learning}
   */
   readonly srcDstOverThrePolicyAtLearning?: number;
   /**
   * SrcDst Overflow Policy Hit At Lookup Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_over_thre_policy_at_lookup DataThunderDdosTableStats#src_dst_over_thre_policy_at_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_over_thre_policy_at_lookup DataThunderDdosTableStats#src_dst_over_thre_policy_at_lookup}
   */
   readonly srcDstOverThrePolicyAtLookup?: number;
   /**
   * SrcDst Entry Whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_dst_white_list DataThunderDdosTableStats#src_dst_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_dst_white_list DataThunderDdosTableStats#src_dst_white_list}
   */
   readonly srcDstWhiteList?: number;
   /**
   * Src Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_entry_aged DataThunderDdosTableStats#src_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_entry_aged DataThunderDdosTableStats#src_entry_aged}
   */
   readonly srcEntryAged?: number;
   /**
   * Src Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_hit DataThunderDdosTableStats#src_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_hit DataThunderDdosTableStats#src_hit}
   */
   readonly srcHit?: number;
   /**
   * Src Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_learn DataThunderDdosTableStats#src_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_learn DataThunderDdosTableStats#src_learn}
   */
   readonly srcLearn?: number;
   /**
   * Src Dynamic Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_learning_thre_exceed DataThunderDdosTableStats#src_learning_thre_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_learning_thre_exceed DataThunderDdosTableStats#src_learning_thre_exceed}
   */
   readonly srcLearningThreExceed?: number;
   /**
   * Src Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_miss DataThunderDdosTableStats#src_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_miss DataThunderDdosTableStats#src_miss}
   */
   readonly srcMiss?: number;
   /**
   * Src Overflow Policy Hit At Learning Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_over_thre_policy_at_learning DataThunderDdosTableStats#src_over_thre_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_over_thre_policy_at_learning DataThunderDdosTableStats#src_over_thre_policy_at_learning}
   */
   readonly srcOverThrePolicyAtLearning?: number;
   /**
   * Src Overflow Policy Hit At Lookup Stage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_over_thre_policy_at_lookup DataThunderDdosTableStats#src_over_thre_policy_at_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_over_thre_policy_at_lookup DataThunderDdosTableStats#src_over_thre_policy_at_lookup}
   */
   readonly srcOverThrePolicyAtLookup?: number;
   /**
   * Src Entry Whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_white_list DataThunderDdosTableStats#src_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_white_list DataThunderDdosTableStats#src_white_list}
   */
   readonly srcWhiteList?: number;
   /**
   * SrcZoneService Entry Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_black_list DataThunderDdosTableStats#src_zone_service_black_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_black_list DataThunderDdosTableStats#src_zone_service_black_list}
   */
   readonly srcZoneServiceBlackList?: number;
   /**
   * SrcZoneService Class-List Overflow Policy Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_classlist_overflow_policy_at_learning DataThunderDdosTableStats#src_zone_service_classlist_overflow_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_classlist_overflow_policy_at_learning DataThunderDdosTableStats#src_zone_service_classlist_overflow_policy_at_learning}
   */
   readonly srcZoneServiceClasslistOverflowPolicyAtLearning?: number;
   /**
   * SrcZoneService Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_entry_aged DataThunderDdosTableStats#src_zone_service_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_entry_aged DataThunderDdosTableStats#src_zone_service_entry_aged}
   */
   readonly srcZoneServiceEntryAged?: number;
   /**
   * SrcZoneService Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_hit DataThunderDdosTableStats#src_zone_service_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_hit DataThunderDdosTableStats#src_zone_service_hit}
   */
   readonly srcZoneServiceHit?: number;
   /**
   * SrcZoneService Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_learn DataThunderDdosTableStats#src_zone_service_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_learn DataThunderDdosTableStats#src_zone_service_learn}
   */
   readonly srcZoneServiceLearn?: number;
   /**
   * SrcZoneService Dynamic Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_learning_thre_exceed DataThunderDdosTableStats#src_zone_service_learning_thre_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_learning_thre_exceed DataThunderDdosTableStats#src_zone_service_learning_thre_exceed}
   */
   readonly srcZoneServiceLearningThreExceed?: number;
   /**
   * SrcZoneService Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_miss DataThunderDdosTableStats#src_zone_service_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_miss DataThunderDdosTableStats#src_zone_service_miss}
   */
   readonly srcZoneServiceMiss?: number;
   /**
   * SrcZoneService Overflow Policy Learning Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_over_thre_policy_at_learning DataThunderDdosTableStats#src_zone_service_over_thre_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_over_thre_policy_at_learning DataThunderDdosTableStats#src_zone_service_over_thre_policy_at_learning}
   */
   readonly srcZoneServiceOverThrePolicyAtLearning?: number;
   /**
   * SrcZoneService Overflow Policy Lookup Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_over_thre_policy_at_lookup DataThunderDdosTableStats#src_zone_service_over_thre_policy_at_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_over_thre_policy_at_lookup DataThunderDdosTableStats#src_zone_service_over_thre_policy_at_lookup}
   */
   readonly srcZoneServiceOverThrePolicyAtLookup?: number;
   /**
   * SrcZoneService Entry Whitelisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#src_zone_service_white_list DataThunderDdosTableStats#src_zone_service_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#src_zone_service_white_list DataThunderDdosTableStats#src_zone_service_white_list}
   */
   readonly srcZoneServiceWhiteList?: number;
   /**
   * From-l3-peer: Zone Entry Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_entry_cleared DataThunderDdosTableStats#telem_entry_cleared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_entry_cleared DataThunderDdosTableStats#telem_entry_cleared}
   */
   readonly telemEntryCleared?: number;
   /**
   * From-l3-peer: Zone Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_entry_created DataThunderDdosTableStats#telem_entry_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_entry_created DataThunderDdosTableStats#telem_entry_created}
   */
   readonly telemEntryCreated?: number;
   /**
   * From-l3-peer: Conflict with Static Entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_err_conflict_with_static DataThunderDdosTableStats#telem_err_conflict_with_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_err_conflict_with_static DataThunderDdosTableStats#telem_err_conflict_with_static}
   */
   readonly telemErrConflictWithStatic?: number;
   /**
   * From-l3-peer: Zone Entry Create Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_err_fail_to_create DataThunderDdosTableStats#telem_err_fail_to_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_err_fail_to_create DataThunderDdosTableStats#telem_err_fail_to_create}
   */
   readonly telemErrFailToCreate?: number;
   /**
   * From-l3-peer: Zone Entry Delete Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_err_fail_to_delete DataThunderDdosTableStats#telem_err_fail_to_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_err_fail_to_delete DataThunderDdosTableStats#telem_err_fail_to_delete}
   */
   readonly telemErrFailToDelete?: number;
   /**
   * From-l3-peer: Misc Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_err_misc DataThunderDdosTableStats#telem_err_misc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_err_misc DataThunderDdosTableStats#telem_err_misc}
   */
   readonly telemErrMisc?: number;
   /**
   * From-l3-peer: Zone Entry Pre-exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_err_telem_entry_pre_exist DataThunderDdosTableStats#telem_err_telem_entry_pre_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_err_telem_entry_pre_exist DataThunderDdosTableStats#telem_err_telem_entry_pre_exist}
   */
   readonly telemErrTelemEntryPreExist?: number;
   /**
   * From-l3-peer: Route-add Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_route_add_rcvd DataThunderDdosTableStats#telem_route_add_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_route_add_rcvd DataThunderDdosTableStats#telem_route_add_rcvd}
   */
   readonly telemRouteAddRcvd?: number;
   /**
   * From-l3-peer: Route-del Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#telem_route_del_rcvd DataThunderDdosTableStats#telem_route_del_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#telem_route_del_rcvd DataThunderDdosTableStats#telem_route_del_rcvd}
   */
   readonly telemRouteDelRcvd?: number;
 }
@@ -1754,7 +1754,7 @@ export class DataThunderDdosTableStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats thunder_ddos_table_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats thunder_ddos_table_stats}
 */
 export class DataThunderDdosTableStats extends cdktf.TerraformDataSource {
 
@@ -1770,7 +1770,7 @@ export class DataThunderDdosTableStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosTableStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosTableStats to import
-  * @param importFromId The id of the existing DataThunderDdosTableStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosTableStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosTableStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1782,7 +1782,7 @@ export class DataThunderDdosTableStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_table_stats thunder_ddos_table_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_table_stats thunder_ddos_table_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1793,8 +1793,8 @@ export class DataThunderDdosTableStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_table_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

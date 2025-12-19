@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCsManagedKubernetesClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#enable_details DataAlicloudCsManagedKubernetesClusters#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#enable_details DataAlicloudCsManagedKubernetesClusters#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#id DataAlicloudCsManagedKubernetesClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#id DataAlicloudCsManagedKubernetesClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#ids DataAlicloudCsManagedKubernetesClusters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#ids DataAlicloudCsManagedKubernetesClusters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#kube_config_file_prefix DataAlicloudCsManagedKubernetesClusters#kube_config_file_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#kube_config_file_prefix DataAlicloudCsManagedKubernetesClusters#kube_config_file_prefix}
   */
   readonly kubeConfigFilePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#name_regex DataAlicloudCsManagedKubernetesClusters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#name_regex DataAlicloudCsManagedKubernetesClusters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#output_file DataAlicloudCsManagedKubernetesClusters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#output_file DataAlicloudCsManagedKubernetesClusters#output_file}
   */
   readonly outputFile?: string;
 }
@@ -511,7 +511,7 @@ export class DataAlicloudCsManagedKubernetesClustersClustersList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters alicloud_cs_managed_kubernetes_clusters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters alicloud_cs_managed_kubernetes_clusters}
 */
 export class DataAlicloudCsManagedKubernetesClusters extends cdktf.TerraformDataSource {
 
@@ -527,7 +527,7 @@ export class DataAlicloudCsManagedKubernetesClusters extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAlicloudCsManagedKubernetesClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCsManagedKubernetesClusters to import
-  * @param importFromId The id of the existing DataAlicloudCsManagedKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCsManagedKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCsManagedKubernetesClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class DataAlicloudCsManagedKubernetesClusters extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/cs_managed_kubernetes_clusters alicloud_cs_managed_kubernetes_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/cs_managed_kubernetes_clusters alicloud_cs_managed_kubernetes_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class DataAlicloudCsManagedKubernetesClusters extends cdktf.TerraformData
       terraformResourceType: 'alicloud_cs_managed_kubernetes_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

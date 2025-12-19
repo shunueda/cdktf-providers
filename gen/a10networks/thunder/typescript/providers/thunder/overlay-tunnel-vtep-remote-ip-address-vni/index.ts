@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OverlayTunnelVtepRemoteIpAddressVniConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#id OverlayTunnelVtepRemoteIpAddressVni#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#id OverlayTunnelVtepRemoteIpAddressVni#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface OverlayTunnelVtepRemoteIpAddressVniConfig extends cdktf.Terrafo
   /**
   * Id1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#id1 OverlayTunnelVtepRemoteIpAddressVni#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#id1 OverlayTunnelVtepRemoteIpAddressVni#id1}
   */
   readonly id1: string;
   /**
   * IpAddress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#ip_address OverlayTunnelVtepRemoteIpAddressVni#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#ip_address OverlayTunnelVtepRemoteIpAddressVni#ip_address}
   */
   readonly ipAddress: string;
   /**
   * VNI configured for the remote VTEP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#segment OverlayTunnelVtepRemoteIpAddressVni#segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#segment OverlayTunnelVtepRemoteIpAddressVni#segment}
   */
   readonly segment: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#uuid OverlayTunnelVtepRemoteIpAddressVni#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#uuid OverlayTunnelVtepRemoteIpAddressVni#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni thunder_overlay_tunnel_vtep_remote_ip_address_vni}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni thunder_overlay_tunnel_vtep_remote_ip_address_vni}
 */
 export class OverlayTunnelVtepRemoteIpAddressVni extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class OverlayTunnelVtepRemoteIpAddressVni extends cdktf.TerraformResource
   * Generates CDKTF code for importing a OverlayTunnelVtepRemoteIpAddressVni resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OverlayTunnelVtepRemoteIpAddressVni to import
-  * @param importFromId The id of the existing OverlayTunnelVtepRemoteIpAddressVni that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OverlayTunnelVtepRemoteIpAddressVni that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OverlayTunnelVtepRemoteIpAddressVni to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class OverlayTunnelVtepRemoteIpAddressVni extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni thunder_overlay_tunnel_vtep_remote_ip_address_vni} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/overlay_tunnel_vtep_remote_ip_address_vni thunder_overlay_tunnel_vtep_remote_ip_address_vni} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class OverlayTunnelVtepRemoteIpAddressVni extends cdktf.TerraformResource
       terraformResourceType: 'thunder_overlay_tunnel_vtep_remote_ip_address_vni',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface ScaleoutDistributedForwardingCgnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * 'enable': Enable CGN; 'disable': Disable CGN;
+  * Enable distributed-forwarding for CGN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn#cgn_value ScaleoutDistributedForwardingCgn#cgn_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn#enable ScaleoutDistributedForwardingCgn#enable}
   */
-  readonly cgnValue?: string;
+  readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn#id ScaleoutDistributedForwardingCgn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn#id ScaleoutDistributedForwardingCgn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ScaleoutDistributedForwardingCgnConfig extends cdktf.TerraformM
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn#uuid ScaleoutDistributedForwardingCgn#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn#uuid ScaleoutDistributedForwardingCgn#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn thunder_scaleout_distributed_forwarding_cgn}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn thunder_scaleout_distributed_forwarding_cgn}
 */
 export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutDistributedForwardingCgn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutDistributedForwardingCgn to import
-  * @param importFromId The id of the existing ScaleoutDistributedForwardingCgn that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutDistributedForwardingCgn that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutDistributedForwardingCgn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_distributed_forwarding_cgn thunder_scaleout_distributed_forwarding_cgn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_distributed_forwarding_cgn thunder_scaleout_distributed_forwarding_cgn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_distributed_forwarding_cgn',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,7 +79,7 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._cgnValue = config.cgnValue;
+    this._enable = config.enable;
     this._id = config.id;
     this._uuid = config.uuid;
   }
@@ -88,20 +88,20 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // cgn_value - computed: false, optional: true, required: false
-  private _cgnValue?: string; 
-  public get cgnValue() {
-    return this.getStringAttribute('cgn_value');
+  // enable - computed: false, optional: true, required: false
+  private _enable?: number; 
+  public get enable() {
+    return this.getNumberAttribute('enable');
   }
-  public set cgnValue(value: string) {
-    this._cgnValue = value;
+  public set enable(value: number) {
+    this._enable = value;
   }
-  public resetCgnValue() {
-    this._cgnValue = undefined;
+  public resetEnable() {
+    this._enable = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get cgnValueInput() {
-    return this._cgnValue;
+  public get enableInput() {
+    return this._enable;
   }
 
   // id - computed: true, optional: true, required: false
@@ -142,7 +142,7 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      cgn_value: cdktf.stringToTerraform(this._cgnValue),
+      enable: cdktf.numberToTerraform(this._enable),
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -150,11 +150,11 @@ export class ScaleoutDistributedForwardingCgn extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      cgn_value: {
-        value: cdktf.stringToHclTerraform(this._cgnValue),
+      enable: {
+        value: cdktf.numberToHclTerraform(this._enable),
         isBlock: false,
         type: "simple",
-        storageClassType: "string",
+        storageClassType: "number",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

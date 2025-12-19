@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScaleoutAppsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable Scaleout for apps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#enable ScaleoutApps#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#enable ScaleoutApps#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#id ScaleoutApps#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#id ScaleoutApps#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface ScaleoutAppsConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#uuid ScaleoutApps#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#uuid ScaleoutApps#uuid}
   */
   readonly uuid?: string;
   /**
   * skip_mac_overwrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#skip_mac_overwrite ScaleoutApps#skip_mac_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#skip_mac_overwrite ScaleoutApps#skip_mac_overwrite}
   */
   readonly skipMacOverwrite?: ScaleoutAppsSkipMacOverwrite;
 }
@@ -37,13 +37,13 @@ export interface ScaleoutAppsSkipMacOverwrite {
   /**
   * Skips overwriting dest MAC of flooded packets on Active node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#enable ScaleoutApps#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#enable ScaleoutApps#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#uuid ScaleoutApps#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#uuid ScaleoutApps#uuid}
   */
   readonly uuid?: string;
 }
@@ -156,7 +156,7 @@ export class ScaleoutAppsSkipMacOverwriteOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps thunder_scaleout_apps}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps thunder_scaleout_apps}
 */
 export class ScaleoutApps extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class ScaleoutApps extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScaleoutApps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutApps to import
-  * @param importFromId The id of the existing ScaleoutApps that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutApps that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutApps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class ScaleoutApps extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_apps thunder_scaleout_apps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_apps thunder_scaleout_apps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class ScaleoutApps extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_scaleout_apps',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVersionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#id DataThunderVersionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#id DataThunderVersionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,137 +17,137 @@ export interface DataThunderVersionOperConfig extends cdktf.TerraformMetaArgumen
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#oper DataThunderVersionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#oper DataThunderVersionOper#oper}
   */
   readonly oper?: DataThunderVersionOperOper;
 }
 export interface DataThunderVersionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#aflex_version DataThunderVersionOper#aflex_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#aflex_version DataThunderVersionOper#aflex_version}
   */
   readonly aflexVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#alldynamic DataThunderVersionOper#alldynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#alldynamic DataThunderVersionOper#alldynamic}
   */
   readonly alldynamic?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#axapi_version DataThunderVersionOper#axapi_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#axapi_version DataThunderVersionOper#axapi_version}
   */
   readonly axapiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#boot_from DataThunderVersionOper#boot_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#boot_from DataThunderVersionOper#boot_from}
   */
   readonly bootFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#buff_size DataThunderVersionOper#buff_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#buff_size DataThunderVersionOper#buff_size}
   */
   readonly buffSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#build_type DataThunderVersionOper#build_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#build_type DataThunderVersionOper#build_type}
   */
   readonly buildType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#cf_pri DataThunderVersionOper#cf_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#cf_pri DataThunderVersionOper#cf_pri}
   */
   readonly cfPri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#cf_sec DataThunderVersionOper#cf_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#cf_sec DataThunderVersionOper#cf_sec}
   */
   readonly cfSec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#copyright DataThunderVersionOper#copyright}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#copyright DataThunderVersionOper#copyright}
   */
   readonly copyright?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#cots_sys_mfg DataThunderVersionOper#cots_sys_mfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#cots_sys_mfg DataThunderVersionOper#cots_sys_mfg}
   */
   readonly cotsSysMfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#cots_sys_name DataThunderVersionOper#cots_sys_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#cots_sys_name DataThunderVersionOper#cots_sys_name}
   */
   readonly cotsSysName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#cots_sys_ver DataThunderVersionOper#cots_sys_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#cots_sys_ver DataThunderVersionOper#cots_sys_ver}
   */
   readonly cotsSysVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#current_time DataThunderVersionOper#current_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#current_time DataThunderVersionOper#current_time}
   */
   readonly currentTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#firmware_version DataThunderVersionOper#firmware_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#firmware_version DataThunderVersionOper#firmware_version}
   */
   readonly firmwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#hd_pri DataThunderVersionOper#hd_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#hd_pri DataThunderVersionOper#hd_pri}
   */
   readonly hdPri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#hd_sec DataThunderVersionOper#hd_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#hd_sec DataThunderVersionOper#hd_sec}
   */
   readonly hdSec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#hostname DataThunderVersionOper#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#hostname DataThunderVersionOper#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#hw_code DataThunderVersionOper#hw_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#hw_code DataThunderVersionOper#hw_code}
   */
   readonly hwCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#hw_platform DataThunderVersionOper#hw_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#hw_platform DataThunderVersionOper#hw_platform}
   */
   readonly hwPlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#io_buff_enabled DataThunderVersionOper#io_buff_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#io_buff_enabled DataThunderVersionOper#io_buff_enabled}
   */
   readonly ioBuffEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#last_config_saved_time DataThunderVersionOper#last_config_saved_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#last_config_saved_time DataThunderVersionOper#last_config_saved_time}
   */
   readonly lastConfigSavedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#nun_ctrl_cpus DataThunderVersionOper#nun_ctrl_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#nun_ctrl_cpus DataThunderVersionOper#nun_ctrl_cpus}
   */
   readonly nunCtrlCpus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#plat_features DataThunderVersionOper#plat_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#plat_features DataThunderVersionOper#plat_features}
   */
   readonly platFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#pri_gui_version DataThunderVersionOper#pri_gui_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#pri_gui_version DataThunderVersionOper#pri_gui_version}
   */
   readonly priGuiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#product DataThunderVersionOper#product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#product DataThunderVersionOper#product}
   */
   readonly product?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#sec_gui_version DataThunderVersionOper#sec_gui_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#sec_gui_version DataThunderVersionOper#sec_gui_version}
   */
   readonly secGuiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#serial_number DataThunderVersionOper#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#serial_number DataThunderVersionOper#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#series_name DataThunderVersionOper#series_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#series_name DataThunderVersionOper#series_name}
   */
   readonly seriesName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#sw_version DataThunderVersionOper#sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#sw_version DataThunderVersionOper#sw_version}
   */
   readonly swVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#sys_poll_mode DataThunderVersionOper#sys_poll_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#sys_poll_mode DataThunderVersionOper#sys_poll_mode}
   */
   readonly sysPollMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#up_time DataThunderVersionOper#up_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#up_time DataThunderVersionOper#up_time}
   */
   readonly upTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#virtualization_type DataThunderVersionOper#virtualization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#virtualization_type DataThunderVersionOper#virtualization_type}
   */
   readonly virtualizationType?: string;
 }
@@ -1130,7 +1130,7 @@ export class DataThunderVersionOperOperOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper thunder_version_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper thunder_version_oper}
 */
 export class DataThunderVersionOper extends cdktf.TerraformDataSource {
 
@@ -1146,7 +1146,7 @@ export class DataThunderVersionOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVersionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVersionOper to import
-  * @param importFromId The id of the existing DataThunderVersionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVersionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVersionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1158,7 +1158,7 @@ export class DataThunderVersionOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/version_oper thunder_version_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/version_oper thunder_version_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1169,8 +1169,8 @@ export class DataThunderVersionOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_version_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

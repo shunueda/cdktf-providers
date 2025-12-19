@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwServerPortStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#id DataThunderFwServerPortStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#id DataThunderFwServerPortStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#name DataThunderFwServerPortStats#name}
-  */
-  readonly name: string;
-  /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#port_number DataThunderFwServerPortStats#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#port_number DataThunderFwServerPortStats#port_number}
   */
   readonly portNumber: number;
   /**
   * 'tcp': TCP Port; 'udp': UDP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#protocol DataThunderFwServerPortStats#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#protocol DataThunderFwServerPortStats#protocol}
   */
   readonly protocol: string;
   /**
+  * Server_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#server_name DataThunderFwServerPortStats#server_name}
+  */
+  readonly serverName: string;
+  /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#stats DataThunderFwServerPortStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#stats DataThunderFwServerPortStats#stats}
   */
   readonly stats?: DataThunderFwServerPortStatsStats;
 }
@@ -43,145 +43,145 @@ export interface DataThunderFwServerPortStatsStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#curr_conn DataThunderFwServerPortStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#curr_conn DataThunderFwServerPortStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#curr_req DataThunderFwServerPortStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#curr_req DataThunderFwServerPortStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Total proxy request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_req_count DataThunderFwServerPortStats#es_req_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_req_count DataThunderFwServerPortStats#es_req_count}
   */
   readonly esReqCount?: number;
   /**
   * Response status 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_200 DataThunderFwServerPortStats#es_resp_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_200 DataThunderFwServerPortStats#es_resp_200}
   */
   readonly esResp200?: number;
   /**
   * Response status 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_300 DataThunderFwServerPortStats#es_resp_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_300 DataThunderFwServerPortStats#es_resp_300}
   */
   readonly esResp300?: number;
   /**
   * Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_400 DataThunderFwServerPortStats#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_400 DataThunderFwServerPortStats#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_500 DataThunderFwServerPortStats#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_500 DataThunderFwServerPortStats#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Total proxy Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_count DataThunderFwServerPortStats#es_resp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_count DataThunderFwServerPortStats#es_resp_count}
   */
   readonly esRespCount?: number;
   /**
   * Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_invalid_http DataThunderFwServerPortStats#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_invalid_http DataThunderFwServerPortStats#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
   * Response status other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#es_resp_other DataThunderFwServerPortStats#es_resp_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#es_resp_other DataThunderFwServerPortStats#es_resp_other}
   */
   readonly esRespOther?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#fastest_rsp_time DataThunderFwServerPortStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#fastest_rsp_time DataThunderFwServerPortStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Last total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#last_total_conn DataThunderFwServerPortStats#last_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#last_total_conn DataThunderFwServerPortStats#last_total_conn}
   */
   readonly lastTotalConn?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#peak_conn DataThunderFwServerPortStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#peak_conn DataThunderFwServerPortStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#response_time DataThunderFwServerPortStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#response_time DataThunderFwServerPortStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#slowest_rsp_time DataThunderFwServerPortStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#slowest_rsp_time DataThunderFwServerPortStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_conn DataThunderFwServerPortStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_conn DataThunderFwServerPortStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Forward bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_fwd_bytes DataThunderFwServerPortStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_fwd_bytes DataThunderFwServerPortStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_fwd_pkts DataThunderFwServerPortStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_fwd_pkts DataThunderFwServerPortStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_req DataThunderFwServerPortStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_req DataThunderFwServerPortStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total request success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_req_succ DataThunderFwServerPortStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_req_succ DataThunderFwServerPortStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Reverse bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_rev_bytes DataThunderFwServerPortStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_rev_bytes DataThunderFwServerPortStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Reverse packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_rev_pkts DataThunderFwServerPortStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_rev_pkts DataThunderFwServerPortStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_rev_pkts_inspected DataThunderFwServerPortStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_rev_pkts_inspected DataThunderFwServerPortStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets with good status code inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#total_rev_pkts_inspected_good_status_code DataThunderFwServerPortStats#total_rev_pkts_inspected_good_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#total_rev_pkts_inspected_good_status_code DataThunderFwServerPortStats#total_rev_pkts_inspected_good_status_code}
   */
   readonly totalRevPktsInspectedGoodStatusCode?: number;
 }
@@ -932,7 +932,7 @@ export class DataThunderFwServerPortStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats thunder_fw_server_port_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats thunder_fw_server_port_stats}
 */
 export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
 
@@ -948,7 +948,7 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderFwServerPortStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwServerPortStats to import
-  * @param importFromId The id of the existing DataThunderFwServerPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwServerPortStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwServerPortStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -960,7 +960,7 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_server_port_stats thunder_fw_server_port_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_server_port_stats thunder_fw_server_port_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -971,8 +971,8 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_fw_server_port_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -983,9 +983,9 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
     this._portNumber = config.portNumber;
     this._protocol = config.protocol;
+    this._serverName = config.serverName;
     this._stats.internalValue = config.stats;
   }
 
@@ -1007,19 +1007,6 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_number - computed: false, optional: false, required: true
@@ -1048,6 +1035,19 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
     return this._protocol;
   }
 
+  // server_name - computed: false, optional: false, required: true
+  private _serverName?: string; 
+  public get serverName() {
+    return this.getStringAttribute('server_name');
+  }
+  public set serverName(value: string) {
+    this._serverName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serverNameInput() {
+    return this._serverName;
+  }
+
   // stats - computed: false, optional: true, required: false
   private _stats = new DataThunderFwServerPortStatsStatsOutputReference(this, "stats");
   public get stats() {
@@ -1071,9 +1071,9 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_number: cdktf.numberToTerraform(this._portNumber),
       protocol: cdktf.stringToTerraform(this._protocol),
+      server_name: cdktf.stringToTerraform(this._serverName),
       stats: dataThunderFwServerPortStatsStatsToTerraform(this._stats.internalValue),
     };
   }
@@ -1086,12 +1086,6 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       port_number: {
         value: cdktf.numberToHclTerraform(this._portNumber),
         isBlock: false,
@@ -1100,6 +1094,12 @@ export class DataThunderFwServerPortStats extends cdktf.TerraformDataSource {
       },
       protocol: {
         value: cdktf.stringToHclTerraform(this._protocol),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      server_name: {
+        value: cdktf.stringToHclTerraform(this._serverName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

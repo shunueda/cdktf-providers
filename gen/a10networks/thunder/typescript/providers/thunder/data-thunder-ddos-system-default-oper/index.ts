@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosSystemDefaultOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#id DataThunderDdosSystemDefaultOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#id DataThunderDdosSystemDefaultOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,209 +17,209 @@ export interface DataThunderDdosSystemDefaultOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#oper DataThunderDdosSystemDefaultOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#oper DataThunderDdosSystemDefaultOper#oper}
   */
   readonly oper?: DataThunderDdosSystemDefaultOperOper;
 }
 export interface DataThunderDdosSystemDefaultOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_bit_entry DataThunderDdosSystemDefaultOper#dst_bit_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_bit_entry DataThunderDdosSystemDefaultOper#dst_bit_entry}
   */
   readonly dstBitEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_bit_icmp DataThunderDdosSystemDefaultOper#dst_bit_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_bit_icmp DataThunderDdosSystemDefaultOper#dst_bit_icmp}
   */
   readonly dstBitIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_bit_other DataThunderDdosSystemDefaultOper#dst_bit_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_bit_other DataThunderDdosSystemDefaultOper#dst_bit_other}
   */
   readonly dstBitOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_bit_tcp DataThunderDdosSystemDefaultOper#dst_bit_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_bit_tcp DataThunderDdosSystemDefaultOper#dst_bit_tcp}
   */
   readonly dstBitTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_bit_udp DataThunderDdosSystemDefaultOper#dst_bit_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_bit_udp DataThunderDdosSystemDefaultOper#dst_bit_udp}
   */
   readonly dstBitUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_entry DataThunderDdosSystemDefaultOper#dst_conn_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_entry DataThunderDdosSystemDefaultOper#dst_conn_entry}
   */
   readonly dstConnEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_icmp DataThunderDdosSystemDefaultOper#dst_conn_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_icmp DataThunderDdosSystemDefaultOper#dst_conn_icmp}
   */
   readonly dstConnIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_other DataThunderDdosSystemDefaultOper#dst_conn_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_other DataThunderDdosSystemDefaultOper#dst_conn_other}
   */
   readonly dstConnOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_r_entry DataThunderDdosSystemDefaultOper#dst_conn_r_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_r_entry DataThunderDdosSystemDefaultOper#dst_conn_r_entry}
   */
   readonly dstConnREntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_r_icmp DataThunderDdosSystemDefaultOper#dst_conn_r_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_r_icmp DataThunderDdosSystemDefaultOper#dst_conn_r_icmp}
   */
   readonly dstConnRIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_r_other DataThunderDdosSystemDefaultOper#dst_conn_r_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_r_other DataThunderDdosSystemDefaultOper#dst_conn_r_other}
   */
   readonly dstConnROther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_r_tcp DataThunderDdosSystemDefaultOper#dst_conn_r_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_r_tcp DataThunderDdosSystemDefaultOper#dst_conn_r_tcp}
   */
   readonly dstConnRTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_r_udp DataThunderDdosSystemDefaultOper#dst_conn_r_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_r_udp DataThunderDdosSystemDefaultOper#dst_conn_r_udp}
   */
   readonly dstConnRUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_tcp DataThunderDdosSystemDefaultOper#dst_conn_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_tcp DataThunderDdosSystemDefaultOper#dst_conn_tcp}
   */
   readonly dstConnTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_conn_udp DataThunderDdosSystemDefaultOper#dst_conn_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_conn_udp DataThunderDdosSystemDefaultOper#dst_conn_udp}
   */
   readonly dstConnUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_frag_entry DataThunderDdosSystemDefaultOper#dst_frag_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_frag_entry DataThunderDdosSystemDefaultOper#dst_frag_entry}
   */
   readonly dstFragEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_frag_icmp DataThunderDdosSystemDefaultOper#dst_frag_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_frag_icmp DataThunderDdosSystemDefaultOper#dst_frag_icmp}
   */
   readonly dstFragIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_frag_other DataThunderDdosSystemDefaultOper#dst_frag_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_frag_other DataThunderDdosSystemDefaultOper#dst_frag_other}
   */
   readonly dstFragOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_frag_tcp DataThunderDdosSystemDefaultOper#dst_frag_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_frag_tcp DataThunderDdosSystemDefaultOper#dst_frag_tcp}
   */
   readonly dstFragTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_frag_udp DataThunderDdosSystemDefaultOper#dst_frag_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_frag_udp DataThunderDdosSystemDefaultOper#dst_frag_udp}
   */
   readonly dstFragUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_pkt_entry DataThunderDdosSystemDefaultOper#dst_pkt_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_pkt_entry DataThunderDdosSystemDefaultOper#dst_pkt_entry}
   */
   readonly dstPktEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_pkt_icmp DataThunderDdosSystemDefaultOper#dst_pkt_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_pkt_icmp DataThunderDdosSystemDefaultOper#dst_pkt_icmp}
   */
   readonly dstPktIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_pkt_other DataThunderDdosSystemDefaultOper#dst_pkt_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_pkt_other DataThunderDdosSystemDefaultOper#dst_pkt_other}
   */
   readonly dstPktOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_pkt_tcp DataThunderDdosSystemDefaultOper#dst_pkt_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_pkt_tcp DataThunderDdosSystemDefaultOper#dst_pkt_tcp}
   */
   readonly dstPktTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#dst_pkt_udp DataThunderDdosSystemDefaultOper#dst_pkt_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#dst_pkt_udp DataThunderDdosSystemDefaultOper#dst_pkt_udp}
   */
   readonly dstPktUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_bit_entry DataThunderDdosSystemDefaultOper#src_bit_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_bit_entry DataThunderDdosSystemDefaultOper#src_bit_entry}
   */
   readonly srcBitEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_bit_icmp DataThunderDdosSystemDefaultOper#src_bit_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_bit_icmp DataThunderDdosSystemDefaultOper#src_bit_icmp}
   */
   readonly srcBitIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_bit_other DataThunderDdosSystemDefaultOper#src_bit_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_bit_other DataThunderDdosSystemDefaultOper#src_bit_other}
   */
   readonly srcBitOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_bit_tcp DataThunderDdosSystemDefaultOper#src_bit_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_bit_tcp DataThunderDdosSystemDefaultOper#src_bit_tcp}
   */
   readonly srcBitTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_bit_udp DataThunderDdosSystemDefaultOper#src_bit_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_bit_udp DataThunderDdosSystemDefaultOper#src_bit_udp}
   */
   readonly srcBitUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_entry DataThunderDdosSystemDefaultOper#src_conn_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_entry DataThunderDdosSystemDefaultOper#src_conn_entry}
   */
   readonly srcConnEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_icmp DataThunderDdosSystemDefaultOper#src_conn_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_icmp DataThunderDdosSystemDefaultOper#src_conn_icmp}
   */
   readonly srcConnIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_other DataThunderDdosSystemDefaultOper#src_conn_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_other DataThunderDdosSystemDefaultOper#src_conn_other}
   */
   readonly srcConnOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_r_entry DataThunderDdosSystemDefaultOper#src_conn_r_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_r_entry DataThunderDdosSystemDefaultOper#src_conn_r_entry}
   */
   readonly srcConnREntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_r_icmp DataThunderDdosSystemDefaultOper#src_conn_r_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_r_icmp DataThunderDdosSystemDefaultOper#src_conn_r_icmp}
   */
   readonly srcConnRIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_r_other DataThunderDdosSystemDefaultOper#src_conn_r_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_r_other DataThunderDdosSystemDefaultOper#src_conn_r_other}
   */
   readonly srcConnROther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_r_tcp DataThunderDdosSystemDefaultOper#src_conn_r_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_r_tcp DataThunderDdosSystemDefaultOper#src_conn_r_tcp}
   */
   readonly srcConnRTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_r_udp DataThunderDdosSystemDefaultOper#src_conn_r_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_r_udp DataThunderDdosSystemDefaultOper#src_conn_r_udp}
   */
   readonly srcConnRUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_tcp DataThunderDdosSystemDefaultOper#src_conn_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_tcp DataThunderDdosSystemDefaultOper#src_conn_tcp}
   */
   readonly srcConnTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_conn_udp DataThunderDdosSystemDefaultOper#src_conn_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_conn_udp DataThunderDdosSystemDefaultOper#src_conn_udp}
   */
   readonly srcConnUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_frag_entry DataThunderDdosSystemDefaultOper#src_frag_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_frag_entry DataThunderDdosSystemDefaultOper#src_frag_entry}
   */
   readonly srcFragEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_frag_icmp DataThunderDdosSystemDefaultOper#src_frag_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_frag_icmp DataThunderDdosSystemDefaultOper#src_frag_icmp}
   */
   readonly srcFragIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_frag_other DataThunderDdosSystemDefaultOper#src_frag_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_frag_other DataThunderDdosSystemDefaultOper#src_frag_other}
   */
   readonly srcFragOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_frag_tcp DataThunderDdosSystemDefaultOper#src_frag_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_frag_tcp DataThunderDdosSystemDefaultOper#src_frag_tcp}
   */
   readonly srcFragTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_frag_udp DataThunderDdosSystemDefaultOper#src_frag_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_frag_udp DataThunderDdosSystemDefaultOper#src_frag_udp}
   */
   readonly srcFragUdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_pkt_entry DataThunderDdosSystemDefaultOper#src_pkt_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_pkt_entry DataThunderDdosSystemDefaultOper#src_pkt_entry}
   */
   readonly srcPktEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_pkt_icmp DataThunderDdosSystemDefaultOper#src_pkt_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_pkt_icmp DataThunderDdosSystemDefaultOper#src_pkt_icmp}
   */
   readonly srcPktIcmp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_pkt_other DataThunderDdosSystemDefaultOper#src_pkt_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_pkt_other DataThunderDdosSystemDefaultOper#src_pkt_other}
   */
   readonly srcPktOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_pkt_tcp DataThunderDdosSystemDefaultOper#src_pkt_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_pkt_tcp DataThunderDdosSystemDefaultOper#src_pkt_tcp}
   */
   readonly srcPktTcp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#src_pkt_udp DataThunderDdosSystemDefaultOper#src_pkt_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#src_pkt_udp DataThunderDdosSystemDefaultOper#src_pkt_udp}
   */
   readonly srcPktUdp?: string;
 }
@@ -1724,7 +1724,7 @@ export class DataThunderDdosSystemDefaultOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper thunder_ddos_system_default_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper thunder_ddos_system_default_oper}
 */
 export class DataThunderDdosSystemDefaultOper extends cdktf.TerraformDataSource {
 
@@ -1740,7 +1740,7 @@ export class DataThunderDdosSystemDefaultOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderDdosSystemDefaultOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosSystemDefaultOper to import
-  * @param importFromId The id of the existing DataThunderDdosSystemDefaultOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosSystemDefaultOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosSystemDefaultOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1752,7 +1752,7 @@ export class DataThunderDdosSystemDefaultOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_system_default_oper thunder_ddos_system_default_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_system_default_oper thunder_ddos_system_default_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1763,8 +1763,8 @@ export class DataThunderDdosSystemDefaultOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_ddos_system_default_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosSyncOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#id DataThunderDdosSyncOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#id DataThunderDdosSyncOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosSyncOperConfig extends cdktf.TerraformMetaArgume
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#oper DataThunderDdosSyncOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#oper DataThunderDdosSyncOper#oper}
   */
   readonly oper?: DataThunderDdosSyncOperOper;
 }
@@ -25,29 +25,29 @@ export interface DataThunderDdosSyncOperOperPeerListStruct {
   /**
   * Number of heartbeat messages expected from the peer that did not arrive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_heartbeat_missing DataThunderDdosSyncOper#peer_heartbeat_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_heartbeat_missing DataThunderDdosSyncOper#peer_heartbeat_missing}
   */
   readonly peerHeartbeatMissing?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_ip DataThunderDdosSyncOper#peer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_ip DataThunderDdosSyncOper#peer_ip}
   */
   readonly peerIp?: string;
   /**
   * Number of messages received from this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_message_received DataThunderDdosSyncOper#peer_message_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_message_received DataThunderDdosSyncOper#peer_message_received}
   */
   readonly peerMessageReceived?: number;
   /**
   * Number messages sent to this peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_message_sent DataThunderDdosSyncOper#peer_message_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_message_sent DataThunderDdosSyncOper#peer_message_sent}
   */
   readonly peerMessageSent?: number;
   /**
   * Status of the connection with the peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_status DataThunderDdosSyncOper#peer_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_status DataThunderDdosSyncOper#peer_status}
   */
   readonly peerStatus?: string;
 }
@@ -279,39 +279,39 @@ export class DataThunderDdosSyncOperOperPeerListStructList extends cdktf.Complex
 }
 export interface DataThunderDdosSyncOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#error_str DataThunderDdosSyncOper#error_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#error_str DataThunderDdosSyncOper#error_str}
   */
   readonly errorStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#if_show_error_num DataThunderDdosSyncOper#if_show_error_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#if_show_error_num DataThunderDdosSyncOper#if_show_error_num}
   */
   readonly ifShowErrorNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#local_ip DataThunderDdosSyncOper#local_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#local_ip DataThunderDdosSyncOper#local_ip}
   */
   readonly localIp?: string;
   /**
   * DDOS sync status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#status DataThunderDdosSyncOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#status DataThunderDdosSyncOper#status}
   */
   readonly status?: string;
   /**
   * Total number of messages received on this device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#total_message_received DataThunderDdosSyncOper#total_message_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#total_message_received DataThunderDdosSyncOper#total_message_received}
   */
   readonly totalMessageReceived?: number;
   /**
   * Total number of messages sent from this device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#total_message_sent DataThunderDdosSyncOper#total_message_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#total_message_sent DataThunderDdosSyncOper#total_message_sent}
   */
   readonly totalMessageSent?: number;
   /**
   * peer_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#peer_list DataThunderDdosSyncOper#peer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#peer_list DataThunderDdosSyncOper#peer_list}
   */
   readonly peerList?: DataThunderDdosSyncOperOperPeerListStruct[] | cdktf.IResolvable;
 }
@@ -569,7 +569,7 @@ export class DataThunderDdosSyncOperOperOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper thunder_ddos_sync_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper thunder_ddos_sync_oper}
 */
 export class DataThunderDdosSyncOper extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataThunderDdosSyncOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosSyncOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosSyncOper to import
-  * @param importFromId The id of the existing DataThunderDdosSyncOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosSyncOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosSyncOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataThunderDdosSyncOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_sync_oper thunder_ddos_sync_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_sync_oper thunder_ddos_sync_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class DataThunderDdosSyncOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_sync_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_relay_hbase_inst_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#aam_auth_relay_hbase_inst_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#aam_auth_relay_hbase_inst_tmpl_name}
+  */
+  readonly aamAuthRelayHbaseInstTmplName: string;
+  /**
   * Enable automatic packet-capture for Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#bad_req VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#bad_req VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#bad_req}
   */
   readonly badReq?: number;
   /**
   * Enable automatic packet-capture for Forbidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#forbidden VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#forbidden VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#forbidden}
   */
   readonly forbidden?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for No Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#no_creds VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#no_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#no_creds VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#no_creds}
   */
   readonly noCreds?: number;
   /**
   * Enable automatic packet-capture for Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#not_found VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#not_found VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#not_found}
   */
   readonly notFound?: number;
   /**
   * Enable automatic packet-capture for Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#server_error VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#server_error VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#server_error}
   */
   readonly serverError?: number;
   /**
   * Enable automatic packet-capture for Unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#unauth VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#unauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#unauth VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#unauth}
   */
   readonly unauth?: number;
   /**
   * Enable automatic packet-capture for Service Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#unavailable VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#unavailable VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#unavailable}
   */
   readonly unavailable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_relay_hbase_inst_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,10 +121,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthRelayHbaseInstTmplName = config.aamAuthRelayHbaseInstTmplName;
     this._badReq = config.badReq;
     this._forbidden = config.forbidden;
     this._id = config.id;
-    this._name = config.name;
     this._noCreds = config.noCreds;
     this._notFound = config.notFound;
     this._serverError = config.serverError;
@@ -136,6 +136,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_relay_hbase_inst_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthRelayHbaseInstTmplName?: string; 
+  public get aamAuthRelayHbaseInstTmplName() {
+    return this.getStringAttribute('aam_auth_relay_hbase_inst_tmpl_name');
+  }
+  public set aamAuthRelayHbaseInstTmplName(value: string) {
+    this._aamAuthRelayHbaseInstTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthRelayHbaseInstTmplNameInput() {
+    return this._aamAuthRelayHbaseInstTmplName;
+  }
 
   // bad_req - computed: false, optional: true, required: false
   private _badReq?: number; 
@@ -183,19 +196,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // no_creds - computed: false, optional: true, required: false
@@ -300,10 +300,10 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_relay_hbase_inst_tmpl_name: cdktf.stringToTerraform(this._aamAuthRelayHbaseInstTmplName),
       bad_req: cdktf.numberToTerraform(this._badReq),
       forbidden: cdktf.numberToTerraform(this._forbidden),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       no_creds: cdktf.numberToTerraform(this._noCreds),
       not_found: cdktf.numberToTerraform(this._notFound),
       server_error: cdktf.numberToTerraform(this._serverError),
@@ -315,6 +315,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_relay_hbase_inst_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthRelayHbaseInstTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       bad_req: {
         value: cdktf.numberToHclTerraform(this._badReq),
         isBlock: false,
@@ -329,12 +335,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthRelayHbaseInstTmplTrig
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

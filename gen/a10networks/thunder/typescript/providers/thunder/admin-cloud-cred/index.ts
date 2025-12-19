@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -6,21 +6,21 @@ import * as cdktf from 'cdktf';
 
 // Configuration
 
-export interface AdminCloudCredConfig extends cdktf.TerraformMetaArguments {
+export interface AdminCloudCredAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delete an authorized cloud credentials and cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#delete AdminCloudCred#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#delete AdminCloudCredA#delete}
   */
   readonly delete?: number;
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#file_url AdminCloudCred#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#file_url AdminCloudCredA#file_url}
   */
   readonly fileUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#id AdminCloudCred#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#id AdminCloudCredA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,39 +29,39 @@ export interface AdminCloudCredConfig extends cdktf.TerraformMetaArguments {
   /**
   * Import an Cloud-Cred and Cloud-Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#import AdminCloudCred#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#import AdminCloudCredA#import}
   */
   readonly import?: number;
   /**
   * Show authorized cloud credentials and cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#show AdminCloudCred#show}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#show AdminCloudCredA#show}
   */
   readonly show?: number;
   /**
   * 'aws-cred': aws-cred; 'aws-config': aws-config; 'azure-cred': azure-cred; 'vmware-cred': vmware-cred;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#type AdminCloudCred#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#type AdminCloudCredA#type}
   */
   readonly type?: string;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#use_mgmt_port AdminCloudCred#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#use_mgmt_port AdminCloudCredA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#user AdminCloudCred#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#user AdminCloudCredA#user}
   */
   readonly user: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred thunder_admin_cloud_cred}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred thunder_admin_cloud_cred}
 */
-export class AdminCloudCred extends cdktf.TerraformResource {
+export class AdminCloudCredA extends cdktf.TerraformResource {
 
   // =================
   // STATIC PROPERTIES
@@ -72,11 +72,11 @@ export class AdminCloudCred extends cdktf.TerraformResource {
   // STATIC Methods
   // ==============
   /**
-  * Generates CDKTF code for importing a AdminCloudCred resource upon running "cdktf plan <stack-name>"
+  * Generates CDKTF code for importing a AdminCloudCredA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
-  * @param importToId The construct id used in the generated config for the AdminCloudCred to import
-  * @param importFromId The id of the existing AdminCloudCred that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred#import import section} in the documentation of this resource for the id to use
-  * @param provider? Optional instance of the provider where the AdminCloudCred to import is found
+  * @param importToId The construct id used in the generated config for the AdminCloudCredA to import
+  * @param importFromId The id of the existing AdminCloudCredA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the AdminCloudCredA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
         return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "thunder_admin_cloud_cred", importId: importFromId, provider });
@@ -87,19 +87,19 @@ export class AdminCloudCred extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/admin_cloud_cred thunder_admin_cloud_cred} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/admin_cloud_cred thunder_admin_cloud_cred} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options AdminCloudCredConfig
+  * @param options AdminCloudCredAConfig
   */
-  public constructor(scope: Construct, id: string, config: AdminCloudCredConfig) {
+  public constructor(scope: Construct, id: string, config: AdminCloudCredAConfig) {
     super(scope, id, {
       terraformResourceType: 'thunder_admin_cloud_cred',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

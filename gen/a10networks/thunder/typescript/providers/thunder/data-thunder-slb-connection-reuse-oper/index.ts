@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbConnectionReuseOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#id DataThunderSlbConnectionReuseOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#id DataThunderSlbConnectionReuseOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,71 +17,87 @@ export interface DataThunderSlbConnectionReuseOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#oper DataThunderSlbConnectionReuseOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#oper DataThunderSlbConnectionReuseOper#oper}
   */
   readonly oper?: DataThunderSlbConnectionReuseOperOper;
 }
 export interface DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#current_active DataThunderSlbConnectionReuseOper#current_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#current_active DataThunderSlbConnectionReuseOper#current_active}
   */
   readonly currentActive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#current_open DataThunderSlbConnectionReuseOper#current_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#current_http1_conn_in_the_pool DataThunderSlbConnectionReuseOper#current_http1_conn_in_the_pool}
+  */
+  readonly currentHttp1ConnInThePool?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#current_http2_conn_in_the_pool DataThunderSlbConnectionReuseOper#current_http2_conn_in_the_pool}
+  */
+  readonly currentHttp2ConnInThePool?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#current_open DataThunderSlbConnectionReuseOper#current_open}
   */
   readonly currentOpen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#delay_unbind DataThunderSlbConnectionReuseOper#delay_unbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#delay_unbind DataThunderSlbConnectionReuseOper#delay_unbind}
   */
   readonly delayUnbind?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#long_resp DataThunderSlbConnectionReuseOper#long_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#long_resp DataThunderSlbConnectionReuseOper#long_resp}
   */
   readonly longResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#miss_resp DataThunderSlbConnectionReuseOper#miss_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#miss_resp DataThunderSlbConnectionReuseOper#miss_resp}
   */
   readonly missResp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#nbind DataThunderSlbConnectionReuseOper#nbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#nbind DataThunderSlbConnectionReuseOper#nbind}
   */
   readonly nbind?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#nestab DataThunderSlbConnectionReuseOper#nestab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#nestab DataThunderSlbConnectionReuseOper#nestab}
   */
   readonly nestab?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#not_remove_from_rport DataThunderSlbConnectionReuseOper#not_remove_from_rport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#not_remove_from_rport DataThunderSlbConnectionReuseOper#not_remove_from_rport}
   */
   readonly notRemoveFromRport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#ntermi DataThunderSlbConnectionReuseOper#ntermi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#ntermi DataThunderSlbConnectionReuseOper#ntermi}
   */
   readonly ntermi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#ntermi_err DataThunderSlbConnectionReuseOper#ntermi_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#ntermi_err DataThunderSlbConnectionReuseOper#ntermi_err}
   */
   readonly ntermiErr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#nunbind DataThunderSlbConnectionReuseOper#nunbind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#nunbind DataThunderSlbConnectionReuseOper#nunbind}
   */
   readonly nunbind?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#pause_conn DataThunderSlbConnectionReuseOper#pause_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#pause_conn DataThunderSlbConnectionReuseOper#pause_conn}
   */
   readonly pauseConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#pause_conn_fail DataThunderSlbConnectionReuseOper#pause_conn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#pause_conn_fail DataThunderSlbConnectionReuseOper#pause_conn_fail}
   */
   readonly pauseConnFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#resume_conn DataThunderSlbConnectionReuseOper#resume_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#resume_conn DataThunderSlbConnectionReuseOper#resume_conn}
   */
   readonly resumeConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#unbound_data_rcv DataThunderSlbConnectionReuseOper#unbound_data_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#unbound_data_rcv DataThunderSlbConnectionReuseOper#unbound_data_rcv}
   */
   readonly unboundDataRcv?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#zero_pconn_bind_value DataThunderSlbConnectionReuseOper#zero_pconn_bind_value}
+  */
+  readonly zeroPconnBindValue?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#zero_pconn_value DataThunderSlbConnectionReuseOper#zero_pconn_value}
+  */
+  readonly zeroPconnValue?: number;
 }
 
 export function dataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructToTerraform(struct?: DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruct | cdktf.IResolvable): any {
@@ -91,6 +107,8 @@ export function dataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruc
   }
   return {
     current_active: cdktf.numberToTerraform(struct!.currentActive),
+    current_http1_conn_in_the_pool: cdktf.numberToTerraform(struct!.currentHttp1ConnInThePool),
+    current_http2_conn_in_the_pool: cdktf.numberToTerraform(struct!.currentHttp2ConnInThePool),
     current_open: cdktf.numberToTerraform(struct!.currentOpen),
     delay_unbind: cdktf.numberToTerraform(struct!.delayUnbind),
     long_resp: cdktf.numberToTerraform(struct!.longResp),
@@ -105,6 +123,8 @@ export function dataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruc
     pause_conn_fail: cdktf.numberToTerraform(struct!.pauseConnFail),
     resume_conn: cdktf.numberToTerraform(struct!.resumeConn),
     unbound_data_rcv: cdktf.numberToTerraform(struct!.unboundDataRcv),
+    zero_pconn_bind_value: cdktf.numberToTerraform(struct!.zeroPconnBindValue),
+    zero_pconn_value: cdktf.numberToTerraform(struct!.zeroPconnValue),
   }
 }
 
@@ -117,6 +137,18 @@ export function dataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruc
   const attrs = {
     current_active: {
       value: cdktf.numberToHclTerraform(struct!.currentActive),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_http1_conn_in_the_pool: {
+      value: cdktf.numberToHclTerraform(struct!.currentHttp1ConnInThePool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    current_http2_conn_in_the_pool: {
+      value: cdktf.numberToHclTerraform(struct!.currentHttp2ConnInThePool),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -205,6 +237,18 @@ export function dataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruc
       type: "simple",
       storageClassType: "number",
     },
+    zero_pconn_bind_value: {
+      value: cdktf.numberToHclTerraform(struct!.zeroPconnBindValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    zero_pconn_value: {
+      value: cdktf.numberToHclTerraform(struct!.zeroPconnValue),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
 
   // remove undefined attributes
@@ -234,6 +278,14 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
     if (this._currentActive !== undefined) {
       hasAnyValues = true;
       internalValueResult.currentActive = this._currentActive;
+    }
+    if (this._currentHttp1ConnInThePool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentHttp1ConnInThePool = this._currentHttp1ConnInThePool;
+    }
+    if (this._currentHttp2ConnInThePool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.currentHttp2ConnInThePool = this._currentHttp2ConnInThePool;
     }
     if (this._currentOpen !== undefined) {
       hasAnyValues = true;
@@ -291,6 +343,14 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
       hasAnyValues = true;
       internalValueResult.unboundDataRcv = this._unboundDataRcv;
     }
+    if (this._zeroPconnBindValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zeroPconnBindValue = this._zeroPconnBindValue;
+    }
+    if (this._zeroPconnValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zeroPconnValue = this._zeroPconnValue;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -299,6 +359,8 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._currentActive = undefined;
+      this._currentHttp1ConnInThePool = undefined;
+      this._currentHttp2ConnInThePool = undefined;
       this._currentOpen = undefined;
       this._delayUnbind = undefined;
       this._longResp = undefined;
@@ -313,6 +375,8 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
       this._pauseConnFail = undefined;
       this._resumeConn = undefined;
       this._unboundDataRcv = undefined;
+      this._zeroPconnBindValue = undefined;
+      this._zeroPconnValue = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -322,6 +386,8 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._currentActive = value.currentActive;
+      this._currentHttp1ConnInThePool = value.currentHttp1ConnInThePool;
+      this._currentHttp2ConnInThePool = value.currentHttp2ConnInThePool;
       this._currentOpen = value.currentOpen;
       this._delayUnbind = value.delayUnbind;
       this._longResp = value.longResp;
@@ -336,6 +402,8 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
       this._pauseConnFail = value.pauseConnFail;
       this._resumeConn = value.resumeConn;
       this._unboundDataRcv = value.unboundDataRcv;
+      this._zeroPconnBindValue = value.zeroPconnBindValue;
+      this._zeroPconnValue = value.zeroPconnValue;
     }
   }
 
@@ -353,6 +421,38 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
   // Temporarily expose input value. Use with caution.
   public get currentActiveInput() {
     return this._currentActive;
+  }
+
+  // current_http1_conn_in_the_pool - computed: false, optional: true, required: false
+  private _currentHttp1ConnInThePool?: number; 
+  public get currentHttp1ConnInThePool() {
+    return this.getNumberAttribute('current_http1_conn_in_the_pool');
+  }
+  public set currentHttp1ConnInThePool(value: number) {
+    this._currentHttp1ConnInThePool = value;
+  }
+  public resetCurrentHttp1ConnInThePool() {
+    this._currentHttp1ConnInThePool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentHttp1ConnInThePoolInput() {
+    return this._currentHttp1ConnInThePool;
+  }
+
+  // current_http2_conn_in_the_pool - computed: false, optional: true, required: false
+  private _currentHttp2ConnInThePool?: number; 
+  public get currentHttp2ConnInThePool() {
+    return this.getNumberAttribute('current_http2_conn_in_the_pool');
+  }
+  public set currentHttp2ConnInThePool(value: number) {
+    this._currentHttp2ConnInThePool = value;
+  }
+  public resetCurrentHttp2ConnInThePool() {
+    this._currentHttp2ConnInThePool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get currentHttp2ConnInThePoolInput() {
+    return this._currentHttp2ConnInThePool;
   }
 
   // current_open - computed: false, optional: true, required: false
@@ -578,6 +678,38 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructOu
   public get unboundDataRcvInput() {
     return this._unboundDataRcv;
   }
+
+  // zero_pconn_bind_value - computed: false, optional: true, required: false
+  private _zeroPconnBindValue?: number; 
+  public get zeroPconnBindValue() {
+    return this.getNumberAttribute('zero_pconn_bind_value');
+  }
+  public set zeroPconnBindValue(value: number) {
+    this._zeroPconnBindValue = value;
+  }
+  public resetZeroPconnBindValue() {
+    this._zeroPconnBindValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zeroPconnBindValueInput() {
+    return this._zeroPconnBindValue;
+  }
+
+  // zero_pconn_value - computed: false, optional: true, required: false
+  private _zeroPconnValue?: number; 
+  public get zeroPconnValue() {
+    return this.getNumberAttribute('zero_pconn_value');
+  }
+  public set zeroPconnValue(value: number) {
+    this._zeroPconnValue = value;
+  }
+  public resetZeroPconnValue() {
+    this._zeroPconnValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zeroPconnValueInput() {
+    return this._zeroPconnValue;
+  }
 }
 
 export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructList extends cdktf.ComplexList {
@@ -601,13 +733,13 @@ export class DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStructLi
 }
 export interface DataThunderSlbConnectionReuseOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#cpu_count DataThunderSlbConnectionReuseOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#cpu_count DataThunderSlbConnectionReuseOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * connection_reuse_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#connection_reuse_cpu_list DataThunderSlbConnectionReuseOper#connection_reuse_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#connection_reuse_cpu_list DataThunderSlbConnectionReuseOper#connection_reuse_cpu_list}
   */
   readonly connectionReuseCpuList?: DataThunderSlbConnectionReuseOperOperConnectionReuseCpuListStruct[] | cdktf.IResolvable;
 }
@@ -720,7 +852,7 @@ export class DataThunderSlbConnectionReuseOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper thunder_slb_connection_reuse_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper thunder_slb_connection_reuse_oper}
 */
 export class DataThunderSlbConnectionReuseOper extends cdktf.TerraformDataSource {
 
@@ -736,7 +868,7 @@ export class DataThunderSlbConnectionReuseOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSlbConnectionReuseOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbConnectionReuseOper to import
-  * @param importFromId The id of the existing DataThunderSlbConnectionReuseOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbConnectionReuseOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbConnectionReuseOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -748,7 +880,7 @@ export class DataThunderSlbConnectionReuseOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_connection_reuse_oper thunder_slb_connection_reuse_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_connection_reuse_oper thunder_slb_connection_reuse_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -759,8 +891,8 @@ export class DataThunderSlbConnectionReuseOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_slb_connection_reuse_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

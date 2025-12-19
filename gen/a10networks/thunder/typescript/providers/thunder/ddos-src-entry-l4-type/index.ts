@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DdosSrcEntryL4TypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'permit': Whitelist incoming packets for protocol; 'deny': Blacklist incoming packets for protocol;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#action DdosSrcEntryL4Type#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#action DdosSrcEntryL4Type#action}
   */
   readonly action?: string;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#glid DdosSrcEntryL4Type#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#glid DdosSrcEntryL4Type#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#id DdosSrcEntryL4Type#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#id DdosSrcEntryL4Type#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DdosSrcEntryL4TypeConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'tcp': tcp; 'udp': udp; 'icmp': icmp; 'other': other;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#protocol DdosSrcEntryL4Type#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#protocol DdosSrcEntryL4Type#protocol}
   */
   readonly protocol: string;
   /**
   * SrcEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#src_entry_name DdosSrcEntryL4Type#src_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#src_entry_name DdosSrcEntryL4Type#src_entry_name}
   */
   readonly srcEntryName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#user_tag DdosSrcEntryL4Type#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#user_tag DdosSrcEntryL4Type#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#uuid DdosSrcEntryL4Type#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#uuid DdosSrcEntryL4Type#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#template DdosSrcEntryL4Type#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#template DdosSrcEntryL4Type#template}
   */
   readonly template?: DdosSrcEntryL4TypeTemplate;
 }
@@ -61,31 +61,31 @@ export interface DdosSrcEntryL4TypeTemplate {
   /**
   * DDOS OTHER template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#other DdosSrcEntryL4Type#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#other DdosSrcEntryL4Type#other}
   */
   readonly other?: string;
   /**
   * DDOS TCP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#tcp DdosSrcEntryL4Type#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#tcp DdosSrcEntryL4Type#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS icmp-v4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#template_icmp_v4 DdosSrcEntryL4Type#template_icmp_v4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#template_icmp_v4 DdosSrcEntryL4Type#template_icmp_v4}
   */
   readonly templateIcmpV4?: string;
   /**
   * DDOS icmp-v6 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#template_icmp_v6 DdosSrcEntryL4Type#template_icmp_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#template_icmp_v6 DdosSrcEntryL4Type#template_icmp_v6}
   */
   readonly templateIcmpV6?: string;
   /**
   * DDOS UDP template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#udp DdosSrcEntryL4Type#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#udp DdosSrcEntryL4Type#udp}
   */
   readonly udp?: string;
 }
@@ -285,7 +285,7 @@ export class DdosSrcEntryL4TypeTemplateOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type thunder_ddos_src_entry_l4_type}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type thunder_ddos_src_entry_l4_type}
 */
 export class DdosSrcEntryL4Type extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class DdosSrcEntryL4Type extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosSrcEntryL4Type resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosSrcEntryL4Type to import
-  * @param importFromId The id of the existing DdosSrcEntryL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosSrcEntryL4Type that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosSrcEntryL4Type to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class DdosSrcEntryL4Type extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_src_entry_l4_type thunder_ddos_src_entry_l4_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_src_entry_l4_type thunder_ddos_src_entry_l4_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class DdosSrcEntryL4Type extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_src_entry_l4_type',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

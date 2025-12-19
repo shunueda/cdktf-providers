@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbRcCacheGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global#id SlbRcCacheGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global#id SlbRcCacheGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface SlbRcCacheGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global#uuid SlbRcCacheGlobal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global#uuid SlbRcCacheGlobal#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global#sampling_enable SlbRcCacheGlobal#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global#sampling_enable SlbRcCacheGlobal#sampling_enable}
   */
   readonly samplingEnable?: SlbRcCacheGlobalSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface SlbRcCacheGlobalSamplingEnable {
   /**
   * 'all': all; 'hits': Cache Hits; 'miss': Cache Misses; 'bytes_served': Bytes Served; 'total_req': Total Requests; 'caching_req': Cacheable Requests; 'nc_req_header': No-cache Request; 'nc_res_header': Not cacheable; 'rv_success': Revalidation Successes; 'rv_failure': Revalidation Failures; 'ims_request': IMS Requests; 'nm_response': Responses from cache 304 Not Modified; 'rsp_type_CL': Responses from server 200 OK - Cont Len; 'rsp_type_CE': Responses from server 200 OK - Chnk Enc; 'rsp_type_304': Responses from server 304 Not Modified; 'rsp_type_other': Responses from server 200 OK - Other; 'rsp_no_compress': Responses from cache 200 OK - No Comp; 'rsp_gzip': Responses from cache 200 OK - Gzip; 'rsp_deflate': Responses from cache 200 OK - Deflate; 'rsp_other': Responses from cache Other; 'nocache_match': Policy URI nocache; 'match': Policy URI cache; 'invalidate_match': Policy URI invalidate; 'content_toobig': Policy Content Too Big; 'content_toosmall': Policy Content Too Small; 'entry_create_failures': Entry Create failures; 'mem_size': Memory Used; 'entry_num': Entry Cached; 'replaced_entry': Entry Replaced; 'aging_entry': Entry Aged Out; 'cleaned_entry': Entry Cleaned; 'rsp_type_stream': Responses from http2 server 200 OK - Stream; 'rsp_br': Responses from cache 200 OK - Brotli;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global#counters1 SlbRcCacheGlobal#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global#counters1 SlbRcCacheGlobal#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbRcCacheGlobalSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global thunder_slb_rc_cache_global}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global thunder_slb_rc_cache_global}
 */
 export class SlbRcCacheGlobal extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbRcCacheGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbRcCacheGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbRcCacheGlobal to import
-  * @param importFromId The id of the existing SlbRcCacheGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbRcCacheGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbRcCacheGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbRcCacheGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_rc_cache_global thunder_slb_rc_cache_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_rc_cache_global thunder_slb_rc_cache_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbRcCacheGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_rc_cache_global',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TemplateGtpMessageFilteringPolicyVersionV1AConfig extends cdktf
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#create_mbms TemplateGtpMessageFilteringPolicyVersionV1A#create_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#create_mbms TemplateGtpMessageFilteringPolicyVersionV1A#create_mbms}
   */
   readonly createMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#create_pdp TemplateGtpMessageFilteringPolicyVersionV1A#create_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#create_pdp TemplateGtpMessageFilteringPolicyVersionV1A#create_pdp}
   */
   readonly createPdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#delete_mbms TemplateGtpMessageFilteringPolicyVersionV1A#delete_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#delete_mbms TemplateGtpMessageFilteringPolicyVersionV1A#delete_mbms}
   */
   readonly deleteMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#delete_pdp TemplateGtpMessageFilteringPolicyVersionV1A#delete_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#delete_pdp TemplateGtpMessageFilteringPolicyVersionV1A#delete_pdp}
   */
   readonly deletePdp?: string;
   /**
   * 'enable': Enable Message Filtering on version; 'disable': Disable Message Filtering on version;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#enable_disable_action TemplateGtpMessageFilteringPolicyVersionV1A#enable_disable_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#enable_disable_action TemplateGtpMessageFilteringPolicyVersionV1A#enable_disable_action}
   */
   readonly enableDisableAction: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#gtp_pdu TemplateGtpMessageFilteringPolicyVersionV1A#gtp_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#gtp_pdu TemplateGtpMessageFilteringPolicyVersionV1A#gtp_pdu}
   */
   readonly gtpPdu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#id TemplateGtpMessageFilteringPolicyVersionV1A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#id TemplateGtpMessageFilteringPolicyVersionV1A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,85 +53,85 @@ export interface TemplateGtpMessageFilteringPolicyVersionV1AConfig extends cdktf
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#initiate_pdp TemplateGtpMessageFilteringPolicyVersionV1A#initiate_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#initiate_pdp TemplateGtpMessageFilteringPolicyVersionV1A#initiate_pdp}
   */
   readonly initiatePdp?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_deregistration TemplateGtpMessageFilteringPolicyVersionV1A#mbms_deregistration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_deregistration TemplateGtpMessageFilteringPolicyVersionV1A#mbms_deregistration}
   */
   readonly mbmsDeregistration?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_notification TemplateGtpMessageFilteringPolicyVersionV1A#mbms_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_notification TemplateGtpMessageFilteringPolicyVersionV1A#mbms_notification}
   */
   readonly mbmsNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_registration TemplateGtpMessageFilteringPolicyVersionV1A#mbms_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_registration TemplateGtpMessageFilteringPolicyVersionV1A#mbms_registration}
   */
   readonly mbmsRegistration?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_session TemplateGtpMessageFilteringPolicyVersionV1A#mbms_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#mbms_session TemplateGtpMessageFilteringPolicyVersionV1A#mbms_session}
   */
   readonly mbmsSession?: string;
   /**
+  * Message_filtering_policy_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#message_filtering_policy_name TemplateGtpMessageFilteringPolicyVersionV1A#message_filtering_policy_name}
+  */
+  readonly messageFilteringPolicyName: string;
+  /**
   * Specify the Message Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#message_type TemplateGtpMessageFilteringPolicyVersionV1A#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#message_type TemplateGtpMessageFilteringPolicyVersionV1A#message_type}
   */
   readonly messageType?: number;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#ms_info_change TemplateGtpMessageFilteringPolicyVersionV1A#ms_info_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#ms_info_change TemplateGtpMessageFilteringPolicyVersionV1A#ms_info_change}
   */
   readonly msInfoChange?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#name TemplateGtpMessageFilteringPolicyVersionV1A#name}
-  */
-  readonly name: string;
-  /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#pdu_notification TemplateGtpMessageFilteringPolicyVersionV1A#pdu_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#pdu_notification TemplateGtpMessageFilteringPolicyVersionV1A#pdu_notification}
   */
   readonly pduNotification?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#reserved_messages TemplateGtpMessageFilteringPolicyVersionV1A#reserved_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#reserved_messages TemplateGtpMessageFilteringPolicyVersionV1A#reserved_messages}
   */
   readonly reservedMessages?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#update_mbms TemplateGtpMessageFilteringPolicyVersionV1A#update_mbms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#update_mbms TemplateGtpMessageFilteringPolicyVersionV1A#update_mbms}
   */
   readonly updateMbms?: string;
   /**
   * 'enable': Enable the Message Type; 'disable': Disable the Message Type;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#update_pdp TemplateGtpMessageFilteringPolicyVersionV1A#update_pdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#update_pdp TemplateGtpMessageFilteringPolicyVersionV1A#update_pdp}
   */
   readonly updatePdp?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#uuid TemplateGtpMessageFilteringPolicyVersionV1A#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#uuid TemplateGtpMessageFilteringPolicyVersionV1A#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1 thunder_template_gtp_message_filtering_policy_version_v1}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1 thunder_template_gtp_message_filtering_policy_version_v1}
 */
 export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
   * Generates CDKTF code for importing a TemplateGtpMessageFilteringPolicyVersionV1A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemplateGtpMessageFilteringPolicyVersionV1A to import
-  * @param importFromId The id of the existing TemplateGtpMessageFilteringPolicyVersionV1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemplateGtpMessageFilteringPolicyVersionV1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemplateGtpMessageFilteringPolicyVersionV1A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/template_gtp_message_filtering_policy_version_v1 thunder_template_gtp_message_filtering_policy_version_v1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/template_gtp_message_filtering_policy_version_v1 thunder_template_gtp_message_filtering_policy_version_v1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
       terraformResourceType: 'thunder_template_gtp_message_filtering_policy_version_v1',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -193,9 +193,9 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
     this._mbmsNotification = config.mbmsNotification;
     this._mbmsRegistration = config.mbmsRegistration;
     this._mbmsSession = config.mbmsSession;
+    this._messageFilteringPolicyName = config.messageFilteringPolicyName;
     this._messageType = config.messageType;
     this._msInfoChange = config.msInfoChange;
-    this._name = config.name;
     this._pduNotification = config.pduNotification;
     this._reservedMessages = config.reservedMessages;
     this._updateMbms = config.updateMbms;
@@ -396,6 +396,19 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
     return this._mbmsSession;
   }
 
+  // message_filtering_policy_name - computed: false, optional: false, required: true
+  private _messageFilteringPolicyName?: string; 
+  public get messageFilteringPolicyName() {
+    return this.getStringAttribute('message_filtering_policy_name');
+  }
+  public set messageFilteringPolicyName(value: string) {
+    this._messageFilteringPolicyName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get messageFilteringPolicyNameInput() {
+    return this._messageFilteringPolicyName;
+  }
+
   // message_type - computed: false, optional: true, required: false
   private _messageType?: number; 
   public get messageType() {
@@ -426,19 +439,6 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
   // Temporarily expose input value. Use with caution.
   public get msInfoChangeInput() {
     return this._msInfoChange;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // pdu_notification - computed: false, optional: true, required: false
@@ -539,9 +539,9 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
       mbms_notification: cdktf.stringToTerraform(this._mbmsNotification),
       mbms_registration: cdktf.stringToTerraform(this._mbmsRegistration),
       mbms_session: cdktf.stringToTerraform(this._mbmsSession),
+      message_filtering_policy_name: cdktf.stringToTerraform(this._messageFilteringPolicyName),
       message_type: cdktf.numberToTerraform(this._messageType),
       ms_info_change: cdktf.stringToTerraform(this._msInfoChange),
-      name: cdktf.stringToTerraform(this._name),
       pdu_notification: cdktf.stringToTerraform(this._pduNotification),
       reserved_messages: cdktf.stringToTerraform(this._reservedMessages),
       update_mbms: cdktf.stringToTerraform(this._updateMbms),
@@ -624,6 +624,12 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
         type: "simple",
         storageClassType: "string",
       },
+      message_filtering_policy_name: {
+        value: cdktf.stringToHclTerraform(this._messageFilteringPolicyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       message_type: {
         value: cdktf.numberToHclTerraform(this._messageType),
         isBlock: false,
@@ -632,12 +638,6 @@ export class TemplateGtpMessageFilteringPolicyVersionV1A extends cdktf.Terraform
       },
       ms_info_change: {
         value: cdktf.stringToHclTerraform(this._msInfoChange),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

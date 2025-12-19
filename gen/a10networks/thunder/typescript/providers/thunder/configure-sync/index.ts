@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ConfigureSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify the destination ip address to sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#address ConfigureSync#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#address ConfigureSync#address}
   */
   readonly address?: string;
   /**
   * All partition configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#all_partitions ConfigureSync#all_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#all_partitions ConfigureSync#all_partitions}
   */
   readonly allPartitions?: number;
   /**
   * Authenticate with local username and password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#auto_authentication ConfigureSync#auto_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#auto_authentication ConfigureSync#auto_authentication}
   */
   readonly autoAuthentication?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#id ConfigureSync#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#id ConfigureSync#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,39 +35,51 @@ export interface ConfigureSyncConfig extends cdktf.TerraformMetaArguments {
   /**
   * Partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#partition_name ConfigureSync#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#partition_name ConfigureSync#partition_name}
   */
   readonly partitionName?: string;
   /**
   * Use private key for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#private_key ConfigureSync#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#private_key ConfigureSync#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#pwd ConfigureSync#pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#pwd ConfigureSync#pwd}
   */
   readonly pwd?: string;
   /**
   * Shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#shared ConfigureSync#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#shared ConfigureSync#shared}
   */
   readonly shared?: number;
   /**
+  * Specify the timeout (in second)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#timeout ConfigureSync#timeout}
+  */
+  readonly timeout?: number;
+  /**
   * 'running': Sync local running to peer's running configuration; 'all': Sync local running to peer's running configuration, and local startup to peer's startup configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#type ConfigureSync#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#type ConfigureSync#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#usr ConfigureSync#usr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#usr ConfigureSync#usr}
   */
   readonly usr?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#uuid ConfigureSync#uuid}
+  */
+  readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync thunder_configure_sync}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync thunder_configure_sync}
 */
 export class ConfigureSync extends cdktf.TerraformResource {
 
@@ -83,7 +95,7 @@ export class ConfigureSync extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigureSync resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigureSync to import
-  * @param importFromId The id of the existing ConfigureSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigureSync that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigureSync to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -95,7 +107,7 @@ export class ConfigureSync extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/configure_sync thunder_configure_sync} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/configure_sync thunder_configure_sync} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -106,8 +118,8 @@ export class ConfigureSync extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_configure_sync',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -125,8 +137,10 @@ export class ConfigureSync extends cdktf.TerraformResource {
     this._privateKey = config.privateKey;
     this._pwd = config.pwd;
     this._shared = config.shared;
+    this._timeout = config.timeout;
     this._type = config.type;
     this._usr = config.usr;
+    this._uuid = config.uuid;
   }
 
   // ==========
@@ -261,6 +275,22 @@ export class ConfigureSync extends cdktf.TerraformResource {
     return this._shared;
   }
 
+  // timeout - computed: false, optional: true, required: false
+  private _timeout?: number; 
+  public get timeout() {
+    return this.getNumberAttribute('timeout');
+  }
+  public set timeout(value: number) {
+    this._timeout = value;
+  }
+  public resetTimeout() {
+    this._timeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutInput() {
+    return this._timeout;
+  }
+
   // type - computed: false, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -293,6 +323,22 @@ export class ConfigureSync extends cdktf.TerraformResource {
     return this._usr;
   }
 
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -307,8 +353,10 @@ export class ConfigureSync extends cdktf.TerraformResource {
       private_key: cdktf.stringToTerraform(this._privateKey),
       pwd: cdktf.stringToTerraform(this._pwd),
       shared: cdktf.numberToTerraform(this._shared),
+      timeout: cdktf.numberToTerraform(this._timeout),
       type: cdktf.stringToTerraform(this._type),
       usr: cdktf.stringToTerraform(this._usr),
+      uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
 
@@ -362,6 +410,12 @@ export class ConfigureSync extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      timeout: {
+        value: cdktf.numberToHclTerraform(this._timeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       type: {
         value: cdktf.stringToHclTerraform(this._type),
         isBlock: false,
@@ -370,6 +424,12 @@ export class ConfigureSync extends cdktf.TerraformResource {
       },
       usr: {
         value: cdktf.stringToHclTerraform(this._usr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      uuid: {
+        value: cdktf.stringToHclTerraform(this._uuid),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

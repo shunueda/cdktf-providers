@@ -72,10 +72,6 @@ VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Fixed
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalAToHclTerraform, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalAOutputReference, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalA, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAToTerraform, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAToHclTerraform, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAOutputReference, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgA, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgAToHclTerraform, 
@@ -120,10 +116,6 @@ VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAl
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipAToHclTerraform, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipAOutputReference, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusA, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAToTerraform, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAToHclTerraform, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAOutputReference, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalA, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalAToHclTerraform, 
@@ -156,10 +148,6 @@ VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingA
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingAToHclTerraform, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingAOutputReference, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerA, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAToTerraform, 
-visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAToHclTerraform, 
-VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAOutputReference, 
 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieA, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieAToTerraform, 
 visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieAToHclTerraform, 
@@ -345,538 +333,520 @@ import { Construct } from 'constructs';
 import * as cdktf from 'cdktf';
 export interface VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#id VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Template_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#template_name VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#template_name}
   */
-  readonly name: string;
+  readonly templateName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#uuid VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#uuid}
   */
   readonly uuid?: string;
   /**
   * aam_auth_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_account VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_account VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_account}
   */
   readonly aamAuthAccount?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthAccountA;
   /**
   * aam_auth_captcha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_captcha VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_captcha VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_captcha}
   */
   readonly aamAuthCaptcha?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthCaptchaA;
   /**
   * aam_auth_relay_kerberos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_relay_kerberos VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_relay_kerberos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_relay_kerberos VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_relay_kerberos}
   */
   readonly aamAuthRelayKerberos?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthRelayKerberosA;
   /**
   * aam_auth_saml_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_saml_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_saml_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_saml_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_saml_global}
   */
   readonly aamAuthSamlGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthSamlGlobalA;
   /**
   * aam_auth_server_ldap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_ldap VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_ldap VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_ldap}
   */
   readonly aamAuthServerLdap?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerLdapA;
   /**
   * aam_auth_server_ocsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_ocsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_ocsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_ocsp}
   */
   readonly aamAuthServerOcsp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerOcspA;
   /**
   * aam_auth_server_radius block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_radius VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_radius VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_radius}
   */
   readonly aamAuthServerRadius?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerRadiusA;
   /**
   * aam_auth_server_win block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_win VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_win}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_auth_server_win VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_auth_server_win}
   */
   readonly aamAuthServerWin?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthServerWinA;
   /**
   * aam_authentication_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_authentication_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_authentication_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_authentication_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_authentication_global}
   */
   readonly aamAuthenticationGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthenticationGlobalA;
   /**
   * aam_rdns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_rdns VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_rdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#aam_rdns VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#aam_rdns}
   */
   readonly aamRdns?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamRdnsA;
   /**
   * cgnv6_ddos_proc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_ddos_proc VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_ddos_proc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_ddos_proc VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_ddos_proc}
   */
   readonly cgnv6DdosProc?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DdosProcA;
   /**
   * cgnv6_dhcpv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_dhcpv6 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_dhcpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_dhcpv6 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_dhcpv6}
   */
   readonly cgnv6Dhcpv6?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dhcpv6A;
   /**
   * cgnv6_dns64 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_dns64 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_dns64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_dns64 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_dns64}
   */
   readonly cgnv6Dns64?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Dns64A;
   /**
   * cgnv6_ds_lite_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_ds_lite_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_ds_lite_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_ds_lite_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_ds_lite_global}
   */
   readonly cgnv6DsLiteGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6DsLiteGlobalA;
   /**
   * cgnv6_fixed_nat_alg_pptp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_pptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_pptp}
   */
   readonly cgnv6FixedNatAlgPptp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgPptpA;
   /**
   * cgnv6_fixed_nat_alg_rtsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_rtsp}
   */
   readonly cgnv6FixedNatAlgRtsp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgRtspA;
   /**
   * cgnv6_fixed_nat_alg_sip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_alg_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_alg_sip}
   */
   readonly cgnv6FixedNatAlgSip?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgSipA;
   /**
   * cgnv6_fixed_nat_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_fixed_nat_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_fixed_nat_global}
   */
   readonly cgnv6FixedNatGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalA;
   /**
-  * cgnv6_global block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_global}
-  */
-  readonly cgnv6Global?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalA;
-  /**
   * cgnv6_http_alg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_http_alg VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_http_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_http_alg VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_http_alg}
   */
   readonly cgnv6HttpAlg?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgA;
   /**
   * cgnv6_icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_icmp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_icmp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_icmp}
   */
   readonly cgnv6Icmp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6IcmpA;
   /**
   * cgnv6_l4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_l4 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_l4 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_l4}
   */
   readonly cgnv6L4?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6L4A;
   /**
   * cgnv6_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_logging VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_logging VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_logging}
   */
   readonly cgnv6Logging?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LoggingA;
   /**
   * cgnv6_lsn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn}
   */
   readonly cgnv6Lsn?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnA;
   /**
   * cgnv6_lsn_alg_esp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_esp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_esp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_esp}
   */
   readonly cgnv6LsnAlgEsp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgEspA;
   /**
   * cgnv6_lsn_alg_h323 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_h323 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_h323}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_h323 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_h323}
   */
   readonly cgnv6LsnAlgH323?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgH323A;
   /**
   * cgnv6_lsn_alg_mgcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_mgcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_mgcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_mgcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_mgcp}
   */
   readonly cgnv6LsnAlgMgcp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgMgcpA;
   /**
   * cgnv6_lsn_alg_pptp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_pptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_pptp}
   */
   readonly cgnv6LsnAlgPptp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgPptpA;
   /**
   * cgnv6_lsn_alg_rtsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_rtsp}
   */
   readonly cgnv6LsnAlgRtsp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgRtspA;
   /**
   * cgnv6_lsn_alg_sip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_alg_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_alg_sip}
   */
   readonly cgnv6LsnAlgSip?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipA;
   /**
-  * cgnv6_lsn_radius block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_lsn_radius VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_lsn_radius}
-  */
-  readonly cgnv6LsnRadius?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusA;
-  /**
   * cgnv6_nat64_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_nat64_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_nat64_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_nat64_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_nat64_global}
   */
   readonly cgnv6Nat64Global?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalA;
   /**
   * cgnv6_pcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_pcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_pcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#cgnv6_pcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#cgnv6_pcp}
   */
   readonly cgnv6Pcp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6PcpA;
   /**
   * fw_alg_pptp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_alg_pptp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_alg_pptp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_alg_pptp}
   */
   readonly fwAlgPptp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgPptpA;
   /**
   * fw_alg_rtsp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_alg_rtsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_alg_rtsp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_alg_rtsp}
   */
   readonly fwAlgRtsp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgRtspA;
   /**
   * fw_ddos_protection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_ddos_protection VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_ddos_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_ddos_protection VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_ddos_protection}
   */
   readonly fwDdosProtection?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwDdosProtectionA;
   /**
   * fw_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_global}
   */
   readonly fwGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGlobalA;
   /**
   * fw_gtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_gtp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_gtp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_gtp}
   */
   readonly fwGtp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpA;
   /**
   * fw_logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_logging VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_logging VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_logging}
   */
   readonly fwLogging?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingA;
   /**
-  * fw_rad_server block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_rad_server VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_rad_server}
-  */
-  readonly fwRadServer?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerA;
-  /**
   * fw_tcp_syn_cookie block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_tcp_syn_cookie VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_tcp_syn_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#fw_tcp_syn_cookie VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#fw_tcp_syn_cookie}
   */
   readonly fwTcpSynCookie?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieA;
   /**
   * ip_anomaly_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#ip_anomaly_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#ip_anomaly_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#ip_anomaly_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#ip_anomaly_drop}
   */
   readonly ipAnomalyDrop?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeIpAnomalyDropA;
   /**
   * logging_local_log_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#logging_local_log_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#logging_local_log_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#logging_local_log_global VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#logging_local_log_global}
   */
   readonly loggingLocalLogGlobal?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeLoggingLocalLogGlobalA;
   /**
   * slb_aflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_aflow VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_aflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_aflow VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_aflow}
   */
   readonly slbAflow?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbAflowA;
   /**
   * slb_conn_reuse block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_conn_reuse VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_conn_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_conn_reuse VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_conn_reuse}
   */
   readonly slbConnReuse?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbConnReuseA;
   /**
   * slb_crl_srcip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_crl_srcip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_crl_srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_crl_srcip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_crl_srcip}
   */
   readonly slbCrlSrcip?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbCrlSrcipA;
   /**
   * slb_fast_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_fast_http VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_fast_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_fast_http VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_fast_http}
   */
   readonly slbFastHttp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFastHttpA;
   /**
   * slb_fix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_fix VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_fix VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_fix}
   */
   readonly slbFix?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFixA;
   /**
   * slb_ftp_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ftp_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ftp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ftp_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ftp_proxy}
   */
   readonly slbFtpProxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbFtpProxyA;
   /**
   * slb_generic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_generic VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_generic VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_generic}
   */
   readonly slbGeneric?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbGenericA;
   /**
   * slb_http2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_http2 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_http2 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_http2}
   */
   readonly slbHttp2?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbHttp2A;
   /**
   * slb_http_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_http_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_http_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_http_proxy}
   */
   readonly slbHttpProxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbHttpProxyA;
   /**
   * slb_hw_compress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_hw_compress VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_hw_compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_hw_compress VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_hw_compress}
   */
   readonly slbHwCompress?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbHwCompressA;
   /**
   * slb_icap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_icap VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_icap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_icap VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_icap}
   */
   readonly slbIcap?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbIcapA;
   /**
   * slb_imap_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_imap_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_imap_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_imap_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_imap_proxy}
   */
   readonly slbImapProxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbImapProxyA;
   /**
   * slb_l4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_l4 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_l4 VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_l4}
   */
   readonly slbL4?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbL4A;
   /**
   * slb_l7session block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_l7session VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_l7session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_l7session VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_l7session}
   */
   readonly slbL7Session?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbL7SessionA;
   /**
   * slb_link_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_link_probe VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_link_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_link_probe VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_link_probe}
   */
   readonly slbLinkProbe?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbLinkProbeA;
   /**
   * slb_mlb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mlb VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mlb VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mlb}
   */
   readonly slbMlb?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbMlbA;
   /**
   * slb_mqtt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mqtt VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mqtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mqtt VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mqtt}
   */
   readonly slbMqtt?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbMqttA;
   /**
   * slb_mssql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mssql VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mssql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mssql VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mssql}
   */
   readonly slbMssql?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbMssqlA;
   /**
   * slb_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mysql VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_mysql VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_mysql}
   */
   readonly slbMysql?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbMysqlA;
   /**
   * slb_persist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_persist VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_persist VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_persist}
   */
   readonly slbPersist?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbPersistA;
   /**
   * slb_plyr_id_gbl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_plyr_id_gbl VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_plyr_id_gbl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_plyr_id_gbl VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_plyr_id_gbl}
   */
   readonly slbPlyrIdGbl?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbPlyrIdGblA;
   /**
   * slb_pop3_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_pop3_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_pop3_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_pop3_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_pop3_proxy}
   */
   readonly slbPop3Proxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbPop3ProxyA;
   /**
   * slb_rc_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_rc_cache VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_rc_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_rc_cache VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_rc_cache}
   */
   readonly slbRcCache?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbRcCacheA;
   /**
   * slb_rpz block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_rpz VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_rpz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_rpz VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_rpz}
   */
   readonly slbRpz?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbRpzA;
   /**
   * slb_sip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_sip VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_sip}
   */
   readonly slbSip?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSipA;
   /**
   * slb_smpp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_smpp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_smpp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_smpp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_smpp}
   */
   readonly slbSmpp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSmppA;
   /**
   * slb_smtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_smtp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_smtp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_smtp}
   */
   readonly slbSmtp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSmtpA;
   /**
   * slb_spdy_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_spdy_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_spdy_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_spdy_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_spdy_proxy}
   */
   readonly slbSpdyProxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSpdyProxyA;
   /**
   * slb_sport_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_sport_rate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_sport_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_sport_rate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_sport_rate}
   */
   readonly slbSportRate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSportRateA;
   /**
   * slb_ssl_cert_revoke block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_cert_revoke VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_cert_revoke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_cert_revoke VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_cert_revoke}
   */
   readonly slbSslCertRevoke?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSslCertRevokeA;
   /**
   * slb_ssl_error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_error}
   */
   readonly slbSslError?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSslErrorA;
   /**
   * slb_ssl_forward_proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_forward_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_ssl_forward_proxy VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_ssl_forward_proxy}
   */
   readonly slbSslForwardProxy?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSslForwardProxyA;
   /**
   * slb_switch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_switch VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#slb_switch VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#slb_switch}
   */
   readonly slbSwitch?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSlbSwitchA;
   /**
   * so_counters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#so_counters VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#so_counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#so_counters VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#so_counters}
   */
   readonly soCounters?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSoCountersA;
   /**
   * system_ctr_lib_acct block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_ctr_lib_acct VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_ctr_lib_acct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_ctr_lib_acct VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_ctr_lib_acct}
   */
   readonly systemCtrLibAcct?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemCtrLibAcctA;
   /**
   * system_dpdk_stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_dpdk_stats VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_dpdk_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_dpdk_stats VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_dpdk_stats}
   */
   readonly systemDpdkStats?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemDpdkStatsA;
   /**
   * system_fpga_drop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_fpga_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_fpga_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_fpga_drop VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_fpga_drop}
   */
   readonly systemFpgaDrop?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemFpgaDropA;
   /**
   * system_hardware_accelerate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_hardware_accelerate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_hardware_accelerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_hardware_accelerate VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_hardware_accelerate}
   */
   readonly systemHardwareAccelerate?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemHardwareAccelerateA;
   /**
   * system_ip_threat_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_ip_threat_list VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_ip_threat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_ip_threat_list VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_ip_threat_list}
   */
   readonly systemIpThreatList?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemIpThreatListStructA;
   /**
   * system_radius_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_radius_server VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_radius_server VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_radius_server}
   */
   readonly systemRadiusServer?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemRadiusServerA;
   /**
   * system_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_tcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#system_tcp VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#system_tcp}
   */
   readonly systemTcp?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeSystemTcpA;
   /**
   * vpn_error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#vpn_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#vpn_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#vpn_error VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA#vpn_error}
   */
   readonly vpnError?: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeVpnErrorA;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change}
 */
 export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA extends cdktf.TerraformResource {
 
@@ -892,7 +862,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   * Generates CDKTF code for importing a VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -904,7 +874,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -915,8 +885,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       terraformResourceType: 'thunder_visibility_packet_capture_global_templates_template_trigger_sys_obj_stats_change',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -927,7 +897,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._templateName = config.templateName;
     this._uuid = config.uuid;
     this._aamAuthAccount.internalValue = config.aamAuthAccount;
     this._aamAuthCaptcha.internalValue = config.aamAuthCaptcha;
@@ -947,7 +917,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     this._cgnv6FixedNatAlgRtsp.internalValue = config.cgnv6FixedNatAlgRtsp;
     this._cgnv6FixedNatAlgSip.internalValue = config.cgnv6FixedNatAlgSip;
     this._cgnv6FixedNatGlobal.internalValue = config.cgnv6FixedNatGlobal;
-    this._cgnv6Global.internalValue = config.cgnv6Global;
     this._cgnv6HttpAlg.internalValue = config.cgnv6HttpAlg;
     this._cgnv6Icmp.internalValue = config.cgnv6Icmp;
     this._cgnv6L4.internalValue = config.cgnv6L4;
@@ -959,7 +928,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     this._cgnv6LsnAlgPptp.internalValue = config.cgnv6LsnAlgPptp;
     this._cgnv6LsnAlgRtsp.internalValue = config.cgnv6LsnAlgRtsp;
     this._cgnv6LsnAlgSip.internalValue = config.cgnv6LsnAlgSip;
-    this._cgnv6LsnRadius.internalValue = config.cgnv6LsnRadius;
     this._cgnv6Nat64Global.internalValue = config.cgnv6Nat64Global;
     this._cgnv6Pcp.internalValue = config.cgnv6Pcp;
     this._fwAlgPptp.internalValue = config.fwAlgPptp;
@@ -968,7 +936,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     this._fwGlobal.internalValue = config.fwGlobal;
     this._fwGtp.internalValue = config.fwGtp;
     this._fwLogging.internalValue = config.fwLogging;
-    this._fwRadServer.internalValue = config.fwRadServer;
     this._fwTcpSynCookie.internalValue = config.fwTcpSynCookie;
     this._ipAnomalyDrop.internalValue = config.ipAnomalyDrop;
     this._loggingLocalLogGlobal.internalValue = config.loggingLocalLogGlobal;
@@ -1036,17 +1003,17 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // template_name - computed: false, optional: false, required: true
+  private _templateName?: string; 
+  public get templateName() {
+    return this.getStringAttribute('template_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set templateName(value: string) {
+    this._templateName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get templateNameInput() {
+    return this._templateName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1353,22 +1320,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._cgnv6FixedNatGlobal.internalValue;
   }
 
-  // cgnv6_global - computed: false, optional: true, required: false
-  private _cgnv6Global = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAOutputReference(this, "cgnv6_global");
-  public get cgnv6Global() {
-    return this._cgnv6Global;
-  }
-  public putCgnv6Global(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalA) {
-    this._cgnv6Global.internalValue = value;
-  }
-  public resetCgnv6Global() {
-    this._cgnv6Global.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cgnv6GlobalInput() {
-    return this._cgnv6Global.internalValue;
-  }
-
   // cgnv6_http_alg - computed: false, optional: true, required: false
   private _cgnv6HttpAlg = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgAOutputReference(this, "cgnv6_http_alg");
   public get cgnv6HttpAlg() {
@@ -1545,22 +1496,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
     return this._cgnv6LsnAlgSip.internalValue;
   }
 
-  // cgnv6_lsn_radius - computed: false, optional: true, required: false
-  private _cgnv6LsnRadius = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAOutputReference(this, "cgnv6_lsn_radius");
-  public get cgnv6LsnRadius() {
-    return this._cgnv6LsnRadius;
-  }
-  public putCgnv6LsnRadius(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusA) {
-    this._cgnv6LsnRadius.internalValue = value;
-  }
-  public resetCgnv6LsnRadius() {
-    this._cgnv6LsnRadius.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get cgnv6LsnRadiusInput() {
-    return this._cgnv6LsnRadius.internalValue;
-  }
-
   // cgnv6_nat64_global - computed: false, optional: true, required: false
   private _cgnv6Nat64Global = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalAOutputReference(this, "cgnv6_nat64_global");
   public get cgnv6Nat64Global() {
@@ -1687,22 +1622,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   // Temporarily expose input value. Use with caution.
   public get fwLoggingInput() {
     return this._fwLogging.internalValue;
-  }
-
-  // fw_rad_server - computed: false, optional: true, required: false
-  private _fwRadServer = new VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAOutputReference(this, "fw_rad_server");
-  public get fwRadServer() {
-    return this._fwRadServer;
-  }
-  public putFwRadServer(value: VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerA) {
-    this._fwRadServer.internalValue = value;
-  }
-  public resetFwRadServer() {
-    this._fwRadServer.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fwRadServerInput() {
-    return this._fwRadServer.internalValue;
   }
 
   // fw_tcp_syn_cookie - computed: false, optional: true, required: false
@@ -2432,7 +2351,7 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      template_name: cdktf.stringToTerraform(this._templateName),
       uuid: cdktf.stringToTerraform(this._uuid),
       aam_auth_account: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthAccountAToTerraform(this._aamAuthAccount.internalValue),
       aam_auth_captcha: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeAamAuthCaptchaAToTerraform(this._aamAuthCaptcha.internalValue),
@@ -2452,7 +2371,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       cgnv6_fixed_nat_alg_rtsp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgRtspAToTerraform(this._cgnv6FixedNatAlgRtsp.internalValue),
       cgnv6_fixed_nat_alg_sip: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatAlgSipAToTerraform(this._cgnv6FixedNatAlgSip.internalValue),
       cgnv6_fixed_nat_global: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalAToTerraform(this._cgnv6FixedNatGlobal.internalValue),
-      cgnv6_global: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAToTerraform(this._cgnv6Global.internalValue),
       cgnv6_http_alg: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgAToTerraform(this._cgnv6HttpAlg.internalValue),
       cgnv6_icmp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6IcmpAToTerraform(this._cgnv6Icmp.internalValue),
       cgnv6_l4: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6L4AToTerraform(this._cgnv6L4.internalValue),
@@ -2464,7 +2382,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       cgnv6_lsn_alg_pptp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgPptpAToTerraform(this._cgnv6LsnAlgPptp.internalValue),
       cgnv6_lsn_alg_rtsp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgRtspAToTerraform(this._cgnv6LsnAlgRtsp.internalValue),
       cgnv6_lsn_alg_sip: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipAToTerraform(this._cgnv6LsnAlgSip.internalValue),
-      cgnv6_lsn_radius: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAToTerraform(this._cgnv6LsnRadius.internalValue),
       cgnv6_nat64_global: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalAToTerraform(this._cgnv6Nat64Global.internalValue),
       cgnv6_pcp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6PcpAToTerraform(this._cgnv6Pcp.internalValue),
       fw_alg_pptp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwAlgPptpAToTerraform(this._fwAlgPptp.internalValue),
@@ -2473,7 +2390,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
       fw_global: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGlobalAToTerraform(this._fwGlobal.internalValue),
       fw_gtp: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwGtpAToTerraform(this._fwGtp.internalValue),
       fw_logging: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingAToTerraform(this._fwLogging.internalValue),
-      fw_rad_server: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAToTerraform(this._fwRadServer.internalValue),
       fw_tcp_syn_cookie: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieAToTerraform(this._fwTcpSynCookie.internalValue),
       ip_anomaly_drop: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeIpAnomalyDropAToTerraform(this._ipAnomalyDrop.internalValue),
       logging_local_log_global: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeLoggingLocalLogGlobalAToTerraform(this._loggingLocalLogGlobal.internalValue),
@@ -2530,8 +2446,8 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      template_name: {
+        value: cdktf.stringToHclTerraform(this._templateName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2650,12 +2566,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "list",
         storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6FixedNatGlobalAList",
       },
-      cgnv6_global: {
-        value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAToHclTerraform(this._cgnv6Global.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6GlobalAList",
-      },
       cgnv6_http_alg: {
         value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6HttpAlgAToHclTerraform(this._cgnv6HttpAlg.internalValue),
         isBlock: true,
@@ -2722,12 +2632,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         type: "list",
         storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnAlgSipAList",
       },
-      cgnv6_lsn_radius: {
-        value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAToHclTerraform(this._cgnv6LsnRadius.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6LsnRadiusAList",
-      },
       cgnv6_nat64_global: {
         value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeCgnv6Nat64GlobalAToHclTerraform(this._cgnv6Nat64Global.internalValue),
         isBlock: true,
@@ -2775,12 +2679,6 @@ export class VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsCha
         isBlock: true,
         type: "list",
         storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwLoggingAList",
-      },
-      fw_rad_server: {
-        value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAToHclTerraform(this._fwRadServer.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "VisibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwRadServerAList",
       },
       fw_tcp_syn_cookie: {
         value: visibilityPacketCaptureGlobalTemplatesTemplateTriggerSysObjStatsChangeFwTcpSynCookieAToHclTerraform(this._fwTcpSynCookie.internalValue),

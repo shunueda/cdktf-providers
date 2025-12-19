@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudServiceCatalogProductAsEndUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#id DataAlicloudServiceCatalogProductAsEndUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#id DataAlicloudServiceCatalogProductAsEndUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#ids DataAlicloudServiceCatalogProductAsEndUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#ids DataAlicloudServiceCatalogProductAsEndUsers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#name_regex DataAlicloudServiceCatalogProductAsEndUsers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#name_regex DataAlicloudServiceCatalogProductAsEndUsers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#output_file DataAlicloudServiceCatalogProductAsEndUsers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#output_file DataAlicloudServiceCatalogProductAsEndUsers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#sort_by DataAlicloudServiceCatalogProductAsEndUsers#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#sort_by DataAlicloudServiceCatalogProductAsEndUsers#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#sort_order DataAlicloudServiceCatalogProductAsEndUsers#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#sort_order DataAlicloudServiceCatalogProductAsEndUsers#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -152,7 +152,7 @@ export class DataAlicloudServiceCatalogProductAsEndUsersUsersList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users alicloud_service_catalog_product_as_end_users}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users alicloud_service_catalog_product_as_end_users}
 */
 export class DataAlicloudServiceCatalogProductAsEndUsers extends cdktf.TerraformDataSource {
 
@@ -168,7 +168,7 @@ export class DataAlicloudServiceCatalogProductAsEndUsers extends cdktf.Terraform
   * Generates CDKTF code for importing a DataAlicloudServiceCatalogProductAsEndUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudServiceCatalogProductAsEndUsers to import
-  * @param importFromId The id of the existing DataAlicloudServiceCatalogProductAsEndUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudServiceCatalogProductAsEndUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudServiceCatalogProductAsEndUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -180,7 +180,7 @@ export class DataAlicloudServiceCatalogProductAsEndUsers extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/service_catalog_product_as_end_users alicloud_service_catalog_product_as_end_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/service_catalog_product_as_end_users alicloud_service_catalog_product_as_end_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -191,8 +191,8 @@ export class DataAlicloudServiceCatalogProductAsEndUsers extends cdktf.Terraform
       terraformResourceType: 'alicloud_service_catalog_product_as_end_users',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

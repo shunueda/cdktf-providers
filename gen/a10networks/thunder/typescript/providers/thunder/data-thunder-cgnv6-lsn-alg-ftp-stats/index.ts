@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6LsnAlgFtpStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#id DataThunderCgnv6LsnAlgFtpStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#id DataThunderCgnv6LsnAlgFtpStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6LsnAlgFtpStatsConfig extends cdktf.TerraformMet
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#stats DataThunderCgnv6LsnAlgFtpStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#stats DataThunderCgnv6LsnAlgFtpStats#stats}
   */
   readonly stats?: DataThunderCgnv6LsnAlgFtpStatsStats;
 }
@@ -25,37 +25,37 @@ export interface DataThunderCgnv6LsnAlgFtpStatsStats {
   /**
   * EPRT Requests From Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#eprt_requests DataThunderCgnv6LsnAlgFtpStats#eprt_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#eprt_requests DataThunderCgnv6LsnAlgFtpStats#eprt_requests}
   */
   readonly eprtRequests?: number;
   /**
   * EPSV Replies From Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#epsv_replies DataThunderCgnv6LsnAlgFtpStats#epsv_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#epsv_replies DataThunderCgnv6LsnAlgFtpStats#epsv_replies}
   */
   readonly epsvReplies?: number;
   /**
   * LPRT Requests From Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#lprt_requests DataThunderCgnv6LsnAlgFtpStats#lprt_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#lprt_requests DataThunderCgnv6LsnAlgFtpStats#lprt_requests}
   */
   readonly lprtRequests?: number;
   /**
   * LPSV Replies From Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#lpsv_replies DataThunderCgnv6LsnAlgFtpStats#lpsv_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#lpsv_replies DataThunderCgnv6LsnAlgFtpStats#lpsv_replies}
   */
   readonly lpsvReplies?: number;
   /**
   * PASV Replies From Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#pasv_replies DataThunderCgnv6LsnAlgFtpStats#pasv_replies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#pasv_replies DataThunderCgnv6LsnAlgFtpStats#pasv_replies}
   */
   readonly pasvReplies?: number;
   /**
   * PORT Requests From Client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#port_requests DataThunderCgnv6LsnAlgFtpStats#port_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#port_requests DataThunderCgnv6LsnAlgFtpStats#port_requests}
   */
   readonly portRequests?: number;
 }
@@ -284,7 +284,7 @@ export class DataThunderCgnv6LsnAlgFtpStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats thunder_cgnv6_lsn_alg_ftp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats thunder_cgnv6_lsn_alg_ftp_stats}
 */
 export class DataThunderCgnv6LsnAlgFtpStats extends cdktf.TerraformDataSource {
 
@@ -300,7 +300,7 @@ export class DataThunderCgnv6LsnAlgFtpStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6LsnAlgFtpStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6LsnAlgFtpStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgFtpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6LsnAlgFtpStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6LsnAlgFtpStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -312,7 +312,7 @@ export class DataThunderCgnv6LsnAlgFtpStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lsn_alg_ftp_stats thunder_cgnv6_lsn_alg_ftp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lsn_alg_ftp_stats thunder_cgnv6_lsn_alg_ftp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -323,8 +323,8 @@ export class DataThunderCgnv6LsnAlgFtpStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_lsn_alg_ftp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

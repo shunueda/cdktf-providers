@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface EsaEdgeContainerAppConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#edge_container_app_name EsaEdgeContainerApp#edge_container_app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#edge_container_app_name EsaEdgeContainerApp#edge_container_app_name}
   */
   readonly edgeContainerAppName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_fail_times EsaEdgeContainerApp#health_check_fail_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_fail_times EsaEdgeContainerApp#health_check_fail_times}
   */
   readonly healthCheckFailTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_host EsaEdgeContainerApp#health_check_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_host EsaEdgeContainerApp#health_check_host}
   */
   readonly healthCheckHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_http_code EsaEdgeContainerApp#health_check_http_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_http_code EsaEdgeContainerApp#health_check_http_code}
   */
   readonly healthCheckHttpCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_interval EsaEdgeContainerApp#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_interval EsaEdgeContainerApp#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_method EsaEdgeContainerApp#health_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_method EsaEdgeContainerApp#health_check_method}
   */
   readonly healthCheckMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_port EsaEdgeContainerApp#health_check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_port EsaEdgeContainerApp#health_check_port}
   */
   readonly healthCheckPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_succ_times EsaEdgeContainerApp#health_check_succ_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_succ_times EsaEdgeContainerApp#health_check_succ_times}
   */
   readonly healthCheckSuccTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_timeout EsaEdgeContainerApp#health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_timeout EsaEdgeContainerApp#health_check_timeout}
   */
   readonly healthCheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_type EsaEdgeContainerApp#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_type EsaEdgeContainerApp#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#health_check_uri EsaEdgeContainerApp#health_check_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#health_check_uri EsaEdgeContainerApp#health_check_uri}
   */
   readonly healthCheckUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#id EsaEdgeContainerApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#id EsaEdgeContainerApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#remarks EsaEdgeContainerApp#remarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#remarks EsaEdgeContainerApp#remarks}
   */
   readonly remarks?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#service_port EsaEdgeContainerApp#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#service_port EsaEdgeContainerApp#service_port}
   */
   readonly servicePort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#target_port EsaEdgeContainerApp#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#target_port EsaEdgeContainerApp#target_port}
   */
   readonly targetPort: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#timeouts EsaEdgeContainerApp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#timeouts EsaEdgeContainerApp#timeouts}
   */
   readonly timeouts?: EsaEdgeContainerAppTimeouts;
 }
 export interface EsaEdgeContainerAppTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#create EsaEdgeContainerApp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#create EsaEdgeContainerApp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#delete EsaEdgeContainerApp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#delete EsaEdgeContainerApp#delete}
   */
   readonly delete?: string;
 }
@@ -206,7 +206,7 @@ export class EsaEdgeContainerAppTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app alicloud_esa_edge_container_app}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app alicloud_esa_edge_container_app}
 */
 export class EsaEdgeContainerApp extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class EsaEdgeContainerApp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaEdgeContainerApp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaEdgeContainerApp to import
-  * @param importFromId The id of the existing EsaEdgeContainerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaEdgeContainerApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaEdgeContainerApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class EsaEdgeContainerApp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/esa_edge_container_app alicloud_esa_edge_container_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/esa_edge_container_app alicloud_esa_edge_container_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class EsaEdgeContainerApp extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_edge_container_app',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

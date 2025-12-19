@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbMysqlStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#id DataThunderSlbMysqlStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#id DataThunderSlbMysqlStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbMysqlStatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#stats DataThunderSlbMysqlStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#stats DataThunderSlbMysqlStats#stats}
   */
   readonly stats?: DataThunderSlbMysqlStatsStats;
 }
@@ -25,67 +25,67 @@ export interface DataThunderSlbMysqlStatsStats {
   /**
   * Client FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#client_fin DataThunderSlbMysqlStats#client_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#client_fin DataThunderSlbMysqlStats#client_fin}
   */
   readonly clientFin?: number;
   /**
   * DB commands reply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#commands DataThunderSlbMysqlStats#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#commands DataThunderSlbMysqlStats#commands}
   */
   readonly commands?: number;
   /**
   * Curr BE Encryption Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#curr_be_enc DataThunderSlbMysqlStats#curr_be_enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#curr_be_enc DataThunderSlbMysqlStats#curr_be_enc}
   */
   readonly currBeEnc?: number;
   /**
   * Curr FE Encryption Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#curr_fe_enc DataThunderSlbMysqlStats#curr_fe_enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#curr_fe_enc DataThunderSlbMysqlStats#curr_fe_enc}
   */
   readonly currFeEnc?: number;
   /**
   * Curr Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#curr_proxy DataThunderSlbMysqlStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#curr_proxy DataThunderSlbMysqlStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * DB Queries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#queries DataThunderSlbMysqlStats#queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#queries DataThunderSlbMysqlStats#queries}
   */
   readonly queries?: number;
   /**
   * Server FIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#server_fin DataThunderSlbMysqlStats#server_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#server_fin DataThunderSlbMysqlStats#server_fin}
   */
   readonly serverFin?: number;
   /**
   * Session err
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#session_err DataThunderSlbMysqlStats#session_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#session_err DataThunderSlbMysqlStats#session_err}
   */
   readonly sessionErr?: number;
   /**
   * Total BE Encryption Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#total_be_enc DataThunderSlbMysqlStats#total_be_enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#total_be_enc DataThunderSlbMysqlStats#total_be_enc}
   */
   readonly totalBeEnc?: number;
   /**
   * Total FE Encryption Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#total_fe_enc DataThunderSlbMysqlStats#total_fe_enc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#total_fe_enc DataThunderSlbMysqlStats#total_fe_enc}
   */
   readonly totalFeEnc?: number;
   /**
   * Total Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#total_proxy DataThunderSlbMysqlStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#total_proxy DataThunderSlbMysqlStats#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -459,7 +459,7 @@ export class DataThunderSlbMysqlStatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats thunder_slb_mysql_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats thunder_slb_mysql_stats}
 */
 export class DataThunderSlbMysqlStats extends cdktf.TerraformDataSource {
 
@@ -475,7 +475,7 @@ export class DataThunderSlbMysqlStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbMysqlStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbMysqlStats to import
-  * @param importFromId The id of the existing DataThunderSlbMysqlStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbMysqlStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbMysqlStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class DataThunderSlbMysqlStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mysql_stats thunder_slb_mysql_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mysql_stats thunder_slb_mysql_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class DataThunderSlbMysqlStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_mysql_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

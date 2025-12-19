@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface RouterBgpNeighborTrunkNeighborConfig extends cdktf.TerraformMet
   /**
   * AsNumber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#as_number RouterBgpNeighborTrunkNeighbor#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#as_number RouterBgpNeighborTrunkNeighbor#as_number}
   */
   readonly asNumber: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#id RouterBgpNeighborTrunkNeighbor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#id RouterBgpNeighborTrunkNeighbor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#peer_group_name RouterBgpNeighborTrunkNeighbor#peer_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#peer_group_name RouterBgpNeighborTrunkNeighbor#peer_group_name}
   */
   readonly peerGroupName?: string;
   /**
   * Trunk interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#trunk RouterBgpNeighborTrunkNeighbor#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#trunk RouterBgpNeighborTrunkNeighbor#trunk}
   */
   readonly trunk: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#unnumbered RouterBgpNeighborTrunkNeighbor#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#unnumbered RouterBgpNeighborTrunkNeighbor#unnumbered}
   */
   readonly unnumbered?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#uuid RouterBgpNeighborTrunkNeighbor#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#uuid RouterBgpNeighborTrunkNeighbor#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor thunder_router_bgp_neighbor_trunk_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor thunder_router_bgp_neighbor_trunk_neighbor}
 */
 export class RouterBgpNeighborTrunkNeighbor extends cdktf.TerraformResource {
 
@@ -59,7 +59,7 @@ export class RouterBgpNeighborTrunkNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouterBgpNeighborTrunkNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouterBgpNeighborTrunkNeighbor to import
-  * @param importFromId The id of the existing RouterBgpNeighborTrunkNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouterBgpNeighborTrunkNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouterBgpNeighborTrunkNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -71,7 +71,7 @@ export class RouterBgpNeighborTrunkNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/router_bgp_neighbor_trunk_neighbor thunder_router_bgp_neighbor_trunk_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/router_bgp_neighbor_trunk_neighbor thunder_router_bgp_neighbor_trunk_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -82,8 +82,8 @@ export class RouterBgpNeighborTrunkNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_router_bgp_neighbor_trunk_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

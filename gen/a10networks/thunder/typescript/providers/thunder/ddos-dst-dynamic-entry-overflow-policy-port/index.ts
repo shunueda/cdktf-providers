@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DdosDstDynamicEntryOverflowPolicyPortConfig extends cdktf.Terra
   /**
   * DefaultAddressType
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#default_address_type DdosDstDynamicEntryOverflowPolicyPort#default_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#default_address_type DdosDstDynamicEntryOverflowPolicyPort#default_address_type}
   */
   readonly defaultAddressType: string;
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#deny DdosDstDynamicEntryOverflowPolicyPort#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#deny DdosDstDynamicEntryOverflowPolicyPort#deny}
   */
   readonly deny?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#glid DdosDstDynamicEntryOverflowPolicyPort#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#glid DdosDstDynamicEntryOverflowPolicyPort#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#id DdosDstDynamicEntryOverflowPolicyPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#id DdosDstDynamicEntryOverflowPolicyPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface DdosDstDynamicEntryOverflowPolicyPortConfig extends cdktf.Terra
   /**
   * Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#port_num DdosDstDynamicEntryOverflowPolicyPort#port_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#port_num DdosDstDynamicEntryOverflowPolicyPort#port_num}
   */
   readonly portNum: number;
   /**
   * 'dns-tcp': dns-tcp; 'dns-udp': dns-udp; 'http': http; 'tcp': tcp; 'udp': udp; 'ssl-l4': ssl-l4; 'sip-udp': sip-udp; 'sip-tcp': sip-tcp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#protocol DdosDstDynamicEntryOverflowPolicyPort#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#protocol DdosDstDynamicEntryOverflowPolicyPort#protocol}
   */
   readonly protocol: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#user_tag DdosDstDynamicEntryOverflowPolicyPort#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#user_tag DdosDstDynamicEntryOverflowPolicyPort#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#uuid DdosDstDynamicEntryOverflowPolicyPort#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#uuid DdosDstDynamicEntryOverflowPolicyPort#uuid}
   */
   readonly uuid?: string;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#template DdosDstDynamicEntryOverflowPolicyPort#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#template DdosDstDynamicEntryOverflowPolicyPort#template}
   */
   readonly template?: DdosDstDynamicEntryOverflowPolicyPortTemplate;
 }
@@ -67,37 +67,37 @@ export interface DdosDstDynamicEntryOverflowPolicyPortTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#dns DdosDstDynamicEntryOverflowPolicyPort#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#dns DdosDstDynamicEntryOverflowPolicyPort#dns}
   */
   readonly dns?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#http DdosDstDynamicEntryOverflowPolicyPort#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#http DdosDstDynamicEntryOverflowPolicyPort#http}
   */
   readonly http?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#sip DdosDstDynamicEntryOverflowPolicyPort#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#sip DdosDstDynamicEntryOverflowPolicyPort#sip}
   */
   readonly sip?: string;
   /**
   * DDOS ssl-l4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#ssl_l4 DdosDstDynamicEntryOverflowPolicyPort#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#ssl_l4 DdosDstDynamicEntryOverflowPolicyPort#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#tcp DdosDstDynamicEntryOverflowPolicyPort#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#tcp DdosDstDynamicEntryOverflowPolicyPort#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#udp DdosDstDynamicEntryOverflowPolicyPort#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#udp DdosDstDynamicEntryOverflowPolicyPort#udp}
   */
   readonly udp?: string;
 }
@@ -326,7 +326,7 @@ export class DdosDstDynamicEntryOverflowPolicyPortTemplateOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port thunder_ddos_dst_dynamic_entry_overflow_policy_port}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port thunder_ddos_dst_dynamic_entry_overflow_policy_port}
 */
 export class DdosDstDynamicEntryOverflowPolicyPort extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class DdosDstDynamicEntryOverflowPolicyPort extends cdktf.TerraformResour
   * Generates CDKTF code for importing a DdosDstDynamicEntryOverflowPolicyPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstDynamicEntryOverflowPolicyPort to import
-  * @param importFromId The id of the existing DdosDstDynamicEntryOverflowPolicyPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstDynamicEntryOverflowPolicyPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstDynamicEntryOverflowPolicyPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class DdosDstDynamicEntryOverflowPolicyPort extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port thunder_ddos_dst_dynamic_entry_overflow_policy_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_dynamic_entry_overflow_policy_port thunder_ddos_dst_dynamic_entry_overflow_policy_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class DdosDstDynamicEntryOverflowPolicyPort extends cdktf.TerraformResour
       terraformResourceType: 'thunder_ddos_dst_dynamic_entry_overflow_policy_port',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

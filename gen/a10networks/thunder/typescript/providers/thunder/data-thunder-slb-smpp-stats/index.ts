@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSmppStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#id DataThunderSlbSmppStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#id DataThunderSlbSmppStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSmppStatsConfig extends cdktf.TerraformMetaArgume
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#stats DataThunderSlbSmppStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#stats DataThunderSlbSmppStats#stats}
   */
   readonly stats?: DataThunderSlbSmppStatsStats;
 }
@@ -25,163 +25,163 @@ export interface DataThunderSlbSmppStatsStats {
   /**
   * Number of packet which AX responds directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#ax_response_directly DataThunderSlbSmppStats#ax_response_directly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#ax_response_directly DataThunderSlbSmppStats#ax_response_directly}
   */
   readonly axResponseDirectly?: number;
   /**
   * Connecting server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_connection DataThunderSlbSmppStats#msg_proxy_client_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_connection DataThunderSlbSmppStats#msg_proxy_client_connection}
   */
   readonly msgProxyClientConnection?: number;
   /**
   * AX responds directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_drop DataThunderSlbSmppStats#msg_proxy_client_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_drop DataThunderSlbSmppStats#msg_proxy_client_drop}
   */
   readonly msgProxyClientDrop?: number;
   /**
   * Number of SMPP messages received from client but failed to forward to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_fail DataThunderSlbSmppStats#msg_proxy_client_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_fail DataThunderSlbSmppStats#msg_proxy_client_fail}
   */
   readonly msgProxyClientFail?: number;
   /**
   * Incomplete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_incomplete DataThunderSlbSmppStats#msg_proxy_client_incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_incomplete DataThunderSlbSmppStats#msg_proxy_client_incomplete}
   */
   readonly msgProxyClientIncomplete?: number;
   /**
   * Client message rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_recv DataThunderSlbSmppStats#msg_proxy_client_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_recv DataThunderSlbSmppStats#msg_proxy_client_recv}
   */
   readonly msgProxyClientRecv?: number;
   /**
   * Sent to server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_client_send_success DataThunderSlbSmppStats#msg_proxy_client_send_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_client_send_success DataThunderSlbSmppStats#msg_proxy_client_send_success}
   */
   readonly msgProxyClientSendSuccess?: number;
   /**
   * Server conn created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_create_server_conn DataThunderSlbSmppStats#msg_proxy_create_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_create_server_conn DataThunderSlbSmppStats#msg_proxy_create_server_conn}
   */
   readonly msgProxyCreateServerConn?: number;
   /**
   * Curr SMPP Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_current DataThunderSlbSmppStats#msg_proxy_current}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_current DataThunderSlbSmppStats#msg_proxy_current}
   */
   readonly msgProxyCurrent?: number;
   /**
   * Number of server connection created failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_fail_start_server_conn DataThunderSlbSmppStats#msg_proxy_fail_start_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_fail_start_server_conn DataThunderSlbSmppStats#msg_proxy_fail_start_server_conn}
   */
   readonly msgProxyFailStartServerConn?: number;
   /**
   * Number of the packet AX drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_server_drop DataThunderSlbSmppStats#msg_proxy_server_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_server_drop DataThunderSlbSmppStats#msg_proxy_server_drop}
   */
   readonly msgProxyServerDrop?: number;
   /**
   * Number of SMPP messages received from server but failed to forward to client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_server_fail DataThunderSlbSmppStats#msg_proxy_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_server_fail DataThunderSlbSmppStats#msg_proxy_server_fail}
   */
   readonly msgProxyServerFail?: number;
   /**
   * Incomplete
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_server_incomplete DataThunderSlbSmppStats#msg_proxy_server_incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_server_incomplete DataThunderSlbSmppStats#msg_proxy_server_incomplete}
   */
   readonly msgProxyServerIncomplete?: number;
   /**
   * Server message rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_server_recv DataThunderSlbSmppStats#msg_proxy_server_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_server_recv DataThunderSlbSmppStats#msg_proxy_server_recv}
   */
   readonly msgProxyServerRecv?: number;
   /**
   * Sent to client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_server_send_success DataThunderSlbSmppStats#msg_proxy_server_send_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_server_send_success DataThunderSlbSmppStats#msg_proxy_server_send_success}
   */
   readonly msgProxyServerSendSuccess?: number;
   /**
   * Number of server connection created successfully
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_start_server_conn DataThunderSlbSmppStats#msg_proxy_start_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_start_server_conn DataThunderSlbSmppStats#msg_proxy_start_server_conn}
   */
   readonly msgProxyStartServerConn?: number;
   /**
   * Total SMPP Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#msg_proxy_total DataThunderSlbSmppStats#msg_proxy_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#msg_proxy_total DataThunderSlbSmppStats#msg_proxy_total}
   */
   readonly msgProxyTotal?: number;
   /**
   * Select by conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_client_by_conn DataThunderSlbSmppStats#select_client_by_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_client_by_conn DataThunderSlbSmppStats#select_client_by_conn}
   */
   readonly selectClientByConn?: number;
   /**
   * Select by request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_client_by_req DataThunderSlbSmppStats#select_client_by_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_client_by_req DataThunderSlbSmppStats#select_client_by_req}
   */
   readonly selectClientByReq?: number;
   /**
   * Client conn selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_client_conn DataThunderSlbSmppStats#select_client_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_client_conn DataThunderSlbSmppStats#select_client_conn}
   */
   readonly selectClientConn?: number;
   /**
   * Select failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_client_fail DataThunderSlbSmppStats#select_client_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_client_fail DataThunderSlbSmppStats#select_client_fail}
   */
   readonly selectClientFail?: number;
   /**
   * Select by roundbin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_client_from_list DataThunderSlbSmppStats#select_client_from_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_client_from_list DataThunderSlbSmppStats#select_client_from_list}
   */
   readonly selectClientFromList?: number;
   /**
   * Select server conn by client conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_server_by_conn DataThunderSlbSmppStats#select_server_by_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_server_by_conn DataThunderSlbSmppStats#select_server_by_conn}
   */
   readonly selectServerByConn?: number;
   /**
   * Select by request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_server_by_req DataThunderSlbSmppStats#select_server_by_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_server_by_req DataThunderSlbSmppStats#select_server_by_req}
   */
   readonly selectServerByReq?: number;
   /**
   * Server conn selection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_server_conn DataThunderSlbSmppStats#select_server_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_server_conn DataThunderSlbSmppStats#select_server_conn}
   */
   readonly selectServerConn?: number;
   /**
   * Fail to select server conn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_server_fail DataThunderSlbSmppStats#select_server_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_server_fail DataThunderSlbSmppStats#select_server_fail}
   */
   readonly selectServerFail?: number;
   /**
   * Select by roundbin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#select_server_from_list DataThunderSlbSmppStats#select_server_from_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#select_server_from_list DataThunderSlbSmppStats#select_server_from_list}
   */
   readonly selectServerFromList?: number;
 }
@@ -1019,7 +1019,7 @@ export class DataThunderSlbSmppStatsStatsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats thunder_slb_smpp_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats thunder_slb_smpp_stats}
 */
 export class DataThunderSlbSmppStats extends cdktf.TerraformDataSource {
 
@@ -1035,7 +1035,7 @@ export class DataThunderSlbSmppStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSmppStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSmppStats to import
-  * @param importFromId The id of the existing DataThunderSlbSmppStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSmppStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSmppStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1047,7 +1047,7 @@ export class DataThunderSlbSmppStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_smpp_stats thunder_slb_smpp_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_smpp_stats thunder_slb_smpp_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1058,8 +1058,8 @@ export class DataThunderSlbSmppStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_smpp_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

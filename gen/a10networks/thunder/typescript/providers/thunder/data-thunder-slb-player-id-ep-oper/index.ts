@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbPlayerIdEpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#id DataThunderSlbPlayerIdEpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#id DataThunderSlbPlayerIdEpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderSlbPlayerIdEpOperConfig extends cdktf.TerraformMetaA
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#oper DataThunderSlbPlayerIdEpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#oper DataThunderSlbPlayerIdEpOper#oper}
   */
   readonly oper?: DataThunderSlbPlayerIdEpOperOper;
 }
 export interface DataThunderSlbPlayerIdEpOperOperPlayerIdEpListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#age DataThunderSlbPlayerIdEpOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#age DataThunderSlbPlayerIdEpOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#game_server_address DataThunderSlbPlayerIdEpOper#game_server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#game_server_address DataThunderSlbPlayerIdEpOper#game_server_address}
   */
   readonly gameServerAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#game_server_port DataThunderSlbPlayerIdEpOper#game_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#game_server_port DataThunderSlbPlayerIdEpOper#game_server_port}
   */
   readonly gameServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#idle_time DataThunderSlbPlayerIdEpOper#idle_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#idle_time DataThunderSlbPlayerIdEpOper#idle_time}
   */
   readonly idleTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#player_id DataThunderSlbPlayerIdEpOper#player_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#player_id DataThunderSlbPlayerIdEpOper#player_id}
   */
   readonly playerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#user_session_count DataThunderSlbPlayerIdEpOper#user_session_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#user_session_count DataThunderSlbPlayerIdEpOper#user_session_count}
   */
   readonly userSessionCount?: number;
 }
@@ -304,21 +304,21 @@ export class DataThunderSlbPlayerIdEpOperOperPlayerIdEpListStructList extends cd
 }
 export interface DataThunderSlbPlayerIdEpOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#filter_type DataThunderSlbPlayerIdEpOper#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#filter_type DataThunderSlbPlayerIdEpOper#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#player_id DataThunderSlbPlayerIdEpOper#player_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#player_id DataThunderSlbPlayerIdEpOper#player_id}
   */
   readonly playerId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#total_players DataThunderSlbPlayerIdEpOper#total_players}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#total_players DataThunderSlbPlayerIdEpOper#total_players}
   */
   readonly totalPlayers?: number;
   /**
   * player_id_ep_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#player_id_ep_list DataThunderSlbPlayerIdEpOper#player_id_ep_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#player_id_ep_list DataThunderSlbPlayerIdEpOper#player_id_ep_list}
   */
   readonly playerIdEpList?: DataThunderSlbPlayerIdEpOperOperPlayerIdEpListStruct[] | cdktf.IResolvable;
 }
@@ -489,7 +489,7 @@ export class DataThunderSlbPlayerIdEpOperOperOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper thunder_slb_player_id_ep_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper thunder_slb_player_id_ep_oper}
 */
 export class DataThunderSlbPlayerIdEpOper extends cdktf.TerraformDataSource {
 
@@ -505,7 +505,7 @@ export class DataThunderSlbPlayerIdEpOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbPlayerIdEpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbPlayerIdEpOper to import
-  * @param importFromId The id of the existing DataThunderSlbPlayerIdEpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbPlayerIdEpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbPlayerIdEpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class DataThunderSlbPlayerIdEpOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_player_id_ep_oper thunder_slb_player_id_ep_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_player_id_ep_oper thunder_slb_player_id_ep_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class DataThunderSlbPlayerIdEpOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_player_id_ep_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

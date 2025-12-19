@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface GlmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enter the requested bandwidth in Mbps for Capacity Pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#allocate_bandwidth Glm#allocate_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#allocate_bandwidth Glm#allocate_bandwidth}
   */
   readonly allocateBandwidth?: number;
   /**
   * Helpful identifier for this appliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#appliance_name Glm#appliance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#appliance_name Glm#appliance_name}
   */
   readonly applianceName?: string;
   /**
   * Enable Burst License
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#burst Glm#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#burst Glm#burst}
   */
   readonly burst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#check_expiration Glm#check_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#check_expiration Glm#check_expiration}
   */
   readonly checkExpiration?: number;
   /**
   * Turn on periodic GLM license requests (default license retrieval interval is every 24 hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#enable_requests Glm#enable_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#enable_requests Glm#enable_requests}
   */
   readonly enableRequests?: number;
   /**
   * Enter the ELM hostname, IP or [IPV6]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#enterprise Glm#enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#enterprise Glm#enterprise}
   */
   readonly enterprise?: string;
   /**
   * 'fqdn': TLS verified with FQDN; 'self-signed': TLS verified with self signed certificate(Default); 'self-signed-pull-cert': Request and use self signed certificate;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#enterprise_request_type Glm#enterprise_request_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#enterprise_request_type Glm#enterprise_request_type}
   */
   readonly enterpriseRequestType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#host Glm#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#host Glm#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#id Glm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#id Glm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,65 +61,65 @@ export interface GlmConfig extends cdktf.TerraformMetaArguments {
   /**
   * GLM license request interval (in hours)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#interval Glm#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#interval Glm#interval}
   */
   readonly interval?: number;
   /**
   * License request port (default 443)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#port Glm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#port Glm#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#thunder_capacity_license Glm#thunder_capacity_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#thunder_capacity_license Glm#thunder_capacity_license}
   */
   readonly thunderCapacityLicense?: number;
   /**
   * License entitlement token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#token Glm#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#token Glm#token}
   */
   readonly token?: string;
   /**
   * Use management port to connect to GLM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#use_mgmt_port Glm#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#use_mgmt_port Glm#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#uuid Glm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#uuid Glm#uuid}
   */
   readonly uuid?: string;
   /**
   * create_license_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#create_license_request Glm#create_license_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#create_license_request Glm#create_license_request}
   */
   readonly createLicenseRequest?: GlmCreateLicenseRequest;
   /**
   * enterprise_ha_host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#enterprise_ha_host_list Glm#enterprise_ha_host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#enterprise_ha_host_list Glm#enterprise_ha_host_list}
   */
   readonly enterpriseHaHostList?: GlmEnterpriseHaHostListStruct[] | cdktf.IResolvable;
   /**
   * new_license block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#new_license Glm#new_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#new_license Glm#new_license}
   */
   readonly newLicense?: GlmNewLicense;
   /**
   * proxy_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#proxy_server Glm#proxy_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#proxy_server Glm#proxy_server}
   */
   readonly proxyServer?: GlmProxyServer;
   /**
   * send block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#send Glm#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#send Glm#send}
   */
   readonly send?: GlmSend;
 }
@@ -127,13 +127,13 @@ export interface GlmCreateLicenseRequest {
   /**
   * Create a GLM trial or license request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#create_license_request Glm#create_license_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#create_license_request Glm#create_license_request}
   */
   readonly createLicenseRequest?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#uuid Glm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#uuid Glm#uuid}
   */
   readonly uuid?: string;
 }
@@ -248,13 +248,13 @@ export interface GlmEnterpriseHaHostListStruct {
   /**
   * Enter the ELM hostname, IP or [IPV6]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#host_entry Glm#host_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#host_entry Glm#host_entry}
   */
   readonly hostEntry: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#uuid Glm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#uuid Glm#uuid}
   */
   readonly uuid?: string;
 }
@@ -398,91 +398,91 @@ export interface GlmNewLicense {
   /**
   * Account Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#account_name Glm#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#account_name Glm#account_name}
   */
   readonly accountName?: string;
   /**
   * Country
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#country Glm#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#country Glm#country}
   */
   readonly country?: string;
   /**
   * Use existing account with organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#existing_org Glm#existing_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#existing_org Glm#existing_org}
   */
   readonly existingOrg?: number;
   /**
   * Use an existing account with email and password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#existing_user Glm#existing_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#existing_user Glm#existing_user}
   */
   readonly existingUser?: number;
   /**
   * First Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#first_name Glm#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#first_name Glm#first_name}
   */
   readonly firstName?: string;
   /**
   * GLM email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#glm_email Glm#glm_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#glm_email Glm#glm_email}
   */
   readonly glmEmail?: string;
   /**
   * GLM password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#glm_password Glm#glm_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#glm_password Glm#glm_password}
   */
   readonly glmPassword?: string;
   /**
   * Last Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#last_name Glm#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#last_name Glm#last_name}
   */
   readonly lastName?: string;
   /**
   * License name (Configure license name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#name Glm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#name Glm#name}
   */
   readonly name?: string;
   /**
   * GLM email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#new_email Glm#new_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#new_email Glm#new_email}
   */
   readonly newEmail?: string;
   /**
   * GLM password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#new_password Glm#new_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#new_password Glm#new_password}
   */
   readonly newPassword?: string;
   /**
   * Create a new account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#new_user Glm#new_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#new_user Glm#new_user}
   */
   readonly newUser?: number;
   /**
   * GLM organization id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#org_id Glm#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#org_id Glm#org_id}
   */
   readonly orgId?: number;
   /**
   * Phone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#phone Glm#phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#phone Glm#phone}
   */
   readonly phone?: string;
   /**
   * 'webroot': webroot; 'webroot_trial': webroot_trial; 'webroot_ti': webroot_ti; 'webroot_ti_trial': webroot_ti_trial; 'qosmos': qosmos; 'qosmos_trial': qosmos_trial; 'ipsec_vpn': ipsec_vpn;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#type Glm#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#type Glm#type}
   */
   readonly type?: string;
 }
@@ -974,37 +974,37 @@ export interface GlmProxyServer {
   /**
   * Proxy server hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#host Glm#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#host Glm#host}
   */
   readonly host?: string;
   /**
   * Password for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#password Glm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#password Glm#password}
   */
   readonly password?: number;
   /**
   * Proxy server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#port Glm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#port Glm#port}
   */
   readonly port?: number;
   /**
   * password value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#secret_string Glm#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#secret_string Glm#secret_string}
   */
   readonly secretString?: string;
   /**
   * Username for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#username Glm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#username Glm#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#uuid Glm#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#uuid Glm#uuid}
   */
   readonly uuid?: string;
 }
@@ -1235,13 +1235,19 @@ export interface GlmSend {
   /**
   * Send a ELM HA status request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#ha_status Glm#ha_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#ha_status Glm#ha_status}
   */
   readonly haStatus?: number;
   /**
+  * Harmony specific single GLM license request
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#harmony Glm#harmony}
+  */
+  readonly harmony?: number;
+  /**
   * Immediately send a single GLM license request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#license_request Glm#license_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#license_request Glm#license_request}
   */
   readonly licenseRequest?: number;
 }
@@ -1253,6 +1259,7 @@ export function glmSendToTerraform(struct?: GlmSendOutputReference | GlmSend): a
   }
   return {
     ha_status: cdktf.numberToTerraform(struct!.haStatus),
+    harmony: cdktf.numberToTerraform(struct!.harmony),
     license_request: cdktf.numberToTerraform(struct!.licenseRequest),
   }
 }
@@ -1266,6 +1273,12 @@ export function glmSendToHclTerraform(struct?: GlmSendOutputReference | GlmSend)
   const attrs = {
     ha_status: {
       value: cdktf.numberToHclTerraform(struct!.haStatus),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    harmony: {
+      value: cdktf.numberToHclTerraform(struct!.harmony),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1300,6 +1313,10 @@ export class GlmSendOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.haStatus = this._haStatus;
     }
+    if (this._harmony !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.harmony = this._harmony;
+    }
     if (this._licenseRequest !== undefined) {
       hasAnyValues = true;
       internalValueResult.licenseRequest = this._licenseRequest;
@@ -1311,11 +1328,13 @@ export class GlmSendOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._haStatus = undefined;
+      this._harmony = undefined;
       this._licenseRequest = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._haStatus = value.haStatus;
+      this._harmony = value.harmony;
       this._licenseRequest = value.licenseRequest;
     }
   }
@@ -1336,6 +1355,22 @@ export class GlmSendOutputReference extends cdktf.ComplexObject {
     return this._haStatus;
   }
 
+  // harmony - computed: false, optional: true, required: false
+  private _harmony?: number; 
+  public get harmony() {
+    return this.getNumberAttribute('harmony');
+  }
+  public set harmony(value: number) {
+    this._harmony = value;
+  }
+  public resetHarmony() {
+    this._harmony = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get harmonyInput() {
+    return this._harmony;
+  }
+
   // license_request - computed: false, optional: true, required: false
   private _licenseRequest?: number; 
   public get licenseRequest() {
@@ -1354,7 +1389,7 @@ export class GlmSendOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm thunder_glm}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm thunder_glm}
 */
 export class Glm extends cdktf.TerraformResource {
 
@@ -1370,7 +1405,7 @@ export class Glm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Glm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Glm to import
-  * @param importFromId The id of the existing Glm that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Glm that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Glm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1382,7 +1417,7 @@ export class Glm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/glm thunder_glm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/glm thunder_glm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1393,8 +1428,8 @@ export class Glm extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_glm',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

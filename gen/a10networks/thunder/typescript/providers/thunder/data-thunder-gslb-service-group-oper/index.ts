@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderGslbServiceGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#id DataThunderGslbServiceGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#id DataThunderGslbServiceGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface DataThunderGslbServiceGroupOperConfig extends cdktf.TerraformMe
   /**
   * Specify Service Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#service_group_name DataThunderGslbServiceGroupOper#service_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#service_group_name DataThunderGslbServiceGroupOper#service_group_name}
   */
   readonly serviceGroupName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#oper DataThunderGslbServiceGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#oper DataThunderGslbServiceGroupOper#oper}
   */
   readonly oper?: DataThunderGslbServiceGroupOperOper;
 }
 export interface DataThunderGslbServiceGroupOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#aging DataThunderGslbServiceGroupOper#aging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#aging DataThunderGslbServiceGroupOper#aging}
   */
   readonly aging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#best DataThunderGslbServiceGroupOper#best}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#best DataThunderGslbServiceGroupOper#best}
   */
   readonly best?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#client DataThunderGslbServiceGroupOper#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#client DataThunderGslbServiceGroupOper#client}
   */
   readonly client?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#hits DataThunderGslbServiceGroupOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#hits DataThunderGslbServiceGroupOper#hits}
   */
   readonly hits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#last_second_hits DataThunderGslbServiceGroupOper#last_second_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#last_second_hits DataThunderGslbServiceGroupOper#last_second_hits}
   */
   readonly lastSecondHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#mode DataThunderGslbServiceGroupOper#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#mode DataThunderGslbServiceGroupOper#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#ttl DataThunderGslbServiceGroupOper#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#ttl DataThunderGslbServiceGroupOper#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#update DataThunderGslbServiceGroupOper#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#update DataThunderGslbServiceGroupOper#update}
   */
   readonly update?: number;
 }
@@ -376,17 +376,17 @@ export class DataThunderGslbServiceGroupOperOperSessionListStructList extends cd
 }
 export interface DataThunderGslbServiceGroupOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#matched DataThunderGslbServiceGroupOper#matched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#matched DataThunderGslbServiceGroupOper#matched}
   */
   readonly matched?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#total_sessions DataThunderGslbServiceGroupOper#total_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#total_sessions DataThunderGslbServiceGroupOper#total_sessions}
   */
   readonly totalSessions?: number;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#session_list DataThunderGslbServiceGroupOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#session_list DataThunderGslbServiceGroupOper#session_list}
   */
   readonly sessionList?: DataThunderGslbServiceGroupOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -528,7 +528,7 @@ export class DataThunderGslbServiceGroupOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper thunder_gslb_service_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper thunder_gslb_service_group_oper}
 */
 export class DataThunderGslbServiceGroupOper extends cdktf.TerraformDataSource {
 
@@ -544,7 +544,7 @@ export class DataThunderGslbServiceGroupOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderGslbServiceGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderGslbServiceGroupOper to import
-  * @param importFromId The id of the existing DataThunderGslbServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderGslbServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderGslbServiceGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -556,7 +556,7 @@ export class DataThunderGslbServiceGroupOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/gslb_service_group_oper thunder_gslb_service_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/gslb_service_group_oper thunder_gslb_service_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -567,8 +567,8 @@ export class DataThunderGslbServiceGroupOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_gslb_service_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

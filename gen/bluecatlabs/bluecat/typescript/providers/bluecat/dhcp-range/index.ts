@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DhcpRangeConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Configuration. Creating the Network in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#configuration DhcpRange#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#configuration DhcpRange#configuration}
   */
   readonly configuration?: string;
   /**
   * End IP of the DHCP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#end DhcpRange#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#end DhcpRange#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#id DhcpRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#id DhcpRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,41 @@ export interface DhcpRangeConfig extends cdktf.TerraformMetaArguments {
   /**
   * DHCPRange's IP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#ip_version DhcpRange#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#ip_version DhcpRange#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * The name of the DHCP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#name DhcpRange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#name DhcpRange#name}
   */
   readonly name?: string;
   /**
   * The network address in CIDR format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#network DhcpRange#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#network DhcpRange#network}
   */
   readonly network: string;
   /**
-  * DHCP Range's properties. Example: attribute=value|
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#properties DhcpRange#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#properties DhcpRange#properties}
   */
   readonly properties?: string;
   /**
   * Start IP of the DHCP Range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#start DhcpRange#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#start DhcpRange#start}
   */
   readonly start?: string;
   /**
   * IPv4 Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#template DhcpRange#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#template DhcpRange#template}
   */
   readonly template?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range bluecat_dhcp_range}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range bluecat_dhcp_range}
 */
 export class DhcpRange extends cdktf.TerraformResource {
 
@@ -81,7 +79,7 @@ export class DhcpRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DhcpRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DhcpRange to import
-  * @param importFromId The id of the existing DhcpRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DhcpRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DhcpRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +91,7 @@ export class DhcpRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/resources/dhcp_range bluecat_dhcp_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/resources/dhcp_range bluecat_dhcp_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +102,8 @@ export class DhcpRange extends cdktf.TerraformResource {
       terraformResourceType: 'bluecat_dhcp_range',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

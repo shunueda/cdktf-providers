@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6ServiceGroupStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#id DataThunderCgnv6ServiceGroupStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#id DataThunderCgnv6ServiceGroupStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderCgnv6ServiceGroupStatsConfig extends cdktf.Terraform
   /**
   * CGNV6 Service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#name DataThunderCgnv6ServiceGroupStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#name DataThunderCgnv6ServiceGroupStats#name}
   */
   readonly name: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#member_list DataThunderCgnv6ServiceGroupStats#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#member_list DataThunderCgnv6ServiceGroupStats#member_list}
   */
   readonly memberList?: DataThunderCgnv6ServiceGroupStatsMemberListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#stats DataThunderCgnv6ServiceGroupStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#stats DataThunderCgnv6ServiceGroupStats#stats}
   */
   readonly stats?: DataThunderCgnv6ServiceGroupStatsStats;
 }
@@ -37,121 +37,121 @@ export interface DataThunderCgnv6ServiceGroupStatsMemberListStats {
   /**
   * Current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#curr_conn DataThunderCgnv6ServiceGroupStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#curr_conn DataThunderCgnv6ServiceGroupStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#curr_conn_overflow DataThunderCgnv6ServiceGroupStats#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#curr_conn_overflow DataThunderCgnv6ServiceGroupStats#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#curr_req DataThunderCgnv6ServiceGroupStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#curr_req DataThunderCgnv6ServiceGroupStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Current SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#curr_ssl_conn DataThunderCgnv6ServiceGroupStats#curr_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#curr_ssl_conn DataThunderCgnv6ServiceGroupStats#curr_ssl_conn}
   */
   readonly currSslConn?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#fastest_rsp_time DataThunderCgnv6ServiceGroupStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#fastest_rsp_time DataThunderCgnv6ServiceGroupStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#peak_conn DataThunderCgnv6ServiceGroupStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#peak_conn DataThunderCgnv6ServiceGroupStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#response_time DataThunderCgnv6ServiceGroupStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#response_time DataThunderCgnv6ServiceGroupStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#slowest_rsp_time DataThunderCgnv6ServiceGroupStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#slowest_rsp_time DataThunderCgnv6ServiceGroupStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * State flaps count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#state_flaps DataThunderCgnv6ServiceGroupStats#state_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#state_flaps DataThunderCgnv6ServiceGroupStats#state_flaps}
   */
   readonly stateFlaps?: number;
   /**
   * Total connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_conn DataThunderCgnv6ServiceGroupStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_conn DataThunderCgnv6ServiceGroupStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Total forward bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_fwd_bytes DataThunderCgnv6ServiceGroupStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_fwd_bytes DataThunderCgnv6ServiceGroupStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Total forward packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_fwd_pkts DataThunderCgnv6ServiceGroupStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_fwd_pkts DataThunderCgnv6ServiceGroupStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_req DataThunderCgnv6ServiceGroupStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_req DataThunderCgnv6ServiceGroupStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total requests success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_req_succ DataThunderCgnv6ServiceGroupStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_req_succ DataThunderCgnv6ServiceGroupStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Total reverse bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_rev_bytes DataThunderCgnv6ServiceGroupStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_rev_bytes DataThunderCgnv6ServiceGroupStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Total reverse packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts DataThunderCgnv6ServiceGroupStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts DataThunderCgnv6ServiceGroupStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets inspected status code 2xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected_status_code_2xx DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected_status_code_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected_status_code_2xx DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected_status_code_2xx}
   */
   readonly totalRevPktsInspectedStatusCode2Xx?: number;
   /**
   * Total reverse packets inspected status code non 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected_status_code_non_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderCgnv6ServiceGroupStats#total_rev_pkts_inspected_status_code_non_5xx}
   */
   readonly totalRevPktsInspectedStatusCodeNon5Xx?: number;
   /**
   * Total SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#total_ssl_conn DataThunderCgnv6ServiceGroupStats#total_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#total_ssl_conn DataThunderCgnv6ServiceGroupStats#total_ssl_conn}
   */
   readonly totalSslConn?: number;
 }
@@ -788,19 +788,19 @@ export interface DataThunderCgnv6ServiceGroupStatsMemberListStruct {
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#name DataThunderCgnv6ServiceGroupStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#name DataThunderCgnv6ServiceGroupStats#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#port DataThunderCgnv6ServiceGroupStats#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#port DataThunderCgnv6ServiceGroupStats#port}
   */
   readonly port: number;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#stats DataThunderCgnv6ServiceGroupStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#stats DataThunderCgnv6ServiceGroupStats#stats}
   */
   readonly stats?: DataThunderCgnv6ServiceGroupStatsMemberListStats;
 }
@@ -970,19 +970,19 @@ export interface DataThunderCgnv6ServiceGroupStatsStats {
   /**
   * Service selection fail drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#server_selection_fail_drop DataThunderCgnv6ServiceGroupStats#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#server_selection_fail_drop DataThunderCgnv6ServiceGroupStats#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Service selection fail reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#server_selection_fail_reset DataThunderCgnv6ServiceGroupStats#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#server_selection_fail_reset DataThunderCgnv6ServiceGroupStats#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Service peak connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#service_peak_conn DataThunderCgnv6ServiceGroupStats#service_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#service_peak_conn DataThunderCgnv6ServiceGroupStats#service_peak_conn}
   */
   readonly servicePeakConn?: number;
 }
@@ -1124,7 +1124,7 @@ export class DataThunderCgnv6ServiceGroupStatsStatsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats thunder_cgnv6_service_group_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats thunder_cgnv6_service_group_stats}
 */
 export class DataThunderCgnv6ServiceGroupStats extends cdktf.TerraformDataSource {
 
@@ -1140,7 +1140,7 @@ export class DataThunderCgnv6ServiceGroupStats extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderCgnv6ServiceGroupStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6ServiceGroupStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6ServiceGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6ServiceGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6ServiceGroupStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1152,7 +1152,7 @@ export class DataThunderCgnv6ServiceGroupStats extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_service_group_stats thunder_cgnv6_service_group_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_service_group_stats thunder_cgnv6_service_group_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1163,8 +1163,8 @@ export class DataThunderCgnv6ServiceGroupStats extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_cgnv6_service_group_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

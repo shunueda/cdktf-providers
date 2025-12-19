@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface PolicyMapEventConfig extends cdktf.TerraformMetaArguments {
   /**
   * class number, 1 for 1st class, 2 for 2nd...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#class_numbers PolicyMapEvent#class_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#class_numbers PolicyMapEvent#class_numbers}
   */
   readonly classNumbers?: PolicyMapEventClassNumbers[] | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#device PolicyMapEvent#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#device PolicyMapEvent#device}
   */
   readonly device?: string;
   /**
   * The event this control class-map triggers upon
   *   - Choices: `aaa-available`, `absolute-timeout`, `agent-found`, `authentication-failure`, `authentication-success`, `authorization-failure`, `authorization-success`, `identity-update`, `inactivity-timeout`, `remote-authentication-failure`, `remote-authentication-success`, `remote-update`, `session-disconnected`, `session-started`, `tag-added`, `tag-removed`, `template-activated`, `template-activation-failed`, `template-deactivated`, `template-deactivation-failed`, `timer-expiry`, `violation`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#event_type PolicyMapEvent#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#event_type PolicyMapEvent#event_type}
   */
   readonly eventType: string;
   /**
   * Matching criteria for first or all events.
   *   - Choices: `match-all`, `match-first`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#match_type PolicyMapEvent#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#match_type PolicyMapEvent#match_type}
   */
   readonly matchType?: string;
   /**
   * Name of the policy map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#name PolicyMapEvent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#name PolicyMapEvent#name}
   */
   readonly name: string;
 }
@@ -44,221 +44,221 @@ export interface PolicyMapEventClassNumbersActionNumbers {
   /**
   * activate interface template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_interface_template PolicyMapEvent#activate_interface_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_interface_template PolicyMapEvent#activate_interface_template}
   */
   readonly activateInterfaceTemplate?: string;
   /**
   * policy type control subscriber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_policy_type_control_subscriber PolicyMapEvent#activate_policy_type_control_subscriber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_policy_type_control_subscriber PolicyMapEvent#activate_policy_type_control_subscriber}
   */
   readonly activatePolicyTypeControlSubscriber?: string;
   /**
   * Named Method List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_service_template_config_aaa_list PolicyMapEvent#activate_service_template_config_aaa_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_service_template_config_aaa_list PolicyMapEvent#activate_service_template_config_aaa_list}
   */
   readonly activateServiceTemplateConfigAaaList?: string;
   /**
   * Template precedence
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_service_template_config_precedence PolicyMapEvent#activate_service_template_config_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_service_template_config_precedence PolicyMapEvent#activate_service_template_config_precedence}
   */
   readonly activateServiceTemplateConfigPrecedence?: number;
   /**
   * Replace all existing authorization data and services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_service_template_config_replace_all PolicyMapEvent#activate_service_template_config_replace_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_service_template_config_replace_all PolicyMapEvent#activate_service_template_config_replace_all}
   */
   readonly activateServiceTemplateConfigReplaceAll?: boolean | cdktf.IResolvable;
   /**
   * activate service template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#activate_service_template_config_service_template PolicyMapEvent#activate_service_template_config_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#activate_service_template_config_service_template PolicyMapEvent#activate_service_template_config_service_template}
   */
   readonly activateServiceTemplateConfigServiceTemplate?: string;
   /**
   * Specify authentication method list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_aaa_authc_list PolicyMapEvent#authenticate_using_aaa_authc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_aaa_authc_list PolicyMapEvent#authenticate_using_aaa_authc_list}
   */
   readonly authenticateUsingAaaAuthcList?: string;
   /**
   * Specify authorization method list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_aaa_authz_list PolicyMapEvent#authenticate_using_aaa_authz_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_aaa_authz_list PolicyMapEvent#authenticate_using_aaa_authz_list}
   */
   readonly authenticateUsingAaaAuthzList?: string;
   /**
   * Enabling Dot1x Authenticator & Supplicant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_both PolicyMapEvent#authenticate_using_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_both PolicyMapEvent#authenticate_using_both}
   */
   readonly authenticateUsingBoth?: boolean | cdktf.IResolvable;
   /**
   * method/protocol to be used for authentication
   *   - Choices: `dot1x`, `mab`, `webauth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_method PolicyMapEvent#authenticate_using_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_method PolicyMapEvent#authenticate_using_method}
   */
   readonly authenticateUsingMethod?: string;
   /**
   * Specify parameter map name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_parameter_map PolicyMapEvent#authenticate_using_parameter_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_parameter_map PolicyMapEvent#authenticate_using_parameter_map}
   */
   readonly authenticateUsingParameterMap?: string;
   /**
   * Method priority
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_priority PolicyMapEvent#authenticate_using_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_priority PolicyMapEvent#authenticate_using_priority}
   */
   readonly authenticateUsingPriority?: number;
   /**
   * Number of times to retry failed authentications
   *   - Range: `1`-`5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_retries PolicyMapEvent#authenticate_using_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_retries PolicyMapEvent#authenticate_using_retries}
   */
   readonly authenticateUsingRetries?: number;
   /**
   * Time interval between retries
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authenticate_using_retry_time PolicyMapEvent#authenticate_using_retry_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authenticate_using_retry_time PolicyMapEvent#authenticate_using_retry_time}
   */
   readonly authenticateUsingRetryTime?: number;
   /**
   * restarts the auth sequence after the specified number of sec
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authentication_restart PolicyMapEvent#authentication_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authentication_restart PolicyMapEvent#authentication_restart}
   */
   readonly authenticationRestart?: number;
   /**
   * authorize session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#authorize PolicyMapEvent#authorize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#authorize PolicyMapEvent#authorize}
   */
   readonly authorize?: boolean | cdktf.IResolvable;
   /**
   * clears authenticated data hosts on the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#clear_authenticated_data_hosts_on_port PolicyMapEvent#clear_authenticated_data_hosts_on_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#clear_authenticated_data_hosts_on_port PolicyMapEvent#clear_authenticated_data_hosts_on_port}
   */
   readonly clearAuthenticatedDataHostsOnPort?: boolean | cdktf.IResolvable;
   /**
   * clears an active session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#clear_session PolicyMapEvent#clear_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#clear_session PolicyMapEvent#clear_session}
   */
   readonly clearSession?: boolean | cdktf.IResolvable;
   /**
   * activate interface template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#deactivate_interface_template PolicyMapEvent#deactivate_interface_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#deactivate_interface_template PolicyMapEvent#deactivate_interface_template}
   */
   readonly deactivateInterfaceTemplate?: string;
   /**
   * policy type control subscriber
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#deactivate_policy_type_control_subscriber PolicyMapEvent#deactivate_policy_type_control_subscriber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#deactivate_policy_type_control_subscriber PolicyMapEvent#deactivate_policy_type_control_subscriber}
   */
   readonly deactivatePolicyTypeControlSubscriber?: string;
   /**
   * activate service template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#deactivate_service_template PolicyMapEvent#deactivate_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#deactivate_service_template PolicyMapEvent#deactivate_service_template}
   */
   readonly deactivateServiceTemplate?: string;
   /**
   * temporarily disable port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#err_disable PolicyMapEvent#err_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#err_disable PolicyMapEvent#err_disable}
   */
   readonly errDisable?: boolean | cdktf.IResolvable;
   /**
   * map identity-update attribute to a auto-conf templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#map_attribute_to_service_table PolicyMapEvent#map_attribute_to_service_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#map_attribute_to_service_table PolicyMapEvent#map_attribute_to_service_table}
   */
   readonly mapAttributeToServiceTable?: string;
   /**
   * notifies the session attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#notify PolicyMapEvent#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#notify PolicyMapEvent#notify}
   */
   readonly notify?: boolean | cdktf.IResolvable;
   /**
   * action number, 1 for 1st class, 2 for 2nd...
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#number PolicyMapEvent#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#number PolicyMapEvent#number}
   */
   readonly number: number;
   /**
   * pause reauthentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#pause_reauthentication PolicyMapEvent#pause_reauthentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#pause_reauthentication PolicyMapEvent#pause_reauthentication}
   */
   readonly pauseReauthentication?: boolean | cdktf.IResolvable;
   /**
   * silently drop violating packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#protect PolicyMapEvent#protect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#protect PolicyMapEvent#protect}
   */
   readonly protect?: boolean | cdktf.IResolvable;
   /**
   * clear existing session and create session for violating host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#replace PolicyMapEvent#replace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#replace PolicyMapEvent#replace}
   */
   readonly replace?: boolean | cdktf.IResolvable;
   /**
   * drop violating packets and generate a syslog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#restrict PolicyMapEvent#restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#restrict PolicyMapEvent#restrict}
   */
   readonly restrict?: boolean | cdktf.IResolvable;
   /**
   * resume reauthentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#resume_reauthentication PolicyMapEvent#resume_reauthentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#resume_reauthentication PolicyMapEvent#resume_reauthentication}
   */
   readonly resumeReauthentication?: boolean | cdktf.IResolvable;
   /**
   * set domain
   *   - Choices: `data`, `switch`, `voice`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#set_domain PolicyMapEvent#set_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#set_domain PolicyMapEvent#set_domain}
   */
   readonly setDomain?: string;
   /**
   * timer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#set_timer_name PolicyMapEvent#set_timer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#set_timer_name PolicyMapEvent#set_timer_name}
   */
   readonly setTimerName?: string;
   /**
   * Enter a value between 1 and 65535
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#set_timer_value PolicyMapEvent#set_timer_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#set_timer_value PolicyMapEvent#set_timer_value}
   */
   readonly setTimerValue?: number;
   /**
   * terminate auth method
   *   - Choices: `dot1x`, `mab`, `webauth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#terminate_config PolicyMapEvent#terminate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#terminate_config PolicyMapEvent#terminate_config}
   */
   readonly terminateConfig?: string;
   /**
   * unauthorize session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#unauthorize PolicyMapEvent#unauthorize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#unauthorize PolicyMapEvent#unauthorize}
   */
   readonly unauthorize?: boolean | cdktf.IResolvable;
 }
@@ -1359,27 +1359,27 @@ export interface PolicyMapEventClassNumbers {
   /**
   * action number, 1 for 1st class, 2 for 2nd...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#action_numbers PolicyMapEvent#action_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#action_numbers PolicyMapEvent#action_numbers}
   */
   readonly actionNumbers?: PolicyMapEventClassNumbersActionNumbers[] | cdktf.IResolvable;
   /**
   * The class type this control policy-map triggers upon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#class PolicyMapEvent#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#class PolicyMapEvent#class}
   */
   readonly class?: string;
   /**
   * Policy execution strategy
   *   - Choices: `do-all`, `do-until-failure`, `do-until-success`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#execution_type PolicyMapEvent#execution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#execution_type PolicyMapEvent#execution_type}
   */
   readonly executionType?: string;
   /**
   * class number, 1 for 1st class, 2 for 2nd...
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#number PolicyMapEvent#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#number PolicyMapEvent#number}
   */
   readonly number: number;
 }
@@ -1579,7 +1579,7 @@ export class PolicyMapEventClassNumbersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event iosxe_policy_map_event}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event iosxe_policy_map_event}
 */
 export class PolicyMapEvent extends cdktf.TerraformResource {
 
@@ -1595,7 +1595,7 @@ export class PolicyMapEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyMapEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyMapEvent to import
-  * @param importFromId The id of the existing PolicyMapEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyMapEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyMapEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1607,7 +1607,7 @@ export class PolicyMapEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/policy_map_event iosxe_policy_map_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/policy_map_event iosxe_policy_map_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1618,8 +1618,8 @@ export class PolicyMapEvent extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_policy_map_event',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemTcpOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#id DataThunderSystemTcpOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#id DataThunderSystemTcpOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,159 +17,175 @@ export interface DataThunderSystemTcpOperConfig extends cdktf.TerraformMetaArgum
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#oper DataThunderSystemTcpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#oper DataThunderSystemTcpOper#oper}
   */
   readonly oper?: DataThunderSystemTcpOperOper;
   /**
   * rate_limit_reset_unknown_conn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#rate_limit_reset_unknown_conn DataThunderSystemTcpOper#rate_limit_reset_unknown_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#rate_limit_reset_unknown_conn DataThunderSystemTcpOper#rate_limit_reset_unknown_conn}
   */
   readonly rateLimitResetUnknownConn?: DataThunderSystemTcpOperRateLimitResetUnknownConn;
 }
 export interface DataThunderSystemTcpOperOperTcpCpuListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#activeopens DataThunderSystemTcpOper#activeopens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#activeopens DataThunderSystemTcpOper#activeopens}
   */
   readonly activeopens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#attemptfails DataThunderSystemTcpOper#attemptfails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#attemptfails DataThunderSystemTcpOper#attemptfails}
   */
   readonly attemptfails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#ax_rexmit_syn DataThunderSystemTcpOper#ax_rexmit_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#ax_rexmit_syn DataThunderSystemTcpOper#ax_rexmit_syn}
   */
   readonly axRexmitSyn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currclose DataThunderSystemTcpOper#currclose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currclose DataThunderSystemTcpOper#currclose}
   */
   readonly currclose?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currclsg DataThunderSystemTcpOper#currclsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currclsg DataThunderSystemTcpOper#currclsg}
   */
   readonly currclsg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currclsw DataThunderSystemTcpOper#currclsw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currclsw DataThunderSystemTcpOper#currclsw}
   */
   readonly currclsw?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currestab DataThunderSystemTcpOper#currestab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currestab DataThunderSystemTcpOper#currestab}
   */
   readonly currestab?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currfinw1 DataThunderSystemTcpOper#currfinw1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currfinw1 DataThunderSystemTcpOper#currfinw1}
   */
   readonly currfinw1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currfinw2 DataThunderSystemTcpOper#currfinw2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currfinw2 DataThunderSystemTcpOper#currfinw2}
   */
   readonly currfinw2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currlack DataThunderSystemTcpOper#currlack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currlack DataThunderSystemTcpOper#currlack}
   */
   readonly currlack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currlstn DataThunderSystemTcpOper#currlstn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currlstn DataThunderSystemTcpOper#currlstn}
   */
   readonly currlstn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currsynrcv DataThunderSystemTcpOper#currsynrcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currsynrcv DataThunderSystemTcpOper#currsynrcv}
   */
   readonly currsynrcv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currsyssnt DataThunderSystemTcpOper#currsyssnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currsyssnt DataThunderSystemTcpOper#currsyssnt}
   */
   readonly currsyssnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#currtimew DataThunderSystemTcpOper#currtimew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#currtimew DataThunderSystemTcpOper#currtimew}
   */
   readonly currtimew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#estabresets DataThunderSystemTcpOper#estabresets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#delayed_free DataThunderSystemTcpOper#delayed_free}
+  */
+  readonly delayedFree?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#estabresets DataThunderSystemTcpOper#estabresets}
   */
   readonly estabresets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#exceedmss DataThunderSystemTcpOper#exceedmss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#exceedmss DataThunderSystemTcpOper#exceedmss}
   */
   readonly exceedmss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#inerrs DataThunderSystemTcpOper#inerrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#inerrs DataThunderSystemTcpOper#inerrs}
   */
   readonly inerrs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#insegs DataThunderSystemTcpOper#insegs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#insegs DataThunderSystemTcpOper#insegs}
   */
   readonly insegs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#mem_alloc DataThunderSystemTcpOper#mem_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#invalid_drop DataThunderSystemTcpOper#invalid_drop}
+  */
+  readonly invalidDrop?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#mem_alloc DataThunderSystemTcpOper#mem_alloc}
   */
   readonly memAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#noroute DataThunderSystemTcpOper#noroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#noroute DataThunderSystemTcpOper#noroute}
   */
   readonly noroute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#orphan_count DataThunderSystemTcpOper#orphan_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#orphan_count DataThunderSystemTcpOper#orphan_count}
   */
   readonly orphanCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#outrsts DataThunderSystemTcpOper#outrsts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#outrsts DataThunderSystemTcpOper#outrsts}
   */
   readonly outrsts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#outsegs DataThunderSystemTcpOper#outsegs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#outsegs DataThunderSystemTcpOper#outsegs}
   */
   readonly outsegs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#passiveopens DataThunderSystemTcpOper#passiveopens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#passiveopens DataThunderSystemTcpOper#passiveopens}
   */
   readonly passiveopens?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#pawsactiverejected DataThunderSystemTcpOper#pawsactiverejected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#pawsactiverejected DataThunderSystemTcpOper#pawsactiverejected}
   */
   readonly pawsactiverejected?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#recv_mem DataThunderSystemTcpOper#recv_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#recv_mem DataThunderSystemTcpOper#recv_mem}
   */
   readonly recvMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#retranssegs DataThunderSystemTcpOper#retranssegs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#retranssegs DataThunderSystemTcpOper#retranssegs}
   */
   readonly retranssegs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#send_mem DataThunderSystemTcpOper#send_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#send_mem DataThunderSystemTcpOper#send_mem}
   */
   readonly sendMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#sock_alloc DataThunderSystemTcpOper#sock_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#sock_alloc DataThunderSystemTcpOper#sock_alloc}
   */
   readonly sockAlloc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#syn_rcv_ack DataThunderSystemTcpOper#syn_rcv_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#sock_init DataThunderSystemTcpOper#sock_init}
+  */
+  readonly sockInit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#syn_rcv_ack DataThunderSystemTcpOper#syn_rcv_ack}
   */
   readonly synRcvAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#syn_rcv_rst DataThunderSystemTcpOper#syn_rcv_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#syn_rcv_rexmit DataThunderSystemTcpOper#syn_rcv_rexmit}
+  */
+  readonly synRcvRexmit?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#syn_rcv_rst DataThunderSystemTcpOper#syn_rcv_rst}
   */
   readonly synRcvRst?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#syn_rcv_rstack DataThunderSystemTcpOper#syn_rcv_rstack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#syn_rcv_rstack DataThunderSystemTcpOper#syn_rcv_rstack}
   */
   readonly synRcvRstack?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#tcpabortontimeout DataThunderSystemTcpOper#tcpabortontimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#tcpabortontimeout DataThunderSystemTcpOper#tcpabortontimeout}
   */
   readonly tcpabortontimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#tfo_actives DataThunderSystemTcpOper#tfo_actives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#tfo_actives DataThunderSystemTcpOper#tfo_actives}
   */
   readonly tfoActives?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#tfo_conns DataThunderSystemTcpOper#tfo_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#tfo_conns DataThunderSystemTcpOper#tfo_conns}
   */
   readonly tfoConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#tfo_denied DataThunderSystemTcpOper#tfo_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#tfo_denied DataThunderSystemTcpOper#tfo_denied}
   */
   readonly tfoDenied?: number;
 }
@@ -194,10 +210,12 @@ export function dataThunderSystemTcpOperOperTcpCpuListStructToTerraform(struct?:
     currsynrcv: cdktf.numberToTerraform(struct!.currsynrcv),
     currsyssnt: cdktf.numberToTerraform(struct!.currsyssnt),
     currtimew: cdktf.numberToTerraform(struct!.currtimew),
+    delayed_free: cdktf.numberToTerraform(struct!.delayedFree),
     estabresets: cdktf.numberToTerraform(struct!.estabresets),
     exceedmss: cdktf.numberToTerraform(struct!.exceedmss),
     inerrs: cdktf.numberToTerraform(struct!.inerrs),
     insegs: cdktf.numberToTerraform(struct!.insegs),
+    invalid_drop: cdktf.numberToTerraform(struct!.invalidDrop),
     mem_alloc: cdktf.numberToTerraform(struct!.memAlloc),
     noroute: cdktf.numberToTerraform(struct!.noroute),
     orphan_count: cdktf.numberToTerraform(struct!.orphanCount),
@@ -209,7 +227,9 @@ export function dataThunderSystemTcpOperOperTcpCpuListStructToTerraform(struct?:
     retranssegs: cdktf.numberToTerraform(struct!.retranssegs),
     send_mem: cdktf.numberToTerraform(struct!.sendMem),
     sock_alloc: cdktf.numberToTerraform(struct!.sockAlloc),
+    sock_init: cdktf.numberToTerraform(struct!.sockInit),
     syn_rcv_ack: cdktf.numberToTerraform(struct!.synRcvAck),
+    syn_rcv_rexmit: cdktf.numberToTerraform(struct!.synRcvRexmit),
     syn_rcv_rst: cdktf.numberToTerraform(struct!.synRcvRst),
     syn_rcv_rstack: cdktf.numberToTerraform(struct!.synRcvRstack),
     tcpabortontimeout: cdktf.numberToTerraform(struct!.tcpabortontimeout),
@@ -310,6 +330,12 @@ export function dataThunderSystemTcpOperOperTcpCpuListStructToHclTerraform(struc
       type: "simple",
       storageClassType: "number",
     },
+    delayed_free: {
+      value: cdktf.numberToHclTerraform(struct!.delayedFree),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     estabresets: {
       value: cdktf.numberToHclTerraform(struct!.estabresets),
       isBlock: false,
@@ -330,6 +356,12 @@ export function dataThunderSystemTcpOperOperTcpCpuListStructToHclTerraform(struc
     },
     insegs: {
       value: cdktf.numberToHclTerraform(struct!.insegs),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    invalid_drop: {
+      value: cdktf.numberToHclTerraform(struct!.invalidDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -400,8 +432,20 @@ export function dataThunderSystemTcpOperOperTcpCpuListStructToHclTerraform(struc
       type: "simple",
       storageClassType: "number",
     },
+    sock_init: {
+      value: cdktf.numberToHclTerraform(struct!.sockInit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     syn_rcv_ack: {
       value: cdktf.numberToHclTerraform(struct!.synRcvAck),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_rcv_rexmit: {
+      value: cdktf.numberToHclTerraform(struct!.synRcvRexmit),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -524,6 +568,10 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.currtimew = this._currtimew;
     }
+    if (this._delayedFree !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delayedFree = this._delayedFree;
+    }
     if (this._estabresets !== undefined) {
       hasAnyValues = true;
       internalValueResult.estabresets = this._estabresets;
@@ -539,6 +587,10 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
     if (this._insegs !== undefined) {
       hasAnyValues = true;
       internalValueResult.insegs = this._insegs;
+    }
+    if (this._invalidDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.invalidDrop = this._invalidDrop;
     }
     if (this._memAlloc !== undefined) {
       hasAnyValues = true;
@@ -584,9 +636,17 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.sockAlloc = this._sockAlloc;
     }
+    if (this._sockInit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sockInit = this._sockInit;
+    }
     if (this._synRcvAck !== undefined) {
       hasAnyValues = true;
       internalValueResult.synRcvAck = this._synRcvAck;
+    }
+    if (this._synRcvRexmit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synRcvRexmit = this._synRcvRexmit;
     }
     if (this._synRcvRst !== undefined) {
       hasAnyValues = true;
@@ -633,10 +693,12 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       this._currsynrcv = undefined;
       this._currsyssnt = undefined;
       this._currtimew = undefined;
+      this._delayedFree = undefined;
       this._estabresets = undefined;
       this._exceedmss = undefined;
       this._inerrs = undefined;
       this._insegs = undefined;
+      this._invalidDrop = undefined;
       this._memAlloc = undefined;
       this._noroute = undefined;
       this._orphanCount = undefined;
@@ -648,7 +710,9 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       this._retranssegs = undefined;
       this._sendMem = undefined;
       this._sockAlloc = undefined;
+      this._sockInit = undefined;
       this._synRcvAck = undefined;
+      this._synRcvRexmit = undefined;
       this._synRcvRst = undefined;
       this._synRcvRstack = undefined;
       this._tcpabortontimeout = undefined;
@@ -677,10 +741,12 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       this._currsynrcv = value.currsynrcv;
       this._currsyssnt = value.currsyssnt;
       this._currtimew = value.currtimew;
+      this._delayedFree = value.delayedFree;
       this._estabresets = value.estabresets;
       this._exceedmss = value.exceedmss;
       this._inerrs = value.inerrs;
       this._insegs = value.insegs;
+      this._invalidDrop = value.invalidDrop;
       this._memAlloc = value.memAlloc;
       this._noroute = value.noroute;
       this._orphanCount = value.orphanCount;
@@ -692,7 +758,9 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
       this._retranssegs = value.retranssegs;
       this._sendMem = value.sendMem;
       this._sockAlloc = value.sockAlloc;
+      this._sockInit = value.sockInit;
       this._synRcvAck = value.synRcvAck;
+      this._synRcvRexmit = value.synRcvRexmit;
       this._synRcvRst = value.synRcvRst;
       this._synRcvRstack = value.synRcvRstack;
       this._tcpabortontimeout = value.tcpabortontimeout;
@@ -926,6 +994,22 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
     return this._currtimew;
   }
 
+  // delayed_free - computed: false, optional: true, required: false
+  private _delayedFree?: number; 
+  public get delayedFree() {
+    return this.getNumberAttribute('delayed_free');
+  }
+  public set delayedFree(value: number) {
+    this._delayedFree = value;
+  }
+  public resetDelayedFree() {
+    this._delayedFree = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get delayedFreeInput() {
+    return this._delayedFree;
+  }
+
   // estabresets - computed: false, optional: true, required: false
   private _estabresets?: number; 
   public get estabresets() {
@@ -988,6 +1072,22 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get insegsInput() {
     return this._insegs;
+  }
+
+  // invalid_drop - computed: false, optional: true, required: false
+  private _invalidDrop?: number; 
+  public get invalidDrop() {
+    return this.getNumberAttribute('invalid_drop');
+  }
+  public set invalidDrop(value: number) {
+    this._invalidDrop = value;
+  }
+  public resetInvalidDrop() {
+    this._invalidDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get invalidDropInput() {
+    return this._invalidDrop;
   }
 
   // mem_alloc - computed: false, optional: true, required: false
@@ -1166,6 +1266,22 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
     return this._sockAlloc;
   }
 
+  // sock_init - computed: false, optional: true, required: false
+  private _sockInit?: number; 
+  public get sockInit() {
+    return this.getNumberAttribute('sock_init');
+  }
+  public set sockInit(value: number) {
+    this._sockInit = value;
+  }
+  public resetSockInit() {
+    this._sockInit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sockInitInput() {
+    return this._sockInit;
+  }
+
   // syn_rcv_ack - computed: false, optional: true, required: false
   private _synRcvAck?: number; 
   public get synRcvAck() {
@@ -1180,6 +1296,22 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get synRcvAckInput() {
     return this._synRcvAck;
+  }
+
+  // syn_rcv_rexmit - computed: false, optional: true, required: false
+  private _synRcvRexmit?: number; 
+  public get synRcvRexmit() {
+    return this.getNumberAttribute('syn_rcv_rexmit');
+  }
+  public set synRcvRexmit(value: number) {
+    this._synRcvRexmit = value;
+  }
+  public resetSynRcvRexmit() {
+    this._synRcvRexmit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synRcvRexmitInput() {
+    return this._synRcvRexmit;
   }
 
   // syn_rcv_rst - computed: false, optional: true, required: false
@@ -1300,13 +1432,13 @@ export class DataThunderSystemTcpOperOperTcpCpuListStructList extends cdktf.Comp
 }
 export interface DataThunderSystemTcpOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#cpu_count DataThunderSystemTcpOper#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#cpu_count DataThunderSystemTcpOper#cpu_count}
   */
   readonly cpuCount?: number;
   /**
   * tcp_cpu_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#tcp_cpu_list DataThunderSystemTcpOper#tcp_cpu_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#tcp_cpu_list DataThunderSystemTcpOper#tcp_cpu_list}
   */
   readonly tcpCpuList?: DataThunderSystemTcpOperOperTcpCpuListStruct[] | cdktf.IResolvable;
 }
@@ -1419,15 +1551,15 @@ export class DataThunderSystemTcpOperOperOutputReference extends cdktf.ComplexOb
 }
 export interface DataThunderSystemTcpOperRateLimitResetUnknownConnOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#unknown_conn_current_rate DataThunderSystemTcpOper#unknown_conn_current_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#unknown_conn_current_rate DataThunderSystemTcpOper#unknown_conn_current_rate}
   */
   readonly unknownConnCurrentRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#unknown_conn_rate_limit DataThunderSystemTcpOper#unknown_conn_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#unknown_conn_rate_limit DataThunderSystemTcpOper#unknown_conn_rate_limit}
   */
   readonly unknownConnRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#unknown_conn_rate_limit_drop DataThunderSystemTcpOper#unknown_conn_rate_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#unknown_conn_rate_limit_drop DataThunderSystemTcpOper#unknown_conn_rate_limit_drop}
   */
   readonly unknownConnRateLimitDrop?: number;
 }
@@ -1571,7 +1703,7 @@ export interface DataThunderSystemTcpOperRateLimitResetUnknownConn {
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#oper DataThunderSystemTcpOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#oper DataThunderSystemTcpOper#oper}
   */
   readonly oper?: DataThunderSystemTcpOperRateLimitResetUnknownConnOper;
 }
@@ -1655,7 +1787,7 @@ export class DataThunderSystemTcpOperRateLimitResetUnknownConnOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper thunder_system_tcp_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper thunder_system_tcp_oper}
 */
 export class DataThunderSystemTcpOper extends cdktf.TerraformDataSource {
 
@@ -1671,7 +1803,7 @@ export class DataThunderSystemTcpOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSystemTcpOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemTcpOper to import
-  * @param importFromId The id of the existing DataThunderSystemTcpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemTcpOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemTcpOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1683,7 +1815,7 @@ export class DataThunderSystemTcpOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_tcp_oper thunder_system_tcp_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_tcp_oper thunder_system_tcp_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1694,8 +1826,8 @@ export class DataThunderSystemTcpOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_system_tcp_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkAvailableTrunkListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#id DataThunderNetworkAvailableTrunkListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#id DataThunderNetworkAvailableTrunkListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderNetworkAvailableTrunkListOperConfig extends cdktf.Te
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#oper DataThunderNetworkAvailableTrunkListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#oper DataThunderNetworkAvailableTrunkListOper#oper}
   */
   readonly oper?: DataThunderNetworkAvailableTrunkListOperOper;
 }
 export interface DataThunderNetworkAvailableTrunkListOperOperIfListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#if_num DataThunderNetworkAvailableTrunkListOper#if_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#if_num DataThunderNetworkAvailableTrunkListOper#if_num}
   */
   readonly ifNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#if_status DataThunderNetworkAvailableTrunkListOper#if_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#if_status DataThunderNetworkAvailableTrunkListOper#if_status}
   */
   readonly ifStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#if_type DataThunderNetworkAvailableTrunkListOper#if_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#if_type DataThunderNetworkAvailableTrunkListOper#if_type}
   */
   readonly ifType?: string;
 }
@@ -207,7 +207,7 @@ export interface DataThunderNetworkAvailableTrunkListOperOper {
   /**
   * if_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#if_list DataThunderNetworkAvailableTrunkListOper#if_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#if_list DataThunderNetworkAvailableTrunkListOper#if_list}
   */
   readonly ifList?: DataThunderNetworkAvailableTrunkListOperOperIfListStruct[] | cdktf.IResolvable;
 }
@@ -291,7 +291,7 @@ export class DataThunderNetworkAvailableTrunkListOperOperOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper thunder_network_available_trunk_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper thunder_network_available_trunk_list_oper}
 */
 export class DataThunderNetworkAvailableTrunkListOper extends cdktf.TerraformDataSource {
 
@@ -307,7 +307,7 @@ export class DataThunderNetworkAvailableTrunkListOper extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderNetworkAvailableTrunkListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkAvailableTrunkListOper to import
-  * @param importFromId The id of the existing DataThunderNetworkAvailableTrunkListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkAvailableTrunkListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkAvailableTrunkListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class DataThunderNetworkAvailableTrunkListOper extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_available_trunk_list_oper thunder_network_available_trunk_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_available_trunk_list_oper thunder_network_available_trunk_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class DataThunderNetworkAvailableTrunkListOper extends cdktf.TerraformDat
       terraformResourceType: 'thunder_network_available_trunk_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

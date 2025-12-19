@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbServiceGroupOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#id DataThunderSlbServiceGroupOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#id DataThunderSlbServiceGroupOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,53 +17,53 @@ export interface DataThunderSlbServiceGroupOperConfig extends cdktf.TerraformMet
   /**
   * SLB Service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#name DataThunderSlbServiceGroupOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#name DataThunderSlbServiceGroupOper#name}
   */
   readonly name: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#member_list DataThunderSlbServiceGroupOper#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#member_list DataThunderSlbServiceGroupOper#member_list}
   */
   readonly memberList?: DataThunderSlbServiceGroupOperMemberListStruct[] | cdktf.IResolvable;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#oper DataThunderSlbServiceGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#oper DataThunderSlbServiceGroupOper#oper}
   */
   readonly oper?: DataThunderSlbServiceGroupOperOper;
 }
 export interface DataThunderSlbServiceGroupOperMemberListOperAltListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_curr_conn DataThunderSlbServiceGroupOper#alt_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_curr_conn DataThunderSlbServiceGroupOper#alt_curr_conn}
   */
   readonly altCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_fwd_pkts DataThunderSlbServiceGroupOper#alt_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_fwd_pkts DataThunderSlbServiceGroupOper#alt_fwd_pkts}
   */
   readonly altFwdPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_name DataThunderSlbServiceGroupOper#alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_name DataThunderSlbServiceGroupOper#alt_name}
   */
   readonly altName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_peak_conn DataThunderSlbServiceGroupOper#alt_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_peak_conn DataThunderSlbServiceGroupOper#alt_peak_conn}
   */
   readonly altPeakConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_port DataThunderSlbServiceGroupOper#alt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_port DataThunderSlbServiceGroupOper#alt_port}
   */
   readonly altPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_rev_pkts DataThunderSlbServiceGroupOper#alt_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_rev_pkts DataThunderSlbServiceGroupOper#alt_rev_pkts}
   */
   readonly altRevPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_state DataThunderSlbServiceGroupOper#alt_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_state DataThunderSlbServiceGroupOper#alt_state}
   */
   readonly altState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_total_conn DataThunderSlbServiceGroupOper#alt_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_total_conn DataThunderSlbServiceGroupOper#alt_total_conn}
   */
   readonly altTotalConn?: number;
 }
@@ -382,83 +382,83 @@ export class DataThunderSlbServiceGroupOperMemberListOperAltListStructList exten
 }
 export interface DataThunderSlbServiceGroupOperMemberListOperDrsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_curr_conn DataThunderSlbServiceGroupOper#drs_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_curr_conn DataThunderSlbServiceGroupOper#drs_curr_conn}
   */
   readonly drsCurrConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_curr_req DataThunderSlbServiceGroupOper#drs_curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_curr_req DataThunderSlbServiceGroupOper#drs_curr_req}
   */
   readonly drsCurrReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_frsp_time DataThunderSlbServiceGroupOper#drs_frsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_frsp_time DataThunderSlbServiceGroupOper#drs_frsp_time}
   */
   readonly drsFrspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_fwd_bts DataThunderSlbServiceGroupOper#drs_fwd_bts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_fwd_bts DataThunderSlbServiceGroupOper#drs_fwd_bts}
   */
   readonly drsFwdBts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_fwd_pkts DataThunderSlbServiceGroupOper#drs_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_fwd_pkts DataThunderSlbServiceGroupOper#drs_fwd_pkts}
   */
   readonly drsFwdPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_hm_index DataThunderSlbServiceGroupOper#drs_hm_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_hm_index DataThunderSlbServiceGroupOper#drs_hm_index}
   */
   readonly drsHmIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_hm_key DataThunderSlbServiceGroupOper#drs_hm_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_hm_key DataThunderSlbServiceGroupOper#drs_hm_key}
   */
   readonly drsHmKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_name DataThunderSlbServiceGroupOper#drs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_name DataThunderSlbServiceGroupOper#drs_name}
   */
   readonly drsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_peak_conn DataThunderSlbServiceGroupOper#drs_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_peak_conn DataThunderSlbServiceGroupOper#drs_peak_conn}
   */
   readonly drsPeakConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_pers_conn DataThunderSlbServiceGroupOper#drs_pers_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_pers_conn DataThunderSlbServiceGroupOper#drs_pers_conn}
   */
   readonly drsPersConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_port DataThunderSlbServiceGroupOper#drs_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_port DataThunderSlbServiceGroupOper#drs_port}
   */
   readonly drsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_priority DataThunderSlbServiceGroupOper#drs_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_priority DataThunderSlbServiceGroupOper#drs_priority}
   */
   readonly drsPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_rev_bts DataThunderSlbServiceGroupOper#drs_rev_bts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_rev_bts DataThunderSlbServiceGroupOper#drs_rev_bts}
   */
   readonly drsRevBts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_rev_pkts DataThunderSlbServiceGroupOper#drs_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_rev_pkts DataThunderSlbServiceGroupOper#drs_rev_pkts}
   */
   readonly drsRevPkts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_rsp_time DataThunderSlbServiceGroupOper#drs_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_rsp_time DataThunderSlbServiceGroupOper#drs_rsp_time}
   */
   readonly drsRspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_srsp_time DataThunderSlbServiceGroupOper#drs_srsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_srsp_time DataThunderSlbServiceGroupOper#drs_srsp_time}
   */
   readonly drsSrspTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_state DataThunderSlbServiceGroupOper#drs_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_state DataThunderSlbServiceGroupOper#drs_state}
   */
   readonly drsState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_total_conn DataThunderSlbServiceGroupOper#drs_total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_total_conn DataThunderSlbServiceGroupOper#drs_total_conn}
   */
   readonly drsTotalConn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_total_req DataThunderSlbServiceGroupOper#drs_total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_total_req DataThunderSlbServiceGroupOper#drs_total_req}
   */
   readonly drsTotalReq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_total_req_succ DataThunderSlbServiceGroupOper#drs_total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_total_req_succ DataThunderSlbServiceGroupOper#drs_total_req_succ}
   */
   readonly drsTotalReqSucc?: number;
 }
@@ -1125,27 +1125,27 @@ export class DataThunderSlbServiceGroupOperMemberListOperDrsListStructList exten
 }
 export interface DataThunderSlbServiceGroupOperMemberListOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#hm_index DataThunderSlbServiceGroupOper#hm_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#hm_index DataThunderSlbServiceGroupOper#hm_index}
   */
   readonly hmIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#hm_key DataThunderSlbServiceGroupOper#hm_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#hm_key DataThunderSlbServiceGroupOper#hm_key}
   */
   readonly hmKey?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#state DataThunderSlbServiceGroupOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#state DataThunderSlbServiceGroupOper#state}
   */
   readonly state?: string;
   /**
   * alt_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#alt_list DataThunderSlbServiceGroupOper#alt_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#alt_list DataThunderSlbServiceGroupOper#alt_list}
   */
   readonly altList?: DataThunderSlbServiceGroupOperMemberListOperAltListStruct[] | cdktf.IResolvable;
   /**
   * drs_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#drs_list DataThunderSlbServiceGroupOper#drs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#drs_list DataThunderSlbServiceGroupOper#drs_list}
   */
   readonly drsList?: DataThunderSlbServiceGroupOperMemberListOperDrsListStruct[] | cdktf.IResolvable;
 }
@@ -1347,19 +1347,19 @@ export interface DataThunderSlbServiceGroupOperMemberListStruct {
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#name DataThunderSlbServiceGroupOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#name DataThunderSlbServiceGroupOper#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#port DataThunderSlbServiceGroupOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#port DataThunderSlbServiceGroupOper#port}
   */
   readonly port: number;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#oper DataThunderSlbServiceGroupOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#oper DataThunderSlbServiceGroupOper#oper}
   */
   readonly oper?: DataThunderSlbServiceGroupOperMemberListOper;
 }
@@ -1527,11 +1527,11 @@ export class DataThunderSlbServiceGroupOperMemberListStructList extends cdktf.Co
 }
 export interface DataThunderSlbServiceGroupOperOperSgmListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#sgm_name DataThunderSlbServiceGroupOper#sgm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#sgm_name DataThunderSlbServiceGroupOper#sgm_name}
   */
   readonly sgmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#sgm_port DataThunderSlbServiceGroupOper#sgm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#sgm_port DataThunderSlbServiceGroupOper#sgm_port}
   */
   readonly sgmPort?: number;
 }
@@ -1676,57 +1676,57 @@ export class DataThunderSlbServiceGroupOperOperSgmListStructList extends cdktf.C
 }
 export interface DataThunderSlbServiceGroupOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#filter DataThunderSlbServiceGroupOper#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#filter DataThunderSlbServiceGroupOper#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#hm_dsr_enable_all_vip DataThunderSlbServiceGroupOper#hm_dsr_enable_all_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#hm_dsr_enable_all_vip DataThunderSlbServiceGroupOper#hm_dsr_enable_all_vip}
   */
   readonly hmDsrEnableAllVip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#pri_affinity_priority DataThunderSlbServiceGroupOper#pri_affinity_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#pri_affinity_priority DataThunderSlbServiceGroupOper#pri_affinity_priority}
   */
   readonly priAffinityPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#servers_disable DataThunderSlbServiceGroupOper#servers_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#servers_disable DataThunderSlbServiceGroupOper#servers_disable}
   */
   readonly serversDisable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#servers_down DataThunderSlbServiceGroupOper#servers_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#servers_down DataThunderSlbServiceGroupOper#servers_down}
   */
   readonly serversDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#servers_total DataThunderSlbServiceGroupOper#servers_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#servers_total DataThunderSlbServiceGroupOper#servers_total}
   */
   readonly serversTotal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#servers_up DataThunderSlbServiceGroupOper#servers_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#servers_up DataThunderSlbServiceGroupOper#servers_up}
   */
   readonly serversUp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#state DataThunderSlbServiceGroupOper#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#state DataThunderSlbServiceGroupOper#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#stateless_current_rate DataThunderSlbServiceGroupOper#stateless_current_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#stateless_current_rate DataThunderSlbServiceGroupOper#stateless_current_rate}
   */
   readonly statelessCurrentRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#stateless_current_usage DataThunderSlbServiceGroupOper#stateless_current_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#stateless_current_usage DataThunderSlbServiceGroupOper#stateless_current_usage}
   */
   readonly statelessCurrentUsage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#stateless_state DataThunderSlbServiceGroupOper#stateless_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#stateless_state DataThunderSlbServiceGroupOper#stateless_state}
   */
   readonly statelessState?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#stateless_type DataThunderSlbServiceGroupOper#stateless_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#stateless_type DataThunderSlbServiceGroupOper#stateless_type}
   */
   readonly statelessType?: number;
   /**
   * sgm_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#sgm_list DataThunderSlbServiceGroupOper#sgm_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#sgm_list DataThunderSlbServiceGroupOper#sgm_list}
   */
   readonly sgmList?: DataThunderSlbServiceGroupOperOperSgmListStruct[] | cdktf.IResolvable;
 }
@@ -2158,7 +2158,7 @@ export class DataThunderSlbServiceGroupOperOperOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper thunder_slb_service_group_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper thunder_slb_service_group_oper}
 */
 export class DataThunderSlbServiceGroupOper extends cdktf.TerraformDataSource {
 
@@ -2174,7 +2174,7 @@ export class DataThunderSlbServiceGroupOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbServiceGroupOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbServiceGroupOper to import
-  * @param importFromId The id of the existing DataThunderSlbServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbServiceGroupOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbServiceGroupOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2186,7 +2186,7 @@ export class DataThunderSlbServiceGroupOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_oper thunder_slb_service_group_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_oper thunder_slb_service_group_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2197,8 +2197,8 @@ export class DataThunderSlbServiceGroupOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_service_group_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

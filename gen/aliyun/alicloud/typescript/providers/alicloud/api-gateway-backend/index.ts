@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface ApiGatewayBackendConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#backend_name ApiGatewayBackend#backend_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#backend_name ApiGatewayBackend#backend_name}
   */
   readonly backendName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#backend_type ApiGatewayBackend#backend_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#backend_type ApiGatewayBackend#backend_type}
   */
   readonly backendType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#create_event_bridge_service_linked_role ApiGatewayBackend#create_event_bridge_service_linked_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#create_event_bridge_service_linked_role ApiGatewayBackend#create_event_bridge_service_linked_role}
   */
   readonly createEventBridgeServiceLinkedRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#description ApiGatewayBackend#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#description ApiGatewayBackend#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#id ApiGatewayBackend#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#id ApiGatewayBackend#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface ApiGatewayBackendConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend alicloud_api_gateway_backend}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend alicloud_api_gateway_backend}
 */
 export class ApiGatewayBackend extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class ApiGatewayBackend extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayBackend resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayBackend to import
-  * @param importFromId The id of the existing ApiGatewayBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayBackend that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayBackend to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class ApiGatewayBackend extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/api_gateway_backend alicloud_api_gateway_backend} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/api_gateway_backend alicloud_api_gateway_backend} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class ApiGatewayBackend extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_api_gateway_backend',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

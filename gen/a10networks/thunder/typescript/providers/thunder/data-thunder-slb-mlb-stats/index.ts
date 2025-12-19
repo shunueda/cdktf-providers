@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbMlbStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#id DataThunderSlbMlbStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#id DataThunderSlbMlbStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbMlbStatsConfig extends cdktf.TerraformMetaArgumen
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#stats DataThunderSlbMlbStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#stats DataThunderSlbMlbStats#stats}
   */
   readonly stats?: DataThunderSlbMlbStatsStats;
 }
@@ -25,109 +25,109 @@ export interface DataThunderSlbMlbStatsStats {
   /**
   * Client connection closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#client_conn_closed DataThunderSlbMlbStats#client_conn_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#client_conn_closed DataThunderSlbMlbStats#client_conn_closed}
   */
   readonly clientConnClosed?: number;
   /**
   * Client connection created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#client_conn_created DataThunderSlbMlbStats#client_conn_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#client_conn_created DataThunderSlbMlbStats#client_conn_created}
   */
   readonly clientConnCreated?: number;
   /**
   * Client connection not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#client_conn_not_found DataThunderSlbMlbStats#client_conn_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#client_conn_not_found DataThunderSlbMlbStats#client_conn_not_found}
   */
   readonly clientConnNotFound?: number;
   /**
   * Client message sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#client_msg_sent DataThunderSlbMlbStats#client_msg_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#client_msg_sent DataThunderSlbMlbStats#client_msg_sent}
   */
   readonly clientMsgSent?: number;
   /**
   * Dcmsg alloc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_dcmsg_alloc DataThunderSlbMlbStats#mlb_dcmsg_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_dcmsg_alloc DataThunderSlbMlbStats#mlb_dcmsg_alloc}
   */
   readonly mlbDcmsgAlloc?: number;
   /**
   * Dcmsg error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_dcmsg_error DataThunderSlbMlbStats#mlb_dcmsg_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_dcmsg_error DataThunderSlbMlbStats#mlb_dcmsg_error}
   */
   readonly mlbDcmsgError?: number;
   /**
   * Dcmsg free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_dcmsg_free DataThunderSlbMlbStats#mlb_dcmsg_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_dcmsg_free DataThunderSlbMlbStats#mlb_dcmsg_free}
   */
   readonly mlbDcmsgFree?: number;
   /**
   * Dcmsg received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_dcmsg_received DataThunderSlbMlbStats#mlb_dcmsg_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_dcmsg_received DataThunderSlbMlbStats#mlb_dcmsg_received}
   */
   readonly mlbDcmsgReceived?: number;
   /**
   * Dcmsg sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_dcmsg_sent DataThunderSlbMlbStats#mlb_dcmsg_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_dcmsg_sent DataThunderSlbMlbStats#mlb_dcmsg_sent}
   */
   readonly mlbDcmsgSent?: number;
   /**
   * Server down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_server_down DataThunderSlbMlbStats#mlb_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_server_down DataThunderSlbMlbStats#mlb_server_down}
   */
   readonly mlbServerDown?: number;
   /**
   * Server probe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#mlb_server_probe DataThunderSlbMlbStats#mlb_server_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#mlb_server_probe DataThunderSlbMlbStats#mlb_server_probe}
   */
   readonly mlbServerProbe?: number;
   /**
   * Message dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#msg_dropped DataThunderSlbMlbStats#msg_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#msg_dropped DataThunderSlbMlbStats#msg_dropped}
   */
   readonly msgDropped?: number;
   /**
   * Message rerouted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#msg_rerouted DataThunderSlbMlbStats#msg_rerouted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#msg_rerouted DataThunderSlbMlbStats#msg_rerouted}
   */
   readonly msgRerouted?: number;
   /**
   * Server connection closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#server_conn_closed DataThunderSlbMlbStats#server_conn_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#server_conn_closed DataThunderSlbMlbStats#server_conn_closed}
   */
   readonly serverConnClosed?: number;
   /**
   * Server connection created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#server_conn_created DataThunderSlbMlbStats#server_conn_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#server_conn_created DataThunderSlbMlbStats#server_conn_created}
   */
   readonly serverConnCreated?: number;
   /**
   * Server connection failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#server_conn_failed DataThunderSlbMlbStats#server_conn_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#server_conn_failed DataThunderSlbMlbStats#server_conn_failed}
   */
   readonly serverConnFailed?: number;
   /**
   * Server connection reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#server_conn_rst DataThunderSlbMlbStats#server_conn_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#server_conn_rst DataThunderSlbMlbStats#server_conn_rst}
   */
   readonly serverConnRst?: number;
   /**
   * Server message received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#server_msg_received DataThunderSlbMlbStats#server_msg_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#server_msg_received DataThunderSlbMlbStats#server_msg_received}
   */
   readonly serverMsgReceived?: number;
 }
@@ -704,7 +704,7 @@ export class DataThunderSlbMlbStatsStatsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats thunder_slb_mlb_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats thunder_slb_mlb_stats}
 */
 export class DataThunderSlbMlbStats extends cdktf.TerraformDataSource {
 
@@ -720,7 +720,7 @@ export class DataThunderSlbMlbStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbMlbStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbMlbStats to import
-  * @param importFromId The id of the existing DataThunderSlbMlbStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbMlbStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbMlbStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -732,7 +732,7 @@ export class DataThunderSlbMlbStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_mlb_stats thunder_slb_mlb_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_mlb_stats thunder_slb_mlb_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -743,8 +743,8 @@ export class DataThunderSlbMlbStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_mlb_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

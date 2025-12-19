@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerSt
   /**
   * Enable automatic packet-capture for Response status 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_400 VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_400 VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_400}
   */
   readonly esResp400?: number;
   /**
   * Enable automatic packet-capture for Response status 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_500 VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_500 VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_500}
   */
   readonly esResp500?: number;
   /**
   * Enable automatic packet-capture for Total non-http response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_invalid_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#es_resp_invalid_http VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#es_resp_invalid_http}
   */
   readonly esRespInvalidHttp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#id}
+  * Fw_server_port_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#fw_server_port_tmpl_name VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#fw_server_port_tmpl_name}
+  */
+  readonly fwServerPortTmplName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#id VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#name VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#name}
-  */
-  readonly name: string;
-  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#uuid VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc}
 */
 export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsIncA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc thunder_visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_fw_server_port_tmpl_trigger_stats_inc',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -100,8 +100,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
     this._esResp400 = config.esResp400;
     this._esResp500 = config.esResp500;
     this._esRespInvalidHttp = config.esRespInvalidHttp;
+    this._fwServerPortTmplName = config.fwServerPortTmplName;
     this._id = config.id;
-    this._name = config.name;
     this._uuid = config.uuid;
   }
 
@@ -157,6 +157,19 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
     return this._esRespInvalidHttp;
   }
 
+  // fw_server_port_tmpl_name - computed: false, optional: false, required: true
+  private _fwServerPortTmplName?: string; 
+  public get fwServerPortTmplName() {
+    return this.getStringAttribute('fw_server_port_tmpl_name');
+  }
+  public set fwServerPortTmplName(value: string) {
+    this._fwServerPortTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fwServerPortTmplNameInput() {
+    return this._fwServerPortTmplName;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -171,19 +184,6 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -211,8 +211,8 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
       es_resp_400: cdktf.numberToTerraform(this._esResp400),
       es_resp_500: cdktf.numberToTerraform(this._esResp500),
       es_resp_invalid_http: cdktf.numberToTerraform(this._esRespInvalidHttp),
+      fw_server_port_tmpl_name: cdktf.stringToTerraform(this._fwServerPortTmplName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -237,14 +237,14 @@ export class VisibilityPacketCaptureObjectTemplatesFwServerPortTmplTriggerStatsI
         type: "simple",
         storageClassType: "number",
       },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
+      fw_server_port_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._fwServerPortTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

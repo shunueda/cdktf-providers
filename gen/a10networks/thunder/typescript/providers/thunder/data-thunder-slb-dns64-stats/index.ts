@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbDns64StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#id DataThunderSlbDns64Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#id DataThunderSlbDns64Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbDns64StatsConfig extends cdktf.TerraformMetaArgum
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#stats DataThunderSlbDns64Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#stats DataThunderSlbDns64Stats#stats}
   */
   readonly stats?: DataThunderSlbDns64StatsStats;
 }
@@ -25,91 +25,91 @@ export interface DataThunderSlbDns64StatsStats {
   /**
   * Translated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#adjust DataThunderSlbDns64Stats#adjust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#adjust DataThunderSlbDns64Stats#adjust}
   */
   readonly adjust?: number;
   /**
   * Cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#cache DataThunderSlbDns64Stats#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#cache DataThunderSlbDns64Stats#cache}
   */
   readonly cache?: number;
   /**
   * Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#drop DataThunderSlbDns64Stats#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#drop DataThunderSlbDns64Stats#drop}
   */
   readonly drop?: number;
   /**
   * Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#query DataThunderSlbDns64Stats#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#query DataThunderSlbDns64Stats#query}
   */
   readonly query?: number;
   /**
   * Query Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#query_bad_pkt DataThunderSlbDns64Stats#query_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#query_bad_pkt DataThunderSlbDns64Stats#query_bad_pkt}
   */
   readonly queryBadPkt?: number;
   /**
   * Query Changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#query_chg DataThunderSlbDns64Stats#query_chg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#query_chg DataThunderSlbDns64Stats#query_chg}
   */
   readonly queryChg?: number;
   /**
   * Query Parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#query_parallel DataThunderSlbDns64Stats#query_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#query_parallel DataThunderSlbDns64Stats#query_parallel}
   */
   readonly queryParallel?: number;
   /**
   * Query Passive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#query_passive DataThunderSlbDns64Stats#query_passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#query_passive DataThunderSlbDns64Stats#query_passive}
   */
   readonly queryPassive?: number;
   /**
   * Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp DataThunderSlbDns64Stats#resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp DataThunderSlbDns64Stats#resp}
   */
   readonly resp?: number;
   /**
   * Response Bad Packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_bad_pkt DataThunderSlbDns64Stats#resp_bad_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_bad_pkt DataThunderSlbDns64Stats#resp_bad_pkt}
   */
   readonly respBadPkt?: number;
   /**
   * Response Bad Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_bad_qr DataThunderSlbDns64Stats#resp_bad_qr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_bad_qr DataThunderSlbDns64Stats#resp_bad_qr}
   */
   readonly respBadQr?: number;
   /**
   * Response Changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_chg DataThunderSlbDns64Stats#resp_chg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_chg DataThunderSlbDns64Stats#resp_chg}
   */
   readonly respChg?: number;
   /**
   * Response Empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_empty DataThunderSlbDns64Stats#resp_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_empty DataThunderSlbDns64Stats#resp_empty}
   */
   readonly respEmpty?: number;
   /**
   * Response Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_err DataThunderSlbDns64Stats#resp_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_err DataThunderSlbDns64Stats#resp_err}
   */
   readonly respErr?: number;
   /**
   * Response Local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#resp_local DataThunderSlbDns64Stats#resp_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#resp_local DataThunderSlbDns64Stats#resp_local}
   */
   readonly respLocal?: number;
 }
@@ -599,7 +599,7 @@ export class DataThunderSlbDns64StatsStatsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats thunder_slb_dns64_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats thunder_slb_dns64_stats}
 */
 export class DataThunderSlbDns64Stats extends cdktf.TerraformDataSource {
 
@@ -615,7 +615,7 @@ export class DataThunderSlbDns64Stats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbDns64Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbDns64Stats to import
-  * @param importFromId The id of the existing DataThunderSlbDns64Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbDns64Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbDns64Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +627,7 @@ export class DataThunderSlbDns64Stats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns64_stats thunder_slb_dns64_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns64_stats thunder_slb_dns64_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +638,8 @@ export class DataThunderSlbDns64Stats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_dns64_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

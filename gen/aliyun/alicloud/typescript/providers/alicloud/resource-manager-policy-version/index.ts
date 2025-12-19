@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerPolicyVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version#id ResourceManagerPolicyVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version#id ResourceManagerPolicyVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version#is_default_version ResourceManagerPolicyVersion#is_default_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version#is_default_version ResourceManagerPolicyVersion#is_default_version}
   */
   readonly isDefaultVersion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version#policy_document ResourceManagerPolicyVersion#policy_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version#policy_document ResourceManagerPolicyVersion#policy_document}
   */
   readonly policyDocument: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version#policy_name ResourceManagerPolicyVersion#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version#policy_name ResourceManagerPolicyVersion#policy_name}
   */
   readonly policyName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version alicloud_resource_manager_policy_version}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version alicloud_resource_manager_policy_version}
 */
 export class ResourceManagerPolicyVersion extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ResourceManagerPolicyVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerPolicyVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerPolicyVersion to import
-  * @param importFromId The id of the existing ResourceManagerPolicyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerPolicyVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerPolicyVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ResourceManagerPolicyVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/resource_manager_policy_version alicloud_resource_manager_policy_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/resource_manager_policy_version alicloud_resource_manager_policy_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ResourceManagerPolicyVersion extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_resource_manager_policy_version',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

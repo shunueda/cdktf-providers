@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SnmpServerHostIpv6HostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#id SnmpServerHostIpv6Host#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#id SnmpServerHostIpv6Host#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface SnmpServerHostIpv6HostConfig extends cdktf.TerraformMetaArgumen
   /**
   * IPV6 address of SNMP trap host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#ipv6_addr SnmpServerHostIpv6Host#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#ipv6_addr SnmpServerHostIpv6Host#ipv6_addr}
   */
   readonly ipv6Addr: string;
   /**
   * The trap host's UDP port number(default: 162)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#udp_port SnmpServerHostIpv6Host#udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#udp_port SnmpServerHostIpv6Host#udp_port}
   */
   readonly udpPort?: number;
   /**
   * SNMPv3 user to send traps (User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#user SnmpServerHostIpv6Host#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#user SnmpServerHostIpv6Host#user}
   */
   readonly user?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#uuid SnmpServerHostIpv6Host#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#uuid SnmpServerHostIpv6Host#uuid}
   */
   readonly uuid?: string;
   /**
   * SNMPv1/v2c community string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#v1_v2c_comm SnmpServerHostIpv6Host#v1_v2c_comm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#v1_v2c_comm SnmpServerHostIpv6Host#v1_v2c_comm}
   */
   readonly v1V2CComm?: string;
   /**
   * 'v1': Use SNMPv1; 'v2c': Use SNMPv2c; 'v3': User SNMPv3;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#version SnmpServerHostIpv6Host#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#version SnmpServerHostIpv6Host#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host thunder_snmp_server_host_ipv6_host}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host thunder_snmp_server_host_ipv6_host}
 */
 export class SnmpServerHostIpv6Host extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SnmpServerHostIpv6Host extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SnmpServerHostIpv6Host resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SnmpServerHostIpv6Host to import
-  * @param importFromId The id of the existing SnmpServerHostIpv6Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SnmpServerHostIpv6Host that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SnmpServerHostIpv6Host to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SnmpServerHostIpv6Host extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/snmp_server_host_ipv6_host thunder_snmp_server_host_ipv6_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/snmp_server_host_ipv6_host thunder_snmp_server_host_ipv6_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SnmpServerHostIpv6Host extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_snmp_server_host_ipv6_host',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

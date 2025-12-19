@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface VrrpACommonConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': enable vrrp-a; 'disable': disable vrrp-a;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#action VrrpACommon#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#action VrrpACommon#action}
   */
   readonly action?: string;
   /**
   * Number of additional gratuitous ARPs sent out after HA failover (1-255, default is 4)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#arp_retry VrrpACommon#arp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#arp_retry VrrpACommon#arp_retry}
   */
   readonly arpRetry?: number;
   /**
   * VRRP-A dead timer in terms of how many hello messages missed, default is 5 (2-255, default is 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#dead_timer VrrpACommon#dead_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#dead_timer VrrpACommon#dead_timer}
   */
   readonly deadTimer?: number;
   /**
   * Unique ID for each VRRP-A box (Device-id number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#device_id VrrpACommon#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#device_id VrrpACommon#device_id}
   */
   readonly deviceId?: number;
   /**
   * Disable default vrid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#disable_default_vrid VrrpACommon#disable_default_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#disable_default_vrid VrrpACommon#disable_default_vrid}
   */
   readonly disableDefaultVrid?: number;
   /**
   * Enables Layer 2/3 forwarding of Layer 4 traffic on the Standby ACOS device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#forward_l4_packet_on_standby VrrpACommon#forward_l4_packet_on_standby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#forward_l4_packet_on_standby VrrpACommon#forward_l4_packet_on_standby}
   */
   readonly forwardL4PacketOnStandby?: number;
   /**
   * set get ready time after ax starting up (60-1200, in unit of 100millisec, default is 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#get_ready_time VrrpACommon#get_ready_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#get_ready_time VrrpACommon#get_ready_time}
   */
   readonly fetchReadyTime?: number;
   /**
   * VRRP-A Hello Interval (1-255, in unit of 100millisec, default is 2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#hello_interval VrrpACommon#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#hello_interval VrrpACommon#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * VRRP-A packet IPv6 header hop-limit (hop-limit, default is 64)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#hop_limit VrrpACommon#hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#hop_limit VrrpACommon#hop_limit}
   */
   readonly hopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#id VrrpACommon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#id VrrpACommon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,49 +71,49 @@ export interface VrrpACommonConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delay before changing state from Active to Standby (1-255, in unit of 100millisec, default is 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#preemption_delay VrrpACommon#preemption_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#preemption_delay VrrpACommon#preemption_delay}
   */
   readonly preemptionDelay?: number;
   /**
   * Time between restarting ports on standby system after transition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#restart_time VrrpACommon#restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#restart_time VrrpACommon#restart_time}
   */
   readonly restartTime?: number;
   /**
   * Set-ID for HA configuration (Set id from 1 to 15)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#set_id VrrpACommon#set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#set_id VrrpACommon#set_id}
   */
   readonly setId?: number;
   /**
   * Delay before changing state after up/down event (Units of 100 milliseconds (default 30))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#track_event_delay VrrpACommon#track_event_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#track_event_delay VrrpACommon#track_event_delay}
   */
   readonly trackEventDelay?: number;
   /**
   * VRRP-A packet IPv4 header TTL (TTL, default is 128)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#ttl VrrpACommon#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#ttl VrrpACommon#ttl}
   */
   readonly ttl?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#uuid VrrpACommon#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#uuid VrrpACommon#uuid}
   */
   readonly uuid?: string;
   /**
   * hostid_append_to_vrid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#hostid_append_to_vrid VrrpACommon#hostid_append_to_vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#hostid_append_to_vrid VrrpACommon#hostid_append_to_vrid}
   */
   readonly hostidAppendToVrid?: VrrpACommonHostidAppendToVrid;
   /**
   * inline_mode_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#inline_mode_cfg VrrpACommon#inline_mode_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#inline_mode_cfg VrrpACommon#inline_mode_cfg}
   */
   readonly inlineModeCfg?: VrrpACommonInlineModeCfg;
 }
@@ -121,13 +121,13 @@ export interface VrrpACommonHostidAppendToVrid {
   /**
   * hostid append to vrid default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#hostid_append_to_vrid_default VrrpACommon#hostid_append_to_vrid_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#hostid_append_to_vrid_default VrrpACommon#hostid_append_to_vrid_default}
   */
   readonly hostidAppendToVridDefault?: number;
   /**
   * hostid append to vrid num
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#hostid_append_to_vrid_value VrrpACommon#hostid_append_to_vrid_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#hostid_append_to_vrid_value VrrpACommon#hostid_append_to_vrid_value}
   */
   readonly hostidAppendToVridValue?: number;
 }
@@ -242,19 +242,19 @@ export interface VrrpACommonInlineModeCfg {
   /**
   * Enable Layer 2 Inline Hot Standby Mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#inline_mode VrrpACommon#inline_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#inline_mode VrrpACommon#inline_mode}
   */
   readonly inlineMode?: number;
   /**
   * Preferred ethernet Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#preferred_port VrrpACommon#preferred_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#preferred_port VrrpACommon#preferred_port}
   */
   readonly preferredPort?: number;
   /**
   * Preferred trunk Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#preferred_trunk VrrpACommon#preferred_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#preferred_trunk VrrpACommon#preferred_trunk}
   */
   readonly preferredTrunk?: number;
 }
@@ -396,7 +396,7 @@ export class VrrpACommonInlineModeCfgOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common thunder_vrrp_a_common}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common thunder_vrrp_a_common}
 */
 export class VrrpACommon extends cdktf.TerraformResource {
 
@@ -412,7 +412,7 @@ export class VrrpACommon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VrrpACommon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VrrpACommon to import
-  * @param importFromId The id of the existing VrrpACommon that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VrrpACommon that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VrrpACommon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -424,7 +424,7 @@ export class VrrpACommon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/vrrp_a_common thunder_vrrp_a_common} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/vrrp_a_common thunder_vrrp_a_common} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -435,8 +435,8 @@ export class VrrpACommon extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_vrrp_a_common',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

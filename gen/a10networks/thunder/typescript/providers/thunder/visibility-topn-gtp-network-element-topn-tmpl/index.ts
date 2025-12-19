@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityTopnGtpNetworkElementTopnTmplConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#id VisibilityTopnGtpNetworkElementTopnTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#id VisibilityTopnGtpNetworkElementTopnTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface VisibilityTopnGtpNetworkElementTopnTmplConfig extends cdktf.Ter
   /**
   * '5': 5 minutes; '15': 15 minutes; '30': 30 minutes; '60': 60 minutes; 'all-time': Since template is activated;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#interval VisibilityTopnGtpNetworkElementTopnTmpl#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#interval VisibilityTopnGtpNetworkElementTopnTmpl#interval}
   */
   readonly interval?: string;
   /**
   * Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#name VisibilityTopnGtpNetworkElementTopnTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#name VisibilityTopnGtpNetworkElementTopnTmpl#name}
   */
   readonly name: string;
   /**
   * Congure value of N for topn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#topn_size VisibilityTopnGtpNetworkElementTopnTmpl#topn_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#topn_size VisibilityTopnGtpNetworkElementTopnTmpl#topn_size}
   */
   readonly topnSize?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#user_tag VisibilityTopnGtpNetworkElementTopnTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#user_tag VisibilityTopnGtpNetworkElementTopnTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uuid VisibilityTopnGtpNetworkElementTopnTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uuid VisibilityTopnGtpNetworkElementTopnTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#metrics VisibilityTopnGtpNetworkElementTopnTmpl#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#metrics VisibilityTopnGtpNetworkElementTopnTmpl#metrics}
   */
   readonly metrics?: VisibilityTopnGtpNetworkElementTopnTmplMetrics;
 }
@@ -55,517 +55,547 @@ export interface VisibilityTopnGtpNetworkElementTopnTmplMetrics {
   /**
   * Track Top-N entities for Downlink Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#downlink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#downlink_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#downlink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#downlink_bytes}
   */
   readonly downlinkBytes?: number;
   /**
   * Track Top-N entities for Downlink Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#downlink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#downlink_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#downlink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#downlink_pkts}
   */
   readonly downlinkPkts?: number;
   /**
   * Track Top-N entities for Filtering Drop: APN IMSI Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_apn_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_apn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_apn_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_apn_filtering}
   */
   readonly dropFltApnFiltering?: number;
   /**
   * Track Top-N entities for Filtering Drop: GTP in GTP Tunnel Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_gtp_in_gtp VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_gtp_in_gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_gtp_in_gtp VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_gtp_in_gtp}
   */
   readonly dropFltGtpInGtp?: number;
   /**
   * Track Top-N entities for Filtering Drop: Message Type Not Permitted on Interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_message_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_message_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_message_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_message_filtering}
   */
   readonly dropFltMessageFiltering?: number;
   /**
   * Track Top-N entities for Filtering Drop: MSISDN Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_msisdn_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_msisdn_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_msisdn_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_msisdn_filtering}
   */
   readonly dropFltMsisdnFiltering?: number;
   /**
   * Track Top-N entities for Filtering Drop: RAT Type Filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_rat_type_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_rat_type_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_flt_rat_type_filtering VisibilityTopnGtpNetworkElementTopnTmpl#drop_flt_rat_type_filtering}
   */
   readonly dropFltRatTypeFiltering?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Downlink byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_downlink_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_downlink_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_downlink_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_downlink_byte}
   */
   readonly dropRlGtpUDownlinkByte?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Downlink packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_downlink_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_downlink_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_downlink_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_downlink_packet}
   */
   readonly dropRlGtpUDownlinkPacket?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Concurrent Tunnels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_max_concurrent_tunnels VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_max_concurrent_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_max_concurrent_tunnels VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_max_concurrent_tunnels}
   */
   readonly dropRlGtpUMaxConcurrentTunnels?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Total byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_total_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_total_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_total_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_total_byte}
   */
   readonly dropRlGtpUTotalByte?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Total packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_total_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_total_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_total_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_total_packet}
   */
   readonly dropRlGtpUTotalPacket?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Tunnel Creation rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_tunnel_create VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_tunnel_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_tunnel_create VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_tunnel_create}
   */
   readonly dropRlGtpUTunnelCreate?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Uplink byte rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_uplink_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_uplink_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_uplink_byte VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_uplink_byte}
   */
   readonly dropRlGtpUUplinkByte?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTP-U Uplink packet rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_uplink_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_uplink_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_u_uplink_packet VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_u_uplink_packet}
   */
   readonly dropRlGtpUUplinkPacket?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: Maximum GTPv0-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v0_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v0_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v0_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v0_c_agg}
   */
   readonly dropRlGtpV0CAgg?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: Maximum GTPv1-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_agg}
   */
   readonly dropRlGtpV1CAgg?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTPv1-C Create PDP Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_create_pdp_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_create_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_create_pdp_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_create_pdp_request}
   */
   readonly dropRlGtpV1CCreatePdpRequest?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTPv1-C Update PDP Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_update_pdp_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_update_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v1_c_update_pdp_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v1_c_update_pdp_request}
   */
   readonly dropRlGtpV1CUpdatePdpRequest?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: Maximum GTPv2-C messages rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_agg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_agg VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_agg}
   */
   readonly dropRlGtpV2CAgg?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTPv2-C Create Session Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_create_session_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_create_session_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_create_session_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_create_session_request}
   */
   readonly dropRlGtpV2CCreateSessionRequest?: number;
   /**
   * Track Top-N entities for Rate-limit Drop: GTPv2-C Modify Bearer Req rate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_modify_bearer_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_modify_bearer_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_rl_gtp_v2_c_modify_bearer_request VisibilityTopnGtpNetworkElementTopnTmpl#drop_rl_gtp_v2_c_modify_bearer_request}
   */
   readonly dropRlGtpV2CModifyBearerRequest?: number;
   /**
   * Track Top-N entities for Validation Drop: Country Code Mismatch in IMSI and MSISDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_country_code_mismatch VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_country_code_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_country_code_mismatch VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_country_code_mismatch}
   */
   readonly dropVldCountryCodeMismatch?: number;
   /**
   * Track Top-N entities for Validation Drop: Cross Layer IP Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_cross_layer_correlation VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_cross_layer_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_cross_layer_correlation VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_cross_layer_correlation}
   */
   readonly dropVldCrossLayerCorrelation?: number;
   /**
   * Track Top-N entities for Validation Drop: GTP Bearer count exceeded max (11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_bearer_count_exceed VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_bearer_count_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_bearer_count_exceed VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_bearer_count_exceed}
   */
   readonly dropVldGtpBearerCountExceed?: number;
   /**
   * Track Top-N entities for Validation Drop: GTP-C Invalid APN Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_invalid_apn_len_drop VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_invalid_apn_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_invalid_apn_len_drop VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_invalid_apn_len_drop}
   */
   readonly dropVldGtpInvalidApnLenDrop?: number;
   /**
   * Track Top-N entities for Validation Drop: GTP-C Invalid IMSI Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_invalid_imsi_len_drop VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_invalid_imsi_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_invalid_imsi_len_drop VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_invalid_imsi_len_drop}
   */
   readonly dropVldGtpInvalidImsiLenDrop?: number;
   /**
   * Track Top-N entities for Validation Drop: GTP-U IP Address Spoofed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_u_spoofed_source_address VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_u_spoofed_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_u_spoofed_source_address VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_u_spoofed_source_address}
   */
   readonly dropVldGtpUSpoofedSourceAddress?: number;
   /**
   * Track Top-N entities for Validation Drop: GTPV2-C Wrong LBI in Create Bearer Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_v2_wrong_lbi_create_bearer VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_v2_wrong_lbi_create_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtp_v2_wrong_lbi_create_bearer VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtp_v2_wrong_lbi_create_bearer}
   */
   readonly dropVldGtpV2WrongLbiCreateBearer?: number;
   /**
   * Track Top-N entities for Validation Drop: GTPV0-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv0_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv0_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv0_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv0_seqnum_buffer_full}
   */
   readonly dropVldGtpv0SeqnumBufferFull?: number;
   /**
   * Track Top-N entities for Validation Drop: GTPV1-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv1_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv1_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv1_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv1_seqnum_buffer_full}
   */
   readonly dropVldGtpv1SeqnumBufferFull?: number;
   /**
   * Track Top-N entities for Validation Drop: GTPV2-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv2_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv2_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_gtpv2_seqnum_buffer_full VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_gtpv2_seqnum_buffer_full}
   */
   readonly dropVldGtpv2SeqnumBufferFull?: number;
   /**
   * Track Top-N entities for Validation Drop: Invalid Flow Label in GTPv0-C Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_flow_label_v0 VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_flow_label_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_flow_label_v0 VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_flow_label_v0}
   */
   readonly dropVldInvalidFlowLabelV0?: number;
   /**
   * Track Top-N entities for Validation Drop: Piggyback message invalid packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_pkt_len_piggyback VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_pkt_len_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_pkt_len_piggyback VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_pkt_len_piggyback}
   */
   readonly dropVldInvalidPktLenPiggyback?: number;
   /**
   * Track Top-N entities for Validation Drop: Invalid TEID Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_teid VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_teid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_invalid_teid VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_invalid_teid}
   */
   readonly dropVldInvalidTeid?: number;
   /**
   * Track Top-N entities for Validation Drop: Mandatory IE Not Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_mandatory_information_element VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_mandatory_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_mandatory_information_element VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_mandatory_information_element}
   */
   readonly dropVldMandatoryInformationElement?: number;
   /**
   * Track Top-N entities for Validation Drop: Message Length Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_message_length VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_message_length VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_message_length}
   */
   readonly dropVldMessageLength?: number;
   /**
   * Track Top-N entities for Validation Drop: GTPv1-C Message Out of Order IE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_order_ie VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_order_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_order_ie VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_order_ie}
   */
   readonly dropVldOutOfOrderIe?: number;
   /**
   * Track Top-N entities for Validation Drop: Out Of State GTP Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_state VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_state VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_state}
   */
   readonly dropVldOutOfState?: number;
   /**
   * Track Top-N entities for Validation Drop: Unexpected IE Present in Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_state_ie VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_state_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_out_of_state_ie VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_out_of_state_ie}
   */
   readonly dropVldOutOfStateIe?: number;
   /**
   * Track Top-N entities for Validation Drop: Protocol flag in Header Field not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_protocol_flag_unset VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_protocol_flag_unset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_protocol_flag_unset VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_protocol_flag_unset}
   */
   readonly dropVldProtocolFlagUnset?: number;
   /**
   * Track Top-N entities for Validation Drop: Reserved Header Field Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_reserved_field_set VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_reserved_field_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_reserved_field_set VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_reserved_field_set}
   */
   readonly dropVldReservedFieldSet?: number;
   /**
   * Track Top-N entities for Validation Drop: Reserved IE Field Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_reserved_information_element VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_reserved_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_reserved_information_element VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_reserved_information_element}
   */
   readonly dropVldReservedInformationElement?: number;
   /**
   * Track Top-N entities for Validation Drop: piggyback message anomaly failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_sanity_failed_piggyback VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_sanity_failed_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_sanity_failed_piggyback VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_sanity_failed_piggyback}
   */
   readonly dropVldSanityFailedPiggyback?: number;
   /**
   * Track Top-N entities for Validation Drop: GTP-C Sequence number Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_sequence_num_correlation VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_sequence_num_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_sequence_num_correlation VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_sequence_num_correlation}
   */
   readonly dropVldSequenceNumCorrelation?: number;
   /**
   * Track Top-N entities for Validation Drop: Tunnel Header Flag Not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_tunnel_id_flag VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_tunnel_id_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_tunnel_id_flag VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_tunnel_id_flag}
   */
   readonly dropVldTunnelIdFlag?: number;
   /**
   * Track Top-N entities for Validation Drop: Message type not supported by GTP Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_unsupported_message_type VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_unsupported_message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_unsupported_message_type VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_unsupported_message_type}
   */
   readonly dropVldUnsupportedMessageType?: number;
   /**
   * Track Top-N entities for Validation Drop: Invalid GTP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_version_not_supported VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_version_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#drop_vld_version_not_supported VisibilityTopnGtpNetworkElementTopnTmpl#drop_vld_version_not_supported}
   */
   readonly dropVldVersionNotSupported?: number;
   /**
   * Track Top-N entities for GTP-C matching a conn with Handover In Progress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_c_handover_in_progress_with_conn VisibilityTopnGtpNetworkElementTopnTmpl#gtp_c_handover_in_progress_with_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_c_handover_in_progress_with_conn VisibilityTopnGtpNetworkElementTopnTmpl#gtp_c_handover_in_progress_with_conn}
   */
   readonly gtpCHandoverInProgressWithConn?: number;
   /**
   * Track Top-N entities for GTP Path Management Messages Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_path_management_message VisibilityTopnGtpNetworkElementTopnTmpl#gtp_path_management_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_path_management_message VisibilityTopnGtpNetworkElementTopnTmpl#gtp_path_management_message}
   */
   readonly gtpPathManagementMessage?: number;
   /**
   * Track Top-N entities for GTP-U Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_u_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_u_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_u_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_u_tunnel_created}
   */
   readonly gtpUTunnelCreated?: number;
   /**
   * Track Top-N entities for GTP-U Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_u_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_u_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_u_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_u_tunnel_deleted}
   */
   readonly gtpUTunnelDeleted?: number;
   /**
   * Track Top-N entities for GTPv0-C Create PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_create_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_create_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_create_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_create_pdp_resp_unsuccess}
   */
   readonly gtpV0CCreatePdpRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv0-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_half_open_tunnel_closed}
   */
   readonly gtpV0CHalfOpenTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv0-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_reserved_message_allow}
   */
   readonly gtpV0CReservedMessageAllow?: number;
   /**
   * Track Top-N entities for GTPv0-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_closed}
   */
   readonly gtpV0CTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv0-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_created}
   */
   readonly gtpV0CTunnelCreated?: number;
   /**
   * Track Top-N entities for GTPv0-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_deleted}
   */
   readonly gtpV0CTunnelDeleted?: number;
   /**
   * Track Top-N entities for GTPv0-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_deleted_restart}
   */
   readonly gtpV0CTunnelDeletedRestart?: number;
   /**
   * Track Top-N entities for GTPv0-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_half_closed}
   */
   readonly gtpV0CTunnelHalfClosed?: number;
   /**
   * Track Top-N entities for GTPv0-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_tunnel_half_open}
   */
   readonly gtpV0CTunnelHalfOpen?: number;
   /**
   * Track Top-N entities for GTPv0-C Update PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_update_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_update_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v0_c_update_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v0_c_update_pdp_resp_unsuccess}
   */
   readonly gtpV0CUpdatePdpRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv1-C Create PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_create_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_create_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_create_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_create_pdp_resp_unsuccess}
   */
   readonly gtpV1CCreatePdpRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv1-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_half_open_tunnel_closed}
   */
   readonly gtpV1CHalfOpenTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv1-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_reserved_message_allow}
   */
   readonly gtpV1CReservedMessageAllow?: number;
   /**
   * Track Top-N entities for GTPv1-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_closed}
   */
   readonly gtpV1CTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv1-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_created}
   */
   readonly gtpV1CTunnelCreated?: number;
   /**
   * Track Top-N entities for GTPv1-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_deleted}
   */
   readonly gtpV1CTunnelDeleted?: number;
   /**
   * Track Top-N entities for GTPv1-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_deleted_restart}
   */
   readonly gtpV1CTunnelDeletedRestart?: number;
   /**
   * Track Top-N entities for GTPv1-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_half_closed}
   */
   readonly gtpV1CTunnelHalfClosed?: number;
   /**
   * Track Top-N entities for GTPv1-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_tunnel_half_open}
   */
   readonly gtpV1CTunnelHalfOpen?: number;
   /**
   * Track Top-N entities for GTPv1-C Update PDP Context Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_update_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_update_pdp_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v1_c_update_pdp_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v1_c_update_pdp_resp_unsuccess}
   */
   readonly gtpV1CUpdatePdpRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv2-C Create Session Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_create_sess_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_create_sess_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_create_sess_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_create_sess_resp_unsuccess}
   */
   readonly gtpV2CCreateSessRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv2-C Half open tunnel closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_half_open_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_half_open_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_half_open_tunnel_closed}
   */
   readonly gtpV2CHalfOpenTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv2-C Modify Bearer Response Unsuccessful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_mod_bearer_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_mod_bearer_resp_unsuccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_mod_bearer_resp_unsuccess VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_mod_bearer_resp_unsuccess}
   */
   readonly gtpV2CModBearerRespUnsuccess?: number;
   /**
   * Track Top-N entities for GTPv2-C Piggyback Messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_piggyback_message VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_piggyback_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_piggyback_message VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_piggyback_message}
   */
   readonly gtpV2CPiggybackMessage?: number;
   /**
   * Track Top-N entities for GTPv2-C Reserved Message Allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_reserved_message_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_reserved_message_allow VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_reserved_message_allow}
   */
   readonly gtpV2CReservedMessageAllow?: number;
   /**
   * Track Top-N entities for GTPv2-C Tunnel Marked Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_closed}
   */
   readonly gtpV2CTunnelClosed?: number;
   /**
   * Track Top-N entities for GTPv2-C Tunnel Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_created VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_created}
   */
   readonly gtpV2CTunnelCreated?: number;
   /**
   * Track Top-N entities for GTPv2-C Tunnel Deleted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_deleted VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_deleted}
   */
   readonly gtpV2CTunnelDeleted?: number;
   /**
   * Track Top-N entities for GTPv2-C Tunnel Deleted with Restart/failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_deleted_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_deleted_restart VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_deleted_restart}
   */
   readonly gtpV2CTunnelDeletedRestart?: number;
   /**
   * Track Top-N entities for GTPv2-C Tunnel Delete Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_half_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_half_closed VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_half_closed}
   */
   readonly gtpV2CTunnelHalfClosed?: number;
   /**
   * Track Top-N entities for GTPv2-C Half open tunnel created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#gtp_v2_c_tunnel_half_open VisibilityTopnGtpNetworkElementTopnTmpl#gtp_v2_c_tunnel_half_open}
   */
   readonly gtpV2CTunnelHalfOpen?: number;
   /**
+  * Track Top-N entities for GTP Message forwarded via monitor mode at rate-limit policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#rl_message_monitor VisibilityTopnGtpNetworkElementTopnTmpl#rl_message_monitor}
+  */
+  readonly rlMessageMonitor?: number;
+  /**
+  * Track Top-N entities for Downlink Bytes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#u_downlink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#u_downlink_bytes}
+  */
+  readonly uDownlinkBytes?: number;
+  /**
+  * Track Top-N entities for GTP-U Downlink Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#u_downlink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#u_downlink_pkts}
+  */
+  readonly uDownlinkPkts?: number;
+  /**
   * Track Top-N entities for Uplink Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uplink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#uplink_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#u_uplink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#u_uplink_bytes}
+  */
+  readonly uUplinkBytes?: number;
+  /**
+  * Track Top-N entities for Uplink Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#u_uplink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#u_uplink_pkts}
+  */
+  readonly uUplinkPkts?: number;
+  /**
+  * Track Top-N entities for Uplink Bytes
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uplink_bytes VisibilityTopnGtpNetworkElementTopnTmpl#uplink_bytes}
   */
   readonly uplinkBytes?: number;
   /**
   * Track Top-N entities for Uplink Packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uplink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#uplink_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uplink_pkts VisibilityTopnGtpNetworkElementTopnTmpl#uplink_pkts}
   */
   readonly uplinkPkts?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uuid VisibilityTopnGtpNetworkElementTopnTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#uuid VisibilityTopnGtpNetworkElementTopnTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -659,6 +689,11 @@ export function visibilityTopnGtpNetworkElementTopnTmplMetricsToTerraform(struct
     gtp_v2_c_tunnel_deleted_restart: cdktf.numberToTerraform(struct!.gtpV2CTunnelDeletedRestart),
     gtp_v2_c_tunnel_half_closed: cdktf.numberToTerraform(struct!.gtpV2CTunnelHalfClosed),
     gtp_v2_c_tunnel_half_open: cdktf.numberToTerraform(struct!.gtpV2CTunnelHalfOpen),
+    rl_message_monitor: cdktf.numberToTerraform(struct!.rlMessageMonitor),
+    u_downlink_bytes: cdktf.numberToTerraform(struct!.uDownlinkBytes),
+    u_downlink_pkts: cdktf.numberToTerraform(struct!.uDownlinkPkts),
+    u_uplink_bytes: cdktf.numberToTerraform(struct!.uUplinkBytes),
+    u_uplink_pkts: cdktf.numberToTerraform(struct!.uUplinkPkts),
     uplink_bytes: cdktf.numberToTerraform(struct!.uplinkBytes),
     uplink_pkts: cdktf.numberToTerraform(struct!.uplinkPkts),
     uuid: cdktf.stringToTerraform(struct!.uuid),
@@ -1170,6 +1205,36 @@ export function visibilityTopnGtpNetworkElementTopnTmplMetricsToHclTerraform(str
       type: "simple",
       storageClassType: "number",
     },
+    rl_message_monitor: {
+      value: cdktf.numberToHclTerraform(struct!.rlMessageMonitor),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_downlink_bytes: {
+      value: cdktf.numberToHclTerraform(struct!.uDownlinkBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_downlink_pkts: {
+      value: cdktf.numberToHclTerraform(struct!.uDownlinkPkts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_uplink_bytes: {
+      value: cdktf.numberToHclTerraform(struct!.uUplinkBytes),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    u_uplink_pkts: {
+      value: cdktf.numberToHclTerraform(struct!.uUplinkPkts),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     uplink_bytes: {
       value: cdktf.numberToHclTerraform(struct!.uplinkBytes),
       isBlock: false,
@@ -1540,6 +1605,26 @@ export class VisibilityTopnGtpNetworkElementTopnTmplMetricsOutputReference exten
       hasAnyValues = true;
       internalValueResult.gtpV2CTunnelHalfOpen = this._gtpV2CTunnelHalfOpen;
     }
+    if (this._rlMessageMonitor !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rlMessageMonitor = this._rlMessageMonitor;
+    }
+    if (this._uDownlinkBytes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uDownlinkBytes = this._uDownlinkBytes;
+    }
+    if (this._uDownlinkPkts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uDownlinkPkts = this._uDownlinkPkts;
+    }
+    if (this._uUplinkBytes !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uUplinkBytes = this._uUplinkBytes;
+    }
+    if (this._uUplinkPkts !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uUplinkPkts = this._uUplinkPkts;
+    }
     if (this._uplinkBytes !== undefined) {
       hasAnyValues = true;
       internalValueResult.uplinkBytes = this._uplinkBytes;
@@ -1641,6 +1726,11 @@ export class VisibilityTopnGtpNetworkElementTopnTmplMetricsOutputReference exten
       this._gtpV2CTunnelDeletedRestart = undefined;
       this._gtpV2CTunnelHalfClosed = undefined;
       this._gtpV2CTunnelHalfOpen = undefined;
+      this._rlMessageMonitor = undefined;
+      this._uDownlinkBytes = undefined;
+      this._uDownlinkPkts = undefined;
+      this._uUplinkBytes = undefined;
+      this._uUplinkPkts = undefined;
       this._uplinkBytes = undefined;
       this._uplinkPkts = undefined;
       this._uuid = undefined;
@@ -1730,6 +1820,11 @@ export class VisibilityTopnGtpNetworkElementTopnTmplMetricsOutputReference exten
       this._gtpV2CTunnelDeletedRestart = value.gtpV2CTunnelDeletedRestart;
       this._gtpV2CTunnelHalfClosed = value.gtpV2CTunnelHalfClosed;
       this._gtpV2CTunnelHalfOpen = value.gtpV2CTunnelHalfOpen;
+      this._rlMessageMonitor = value.rlMessageMonitor;
+      this._uDownlinkBytes = value.uDownlinkBytes;
+      this._uDownlinkPkts = value.uDownlinkPkts;
+      this._uUplinkBytes = value.uUplinkBytes;
+      this._uUplinkPkts = value.uUplinkPkts;
       this._uplinkBytes = value.uplinkBytes;
       this._uplinkPkts = value.uplinkPkts;
       this._uuid = value.uuid;
@@ -3064,6 +3159,86 @@ export class VisibilityTopnGtpNetworkElementTopnTmplMetricsOutputReference exten
     return this._gtpV2CTunnelHalfOpen;
   }
 
+  // rl_message_monitor - computed: false, optional: true, required: false
+  private _rlMessageMonitor?: number; 
+  public get rlMessageMonitor() {
+    return this.getNumberAttribute('rl_message_monitor');
+  }
+  public set rlMessageMonitor(value: number) {
+    this._rlMessageMonitor = value;
+  }
+  public resetRlMessageMonitor() {
+    this._rlMessageMonitor = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rlMessageMonitorInput() {
+    return this._rlMessageMonitor;
+  }
+
+  // u_downlink_bytes - computed: false, optional: true, required: false
+  private _uDownlinkBytes?: number; 
+  public get uDownlinkBytes() {
+    return this.getNumberAttribute('u_downlink_bytes');
+  }
+  public set uDownlinkBytes(value: number) {
+    this._uDownlinkBytes = value;
+  }
+  public resetUDownlinkBytes() {
+    this._uDownlinkBytes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uDownlinkBytesInput() {
+    return this._uDownlinkBytes;
+  }
+
+  // u_downlink_pkts - computed: false, optional: true, required: false
+  private _uDownlinkPkts?: number; 
+  public get uDownlinkPkts() {
+    return this.getNumberAttribute('u_downlink_pkts');
+  }
+  public set uDownlinkPkts(value: number) {
+    this._uDownlinkPkts = value;
+  }
+  public resetUDownlinkPkts() {
+    this._uDownlinkPkts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uDownlinkPktsInput() {
+    return this._uDownlinkPkts;
+  }
+
+  // u_uplink_bytes - computed: false, optional: true, required: false
+  private _uUplinkBytes?: number; 
+  public get uUplinkBytes() {
+    return this.getNumberAttribute('u_uplink_bytes');
+  }
+  public set uUplinkBytes(value: number) {
+    this._uUplinkBytes = value;
+  }
+  public resetUUplinkBytes() {
+    this._uUplinkBytes = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uUplinkBytesInput() {
+    return this._uUplinkBytes;
+  }
+
+  // u_uplink_pkts - computed: false, optional: true, required: false
+  private _uUplinkPkts?: number; 
+  public get uUplinkPkts() {
+    return this.getNumberAttribute('u_uplink_pkts');
+  }
+  public set uUplinkPkts(value: number) {
+    this._uUplinkPkts = value;
+  }
+  public resetUUplinkPkts() {
+    this._uUplinkPkts = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uUplinkPktsInput() {
+    return this._uUplinkPkts;
+  }
+
   // uplink_bytes - computed: false, optional: true, required: false
   private _uplinkBytes?: number; 
   public get uplinkBytes() {
@@ -3114,7 +3289,7 @@ export class VisibilityTopnGtpNetworkElementTopnTmplMetricsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl thunder_visibility_topn_gtp_network_element_topn_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl thunder_visibility_topn_gtp_network_element_topn_tmpl}
 */
 export class VisibilityTopnGtpNetworkElementTopnTmpl extends cdktf.TerraformResource {
 
@@ -3130,7 +3305,7 @@ export class VisibilityTopnGtpNetworkElementTopnTmpl extends cdktf.TerraformReso
   * Generates CDKTF code for importing a VisibilityTopnGtpNetworkElementTopnTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityTopnGtpNetworkElementTopnTmpl to import
-  * @param importFromId The id of the existing VisibilityTopnGtpNetworkElementTopnTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityTopnGtpNetworkElementTopnTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityTopnGtpNetworkElementTopnTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3142,7 +3317,7 @@ export class VisibilityTopnGtpNetworkElementTopnTmpl extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_topn_gtp_network_element_topn_tmpl thunder_visibility_topn_gtp_network_element_topn_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_topn_gtp_network_element_topn_tmpl thunder_visibility_topn_gtp_network_element_topn_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3153,8 +3328,8 @@ export class VisibilityTopnGtpNetworkElementTopnTmpl extends cdktf.TerraformReso
       terraformResourceType: 'thunder_visibility_topn_gtp_network_element_topn_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

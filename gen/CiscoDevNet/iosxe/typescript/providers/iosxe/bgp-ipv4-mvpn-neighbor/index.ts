@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,41 +11,41 @@ export interface BgpIpv4MvpnNeighborConfig extends cdktf.TerraformMetaArguments 
   * Enable the address family for this neighbor
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#activate BgpIpv4MvpnNeighbor#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#activate BgpIpv4MvpnNeighbor#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#asn BgpIpv4MvpnNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#asn BgpIpv4MvpnNeighbor#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#delete_mode BgpIpv4MvpnNeighbor#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#delete_mode BgpIpv4MvpnNeighbor#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#device BgpIpv4MvpnNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#device BgpIpv4MvpnNeighbor#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#ip BgpIpv4MvpnNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#ip BgpIpv4MvpnNeighbor#ip}
   */
   readonly ip: string;
   /**
   * 
   *   - Choices: `both`, `extended`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#send_community BgpIpv4MvpnNeighbor#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#send_community BgpIpv4MvpnNeighbor#send_community}
   */
   readonly sendCommunity?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor iosxe_bgp_ipv4_mvpn_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor iosxe_bgp_ipv4_mvpn_neighbor}
 */
 export class BgpIpv4MvpnNeighbor extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class BgpIpv4MvpnNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpIpv4MvpnNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpIpv4MvpnNeighbor to import
-  * @param importFromId The id of the existing BgpIpv4MvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpIpv4MvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpIpv4MvpnNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class BgpIpv4MvpnNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/bgp_ipv4_mvpn_neighbor iosxe_bgp_ipv4_mvpn_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/bgp_ipv4_mvpn_neighbor iosxe_bgp_ipv4_mvpn_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class BgpIpv4MvpnNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_ipv4_mvpn_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

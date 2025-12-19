@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderWebCategoryStatisticsStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#id DataThunderWebCategoryStatisticsStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#id DataThunderWebCategoryStatisticsStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderWebCategoryStatisticsStatsConfig extends cdktf.Terra
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#stats DataThunderWebCategoryStatisticsStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#stats DataThunderWebCategoryStatisticsStats#stats}
   */
   readonly stats?: DataThunderWebCategoryStatisticsStatsStats;
 }
 export interface DataThunderWebCategoryStatisticsStatsStats {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#cloud_cache_lookup DataThunderWebCategoryStatisticsStats#cloud_cache_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#cloud_cache_lookup DataThunderWebCategoryStatisticsStats#cloud_cache_lookup}
   */
   readonly cloudCacheLookup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#cloud_lookup DataThunderWebCategoryStatisticsStats#cloud_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#cloud_lookup DataThunderWebCategoryStatisticsStats#cloud_lookup}
   */
   readonly cloudLookup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#db_lookup DataThunderWebCategoryStatisticsStats#db_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#db_lookup DataThunderWebCategoryStatisticsStats#db_lookup}
   */
   readonly dbLookup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#db_mem DataThunderWebCategoryStatisticsStats#db_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#db_mem DataThunderWebCategoryStatisticsStats#db_mem}
   */
   readonly dbMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#lookup_cache_mem DataThunderWebCategoryStatisticsStats#lookup_cache_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#lookup_cache_mem DataThunderWebCategoryStatisticsStats#lookup_cache_mem}
   */
   readonly lookupCacheMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#lookup_latency DataThunderWebCategoryStatisticsStats#lookup_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#lookup_latency DataThunderWebCategoryStatisticsStats#lookup_latency}
   */
   readonly lookupLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#rtu_cache_mem DataThunderWebCategoryStatisticsStats#rtu_cache_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#rtu_cache_mem DataThunderWebCategoryStatisticsStats#rtu_cache_mem}
   */
   readonly rtuCacheMem?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#rtu_lookup DataThunderWebCategoryStatisticsStats#rtu_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#rtu_lookup DataThunderWebCategoryStatisticsStats#rtu_lookup}
   */
   readonly rtuLookup?: number;
 }
@@ -338,7 +338,7 @@ export class DataThunderWebCategoryStatisticsStatsStatsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats thunder_web_category_statistics_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats thunder_web_category_statistics_stats}
 */
 export class DataThunderWebCategoryStatisticsStats extends cdktf.TerraformDataSource {
 
@@ -354,7 +354,7 @@ export class DataThunderWebCategoryStatisticsStats extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderWebCategoryStatisticsStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderWebCategoryStatisticsStats to import
-  * @param importFromId The id of the existing DataThunderWebCategoryStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderWebCategoryStatisticsStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderWebCategoryStatisticsStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class DataThunderWebCategoryStatisticsStats extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/web_category_statistics_stats thunder_web_category_statistics_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/web_category_statistics_stats thunder_web_category_statistics_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class DataThunderWebCategoryStatisticsStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_web_category_statistics_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

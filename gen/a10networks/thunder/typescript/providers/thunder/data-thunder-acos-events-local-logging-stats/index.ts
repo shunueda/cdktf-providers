@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAcosEventsLocalLoggingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#id DataThunderAcosEventsLocalLoggingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#id DataThunderAcosEventsLocalLoggingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderAcosEventsLocalLoggingStatsConfig extends cdktf.Terr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#stats DataThunderAcosEventsLocalLoggingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#stats DataThunderAcosEventsLocalLoggingStats#stats}
   */
   readonly stats?: DataThunderAcosEventsLocalLoggingStatsStats;
 }
@@ -25,127 +25,127 @@ export interface DataThunderAcosEventsLocalLoggingStatsStats {
   /**
   * Number of logs Dropped, Disk reached threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#disk_over_thres DataThunderAcosEventsLocalLoggingStats#disk_over_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#disk_over_thres DataThunderAcosEventsLocalLoggingStats#disk_over_thres}
   */
   readonly diskOverThres?: number;
   /**
   * Local logging Stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#freed DataThunderAcosEventsLocalLoggingStats#freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#freed DataThunderAcosEventsLocalLoggingStats#freed}
   */
   readonly freed?: number;
   /**
   * Number of bytes successfully stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_bytes DataThunderAcosEventsLocalLoggingStats#in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_bytes DataThunderAcosEventsLocalLoggingStats#in_bytes}
   */
   readonly inBytes?: number;
   /**
   * Number of backlog bytes loaded from disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_bytes_backlog DataThunderAcosEventsLocalLoggingStats#in_bytes_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_bytes_backlog DataThunderAcosEventsLocalLoggingStats#in_bytes_backlog}
   */
   readonly inBytesBacklog?: number;
   /**
   * Number of old bytes discarded to fit in new logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_discard_bytes DataThunderAcosEventsLocalLoggingStats#in_discard_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_discard_bytes DataThunderAcosEventsLocalLoggingStats#in_discard_bytes}
   */
   readonly inDiscardBytes?: number;
   /**
   * Number of old logs discarded to fit in new logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_discard_logs DataThunderAcosEventsLocalLoggingStats#in_discard_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_discard_logs DataThunderAcosEventsLocalLoggingStats#in_discard_logs}
   */
   readonly inDiscardLogs?: number;
   /**
   * Number of logs successfully stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_logs DataThunderAcosEventsLocalLoggingStats#in_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_logs DataThunderAcosEventsLocalLoggingStats#in_logs}
   */
   readonly inLogs?: number;
   /**
   * Number of backlogs loaded from disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_logs_backlog DataThunderAcosEventsLocalLoggingStats#in_logs_backlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_logs_backlog DataThunderAcosEventsLocalLoggingStats#in_logs_backlog}
   */
   readonly inLogsBacklog?: number;
   /**
   * Number of logs Dropped, failed without disk space
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#in_store_fail_no_space DataThunderAcosEventsLocalLoggingStats#in_store_fail_no_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#in_store_fail_no_space DataThunderAcosEventsLocalLoggingStats#in_store_fail_no_space}
   */
   readonly inStoreFailNoSpace?: number;
   /**
   * Local logging Init Fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#init_fail DataThunderAcosEventsLocalLoggingStats#init_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#init_fail DataThunderAcosEventsLocalLoggingStats#init_fail}
   */
   readonly initFail?: number;
   /**
   * Local logging Init Successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#init_pass DataThunderAcosEventsLocalLoggingStats#init_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#init_pass DataThunderAcosEventsLocalLoggingStats#init_pass}
   */
   readonly initPass?: number;
   /**
   * Number of logs Dropped, Local logging not inited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#not_inited DataThunderAcosEventsLocalLoggingStats#not_inited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#not_inited DataThunderAcosEventsLocalLoggingStats#not_inited}
   */
   readonly notInited?: number;
   /**
   * Number of bytes sent to log-servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#out_bytes DataThunderAcosEventsLocalLoggingStats#out_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#out_bytes DataThunderAcosEventsLocalLoggingStats#out_bytes}
   */
   readonly outBytes?: number;
   /**
   * Number of errors during send
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#out_error DataThunderAcosEventsLocalLoggingStats#out_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#out_error DataThunderAcosEventsLocalLoggingStats#out_error}
   */
   readonly outError?: number;
   /**
   * Number of logs sent to log servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#out_logs DataThunderAcosEventsLocalLoggingStats#out_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#out_logs DataThunderAcosEventsLocalLoggingStats#out_logs}
   */
   readonly outLogs?: number;
   /**
   * Number of logs Dropped, Rate limited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#rate_limited DataThunderAcosEventsLocalLoggingStats#rate_limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#rate_limited DataThunderAcosEventsLocalLoggingStats#rate_limited}
   */
   readonly rateLimited?: number;
   /**
   * Total number of remaining bytes yet to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#remaining_bytes DataThunderAcosEventsLocalLoggingStats#remaining_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#remaining_bytes DataThunderAcosEventsLocalLoggingStats#remaining_bytes}
   */
   readonly remainingBytes?: number;
   /**
   * Total number of remaining logs yet to be sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#remaining_logs DataThunderAcosEventsLocalLoggingStats#remaining_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#remaining_logs DataThunderAcosEventsLocalLoggingStats#remaining_logs}
   */
   readonly remainingLogs?: number;
   /**
   * Number of logs sent to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#sent_to_store DataThunderAcosEventsLocalLoggingStats#sent_to_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#sent_to_store DataThunderAcosEventsLocalLoggingStats#sent_to_store}
   */
   readonly sentToStore?: number;
   /**
   * Number of Logs sent to be stored Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#sent_to_store_fail DataThunderAcosEventsLocalLoggingStats#sent_to_store_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#sent_to_store_fail DataThunderAcosEventsLocalLoggingStats#sent_to_store_fail}
   */
   readonly sentToStoreFail?: number;
   /**
   * Number of logs failed to be stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#store_fail DataThunderAcosEventsLocalLoggingStats#store_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#store_fail DataThunderAcosEventsLocalLoggingStats#store_fail}
   */
   readonly storeFail?: number;
 }
@@ -809,7 +809,7 @@ export class DataThunderAcosEventsLocalLoggingStatsStatsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats thunder_acos_events_local_logging_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats thunder_acos_events_local_logging_stats}
 */
 export class DataThunderAcosEventsLocalLoggingStats extends cdktf.TerraformDataSource {
 
@@ -825,7 +825,7 @@ export class DataThunderAcosEventsLocalLoggingStats extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataThunderAcosEventsLocalLoggingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAcosEventsLocalLoggingStats to import
-  * @param importFromId The id of the existing DataThunderAcosEventsLocalLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAcosEventsLocalLoggingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAcosEventsLocalLoggingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -837,7 +837,7 @@ export class DataThunderAcosEventsLocalLoggingStats extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/acos_events_local_logging_stats thunder_acos_events_local_logging_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/acos_events_local_logging_stats thunder_acos_events_local_logging_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -848,8 +848,8 @@ export class DataThunderAcosEventsLocalLoggingStats extends cdktf.TerraformDataS
       terraformResourceType: 'thunder_acos_events_local_logging_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

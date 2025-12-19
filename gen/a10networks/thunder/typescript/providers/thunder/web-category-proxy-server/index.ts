@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface WebCategoryProxyServerAConfig extends cdktf.TerraformMetaArgume
   /**
   * 'ntlm': NTLM authentication(default); 'basic': Basic authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#auth_type WebCategoryProxyServerA#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#auth_type WebCategoryProxyServerA#auth_type}
   */
   readonly authType?: string;
   /**
   * Realm for NTLM authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#domain WebCategoryProxyServerA#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#domain WebCategoryProxyServerA#domain}
   */
   readonly domain?: string;
   /**
   * Proxy server HTTP port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#http_port WebCategoryProxyServerA#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#http_port WebCategoryProxyServerA#http_port}
   */
   readonly httpPort?: number;
   /**
   * Proxy server HTTPS port(HTTP port will be used if not configured)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#https_port WebCategoryProxyServerA#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#https_port WebCategoryProxyServerA#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#id WebCategoryProxyServerA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#id WebCategoryProxyServerA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface WebCategoryProxyServerAConfig extends cdktf.TerraformMetaArgume
   /**
   * Password for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#password WebCategoryProxyServerA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#password WebCategoryProxyServerA#password}
   */
   readonly password?: number;
   /**
   * Proxy server hostname or IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#proxy_host WebCategoryProxyServerA#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#proxy_host WebCategoryProxyServerA#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * password value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#secret_string WebCategoryProxyServerA#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#secret_string WebCategoryProxyServerA#secret_string}
   */
   readonly secretString?: string;
   /**
   * Username for proxy authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#username WebCategoryProxyServerA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#username WebCategoryProxyServerA#username}
   */
   readonly username?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#uuid WebCategoryProxyServerA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#uuid WebCategoryProxyServerA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server thunder_web_category_proxy_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server thunder_web_category_proxy_server}
 */
 export class WebCategoryProxyServerA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class WebCategoryProxyServerA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebCategoryProxyServerA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebCategoryProxyServerA to import
-  * @param importFromId The id of the existing WebCategoryProxyServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebCategoryProxyServerA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebCategoryProxyServerA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class WebCategoryProxyServerA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_category_proxy_server thunder_web_category_proxy_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_category_proxy_server thunder_web_category_proxy_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class WebCategoryProxyServerA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_web_category_proxy_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface LdapServerHostLdapHostnameConfig extends cdktf.TerraformMetaArg
   /**
   * Configure the group DN which user belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#base LdapServerHostLdapHostname#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#base LdapServerHostLdapHostname#base}
   */
   readonly base?: string;
   /**
   * LDAP common name identifier (i.e.: cn, uid)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#cn_value LdapServerHostLdapHostname#cn_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#cn_value LdapServerHostLdapHostname#cn_value}
   */
   readonly cnValue?: string;
   /**
   * LDAP distinguished name (dn)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#dn_value LdapServerHostLdapHostname#dn_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#dn_value LdapServerHostLdapHostname#dn_value}
   */
   readonly dnValue?: string;
   /**
   * Configure AD domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#domain LdapServerHostLdapHostname#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#domain LdapServerHostLdapHostname#domain}
   */
   readonly domain?: string;
   /**
   * Configure the group DN which user belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#group LdapServerHostLdapHostname#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#group LdapServerHostLdapHostname#group}
   */
   readonly group?: string;
   /**
   * Hostname of LDAP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#hostname LdapServerHostLdapHostname#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#hostname LdapServerHostLdapHostname#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#id LdapServerHostLdapHostname#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#id LdapServerHostLdapHostname#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface LdapServerHostLdapHostnameConfig extends cdktf.TerraformMetaArg
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#uuid LdapServerHostLdapHostname#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#uuid LdapServerHostLdapHostname#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#domain_cfg LdapServerHostLdapHostname#domain_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#domain_cfg LdapServerHostLdapHostname#domain_cfg}
   */
   readonly domainCfg?: LdapServerHostLdapHostnameDomainCfg;
   /**
   * hostname_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#hostname_cfg LdapServerHostLdapHostname#hostname_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#hostname_cfg LdapServerHostLdapHostname#hostname_cfg}
   */
   readonly hostnameCfg?: LdapServerHostLdapHostnameHostnameCfg;
   /**
   * port_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#port_cfg LdapServerHostLdapHostname#port_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#port_cfg LdapServerHostLdapHostname#port_cfg}
   */
   readonly portCfg?: LdapServerHostLdapHostnamePortCfg;
 }
@@ -79,19 +79,19 @@ export interface LdapServerHostLdapHostnameDomainCfg {
   /**
   * Specify the LDAP server's port (default 389 without ssl or 636 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
   */
   readonly timeout?: number;
 }
@@ -235,19 +235,19 @@ export interface LdapServerHostLdapHostnameHostnameCfg {
   /**
   * Specify the LDAP server's port (default 3268 without ssl or 3269 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
   */
   readonly timeout?: number;
 }
@@ -391,19 +391,19 @@ export interface LdapServerHostLdapHostnamePortCfg {
   /**
   * Specify the LDAP server's port (default 389 without ssl or 636 with ssl)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#port LdapServerHostLdapHostname#port}
   */
   readonly port?: number;
   /**
   * Use SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#ssl LdapServerHostLdapHostname#ssl}
   */
   readonly ssl?: number;
   /**
   * Specify the LDAP server's timeout (default 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#timeout LdapServerHostLdapHostname#timeout}
   */
   readonly timeout?: number;
 }
@@ -545,7 +545,7 @@ export class LdapServerHostLdapHostnamePortCfgOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname thunder_ldap_server_host_ldap_hostname}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname thunder_ldap_server_host_ldap_hostname}
 */
 export class LdapServerHostLdapHostname extends cdktf.TerraformResource {
 
@@ -561,7 +561,7 @@ export class LdapServerHostLdapHostname extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapServerHostLdapHostname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapServerHostLdapHostname to import
-  * @param importFromId The id of the existing LdapServerHostLdapHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapServerHostLdapHostname that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapServerHostLdapHostname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -573,7 +573,7 @@ export class LdapServerHostLdapHostname extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ldap_server_host_ldap_hostname thunder_ldap_server_host_ldap_hostname} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ldap_server_host_ldap_hostname thunder_ldap_server_host_ldap_hostname} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +584,8 @@ export class LdapServerHostLdapHostname extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ldap_server_host_ldap_hostname',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

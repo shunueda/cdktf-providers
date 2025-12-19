@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderScaleoutDebugNatMapOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#id DataThunderScaleoutDebugNatMapOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#id DataThunderScaleoutDebugNatMapOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataThunderScaleoutDebugNatMapOperConfig extends cdktf.Terrafor
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#oper DataThunderScaleoutDebugNatMapOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#oper DataThunderScaleoutDebugNatMapOper#oper}
   */
   readonly oper?: DataThunderScaleoutDebugNatMapOperOper;
 }
 export interface DataThunderScaleoutDebugNatMapOperOperVnpIdListNatMapListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#active DataThunderScaleoutDebugNatMapOper#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#active DataThunderScaleoutDebugNatMapOper#active}
   */
   readonly active?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#ip DataThunderScaleoutDebugNatMapOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#ip DataThunderScaleoutDebugNatMapOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#owner DataThunderScaleoutDebugNatMapOper#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#owner DataThunderScaleoutDebugNatMapOper#owner}
   */
   readonly owner?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#vnp_id DataThunderScaleoutDebugNatMapOper#vnp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#vnp_id DataThunderScaleoutDebugNatMapOper#vnp_id}
   */
   readonly vnpId?: number;
 }
@@ -240,7 +240,7 @@ export interface DataThunderScaleoutDebugNatMapOperOperVnpIdListStruct {
   /**
   * nat_map_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#nat_map_list DataThunderScaleoutDebugNatMapOper#nat_map_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#nat_map_list DataThunderScaleoutDebugNatMapOper#nat_map_list}
   */
   readonly natMapList?: DataThunderScaleoutDebugNatMapOperOperVnpIdListNatMapListStruct[] | cdktf.IResolvable;
 }
@@ -356,13 +356,13 @@ export class DataThunderScaleoutDebugNatMapOperOperVnpIdListStructList extends c
 }
 export interface DataThunderScaleoutDebugNatMapOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#device_id DataThunderScaleoutDebugNatMapOper#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#device_id DataThunderScaleoutDebugNatMapOper#device_id}
   */
   readonly deviceId?: number;
   /**
   * vnp_id_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#vnp_id_list DataThunderScaleoutDebugNatMapOper#vnp_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#vnp_id_list DataThunderScaleoutDebugNatMapOper#vnp_id_list}
   */
   readonly vnpIdList?: DataThunderScaleoutDebugNatMapOperOperVnpIdListStruct[] | cdktf.IResolvable;
 }
@@ -475,7 +475,7 @@ export class DataThunderScaleoutDebugNatMapOperOperOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper thunder_scaleout_debug_nat_map_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper thunder_scaleout_debug_nat_map_oper}
 */
 export class DataThunderScaleoutDebugNatMapOper extends cdktf.TerraformDataSource {
 
@@ -491,7 +491,7 @@ export class DataThunderScaleoutDebugNatMapOper extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataThunderScaleoutDebugNatMapOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderScaleoutDebugNatMapOper to import
-  * @param importFromId The id of the existing DataThunderScaleoutDebugNatMapOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderScaleoutDebugNatMapOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderScaleoutDebugNatMapOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class DataThunderScaleoutDebugNatMapOper extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/scaleout_debug_nat_map_oper thunder_scaleout_debug_nat_map_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/scaleout_debug_nat_map_oper thunder_scaleout_debug_nat_map_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class DataThunderScaleoutDebugNatMapOper extends cdktf.TerraformDataSourc
       terraformResourceType: 'thunder_scaleout_debug_nat_map_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

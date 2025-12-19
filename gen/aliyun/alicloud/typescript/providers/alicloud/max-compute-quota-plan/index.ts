@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface MaxComputeQuotaPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#id MaxComputeQuotaPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#id MaxComputeQuotaPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#is_effective MaxComputeQuotaPlan#is_effective}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#is_effective MaxComputeQuotaPlan#is_effective}
   */
   readonly isEffective?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#nickname MaxComputeQuotaPlan#nickname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#nickname MaxComputeQuotaPlan#nickname}
   */
   readonly nickname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#plan_name MaxComputeQuotaPlan#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#plan_name MaxComputeQuotaPlan#plan_name}
   */
   readonly planName: string;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#quota MaxComputeQuotaPlan#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#quota MaxComputeQuotaPlan#quota}
   */
   readonly quota?: MaxComputeQuotaPlanQuota;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#timeouts MaxComputeQuotaPlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#timeouts MaxComputeQuotaPlan#timeouts}
   */
   readonly timeouts?: MaxComputeQuotaPlanTimeouts;
 }
 export interface MaxComputeQuotaPlanQuotaParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#elastic_reserved_cu MaxComputeQuotaPlan#elastic_reserved_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#elastic_reserved_cu MaxComputeQuotaPlan#elastic_reserved_cu}
   */
   readonly elasticReservedCu: number;
 }
@@ -132,15 +132,15 @@ export class MaxComputeQuotaPlanQuotaParameterOutputReference extends cdktf.Comp
 }
 export interface MaxComputeQuotaPlanQuotaSubQuotaInfoListParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#elastic_reserved_cu MaxComputeQuotaPlan#elastic_reserved_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#elastic_reserved_cu MaxComputeQuotaPlan#elastic_reserved_cu}
   */
   readonly elasticReservedCu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#max_cu MaxComputeQuotaPlan#max_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#max_cu MaxComputeQuotaPlan#max_cu}
   */
   readonly maxCu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#min_cu MaxComputeQuotaPlan#min_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#min_cu MaxComputeQuotaPlan#min_cu}
   */
   readonly minCu: number;
 }
@@ -273,13 +273,13 @@ export class MaxComputeQuotaPlanQuotaSubQuotaInfoListParameterOutputReference ex
 }
 export interface MaxComputeQuotaPlanQuotaSubQuotaInfoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#nick_name MaxComputeQuotaPlan#nick_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#nick_name MaxComputeQuotaPlan#nick_name}
   */
   readonly nickName: string;
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#parameter MaxComputeQuotaPlan#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#parameter MaxComputeQuotaPlan#parameter}
   */
   readonly parameter?: MaxComputeQuotaPlanQuotaSubQuotaInfoListParameter;
 }
@@ -423,13 +423,13 @@ export interface MaxComputeQuotaPlanQuota {
   /**
   * parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#parameter MaxComputeQuotaPlan#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#parameter MaxComputeQuotaPlan#parameter}
   */
   readonly parameter?: MaxComputeQuotaPlanQuotaParameter;
   /**
   * sub_quota_info_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#sub_quota_info_list MaxComputeQuotaPlan#sub_quota_info_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#sub_quota_info_list MaxComputeQuotaPlan#sub_quota_info_list}
   */
   readonly subQuotaInfoList?: MaxComputeQuotaPlanQuotaSubQuotaInfoListStruct[] | cdktf.IResolvable;
 }
@@ -542,15 +542,15 @@ export class MaxComputeQuotaPlanQuotaOutputReference extends cdktf.ComplexObject
 }
 export interface MaxComputeQuotaPlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#create MaxComputeQuotaPlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#create MaxComputeQuotaPlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#delete MaxComputeQuotaPlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#delete MaxComputeQuotaPlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#update MaxComputeQuotaPlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#update MaxComputeQuotaPlan#update}
   */
   readonly update?: string;
 }
@@ -702,7 +702,7 @@ export class MaxComputeQuotaPlanTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan alicloud_max_compute_quota_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan alicloud_max_compute_quota_plan}
 */
 export class MaxComputeQuotaPlan extends cdktf.TerraformResource {
 
@@ -718,7 +718,7 @@ export class MaxComputeQuotaPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxComputeQuotaPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxComputeQuotaPlan to import
-  * @param importFromId The id of the existing MaxComputeQuotaPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxComputeQuotaPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxComputeQuotaPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -730,7 +730,7 @@ export class MaxComputeQuotaPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/max_compute_quota_plan alicloud_max_compute_quota_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/max_compute_quota_plan alicloud_max_compute_quota_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -741,8 +741,8 @@ export class MaxComputeQuotaPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_max_compute_quota_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

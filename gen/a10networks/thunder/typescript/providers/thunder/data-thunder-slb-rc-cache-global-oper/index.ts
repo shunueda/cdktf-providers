@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbRcCacheGlobalOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#id DataThunderSlbRcCacheGlobalOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#id DataThunderSlbRcCacheGlobalOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,145 +17,145 @@ export interface DataThunderSlbRcCacheGlobalOperConfig extends cdktf.TerraformMe
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#oper DataThunderSlbRcCacheGlobalOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#oper DataThunderSlbRcCacheGlobalOper#oper}
   */
   readonly oper?: DataThunderSlbRcCacheGlobalOperOper;
 }
 export interface DataThunderSlbRcCacheGlobalOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#age DataThunderSlbRcCacheGlobalOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#age DataThunderSlbRcCacheGlobalOper#age}
   */
   readonly age?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#bytes DataThunderSlbRcCacheGlobalOper#bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#bytes DataThunderSlbRcCacheGlobalOper#bytes}
   */
   readonly bytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#bytes1 DataThunderSlbRcCacheGlobalOper#bytes1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#bytes1 DataThunderSlbRcCacheGlobalOper#bytes1}
   */
   readonly bytes1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#cache_control DataThunderSlbRcCacheGlobalOper#cache_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#cache_control DataThunderSlbRcCacheGlobalOper#cache_control}
   */
   readonly cacheControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#concurrent_readers DataThunderSlbRcCacheGlobalOper#concurrent_readers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#concurrent_readers DataThunderSlbRcCacheGlobalOper#concurrent_readers}
   */
   readonly concurrentReaders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#content_encoding DataThunderSlbRcCacheGlobalOper#content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#content_encoding DataThunderSlbRcCacheGlobalOper#content_encoding}
   */
   readonly contentEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#date DataThunderSlbRcCacheGlobalOper#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#date DataThunderSlbRcCacheGlobalOper#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#etag DataThunderSlbRcCacheGlobalOper#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#etag DataThunderSlbRcCacheGlobalOper#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#expires DataThunderSlbRcCacheGlobalOper#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#expires DataThunderSlbRcCacheGlobalOper#expires}
   */
   readonly expires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#expires1 DataThunderSlbRcCacheGlobalOper#expires1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#expires1 DataThunderSlbRcCacheGlobalOper#expires1}
   */
   readonly expires1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#full_response_cache DataThunderSlbRcCacheGlobalOper#full_response_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#full_response_cache DataThunderSlbRcCacheGlobalOper#full_response_cache}
   */
   readonly fullResponseCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#hits DataThunderSlbRcCacheGlobalOper#hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#hits DataThunderSlbRcCacheGlobalOper#hits}
   */
   readonly hits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#host DataThunderSlbRcCacheGlobalOper#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#host DataThunderSlbRcCacheGlobalOper#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#host1 DataThunderSlbRcCacheGlobalOper#host1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#host1 DataThunderSlbRcCacheGlobalOper#host1}
   */
   readonly host1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#http_request_method DataThunderSlbRcCacheGlobalOper#http_request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#http_request_method DataThunderSlbRcCacheGlobalOper#http_request_method}
   */
   readonly httpRequestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#http_version DataThunderSlbRcCacheGlobalOper#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#http_version DataThunderSlbRcCacheGlobalOper#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#last_modified DataThunderSlbRcCacheGlobalOper#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#last_modified DataThunderSlbRcCacheGlobalOper#last_modified}
   */
   readonly lastModified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#memory_configured DataThunderSlbRcCacheGlobalOper#memory_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#memory_configured DataThunderSlbRcCacheGlobalOper#memory_configured}
   */
   readonly memoryConfigured?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#memory_used DataThunderSlbRcCacheGlobalOper#memory_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#memory_used DataThunderSlbRcCacheGlobalOper#memory_used}
   */
   readonly memoryUsed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#memory_used_locally DataThunderSlbRcCacheGlobalOper#memory_used_locally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#memory_used_locally DataThunderSlbRcCacheGlobalOper#memory_used_locally}
   */
   readonly memoryUsedLocally?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#misses DataThunderSlbRcCacheGlobalOper#misses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#misses DataThunderSlbRcCacheGlobalOper#misses}
   */
   readonly misses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#partition DataThunderSlbRcCacheGlobalOper#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#partition DataThunderSlbRcCacheGlobalOper#partition}
   */
   readonly partition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#percent_used DataThunderSlbRcCacheGlobalOper#percent_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#percent_used DataThunderSlbRcCacheGlobalOper#percent_used}
   */
   readonly percentUsed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#response_chunked_encoding DataThunderSlbRcCacheGlobalOper#response_chunked_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#response_chunked_encoding DataThunderSlbRcCacheGlobalOper#response_chunked_encoding}
   */
   readonly responseChunkedEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#response_hdr_len DataThunderSlbRcCacheGlobalOper#response_hdr_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#response_hdr_len DataThunderSlbRcCacheGlobalOper#response_hdr_len}
   */
   readonly responseHdrLen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#status DataThunderSlbRcCacheGlobalOper#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#status DataThunderSlbRcCacheGlobalOper#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#status_code DataThunderSlbRcCacheGlobalOper#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#status_code DataThunderSlbRcCacheGlobalOper#status_code}
   */
   readonly statusCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#time_elapsed DataThunderSlbRcCacheGlobalOper#time_elapsed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#time_elapsed DataThunderSlbRcCacheGlobalOper#time_elapsed}
   */
   readonly timeElapsed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#type DataThunderSlbRcCacheGlobalOper#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#type DataThunderSlbRcCacheGlobalOper#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#url DataThunderSlbRcCacheGlobalOper#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#url DataThunderSlbRcCacheGlobalOper#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#url1 DataThunderSlbRcCacheGlobalOper#url1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#url1 DataThunderSlbRcCacheGlobalOper#url1}
   */
   readonly url1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#vport DataThunderSlbRcCacheGlobalOper#vport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#vport DataThunderSlbRcCacheGlobalOper#vport}
   */
   readonly vport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#vserver_name DataThunderSlbRcCacheGlobalOper#vserver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#vserver_name DataThunderSlbRcCacheGlobalOper#vserver_name}
   */
   readonly vserverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#weak_etag DataThunderSlbRcCacheGlobalOper#weak_etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#weak_etag DataThunderSlbRcCacheGlobalOper#weak_etag}
   */
   readonly weakEtag?: string;
 }
@@ -1228,67 +1228,67 @@ export class DataThunderSlbRcCacheGlobalOperOperEntryListStructList extends cdkt
 }
 export interface DataThunderSlbRcCacheGlobalOperOperReplacementListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#eight DataThunderSlbRcCacheGlobalOper#eight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#eight DataThunderSlbRcCacheGlobalOper#eight}
   */
   readonly eight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#four DataThunderSlbRcCacheGlobalOper#four}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#four DataThunderSlbRcCacheGlobalOper#four}
   */
   readonly four?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one DataThunderSlbRcCacheGlobalOper#one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one DataThunderSlbRcCacheGlobalOper#one}
   */
   readonly one?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_128th DataThunderSlbRcCacheGlobalOper#one_128th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_128th DataThunderSlbRcCacheGlobalOper#one_128th}
   */
   readonly one128Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_16th DataThunderSlbRcCacheGlobalOper#one_16th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_16th DataThunderSlbRcCacheGlobalOper#one_16th}
   */
   readonly one16Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_256th DataThunderSlbRcCacheGlobalOper#one_256th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_256th DataThunderSlbRcCacheGlobalOper#one_256th}
   */
   readonly one256Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_2th DataThunderSlbRcCacheGlobalOper#one_2th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_2th DataThunderSlbRcCacheGlobalOper#one_2th}
   */
   readonly one2Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_32th DataThunderSlbRcCacheGlobalOper#one_32th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_32th DataThunderSlbRcCacheGlobalOper#one_32th}
   */
   readonly one32Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_4th DataThunderSlbRcCacheGlobalOper#one_4th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_4th DataThunderSlbRcCacheGlobalOper#one_4th}
   */
   readonly one4Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_64th DataThunderSlbRcCacheGlobalOper#one_64th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_64th DataThunderSlbRcCacheGlobalOper#one_64th}
   */
   readonly one64Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_8th DataThunderSlbRcCacheGlobalOper#one_8th}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_8th DataThunderSlbRcCacheGlobalOper#one_8th}
   */
   readonly one8Th?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#one_twenty_eight DataThunderSlbRcCacheGlobalOper#one_twenty_eight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#one_twenty_eight DataThunderSlbRcCacheGlobalOper#one_twenty_eight}
   */
   readonly oneTwentyEight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#sixteen DataThunderSlbRcCacheGlobalOper#sixteen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#sixteen DataThunderSlbRcCacheGlobalOper#sixteen}
   */
   readonly sixteen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#sixty_four DataThunderSlbRcCacheGlobalOper#sixty_four}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#sixty_four DataThunderSlbRcCacheGlobalOper#sixty_four}
   */
   readonly sixtyFour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#thirty_two DataThunderSlbRcCacheGlobalOper#thirty_two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#thirty_two DataThunderSlbRcCacheGlobalOper#thirty_two}
   */
   readonly thirtyTwo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#two DataThunderSlbRcCacheGlobalOper#two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#two DataThunderSlbRcCacheGlobalOper#two}
   */
   readonly two?: number;
 }
@@ -1839,159 +1839,159 @@ export class DataThunderSlbRcCacheGlobalOperOperReplacementListStructList extend
 }
 export interface DataThunderSlbRcCacheGlobalOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#bytes_served DataThunderSlbRcCacheGlobalOper#bytes_served}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#bytes_served DataThunderSlbRcCacheGlobalOper#bytes_served}
   */
   readonly bytesServed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#cache_hits DataThunderSlbRcCacheGlobalOper#cache_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#cache_hits DataThunderSlbRcCacheGlobalOper#cache_hits}
   */
   readonly cacheHits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#cache_miss DataThunderSlbRcCacheGlobalOper#cache_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#cache_miss DataThunderSlbRcCacheGlobalOper#cache_miss}
   */
   readonly cacheMiss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#cacheable_requests DataThunderSlbRcCacheGlobalOper#cacheable_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#cacheable_requests DataThunderSlbRcCacheGlobalOper#cacheable_requests}
   */
   readonly cacheableRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#display_detail DataThunderSlbRcCacheGlobalOper#display_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#display_detail DataThunderSlbRcCacheGlobalOper#display_detail}
   */
   readonly displayDetail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entries_aged DataThunderSlbRcCacheGlobalOper#entries_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entries_aged DataThunderSlbRcCacheGlobalOper#entries_aged}
   */
   readonly entriesAged?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entries_cached DataThunderSlbRcCacheGlobalOper#entries_cached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entries_cached DataThunderSlbRcCacheGlobalOper#entries_cached}
   */
   readonly entriesCached?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entries_cleaned DataThunderSlbRcCacheGlobalOper#entries_cleaned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entries_cleaned DataThunderSlbRcCacheGlobalOper#entries_cleaned}
   */
   readonly entriesCleaned?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entries_create_fail DataThunderSlbRcCacheGlobalOper#entries_create_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entries_create_fail DataThunderSlbRcCacheGlobalOper#entries_create_fail}
   */
   readonly entriesCreateFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entries_replaced DataThunderSlbRcCacheGlobalOper#entries_replaced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entries_replaced DataThunderSlbRcCacheGlobalOper#entries_replaced}
   */
   readonly entriesReplaced?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#hit_ratio DataThunderSlbRcCacheGlobalOper#hit_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#hit_ratio DataThunderSlbRcCacheGlobalOper#hit_ratio}
   */
   readonly hitRatio?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#ims_requests DataThunderSlbRcCacheGlobalOper#ims_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#ims_requests DataThunderSlbRcCacheGlobalOper#ims_requests}
   */
   readonly imsRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#memory_used DataThunderSlbRcCacheGlobalOper#memory_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#memory_used DataThunderSlbRcCacheGlobalOper#memory_used}
   */
   readonly memoryUsed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#no_cache_requests DataThunderSlbRcCacheGlobalOper#no_cache_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#no_cache_requests DataThunderSlbRcCacheGlobalOper#no_cache_requests}
   */
   readonly noCacheRequests?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#polic_uri_invalidate DataThunderSlbRcCacheGlobalOper#polic_uri_invalidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#polic_uri_invalidate DataThunderSlbRcCacheGlobalOper#polic_uri_invalidate}
   */
   readonly policUriInvalidate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#policy_content_big DataThunderSlbRcCacheGlobalOper#policy_content_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#policy_content_big DataThunderSlbRcCacheGlobalOper#policy_content_big}
   */
   readonly policyContentBig?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#policy_content_small DataThunderSlbRcCacheGlobalOper#policy_content_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#policy_content_small DataThunderSlbRcCacheGlobalOper#policy_content_small}
   */
   readonly policyContentSmall?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#policy_uri_cache DataThunderSlbRcCacheGlobalOper#policy_uri_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#policy_uri_cache DataThunderSlbRcCacheGlobalOper#policy_uri_cache}
   */
   readonly policyUriCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#policy_uri_nocache DataThunderSlbRcCacheGlobalOper#policy_uri_nocache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#policy_uri_nocache DataThunderSlbRcCacheGlobalOper#policy_uri_nocache}
   */
   readonly policyUriNocache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#ratio304_ DataThunderSlbRcCacheGlobalOper#ratio304_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#ratio304_ DataThunderSlbRcCacheGlobalOper#ratio304_}
   */
   readonly ratio304?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_deflate DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_deflate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_deflate DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_deflate}
   */
   readonly respCache200OkDeflate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_gzip DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_gzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_gzip DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_gzip}
   */
   readonly respCache200OkGzip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_no_comp DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_no_comp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_cache_200_ok_no_comp DataThunderSlbRcCacheGlobalOper#resp_cache_200_ok_no_comp}
   */
   readonly respCache200OkNoComp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_cache_304_not_modified DataThunderSlbRcCacheGlobalOper#resp_cache_304_not_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_cache_304_not_modified DataThunderSlbRcCacheGlobalOper#resp_cache_304_not_modified}
   */
   readonly respCache304NotModified?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_cache_other DataThunderSlbRcCacheGlobalOper#resp_cache_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_cache_other DataThunderSlbRcCacheGlobalOper#resp_cache_other}
   */
   readonly respCacheOther?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_server_200_ok_chunk DataThunderSlbRcCacheGlobalOper#resp_server_200_ok_chunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_server_200_ok_chunk DataThunderSlbRcCacheGlobalOper#resp_server_200_ok_chunk}
   */
   readonly respServer200OkChunk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_server_200_ok_cont DataThunderSlbRcCacheGlobalOper#resp_server_200_ok_cont}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_server_200_ok_cont DataThunderSlbRcCacheGlobalOper#resp_server_200_ok_cont}
   */
   readonly respServer200OkCont?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_server_304_not_modified DataThunderSlbRcCacheGlobalOper#resp_server_304_not_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_server_304_not_modified DataThunderSlbRcCacheGlobalOper#resp_server_304_not_modified}
   */
   readonly respServer304NotModified?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_server_no_cache_response DataThunderSlbRcCacheGlobalOper#resp_server_no_cache_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_server_no_cache_response DataThunderSlbRcCacheGlobalOper#resp_server_no_cache_response}
   */
   readonly respServerNoCacheResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#resp_server_other DataThunderSlbRcCacheGlobalOper#resp_server_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#resp_server_other DataThunderSlbRcCacheGlobalOper#resp_server_other}
   */
   readonly respServerOther?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#revalidation_failure DataThunderSlbRcCacheGlobalOper#revalidation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#revalidation_failure DataThunderSlbRcCacheGlobalOper#revalidation_failure}
   */
   readonly revalidationFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#revalidation_success DataThunderSlbRcCacheGlobalOper#revalidation_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#revalidation_success DataThunderSlbRcCacheGlobalOper#revalidation_success}
   */
   readonly revalidationSuccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#total_request DataThunderSlbRcCacheGlobalOper#total_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#total_request DataThunderSlbRcCacheGlobalOper#total_request}
   */
   readonly totalRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#uri_name DataThunderSlbRcCacheGlobalOper#uri_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#uri_name DataThunderSlbRcCacheGlobalOper#uri_name}
   */
   readonly uriName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#virtual_port DataThunderSlbRcCacheGlobalOper#virtual_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#virtual_port DataThunderSlbRcCacheGlobalOper#virtual_port}
   */
   readonly virtualPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#virtual_server DataThunderSlbRcCacheGlobalOper#virtual_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#virtual_server DataThunderSlbRcCacheGlobalOper#virtual_server}
   */
   readonly virtualServer?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#entry_list DataThunderSlbRcCacheGlobalOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#entry_list DataThunderSlbRcCacheGlobalOper#entry_list}
   */
   readonly entryList?: DataThunderSlbRcCacheGlobalOperOperEntryListStruct[] | cdktf.IResolvable;
   /**
   * replacement_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#replacement_list DataThunderSlbRcCacheGlobalOper#replacement_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#replacement_list DataThunderSlbRcCacheGlobalOper#replacement_list}
   */
   readonly replacementList?: DataThunderSlbRcCacheGlobalOperOperReplacementListStruct[] | cdktf.IResolvable;
 }
@@ -3148,7 +3148,7 @@ export class DataThunderSlbRcCacheGlobalOperOperOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper thunder_slb_rc_cache_global_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper thunder_slb_rc_cache_global_oper}
 */
 export class DataThunderSlbRcCacheGlobalOper extends cdktf.TerraformDataSource {
 
@@ -3164,7 +3164,7 @@ export class DataThunderSlbRcCacheGlobalOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbRcCacheGlobalOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbRcCacheGlobalOper to import
-  * @param importFromId The id of the existing DataThunderSlbRcCacheGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbRcCacheGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbRcCacheGlobalOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3176,7 +3176,7 @@ export class DataThunderSlbRcCacheGlobalOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_rc_cache_global_oper thunder_slb_rc_cache_global_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_rc_cache_global_oper thunder_slb_rc_cache_global_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3187,8 +3187,8 @@ export class DataThunderSlbRcCacheGlobalOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_rc_cache_global_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DdosDstEntryPortRangeConfig extends cdktf.TerraformMetaArgument
   /**
   * Blacklist and Drop all incoming packets for protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#deny DdosDstEntryPortRange#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#deny DdosDstEntryPortRange#deny}
   */
   readonly deny?: number;
   /**
   * Enable ddos detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#detection_enable DdosDstEntryPortRange#detection_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#detection_enable DdosDstEntryPortRange#detection_enable}
   */
   readonly detectionEnable?: number;
   /**
   * DstEntryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#dst_entry_name DdosDstEntryPortRange#dst_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#dst_entry_name DdosDstEntryPortRange#dst_entry_name}
   */
   readonly dstEntryName: string;
   /**
   * Enable ddos top-k entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#enable_top_k DdosDstEntryPortRange#enable_top_k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#enable_top_k DdosDstEntryPortRange#enable_top_k}
   */
   readonly enableTopK?: number;
   /**
   * Global limit ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#glid DdosDstEntryPortRange#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#glid DdosDstEntryPortRange#glid}
   */
   readonly glid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#id DdosDstEntryPortRange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#id DdosDstEntryPortRange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,109 +47,109 @@ export interface DdosDstEntryPortRangeConfig extends cdktf.TerraformMetaArgument
   /**
   * Configure IP Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#ip_filtering_policy DdosDstEntryPortRange#ip_filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#ip_filtering_policy DdosDstEntryPortRange#ip_filtering_policy}
   */
   readonly ipFilteringPolicy?: string;
   /**
   * Port-Range End Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#port_range_end DdosDstEntryPortRange#port_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#port_range_end DdosDstEntryPortRange#port_range_end}
   */
   readonly portRangeEnd: number;
   /**
   * Port-Range Start Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#port_range_start DdosDstEntryPortRange#port_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#port_range_start DdosDstEntryPortRange#port_range_start}
   */
   readonly portRangeStart: number;
   /**
   * 'dns-tcp': DNS-TCP Port; 'dns-udp': DNS-UDP Port; 'http': HTTP Port; 'tcp': TCP Port; 'udp': UDP Port; 'ssl-l4': SSL-L4 Port; 'sip-udp': SIP-UDP Port; 'sip-tcp': SIP-TCP Port;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#protocol DdosDstEntryPortRange#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#protocol DdosDstEntryPortRange#protocol}
   */
   readonly protocol: string;
   /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#set_counter_base_val DdosDstEntryPortRange#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#set_counter_base_val DdosDstEntryPortRange#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
   * Maximum number of records to show in topk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#topk_num_records DdosDstEntryPortRange#topk_num_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#topk_num_records DdosDstEntryPortRange#topk_num_records}
   */
   readonly topkNumRecords?: number;
   /**
+  * 'avg': window average; 'max-peak': max peak;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#topk_sort_key DdosDstEntryPortRange#topk_sort_key}
+  */
+  readonly topkSortKey?: string;
+  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#user_tag DdosDstEntryPortRange#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#user_tag DdosDstEntryPortRange#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * capture_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#capture_config DdosDstEntryPortRange#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#capture_config DdosDstEntryPortRange#capture_config}
   */
   readonly captureConfig?: DdosDstEntryPortRangeCaptureConfig;
   /**
   * glid_exceed_action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#glid_exceed_action DdosDstEntryPortRange#glid_exceed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#glid_exceed_action DdosDstEntryPortRange#glid_exceed_action}
   */
   readonly glidExceedAction?: DdosDstEntryPortRangeGlidExceedAction;
   /**
-  * ip_filtering_policy_oper block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#ip_filtering_policy_oper DdosDstEntryPortRange#ip_filtering_policy_oper}
-  */
-  readonly ipFilteringPolicyOper?: DdosDstEntryPortRangeIpFilteringPolicyOper;
-  /**
   * pattern_recognition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#pattern_recognition DdosDstEntryPortRange#pattern_recognition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#pattern_recognition DdosDstEntryPortRange#pattern_recognition}
   */
   readonly patternRecognition?: DdosDstEntryPortRangePatternRecognition;
   /**
   * pattern_recognition_pu_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#pattern_recognition_pu_details DdosDstEntryPortRange#pattern_recognition_pu_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#pattern_recognition_pu_details DdosDstEntryPortRange#pattern_recognition_pu_details}
   */
   readonly patternRecognitionPuDetails?: DdosDstEntryPortRangePatternRecognitionPuDetails;
   /**
   * port_ind block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#port_ind DdosDstEntryPortRange#port_ind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#port_ind DdosDstEntryPortRange#port_ind}
   */
   readonly portInd?: DdosDstEntryPortRangePortInd;
   /**
   * progression_tracking block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#progression_tracking DdosDstEntryPortRange#progression_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#progression_tracking DdosDstEntryPortRange#progression_tracking}
   */
   readonly progressionTracking?: DdosDstEntryPortRangeProgressionTracking;
   /**
   * sflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow DdosDstEntryPortRange#sflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow DdosDstEntryPortRange#sflow}
   */
   readonly sflow?: DdosDstEntryPortRangeSflow;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#template DdosDstEntryPortRange#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#template DdosDstEntryPortRange#template}
   */
   readonly template?: DdosDstEntryPortRangeTemplate;
   /**
   * topk_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#topk_sources DdosDstEntryPortRange#topk_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#topk_sources DdosDstEntryPortRange#topk_sources}
   */
   readonly topkSources?: DdosDstEntryPortRangeTopkSources;
 }
@@ -157,13 +157,13 @@ export interface DdosDstEntryPortRangeCaptureConfig {
   /**
   * 'drop': Apply capture-config to dropped packets; 'forward': Apply capture-config to forwarded packets; 'all': Apply capture-config to both dropped and forwarded packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#capture_config_mode DdosDstEntryPortRange#capture_config_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#capture_config_mode DdosDstEntryPortRange#capture_config_mode}
   */
   readonly captureConfigMode?: string;
   /**
   * Capture-config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#capture_config_name DdosDstEntryPortRange#capture_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#capture_config_name DdosDstEntryPortRange#capture_config_name}
   */
   readonly captureConfigName?: string;
 }
@@ -278,13 +278,13 @@ export interface DdosDstEntryPortRangeGlidExceedActionStatelessEncapActionCfg {
   /**
   * Apply legacy encap template for encap action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#encap_template DdosDstEntryPortRange#encap_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#encap_template DdosDstEntryPortRange#encap_template}
   */
   readonly encapTemplate?: string;
   /**
   * 'stateless-tunnel-encap': Encapsulate all packets; 'stateless-tunnel-encap-scrubbed': Encapsulate all packets and allow packets to go through other DDoS checks before sent (conn-limit exceeded packet can not be scrubbed, it will default to stateless-tunnel-encap);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#stateless_encap_action DdosDstEntryPortRange#stateless_encap_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#stateless_encap_action DdosDstEntryPortRange#stateless_encap_action}
   */
   readonly statelessEncapAction?: string;
 }
@@ -399,7 +399,7 @@ export interface DdosDstEntryPortRangeGlidExceedAction {
   /**
   * stateless_encap_action_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#stateless_encap_action_cfg DdosDstEntryPortRange#stateless_encap_action_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#stateless_encap_action_cfg DdosDstEntryPortRange#stateless_encap_action_cfg}
   */
   readonly statelessEncapActionCfg?: DdosDstEntryPortRangeGlidExceedActionStatelessEncapActionCfg;
 }
@@ -481,127 +481,41 @@ export class DdosDstEntryPortRangeGlidExceedActionOutputReference extends cdktf.
     return this._statelessEncapActionCfg.internalValue;
   }
 }
-export interface DdosDstEntryPortRangeIpFilteringPolicyOper {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function ddosDstEntryPortRangeIpFilteringPolicyOperToTerraform(struct?: DdosDstEntryPortRangeIpFilteringPolicyOperOutputReference | DdosDstEntryPortRangeIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function ddosDstEntryPortRangeIpFilteringPolicyOperToHclTerraform(struct?: DdosDstEntryPortRangeIpFilteringPolicyOperOutputReference | DdosDstEntryPortRangeIpFilteringPolicyOper): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class DdosDstEntryPortRangeIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): DdosDstEntryPortRangeIpFilteringPolicyOper | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: DdosDstEntryPortRangeIpFilteringPolicyOper | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
 export interface DdosDstEntryPortRangePatternRecognition {
   /**
   * 'heuristic': heuristic algorithm;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#algorithm DdosDstEntryPortRange#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#algorithm DdosDstEntryPortRange#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Extracted filter inactive threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#filter_inactive_threshold DdosDstEntryPortRange#filter_inactive_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#filter_inactive_threshold DdosDstEntryPortRange#filter_inactive_threshold}
   */
   readonly filterInactiveThreshold?: number;
   /**
   * Extracted filter threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#filter_threshold DdosDstEntryPortRange#filter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#filter_threshold DdosDstEntryPortRange#filter_threshold}
   */
   readonly filterThreshold?: number;
   /**
   * 'capture-never-expire': War-time capture without rate exceeding and never expires; 'manual': Manual mode;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#mode DdosDstEntryPortRange#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#mode DdosDstEntryPortRange#mode}
   */
   readonly mode?: string;
   /**
   * 'high': High Sensitivity; 'medium': Medium Sensitivity; 'low': Low Sensitivity;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sensitivity DdosDstEntryPortRange#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sensitivity DdosDstEntryPortRange#sensitivity}
   */
   readonly sensitivity?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -832,7 +746,7 @@ export interface DdosDstEntryPortRangePatternRecognitionPuDetails {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -918,7 +832,7 @@ export interface DdosDstEntryPortRangePortIndSamplingEnable {
   /**
   * 'all': all; 'ip-proto-type': IP Protocol Type; 'ddet_ind_pkt_rate_current': Pkt Rate Current; 'ddet_ind_pkt_rate_min': Pkt Rate Min; 'ddet_ind_pkt_rate_max': Pkt Rate Max; 'ddet_ind_pkt_drop_rate_current': Pkt Drop Rate Current; 'ddet_ind_pkt_drop_rate_min': Pkt Drop Rate Min; 'ddet_ind_pkt_drop_rate_max': Pkt Drop Rate Max; 'ddet_ind_syn_rate_current': TCP SYN Rate Current; 'ddet_ind_syn_rate_min': TCP SYN Rate Min; 'ddet_ind_syn_rate_max': TCP SYN Rate Max; 'ddet_ind_fin_rate_current': TCP FIN Rate Current; 'ddet_ind_fin_rate_min': TCP FIN Rate Min; 'ddet_ind_fin_rate_max': TCP FIN Rate Max; 'ddet_ind_rst_rate_current': TCP RST Rate Current; 'ddet_ind_rst_rate_min': TCP RST Rate Min; 'ddet_ind_rst_rate_max': TCP RST Rate Max; 'ddet_ind_small_window_ack_rate_current': TCP Small Window ACK Rate Current; 'ddet_ind_small_window_ack_rate_min': TCP Small Window ACK Rate Min; 'ddet_ind_small_window_ack_rate_max': TCP Small Window ACK Rate Max; 'ddet_ind_empty_ack_rate_current': TCP Empty ACK Rate Current; 'ddet_ind_empty_ack_rate_min': TCP Empty ACK Rate Min; 'ddet_ind_empty_ack_rate_max': TCP Empty ACK Rate Max; 'ddet_ind_small_payload_rate_current': TCP Small Payload Rate Current; 'ddet_ind_small_payload_rate_min': TCP Small Payload Rate Min; 'ddet_ind_small_payload_rate_max': TCP Small Payload Rate Max; 'ddet_ind_pkt_drop_ratio_current': Pkt Drop / Pkt Rcvd Current; 'ddet_ind_pkt_drop_ratio_min': Pkt Drop / Pkt Rcvd Min; 'ddet_ind_pkt_drop_ratio_max': Pkt Drop / Pkt Rcvd Max; 'ddet_ind_inb_per_outb_current': Bytes-to / Bytes-from Current; 'ddet_ind_inb_per_outb_min': Bytes-to / Bytes-from Min; 'ddet_ind_inb_per_outb_max': Bytes-to / Bytes-from Max; 'ddet_ind_syn_per_fin_rate_current': TCP SYN Rate / FIN Rate Current; 'ddet_ind_syn_per_fin_rate_min': TCP SYN Rate / FIN Rate Min; 'ddet_ind_syn_per_fin_rate_max': TCP SYN Rate / FIN Rate Max; 'ddet_ind_conn_miss_rate_current': TCP Session Miss Rate Current; 'ddet_ind_conn_miss_rate_min': TCP Session Miss Rate Min; 'ddet_ind_conn_miss_rate_max': TCP Session Miss Rate Max; 'ddet_ind_concurrent_conns_current': TCP/UDP Concurrent Sessions Current; 'ddet_ind_concurrent_conns_min': TCP/UDP Concurrent Sessions Min; 'ddet_ind_concurrent_conns_max': TCP/UDP Concurrent Sessions Max; 'ddet_ind_data_cpu_util_current': Data CPU Utilization Current; 'ddet_ind_data_cpu_util_min': Data CPU Utilization Min; 'ddet_ind_data_cpu_util_max': Data CPU Utilization Max; 'ddet_ind_outside_intf_util_current': Outside Interface Utilization Current; 'ddet_ind_outside_intf_util_min': Outside Interface Utilization Min; 'ddet_ind_outside_intf_util_max': Outside Interface Utilization Max; 'ddet_ind_frag_rate_current': Frag Pkt Rate Current; 'ddet_ind_frag_rate_min': Frag Pkt Rate Min; 'ddet_ind_frag_rate_max': Frag Pkt Rate Max; 'ddet_ind_bit_rate_current': Bit Rate Current; 'ddet_ind_bit_rate_min': Bit Rate Min; 'ddet_ind_bit_rate_max': Bit Rate Max;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#counters1 DdosDstEntryPortRange#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#counters1 DdosDstEntryPortRange#counters1}
   */
   readonly counters1?: string;
 }
@@ -1036,13 +950,13 @@ export interface DdosDstEntryPortRangePortInd {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sampling_enable DdosDstEntryPortRange#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sampling_enable DdosDstEntryPortRange#sampling_enable}
   */
   readonly samplingEnable?: DdosDstEntryPortRangePortIndSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1157,7 +1071,7 @@ export interface DdosDstEntryPortRangeProgressionTracking {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -1243,13 +1157,13 @@ export interface DdosDstEntryPortRangeSflowPollingSflowTcp {
   /**
   * Enable sFlow basic TCP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow_tcp_basic DdosDstEntryPortRange#sflow_tcp_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow_tcp_basic DdosDstEntryPortRange#sflow_tcp_basic}
   */
   readonly sflowTcpBasic?: number;
   /**
   * Enable sFlow stateful TCP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow_tcp_stateful DdosDstEntryPortRange#sflow_tcp_stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow_tcp_stateful DdosDstEntryPortRange#sflow_tcp_stateful}
   */
   readonly sflowTcpStateful?: number;
 }
@@ -1364,19 +1278,19 @@ export interface DdosDstEntryPortRangeSflowPolling {
   /**
   * Enable sFlow HTTP counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow_http DdosDstEntryPortRange#sflow_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow_http DdosDstEntryPortRange#sflow_http}
   */
   readonly sflowHttp?: number;
   /**
   * Enable sFlow packet-level counter polling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow_packets DdosDstEntryPortRange#sflow_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow_packets DdosDstEntryPortRange#sflow_packets}
   */
   readonly sflowPackets?: number;
   /**
   * sflow_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sflow_tcp DdosDstEntryPortRange#sflow_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sflow_tcp DdosDstEntryPortRange#sflow_tcp}
   */
   readonly sflowTcp?: DdosDstEntryPortRangeSflowPollingSflowTcp;
 }
@@ -1520,7 +1434,7 @@ export interface DdosDstEntryPortRangeSflow {
   /**
   * polling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#polling DdosDstEntryPortRange#polling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#polling DdosDstEntryPortRange#polling}
   */
   readonly polling?: DdosDstEntryPortRangeSflowPolling;
 }
@@ -1606,37 +1520,37 @@ export interface DdosDstEntryPortRangeTemplate {
   /**
   * DDOS dns template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#dns DdosDstEntryPortRange#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#dns DdosDstEntryPortRange#dns}
   */
   readonly dns?: string;
   /**
   * DDOS http template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#http DdosDstEntryPortRange#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#http DdosDstEntryPortRange#http}
   */
   readonly http?: string;
   /**
   * DDOS sip template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#sip DdosDstEntryPortRange#sip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#sip DdosDstEntryPortRange#sip}
   */
   readonly sip?: string;
   /**
   * DDOS SSL-L4 template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#ssl_l4 DdosDstEntryPortRange#ssl_l4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#ssl_l4 DdosDstEntryPortRange#ssl_l4}
   */
   readonly sslL4?: string;
   /**
   * DDOS tcp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#tcp DdosDstEntryPortRange#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#tcp DdosDstEntryPortRange#tcp}
   */
   readonly tcp?: string;
   /**
   * DDOS udp template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#udp DdosDstEntryPortRange#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#udp DdosDstEntryPortRange#udp}
   */
   readonly udp?: string;
 }
@@ -1867,7 +1781,7 @@ export interface DdosDstEntryPortRangeTopkSources {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#uuid DdosDstEntryPortRange#uuid}
   */
   readonly uuid?: string;
 }
@@ -1951,7 +1865,7 @@ export class DdosDstEntryPortRangeTopkSourcesOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range thunder_ddos_dst_entry_port_range}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range thunder_ddos_dst_entry_port_range}
 */
 export class DdosDstEntryPortRange extends cdktf.TerraformResource {
 
@@ -1967,7 +1881,7 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstEntryPortRange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstEntryPortRange to import
-  * @param importFromId The id of the existing DdosDstEntryPortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstEntryPortRange that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstEntryPortRange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1979,7 +1893,7 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_entry_port_range thunder_ddos_dst_entry_port_range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_entry_port_range thunder_ddos_dst_entry_port_range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1990,8 +1904,8 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_entry_port_range',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2013,11 +1927,11 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
     this._protocol = config.protocol;
     this._setCounterBaseVal = config.setCounterBaseVal;
     this._topkNumRecords = config.topkNumRecords;
+    this._topkSortKey = config.topkSortKey;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._captureConfig.internalValue = config.captureConfig;
     this._glidExceedAction.internalValue = config.glidExceedAction;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
     this._patternRecognition.internalValue = config.patternRecognition;
     this._patternRecognitionPuDetails.internalValue = config.patternRecognitionPuDetails;
     this._portInd.internalValue = config.portInd;
@@ -2211,6 +2125,22 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
     return this._topkNumRecords;
   }
 
+  // topk_sort_key - computed: false, optional: true, required: false
+  private _topkSortKey?: string; 
+  public get topkSortKey() {
+    return this.getStringAttribute('topk_sort_key');
+  }
+  public set topkSortKey(value: string) {
+    this._topkSortKey = value;
+  }
+  public resetTopkSortKey() {
+    this._topkSortKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get topkSortKeyInput() {
+    return this._topkSortKey;
+  }
+
   // user_tag - computed: false, optional: true, required: false
   private _userTag?: string; 
   public get userTag() {
@@ -2273,22 +2203,6 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get glidExceedActionInput() {
     return this._glidExceedAction.internalValue;
-  }
-
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstEntryPortRangeIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
-  }
-  public putIpFilteringPolicyOper(value: DdosDstEntryPortRangeIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
-  }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
   }
 
   // pattern_recognition - computed: false, optional: true, required: false
@@ -2421,11 +2335,11 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       set_counter_base_val: cdktf.numberToTerraform(this._setCounterBaseVal),
       topk_num_records: cdktf.numberToTerraform(this._topkNumRecords),
+      topk_sort_key: cdktf.stringToTerraform(this._topkSortKey),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       capture_config: ddosDstEntryPortRangeCaptureConfigToTerraform(this._captureConfig.internalValue),
       glid_exceed_action: ddosDstEntryPortRangeGlidExceedActionToTerraform(this._glidExceedAction.internalValue),
-      ip_filtering_policy_oper: ddosDstEntryPortRangeIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
       pattern_recognition: ddosDstEntryPortRangePatternRecognitionToTerraform(this._patternRecognition.internalValue),
       pattern_recognition_pu_details: ddosDstEntryPortRangePatternRecognitionPuDetailsToTerraform(this._patternRecognitionPuDetails.internalValue),
       port_ind: ddosDstEntryPortRangePortIndToTerraform(this._portInd.internalValue),
@@ -2510,6 +2424,12 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      topk_sort_key: {
+        value: cdktf.stringToHclTerraform(this._topkSortKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       user_tag: {
         value: cdktf.stringToHclTerraform(this._userTag),
         isBlock: false,
@@ -2533,12 +2453,6 @@ export class DdosDstEntryPortRange extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "DdosDstEntryPortRangeGlidExceedActionList",
-      },
-      ip_filtering_policy_oper: {
-        value: ddosDstEntryPortRangeIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
-        isBlock: true,
-        type: "list",
-        storageClassType: "DdosDstEntryPortRangeIpFilteringPolicyOperList",
       },
       pattern_recognition: {
         value: ddosDstEntryPortRangePatternRecognitionToHclTerraform(this._patternRecognition.internalValue),

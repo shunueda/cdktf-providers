@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderLoggingLocalLogAuthenticationLogOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#id DataThunderLoggingLocalLogAuthenticationLogOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#id DataThunderLoggingLocalLogAuthenticationLogOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface DataThunderLoggingLocalLogAuthenticationLogOperConfig extends c
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#oper DataThunderLoggingLocalLogAuthenticationLogOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#oper DataThunderLoggingLocalLogAuthenticationLogOper#oper}
   */
   readonly oper?: DataThunderLoggingLocalLogAuthenticationLogOperOper;
 }
 export interface DataThunderLoggingLocalLogAuthenticationLogOperOperLogListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#auth_result DataThunderLoggingLocalLogAuthenticationLogOper#auth_result}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#auth_result DataThunderLoggingLocalLogAuthenticationLogOper#auth_result}
   */
   readonly authResult?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#client_ip DataThunderLoggingLocalLogAuthenticationLogOper#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#client_ip DataThunderLoggingLocalLogAuthenticationLogOper#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#destination_ip DataThunderLoggingLocalLogAuthenticationLogOper#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#destination_ip DataThunderLoggingLocalLogAuthenticationLogOper#destination_ip}
   */
   readonly destinationIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#destination_port DataThunderLoggingLocalLogAuthenticationLogOper#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#destination_port DataThunderLoggingLocalLogAuthenticationLogOper#destination_port}
   */
   readonly destinationPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#source_port DataThunderLoggingLocalLogAuthenticationLogOper#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#source_port DataThunderLoggingLocalLogAuthenticationLogOper#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#time DataThunderLoggingLocalLogAuthenticationLogOper#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#time DataThunderLoggingLocalLogAuthenticationLogOper#time}
   */
   readonly time?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#user_domain DataThunderLoggingLocalLogAuthenticationLogOper#user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#user_domain DataThunderLoggingLocalLogAuthenticationLogOper#user_domain}
   */
   readonly userDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#user_name DataThunderLoggingLocalLogAuthenticationLogOper#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#user_name DataThunderLoggingLocalLogAuthenticationLogOper#user_name}
   */
   readonly userName?: string;
 }
@@ -370,29 +370,29 @@ export class DataThunderLoggingLocalLogAuthenticationLogOperOperLogListStructLis
 }
 export interface DataThunderLoggingLocalLogAuthenticationLogOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#interval DataThunderLoggingLocalLogAuthenticationLogOper#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#interval DataThunderLoggingLocalLogAuthenticationLogOper#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#interval_position DataThunderLoggingLocalLogAuthenticationLogOper#interval_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#interval_position DataThunderLoggingLocalLogAuthenticationLogOper#interval_position}
   */
   readonly intervalPosition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#max_entries DataThunderLoggingLocalLogAuthenticationLogOper#max_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#max_entries DataThunderLoggingLocalLogAuthenticationLogOper#max_entries}
   */
   readonly maxEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#start_time DataThunderLoggingLocalLogAuthenticationLogOper#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#start_time DataThunderLoggingLocalLogAuthenticationLogOper#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#total DataThunderLoggingLocalLogAuthenticationLogOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#total DataThunderLoggingLocalLogAuthenticationLogOper#total}
   */
   readonly total?: number;
   /**
   * log_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#log_list DataThunderLoggingLocalLogAuthenticationLogOper#log_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#log_list DataThunderLoggingLocalLogAuthenticationLogOper#log_list}
   */
   readonly logList?: DataThunderLoggingLocalLogAuthenticationLogOperOperLogListStruct[] | cdktf.IResolvable;
 }
@@ -621,7 +621,7 @@ export class DataThunderLoggingLocalLogAuthenticationLogOperOperOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper thunder_logging_local_log_authentication_log_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper thunder_logging_local_log_authentication_log_oper}
 */
 export class DataThunderLoggingLocalLogAuthenticationLogOper extends cdktf.TerraformDataSource {
 
@@ -637,7 +637,7 @@ export class DataThunderLoggingLocalLogAuthenticationLogOper extends cdktf.Terra
   * Generates CDKTF code for importing a DataThunderLoggingLocalLogAuthenticationLogOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderLoggingLocalLogAuthenticationLogOper to import
-  * @param importFromId The id of the existing DataThunderLoggingLocalLogAuthenticationLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderLoggingLocalLogAuthenticationLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderLoggingLocalLogAuthenticationLogOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class DataThunderLoggingLocalLogAuthenticationLogOper extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/logging_local_log_authentication_log_oper thunder_logging_local_log_authentication_log_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/logging_local_log_authentication_log_oper thunder_logging_local_log_authentication_log_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class DataThunderLoggingLocalLogAuthenticationLogOper extends cdktf.Terra
       terraformResourceType: 'thunder_logging_local_log_authentication_log_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

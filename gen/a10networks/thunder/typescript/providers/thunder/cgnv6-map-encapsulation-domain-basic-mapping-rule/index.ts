@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6MapEncapsulationDomainBasicMappingRuleAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Domain_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#domain_name Cgnv6MapEncapsulationDomainBasicMappingRuleA#domain_name}
+  */
+  readonly domainName: string;
+  /**
   * Length of Embedded Address (EA) bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ea_length Cgnv6MapEncapsulationDomainBasicMappingRuleA#ea_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ea_length Cgnv6MapEncapsulationDomainBasicMappingRuleA#ea_length}
   */
   readonly eaLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#id Cgnv6MapEncapsulationDomainBasicMappingRuleA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#id Cgnv6MapEncapsulationDomainBasicMappingRuleA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#name Cgnv6MapEncapsulationDomainBasicMappingRuleA#name}
-  */
-  readonly name: string;
-  /**
   * Starting Port, Must be Power of 2 value or zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#port_start Cgnv6MapEncapsulationDomainBasicMappingRuleA#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#port_start Cgnv6MapEncapsulationDomainBasicMappingRuleA#port_start}
   */
   readonly portStart?: number;
   /**
   * 'prefix-addr': Each CE is assigned an IPv4 prefix; 'single-addr': Each CE is assigned an IPv4 address; 'shared-addr': Each CE is assigned a shared IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv4_address_port_settings Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv4_address_port_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv4_address_port_settings Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv4_address_port_settings}
   */
   readonly ruleIpv4AddressPortSettings?: string;
   /**
   * Port sharing ratio for each NAT IP. Must be Power of 2 value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#share_ratio Cgnv6MapEncapsulationDomainBasicMappingRuleA#share_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#share_ratio Cgnv6MapEncapsulationDomainBasicMappingRuleA#share_ratio}
   */
   readonly shareRatio?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#uuid Cgnv6MapEncapsulationDomainBasicMappingRuleA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#uuid Cgnv6MapEncapsulationDomainBasicMappingRuleA#uuid}
   */
   readonly uuid?: string;
   /**
   * prefix_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#prefix_rule_list Cgnv6MapEncapsulationDomainBasicMappingRuleA#prefix_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#prefix_rule_list Cgnv6MapEncapsulationDomainBasicMappingRuleA#prefix_rule_list}
   */
   readonly prefixRuleList?: Cgnv6MapEncapsulationDomainBasicMappingRulePrefixRuleListStructA[] | cdktf.IResolvable;
 }
@@ -61,61 +61,61 @@ export interface Cgnv6MapEncapsulationDomainBasicMappingRulePrefixRuleListStruct
   /**
   * Length of Embedded Address (EA) bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ea_length Cgnv6MapEncapsulationDomainBasicMappingRuleA#ea_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ea_length Cgnv6MapEncapsulationDomainBasicMappingRuleA#ea_length}
   */
   readonly eaLength?: number;
   /**
   * 'prefix-addr': Each CE is assigned an IPv4 prefix; 'single-addr': Each CE is assigned an IPv4 address; 'shared-addr': Each CE is assigned a shared IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ipv4_address_port_settings Cgnv6MapEncapsulationDomainBasicMappingRuleA#ipv4_address_port_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ipv4_address_port_settings Cgnv6MapEncapsulationDomainBasicMappingRuleA#ipv4_address_port_settings}
   */
   readonly ipv4AddressPortSettings?: string;
   /**
   * Subnet mask (subnet bigger than /8 is not allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ipv4_netmask Cgnv6MapEncapsulationDomainBasicMappingRuleA#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#ipv4_netmask Cgnv6MapEncapsulationDomainBasicMappingRuleA#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
   * MAP BMR prefix rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#name Cgnv6MapEncapsulationDomainBasicMappingRuleA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#name Cgnv6MapEncapsulationDomainBasicMappingRuleA#name}
   */
   readonly name: string;
   /**
   * Starting Port, Must be Power of 2 value or zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#port_start Cgnv6MapEncapsulationDomainBasicMappingRuleA#port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#port_start Cgnv6MapEncapsulationDomainBasicMappingRuleA#port_start}
   */
   readonly portStart?: number;
   /**
   * IPv4 prefix of BMR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv4_prefix Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv4_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv4_prefix Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv4_prefix}
   */
   readonly ruleIpv4Prefix?: string;
   /**
   * IPv6 prefix of BMR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv6_prefix Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#rule_ipv6_prefix Cgnv6MapEncapsulationDomainBasicMappingRuleA#rule_ipv6_prefix}
   */
   readonly ruleIpv6Prefix?: string;
   /**
   * Port sharing ratio for each NAT IP. Must be Power of 2 value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#share_ratio Cgnv6MapEncapsulationDomainBasicMappingRuleA#share_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#share_ratio Cgnv6MapEncapsulationDomainBasicMappingRuleA#share_ratio}
   */
   readonly shareRatio?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#user_tag Cgnv6MapEncapsulationDomainBasicMappingRuleA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#user_tag Cgnv6MapEncapsulationDomainBasicMappingRuleA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#uuid Cgnv6MapEncapsulationDomainBasicMappingRuleA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#uuid Cgnv6MapEncapsulationDomainBasicMappingRuleA#uuid}
   */
   readonly uuid?: string;
 }
@@ -489,7 +489,7 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRulePrefixRuleListStructALis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule thunder_cgnv6_map_encapsulation_domain_basic_mapping_rule}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule thunder_cgnv6_map_encapsulation_domain_basic_mapping_rule}
 */
 export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.TerraformResource {
 
@@ -505,7 +505,7 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
   * Generates CDKTF code for importing a Cgnv6MapEncapsulationDomainBasicMappingRuleA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6MapEncapsulationDomainBasicMappingRuleA to import
-  * @param importFromId The id of the existing Cgnv6MapEncapsulationDomainBasicMappingRuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6MapEncapsulationDomainBasicMappingRuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6MapEncapsulationDomainBasicMappingRuleA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -517,7 +517,7 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule thunder_cgnv6_map_encapsulation_domain_basic_mapping_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_map_encapsulation_domain_basic_mapping_rule thunder_cgnv6_map_encapsulation_domain_basic_mapping_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -528,8 +528,8 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
       terraformResourceType: 'thunder_cgnv6_map_encapsulation_domain_basic_mapping_rule',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -539,9 +539,9 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
       connection: config.connection,
       forEach: config.forEach
     });
+    this._domainName = config.domainName;
     this._eaLength = config.eaLength;
     this._id = config.id;
-    this._name = config.name;
     this._portStart = config.portStart;
     this._ruleIpv4AddressPortSettings = config.ruleIpv4AddressPortSettings;
     this._shareRatio = config.shareRatio;
@@ -552,6 +552,19 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // domain_name - computed: false, optional: false, required: true
+  private _domainName?: string; 
+  public get domainName() {
+    return this.getStringAttribute('domain_name');
+  }
+  public set domainName(value: string) {
+    this._domainName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainNameInput() {
+    return this._domainName;
+  }
 
   // ea_length - computed: false, optional: true, required: false
   private _eaLength?: number; 
@@ -583,19 +596,6 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // port_start - computed: false, optional: true, required: false
@@ -684,9 +684,9 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      domain_name: cdktf.stringToTerraform(this._domainName),
       ea_length: cdktf.numberToTerraform(this._eaLength),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       port_start: cdktf.numberToTerraform(this._portStart),
       rule_ipv4_address_port_settings: cdktf.stringToTerraform(this._ruleIpv4AddressPortSettings),
       share_ratio: cdktf.numberToTerraform(this._shareRatio),
@@ -697,6 +697,12 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      domain_name: {
+        value: cdktf.stringToHclTerraform(this._domainName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       ea_length: {
         value: cdktf.numberToHclTerraform(this._eaLength),
         isBlock: false,
@@ -705,12 +711,6 @@ export class Cgnv6MapEncapsulationDomainBasicMappingRuleA extends cdktf.Terrafor
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

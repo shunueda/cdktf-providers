@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,218 +10,218 @@ export interface VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerSt
   /**
   * Enable automatic packet-capture for Validation Drop: Country Code Mismatch in IMSI and MSISDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_country_code_mismatch VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_country_code_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_country_code_mismatch VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_country_code_mismatch}
   */
   readonly dropVldCountryCodeMismatch?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Cross Layer IP Address Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_cross_layer_correlation VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_cross_layer_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_cross_layer_correlation VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_cross_layer_correlation}
   */
   readonly dropVldCrossLayerCorrelation?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP Bearer count exceeded max (11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_bearer_count_exceed VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_bearer_count_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_bearer_count_exceed VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_bearer_count_exceed}
   */
   readonly dropVldGtpBearerCountExceed?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP repeated IE count exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_ie_repeat_count_exceed VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_ie_repeat_count_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_ie_repeat_count_exceed VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_ie_repeat_count_exceed}
   */
   readonly dropVldGtpIeRepeatCountExceed?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP-C Invalid APN Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_invalid_apn_len_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_invalid_apn_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_invalid_apn_len_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_invalid_apn_len_drop}
   */
   readonly dropVldGtpInvalidApnLenDrop?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP-C Invalid IMSI Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_invalid_imsi_len_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_invalid_imsi_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_invalid_imsi_len_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_invalid_imsi_len_drop}
   */
   readonly dropVldGtpInvalidImsiLenDrop?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP-U IP Address Spoofed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_u_spoofed_source_address VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_u_spoofed_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_u_spoofed_source_address VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_u_spoofed_source_address}
   */
   readonly dropVldGtpUSpoofedSourceAddress?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPV2-C Wrong LBI in Create Bearer Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_v2_wrong_lbi_create_bearer VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_v2_wrong_lbi_create_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtp_v2_wrong_lbi_create_bearer VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtp_v2_wrong_lbi_create_bearer}
   */
   readonly dropVldGtpV2WrongLbiCreateBearer?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPV0-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv0_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv0_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv0_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv0_seqnum_buffer_full}
   */
   readonly dropVldGtpv0SeqnumBufferFull?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPV1-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv1_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv1_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv1_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv1_seqnum_buffer_full}
   */
   readonly dropVldGtpv1SeqnumBufferFull?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPV2-C conn Sequence number Buffer Full
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv2_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv2_seqnum_buffer_full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_gtpv2_seqnum_buffer_full VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_gtpv2_seqnum_buffer_full}
   */
   readonly dropVldGtpv2SeqnumBufferFull?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Invalid Flow Label in GTPv0-C Header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_flow_label_v0 VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_flow_label_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_flow_label_v0 VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_flow_label_v0}
   */
   readonly dropVldInvalidFlowLabelV0?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Piggyback message invalid packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_pkt_len_piggyback VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_pkt_len_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_pkt_len_piggyback VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_pkt_len_piggyback}
   */
   readonly dropVldInvalidPktLenPiggyback?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Invalid TEID Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_teid VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_teid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_invalid_teid VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_invalid_teid}
   */
   readonly dropVldInvalidTeid?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Mandatory IE in Grouped IE Not Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_mandatory_ie_in_grouped_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_mandatory_ie_in_grouped_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_mandatory_ie_in_grouped_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_mandatory_ie_in_grouped_ie}
   */
   readonly dropVldMandatoryIeInGroupedIe?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Mandatory IE Not Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_mandatory_information_element VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_mandatory_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_mandatory_information_element VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_mandatory_information_element}
   */
   readonly dropVldMandatoryInformationElement?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Message Length Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_message_length VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_message_length VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_message_length}
   */
   readonly dropVldMessageLength?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPv1-C Message Out of Order IE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_order_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_order_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_order_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_order_ie}
   */
   readonly dropVldOutOfOrderIe?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Out Of State GTP Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_state VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_state VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_state}
   */
   readonly dropVldOutOfState?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Unexpected IE Present in Message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_state_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_state_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_out_of_state_ie VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_out_of_state_ie}
   */
   readonly dropVldOutOfStateIe?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Protocol flag in Header Field not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_protocol_flag_unset VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_protocol_flag_unset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_protocol_flag_unset VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_protocol_flag_unset}
   */
   readonly dropVldProtocolFlagUnset?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Reserved Header Field Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_reserved_field_set VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_reserved_field_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_reserved_field_set VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_reserved_field_set}
   */
   readonly dropVldReservedFieldSet?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Reserved IE Field Present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_reserved_information_element VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_reserved_information_element}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_reserved_information_element VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_reserved_information_element}
   */
   readonly dropVldReservedInformationElement?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: piggyback message anomaly failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_sanity_failed_piggyback VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_sanity_failed_piggyback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_sanity_failed_piggyback VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_sanity_failed_piggyback}
   */
   readonly dropVldSanityFailedPiggyback?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTP-C Sequence number Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_sequence_num_correlation VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_sequence_num_correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_sequence_num_correlation VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_sequence_num_correlation}
   */
   readonly dropVldSequenceNumCorrelation?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Tunnel Header Flag Not Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_tunnel_id_flag VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_tunnel_id_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_tunnel_id_flag VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_tunnel_id_flag}
   */
   readonly dropVldTunnelIdFlag?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPv0-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v0_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v0_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v0_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v0_reserved_message_drop}
   */
   readonly dropVldV0ReservedMessageDrop?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPv1-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v1_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v1_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v1_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v1_reserved_message_drop}
   */
   readonly dropVldV1ReservedMessageDrop?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: GTPv2-C Reserved Message Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v2_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v2_reserved_message_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_v2_reserved_message_drop VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_v2_reserved_message_drop}
   */
   readonly dropVldV2ReservedMessageDrop?: number;
   /**
   * Enable automatic packet-capture for Validation Drop: Invalid GTP version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_version_not_supported VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_version_not_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#drop_vld_version_not_supported VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#drop_vld_version_not_supported}
   */
   readonly dropVldVersionNotSupported?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Templ_gtp_plcy_tmpl_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#templ_gtp_plcy_tmpl_name VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#templ_gtp_plcy_tmpl_name}
   */
-  readonly name: string;
+  readonly templGtpPlcyTmplName: string;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_templ_gtp_plcy_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -303,7 +303,7 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
     this._dropVldVersionNotSupported = config.dropVldVersionNotSupported;
     this._duration = config.duration;
     this._id = config.id;
-    this._name = config.name;
+    this._templGtpPlcyTmplName = config.templGtpPlcyTmplName;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._uuid = config.uuid;
   }
@@ -824,17 +824,17 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // templ_gtp_plcy_tmpl_name - computed: false, optional: false, required: true
+  private _templGtpPlcyTmplName?: string; 
+  public get templGtpPlcyTmplName() {
+    return this.getStringAttribute('templ_gtp_plcy_tmpl_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set templGtpPlcyTmplName(value: string) {
+    this._templGtpPlcyTmplName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get templGtpPlcyTmplNameInput() {
+    return this._templGtpPlcyTmplName;
   }
 
   // threshold_exceeded_by - computed: false, optional: true, required: false
@@ -907,7 +907,7 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
       drop_vld_version_not_supported: cdktf.numberToTerraform(this._dropVldVersionNotSupported),
       duration: cdktf.numberToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      templ_gtp_plcy_tmpl_name: cdktf.stringToTerraform(this._templGtpPlcyTmplName),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
@@ -1107,8 +1107,8 @@ export class VisibilityPacketCaptureObjectTemplatesTemplGtpPlcyTmplTriggerStatsR
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      templ_gtp_plcy_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._templGtpPlcyTmplName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

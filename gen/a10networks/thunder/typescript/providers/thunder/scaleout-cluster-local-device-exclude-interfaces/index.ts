@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesAConfig extends cdkt
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#cluster_id ScaleoutClusterLocalDeviceExcludeInterfacesA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#cluster_id ScaleoutClusterLocalDeviceExcludeInterfacesA#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#id ScaleoutClusterLocalDeviceExcludeInterfacesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#id ScaleoutClusterLocalDeviceExcludeInterfacesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesAConfig extends cdkt
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#uuid ScaleoutClusterLocalDeviceExcludeInterfacesA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#uuid ScaleoutClusterLocalDeviceExcludeInterfacesA#uuid}
   */
   readonly uuid?: string;
   /**
   * eth_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#eth_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#eth_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#eth_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#eth_cfg}
   */
   readonly ethCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesEthCfgA[] | cdktf.IResolvable;
   /**
   * loopback_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#loopback_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#loopback_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#loopback_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#loopback_cfg}
   */
   readonly loopbackCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesLoopbackCfgA[] | cdktf.IResolvable;
   /**
   * trunk_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#trunk_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#trunk_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#trunk_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#trunk_cfg}
   */
   readonly trunkCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesTrunkCfgA[] | cdktf.IResolvable;
   /**
   * ve_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ve_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#ve_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ve_cfg ScaleoutClusterLocalDeviceExcludeInterfacesA#ve_cfg}
   */
   readonly veCfg?: ScaleoutClusterLocalDeviceExcludeInterfacesVeCfgA[] | cdktf.IResolvable;
 }
@@ -55,7 +55,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesEthCfgA {
   /**
   * Ethernet Interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ethernet ScaleoutClusterLocalDeviceExcludeInterfacesA#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ethernet ScaleoutClusterLocalDeviceExcludeInterfacesA#ethernet}
   */
   readonly ethernet?: number;
 }
@@ -173,7 +173,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesLoopbackCfgA {
   /**
   * Loopback Interface (Loopback interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#loopback ScaleoutClusterLocalDeviceExcludeInterfacesA#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#loopback ScaleoutClusterLocalDeviceExcludeInterfacesA#loopback}
   */
   readonly loopback?: number;
 }
@@ -291,7 +291,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesTrunkCfgA {
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#trunk ScaleoutClusterLocalDeviceExcludeInterfacesA#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#trunk ScaleoutClusterLocalDeviceExcludeInterfacesA#trunk}
   */
   readonly trunk?: number;
 }
@@ -409,7 +409,7 @@ export interface ScaleoutClusterLocalDeviceExcludeInterfacesVeCfgA {
   /**
   * Virtual ethernet Interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ve ScaleoutClusterLocalDeviceExcludeInterfacesA#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#ve ScaleoutClusterLocalDeviceExcludeInterfacesA#ve}
   */
   readonly ve?: number;
 }
@@ -525,7 +525,7 @@ export class ScaleoutClusterLocalDeviceExcludeInterfacesVeCfgAList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces thunder_scaleout_cluster_local_device_exclude_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces thunder_scaleout_cluster_local_device_exclude_interfaces}
 */
 export class ScaleoutClusterLocalDeviceExcludeInterfacesA extends cdktf.TerraformResource {
 
@@ -541,7 +541,7 @@ export class ScaleoutClusterLocalDeviceExcludeInterfacesA extends cdktf.Terrafor
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceExcludeInterfacesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceExcludeInterfacesA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceExcludeInterfacesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceExcludeInterfacesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceExcludeInterfacesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class ScaleoutClusterLocalDeviceExcludeInterfacesA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_exclude_interfaces thunder_scaleout_cluster_local_device_exclude_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_exclude_interfaces thunder_scaleout_cluster_local_device_exclude_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class ScaleoutClusterLocalDeviceExcludeInterfacesA extends cdktf.Terrafor
       terraformResourceType: 'thunder_scaleout_cluster_local_device_exclude_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

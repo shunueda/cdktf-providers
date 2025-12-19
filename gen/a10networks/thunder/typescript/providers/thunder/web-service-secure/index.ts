@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface WebServiceSecureAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#id WebServiceSecureA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#id WebServiceSecureA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface WebServiceSecureAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Restart WEB service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#restart WebServiceSecureA#restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#restart WebServiceSecureA#restart}
   */
   readonly restart?: number;
   /**
   * Wipe WEB private-key and certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#wipe WebServiceSecureA#wipe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#wipe WebServiceSecureA#wipe}
   */
   readonly wipe?: number;
   /**
   * certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#certificate WebServiceSecureA#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#certificate WebServiceSecureA#certificate}
   */
   readonly certificate?: WebServiceSecureCertificateA;
   /**
   * generate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#generate WebServiceSecureA#generate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#generate WebServiceSecureA#generate}
   */
   readonly generate?: WebServiceSecureGenerateA;
   /**
   * private_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#private_key WebServiceSecureA#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#private_key WebServiceSecureA#private_key}
   */
   readonly privateKey?: WebServiceSecurePrivateKeyA;
   /**
   * regenerate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#regenerate WebServiceSecureA#regenerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#regenerate WebServiceSecureA#regenerate}
   */
   readonly regenerate?: WebServiceSecureRegenerateA;
 }
@@ -55,19 +55,19 @@ export interface WebServiceSecureCertificateA {
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#file_url WebServiceSecureA#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#file_url WebServiceSecureA#file_url}
   */
   readonly fileUrl?: string;
   /**
   * Load WEB certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#load WebServiceSecureA#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#load WebServiceSecureA#load}
   */
   readonly load?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#use_mgmt_port WebServiceSecureA#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#use_mgmt_port WebServiceSecureA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -211,19 +211,19 @@ export interface WebServiceSecureGenerateA {
   /**
   * The country name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#country WebServiceSecureA#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#country WebServiceSecureA#country}
   */
   readonly country?: string;
   /**
   * The domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#domain_name WebServiceSecureA#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#domain_name WebServiceSecureA#domain_name}
   */
   readonly domainName?: string;
   /**
   * The location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#state WebServiceSecureA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#state WebServiceSecureA#state}
   */
   readonly state?: string;
 }
@@ -367,19 +367,19 @@ export interface WebServiceSecurePrivateKeyA {
   /**
   * File URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#file_url WebServiceSecureA#file_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#file_url WebServiceSecureA#file_url}
   */
   readonly fileUrl?: string;
   /**
   * Load WEB private-key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#load WebServiceSecureA#load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#load WebServiceSecureA#load}
   */
   readonly load?: number;
   /**
   * Use management port as source port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#use_mgmt_port WebServiceSecureA#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#use_mgmt_port WebServiceSecureA#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
 }
@@ -523,19 +523,19 @@ export interface WebServiceSecureRegenerateA {
   /**
   * The country name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#country WebServiceSecureA#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#country WebServiceSecureA#country}
   */
   readonly country?: string;
   /**
   * The domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#domain_name WebServiceSecureA#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#domain_name WebServiceSecureA#domain_name}
   */
   readonly domainName?: string;
   /**
   * The location
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#state WebServiceSecureA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#state WebServiceSecureA#state}
   */
   readonly state?: string;
 }
@@ -677,7 +677,7 @@ export class WebServiceSecureRegenerateAOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure thunder_web_service_secure}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure thunder_web_service_secure}
 */
 export class WebServiceSecureA extends cdktf.TerraformResource {
 
@@ -693,7 +693,7 @@ export class WebServiceSecureA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WebServiceSecureA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WebServiceSecureA to import
-  * @param importFromId The id of the existing WebServiceSecureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WebServiceSecureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WebServiceSecureA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class WebServiceSecureA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/web_service_secure thunder_web_service_secure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/web_service_secure thunder_web_service_secure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class WebServiceSecureA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_web_service_secure',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

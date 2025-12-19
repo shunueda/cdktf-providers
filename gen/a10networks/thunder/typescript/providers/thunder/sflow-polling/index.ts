@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SflowPollingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Polling CPU usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#cpu_usage SflowPolling#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#cpu_usage SflowPolling#cpu_usage}
   */
   readonly cpuUsage?: number;
   /**
   * Polling HTTP counters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#http_counter SflowPolling#http_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#http_counter SflowPolling#http_counter}
   */
   readonly httpCounter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#id SflowPolling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#id SflowPolling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,61 @@ export interface SflowPollingConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
   /**
   * a10_proprietary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#a10_proprietary SflowPolling#a10_proprietary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#a10_proprietary SflowPolling#a10_proprietary}
   */
   readonly a10Proprietary?: SflowPollingA10Proprietary;
   /**
+  * acos_info block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#acos_info SflowPolling#acos_info}
+  */
+  readonly acosInfo?: SflowPollingAcosInfo;
+  /**
   * ddos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ddos SflowPolling#ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ddos SflowPolling#ddos}
   */
   readonly ddos?: SflowPollingDdos;
   /**
   * eth_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#eth_list SflowPolling#eth_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#eth_list SflowPolling#eth_list}
   */
   readonly ethList?: SflowPollingEthListStruct[] | cdktf.IResolvable;
   /**
   * ethernet_ext_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ethernet_ext_list SflowPolling#ethernet_ext_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ethernet_ext_list SflowPolling#ethernet_ext_list}
   */
   readonly ethernetExtList?: SflowPollingEthernetExtListStruct[] | cdktf.IResolvable;
   /**
   * ethernet_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ethernet_list SflowPolling#ethernet_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ethernet_list SflowPolling#ethernet_list}
   */
   readonly ethernetList?: SflowPollingEthernetListStruct[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#http SflowPolling#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#http SflowPolling#http}
   */
   readonly http?: SflowPollingHttp;
   /**
   * system_health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#system_health SflowPolling#system_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#system_health SflowPolling#system_health}
   */
   readonly systemHealth?: SflowPollingSystemHealth;
   /**
   * ve_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ve_list SflowPolling#ve_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ve_list SflowPolling#ve_list}
   */
   readonly veList?: SflowPollingVeListStruct[] | cdktf.IResolvable;
 }
@@ -85,13 +91,13 @@ export interface SflowPollingA10Proprietary {
   /**
   * Export deprecated counters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#export_deprecated_counters SflowPolling#export_deprecated_counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#export_deprecated_counters SflowPolling#export_deprecated_counters}
   */
   readonly exportDeprecatedCounters?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
 }
@@ -202,55 +208,170 @@ export class SflowPollingA10ProprietaryOutputReference extends cdktf.ComplexObje
     return this._uuid;
   }
 }
-export interface SflowPollingDdos {
+export interface SflowPollingAcosInfo {
   /**
-  * Export sflow address field in host byte order
+  * 'enable': Enable polling ACOS Information; 'disable': Disable polling ACOS Information;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#address_byte_order_host SflowPolling#address_byte_order_host}
-  */
-  readonly addressByteOrderHost?: number;
-  /**
-  * Enable DDOS sflow polling 2.9 compatibility mode
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#compatibility2_9 SflowPolling#compatibility2_9}
-  */
-  readonly compatibility29?: number;
-  /**
-  * Enable DDOS sflow polling 3.0/3.1 compatibility mode
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#compatibility3_0 SflowPolling#compatibility3_0}
-  */
-  readonly compatibility30?: number;
-  /**
-  * Enable polling for dns cache per instance and per zone statistics
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#dns_cache_zone_stats SflowPolling#dns_cache_zone_stats}
-  */
-  readonly dnsCacheZoneStats?: number;
-  /**
-  * Enable polling for dynamic entry statistics
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#dyn_entry_stats SflowPolling#dyn_entry_stats}
-  */
-  readonly dynEntryStats?: number;
-  /**
-  * Enable Polling for system wide anomaly statistics
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#enable_anomaly_stats SflowPolling#enable_anomaly_stats}
-  */
-  readonly enableAnomalyStats?: number;
-  /**
-  * 'enable': Enable sflow polling for DDOS statistics; 'disable': Disable sflow polling for DDOS statistics;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#toggle SflowPolling#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#toggle SflowPolling#toggle}
   */
   readonly toggle?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
+}
+
+export function sflowPollingAcosInfoToTerraform(struct?: SflowPollingAcosInfoOutputReference | SflowPollingAcosInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    toggle: cdktf.stringToTerraform(struct!.toggle),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function sflowPollingAcosInfoToHclTerraform(struct?: SflowPollingAcosInfoOutputReference | SflowPollingAcosInfo): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    toggle: {
+      value: cdktf.stringToHclTerraform(struct!.toggle),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SflowPollingAcosInfoOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SflowPollingAcosInfo | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._toggle !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toggle = this._toggle;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SflowPollingAcosInfo | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._toggle = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._toggle = value.toggle;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // toggle - computed: false, optional: true, required: false
+  private _toggle?: string; 
+  public get toggle() {
+    return this.getStringAttribute('toggle');
+  }
+  public set toggle(value: string) {
+    this._toggle = value;
+  }
+  public resetToggle() {
+    this._toggle = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toggleInput() {
+    return this._toggle;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SflowPollingDdos {
+  /**
+  * Enable polling for auto discovered sni
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#auto_discovered_sni SflowPolling#auto_discovered_sni}
+  */
+  readonly autoDiscoveredSni?: number;
+  /**
+  * Enable polling for dns cache per instance and per zone statistics
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#dns_cache_zone_stats SflowPolling#dns_cache_zone_stats}
+  */
+  readonly dnsCacheZoneStats?: number;
+  /**
+  * Enable polling for dynamic entry statistics
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#dyn_entry_stats SflowPolling#dyn_entry_stats}
+  */
+  readonly dynEntryStats?: number;
+  /**
+  * Enable Polling for system wide anomaly statistics
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#enable_anomaly_stats SflowPolling#enable_anomaly_stats}
+  */
+  readonly enableAnomalyStats?: number;
+  /**
+  * 'enable': Enable sflow polling for DDOS statistics; 'disable': Disable sflow polling for DDOS statistics;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#toggle SflowPolling#toggle}
+  */
+  readonly toggle?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * Enable polling for zone session information
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#zone_session SflowPolling#zone_session}
+  */
+  readonly zoneSession?: number;
 }
 
 export function sflowPollingDdosToTerraform(struct?: SflowPollingDdosOutputReference | SflowPollingDdos): any {
@@ -259,14 +380,13 @@ export function sflowPollingDdosToTerraform(struct?: SflowPollingDdosOutputRefer
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
-    address_byte_order_host: cdktf.numberToTerraform(struct!.addressByteOrderHost),
-    compatibility2_9: cdktf.numberToTerraform(struct!.compatibility29),
-    compatibility3_0: cdktf.numberToTerraform(struct!.compatibility30),
+    auto_discovered_sni: cdktf.numberToTerraform(struct!.autoDiscoveredSni),
     dns_cache_zone_stats: cdktf.numberToTerraform(struct!.dnsCacheZoneStats),
     dyn_entry_stats: cdktf.numberToTerraform(struct!.dynEntryStats),
     enable_anomaly_stats: cdktf.numberToTerraform(struct!.enableAnomalyStats),
     toggle: cdktf.stringToTerraform(struct!.toggle),
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    zone_session: cdktf.numberToTerraform(struct!.zoneSession),
   }
 }
 
@@ -277,20 +397,8 @@ export function sflowPollingDdosToHclTerraform(struct?: SflowPollingDdosOutputRe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
-    address_byte_order_host: {
-      value: cdktf.numberToHclTerraform(struct!.addressByteOrderHost),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    compatibility2_9: {
-      value: cdktf.numberToHclTerraform(struct!.compatibility29),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    compatibility3_0: {
-      value: cdktf.numberToHclTerraform(struct!.compatibility30),
+    auto_discovered_sni: {
+      value: cdktf.numberToHclTerraform(struct!.autoDiscoveredSni),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -325,6 +433,12 @@ export function sflowPollingDdosToHclTerraform(struct?: SflowPollingDdosOutputRe
       type: "simple",
       storageClassType: "string",
     },
+    zone_session: {
+      value: cdktf.numberToHclTerraform(struct!.zoneSession),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
   };
 
   // remove undefined attributes
@@ -345,17 +459,9 @@ export class SflowPollingDdosOutputReference extends cdktf.ComplexObject {
   public get internalValue(): SflowPollingDdos | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
-    if (this._addressByteOrderHost !== undefined) {
+    if (this._autoDiscoveredSni !== undefined) {
       hasAnyValues = true;
-      internalValueResult.addressByteOrderHost = this._addressByteOrderHost;
-    }
-    if (this._compatibility29 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.compatibility29 = this._compatibility29;
-    }
-    if (this._compatibility30 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.compatibility30 = this._compatibility30;
+      internalValueResult.autoDiscoveredSni = this._autoDiscoveredSni;
     }
     if (this._dnsCacheZoneStats !== undefined) {
       hasAnyValues = true;
@@ -377,80 +483,50 @@ export class SflowPollingDdosOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._zoneSession !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneSession = this._zoneSession;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
   public set internalValue(value: SflowPollingDdos | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
-      this._addressByteOrderHost = undefined;
-      this._compatibility29 = undefined;
-      this._compatibility30 = undefined;
+      this._autoDiscoveredSni = undefined;
       this._dnsCacheZoneStats = undefined;
       this._dynEntryStats = undefined;
       this._enableAnomalyStats = undefined;
       this._toggle = undefined;
       this._uuid = undefined;
+      this._zoneSession = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
-      this._addressByteOrderHost = value.addressByteOrderHost;
-      this._compatibility29 = value.compatibility29;
-      this._compatibility30 = value.compatibility30;
+      this._autoDiscoveredSni = value.autoDiscoveredSni;
       this._dnsCacheZoneStats = value.dnsCacheZoneStats;
       this._dynEntryStats = value.dynEntryStats;
       this._enableAnomalyStats = value.enableAnomalyStats;
       this._toggle = value.toggle;
       this._uuid = value.uuid;
+      this._zoneSession = value.zoneSession;
     }
   }
 
-  // address_byte_order_host - computed: false, optional: true, required: false
-  private _addressByteOrderHost?: number; 
-  public get addressByteOrderHost() {
-    return this.getNumberAttribute('address_byte_order_host');
+  // auto_discovered_sni - computed: false, optional: true, required: false
+  private _autoDiscoveredSni?: number; 
+  public get autoDiscoveredSni() {
+    return this.getNumberAttribute('auto_discovered_sni');
   }
-  public set addressByteOrderHost(value: number) {
-    this._addressByteOrderHost = value;
+  public set autoDiscoveredSni(value: number) {
+    this._autoDiscoveredSni = value;
   }
-  public resetAddressByteOrderHost() {
-    this._addressByteOrderHost = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get addressByteOrderHostInput() {
-    return this._addressByteOrderHost;
-  }
-
-  // compatibility2_9 - computed: false, optional: true, required: false
-  private _compatibility29?: number; 
-  public get compatibility29() {
-    return this.getNumberAttribute('compatibility2_9');
-  }
-  public set compatibility29(value: number) {
-    this._compatibility29 = value;
-  }
-  public resetCompatibility29() {
-    this._compatibility29 = undefined;
+  public resetAutoDiscoveredSni() {
+    this._autoDiscoveredSni = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get compatibility29Input() {
-    return this._compatibility29;
-  }
-
-  // compatibility3_0 - computed: false, optional: true, required: false
-  private _compatibility30?: number; 
-  public get compatibility30() {
-    return this.getNumberAttribute('compatibility3_0');
-  }
-  public set compatibility30(value: number) {
-    this._compatibility30 = value;
-  }
-  public resetCompatibility30() {
-    this._compatibility30 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get compatibility30Input() {
-    return this._compatibility30;
+  public get autoDiscoveredSniInput() {
+    return this._autoDiscoveredSni;
   }
 
   // dns_cache_zone_stats - computed: false, optional: true, required: false
@@ -532,18 +608,34 @@ export class SflowPollingDdosOutputReference extends cdktf.ComplexObject {
   public get uuidInput() {
     return this._uuid;
   }
+
+  // zone_session - computed: false, optional: true, required: false
+  private _zoneSession?: number; 
+  public get zoneSession() {
+    return this.getNumberAttribute('zone_session');
+  }
+  public set zoneSession(value: number) {
+    this._zoneSession = value;
+  }
+  public resetZoneSession() {
+    this._zoneSession = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneSessionInput() {
+    return this._zoneSession;
+  }
 }
 export interface SflowPollingEthListStruct {
   /**
   * Ethernet interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#eth_end SflowPolling#eth_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#eth_end SflowPolling#eth_end}
   */
   readonly ethEnd?: number;
   /**
   * Ethernet interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#eth_start SflowPolling#eth_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#eth_start SflowPolling#eth_start}
   */
   readonly ethStart?: number;
 }
@@ -690,13 +782,13 @@ export interface SflowPollingEthernetExtListStruct {
   /**
   * Ethernet interface to poll
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#start SflowPolling#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#start SflowPolling#start}
   */
   readonly start: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
 }
@@ -840,13 +932,13 @@ export interface SflowPollingEthernetListStruct {
   /**
   * Ethernet interface to poll
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#start SflowPolling#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#start SflowPolling#start}
   */
   readonly start: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
 }
@@ -990,13 +1082,13 @@ export interface SflowPollingHttp {
   /**
   * 'enable': Enable polling HTTP counters; 'disable': Disable polling HTTP counters;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#toggle SflowPolling#toggle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#toggle SflowPolling#toggle}
   */
   readonly toggle?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
 }
@@ -1111,31 +1203,31 @@ export interface SflowPollingSystemHealth {
   /**
   * 'enable': Enable polling license statistics; 'disable': Disable polling license statistics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#license_statistics SflowPolling#license_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#license_statistics SflowPolling#license_statistics}
   */
   readonly licenseStatistics?: string;
   /**
   * 'enable': Enable polling control cpu; 'disable': Disable polling control cpu usage;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#per_control_cpu_usage SflowPolling#per_control_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#per_control_cpu_usage SflowPolling#per_control_cpu_usage}
   */
   readonly perControlCpuUsage?: string;
   /**
   * 'enable': Enable polling data cpu; 'disable': Disable polling data cpu usage;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#per_data_cpu_usage SflowPolling#per_data_cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#per_data_cpu_usage SflowPolling#per_data_cpu_usage}
   */
   readonly perDataCpuUsage?: string;
   /**
   * 'enable': Enable polling system health information; 'disable': Disable polling system health information;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#system_health_usage SflowPolling#system_health_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#system_health_usage SflowPolling#system_health_usage}
   */
   readonly systemHealthUsage?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#uuid SflowPolling#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#uuid SflowPolling#uuid}
   */
   readonly uuid?: string;
 }
@@ -1337,13 +1429,13 @@ export interface SflowPollingVeListStruct {
   /**
   * VE interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ve_end SflowPolling#ve_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ve_end SflowPolling#ve_end}
   */
   readonly veEnd?: number;
   /**
   * VE interface to sample
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#ve_start SflowPolling#ve_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#ve_start SflowPolling#ve_start}
   */
   readonly veStart?: number;
 }
@@ -1488,7 +1580,7 @@ export class SflowPollingVeListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling thunder_sflow_polling}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling thunder_sflow_polling}
 */
 export class SflowPolling extends cdktf.TerraformResource {
 
@@ -1504,7 +1596,7 @@ export class SflowPolling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SflowPolling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SflowPolling to import
-  * @param importFromId The id of the existing SflowPolling that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SflowPolling that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SflowPolling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1516,7 +1608,7 @@ export class SflowPolling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/sflow_polling thunder_sflow_polling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/sflow_polling thunder_sflow_polling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1527,8 +1619,8 @@ export class SflowPolling extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_sflow_polling',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1543,6 +1635,7 @@ export class SflowPolling extends cdktf.TerraformResource {
     this._id = config.id;
     this._uuid = config.uuid;
     this._a10Proprietary.internalValue = config.a10Proprietary;
+    this._acosInfo.internalValue = config.acosInfo;
     this._ddos.internalValue = config.ddos;
     this._ethList.internalValue = config.ethList;
     this._ethernetExtList.internalValue = config.ethernetExtList;
@@ -1634,6 +1727,22 @@ export class SflowPolling extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get a10ProprietaryInput() {
     return this._a10Proprietary.internalValue;
+  }
+
+  // acos_info - computed: false, optional: true, required: false
+  private _acosInfo = new SflowPollingAcosInfoOutputReference(this, "acos_info");
+  public get acosInfo() {
+    return this._acosInfo;
+  }
+  public putAcosInfo(value: SflowPollingAcosInfo) {
+    this._acosInfo.internalValue = value;
+  }
+  public resetAcosInfo() {
+    this._acosInfo.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acosInfoInput() {
+    return this._acosInfo.internalValue;
   }
 
   // ddos - computed: false, optional: true, required: false
@@ -1759,6 +1868,7 @@ export class SflowPolling extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
       a10_proprietary: sflowPollingA10ProprietaryToTerraform(this._a10Proprietary.internalValue),
+      acos_info: sflowPollingAcosInfoToTerraform(this._acosInfo.internalValue),
       ddos: sflowPollingDdosToTerraform(this._ddos.internalValue),
       eth_list: cdktf.listMapper(sflowPollingEthListStructToTerraform, true)(this._ethList.internalValue),
       ethernet_ext_list: cdktf.listMapper(sflowPollingEthernetExtListStructToTerraform, true)(this._ethernetExtList.internalValue),
@@ -1800,6 +1910,12 @@ export class SflowPolling extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "SflowPollingA10ProprietaryList",
+      },
+      acos_info: {
+        value: sflowPollingAcosInfoToHclTerraform(this._acosInfo.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "SflowPollingAcosInfoList",
       },
       ddos: {
         value: sflowPollingDdosToHclTerraform(this._ddos.internalValue),

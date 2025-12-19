@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ScaleoutClusterLocalDeviceL2RedirectAConfig extends cdktf.Terra
   /**
   * ClusterId
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#cluster_id ScaleoutClusterLocalDeviceL2RedirectA#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#cluster_id ScaleoutClusterLocalDeviceL2RedirectA#cluster_id}
   */
   readonly clusterId: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#ethernet_vlan ScaleoutClusterLocalDeviceL2RedirectA#ethernet_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#ethernet_vlan ScaleoutClusterLocalDeviceL2RedirectA#ethernet_vlan}
   */
   readonly ethernetVlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#id ScaleoutClusterLocalDeviceL2RedirectA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#id ScaleoutClusterLocalDeviceL2RedirectA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface ScaleoutClusterLocalDeviceL2RedirectAConfig extends cdktf.Terra
   /**
   * Ethernet port (Port Value)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#redirect_eth ScaleoutClusterLocalDeviceL2RedirectA#redirect_eth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#redirect_eth ScaleoutClusterLocalDeviceL2RedirectA#redirect_eth}
   */
   readonly redirectEth?: number;
   /**
   * L2 Trunk group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#redirect_trunk ScaleoutClusterLocalDeviceL2RedirectA#redirect_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#redirect_trunk ScaleoutClusterLocalDeviceL2RedirectA#redirect_trunk}
   */
   readonly redirectTrunk?: number;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#trunk_vlan ScaleoutClusterLocalDeviceL2RedirectA#trunk_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#trunk_vlan ScaleoutClusterLocalDeviceL2RedirectA#trunk_vlan}
   */
   readonly trunkVlan?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#uuid ScaleoutClusterLocalDeviceL2RedirectA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#uuid ScaleoutClusterLocalDeviceL2RedirectA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect thunder_scaleout_cluster_local_device_l2_redirect}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect thunder_scaleout_cluster_local_device_l2_redirect}
 */
 export class ScaleoutClusterLocalDeviceL2RedirectA extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ScaleoutClusterLocalDeviceL2RedirectA extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ScaleoutClusterLocalDeviceL2RedirectA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScaleoutClusterLocalDeviceL2RedirectA to import
-  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceL2RedirectA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScaleoutClusterLocalDeviceL2RedirectA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScaleoutClusterLocalDeviceL2RedirectA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ScaleoutClusterLocalDeviceL2RedirectA extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/scaleout_cluster_local_device_l2_redirect thunder_scaleout_cluster_local_device_l2_redirect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/scaleout_cluster_local_device_l2_redirect thunder_scaleout_cluster_local_device_l2_redirect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ScaleoutClusterLocalDeviceL2RedirectA extends cdktf.TerraformResour
       terraformResourceType: 'thunder_scaleout_cluster_local_device_l2_redirect',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

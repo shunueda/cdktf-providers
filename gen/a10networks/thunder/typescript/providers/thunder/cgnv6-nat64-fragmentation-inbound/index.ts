@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface Cgnv6Nat64FragmentationInboundConfig extends cdktf.TerraformMet
   /**
   * Configure number of ICMP messages sent when DF set. Default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#count1 Cgnv6Nat64FragmentationInbound#count1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#count1 Cgnv6Nat64FragmentationInbound#count1}
   */
   readonly count1?: number;
   /**
   * 'drop': Drop Silently; 'ipv6': Use IPv6 fragmentation; 'send-icmp': Send ICMP Type 3 Code 4 (Fragmentation Needed and DF Set) (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#df_set Cgnv6Nat64FragmentationInbound#df_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#df_set Cgnv6Nat64FragmentationInbound#df_set}
   */
   readonly dfSet?: string;
   /**
   * 'drop': Drop Silently; 'ipv6': Use IPv6 fragmentation for oversize packets (default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#frag_action Cgnv6Nat64FragmentationInbound#frag_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#frag_action Cgnv6Nat64FragmentationInbound#frag_action}
   */
   readonly fragAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#id Cgnv6Nat64FragmentationInbound#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#id Cgnv6Nat64FragmentationInbound#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface Cgnv6Nat64FragmentationInboundConfig extends cdktf.TerraformMet
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#uuid Cgnv6Nat64FragmentationInbound#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#uuid Cgnv6Nat64FragmentationInbound#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound thunder_cgnv6_nat64_fragmentation_inbound}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound thunder_cgnv6_nat64_fragmentation_inbound}
 */
 export class Cgnv6Nat64FragmentationInbound extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class Cgnv6Nat64FragmentationInbound extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Nat64FragmentationInbound resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Nat64FragmentationInbound to import
-  * @param importFromId The id of the existing Cgnv6Nat64FragmentationInbound that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Nat64FragmentationInbound that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Nat64FragmentationInbound to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class Cgnv6Nat64FragmentationInbound extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_nat64_fragmentation_inbound thunder_cgnv6_nat64_fragmentation_inbound} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_nat64_fragmentation_inbound thunder_cgnv6_nat64_fragmentation_inbound} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class Cgnv6Nat64FragmentationInbound extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_nat64_fragmentation_inbound',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

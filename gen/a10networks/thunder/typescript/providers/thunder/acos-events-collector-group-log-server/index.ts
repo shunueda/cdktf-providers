@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface AcosEventsCollectorGroupLogServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server#id AcosEventsCollectorGroupLogServer#id}
+  * Collector_group_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#collector_group_name AcosEventsCollectorGroupLogServer#collector_group_name}
+  */
+  readonly collectorGroupName: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#id AcosEventsCollectorGroupLogServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +23,25 @@ export interface AcosEventsCollectorGroupLogServerConfig extends cdktf.Terraform
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server#name AcosEventsCollectorGroupLogServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#name AcosEventsCollectorGroupLogServer#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server#port AcosEventsCollectorGroupLogServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#port AcosEventsCollectorGroupLogServer#port}
   */
   readonly port: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server#uuid AcosEventsCollectorGroupLogServer#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#uuid AcosEventsCollectorGroupLogServer#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server thunder_acos_events_collector_group_log_server}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server thunder_acos_events_collector_group_log_server}
 */
 export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
 
@@ -51,7 +57,7 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsCollectorGroupLogServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsCollectorGroupLogServer to import
-  * @param importFromId The id of the existing AcosEventsCollectorGroupLogServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsCollectorGroupLogServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsCollectorGroupLogServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +69,7 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_collector_group_log_server thunder_acos_events_collector_group_log_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_collector_group_log_server thunder_acos_events_collector_group_log_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +80,8 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_collector_group_log_server',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -85,6 +91,7 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._collectorGroupName = config.collectorGroupName;
     this._id = config.id;
     this._name = config.name;
     this._port = config.port;
@@ -94,6 +101,19 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // collector_group_name - computed: false, optional: false, required: true
+  private _collectorGroupName?: string; 
+  public get collectorGroupName() {
+    return this.getStringAttribute('collector_group_name');
+  }
+  public set collectorGroupName(value: string) {
+    this._collectorGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get collectorGroupNameInput() {
+    return this._collectorGroupName;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -159,6 +179,7 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      collector_group_name: cdktf.stringToTerraform(this._collectorGroupName),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       port: cdktf.numberToTerraform(this._port),
@@ -168,6 +189,12 @@ export class AcosEventsCollectorGroupLogServer extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      collector_group_name: {
+        value: cdktf.stringToHclTerraform(this._collectorGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,

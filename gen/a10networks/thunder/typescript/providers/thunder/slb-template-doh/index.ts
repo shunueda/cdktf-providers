@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SlbTemplateDohConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable Connection Reuse; 'disable': Disable Connection-Reuse (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#conn_reuse SlbTemplateDoh#conn_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#conn_reuse SlbTemplateDoh#conn_reuse}
   */
   readonly connReuse?: string;
   /**
   * DNS Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#dns SlbTemplateDoh#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#dns SlbTemplateDoh#dns}
   */
   readonly dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#id SlbTemplateDoh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#id SlbTemplateDoh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface SlbTemplateDohConfig extends cdktf.TerraformMetaArguments {
   /**
   * DNS over HTTP(s) Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#name SlbTemplateDoh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#name SlbTemplateDoh#name}
   */
   readonly name: string;
   /**
   * 'allow': Forward Non-DoH request to http server bound to vport; 'reject': Reject Non-DoH requests with HTTP 400 Bad Request (Default);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#non_dns_request SlbTemplateDoh#non_dns_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#non_dns_request SlbTemplateDoh#non_dns_request}
   */
   readonly nonDnsRequest?: string;
   /**
   * '400': Status Code 400 BAD Request (Default); '500': Status Code 500 Internal Server Error; '501': Status Code 501 Not Implemented;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#reject_status_code SlbTemplateDoh#reject_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#reject_status_code SlbTemplateDoh#reject_status_code}
   */
   readonly rejectStatusCode?: string;
   /**
   * Reference a DNS template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#shared_partition_dns_template SlbTemplateDoh#shared_partition_dns_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#shared_partition_dns_template SlbTemplateDoh#shared_partition_dns_template}
   */
   readonly sharedPartitionDnsTemplate?: number;
   /**
   * Reference a TCP Proxy template from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#shared_partition_tcp_proxy_template SlbTemplateDoh#shared_partition_tcp_proxy_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#shared_partition_tcp_proxy_template SlbTemplateDoh#shared_partition_tcp_proxy_template}
   */
   readonly sharedPartitionTcpProxyTemplate?: number;
   /**
   * Source NAT pool or pool group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#snat_pool SlbTemplateDoh#snat_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#snat_pool SlbTemplateDoh#snat_pool}
   */
   readonly snatPool?: string;
   /**
   * 'auto': Perform Source NAT Auto for service-group(Default) (Not supported with forwarding-ip); 'disable': Don't perform source-nat for server side DNS queries; 'pool': Perform Source NAT with specific pool;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#source_nat SlbTemplateDoh#source_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#source_nat SlbTemplateDoh#source_nat}
   */
   readonly sourceNat?: string;
   /**
   * TCP Proxy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#tcp_proxy SlbTemplateDoh#tcp_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#tcp_proxy SlbTemplateDoh#tcp_proxy}
   */
   readonly tcpProxy?: string;
   /**
   * DNS Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#template_dns_shared SlbTemplateDoh#template_dns_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#template_dns_shared SlbTemplateDoh#template_dns_shared}
   */
   readonly templateDnsShared?: string;
   /**
   * TCP Proxy Template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#template_tcp_proxy_shared SlbTemplateDoh#template_tcp_proxy_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#template_tcp_proxy_shared SlbTemplateDoh#template_tcp_proxy_shared}
   */
   readonly templateTcpProxyShared?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#user_tag SlbTemplateDoh#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#user_tag SlbTemplateDoh#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
   */
   readonly uuid?: string;
   /**
   * dns_retry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#dns_retry SlbTemplateDoh#dns_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#dns_retry SlbTemplateDoh#dns_retry}
   */
   readonly dnsRetry?: SlbTemplateDohDnsRetry;
   /**
   * forwarder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#forwarder SlbTemplateDoh#forwarder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#forwarder SlbTemplateDoh#forwarder}
   */
   readonly forwarder?: SlbTemplateDohForwarder;
 }
@@ -115,25 +115,25 @@ export interface SlbTemplateDohDnsRetry {
   /**
   * 'close': Close client side connection; 'retry-with-tcp': Retry DNS query to server using TCP (If UDP was tried initially. Close after.);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#after_timeout SlbTemplateDoh#after_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#after_timeout SlbTemplateDoh#after_timeout}
   */
   readonly afterTimeout?: string;
   /**
   * Total number of times to try DNS query to server before closing client connection, default 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#max_trials SlbTemplateDoh#max_trials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#max_trials SlbTemplateDoh#max_trials}
   */
   readonly maxTrials?: number;
   /**
   * DNS Retry Interval value 1 - 400 in units of 100ms, default is 10 (default is 1000ms) (1 - 400 in units of 100ms, default is 10 (1000ms/1sec))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#retry_interval SlbTemplateDoh#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#retry_interval SlbTemplateDoh#retry_interval}
   */
   readonly retryInterval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
   */
   readonly uuid?: string;
 }
@@ -306,73 +306,73 @@ export interface SlbTemplateDohForwarder {
   /**
   * Forward valid DoH HTTP request as is, no DNS packet extraction (Bypass DoH)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#bypass_doh SlbTemplateDoh#bypass_doh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#bypass_doh SlbTemplateDoh#bypass_doh}
   */
   readonly bypassDoh?: number;
   /**
   * SLB VIP IPv4 address to forward DOH query (IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#forwarding_ipv4 SlbTemplateDoh#forwarding_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#forwarding_ipv4 SlbTemplateDoh#forwarding_ipv4}
   */
   readonly forwardingIpv4?: string;
   /**
   * SLB VIP IPv6 address to forward DOH query (IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#forwarding_ipv6 SlbTemplateDoh#forwarding_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#forwarding_ipv6 SlbTemplateDoh#forwarding_ipv6}
   */
   readonly forwardingIpv6?: string;
   /**
   * Bind a TCP Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#tcp_service_group SlbTemplateDoh#tcp_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#tcp_service_group SlbTemplateDoh#tcp_service_group}
   */
   readonly tcpServiceGroup?: string;
   /**
   * Bind a UDP Service Group to the template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#udp_service_group SlbTemplateDoh#udp_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#udp_service_group SlbTemplateDoh#udp_service_group}
   */
   readonly udpServiceGroup?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#uuid SlbTemplateDoh#uuid}
   */
   readonly uuid?: string;
   /**
   * Try to find this IP as a VIP in this L3v Partition and forward it internally to the VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v4_internal SlbTemplateDoh#v4_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v4_internal SlbTemplateDoh#v4_internal}
   */
   readonly v4Internal?: number;
   /**
   * 'tcp': Use TCP only when forwarding DNS traffic; 'udp': Use UDP only when forwarding DNS traffic; 'both': Use UDP 1st and if unreachable, retry with TCP when forwarding DNS traffic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v4_l4_proto SlbTemplateDoh#v4_l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v4_l4_proto SlbTemplateDoh#v4_l4_proto}
   */
   readonly v4L4Proto?: string;
   /**
   * Forwarding port number, Default is 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v4_port SlbTemplateDoh#v4_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v4_port SlbTemplateDoh#v4_port}
   */
   readonly v4Port?: number;
   /**
   * Try to find this IP as a VIP in this L3v Partition and forward it internally to the VIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v6_internal SlbTemplateDoh#v6_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v6_internal SlbTemplateDoh#v6_internal}
   */
   readonly v6Internal?: number;
   /**
   * 'tcp': Use TCP only when forwarding DNS traffic; 'udp': Use UDP only when forwarding DNS traffic; 'both': Use UDP 1st and if unreachable, retry with TCP when forwarding DNS traffic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v6_l4_proto SlbTemplateDoh#v6_l4_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v6_l4_proto SlbTemplateDoh#v6_l4_proto}
   */
   readonly v6L4Proto?: string;
   /**
   * Forwarding port number, Default is 53
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#v6_port SlbTemplateDoh#v6_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#v6_port SlbTemplateDoh#v6_port}
   */
   readonly v6Port?: number;
 }
@@ -775,7 +775,7 @@ export class SlbTemplateDohForwarderOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh thunder_slb_template_doh}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh thunder_slb_template_doh}
 */
 export class SlbTemplateDoh extends cdktf.TerraformResource {
 
@@ -791,7 +791,7 @@ export class SlbTemplateDoh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateDoh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateDoh to import
-  * @param importFromId The id of the existing SlbTemplateDoh that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateDoh that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateDoh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -803,7 +803,7 @@ export class SlbTemplateDoh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_doh thunder_slb_template_doh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_doh thunder_slb_template_doh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,8 +814,8 @@ export class SlbTemplateDoh extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_doh',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

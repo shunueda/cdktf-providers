@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkTwampResponderIpv6StatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#id DataThunderNetworkTwampResponderIpv6Stats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#id DataThunderNetworkTwampResponderIpv6Stats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderNetworkTwampResponderIpv6StatsConfig extends cdktf.T
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#stats DataThunderNetworkTwampResponderIpv6Stats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#stats DataThunderNetworkTwampResponderIpv6Stats#stats}
   */
   readonly stats?: DataThunderNetworkTwampResponderIpv6StatsStats;
 }
@@ -25,43 +25,43 @@ export interface DataThunderNetworkTwampResponderIpv6StatsStats {
   /**
   * Tx IPv6 no route error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#no_route_err_v6 DataThunderNetworkTwampResponderIpv6Stats#no_route_err_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#no_route_err_v6 DataThunderNetworkTwampResponderIpv6Stats#no_route_err_v6}
   */
   readonly noRouteErrV6?: number;
   /**
   * IPv6 Other error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#other_err_v6 DataThunderNetworkTwampResponderIpv6Stats#other_err_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#other_err_v6 DataThunderNetworkTwampResponderIpv6Stats#other_err_v6}
   */
   readonly otherErrV6?: number;
   /**
   * Rx IPv6 client-list drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#rx_acl_drop_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_acl_drop_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#rx_acl_drop_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_acl_drop_v6}
   */
   readonly rxAclDropV6?: number;
   /**
   * Rx IPv6 disabled drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#rx_drop_not_enabled_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_drop_not_enabled_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#rx_drop_not_enabled_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_drop_not_enabled_v6}
   */
   readonly rxDropNotEnabledV6?: number;
   /**
   * Rx IPv6 TWAMP test packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#rx_pkts_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_pkts_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#rx_pkts_v6 DataThunderNetworkTwampResponderIpv6Stats#rx_pkts_v6}
   */
   readonly rxPktsV6?: number;
   /**
   * Rx IPv6 TWAMP hdr length error drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#twamp_hdr_len_err_v6 DataThunderNetworkTwampResponderIpv6Stats#twamp_hdr_len_err_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#twamp_hdr_len_err_v6 DataThunderNetworkTwampResponderIpv6Stats#twamp_hdr_len_err_v6}
   */
   readonly twampHdrLenErrV6?: number;
   /**
   * Tx IPv6 TWAMP test packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#tx_pkts_v6 DataThunderNetworkTwampResponderIpv6Stats#tx_pkts_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#tx_pkts_v6 DataThunderNetworkTwampResponderIpv6Stats#tx_pkts_v6}
   */
   readonly txPktsV6?: number;
 }
@@ -319,7 +319,7 @@ export class DataThunderNetworkTwampResponderIpv6StatsStatsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats thunder_network_twamp_responder_ipv6_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats thunder_network_twamp_responder_ipv6_stats}
 */
 export class DataThunderNetworkTwampResponderIpv6Stats extends cdktf.TerraformDataSource {
 
@@ -335,7 +335,7 @@ export class DataThunderNetworkTwampResponderIpv6Stats extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataThunderNetworkTwampResponderIpv6Stats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkTwampResponderIpv6Stats to import
-  * @param importFromId The id of the existing DataThunderNetworkTwampResponderIpv6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkTwampResponderIpv6Stats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkTwampResponderIpv6Stats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class DataThunderNetworkTwampResponderIpv6Stats extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_twamp_responder_ipv6_stats thunder_network_twamp_responder_ipv6_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_twamp_responder_ipv6_stats thunder_network_twamp_responder_ipv6_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class DataThunderNetworkTwampResponderIpv6Stats extends cdktf.TerraformDa
       terraformResourceType: 'thunder_network_twamp_responder_ipv6_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface MessageServiceSubscriptionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#endpoint MessageServiceSubscription#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#endpoint MessageServiceSubscription#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#filter_tag MessageServiceSubscription#filter_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#filter_tag MessageServiceSubscription#filter_tag}
   */
   readonly filterTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#id MessageServiceSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#id MessageServiceSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#notify_content_format MessageServiceSubscription#notify_content_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#notify_content_format MessageServiceSubscription#notify_content_format}
   */
   readonly notifyContentFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#notify_strategy MessageServiceSubscription#notify_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#notify_strategy MessageServiceSubscription#notify_strategy}
   */
   readonly notifyStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#push_type MessageServiceSubscription#push_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#push_type MessageServiceSubscription#push_type}
   */
   readonly pushType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#sts_role_arn MessageServiceSubscription#sts_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#sts_role_arn MessageServiceSubscription#sts_role_arn}
   */
   readonly stsRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#subscription_name MessageServiceSubscription#subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#subscription_name MessageServiceSubscription#subscription_name}
   */
   readonly subscriptionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#topic_name MessageServiceSubscription#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#topic_name MessageServiceSubscription#topic_name}
   */
   readonly topicName: string;
   /**
   * dlq_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#dlq_policy MessageServiceSubscription#dlq_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#dlq_policy MessageServiceSubscription#dlq_policy}
   */
   readonly dlqPolicy?: MessageServiceSubscriptionDlqPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#timeouts MessageServiceSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#timeouts MessageServiceSubscription#timeouts}
   */
   readonly timeouts?: MessageServiceSubscriptionTimeouts;
 }
 export interface MessageServiceSubscriptionDlqPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#dead_letter_target_queue MessageServiceSubscription#dead_letter_target_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#dead_letter_target_queue MessageServiceSubscription#dead_letter_target_queue}
   */
   readonly deadLetterTargetQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#enabled MessageServiceSubscription#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#enabled MessageServiceSubscription#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -178,15 +178,15 @@ export class MessageServiceSubscriptionDlqPolicyOutputReference extends cdktf.Co
 }
 export interface MessageServiceSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#create MessageServiceSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#create MessageServiceSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#delete MessageServiceSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#delete MessageServiceSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#update MessageServiceSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#update MessageServiceSubscription#update}
   */
   readonly update?: string;
 }
@@ -338,7 +338,7 @@ export class MessageServiceSubscriptionTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription alicloud_message_service_subscription}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription alicloud_message_service_subscription}
 */
 export class MessageServiceSubscription extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class MessageServiceSubscription extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageServiceSubscription resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageServiceSubscription to import
-  * @param importFromId The id of the existing MessageServiceSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageServiceSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageServiceSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class MessageServiceSubscription extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/message_service_subscription alicloud_message_service_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/message_service_subscription alicloud_message_service_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class MessageServiceSubscription extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_message_service_subscription',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

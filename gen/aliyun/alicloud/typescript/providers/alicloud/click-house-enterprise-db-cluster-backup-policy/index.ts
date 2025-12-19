@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ClickHouseEnterpriseDbClusterBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#backup_retention_period ClickHouseEnterpriseDbClusterBackupPolicy#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#backup_retention_period ClickHouseEnterpriseDbClusterBackupPolicy#backup_retention_period}
   */
   readonly backupRetentionPeriod: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#db_instance_id ClickHouseEnterpriseDbClusterBackupPolicy#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#db_instance_id ClickHouseEnterpriseDbClusterBackupPolicy#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#id ClickHouseEnterpriseDbClusterBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#id ClickHouseEnterpriseDbClusterBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#preferred_backup_period ClickHouseEnterpriseDbClusterBackupPolicy#preferred_backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#preferred_backup_period ClickHouseEnterpriseDbClusterBackupPolicy#preferred_backup_period}
   */
   readonly preferredBackupPeriod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#preferred_backup_time ClickHouseEnterpriseDbClusterBackupPolicy#preferred_backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#preferred_backup_time ClickHouseEnterpriseDbClusterBackupPolicy#preferred_backup_time}
   */
   readonly preferredBackupTime: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#timeouts ClickHouseEnterpriseDbClusterBackupPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#timeouts ClickHouseEnterpriseDbClusterBackupPolicy#timeouts}
   */
   readonly timeouts?: ClickHouseEnterpriseDbClusterBackupPolicyTimeouts;
 }
 export interface ClickHouseEnterpriseDbClusterBackupPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#create ClickHouseEnterpriseDbClusterBackupPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#create ClickHouseEnterpriseDbClusterBackupPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#delete ClickHouseEnterpriseDbClusterBackupPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#delete ClickHouseEnterpriseDbClusterBackupPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#update ClickHouseEnterpriseDbClusterBackupPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#update ClickHouseEnterpriseDbClusterBackupPolicy#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class ClickHouseEnterpriseDbClusterBackupPolicyTimeoutsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy alicloud_click_house_enterprise_db_cluster_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy alicloud_click_house_enterprise_db_cluster_backup_policy}
 */
 export class ClickHouseEnterpriseDbClusterBackupPolicy extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class ClickHouseEnterpriseDbClusterBackupPolicy extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ClickHouseEnterpriseDbClusterBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickHouseEnterpriseDbClusterBackupPolicy to import
-  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickHouseEnterpriseDbClusterBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class ClickHouseEnterpriseDbClusterBackupPolicy extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_backup_policy alicloud_click_house_enterprise_db_cluster_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_backup_policy alicloud_click_house_enterprise_db_cluster_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class ClickHouseEnterpriseDbClusterBackupPolicy extends cdktf.TerraformRe
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

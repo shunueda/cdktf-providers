@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface HealthMonitorMethodTcpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#id HealthMonitorMethodTcpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#id HealthMonitorMethodTcpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface HealthMonitorMethodTcpAConfig extends cdktf.TerraformMetaArgume
   /**
   * Specify response text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#maintenance HealthMonitorMethodTcpA#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#maintenance HealthMonitorMethodTcpA#maintenance}
   */
   readonly maintenance?: number;
   /**
   * Specify text for maintenance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#maintenance_text HealthMonitorMethodTcpA#maintenance_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#maintenance_text HealthMonitorMethodTcpA#maintenance_text}
   */
   readonly maintenanceText?: string;
   /**
   * TCP type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#method_tcp HealthMonitorMethodTcpA#method_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#method_tcp HealthMonitorMethodTcpA#method_tcp}
   */
   readonly methodTcp?: number;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#name HealthMonitorMethodTcpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#monitor_name HealthMonitorMethodTcpA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Set TCP SYN check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#port_halfopen HealthMonitorMethodTcpA#port_halfopen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#port_halfopen HealthMonitorMethodTcpA#port_halfopen}
   */
   readonly portHalfopen?: number;
   /**
   * Send a string to server (Specify the string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#port_send HealthMonitorMethodTcpA#port_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#port_send HealthMonitorMethodTcpA#port_send}
   */
   readonly portSend?: string;
   /**
   * Specify TCP port (Specify port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#tcp_port HealthMonitorMethodTcpA#tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#tcp_port HealthMonitorMethodTcpA#tcp_port}
   */
   readonly tcpPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#uuid HealthMonitorMethodTcpA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#uuid HealthMonitorMethodTcpA#uuid}
   */
   readonly uuid?: string;
   /**
   * port_resp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#port_resp HealthMonitorMethodTcpA#port_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#port_resp HealthMonitorMethodTcpA#port_resp}
   */
   readonly portResp?: HealthMonitorMethodTcpPortRespA;
 }
@@ -73,7 +73,7 @@ export interface HealthMonitorMethodTcpPortRespA {
   /**
   * Mark server up if response string contains string (Specify the string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#port_contains HealthMonitorMethodTcpA#port_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#port_contains HealthMonitorMethodTcpA#port_contains}
   */
   readonly portContains?: string;
 }
@@ -157,7 +157,7 @@ export class HealthMonitorMethodTcpPortRespAOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp thunder_health_monitor_method_tcp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp thunder_health_monitor_method_tcp}
 */
 export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HealthMonitorMethodTcpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthMonitorMethodTcpA to import
-  * @param importFromId The id of the existing HealthMonitorMethodTcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthMonitorMethodTcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthMonitorMethodTcpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/health_monitor_method_tcp thunder_health_monitor_method_tcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/health_monitor_method_tcp thunder_health_monitor_method_tcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_health_monitor_method_tcp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -211,7 +211,7 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
     this._maintenance = config.maintenance;
     this._maintenanceText = config.maintenanceText;
     this._methodTcp = config.methodTcp;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._portHalfopen = config.portHalfopen;
     this._portSend = config.portSend;
     this._tcpPort = config.tcpPort;
@@ -287,17 +287,17 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
     return this._methodTcp;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // port_halfopen - computed: false, optional: true, required: false
@@ -390,7 +390,7 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
       maintenance: cdktf.numberToTerraform(this._maintenance),
       maintenance_text: cdktf.stringToTerraform(this._maintenanceText),
       method_tcp: cdktf.numberToTerraform(this._methodTcp),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       port_halfopen: cdktf.numberToTerraform(this._portHalfopen),
       port_send: cdktf.stringToTerraform(this._portSend),
       tcp_port: cdktf.numberToTerraform(this._tcpPort),
@@ -425,8 +425,8 @@ export class HealthMonitorMethodTcpA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface LoggingHostIpv6AddrConfig extends cdktf.TerraformMetaArguments 
   /**
   * Set syslog host ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#host_ipv6 LoggingHostIpv6Addr#host_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#host_ipv6 LoggingHostIpv6Addr#host_ipv6}
   */
   readonly hostIpv6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#id LoggingHostIpv6Addr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#id LoggingHostIpv6Addr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface LoggingHostIpv6AddrConfig extends cdktf.TerraformMetaArguments 
   /**
   * Enable remote logging over TLS session
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#over_tls LoggingHostIpv6Addr#over_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#over_tls LoggingHostIpv6Addr#over_tls}
   */
   readonly overTls?: number;
   /**
   * Set remote syslog port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#port LoggingHostIpv6Addr#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#port LoggingHostIpv6Addr#port}
   */
   readonly port?: number;
   /**
   * Use TCP as transport protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#tcp LoggingHostIpv6Addr#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#tcp LoggingHostIpv6Addr#tcp}
   */
   readonly tcp?: number;
   /**
   * Use management port for connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#use_mgmt_port LoggingHostIpv6Addr#use_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#use_mgmt_port LoggingHostIpv6Addr#use_mgmt_port}
   */
   readonly useMgmtPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#uuid LoggingHostIpv6Addr#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#uuid LoggingHostIpv6Addr#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr thunder_logging_host_ipv6addr}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr thunder_logging_host_ipv6addr}
 */
 export class LoggingHostIpv6Addr extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class LoggingHostIpv6Addr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LoggingHostIpv6Addr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LoggingHostIpv6Addr to import
-  * @param importFromId The id of the existing LoggingHostIpv6Addr that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LoggingHostIpv6Addr that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LoggingHostIpv6Addr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class LoggingHostIpv6Addr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/logging_host_ipv6addr thunder_logging_host_ipv6addr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/logging_host_ipv6addr thunder_logging_host_ipv6addr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class LoggingHostIpv6Addr extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_logging_host_ipv6addr',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

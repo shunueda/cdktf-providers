@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZoneStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#id DataThunderDdosDstZoneStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#id DataThunderDdosDstZoneStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_name DataThunderDdosDstZoneStats#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_name DataThunderDdosDstZoneStats#zone_name}
   */
   readonly zoneName: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#stats DataThunderDdosDstZoneStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#stats DataThunderDdosDstZoneStats#stats}
   */
   readonly stats?: DataThunderDdosDstZoneStatsStats;
 }
@@ -29,1873 +29,2005 @@ export interface DataThunderDdosDstZoneStatsStats {
   /**
   * DNS Outbound Query Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_malformed DataThunderDdosDstZoneStats#dns_outbound_query_malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_malformed DataThunderDdosDstZoneStats#dns_outbound_query_malformed}
   */
   readonly dnsOutboundQueryMalformed?: number;
   /**
   * DNS Outbound Query Resp Check Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_blacklisted DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_blacklisted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_blacklisted DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_blacklisted}
   */
   readonly dnsOutboundQueryRespChkBlacklisted?: number;
   /**
   * DNS Outbound Query Resp Check Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_failed DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_failed DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_failed}
   */
   readonly dnsOutboundQueryRespChkFailed?: number;
   /**
   * DNS Outbound Query Resp Check No Response Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_no_resp_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_no_resp_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_no_resp_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_no_resp_sent}
   */
   readonly dnsOutboundQueryRespChkNoRespSent?: number;
   /**
   * DNS Outbound Query Resp Check REFUSED Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_refused_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_refused_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_refused_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_refused_sent}
   */
   readonly dnsOutboundQueryRespChkRefusedSent?: number;
   /**
   * DNS Outbound Query Resp Check RESET Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_reset_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_reset_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_chk_reset_sent DataThunderDdosDstZoneStats#dns_outbound_query_resp_chk_reset_sent}
   */
   readonly dnsOutboundQueryRespChkResetSent?: number;
   /**
   * DNS Outbound Query Response Size Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_size_exceed DataThunderDdosDstZoneStats#dns_outbound_query_resp_size_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_resp_size_exceed DataThunderDdosDstZoneStats#dns_outbound_query_resp_size_exceed}
   */
   readonly dnsOutboundQueryRespSizeExceed?: number;
   /**
   * DNS Outbound Query Session Timed Out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_sess_timed_out DataThunderDdosDstZoneStats#dns_outbound_query_sess_timed_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_query_sess_timed_out DataThunderDdosDstZoneStats#dns_outbound_query_sess_timed_out}
   */
   readonly dnsOutboundQuerySessTimedOut?: number;
   /**
   * DNS Outbound Total Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dns_outbound_total_query DataThunderDdosDstZoneStats#dns_outbound_total_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dns_outbound_total_query DataThunderDdosDstZoneStats#dns_outbound_total_query}
   */
   readonly dnsOutboundTotalQuery?: number;
   /**
   * Dst Src-Based Overflow Policy Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_clist_overflow_policy_at_learning DataThunderDdosDstZoneStats#dst_clist_overflow_policy_at_learning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_clist_overflow_policy_at_learning DataThunderDdosDstZoneStats#dst_clist_overflow_policy_at_learning}
   */
   readonly dstClistOverflowPolicyAtLearning?: number;
   /**
   * Inbound: Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_drop DataThunderDdosDstZoneStats#dst_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_drop DataThunderDdosDstZoneStats#dst_drop}
   */
   readonly dstDrop?: number;
   /**
   * Entry Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_conn_limit_exceed DataThunderDdosDstZoneStats#dst_entry_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_conn_limit_exceed DataThunderDdosDstZoneStats#dst_entry_conn_limit_exceed}
   */
   readonly dstEntryConnLimitExceed?: number;
   /**
   * Entry Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_conn_rate_exceed DataThunderDdosDstZoneStats#dst_entry_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_conn_rate_exceed DataThunderDdosDstZoneStats#dst_entry_conn_rate_exceed}
   */
   readonly dstEntryConnRateExceed?: number;
   /**
   * Entry Rate: Frag Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_frag_pkt_rate_exceed}
   */
   readonly dstEntryFragPktRateExceed?: number;
   /**
   * Entry Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_kbit_rate_exceed DataThunderDdosDstZoneStats#dst_entry_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_kbit_rate_exceed DataThunderDdosDstZoneStats#dst_entry_kbit_rate_exceed}
   */
   readonly dstEntryKbitRateExceed?: number;
   /**
   * Entry Rate: KiBit Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_kbit_rate_exceed_count DataThunderDdosDstZoneStats#dst_entry_kbit_rate_exceed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_kbit_rate_exceed_count DataThunderDdosDstZoneStats#dst_entry_kbit_rate_exceed_count}
   */
   readonly dstEntryKbitRateExceedCount?: number;
   /**
   * Outbound Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_conn_limit_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_conn_limit_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_conn_limit_exceed}
   */
   readonly dstEntryOutboundConnLimitExceed?: number;
   /**
   * Outbound Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_conn_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_conn_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_conn_rate_exceed}
   */
   readonly dstEntryOutboundConnRateExceed?: number;
   /**
   * Outbound Rate: Frag Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_frag_pkt_rate_exceed}
   */
   readonly dstEntryOutboundFragPktRateExceed?: number;
   /**
   * Outbound Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_kbit_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_kbit_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_kbit_rate_exceed}
   */
   readonly dstEntryOutboundKbitRateExceed?: number;
   /**
   * Outbound Rate: KiBit Exceeded Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_kbit_rate_exceed_count DataThunderDdosDstZoneStats#dst_entry_outbound_kbit_rate_exceed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_kbit_rate_exceed_count DataThunderDdosDstZoneStats#dst_entry_outbound_kbit_rate_exceed_count}
   */
   readonly dstEntryOutboundKbitRateExceedCount?: number;
   /**
   * Outbound Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_outbound_pkt_rate_exceed}
   */
   readonly dstEntryOutboundPktRateExceed?: number;
   /**
   * Outbound: TCP Sessions Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_tcp_session_aged DataThunderDdosDstZoneStats#dst_entry_outbound_tcp_session_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_tcp_session_aged DataThunderDdosDstZoneStats#dst_entry_outbound_tcp_session_aged}
   */
   readonly dstEntryOutboundTcpSessionAged?: number;
   /**
   * Outbound: TCP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_tcp_session_created DataThunderDdosDstZoneStats#dst_entry_outbound_tcp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_tcp_session_created DataThunderDdosDstZoneStats#dst_entry_outbound_tcp_session_created}
   */
   readonly dstEntryOutboundTcpSessionCreated?: number;
   /**
   * Outbound: UDP Sessions Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_udp_session_aged DataThunderDdosDstZoneStats#dst_entry_outbound_udp_session_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_udp_session_aged DataThunderDdosDstZoneStats#dst_entry_outbound_udp_session_aged}
   */
   readonly dstEntryOutboundUdpSessionAged?: number;
   /**
   * Outbound: UDP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_udp_session_created DataThunderDdosDstZoneStats#dst_entry_outbound_udp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_outbound_udp_session_created DataThunderDdosDstZoneStats#dst_entry_outbound_udp_session_created}
   */
   readonly dstEntryOutboundUdpSessionCreated?: number;
   /**
   * Entry Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_entry_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_entry_pkt_rate_exceed DataThunderDdosDstZoneStats#dst_entry_pkt_rate_exceed}
   */
   readonly dstEntryPktRateExceed?: number;
   /**
   * Entry Exceed Action: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_exceed_action_drop DataThunderDdosDstZoneStats#dst_exceed_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_exceed_action_drop DataThunderDdosDstZoneStats#dst_exceed_action_drop}
   */
   readonly dstExceedActionDrop?: number;
   /**
   * Entry Exceed Action: Tunnel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_exceed_action_tunnel DataThunderDdosDstZoneStats#dst_exceed_action_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_exceed_action_tunnel DataThunderDdosDstZoneStats#dst_exceed_action_tunnel}
   */
   readonly dstExceedActionTunnel?: number;
   /**
   * ICMP Rate: Total Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_icmp_any_exceed DataThunderDdosDstZoneStats#dst_icmp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_icmp_any_exceed DataThunderDdosDstZoneStats#dst_icmp_any_exceed}
   */
   readonly dstIcmpAnyExceed?: number;
   /**
   * ICMP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_icmp_bytes_rcv DataThunderDdosDstZoneStats#dst_icmp_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_icmp_bytes_rcv DataThunderDdosDstZoneStats#dst_icmp_bytes_rcv}
   */
   readonly dstIcmpBytesRcv?: number;
   /**
   * ICMP Total Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_icmp_bytes_sent DataThunderDdosDstZoneStats#dst_icmp_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_icmp_bytes_sent DataThunderDdosDstZoneStats#dst_icmp_bytes_sent}
   */
   readonly dstIcmpBytesSent?: number;
   /**
   * Dst ICMP IP-Proto Blacklist Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_l4_icmp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_icmp_blacklist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_l4_icmp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_icmp_blacklist_drop}
   */
   readonly dstL4IcmpBlacklistDrop?: number;
   /**
   * Dst OTHER IP-Proto Blacklist Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_l4_other_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_other_blacklist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_l4_other_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_other_blacklist_drop}
   */
   readonly dstL4OtherBlacklistDrop?: number;
   /**
   * Dst TCP IP-Proto Blacklist Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_l4_tcp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_tcp_blacklist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_l4_tcp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_tcp_blacklist_drop}
   */
   readonly dstL4TcpBlacklistDrop?: number;
   /**
   * Dst UDP IP-Proto Blacklist Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_l4_udp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_udp_blacklist_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_l4_udp_blacklist_drop DataThunderDdosDstZoneStats#dst_l4_udp_blacklist_drop}
   */
   readonly dstL4UdpBlacklistDrop?: number;
   /**
   * OTHER Rate: Total Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_other_any_exceed DataThunderDdosDstZoneStats#dst_other_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_other_any_exceed DataThunderDdosDstZoneStats#dst_other_any_exceed}
   */
   readonly dstOtherAnyExceed?: number;
   /**
   * OTHER Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_other_bytes_rcv DataThunderDdosDstZoneStats#dst_other_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_other_bytes_rcv DataThunderDdosDstZoneStats#dst_other_bytes_rcv}
   */
   readonly dstOtherBytesRcv?: number;
   /**
   * OTHER Total Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_other_bytes_sent DataThunderDdosDstZoneStats#dst_other_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_other_bytes_sent DataThunderDdosDstZoneStats#dst_other_bytes_sent}
   */
   readonly dstOtherBytesSent?: number;
   /**
   * Src Dynamic Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_src_learn_overflow DataThunderDdosDstZoneStats#dst_src_learn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_src_learn_overflow DataThunderDdosDstZoneStats#dst_src_learn_overflow}
   */
   readonly dstSrcLearnOverflow?: number;
   /**
   * TCP Auth: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_drop DataThunderDdosDstZoneStats#dst_tcp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_drop DataThunderDdosDstZoneStats#dst_tcp_auth_drop}
   */
   readonly dstTcpAuthDrop?: number;
   /**
   * TCP Auth: Responded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_resp DataThunderDdosDstZoneStats#dst_tcp_auth_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_resp DataThunderDdosDstZoneStats#dst_tcp_auth_resp}
   */
   readonly dstTcpAuthResp?: number;
   /**
   * TCP Auth: Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_rst DataThunderDdosDstZoneStats#dst_tcp_auth_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_auth_rst DataThunderDdosDstZoneStats#dst_tcp_auth_rst}
   */
   readonly dstTcpAuthRst?: number;
   /**
   * TCP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_bytes_rcv DataThunderDdosDstZoneStats#dst_tcp_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_bytes_rcv DataThunderDdosDstZoneStats#dst_tcp_bytes_rcv}
   */
   readonly dstTcpBytesRcv?: number;
   /**
   * TCP Total Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_bytes_sent DataThunderDdosDstZoneStats#dst_tcp_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_bytes_sent DataThunderDdosDstZoneStats#dst_tcp_bytes_sent}
   */
   readonly dstTcpBytesSent?: number;
   /**
   * TCP Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close DataThunderDdosDstZoneStats#dst_tcp_conn_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close DataThunderDdosDstZoneStats#dst_tcp_conn_close}
   */
   readonly dstTcpConnClose?: number;
   /**
   * TCP Half Open Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_half_open DataThunderDdosDstZoneStats#dst_tcp_conn_close_half_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_half_open DataThunderDdosDstZoneStats#dst_tcp_conn_close_half_open}
   */
   readonly dstTcpConnCloseHalfOpen?: number;
   /**
   * TCP FIN Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_fin DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_fin DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_fin}
   */
   readonly dstTcpConnCloseWFin?: number;
   /**
   * TCP Idle Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_idle DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_idle DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_idle}
   */
   readonly dstTcpConnCloseWIdle?: number;
   /**
   * TCP RST Connections Closed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_rst DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_close_w_rst DataThunderDdosDstZoneStats#dst_tcp_conn_close_w_rst}
   */
   readonly dstTcpConnCloseWRst?: number;
   /**
   * TCP Connections Created From ACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_create_from_ack DataThunderDdosDstZoneStats#dst_tcp_conn_create_from_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_create_from_ack DataThunderDdosDstZoneStats#dst_tcp_conn_create_from_ack}
   */
   readonly dstTcpConnCreateFromAck?: number;
   /**
   * TCP Connections Created From SYN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_create_from_syn DataThunderDdosDstZoneStats#dst_tcp_conn_create_from_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_conn_create_from_syn DataThunderDdosDstZoneStats#dst_tcp_conn_create_from_syn}
   */
   readonly dstTcpConnCreateFromSyn?: number;
   /**
   * TCP Sessions Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_tcp_session_aged DataThunderDdosDstZoneStats#dst_tcp_session_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_tcp_session_aged DataThunderDdosDstZoneStats#dst_tcp_session_aged}
   */
   readonly dstTcpSessionAged?: number;
   /**
   * UDP Auth: Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_auth_drop DataThunderDdosDstZoneStats#dst_udp_auth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_auth_drop DataThunderDdosDstZoneStats#dst_udp_auth_drop}
   */
   readonly dstUdpAuthDrop?: number;
   /**
   * UDP Total Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_bytes_rcv DataThunderDdosDstZoneStats#dst_udp_bytes_rcv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_bytes_rcv DataThunderDdosDstZoneStats#dst_udp_bytes_rcv}
   */
   readonly dstUdpBytesRcv?: number;
   /**
   * UDP Total Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_bytes_sent DataThunderDdosDstZoneStats#dst_udp_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_bytes_sent DataThunderDdosDstZoneStats#dst_udp_bytes_sent}
   */
   readonly dstUdpBytesSent?: number;
   /**
   * UDP Auth: Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_fail DataThunderDdosDstZoneStats#dst_udp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_fail DataThunderDdosDstZoneStats#dst_udp_retry_fail}
   */
   readonly dstUdpRetryFail?: number;
   /**
   * UDP Auth: Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_gap_drop DataThunderDdosDstZoneStats#dst_udp_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_gap_drop DataThunderDdosDstZoneStats#dst_udp_retry_gap_drop}
   */
   readonly dstUdpRetryGapDrop?: number;
   /**
   * UDP Auth: Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_timeout_blacklist DataThunderDdosDstZoneStats#dst_udp_retry_timeout_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_retry_timeout_blacklist DataThunderDdosDstZoneStats#dst_udp_retry_timeout_blacklist}
   */
   readonly dstUdpRetryTimeoutBlacklist?: number;
   /**
   * UDP Sessions Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#dst_udp_session_aged DataThunderDdosDstZoneStats#dst_udp_session_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#dst_udp_session_aged DataThunderDdosDstZoneStats#dst_udp_session_aged}
   */
   readonly dstUdpSessionAged?: number;
   /**
   * East West: Inbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_drop_byte DataThunderDdosDstZoneStats#east_west_inbound_drop_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_drop_byte DataThunderDdosDstZoneStats#east_west_inbound_drop_byte}
   */
   readonly eastWestInboundDropByte?: number;
   /**
   * East West: Inbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_drop_pkt DataThunderDdosDstZoneStats#east_west_inbound_drop_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_drop_pkt DataThunderDdosDstZoneStats#east_west_inbound_drop_pkt}
   */
   readonly eastWestInboundDropPkt?: number;
   /**
   * East West: Inbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_fwd_byte DataThunderDdosDstZoneStats#east_west_inbound_fwd_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_fwd_byte DataThunderDdosDstZoneStats#east_west_inbound_fwd_byte}
   */
   readonly eastWestInboundFwdByte?: number;
   /**
   * East West: Inbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_fwd_pkt DataThunderDdosDstZoneStats#east_west_inbound_fwd_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_fwd_pkt DataThunderDdosDstZoneStats#east_west_inbound_fwd_pkt}
   */
   readonly eastWestInboundFwdPkt?: number;
   /**
   * East West: Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_rcv_byte DataThunderDdosDstZoneStats#east_west_inbound_rcv_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_rcv_byte DataThunderDdosDstZoneStats#east_west_inbound_rcv_byte}
   */
   readonly eastWestInboundRcvByte?: number;
   /**
   * East West: Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_rcv_pkt DataThunderDdosDstZoneStats#east_west_inbound_rcv_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_inbound_rcv_pkt DataThunderDdosDstZoneStats#east_west_inbound_rcv_pkt}
   */
   readonly eastWestInboundRcvPkt?: number;
   /**
   * East West: Outbound Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_drop_byte DataThunderDdosDstZoneStats#east_west_outbound_drop_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_drop_byte DataThunderDdosDstZoneStats#east_west_outbound_drop_byte}
   */
   readonly eastWestOutboundDropByte?: number;
   /**
   * East West: Outbound Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_drop_pkt DataThunderDdosDstZoneStats#east_west_outbound_drop_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_drop_pkt DataThunderDdosDstZoneStats#east_west_outbound_drop_pkt}
   */
   readonly eastWestOutboundDropPkt?: number;
   /**
   * East West: Outbound Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_fwd_byte DataThunderDdosDstZoneStats#east_west_outbound_fwd_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_fwd_byte DataThunderDdosDstZoneStats#east_west_outbound_fwd_byte}
   */
   readonly eastWestOutboundFwdByte?: number;
   /**
   * East West: Outbound Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_fwd_pkt DataThunderDdosDstZoneStats#east_west_outbound_fwd_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_fwd_pkt DataThunderDdosDstZoneStats#east_west_outbound_fwd_pkt}
   */
   readonly eastWestOutboundFwdPkt?: number;
   /**
   * East West: Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_rcv_byte DataThunderDdosDstZoneStats#east_west_outbound_rcv_byte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_rcv_byte DataThunderDdosDstZoneStats#east_west_outbound_rcv_byte}
   */
   readonly eastWestOutboundRcvByte?: number;
   /**
   * East West: Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_rcv_pkt DataThunderDdosDstZoneStats#east_west_outbound_rcv_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#east_west_outbound_rcv_pkt DataThunderDdosDstZoneStats#east_west_outbound_rcv_pkt}
   */
   readonly eastWestOutboundRcvPkt?: number;
   /**
   * Outbound: Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#egress_bytes DataThunderDdosDstZoneStats#egress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#egress_bytes DataThunderDdosDstZoneStats#egress_bytes}
   */
   readonly egressBytes?: number;
   /**
   * Outbound: Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#egress_packets DataThunderDdosDstZoneStats#egress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#egress_packets DataThunderDdosDstZoneStats#egress_packets}
   */
   readonly egressPackets?: number;
   /**
   * Entry Sync Message Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#entry_sync_message_received DataThunderDdosDstZoneStats#entry_sync_message_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#entry_sync_message_received DataThunderDdosDstZoneStats#entry_sync_message_received}
   */
   readonly entrySyncMessageReceived?: number;
   /**
   * Entry Sync Message Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#entry_sync_message_sent DataThunderDdosDstZoneStats#entry_sync_message_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#entry_sync_message_sent DataThunderDdosDstZoneStats#entry_sync_message_sent}
   */
   readonly entrySyncMessageSent?: number;
   /**
   * ICMP Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#icmp_fwd_recv DataThunderDdosDstZoneStats#icmp_fwd_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#icmp_fwd_recv DataThunderDdosDstZoneStats#icmp_fwd_recv}
   */
   readonly icmpFwdRecv?: number;
   /**
   * Inbound: Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#inbound_bytes_drop DataThunderDdosDstZoneStats#inbound_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#inbound_bytes_drop DataThunderDdosDstZoneStats#inbound_bytes_drop}
   */
   readonly inboundBytesDrop?: number;
   /**
   * Inbound: Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#inbound_bytes_sent DataThunderDdosDstZoneStats#inbound_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#inbound_bytes_sent DataThunderDdosDstZoneStats#inbound_bytes_sent}
   */
   readonly inboundBytesSent?: number;
   /**
   * Inbound: Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#ingress_bytes DataThunderDdosDstZoneStats#ingress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#ingress_bytes DataThunderDdosDstZoneStats#ingress_bytes}
   */
   readonly ingressBytes?: number;
   /**
   * Inbound: Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#ingress_packets DataThunderDdosDstZoneStats#ingress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#ingress_packets DataThunderDdosDstZoneStats#ingress_packets}
   */
   readonly ingressPackets?: number;
   /**
+  * internal src hash counter for pu1
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#multi_pu_src_hash_pu1 DataThunderDdosDstZoneStats#multi_pu_src_hash_pu1}
+  */
+  readonly multiPuSrcHashPu1?: number;
+  /**
+  * internal src hash counter for pu2
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#multi_pu_src_hash_pu2 DataThunderDdosDstZoneStats#multi_pu_src_hash_pu2}
+  */
+  readonly multiPuSrcHashPu2?: number;
+  /**
   * Outbound: Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#outbound_bytes_drop DataThunderDdosDstZoneStats#outbound_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#outbound_bytes_drop DataThunderDdosDstZoneStats#outbound_bytes_drop}
   */
   readonly outboundBytesDrop?: number;
   /**
   * Outbound: Bytes Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#outbound_bytes_sent DataThunderDdosDstZoneStats#outbound_bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#outbound_bytes_sent DataThunderDdosDstZoneStats#outbound_bytes_sent}
   */
   readonly outboundBytesSent?: number;
   /**
   * Outbound: Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#outbound_drop DataThunderDdosDstZoneStats#outbound_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#outbound_drop DataThunderDdosDstZoneStats#outbound_drop}
   */
   readonly outboundDrop?: number;
   /**
   * Outbound: Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#outbound_pkt_sent DataThunderDdosDstZoneStats#outbound_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#outbound_pkt_sent DataThunderDdosDstZoneStats#outbound_pkt_sent}
   */
   readonly outboundPktSent?: number;
   /**
+  * Port Zero Inbound Byte Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#port_zero_fwd_byte_rcvd DataThunderDdosDstZoneStats#port_zero_fwd_byte_rcvd}
+  */
+  readonly portZeroFwdByteRcvd?: number;
+  /**
+  * Port Zero Inbound Packet Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#port_zero_fwd_pkt_rcvd DataThunderDdosDstZoneStats#port_zero_fwd_pkt_rcvd}
+  */
+  readonly portZeroFwdPktRcvd?: number;
+  /**
+  * Port Zero Outbound Byte Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#port_zero_rev_byte_rcvd DataThunderDdosDstZoneStats#port_zero_rev_byte_rcvd}
+  */
+  readonly portZeroRevByteRcvd?: number;
+  /**
+  * Port Zero Outbound Packet Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#port_zero_rev_pkt_rcvd DataThunderDdosDstZoneStats#port_zero_rev_pkt_rcvd}
+  */
+  readonly portZeroRevPktRcvd?: number;
+  /**
   * Connection: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_exceed_bl DataThunderDdosDstZoneStats#prog_conn_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_exceed_bl DataThunderDdosDstZoneStats#prog_conn_exceed_bl}
   */
   readonly progConnExceedBl?: number;
   /**
   * Connection: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_exceed_drop DataThunderDdosDstZoneStats#prog_conn_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_exceed_drop DataThunderDdosDstZoneStats#prog_conn_exceed_drop}
   */
   readonly progConnExceedDrop?: number;
   /**
   * Connection: Received Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_rcvd_exceed DataThunderDdosDstZoneStats#prog_conn_rcvd_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_rcvd_exceed DataThunderDdosDstZoneStats#prog_conn_rcvd_exceed}
   */
   readonly progConnRcvdExceed?: number;
   /**
   * Connection: Received to Sent Ratio Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_rcvd_sent_ratio_exceed DataThunderDdosDstZoneStats#prog_conn_rcvd_sent_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_rcvd_sent_ratio_exceed DataThunderDdosDstZoneStats#prog_conn_rcvd_sent_ratio_exceed}
   */
   readonly progConnRcvdSentRatioExceed?: number;
   /**
   * Sample Collected: Connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_samples DataThunderDdosDstZoneStats#prog_conn_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_samples DataThunderDdosDstZoneStats#prog_conn_samples}
   */
   readonly progConnSamples?: number;
   /**
   * Sample Processed: Connnection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_samples_processed DataThunderDdosDstZoneStats#prog_conn_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_samples_processed DataThunderDdosDstZoneStats#prog_conn_samples_processed}
   */
   readonly progConnSamplesProcessed?: number;
   /**
   * Connection: Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_sent_exceed DataThunderDdosDstZoneStats#prog_conn_sent_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_sent_exceed DataThunderDdosDstZoneStats#prog_conn_sent_exceed}
   */
   readonly progConnSentExceed?: number;
   /**
   * Connection: Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_conn_time_exceed DataThunderDdosDstZoneStats#prog_conn_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_conn_time_exceed DataThunderDdosDstZoneStats#prog_conn_time_exceed}
   */
   readonly progConnTimeExceed?: number;
   /**
   * Req-Resp: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_exceed_bl DataThunderDdosDstZoneStats#prog_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_exceed_bl DataThunderDdosDstZoneStats#prog_exceed_bl}
   */
   readonly progExceedBl?: number;
   /**
   * Req-Resp: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_exceed_drop DataThunderDdosDstZoneStats#prog_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_exceed_drop DataThunderDdosDstZoneStats#prog_exceed_drop}
   */
   readonly progExceedDrop?: number;
   /**
   * Req-Resp: First Request Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_first_req_time_exceed DataThunderDdosDstZoneStats#prog_first_req_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_first_req_time_exceed DataThunderDdosDstZoneStats#prog_first_req_time_exceed}
   */
   readonly progFirstReqTimeExceed?: number;
   /**
+  * Req-Resp: Client Query Time Exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_query_exceed DataThunderDdosDstZoneStats#prog_query_exceed}
+  */
+  readonly progQueryExceed?: number;
+  /**
   * Req-Resp: Request to Response Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_req_resp_time_exceed DataThunderDdosDstZoneStats#prog_req_resp_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_req_resp_time_exceed DataThunderDdosDstZoneStats#prog_req_resp_time_exceed}
   */
   readonly progReqRespTimeExceed?: number;
   /**
   * Sample Collected: Req-Resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_req_samples DataThunderDdosDstZoneStats#prog_req_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_req_samples DataThunderDdosDstZoneStats#prog_req_samples}
   */
   readonly progReqSamples?: number;
   /**
   * Sample Processed: Req-Resp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_req_samples_processed DataThunderDdosDstZoneStats#prog_req_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_req_samples_processed DataThunderDdosDstZoneStats#prog_req_samples_processed}
   */
   readonly progReqSamplesProcessed?: number;
   /**
   * Req-Resp: Request Length Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_request_len_exceed DataThunderDdosDstZoneStats#prog_request_len_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_request_len_exceed DataThunderDdosDstZoneStats#prog_request_len_exceed}
   */
   readonly progRequestLenExceed?: number;
   /**
-  * Req-Resp: Response to Request Ratio Exceed
+  * Req-Resp: Response Packet Rate Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_resp_req_ratio_exceed DataThunderDdosDstZoneStats#prog_resp_req_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_resp_pkt_rate_exceed DataThunderDdosDstZoneStats#prog_resp_pkt_rate_exceed}
   */
-  readonly progRespReqRatioExceed?: number;
+  readonly progRespPktRateExceed?: number;
   /**
   * Req-Resp: Response to Request Time Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_resp_req_time_exceed DataThunderDdosDstZoneStats#prog_resp_req_time_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_resp_req_time_exceed DataThunderDdosDstZoneStats#prog_resp_req_time_exceed}
   */
   readonly progRespReqTimeExceed?: number;
   /**
   * Req-Resp: Response Length Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_response_len_exceed DataThunderDdosDstZoneStats#prog_response_len_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_response_len_exceed DataThunderDdosDstZoneStats#prog_response_len_exceed}
   */
   readonly progResponseLenExceed?: number;
   /**
+  * Req-Resp: Server Think Time Exceed
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_think_exceed DataThunderDdosDstZoneStats#prog_think_exceed}
+  */
+  readonly progThinkExceed?: number;
+  /**
   * Time Window: Violation Exceed Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_exceed_bl DataThunderDdosDstZoneStats#prog_win_exceed_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_exceed_bl DataThunderDdosDstZoneStats#prog_win_exceed_bl}
   */
   readonly progWinExceedBl?: number;
   /**
   * Time Window: Violation Exceed Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_exceed_drop DataThunderDdosDstZoneStats#prog_win_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_exceed_drop DataThunderDdosDstZoneStats#prog_win_exceed_drop}
   */
   readonly progWinExceedDrop?: number;
   /**
   * Time Window: Received Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_rcvd_exceed DataThunderDdosDstZoneStats#prog_win_rcvd_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_rcvd_exceed DataThunderDdosDstZoneStats#prog_win_rcvd_exceed}
   */
   readonly progWinRcvdExceed?: number;
   /**
   * Time Window: Received to Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_rcvd_sent_ratio_exceed DataThunderDdosDstZoneStats#prog_win_rcvd_sent_ratio_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_rcvd_sent_ratio_exceed DataThunderDdosDstZoneStats#prog_win_rcvd_sent_ratio_exceed}
   */
   readonly progWinRcvdSentRatioExceed?: number;
   /**
   * Sample Collected: Time Window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_samples DataThunderDdosDstZoneStats#prog_win_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_samples DataThunderDdosDstZoneStats#prog_win_samples}
   */
   readonly progWinSamples?: number;
   /**
   * Sample Processed: Time Window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_samples_processed DataThunderDdosDstZoneStats#prog_win_samples_processed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_samples_processed DataThunderDdosDstZoneStats#prog_win_samples_processed}
   */
   readonly progWinSamplesProcessed?: number;
   /**
   * Time Window: Sent Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#prog_win_sent_exceed DataThunderDdosDstZoneStats#prog_win_sent_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#prog_win_sent_exceed DataThunderDdosDstZoneStats#prog_win_sent_exceed}
   */
   readonly progWinSentExceed?: number;
   /**
   * Per Addr Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_conn_limit_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_conn_limit_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_conn_limit_exceed}
   */
   readonly secondaryDstEntryConnLimitExceed?: number;
   /**
   * Per Addr Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_conn_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_conn_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_conn_rate_exceed}
   */
   readonly secondaryDstEntryConnRateExceed?: number;
   /**
   * Per Addr Rate: Frag Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_frag_pkt_rate_exceed}
   */
   readonly secondaryDstEntryFragPktRateExceed?: number;
   /**
   * Per Addr Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_kbit_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_kbit_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_kbit_rate_exceed}
   */
   readonly secondaryDstEntryKbitRateExceed?: number;
   /**
   * Per Addr Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_pkt_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_dst_entry_pkt_rate_exceed DataThunderDdosDstZoneStats#secondary_dst_entry_pkt_rate_exceed}
   */
   readonly secondaryDstEntryPktRateExceed?: number;
   /**
   * Per Addr Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_entry_aged DataThunderDdosDstZoneStats#secondary_entry_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_entry_aged DataThunderDdosDstZoneStats#secondary_entry_aged}
   */
   readonly secondaryEntryAged?: number;
   /**
   * Per Addr Entry Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_entry_hit DataThunderDdosDstZoneStats#secondary_entry_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_entry_hit DataThunderDdosDstZoneStats#secondary_entry_hit}
   */
   readonly secondaryEntryHit?: number;
   /**
   * Per Addr Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_entry_learn DataThunderDdosDstZoneStats#secondary_entry_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_entry_learn DataThunderDdosDstZoneStats#secondary_entry_learn}
   */
   readonly secondaryEntryLearn?: number;
   /**
   * Per Addr Entry Count Overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_entry_learning_thre_exceed DataThunderDdosDstZoneStats#secondary_entry_learning_thre_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_entry_learning_thre_exceed DataThunderDdosDstZoneStats#secondary_entry_learning_thre_exceed}
   */
   readonly secondaryEntryLearningThreExceed?: number;
   /**
   * Per Addr Entry Missed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_entry_miss DataThunderDdosDstZoneStats#secondary_entry_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_entry_miss DataThunderDdosDstZoneStats#secondary_entry_miss}
   */
   readonly secondaryEntryMiss?: number;
   /**
   * Per Addr Port Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_port_aged DataThunderDdosDstZoneStats#secondary_port_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_port_aged DataThunderDdosDstZoneStats#secondary_port_aged}
   */
   readonly secondaryPortAged?: number;
   /**
   * Per Addr Port Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#secondary_port_learn DataThunderDdosDstZoneStats#secondary_port_learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#secondary_port_learn DataThunderDdosDstZoneStats#secondary_port_learn}
   */
   readonly secondaryPortLearn?: number;
   /**
+  * Service Match Miss: Inbound Byte Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#service_miss_fwd_byte_rcvd DataThunderDdosDstZoneStats#service_miss_fwd_byte_rcvd}
+  */
+  readonly serviceMissFwdByteRcvd?: number;
+  /**
+  * Service Match Miss: Inbound Packet Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#service_miss_fwd_pkt_rcvd DataThunderDdosDstZoneStats#service_miss_fwd_pkt_rcvd}
+  */
+  readonly serviceMissFwdPktRcvd?: number;
+  /**
+  * Service Match Miss: Outbound Byte Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#service_miss_rev_byte_rcvd DataThunderDdosDstZoneStats#service_miss_rev_byte_rcvd}
+  */
+  readonly serviceMissRevByteRcvd?: number;
+  /**
+  * Service Match Miss: Outbound Packet Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#service_miss_rev_pkt_rcvd DataThunderDdosDstZoneStats#service_miss_rev_pkt_rcvd}
+  */
+  readonly serviceMissRevPktRcvd?: number;
+  /**
   * Sflow External Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#sflow_external_packets_sent DataThunderDdosDstZoneStats#sflow_external_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#sflow_external_packets_sent DataThunderDdosDstZoneStats#sflow_external_packets_sent}
   */
   readonly sflowExternalPacketsSent?: number;
   /**
   * Sflow External Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#sflow_external_samples_packed DataThunderDdosDstZoneStats#sflow_external_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#sflow_external_samples_packed DataThunderDdosDstZoneStats#sflow_external_samples_packed}
   */
   readonly sflowExternalSamplesPacked?: number;
   /**
   * Sflow Internal Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#sflow_internal_packets_sent DataThunderDdosDstZoneStats#sflow_internal_packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#sflow_internal_packets_sent DataThunderDdosDstZoneStats#sflow_internal_packets_sent}
   */
   readonly sflowInternalPacketsSent?: number;
   /**
   * Sflow Internal Samples Packed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#sflow_internal_samples_packed DataThunderDdosDstZoneStats#sflow_internal_samples_packed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#sflow_internal_samples_packed DataThunderDdosDstZoneStats#sflow_internal_samples_packed}
   */
   readonly sflowInternalSamplesPacked?: number;
   /**
+  * Small Window Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#small_window_rcv DataThunderDdosDstZoneStats#small_window_rcv}
+  */
+  readonly smallWindowRcv?: number;
+  /**
   * Source Entry ICMP Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#source_entry_icmp DataThunderDdosDstZoneStats#source_entry_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#source_entry_icmp DataThunderDdosDstZoneStats#source_entry_icmp}
   */
   readonly sourceEntryIcmp?: number;
   /**
   * Source Entry OTHER Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#source_entry_other DataThunderDdosDstZoneStats#source_entry_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#source_entry_other DataThunderDdosDstZoneStats#source_entry_other}
   */
   readonly sourceEntryOther?: number;
   /**
   * Source Entry TCP Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#source_entry_tcp DataThunderDdosDstZoneStats#source_entry_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#source_entry_tcp DataThunderDdosDstZoneStats#source_entry_tcp}
   */
   readonly sourceEntryTcp?: number;
   /**
   * Source Entry Total Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#source_entry_total DataThunderDdosDstZoneStats#source_entry_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#source_entry_total DataThunderDdosDstZoneStats#source_entry_total}
   */
   readonly sourceEntryTotal?: number;
   /**
   * Source Entry UDP Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#source_entry_udp DataThunderDdosDstZoneStats#source_entry_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#source_entry_udp DataThunderDdosDstZoneStats#source_entry_udp}
   */
   readonly sourceEntryUdp?: number;
   /**
   * Src Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_frag_drop DataThunderDdosDstZoneStats#src_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_frag_drop DataThunderDdosDstZoneStats#src_frag_drop}
   */
   readonly srcFragDrop?: number;
   /**
   * Src OTHER Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_blacklist DataThunderDdosDstZoneStats#src_other_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_blacklist DataThunderDdosDstZoneStats#src_other_filter_action_blacklist}
   */
   readonly srcOtherFilterActionBlacklist?: number;
   /**
   * Src OTHER Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_default_pass DataThunderDdosDstZoneStats#src_other_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_default_pass DataThunderDdosDstZoneStats#src_other_filter_action_default_pass}
   */
   readonly srcOtherFilterActionDefaultPass?: number;
   /**
   * Src OTHER Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_drop DataThunderDdosDstZoneStats#src_other_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_drop DataThunderDdosDstZoneStats#src_other_filter_action_drop}
   */
   readonly srcOtherFilterActionDrop?: number;
   /**
   * Src OTHER Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_whitelist DataThunderDdosDstZoneStats#src_other_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_other_filter_action_whitelist DataThunderDdosDstZoneStats#src_other_filter_action_whitelist}
   */
   readonly srcOtherFilterActionWhitelist?: number;
   /**
   * Src TCP Auth: ACK Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_blacklist DataThunderDdosDstZoneStats#src_tcp_action_on_ack_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_blacklist DataThunderDdosDstZoneStats#src_tcp_action_on_ack_blacklist}
   */
   readonly srcTcpActionOnAckBlacklist?: number;
   /**
   * Src TCP Auth: ACK Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_fail DataThunderDdosDstZoneStats#src_tcp_action_on_ack_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_fail DataThunderDdosDstZoneStats#src_tcp_action_on_ack_fail}
   */
   readonly srcTcpActionOnAckFail?: number;
   /**
   * Src TCP Auth: ACK Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_gap_drop DataThunderDdosDstZoneStats#src_tcp_action_on_ack_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_gap_drop DataThunderDdosDstZoneStats#src_tcp_action_on_ack_gap_drop}
   */
   readonly srcTcpActionOnAckGapDrop?: number;
   /**
   * Src TCP Auth: ACK Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_init DataThunderDdosDstZoneStats#src_tcp_action_on_ack_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_init DataThunderDdosDstZoneStats#src_tcp_action_on_ack_init}
   */
   readonly srcTcpActionOnAckInit?: number;
   /**
   * Src TCP Auth: ACK Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_reset DataThunderDdosDstZoneStats#src_tcp_action_on_ack_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_reset DataThunderDdosDstZoneStats#src_tcp_action_on_ack_reset}
   */
   readonly srcTcpActionOnAckReset?: number;
   /**
   * Src TCP Auth: ACK Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_timeout DataThunderDdosDstZoneStats#src_tcp_action_on_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_ack_timeout DataThunderDdosDstZoneStats#src_tcp_action_on_ack_timeout}
   */
   readonly srcTcpActionOnAckTimeout?: number;
   /**
   * Src TCP Auth: SYN Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_blacklist DataThunderDdosDstZoneStats#src_tcp_action_on_syn_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_blacklist DataThunderDdosDstZoneStats#src_tcp_action_on_syn_blacklist}
   */
   readonly srcTcpActionOnSynBlacklist?: number;
   /**
   * Src TCP Auth: SYN Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_fail DataThunderDdosDstZoneStats#src_tcp_action_on_syn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_fail DataThunderDdosDstZoneStats#src_tcp_action_on_syn_fail}
   */
   readonly srcTcpActionOnSynFail?: number;
   /**
   * Src TCP Auth: SYN Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_gap_drop DataThunderDdosDstZoneStats#src_tcp_action_on_syn_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_gap_drop DataThunderDdosDstZoneStats#src_tcp_action_on_syn_gap_drop}
   */
   readonly srcTcpActionOnSynGapDrop?: number;
   /**
   * Src TCP Auth: SYN Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_init DataThunderDdosDstZoneStats#src_tcp_action_on_syn_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_init DataThunderDdosDstZoneStats#src_tcp_action_on_syn_init}
   */
   readonly srcTcpActionOnSynInit?: number;
   /**
   * Src TCP Auth: SYN Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_reset DataThunderDdosDstZoneStats#src_tcp_action_on_syn_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_reset DataThunderDdosDstZoneStats#src_tcp_action_on_syn_reset}
   */
   readonly srcTcpActionOnSynReset?: number;
   /**
   * Src TCP Auth: SYN Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_timeout DataThunderDdosDstZoneStats#src_tcp_action_on_syn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_action_on_syn_timeout DataThunderDdosDstZoneStats#src_tcp_action_on_syn_timeout}
   */
   readonly srcTcpActionOnSynTimeout?: number;
   /**
   * Src TCP Rate: Conn Pkt Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_conn_prate_excd DataThunderDdosDstZoneStats#src_tcp_conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_conn_prate_excd DataThunderDdosDstZoneStats#src_tcp_conn_prate_excd}
   */
   readonly srcTcpConnPrateExcd?: number;
   /**
   * Src TCP Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_blacklist DataThunderDdosDstZoneStats#src_tcp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_blacklist DataThunderDdosDstZoneStats#src_tcp_filter_action_blacklist}
   */
   readonly srcTcpFilterActionBlacklist?: number;
   /**
   * Src TCP Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_default_pass DataThunderDdosDstZoneStats#src_tcp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_default_pass DataThunderDdosDstZoneStats#src_tcp_filter_action_default_pass}
   */
   readonly srcTcpFilterActionDefaultPass?: number;
   /**
   * Src TCP Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_drop DataThunderDdosDstZoneStats#src_tcp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_drop DataThunderDdosDstZoneStats#src_tcp_filter_action_drop}
   */
   readonly srcTcpFilterActionDrop?: number;
   /**
   * Src TCP Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_whitelist DataThunderDdosDstZoneStats#src_tcp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_filter_action_whitelist DataThunderDdosDstZoneStats#src_tcp_filter_action_whitelist}
   */
   readonly srcTcpFilterActionWhitelist?: number;
   /**
   * Src TCP Out-Of-Seq Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_out_of_seq_excd DataThunderDdosDstZoneStats#src_tcp_out_of_seq_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_out_of_seq_excd DataThunderDdosDstZoneStats#src_tcp_out_of_seq_excd}
   */
   readonly srcTcpOutOfSeqExcd?: number;
   /**
   * Src TCP Retransmit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_retransmit_excd DataThunderDdosDstZoneStats#src_tcp_retransmit_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_retransmit_excd DataThunderDdosDstZoneStats#src_tcp_retransmit_excd}
   */
   readonly srcTcpRetransmitExcd?: number;
   /**
   * Src TCP Auth: RST Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_rst_cookie_fail DataThunderDdosDstZoneStats#src_tcp_rst_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_rst_cookie_fail DataThunderDdosDstZoneStats#src_tcp_rst_cookie_fail}
   */
   readonly srcTcpRstCookieFail?: number;
   /**
+  * Src TCP Small-Window Exceeded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_small_window_excd DataThunderDdosDstZoneStats#src_tcp_small_window_excd}
+  */
+  readonly srcTcpSmallWindowExcd?: number;
+  /**
   * Src TCP Auth: SYN Auth Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_auth_fail DataThunderDdosDstZoneStats#src_tcp_syn_auth_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_auth_fail DataThunderDdosDstZoneStats#src_tcp_syn_auth_fail}
   */
   readonly srcTcpSynAuthFail?: number;
   /**
   * Src TCP Auth: SYN Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_cookie_fail DataThunderDdosDstZoneStats#src_tcp_syn_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_cookie_fail DataThunderDdosDstZoneStats#src_tcp_syn_cookie_fail}
   */
   readonly srcTcpSynCookieFail?: number;
   /**
   * Src TCP Auth: SYN Cookie Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_cookie_sent DataThunderDdosDstZoneStats#src_tcp_syn_cookie_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_syn_cookie_sent DataThunderDdosDstZoneStats#src_tcp_syn_cookie_sent}
   */
   readonly srcTcpSynCookieSent?: number;
   /**
   * Src TCP Auth: Unauth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_unauth_drop DataThunderDdosDstZoneStats#src_tcp_unauth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_unauth_drop DataThunderDdosDstZoneStats#src_tcp_unauth_drop}
   */
   readonly srcTcpUnauthDrop?: number;
   /**
   * Src TCP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_wellknown_sport_drop DataThunderDdosDstZoneStats#src_tcp_wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_wellknown_sport_drop DataThunderDdosDstZoneStats#src_tcp_wellknown_sport_drop}
   */
   readonly srcTcpWellknownSportDrop?: number;
   /**
   * Src TCP Zero-Window Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_tcp_zero_window_excd DataThunderDdosDstZoneStats#src_tcp_zero_window_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_tcp_zero_window_excd DataThunderDdosDstZoneStats#src_tcp_zero_window_excd}
   */
   readonly srcTcpZeroWindowExcd?: number;
   /**
   * Src UDP Auth: Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_auth_timeout DataThunderDdosDstZoneStats#src_udp_auth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_auth_timeout DataThunderDdosDstZoneStats#src_udp_auth_timeout}
   */
   readonly srcUdpAuthTimeout?: number;
   /**
   * Src UDP Rate: Conn Pkt Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_conn_prate_excd DataThunderDdosDstZoneStats#src_udp_conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_conn_prate_excd DataThunderDdosDstZoneStats#src_udp_conn_prate_excd}
   */
   readonly srcUdpConnPrateExcd?: number;
   /**
   * Src UDP Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_blacklist DataThunderDdosDstZoneStats#src_udp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_blacklist DataThunderDdosDstZoneStats#src_udp_filter_action_blacklist}
   */
   readonly srcUdpFilterActionBlacklist?: number;
   /**
   * Src UDP Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_default_pass DataThunderDdosDstZoneStats#src_udp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_default_pass DataThunderDdosDstZoneStats#src_udp_filter_action_default_pass}
   */
   readonly srcUdpFilterActionDefaultPass?: number;
   /**
   * Src UDP Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_drop DataThunderDdosDstZoneStats#src_udp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_drop DataThunderDdosDstZoneStats#src_udp_filter_action_drop}
   */
   readonly srcUdpFilterActionDrop?: number;
   /**
   * Src UDP Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_whitelist DataThunderDdosDstZoneStats#src_udp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_filter_action_whitelist DataThunderDdosDstZoneStats#src_udp_filter_action_whitelist}
   */
   readonly srcUdpFilterActionWhitelist?: number;
   /**
   * Src UDP Payload Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_max_payload DataThunderDdosDstZoneStats#src_udp_max_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_max_payload DataThunderDdosDstZoneStats#src_udp_max_payload}
   */
   readonly srcUdpMaxPayload?: number;
   /**
   * Src UDP Payload Too Small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_min_payload DataThunderDdosDstZoneStats#src_udp_min_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_min_payload DataThunderDdosDstZoneStats#src_udp_min_payload}
   */
   readonly srcUdpMinPayload?: number;
   /**
   * Src UDP NTP Monlist Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_ntp_monlist_req DataThunderDdosDstZoneStats#src_udp_ntp_monlist_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_ntp_monlist_req DataThunderDdosDstZoneStats#src_udp_ntp_monlist_req}
   */
   readonly srcUdpNtpMonlistReq?: number;
   /**
   * Src UDP NTP Monlist Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_ntp_monlist_resp DataThunderDdosDstZoneStats#src_udp_ntp_monlist_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_ntp_monlist_resp DataThunderDdosDstZoneStats#src_udp_ntp_monlist_resp}
   */
   readonly srcUdpNtpMonlistResp?: number;
   /**
   * Src UDP Auth: Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_gap_drop DataThunderDdosDstZoneStats#src_udp_retry_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_gap_drop DataThunderDdosDstZoneStats#src_udp_retry_gap_drop}
   */
   readonly srcUdpRetryGapDrop?: number;
   /**
   * Src UDP Auth: Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_init DataThunderDdosDstZoneStats#src_udp_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_init DataThunderDdosDstZoneStats#src_udp_retry_init}
   */
   readonly srcUdpRetryInit?: number;
   /**
   * Src UDP Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_pass DataThunderDdosDstZoneStats#src_udp_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_retry_pass DataThunderDdosDstZoneStats#src_udp_retry_pass}
   */
   readonly srcUdpRetryPass?: number;
   /**
   * Src UDP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#src_udp_wellknown_sport_drop DataThunderDdosDstZoneStats#src_udp_wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#src_udp_wellknown_sport_drop DataThunderDdosDstZoneStats#src_udp_wellknown_sport_drop}
   */
   readonly srcUdpWellknownSportDrop?: number;
   /**
   * TCP ACK Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_ack_rcvd DataThunderDdosDstZoneStats#tcp_ack_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_ack_rcvd DataThunderDdosDstZoneStats#tcp_ack_rcvd}
   */
   readonly tcpAckRcvd?: number;
   /**
   * TCP FIN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_fin_rcvd DataThunderDdosDstZoneStats#tcp_fin_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_fin_rcvd DataThunderDdosDstZoneStats#tcp_fin_rcvd}
   */
   readonly tcpFinRcvd?: number;
   /**
   * TCP Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_fwd_recv DataThunderDdosDstZoneStats#tcp_fwd_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_fwd_recv DataThunderDdosDstZoneStats#tcp_fwd_recv}
   */
   readonly tcpFwdRecv?: number;
   /**
   * TCP Invalid SYN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_invalid_syn DataThunderDdosDstZoneStats#tcp_invalid_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_invalid_syn DataThunderDdosDstZoneStats#tcp_invalid_syn}
   */
   readonly tcpInvalidSyn?: number;
   /**
+  * TCP Invalid SYNACK Received
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_invalid_synack DataThunderDdosDstZoneStats#tcp_invalid_synack}
+  */
+  readonly tcpInvalidSynack?: number;
+  /**
   * TCP SYN Retransmit Exceeded Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_rexmit_syn_limit_bl DataThunderDdosDstZoneStats#tcp_rexmit_syn_limit_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_rexmit_syn_limit_bl DataThunderDdosDstZoneStats#tcp_rexmit_syn_limit_bl}
   */
   readonly tcpRexmitSynLimitBl?: number;
   /**
   * TCP SYN Retransmit Exceeded Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_rexmit_syn_limit_drop DataThunderDdosDstZoneStats#tcp_rexmit_syn_limit_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_rexmit_syn_limit_drop DataThunderDdosDstZoneStats#tcp_rexmit_syn_limit_drop}
   */
   readonly tcpRexmitSynLimitDrop?: number;
   /**
   * TCP RST Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_rst_rcvd DataThunderDdosDstZoneStats#tcp_rst_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_rst_rcvd DataThunderDdosDstZoneStats#tcp_rst_rcvd}
   */
   readonly tcpRstRcvd?: number;
   /**
   * TCP SYN ACK Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_syn_ack_rcvd DataThunderDdosDstZoneStats#tcp_syn_ack_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_syn_ack_rcvd DataThunderDdosDstZoneStats#tcp_syn_ack_rcvd}
   */
   readonly tcpSynAckRcvd?: number;
   /**
   * TCP Auth: SYN Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_syn_cookie_fail DataThunderDdosDstZoneStats#tcp_syn_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_syn_cookie_fail DataThunderDdosDstZoneStats#tcp_syn_cookie_fail}
   */
   readonly tcpSynCookieFail?: number;
   /**
   * TCP Inbound SYN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#tcp_syn_rcvd DataThunderDdosDstZoneStats#tcp_syn_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#tcp_syn_rcvd DataThunderDdosDstZoneStats#tcp_syn_rcvd}
   */
   readonly tcpSynRcvd?: number;
   /**
+  * Token Authentication Current Salt Matched
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_current_salt_matched DataThunderDdosDstZoneStats#token_auth_current_salt_matched}
+  */
+  readonly tokenAuthCurrentSaltMatched?: number;
+  /**
+  * Token Authentication Invalid Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_invalid_packets DataThunderDdosDstZoneStats#token_auth_invalid_packets}
+  */
+  readonly tokenAuthInvalidPackets?: number;
+  /**
+  * Token Authentication Mismatched Packets
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_mismatched_packets DataThunderDdosDstZoneStats#token_auth_mismatched_packets}
+  */
+  readonly tokenAuthMismatchedPackets?: number;
+  /**
+  * Token Authentication Previous Salt Matched
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_previous_salt_matched DataThunderDdosDstZoneStats#token_auth_previous_salt_matched}
+  */
+  readonly tokenAuthPreviousSaltMatched?: number;
+  /**
+  * Token Authentication Session Created
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_session_created DataThunderDdosDstZoneStats#token_auth_session_created}
+  */
+  readonly tokenAuthSessionCreated?: number;
+  /**
+  * Token Authentication Session Created Fail
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#token_auth_session_created_fail DataThunderDdosDstZoneStats#token_auth_session_created_fail}
+  */
+  readonly tokenAuthSessionCreatedFail?: number;
+  /**
   * UDP Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#udp_fwd_recv DataThunderDdosDstZoneStats#udp_fwd_recv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#udp_fwd_recv DataThunderDdosDstZoneStats#udp_fwd_recv}
   */
   readonly udpFwdRecv?: number;
   /**
   * Victim Identification: IP Entry Aged
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#victim_ip_aged DataThunderDdosDstZoneStats#victim_ip_aged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#victim_ip_aged DataThunderDdosDstZoneStats#victim_ip_aged}
   */
   readonly victimIpAged?: number;
   /**
   * Victim Identification: IP Entry Learned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#victim_ip_learned DataThunderDdosDstZoneStats#victim_ip_learned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#victim_ip_learned DataThunderDdosDstZoneStats#victim_ip_learned}
   */
   readonly victimIpLearned?: number;
   /**
   * Dst Blackhole Inject
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_blackhole_inject DataThunderDdosDstZoneStats#zone_blackhole_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_blackhole_inject DataThunderDdosDstZoneStats#zone_blackhole_inject}
   */
   readonly zoneBlackholeInject?: number;
   /**
   * Dst Blackhole Withdraw
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_blackhole_withdraw DataThunderDdosDstZoneStats#zone_blackhole_withdraw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_blackhole_withdraw DataThunderDdosDstZoneStats#zone_blackhole_withdraw}
   */
   readonly zoneBlackholeWithdraw?: number;
   /**
   * Fragmented Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_frag_drop DataThunderDdosDstZoneStats#zone_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_frag_drop DataThunderDdosDstZoneStats#zone_frag_drop}
   */
   readonly zoneFragDrop?: number;
   /**
   * Fragmented Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_frag_rcvd DataThunderDdosDstZoneStats#zone_frag_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_frag_rcvd DataThunderDdosDstZoneStats#zone_frag_rcvd}
   */
   readonly zoneFragRcvd?: number;
   /**
   * ICMP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_bytes_drop DataThunderDdosDstZoneStats#zone_icmp_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_bytes_drop DataThunderDdosDstZoneStats#zone_icmp_bytes_drop}
   */
   readonly zoneIcmpBytesDrop?: number;
   /**
   * ICMP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_drop DataThunderDdosDstZoneStats#zone_icmp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_drop DataThunderDdosDstZoneStats#zone_icmp_drop}
   */
   readonly zoneIcmpDrop?: number;
   /**
   * ICMP Dst IP-Proto Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_icmp_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_icmp_frag_pkt_rate_exceed}
   */
   readonly zoneIcmpFragPktRateExceed?: number;
   /**
   * ICMP Src Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_icmp_frag_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_icmp_frag_src_rate_drop}
   */
   readonly zoneIcmpFragSrcRateDrop?: number;
   /**
   * ICMP Dst Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_icmp_kibit_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_icmp_kibit_rate_drop}
   */
   readonly zoneIcmpKibitRateDrop?: number;
   /**
   * ICMP Dst Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_icmp_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_icmp_pkt_rate_exceed}
   */
   readonly zoneIcmpPktRateExceed?: number;
   /**
   * ICMP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_rcvd DataThunderDdosDstZoneStats#zone_icmp_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_rcvd DataThunderDdosDstZoneStats#zone_icmp_pkt_rcvd}
   */
   readonly zoneIcmpPktRcvd?: number;
   /**
   * ICMP Total Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_sent DataThunderDdosDstZoneStats#zone_icmp_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_pkt_sent DataThunderDdosDstZoneStats#zone_icmp_pkt_sent}
   */
   readonly zoneIcmpPktSent?: number;
   /**
   * ICMP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_src_drop DataThunderDdosDstZoneStats#zone_icmp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_src_drop DataThunderDdosDstZoneStats#zone_icmp_src_drop}
   */
   readonly zoneIcmpSrcDrop?: number;
   /**
   * ICMP Src Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_icmp_src_rate_drop DataThunderDdosDstZoneStats#zone_icmp_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_icmp_src_rate_drop DataThunderDdosDstZoneStats#zone_icmp_src_rate_drop}
   */
   readonly zoneIcmpSrcRateDrop?: number;
   /**
   * IP-Proto Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_ip_proto_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_ip_proto_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_ip_proto_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_ip_proto_kbit_rate_exceed}
   */
   readonly zoneIpProtoKbitRateExceed?: number;
   /**
   * IP-Proto Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_ip_proto_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_ip_proto_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_ip_proto_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_ip_proto_pkt_rate_exceed}
   */
   readonly zoneIpProtoPktRateExceed?: number;
   /**
   * OTHER Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_bytes_drop DataThunderDdosDstZoneStats#zone_other_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_bytes_drop DataThunderDdosDstZoneStats#zone_other_bytes_drop}
   */
   readonly zoneOtherBytesDrop?: number;
   /**
   * OTHER Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_drop DataThunderDdosDstZoneStats#zone_other_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_drop DataThunderDdosDstZoneStats#zone_other_drop}
   */
   readonly zoneOtherDrop?: number;
   /**
   * OTHER Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_blacklist DataThunderDdosDstZoneStats#zone_other_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_blacklist DataThunderDdosDstZoneStats#zone_other_filter_action_blacklist}
   */
   readonly zoneOtherFilterActionBlacklist?: number;
   /**
   * OTHER Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_default_pass DataThunderDdosDstZoneStats#zone_other_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_default_pass DataThunderDdosDstZoneStats#zone_other_filter_action_default_pass}
   */
   readonly zoneOtherFilterActionDefaultPass?: number;
   /**
   * OTHER Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_drop DataThunderDdosDstZoneStats#zone_other_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_drop DataThunderDdosDstZoneStats#zone_other_filter_action_drop}
   */
   readonly zoneOtherFilterActionDrop?: number;
   /**
   * OTHER Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_whitelist DataThunderDdosDstZoneStats#zone_other_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_action_whitelist DataThunderDdosDstZoneStats#zone_other_filter_action_whitelist}
   */
   readonly zoneOtherFilterActionWhitelist?: number;
   /**
   * OTHER Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_match DataThunderDdosDstZoneStats#zone_other_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_match DataThunderDdosDstZoneStats#zone_other_filter_match}
   */
   readonly zoneOtherFilterMatch?: number;
   /**
   * OTHER Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_not_match DataThunderDdosDstZoneStats#zone_other_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_filter_not_match DataThunderDdosDstZoneStats#zone_other_filter_not_match}
   */
   readonly zoneOtherFilterNotMatch?: number;
   /**
   * OTHER Dst IP-Proto Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_other_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_other_frag_pkt_rate_exceed}
   */
   readonly zoneOtherFragPktRateExceed?: number;
   /**
   * OTHER Src Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_other_frag_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_other_frag_src_rate_drop}
   */
   readonly zoneOtherFragSrcRateDrop?: number;
   /**
   * OTHER Dst IP-Proto Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_kibit_rate_drop DataThunderDdosDstZoneStats#zone_other_kibit_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_kibit_rate_drop DataThunderDdosDstZoneStats#zone_other_kibit_rate_drop}
   */
   readonly zoneOtherKibitRateDrop?: number;
   /**
   * OTHER Dst IP-Proto Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_other_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_other_pkt_rate_exceed}
   */
   readonly zoneOtherPktRateExceed?: number;
   /**
   * OTHER Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_rcvd DataThunderDdosDstZoneStats#zone_other_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_rcvd DataThunderDdosDstZoneStats#zone_other_pkt_rcvd}
   */
   readonly zoneOtherPktRcvd?: number;
   /**
   * OTHER Total Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_sent DataThunderDdosDstZoneStats#zone_other_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_pkt_sent DataThunderDdosDstZoneStats#zone_other_pkt_sent}
   */
   readonly zoneOtherPktSent?: number;
   /**
   * OTHER Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_src_drop DataThunderDdosDstZoneStats#zone_other_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_src_drop DataThunderDdosDstZoneStats#zone_other_src_drop}
   */
   readonly zoneOtherSrcDrop?: number;
   /**
   * OTHER Src Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_other_src_rate_drop DataThunderDdosDstZoneStats#zone_other_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_other_src_rate_drop DataThunderDdosDstZoneStats#zone_other_src_rate_drop}
   */
   readonly zoneOtherSrcRateDrop?: number;
   /**
   * Dst IPv4/v6 Out No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_out_no_route DataThunderDdosDstZoneStats#zone_out_no_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_out_no_route DataThunderDdosDstZoneStats#zone_out_no_route}
   */
   readonly zoneOutNoRoute?: number;
   /**
   * UDP Payload Too Large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_payload_too_big DataThunderDdosDstZoneStats#zone_payload_too_big}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_payload_too_big DataThunderDdosDstZoneStats#zone_payload_too_big}
   */
   readonly zonePayloadTooBig?: number;
   /**
   * UDP Payload Too Small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_payload_too_small DataThunderDdosDstZoneStats#zone_payload_too_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_payload_too_small DataThunderDdosDstZoneStats#zone_payload_too_small}
   */
   readonly zonePayloadTooSmall?: number;
   /**
   * Inbound: Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_pkt_sent DataThunderDdosDstZoneStats#zone_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_pkt_sent DataThunderDdosDstZoneStats#zone_pkt_sent}
   */
   readonly zonePktSent?: number;
   /**
   * Dst Port Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_bl DataThunderDdosDstZoneStats#zone_port_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_bl DataThunderDdosDstZoneStats#zone_port_bl}
   */
   readonly zonePortBl?: number;
   /**
   * Port Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_conn_limit_exceed DataThunderDdosDstZoneStats#zone_port_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_conn_limit_exceed DataThunderDdosDstZoneStats#zone_port_conn_limit_exceed}
   */
   readonly zonePortConnLimitExceed?: number;
   /**
   * Port Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_conn_rate_exceed DataThunderDdosDstZoneStats#zone_port_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_conn_rate_exceed DataThunderDdosDstZoneStats#zone_port_conn_rate_exceed}
   */
   readonly zonePortConnRateExceed?: number;
   /**
   * Port Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_port_kbit_rate_exceed}
   */
   readonly zonePortKbitRateExceed?: number;
   /**
   * Port Rate: KiBit Pkt Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_kbit_rate_exceed_pkt DataThunderDdosDstZoneStats#zone_port_kbit_rate_exceed_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_kbit_rate_exceed_pkt DataThunderDdosDstZoneStats#zone_port_kbit_rate_exceed_pkt}
   */
   readonly zonePortKbitRateExceedPkt?: number;
   /**
   * Port Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_port_pkt_rate_exceed}
   */
   readonly zonePortPktRateExceed?: number;
   /**
   * Dst Port Undefined Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_undef_drop DataThunderDdosDstZoneStats#zone_port_undef_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_undef_drop DataThunderDdosDstZoneStats#zone_port_undef_drop}
   */
   readonly zonePortUndefDrop?: number;
   /**
   * Dst Port undefined Hit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_port_undef_hit DataThunderDdosDstZoneStats#zone_port_undef_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_port_undef_hit DataThunderDdosDstZoneStats#zone_port_undef_hit}
   */
   readonly zonePortUndefHit?: number;
   /**
   * Dst SrcPort Blacklist Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_port_bl DataThunderDdosDstZoneStats#zone_src_port_bl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_port_bl DataThunderDdosDstZoneStats#zone_src_port_bl}
   */
   readonly zoneSrcPortBl?: number;
   /**
   * SrcPort Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_port_conn_limit_exceed DataThunderDdosDstZoneStats#zone_src_port_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_port_conn_limit_exceed DataThunderDdosDstZoneStats#zone_src_port_conn_limit_exceed}
   */
   readonly zoneSrcPortConnLimitExceed?: number;
   /**
   * SrcPort Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_port_conn_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_port_conn_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_conn_rate_exceed}
   */
   readonly zoneSrcPortConnRateExceed?: number;
   /**
   * SrcPort Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_port_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_kbit_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_port_kbit_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_kbit_rate_exceed}
   */
   readonly zoneSrcPortKbitRateExceed?: number;
   /**
   * SrcPort Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_port_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_port_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_src_port_pkt_rate_exceed}
   */
   readonly zoneSrcPortPktRateExceed?: number;
   /**
   * Src UDP Auth: Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_src_udp_retry_timeout_blacklist DataThunderDdosDstZoneStats#zone_src_udp_retry_timeout_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_src_udp_retry_timeout_blacklist DataThunderDdosDstZoneStats#zone_src_udp_retry_timeout_blacklist}
   */
   readonly zoneSrcUdpRetryTimeoutBlacklist?: number;
   /**
   * TCP Auth: ACK Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_blacklist DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_blacklist DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_blacklist}
   */
   readonly zoneTcpActionOnAckBlacklist?: number;
   /**
   * TCP Auth: ACK Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_fail DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_fail DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_fail}
   */
   readonly zoneTcpActionOnAckFail?: number;
   /**
   * TCP Auth: ACK Retry Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_gap_drop DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_gap_drop DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_gap_drop}
   */
   readonly zoneTcpActionOnAckGapDrop?: number;
   /**
   * TCP Auth: ACK Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_init DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_init DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_init}
   */
   readonly zoneTcpActionOnAckInit?: number;
   /**
   * TCP Auth: ACK Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_pass DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_pass DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_pass}
   */
   readonly zoneTcpActionOnAckPass?: number;
   /**
   * TCP Auth: ACK Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_reset DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_reset DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_reset}
   */
   readonly zoneTcpActionOnAckReset?: number;
   /**
   * TCP Auth: ACK Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_timeout DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_ack_timeout DataThunderDdosDstZoneStats#zone_tcp_action_on_ack_timeout}
   */
   readonly zoneTcpActionOnAckTimeout?: number;
   /**
   * TCP Auth: SYN Retry Timeout Blacklisted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_blacklist DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_blacklist DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_blacklist}
   */
   readonly zoneTcpActionOnSynBlacklist?: number;
   /**
   * TCP Auth: SYN Retry Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_fail DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_fail DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_fail}
   */
   readonly zoneTcpActionOnSynFail?: number;
   /**
   * TCP Auth: SYN Retry-Gap Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_gap_drop DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_gap_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_gap_drop DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_gap_drop}
   */
   readonly zoneTcpActionOnSynGapDrop?: number;
   /**
   * TCP Auth: SYN Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_init DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_init DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_init}
   */
   readonly zoneTcpActionOnSynInit?: number;
   /**
   * TCP Auth: SYN Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_pass DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_pass DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_pass}
   */
   readonly zoneTcpActionOnSynPass?: number;
   /**
   * TCP Auth: SYN Retry Timeout Reset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_reset DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_reset DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_reset}
   */
   readonly zoneTcpActionOnSynReset?: number;
   /**
   * TCP Auth: SYN Retry Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_timeout DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_action_on_syn_timeout DataThunderDdosDstZoneStats#zone_tcp_action_on_syn_timeout}
   */
   readonly zoneTcpActionOnSynTimeout?: number;
   /**
   * TCP Dst IP-Proto Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_any_exceed DataThunderDdosDstZoneStats#zone_tcp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_any_exceed DataThunderDdosDstZoneStats#zone_tcp_any_exceed}
   */
   readonly zoneTcpAnyExceed?: number;
   /**
   * TCP Auth: SYN Cookie Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_auth DataThunderDdosDstZoneStats#zone_tcp_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_auth DataThunderDdosDstZoneStats#zone_tcp_auth}
   */
   readonly zoneTcpAuth?: number;
   /**
   * TCP Auth: SYN Auth Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_auth_pass DataThunderDdosDstZoneStats#zone_tcp_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_auth_pass DataThunderDdosDstZoneStats#zone_tcp_auth_pass}
   */
   readonly zoneTcpAuthPass?: number;
   /**
   * TCP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_bytes_drop DataThunderDdosDstZoneStats#zone_tcp_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_bytes_drop DataThunderDdosDstZoneStats#zone_tcp_bytes_drop}
   */
   readonly zoneTcpBytesDrop?: number;
   /**
   * TCP Dst IP-Proto Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_limit_exceed DataThunderDdosDstZoneStats#zone_tcp_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_limit_exceed DataThunderDdosDstZoneStats#zone_tcp_conn_limit_exceed}
   */
   readonly zoneTcpConnLimitExceed?: number;
   /**
   * TCP Rate: Conn Pkt Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_prate_excd DataThunderDdosDstZoneStats#zone_tcp_conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_prate_excd DataThunderDdosDstZoneStats#zone_tcp_conn_prate_excd}
   */
   readonly zoneTcpConnPrateExcd?: number;
   /**
   * TCP Dst IP-Proto Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_conn_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_conn_rate_exceed}
   */
   readonly zoneTcpConnRateExceed?: number;
   /**
   * TCP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_drop DataThunderDdosDstZoneStats#zone_tcp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_drop DataThunderDdosDstZoneStats#zone_tcp_drop}
   */
   readonly zoneTcpDrop?: number;
   /**
   * TCP Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_blacklist DataThunderDdosDstZoneStats#zone_tcp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_blacklist DataThunderDdosDstZoneStats#zone_tcp_filter_action_blacklist}
   */
   readonly zoneTcpFilterActionBlacklist?: number;
   /**
   * TCP Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_default_pass DataThunderDdosDstZoneStats#zone_tcp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_default_pass DataThunderDdosDstZoneStats#zone_tcp_filter_action_default_pass}
   */
   readonly zoneTcpFilterActionDefaultPass?: number;
   /**
   * TCP Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_drop DataThunderDdosDstZoneStats#zone_tcp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_drop DataThunderDdosDstZoneStats#zone_tcp_filter_action_drop}
   */
   readonly zoneTcpFilterActionDrop?: number;
   /**
   * TCP Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_whitelist DataThunderDdosDstZoneStats#zone_tcp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_action_whitelist DataThunderDdosDstZoneStats#zone_tcp_filter_action_whitelist}
   */
   readonly zoneTcpFilterActionWhitelist?: number;
   /**
   * TCP Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_match DataThunderDdosDstZoneStats#zone_tcp_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_match DataThunderDdosDstZoneStats#zone_tcp_filter_match}
   */
   readonly zoneTcpFilterMatch?: number;
   /**
   * TCP Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_not_match DataThunderDdosDstZoneStats#zone_tcp_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_filter_not_match DataThunderDdosDstZoneStats#zone_tcp_filter_not_match}
   */
   readonly zoneTcpFilterNotMatch?: number;
   /**
   * TCP Dst IP-Proto Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_frag_pkt_rate_exceed}
   */
   readonly zoneTcpFragPktRateExceed?: number;
   /**
   * TCP Src Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_tcp_frag_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_tcp_frag_src_rate_drop}
   */
   readonly zoneTcpFragSrcRateDrop?: number;
   /**
   * TCP Dst IP-Proto Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_tcp_kibit_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_tcp_kibit_rate_drop}
   */
   readonly zoneTcpKibitRateDrop?: number;
   /**
   * TCP Out-Of-Seq Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_out_of_seq_excd DataThunderDdosDstZoneStats#zone_tcp_out_of_seq_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_out_of_seq_excd DataThunderDdosDstZoneStats#zone_tcp_out_of_seq_excd}
   */
   readonly zoneTcpOutOfSeqExcd?: number;
   /**
   * TCP Dst IP-Proto Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_tcp_pkt_rate_exceed}
   */
   readonly zoneTcpPktRateExceed?: number;
   /**
   * TCP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_rcvd DataThunderDdosDstZoneStats#zone_tcp_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_rcvd DataThunderDdosDstZoneStats#zone_tcp_pkt_rcvd}
   */
   readonly zoneTcpPktRcvd?: number;
   /**
   * TCP Total Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_sent DataThunderDdosDstZoneStats#zone_tcp_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_pkt_sent DataThunderDdosDstZoneStats#zone_tcp_pkt_sent}
   */
   readonly zoneTcpPktSent?: number;
   /**
   * TCP Port Rate: Total Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_port_any_exceed DataThunderDdosDstZoneStats#zone_tcp_port_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_port_any_exceed DataThunderDdosDstZoneStats#zone_tcp_port_any_exceed}
   */
   readonly zoneTcpPortAnyExceed?: number;
   /**
   * TCP Retransmit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_retransmit_excd DataThunderDdosDstZoneStats#zone_tcp_retransmit_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_retransmit_excd DataThunderDdosDstZoneStats#zone_tcp_retransmit_excd}
   */
   readonly zoneTcpRetransmitExcd?: number;
   /**
   * TCP Auth: RST Cookie Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_rst_cookie_fail DataThunderDdosDstZoneStats#zone_tcp_rst_cookie_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_rst_cookie_fail DataThunderDdosDstZoneStats#zone_tcp_rst_cookie_fail}
   */
   readonly zoneTcpRstCookieFail?: number;
   /**
   * TCP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_session_created DataThunderDdosDstZoneStats#zone_tcp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_session_created DataThunderDdosDstZoneStats#zone_tcp_session_created}
   */
   readonly zoneTcpSessionCreated?: number;
   /**
+  * TCP Small-Window Exceeded
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_small_window_excd DataThunderDdosDstZoneStats#zone_tcp_small_window_excd}
+  */
+  readonly zoneTcpSmallWindowExcd?: number;
+  /**
   * TCP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_src_drop DataThunderDdosDstZoneStats#zone_tcp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_src_drop DataThunderDdosDstZoneStats#zone_tcp_src_drop}
   */
   readonly zoneTcpSrcDrop?: number;
   /**
   * TCP Src Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_src_rate_drop DataThunderDdosDstZoneStats#zone_tcp_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_src_rate_drop DataThunderDdosDstZoneStats#zone_tcp_src_rate_drop}
   */
   readonly zoneTcpSrcRateDrop?: number;
   /**
   * TCP Total SYN Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_syn DataThunderDdosDstZoneStats#zone_tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_syn DataThunderDdosDstZoneStats#zone_tcp_syn}
   */
   readonly zoneTcpSyn?: number;
   /**
   * TCP SYN Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_syn_drop DataThunderDdosDstZoneStats#zone_tcp_syn_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_syn_drop DataThunderDdosDstZoneStats#zone_tcp_syn_drop}
   */
   readonly zoneTcpSynDrop?: number;
   /**
   * TCP Auth: Unauth Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_unauth_drop DataThunderDdosDstZoneStats#zone_tcp_unauth_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_unauth_drop DataThunderDdosDstZoneStats#zone_tcp_unauth_drop}
   */
   readonly zoneTcpUnauthDrop?: number;
   /**
   * TCP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_wellknown_sport_drop DataThunderDdosDstZoneStats#zone_tcp_wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_wellknown_sport_drop DataThunderDdosDstZoneStats#zone_tcp_wellknown_sport_drop}
   */
   readonly zoneTcpWellknownSportDrop?: number;
   /**
   * TCP Zero-Window Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_tcp_zero_window_excd DataThunderDdosDstZoneStats#zone_tcp_zero_window_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_tcp_zero_window_excd DataThunderDdosDstZoneStats#zone_tcp_zero_window_excd}
   */
   readonly zoneTcpZeroWindowExcd?: number;
   /**
   * UDP Dst IP-Proto Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_any_exceed DataThunderDdosDstZoneStats#zone_udp_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_any_exceed DataThunderDdosDstZoneStats#zone_udp_any_exceed}
   */
   readonly zoneUdpAnyExceed?: number;
   /**
   * UDP Total Bytes Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_bytes_drop DataThunderDdosDstZoneStats#zone_udp_bytes_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_bytes_drop DataThunderDdosDstZoneStats#zone_udp_bytes_drop}
   */
   readonly zoneUdpBytesDrop?: number;
   /**
   * UDP Dst IP-Proto Limit: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_limit_exceed DataThunderDdosDstZoneStats#zone_udp_conn_limit_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_limit_exceed DataThunderDdosDstZoneStats#zone_udp_conn_limit_exceed}
   */
   readonly zoneUdpConnLimitExceed?: number;
   /**
   * UDP Rate: Conn Pkt Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_prate_excd DataThunderDdosDstZoneStats#zone_udp_conn_prate_excd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_prate_excd DataThunderDdosDstZoneStats#zone_udp_conn_prate_excd}
   */
   readonly zoneUdpConnPrateExcd?: number;
   /**
   * UDP Dst IP-Proto Rate: Conn Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_rate_exceed DataThunderDdosDstZoneStats#zone_udp_conn_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_conn_rate_exceed DataThunderDdosDstZoneStats#zone_udp_conn_rate_exceed}
   */
   readonly zoneUdpConnRateExceed?: number;
   /**
   * UDP Total Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_drop DataThunderDdosDstZoneStats#zone_udp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_drop DataThunderDdosDstZoneStats#zone_udp_drop}
   */
   readonly zoneUdpDrop?: number;
   /**
   * UDP Filter Action Blacklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_blacklist DataThunderDdosDstZoneStats#zone_udp_filter_action_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_blacklist DataThunderDdosDstZoneStats#zone_udp_filter_action_blacklist}
   */
   readonly zoneUdpFilterActionBlacklist?: number;
   /**
   * UDP Filter Action Default Pass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_default_pass DataThunderDdosDstZoneStats#zone_udp_filter_action_default_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_default_pass DataThunderDdosDstZoneStats#zone_udp_filter_action_default_pass}
   */
   readonly zoneUdpFilterActionDefaultPass?: number;
   /**
   * UDP Filter Action Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_drop DataThunderDdosDstZoneStats#zone_udp_filter_action_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_drop DataThunderDdosDstZoneStats#zone_udp_filter_action_drop}
   */
   readonly zoneUdpFilterActionDrop?: number;
   /**
   * UDP Filter Action WL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_whitelist DataThunderDdosDstZoneStats#zone_udp_filter_action_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_action_whitelist DataThunderDdosDstZoneStats#zone_udp_filter_action_whitelist}
   */
   readonly zoneUdpFilterActionWhitelist?: number;
   /**
   * UDP Filter Match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_match DataThunderDdosDstZoneStats#zone_udp_filter_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_match DataThunderDdosDstZoneStats#zone_udp_filter_match}
   */
   readonly zoneUdpFilterMatch?: number;
   /**
   * UDP Filter Not Matched on Pkt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_not_match DataThunderDdosDstZoneStats#zone_udp_filter_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_filter_not_match DataThunderDdosDstZoneStats#zone_udp_filter_not_match}
   */
   readonly zoneUdpFilterNotMatch?: number;
   /**
   * UDP Dst IP-Proto Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_udp_frag_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_frag_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_udp_frag_pkt_rate_exceed}
   */
   readonly zoneUdpFragPktRateExceed?: number;
   /**
   * UDP Src Rate: Frag Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_udp_frag_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_frag_src_rate_drop DataThunderDdosDstZoneStats#zone_udp_frag_src_rate_drop}
   */
   readonly zoneUdpFragSrcRateDrop?: number;
   /**
   * UDP Dst IP-Proto Rate: KiBit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_udp_kibit_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_kibit_rate_drop DataThunderDdosDstZoneStats#zone_udp_kibit_rate_drop}
   */
   readonly zoneUdpKibitRateDrop?: number;
   /**
   * UDP NTP Monlist Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_ntp_monlist_req DataThunderDdosDstZoneStats#zone_udp_ntp_monlist_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_ntp_monlist_req DataThunderDdosDstZoneStats#zone_udp_ntp_monlist_req}
   */
   readonly zoneUdpNtpMonlistReq?: number;
   /**
   * UDP NTP Monlist Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_ntp_monlist_resp DataThunderDdosDstZoneStats#zone_udp_ntp_monlist_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_ntp_monlist_resp DataThunderDdosDstZoneStats#zone_udp_ntp_monlist_resp}
   */
   readonly zoneUdpNtpMonlistResp?: number;
   /**
   * UDP Dst IP-Proto Rate: Packet Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_udp_pkt_rate_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_rate_exceed DataThunderDdosDstZoneStats#zone_udp_pkt_rate_exceed}
   */
   readonly zoneUdpPktRateExceed?: number;
   /**
   * UDP Total Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_rcvd DataThunderDdosDstZoneStats#zone_udp_pkt_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_rcvd DataThunderDdosDstZoneStats#zone_udp_pkt_rcvd}
   */
   readonly zoneUdpPktRcvd?: number;
   /**
   * UDP Total Packets Forwarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_sent DataThunderDdosDstZoneStats#zone_udp_pkt_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_pkt_sent DataThunderDdosDstZoneStats#zone_udp_pkt_sent}
   */
   readonly zoneUdpPktSent?: number;
   /**
   * UDP Port Rate: Total Exceed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_port_any_exceed DataThunderDdosDstZoneStats#zone_udp_port_any_exceed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_port_any_exceed DataThunderDdosDstZoneStats#zone_udp_port_any_exceed}
   */
   readonly zoneUdpPortAnyExceed?: number;
   /**
   * UDP Auth: Retry Init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_retry_init DataThunderDdosDstZoneStats#zone_udp_retry_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_retry_init DataThunderDdosDstZoneStats#zone_udp_retry_init}
   */
   readonly zoneUdpRetryInit?: number;
   /**
   * UDP Auth: Retry Passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_retry_pass DataThunderDdosDstZoneStats#zone_udp_retry_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_retry_pass DataThunderDdosDstZoneStats#zone_udp_retry_pass}
   */
   readonly zoneUdpRetryPass?: number;
   /**
   * UDP Sessions Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_session_created DataThunderDdosDstZoneStats#zone_udp_session_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_session_created DataThunderDdosDstZoneStats#zone_udp_session_created}
   */
   readonly zoneUdpSessionCreated?: number;
   /**
   * UDP Src Packets Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_src_drop DataThunderDdosDstZoneStats#zone_udp_src_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_src_drop DataThunderDdosDstZoneStats#zone_udp_src_drop}
   */
   readonly zoneUdpSrcDrop?: number;
   /**
   * UDP Src Rate: Total Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_src_rate_drop DataThunderDdosDstZoneStats#zone_udp_src_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_src_rate_drop DataThunderDdosDstZoneStats#zone_udp_src_rate_drop}
   */
   readonly zoneUdpSrcRateDrop?: number;
   /**
   * UDP SrcPort Wellknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#zone_udp_wellknown_sport_drop DataThunderDdosDstZoneStats#zone_udp_wellknown_sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#zone_udp_wellknown_sport_drop DataThunderDdosDstZoneStats#zone_udp_wellknown_sport_drop}
   */
   readonly zoneUdpWellknownSportDrop?: number;
 }
@@ -1987,10 +2119,16 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     inbound_bytes_sent: cdktf.numberToTerraform(struct!.inboundBytesSent),
     ingress_bytes: cdktf.numberToTerraform(struct!.ingressBytes),
     ingress_packets: cdktf.numberToTerraform(struct!.ingressPackets),
+    multi_pu_src_hash_pu1: cdktf.numberToTerraform(struct!.multiPuSrcHashPu1),
+    multi_pu_src_hash_pu2: cdktf.numberToTerraform(struct!.multiPuSrcHashPu2),
     outbound_bytes_drop: cdktf.numberToTerraform(struct!.outboundBytesDrop),
     outbound_bytes_sent: cdktf.numberToTerraform(struct!.outboundBytesSent),
     outbound_drop: cdktf.numberToTerraform(struct!.outboundDrop),
     outbound_pkt_sent: cdktf.numberToTerraform(struct!.outboundPktSent),
+    port_zero_fwd_byte_rcvd: cdktf.numberToTerraform(struct!.portZeroFwdByteRcvd),
+    port_zero_fwd_pkt_rcvd: cdktf.numberToTerraform(struct!.portZeroFwdPktRcvd),
+    port_zero_rev_byte_rcvd: cdktf.numberToTerraform(struct!.portZeroRevByteRcvd),
+    port_zero_rev_pkt_rcvd: cdktf.numberToTerraform(struct!.portZeroRevPktRcvd),
     prog_conn_exceed_bl: cdktf.numberToTerraform(struct!.progConnExceedBl),
     prog_conn_exceed_drop: cdktf.numberToTerraform(struct!.progConnExceedDrop),
     prog_conn_rcvd_exceed: cdktf.numberToTerraform(struct!.progConnRcvdExceed),
@@ -2002,13 +2140,15 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     prog_exceed_bl: cdktf.numberToTerraform(struct!.progExceedBl),
     prog_exceed_drop: cdktf.numberToTerraform(struct!.progExceedDrop),
     prog_first_req_time_exceed: cdktf.numberToTerraform(struct!.progFirstReqTimeExceed),
+    prog_query_exceed: cdktf.numberToTerraform(struct!.progQueryExceed),
     prog_req_resp_time_exceed: cdktf.numberToTerraform(struct!.progReqRespTimeExceed),
     prog_req_samples: cdktf.numberToTerraform(struct!.progReqSamples),
     prog_req_samples_processed: cdktf.numberToTerraform(struct!.progReqSamplesProcessed),
     prog_request_len_exceed: cdktf.numberToTerraform(struct!.progRequestLenExceed),
-    prog_resp_req_ratio_exceed: cdktf.numberToTerraform(struct!.progRespReqRatioExceed),
+    prog_resp_pkt_rate_exceed: cdktf.numberToTerraform(struct!.progRespPktRateExceed),
     prog_resp_req_time_exceed: cdktf.numberToTerraform(struct!.progRespReqTimeExceed),
     prog_response_len_exceed: cdktf.numberToTerraform(struct!.progResponseLenExceed),
+    prog_think_exceed: cdktf.numberToTerraform(struct!.progThinkExceed),
     prog_win_exceed_bl: cdktf.numberToTerraform(struct!.progWinExceedBl),
     prog_win_exceed_drop: cdktf.numberToTerraform(struct!.progWinExceedDrop),
     prog_win_rcvd_exceed: cdktf.numberToTerraform(struct!.progWinRcvdExceed),
@@ -2028,10 +2168,15 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     secondary_entry_miss: cdktf.numberToTerraform(struct!.secondaryEntryMiss),
     secondary_port_aged: cdktf.numberToTerraform(struct!.secondaryPortAged),
     secondary_port_learn: cdktf.numberToTerraform(struct!.secondaryPortLearn),
+    service_miss_fwd_byte_rcvd: cdktf.numberToTerraform(struct!.serviceMissFwdByteRcvd),
+    service_miss_fwd_pkt_rcvd: cdktf.numberToTerraform(struct!.serviceMissFwdPktRcvd),
+    service_miss_rev_byte_rcvd: cdktf.numberToTerraform(struct!.serviceMissRevByteRcvd),
+    service_miss_rev_pkt_rcvd: cdktf.numberToTerraform(struct!.serviceMissRevPktRcvd),
     sflow_external_packets_sent: cdktf.numberToTerraform(struct!.sflowExternalPacketsSent),
     sflow_external_samples_packed: cdktf.numberToTerraform(struct!.sflowExternalSamplesPacked),
     sflow_internal_packets_sent: cdktf.numberToTerraform(struct!.sflowInternalPacketsSent),
     sflow_internal_samples_packed: cdktf.numberToTerraform(struct!.sflowInternalSamplesPacked),
+    small_window_rcv: cdktf.numberToTerraform(struct!.smallWindowRcv),
     source_entry_icmp: cdktf.numberToTerraform(struct!.sourceEntryIcmp),
     source_entry_other: cdktf.numberToTerraform(struct!.sourceEntryOther),
     source_entry_tcp: cdktf.numberToTerraform(struct!.sourceEntryTcp),
@@ -2062,6 +2207,7 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     src_tcp_out_of_seq_excd: cdktf.numberToTerraform(struct!.srcTcpOutOfSeqExcd),
     src_tcp_retransmit_excd: cdktf.numberToTerraform(struct!.srcTcpRetransmitExcd),
     src_tcp_rst_cookie_fail: cdktf.numberToTerraform(struct!.srcTcpRstCookieFail),
+    src_tcp_small_window_excd: cdktf.numberToTerraform(struct!.srcTcpSmallWindowExcd),
     src_tcp_syn_auth_fail: cdktf.numberToTerraform(struct!.srcTcpSynAuthFail),
     src_tcp_syn_cookie_fail: cdktf.numberToTerraform(struct!.srcTcpSynCookieFail),
     src_tcp_syn_cookie_sent: cdktf.numberToTerraform(struct!.srcTcpSynCookieSent),
@@ -2086,12 +2232,19 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     tcp_fin_rcvd: cdktf.numberToTerraform(struct!.tcpFinRcvd),
     tcp_fwd_recv: cdktf.numberToTerraform(struct!.tcpFwdRecv),
     tcp_invalid_syn: cdktf.numberToTerraform(struct!.tcpInvalidSyn),
+    tcp_invalid_synack: cdktf.numberToTerraform(struct!.tcpInvalidSynack),
     tcp_rexmit_syn_limit_bl: cdktf.numberToTerraform(struct!.tcpRexmitSynLimitBl),
     tcp_rexmit_syn_limit_drop: cdktf.numberToTerraform(struct!.tcpRexmitSynLimitDrop),
     tcp_rst_rcvd: cdktf.numberToTerraform(struct!.tcpRstRcvd),
     tcp_syn_ack_rcvd: cdktf.numberToTerraform(struct!.tcpSynAckRcvd),
     tcp_syn_cookie_fail: cdktf.numberToTerraform(struct!.tcpSynCookieFail),
     tcp_syn_rcvd: cdktf.numberToTerraform(struct!.tcpSynRcvd),
+    token_auth_current_salt_matched: cdktf.numberToTerraform(struct!.tokenAuthCurrentSaltMatched),
+    token_auth_invalid_packets: cdktf.numberToTerraform(struct!.tokenAuthInvalidPackets),
+    token_auth_mismatched_packets: cdktf.numberToTerraform(struct!.tokenAuthMismatchedPackets),
+    token_auth_previous_salt_matched: cdktf.numberToTerraform(struct!.tokenAuthPreviousSaltMatched),
+    token_auth_session_created: cdktf.numberToTerraform(struct!.tokenAuthSessionCreated),
+    token_auth_session_created_fail: cdktf.numberToTerraform(struct!.tokenAuthSessionCreatedFail),
     udp_fwd_recv: cdktf.numberToTerraform(struct!.udpFwdRecv),
     victim_ip_aged: cdktf.numberToTerraform(struct!.victimIpAged),
     victim_ip_learned: cdktf.numberToTerraform(struct!.victimIpLearned),
@@ -2184,6 +2337,7 @@ export function dataThunderDdosDstZoneStatsStatsToTerraform(struct?: DataThunder
     zone_tcp_retransmit_excd: cdktf.numberToTerraform(struct!.zoneTcpRetransmitExcd),
     zone_tcp_rst_cookie_fail: cdktf.numberToTerraform(struct!.zoneTcpRstCookieFail),
     zone_tcp_session_created: cdktf.numberToTerraform(struct!.zoneTcpSessionCreated),
+    zone_tcp_small_window_excd: cdktf.numberToTerraform(struct!.zoneTcpSmallWindowExcd),
     zone_tcp_src_drop: cdktf.numberToTerraform(struct!.zoneTcpSrcDrop),
     zone_tcp_src_rate_drop: cdktf.numberToTerraform(struct!.zoneTcpSrcRateDrop),
     zone_tcp_syn: cdktf.numberToTerraform(struct!.zoneTcpSyn),
@@ -2714,6 +2868,18 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    multi_pu_src_hash_pu1: {
+      value: cdktf.numberToHclTerraform(struct!.multiPuSrcHashPu1),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    multi_pu_src_hash_pu2: {
+      value: cdktf.numberToHclTerraform(struct!.multiPuSrcHashPu2),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     outbound_bytes_drop: {
       value: cdktf.numberToHclTerraform(struct!.outboundBytesDrop),
       isBlock: false,
@@ -2734,6 +2900,30 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
     },
     outbound_pkt_sent: {
       value: cdktf.numberToHclTerraform(struct!.outboundPktSent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_zero_fwd_byte_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.portZeroFwdByteRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_zero_fwd_pkt_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.portZeroFwdPktRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_zero_rev_byte_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.portZeroRevByteRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    port_zero_rev_pkt_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.portZeroRevPktRcvd),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2804,6 +2994,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    prog_query_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progQueryExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     prog_req_resp_time_exceed: {
       value: cdktf.numberToHclTerraform(struct!.progReqRespTimeExceed),
       isBlock: false,
@@ -2828,8 +3024,8 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
-    prog_resp_req_ratio_exceed: {
-      value: cdktf.numberToHclTerraform(struct!.progRespReqRatioExceed),
+    prog_resp_pkt_rate_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progRespPktRateExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2842,6 +3038,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
     },
     prog_response_len_exceed: {
       value: cdktf.numberToHclTerraform(struct!.progResponseLenExceed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    prog_think_exceed: {
+      value: cdktf.numberToHclTerraform(struct!.progThinkExceed),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -2960,6 +3162,30 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    service_miss_fwd_byte_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.serviceMissFwdByteRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_miss_fwd_pkt_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.serviceMissFwdPktRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_miss_rev_byte_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.serviceMissRevByteRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    service_miss_rev_pkt_rcvd: {
+      value: cdktf.numberToHclTerraform(struct!.serviceMissRevPktRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     sflow_external_packets_sent: {
       value: cdktf.numberToHclTerraform(struct!.sflowExternalPacketsSent),
       isBlock: false,
@@ -2980,6 +3206,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
     },
     sflow_internal_samples_packed: {
       value: cdktf.numberToHclTerraform(struct!.sflowInternalSamplesPacked),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    small_window_rcv: {
+      value: cdktf.numberToHclTerraform(struct!.smallWindowRcv),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3164,6 +3396,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    src_tcp_small_window_excd: {
+      value: cdktf.numberToHclTerraform(struct!.srcTcpSmallWindowExcd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     src_tcp_syn_auth_fail: {
       value: cdktf.numberToHclTerraform(struct!.srcTcpSynAuthFail),
       isBlock: false,
@@ -3308,6 +3546,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    tcp_invalid_synack: {
+      value: cdktf.numberToHclTerraform(struct!.tcpInvalidSynack),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     tcp_rexmit_syn_limit_bl: {
       value: cdktf.numberToHclTerraform(struct!.tcpRexmitSynLimitBl),
       isBlock: false,
@@ -3340,6 +3584,42 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
     },
     tcp_syn_rcvd: {
       value: cdktf.numberToHclTerraform(struct!.tcpSynRcvd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_current_salt_matched: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthCurrentSaltMatched),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_invalid_packets: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthInvalidPackets),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_mismatched_packets: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthMismatchedPackets),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_previous_salt_matched: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthPreviousSaltMatched),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_session_created: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthSessionCreated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    token_auth_session_created_fail: {
+      value: cdktf.numberToHclTerraform(struct!.tokenAuthSessionCreatedFail),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -3896,6 +4176,12 @@ export function dataThunderDdosDstZoneStatsStatsToHclTerraform(struct?: DataThun
       type: "simple",
       storageClassType: "number",
     },
+    zone_tcp_small_window_excd: {
+      value: cdktf.numberToHclTerraform(struct!.zoneTcpSmallWindowExcd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     zone_tcp_src_drop: {
       value: cdktf.numberToHclTerraform(struct!.zoneTcpSrcDrop),
       isBlock: false,
@@ -4444,6 +4730,14 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.ingressPackets = this._ingressPackets;
     }
+    if (this._multiPuSrcHashPu1 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiPuSrcHashPu1 = this._multiPuSrcHashPu1;
+    }
+    if (this._multiPuSrcHashPu2 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.multiPuSrcHashPu2 = this._multiPuSrcHashPu2;
+    }
     if (this._outboundBytesDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.outboundBytesDrop = this._outboundBytesDrop;
@@ -4459,6 +4753,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     if (this._outboundPktSent !== undefined) {
       hasAnyValues = true;
       internalValueResult.outboundPktSent = this._outboundPktSent;
+    }
+    if (this._portZeroFwdByteRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portZeroFwdByteRcvd = this._portZeroFwdByteRcvd;
+    }
+    if (this._portZeroFwdPktRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portZeroFwdPktRcvd = this._portZeroFwdPktRcvd;
+    }
+    if (this._portZeroRevByteRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portZeroRevByteRcvd = this._portZeroRevByteRcvd;
+    }
+    if (this._portZeroRevPktRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.portZeroRevPktRcvd = this._portZeroRevPktRcvd;
     }
     if (this._progConnExceedBl !== undefined) {
       hasAnyValues = true;
@@ -4504,6 +4814,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.progFirstReqTimeExceed = this._progFirstReqTimeExceed;
     }
+    if (this._progQueryExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progQueryExceed = this._progQueryExceed;
+    }
     if (this._progReqRespTimeExceed !== undefined) {
       hasAnyValues = true;
       internalValueResult.progReqRespTimeExceed = this._progReqRespTimeExceed;
@@ -4520,9 +4834,9 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.progRequestLenExceed = this._progRequestLenExceed;
     }
-    if (this._progRespReqRatioExceed !== undefined) {
+    if (this._progRespPktRateExceed !== undefined) {
       hasAnyValues = true;
-      internalValueResult.progRespReqRatioExceed = this._progRespReqRatioExceed;
+      internalValueResult.progRespPktRateExceed = this._progRespPktRateExceed;
     }
     if (this._progRespReqTimeExceed !== undefined) {
       hasAnyValues = true;
@@ -4531,6 +4845,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     if (this._progResponseLenExceed !== undefined) {
       hasAnyValues = true;
       internalValueResult.progResponseLenExceed = this._progResponseLenExceed;
+    }
+    if (this._progThinkExceed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.progThinkExceed = this._progThinkExceed;
     }
     if (this._progWinExceedBl !== undefined) {
       hasAnyValues = true;
@@ -4608,6 +4926,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.secondaryPortLearn = this._secondaryPortLearn;
     }
+    if (this._serviceMissFwdByteRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceMissFwdByteRcvd = this._serviceMissFwdByteRcvd;
+    }
+    if (this._serviceMissFwdPktRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceMissFwdPktRcvd = this._serviceMissFwdPktRcvd;
+    }
+    if (this._serviceMissRevByteRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceMissRevByteRcvd = this._serviceMissRevByteRcvd;
+    }
+    if (this._serviceMissRevPktRcvd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.serviceMissRevPktRcvd = this._serviceMissRevPktRcvd;
+    }
     if (this._sflowExternalPacketsSent !== undefined) {
       hasAnyValues = true;
       internalValueResult.sflowExternalPacketsSent = this._sflowExternalPacketsSent;
@@ -4623,6 +4957,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     if (this._sflowInternalSamplesPacked !== undefined) {
       hasAnyValues = true;
       internalValueResult.sflowInternalSamplesPacked = this._sflowInternalSamplesPacked;
+    }
+    if (this._smallWindowRcv !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.smallWindowRcv = this._smallWindowRcv;
     }
     if (this._sourceEntryIcmp !== undefined) {
       hasAnyValues = true;
@@ -4744,6 +5082,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.srcTcpRstCookieFail = this._srcTcpRstCookieFail;
     }
+    if (this._srcTcpSmallWindowExcd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.srcTcpSmallWindowExcd = this._srcTcpSmallWindowExcd;
+    }
     if (this._srcTcpSynAuthFail !== undefined) {
       hasAnyValues = true;
       internalValueResult.srcTcpSynAuthFail = this._srcTcpSynAuthFail;
@@ -4840,6 +5182,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.tcpInvalidSyn = this._tcpInvalidSyn;
     }
+    if (this._tcpInvalidSynack !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpInvalidSynack = this._tcpInvalidSynack;
+    }
     if (this._tcpRexmitSynLimitBl !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpRexmitSynLimitBl = this._tcpRexmitSynLimitBl;
@@ -4863,6 +5209,30 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     if (this._tcpSynRcvd !== undefined) {
       hasAnyValues = true;
       internalValueResult.tcpSynRcvd = this._tcpSynRcvd;
+    }
+    if (this._tokenAuthCurrentSaltMatched !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthCurrentSaltMatched = this._tokenAuthCurrentSaltMatched;
+    }
+    if (this._tokenAuthInvalidPackets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthInvalidPackets = this._tokenAuthInvalidPackets;
+    }
+    if (this._tokenAuthMismatchedPackets !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthMismatchedPackets = this._tokenAuthMismatchedPackets;
+    }
+    if (this._tokenAuthPreviousSaltMatched !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthPreviousSaltMatched = this._tokenAuthPreviousSaltMatched;
+    }
+    if (this._tokenAuthSessionCreated !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthSessionCreated = this._tokenAuthSessionCreated;
+    }
+    if (this._tokenAuthSessionCreatedFail !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tokenAuthSessionCreatedFail = this._tokenAuthSessionCreatedFail;
     }
     if (this._udpFwdRecv !== undefined) {
       hasAnyValues = true;
@@ -5232,6 +5602,10 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.zoneTcpSessionCreated = this._zoneTcpSessionCreated;
     }
+    if (this._zoneTcpSmallWindowExcd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.zoneTcpSmallWindowExcd = this._zoneTcpSmallWindowExcd;
+    }
     if (this._zoneTcpSrcDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.zoneTcpSrcDrop = this._zoneTcpSrcDrop;
@@ -5455,10 +5829,16 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._inboundBytesSent = undefined;
       this._ingressBytes = undefined;
       this._ingressPackets = undefined;
+      this._multiPuSrcHashPu1 = undefined;
+      this._multiPuSrcHashPu2 = undefined;
       this._outboundBytesDrop = undefined;
       this._outboundBytesSent = undefined;
       this._outboundDrop = undefined;
       this._outboundPktSent = undefined;
+      this._portZeroFwdByteRcvd = undefined;
+      this._portZeroFwdPktRcvd = undefined;
+      this._portZeroRevByteRcvd = undefined;
+      this._portZeroRevPktRcvd = undefined;
       this._progConnExceedBl = undefined;
       this._progConnExceedDrop = undefined;
       this._progConnRcvdExceed = undefined;
@@ -5470,13 +5850,15 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._progExceedBl = undefined;
       this._progExceedDrop = undefined;
       this._progFirstReqTimeExceed = undefined;
+      this._progQueryExceed = undefined;
       this._progReqRespTimeExceed = undefined;
       this._progReqSamples = undefined;
       this._progReqSamplesProcessed = undefined;
       this._progRequestLenExceed = undefined;
-      this._progRespReqRatioExceed = undefined;
+      this._progRespPktRateExceed = undefined;
       this._progRespReqTimeExceed = undefined;
       this._progResponseLenExceed = undefined;
+      this._progThinkExceed = undefined;
       this._progWinExceedBl = undefined;
       this._progWinExceedDrop = undefined;
       this._progWinRcvdExceed = undefined;
@@ -5496,10 +5878,15 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._secondaryEntryMiss = undefined;
       this._secondaryPortAged = undefined;
       this._secondaryPortLearn = undefined;
+      this._serviceMissFwdByteRcvd = undefined;
+      this._serviceMissFwdPktRcvd = undefined;
+      this._serviceMissRevByteRcvd = undefined;
+      this._serviceMissRevPktRcvd = undefined;
       this._sflowExternalPacketsSent = undefined;
       this._sflowExternalSamplesPacked = undefined;
       this._sflowInternalPacketsSent = undefined;
       this._sflowInternalSamplesPacked = undefined;
+      this._smallWindowRcv = undefined;
       this._sourceEntryIcmp = undefined;
       this._sourceEntryOther = undefined;
       this._sourceEntryTcp = undefined;
@@ -5530,6 +5917,7 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._srcTcpOutOfSeqExcd = undefined;
       this._srcTcpRetransmitExcd = undefined;
       this._srcTcpRstCookieFail = undefined;
+      this._srcTcpSmallWindowExcd = undefined;
       this._srcTcpSynAuthFail = undefined;
       this._srcTcpSynCookieFail = undefined;
       this._srcTcpSynCookieSent = undefined;
@@ -5554,12 +5942,19 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._tcpFinRcvd = undefined;
       this._tcpFwdRecv = undefined;
       this._tcpInvalidSyn = undefined;
+      this._tcpInvalidSynack = undefined;
       this._tcpRexmitSynLimitBl = undefined;
       this._tcpRexmitSynLimitDrop = undefined;
       this._tcpRstRcvd = undefined;
       this._tcpSynAckRcvd = undefined;
       this._tcpSynCookieFail = undefined;
       this._tcpSynRcvd = undefined;
+      this._tokenAuthCurrentSaltMatched = undefined;
+      this._tokenAuthInvalidPackets = undefined;
+      this._tokenAuthMismatchedPackets = undefined;
+      this._tokenAuthPreviousSaltMatched = undefined;
+      this._tokenAuthSessionCreated = undefined;
+      this._tokenAuthSessionCreatedFail = undefined;
       this._udpFwdRecv = undefined;
       this._victimIpAged = undefined;
       this._victimIpLearned = undefined;
@@ -5652,6 +6047,7 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._zoneTcpRetransmitExcd = undefined;
       this._zoneTcpRstCookieFail = undefined;
       this._zoneTcpSessionCreated = undefined;
+      this._zoneTcpSmallWindowExcd = undefined;
       this._zoneTcpSrcDrop = undefined;
       this._zoneTcpSrcRateDrop = undefined;
       this._zoneTcpSyn = undefined;
@@ -5770,10 +6166,16 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._inboundBytesSent = value.inboundBytesSent;
       this._ingressBytes = value.ingressBytes;
       this._ingressPackets = value.ingressPackets;
+      this._multiPuSrcHashPu1 = value.multiPuSrcHashPu1;
+      this._multiPuSrcHashPu2 = value.multiPuSrcHashPu2;
       this._outboundBytesDrop = value.outboundBytesDrop;
       this._outboundBytesSent = value.outboundBytesSent;
       this._outboundDrop = value.outboundDrop;
       this._outboundPktSent = value.outboundPktSent;
+      this._portZeroFwdByteRcvd = value.portZeroFwdByteRcvd;
+      this._portZeroFwdPktRcvd = value.portZeroFwdPktRcvd;
+      this._portZeroRevByteRcvd = value.portZeroRevByteRcvd;
+      this._portZeroRevPktRcvd = value.portZeroRevPktRcvd;
       this._progConnExceedBl = value.progConnExceedBl;
       this._progConnExceedDrop = value.progConnExceedDrop;
       this._progConnRcvdExceed = value.progConnRcvdExceed;
@@ -5785,13 +6187,15 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._progExceedBl = value.progExceedBl;
       this._progExceedDrop = value.progExceedDrop;
       this._progFirstReqTimeExceed = value.progFirstReqTimeExceed;
+      this._progQueryExceed = value.progQueryExceed;
       this._progReqRespTimeExceed = value.progReqRespTimeExceed;
       this._progReqSamples = value.progReqSamples;
       this._progReqSamplesProcessed = value.progReqSamplesProcessed;
       this._progRequestLenExceed = value.progRequestLenExceed;
-      this._progRespReqRatioExceed = value.progRespReqRatioExceed;
+      this._progRespPktRateExceed = value.progRespPktRateExceed;
       this._progRespReqTimeExceed = value.progRespReqTimeExceed;
       this._progResponseLenExceed = value.progResponseLenExceed;
+      this._progThinkExceed = value.progThinkExceed;
       this._progWinExceedBl = value.progWinExceedBl;
       this._progWinExceedDrop = value.progWinExceedDrop;
       this._progWinRcvdExceed = value.progWinRcvdExceed;
@@ -5811,10 +6215,15 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._secondaryEntryMiss = value.secondaryEntryMiss;
       this._secondaryPortAged = value.secondaryPortAged;
       this._secondaryPortLearn = value.secondaryPortLearn;
+      this._serviceMissFwdByteRcvd = value.serviceMissFwdByteRcvd;
+      this._serviceMissFwdPktRcvd = value.serviceMissFwdPktRcvd;
+      this._serviceMissRevByteRcvd = value.serviceMissRevByteRcvd;
+      this._serviceMissRevPktRcvd = value.serviceMissRevPktRcvd;
       this._sflowExternalPacketsSent = value.sflowExternalPacketsSent;
       this._sflowExternalSamplesPacked = value.sflowExternalSamplesPacked;
       this._sflowInternalPacketsSent = value.sflowInternalPacketsSent;
       this._sflowInternalSamplesPacked = value.sflowInternalSamplesPacked;
+      this._smallWindowRcv = value.smallWindowRcv;
       this._sourceEntryIcmp = value.sourceEntryIcmp;
       this._sourceEntryOther = value.sourceEntryOther;
       this._sourceEntryTcp = value.sourceEntryTcp;
@@ -5845,6 +6254,7 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._srcTcpOutOfSeqExcd = value.srcTcpOutOfSeqExcd;
       this._srcTcpRetransmitExcd = value.srcTcpRetransmitExcd;
       this._srcTcpRstCookieFail = value.srcTcpRstCookieFail;
+      this._srcTcpSmallWindowExcd = value.srcTcpSmallWindowExcd;
       this._srcTcpSynAuthFail = value.srcTcpSynAuthFail;
       this._srcTcpSynCookieFail = value.srcTcpSynCookieFail;
       this._srcTcpSynCookieSent = value.srcTcpSynCookieSent;
@@ -5869,12 +6279,19 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._tcpFinRcvd = value.tcpFinRcvd;
       this._tcpFwdRecv = value.tcpFwdRecv;
       this._tcpInvalidSyn = value.tcpInvalidSyn;
+      this._tcpInvalidSynack = value.tcpInvalidSynack;
       this._tcpRexmitSynLimitBl = value.tcpRexmitSynLimitBl;
       this._tcpRexmitSynLimitDrop = value.tcpRexmitSynLimitDrop;
       this._tcpRstRcvd = value.tcpRstRcvd;
       this._tcpSynAckRcvd = value.tcpSynAckRcvd;
       this._tcpSynCookieFail = value.tcpSynCookieFail;
       this._tcpSynRcvd = value.tcpSynRcvd;
+      this._tokenAuthCurrentSaltMatched = value.tokenAuthCurrentSaltMatched;
+      this._tokenAuthInvalidPackets = value.tokenAuthInvalidPackets;
+      this._tokenAuthMismatchedPackets = value.tokenAuthMismatchedPackets;
+      this._tokenAuthPreviousSaltMatched = value.tokenAuthPreviousSaltMatched;
+      this._tokenAuthSessionCreated = value.tokenAuthSessionCreated;
+      this._tokenAuthSessionCreatedFail = value.tokenAuthSessionCreatedFail;
       this._udpFwdRecv = value.udpFwdRecv;
       this._victimIpAged = value.victimIpAged;
       this._victimIpLearned = value.victimIpLearned;
@@ -5967,6 +6384,7 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
       this._zoneTcpRetransmitExcd = value.zoneTcpRetransmitExcd;
       this._zoneTcpRstCookieFail = value.zoneTcpRstCookieFail;
       this._zoneTcpSessionCreated = value.zoneTcpSessionCreated;
+      this._zoneTcpSmallWindowExcd = value.zoneTcpSmallWindowExcd;
       this._zoneTcpSrcDrop = value.zoneTcpSrcDrop;
       this._zoneTcpSrcRateDrop = value.zoneTcpSrcRateDrop;
       this._zoneTcpSyn = value.zoneTcpSyn;
@@ -7300,6 +7718,38 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._ingressPackets;
   }
 
+  // multi_pu_src_hash_pu1 - computed: false, optional: true, required: false
+  private _multiPuSrcHashPu1?: number; 
+  public get multiPuSrcHashPu1() {
+    return this.getNumberAttribute('multi_pu_src_hash_pu1');
+  }
+  public set multiPuSrcHashPu1(value: number) {
+    this._multiPuSrcHashPu1 = value;
+  }
+  public resetMultiPuSrcHashPu1() {
+    this._multiPuSrcHashPu1 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiPuSrcHashPu1Input() {
+    return this._multiPuSrcHashPu1;
+  }
+
+  // multi_pu_src_hash_pu2 - computed: false, optional: true, required: false
+  private _multiPuSrcHashPu2?: number; 
+  public get multiPuSrcHashPu2() {
+    return this.getNumberAttribute('multi_pu_src_hash_pu2');
+  }
+  public set multiPuSrcHashPu2(value: number) {
+    this._multiPuSrcHashPu2 = value;
+  }
+  public resetMultiPuSrcHashPu2() {
+    this._multiPuSrcHashPu2 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get multiPuSrcHashPu2Input() {
+    return this._multiPuSrcHashPu2;
+  }
+
   // outbound_bytes_drop - computed: false, optional: true, required: false
   private _outboundBytesDrop?: number; 
   public get outboundBytesDrop() {
@@ -7362,6 +7812,70 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get outboundPktSentInput() {
     return this._outboundPktSent;
+  }
+
+  // port_zero_fwd_byte_rcvd - computed: false, optional: true, required: false
+  private _portZeroFwdByteRcvd?: number; 
+  public get portZeroFwdByteRcvd() {
+    return this.getNumberAttribute('port_zero_fwd_byte_rcvd');
+  }
+  public set portZeroFwdByteRcvd(value: number) {
+    this._portZeroFwdByteRcvd = value;
+  }
+  public resetPortZeroFwdByteRcvd() {
+    this._portZeroFwdByteRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portZeroFwdByteRcvdInput() {
+    return this._portZeroFwdByteRcvd;
+  }
+
+  // port_zero_fwd_pkt_rcvd - computed: false, optional: true, required: false
+  private _portZeroFwdPktRcvd?: number; 
+  public get portZeroFwdPktRcvd() {
+    return this.getNumberAttribute('port_zero_fwd_pkt_rcvd');
+  }
+  public set portZeroFwdPktRcvd(value: number) {
+    this._portZeroFwdPktRcvd = value;
+  }
+  public resetPortZeroFwdPktRcvd() {
+    this._portZeroFwdPktRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portZeroFwdPktRcvdInput() {
+    return this._portZeroFwdPktRcvd;
+  }
+
+  // port_zero_rev_byte_rcvd - computed: false, optional: true, required: false
+  private _portZeroRevByteRcvd?: number; 
+  public get portZeroRevByteRcvd() {
+    return this.getNumberAttribute('port_zero_rev_byte_rcvd');
+  }
+  public set portZeroRevByteRcvd(value: number) {
+    this._portZeroRevByteRcvd = value;
+  }
+  public resetPortZeroRevByteRcvd() {
+    this._portZeroRevByteRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portZeroRevByteRcvdInput() {
+    return this._portZeroRevByteRcvd;
+  }
+
+  // port_zero_rev_pkt_rcvd - computed: false, optional: true, required: false
+  private _portZeroRevPktRcvd?: number; 
+  public get portZeroRevPktRcvd() {
+    return this.getNumberAttribute('port_zero_rev_pkt_rcvd');
+  }
+  public set portZeroRevPktRcvd(value: number) {
+    this._portZeroRevPktRcvd = value;
+  }
+  public resetPortZeroRevPktRcvd() {
+    this._portZeroRevPktRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portZeroRevPktRcvdInput() {
+    return this._portZeroRevPktRcvd;
   }
 
   // prog_conn_exceed_bl - computed: false, optional: true, required: false
@@ -7540,6 +8054,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._progFirstReqTimeExceed;
   }
 
+  // prog_query_exceed - computed: false, optional: true, required: false
+  private _progQueryExceed?: number; 
+  public get progQueryExceed() {
+    return this.getNumberAttribute('prog_query_exceed');
+  }
+  public set progQueryExceed(value: number) {
+    this._progQueryExceed = value;
+  }
+  public resetProgQueryExceed() {
+    this._progQueryExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progQueryExceedInput() {
+    return this._progQueryExceed;
+  }
+
   // prog_req_resp_time_exceed - computed: false, optional: true, required: false
   private _progReqRespTimeExceed?: number; 
   public get progReqRespTimeExceed() {
@@ -7604,20 +8134,20 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._progRequestLenExceed;
   }
 
-  // prog_resp_req_ratio_exceed - computed: false, optional: true, required: false
-  private _progRespReqRatioExceed?: number; 
-  public get progRespReqRatioExceed() {
-    return this.getNumberAttribute('prog_resp_req_ratio_exceed');
+  // prog_resp_pkt_rate_exceed - computed: false, optional: true, required: false
+  private _progRespPktRateExceed?: number; 
+  public get progRespPktRateExceed() {
+    return this.getNumberAttribute('prog_resp_pkt_rate_exceed');
   }
-  public set progRespReqRatioExceed(value: number) {
-    this._progRespReqRatioExceed = value;
+  public set progRespPktRateExceed(value: number) {
+    this._progRespPktRateExceed = value;
   }
-  public resetProgRespReqRatioExceed() {
-    this._progRespReqRatioExceed = undefined;
+  public resetProgRespPktRateExceed() {
+    this._progRespPktRateExceed = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get progRespReqRatioExceedInput() {
-    return this._progRespReqRatioExceed;
+  public get progRespPktRateExceedInput() {
+    return this._progRespPktRateExceed;
   }
 
   // prog_resp_req_time_exceed - computed: false, optional: true, required: false
@@ -7650,6 +8180,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get progResponseLenExceedInput() {
     return this._progResponseLenExceed;
+  }
+
+  // prog_think_exceed - computed: false, optional: true, required: false
+  private _progThinkExceed?: number; 
+  public get progThinkExceed() {
+    return this.getNumberAttribute('prog_think_exceed');
+  }
+  public set progThinkExceed(value: number) {
+    this._progThinkExceed = value;
+  }
+  public resetProgThinkExceed() {
+    this._progThinkExceed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get progThinkExceedInput() {
+    return this._progThinkExceed;
   }
 
   // prog_win_exceed_bl - computed: false, optional: true, required: false
@@ -7956,6 +8502,70 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._secondaryPortLearn;
   }
 
+  // service_miss_fwd_byte_rcvd - computed: false, optional: true, required: false
+  private _serviceMissFwdByteRcvd?: number; 
+  public get serviceMissFwdByteRcvd() {
+    return this.getNumberAttribute('service_miss_fwd_byte_rcvd');
+  }
+  public set serviceMissFwdByteRcvd(value: number) {
+    this._serviceMissFwdByteRcvd = value;
+  }
+  public resetServiceMissFwdByteRcvd() {
+    this._serviceMissFwdByteRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceMissFwdByteRcvdInput() {
+    return this._serviceMissFwdByteRcvd;
+  }
+
+  // service_miss_fwd_pkt_rcvd - computed: false, optional: true, required: false
+  private _serviceMissFwdPktRcvd?: number; 
+  public get serviceMissFwdPktRcvd() {
+    return this.getNumberAttribute('service_miss_fwd_pkt_rcvd');
+  }
+  public set serviceMissFwdPktRcvd(value: number) {
+    this._serviceMissFwdPktRcvd = value;
+  }
+  public resetServiceMissFwdPktRcvd() {
+    this._serviceMissFwdPktRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceMissFwdPktRcvdInput() {
+    return this._serviceMissFwdPktRcvd;
+  }
+
+  // service_miss_rev_byte_rcvd - computed: false, optional: true, required: false
+  private _serviceMissRevByteRcvd?: number; 
+  public get serviceMissRevByteRcvd() {
+    return this.getNumberAttribute('service_miss_rev_byte_rcvd');
+  }
+  public set serviceMissRevByteRcvd(value: number) {
+    this._serviceMissRevByteRcvd = value;
+  }
+  public resetServiceMissRevByteRcvd() {
+    this._serviceMissRevByteRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceMissRevByteRcvdInput() {
+    return this._serviceMissRevByteRcvd;
+  }
+
+  // service_miss_rev_pkt_rcvd - computed: false, optional: true, required: false
+  private _serviceMissRevPktRcvd?: number; 
+  public get serviceMissRevPktRcvd() {
+    return this.getNumberAttribute('service_miss_rev_pkt_rcvd');
+  }
+  public set serviceMissRevPktRcvd(value: number) {
+    this._serviceMissRevPktRcvd = value;
+  }
+  public resetServiceMissRevPktRcvd() {
+    this._serviceMissRevPktRcvd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get serviceMissRevPktRcvdInput() {
+    return this._serviceMissRevPktRcvd;
+  }
+
   // sflow_external_packets_sent - computed: false, optional: true, required: false
   private _sflowExternalPacketsSent?: number; 
   public get sflowExternalPacketsSent() {
@@ -8018,6 +8628,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get sflowInternalSamplesPackedInput() {
     return this._sflowInternalSamplesPacked;
+  }
+
+  // small_window_rcv - computed: false, optional: true, required: false
+  private _smallWindowRcv?: number; 
+  public get smallWindowRcv() {
+    return this.getNumberAttribute('small_window_rcv');
+  }
+  public set smallWindowRcv(value: number) {
+    this._smallWindowRcv = value;
+  }
+  public resetSmallWindowRcv() {
+    this._smallWindowRcv = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smallWindowRcvInput() {
+    return this._smallWindowRcv;
   }
 
   // source_entry_icmp - computed: false, optional: true, required: false
@@ -8500,6 +9126,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._srcTcpRstCookieFail;
   }
 
+  // src_tcp_small_window_excd - computed: false, optional: true, required: false
+  private _srcTcpSmallWindowExcd?: number; 
+  public get srcTcpSmallWindowExcd() {
+    return this.getNumberAttribute('src_tcp_small_window_excd');
+  }
+  public set srcTcpSmallWindowExcd(value: number) {
+    this._srcTcpSmallWindowExcd = value;
+  }
+  public resetSrcTcpSmallWindowExcd() {
+    this._srcTcpSmallWindowExcd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get srcTcpSmallWindowExcdInput() {
+    return this._srcTcpSmallWindowExcd;
+  }
+
   // src_tcp_syn_auth_fail - computed: false, optional: true, required: false
   private _srcTcpSynAuthFail?: number; 
   public get srcTcpSynAuthFail() {
@@ -8884,6 +9526,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._tcpInvalidSyn;
   }
 
+  // tcp_invalid_synack - computed: false, optional: true, required: false
+  private _tcpInvalidSynack?: number; 
+  public get tcpInvalidSynack() {
+    return this.getNumberAttribute('tcp_invalid_synack');
+  }
+  public set tcpInvalidSynack(value: number) {
+    this._tcpInvalidSynack = value;
+  }
+  public resetTcpInvalidSynack() {
+    this._tcpInvalidSynack = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInvalidSynackInput() {
+    return this._tcpInvalidSynack;
+  }
+
   // tcp_rexmit_syn_limit_bl - computed: false, optional: true, required: false
   private _tcpRexmitSynLimitBl?: number; 
   public get tcpRexmitSynLimitBl() {
@@ -8978,6 +9636,102 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
   // Temporarily expose input value. Use with caution.
   public get tcpSynRcvdInput() {
     return this._tcpSynRcvd;
+  }
+
+  // token_auth_current_salt_matched - computed: false, optional: true, required: false
+  private _tokenAuthCurrentSaltMatched?: number; 
+  public get tokenAuthCurrentSaltMatched() {
+    return this.getNumberAttribute('token_auth_current_salt_matched');
+  }
+  public set tokenAuthCurrentSaltMatched(value: number) {
+    this._tokenAuthCurrentSaltMatched = value;
+  }
+  public resetTokenAuthCurrentSaltMatched() {
+    this._tokenAuthCurrentSaltMatched = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthCurrentSaltMatchedInput() {
+    return this._tokenAuthCurrentSaltMatched;
+  }
+
+  // token_auth_invalid_packets - computed: false, optional: true, required: false
+  private _tokenAuthInvalidPackets?: number; 
+  public get tokenAuthInvalidPackets() {
+    return this.getNumberAttribute('token_auth_invalid_packets');
+  }
+  public set tokenAuthInvalidPackets(value: number) {
+    this._tokenAuthInvalidPackets = value;
+  }
+  public resetTokenAuthInvalidPackets() {
+    this._tokenAuthInvalidPackets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthInvalidPacketsInput() {
+    return this._tokenAuthInvalidPackets;
+  }
+
+  // token_auth_mismatched_packets - computed: false, optional: true, required: false
+  private _tokenAuthMismatchedPackets?: number; 
+  public get tokenAuthMismatchedPackets() {
+    return this.getNumberAttribute('token_auth_mismatched_packets');
+  }
+  public set tokenAuthMismatchedPackets(value: number) {
+    this._tokenAuthMismatchedPackets = value;
+  }
+  public resetTokenAuthMismatchedPackets() {
+    this._tokenAuthMismatchedPackets = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthMismatchedPacketsInput() {
+    return this._tokenAuthMismatchedPackets;
+  }
+
+  // token_auth_previous_salt_matched - computed: false, optional: true, required: false
+  private _tokenAuthPreviousSaltMatched?: number; 
+  public get tokenAuthPreviousSaltMatched() {
+    return this.getNumberAttribute('token_auth_previous_salt_matched');
+  }
+  public set tokenAuthPreviousSaltMatched(value: number) {
+    this._tokenAuthPreviousSaltMatched = value;
+  }
+  public resetTokenAuthPreviousSaltMatched() {
+    this._tokenAuthPreviousSaltMatched = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthPreviousSaltMatchedInput() {
+    return this._tokenAuthPreviousSaltMatched;
+  }
+
+  // token_auth_session_created - computed: false, optional: true, required: false
+  private _tokenAuthSessionCreated?: number; 
+  public get tokenAuthSessionCreated() {
+    return this.getNumberAttribute('token_auth_session_created');
+  }
+  public set tokenAuthSessionCreated(value: number) {
+    this._tokenAuthSessionCreated = value;
+  }
+  public resetTokenAuthSessionCreated() {
+    this._tokenAuthSessionCreated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthSessionCreatedInput() {
+    return this._tokenAuthSessionCreated;
+  }
+
+  // token_auth_session_created_fail - computed: false, optional: true, required: false
+  private _tokenAuthSessionCreatedFail?: number; 
+  public get tokenAuthSessionCreatedFail() {
+    return this.getNumberAttribute('token_auth_session_created_fail');
+  }
+  public set tokenAuthSessionCreatedFail(value: number) {
+    this._tokenAuthSessionCreatedFail = value;
+  }
+  public resetTokenAuthSessionCreatedFail() {
+    this._tokenAuthSessionCreatedFail = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tokenAuthSessionCreatedFailInput() {
+    return this._tokenAuthSessionCreatedFail;
   }
 
   // udp_fwd_recv - computed: false, optional: true, required: false
@@ -10452,6 +11206,22 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
     return this._zoneTcpSessionCreated;
   }
 
+  // zone_tcp_small_window_excd - computed: false, optional: true, required: false
+  private _zoneTcpSmallWindowExcd?: number; 
+  public get zoneTcpSmallWindowExcd() {
+    return this.getNumberAttribute('zone_tcp_small_window_excd');
+  }
+  public set zoneTcpSmallWindowExcd(value: number) {
+    this._zoneTcpSmallWindowExcd = value;
+  }
+  public resetZoneTcpSmallWindowExcd() {
+    this._zoneTcpSmallWindowExcd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get zoneTcpSmallWindowExcdInput() {
+    return this._zoneTcpSmallWindowExcd;
+  }
+
   // zone_tcp_src_drop - computed: false, optional: true, required: false
   private _zoneTcpSrcDrop?: number; 
   public get zoneTcpSrcDrop() {
@@ -10998,7 +11768,7 @@ export class DataThunderDdosDstZoneStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats thunder_ddos_dst_zone_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats thunder_ddos_dst_zone_stats}
 */
 export class DataThunderDdosDstZoneStats extends cdktf.TerraformDataSource {
 
@@ -11014,7 +11784,7 @@ export class DataThunderDdosDstZoneStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosDstZoneStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZoneStats to import
-  * @param importFromId The id of the existing DataThunderDdosDstZoneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZoneStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZoneStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11026,7 +11796,7 @@ export class DataThunderDdosDstZoneStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_stats thunder_ddos_dst_zone_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_stats thunder_ddos_dst_zone_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11037,8 +11807,8 @@ export class DataThunderDdosDstZoneStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_dst_zone_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetworkVirtualWireGlobalOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#id DataThunderNetworkVirtualWireGlobalOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#id DataThunderNetworkVirtualWireGlobalOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,17 +17,17 @@ export interface DataThunderNetworkVirtualWireGlobalOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#oper DataThunderNetworkVirtualWireGlobalOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#oper DataThunderNetworkVirtualWireGlobalOper#oper}
   */
   readonly oper?: DataThunderNetworkVirtualWireGlobalOperOper;
 }
 export interface DataThunderNetworkVirtualWireGlobalOperOperVlanGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#active_member DataThunderNetworkVirtualWireGlobalOper#active_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#active_member DataThunderNetworkVirtualWireGlobalOper#active_member}
   */
   readonly activeMember?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#group_id DataThunderNetworkVirtualWireGlobalOper#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#group_id DataThunderNetworkVirtualWireGlobalOper#group_id}
   */
   readonly groupId?: number;
 }
@@ -172,11 +172,11 @@ export class DataThunderNetworkVirtualWireGlobalOperOperVlanGroupList extends cd
 }
 export interface DataThunderNetworkVirtualWireGlobalOperOperVlanSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#active_pair DataThunderNetworkVirtualWireGlobalOper#active_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#active_pair DataThunderNetworkVirtualWireGlobalOper#active_pair}
   */
   readonly activePair?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#set_id DataThunderNetworkVirtualWireGlobalOper#set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#set_id DataThunderNetworkVirtualWireGlobalOper#set_id}
   */
   readonly setId?: number;
 }
@@ -323,13 +323,13 @@ export interface DataThunderNetworkVirtualWireGlobalOperOper {
   /**
   * vlan_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#vlan_group DataThunderNetworkVirtualWireGlobalOper#vlan_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#vlan_group DataThunderNetworkVirtualWireGlobalOper#vlan_group}
   */
   readonly vlanGroup?: DataThunderNetworkVirtualWireGlobalOperOperVlanGroup[] | cdktf.IResolvable;
   /**
   * vlan_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#vlan_set DataThunderNetworkVirtualWireGlobalOper#vlan_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#vlan_set DataThunderNetworkVirtualWireGlobalOper#vlan_set}
   */
   readonly vlanSet?: DataThunderNetworkVirtualWireGlobalOperOperVlanSet[] | cdktf.IResolvable;
 }
@@ -442,7 +442,7 @@ export class DataThunderNetworkVirtualWireGlobalOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper thunder_network_virtual_wire_global_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper thunder_network_virtual_wire_global_oper}
 */
 export class DataThunderNetworkVirtualWireGlobalOper extends cdktf.TerraformDataSource {
 
@@ -458,7 +458,7 @@ export class DataThunderNetworkVirtualWireGlobalOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderNetworkVirtualWireGlobalOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetworkVirtualWireGlobalOper to import
-  * @param importFromId The id of the existing DataThunderNetworkVirtualWireGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetworkVirtualWireGlobalOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetworkVirtualWireGlobalOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class DataThunderNetworkVirtualWireGlobalOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/network_virtual_wire_global_oper thunder_network_virtual_wire_global_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/network_virtual_wire_global_oper thunder_network_virtual_wire_global_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class DataThunderNetworkVirtualWireGlobalOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_network_virtual_wire_global_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

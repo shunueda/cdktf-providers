@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface FwTemplateLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'kernel': 0: Kernel; 'user': 1: User-level; 'mail': 2: Mail; 'daemon': 3: System daemons; 'security-authorization': 4: Security/authorization; 'syslog': 5: Syslog internal; 'line-printer': 6: Line printer; 'news': 7: Network news; 'uucp': 8: UUCP subsystem; 'cron': 9: Time-related; 'security-authorization-private': 10: Private security/authorization; 'ftp': 11: FTP; 'ntp': 12: NTP; 'audit': 13: Audit; 'alert': 14: Alert; 'clock': 15: Clock-related; 'local0': 16: Local use 0; 'local1': 17: Local use 1; 'local2': 18: Local use 2; 'local3': 19: Local use 3; 'local4': 20: Local use 4; 'local5': 21: Local use 5; 'local6': 22: Local use 6; 'local7': 23: Local use 7;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#facility FwTemplateLogging#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#facility FwTemplateLogging#facility}
   */
   readonly facility?: string;
   /**
-  * 'ascii': A10 Text logging format (ASCII); 'cef': Common Event Format for logging (default);
+  * 'ascii': A10 Text logging format (ASCII); 'cef': Common Event Format for logging (default); 'custom': custom format;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#format FwTemplateLogging#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#format FwTemplateLogging#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#id FwTemplateLogging#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#id FwTemplateLogging#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,111 +29,4070 @@ export interface FwTemplateLoggingConfig extends cdktf.TerraformMetaArguments {
   /**
   * Include destination FQDN string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#include_dest_fqdn FwTemplateLogging#include_dest_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_dest_fqdn FwTemplateLogging#include_dest_fqdn}
   */
   readonly includeDestFqdn?: number;
   /**
+  * include the 4-digit year in logs
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_year FwTemplateLogging#include_year}
+  */
+  readonly includeYear?: number;
+  /**
   * Merge creation and deletion of session logs to one
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#merged_style FwTemplateLogging#merged_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#merged_style FwTemplateLogging#merged_style}
   */
   readonly mergedStyle?: number;
   /**
   * Logging Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#name FwTemplateLogging#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#name FwTemplateLogging#name}
   */
   readonly name: string;
   /**
   * 'seconds': Logging timestamp resolution in seconds (default); '10-milliseconds': Logging timestamp resolution in 10s of milli-seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#resolution FwTemplateLogging#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#resolution FwTemplateLogging#resolution}
   */
   readonly resolution?: string;
   /**
   * Bind a Service Group to the logging template (Service Group Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#service_group FwTemplateLogging#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#service_group FwTemplateLogging#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * 'emergency': 0: Emergency; 'alert': 1: Alert; 'critical': 2: Critical; 'error': 3: Error; 'warning': 4: Warning; 'notice': 5: Notice; 'informational': 6: Informational; 'debug': 7: Debug;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#severity FwTemplateLogging#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#severity FwTemplateLogging#severity}
   */
   readonly severity?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
   */
   readonly uuid?: string;
   /**
+  * custom block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom FwTemplateLogging#custom}
+  */
+  readonly custom?: FwTemplateLoggingCustom;
+  /**
+  * disable_log_by_destination block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#disable_log_by_destination FwTemplateLogging#disable_log_by_destination}
+  */
+  readonly disableLogByDestination?: FwTemplateLoggingDisableLogByDestination;
+  /**
+  * enable_log_by_destination block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#enable_log_by_destination FwTemplateLogging#enable_log_by_destination}
+  */
+  readonly enableLogByDestination?: FwTemplateLoggingEnableLogByDestination;
+  /**
   * include_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#include_http FwTemplateLogging#include_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_http FwTemplateLogging#include_http}
   */
   readonly includeHttp?: FwTemplateLoggingIncludeHttp;
   /**
   * include_radius_attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#include_radius_attribute FwTemplateLogging#include_radius_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_radius_attribute FwTemplateLogging#include_radius_attribute}
   */
   readonly includeRadiusAttribute?: FwTemplateLoggingIncludeRadiusAttribute;
   /**
   * log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#log FwTemplateLogging#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#log FwTemplateLogging#log}
   */
   readonly log?: FwTemplateLoggingLog;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#rule FwTemplateLogging#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#rule FwTemplateLogging#rule}
   */
   readonly rule?: FwTemplateLoggingRule;
   /**
   * session_periodic_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#session_periodic_log FwTemplateLogging#session_periodic_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#session_periodic_log FwTemplateLogging#session_periodic_log}
   */
   readonly sessionPeriodicLog?: FwTemplateLoggingSessionPeriodicLog;
   /**
   * source_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#source_address FwTemplateLogging#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#source_address FwTemplateLogging#source_address}
   */
   readonly sourceAddress?: FwTemplateLoggingSourceAddress;
+}
+export interface FwTemplateLoggingCustomCustomMessage {
+  /**
+  * Session created (Custom message string)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom_session_created FwTemplateLogging#custom_session_created}
+  */
+  readonly customSessionCreated?: string;
+  /**
+  * Session deleted (Custom message string)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom_session_deleted FwTemplateLogging#custom_session_deleted}
+  */
+  readonly customSessionDeleted?: string;
+}
+
+export function fwTemplateLoggingCustomCustomMessageToTerraform(struct?: FwTemplateLoggingCustomCustomMessageOutputReference | FwTemplateLoggingCustomCustomMessage): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    custom_session_created: cdktf.stringToTerraform(struct!.customSessionCreated),
+    custom_session_deleted: cdktf.stringToTerraform(struct!.customSessionDeleted),
+  }
+}
+
+
+export function fwTemplateLoggingCustomCustomMessageToHclTerraform(struct?: FwTemplateLoggingCustomCustomMessageOutputReference | FwTemplateLoggingCustomCustomMessage): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    custom_session_created: {
+      value: cdktf.stringToHclTerraform(struct!.customSessionCreated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    custom_session_deleted: {
+      value: cdktf.stringToHclTerraform(struct!.customSessionDeleted),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingCustomCustomMessageOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FwTemplateLoggingCustomCustomMessage | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._customSessionCreated !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customSessionCreated = this._customSessionCreated;
+    }
+    if (this._customSessionDeleted !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customSessionDeleted = this._customSessionDeleted;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingCustomCustomMessage | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._customSessionCreated = undefined;
+      this._customSessionDeleted = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._customSessionCreated = value.customSessionCreated;
+      this._customSessionDeleted = value.customSessionDeleted;
+    }
+  }
+
+  // custom_session_created - computed: false, optional: true, required: false
+  private _customSessionCreated?: string; 
+  public get customSessionCreated() {
+    return this.getStringAttribute('custom_session_created');
+  }
+  public set customSessionCreated(value: string) {
+    this._customSessionCreated = value;
+  }
+  public resetCustomSessionCreated() {
+    this._customSessionCreated = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customSessionCreatedInput() {
+    return this._customSessionCreated;
+  }
+
+  // custom_session_deleted - computed: false, optional: true, required: false
+  private _customSessionDeleted?: string; 
+  public get customSessionDeleted() {
+    return this.getStringAttribute('custom_session_deleted');
+  }
+  public set customSessionDeleted(value: string) {
+    this._customSessionDeleted = value;
+  }
+  public resetCustomSessionDeleted() {
+    this._customSessionDeleted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customSessionDeletedInput() {
+    return this._customSessionDeleted;
+  }
+}
+export interface FwTemplateLoggingCustom {
+  /**
+  * custom_message block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom_message FwTemplateLogging#custom_message}
+  */
+  readonly customMessage?: FwTemplateLoggingCustomCustomMessage;
+}
+
+export function fwTemplateLoggingCustomToTerraform(struct?: FwTemplateLoggingCustomOutputReference | FwTemplateLoggingCustom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    custom_message: fwTemplateLoggingCustomCustomMessageToTerraform(struct!.customMessage),
+  }
+}
+
+
+export function fwTemplateLoggingCustomToHclTerraform(struct?: FwTemplateLoggingCustomOutputReference | FwTemplateLoggingCustom): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    custom_message: {
+      value: fwTemplateLoggingCustomCustomMessageToHclTerraform(struct!.customMessage),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingCustomCustomMessageList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingCustomOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FwTemplateLoggingCustom | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._customMessage?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customMessage = this._customMessage?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingCustom | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._customMessage.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._customMessage.internalValue = value.customMessage;
+    }
+  }
+
+  // custom_message - computed: false, optional: true, required: false
+  private _customMessage = new FwTemplateLoggingCustomCustomMessageOutputReference(this, "custom_message");
+  public get customMessage() {
+    return this._customMessage;
+  }
+  public putCustomMessage(value: FwTemplateLoggingCustomCustomMessage) {
+    this._customMessage.internalValue = value;
+  }
+  public resetCustomMessage() {
+    this._customMessage.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customMessageInput() {
+    return this._customMessage.internalValue;
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIp6ListStruct {
+  /**
+  * Disable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IPv6 subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ipv6_addr FwTemplateLogging#ipv6_addr}
+  */
+  readonly ipv6Addr: string;
+  /**
+  * Disable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv6_addr: cdktf.stringToTerraform(struct!.ipv6Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIp6ListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv6Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Addr = this._ipv6Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv6Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv6Addr = value.ipv6Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv6_addr - computed: false, optional: false, required: true
+  private _ipv6Addr?: string; 
+  public get ipv6Addr() {
+    return this.getStringAttribute('ipv6_addr');
+  }
+  public set ipv6Addr(value: string) {
+    this._ipv6Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddrInput() {
+    return this._ipv6Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingDisableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingDisableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIp6ListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIp6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIp6ListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIp6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIpListTcpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIpListTcpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIpListTcpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIpListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIpListUdpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIpListUdpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIpListUdpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIpListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationIpListStruct {
+  /**
+  * Disable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IP subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ipv4_addr FwTemplateLogging#ipv4_addr}
+  */
+  readonly ipv4Addr: string;
+  /**
+  * Disable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationIpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv4_addr: cdktf.stringToTerraform(struct!.ipv4Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIpListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIpListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationIpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv4_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIpListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIpListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIpListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIpListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationIpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv4Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4Addr = this._ipv4Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationIpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv4Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv4Addr = value.ipv4Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv4_addr - computed: false, optional: false, required: true
+  private _ipv4Addr?: string; 
+  public get ipv4Addr() {
+    return this.getStringAttribute('ipv4_addr');
+  }
+  public set ipv4Addr(value: string) {
+    this._ipv4Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4AddrInput() {
+    return this._ipv4Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingDisableLogByDestinationIpListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingDisableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingDisableLogByDestinationIpListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingDisableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationIpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationIpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationIpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationTcpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationTcpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationTcpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestinationUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationUdpListStructToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationUdpListStructToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingDisableLogByDestinationUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingDisableLogByDestinationUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingDisableLogByDestinationUdpListStructOutputReference {
+    return new FwTemplateLoggingDisableLogByDestinationUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingDisableLogByDestination {
+  /**
+  * Disable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Disable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * ip6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ip6_list FwTemplateLogging#ip6_list}
+  */
+  readonly ip6List?: FwTemplateLoggingDisableLogByDestinationIp6ListStruct[] | cdktf.IResolvable;
+  /**
+  * ip_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ip_list FwTemplateLogging#ip_list}
+  */
+  readonly ipList?: FwTemplateLoggingDisableLogByDestinationIpListStruct[] | cdktf.IResolvable;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingDisableLogByDestinationTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingDisableLogByDestinationUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingDisableLogByDestinationToTerraform(struct?: FwTemplateLoggingDisableLogByDestinationOutputReference | FwTemplateLoggingDisableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    others: cdktf.numberToTerraform(struct!.others),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    ip6_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIp6ListStructToTerraform, true)(struct!.ip6List),
+    ip_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationIpListStructToTerraform, true)(struct!.ipList),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingDisableLogByDestinationUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingDisableLogByDestinationToHclTerraform(struct?: FwTemplateLoggingDisableLogByDestinationOutputReference | FwTemplateLoggingDisableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip6_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIp6ListStructToHclTerraform, true)(struct!.ip6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIp6ListStructList",
+    },
+    ip_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationIpListStructToHclTerraform, true)(struct!.ipList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationIpListStructList",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingDisableLogByDestinationUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingDisableLogByDestinationUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingDisableLogByDestinationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FwTemplateLoggingDisableLogByDestination | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._ip6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip6List = this._ip6List?.internalValue;
+    }
+    if (this._ipList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipList = this._ipList?.internalValue;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingDisableLogByDestination | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._icmp = undefined;
+      this._others = undefined;
+      this._uuid = undefined;
+      this._ip6List.internalValue = undefined;
+      this._ipList.internalValue = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._icmp = value.icmp;
+      this._others = value.others;
+      this._uuid = value.uuid;
+      this._ip6List.internalValue = value.ip6List;
+      this._ipList.internalValue = value.ipList;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // ip6_list - computed: false, optional: true, required: false
+  private _ip6List = new FwTemplateLoggingDisableLogByDestinationIp6ListStructList(this, "ip6_list", false);
+  public get ip6List() {
+    return this._ip6List;
+  }
+  public putIp6List(value: FwTemplateLoggingDisableLogByDestinationIp6ListStruct[] | cdktf.IResolvable) {
+    this._ip6List.internalValue = value;
+  }
+  public resetIp6List() {
+    this._ip6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ip6ListInput() {
+    return this._ip6List.internalValue;
+  }
+
+  // ip_list - computed: false, optional: true, required: false
+  private _ipList = new FwTemplateLoggingDisableLogByDestinationIpListStructList(this, "ip_list", false);
+  public get ipList() {
+    return this._ipList;
+  }
+  public putIpList(value: FwTemplateLoggingDisableLogByDestinationIpListStruct[] | cdktf.IResolvable) {
+    this._ipList.internalValue = value;
+  }
+  public resetIpList() {
+    this._ipList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipListInput() {
+    return this._ipList.internalValue;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingDisableLogByDestinationTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingDisableLogByDestinationTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingDisableLogByDestinationUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingDisableLogByDestinationUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIp6ListStruct {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IPv6 subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ipv6_addr FwTemplateLogging#ipv6_addr}
+  */
+  readonly ipv6Addr: string;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv6_addr: cdktf.stringToTerraform(struct!.ipv6Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIp6ListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv6Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Addr = this._ipv6Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIp6ListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv6Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv6Addr = value.ipv6Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv6_addr - computed: false, optional: false, required: true
+  private _ipv6Addr?: string; 
+  public get ipv6Addr() {
+    return this.getStringAttribute('ipv6_addr');
+  }
+  public set ipv6Addr(value: string) {
+    this._ipv6Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6AddrInput() {
+    return this._ipv6Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingEnableLogByDestinationIp6ListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingEnableLogByDestinationIp6ListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIp6ListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIp6ListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIp6ListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIpListTcpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIpListTcpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIpListTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIpListUdpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIpListUdpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIpListUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationIpListStruct {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Configure an IP subnet
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ipv4_addr FwTemplateLogging#ipv4_addr}
+  */
+  readonly ipv4Addr: string;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * Customized tag
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#user_tag FwTemplateLogging#user_tag}
+  */
+  readonly userTag?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationIpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    ipv4_addr: cdktf.stringToTerraform(struct!.ipv4Addr),
+    others: cdktf.numberToTerraform(struct!.others),
+    user_tag: cdktf.stringToTerraform(struct!.userTag),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIpListTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIpListUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationIpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv4_addr: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4Addr),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    user_tag: {
+      value: cdktf.stringToHclTerraform(struct!.userTag),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIpListTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIpListTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIpListUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIpListUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._ipv4Addr !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4Addr = this._ipv4Addr;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._userTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userTag = this._userTag;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationIpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._icmp = undefined;
+      this._ipv4Addr = undefined;
+      this._others = undefined;
+      this._userTag = undefined;
+      this._uuid = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._icmp = value.icmp;
+      this._ipv4Addr = value.ipv4Addr;
+      this._others = value.others;
+      this._userTag = value.userTag;
+      this._uuid = value.uuid;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // ipv4_addr - computed: false, optional: false, required: true
+  private _ipv4Addr?: string; 
+  public get ipv4Addr() {
+    return this.getStringAttribute('ipv4_addr');
+  }
+  public set ipv4Addr(value: string) {
+    this._ipv4Addr = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4AddrInput() {
+    return this._ipv4Addr;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // user_tag - computed: false, optional: true, required: false
+  private _userTag?: string; 
+  public get userTag() {
+    return this.getStringAttribute('user_tag');
+  }
+  public set userTag(value: string) {
+    this._userTag = value;
+  }
+  public resetUserTag() {
+    this._userTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userTagInput() {
+    return this._userTag;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingEnableLogByDestinationIpListTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingEnableLogByDestinationIpListTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingEnableLogByDestinationIpListUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingEnableLogByDestinationIpListUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationIpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationIpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationIpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationTcpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_end FwTemplateLogging#tcp_port_end}
+  */
+  readonly tcpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_port_start FwTemplateLogging#tcp_port_start}
+  */
+  readonly tcpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationTcpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tcp_port_end: cdktf.numberToTerraform(struct!.tcpPortEnd),
+    tcp_port_start: cdktf.numberToTerraform(struct!.tcpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationTcpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tcp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    tcp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.tcpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationTcpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._tcpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortEnd = this._tcpPortEnd;
+    }
+    if (this._tcpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpPortStart = this._tcpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationTcpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = undefined;
+      this._tcpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._tcpPortEnd = value.tcpPortEnd;
+      this._tcpPortStart = value.tcpPortStart;
+    }
+  }
+
+  // tcp_port_end - computed: false, optional: true, required: false
+  private _tcpPortEnd?: number; 
+  public get tcpPortEnd() {
+    return this.getNumberAttribute('tcp_port_end');
+  }
+  public set tcpPortEnd(value: number) {
+    this._tcpPortEnd = value;
+  }
+  public resetTcpPortEnd() {
+    this._tcpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortEndInput() {
+    return this._tcpPortEnd;
+  }
+
+  // tcp_port_start - computed: false, optional: true, required: false
+  private _tcpPortStart?: number; 
+  public get tcpPortStart() {
+    return this.getNumberAttribute('tcp_port_start');
+  }
+  public set tcpPortStart(value: number) {
+    this._tcpPortStart = value;
+  }
+  public resetTcpPortStart() {
+    this._tcpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpPortStartInput() {
+    return this._tcpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationTcpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationTcpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationTcpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestinationUdpListStruct {
+  /**
+  * Port Range End
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_end FwTemplateLogging#udp_port_end}
+  */
+  readonly udpPortEnd?: number;
+  /**
+  * Destination Port (Single Destination Port or Port Range Start)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_port_start FwTemplateLogging#udp_port_start}
+  */
+  readonly udpPortStart?: number;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationUdpListStructToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    udp_port_end: cdktf.numberToTerraform(struct!.udpPortEnd),
+    udp_port_start: cdktf.numberToTerraform(struct!.udpPortStart),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationUdpListStructToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    udp_port_end: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortEnd),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    udp_port_start: {
+      value: cdktf.numberToHclTerraform(struct!.udpPortStart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationUdpListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._udpPortEnd !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortEnd = this._udpPortEnd;
+    }
+    if (this._udpPortStart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpPortStart = this._udpPortStart;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestinationUdpListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = undefined;
+      this._udpPortStart = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._udpPortEnd = value.udpPortEnd;
+      this._udpPortStart = value.udpPortStart;
+    }
+  }
+
+  // udp_port_end - computed: false, optional: true, required: false
+  private _udpPortEnd?: number; 
+  public get udpPortEnd() {
+    return this.getNumberAttribute('udp_port_end');
+  }
+  public set udpPortEnd(value: number) {
+    this._udpPortEnd = value;
+  }
+  public resetUdpPortEnd() {
+    this._udpPortEnd = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortEndInput() {
+    return this._udpPortEnd;
+  }
+
+  // udp_port_start - computed: false, optional: true, required: false
+  private _udpPortStart?: number; 
+  public get udpPortStart() {
+    return this.getNumberAttribute('udp_port_start');
+  }
+  public set udpPortStart(value: number) {
+    this._udpPortStart = value;
+  }
+  public resetUdpPortStart() {
+    this._udpPortStart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpPortStartInput() {
+    return this._udpPortStart;
+  }
+}
+
+export class FwTemplateLoggingEnableLogByDestinationUdpListStructList extends cdktf.ComplexList {
+  public internalValue? : FwTemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): FwTemplateLoggingEnableLogByDestinationUdpListStructOutputReference {
+    return new FwTemplateLoggingEnableLogByDestinationUdpListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface FwTemplateLoggingEnableLogByDestination {
+  /**
+  * Enable logging for the ICMP traffic
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#icmp FwTemplateLogging#icmp}
+  */
+  readonly icmp?: number;
+  /**
+  * Enable logging for the other layer-4 protocols
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#others FwTemplateLogging#others}
+  */
+  readonly others?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * ip6_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ip6_list FwTemplateLogging#ip6_list}
+  */
+  readonly ip6List?: FwTemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable;
+  /**
+  * ip_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ip_list FwTemplateLogging#ip_list}
+  */
+  readonly ipList?: FwTemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable;
+  /**
+  * tcp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#tcp_list FwTemplateLogging#tcp_list}
+  */
+  readonly tcpList?: FwTemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable;
+  /**
+  * udp_list block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#udp_list FwTemplateLogging#udp_list}
+  */
+  readonly udpList?: FwTemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable;
+}
+
+export function fwTemplateLoggingEnableLogByDestinationToTerraform(struct?: FwTemplateLoggingEnableLogByDestinationOutputReference | FwTemplateLoggingEnableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp: cdktf.numberToTerraform(struct!.icmp),
+    others: cdktf.numberToTerraform(struct!.others),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    ip6_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIp6ListStructToTerraform, true)(struct!.ip6List),
+    ip_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationIpListStructToTerraform, true)(struct!.ipList),
+    tcp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationTcpListStructToTerraform, true)(struct!.tcpList),
+    udp_list: cdktf.listMapper(fwTemplateLoggingEnableLogByDestinationUdpListStructToTerraform, true)(struct!.udpList),
+  }
+}
+
+
+export function fwTemplateLoggingEnableLogByDestinationToHclTerraform(struct?: FwTemplateLoggingEnableLogByDestinationOutputReference | FwTemplateLoggingEnableLogByDestination): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp: {
+      value: cdktf.numberToHclTerraform(struct!.icmp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    others: {
+      value: cdktf.numberToHclTerraform(struct!.others),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ip6_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIp6ListStructToHclTerraform, true)(struct!.ip6List),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIp6ListStructList",
+    },
+    ip_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationIpListStructToHclTerraform, true)(struct!.ipList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationIpListStructList",
+    },
+    tcp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationTcpListStructToHclTerraform, true)(struct!.tcpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationTcpListStructList",
+    },
+    udp_list: {
+      value: cdktf.listMapperHcl(fwTemplateLoggingEnableLogByDestinationUdpListStructToHclTerraform, true)(struct!.udpList),
+      isBlock: true,
+      type: "list",
+      storageClassType: "FwTemplateLoggingEnableLogByDestinationUdpListStructList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class FwTemplateLoggingEnableLogByDestinationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): FwTemplateLoggingEnableLogByDestination | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmp = this._icmp;
+    }
+    if (this._others !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.others = this._others;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._ip6List?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ip6List = this._ip6List?.internalValue;
+    }
+    if (this._ipList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipList = this._ipList?.internalValue;
+    }
+    if (this._tcpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcpList = this._tcpList?.internalValue;
+    }
+    if (this._udpList?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.udpList = this._udpList?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: FwTemplateLoggingEnableLogByDestination | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._icmp = undefined;
+      this._others = undefined;
+      this._uuid = undefined;
+      this._ip6List.internalValue = undefined;
+      this._ipList.internalValue = undefined;
+      this._tcpList.internalValue = undefined;
+      this._udpList.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._icmp = value.icmp;
+      this._others = value.others;
+      this._uuid = value.uuid;
+      this._ip6List.internalValue = value.ip6List;
+      this._ipList.internalValue = value.ipList;
+      this._tcpList.internalValue = value.tcpList;
+      this._udpList.internalValue = value.udpList;
+    }
+  }
+
+  // icmp - computed: false, optional: true, required: false
+  private _icmp?: number; 
+  public get icmp() {
+    return this.getNumberAttribute('icmp');
+  }
+  public set icmp(value: number) {
+    this._icmp = value;
+  }
+  public resetIcmp() {
+    this._icmp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpInput() {
+    return this._icmp;
+  }
+
+  // others - computed: false, optional: true, required: false
+  private _others?: number; 
+  public get others() {
+    return this.getNumberAttribute('others');
+  }
+  public set others(value: number) {
+    this._others = value;
+  }
+  public resetOthers() {
+    this._others = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get othersInput() {
+    return this._others;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // ip6_list - computed: false, optional: true, required: false
+  private _ip6List = new FwTemplateLoggingEnableLogByDestinationIp6ListStructList(this, "ip6_list", false);
+  public get ip6List() {
+    return this._ip6List;
+  }
+  public putIp6List(value: FwTemplateLoggingEnableLogByDestinationIp6ListStruct[] | cdktf.IResolvable) {
+    this._ip6List.internalValue = value;
+  }
+  public resetIp6List() {
+    this._ip6List.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ip6ListInput() {
+    return this._ip6List.internalValue;
+  }
+
+  // ip_list - computed: false, optional: true, required: false
+  private _ipList = new FwTemplateLoggingEnableLogByDestinationIpListStructList(this, "ip_list", false);
+  public get ipList() {
+    return this._ipList;
+  }
+  public putIpList(value: FwTemplateLoggingEnableLogByDestinationIpListStruct[] | cdktf.IResolvable) {
+    this._ipList.internalValue = value;
+  }
+  public resetIpList() {
+    this._ipList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipListInput() {
+    return this._ipList.internalValue;
+  }
+
+  // tcp_list - computed: false, optional: true, required: false
+  private _tcpList = new FwTemplateLoggingEnableLogByDestinationTcpListStructList(this, "tcp_list", false);
+  public get tcpList() {
+    return this._tcpList;
+  }
+  public putTcpList(value: FwTemplateLoggingEnableLogByDestinationTcpListStruct[] | cdktf.IResolvable) {
+    this._tcpList.internalValue = value;
+  }
+  public resetTcpList() {
+    this._tcpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpListInput() {
+    return this._tcpList.internalValue;
+  }
+
+  // udp_list - computed: false, optional: true, required: false
+  private _udpList = new FwTemplateLoggingEnableLogByDestinationUdpListStructList(this, "udp_list", false);
+  public get udpList() {
+    return this._udpList;
+  }
+  public putUdpList(value: FwTemplateLoggingEnableLogByDestinationUdpListStruct[] | cdktf.IResolvable) {
+    this._udpList.internalValue = value;
+  }
+  public resetUdpList() {
+    this._udpList.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get udpListInput() {
+    return this._udpList.internalValue;
+  }
 }
 export interface FwTemplateLoggingIncludeHttpHeaderCfg {
   /**
   * Header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#custom_header_name FwTemplateLogging#custom_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom_header_name FwTemplateLogging#custom_header_name}
   */
   readonly customHeaderName?: string;
   /**
   * Max length for a HTTP request log (Max header length (Default: 100 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#custom_max_length FwTemplateLogging#custom_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#custom_max_length FwTemplateLogging#custom_max_length}
   */
   readonly customMaxLength?: number;
   /**
   * 'cookie': Log HTTP Cookie Header; 'referer': Log HTTP Referer Header; 'user-agent': Log HTTP User-Agent Header; 'header1': Log HTTP Header 1; 'header2': Log HTTP Header 2; 'header3': Log HTTP Header 3;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#http_header FwTemplateLogging#http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#http_header FwTemplateLogging#http_header}
   */
   readonly httpHeader?: string;
   /**
   * Max length for a HTTP request log (Max header length (Default: 100 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#max_length FwTemplateLogging#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#max_length FwTemplateLogging#max_length}
   */
   readonly maxLength?: number;
 }
@@ -338,31 +4297,31 @@ export interface FwTemplateLoggingIncludeHttp {
   /**
   * HTTP file extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#file_extension FwTemplateLogging#file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#file_extension FwTemplateLogging#file_extension}
   */
   readonly fileExtension?: number;
   /**
   * Log the L4 session information of the HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#l4_session_info FwTemplateLogging#l4_session_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#l4_session_info FwTemplateLogging#l4_session_info}
   */
   readonly l4SessionInfo?: number;
   /**
   * Log the HTTP Request Method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#method FwTemplateLogging#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#method FwTemplateLogging#method}
   */
   readonly method?: number;
   /**
   * HTTP Request Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#request_number FwTemplateLogging#request_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#request_number FwTemplateLogging#request_number}
   */
   readonly requestNumber?: number;
   /**
   * header_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#header_cfg FwTemplateLogging#header_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#header_cfg FwTemplateLogging#header_cfg}
   */
   readonly headerCfg?: FwTemplateLoggingIncludeHttpHeaderCfg[] | cdktf.IResolvable;
 }
@@ -564,13 +4523,13 @@ export interface FwTemplateLoggingIncludeRadiusAttributeAttrCfg {
   /**
   * 'imei': Include IMEI; 'imsi': Include IMSI; 'msisdn': Include MSISDN; 'custom1': Customized attribute 1; 'custom2': Customized attribute 2; 'custom3': Customized attribute 3; 'custom4': Customized attribute 4; 'custom5': Customized attribute 5; 'custom6': Customized attribute 6;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#attr FwTemplateLogging#attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#attr FwTemplateLogging#attr}
   */
   readonly attr?: string;
   /**
   * 'http-requests': Include in HTTP request logs; 'sessions': Include in session logs; 'limit-policy': Include in limit policy logs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#attr_event FwTemplateLogging#attr_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#attr_event FwTemplateLogging#attr_event}
   */
   readonly attrEvent?: string;
 }
@@ -717,37 +4676,37 @@ export interface FwTemplateLoggingIncludeRadiusAttribute {
   /**
   * Include radius attributes for the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#framed_ipv6_prefix FwTemplateLogging#framed_ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#framed_ipv6_prefix FwTemplateLogging#framed_ipv6_prefix}
   */
   readonly framedIpv6Prefix?: number;
   /**
   * Configure what string is to be inserted for custom RADIUS attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#insert_if_not_existing FwTemplateLogging#insert_if_not_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#insert_if_not_existing FwTemplateLogging#insert_if_not_existing}
   */
   readonly insertIfNotExisting?: number;
   /**
   * No quotation marks for RADIUS attributes in logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#no_quote FwTemplateLogging#no_quote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#no_quote FwTemplateLogging#no_quote}
   */
   readonly noQuote?: number;
   /**
   * '32': Prefix length 32; '48': Prefix length 48; '64': Prefix length 64; '80': Prefix length 80; '96': Prefix length 96; '112': Prefix length 112;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#prefix_length FwTemplateLogging#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#prefix_length FwTemplateLogging#prefix_length}
   */
   readonly prefixLength?: string;
   /**
   * Insert 0000 for standard and custom attributes in log string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#zero_in_custom_attr FwTemplateLogging#zero_in_custom_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#zero_in_custom_attr FwTemplateLogging#zero_in_custom_attr}
   */
   readonly zeroInCustomAttr?: number;
   /**
   * attr_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#attr_cfg FwTemplateLogging#attr_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#attr_cfg FwTemplateLogging#attr_cfg}
   */
   readonly attrCfg?: FwTemplateLoggingIncludeRadiusAttributeAttrCfg[] | cdktf.IResolvable;
 }
@@ -978,7 +4937,7 @@ export interface FwTemplateLoggingLog {
   /**
   * 'host': Log the HTTP Host Header; 'url': Log the HTTP Request URL;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#http_requests FwTemplateLogging#http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#http_requests FwTemplateLogging#http_requests}
   */
   readonly httpRequests?: string;
 }
@@ -1062,13 +5021,13 @@ export class FwTemplateLoggingLogOutputReference extends cdktf.ComplexObject {
 }
 export interface FwTemplateLoggingRuleRuleHttpRequestsDestPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#dest_port_number FwTemplateLogging#dest_port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#dest_port_number FwTemplateLogging#dest_port_number}
   */
   readonly destPortNumber?: number;
   /**
   * Include the byte count of HTTP Request/Response in FW session deletion logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#include_byte_count FwTemplateLogging#include_byte_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_byte_count FwTemplateLogging#include_byte_count}
   */
   readonly includeByteCount?: number;
 }
@@ -1215,31 +5174,31 @@ export interface FwTemplateLoggingRuleRuleHttpRequests {
   /**
   * Disable http packet sequence check and don't drop out of order packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#disable_sequence_check FwTemplateLogging#disable_sequence_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#disable_sequence_check FwTemplateLogging#disable_sequence_check}
   */
   readonly disableSequenceCheck?: number;
   /**
   * Include all configured headers despite of absence in HTTP request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#include_all_headers FwTemplateLogging#include_all_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#include_all_headers FwTemplateLogging#include_all_headers}
   */
   readonly includeAllHeaders?: number;
   /**
   * Log every HTTP request in an HTTP 1.1 session (Default: Log the first HTTP request in a session)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#log_every_http_request FwTemplateLogging#log_every_http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#log_every_http_request FwTemplateLogging#log_every_http_request}
   */
   readonly logEveryHttpRequest?: number;
   /**
-  * Max length of URL log (Max URL length (Default: 128 char))
+  * Max length of URL log (Max URL length (Default: 100 char))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#max_url_len FwTemplateLogging#max_url_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#max_url_len FwTemplateLogging#max_url_len}
   */
   readonly maxUrlLen?: number;
   /**
   * dest_port block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#dest_port FwTemplateLogging#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#dest_port FwTemplateLogging#dest_port}
   */
   readonly destPort?: FwTemplateLoggingRuleRuleHttpRequestsDestPort[] | cdktf.IResolvable;
 }
@@ -1441,7 +5400,7 @@ export interface FwTemplateLoggingRule {
   /**
   * rule_http_requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#rule_http_requests FwTemplateLogging#rule_http_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#rule_http_requests FwTemplateLogging#rule_http_requests}
   */
   readonly ruleHttpRequests?: FwTemplateLoggingRuleRuleHttpRequests;
 }
@@ -1527,13 +5486,13 @@ export interface FwTemplateLoggingSessionPeriodicLog {
   /**
   * Logging time interval (minutes) for long lived sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#interval FwTemplateLogging#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#interval FwTemplateLogging#interval}
   */
   readonly interval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
   */
   readonly uuid?: string;
 }
@@ -1648,19 +5607,19 @@ export interface FwTemplateLoggingSourceAddress {
   /**
   * Specify source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#ip FwTemplateLogging#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ip FwTemplateLogging#ip}
   */
   readonly ip?: string;
   /**
   * Specify source IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#ipv6 FwTemplateLogging#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#ipv6 FwTemplateLogging#ipv6}
   */
   readonly ipv6?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#uuid FwTemplateLogging#uuid}
   */
   readonly uuid?: string;
 }
@@ -1802,7 +5761,7 @@ export class FwTemplateLoggingSourceAddressOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging thunder_fw_template_logging}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging thunder_fw_template_logging}
 */
 export class FwTemplateLogging extends cdktf.TerraformResource {
 
@@ -1818,7 +5777,7 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FwTemplateLogging resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FwTemplateLogging to import
-  * @param importFromId The id of the existing FwTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FwTemplateLogging that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FwTemplateLogging to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1830,7 +5789,7 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/fw_template_logging thunder_fw_template_logging} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/fw_template_logging thunder_fw_template_logging} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1841,8 +5800,8 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_fw_template_logging',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1856,6 +5815,7 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
     this._format = config.format;
     this._id = config.id;
     this._includeDestFqdn = config.includeDestFqdn;
+    this._includeYear = config.includeYear;
     this._mergedStyle = config.mergedStyle;
     this._name = config.name;
     this._resolution = config.resolution;
@@ -1863,6 +5823,9 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
     this._severity = config.severity;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
+    this._custom.internalValue = config.custom;
+    this._disableLogByDestination.internalValue = config.disableLogByDestination;
+    this._enableLogByDestination.internalValue = config.enableLogByDestination;
     this._includeHttp.internalValue = config.includeHttp;
     this._includeRadiusAttribute.internalValue = config.includeRadiusAttribute;
     this._log.internalValue = config.log;
@@ -1937,6 +5900,22 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get includeDestFqdnInput() {
     return this._includeDestFqdn;
+  }
+
+  // include_year - computed: false, optional: true, required: false
+  private _includeYear?: number; 
+  public get includeYear() {
+    return this.getNumberAttribute('include_year');
+  }
+  public set includeYear(value: number) {
+    this._includeYear = value;
+  }
+  public resetIncludeYear() {
+    this._includeYear = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeYearInput() {
+    return this._includeYear;
   }
 
   // merged_style - computed: false, optional: true, required: false
@@ -2048,6 +6027,54 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // custom - computed: false, optional: true, required: false
+  private _custom = new FwTemplateLoggingCustomOutputReference(this, "custom");
+  public get custom() {
+    return this._custom;
+  }
+  public putCustom(value: FwTemplateLoggingCustom) {
+    this._custom.internalValue = value;
+  }
+  public resetCustom() {
+    this._custom.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customInput() {
+    return this._custom.internalValue;
+  }
+
+  // disable_log_by_destination - computed: false, optional: true, required: false
+  private _disableLogByDestination = new FwTemplateLoggingDisableLogByDestinationOutputReference(this, "disable_log_by_destination");
+  public get disableLogByDestination() {
+    return this._disableLogByDestination;
+  }
+  public putDisableLogByDestination(value: FwTemplateLoggingDisableLogByDestination) {
+    this._disableLogByDestination.internalValue = value;
+  }
+  public resetDisableLogByDestination() {
+    this._disableLogByDestination.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disableLogByDestinationInput() {
+    return this._disableLogByDestination.internalValue;
+  }
+
+  // enable_log_by_destination - computed: false, optional: true, required: false
+  private _enableLogByDestination = new FwTemplateLoggingEnableLogByDestinationOutputReference(this, "enable_log_by_destination");
+  public get enableLogByDestination() {
+    return this._enableLogByDestination;
+  }
+  public putEnableLogByDestination(value: FwTemplateLoggingEnableLogByDestination) {
+    this._enableLogByDestination.internalValue = value;
+  }
+  public resetEnableLogByDestination() {
+    this._enableLogByDestination.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableLogByDestinationInput() {
+    return this._enableLogByDestination.internalValue;
+  }
+
   // include_http - computed: false, optional: true, required: false
   private _includeHttp = new FwTemplateLoggingIncludeHttpOutputReference(this, "include_http");
   public get includeHttp() {
@@ -2154,6 +6181,7 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
       format: cdktf.stringToTerraform(this._format),
       id: cdktf.stringToTerraform(this._id),
       include_dest_fqdn: cdktf.numberToTerraform(this._includeDestFqdn),
+      include_year: cdktf.numberToTerraform(this._includeYear),
       merged_style: cdktf.numberToTerraform(this._mergedStyle),
       name: cdktf.stringToTerraform(this._name),
       resolution: cdktf.stringToTerraform(this._resolution),
@@ -2161,6 +6189,9 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
       severity: cdktf.stringToTerraform(this._severity),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
+      custom: fwTemplateLoggingCustomToTerraform(this._custom.internalValue),
+      disable_log_by_destination: fwTemplateLoggingDisableLogByDestinationToTerraform(this._disableLogByDestination.internalValue),
+      enable_log_by_destination: fwTemplateLoggingEnableLogByDestinationToTerraform(this._enableLogByDestination.internalValue),
       include_http: fwTemplateLoggingIncludeHttpToTerraform(this._includeHttp.internalValue),
       include_radius_attribute: fwTemplateLoggingIncludeRadiusAttributeToTerraform(this._includeRadiusAttribute.internalValue),
       log: fwTemplateLoggingLogToTerraform(this._log.internalValue),
@@ -2192,6 +6223,12 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
       },
       include_dest_fqdn: {
         value: cdktf.numberToHclTerraform(this._includeDestFqdn),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      include_year: {
+        value: cdktf.numberToHclTerraform(this._includeYear),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -2237,6 +6274,24 @@ export class FwTemplateLogging extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      custom: {
+        value: fwTemplateLoggingCustomToHclTerraform(this._custom.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "FwTemplateLoggingCustomList",
+      },
+      disable_log_by_destination: {
+        value: fwTemplateLoggingDisableLogByDestinationToHclTerraform(this._disableLogByDestination.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "FwTemplateLoggingDisableLogByDestinationList",
+      },
+      enable_log_by_destination: {
+        value: fwTemplateLoggingEnableLogByDestinationToHclTerraform(this._enableLogByDestination.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "FwTemplateLoggingEnableLogByDestinationList",
       },
       include_http: {
         value: fwTemplateLoggingIncludeHttpToHclTerraform(this._includeHttp.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbServiceGroupStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#id DataThunderSlbServiceGroupStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#id DataThunderSlbServiceGroupStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataThunderSlbServiceGroupStatsConfig extends cdktf.TerraformMe
   /**
   * SLB Service Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#name DataThunderSlbServiceGroupStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#name DataThunderSlbServiceGroupStats#name}
   */
   readonly name: string;
   /**
   * member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#member_list DataThunderSlbServiceGroupStats#member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#member_list DataThunderSlbServiceGroupStats#member_list}
   */
   readonly memberList?: DataThunderSlbServiceGroupStatsMemberListStruct[] | cdktf.IResolvable;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#stats DataThunderSlbServiceGroupStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#stats DataThunderSlbServiceGroupStats#stats}
   */
   readonly stats?: DataThunderSlbServiceGroupStatsStats;
 }
@@ -37,121 +37,121 @@ export interface DataThunderSlbServiceGroupStatsMemberListStats {
   /**
   * Current established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#curr_conn DataThunderSlbServiceGroupStats#curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#curr_conn DataThunderSlbServiceGroupStats#curr_conn}
   */
   readonly currConn?: number;
   /**
   * Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#curr_conn_overflow DataThunderSlbServiceGroupStats#curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#curr_conn_overflow DataThunderSlbServiceGroupStats#curr_conn_overflow}
   */
   readonly currConnOverflow?: number;
   /**
   * Current requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#curr_req DataThunderSlbServiceGroupStats#curr_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#curr_req DataThunderSlbServiceGroupStats#curr_req}
   */
   readonly currReq?: number;
   /**
   * Current SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#curr_ssl_conn DataThunderSlbServiceGroupStats#curr_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#curr_ssl_conn DataThunderSlbServiceGroupStats#curr_ssl_conn}
   */
   readonly currSslConn?: number;
   /**
   * Fastest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#fastest_rsp_time DataThunderSlbServiceGroupStats#fastest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#fastest_rsp_time DataThunderSlbServiceGroupStats#fastest_rsp_time}
   */
   readonly fastestRspTime?: number;
   /**
   * Peak connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#peak_conn DataThunderSlbServiceGroupStats#peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#peak_conn DataThunderSlbServiceGroupStats#peak_conn}
   */
   readonly peakConn?: number;
   /**
   * Response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#response_time DataThunderSlbServiceGroupStats#response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#response_time DataThunderSlbServiceGroupStats#response_time}
   */
   readonly responseTime?: number;
   /**
   * Slowest response time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#slowest_rsp_time DataThunderSlbServiceGroupStats#slowest_rsp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#slowest_rsp_time DataThunderSlbServiceGroupStats#slowest_rsp_time}
   */
   readonly slowestRspTime?: number;
   /**
   * State flaps count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#state_flaps DataThunderSlbServiceGroupStats#state_flaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#state_flaps DataThunderSlbServiceGroupStats#state_flaps}
   */
   readonly stateFlaps?: number;
   /**
   * Total established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_conn DataThunderSlbServiceGroupStats#total_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_conn DataThunderSlbServiceGroupStats#total_conn}
   */
   readonly totalConn?: number;
   /**
   * Bytes processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_fwd_bytes DataThunderSlbServiceGroupStats#total_fwd_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_fwd_bytes DataThunderSlbServiceGroupStats#total_fwd_bytes}
   */
   readonly totalFwdBytes?: number;
   /**
   * Packets processed in forward direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_fwd_pkts DataThunderSlbServiceGroupStats#total_fwd_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_fwd_pkts DataThunderSlbServiceGroupStats#total_fwd_pkts}
   */
   readonly totalFwdPkts?: number;
   /**
   * Total requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_req DataThunderSlbServiceGroupStats#total_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_req DataThunderSlbServiceGroupStats#total_req}
   */
   readonly totalReq?: number;
   /**
   * Total requests successful
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_req_succ DataThunderSlbServiceGroupStats#total_req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_req_succ DataThunderSlbServiceGroupStats#total_req_succ}
   */
   readonly totalReqSucc?: number;
   /**
   * Bytes processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_rev_bytes DataThunderSlbServiceGroupStats#total_rev_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_rev_bytes DataThunderSlbServiceGroupStats#total_rev_bytes}
   */
   readonly totalRevBytes?: number;
   /**
   * Packets processed in reverse direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_rev_pkts DataThunderSlbServiceGroupStats#total_rev_pkts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_rev_pkts DataThunderSlbServiceGroupStats#total_rev_pkts}
   */
   readonly totalRevPkts?: number;
   /**
   * Total reverse packets inspected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected DataThunderSlbServiceGroupStats#total_rev_pkts_inspected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected DataThunderSlbServiceGroupStats#total_rev_pkts_inspected}
   */
   readonly totalRevPktsInspected?: number;
   /**
   * Total reverse packets inspected status code 2xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected_status_code_2xx DataThunderSlbServiceGroupStats#total_rev_pkts_inspected_status_code_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected_status_code_2xx DataThunderSlbServiceGroupStats#total_rev_pkts_inspected_status_code_2xx}
   */
   readonly totalRevPktsInspectedStatusCode2Xx?: number;
   /**
   * Total reverse packets inspected status code non 5xx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderSlbServiceGroupStats#total_rev_pkts_inspected_status_code_non_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_rev_pkts_inspected_status_code_non_5xx DataThunderSlbServiceGroupStats#total_rev_pkts_inspected_status_code_non_5xx}
   */
   readonly totalRevPktsInspectedStatusCodeNon5Xx?: number;
   /**
   * Total SSL connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#total_ssl_conn DataThunderSlbServiceGroupStats#total_ssl_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#total_ssl_conn DataThunderSlbServiceGroupStats#total_ssl_conn}
   */
   readonly totalSslConn?: number;
 }
@@ -788,19 +788,19 @@ export interface DataThunderSlbServiceGroupStatsMemberListStruct {
   /**
   * Member name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#name DataThunderSlbServiceGroupStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#name DataThunderSlbServiceGroupStats#name}
   */
   readonly name: string;
   /**
   * Port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#port DataThunderSlbServiceGroupStats#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#port DataThunderSlbServiceGroupStats#port}
   */
   readonly port: number;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#stats DataThunderSlbServiceGroupStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#stats DataThunderSlbServiceGroupStats#stats}
   */
   readonly stats?: DataThunderSlbServiceGroupStatsMemberListStats;
 }
@@ -970,73 +970,73 @@ export interface DataThunderSlbServiceGroupStatsStats {
   /**
   * Drops due to Service selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#server_selection_fail_drop DataThunderSlbServiceGroupStats#server_selection_fail_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#server_selection_fail_drop DataThunderSlbServiceGroupStats#server_selection_fail_drop}
   */
   readonly serverSelectionFailDrop?: number;
   /**
   * Resets sent out for Service selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#server_selection_fail_reset DataThunderSlbServiceGroupStats#server_selection_fail_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#server_selection_fail_reset DataThunderSlbServiceGroupStats#server_selection_fail_reset}
   */
   readonly serverSelectionFailReset?: number;
   /**
   * Current connection counter overflow count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_curr_conn_overflow DataThunderSlbServiceGroupStats#service_curr_conn_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_curr_conn_overflow DataThunderSlbServiceGroupStats#service_curr_conn_overflow}
   */
   readonly serviceCurrConnOverflow?: number;
   /**
   * Service Group healthy host count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_healthy_host DataThunderSlbServiceGroupStats#service_healthy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_healthy_host DataThunderSlbServiceGroupStats#service_healthy_host}
   */
   readonly serviceHealthyHost?: number;
   /**
   * Peak connection count for the Service Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_peak_conn DataThunderSlbServiceGroupStats#service_peak_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_peak_conn DataThunderSlbServiceGroupStats#service_peak_conn}
   */
   readonly servicePeakConn?: number;
   /**
   * Service Group request count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_req_count DataThunderSlbServiceGroupStats#service_req_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_req_count DataThunderSlbServiceGroupStats#service_req_count}
   */
   readonly serviceReqCount?: number;
   /**
   * Service Group response 2xx count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_resp_2xx DataThunderSlbServiceGroupStats#service_resp_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_resp_2xx DataThunderSlbServiceGroupStats#service_resp_2xx}
   */
   readonly serviceResp2Xx?: number;
   /**
   * Service Group response 3xx count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_resp_3xx DataThunderSlbServiceGroupStats#service_resp_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_resp_3xx DataThunderSlbServiceGroupStats#service_resp_3xx}
   */
   readonly serviceResp3Xx?: number;
   /**
   * Service Group response 4xx count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_resp_4xx DataThunderSlbServiceGroupStats#service_resp_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_resp_4xx DataThunderSlbServiceGroupStats#service_resp_4xx}
   */
   readonly serviceResp4Xx?: number;
   /**
   * Service Group response 5xx count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_resp_5xx DataThunderSlbServiceGroupStats#service_resp_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_resp_5xx DataThunderSlbServiceGroupStats#service_resp_5xx}
   */
   readonly serviceResp5Xx?: number;
   /**
   * Service Group response count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_resp_count DataThunderSlbServiceGroupStats#service_resp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_resp_count DataThunderSlbServiceGroupStats#service_resp_count}
   */
   readonly serviceRespCount?: number;
   /**
   * Service Group unhealthy host count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#service_unhealthy_host DataThunderSlbServiceGroupStats#service_unhealthy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#service_unhealthy_host DataThunderSlbServiceGroupStats#service_unhealthy_host}
   */
   readonly serviceUnhealthyHost?: number;
 }
@@ -1439,7 +1439,7 @@ export class DataThunderSlbServiceGroupStatsStatsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats thunder_slb_service_group_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats thunder_slb_service_group_stats}
 */
 export class DataThunderSlbServiceGroupStats extends cdktf.TerraformDataSource {
 
@@ -1455,7 +1455,7 @@ export class DataThunderSlbServiceGroupStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbServiceGroupStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbServiceGroupStats to import
-  * @param importFromId The id of the existing DataThunderSlbServiceGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbServiceGroupStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbServiceGroupStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1467,7 +1467,7 @@ export class DataThunderSlbServiceGroupStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_service_group_stats thunder_slb_service_group_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_service_group_stats thunder_slb_service_group_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1478,8 +1478,8 @@ export class DataThunderSlbServiceGroupStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_service_group_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnPortReservationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#id Cgnv6LsnPortReservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#id Cgnv6LsnPortReservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,49 +17,49 @@ export interface Cgnv6LsnPortReservationConfig extends cdktf.TerraformMetaArgume
   /**
   * Inside User Address and Port Range (Inside User IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#inside Cgnv6LsnPortReservation#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#inside Cgnv6LsnPortReservation#inside}
   */
   readonly inside: string;
   /**
   * Inside End Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#inside_port_end Cgnv6LsnPortReservation#inside_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#inside_port_end Cgnv6LsnPortReservation#inside_port_end}
   */
   readonly insidePortEnd: number;
   /**
   * Inside Start Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#inside_port_start Cgnv6LsnPortReservation#inside_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#inside_port_start Cgnv6LsnPortReservation#inside_port_start}
   */
   readonly insidePortStart: number;
   /**
   * NAT IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#nat Cgnv6LsnPortReservation#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#nat Cgnv6LsnPortReservation#nat}
   */
   readonly nat: string;
   /**
   * NAT End Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#nat_port_end Cgnv6LsnPortReservation#nat_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#nat_port_end Cgnv6LsnPortReservation#nat_port_end}
   */
   readonly natPortEnd: number;
   /**
   * NAT Start Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#nat_port_start Cgnv6LsnPortReservation#nat_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#nat_port_start Cgnv6LsnPortReservation#nat_port_start}
   */
   readonly natPortStart: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#uuid Cgnv6LsnPortReservation#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#uuid Cgnv6LsnPortReservation#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation thunder_cgnv6_lsn_port_reservation}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation thunder_cgnv6_lsn_port_reservation}
 */
 export class Cgnv6LsnPortReservation extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Cgnv6LsnPortReservation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnPortReservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnPortReservation to import
-  * @param importFromId The id of the existing Cgnv6LsnPortReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnPortReservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnPortReservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Cgnv6LsnPortReservation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_port_reservation thunder_cgnv6_lsn_port_reservation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_port_reservation thunder_cgnv6_lsn_port_reservation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Cgnv6LsnPortReservation extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_port_reservation',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

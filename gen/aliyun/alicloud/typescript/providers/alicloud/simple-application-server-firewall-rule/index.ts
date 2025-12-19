@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SimpleApplicationServerFirewallRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#id SimpleApplicationServerFirewallRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#id SimpleApplicationServerFirewallRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#instance_id SimpleApplicationServerFirewallRule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#instance_id SimpleApplicationServerFirewallRule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#port SimpleApplicationServerFirewallRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#port SimpleApplicationServerFirewallRule#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#remark SimpleApplicationServerFirewallRule#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#remark SimpleApplicationServerFirewallRule#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#rule_protocol SimpleApplicationServerFirewallRule#rule_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#rule_protocol SimpleApplicationServerFirewallRule#rule_protocol}
   */
   readonly ruleProtocol: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule alicloud_simple_application_server_firewall_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule alicloud_simple_application_server_firewall_rule}
 */
 export class SimpleApplicationServerFirewallRule extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SimpleApplicationServerFirewallRule extends cdktf.TerraformResource
   * Generates CDKTF code for importing a SimpleApplicationServerFirewallRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SimpleApplicationServerFirewallRule to import
-  * @param importFromId The id of the existing SimpleApplicationServerFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SimpleApplicationServerFirewallRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SimpleApplicationServerFirewallRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SimpleApplicationServerFirewallRule extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/simple_application_server_firewall_rule alicloud_simple_application_server_firewall_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/simple_application_server_firewall_rule alicloud_simple_application_server_firewall_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SimpleApplicationServerFirewallRule extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_simple_application_server_firewall_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

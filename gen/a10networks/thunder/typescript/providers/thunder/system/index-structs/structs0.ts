@@ -3,7 +3,7 @@ export interface SystemAddCpuCore {
   /**
   * core index to be added (Specify core index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#core_index System#core_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#core_index System#core_index}
   */
   readonly coreIndex?: number;
 }
@@ -89,7 +89,7 @@ export interface SystemAddPort {
   /**
   * port index to be configured (Specify port index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_index System#port_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#port_index System#port_index}
   */
   readonly portIndex?: number;
 }
@@ -175,31 +175,31 @@ export interface SystemAllVlanLimit {
   /**
   * broadcast packets (per second limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#bcast System#bcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#bcast System#bcast}
   */
   readonly bcast?: number;
   /**
   * IP multicast packets (per second limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipmcast System#ipmcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipmcast System#ipmcast}
   */
   readonly ipmcast?: number;
   /**
   * multicast packets (per second limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mcast System#mcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mcast System#mcast}
   */
   readonly mcast?: number;
   /**
   * unknown unicast packets (per second limit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#unknown_ucast System#unknown_ucast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#unknown_ucast System#unknown_ucast}
   */
   readonly unknownUcast?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -401,7 +401,7 @@ export interface SystemAppPerformanceSamplingEnable {
   /**
   * 'all': all; 'total-throughput-bits-per-sec': Total Throughput in bits/sec; 'l4-conns-per-sec': L4 Connections/sec; 'l7-conns-per-sec': L7 Connections/sec; 'l7-trans-per-sec': L7 Transactions/sec; 'ssl-conns-per-sec': SSL Connections/sec; 'ip-nat-conns-per-sec': IP NAT Connections/sec; 'total-new-conns-per-sec': Total New Connections Established/sec; 'total-curr-conns': Total Current Established Connections; 'l4-bandwidth': L4 Bandwidth in bits/sec; 'l7-bandwidth': L7 Bandwidth in bits/sec; 'serv-ssl-conns-per-sec': Server SSL Connections/sec; 'fw-conns-per-sec': FW Connections/sec; 'gifw-conns-per-sec': GiFW Connections/sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -519,13 +519,13 @@ export interface SystemAppPerformance {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemAppPerformanceSamplingEnable[] | cdktf.IResolvable;
 }
@@ -640,37 +640,37 @@ export interface SystemAppsGlobal {
   /**
   * Set threshold for the total Connections Per Second across the system (Enter threshold number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cps_threshold System#cps_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cps_threshold System#cps_threshold}
   */
   readonly cpsThreshold?: number;
   /**
   * Send TCP session creation log on completion of 3-way handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#log_session_on_established System#log_session_on_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#log_session_on_established System#log_session_on_established}
   */
   readonly logSessionOnEstablished?: number;
   /**
   * Configure maximum session life, default is 2 seconds (1-39 seconds, default is 2 seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#msl_time System#msl_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#msl_time System#msl_time}
   */
   readonly mslTime?: number;
   /**
   * Set threshold for total sessions across the system (Enter threshold number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sessions_threshold System#sessions_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sessions_threshold System#sessions_threshold}
   */
   readonly sessionsThreshold?: number;
   /**
   * Set timer wheel walk limit (0-1024, 0 is unlimited, default is 100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#timer_wheel_walk_limit System#timer_wheel_walk_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#timer_wheel_walk_limit System#timer_wheel_walk_limit}
   */
   readonly timerWheelWalkLimit?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -901,13 +901,13 @@ export interface SystemAsicDebugDump {
   /**
   * Enable/Disable L2L3 ASIC traffic discard/drop events and Dump debug information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -1022,43 +1022,43 @@ export interface SystemAsicMmuFailSafe {
   /**
   * Inject MMU SER/Parity errors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#inject_error System#inject_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#inject_error System#inject_error}
   */
   readonly injectError?: number;
   /**
   * Enable Fail-safe software error monitoring and act on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#monitor_disable System#monitor_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#monitor_disable System#monitor_disable}
   */
   readonly monitorDisable?: number;
   /**
   * ASIC Fail-safe monitoring intervals in Seconds (Units of 1 Seconds (default 60))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#monitor_interval System#monitor_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#monitor_interval System#monitor_interval}
   */
   readonly monitorInterval?: number;
   /**
   * Disable system reboot if system encounters mmu error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#reboot_disable System#reboot_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#reboot_disable System#reboot_disable}
   */
   readonly rebootDisable?: number;
   /**
   * ASIC Fail-safe recovery threshold in Errors (Units of 1 Errors (default 2))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#recovery_threshold System#recovery_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#recovery_threshold System#recovery_threshold}
   */
   readonly recoveryThreshold?: number;
   /**
   * 'all-zeros': Inject all bits 0s in a byte; 'all-ones': Inject all bits 1s in a byte; 'lcb': Logical checker board; 'inverse-lcb': Inverse Logical checker board;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#test_pattern_type System#test_pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#test_pattern_type System#test_pattern_type}
   */
   readonly testPatternType?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -1316,9 +1316,9 @@ export class SystemAsicMmuFailSafeOutputReference extends cdktf.ComplexObject {
 }
 export interface SystemBandwidthSamplingEnable {
   /**
-  * 'all': all; 'input-bytes-per-sec': In Bytes per second; 'output-bytes-per-sec': Out Bytes per second;
+  * 'all': all; 'input-bytes-per-sec': In Bytes per second; 'output-bytes-per-sec': Out Bytes per second; 'ppsl_drop_egr': Packet-Per-Sec Limit Drop at egress; 'ppsl_drop_ing': Packet-Per-Sec Limit Drop at ingress; 'ppsl_ignore_limit': Packet-Per-Sec Limit ignored packets count; 'licexpire_drop': License Expire Drop; 'bwl_drop': BW Limit Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -1434,15 +1434,27 @@ export class SystemBandwidthSamplingEnableList extends cdktf.ComplexList {
 }
 export interface SystemBandwidth {
   /**
+  * Adjust bandwidth critical threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#critical_threshold System#critical_threshold}
+  */
+  readonly criticalThreshold?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
+  * Adjust bandwidth warning threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#warning_threshold System#warning_threshold}
+  */
+  readonly warningThreshold?: number;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemBandwidthSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1453,7 +1465,9 @@ export function systemBandwidthToTerraform(struct?: SystemBandwidthOutputReferen
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    critical_threshold: cdktf.numberToTerraform(struct!.criticalThreshold),
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    warning_threshold: cdktf.numberToTerraform(struct!.warningThreshold),
     sampling_enable: cdktf.listMapper(systemBandwidthSamplingEnableToTerraform, true)(struct!.samplingEnable),
   }
 }
@@ -1465,11 +1479,23 @@ export function systemBandwidthToHclTerraform(struct?: SystemBandwidthOutputRefe
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    critical_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.criticalThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    warning_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.warningThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     sampling_enable: {
       value: cdktf.listMapperHcl(systemBandwidthSamplingEnableToHclTerraform, true)(struct!.samplingEnable),
@@ -1497,9 +1523,17 @@ export class SystemBandwidthOutputReference extends cdktf.ComplexObject {
   public get internalValue(): SystemBandwidth | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._criticalThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.criticalThreshold = this._criticalThreshold;
+    }
     if (this._uuid !== undefined) {
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
+    }
+    if (this._warningThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.warningThreshold = this._warningThreshold;
     }
     if (this._samplingEnable?.internalValue !== undefined) {
       hasAnyValues = true;
@@ -1511,14 +1545,34 @@ export class SystemBandwidthOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: SystemBandwidth | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._criticalThreshold = undefined;
       this._uuid = undefined;
+      this._warningThreshold = undefined;
       this._samplingEnable.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._criticalThreshold = value.criticalThreshold;
       this._uuid = value.uuid;
+      this._warningThreshold = value.warningThreshold;
       this._samplingEnable.internalValue = value.samplingEnable;
     }
+  }
+
+  // critical_threshold - computed: false, optional: true, required: false
+  private _criticalThreshold?: number; 
+  public get criticalThreshold() {
+    return this.getNumberAttribute('critical_threshold');
+  }
+  public set criticalThreshold(value: number) {
+    this._criticalThreshold = value;
+  }
+  public resetCriticalThreshold() {
+    this._criticalThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get criticalThresholdInput() {
+    return this._criticalThreshold;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1535,6 +1589,22 @@ export class SystemBandwidthOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // warning_threshold - computed: false, optional: true, required: false
+  private _warningThreshold?: number; 
+  public get warningThreshold() {
+    return this.getNumberAttribute('warning_threshold');
+  }
+  public set warningThreshold(value: number) {
+    this._warningThreshold = value;
+  }
+  public resetWarningThreshold() {
+    this._warningThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warningThresholdInput() {
+    return this._warningThreshold;
   }
 
   // sampling_enable - computed: false, optional: true, required: false
@@ -1557,7 +1627,7 @@ export interface SystemBfdSamplingEnable {
   /**
   * 'all': all; 'ip_checksum_error': IP packet checksum errors; 'udp_checksum_error': UDP packet checksum errors; 'session_not_found': Session not found; 'multihop_mismatch': Multihop session or packet mismatch; 'version_mismatch': BFD version mismatch; 'length_too_small': Packets too small; 'data_is_short': Packet data length too short; 'invalid_detect_mult': Invalid detect multiplier; 'invalid_multipoint': Invalid multipoint setting; 'invalid_my_disc': Invalid my descriptor; 'invalid_ttl': Invalid TTL; 'auth_length_invalid': Invalid authentication length; 'auth_mismatch': Authentication mismatch; 'auth_type_mismatch': Authentication type mismatch; 'auth_key_id_mismatch': Authentication key-id mismatch; 'auth_key_mismatch': Authentication key mismatch; 'auth_seqnum_invalid': Invalid authentication sequence number; 'auth_failed': Authentication failures; 'local_state_admin_down': Local admin down session state; 'dest_unreachable': Destination unreachable; 'no_ipv6_enable': No IPv6 enable; 'other_error': Other errors;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -1675,13 +1745,13 @@ export interface SystemBfd {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemBfdSamplingEnable[] | cdktf.IResolvable;
 }
@@ -1792,17 +1862,103 @@ export class SystemBfdOutputReference extends cdktf.ComplexObject {
     return this._samplingEnable.internalValue;
   }
 }
+export interface SystemClThreatCategory {
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemClThreatCategoryToTerraform(struct?: SystemClThreatCategoryOutputReference | SystemClThreatCategory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemClThreatCategoryToHclTerraform(struct?: SystemClThreatCategoryOutputReference | SystemClThreatCategory): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemClThreatCategoryOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemClThreatCategory | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemClThreatCategory | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface SystemCliMonitorInterval {
   /**
   * one interval is 300ms (0 = disable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#interval System#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#interval System#interval}
   */
   readonly interval?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -1917,19 +2073,19 @@ export interface SystemCmUpdateFileNameRef {
   /**
   * bind dest name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dest_name System#dest_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dest_name System#dest_name}
   */
   readonly destName?: string;
   /**
   * Specify unique Partition id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#id1 System#id1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#id1 System#id1}
   */
   readonly id1?: number;
   /**
   * bind source name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#source_name System#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#source_name System#source_name}
   */
   readonly sourceName?: string;
 }
@@ -2069,11 +2225,705 @@ export class SystemCmUpdateFileNameRefOutputReference extends cdktf.ComplexObjec
     return this._sourceName;
   }
 }
+export interface SystemConfigMgmtMpm {
+  /**
+  * Set max workers count. Default is 1
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#max_workers System#max_workers}
+  */
+  readonly maxWorkers?: number;
+  /**
+  * Set minimum idle workers count. Default is 1
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#min_idle_workers System#min_idle_workers}
+  */
+  readonly minIdleWorkers?: number;
+  /**
+  * Set starting workers count. Default is 1
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#start_workers System#start_workers}
+  */
+  readonly startWorkers?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemConfigMgmtMpmToTerraform(struct?: SystemConfigMgmtMpmOutputReference | SystemConfigMgmtMpm): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    max_workers: cdktf.numberToTerraform(struct!.maxWorkers),
+    min_idle_workers: cdktf.numberToTerraform(struct!.minIdleWorkers),
+    start_workers: cdktf.numberToTerraform(struct!.startWorkers),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemConfigMgmtMpmToHclTerraform(struct?: SystemConfigMgmtMpmOutputReference | SystemConfigMgmtMpm): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    max_workers: {
+      value: cdktf.numberToHclTerraform(struct!.maxWorkers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    min_idle_workers: {
+      value: cdktf.numberToHclTerraform(struct!.minIdleWorkers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    start_workers: {
+      value: cdktf.numberToHclTerraform(struct!.startWorkers),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemConfigMgmtMpmOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemConfigMgmtMpm | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._maxWorkers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxWorkers = this._maxWorkers;
+    }
+    if (this._minIdleWorkers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.minIdleWorkers = this._minIdleWorkers;
+    }
+    if (this._startWorkers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.startWorkers = this._startWorkers;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemConfigMgmtMpm | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._maxWorkers = undefined;
+      this._minIdleWorkers = undefined;
+      this._startWorkers = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._maxWorkers = value.maxWorkers;
+      this._minIdleWorkers = value.minIdleWorkers;
+      this._startWorkers = value.startWorkers;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // max_workers - computed: false, optional: true, required: false
+  private _maxWorkers?: number; 
+  public get maxWorkers() {
+    return this.getNumberAttribute('max_workers');
+  }
+  public set maxWorkers(value: number) {
+    this._maxWorkers = value;
+  }
+  public resetMaxWorkers() {
+    this._maxWorkers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxWorkersInput() {
+    return this._maxWorkers;
+  }
+
+  // min_idle_workers - computed: false, optional: true, required: false
+  private _minIdleWorkers?: number; 
+  public get minIdleWorkers() {
+    return this.getNumberAttribute('min_idle_workers');
+  }
+  public set minIdleWorkers(value: number) {
+    this._minIdleWorkers = value;
+  }
+  public resetMinIdleWorkers() {
+    this._minIdleWorkers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get minIdleWorkersInput() {
+    return this._minIdleWorkers;
+  }
+
+  // start_workers - computed: false, optional: true, required: false
+  private _startWorkers?: number; 
+  public get startWorkers() {
+    return this.getNumberAttribute('start_workers');
+  }
+  public set startWorkers(value: number) {
+    this._startWorkers = value;
+  }
+  public resetStartWorkers() {
+    this._startWorkers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get startWorkersInput() {
+    return this._startWorkers;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SystemConfigMgmtNotification {
+  /**
+  * Time interval (seconds) for kafka notification. Default is 15 seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#period System#period}
+  */
+  readonly period?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemConfigMgmtNotificationToTerraform(struct?: SystemConfigMgmtNotificationOutputReference | SystemConfigMgmtNotification): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    period: cdktf.numberToTerraform(struct!.period),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemConfigMgmtNotificationToHclTerraform(struct?: SystemConfigMgmtNotificationOutputReference | SystemConfigMgmtNotification): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    period: {
+      value: cdktf.numberToHclTerraform(struct!.period),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemConfigMgmtNotificationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemConfigMgmtNotification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._period !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.period = this._period;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemConfigMgmtNotification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._period = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._period = value.period;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // period - computed: false, optional: true, required: false
+  private _period?: number; 
+  public get period() {
+    return this.getNumberAttribute('period');
+  }
+  public set period(value: number) {
+    this._period = value;
+  }
+  public resetPeriod() {
+    this._period = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get periodInput() {
+    return this._period;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SystemConfigMgmtPuSyncDetection {
+  /**
+  * 'enable': Enable pu-sync-detection feature; 'disable': Disable pu-sync-detection feature;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#action System#action}
+  */
+  readonly action?: string;
+  /**
+  * Time interval (seconds) for detection. Default is 30 seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#interval System#interval}
+  */
+  readonly interval?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemConfigMgmtPuSyncDetectionToTerraform(struct?: SystemConfigMgmtPuSyncDetectionOutputReference | SystemConfigMgmtPuSyncDetection): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    action: cdktf.stringToTerraform(struct!.action),
+    interval: cdktf.numberToTerraform(struct!.interval),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemConfigMgmtPuSyncDetectionToHclTerraform(struct?: SystemConfigMgmtPuSyncDetectionOutputReference | SystemConfigMgmtPuSyncDetection): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    action: {
+      value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    interval: {
+      value: cdktf.numberToHclTerraform(struct!.interval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemConfigMgmtPuSyncDetectionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemConfigMgmtPuSyncDetection | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._action !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.action = this._action;
+    }
+    if (this._interval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.interval = this._interval;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemConfigMgmtPuSyncDetection | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._action = undefined;
+      this._interval = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._action = value.action;
+      this._interval = value.interval;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // action - computed: false, optional: true, required: false
+  private _action?: string; 
+  public get action() {
+    return this.getStringAttribute('action');
+  }
+  public set action(value: string) {
+    this._action = value;
+  }
+  public resetAction() {
+    this._action = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionInput() {
+    return this._action;
+  }
+
+  // interval - computed: false, optional: true, required: false
+  private _interval?: number; 
+  public get interval() {
+    return this.getNumberAttribute('interval');
+  }
+  public set interval(value: number) {
+    this._interval = value;
+  }
+  public resetInterval() {
+    this._interval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get intervalInput() {
+    return this._interval;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+export interface SystemConfigMgmt {
+  /**
+  * 'enable': Allow deletion of referenced tagged objects. Default option.; 'disable': Block deletion of referenced tagged objects;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#delete_referenced_tagged_objects System#delete_referenced_tagged_objects}
+  */
+  readonly deleteReferencedTaggedObjects?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+  /**
+  * mpm block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#mpm System#mpm}
+  */
+  readonly mpm?: SystemConfigMgmtMpm;
+  /**
+  * notification block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#notification System#notification}
+  */
+  readonly notification?: SystemConfigMgmtNotification;
+  /**
+  * pu_sync_detection block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#pu_sync_detection System#pu_sync_detection}
+  */
+  readonly puSyncDetection?: SystemConfigMgmtPuSyncDetection;
+}
+
+export function systemConfigMgmtToTerraform(struct?: SystemConfigMgmtOutputReference | SystemConfigMgmt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    delete_referenced_tagged_objects: cdktf.stringToTerraform(struct!.deleteReferencedTaggedObjects),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+    mpm: systemConfigMgmtMpmToTerraform(struct!.mpm),
+    notification: systemConfigMgmtNotificationToTerraform(struct!.notification),
+    pu_sync_detection: systemConfigMgmtPuSyncDetectionToTerraform(struct!.puSyncDetection),
+  }
+}
+
+
+export function systemConfigMgmtToHclTerraform(struct?: SystemConfigMgmtOutputReference | SystemConfigMgmt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    delete_referenced_tagged_objects: {
+      value: cdktf.stringToHclTerraform(struct!.deleteReferencedTaggedObjects),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mpm: {
+      value: systemConfigMgmtMpmToHclTerraform(struct!.mpm),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemConfigMgmtMpmList",
+    },
+    notification: {
+      value: systemConfigMgmtNotificationToHclTerraform(struct!.notification),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemConfigMgmtNotificationList",
+    },
+    pu_sync_detection: {
+      value: systemConfigMgmtPuSyncDetectionToHclTerraform(struct!.puSyncDetection),
+      isBlock: true,
+      type: "list",
+      storageClassType: "SystemConfigMgmtPuSyncDetectionList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemConfigMgmtOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemConfigMgmt | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._deleteReferencedTaggedObjects !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.deleteReferencedTaggedObjects = this._deleteReferencedTaggedObjects;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    if (this._mpm?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mpm = this._mpm?.internalValue;
+    }
+    if (this._notification?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.notification = this._notification?.internalValue;
+    }
+    if (this._puSyncDetection?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.puSyncDetection = this._puSyncDetection?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemConfigMgmt | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._deleteReferencedTaggedObjects = undefined;
+      this._uuid = undefined;
+      this._mpm.internalValue = undefined;
+      this._notification.internalValue = undefined;
+      this._puSyncDetection.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._deleteReferencedTaggedObjects = value.deleteReferencedTaggedObjects;
+      this._uuid = value.uuid;
+      this._mpm.internalValue = value.mpm;
+      this._notification.internalValue = value.notification;
+      this._puSyncDetection.internalValue = value.puSyncDetection;
+    }
+  }
+
+  // delete_referenced_tagged_objects - computed: false, optional: true, required: false
+  private _deleteReferencedTaggedObjects?: string; 
+  public get deleteReferencedTaggedObjects() {
+    return this.getStringAttribute('delete_referenced_tagged_objects');
+  }
+  public set deleteReferencedTaggedObjects(value: string) {
+    this._deleteReferencedTaggedObjects = value;
+  }
+  public resetDeleteReferencedTaggedObjects() {
+    this._deleteReferencedTaggedObjects = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteReferencedTaggedObjectsInput() {
+    return this._deleteReferencedTaggedObjects;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+
+  // mpm - computed: false, optional: true, required: false
+  private _mpm = new SystemConfigMgmtMpmOutputReference(this, "mpm");
+  public get mpm() {
+    return this._mpm;
+  }
+  public putMpm(value: SystemConfigMgmtMpm) {
+    this._mpm.internalValue = value;
+  }
+  public resetMpm() {
+    this._mpm.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mpmInput() {
+    return this._mpm.internalValue;
+  }
+
+  // notification - computed: false, optional: true, required: false
+  private _notification = new SystemConfigMgmtNotificationOutputReference(this, "notification");
+  public get notification() {
+    return this._notification;
+  }
+  public putNotification(value: SystemConfigMgmtNotification) {
+    this._notification.internalValue = value;
+  }
+  public resetNotification() {
+    this._notification.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get notificationInput() {
+    return this._notification.internalValue;
+  }
+
+  // pu_sync_detection - computed: false, optional: true, required: false
+  private _puSyncDetection = new SystemConfigMgmtPuSyncDetectionOutputReference(this, "pu_sync_detection");
+  public get puSyncDetection() {
+    return this._puSyncDetection;
+  }
+  public putPuSyncDetection(value: SystemConfigMgmtPuSyncDetection) {
+    this._puSyncDetection.internalValue = value;
+  }
+  public resetPuSyncDetection() {
+    this._puSyncDetection.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get puSyncDetectionInput() {
+    return this._puSyncDetection.internalValue;
+  }
+}
 export interface SystemControlCpu {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2159,7 +3009,7 @@ export interface SystemCore {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2245,7 +3095,7 @@ export interface SystemCosqShow {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2331,7 +3181,7 @@ export interface SystemCosqStats {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2417,7 +3267,7 @@ export interface SystemCounterLibAccounting {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2503,13 +3353,13 @@ export interface SystemCpuHyperThread {
   /**
   * Disable CPU Hyperthreading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * Enable CPU Hyperthreading
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
 }
@@ -2624,7 +3474,7 @@ export interface SystemCpuListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -2710,13 +3560,13 @@ export interface SystemCpuLoadSharingCpuUsage {
   /**
   * CPU usage threshold (percentage) that will trigger the redistribution (default: 75)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#high System#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#high System#high}
   */
   readonly high?: number;
   /**
   * CPU usage threshold (percentage) that will restore the normal packet distribution (default: 60)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#low System#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#low System#low}
   */
   readonly low?: number;
 }
@@ -2831,7 +3681,7 @@ export interface SystemCpuLoadSharingPacketsPerSecond {
   /**
   * Minimum packets-per-second threshold (per CPU) before redistribution will take effect (Minimum packets-per-second threshold (per CPU) before redistribution will take effect (default: 100000))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#min System#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#min System#min}
   */
   readonly min?: number;
 }
@@ -2915,45 +3765,51 @@ export class SystemCpuLoadSharingPacketsPerSecondOutputReference extends cdktf.C
 }
 export interface SystemCpuLoadSharing {
   /**
+  * Allow L7 sessions forward to home cpu
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#allow_l7_sessions System#allow_l7_sessions}
+  */
+  readonly allowL7Sessions?: number;
+  /**
   * Disable CPU load sharing in overload situations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * Disallow redistribution of new non TCP/UDP IP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#others System#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#others System#others}
   */
   readonly others?: number;
   /**
   * Disallow redistribution of new TCP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tcp System#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tcp System#tcp}
   */
   readonly tcp?: number;
   /**
   * Disallow redistribution of new UDP sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#udp System#udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#udp System#udp}
   */
   readonly udp?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * cpu_usage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cpu_usage System#cpu_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cpu_usage System#cpu_usage}
   */
   readonly cpuUsage?: SystemCpuLoadSharingCpuUsage;
   /**
   * packets_per_second block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#packets_per_second System#packets_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#packets_per_second System#packets_per_second}
   */
   readonly packetsPerSecond?: SystemCpuLoadSharingPacketsPerSecond;
 }
@@ -2964,6 +3820,7 @@ export function systemCpuLoadSharingToTerraform(struct?: SystemCpuLoadSharingOut
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    allow_l7_sessions: cdktf.numberToTerraform(struct!.allowL7Sessions),
     disable: cdktf.numberToTerraform(struct!.disable),
     others: cdktf.numberToTerraform(struct!.others),
     tcp: cdktf.numberToTerraform(struct!.tcp),
@@ -2981,6 +3838,12 @@ export function systemCpuLoadSharingToHclTerraform(struct?: SystemCpuLoadSharing
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    allow_l7_sessions: {
+      value: cdktf.numberToHclTerraform(struct!.allowL7Sessions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     disable: {
       value: cdktf.numberToHclTerraform(struct!.disable),
       isBlock: false,
@@ -3043,6 +3906,10 @@ export class SystemCpuLoadSharingOutputReference extends cdktf.ComplexObject {
   public get internalValue(): SystemCpuLoadSharing | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._allowL7Sessions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.allowL7Sessions = this._allowL7Sessions;
+    }
     if (this._disable !== undefined) {
       hasAnyValues = true;
       internalValueResult.disable = this._disable;
@@ -3077,6 +3944,7 @@ export class SystemCpuLoadSharingOutputReference extends cdktf.ComplexObject {
   public set internalValue(value: SystemCpuLoadSharing | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._allowL7Sessions = undefined;
       this._disable = undefined;
       this._others = undefined;
       this._tcp = undefined;
@@ -3087,6 +3955,7 @@ export class SystemCpuLoadSharingOutputReference extends cdktf.ComplexObject {
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._allowL7Sessions = value.allowL7Sessions;
       this._disable = value.disable;
       this._others = value.others;
       this._tcp = value.tcp;
@@ -3095,6 +3964,22 @@ export class SystemCpuLoadSharingOutputReference extends cdktf.ComplexObject {
       this._cpuUsage.internalValue = value.cpuUsage;
       this._packetsPerSecond.internalValue = value.packetsPerSecond;
     }
+  }
+
+  // allow_l7_sessions - computed: false, optional: true, required: false
+  private _allowL7Sessions?: number; 
+  public get allowL7Sessions() {
+    return this.getNumberAttribute('allow_l7_sessions');
+  }
+  public set allowL7Sessions(value: number) {
+    this._allowL7Sessions = value;
+  }
+  public resetAllowL7Sessions() {
+    this._allowL7Sessions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowL7SessionsInput() {
+    return this._allowL7Sessions;
   }
 
   // disable - computed: false, optional: true, required: false
@@ -3213,7 +4098,7 @@ export interface SystemCpuMap {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -3299,13 +4184,13 @@ export interface SystemCpuPacketPrioSupport {
   /**
   * Disable CPU packet prioritization Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * Enable CPU packet prioritization Support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
 }
@@ -3420,7 +4305,7 @@ export interface SystemDataCpu {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -3506,7 +4391,7 @@ export interface SystemDelPort {
   /**
   * port index to be configured (Specify port index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_index System#port_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#port_index System#port_index}
   */
   readonly portIndex?: number;
 }
@@ -3592,7 +4477,7 @@ export interface SystemDeleteCpuCore {
   /**
   * core index to be deleted (Specify core index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#core_index System#core_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#core_index System#core_index}
   */
   readonly coreIndex?: number;
 }
@@ -3678,25 +4563,25 @@ export interface SystemDnsRecursiveNameserverServerListStruct {
   /**
   * Specify IPv4 server address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_addr System#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_addr System#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
   * Specify IPv6 server address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_addr System#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_addr System#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
   * Description for this ipv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#v4_desc System#v4_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#v4_desc System#v4_desc}
   */
   readonly v4Desc?: string;
   /**
   * Description for this ipv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#v6_desc System#v6_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#v6_desc System#v6_desc}
   */
   readonly v6Desc?: string;
 }
@@ -3901,19 +4786,19 @@ export interface SystemDnsRecursiveNameserver {
   /**
   * Use the configured name servers of shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#follow_shared System#follow_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#follow_shared System#follow_shared}
   */
   readonly followShared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#server_list System#server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#server_list System#server_list}
   */
   readonly serverList?: SystemDnsRecursiveNameserverServerListStruct[] | cdktf.IResolvable;
 }
@@ -4057,7 +4942,7 @@ export interface SystemDnsSamplingEnable {
   /**
   * 'all': all; 'slb_req': No. of requests; 'slb_resp': No. of responses; 'slb_no_resp': No. of requests with no response; 'slb_req_rexmit': No. of requests retransmit; 'slb_resp_no_match': No. of requests and responses with no match; 'slb_no_resource': No. of resource failures; 'nat_req': (NAT) No. of requests; 'nat_resp': (NAT) No. of responses; 'nat_no_resp': (NAT) No. of resource failures; 'nat_req_rexmit': (NAT) No. of request retransmits; 'nat_resp_no_match': (NAT) No. of requests with no response; 'nat_no_resource': (NAT) No. of resource failures; 'nat_xid_reused': (NAT) No. of requests reusing a transaction id; 'filter_type_drop': Total Query Type Drop; 'filter_class_drop': Total Query Class Drop; 'filter_type_any_drop': Total Query ANY Type Drop; 'slb_dns_client_ssl_succ': No. of client ssl success; 'slb_dns_server_ssl_succ': No. of server ssl success; 'slb_dns_udp_conn': No. of backend udp connections; 'slb_dns_udp_conn_succ': No. of backend udp conn established; 'slb_dns_padding_to_server_removed': slb_dns_padding_to_server_removed; 'slb_dns_padding_to_client_added': slb_dns_padding_to_client_added; 'slb_dns_edns_subnet_to_server_removed': slb_dns_edns_subnet_to_server_removed; 'slb_dns_udp_retransmit': slb_dns_udp_retransmit; 'slb_dns_udp_retransmit_fail': slb_dns_udp_retransmit_fail; 'rpz_action_drop': RPZ Action Drop; 'rpz_action_pass_thru': RPZ Action Pass Through; 'rpz_action_tcp_only': RPZ Action TCP Only; 'rpz_action_nxdomain': RPZ Action NXDOMAIN; 'rpz_action_nodata': RPZ Action NODATA; 'rpz_action_local_data': RPZ Action Local Data; 'slb_drop': DNS requests drop; 'nat_slb_drop': (NAT)DNS requests drop; 'invalid_q_len_to_udp': invalid query length to conver to UDP; 'slb_dns_edns_ecs_received': Number of ecs from client received; 'slb_dns_edns_ecs_inserted': Number of ecs inserted;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -4175,19 +5060,19 @@ export interface SystemDns {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * recursive_nameserver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#recursive_nameserver System#recursive_nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#recursive_nameserver System#recursive_nameserver}
   */
   readonly recursiveNameserver?: SystemDnsRecursiveNameserver;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemDnsSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4329,9 +5214,9 @@ export class SystemDnsOutputReference extends cdktf.ComplexObject {
 }
 export interface SystemDnsCacheSamplingEnable {
   /**
-  * 'all': all; 'total_q': Total query; 'total_r': Total server response; 'hit': Total cache hit; 'bad_q': Query not passed; 'encode_q': Query encoded; 'multiple_q': Query with multiple questions; 'oversize_q': Query exceed cache size; 'bad_r': Response not passed; 'oversize_r': Response exceed cache size; 'encode_r': Response encoded; 'multiple_r': Response with multiple questions; 'answer_r': Response with multiple answers; 'ttl_r': Response with short TTL; 'ageout': Total aged out; 'bad_answer': Bad Answer; 'ageout_weight': Total aged for lower weight; 'total_log': Total stats log sent; 'total_alloc': Total allocated; 'total_freed': Total freed; 'current_allocate': Current allocate; 'current_data_allocate': Current data allocate; 'resolver_queue_full': Resolver task queue full; 'truncated_r': Response with Truncation bit set;
+  * 'all': all; 'total_q': Total query; 'total_r': Total server response; 'hit': Total cache hit; 'bad_q': Query not passed; 'encode_q': Query encoded; 'multiple_q': Query with multiple questions; 'oversize_q': Query exceed cache size; 'bad_r': Response not passed; 'oversize_r': Response exceed cache size; 'encode_r': Response encoded; 'multiple_r': Response with multiple questions; 'answer_r': Response with multiple answers; 'ttl_r': Response with short TTL; 'ageout': Total aged out; 'bad_answer': Bad Answer; 'ageout_weight': Total aged for lower weight; 'total_log': Total stats log sent; 'total_alloc': Total allocated; 'total_freed': Total freed; 'current_allocate': Current allocate; 'current_data_allocate': Current data allocate; 'resolver_queue_full': Resolver task queue full; 'truncated_r': Response with Truncation bit set; 'qps': Cache Queries-per-second; 'hit_rate_per_sec': Cache hit rate per second;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -4449,13 +5334,13 @@ export interface SystemDnsCache {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemDnsCacheSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4570,7 +5455,7 @@ export interface SystemDomainListInfo {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -4652,11 +5537,202 @@ export class SystemDomainListInfoOutputReference extends cdktf.ComplexObject {
     return this._uuid;
   }
 }
+export interface SystemDomainListSettings {
+  /**
+  * Configure max concurrent AXFR task (Default 6)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#concurrent_task System#concurrent_task}
+  */
+  readonly concurrentTask?: number;
+  /**
+  * '16': Allow 16 domain-list per group (Default); '32': Allow 32 domain-list per group;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#domain_list_per_group System#domain_list_per_group}
+  */
+  readonly domainListPerGroup?: string;
+  /**
+  * '1-second': Set interval to 1 second; '5-second': Set interval to 5 seconds; '10-second': Set interval to 10 seconds (Default);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#polling_interval System#polling_interval}
+  */
+  readonly pollingInterval?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemDomainListSettingsToTerraform(struct?: SystemDomainListSettingsOutputReference | SystemDomainListSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    concurrent_task: cdktf.numberToTerraform(struct!.concurrentTask),
+    domain_list_per_group: cdktf.stringToTerraform(struct!.domainListPerGroup),
+    polling_interval: cdktf.stringToTerraform(struct!.pollingInterval),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemDomainListSettingsToHclTerraform(struct?: SystemDomainListSettingsOutputReference | SystemDomainListSettings): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    concurrent_task: {
+      value: cdktf.numberToHclTerraform(struct!.concurrentTask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    domain_list_per_group: {
+      value: cdktf.stringToHclTerraform(struct!.domainListPerGroup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    polling_interval: {
+      value: cdktf.stringToHclTerraform(struct!.pollingInterval),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemDomainListSettingsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemDomainListSettings | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._concurrentTask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.concurrentTask = this._concurrentTask;
+    }
+    if (this._domainListPerGroup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.domainListPerGroup = this._domainListPerGroup;
+    }
+    if (this._pollingInterval !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pollingInterval = this._pollingInterval;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemDomainListSettings | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._concurrentTask = undefined;
+      this._domainListPerGroup = undefined;
+      this._pollingInterval = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._concurrentTask = value.concurrentTask;
+      this._domainListPerGroup = value.domainListPerGroup;
+      this._pollingInterval = value.pollingInterval;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // concurrent_task - computed: false, optional: true, required: false
+  private _concurrentTask?: number; 
+  public get concurrentTask() {
+    return this.getNumberAttribute('concurrent_task');
+  }
+  public set concurrentTask(value: number) {
+    this._concurrentTask = value;
+  }
+  public resetConcurrentTask() {
+    this._concurrentTask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get concurrentTaskInput() {
+    return this._concurrentTask;
+  }
+
+  // domain_list_per_group - computed: false, optional: true, required: false
+  private _domainListPerGroup?: string; 
+  public get domainListPerGroup() {
+    return this.getStringAttribute('domain_list_per_group');
+  }
+  public set domainListPerGroup(value: string) {
+    this._domainListPerGroup = value;
+  }
+  public resetDomainListPerGroup() {
+    this._domainListPerGroup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainListPerGroupInput() {
+    return this._domainListPerGroup;
+  }
+
+  // polling_interval - computed: false, optional: true, required: false
+  private _pollingInterval?: string; 
+  public get pollingInterval() {
+    return this.getStringAttribute('polling_interval');
+  }
+  public set pollingInterval(value: string) {
+    this._pollingInterval = value;
+  }
+  public resetPollingInterval() {
+    this._pollingInterval = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pollingIntervalInput() {
+    return this._pollingInterval;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface SystemDpdkStatsSamplingEnable {
   /**
   * 'all': all; 'pkt-drop': Total packet drop; 'pkt-lnk-down-drop': Total packets link down drop; 'err-pkt-drop': Total error packet drop; 'rx-err': Total RX packet error; 'tx-err': Total TX packet error; 'tx-drop': Total TX packet drop; 'rx-len-err': Total RX packet length error; 'rx-over-err': Total RX packet over error; 'rx-crc-err': Total RX packet CRC error; 'rx-frame-err': Total RX packet frame error; 'rx-no-buff-err': Total RX packet no buffer error; 'rx-miss-err': Total RX packet miss error; 'tx-abort-err': Total TX packet abort error; 'tx-carrier-err': Total TX packert carrier error; 'tx-fifo-err': Total TX packet fifo error; 'tx-hbeat-err': Total TX packet HBEAT error; 'tx-windows-err': Total TX windows error; 'rx-long-len-err': Total RX packet long length error; 'rx-short-len-err': Total RX packet short length error; 'rx-align-err': Total RX packet align error; 'rx-csum-offload-err': Total Rx packet check-sum offload error; 'io-rx-que-drop': Total IO core Rx queue drop; 'io-tx-que-drop': Total IO core TX queue drop; 'io-ring-drop': Total IO core ring drop; 'w-tx-que-drop': Total worker core queue drop; 'w-link-down-drop': Total worker core link down drop; 'w-ring-drop': Total worker core ring drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -4774,13 +5850,13 @@ export interface SystemDpdkStats {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemDpdkStatsSamplingEnable[] | cdktf.IResolvable;
 }
@@ -4891,17 +5967,173 @@ export class SystemDpdkStatsOutputReference extends cdktf.ComplexObject {
     return this._samplingEnable.internalValue;
   }
 }
+export interface SystemEnableDiskEncryption {
+  /**
+  * 'aes': cipher aes; 'serpent': cipher serpent; 'twofish': cipher twofish;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cipher System#cipher}
+  */
+  readonly cipher?: string;
+  /**
+  * Enter phassphrase in plain text format
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#passphrase System#passphrase}
+  */
+  readonly passphrase?: string;
+  /**
+  * Enter phassphrase in base64 format
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#passphrase_base64 System#passphrase_base64}
+  */
+  readonly passphraseBase64?: string;
+}
+
+export function systemEnableDiskEncryptionToTerraform(struct?: SystemEnableDiskEncryptionOutputReference | SystemEnableDiskEncryption): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    cipher: cdktf.stringToTerraform(struct!.cipher),
+    passphrase: cdktf.stringToTerraform(struct!.passphrase),
+    passphrase_base64: cdktf.stringToTerraform(struct!.passphraseBase64),
+  }
+}
+
+
+export function systemEnableDiskEncryptionToHclTerraform(struct?: SystemEnableDiskEncryptionOutputReference | SystemEnableDiskEncryption): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    cipher: {
+      value: cdktf.stringToHclTerraform(struct!.cipher),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    passphrase: {
+      value: cdktf.stringToHclTerraform(struct!.passphrase),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    passphrase_base64: {
+      value: cdktf.stringToHclTerraform(struct!.passphraseBase64),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemEnableDiskEncryptionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemEnableDiskEncryption | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._cipher !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.cipher = this._cipher;
+    }
+    if (this._passphrase !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.passphrase = this._passphrase;
+    }
+    if (this._passphraseBase64 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.passphraseBase64 = this._passphraseBase64;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemEnableDiskEncryption | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._cipher = undefined;
+      this._passphrase = undefined;
+      this._passphraseBase64 = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._cipher = value.cipher;
+      this._passphrase = value.passphrase;
+      this._passphraseBase64 = value.passphraseBase64;
+    }
+  }
+
+  // cipher - computed: false, optional: true, required: false
+  private _cipher?: string; 
+  public get cipher() {
+    return this.getStringAttribute('cipher');
+  }
+  public set cipher(value: string) {
+    this._cipher = value;
+  }
+  public resetCipher() {
+    this._cipher = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get cipherInput() {
+    return this._cipher;
+  }
+
+  // passphrase - computed: false, optional: true, required: false
+  private _passphrase?: string; 
+  public get passphrase() {
+    return this.getStringAttribute('passphrase');
+  }
+  public set passphrase(value: string) {
+    this._passphrase = value;
+  }
+  public resetPassphrase() {
+    this._passphrase = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passphraseInput() {
+    return this._passphrase;
+  }
+
+  // passphrase_base64 - computed: false, optional: true, required: false
+  private _passphraseBase64?: string; 
+  public get passphraseBase64() {
+    return this.getStringAttribute('passphrase_base64');
+  }
+  public set passphraseBase64(value: string) {
+    this._passphraseBase64 = value;
+  }
+  public resetPassphraseBase64() {
+    this._passphraseBase64 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passphraseBase64Input() {
+    return this._passphraseBase64;
+  }
+}
 export interface SystemEnablePassword {
   /**
   * enable-password will follow password policy complexity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#follow_password_policy System#follow_password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#follow_password_policy System#follow_password_policy}
   */
   readonly followPasswordPolicy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -5016,7 +6248,7 @@ export interface SystemEnvironment {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -5102,13 +6334,13 @@ export interface SystemExtOnlyLogging {
   /**
   * enable external only logging for packet driven DDOS logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -5219,23 +6451,368 @@ export class SystemExtOnlyLoggingOutputReference extends cdktf.ComplexObject {
     return this._uuid;
   }
 }
+export interface SystemForcedGroupSpeedListStruct {
+  /**
+  * Set speed for interface ethernet  1 ~  4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth01_to_04 System#eth01_to_04}
+  */
+  readonly eth01To04: number;
+  /**
+  * Set speed for interface ethernet  5 ~  8
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth05_to_08 System#eth05_to_08}
+  */
+  readonly eth05To08: number;
+  /**
+  * Set speed for interface ethernet  9 ~ 12
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth09_to_12 System#eth09_to_12}
+  */
+  readonly eth09To12: number;
+  /**
+  * Set speed for interface ethernet 13 ~ 16
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth13_to_16 System#eth13_to_16}
+  */
+  readonly eth13To16: number;
+  /**
+  * Set speed for interface ethernet 17 ~ 20
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth17_to_20 System#eth17_to_20}
+  */
+  readonly eth17To20: number;
+  /**
+  * Set speed for interface ethernet 21 ~ 24
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#eth21_to_24 System#eth21_to_24}
+  */
+  readonly eth21To24: number;
+  /**
+  * '1G': Speed 1G; '10G': Speed 10G (default); '25G': Speed 25G;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#speed System#speed}
+  */
+  readonly speed?: string;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemForcedGroupSpeedListStructToTerraform(struct?: SystemForcedGroupSpeedListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    eth01_to_04: cdktf.numberToTerraform(struct!.eth01To04),
+    eth05_to_08: cdktf.numberToTerraform(struct!.eth05To08),
+    eth09_to_12: cdktf.numberToTerraform(struct!.eth09To12),
+    eth13_to_16: cdktf.numberToTerraform(struct!.eth13To16),
+    eth17_to_20: cdktf.numberToTerraform(struct!.eth17To20),
+    eth21_to_24: cdktf.numberToTerraform(struct!.eth21To24),
+    speed: cdktf.stringToTerraform(struct!.speed),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemForcedGroupSpeedListStructToHclTerraform(struct?: SystemForcedGroupSpeedListStruct | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    eth01_to_04: {
+      value: cdktf.numberToHclTerraform(struct!.eth01To04),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    eth05_to_08: {
+      value: cdktf.numberToHclTerraform(struct!.eth05To08),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    eth09_to_12: {
+      value: cdktf.numberToHclTerraform(struct!.eth09To12),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    eth13_to_16: {
+      value: cdktf.numberToHclTerraform(struct!.eth13To16),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    eth17_to_20: {
+      value: cdktf.numberToHclTerraform(struct!.eth17To20),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    eth21_to_24: {
+      value: cdktf.numberToHclTerraform(struct!.eth21To24),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    speed: {
+      value: cdktf.stringToHclTerraform(struct!.speed),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemForcedGroupSpeedListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): SystemForcedGroupSpeedListStruct | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._eth01To04 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth01To04 = this._eth01To04;
+    }
+    if (this._eth05To08 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth05To08 = this._eth05To08;
+    }
+    if (this._eth09To12 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth09To12 = this._eth09To12;
+    }
+    if (this._eth13To16 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth13To16 = this._eth13To16;
+    }
+    if (this._eth17To20 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth17To20 = this._eth17To20;
+    }
+    if (this._eth21To24 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.eth21To24 = this._eth21To24;
+    }
+    if (this._speed !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.speed = this._speed;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemForcedGroupSpeedListStruct | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._eth01To04 = undefined;
+      this._eth05To08 = undefined;
+      this._eth09To12 = undefined;
+      this._eth13To16 = undefined;
+      this._eth17To20 = undefined;
+      this._eth21To24 = undefined;
+      this._speed = undefined;
+      this._uuid = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._eth01To04 = value.eth01To04;
+      this._eth05To08 = value.eth05To08;
+      this._eth09To12 = value.eth09To12;
+      this._eth13To16 = value.eth13To16;
+      this._eth17To20 = value.eth17To20;
+      this._eth21To24 = value.eth21To24;
+      this._speed = value.speed;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // eth01_to_04 - computed: false, optional: false, required: true
+  private _eth01To04?: number; 
+  public get eth01To04() {
+    return this.getNumberAttribute('eth01_to_04');
+  }
+  public set eth01To04(value: number) {
+    this._eth01To04 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth01To04Input() {
+    return this._eth01To04;
+  }
+
+  // eth05_to_08 - computed: false, optional: false, required: true
+  private _eth05To08?: number; 
+  public get eth05To08() {
+    return this.getNumberAttribute('eth05_to_08');
+  }
+  public set eth05To08(value: number) {
+    this._eth05To08 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth05To08Input() {
+    return this._eth05To08;
+  }
+
+  // eth09_to_12 - computed: false, optional: false, required: true
+  private _eth09To12?: number; 
+  public get eth09To12() {
+    return this.getNumberAttribute('eth09_to_12');
+  }
+  public set eth09To12(value: number) {
+    this._eth09To12 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth09To12Input() {
+    return this._eth09To12;
+  }
+
+  // eth13_to_16 - computed: false, optional: false, required: true
+  private _eth13To16?: number; 
+  public get eth13To16() {
+    return this.getNumberAttribute('eth13_to_16');
+  }
+  public set eth13To16(value: number) {
+    this._eth13To16 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth13To16Input() {
+    return this._eth13To16;
+  }
+
+  // eth17_to_20 - computed: false, optional: false, required: true
+  private _eth17To20?: number; 
+  public get eth17To20() {
+    return this.getNumberAttribute('eth17_to_20');
+  }
+  public set eth17To20(value: number) {
+    this._eth17To20 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth17To20Input() {
+    return this._eth17To20;
+  }
+
+  // eth21_to_24 - computed: false, optional: false, required: true
+  private _eth21To24?: number; 
+  public get eth21To24() {
+    return this.getNumberAttribute('eth21_to_24');
+  }
+  public set eth21To24(value: number) {
+    this._eth21To24 = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get eth21To24Input() {
+    return this._eth21To24;
+  }
+
+  // speed - computed: false, optional: true, required: false
+  private _speed?: string; 
+  public get speed() {
+    return this.getStringAttribute('speed');
+  }
+  public set speed(value: string) {
+    this._speed = value;
+  }
+  public resetSpeed() {
+    this._speed = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get speedInput() {
+    return this._speed;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
+
+export class SystemForcedGroupSpeedListStructList extends cdktf.ComplexList {
+  public internalValue? : SystemForcedGroupSpeedListStruct[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): SystemForcedGroupSpeedListStructOutputReference {
+    return new SystemForcedGroupSpeedListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface SystemFpgaCoreCrc {
   /**
   * Disable FPGA Core CRC error monitoring and act on it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#monitor_disable System#monitor_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#monitor_disable System#monitor_disable}
   */
   readonly monitorDisable?: number;
   /**
   * Enable system reboot if system encounters FPGA Core CRC error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#reboot_enable System#reboot_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#reboot_enable System#reboot_enable}
   */
   readonly rebootEnable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -5379,7 +6956,7 @@ export interface SystemFpgaDropSamplingEnable {
   /**
   * 'all': all; 'mrx-drop': Total MRX Drop; 'hrx-drop': Total HRX Drop; 'siz-drop': Total Size Drop; 'fcs-drop': Total FCS Drop; 'land-drop': Total LAND Attack Drop; 'empty-frag-drop': Total Empty frag Drop; 'mic-frag-drop': Total Micro frag Drop; 'ipv4-opt-drop': Total IPv4 opt Drop; 'ipv4-frag': Total IP frag Drop; 'bad-ip-hdr-len': Total Bad IP hdr len Drop; 'bad-ip-flags-drop': Total Bad IP Flags Drop; 'bad-ip-ttl-drop': Total Bad IP TTL Drop; 'no-ip-payload-drop': Total No IP Payload Drop; 'oversize-ip-payload': Total Oversize IP PL Drop; 'bad-ip-payload-len': Total Bad IP PL len Drop; 'bad-ip-frag-offset': Total Bad IP frag off Drop; 'bad-ip-chksum-drop': Total Bad IP csum Drop; 'icmp-pod-drop': Total ICMP POD Drop; 'tcp-bad-urg-offet': Total TCP bad urg off Drop; 'tcp-short-hdr': Total TCP short hdr Drop; 'tcp-bad-ip-len': Total TCP Bad IP Len Drop; 'tcp-null-flags': Total TCP null flags Drop; 'tcp-null-scan': Total TCP null scan Drop; 'tcp-fin-sin': Total TCP SYN&FIN Drop; 'tcp-xmas-flags': Total TCP XMAS FLAGS Drop; 'tcp-xmas-scan': Total TCP XMAS scan Drop; 'tcp-syn-frag': Total TCP SYN frag Drop; 'tcp-frag-hdr': Total TCP frag header Drop; 'tcp-bad-chksum': Total TCP bad csum Drop; 'udp-short-hdr': Total UDP short hdr Drop; 'udp-bad-ip-len': Total UDP bad leng Drop; 'udp-kb-frags': Total UDP KB frag Drop; 'udp-port-lb': Total UDP port LB Drop; 'udp-bad-chksum': Total UDP bad csum Drop; 'runt-ip-hdr': Total Runt IP hdr Drop; 'runt-tcpudp-hdr': Total Runt TCPUDP hdr Drop; 'tun-mismatch': Total Tun mismatch Drop; 'qdr-drop': Total QDR Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -5497,13 +7074,13 @@ export interface SystemFpgaDrop {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemFpgaDropSamplingEnable[] | cdktf.IResolvable;
 }
@@ -5618,25 +7195,25 @@ export interface SystemFw {
   /**
   * Number of flows
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#application_flow System#application_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#application_flow System#application_flow}
   */
   readonly applicationFlow?: number;
   /**
   * Enable application memory pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#application_mempool System#application_mempool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#application_mempool System#application_mempool}
   */
   readonly applicationMempool?: number;
   /**
   * Enable basic dpi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#basic_dpi_enable System#basic_dpi_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#basic_dpi_enable System#basic_dpi_enable}
   */
   readonly basicDpiEnable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -5809,37 +7386,37 @@ export interface SystemGeoLocationEntryListGeoLocnMultipleAddresses {
   /**
   * Specify IP information (Specify IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#first_ip_address System#first_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#first_ip_address System#first_ip_address}
   */
   readonly firstIpAddress?: string;
   /**
   * Specify IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#first_ipv6_address System#first_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#first_ipv6_address System#first_ipv6_address}
   */
   readonly firstIpv6Address?: string;
   /**
   * Specify IPv4 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geol_ipv4_mask System#geol_ipv4_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geol_ipv4_mask System#geol_ipv4_mask}
   */
   readonly geolIpv4Mask?: string;
   /**
   * Specify IPv6 mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geol_ipv6_mask System#geol_ipv6_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geol_ipv6_mask System#geol_ipv6_mask}
   */
   readonly geolIpv6Mask?: number;
   /**
   * Specify IP address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_addr2 System#ip_addr2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_addr2 System#ip_addr2}
   */
   readonly ipAddr2?: string;
   /**
   * Specify IPv6 address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_addr2 System#ipv6_addr2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_addr2 System#ipv6_addr2}
   */
   readonly ipv6Addr2?: string;
 }
@@ -6102,25 +7679,25 @@ export interface SystemGeoLocationEntryListStruct {
   /**
   * Specify geo-location name, section range is (1-15)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_locn_obj_name System#geo_locn_obj_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_locn_obj_name System#geo_locn_obj_name}
   */
   readonly geoLocnObjName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#user_tag System#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#user_tag System#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * geo_locn_multiple_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_locn_multiple_addresses System#geo_locn_multiple_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_locn_multiple_addresses System#geo_locn_multiple_addresses}
   */
   readonly geoLocnMultipleAddresses?: SystemGeoLocationEntryListGeoLocnMultipleAddresses[] | cdktf.IResolvable;
 }
@@ -6322,19 +7899,25 @@ export interface SystemGeoLocationGeolocLoadFileListStruct {
   /**
   * Include IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_load_file_include_ipv6 System#geo_location_load_file_include_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_load_file_include_ipv6 System#geo_location_load_file_include_ipv6}
   */
   readonly geoLocationLoadFileIncludeIpv6?: number;
   /**
   * Specify file to be loaded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_load_filename System#geo_location_load_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_load_filename System#geo_location_load_filename}
   */
   readonly geoLocationLoadFilename?: string;
   /**
-  * CSV template to load this file
+  * Include IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#template_name System#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_load_temp_include_ipv6 System#geo_location_load_temp_include_ipv6}
+  */
+  readonly geoLocationLoadTempIncludeIpv6?: number;
+  /**
+  * Use CSV template to load this file
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#template_name System#template_name}
   */
   readonly templateName?: string;
 }
@@ -6347,6 +7930,7 @@ export function systemGeoLocationGeolocLoadFileListStructToTerraform(struct?: Sy
   return {
     geo_location_load_file_include_ipv6: cdktf.numberToTerraform(struct!.geoLocationLoadFileIncludeIpv6),
     geo_location_load_filename: cdktf.stringToTerraform(struct!.geoLocationLoadFilename),
+    geo_location_load_temp_include_ipv6: cdktf.numberToTerraform(struct!.geoLocationLoadTempIncludeIpv6),
     template_name: cdktf.stringToTerraform(struct!.templateName),
   }
 }
@@ -6369,6 +7953,12 @@ export function systemGeoLocationGeolocLoadFileListStructToHclTerraform(struct?:
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    geo_location_load_temp_include_ipv6: {
+      value: cdktf.numberToHclTerraform(struct!.geoLocationLoadTempIncludeIpv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
     },
     template_name: {
       value: cdktf.stringToHclTerraform(struct!.templateName),
@@ -6410,6 +8000,10 @@ export class SystemGeoLocationGeolocLoadFileListStructOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.geoLocationLoadFilename = this._geoLocationLoadFilename;
     }
+    if (this._geoLocationLoadTempIncludeIpv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.geoLocationLoadTempIncludeIpv6 = this._geoLocationLoadTempIncludeIpv6;
+    }
     if (this._templateName !== undefined) {
       hasAnyValues = true;
       internalValueResult.templateName = this._templateName;
@@ -6423,6 +8017,7 @@ export class SystemGeoLocationGeolocLoadFileListStructOutputReference extends cd
       this.resolvableValue = undefined;
       this._geoLocationLoadFileIncludeIpv6 = undefined;
       this._geoLocationLoadFilename = undefined;
+      this._geoLocationLoadTempIncludeIpv6 = undefined;
       this._templateName = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -6434,6 +8029,7 @@ export class SystemGeoLocationGeolocLoadFileListStructOutputReference extends cd
       this.resolvableValue = undefined;
       this._geoLocationLoadFileIncludeIpv6 = value.geoLocationLoadFileIncludeIpv6;
       this._geoLocationLoadFilename = value.geoLocationLoadFilename;
+      this._geoLocationLoadTempIncludeIpv6 = value.geoLocationLoadTempIncludeIpv6;
       this._templateName = value.templateName;
     }
   }
@@ -6468,6 +8064,22 @@ export class SystemGeoLocationGeolocLoadFileListStructOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get geoLocationLoadFilenameInput() {
     return this._geoLocationLoadFilename;
+  }
+
+  // geo_location_load_temp_include_ipv6 - computed: false, optional: true, required: false
+  private _geoLocationLoadTempIncludeIpv6?: number; 
+  public get geoLocationLoadTempIncludeIpv6() {
+    return this.getNumberAttribute('geo_location_load_temp_include_ipv6');
+  }
+  public set geoLocationLoadTempIncludeIpv6(value: number) {
+    this._geoLocationLoadTempIncludeIpv6 = value;
+  }
+  public resetGeoLocationLoadTempIncludeIpv6() {
+    this._geoLocationLoadTempIncludeIpv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get geoLocationLoadTempIncludeIpv6Input() {
+    return this._geoLocationLoadTempIncludeIpv6;
   }
 
   // template_name - computed: false, optional: true, required: false
@@ -6510,67 +8122,67 @@ export interface SystemGeoLocation {
   /**
   * Load built-in Maxmind GeoLite2-ASN database. Database available from http://www.maxmind.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_geolite2_asn System#geo_location_geolite2_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_geolite2_asn System#geo_location_geolite2_asn}
   */
   readonly geoLocationGeolite2Asn?: number;
   /**
   * Load built-in Maxmind GeoLite2-City database. Database available from http://www.maxmind.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_geolite2_city System#geo_location_geolite2_city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_geolite2_city System#geo_location_geolite2_city}
   */
   readonly geoLocationGeolite2City?: number;
   /**
   * Load built-in Maxmind GeoLite2-Country database. Database available from http://www.maxmind.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_geolite2_country System#geo_location_geolite2_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_geolite2_country System#geo_location_geolite2_country}
   */
   readonly geoLocationGeolite2Country?: number;
   /**
   * Load built-in IANA Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_iana System#geo_location_iana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_iana System#geo_location_iana}
   */
   readonly geoLocationIana?: number;
   /**
   * Load built-in IANA Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geo_location_iana_system System#geo_location_iana_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geo_location_iana_system System#geo_location_iana_system}
   */
   readonly geoLocationIanaSystem?: number;
   /**
   * Include IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geolite2_asn_include_ipv6 System#geolite2_asn_include_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geolite2_asn_include_ipv6 System#geolite2_asn_include_ipv6}
   */
   readonly geolite2AsnIncludeIpv6?: number;
   /**
   * Include IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geolite2_city_include_ipv6 System#geolite2_city_include_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geolite2_city_include_ipv6 System#geolite2_city_include_ipv6}
   */
   readonly geolite2CityIncludeIpv6?: number;
   /**
   * Include IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geolite2_country_include_ipv6 System#geolite2_country_include_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geolite2_country_include_ipv6 System#geolite2_country_include_ipv6}
   */
   readonly geolite2CountryIncludeIpv6?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#entry_list System#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#entry_list System#entry_list}
   */
   readonly entryList?: SystemGeoLocationEntryListStruct[] | cdktf.IResolvable;
   /**
   * geoloc_load_file_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#geoloc_load_file_list System#geoloc_load_file_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#geoloc_load_file_list System#geoloc_load_file_list}
   */
   readonly geolocLoadFileList?: SystemGeoLocationGeolocLoadFileListStruct[] | cdktf.IResolvable;
 }
@@ -6946,7 +8558,7 @@ export interface SystemGeolocSamplingEnable {
   /**
   * 'all': all; 'place-holder': place-holder;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -7064,13 +8676,13 @@ export interface SystemGeoloc {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemGeolocSamplingEnable[] | cdktf.IResolvable;
 }
@@ -7185,7 +8797,7 @@ export interface SystemGeolocListListExcludeGeolocNameListStruct {
   /**
   * Geolocation name to exclude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#exclude_geoloc_name_val System#exclude_geoloc_name_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#exclude_geoloc_name_val System#exclude_geoloc_name_val}
   */
   readonly excludeGeolocNameVal?: string;
 }
@@ -7303,7 +8915,7 @@ export interface SystemGeolocListListIncludeGeolocNameListStruct {
   /**
   * Geolocation name to add
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#include_geoloc_name_val System#include_geoloc_name_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#include_geoloc_name_val System#include_geoloc_name_val}
   */
   readonly includeGeolocNameVal?: string;
 }
@@ -7421,7 +9033,7 @@ export interface SystemGeolocListListSamplingEnable {
   /**
   * 'all': all; 'hit-count': hit-count; 'total-geoloc': total-geoloc; 'total-active': total-active;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -7539,43 +9151,43 @@ export interface SystemGeolocListListStruct {
   /**
   * Specify name of Geolocation list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#name System#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#name System#name}
   */
   readonly name: string;
   /**
   * Enable sharing with other partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#shared System#shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#shared System#shared}
   */
   readonly shared?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#user_tag System#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#user_tag System#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * exclude_geoloc_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#exclude_geoloc_name_list System#exclude_geoloc_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#exclude_geoloc_name_list System#exclude_geoloc_name_list}
   */
   readonly excludeGeolocNameList?: SystemGeolocListListExcludeGeolocNameListStruct[] | cdktf.IResolvable;
   /**
   * include_geoloc_name_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#include_geoloc_name_list System#include_geoloc_name_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#include_geoloc_name_list System#include_geoloc_name_list}
   */
   readonly includeGeolocNameList?: SystemGeolocListListIncludeGeolocNameListStruct[] | cdktf.IResolvable;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemGeolocListListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -7864,7 +9476,7 @@ export interface SystemGeolocNameHelperSamplingEnable {
   /**
   * 'all': all; 'place-holder': place-holder;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -7982,13 +9594,13 @@ export interface SystemGeolocNameHelper {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemGeolocNameHelperSamplingEnable[] | cdktf.IResolvable;
 }
@@ -8103,7 +9715,7 @@ export interface SystemGeolocationFileErrorInfo {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -8189,13 +9801,13 @@ export interface SystemGeolocationFile {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * error_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#error_info System#error_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#error_info System#error_info}
   */
   readonly errorInfo?: SystemGeolocationFileErrorInfo;
 }
@@ -8310,19 +9922,19 @@ export interface SystemGlid {
   /**
   * Apply limits to the whole system
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#glid_id System#glid_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#glid_id System#glid_id}
   */
   readonly glidId?: string;
   /**
   * Apply global limit ID to the whole system at per data cpu level (default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#non_shared System#non_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#non_shared System#non_shared}
   */
   readonly nonShared?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -8466,7 +10078,7 @@ export interface SystemGuestFile {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -8552,7 +10164,7 @@ export interface SystemGuiImageListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -8638,7 +10250,7 @@ export interface SystemHardware {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -8724,7 +10336,7 @@ export interface SystemHardwareAccelerateSamplingEnable {
   /**
   * 'all': all; 'hit-counts': Total packets hit counts; 'hit-index': HW Fwd hit index; 'ipv4-forward-counts': Total IPv4 hardware forwarded packets; 'ipv6-forward-counts': Total IPv6 hardware forwarded packets; 'hw-fwd-module-status': Hardware forwarder status flags; 'hw-fwd-prog-reqs': Hardware forward programming requests; 'hw-fwd-prog-errors': Hardware forward programming Errors; 'hw-fwd-flow-singlebit-errors': Hardware forward singlebit Errors; 'hw-fwd-flow-tag-mismatch': Hardware forward tag mismatch errors; 'hw-fwd-flow-seq-mismatch': Hardware forward sequence mismatch errors; 'hw-fwd-ageout-drop-count': Hardware forward ageout drop count; 'hw-fwd-invalidation-drop': Hardware forward invalid drop count; 'hw-fwd-flow-hit-index': Hardware forward flow hit index; 'hw-fwd-flow-reason-flags': Hardware forward flow reason flags; 'hw-fwd-flow-drop-count': Hardware forward flow drop count; 'hw-fwd-flow-error-count': Hardware forward flow error count; 'hw-fwd-flow-unalign-count': Hardware forward flow unalign count; 'hw-fwd-flow-underflow-count': Hardware forward flow underflow count; 'hw-fwd-flow-tx-full-drop': Hardware forward flow tx full drop count; 'hw-fwd-flow-qdr-full-drop': Hardware forward flow qdr full drop count; 'hw-fwd-phyport-mismatch-drop': Hardware forward phyport mismatch count; 'hw-fwd-vlanid-mismatch-drop': Hardware forward vlanid mismatch count; 'hw-fwd-vmid-drop': Hardware forward vmid mismatch count; 'hw-fwd-protocol-mismatch-drop': Hardware forward protocol mismatch count; 'hw-fwd-avail-ipv4-entry': Hardware forward available ipv4 entries count; 'hw-fwd-avail-ipv6-entry': Hardware forward available ipv6 entries count; 'hw-fwd-rate-drop-count': Hardware forward rate drop count; 'hw-fwd-normal-ageout-rcvd': Hardware forward normal ageout received count; 'hw-fwd-tcp-fin-ageout-rcvd': Hardware forward tcp FIN ageout received count; 'hw-fwd-tcp-rst-ageout-rcvd': Hardware forward tcp RST ageout received count; 'hw-fwd-lookup-fail-rcvd': Hardware forward entry lookup fail count; 'hw-fwd-stats-update-rcvd': Hardware forward entry stats update count; 'hw-fwd-flow-sflow-count': hardware forward rate drop count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -8842,7 +10454,7 @@ export interface SystemHardwareAccelerateSlbSamplingEnable {
   /**
   * 'all': all; 'entry-create': Hardware Entries Created; 'entry-create-failure': Hardware Entries Created; 'entry-create-fail-server-down': Hardware Entries Created; 'entry-create-fail-max-entry': Hardware Entries Created; 'entry-free': Hardware Entries Freed; 'entry-free-opp-entry': Hardware Entries Free due to opposite tuple entry ageout event; 'entry-free-no-hw-prog': Hardware Entry Free no hw prog; 'entry-free-no-conn': Hardware Entry Free no matched conn; 'entry-free-no-sw-entry': Hardware Entry Free no software entry; 'entry-counter': Hardware Entry Count; 'entry-age-out': Hardware Entries Aged Out; 'entry-age-out-idle': Hardware Entries Aged Out Idle; 'entry-age-out-tcp-fin': Hardware Entries Aged Out TCP FIN; 'entry-age-out-tcp-rst': Hardware Entries Aged Out TCP RST; 'entry-age-out-invalid-dst': Hardware Entries Aged Out invalid dst; 'entry-force-hw-invalidate': Hardware Entries Force HW Invalidate; 'entry-invalidate-server-down': Hardware Entries Invalidate due to server down; 'tcam-create': TCAM Entries Created; 'tcam-free': TCAM Entries Freed; 'tcam-counter': TCAM Entry Count;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -8960,13 +10572,13 @@ export interface SystemHardwareAccelerateSlb {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemHardwareAccelerateSlbSamplingEnable[] | cdktf.IResolvable;
 }
@@ -9081,25 +10693,25 @@ export interface SystemHardwareAccelerate {
   /**
   * Configure session-forwarding in Hardware (default:off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#session_forwarding System#session_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#session_forwarding System#session_forwarding}
   */
   readonly sessionForwarding?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemHardwareAccelerateSamplingEnable[] | cdktf.IResolvable;
   /**
   * slb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#slb System#slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#slb System#slb}
   */
   readonly slb?: SystemHardwareAccelerateSlb;
 }
@@ -9272,43 +10884,43 @@ export interface SystemHealthCheckListStruct {
   /**
   * Multiplier value used to compute holddown (value used to multiply the interval (default: 4))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#l2bfd_multiplier System#l2bfd_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#l2bfd_multiplier System#l2bfd_multiplier}
   */
   readonly l2BfdMultiplier?: number;
   /**
   * Minimum receive interval capability (Milliseconds (default: 800))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#l2bfd_rx_interval System#l2bfd_rx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#l2bfd_rx_interval System#l2bfd_rx_interval}
   */
   readonly l2BfdRxInterval?: number;
   /**
   * Transmit interval between BFD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#l2bfd_tx_interval System#l2bfd_tx_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#l2bfd_tx_interval System#l2bfd_tx_interval}
   */
   readonly l2BfdTxInterval?: number;
   /**
   * Monitor Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#l2hm_hc_name System#l2hm_hc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#l2hm_hc_name System#l2hm_hc_name}
   */
   readonly l2HmHcName: string;
   /**
   * Method is l2bfd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#method_l2bfd System#method_l2bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#method_l2bfd System#method_l2bfd}
   */
   readonly methodL2Bfd?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#user_tag System#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#user_tag System#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -9597,13 +11209,13 @@ export interface SystemHighMemoryL4Session {
   /**
   * Enable/Disable high memory l4 session support
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -9718,7 +11330,7 @@ export interface SystemHrxqStatus {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -9804,7 +11416,7 @@ export interface SystemIcmpSamplingEnable {
   /**
   * 'all': all; 'num': Total number; 'inmsgs': In Messages; 'inerrors': In Errors; 'indestunreachs': In Destination Unreachable; 'intimeexcds': In TTL Exceeds; 'inparmprobs': In Parameter Problem; 'insrcquenchs': In Source Quench Error; 'inredirects': In Redirects; 'inechos': In Echo requests; 'inechoreps': In Echo replies; 'intimestamps': In Timestamp; 'intimestampreps': In Timestamp Rep; 'inaddrmasks': In Address Masks; 'inaddrmaskreps': In Address Mask Rep; 'outmsgs': Out Message; 'outerrors': Out Errors; 'outdestunreachs': Out Destination Unreachable; 'outtimeexcds': Out TTL Exceeds; 'outparmprobs': Out Parameter Problem; 'outsrcquenchs': Out Source Quench Error; 'outredirects': Out Redirects; 'outechos': Out Echo Requests; 'outechoreps': Out Echo Replies; 'outtimestamps': Out Time Stamp; 'outtimestampreps': Out Time Stamp Rep; 'outaddrmasks': Out Address Mask; 'outaddrmaskreps': Out Address Mask Rep;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -9922,13 +11534,13 @@ export interface SystemIcmp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIcmpSamplingEnable[] | cdktf.IResolvable;
 }
@@ -10043,7 +11655,7 @@ export interface SystemIcmp6SamplingEnable {
   /**
   * 'all': all; 'in_msgs': In messages; 'in_errors': In Errors; 'in_dest_un_reach': In Destunation Unreachable; 'in_pkt_too_big': In Packet too big; 'in_time_exceeds': In TTL Exceeds; 'in_param_prob': In Parameter Problem; 'in_echoes': In Echo requests; 'in_exho_reply': In Echo replies; 'in_grp_mem_query': In Group member query; 'in_grp_mem_resp': In Group member reply; 'in_grp_mem_reduction': In Group member reduction; 'in_router_sol': In Router solicitation; 'in_ra': In Router advertisement; 'in_ns': In neighbor solicitation; 'in_na': In neighbor advertisement; 'in_redirect': In Redirects; 'out_msg': Out Messages; 'out_dst_un_reach': Out Destination Unreachable; 'out_pkt_too_big': Out Packet too big; 'out_time_exceeds': Out TTL Exceeds; 'out_param_prob': Out Parameter Problem; 'out_echo_req': Out Echo requests; 'out_echo_replies': Out Echo replies; 'out_rs': Out Router solicitation; 'out_ra': Out Router advertisement; 'out_ns': Out neighbor solicitation; 'out_na': Out neighbor advertisement; 'out_redirects': Out Redirects; 'out_mem_resp': Out Group member reply; 'out_mem_reductions': Out Group member reduction; 'err_rs': Error Router solicitation; 'err_ra': Error Router advertisement; 'err_ns': Error Neighbor solicitation; 'err_na': Error Neighbor advertisement; 'err_redirects': Error Redirects; 'err_echoes': Error Echo requests; 'err_echo_replies': Error Echo replies;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -10161,13 +11773,13 @@ export interface SystemIcmp6 {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIcmp6SamplingEnable[] | cdktf.IResolvable;
 }
@@ -10282,7 +11894,7 @@ export interface SystemIcmpRateSamplingEnable {
   /**
   * 'all': all; 'over_limit_drop': Over limit drops; 'limit_intf_drop': Interfaces rate limit drops; 'limit_vserver_drop': Virtual Server rate limit drops; 'limit_total_drop': Total rate limit drops; 'lockup_time_left': Lockup time left; 'curr_rate': Current rate; 'v6_over_limit_drop': Over limit drops (v6); 'v6_limit_intf_drop': Interfaces rate limit drops (v6); 'v6_limit_vserver_drop': Virtual Server rate limit drops (v6); 'v6_limit_total_drop': Total rate limit drops (v6); 'v6_lockup_time_left': Lockup time left (v6); 'v6_curr_rate': Current rate (v6);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -10400,13 +12012,13 @@ export interface SystemIcmpRate {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIcmpRateSamplingEnable[] | cdktf.IResolvable;
 }
@@ -10521,7 +12133,7 @@ export interface SystemInuseCpuListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -10607,7 +12219,7 @@ export interface SystemInusePortListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -10693,7 +12305,7 @@ export interface SystemIoCpu {
   /**
   * max number of IO cores (Specify number of cores)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#max_cores System#max_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#max_cores System#max_cores}
   */
   readonly maxCores?: number;
 }
@@ -10775,11 +12387,237 @@ export class SystemIoCpuOutputReference extends cdktf.ComplexObject {
     return this._maxCores;
   }
 }
+export interface SystemIp {
+  /**
+  * Disable icmp redirect messages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmp_redirect_disable System#icmp_redirect_disable}
+  */
+  readonly icmpRedirectDisable?: number;
+  /**
+  * Disable icmp unreachable messages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmp_unreachable_disable System#icmp_unreachable_disable}
+  */
+  readonly icmpUnreachableDisable?: number;
+  /**
+  * Enable reverse path filter (strict mode)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#rpf_check_enable System#rpf_check_enable}
+  */
+  readonly rpfCheckEnable?: number;
+  /**
+  * Enable IPv4 source routed packet drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#source_route_pkt_drop_enable System#source_route_pkt_drop_enable}
+  */
+  readonly sourceRoutePktDropEnable?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemIpToTerraform(struct?: SystemIpOutputReference | SystemIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmp_redirect_disable: cdktf.numberToTerraform(struct!.icmpRedirectDisable),
+    icmp_unreachable_disable: cdktf.numberToTerraform(struct!.icmpUnreachableDisable),
+    rpf_check_enable: cdktf.numberToTerraform(struct!.rpfCheckEnable),
+    source_route_pkt_drop_enable: cdktf.numberToTerraform(struct!.sourceRoutePktDropEnable),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemIpToHclTerraform(struct?: SystemIpOutputReference | SystemIp): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmp_redirect_disable: {
+      value: cdktf.numberToHclTerraform(struct!.icmpRedirectDisable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    icmp_unreachable_disable: {
+      value: cdktf.numberToHclTerraform(struct!.icmpUnreachableDisable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rpf_check_enable: {
+      value: cdktf.numberToHclTerraform(struct!.rpfCheckEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    source_route_pkt_drop_enable: {
+      value: cdktf.numberToHclTerraform(struct!.sourceRoutePktDropEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemIpOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemIp | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmpRedirectDisable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmpRedirectDisable = this._icmpRedirectDisable;
+    }
+    if (this._icmpUnreachableDisable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmpUnreachableDisable = this._icmpUnreachableDisable;
+    }
+    if (this._rpfCheckEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rpfCheckEnable = this._rpfCheckEnable;
+    }
+    if (this._sourceRoutePktDropEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceRoutePktDropEnable = this._sourceRoutePktDropEnable;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemIp | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._icmpRedirectDisable = undefined;
+      this._icmpUnreachableDisable = undefined;
+      this._rpfCheckEnable = undefined;
+      this._sourceRoutePktDropEnable = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._icmpRedirectDisable = value.icmpRedirectDisable;
+      this._icmpUnreachableDisable = value.icmpUnreachableDisable;
+      this._rpfCheckEnable = value.rpfCheckEnable;
+      this._sourceRoutePktDropEnable = value.sourceRoutePktDropEnable;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // icmp_redirect_disable - computed: false, optional: true, required: false
+  private _icmpRedirectDisable?: number; 
+  public get icmpRedirectDisable() {
+    return this.getNumberAttribute('icmp_redirect_disable');
+  }
+  public set icmpRedirectDisable(value: number) {
+    this._icmpRedirectDisable = value;
+  }
+  public resetIcmpRedirectDisable() {
+    this._icmpRedirectDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpRedirectDisableInput() {
+    return this._icmpRedirectDisable;
+  }
+
+  // icmp_unreachable_disable - computed: false, optional: true, required: false
+  private _icmpUnreachableDisable?: number; 
+  public get icmpUnreachableDisable() {
+    return this.getNumberAttribute('icmp_unreachable_disable');
+  }
+  public set icmpUnreachableDisable(value: number) {
+    this._icmpUnreachableDisable = value;
+  }
+  public resetIcmpUnreachableDisable() {
+    this._icmpUnreachableDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpUnreachableDisableInput() {
+    return this._icmpUnreachableDisable;
+  }
+
+  // rpf_check_enable - computed: false, optional: true, required: false
+  private _rpfCheckEnable?: number; 
+  public get rpfCheckEnable() {
+    return this.getNumberAttribute('rpf_check_enable');
+  }
+  public set rpfCheckEnable(value: number) {
+    this._rpfCheckEnable = value;
+  }
+  public resetRpfCheckEnable() {
+    this._rpfCheckEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rpfCheckEnableInput() {
+    return this._rpfCheckEnable;
+  }
+
+  // source_route_pkt_drop_enable - computed: false, optional: true, required: false
+  private _sourceRoutePktDropEnable?: number; 
+  public get sourceRoutePktDropEnable() {
+    return this.getNumberAttribute('source_route_pkt_drop_enable');
+  }
+  public set sourceRoutePktDropEnable(value: number) {
+    this._sourceRoutePktDropEnable = value;
+  }
+  public resetSourceRoutePktDropEnable() {
+    this._sourceRoutePktDropEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceRoutePktDropEnableInput() {
+    return this._sourceRoutePktDropEnable;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface SystemIp6StatsSamplingEnable {
   /**
   * 'all': all; 'inreceives': Incoming packets received; 'inhdrerrors': Incoming packet header errors; 'intoobigerrors': Incoming packet too big errors; 'innoroutes': Incoming no route packet drops; 'inaddrerrors': Incoming packet address errors; 'inunknownprotos': Incoming unkown protocol packet drops; 'intruncatedpkts': Incoming truncated packets; 'indiscards': Incoming packets discarded; 'indelivers': Incoming packets delivered; 'outforwdatagrams': Outgoing forwarded datagrams; 'outrequests': Outgoing packets; 'outdiscards': Outgoing packets discarded; 'outnoroutes': Outgoing no route packet drops; 'reasmtimeout': Reassembly timed out packet drops; 'reasmreqds': Incoming reassembly requests; 'reasmoks': Incoming reassembled packets; 'reasmfails': Incoming reassembly requests failed; 'fragoks': Outgoing packets fragmented; 'fragfails': Outgoing packets fragmentation failed; 'fragcreates': Outgoing fragmented packets; 'inmcastpkts': Incoming multicast packets; 'outmcastpkts': Outgoing multicast packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -10897,13 +12735,13 @@ export interface SystemIp6Stats {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIp6StatsSamplingEnable[] | cdktf.IResolvable;
 }
@@ -11018,7 +12856,7 @@ export interface SystemIpDnsCache {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -11104,7 +12942,7 @@ export interface SystemIpStatsSamplingEnable {
   /**
   * 'all': all; 'inreceives': Incoming packets received; 'inhdrerrors': Incoming packet header errors; 'intoobigerrors': Incoming packet too big errors; 'innoroutes': Incoming no route packet drops; 'inaddrerrors': Incoming packet address errors; 'inunknownprotos': Incoming unkown protocol packet drops; 'intruncatedpkts': Incoming truncated packets; 'indiscards': Incoming packets discarded; 'indelivers': Incoming packets delivered; 'outforwdatagrams': Outgoing forwarded datagrams; 'outrequests': Outgoing packets; 'outdiscards': Outgoing packets discarded; 'outnoroutes': Outgoing no route packet drops; 'reasmtimeout': Reassembly timed out packet drops; 'reasmreqds': Incoming reassembly requests; 'reasmoks': Incoming reassembled packets; 'reasmfails': Incoming reassembly requests failed; 'fragoks': Outgoing packets fragmented; 'fragfails': Outgoing packets fragmentation failed; 'fragcreates': Outgoing fragmented packets; 'inmcastpkts': Incoming multicast packets; 'outmcastpkts': Outgoing multicast packets;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -11222,13 +13060,13 @@ export interface SystemIpStats {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIpStatsSamplingEnable[] | cdktf.IResolvable;
 }
@@ -11343,13 +13181,13 @@ export interface SystemIpThreatListIpv4DestListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -11496,13 +13334,13 @@ export interface SystemIpThreatListIpv4DestListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv4DestListClassListCfg[] | cdktf.IResolvable;
 }
@@ -11617,13 +13455,13 @@ export interface SystemIpThreatListIpv4InternetHostListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -11770,13 +13608,19 @@ export interface SystemIpThreatListIpv4InternetHostListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
+  * Bind exception-list (class-list name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#white_list System#white_list}
+  */
+  readonly whiteList?: string;
+  /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv4InternetHostListClassListCfg[] | cdktf.IResolvable;
 }
@@ -11788,6 +13632,7 @@ export function systemIpThreatListIpv4InternetHostListStructToTerraform(struct?:
   }
   return {
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    white_list: cdktf.stringToTerraform(struct!.whiteList),
     class_list_cfg: cdktf.listMapper(systemIpThreatListIpv4InternetHostListClassListCfgToTerraform, true)(struct!.classListCfg),
   }
 }
@@ -11801,6 +13646,12 @@ export function systemIpThreatListIpv4InternetHostListStructToHclTerraform(struc
   const attrs = {
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    white_list: {
+      value: cdktf.stringToHclTerraform(struct!.whiteList),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -11835,6 +13686,10 @@ export class SystemIpThreatListIpv4InternetHostListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._whiteList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteList = this._whiteList;
+    }
     if (this._classListCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.classListCfg = this._classListCfg?.internalValue;
@@ -11846,11 +13701,13 @@ export class SystemIpThreatListIpv4InternetHostListStructOutputReference extends
     if (value === undefined) {
       this.isEmptyObject = false;
       this._uuid = undefined;
+      this._whiteList = undefined;
       this._classListCfg.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._uuid = value.uuid;
+      this._whiteList = value.whiteList;
       this._classListCfg.internalValue = value.classListCfg;
     }
   }
@@ -11869,6 +13726,22 @@ export class SystemIpThreatListIpv4InternetHostListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // white_list - computed: false, optional: true, required: false
+  private _whiteList?: string; 
+  public get whiteList() {
+    return this.getStringAttribute('white_list');
+  }
+  public set whiteList(value: string) {
+    this._whiteList = value;
+  }
+  public resetWhiteList() {
+    this._whiteList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListInput() {
+    return this._whiteList;
   }
 
   // class_list_cfg - computed: false, optional: true, required: false
@@ -11891,13 +13764,13 @@ export interface SystemIpThreatListIpv4SourceListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -12044,13 +13917,13 @@ export interface SystemIpThreatListIpv4SourceListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv4SourceListClassListCfg[] | cdktf.IResolvable;
 }
@@ -12165,13 +14038,13 @@ export interface SystemIpThreatListIpv6DestListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -12318,13 +14191,13 @@ export interface SystemIpThreatListIpv6DestListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv6DestListClassListCfg[] | cdktf.IResolvable;
 }
@@ -12439,13 +14312,13 @@ export interface SystemIpThreatListIpv6InternetHostListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -12592,13 +14465,19 @@ export interface SystemIpThreatListIpv6InternetHostListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
+  * Bind exception-list (class-list name)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#white_list System#white_list}
+  */
+  readonly whiteList?: string;
+  /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv6InternetHostListClassListCfg[] | cdktf.IResolvable;
 }
@@ -12610,6 +14489,7 @@ export function systemIpThreatListIpv6InternetHostListStructToTerraform(struct?:
   }
   return {
     uuid: cdktf.stringToTerraform(struct!.uuid),
+    white_list: cdktf.stringToTerraform(struct!.whiteList),
     class_list_cfg: cdktf.listMapper(systemIpThreatListIpv6InternetHostListClassListCfgToTerraform, true)(struct!.classListCfg),
   }
 }
@@ -12623,6 +14503,12 @@ export function systemIpThreatListIpv6InternetHostListStructToHclTerraform(struc
   const attrs = {
     uuid: {
       value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    white_list: {
+      value: cdktf.stringToHclTerraform(struct!.whiteList),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -12657,6 +14543,10 @@ export class SystemIpThreatListIpv6InternetHostListStructOutputReference extends
       hasAnyValues = true;
       internalValueResult.uuid = this._uuid;
     }
+    if (this._whiteList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.whiteList = this._whiteList;
+    }
     if (this._classListCfg?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.classListCfg = this._classListCfg?.internalValue;
@@ -12668,11 +14558,13 @@ export class SystemIpThreatListIpv6InternetHostListStructOutputReference extends
     if (value === undefined) {
       this.isEmptyObject = false;
       this._uuid = undefined;
+      this._whiteList = undefined;
       this._classListCfg.internalValue = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._uuid = value.uuid;
+      this._whiteList = value.whiteList;
       this._classListCfg.internalValue = value.classListCfg;
     }
   }
@@ -12691,6 +14583,22 @@ export class SystemIpThreatListIpv6InternetHostListStructOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get uuidInput() {
     return this._uuid;
+  }
+
+  // white_list - computed: false, optional: true, required: false
+  private _whiteList?: string; 
+  public get whiteList() {
+    return this.getStringAttribute('white_list');
+  }
+  public set whiteList(value: string) {
+    this._whiteList = value;
+  }
+  public resetWhiteList() {
+    this._whiteList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get whiteListInput() {
+    return this._whiteList;
   }
 
   // class_list_cfg - computed: false, optional: true, required: false
@@ -12713,13 +14621,13 @@ export interface SystemIpThreatListIpv6SourceListClassListCfg {
   /**
   * Bind class-list (class-list name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list System#class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list System#class_list}
   */
   readonly classList?: string;
   /**
   * Bind ip-threat-action Template (ip-threat-action Template number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip_threat_action_tmpl System#ip_threat_action_tmpl}
   */
   readonly ipThreatActionTmpl?: number;
 }
@@ -12866,13 +14774,13 @@ export interface SystemIpThreatListIpv6SourceListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * class_list_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#class_list_cfg System#class_list_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#class_list_cfg System#class_list_cfg}
   */
   readonly classListCfg?: SystemIpThreatListIpv6SourceListClassListCfg[] | cdktf.IResolvable;
 }
@@ -12987,7 +14895,7 @@ export interface SystemIpThreatListSamplingEnable {
   /**
   * 'all': all; 'packet_hit_count_in_sw': Packet Hit Count in SW; 'packet_hit_count_in_spe': Packet Hit Count in SPE; 'entries_added_in_sw': Entries Added in SW; 'entries_removed_from_sw': Entries Removed from SW; 'entries_added_in_spe': Entries Added in SPE; 'entries_removed_from_spe': Entries Removed from SPE; 'error_out_of_memory': Out of memory Error; 'error_out_of_spe_entries': Out of SPE Entries Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -13105,49 +15013,49 @@ export interface SystemIpThreatListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * ipv4_dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_dest_list System#ipv4_dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_dest_list System#ipv4_dest_list}
   */
   readonly ipv4DestList?: SystemIpThreatListIpv4DestListStruct;
   /**
   * ipv4_internet_host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_internet_host_list System#ipv4_internet_host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_internet_host_list System#ipv4_internet_host_list}
   */
   readonly ipv4InternetHostList?: SystemIpThreatListIpv4InternetHostListStruct;
   /**
   * ipv4_source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_source_list System#ipv4_source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_source_list System#ipv4_source_list}
   */
   readonly ipv4SourceList?: SystemIpThreatListIpv4SourceListStruct;
   /**
   * ipv6_dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_dest_list System#ipv6_dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_dest_list System#ipv6_dest_list}
   */
   readonly ipv6DestList?: SystemIpThreatListIpv6DestListStruct;
   /**
   * ipv6_internet_host_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_internet_host_list System#ipv6_internet_host_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_internet_host_list System#ipv6_internet_host_list}
   */
   readonly ipv6InternetHostList?: SystemIpThreatListIpv6InternetHostListStruct;
   /**
   * ipv6_source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv6_source_list System#ipv6_source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv6_source_list System#ipv6_source_list}
   */
   readonly ipv6SourceList?: SystemIpThreatListIpv6SourceListStruct;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemIpThreatListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -13436,19 +15344,19 @@ export interface SystemIpmiIp {
   /**
   * Default gateway address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#default_gateway System#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#default_gateway System#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_address System#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_address System#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipv4_netmask System#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipv4_netmask System#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
 }
@@ -13592,13 +15500,13 @@ export interface SystemIpmiIpsrc {
   /**
   * IP addr obtained by BMC running DHCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dhcp System#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dhcp System#dhcp}
   */
   readonly dhcp?: number;
   /**
   * Manually configured static IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#static System#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#static System#static}
   */
   readonly static?: number;
 }
@@ -13713,7 +15621,7 @@ export interface SystemIpmiTool {
   /**
   * Command to execute in double quotes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cmd System#cmd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#cmd System#cmd}
   */
   readonly cmd?: string;
 }
@@ -13799,73 +15707,73 @@ export interface SystemIpmiUser {
   /**
   * Add a new IPMI user (IPMI User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#add System#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#add System#add}
   */
   readonly add?: string;
   /**
   * Full control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#administrator System#administrator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#administrator System#administrator}
   */
   readonly administrator?: number;
   /**
   * Lowest privilege level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#callback System#callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#callback System#callback}
   */
   readonly callback?: number;
   /**
   * Disable an existing IPMI user (IPMI User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: string;
   /**
   * New IPMI User Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#newname System#newname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#newname System#newname}
   */
   readonly newname?: string;
   /**
   * New Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#newpass System#newpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#newpass System#newpass}
   */
   readonly newpass?: string;
   /**
   * Most BMC commands are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#operator System#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#operator System#operator}
   */
   readonly operator?: number;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#password System#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#password System#password}
   */
   readonly password?: string;
   /**
   * Change an existing IPMI user privilege (IPMI User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#privilege System#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#privilege System#privilege}
   */
   readonly privilege?: string;
   /**
   * Change User Name (Current IPMI User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#setname System#setname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#setname System#setname}
   */
   readonly setname?: string;
   /**
   * Change Password (IPMI User Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#setpass System#setpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#setpass System#setpass}
   */
   readonly setpass?: string;
   /**
   * Only 'benign' commands are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#user System#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#user System#user}
   */
   readonly user?: number;
 }
@@ -14270,31 +16178,31 @@ export interface SystemIpmi {
   /**
   * Reset IPMI Controller
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#reset System#reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#reset System#reset}
   */
   readonly reset?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ip System#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ip System#ip}
   */
   readonly ip?: SystemIpmiIp;
   /**
   * ipsrc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ipsrc System#ipsrc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#ipsrc System#ipsrc}
   */
   readonly ipsrc?: SystemIpmiIpsrc;
   /**
   * tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#tool System#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#tool System#tool}
   */
   readonly tool?: SystemIpmiTool;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#user System#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#user System#user}
   */
   readonly user?: SystemIpmiUser;
 }
@@ -14496,13 +16404,13 @@ export interface SystemIpmiService {
   /**
   * Disable IPMI on platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -14617,7 +16525,7 @@ export interface SystemIpsecFpgaDecrypt {
   /**
   * 'enable': Enable FPGA decryption offload; 'disable': Disable FPGA decryption offload;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#action System#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#action System#action}
   */
   readonly action?: string;
 }
@@ -14703,37 +16611,37 @@ export interface SystemIpsec {
   /**
   * Crypto cores assigned for IPsec processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#crypto_core System#crypto_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#crypto_core System#crypto_core}
   */
   readonly cryptoCore?: number;
   /**
   * Crypto memory percentage assigned for IPsec processing (rounded to increments of 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#crypto_mem System#crypto_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#crypto_mem System#crypto_mem}
   */
   readonly cryptoMem?: number;
   /**
   * Enable packet round robin for IPsec packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#packet_round_robin System#packet_round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#packet_round_robin System#packet_round_robin}
   */
   readonly packetRoundRobin?: number;
   /**
   * HW assisted QAT SSL module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#qat System#qat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#qat System#qat}
   */
   readonly qat?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * fpga_decrypt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#fpga_decrypt System#fpga_decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#fpga_decrypt System#fpga_decrypt}
   */
   readonly fpgaDecrypt?: SystemIpsecFpgaDecrypt;
 }
@@ -14960,11 +16868,237 @@ export class SystemIpsecOutputReference extends cdktf.ComplexObject {
     return this._fpgaDecrypt.internalValue;
   }
 }
+export interface SystemIpv6 {
+  /**
+  * Disable icmpv6 redirect messages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmpv6_redirect_disable System#icmpv6_redirect_disable}
+  */
+  readonly icmpv6RedirectDisable?: number;
+  /**
+  * Disable icmpv6 unreachable messages
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#icmpv6_unreachable_disable System#icmpv6_unreachable_disable}
+  */
+  readonly icmpv6UnreachableDisable?: number;
+  /**
+  * Enable reverse path filter (strict mode)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#rpf_check_enable System#rpf_check_enable}
+  */
+  readonly rpfCheckEnable?: number;
+  /**
+  * Enable IPv6 source routed packet drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#source_route_pkt_drop_enable System#source_route_pkt_drop_enable}
+  */
+  readonly sourceRoutePktDropEnable?: number;
+  /**
+  * uuid of the object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
+  */
+  readonly uuid?: string;
+}
+
+export function systemIpv6ToTerraform(struct?: SystemIpv6OutputReference | SystemIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    icmpv6_redirect_disable: cdktf.numberToTerraform(struct!.icmpv6RedirectDisable),
+    icmpv6_unreachable_disable: cdktf.numberToTerraform(struct!.icmpv6UnreachableDisable),
+    rpf_check_enable: cdktf.numberToTerraform(struct!.rpfCheckEnable),
+    source_route_pkt_drop_enable: cdktf.numberToTerraform(struct!.sourceRoutePktDropEnable),
+    uuid: cdktf.stringToTerraform(struct!.uuid),
+  }
+}
+
+
+export function systemIpv6ToHclTerraform(struct?: SystemIpv6OutputReference | SystemIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    icmpv6_redirect_disable: {
+      value: cdktf.numberToHclTerraform(struct!.icmpv6RedirectDisable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    icmpv6_unreachable_disable: {
+      value: cdktf.numberToHclTerraform(struct!.icmpv6UnreachableDisable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rpf_check_enable: {
+      value: cdktf.numberToHclTerraform(struct!.rpfCheckEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    source_route_pkt_drop_enable: {
+      value: cdktf.numberToHclTerraform(struct!.sourceRoutePktDropEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    uuid: {
+      value: cdktf.stringToHclTerraform(struct!.uuid),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class SystemIpv6OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): SystemIpv6 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._icmpv6RedirectDisable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmpv6RedirectDisable = this._icmpv6RedirectDisable;
+    }
+    if (this._icmpv6UnreachableDisable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.icmpv6UnreachableDisable = this._icmpv6UnreachableDisable;
+    }
+    if (this._rpfCheckEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rpfCheckEnable = this._rpfCheckEnable;
+    }
+    if (this._sourceRoutePktDropEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sourceRoutePktDropEnable = this._sourceRoutePktDropEnable;
+    }
+    if (this._uuid !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.uuid = this._uuid;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: SystemIpv6 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._icmpv6RedirectDisable = undefined;
+      this._icmpv6UnreachableDisable = undefined;
+      this._rpfCheckEnable = undefined;
+      this._sourceRoutePktDropEnable = undefined;
+      this._uuid = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._icmpv6RedirectDisable = value.icmpv6RedirectDisable;
+      this._icmpv6UnreachableDisable = value.icmpv6UnreachableDisable;
+      this._rpfCheckEnable = value.rpfCheckEnable;
+      this._sourceRoutePktDropEnable = value.sourceRoutePktDropEnable;
+      this._uuid = value.uuid;
+    }
+  }
+
+  // icmpv6_redirect_disable - computed: false, optional: true, required: false
+  private _icmpv6RedirectDisable?: number; 
+  public get icmpv6RedirectDisable() {
+    return this.getNumberAttribute('icmpv6_redirect_disable');
+  }
+  public set icmpv6RedirectDisable(value: number) {
+    this._icmpv6RedirectDisable = value;
+  }
+  public resetIcmpv6RedirectDisable() {
+    this._icmpv6RedirectDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpv6RedirectDisableInput() {
+    return this._icmpv6RedirectDisable;
+  }
+
+  // icmpv6_unreachable_disable - computed: false, optional: true, required: false
+  private _icmpv6UnreachableDisable?: number; 
+  public get icmpv6UnreachableDisable() {
+    return this.getNumberAttribute('icmpv6_unreachable_disable');
+  }
+  public set icmpv6UnreachableDisable(value: number) {
+    this._icmpv6UnreachableDisable = value;
+  }
+  public resetIcmpv6UnreachableDisable() {
+    this._icmpv6UnreachableDisable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get icmpv6UnreachableDisableInput() {
+    return this._icmpv6UnreachableDisable;
+  }
+
+  // rpf_check_enable - computed: false, optional: true, required: false
+  private _rpfCheckEnable?: number; 
+  public get rpfCheckEnable() {
+    return this.getNumberAttribute('rpf_check_enable');
+  }
+  public set rpfCheckEnable(value: number) {
+    this._rpfCheckEnable = value;
+  }
+  public resetRpfCheckEnable() {
+    this._rpfCheckEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rpfCheckEnableInput() {
+    return this._rpfCheckEnable;
+  }
+
+  // source_route_pkt_drop_enable - computed: false, optional: true, required: false
+  private _sourceRoutePktDropEnable?: number; 
+  public get sourceRoutePktDropEnable() {
+    return this.getNumberAttribute('source_route_pkt_drop_enable');
+  }
+  public set sourceRoutePktDropEnable(value: number) {
+    this._sourceRoutePktDropEnable = value;
+  }
+  public resetSourceRoutePktDropEnable() {
+    this._sourceRoutePktDropEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceRoutePktDropEnableInput() {
+    return this._sourceRoutePktDropEnable;
+  }
+
+  // uuid - computed: true, optional: true, required: false
+  private _uuid?: string; 
+  public get uuid() {
+    return this.getStringAttribute('uuid');
+  }
+  public set uuid(value: string) {
+    this._uuid = value;
+  }
+  public resetUuid() {
+    this._uuid = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get uuidInput() {
+    return this._uuid;
+  }
+}
 export interface SystemJobOffloadSamplingEnable {
   /**
   * 'all': all; 'jobs': Current Jobs; 'submit': Jobs Submitted; 'receive': Jobs Received; 'execute': Jobs Executed; 'snt_home': Jobs Sent Back Home; 'rcv_home': Jobs Received Home; 'complete': Jobs Completed; 'fail_submit': Jobs Failed to Submit; 'q_no_space': No More Space in Q; 'fail_execute': Failed to Execute Job; 'fail_complete': Failed to Complete Job;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#counters1 System#counters1}
   */
   readonly counters1?: string;
 }
@@ -15082,13 +17216,13 @@ export interface SystemJobOffload {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#sampling_enable System#sampling_enable}
   */
   readonly samplingEnable?: SystemJobOffloadSamplingEnable[] | cdktf.IResolvable;
 }
@@ -15203,13 +17337,13 @@ export interface SystemLinkCapability {
   /**
   * Enable/Disable link capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#uuid System#uuid}
   */
   readonly uuid?: string;
 }
@@ -15324,13 +17458,13 @@ export interface SystemLinkMonitor {
   /**
   * Disable Link Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * Enable Link Monitoring
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
 }
@@ -15445,13 +17579,13 @@ export interface SystemLro {
   /**
   * Disable Large Receive Offload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#disable System#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#disable System#disable}
   */
   readonly disable?: number;
   /**
   * Enable Large Receive Offload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#enable System#enable}
   */
   readonly enable?: number;
 }
@@ -15566,13 +17700,13 @@ export interface SystemManagementInterfaceMode {
   /**
   * Set management interface in dedicated mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#dedicated System#dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#dedicated System#dedicated}
   */
   readonly dedicated?: number;
   /**
   * Set management interface in non-dedicated mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#non_dedicated System#non_dedicated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system#non_dedicated System#non_dedicated}
   */
   readonly nonDedicated?: number;
 }
@@ -15681,1560 +17815,5 @@ export class SystemManagementInterfaceModeOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get nonDedicatedInput() {
     return this._nonDedicated;
-  }
-}
-export interface SystemMemorySamplingEnable {
-  /**
-  * 'all': all; 'usage-percentage': Memory Usage percentage;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#counters1 System#counters1}
-  */
-  readonly counters1?: string;
-}
-
-export function systemMemorySamplingEnableToTerraform(struct?: SystemMemorySamplingEnable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    counters1: cdktf.stringToTerraform(struct!.counters1),
-  }
-}
-
-
-export function systemMemorySamplingEnableToHclTerraform(struct?: SystemMemorySamplingEnable | cdktf.IResolvable): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    counters1: {
-      value: cdktf.stringToHclTerraform(struct!.counters1),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMemorySamplingEnableOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-  private resolvableValue?: cdktf.IResolvable;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param complexObjectIndex the index of this item in the list
-  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
-    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
-  }
-
-  public get internalValue(): SystemMemorySamplingEnable | cdktf.IResolvable | undefined {
-    if (this.resolvableValue) {
-      return this.resolvableValue;
-    }
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._counters1 !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.counters1 = this._counters1;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMemorySamplingEnable | cdktf.IResolvable | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this.resolvableValue = undefined;
-      this._counters1 = undefined;
-    }
-    else if (cdktf.Tokenization.isResolvable(value)) {
-      this.isEmptyObject = false;
-      this.resolvableValue = value;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this.resolvableValue = undefined;
-      this._counters1 = value.counters1;
-    }
-  }
-
-  // counters1 - computed: false, optional: true, required: false
-  private _counters1?: string; 
-  public get counters1() {
-    return this.getStringAttribute('counters1');
-  }
-  public set counters1(value: string) {
-    this._counters1 = value;
-  }
-  public resetCounters1() {
-    this._counters1 = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get counters1Input() {
-    return this._counters1;
-  }
-}
-
-export class SystemMemorySamplingEnableList extends cdktf.ComplexList {
-  public internalValue? : SystemMemorySamplingEnable[] | cdktf.IResolvable
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
-  */
-  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
-  }
-
-  /**
-  * @param index the index of the item to return
-  */
-  public get(index: number): SystemMemorySamplingEnableOutputReference {
-    return new SystemMemorySamplingEnableOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
-  }
-}
-export interface SystemMemory {
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-  /**
-  * sampling_enable block
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#sampling_enable System#sampling_enable}
-  */
-  readonly samplingEnable?: SystemMemorySamplingEnable[] | cdktf.IResolvable;
-}
-
-export function systemMemoryToTerraform(struct?: SystemMemoryOutputReference | SystemMemory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-    sampling_enable: cdktf.listMapper(systemMemorySamplingEnableToTerraform, true)(struct!.samplingEnable),
-  }
-}
-
-
-export function systemMemoryToHclTerraform(struct?: SystemMemoryOutputReference | SystemMemory): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    sampling_enable: {
-      value: cdktf.listMapperHcl(systemMemorySamplingEnableToHclTerraform, true)(struct!.samplingEnable),
-      isBlock: true,
-      type: "list",
-      storageClassType: "SystemMemorySamplingEnableList",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMemoryOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMemory | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    if (this._samplingEnable?.internalValue !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.samplingEnable = this._samplingEnable?.internalValue;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMemory | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._uuid = undefined;
-      this._samplingEnable.internalValue = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._uuid = value.uuid;
-      this._samplingEnable.internalValue = value.samplingEnable;
-    }
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-
-  // sampling_enable - computed: false, optional: true, required: false
-  private _samplingEnable = new SystemMemorySamplingEnableList(this, "sampling_enable", false);
-  public get samplingEnable() {
-    return this._samplingEnable;
-  }
-  public putSamplingEnable(value: SystemMemorySamplingEnable[] | cdktf.IResolvable) {
-    this._samplingEnable.internalValue = value;
-  }
-  public resetSamplingEnable() {
-    this._samplingEnable.internalValue = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get samplingEnableInput() {
-    return this._samplingEnable.internalValue;
-  }
-}
-export interface SystemMemoryBlockDebug {
-  /**
-  * Over size block allocation (Assert memory block over size (default: 65536))
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#assert_block System#assert_block}
-  */
-  readonly assertBlock?: number;
-  /**
-  * First memory block ascending order (default: 8192) (Memory blocks 32,64,128,256,512,1K,2K,4K,8K,16K,32K,64K)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#first_blk System#first_blk}
-  */
-  readonly firstBlk?: number;
-  /**
-  * Fourth memory block (default: 65536) (Memory blocks 32,64,128,256,512,1K,2K,4K,8K,16K,32K,64K)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#fourth_blk System#fourth_blk}
-  */
-  readonly fourthBlk?: number;
-  /**
-  * Enable pktdump Oversize block request packet
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#pktdump_block System#pktdump_block}
-  */
-  readonly pktdumpBlock?: number;
-  /**
-  * Second memory block (default: 16384) (Memory blocks 32,64,128,256,512,1K,2K,4K,8K,16K,32K,64K)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#second_blk System#second_blk}
-  */
-  readonly secondBlk?: number;
-  /**
-  * Third memory block (default: 32768) (Memory blocks 32,64,128,256,512,1K,2K,4K,8K,16K,32K,64K)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#third_blk System#third_blk}
-  */
-  readonly thirdBlk?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function systemMemoryBlockDebugToTerraform(struct?: SystemMemoryBlockDebugOutputReference | SystemMemoryBlockDebug): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    assert_block: cdktf.numberToTerraform(struct!.assertBlock),
-    first_blk: cdktf.numberToTerraform(struct!.firstBlk),
-    fourth_blk: cdktf.numberToTerraform(struct!.fourthBlk),
-    pktdump_block: cdktf.numberToTerraform(struct!.pktdumpBlock),
-    second_blk: cdktf.numberToTerraform(struct!.secondBlk),
-    third_blk: cdktf.numberToTerraform(struct!.thirdBlk),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function systemMemoryBlockDebugToHclTerraform(struct?: SystemMemoryBlockDebugOutputReference | SystemMemoryBlockDebug): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    assert_block: {
-      value: cdktf.numberToHclTerraform(struct!.assertBlock),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    first_blk: {
-      value: cdktf.numberToHclTerraform(struct!.firstBlk),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    fourth_blk: {
-      value: cdktf.numberToHclTerraform(struct!.fourthBlk),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    pktdump_block: {
-      value: cdktf.numberToHclTerraform(struct!.pktdumpBlock),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    second_blk: {
-      value: cdktf.numberToHclTerraform(struct!.secondBlk),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    third_blk: {
-      value: cdktf.numberToHclTerraform(struct!.thirdBlk),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMemoryBlockDebugOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMemoryBlockDebug | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._assertBlock !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.assertBlock = this._assertBlock;
-    }
-    if (this._firstBlk !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.firstBlk = this._firstBlk;
-    }
-    if (this._fourthBlk !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.fourthBlk = this._fourthBlk;
-    }
-    if (this._pktdumpBlock !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pktdumpBlock = this._pktdumpBlock;
-    }
-    if (this._secondBlk !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secondBlk = this._secondBlk;
-    }
-    if (this._thirdBlk !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.thirdBlk = this._thirdBlk;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMemoryBlockDebug | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._assertBlock = undefined;
-      this._firstBlk = undefined;
-      this._fourthBlk = undefined;
-      this._pktdumpBlock = undefined;
-      this._secondBlk = undefined;
-      this._thirdBlk = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._assertBlock = value.assertBlock;
-      this._firstBlk = value.firstBlk;
-      this._fourthBlk = value.fourthBlk;
-      this._pktdumpBlock = value.pktdumpBlock;
-      this._secondBlk = value.secondBlk;
-      this._thirdBlk = value.thirdBlk;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // assert_block - computed: false, optional: true, required: false
-  private _assertBlock?: number; 
-  public get assertBlock() {
-    return this.getNumberAttribute('assert_block');
-  }
-  public set assertBlock(value: number) {
-    this._assertBlock = value;
-  }
-  public resetAssertBlock() {
-    this._assertBlock = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get assertBlockInput() {
-    return this._assertBlock;
-  }
-
-  // first_blk - computed: false, optional: true, required: false
-  private _firstBlk?: number; 
-  public get firstBlk() {
-    return this.getNumberAttribute('first_blk');
-  }
-  public set firstBlk(value: number) {
-    this._firstBlk = value;
-  }
-  public resetFirstBlk() {
-    this._firstBlk = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get firstBlkInput() {
-    return this._firstBlk;
-  }
-
-  // fourth_blk - computed: false, optional: true, required: false
-  private _fourthBlk?: number; 
-  public get fourthBlk() {
-    return this.getNumberAttribute('fourth_blk');
-  }
-  public set fourthBlk(value: number) {
-    this._fourthBlk = value;
-  }
-  public resetFourthBlk() {
-    this._fourthBlk = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get fourthBlkInput() {
-    return this._fourthBlk;
-  }
-
-  // pktdump_block - computed: false, optional: true, required: false
-  private _pktdumpBlock?: number; 
-  public get pktdumpBlock() {
-    return this.getNumberAttribute('pktdump_block');
-  }
-  public set pktdumpBlock(value: number) {
-    this._pktdumpBlock = value;
-  }
-  public resetPktdumpBlock() {
-    this._pktdumpBlock = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pktdumpBlockInput() {
-    return this._pktdumpBlock;
-  }
-
-  // second_blk - computed: false, optional: true, required: false
-  private _secondBlk?: number; 
-  public get secondBlk() {
-    return this.getNumberAttribute('second_blk');
-  }
-  public set secondBlk(value: number) {
-    this._secondBlk = value;
-  }
-  public resetSecondBlk() {
-    this._secondBlk = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secondBlkInput() {
-    return this._secondBlk;
-  }
-
-  // third_blk - computed: false, optional: true, required: false
-  private _thirdBlk?: number; 
-  public get thirdBlk() {
-    return this.getNumberAttribute('third_blk');
-  }
-  public set thirdBlk(value: number) {
-    this._thirdBlk = value;
-  }
-  public resetThirdBlk() {
-    this._thirdBlk = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get thirdBlkInput() {
-    return this._thirdBlk;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface SystemMfaAuth {
-  /**
-  * Input second factor paramter
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#second_factor System#second_factor}
-  */
-  readonly secondFactor?: string;
-  /**
-  * Username for MFA validation
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#username System#username}
-  */
-  readonly username?: string;
-}
-
-export function systemMfaAuthToTerraform(struct?: SystemMfaAuthOutputReference | SystemMfaAuth): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    second_factor: cdktf.stringToTerraform(struct!.secondFactor),
-    username: cdktf.stringToTerraform(struct!.username),
-  }
-}
-
-
-export function systemMfaAuthToHclTerraform(struct?: SystemMfaAuthOutputReference | SystemMfaAuth): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    second_factor: {
-      value: cdktf.stringToHclTerraform(struct!.secondFactor),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMfaAuthOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMfaAuth | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._secondFactor !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.secondFactor = this._secondFactor;
-    }
-    if (this._username !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.username = this._username;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMfaAuth | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._secondFactor = undefined;
-      this._username = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._secondFactor = value.secondFactor;
-      this._username = value.username;
-    }
-  }
-
-  // second_factor - computed: false, optional: true, required: false
-  private _secondFactor?: string; 
-  public get secondFactor() {
-    return this.getStringAttribute('second_factor');
-  }
-  public set secondFactor(value: string) {
-    this._secondFactor = value;
-  }
-  public resetSecondFactor() {
-    this._secondFactor = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get secondFactorInput() {
-    return this._secondFactor;
-  }
-
-  // username - computed: false, optional: true, required: false
-  private _username?: string; 
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-  public set username(value: string) {
-    this._username = value;
-  }
-  public resetUsername() {
-    this._username = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usernameInput() {
-    return this._username;
-  }
-}
-export interface SystemMfaCertStore {
-  /**
-  * Configure certificate store host
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cert_host System#cert_host}
-  */
-  readonly certHost?: string;
-  /**
-  * Configure certificate store path
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#cert_store_path System#cert_store_path}
-  */
-  readonly certStorePath?: string;
-  /**
-  * Certificate store host password
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#passwd_string System#passwd_string}
-  */
-  readonly passwdString?: string;
-  /**
-  * 'tftp': Use tftp for connection; 'ftp': Use ftp for connection; 'scp': Use scp for connection; 'http': Use http for connection; 'https': Use https for connection; 'sftp': Use sftp for connection;
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#protocol System#protocol}
-  */
-  readonly protocol?: string;
-  /**
-  * Certificate store host username
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#username System#username}
-  */
-  readonly username?: string;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function systemMfaCertStoreToTerraform(struct?: SystemMfaCertStoreOutputReference | SystemMfaCertStore): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    cert_host: cdktf.stringToTerraform(struct!.certHost),
-    cert_store_path: cdktf.stringToTerraform(struct!.certStorePath),
-    passwd_string: cdktf.stringToTerraform(struct!.passwdString),
-    protocol: cdktf.stringToTerraform(struct!.protocol),
-    username: cdktf.stringToTerraform(struct!.username),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function systemMfaCertStoreToHclTerraform(struct?: SystemMfaCertStoreOutputReference | SystemMfaCertStore): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    cert_host: {
-      value: cdktf.stringToHclTerraform(struct!.certHost),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    cert_store_path: {
-      value: cdktf.stringToHclTerraform(struct!.certStorePath),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    passwd_string: {
-      value: cdktf.stringToHclTerraform(struct!.passwdString),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    protocol: {
-      value: cdktf.stringToHclTerraform(struct!.protocol),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    username: {
-      value: cdktf.stringToHclTerraform(struct!.username),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMfaCertStoreOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMfaCertStore | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._certHost !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certHost = this._certHost;
-    }
-    if (this._certStorePath !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.certStorePath = this._certStorePath;
-    }
-    if (this._passwdString !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.passwdString = this._passwdString;
-    }
-    if (this._protocol !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.protocol = this._protocol;
-    }
-    if (this._username !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.username = this._username;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMfaCertStore | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._certHost = undefined;
-      this._certStorePath = undefined;
-      this._passwdString = undefined;
-      this._protocol = undefined;
-      this._username = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._certHost = value.certHost;
-      this._certStorePath = value.certStorePath;
-      this._passwdString = value.passwdString;
-      this._protocol = value.protocol;
-      this._username = value.username;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // cert_host - computed: false, optional: true, required: false
-  private _certHost?: string; 
-  public get certHost() {
-    return this.getStringAttribute('cert_host');
-  }
-  public set certHost(value: string) {
-    this._certHost = value;
-  }
-  public resetCertHost() {
-    this._certHost = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certHostInput() {
-    return this._certHost;
-  }
-
-  // cert_store_path - computed: false, optional: true, required: false
-  private _certStorePath?: string; 
-  public get certStorePath() {
-    return this.getStringAttribute('cert_store_path');
-  }
-  public set certStorePath(value: string) {
-    this._certStorePath = value;
-  }
-  public resetCertStorePath() {
-    this._certStorePath = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get certStorePathInput() {
-    return this._certStorePath;
-  }
-
-  // passwd_string - computed: false, optional: true, required: false
-  private _passwdString?: string; 
-  public get passwdString() {
-    return this.getStringAttribute('passwd_string');
-  }
-  public set passwdString(value: string) {
-    this._passwdString = value;
-  }
-  public resetPasswdString() {
-    this._passwdString = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get passwdStringInput() {
-    return this._passwdString;
-  }
-
-  // protocol - computed: false, optional: true, required: false
-  private _protocol?: string; 
-  public get protocol() {
-    return this.getStringAttribute('protocol');
-  }
-  public set protocol(value: string) {
-    this._protocol = value;
-  }
-  public resetProtocol() {
-    this._protocol = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get protocolInput() {
-    return this._protocol;
-  }
-
-  // username - computed: false, optional: true, required: false
-  private _username?: string; 
-  public get username() {
-    return this.getStringAttribute('username');
-  }
-  public set username(value: string) {
-    this._username = value;
-  }
-  public resetUsername() {
-    this._username = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get usernameInput() {
-    return this._username;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface SystemMfaManagement {
-  /**
-  * Enable 2FA for management plane
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
-  */
-  readonly enable?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function systemMfaManagementToTerraform(struct?: SystemMfaManagementOutputReference | SystemMfaManagement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enable: cdktf.numberToTerraform(struct!.enable),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function systemMfaManagementToHclTerraform(struct?: SystemMfaManagementOutputReference | SystemMfaManagement): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enable: {
-      value: cdktf.numberToHclTerraform(struct!.enable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMfaManagementOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMfaManagement | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enable = this._enable;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMfaManagement | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enable = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enable = value.enable;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // enable - computed: false, optional: true, required: false
-  private _enable?: number; 
-  public get enable() {
-    return this.getNumberAttribute('enable');
-  }
-  public set enable(value: number) {
-    this._enable = value;
-  }
-  public resetEnable() {
-    this._enable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableInput() {
-    return this._enable;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface SystemMfaValidationType {
-  /**
-  * Configure CA Certificate
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#ca_cert System#ca_cert}
-  */
-  readonly caCert?: string;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function systemMfaValidationTypeToTerraform(struct?: SystemMfaValidationTypeOutputReference | SystemMfaValidationType): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    ca_cert: cdktf.stringToTerraform(struct!.caCert),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function systemMfaValidationTypeToHclTerraform(struct?: SystemMfaValidationTypeOutputReference | SystemMfaValidationType): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    ca_cert: {
-      value: cdktf.stringToHclTerraform(struct!.caCert),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMfaValidationTypeOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMfaValidationType | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._caCert !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.caCert = this._caCert;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMfaValidationType | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._caCert = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._caCert = value.caCert;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // ca_cert - computed: false, optional: true, required: false
-  private _caCert?: string; 
-  public get caCert() {
-    return this.getStringAttribute('ca_cert');
-  }
-  public set caCert(value: string) {
-    this._caCert = value;
-  }
-  public resetCaCert() {
-    this._caCert = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get caCertInput() {
-    return this._caCert;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
-  }
-}
-export interface SystemMgmtPort {
-  /**
-  * mac-address to be configured as mgmt port
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#mac_address System#mac_address}
-  */
-  readonly macAddress?: string;
-  /**
-  * pci-address to be configured as mgmt port
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#pci_address System#pci_address}
-  */
-  readonly pciAddress?: string;
-  /**
-  * port index to be configured (Specify port index)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_index System#port_index}
-  */
-  readonly portIndex?: number;
-}
-
-export function systemMgmtPortToTerraform(struct?: SystemMgmtPortOutputReference | SystemMgmtPort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    mac_address: cdktf.stringToTerraform(struct!.macAddress),
-    pci_address: cdktf.stringToTerraform(struct!.pciAddress),
-    port_index: cdktf.numberToTerraform(struct!.portIndex),
-  }
-}
-
-
-export function systemMgmtPortToHclTerraform(struct?: SystemMgmtPortOutputReference | SystemMgmtPort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    mac_address: {
-      value: cdktf.stringToHclTerraform(struct!.macAddress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    pci_address: {
-      value: cdktf.stringToHclTerraform(struct!.pciAddress),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    port_index: {
-      value: cdktf.numberToHclTerraform(struct!.portIndex),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMgmtPortOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMgmtPort | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._macAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.macAddress = this._macAddress;
-    }
-    if (this._pciAddress !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.pciAddress = this._pciAddress;
-    }
-    if (this._portIndex !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.portIndex = this._portIndex;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMgmtPort | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._macAddress = undefined;
-      this._pciAddress = undefined;
-      this._portIndex = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._macAddress = value.macAddress;
-      this._pciAddress = value.pciAddress;
-      this._portIndex = value.portIndex;
-    }
-  }
-
-  // mac_address - computed: false, optional: true, required: false
-  private _macAddress?: string; 
-  public get macAddress() {
-    return this.getStringAttribute('mac_address');
-  }
-  public set macAddress(value: string) {
-    this._macAddress = value;
-  }
-  public resetMacAddress() {
-    this._macAddress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get macAddressInput() {
-    return this._macAddress;
-  }
-
-  // pci_address - computed: false, optional: true, required: false
-  private _pciAddress?: string; 
-  public get pciAddress() {
-    return this.getStringAttribute('pci_address');
-  }
-  public set pciAddress(value: string) {
-    this._pciAddress = value;
-  }
-  public resetPciAddress() {
-    this._pciAddress = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get pciAddressInput() {
-    return this._pciAddress;
-  }
-
-  // port_index - computed: false, optional: true, required: false
-  private _portIndex?: number; 
-  public get portIndex() {
-    return this.getNumberAttribute('port_index');
-  }
-  public set portIndex(value: number) {
-    this._portIndex = value;
-  }
-  public resetPortIndex() {
-    this._portIndex = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portIndexInput() {
-    return this._portIndex;
-  }
-}
-export interface SystemModifyPort {
-  /**
-  * port index to be configured (Specify port index)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_index System#port_index}
-  */
-  readonly portIndex?: number;
-  /**
-  * port number to be configured (Specify port number)
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#port_number System#port_number}
-  */
-  readonly portNumber?: number;
-}
-
-export function systemModifyPortToTerraform(struct?: SystemModifyPortOutputReference | SystemModifyPort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    port_index: cdktf.numberToTerraform(struct!.portIndex),
-    port_number: cdktf.numberToTerraform(struct!.portNumber),
-  }
-}
-
-
-export function systemModifyPortToHclTerraform(struct?: SystemModifyPortOutputReference | SystemModifyPort): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    port_index: {
-      value: cdktf.numberToHclTerraform(struct!.portIndex),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    port_number: {
-      value: cdktf.numberToHclTerraform(struct!.portNumber),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemModifyPortOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemModifyPort | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._portIndex !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.portIndex = this._portIndex;
-    }
-    if (this._portNumber !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.portNumber = this._portNumber;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemModifyPort | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._portIndex = undefined;
-      this._portNumber = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._portIndex = value.portIndex;
-      this._portNumber = value.portNumber;
-    }
-  }
-
-  // port_index - computed: false, optional: true, required: false
-  private _portIndex?: number; 
-  public get portIndex() {
-    return this.getNumberAttribute('port_index');
-  }
-  public set portIndex(value: number) {
-    this._portIndex = value;
-  }
-  public resetPortIndex() {
-    this._portIndex = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portIndexInput() {
-    return this._portIndex;
-  }
-
-  // port_number - computed: false, optional: true, required: false
-  private _portNumber?: number; 
-  public get portNumber() {
-    return this.getNumberAttribute('port_number');
-  }
-  public set portNumber(value: number) {
-    this._portNumber = value;
-  }
-  public resetPortNumber() {
-    this._portNumber = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get portNumberInput() {
-    return this._portNumber;
-  }
-}
-export interface SystemMonTemplateLinkBlockAsDown {
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#enable System#enable}
-  */
-  readonly enable?: number;
-  /**
-  * uuid of the object
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system#uuid System#uuid}
-  */
-  readonly uuid?: string;
-}
-
-export function systemMonTemplateLinkBlockAsDownToTerraform(struct?: SystemMonTemplateLinkBlockAsDownOutputReference | SystemMonTemplateLinkBlockAsDown): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  return {
-    enable: cdktf.numberToTerraform(struct!.enable),
-    uuid: cdktf.stringToTerraform(struct!.uuid),
-  }
-}
-
-
-export function systemMonTemplateLinkBlockAsDownToHclTerraform(struct?: SystemMonTemplateLinkBlockAsDownOutputReference | SystemMonTemplateLinkBlockAsDown): any {
-  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
-  if (cdktf.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
-  }
-  const attrs = {
-    enable: {
-      value: cdktf.numberToHclTerraform(struct!.enable),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    uuid: {
-      value: cdktf.stringToHclTerraform(struct!.uuid),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-  };
-
-  // remove undefined attributes
-  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
-}
-
-export class SystemMonTemplateLinkBlockAsDownOutputReference extends cdktf.ComplexObject {
-  private isEmptyObject = false;
-
-  /**
-  * @param terraformResource The parent resource
-  * @param terraformAttribute The attribute on the parent resource this class is referencing
-  */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
-  }
-
-  public get internalValue(): SystemMonTemplateLinkBlockAsDown | undefined {
-    let hasAnyValues = this.isEmptyObject;
-    const internalValueResult: any = {};
-    if (this._enable !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.enable = this._enable;
-    }
-    if (this._uuid !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.uuid = this._uuid;
-    }
-    return hasAnyValues ? internalValueResult : undefined;
-  }
-
-  public set internalValue(value: SystemMonTemplateLinkBlockAsDown | undefined) {
-    if (value === undefined) {
-      this.isEmptyObject = false;
-      this._enable = undefined;
-      this._uuid = undefined;
-    }
-    else {
-      this.isEmptyObject = Object.keys(value).length === 0;
-      this._enable = value.enable;
-      this._uuid = value.uuid;
-    }
-  }
-
-  // enable - computed: false, optional: true, required: false
-  private _enable?: number; 
-  public get enable() {
-    return this.getNumberAttribute('enable');
-  }
-  public set enable(value: number) {
-    this._enable = value;
-  }
-  public resetEnable() {
-    this._enable = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get enableInput() {
-    return this._enable;
-  }
-
-  // uuid - computed: true, optional: true, required: false
-  private _uuid?: string; 
-  public get uuid() {
-    return this.getStringAttribute('uuid');
-  }
-  public set uuid(value: string) {
-    this._uuid = value;
-  }
-  public resetUuid() {
-    this._uuid = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get uuidInput() {
-    return this._uuid;
   }
 }

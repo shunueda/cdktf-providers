@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSystemIpThreatListOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#id DataThunderSystemIpThreatListOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#id DataThunderSystemIpThreatListOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,33 @@ export interface DataThunderSystemIpThreatListOperConfig extends cdktf.Terraform
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#oper DataThunderSystemIpThreatListOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#oper DataThunderSystemIpThreatListOper#oper}
   */
   readonly oper?: DataThunderSystemIpThreatListOperOper;
 }
 export interface DataThunderSystemIpThreatListOperOperEntriesListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#age DataThunderSystemIpThreatListOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#age DataThunderSystemIpThreatListOper#age}
   */
   readonly age?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#in_spe DataThunderSystemIpThreatListOper#in_spe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#class_list DataThunderSystemIpThreatListOper#class_list}
+  */
+  readonly classList?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#hit_count DataThunderSystemIpThreatListOper#hit_count}
+  */
+  readonly hitCount?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#in_spe DataThunderSystemIpThreatListOper#in_spe}
   */
   readonly inSpe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#ip DataThunderSystemIpThreatListOper#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#ip DataThunderSystemIpThreatListOper#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#match_type DataThunderSystemIpThreatListOper#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#match_type DataThunderSystemIpThreatListOper#match_type}
   */
   readonly matchType?: string;
 }
@@ -47,6 +55,8 @@ export function dataThunderSystemIpThreatListOperOperEntriesListStructToTerrafor
   }
   return {
     age: cdktf.numberToTerraform(struct!.age),
+    class_list: cdktf.stringToTerraform(struct!.classList),
+    hit_count: cdktf.numberToTerraform(struct!.hitCount),
     in_spe: cdktf.stringToTerraform(struct!.inSpe),
     ip: cdktf.stringToTerraform(struct!.ip),
     match_type: cdktf.stringToTerraform(struct!.matchType),
@@ -62,6 +72,18 @@ export function dataThunderSystemIpThreatListOperOperEntriesListStructToHclTerra
   const attrs = {
     age: {
       value: cdktf.numberToHclTerraform(struct!.age),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    class_list: {
+      value: cdktf.stringToHclTerraform(struct!.classList),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    hit_count: {
+      value: cdktf.numberToHclTerraform(struct!.hitCount),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -114,6 +136,14 @@ export class DataThunderSystemIpThreatListOperOperEntriesListStructOutputReferen
       hasAnyValues = true;
       internalValueResult.age = this._age;
     }
+    if (this._classList !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.classList = this._classList;
+    }
+    if (this._hitCount !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.hitCount = this._hitCount;
+    }
     if (this._inSpe !== undefined) {
       hasAnyValues = true;
       internalValueResult.inSpe = this._inSpe;
@@ -134,6 +164,8 @@ export class DataThunderSystemIpThreatListOperOperEntriesListStructOutputReferen
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._age = undefined;
+      this._classList = undefined;
+      this._hitCount = undefined;
       this._inSpe = undefined;
       this._ip = undefined;
       this._matchType = undefined;
@@ -146,6 +178,8 @@ export class DataThunderSystemIpThreatListOperOperEntriesListStructOutputReferen
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._age = value.age;
+      this._classList = value.classList;
+      this._hitCount = value.hitCount;
       this._inSpe = value.inSpe;
       this._ip = value.ip;
       this._matchType = value.matchType;
@@ -166,6 +200,38 @@ export class DataThunderSystemIpThreatListOperOperEntriesListStructOutputReferen
   // Temporarily expose input value. Use with caution.
   public get ageInput() {
     return this._age;
+  }
+
+  // class_list - computed: false, optional: true, required: false
+  private _classList?: string; 
+  public get classList() {
+    return this.getStringAttribute('class_list');
+  }
+  public set classList(value: string) {
+    this._classList = value;
+  }
+  public resetClassList() {
+    this._classList = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get classListInput() {
+    return this._classList;
+  }
+
+  // hit_count - computed: false, optional: true, required: false
+  private _hitCount?: number; 
+  public get hitCount() {
+    return this.getNumberAttribute('hit_count');
+  }
+  public set hitCount(value: number) {
+    this._hitCount = value;
+  }
+  public resetHitCount() {
+    this._hitCount = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get hitCountInput() {
+    return this._hitCount;
   }
 
   // in_spe - computed: false, optional: true, required: false
@@ -238,21 +304,21 @@ export class DataThunderSystemIpThreatListOperOperEntriesListStructList extends 
 }
 export interface DataThunderSystemIpThreatListOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#v4_address DataThunderSystemIpThreatListOper#v4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#v4_address DataThunderSystemIpThreatListOper#v4_address}
   */
   readonly v4Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#v4_netmask DataThunderSystemIpThreatListOper#v4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#v4_netmask DataThunderSystemIpThreatListOper#v4_netmask}
   */
   readonly v4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#v6_prefix DataThunderSystemIpThreatListOper#v6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#v6_prefix DataThunderSystemIpThreatListOper#v6_prefix}
   */
   readonly v6Prefix?: string;
   /**
   * entries_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#entries_list DataThunderSystemIpThreatListOper#entries_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#entries_list DataThunderSystemIpThreatListOper#entries_list}
   */
   readonly entriesList?: DataThunderSystemIpThreatListOperOperEntriesListStruct[] | cdktf.IResolvable;
 }
@@ -423,7 +489,7 @@ export class DataThunderSystemIpThreatListOperOperOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper thunder_system_ip_threat_list_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper thunder_system_ip_threat_list_oper}
 */
 export class DataThunderSystemIpThreatListOper extends cdktf.TerraformDataSource {
 
@@ -439,7 +505,7 @@ export class DataThunderSystemIpThreatListOper extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataThunderSystemIpThreatListOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSystemIpThreatListOper to import
-  * @param importFromId The id of the existing DataThunderSystemIpThreatListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSystemIpThreatListOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSystemIpThreatListOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -451,7 +517,7 @@ export class DataThunderSystemIpThreatListOper extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/system_ip_threat_list_oper thunder_system_ip_threat_list_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/system_ip_threat_list_oper thunder_system_ip_threat_list_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -462,8 +528,8 @@ export class DataThunderSystemIpThreatListOper extends cdktf.TerraformDataSource
       terraformResourceType: 'thunder_system_ip_threat_list_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderFwFullConeSessionOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#id DataThunderFwFullConeSessionOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#id DataThunderFwFullConeSessionOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataThunderFwFullConeSessionOperConfig extends cdktf.TerraformM
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#oper DataThunderFwFullConeSessionOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#oper DataThunderFwFullConeSessionOper#oper}
   */
   readonly oper?: DataThunderFwFullConeSessionOperOper;
 }
 export interface DataThunderFwFullConeSessionOperOperSessionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#age DataThunderFwFullConeSessionOper#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#age DataThunderFwFullConeSessionOper#age}
   */
   readonly age?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#cpu DataThunderFwFullConeSessionOper#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#cpu DataThunderFwFullConeSessionOper#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#inbound DataThunderFwFullConeSessionOper#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#inbound DataThunderFwFullConeSessionOper#inbound}
   */
   readonly inbound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#inside_address DataThunderFwFullConeSessionOper#inside_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#inside_address DataThunderFwFullConeSessionOper#inside_address}
   */
   readonly insideAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#inside_port DataThunderFwFullConeSessionOper#inside_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#inside_port DataThunderFwFullConeSessionOper#inside_port}
   */
   readonly insidePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#outbound DataThunderFwFullConeSessionOper#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#outbound DataThunderFwFullConeSessionOper#outbound}
   */
   readonly outbound?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#protocol DataThunderFwFullConeSessionOper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#protocol DataThunderFwFullConeSessionOper#protocol}
   */
   readonly protocol?: string;
 }
@@ -337,21 +337,21 @@ export class DataThunderFwFullConeSessionOperOperSessionListStructList extends c
 }
 export interface DataThunderFwFullConeSessionOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#ipv4_addr DataThunderFwFullConeSessionOper#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#ipv4_addr DataThunderFwFullConeSessionOper#ipv4_addr}
   */
   readonly ipv4Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#ipv6_addr DataThunderFwFullConeSessionOper#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#ipv6_addr DataThunderFwFullConeSessionOper#ipv6_addr}
   */
   readonly ipv6Addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#total DataThunderFwFullConeSessionOper#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#total DataThunderFwFullConeSessionOper#total}
   */
   readonly total?: number;
   /**
   * session_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#session_list DataThunderFwFullConeSessionOper#session_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#session_list DataThunderFwFullConeSessionOper#session_list}
   */
   readonly sessionList?: DataThunderFwFullConeSessionOperOperSessionListStruct[] | cdktf.IResolvable;
 }
@@ -522,7 +522,7 @@ export class DataThunderFwFullConeSessionOperOperOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper thunder_fw_full_cone_session_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper thunder_fw_full_cone_session_oper}
 */
 export class DataThunderFwFullConeSessionOper extends cdktf.TerraformDataSource {
 
@@ -538,7 +538,7 @@ export class DataThunderFwFullConeSessionOper extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataThunderFwFullConeSessionOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderFwFullConeSessionOper to import
-  * @param importFromId The id of the existing DataThunderFwFullConeSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderFwFullConeSessionOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderFwFullConeSessionOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -550,7 +550,7 @@ export class DataThunderFwFullConeSessionOper extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/fw_full_cone_session_oper thunder_fw_full_cone_session_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/fw_full_cone_session_oper thunder_fw_full_cone_session_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -561,8 +561,8 @@ export class DataThunderFwFullConeSessionOper extends cdktf.TerraformDataSource 
       terraformResourceType: 'thunder_fw_full_cone_session_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

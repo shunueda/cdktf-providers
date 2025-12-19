@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationServerWindowsInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#id DataThunderAamAuthenticationServerWindowsInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#id DataThunderAamAuthenticationServerWindowsInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationServerWindowsInstanceStatsConfig ex
   /**
   * Specify Windows authentication server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#name DataThunderAamAuthenticationServerWindowsInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#name DataThunderAamAuthenticationServerWindowsInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#stats DataThunderAamAuthenticationServerWindowsInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#stats DataThunderAamAuthenticationServerWindowsInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationServerWindowsInstanceStatsStats;
 }
@@ -31,117 +31,57 @@ export interface DataThunderAamAuthenticationServerWindowsInstanceStatsStats {
   /**
   * Kerberos Response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_get_resp_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_get_resp_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_get_resp_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_get_resp_success}
   */
   readonly krbGetRespSuccess?: number;
   /**
   * Kerberos Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_other_error DataThunderAamAuthenticationServerWindowsInstanceStats#krb_other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_other_error DataThunderAamAuthenticationServerWindowsInstanceStats#krb_other_error}
   */
   readonly krbOtherError?: number;
   /**
   * Kerberos password change failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_change_failure DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_change_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_change_failure DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_change_failure}
   */
   readonly krbPwChangeFailure?: number;
   /**
   * Kerberos password change success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_change_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_change_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_change_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_change_success}
   */
   readonly krbPwChangeSuccess?: number;
   /**
   * Kerberos password expiry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_expiry DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_pw_expiry DataThunderAamAuthenticationServerWindowsInstanceStats#krb_pw_expiry}
   */
   readonly krbPwExpiry?: number;
   /**
   * Kerberos Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_send_req_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_send_req_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_send_req_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_send_req_success}
   */
   readonly krbSendReqSuccess?: number;
   /**
   * Kerberos Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_timeout_error DataThunderAamAuthenticationServerWindowsInstanceStats#krb_timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_timeout_error DataThunderAamAuthenticationServerWindowsInstanceStats#krb_timeout_error}
   */
   readonly krbTimeoutError?: number;
   /**
   * Kerberos KDC Validation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_validate_kdc_failure DataThunderAamAuthenticationServerWindowsInstanceStats#krb_validate_kdc_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_validate_kdc_failure DataThunderAamAuthenticationServerWindowsInstanceStats#krb_validate_kdc_failure}
   */
   readonly krbValidateKdcFailure?: number;
   /**
   * Kerberos KDC Validation Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_validate_kdc_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_validate_kdc_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#krb_validate_kdc_success DataThunderAamAuthenticationServerWindowsInstanceStats#krb_validate_kdc_success}
   */
   readonly krbValidateKdcSuccess?: number;
-  /**
-  * NTLM Authentication Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_auth_failure DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_auth_failure}
-  */
-  readonly ntlmAuthFailure?: number;
-  /**
-  * NTLM Authentication Success
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_auth_success DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_auth_success}
-  */
-  readonly ntlmAuthSuccess?: number;
-  /**
-  * NTLM Other Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_other_error DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_other_error}
-  */
-  readonly ntlmOtherError?: number;
-  /**
-  * NTLM Prepare Request Error
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_prepare_req_error DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_prepare_req_error}
-  */
-  readonly ntlmPrepareReqError?: number;
-  /**
-  * NTLM Prepare Request Success
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_prepare_req_success DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_prepare_req_success}
-  */
-  readonly ntlmPrepareReqSuccess?: number;
-  /**
-  * NTLM Protocol Negotiation Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_proto_nego_failure DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_proto_nego_failure}
-  */
-  readonly ntlmProtoNegoFailure?: number;
-  /**
-  * NTLM Protocol Negotiation Success
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_proto_nego_success DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_proto_nego_success}
-  */
-  readonly ntlmProtoNegoSuccess?: number;
-  /**
-  * NTLM Session Setup Failure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_session_setup_failure DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_session_setup_failure}
-  */
-  readonly ntlmSessionSetupFailure?: number;
-  /**
-  * NTLM Session Setup Success
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_session_setup_success DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_session_setup_success}
-  */
-  readonly ntlmSessionSetupSuccess?: number;
-  /**
-  * NTLM Timeout
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#ntlm_timeout_error DataThunderAamAuthenticationServerWindowsInstanceStats#ntlm_timeout_error}
-  */
-  readonly ntlmTimeoutError?: number;
 }
 
 export function dataThunderAamAuthenticationServerWindowsInstanceStatsStatsToTerraform(struct?: DataThunderAamAuthenticationServerWindowsInstanceStatsStatsOutputReference | DataThunderAamAuthenticationServerWindowsInstanceStatsStats): any {
@@ -159,16 +99,6 @@ export function dataThunderAamAuthenticationServerWindowsInstanceStatsStatsToTer
     krb_timeout_error: cdktf.numberToTerraform(struct!.krbTimeoutError),
     krb_validate_kdc_failure: cdktf.numberToTerraform(struct!.krbValidateKdcFailure),
     krb_validate_kdc_success: cdktf.numberToTerraform(struct!.krbValidateKdcSuccess),
-    ntlm_auth_failure: cdktf.numberToTerraform(struct!.ntlmAuthFailure),
-    ntlm_auth_success: cdktf.numberToTerraform(struct!.ntlmAuthSuccess),
-    ntlm_other_error: cdktf.numberToTerraform(struct!.ntlmOtherError),
-    ntlm_prepare_req_error: cdktf.numberToTerraform(struct!.ntlmPrepareReqError),
-    ntlm_prepare_req_success: cdktf.numberToTerraform(struct!.ntlmPrepareReqSuccess),
-    ntlm_proto_nego_failure: cdktf.numberToTerraform(struct!.ntlmProtoNegoFailure),
-    ntlm_proto_nego_success: cdktf.numberToTerraform(struct!.ntlmProtoNegoSuccess),
-    ntlm_session_setup_failure: cdktf.numberToTerraform(struct!.ntlmSessionSetupFailure),
-    ntlm_session_setup_success: cdktf.numberToTerraform(struct!.ntlmSessionSetupSuccess),
-    ntlm_timeout_error: cdktf.numberToTerraform(struct!.ntlmTimeoutError),
   }
 }
 
@@ -233,66 +163,6 @@ export function dataThunderAamAuthenticationServerWindowsInstanceStatsStatsToHcl
       type: "simple",
       storageClassType: "number",
     },
-    ntlm_auth_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_auth_success: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmAuthSuccess),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_other_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmOtherError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_prepare_req_success: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmPrepareReqSuccess),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_nego_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegoFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_proto_nego_success: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmProtoNegoSuccess),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_failure: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupFailure),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_session_setup_success: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmSessionSetupSuccess),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
-    ntlm_timeout_error: {
-      value: cdktf.numberToHclTerraform(struct!.ntlmTimeoutError),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "number",
-    },
   };
 
   // remove undefined attributes
@@ -349,46 +219,6 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStatsStatsOutputRe
       hasAnyValues = true;
       internalValueResult.krbValidateKdcSuccess = this._krbValidateKdcSuccess;
     }
-    if (this._ntlmAuthFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthFailure = this._ntlmAuthFailure;
-    }
-    if (this._ntlmAuthSuccess !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmAuthSuccess = this._ntlmAuthSuccess;
-    }
-    if (this._ntlmOtherError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmOtherError = this._ntlmOtherError;
-    }
-    if (this._ntlmPrepareReqError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqError = this._ntlmPrepareReqError;
-    }
-    if (this._ntlmPrepareReqSuccess !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmPrepareReqSuccess = this._ntlmPrepareReqSuccess;
-    }
-    if (this._ntlmProtoNegoFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegoFailure = this._ntlmProtoNegoFailure;
-    }
-    if (this._ntlmProtoNegoSuccess !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmProtoNegoSuccess = this._ntlmProtoNegoSuccess;
-    }
-    if (this._ntlmSessionSetupFailure !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupFailure = this._ntlmSessionSetupFailure;
-    }
-    if (this._ntlmSessionSetupSuccess !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmSessionSetupSuccess = this._ntlmSessionSetupSuccess;
-    }
-    if (this._ntlmTimeoutError !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.ntlmTimeoutError = this._ntlmTimeoutError;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -404,16 +234,6 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStatsStatsOutputRe
       this._krbTimeoutError = undefined;
       this._krbValidateKdcFailure = undefined;
       this._krbValidateKdcSuccess = undefined;
-      this._ntlmAuthFailure = undefined;
-      this._ntlmAuthSuccess = undefined;
-      this._ntlmOtherError = undefined;
-      this._ntlmPrepareReqError = undefined;
-      this._ntlmPrepareReqSuccess = undefined;
-      this._ntlmProtoNegoFailure = undefined;
-      this._ntlmProtoNegoSuccess = undefined;
-      this._ntlmSessionSetupFailure = undefined;
-      this._ntlmSessionSetupSuccess = undefined;
-      this._ntlmTimeoutError = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
@@ -426,16 +246,6 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStatsStatsOutputRe
       this._krbTimeoutError = value.krbTimeoutError;
       this._krbValidateKdcFailure = value.krbValidateKdcFailure;
       this._krbValidateKdcSuccess = value.krbValidateKdcSuccess;
-      this._ntlmAuthFailure = value.ntlmAuthFailure;
-      this._ntlmAuthSuccess = value.ntlmAuthSuccess;
-      this._ntlmOtherError = value.ntlmOtherError;
-      this._ntlmPrepareReqError = value.ntlmPrepareReqError;
-      this._ntlmPrepareReqSuccess = value.ntlmPrepareReqSuccess;
-      this._ntlmProtoNegoFailure = value.ntlmProtoNegoFailure;
-      this._ntlmProtoNegoSuccess = value.ntlmProtoNegoSuccess;
-      this._ntlmSessionSetupFailure = value.ntlmSessionSetupFailure;
-      this._ntlmSessionSetupSuccess = value.ntlmSessionSetupSuccess;
-      this._ntlmTimeoutError = value.ntlmTimeoutError;
     }
   }
 
@@ -582,170 +392,10 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStatsStatsOutputRe
   public get krbValidateKdcSuccessInput() {
     return this._krbValidateKdcSuccess;
   }
-
-  // ntlm_auth_failure - computed: false, optional: true, required: false
-  private _ntlmAuthFailure?: number; 
-  public get ntlmAuthFailure() {
-    return this.getNumberAttribute('ntlm_auth_failure');
-  }
-  public set ntlmAuthFailure(value: number) {
-    this._ntlmAuthFailure = value;
-  }
-  public resetNtlmAuthFailure() {
-    this._ntlmAuthFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthFailureInput() {
-    return this._ntlmAuthFailure;
-  }
-
-  // ntlm_auth_success - computed: false, optional: true, required: false
-  private _ntlmAuthSuccess?: number; 
-  public get ntlmAuthSuccess() {
-    return this.getNumberAttribute('ntlm_auth_success');
-  }
-  public set ntlmAuthSuccess(value: number) {
-    this._ntlmAuthSuccess = value;
-  }
-  public resetNtlmAuthSuccess() {
-    this._ntlmAuthSuccess = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmAuthSuccessInput() {
-    return this._ntlmAuthSuccess;
-  }
-
-  // ntlm_other_error - computed: false, optional: true, required: false
-  private _ntlmOtherError?: number; 
-  public get ntlmOtherError() {
-    return this.getNumberAttribute('ntlm_other_error');
-  }
-  public set ntlmOtherError(value: number) {
-    this._ntlmOtherError = value;
-  }
-  public resetNtlmOtherError() {
-    this._ntlmOtherError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmOtherErrorInput() {
-    return this._ntlmOtherError;
-  }
-
-  // ntlm_prepare_req_error - computed: false, optional: true, required: false
-  private _ntlmPrepareReqError?: number; 
-  public get ntlmPrepareReqError() {
-    return this.getNumberAttribute('ntlm_prepare_req_error');
-  }
-  public set ntlmPrepareReqError(value: number) {
-    this._ntlmPrepareReqError = value;
-  }
-  public resetNtlmPrepareReqError() {
-    this._ntlmPrepareReqError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqErrorInput() {
-    return this._ntlmPrepareReqError;
-  }
-
-  // ntlm_prepare_req_success - computed: false, optional: true, required: false
-  private _ntlmPrepareReqSuccess?: number; 
-  public get ntlmPrepareReqSuccess() {
-    return this.getNumberAttribute('ntlm_prepare_req_success');
-  }
-  public set ntlmPrepareReqSuccess(value: number) {
-    this._ntlmPrepareReqSuccess = value;
-  }
-  public resetNtlmPrepareReqSuccess() {
-    this._ntlmPrepareReqSuccess = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmPrepareReqSuccessInput() {
-    return this._ntlmPrepareReqSuccess;
-  }
-
-  // ntlm_proto_nego_failure - computed: false, optional: true, required: false
-  private _ntlmProtoNegoFailure?: number; 
-  public get ntlmProtoNegoFailure() {
-    return this.getNumberAttribute('ntlm_proto_nego_failure');
-  }
-  public set ntlmProtoNegoFailure(value: number) {
-    this._ntlmProtoNegoFailure = value;
-  }
-  public resetNtlmProtoNegoFailure() {
-    this._ntlmProtoNegoFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegoFailureInput() {
-    return this._ntlmProtoNegoFailure;
-  }
-
-  // ntlm_proto_nego_success - computed: false, optional: true, required: false
-  private _ntlmProtoNegoSuccess?: number; 
-  public get ntlmProtoNegoSuccess() {
-    return this.getNumberAttribute('ntlm_proto_nego_success');
-  }
-  public set ntlmProtoNegoSuccess(value: number) {
-    this._ntlmProtoNegoSuccess = value;
-  }
-  public resetNtlmProtoNegoSuccess() {
-    this._ntlmProtoNegoSuccess = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmProtoNegoSuccessInput() {
-    return this._ntlmProtoNegoSuccess;
-  }
-
-  // ntlm_session_setup_failure - computed: false, optional: true, required: false
-  private _ntlmSessionSetupFailure?: number; 
-  public get ntlmSessionSetupFailure() {
-    return this.getNumberAttribute('ntlm_session_setup_failure');
-  }
-  public set ntlmSessionSetupFailure(value: number) {
-    this._ntlmSessionSetupFailure = value;
-  }
-  public resetNtlmSessionSetupFailure() {
-    this._ntlmSessionSetupFailure = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupFailureInput() {
-    return this._ntlmSessionSetupFailure;
-  }
-
-  // ntlm_session_setup_success - computed: false, optional: true, required: false
-  private _ntlmSessionSetupSuccess?: number; 
-  public get ntlmSessionSetupSuccess() {
-    return this.getNumberAttribute('ntlm_session_setup_success');
-  }
-  public set ntlmSessionSetupSuccess(value: number) {
-    this._ntlmSessionSetupSuccess = value;
-  }
-  public resetNtlmSessionSetupSuccess() {
-    this._ntlmSessionSetupSuccess = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmSessionSetupSuccessInput() {
-    return this._ntlmSessionSetupSuccess;
-  }
-
-  // ntlm_timeout_error - computed: false, optional: true, required: false
-  private _ntlmTimeoutError?: number; 
-  public get ntlmTimeoutError() {
-    return this.getNumberAttribute('ntlm_timeout_error');
-  }
-  public set ntlmTimeoutError(value: number) {
-    this._ntlmTimeoutError = value;
-  }
-  public resetNtlmTimeoutError() {
-    this._ntlmTimeoutError = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get ntlmTimeoutErrorInput() {
-    return this._ntlmTimeoutError;
-  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats thunder_aam_authentication_server_windows_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats thunder_aam_authentication_server_windows_instance_stats}
 */
 export class DataThunderAamAuthenticationServerWindowsInstanceStats extends cdktf.TerraformDataSource {
 
@@ -761,7 +411,7 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStats extends cdkt
   * Generates CDKTF code for importing a DataThunderAamAuthenticationServerWindowsInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationServerWindowsInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationServerWindowsInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationServerWindowsInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationServerWindowsInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +423,7 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStats extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_server_windows_instance_stats thunder_aam_authentication_server_windows_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_server_windows_instance_stats thunder_aam_authentication_server_windows_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,8 +434,8 @@ export class DataThunderAamAuthenticationServerWindowsInstanceStats extends cdkt
       terraformResourceType: 'thunder_aam_authentication_server_windows_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

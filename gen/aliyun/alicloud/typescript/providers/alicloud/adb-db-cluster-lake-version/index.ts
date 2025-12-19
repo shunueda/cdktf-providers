@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface AdbDbClusterLakeVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#backup_set_id AdbDbClusterLakeVersion#backup_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#backup_set_id AdbDbClusterLakeVersion#backup_set_id}
   */
   readonly backupSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#compute_resource AdbDbClusterLakeVersion#compute_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#compute_resource AdbDbClusterLakeVersion#compute_resource}
   */
   readonly computeResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#db_cluster_description AdbDbClusterLakeVersion#db_cluster_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#db_cluster_description AdbDbClusterLakeVersion#db_cluster_description}
   */
   readonly dbClusterDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#db_cluster_version AdbDbClusterLakeVersion#db_cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#db_cluster_version AdbDbClusterLakeVersion#db_cluster_version}
   */
   readonly dbClusterVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#disk_encryption AdbDbClusterLakeVersion#disk_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#disk_encryption AdbDbClusterLakeVersion#disk_encryption}
   */
   readonly diskEncryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#enable_default_resource_group AdbDbClusterLakeVersion#enable_default_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#enable_default_resource_group AdbDbClusterLakeVersion#enable_default_resource_group}
   */
   readonly enableDefaultResourceGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#enable_ssl AdbDbClusterLakeVersion#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#enable_ssl AdbDbClusterLakeVersion#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#id AdbDbClusterLakeVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#id AdbDbClusterLakeVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#kms_id AdbDbClusterLakeVersion#kms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#kms_id AdbDbClusterLakeVersion#kms_id}
   */
   readonly kmsId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#payment_type AdbDbClusterLakeVersion#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#payment_type AdbDbClusterLakeVersion#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#period AdbDbClusterLakeVersion#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#period AdbDbClusterLakeVersion#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#product_form AdbDbClusterLakeVersion#product_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#product_form AdbDbClusterLakeVersion#product_form}
   */
   readonly productForm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#product_version AdbDbClusterLakeVersion#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#product_version AdbDbClusterLakeVersion#product_version}
   */
   readonly productVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#reserved_node_count AdbDbClusterLakeVersion#reserved_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#reserved_node_count AdbDbClusterLakeVersion#reserved_node_count}
   */
   readonly reservedNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#reserved_node_size AdbDbClusterLakeVersion#reserved_node_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#reserved_node_size AdbDbClusterLakeVersion#reserved_node_size}
   */
   readonly reservedNodeSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#resource_group_id AdbDbClusterLakeVersion#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#resource_group_id AdbDbClusterLakeVersion#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#restore_to_time AdbDbClusterLakeVersion#restore_to_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#restore_to_time AdbDbClusterLakeVersion#restore_to_time}
   */
   readonly restoreToTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#restore_type AdbDbClusterLakeVersion#restore_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#restore_type AdbDbClusterLakeVersion#restore_type}
   */
   readonly restoreType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#secondary_vswitch_id AdbDbClusterLakeVersion#secondary_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#secondary_vswitch_id AdbDbClusterLakeVersion#secondary_vswitch_id}
   */
   readonly secondaryVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#secondary_zone_id AdbDbClusterLakeVersion#secondary_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#secondary_zone_id AdbDbClusterLakeVersion#secondary_zone_id}
   */
   readonly secondaryZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#security_ips AdbDbClusterLakeVersion#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#security_ips AdbDbClusterLakeVersion#security_ips}
   */
   readonly securityIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#source_db_cluster_id AdbDbClusterLakeVersion#source_db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#source_db_cluster_id AdbDbClusterLakeVersion#source_db_cluster_id}
   */
   readonly sourceDbClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#storage_resource AdbDbClusterLakeVersion#storage_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#storage_resource AdbDbClusterLakeVersion#storage_resource}
   */
   readonly storageResource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#vpc_id AdbDbClusterLakeVersion#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#vpc_id AdbDbClusterLakeVersion#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#vswitch_id AdbDbClusterLakeVersion#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#vswitch_id AdbDbClusterLakeVersion#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#zone_id AdbDbClusterLakeVersion#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#zone_id AdbDbClusterLakeVersion#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#timeouts AdbDbClusterLakeVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#timeouts AdbDbClusterLakeVersion#timeouts}
   */
   readonly timeouts?: AdbDbClusterLakeVersionTimeouts;
 }
 export interface AdbDbClusterLakeVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#create AdbDbClusterLakeVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#create AdbDbClusterLakeVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#delete AdbDbClusterLakeVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#delete AdbDbClusterLakeVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#update AdbDbClusterLakeVersion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#update AdbDbClusterLakeVersion#update}
   */
   readonly update?: string;
 }
@@ -283,7 +283,7 @@ export class AdbDbClusterLakeVersionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version alicloud_adb_db_cluster_lake_version}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version alicloud_adb_db_cluster_lake_version}
 */
 export class AdbDbClusterLakeVersion extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class AdbDbClusterLakeVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdbDbClusterLakeVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdbDbClusterLakeVersion to import
-  * @param importFromId The id of the existing AdbDbClusterLakeVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdbDbClusterLakeVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdbDbClusterLakeVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class AdbDbClusterLakeVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/adb_db_cluster_lake_version alicloud_adb_db_cluster_lake_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/adb_db_cluster_lake_version alicloud_adb_db_cluster_lake_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class AdbDbClusterLakeVersion extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_adb_db_cluster_lake_version',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

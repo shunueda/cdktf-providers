@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosSwitchStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#id DataThunderDdosSwitchStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#id DataThunderDdosSwitchStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderDdosSwitchStatsConfig extends cdktf.TerraformMetaArg
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#stats DataThunderDdosSwitchStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#stats DataThunderDdosSwitchStats#stats}
   */
   readonly stats?: DataThunderDdosSwitchStatsStats;
 }
@@ -25,127 +25,127 @@ export interface DataThunderDdosSwitchStatsStats {
   /**
   * Dst Blackhole Injected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#dst_blackhole_inject DataThunderDdosSwitchStats#dst_blackhole_inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#dst_blackhole_inject DataThunderDdosSwitchStats#dst_blackhole_inject}
   */
   readonly dstBlackholeInject?: number;
   /**
   * Dst Blackhole Withdrawn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#dst_blackhole_withdraw DataThunderDdosSwitchStats#dst_blackhole_withdraw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#dst_blackhole_withdraw DataThunderDdosSwitchStats#dst_blackhole_withdraw}
   */
   readonly dstBlackholeWithdraw?: number;
   /**
   * Dst IP Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#dst_ip_bypass DataThunderDdosSwitchStats#dst_ip_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#dst_ip_bypass DataThunderDdosSwitchStats#dst_ip_bypass}
   */
   readonly dstIpBypass?: number;
   /**
   * Outbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#egress_bytes DataThunderDdosSwitchStats#egress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#egress_bytes DataThunderDdosSwitchStats#egress_bytes}
   */
   readonly egressBytes?: number;
   /**
   * Outbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#egress_packets DataThunderDdosSwitchStats#egress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#egress_packets DataThunderDdosSwitchStats#egress_packets}
   */
   readonly egressPackets?: number;
   /**
   * Stateless Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#in_stateless_pkt DataThunderDdosSwitchStats#in_stateless_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#in_stateless_pkt DataThunderDdosSwitchStats#in_stateless_pkt}
   */
   readonly inStatelessPkt?: number;
   /**
   * Inbound Bytes Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ingress_bytes DataThunderDdosSwitchStats#ingress_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ingress_bytes DataThunderDdosSwitchStats#ingress_bytes}
   */
   readonly ingressBytes?: number;
   /**
   * Inbound Packets Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ingress_packets DataThunderDdosSwitchStats#ingress_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ingress_packets DataThunderDdosSwitchStats#ingress_packets}
   */
   readonly ingressPackets?: number;
   /**
   * IPv4 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ip_rcvd DataThunderDdosSwitchStats#ip_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ip_rcvd DataThunderDdosSwitchStats#ip_rcvd}
   */
   readonly ipRcvd?: number;
   /**
   * IPv4 Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ip_sent DataThunderDdosSwitchStats#ip_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ip_sent DataThunderDdosSwitchStats#ip_sent}
   */
   readonly ipSent?: number;
   /**
   * IPv6 Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ipv6_rcvd DataThunderDdosSwitchStats#ipv6_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ipv6_rcvd DataThunderDdosSwitchStats#ipv6_rcvd}
   */
   readonly ipv6Rcvd?: number;
   /**
   * IPv6 Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#ipv6_sent DataThunderDdosSwitchStats#ipv6_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#ipv6_sent DataThunderDdosSwitchStats#ipv6_sent}
   */
   readonly ipv6Sent?: number;
   /**
   * Jumbo Fragment Non Data Plane Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#jumbo_frag_drop_before_slb DataThunderDdosSwitchStats#jumbo_frag_drop_before_slb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#jumbo_frag_drop_before_slb DataThunderDdosSwitchStats#jumbo_frag_drop_before_slb}
   */
   readonly jumboFragDropBeforeSlb?: number;
   /**
   * Jumbo Fragment Filter Miss Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#jumbo_frag_drop_by_filter DataThunderDdosSwitchStats#jumbo_frag_drop_by_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#jumbo_frag_drop_by_filter DataThunderDdosSwitchStats#jumbo_frag_drop_by_filter}
   */
   readonly jumboFragDropByFilter?: number;
   /**
   * Jumbo Outgoing MTU Exceed Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#jumbo_outgoing_mtu_exceed_drop DataThunderDdosSwitchStats#jumbo_outgoing_mtu_exceed_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#jumbo_outgoing_mtu_exceed_drop DataThunderDdosSwitchStats#jumbo_outgoing_mtu_exceed_drop}
   */
   readonly jumboOutgoingMtuExceedDrop?: number;
   /**
   * MPLS Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#mpls_drop DataThunderDdosSwitchStats#mpls_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#mpls_drop DataThunderDdosSwitchStats#mpls_drop}
   */
   readonly mplsDrop?: number;
   /**
   * MPLS Malformed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#mpls_malformed DataThunderDdosSwitchStats#mpls_malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#mpls_malformed DataThunderDdosSwitchStats#mpls_malformed}
   */
   readonly mplsMalformed?: number;
   /**
   * MPLS Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#mpls_rcvd DataThunderDdosSwitchStats#mpls_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#mpls_rcvd DataThunderDdosSwitchStats#mpls_rcvd}
   */
   readonly mplsRcvd?: number;
   /**
   * IPv4/v6 Out No Route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#noroute DataThunderDdosSwitchStats#noroute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#noroute DataThunderDdosSwitchStats#noroute}
   */
   readonly noroute?: number;
   /**
   * Not For DDOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#pkt_not_for_ddos DataThunderDdosSwitchStats#pkt_not_for_ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#pkt_not_for_ddos DataThunderDdosSwitchStats#pkt_not_for_ddos}
   */
   readonly pktNotForDdos?: number;
   /**
   * Src IP Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#src_ip_bypass DataThunderDdosSwitchStats#src_ip_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#src_ip_bypass DataThunderDdosSwitchStats#src_ip_bypass}
   */
   readonly srcIpBypass?: number;
 }
@@ -809,7 +809,7 @@ export class DataThunderDdosSwitchStatsStatsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats thunder_ddos_switch_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats thunder_ddos_switch_stats}
 */
 export class DataThunderDdosSwitchStats extends cdktf.TerraformDataSource {
 
@@ -825,7 +825,7 @@ export class DataThunderDdosSwitchStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderDdosSwitchStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosSwitchStats to import
-  * @param importFromId The id of the existing DataThunderDdosSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosSwitchStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -837,7 +837,7 @@ export class DataThunderDdosSwitchStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_switch_stats thunder_ddos_switch_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_switch_stats thunder_ddos_switch_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -848,8 +848,8 @@ export class DataThunderDdosSwitchStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_ddos_switch_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

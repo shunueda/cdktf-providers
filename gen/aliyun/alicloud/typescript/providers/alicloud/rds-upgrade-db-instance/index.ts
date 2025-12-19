@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,246 +8,246 @@ import * as cdktf from 'cdktf';
 
 export interface RdsUpgradeDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#acl RdsUpgradeDbInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#acl RdsUpgradeDbInstance#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#auto_upgrade_minor_version RdsUpgradeDbInstance#auto_upgrade_minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#auto_upgrade_minor_version RdsUpgradeDbInstance#auto_upgrade_minor_version}
   */
   readonly autoUpgradeMinorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#ca_type RdsUpgradeDbInstance#ca_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#ca_type RdsUpgradeDbInstance#ca_type}
   */
   readonly caType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#certificate RdsUpgradeDbInstance#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#certificate RdsUpgradeDbInstance#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#client_ca_cert RdsUpgradeDbInstance#client_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#client_ca_cert RdsUpgradeDbInstance#client_ca_cert}
   */
   readonly clientCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#client_ca_enabled RdsUpgradeDbInstance#client_ca_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#client_ca_enabled RdsUpgradeDbInstance#client_ca_enabled}
   */
   readonly clientCaEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#client_cert_revocation_list RdsUpgradeDbInstance#client_cert_revocation_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#client_cert_revocation_list RdsUpgradeDbInstance#client_cert_revocation_list}
   */
   readonly clientCertRevocationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#client_crl_enabled RdsUpgradeDbInstance#client_crl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#client_crl_enabled RdsUpgradeDbInstance#client_crl_enabled}
   */
   readonly clientCrlEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#collect_stat_mode RdsUpgradeDbInstance#collect_stat_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#collect_stat_mode RdsUpgradeDbInstance#collect_stat_mode}
   */
   readonly collectStatMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#connection_string_prefix RdsUpgradeDbInstance#connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#connection_string_prefix RdsUpgradeDbInstance#connection_string_prefix}
   */
   readonly connectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#db_instance_class RdsUpgradeDbInstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#db_instance_class RdsUpgradeDbInstance#db_instance_class}
   */
   readonly dbInstanceClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#db_instance_description RdsUpgradeDbInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#db_instance_description RdsUpgradeDbInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#db_instance_storage RdsUpgradeDbInstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#db_instance_storage RdsUpgradeDbInstance#db_instance_storage}
   */
   readonly dbInstanceStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#db_instance_storage_type RdsUpgradeDbInstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#db_instance_storage_type RdsUpgradeDbInstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#db_name RdsUpgradeDbInstance#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#db_name RdsUpgradeDbInstance#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#dedicated_host_group_id RdsUpgradeDbInstance#dedicated_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#dedicated_host_group_id RdsUpgradeDbInstance#dedicated_host_group_id}
   */
   readonly dedicatedHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#deletion_protection RdsUpgradeDbInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#deletion_protection RdsUpgradeDbInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#direction RdsUpgradeDbInstance#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#direction RdsUpgradeDbInstance#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#effective_time RdsUpgradeDbInstance#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#effective_time RdsUpgradeDbInstance#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#encryption_key RdsUpgradeDbInstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#encryption_key RdsUpgradeDbInstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#engine RdsUpgradeDbInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#engine RdsUpgradeDbInstance#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#engine_version RdsUpgradeDbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#engine_version RdsUpgradeDbInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#force_restart RdsUpgradeDbInstance#force_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#force_restart RdsUpgradeDbInstance#force_restart}
   */
   readonly forceRestart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#ha_mode RdsUpgradeDbInstance#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#ha_mode RdsUpgradeDbInstance#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#id RdsUpgradeDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#id RdsUpgradeDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#instance_network_type RdsUpgradeDbInstance#instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#instance_network_type RdsUpgradeDbInstance#instance_network_type}
   */
   readonly instanceNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#maintain_time RdsUpgradeDbInstance#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#maintain_time RdsUpgradeDbInstance#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#password RdsUpgradeDbInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#password RdsUpgradeDbInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#payment_type RdsUpgradeDbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#payment_type RdsUpgradeDbInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#port RdsUpgradeDbInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#port RdsUpgradeDbInstance#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#private_ip_address RdsUpgradeDbInstance#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#private_ip_address RdsUpgradeDbInstance#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#private_key RdsUpgradeDbInstance#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#private_key RdsUpgradeDbInstance#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#released_keep_policy RdsUpgradeDbInstance#released_keep_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#released_keep_policy RdsUpgradeDbInstance#released_keep_policy}
   */
   readonly releasedKeepPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#replication_acl RdsUpgradeDbInstance#replication_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#replication_acl RdsUpgradeDbInstance#replication_acl}
   */
   readonly replicationAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#resource_group_id RdsUpgradeDbInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#resource_group_id RdsUpgradeDbInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#role_arn RdsUpgradeDbInstance#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#role_arn RdsUpgradeDbInstance#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#security_ips RdsUpgradeDbInstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#security_ips RdsUpgradeDbInstance#security_ips}
   */
   readonly securityIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#server_cert RdsUpgradeDbInstance#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#server_cert RdsUpgradeDbInstance#server_cert}
   */
   readonly serverCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#server_key RdsUpgradeDbInstance#server_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#server_key RdsUpgradeDbInstance#server_key}
   */
   readonly serverKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#source_biz RdsUpgradeDbInstance#source_biz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#source_biz RdsUpgradeDbInstance#source_biz}
   */
   readonly sourceBiz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#source_db_instance_id RdsUpgradeDbInstance#source_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#source_db_instance_id RdsUpgradeDbInstance#source_db_instance_id}
   */
   readonly sourceDbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#ssl_enabled RdsUpgradeDbInstance#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#ssl_enabled RdsUpgradeDbInstance#ssl_enabled}
   */
   readonly sslEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#switch_over RdsUpgradeDbInstance#switch_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#switch_over RdsUpgradeDbInstance#switch_over}
   */
   readonly switchOver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#switch_time RdsUpgradeDbInstance#switch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#switch_time RdsUpgradeDbInstance#switch_time}
   */
   readonly switchTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#switch_time_mode RdsUpgradeDbInstance#switch_time_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#switch_time_mode RdsUpgradeDbInstance#switch_time_mode}
   */
   readonly switchTimeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#sync_mode RdsUpgradeDbInstance#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#sync_mode RdsUpgradeDbInstance#sync_mode}
   */
   readonly syncMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#target_major_version RdsUpgradeDbInstance#target_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#target_major_version RdsUpgradeDbInstance#target_major_version}
   */
   readonly targetMajorVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#tcp_connection_type RdsUpgradeDbInstance#tcp_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#tcp_connection_type RdsUpgradeDbInstance#tcp_connection_type}
   */
   readonly tcpConnectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#tde_status RdsUpgradeDbInstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#tde_status RdsUpgradeDbInstance#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#vpc_id RdsUpgradeDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#vpc_id RdsUpgradeDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#vswitch_id RdsUpgradeDbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#vswitch_id RdsUpgradeDbInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#zone_id RdsUpgradeDbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#zone_id RdsUpgradeDbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#zone_id_slave_1 RdsUpgradeDbInstance#zone_id_slave_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#zone_id_slave_1 RdsUpgradeDbInstance#zone_id_slave_1}
   */
   readonly zoneIdSlave1?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#parameters RdsUpgradeDbInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#parameters RdsUpgradeDbInstance#parameters}
   */
   readonly parameters?: RdsUpgradeDbInstanceParameters[] | cdktf.IResolvable;
   /**
   * pg_hba_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#pg_hba_conf RdsUpgradeDbInstance#pg_hba_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#pg_hba_conf RdsUpgradeDbInstance#pg_hba_conf}
   */
   readonly pgHbaConf?: RdsUpgradeDbInstancePgHbaConf[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#timeouts RdsUpgradeDbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#timeouts RdsUpgradeDbInstance#timeouts}
   */
   readonly timeouts?: RdsUpgradeDbInstanceTimeouts;
 }
 export interface RdsUpgradeDbInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#name RdsUpgradeDbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#name RdsUpgradeDbInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#value RdsUpgradeDbInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#value RdsUpgradeDbInstance#value}
   */
   readonly value: string;
 }
@@ -386,35 +386,35 @@ export class RdsUpgradeDbInstanceParametersList extends cdktf.ComplexList {
 }
 export interface RdsUpgradeDbInstancePgHbaConf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#address RdsUpgradeDbInstance#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#address RdsUpgradeDbInstance#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#database RdsUpgradeDbInstance#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#database RdsUpgradeDbInstance#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#mask RdsUpgradeDbInstance#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#mask RdsUpgradeDbInstance#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#method RdsUpgradeDbInstance#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#method RdsUpgradeDbInstance#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#option RdsUpgradeDbInstance#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#option RdsUpgradeDbInstance#option}
   */
   readonly option?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#priority_id RdsUpgradeDbInstance#priority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#priority_id RdsUpgradeDbInstance#priority_id}
   */
   readonly priorityId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#type RdsUpgradeDbInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#type RdsUpgradeDbInstance#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#user RdsUpgradeDbInstance#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#user RdsUpgradeDbInstance#user}
   */
   readonly user: string;
 }
@@ -715,15 +715,15 @@ export class RdsUpgradeDbInstancePgHbaConfList extends cdktf.ComplexList {
 }
 export interface RdsUpgradeDbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#create RdsUpgradeDbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#create RdsUpgradeDbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#delete RdsUpgradeDbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#delete RdsUpgradeDbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#update RdsUpgradeDbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#update RdsUpgradeDbInstance#update}
   */
   readonly update?: string;
 }
@@ -875,7 +875,7 @@ export class RdsUpgradeDbInstanceTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance alicloud_rds_upgrade_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance alicloud_rds_upgrade_db_instance}
 */
 export class RdsUpgradeDbInstance extends cdktf.TerraformResource {
 
@@ -891,7 +891,7 @@ export class RdsUpgradeDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsUpgradeDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsUpgradeDbInstance to import
-  * @param importFromId The id of the existing RdsUpgradeDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsUpgradeDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsUpgradeDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -903,7 +903,7 @@ export class RdsUpgradeDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/rds_upgrade_db_instance alicloud_rds_upgrade_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/rds_upgrade_db_instance alicloud_rds_upgrade_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -914,8 +914,8 @@ export class RdsUpgradeDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_upgrade_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStats
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for Forward REQ data failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#forward_req_data_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#forward_req_data_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#forward_req_data_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#forward_req_data_fail}
   */
   readonly forwardReqDataFail?: number;
   /**
   * Enable automatic packet-capture for Forward request failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#forward_req_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#forward_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#forward_req_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#forward_req_fail}
   */
   readonly forwardReqFail?: number;
   /**
   * Enable automatic packet-capture for Get all headers fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#get_all_headers_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#get_all_headers_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#get_all_headers_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#get_all_headers_fail}
   */
   readonly fetchAllHeadersFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,121 +41,121 @@ export interface VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStats
   /**
   * Enable automatic packet-capture for Ins response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#insert_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#insert_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#insert_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#insert_resonse_line_fail}
   */
   readonly insertResonseLineFail?: number;
   /**
   * Enable automatic packet-capture for Line extend fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_extend_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_extend_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_extend_fail}
   */
   readonly lineExtendFail?: number;
   /**
   * Enable automatic packet-capture for Table extend fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_table_extend_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_table_extend_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_table_extend_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_table_extend_fail}
   */
   readonly lineTableExtendFail?: number;
   /**
   * Enable automatic packet-capture for Line too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_too_long VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#line_too_long VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#line_too_long}
   */
   readonly lineTooLong?: number;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for No proxy error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#no_proxy VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#no_proxy VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#no_proxy}
   */
   readonly noProxy?: number;
   /**
   * Enable automatic packet-capture for Parse request failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_req_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_req_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_req_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_req_fail}
   */
   readonly parseReqFail?: number;
   /**
   * Enable automatic packet-capture for Parse request line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_request_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_request_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_request_line_fail}
   */
   readonly parseRequestLineFail?: number;
   /**
   * Enable automatic packet-capture for Parse response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#parse_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#parse_resonse_line_fail}
   */
   readonly parseResonseLineFail?: number;
   /**
   * Enable automatic packet-capture for Read request line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#read_request_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#read_request_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#read_request_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#read_request_line_fail}
   */
   readonly readRequestLineFail?: number;
   /**
   * Enable automatic packet-capture for Recv server unknown-code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#recv_server_unknow_reply_code VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#recv_server_unknow_reply_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#recv_server_unknow_reply_code VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#recv_server_unknow_reply_code}
   */
   readonly recvServerUnknowReplyCode?: number;
   /**
   * Enable automatic packet-capture for Del response line fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#remove_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#remove_resonse_line_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#remove_resonse_line_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#remove_resonse_line_fail}
   */
   readonly removeResonseLineFail?: number;
   /**
   * Enable automatic packet-capture for Sent client serv-not-rdy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#send_client_service_not_ready VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#send_client_service_not_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#send_client_service_not_ready VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#send_client_service_not_ready}
   */
   readonly sendClientServiceNotReady?: number;
   /**
   * Enable automatic packet-capture for Server selection failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#server_select_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#server_select_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#server_select_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#server_select_fail}
   */
   readonly serverSelectFail?: number;
   /**
   * Enable automatic packet-capture for Server side STARTTLS fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#server_starttls_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#server_starttls_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#server_starttls_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#server_starttls_fail}
   */
   readonly serverStarttlsFail?: number;
   /**
+  * Smtp_vport_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#smtp_vport_tmpl_name VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#smtp_vport_tmpl_name}
+  */
+  readonly smtpVportTmplName: string;
+  /**
   * Enable automatic packet-capture for Source NAT failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#snat_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#snat_fail VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Too many headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#too_many_headers VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#too_many_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#too_many_headers VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#too_many_headers}
   */
   readonly tooManyHeaders?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_smtp_vport_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -214,7 +214,6 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
     this._lineExtendFail = config.lineExtendFail;
     this._lineTableExtendFail = config.lineTableExtendFail;
     this._lineTooLong = config.lineTooLong;
-    this._name = config.name;
     this._noProxy = config.noProxy;
     this._parseReqFail = config.parseReqFail;
     this._parseRequestLineFail = config.parseRequestLineFail;
@@ -225,6 +224,7 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
     this._sendClientServiceNotReady = config.sendClientServiceNotReady;
     this._serverSelectFail = config.serverSelectFail;
     this._serverStarttlsFail = config.serverStarttlsFail;
+    this._smtpVportTmplName = config.smtpVportTmplName;
     this._snatFail = config.snatFail;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._tooManyHeaders = config.tooManyHeaders;
@@ -377,19 +377,6 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
   // Temporarily expose input value. Use with caution.
   public get lineTooLongInput() {
     return this._lineTooLong;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // no_proxy - computed: false, optional: true, required: false
@@ -552,6 +539,19 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
     return this._serverStarttlsFail;
   }
 
+  // smtp_vport_tmpl_name - computed: false, optional: false, required: true
+  private _smtpVportTmplName?: string; 
+  public get smtpVportTmplName() {
+    return this.getStringAttribute('smtp_vport_tmpl_name');
+  }
+  public set smtpVportTmplName(value: string) {
+    this._smtpVportTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get smtpVportTmplNameInput() {
+    return this._smtpVportTmplName;
+  }
+
   // snat_fail - computed: false, optional: true, required: false
   private _snatFail?: number; 
   public get snatFail() {
@@ -631,7 +631,6 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
       line_extend_fail: cdktf.numberToTerraform(this._lineExtendFail),
       line_table_extend_fail: cdktf.numberToTerraform(this._lineTableExtendFail),
       line_too_long: cdktf.numberToTerraform(this._lineTooLong),
-      name: cdktf.stringToTerraform(this._name),
       no_proxy: cdktf.numberToTerraform(this._noProxy),
       parse_req_fail: cdktf.numberToTerraform(this._parseReqFail),
       parse_request_line_fail: cdktf.numberToTerraform(this._parseRequestLineFail),
@@ -642,6 +641,7 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
       send_client_service_not_ready: cdktf.numberToTerraform(this._sendClientServiceNotReady),
       server_select_fail: cdktf.numberToTerraform(this._serverSelectFail),
       server_starttls_fail: cdktf.numberToTerraform(this._serverStarttlsFail),
+      smtp_vport_tmpl_name: cdktf.stringToTerraform(this._smtpVportTmplName),
       snat_fail: cdktf.numberToTerraform(this._snatFail),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       too_many_headers: cdktf.numberToTerraform(this._tooManyHeaders),
@@ -705,12 +705,6 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       no_proxy: {
         value: cdktf.numberToHclTerraform(this._noProxy),
         isBlock: false,
@@ -770,6 +764,12 @@ export class VisibilityPacketCaptureObjectTemplatesSmtpVportTmplTriggerStatsRate
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      smtp_vport_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._smtpVportTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       snat_fail: {
         value: cdktf.numberToHclTerraform(this._snatFail),

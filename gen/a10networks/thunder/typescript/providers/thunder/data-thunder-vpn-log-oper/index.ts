@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVpnLogOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#id DataThunderVpnLogOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#id DataThunderVpnLogOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderVpnLogOperConfig extends cdktf.TerraformMetaArgument
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#oper DataThunderVpnLogOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#oper DataThunderVpnLogOper#oper}
   */
   readonly oper?: DataThunderVpnLogOperOper;
 }
 export interface DataThunderVpnLogOperOperVpnLogListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#vpn_log_data DataThunderVpnLogOper#vpn_log_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#vpn_log_data DataThunderVpnLogOper#vpn_log_data}
   */
   readonly vpnLogData?: string;
 }
@@ -139,29 +139,29 @@ export class DataThunderVpnLogOperOperVpnLogListStructList extends cdktf.Complex
 }
 export interface DataThunderVpnLogOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#follow DataThunderVpnLogOper#follow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#follow DataThunderVpnLogOper#follow}
   */
   readonly follow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#from_start DataThunderVpnLogOper#from_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#from_start DataThunderVpnLogOper#from_start}
   */
   readonly fromStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#num_lines DataThunderVpnLogOper#num_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#num_lines DataThunderVpnLogOper#num_lines}
   */
   readonly numLines?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#vpn_log_offset DataThunderVpnLogOper#vpn_log_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#vpn_log_offset DataThunderVpnLogOper#vpn_log_offset}
   */
   readonly vpnLogOffset?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#vpn_log_over DataThunderVpnLogOper#vpn_log_over}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#vpn_log_over DataThunderVpnLogOper#vpn_log_over}
   */
   readonly vpnLogOver?: number;
   /**
   * vpn_log_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#vpn_log_list DataThunderVpnLogOper#vpn_log_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#vpn_log_list DataThunderVpnLogOper#vpn_log_list}
   */
   readonly vpnLogList?: DataThunderVpnLogOperOperVpnLogListStruct[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderVpnLogOperOperOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper thunder_vpn_log_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper thunder_vpn_log_oper}
 */
 export class DataThunderVpnLogOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderVpnLogOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderVpnLogOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVpnLogOper to import
-  * @param importFromId The id of the existing DataThunderVpnLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVpnLogOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVpnLogOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderVpnLogOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vpn_log_oper thunder_vpn_log_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vpn_log_oper thunder_vpn_log_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderVpnLogOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_vpn_log_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

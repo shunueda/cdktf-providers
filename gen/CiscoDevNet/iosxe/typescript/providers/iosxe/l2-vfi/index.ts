@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface L2VfiConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#device L2Vfi#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#device L2Vfi#device}
   */
   readonly device?: string;
   /**
   * 
   *   - Choices: `autodiscovery`, `manual`, `point-to-point`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#mode L2Vfi#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#mode L2Vfi#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#name L2Vfi#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#name L2Vfi#name}
   */
   readonly name: string;
   /**
   * VFI neighbor configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#neighbors L2Vfi#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#neighbors L2Vfi#neighbors}
   */
   readonly neighbors?: L2VfiNeighbors[] | cdktf.IResolvable;
   /**
   * VPN id
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#vpn_id L2Vfi#vpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#vpn_id L2Vfi#vpn_id}
   */
   readonly vpnId?: number;
 }
@@ -43,11 +43,11 @@ export interface L2VfiNeighbors {
   * Connection encapsulation type
   *   - Choices: `l2tpv3`, `mpls`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#encapsulation L2Vfi#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#encapsulation L2Vfi#encapsulation}
   */
   readonly encapsulation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#ip_address L2Vfi#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#ip_address L2Vfi#ip_address}
   */
   readonly ipAddress: string;
 }
@@ -189,7 +189,7 @@ export class L2VfiNeighborsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi iosxe_l2_vfi}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi iosxe_l2_vfi}
 */
 export class L2Vfi extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class L2Vfi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a L2Vfi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the L2Vfi to import
-  * @param importFromId The id of the existing L2Vfi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing L2Vfi that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the L2Vfi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class L2Vfi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.5/docs/resources/l2_vfi iosxe_l2_vfi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.14.6/docs/resources/l2_vfi iosxe_l2_vfi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class L2Vfi extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_l2_vfi',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.14.5',
-        providerVersionConstraint: '0.14.5'
+        providerVersion: '0.14.6',
+        providerVersionConstraint: '0.14.6'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

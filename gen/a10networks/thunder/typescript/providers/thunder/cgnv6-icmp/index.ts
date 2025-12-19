@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6IcmpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp#id Cgnv6Icmp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp#id Cgnv6Icmp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface Cgnv6IcmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp#uuid Cgnv6Icmp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp#uuid Cgnv6Icmp#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp#sampling_enable Cgnv6Icmp#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp#sampling_enable Cgnv6Icmp#sampling_enable}
   */
   readonly samplingEnable?: Cgnv6IcmpSamplingEnable[] | cdktf.IResolvable;
 }
@@ -31,7 +31,7 @@ export interface Cgnv6IcmpSamplingEnable {
   /**
   * 'all': all; 'icmp-unknown-type': ICMP Unknown Type; 'icmp-no-port-info': ICMP Port Info Not Included; 'icmp-no-session-drop': ICMP No Matching Session Drop; 'icmpv6-unknown-type': ICMPv6 Unknown Type; 'icmpv6-no-port-info': ICMPv6 Port Info Not Included; 'icmpv6-no-session-drop': ICMPv6 No Matching Session Drop; 'icmp-to-icmp': ICMP to ICMP Conversion; 'icmp-to-icmpv6': ICMP to ICMPv6 Conversion; 'icmpv6-to-icmp': ICMPv6 to ICMP Conversion; 'icmpv6-to-icmpv6': ICMPv6 to ICMPv6 Conversion; 'icmp-bad-type': Bad Embedded ICMP Type; 'icmpv6-bad-type': Bad Embedded ICMPv6 Type; '64-known-drop': NAT64 Forward Known ICMPv6 Drop; '64-unknown-drop': NAT64 Forward Unknown ICMPv6 Drop; '64-midpoint-hop': NAT64 Forward Unknown Source Drop; '46-known-drop': NAT64 Reverse Known ICMP Drop; '46-unknown-drop': NAT64 Reverse Known ICMPv6 Drop; '46-no-prefix-for-ipv4': NAT64 Reverse No Prefix Match for IPv4; '46-bad-encap-ip-header-len': 4to6 Bad Encapsulated IP Header Length; 'icmp-to-icmp-err': ICMP to ICMP Conversion Error; 'icmp-to-icmpv6-err': ICMP to ICMPv6 Conversion Error; 'icmpv6-to-icmp-err': ICMPv6 to ICMP Conversion Error; 'icmpv6-to-icmpv6-err': ICMPv6 to ICMPv6 Conversion Error; 'encap-cross-cpu-no-match': ICMP Embedded Cross CPU No Matching Session; 'encap-cross-cpu-preprocess-err': ICMP Embedded Cross CPU Preprocess Error; 'icmp-to-icmp-unknown-l4': ICMP Embedded Unknown L4 Protocol; 'icmp-to-icmpv6-unknown-l4': ICMP to ICMPv6 Embedded Unknown L4 Protocol; 'icmpv6-to-icmp-unknown-l4': ICMPv6 to ICMP Embedded Unknown L4 Protocol; 'icmpv6-to-icmpv6-unknown-l4': ICMPv6 to ICMPv6 Embedded Unknown L4 Protocol; 'static-nat': ICMP Static NAT; 'echo-to-pool-reply': Ping to Pool Reply; 'echo-to-pool-drop': Ping to Pool Drop; 'error-to-pool-drop': Error to Pool Drop; 'echo-to-pool-reply-v6': Ping6 to Pool Reply; 'echo-to-pool-drop-v6': Ping6 to Pool Drop; 'error-to-pool-drop-v6': Error to IPv6 Pool Drop; 'error-ip-mismatch': ICMP IP address mismatch;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp#counters1 Cgnv6Icmp#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp#counters1 Cgnv6Icmp#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class Cgnv6IcmpSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp thunder_cgnv6_icmp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp thunder_cgnv6_icmp}
 */
 export class Cgnv6Icmp extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class Cgnv6Icmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6Icmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6Icmp to import
-  * @param importFromId The id of the existing Cgnv6Icmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6Icmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6Icmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class Cgnv6Icmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_icmp thunder_cgnv6_icmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_icmp thunder_cgnv6_icmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class Cgnv6Icmp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_icmp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

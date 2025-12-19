@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderNetflowMonitorStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#id DataThunderNetflowMonitorStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#id DataThunderNetflowMonitorStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderNetflowMonitorStatsConfig extends cdktf.TerraformMet
   /**
   * Name of netflow monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#name DataThunderNetflowMonitorStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#name DataThunderNetflowMonitorStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#stats DataThunderNetflowMonitorStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#stats DataThunderNetflowMonitorStats#stats}
   */
   readonly stats?: DataThunderNetflowMonitorStatsStats;
 }
@@ -31,767 +31,767 @@ export interface DataThunderNetflowMonitorStatsStats {
   /**
   * Sent Bytes Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#bytes_sent DataThunderNetflowMonitorStats#bytes_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#bytes_sent DataThunderNetflowMonitorStats#bytes_sent}
   */
   readonly bytesSent?: number;
   /**
   * Custom FW4 Deny/Reset Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw4_records_sent DataThunderNetflowMonitorStats#custom_deny_reset_event_fw4_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw4_records_sent DataThunderNetflowMonitorStats#custom_deny_reset_event_fw4_records_sent}
   */
   readonly customDenyResetEventFw4RecordsSent?: number;
   /**
   * Custom FW4 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw4_records_sent_failure DataThunderNetflowMonitorStats#custom_deny_reset_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw4_records_sent_failure DataThunderNetflowMonitorStats#custom_deny_reset_event_fw4_records_sent_failure}
   */
   readonly customDenyResetEventFw4RecordsSentFailure?: number;
   /**
   * Custom FW6 Deny/Reset Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw6_records_sent DataThunderNetflowMonitorStats#custom_deny_reset_event_fw6_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw6_records_sent DataThunderNetflowMonitorStats#custom_deny_reset_event_fw6_records_sent}
   */
   readonly customDenyResetEventFw6RecordsSent?: number;
   /**
   * Custom FW6 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw6_records_sent_failure DataThunderNetflowMonitorStats#custom_deny_reset_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_deny_reset_event_fw6_records_sent_failure DataThunderNetflowMonitorStats#custom_deny_reset_event_fw6_records_sent_failure}
   */
   readonly customDenyResetEventFw6RecordsSentFailure?: number;
   /**
   * Custom FW iDDoS Entry Created Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_created_records_sent DataThunderNetflowMonitorStats#custom_fw_iddos_entry_created_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_created_records_sent DataThunderNetflowMonitorStats#custom_fw_iddos_entry_created_records_sent}
   */
   readonly customFwIddosEntryCreatedRecordsSent?: number;
   /**
   * Custom FW iDDoS Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_iddos_entry_created_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_iddos_entry_created_records_sent_failure}
   */
   readonly customFwIddosEntryCreatedRecordsSentFailure?: number;
   /**
   * Custom FW iDDoS Entry Deleted Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_fw_iddos_entry_deleted_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_fw_iddos_entry_deleted_records_sent}
   */
   readonly customFwIddosEntryDeletedRecordsSent?: number;
   /**
   * Custom FW iDDoS Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_iddos_entry_deleted_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_iddos_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_iddos_entry_deleted_records_sent_failure}
   */
   readonly customFwIddosEntryDeletedRecordsSentFailure?: number;
   /**
   * Custom FW Session Limit Exceeded Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_sesn_limit_exceeded_records_sent DataThunderNetflowMonitorStats#custom_fw_sesn_limit_exceeded_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_sesn_limit_exceeded_records_sent DataThunderNetflowMonitorStats#custom_fw_sesn_limit_exceeded_records_sent}
   */
   readonly customFwSesnLimitExceededRecordsSent?: number;
   /**
   * Custom FW Session Limit Exceeded Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_fw_sesn_limit_exceeded_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_sesn_limit_exceeded_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_fw_sesn_limit_exceeded_records_sent_failure DataThunderNetflowMonitorStats#custom_fw_sesn_limit_exceeded_records_sent_failure}
   */
   readonly customFwSesnLimitExceededRecordsSentFailure?: number;
   /**
   * Custom GTP C Tunnel Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_c_tunnel_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_c_tunnel_event_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_c_tunnel_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_c_tunnel_event_records_sent}
   */
   readonly customGtpCTunnelEventRecordsSent?: number;
   /**
   * Custom GTP C Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_c_tunnel_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_c_tunnel_event_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_c_tunnel_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_c_tunnel_event_records_sent_failure}
   */
   readonly customGtpCTunnelEventRecordsSentFailure?: number;
   /**
   * Custom GTP Deny Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_deny_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_deny_event_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_deny_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_deny_event_records_sent}
   */
   readonly customGtpDenyEventRecordsSent?: number;
   /**
   * Custom GTP Deny Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_deny_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_deny_event_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_deny_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_deny_event_records_sent_failure}
   */
   readonly customGtpDenyEventRecordsSentFailure?: number;
   /**
   * Custom GTP Info Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_info_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_info_event_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_info_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_info_event_records_sent}
   */
   readonly customGtpInfoEventRecordsSent?: number;
   /**
   * Custom GTP Info Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_info_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_info_event_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_info_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_info_event_records_sent_failure}
   */
   readonly customGtpInfoEventRecordsSentFailure?: number;
   /**
   * Custom GTP Rate Limit Periodic Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_rate_limit_periodic_records_sent DataThunderNetflowMonitorStats#custom_gtp_rate_limit_periodic_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_rate_limit_periodic_records_sent DataThunderNetflowMonitorStats#custom_gtp_rate_limit_periodic_records_sent}
   */
   readonly customGtpRateLimitPeriodicRecordsSent?: number;
   /**
   * Custom GTP Rate Limit Periodic Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_rate_limit_periodic_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_rate_limit_periodic_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_rate_limit_periodic_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_rate_limit_periodic_records_sent_failure}
   */
   readonly customGtpRateLimitPeriodicRecordsSentFailure?: number;
   /**
   * Custom GTP U Tunnel Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_u_tunnel_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_u_tunnel_event_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_u_tunnel_event_records_sent DataThunderNetflowMonitorStats#custom_gtp_u_tunnel_event_records_sent}
   */
   readonly customGtpUTunnelEventRecordsSent?: number;
   /**
   * Custom GTP U Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_gtp_u_tunnel_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_u_tunnel_event_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_gtp_u_tunnel_event_records_sent_failure DataThunderNetflowMonitorStats#custom_gtp_u_tunnel_event_records_sent_failure}
   */
   readonly customGtpUTunnelEventRecordsSentFailure?: number;
   /**
   * Custom NAT iDDoS L3 Entry Created Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_created_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_created_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_created_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_created_records_sent}
   */
   readonly customNatIddosL3EntryCreatedRecordsSent?: number;
   /**
   * Custom NAT iDDoS L3 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_created_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_created_records_sent_failure}
   */
   readonly customNatIddosL3EntryCreatedRecordsSentFailure?: number;
   /**
   * Custom NAT iDDoS L3 Entry Deleted Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_deleted_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_deleted_records_sent}
   */
   readonly customNatIddosL3EntryDeletedRecordsSent?: number;
   /**
   * Custom NAT iDDoS L3 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_deleted_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l3_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l3_entry_deleted_records_sent_failure}
   */
   readonly customNatIddosL3EntryDeletedRecordsSentFailure?: number;
   /**
   * Custom NAT iDDoS L4 Entry Created Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_created_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_created_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_created_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_created_records_sent}
   */
   readonly customNatIddosL4EntryCreatedRecordsSent?: number;
   /**
   * Custom NAT iDDoS L4 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_created_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_created_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_created_records_sent_failure}
   */
   readonly customNatIddosL4EntryCreatedRecordsSentFailure?: number;
   /**
   * Custom NAT iDDoS L4 Entry Deleted Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_deleted_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_deleted_records_sent DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_deleted_records_sent}
   */
   readonly customNatIddosL4EntryDeletedRecordsSent?: number;
   /**
   * Custom NAT iDDoS L4 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_deleted_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_nat_iddos_l4_entry_deleted_records_sent_failure DataThunderNetflowMonitorStats#custom_nat_iddos_l4_entry_deleted_records_sent_failure}
   */
   readonly customNatIddosL4EntryDeletedRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Batch Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_dslite_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_dslite_creation_records_sent}
   */
   readonly customPortBatchingDsliteCreationRecordsSent?: number;
   /**
   * Custom Dslite Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_dslite_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_dslite_creation_records_sent_failure}
   */
   readonly customPortBatchingDsliteCreationRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Batch Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_dslite_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_dslite_deletion_records_sent}
   */
   readonly customPortBatchingDsliteDeletionRecordsSent?: number;
   /**
   * Custom Dslite Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_dslite_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_dslite_deletion_records_sent_failure}
   */
   readonly customPortBatchingDsliteDeletionRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Batch Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat44_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat44_creation_records_sent}
   */
   readonly customPortBatchingNat44CreationRecordsSent?: number;
   /**
   * Custom Nat44 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat44_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat44_creation_records_sent_failure}
   */
   readonly customPortBatchingNat44CreationRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Batch Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat44_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat44_deletion_records_sent}
   */
   readonly customPortBatchingNat44DeletionRecordsSent?: number;
   /**
   * Custom Nat44 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat44_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat44_deletion_records_sent_failure}
   */
   readonly customPortBatchingNat44DeletionRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Batch Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat64_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat64_creation_records_sent}
   */
   readonly customPortBatchingNat64CreationRecordsSent?: number;
   /**
   * Custom Nat64 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat64_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat64_creation_records_sent_failure}
   */
   readonly customPortBatchingNat64CreationRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Batch Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat64_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_nat64_deletion_records_sent}
   */
   readonly customPortBatchingNat64DeletionRecordsSent?: number;
   /**
   * Custom Nat64 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat64_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_nat64_deletion_records_sent_failure}
   */
   readonly customPortBatchingNat64DeletionRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Batch V2 Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_creation_records_sent}
   */
   readonly customPortBatchingV2DsliteCreationRecordsSent?: number;
   /**
   * Custom Dslite Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_creation_records_sent_failure}
   */
   readonly customPortBatchingV2DsliteCreationRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Batch V2 Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_deletion_records_sent}
   */
   readonly customPortBatchingV2DsliteDeletionRecordsSent?: number;
   /**
   * Custom Dslite Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_dslite_deletion_records_sent_failure}
   */
   readonly customPortBatchingV2DsliteDeletionRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Batch V2 Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_creation_records_sent}
   */
   readonly customPortBatchingV2Nat44CreationRecordsSent?: number;
   /**
   * Custom Nat44 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_creation_records_sent_failure}
   */
   readonly customPortBatchingV2Nat44CreationRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Batch V2 Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_deletion_records_sent}
   */
   readonly customPortBatchingV2Nat44DeletionRecordsSent?: number;
   /**
   * Custom Nat44 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat44_deletion_records_sent_failure}
   */
   readonly customPortBatchingV2Nat44DeletionRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Batch V2 Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_creation_records_sent}
   */
   readonly customPortBatchingV2Nat64CreationRecordsSent?: number;
   /**
   * Custom Nat64 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_creation_records_sent_failure}
   */
   readonly customPortBatchingV2Nat64CreationRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Batch V2 Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_deletion_records_sent}
   */
   readonly customPortBatchingV2Nat64DeletionRecordsSent?: number;
   /**
   * Custom Nat64 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_batching_v2_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_batching_v2_nat64_deletion_records_sent_failure}
   */
   readonly customPortBatchingV2Nat64DeletionRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Map Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_dslite_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_dslite_creation_records_sent}
   */
   readonly customPortMappingDsliteCreationRecordsSent?: number;
   /**
   * Custom Dslite Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_dslite_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_dslite_creation_records_sent_failure}
   */
   readonly customPortMappingDsliteCreationRecordsSentFailure?: number;
   /**
   * Custom Dslite Port Map Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_dslite_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_dslite_deletion_records_sent}
   */
   readonly customPortMappingDsliteDeletionRecordsSent?: number;
   /**
   * Custom Dslite Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_dslite_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_dslite_deletion_records_sent_failure}
   */
   readonly customPortMappingDsliteDeletionRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Map Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat44_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat44_creation_records_sent}
   */
   readonly customPortMappingNat44CreationRecordsSent?: number;
   /**
   * Custom Nat44 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat44_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat44_creation_records_sent_failure}
   */
   readonly customPortMappingNat44CreationRecordsSentFailure?: number;
   /**
   * Custom Nat44 Port Map Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat44_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat44_deletion_records_sent}
   */
   readonly customPortMappingNat44DeletionRecordsSent?: number;
   /**
   * Custom Nat44 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat44_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat44_deletion_records_sent_failure}
   */
   readonly customPortMappingNat44DeletionRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Map Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat64_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat64_creation_records_sent}
   */
   readonly customPortMappingNat64CreationRecordsSent?: number;
   /**
   * Custom Nat64 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat64_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat64_creation_records_sent_failure}
   */
   readonly customPortMappingNat64CreationRecordsSentFailure?: number;
   /**
   * Custom Nat64 Port Map Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat64_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_port_mapping_nat64_deletion_records_sent}
   */
   readonly customPortMappingNat64DeletionRecordsSent?: number;
   /**
   * Custom Nat64 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat64_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_port_mapping_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_port_mapping_nat64_deletion_records_sent_failure}
   */
   readonly customPortMappingNat64DeletionRecordsSentFailure?: number;
   /**
   * Custom Dslite Session Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_dslite_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_dslite_creation_records_sent}
   */
   readonly customSessionEventDsliteCreationRecordsSent?: number;
   /**
   * Custom Dslite Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_dslite_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_dslite_creation_records_sent_failure}
   */
   readonly customSessionEventDsliteCreationRecordsSentFailure?: number;
   /**
   * Custom Dslite Session Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_dslite_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_dslite_deletion_records_sent}
   */
   readonly customSessionEventDsliteDeletionRecordsSent?: number;
   /**
   * Custom Dslite Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_dslite_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_dslite_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_dslite_deletion_records_sent_failure}
   */
   readonly customSessionEventDsliteDeletionRecordsSentFailure?: number;
   /**
   * Custom FW4 Session Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw4_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw4_creation_records_sent}
   */
   readonly customSessionEventFw4CreationRecordsSent?: number;
   /**
   * Custom FW4 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw4_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw4_creation_records_sent_failure}
   */
   readonly customSessionEventFw4CreationRecordsSentFailure?: number;
   /**
   * Custom FW4 Session Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw4_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw4_deletion_records_sent}
   */
   readonly customSessionEventFw4DeletionRecordsSent?: number;
   /**
   * Custom FW4 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw4_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw4_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw4_deletion_records_sent_failure}
   */
   readonly customSessionEventFw4DeletionRecordsSentFailure?: number;
   /**
   * Custom FW6 Session Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw6_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw6_creation_records_sent}
   */
   readonly customSessionEventFw6CreationRecordsSent?: number;
   /**
   * Custom FW6 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw6_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw6_creation_records_sent_failure}
   */
   readonly customSessionEventFw6CreationRecordsSentFailure?: number;
   /**
   * Custom FW6 Session Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw6_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_fw6_deletion_records_sent}
   */
   readonly customSessionEventFw6DeletionRecordsSent?: number;
   /**
   * Custom FW6 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw6_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_fw6_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_fw6_deletion_records_sent_failure}
   */
   readonly customSessionEventFw6DeletionRecordsSentFailure?: number;
   /**
   * Custom Nat44 Session Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat44_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat44_creation_records_sent}
   */
   readonly customSessionEventNat44CreationRecordsSent?: number;
   /**
   * Custom Nat44 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat44_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat44_creation_records_sent_failure}
   */
   readonly customSessionEventNat44CreationRecordsSentFailure?: number;
   /**
   * Custom Nat44 Session Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat44_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat44_deletion_records_sent}
   */
   readonly customSessionEventNat44DeletionRecordsSent?: number;
   /**
   * Custom Nat44 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat44_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat44_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat44_deletion_records_sent_failure}
   */
   readonly customSessionEventNat44DeletionRecordsSentFailure?: number;
   /**
   * Custom Nat64 Session Creation Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat64_creation_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_creation_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat64_creation_records_sent}
   */
   readonly customSessionEventNat64CreationRecordsSent?: number;
   /**
   * Custom Nat64 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat64_creation_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_creation_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat64_creation_records_sent_failure}
   */
   readonly customSessionEventNat64CreationRecordsSentFailure?: number;
   /**
   * Custom Nat64 Session Deletion Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat64_deletion_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_deletion_records_sent DataThunderNetflowMonitorStats#custom_session_event_nat64_deletion_records_sent}
   */
   readonly customSessionEventNat64DeletionRecordsSent?: number;
   /**
   * Custom Nat64 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat64_deletion_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#custom_session_event_nat64_deletion_records_sent_failure DataThunderNetflowMonitorStats#custom_session_event_nat64_deletion_records_sent_failure}
   */
   readonly customSessionEventNat64DeletionRecordsSentFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#ddos_general_stat_records_sent DataThunderNetflowMonitorStats#ddos_general_stat_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#ddos_general_stat_records_sent DataThunderNetflowMonitorStats#ddos_general_stat_records_sent}
   */
   readonly ddosGeneralStatRecordsSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#ddos_general_stat_records_sent_failure DataThunderNetflowMonitorStats#ddos_general_stat_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#ddos_general_stat_records_sent_failure DataThunderNetflowMonitorStats#ddos_general_stat_records_sent_failure}
   */
   readonly ddosGeneralStatRecordsSentFailure?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#ddos_http_stat_records_sent DataThunderNetflowMonitorStats#ddos_http_stat_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#ddos_http_stat_records_sent DataThunderNetflowMonitorStats#ddos_http_stat_records_sent}
   */
   readonly ddosHttpStatRecordsSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#ddos_http_stat_records_sent_failure DataThunderNetflowMonitorStats#ddos_http_stat_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#ddos_http_stat_records_sent_failure DataThunderNetflowMonitorStats#ddos_http_stat_records_sent_failure}
   */
   readonly ddosHttpStatRecordsSentFailure?: number;
   /**
   * Dslite Flow Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#dslite_records_sent DataThunderNetflowMonitorStats#dslite_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#dslite_records_sent DataThunderNetflowMonitorStats#dslite_records_sent}
   */
   readonly dsliteRecordsSent?: number;
   /**
   * Dslite Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#dslite_records_sent_failure DataThunderNetflowMonitorStats#dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#dslite_records_sent_failure DataThunderNetflowMonitorStats#dslite_records_sent_failure}
   */
   readonly dsliteRecordsSentFailure?: number;
   /**
   * NAT44 Flow Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#nat44_records_sent DataThunderNetflowMonitorStats#nat44_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#nat44_records_sent DataThunderNetflowMonitorStats#nat44_records_sent}
   */
   readonly nat44RecordsSent?: number;
   /**
   * NAT44 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#nat44_records_sent_failure DataThunderNetflowMonitorStats#nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#nat44_records_sent_failure DataThunderNetflowMonitorStats#nat44_records_sent_failure}
   */
   readonly nat44RecordsSentFailure?: number;
   /**
   * NAT64 Flow Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#nat64_records_sent DataThunderNetflowMonitorStats#nat64_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#nat64_records_sent DataThunderNetflowMonitorStats#nat64_records_sent}
   */
   readonly nat64RecordsSent?: number;
   /**
   * NAT64 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#nat64_records_sent_failure DataThunderNetflowMonitorStats#nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#nat64_records_sent_failure DataThunderNetflowMonitorStats#nat64_records_sent_failure}
   */
   readonly nat64RecordsSentFailure?: number;
   /**
   * Netflow v5 Ext Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#netflow_v5_ext_records_sent DataThunderNetflowMonitorStats#netflow_v5_ext_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#netflow_v5_ext_records_sent DataThunderNetflowMonitorStats#netflow_v5_ext_records_sent}
   */
   readonly netflowV5ExtRecordsSent?: number;
   /**
   * Netflow v5 Ext Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#netflow_v5_ext_records_sent_failure DataThunderNetflowMonitorStats#netflow_v5_ext_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#netflow_v5_ext_records_sent_failure DataThunderNetflowMonitorStats#netflow_v5_ext_records_sent_failure}
   */
   readonly netflowV5ExtRecordsSentFailure?: number;
   /**
   * Netflow v5 Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#netflow_v5_records_sent DataThunderNetflowMonitorStats#netflow_v5_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#netflow_v5_records_sent DataThunderNetflowMonitorStats#netflow_v5_records_sent}
   */
   readonly netflowV5RecordsSent?: number;
   /**
   * Netflow v5 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#netflow_v5_records_sent_failure DataThunderNetflowMonitorStats#netflow_v5_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#netflow_v5_records_sent_failure DataThunderNetflowMonitorStats#netflow_v5_records_sent_failure}
   */
   readonly netflowV5RecordsSentFailure?: number;
   /**
   * Sent Packets Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#packets_sent DataThunderNetflowMonitorStats#packets_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#packets_sent DataThunderNetflowMonitorStats#packets_sent}
   */
   readonly packetsSent?: number;
   /**
   * Port Batching Dslite Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_dslite_records_sent DataThunderNetflowMonitorStats#port_batching_dslite_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_dslite_records_sent DataThunderNetflowMonitorStats#port_batching_dslite_records_sent}
   */
   readonly portBatchingDsliteRecordsSent?: number;
   /**
   * Port Batching Dslite Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_batching_dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_batching_dslite_records_sent_failure}
   */
   readonly portBatchingDsliteRecordsSentFailure?: number;
   /**
   * Port Batching Nat44 Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_nat44_records_sent DataThunderNetflowMonitorStats#port_batching_nat44_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_nat44_records_sent DataThunderNetflowMonitorStats#port_batching_nat44_records_sent}
   */
   readonly portBatchingNat44RecordsSent?: number;
   /**
   * Port Batching Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_batching_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_batching_nat44_records_sent_failure}
   */
   readonly portBatchingNat44RecordsSentFailure?: number;
   /**
   * Port Batching Nat64 Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_nat64_records_sent DataThunderNetflowMonitorStats#port_batching_nat64_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_nat64_records_sent DataThunderNetflowMonitorStats#port_batching_nat64_records_sent}
   */
   readonly portBatchingNat64RecordsSent?: number;
   /**
   * Port Batching Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_batching_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_batching_nat64_records_sent_failure}
   */
   readonly portBatchingNat64RecordsSentFailure?: number;
   /**
   * Port Batching V2 Dslite Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_dslite_records_sent DataThunderNetflowMonitorStats#port_batching_v2_dslite_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_dslite_records_sent DataThunderNetflowMonitorStats#port_batching_v2_dslite_records_sent}
   */
   readonly portBatchingV2DsliteRecordsSent?: number;
   /**
   * Port Batching V2 Dslite Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_dslite_records_sent_failure}
   */
   readonly portBatchingV2DsliteRecordsSentFailure?: number;
   /**
   * Port Batching V2 Nat44 Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat44_records_sent DataThunderNetflowMonitorStats#port_batching_v2_nat44_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat44_records_sent DataThunderNetflowMonitorStats#port_batching_v2_nat44_records_sent}
   */
   readonly portBatchingV2Nat44RecordsSent?: number;
   /**
   * Port Batching V2 Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_nat44_records_sent_failure}
   */
   readonly portBatchingV2Nat44RecordsSentFailure?: number;
   /**
   * Port Batching V2 Nat64 Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat64_records_sent DataThunderNetflowMonitorStats#port_batching_v2_nat64_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat64_records_sent DataThunderNetflowMonitorStats#port_batching_v2_nat64_records_sent}
   */
   readonly portBatchingV2Nat64RecordsSent?: number;
   /**
   * Port Batching V2 Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_batching_v2_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_batching_v2_nat64_records_sent_failure}
   */
   readonly portBatchingV2Nat64RecordsSentFailure?: number;
   /**
   * Port Mapping Dslite Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_dslite_records_sent DataThunderNetflowMonitorStats#port_mapping_dslite_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_dslite_records_sent DataThunderNetflowMonitorStats#port_mapping_dslite_records_sent}
   */
   readonly portMappingDsliteRecordsSent?: number;
   /**
   * Port Mapping Dslite Event Records failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_dslite_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_dslite_records_sent_failure}
   */
   readonly portMappingDsliteRecordsSentFailure?: number;
   /**
   * Port Mapping Nat44 Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_nat44_records_sent DataThunderNetflowMonitorStats#port_mapping_nat44_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_nat44_records_sent DataThunderNetflowMonitorStats#port_mapping_nat44_records_sent}
   */
   readonly portMappingNat44RecordsSent?: number;
   /**
   * Port Mapping Nat44 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_nat44_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_nat44_records_sent_failure}
   */
   readonly portMappingNat44RecordsSentFailure?: number;
   /**
   * Port Mapping Nat64 Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_nat64_records_sent DataThunderNetflowMonitorStats#port_mapping_nat64_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_nat64_records_sent DataThunderNetflowMonitorStats#port_mapping_nat64_records_sent}
   */
   readonly portMappingNat64RecordsSent?: number;
   /**
   * Port Mapping Nat64 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#port_mapping_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#port_mapping_nat64_records_sent_failure DataThunderNetflowMonitorStats#port_mapping_nat64_records_sent_failure}
   */
   readonly portMappingNat64RecordsSentFailure?: number;
   /**
   * Reduced Logs by Destination Protocol and Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#reduced_logs_by_destination DataThunderNetflowMonitorStats#reduced_logs_by_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#reduced_logs_by_destination DataThunderNetflowMonitorStats#reduced_logs_by_destination}
   */
   readonly reducedLogsByDestination?: number;
   /**
   * Dslite Session Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_dslite_records_sent DataThunderNetflowMonitorStats#session_event_dslite_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_dslite_records_sent DataThunderNetflowMonitorStats#session_event_dslite_records_sent}
   */
   readonly sessionEventDsliteRecordsSent?: number;
   /**
   * Dslite Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_dslite_records_sent_failure DataThunderNetflowMonitorStats#session_event_dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_dslite_records_sent_failure DataThunderNetflowMonitorStats#session_event_dslite_records_sent_failure}
   */
   readonly sessionEventDsliteRecordsSentFailure?: number;
   /**
   * FW4 Session Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_fw4_records_sent DataThunderNetflowMonitorStats#session_event_fw4_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_fw4_records_sent DataThunderNetflowMonitorStats#session_event_fw4_records_sent}
   */
   readonly sessionEventFw4RecordsSent?: number;
   /**
   * FW4 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_fw4_records_sent_failure DataThunderNetflowMonitorStats#session_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_fw4_records_sent_failure DataThunderNetflowMonitorStats#session_event_fw4_records_sent_failure}
   */
   readonly sessionEventFw4RecordsSentFailure?: number;
   /**
   * FW6 Session Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_fw6_records_sent DataThunderNetflowMonitorStats#session_event_fw6_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_fw6_records_sent DataThunderNetflowMonitorStats#session_event_fw6_records_sent}
   */
   readonly sessionEventFw6RecordsSent?: number;
   /**
   * FW6 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_fw6_records_sent_failure DataThunderNetflowMonitorStats#session_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_fw6_records_sent_failure DataThunderNetflowMonitorStats#session_event_fw6_records_sent_failure}
   */
   readonly sessionEventFw6RecordsSentFailure?: number;
   /**
   * Nat44 Session Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_nat44_records_sent DataThunderNetflowMonitorStats#session_event_nat44_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_nat44_records_sent DataThunderNetflowMonitorStats#session_event_nat44_records_sent}
   */
   readonly sessionEventNat44RecordsSent?: number;
   /**
   * Nat44 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_nat44_records_sent_failure DataThunderNetflowMonitorStats#session_event_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_nat44_records_sent_failure DataThunderNetflowMonitorStats#session_event_nat44_records_sent_failure}
   */
   readonly sessionEventNat44RecordsSentFailure?: number;
   /**
   * Nat64 Session Event Records Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_nat64_records_sent DataThunderNetflowMonitorStats#session_event_nat64_records_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_nat64_records_sent DataThunderNetflowMonitorStats#session_event_nat64_records_sent}
   */
   readonly sessionEventNat64RecordsSent?: number;
   /**
   * Nat64 Session Event Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#session_event_nat64_records_sent_failure DataThunderNetflowMonitorStats#session_event_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#session_event_nat64_records_sent_failure DataThunderNetflowMonitorStats#session_event_nat64_records_sent_failure}
   */
   readonly sessionEventNat64RecordsSentFailure?: number;
 }
@@ -4587,7 +4587,7 @@ export class DataThunderNetflowMonitorStatsStatsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats thunder_netflow_monitor_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats thunder_netflow_monitor_stats}
 */
 export class DataThunderNetflowMonitorStats extends cdktf.TerraformDataSource {
 
@@ -4603,7 +4603,7 @@ export class DataThunderNetflowMonitorStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderNetflowMonitorStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderNetflowMonitorStats to import
-  * @param importFromId The id of the existing DataThunderNetflowMonitorStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderNetflowMonitorStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderNetflowMonitorStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4615,7 +4615,7 @@ export class DataThunderNetflowMonitorStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/netflow_monitor_stats thunder_netflow_monitor_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/netflow_monitor_stats thunder_netflow_monitor_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4626,8 +4626,8 @@ export class DataThunderNetflowMonitorStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_netflow_monitor_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

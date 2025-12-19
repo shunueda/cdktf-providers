@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,107 +10,107 @@ export interface SlbTemplateTcpProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * 'low': Delayed ACK; 'medium': Delayed ACK, with ACK on each packet with PUSH flag; 'high': ACK on each packet;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#ack_aggressiveness SlbTemplateTcpProxy#ack_aggressiveness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#ack_aggressiveness SlbTemplateTcpProxy#ack_aggressiveness}
   */
   readonly ackAggressiveness?: string;
   /**
   * keep connection alive if active traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#alive_if_active SlbTemplateTcpProxy#alive_if_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#alive_if_active SlbTemplateTcpProxy#alive_if_active}
   */
   readonly aliveIfActive?: number;
   /**
   * The TCP window scale used for the server side, default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#backend_wscale SlbTemplateTcpProxy#backend_wscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#backend_wscale SlbTemplateTcpProxy#backend_wscale}
   */
   readonly backendWscale?: number;
   /**
   * Delete session if the server/port goes down (either disabled/hm down)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#del_session_on_server_down SlbTemplateTcpProxy#del_session_on_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#del_session_on_server_down SlbTemplateTcpProxy#del_session_on_server_down}
   */
   readonly delSessionOnServerDown?: number;
   /**
   * send reset to client when server is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#disable SlbTemplateTcpProxy#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#disable SlbTemplateTcpProxy#disable}
   */
   readonly disable?: number;
   /**
   * Appropriate Byte Counting RFC 3465 Disabled, default is enabled (Appropriate Byte Counting (ABC) is enabled by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#disable_abc SlbTemplateTcpProxy#disable_abc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#disable_abc SlbTemplateTcpProxy#disable_abc}
   */
   readonly disableAbc?: number;
   /**
   * disable Selective Ack Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#disable_sack SlbTemplateTcpProxy#disable_sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#disable_sack SlbTemplateTcpProxy#disable_sack}
   */
   readonly disableSack?: number;
   /**
   * disable TCP Timestamps Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#disable_tcp_timestamps SlbTemplateTcpProxy#disable_tcp_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#disable_tcp_timestamps SlbTemplateTcpProxy#disable_tcp_timestamps}
   */
   readonly disableTcpTimestamps?: number;
   /**
   * disable TCP Window-Scale Option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#disable_window_scale SlbTemplateTcpProxy#disable_window_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#disable_window_scale SlbTemplateTcpProxy#disable_window_scale}
   */
   readonly disableWindowScale?: number;
   /**
   * send reset to client when server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#down SlbTemplateTcpProxy#down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#down SlbTemplateTcpProxy#down}
   */
   readonly down?: number;
   /**
   * Optimally adjust the transmit and receive buffer sizes of TCP proxy while keeping their sum constant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#dynamic_buffer_allocation SlbTemplateTcpProxy#dynamic_buffer_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#dynamic_buffer_allocation SlbTemplateTcpProxy#dynamic_buffer_allocation}
   */
   readonly dynamicBufferAllocation?: number;
   /**
   * Configure the Early-Retransmit Algorithm (RFC 5827) (Early-Retransmit is disabled by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#early_retransmit SlbTemplateTcpProxy#early_retransmit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#early_retransmit SlbTemplateTcpProxy#early_retransmit}
   */
   readonly earlyRetransmit?: number;
   /**
   * FIN timeout (sec), default is disabled (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#fin_timeout SlbTemplateTcpProxy#fin_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#fin_timeout SlbTemplateTcpProxy#fin_timeout}
   */
   readonly finTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number (second))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#force_delete_timeout SlbTemplateTcpProxy#force_delete_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#force_delete_timeout SlbTemplateTcpProxy#force_delete_timeout}
   */
   readonly forceDeleteTimeout?: number;
   /**
   * The maximum time that a session can stay in the system before being deleted, default is off (number in 100ms)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#force_delete_timeout_100ms SlbTemplateTcpProxy#force_delete_timeout_100ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#force_delete_timeout_100ms SlbTemplateTcpProxy#force_delete_timeout_100ms}
   */
   readonly forceDeleteTimeout100Ms?: number;
   /**
   * TCP Half Close Idle Timeout (sec), default is off (cmd is deprecated, use fin-timeout instead) (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#half_close_idle_timeout SlbTemplateTcpProxy#half_close_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#half_close_idle_timeout SlbTemplateTcpProxy#half_close_idle_timeout}
   */
   readonly halfCloseIdleTimeout?: number;
   /**
   * TCP Half Open Idle Timeout (sec), default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#half_open_idle_timeout SlbTemplateTcpProxy#half_open_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#half_open_idle_timeout SlbTemplateTcpProxy#half_open_idle_timeout}
   */
   readonly halfOpenIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#id SlbTemplateTcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#id SlbTemplateTcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,181 +119,187 @@ export interface SlbTemplateTcpProxyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Idle Timeout (Interval of 60 seconds), default is 600 (idle timeout in second, default 600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#idle_timeout SlbTemplateTcpProxy#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#idle_timeout SlbTemplateTcpProxy#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * The initial congestion control window size (packets), default is 10 (init-cwnd in packets, default 10)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#init_cwnd SlbTemplateTcpProxy#init_cwnd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#init_cwnd SlbTemplateTcpProxy#init_cwnd}
   */
   readonly initCwnd?: number;
   /**
   * Set the initial window size, default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#initial_window_size SlbTemplateTcpProxy#initial_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#initial_window_size SlbTemplateTcpProxy#initial_window_size}
   */
   readonly initialWindowSize?: number;
   /**
   * Insert client ip into TCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#insert_client_ip SlbTemplateTcpProxy#insert_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#insert_client_ip SlbTemplateTcpProxy#insert_client_ip}
   */
   readonly insertClientIp?: number;
   /**
   * Invalid Packet Response Rate Limit (ms), default is 500 (number default 500 challenges)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#invalid_rate_limit SlbTemplateTcpProxy#invalid_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#invalid_rate_limit SlbTemplateTcpProxy#invalid_rate_limit}
   */
   readonly invalidRateLimit?: number;
   /**
   * Interval between keepalive probes (sec), default is off (number (seconds))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#keepalive_interval SlbTemplateTcpProxy#keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#keepalive_interval SlbTemplateTcpProxy#keepalive_interval}
   */
   readonly keepaliveInterval?: number;
   /**
   * Number of keepalive probes sent, default is off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#keepalive_probes SlbTemplateTcpProxy#keepalive_probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#keepalive_probes SlbTemplateTcpProxy#keepalive_probes}
   */
   readonly keepaliveProbes?: number;
   /**
   * RFC 3742 Limited Slow-Start for TCP with Large Congestion Windows (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#limited_slowstart SlbTemplateTcpProxy#limited_slowstart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#limited_slowstart SlbTemplateTcpProxy#limited_slowstart}
   */
   readonly limitedSlowstart?: number;
   /**
   * The max packet count sent per transmission event (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#maxburst SlbTemplateTcpProxy#maxburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#maxburst SlbTemplateTcpProxy#maxburst}
   */
   readonly maxburst?: number;
   /**
   * The minmum retransmission timeout, default is 200ms (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#min_rto SlbTemplateTcpProxy#min_rto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#min_rto SlbTemplateTcpProxy#min_rto}
   */
   readonly minRto?: number;
   /**
   * Responding MSS to use if client MSS is large, default is off (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#mss SlbTemplateTcpProxy#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#mss SlbTemplateTcpProxy#mss}
   */
   readonly mss?: number;
   /**
   * Enable Nagle Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#nagle SlbTemplateTcpProxy#nagle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#nagle SlbTemplateTcpProxy#nagle}
   */
   readonly nagle?: number;
   /**
   * Send naked ack before data during 3-way handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#naked_ack_on_handshake SlbTemplateTcpProxy#naked_ack_on_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#naked_ack_on_handshake SlbTemplateTcpProxy#naked_ack_on_handshake}
   */
   readonly nakedAckOnHandshake?: number;
   /**
   * TCP Proxy Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#name SlbTemplateTcpProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#name SlbTemplateTcpProxy#name}
   */
   readonly name: string;
   /**
   * Enable Optimized PSH Flag Use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#psh_flag_optimization SlbTemplateTcpProxy#psh_flag_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#psh_flag_optimization SlbTemplateTcpProxy#psh_flag_optimization}
   */
   readonly pshFlagOptimization?: number;
   /**
   * QOS level (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#qos SlbTemplateTcpProxy#qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#qos SlbTemplateTcpProxy#qos}
   */
   readonly qos?: number;
   /**
   * The reassembly queuing limit, default is 25 segments (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#reassembly_limit SlbTemplateTcpProxy#reassembly_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#reassembly_limit SlbTemplateTcpProxy#reassembly_limit}
   */
   readonly reassemblyLimit?: number;
   /**
   * The reassembly timeout, default is 30sec (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#reassembly_timeout SlbTemplateTcpProxy#reassembly_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#reassembly_timeout SlbTemplateTcpProxy#reassembly_timeout}
   */
   readonly reassemblyTimeout?: number;
   /**
   * TCP Receive Buffer (default 200k) (number default 200000 bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#receive_buffer SlbTemplateTcpProxy#receive_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#receive_buffer SlbTemplateTcpProxy#receive_buffer}
   */
   readonly receiveBuffer?: number;
   /**
   * Enable Reno Congestion Control Algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#reno SlbTemplateTcpProxy#reno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#reno SlbTemplateTcpProxy#reno}
   */
   readonly reno?: number;
   /**
   * send reset to server if error happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#reset_fwd SlbTemplateTcpProxy#reset_fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#reset_fwd SlbTemplateTcpProxy#reset_fwd}
   */
   readonly resetFwd?: number;
   /**
   * send reset to client if error happens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#reset_rev SlbTemplateTcpProxy#reset_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#reset_rev SlbTemplateTcpProxy#reset_rev}
   */
   readonly resetRev?: number;
   /**
   * Number of Retries for Retransmit, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#retransmit_retries SlbTemplateTcpProxy#retransmit_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#retransmit_retries SlbTemplateTcpProxy#retransmit_retries}
   */
   readonly retransmitRetries?: number;
   /**
   * 'FIN': FIN Connection; 'RST': Reset Connection;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#server_down_action SlbTemplateTcpProxy#server_down_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#server_down_action SlbTemplateTcpProxy#server_down_action}
   */
   readonly serverDownAction?: string;
   /**
   * SYN Retry Numbers, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#syn_retries SlbTemplateTcpProxy#syn_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#syn_retries SlbTemplateTcpProxy#syn_retries}
   */
   readonly synRetries?: number;
   /**
+  * 'enable': Enable fast sack loss recovery; 'disable': Disable fast sack loss recovery; 'auto-select': Auto select fast sack loss recovery (disable);
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#tcp_do_newsack SlbTemplateTcpProxy#tcp_do_newsack}
+  */
+  readonly tcpDoNewsack?: string;
+  /**
   * Timewait Threshold (sec), default 5 (number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#timewait SlbTemplateTcpProxy#timewait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#timewait SlbTemplateTcpProxy#timewait}
   */
   readonly timewait?: number;
   /**
   * TCP Transmit Buffer (default 200k) (number default 200000 bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#transmit_buffer SlbTemplateTcpProxy#transmit_buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#transmit_buffer SlbTemplateTcpProxy#transmit_buffer}
   */
   readonly transmitBuffer?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#user_tag SlbTemplateTcpProxy#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#user_tag SlbTemplateTcpProxy#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#uuid SlbTemplateTcpProxy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#uuid SlbTemplateTcpProxy#uuid}
   */
   readonly uuid?: string;
   /**
   * proxy_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#proxy_header SlbTemplateTcpProxy#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#proxy_header SlbTemplateTcpProxy#proxy_header}
   */
   readonly proxyHeader?: SlbTemplateTcpProxyProxyHeader;
 }
@@ -301,13 +307,13 @@ export interface SlbTemplateTcpProxyProxyHeader {
   /**
   * 'insert': Insert proxy header;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#proxy_header_action SlbTemplateTcpProxy#proxy_header_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#proxy_header_action SlbTemplateTcpProxy#proxy_header_action}
   */
   readonly proxyHeaderAction?: string;
   /**
   * 'v1': version 1; 'v2': version 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#version SlbTemplateTcpProxy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#version SlbTemplateTcpProxy#version}
   */
   readonly version?: string;
 }
@@ -420,7 +426,7 @@ export class SlbTemplateTcpProxyProxyHeaderOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy thunder_slb_template_tcp_proxy}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy thunder_slb_template_tcp_proxy}
 */
 export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
 
@@ -436,7 +442,7 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateTcpProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateTcpProxy to import
-  * @param importFromId The id of the existing SlbTemplateTcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateTcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateTcpProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +454,7 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_tcp_proxy thunder_slb_template_tcp_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_tcp_proxy thunder_slb_template_tcp_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +465,8 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_tcp_proxy',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -513,6 +519,7 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
     this._retransmitRetries = config.retransmitRetries;
     this._serverDownAction = config.serverDownAction;
     this._synRetries = config.synRetries;
+    this._tcpDoNewsack = config.tcpDoNewsack;
     this._timewait = config.timewait;
     this._transmitBuffer = config.transmitBuffer;
     this._userTag = config.userTag;
@@ -1209,6 +1216,22 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
     return this._synRetries;
   }
 
+  // tcp_do_newsack - computed: false, optional: true, required: false
+  private _tcpDoNewsack?: string; 
+  public get tcpDoNewsack() {
+    return this.getStringAttribute('tcp_do_newsack');
+  }
+  public set tcpDoNewsack(value: string) {
+    this._tcpDoNewsack = value;
+  }
+  public resetTcpDoNewsack() {
+    this._tcpDoNewsack = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpDoNewsackInput() {
+    return this._tcpDoNewsack;
+  }
+
   // timewait - computed: false, optional: true, required: false
   private _timewait?: number; 
   public get timewait() {
@@ -1338,6 +1361,7 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
       retransmit_retries: cdktf.numberToTerraform(this._retransmitRetries),
       server_down_action: cdktf.stringToTerraform(this._serverDownAction),
       syn_retries: cdktf.numberToTerraform(this._synRetries),
+      tcp_do_newsack: cdktf.stringToTerraform(this._tcpDoNewsack),
       timewait: cdktf.numberToTerraform(this._timewait),
       transmit_buffer: cdktf.numberToTerraform(this._transmitBuffer),
       user_tag: cdktf.stringToTerraform(this._userTag),
@@ -1605,6 +1629,12 @@ export class SlbTemplateTcpProxy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      tcp_do_newsack: {
+        value: cdktf.stringToHclTerraform(this._tcpDoNewsack),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       timewait: {
         value: cdktf.numberToHclTerraform(this._timewait),

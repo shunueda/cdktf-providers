@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,115 +8,115 @@ import * as cdktf from 'cdktf';
 
 export interface DeviceSwitchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acl_policies DeviceSwitch#acl_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acl_policies DeviceSwitch#acl_policies}
   */
   readonly aclPolicies?: DeviceSwitchAclPolicies[] | cdktf.IResolvable;
   /**
   * ACL Tags to identify traffic source or destination. Key name is the tag name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acl_tags DeviceSwitch#acl_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acl_tags DeviceSwitch#acl_tags}
   */
   readonly aclTags?: { [key: string]: DeviceSwitchAclTags } | cdktf.IResolvable;
   /**
   * additional CLI commands to append to the generated Junos config. **Note**: no check is done
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#additional_config_cmds DeviceSwitch#additional_config_cmds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#additional_config_cmds DeviceSwitch#additional_config_cmds}
   */
   readonly additionalConfigCmds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bgp_config DeviceSwitch#bgp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bgp_config DeviceSwitch#bgp_config}
   */
   readonly bgpConfig?: { [key: string]: DeviceSwitchBgpConfig } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#device_id DeviceSwitch#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#device_id DeviceSwitch#device_id}
   */
   readonly deviceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dhcp_snooping DeviceSwitch#dhcp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dhcp_snooping DeviceSwitch#dhcp_snooping}
   */
   readonly dhcpSnooping?: DeviceSwitchDhcpSnooping;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dhcpd_config DeviceSwitch#dhcpd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dhcpd_config DeviceSwitch#dhcpd_config}
   */
   readonly dhcpdConfig?: DeviceSwitchDhcpdConfig;
   /**
   * This disables the default behavior of a cloud-ready switch/gateway being managed/configured by Mist. Setting this to `true` means you want to disable the default behavior and do not want the device to be Mist-managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_auto_config DeviceSwitch#disable_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_auto_config DeviceSwitch#disable_auto_config}
   */
   readonly disableAutoConfig?: boolean | cdktf.IResolvable;
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns_servers DeviceSwitch#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns_servers DeviceSwitch#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Global dns settings. To keep compatibility, dns settings in `ip_config` and `oob_ip_config` will overwrite this setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#extra_routes DeviceSwitch#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#extra_routes DeviceSwitch#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: DeviceSwitchExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#extra_routes6 DeviceSwitch#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#extra_routes6 DeviceSwitch#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: DeviceSwitchExtraRoutes6 } | cdktf.IResolvable;
   /**
   * Junos IP Config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip_config DeviceSwitch#ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip_config DeviceSwitch#ip_config}
   */
   readonly ipConfig?: DeviceSwitchIpConfig;
   /**
   * Local port override, overriding the port configuration from `port_config`. Property key is the port name or range (e.g. "ge-0/0/0-10")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#local_port_config DeviceSwitch#local_port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#local_port_config DeviceSwitch#local_port_config}
   */
   readonly localPortConfig?: { [key: string]: DeviceSwitchLocalPortConfig } | cdktf.IResolvable;
   /**
   * An adopted switch/gateway will not be managed/configured by Mist by default. Setting this parameter to `true` enables the adopted switch/gateway to be managed/configured by Mist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#managed DeviceSwitch#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#managed DeviceSwitch#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Map where the device belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#map_id DeviceSwitch#map_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#map_id DeviceSwitch#map_id}
   */
   readonly mapId?: string;
   /**
   * Enable mist_nac to use RadSec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mist_nac DeviceSwitch#mist_nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mist_nac DeviceSwitch#mist_nac}
   */
   readonly mistNac?: DeviceSwitchMistNac;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name: string;
   /**
   * Property key is network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: { [key: string]: DeviceSwitchNetworks } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#notes DeviceSwitch#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#notes DeviceSwitch#notes}
   */
   readonly notes?: string;
   /**
   * List of NTP servers specific to this device. By default, those in Site Settings will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ntp_servers DeviceSwitch#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ntp_servers DeviceSwitch#ntp_servers}
   */
   readonly ntpServers?: string[];
   /**
@@ -124,131 +124,137 @@ export interface DeviceSwitchConfig extends cdktf.TerraformMetaArguments {
   *   - If HA configuration: key parameter will be nodeX (eg: node1)
   *   - If there are 2 routing engines, re1 mgmt IP has to be set separately (if desired): key parameter = `re1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#oob_ip_config DeviceSwitch#oob_ip_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#oob_ip_config DeviceSwitch#oob_ip_config}
   */
   readonly oobIpConfig?: DeviceSwitchOobIpConfig;
   /**
   * Junos OSPF areas. Property key is the OSPF Area (Area should be a number (0-255) / IP address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ospf_areas DeviceSwitch#ospf_areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ospf_areas DeviceSwitch#ospf_areas}
   */
   readonly ospfAreas?: { [key: string]: DeviceSwitchOspfAreas } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ospf_config DeviceSwitch#ospf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ospf_config DeviceSwitch#ospf_config}
   */
   readonly ospfConfig?: DeviceSwitchOspfConfig;
   /**
   * Property key is the network name. Defines the additional IP Addresses configured on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#other_ip_configs DeviceSwitch#other_ip_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#other_ip_configs DeviceSwitch#other_ip_configs}
   */
   readonly otherIpConfigs?: { [key: string]: DeviceSwitchOtherIpConfigs } | cdktf.IResolvable;
   /**
   * Property key is the port name or range (e.g. "ge-0/0/0-10")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_config DeviceSwitch#port_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_config DeviceSwitch#port_config}
   */
   readonly portConfig?: { [key: string]: DeviceSwitchPortConfig } | cdktf.IResolvable;
   /**
   * Property key is the port name or range (e.g. "ge-0/0/0-10"). This can be used to override some attributes of the port_usage without having to create a new port_usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_config_overwrite DeviceSwitch#port_config_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_config_overwrite DeviceSwitch#port_config_overwrite}
   */
   readonly portConfigOverwrite?: { [key: string]: DeviceSwitchPortConfigOverwrite } | cdktf.IResolvable;
   /**
   * Property key is the port mirroring instance name. `port_mirroring` can be added under device/site settings. It takes interface and ports as input for ingress, interface as input for egress and can take interface and port as output. A maximum 4 mirroring ports is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_mirroring DeviceSwitch#port_mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_mirroring DeviceSwitch#port_mirroring}
   */
   readonly portMirroring?: { [key: string]: DeviceSwitchPortMirroring } | cdktf.IResolvable;
   /**
   * Property key is the port usage name. Defines the profiles of port configuration configured on the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_usages DeviceSwitch#port_usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_usages DeviceSwitch#port_usages}
   */
   readonly portUsages?: { [key: string]: DeviceSwitchPortUsages } | cdktf.IResolvable;
   /**
   * Junos Radius config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#radius_config DeviceSwitch#radius_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#radius_config DeviceSwitch#radius_config}
   */
   readonly radiusConfig?: DeviceSwitchRadiusConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#remote_syslog DeviceSwitch#remote_syslog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#remote_syslog DeviceSwitch#remote_syslog}
   */
   readonly remoteSyslog?: DeviceSwitchRemoteSyslog;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#role DeviceSwitch#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#role DeviceSwitch#role}
   */
   readonly role?: string;
   /**
   * Used for OSPF / BGP / EVPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#router_id DeviceSwitch#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#router_id DeviceSwitch#router_id}
   */
   readonly routerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#site_id DeviceSwitch#site_id}
+  * Property key is the routing policy name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#routing_policies DeviceSwitch#routing_policies}
+  */
+  readonly routingPolicies?: { [key: string]: DeviceSwitchRoutingPolicies } | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#site_id DeviceSwitch#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#snmp_config DeviceSwitch#snmp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#snmp_config DeviceSwitch#snmp_config}
   */
   readonly snmpConfig?: DeviceSwitchSnmpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_config DeviceSwitch#stp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_config DeviceSwitch#stp_config}
   */
   readonly stpConfig?: DeviceSwitchStpConfig;
   /**
   * Switch settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#switch_mgmt DeviceSwitch#switch_mgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#switch_mgmt DeviceSwitch#switch_mgmt}
   */
   readonly switchMgmt?: DeviceSwitchSwitchMgmt;
   /**
   * Whether to use it for snmp / syslog / tacplus / radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_router_id_as_source_ip DeviceSwitch#use_router_id_as_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_router_id_as_source_ip DeviceSwitch#use_router_id_as_source_ip}
   */
   readonly useRouterIdAsSourceIp?: boolean | cdktf.IResolvable;
   /**
   * Dictionary of name->value, the vars can then be used in Wlans. This can overwrite those from Site Vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vars DeviceSwitch#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vars DeviceSwitch#vars}
   */
   readonly vars?: { [key: string]: string };
   /**
   * Required for preprovisioned Virtual Chassis
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#virtual_chassis DeviceSwitch#virtual_chassis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#virtual_chassis DeviceSwitch#virtual_chassis}
   */
   readonly virtualChassis?: DeviceSwitchVirtualChassis;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vrf_config DeviceSwitch#vrf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vrf_config DeviceSwitch#vrf_config}
   */
   readonly vrfConfig?: DeviceSwitchVrfConfig;
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vrf_instances DeviceSwitch#vrf_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vrf_instances DeviceSwitch#vrf_instances}
   */
   readonly vrfInstances?: { [key: string]: DeviceSwitchVrfInstances } | cdktf.IResolvable;
   /**
   * Junos VRRP config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vrrp_config DeviceSwitch#vrrp_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vrrp_config DeviceSwitch#vrrp_config}
   */
   readonly vrrpConfig?: DeviceSwitchVrrpConfig;
   /**
   * X in pixel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#x DeviceSwitch#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#x DeviceSwitch#x}
   */
   readonly x?: number;
   /**
   * Y in pixel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#y DeviceSwitch#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#y DeviceSwitch#y}
   */
   readonly y?: number;
 }
@@ -256,11 +262,11 @@ export interface DeviceSwitchAclPoliciesActions {
   /**
   * enum: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#action DeviceSwitch#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#action DeviceSwitch#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dst_tag DeviceSwitch#dst_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dst_tag DeviceSwitch#dst_tag}
   */
   readonly dstTag: string;
 }
@@ -406,11 +412,11 @@ export interface DeviceSwitchAclPolicies {
   *   - for GBP-based policy, all src_tags and dst_tags have to be gbp-based
   *   - for ACL-based policy, `network` is required in either the source or destination so that we know where to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#actions DeviceSwitch#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#actions DeviceSwitch#actions}
   */
   readonly actions?: DeviceSwitchAclPoliciesActions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name?: string;
   /**
@@ -418,7 +424,7 @@ export interface DeviceSwitchAclPolicies {
   *   - for GBP-based policy, all src_tags and dst_tags have to be gbp-based
   *   - for ACL-based policy, `network` is required in either the source or destination so that we know where to attach the policy to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#src_tags DeviceSwitch#src_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#src_tags DeviceSwitch#src_tags}
   */
   readonly srcTags?: string[];
 }
@@ -594,13 +600,13 @@ export interface DeviceSwitchAclTagsSpecs {
   /**
   * Matched dst port, "0" means any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_range DeviceSwitch#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_range DeviceSwitch#port_range}
   */
   readonly portRange?: string;
   /**
   * `tcp` / `udp` / `icmp` / `icmp6` / `gre` / `any` / `:protocol_number`, `protocol_number` is between 1-254, default is `any` `protocol_number` is between 1-254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#protocol DeviceSwitch#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#protocol DeviceSwitch#protocol}
   */
   readonly protocol?: string;
 }
@@ -747,7 +753,7 @@ export interface DeviceSwitchAclTags {
   /**
   * ARP / IPv6. Default is `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ether_types DeviceSwitch#ether_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ether_types DeviceSwitch#ether_types}
   */
   readonly etherTypes?: string[];
   /**
@@ -756,7 +762,7 @@ export interface DeviceSwitchAclTags {
   *   - `type`==`gbp_resource`
   *   - `type`==`static_gbp` (applying gbp tag against matching conditions)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gbp_tag DeviceSwitch#gbp_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gbp_tag DeviceSwitch#gbp_tag}
   */
   readonly gbpTag?: number;
   /**
@@ -764,7 +770,7 @@ export interface DeviceSwitchAclTags {
   * - `type`==`mac`
   * - `type`==`static_gbp` if from matching mac
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#macs DeviceSwitch#macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#macs DeviceSwitch#macs}
   */
   readonly macs?: string[];
   /**
@@ -775,13 +781,13 @@ export interface DeviceSwitchAclTags {
   *   * `type`==`resource` (optional. default is `any`)
   *   * `type`==`static_gbp` if from matching network (vlan)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
   * Required if `type`==`port_usage`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_usage DeviceSwitch#port_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_usage DeviceSwitch#port_usage}
   */
   readonly portUsage?: string;
   /**
@@ -790,13 +796,13 @@ export interface DeviceSwitchAclTags {
   *   * `type`==`static_gbp`
   * if from matching radius_group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#radius_group DeviceSwitch#radius_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#radius_group DeviceSwitch#radius_group}
   */
   readonly radiusGroup?: string;
   /**
   * If `type`==`resource`, `type`==`radius_group`, `type`==`port_usage` or `type`==`gbp_resource`. Empty means unrestricted, i.e. any
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#specs DeviceSwitch#specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#specs DeviceSwitch#specs}
   */
   readonly specs?: DeviceSwitchAclTagsSpecs[] | cdktf.IResolvable;
   /**
@@ -805,7 +811,7 @@ export interface DeviceSwitchAclTags {
   * - `type`==`resource` (optional. default is `any`)
   * - `type`==`static_gbp` if from matching subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#subnets DeviceSwitch#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#subnets DeviceSwitch#subnets}
   */
   readonly subnets?: string[];
   /**
@@ -821,7 +827,7 @@ export interface DeviceSwitchAclTags {
   *   * `static_gbp`: applying gbp tag against matching conditions
   *   * `subnet`'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type: string;
 }
@@ -1166,29 +1172,29 @@ export interface DeviceSwitchBgpConfigNeighbors {
   /**
   * Export policy must match one of the policy names defined in the `routing_policies` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
   */
   readonly exportPolicy?: string;
   /**
   * Hold time is three times the interval at which keepalive messages are sent. It indicates to the peer the length of time that it should consider the sender valid. Must be 0 or a number in the range 3-65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#hold_time DeviceSwitch#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#hold_time DeviceSwitch#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Import policy must match one of the policy names defined in the `routing_policies` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
   */
   readonly importPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#multihop_ttl DeviceSwitch#multihop_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#multihop_ttl DeviceSwitch#multihop_ttl}
   */
   readonly multihopTtl?: number;
   /**
   * Autonomous System (AS) number of the BGP neighbor. For internal BGP, this must match `local_as`. For external BGP, this must differ from `local_as`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#neighbor_as DeviceSwitch#neighbor_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#neighbor_as DeviceSwitch#neighbor_as}
   */
   readonly neighborAs: string;
 }
@@ -1415,53 +1421,53 @@ export class DeviceSwitchBgpConfigNeighborsMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchBgpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_key DeviceSwitch#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_key DeviceSwitch#auth_key}
   */
   readonly authKey?: string;
   /**
   * Minimum interval in milliseconds for BFD hello packets. A neighbor is considered failed when the device stops receiving replies after the specified interval. Value must be between 1 and 255000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bfd_minimum_interval DeviceSwitch#bfd_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bfd_minimum_interval DeviceSwitch#bfd_minimum_interval}
   */
   readonly bfdMinimumInterval?: number;
   /**
   * Export policy must match one of the policy names defined in the `routing_policies` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
   */
   readonly exportPolicy?: string;
   /**
   * Hold time is three times the interval at which keepalive messages are sent. It indicates to the peer the length of time that it should consider the sender valid. Must be 0 or a number in the range 3-65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#hold_time DeviceSwitch#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#hold_time DeviceSwitch#hold_time}
   */
   readonly holdTime?: number;
   /**
   * Import policy must match one of the policy names defined in the `routing_policies` property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
   */
   readonly importPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#local_as DeviceSwitch#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#local_as DeviceSwitch#local_as}
   */
   readonly localAs: string;
   /**
   * Property key is the BGP Neighbor IP Address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#neighbors DeviceSwitch#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#neighbors DeviceSwitch#neighbors}
   */
   readonly neighbors?: { [key: string]: DeviceSwitchBgpConfigNeighbors } | cdktf.IResolvable;
   /**
   * List of network names for BGP configuration. When a network is specified, a BGP group will be added to the VRF that network is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
   /**
   * enum: `external`, `internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type: string;
 }
@@ -1801,29 +1807,29 @@ export class DeviceSwitchBgpConfigMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchDhcpSnooping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
   */
   readonly allNetworks?: boolean | cdktf.IResolvable;
   /**
   * Enable for dynamic ARP inspection check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_arp_spoof_check DeviceSwitch#enable_arp_spoof_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_arp_spoof_check DeviceSwitch#enable_arp_spoof_check}
   */
   readonly enableArpSpoofCheck?: boolean | cdktf.IResolvable;
   /**
   * Enable for check for forging source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_ip_source_guard DeviceSwitch#enable_ip_source_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_ip_source_guard DeviceSwitch#enable_ip_source_guard}
   */
   readonly enableIpSourceGuard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If `all_networks`==`false`, list of network with DHCP snooping enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
 }
@@ -2033,15 +2039,15 @@ export class DeviceSwitchDhcpSnoopingOutputReference extends cdktf.ComplexObject
 }
 export interface DeviceSwitchDhcpdConfigConfigFixedBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip DeviceSwitch#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip DeviceSwitch#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip6 DeviceSwitch#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip6 DeviceSwitch#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name?: string;
 }
@@ -2215,11 +2221,11 @@ export interface DeviceSwitchDhcpdConfigConfigOptions {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#value DeviceSwitch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#value DeviceSwitch#value}
   */
   readonly value?: string;
 }
@@ -2364,11 +2370,11 @@ export interface DeviceSwitchDhcpdConfigConfigVendorEncapsulated {
   /**
   * enum: `boolean`, `hex`, `int16`, `int32`, `ip`, `string`, `uint16`, `uint32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#value DeviceSwitch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#value DeviceSwitch#value}
   */
   readonly value?: string;
 }
@@ -2513,92 +2519,92 @@ export interface DeviceSwitchDhcpdConfigConfig {
   /**
   * If `type`==`server` or `type6`==`server` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns_servers DeviceSwitch#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns_servers DeviceSwitch#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * If `type`==`server` or `type6`==`server` - optional, if not defined, system one will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
   * If `type`==`server` or `type6`==`server`. Property key is the MAC Address. Format is `[0-9a-f]{12}` (e.g. "5684dae9ac8b")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#fixed_bindings DeviceSwitch#fixed_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#fixed_bindings DeviceSwitch#fixed_bindings}
   */
   readonly fixedBindings?: { [key: string]: DeviceSwitchDhcpdConfigConfigFixedBindings } | cdktf.IResolvable;
   /**
   * If `type`==`server`  - optional, `ip` will be used if not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gateway DeviceSwitch#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gateway DeviceSwitch#gateway}
   */
   readonly gateway?: string;
   /**
   * If `type`==`server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip_end DeviceSwitch#ip_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip_end DeviceSwitch#ip_end}
   */
   readonly ipEnd?: string;
   /**
   * If `type6`==`server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip_end6 DeviceSwitch#ip_end6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip_end6 DeviceSwitch#ip_end6}
   */
   readonly ipEnd6?: string;
   /**
   * If `type`==`server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip_start DeviceSwitch#ip_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip_start DeviceSwitch#ip_start}
   */
   readonly ipStart?: string;
   /**
   * If `type6`==`server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip_start6 DeviceSwitch#ip_start6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip_start6 DeviceSwitch#ip_start6}
   */
   readonly ipStart6?: string;
   /**
   * In seconds, lease time has to be between 3600 [1hr] - 604800 [1 week], default is 86400 [1 day]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#lease_time DeviceSwitch#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#lease_time DeviceSwitch#lease_time}
   */
   readonly leaseTime?: number;
   /**
   * If `type`==`server` or `type6`==`server`. Property key is the DHCP option number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#options DeviceSwitch#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#options DeviceSwitch#options}
   */
   readonly options?: { [key: string]: DeviceSwitchDhcpdConfigConfigOptions } | cdktf.IResolvable;
   /**
   * `server_id_override`==`true` means the device, when acts as DHCP relay and forwards DHCP responses from DHCP server to clients, 
   * should overwrite the Sever Identifier option (i.e. DHCP option 54) in DHCP responses with its own IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_id_override DeviceSwitch#server_id_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_id_override DeviceSwitch#server_id_override}
   */
   readonly serverIdOverride?: boolean | cdktf.IResolvable;
   /**
   * If `type`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#servers DeviceSwitch#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#servers DeviceSwitch#servers}
   */
   readonly servers?: string[];
   /**
   * If `type6`==`relay`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#servers6 DeviceSwitch#servers6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#servers6 DeviceSwitch#servers6}
   */
   readonly servers6?: string[];
   /**
   * enum: `none`, `relay` (DHCP Relay), `server` (DHCP Server)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
   * enum: `none`, `relay` (DHCP Relay), `server` (DHCP Server)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type6 DeviceSwitch#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type6 DeviceSwitch#type6}
   */
   readonly type6?: string;
   /**
@@ -2606,7 +2612,7 @@ export interface DeviceSwitchDhcpdConfigConfig {
   *   * enterprise number: 1-65535 (https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers)
   *   * sub option code: 1-255, sub-option code'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vendor_encapsulated DeviceSwitch#vendor_encapsulated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vendor_encapsulated DeviceSwitch#vendor_encapsulated}
   */
   readonly vendorEncapsulated?: { [key: string]: DeviceSwitchDhcpdConfigConfigVendorEncapsulated } | cdktf.IResolvable;
 }
@@ -3157,13 +3163,13 @@ export interface DeviceSwitchDhcpdConfig {
   /**
   * Property key is the network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#config DeviceSwitch#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#config DeviceSwitch#config}
   */
   readonly config?: { [key: string]: DeviceSwitchDhcpdConfigConfig } | cdktf.IResolvable;
   /**
   * If set to `true`, enable the DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -3286,11 +3292,11 @@ export class DeviceSwitchDhcpdConfigOutputReference extends cdktf.ComplexObject 
 }
 export interface DeviceSwitchExtraRoutesNextQualified {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#metric DeviceSwitch#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#metric DeviceSwitch#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preference DeviceSwitch#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preference DeviceSwitch#preference}
   */
   readonly preference?: number;
 }
@@ -3435,29 +3441,29 @@ export interface DeviceSwitchExtraRoutes {
   /**
   * This takes precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#discard DeviceSwitch#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#discard DeviceSwitch#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#metric DeviceSwitch#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#metric DeviceSwitch#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#next_qualified DeviceSwitch#next_qualified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#next_qualified DeviceSwitch#next_qualified}
   */
   readonly nextQualified?: { [key: string]: DeviceSwitchExtraRoutesNextQualified } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_resolve DeviceSwitch#no_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_resolve DeviceSwitch#no_resolve}
   */
   readonly noResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preference DeviceSwitch#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preference DeviceSwitch#preference}
   */
   readonly preference?: number;
   /**
   * Next-hop IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#via DeviceSwitch#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#via DeviceSwitch#via}
   */
   readonly via: string;
 }
@@ -3713,11 +3719,11 @@ export class DeviceSwitchExtraRoutesMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchExtraRoutes6NextQualified {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#metric DeviceSwitch#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#metric DeviceSwitch#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preference DeviceSwitch#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preference DeviceSwitch#preference}
   */
   readonly preference?: number;
 }
@@ -3862,29 +3868,29 @@ export interface DeviceSwitchExtraRoutes6 {
   /**
   * This takes precedence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#discard DeviceSwitch#discard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#discard DeviceSwitch#discard}
   */
   readonly discard?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#metric DeviceSwitch#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#metric DeviceSwitch#metric}
   */
   readonly metric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#next_qualified DeviceSwitch#next_qualified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#next_qualified DeviceSwitch#next_qualified}
   */
   readonly nextQualified?: { [key: string]: DeviceSwitchExtraRoutes6NextQualified } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_resolve DeviceSwitch#no_resolve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_resolve DeviceSwitch#no_resolve}
   */
   readonly noResolve?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preference DeviceSwitch#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preference DeviceSwitch#preference}
   */
   readonly preference?: number;
   /**
   * Next-hop IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#via DeviceSwitch#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#via DeviceSwitch#via}
   */
   readonly via: string;
 }
@@ -4142,37 +4148,37 @@ export interface DeviceSwitchIpConfig {
   /**
   * Required when `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns DeviceSwitch#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns DeviceSwitch#dns}
   */
   readonly dns?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dns_suffix DeviceSwitch#dns_suffix}
   */
   readonly dnsSuffix?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gateway DeviceSwitch#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gateway DeviceSwitch#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip DeviceSwitch#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip DeviceSwitch#ip}
   */
   readonly ip?: string;
   /**
   * Used only if `subnet` is not specified in `networks`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#netmask DeviceSwitch#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#netmask DeviceSwitch#netmask}
   */
   readonly netmask?: string;
   /**
   * Network where this mgmt IP reside, this will be used as default network for outbound-ssh, dns, ntp, dns, tacplus, radius, syslog, snmp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
 }
@@ -4442,37 +4448,37 @@ export interface DeviceSwitchLocalPortConfigStormControl {
   /**
   * Whether to disable the port when storm control is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_port DeviceSwitch#disable_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_port DeviceSwitch#disable_port}
   */
   readonly disablePort?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on broadcast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_broadcast DeviceSwitch#no_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_broadcast DeviceSwitch#no_broadcast}
   */
   readonly noBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_multicast DeviceSwitch#no_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_multicast DeviceSwitch#no_multicast}
   */
   readonly noMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on registered multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_registered_multicast DeviceSwitch#no_registered_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_registered_multicast DeviceSwitch#no_registered_multicast}
   */
   readonly noRegisteredMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on unknown unicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_unknown_unicast DeviceSwitch#no_unknown_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_unknown_unicast DeviceSwitch#no_unknown_unicast}
   */
   readonly noUnknownUnicast?: boolean | cdktf.IResolvable;
   /**
   * Bandwidth-percentage, configures the storm control level as a percentage of the available bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#percentage DeviceSwitch#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#percentage DeviceSwitch#percentage}
   */
   readonly percentage?: number;
 }
@@ -4713,213 +4719,213 @@ export interface DeviceSwitchLocalPortConfig {
   /**
   * Only if `mode`==`trunk` whether to trunk all network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
   */
   readonly allNetworks?: boolean | cdktf.IResolvable;
   /**
-  * Controls whether DHCP server traffic is allowed on ports using this configuration if DHCP snooping is enabled. This is a tri-state setting; true: ports become trusted ports allowing DHCP server traffic, false: ports become untrusted blocking DHCP server traffic, undefined: use system defaults (access ports default to untrusted, trunk ports default to trusted).
+  * Controls whether DHCP server traffic is allowed on ports using this configuration if DHCP snooping is enabled. This is a tri-state setting; `true`: ports become trusted ports allowing DHCP server traffic, `false`: ports become untrusted blocking DHCP server traffic, undefined: use system defaults (access ports default to untrusted, trunk ports default to trusted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#allow_dhcpd DeviceSwitch#allow_dhcpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#allow_dhcpd DeviceSwitch#allow_dhcpd}
   */
   readonly allowDhcpd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#allow_multiple_supplicants DeviceSwitch#allow_multiple_supplicants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#allow_multiple_supplicants DeviceSwitch#allow_multiple_supplicants}
   */
   readonly allowMultipleSupplicants?: boolean | cdktf.IResolvable;
   /**
   * Only if `port_auth`==`dot1x` bypass auth for known clients if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bypass_auth_when_server_down DeviceSwitch#bypass_auth_when_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bypass_auth_when_server_down DeviceSwitch#bypass_auth_when_server_down}
   */
   readonly bypassAuthWhenServerDown?: boolean | cdktf.IResolvable;
   /**
   * Only if `port_auth`=`dot1x` bypass auth for all (including unknown clients) if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bypass_auth_when_server_down_for_unknown_client DeviceSwitch#bypass_auth_when_server_down_for_unknown_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bypass_auth_when_server_down_for_unknown_client DeviceSwitch#bypass_auth_when_server_down_for_unknown_client}
   */
   readonly bypassAuthWhenServerDownForUnknownClient?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#description DeviceSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#description DeviceSwitch#description}
   */
   readonly description?: string;
   /**
   * Only if `mode`!=`dynamic` if speed and duplex are specified, whether to disable autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * Whether the port is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disabled DeviceSwitch#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disabled DeviceSwitch#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * link connection mode. enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#duplex DeviceSwitch#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#duplex DeviceSwitch#duplex}
   */
   readonly duplex?: string;
   /**
   * Only if `port_auth`==`dot1x`, if dynamic vlan is used, specify the possible networks/vlans RADIUS can return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dynamic_vlan_networks DeviceSwitch#dynamic_vlan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dynamic_vlan_networks DeviceSwitch#dynamic_vlan_networks}
   */
   readonly dynamicVlanNetworks?: string[];
   /**
   * Only if `port_auth`==`dot1x` whether to enable MAC Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_mac_auth DeviceSwitch#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_mac_auth DeviceSwitch#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_qos DeviceSwitch#enable_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_qos DeviceSwitch#enable_qos}
   */
   readonly enableQos?: boolean | cdktf.IResolvable;
   /**
   * Only if `port_auth`==`dot1x` which network to put the device into if the device cannot do dot1x. default is null (i.e. not allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#guest_network DeviceSwitch#guest_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#guest_network DeviceSwitch#guest_network}
   */
   readonly guestNetwork?: string;
   /**
   * inter_switch_link is used together with "isolation" under networks. NOTE: inter_switch_link works only between Juniper devices. This has to be applied to both ports connected together
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#inter_switch_link DeviceSwitch#inter_switch_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#inter_switch_link DeviceSwitch#inter_switch_link}
   */
   readonly interSwitchLink?: boolean | cdktf.IResolvable;
   /**
   * Only if `enable_mac_auth`==`true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_only DeviceSwitch#mac_auth_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_only DeviceSwitch#mac_auth_only}
   */
   readonly macAuthOnly?: boolean | cdktf.IResolvable;
   /**
   * Only if `enable_mac_auth`==`true` + `mac_auth_only`==`false`, dot1x will be given priority then mac_auth. Enable this to prefer mac_auth over dot1x.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_preferred DeviceSwitch#mac_auth_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_preferred DeviceSwitch#mac_auth_preferred}
   */
   readonly macAuthPreferred?: boolean | cdktf.IResolvable;
   /**
   * Only if `enable_mac_auth` ==`true`. This type is ignored if mist_nac is enabled. enum: `eap-md5`, `eap-peap`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_protocol DeviceSwitch#mac_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_protocol DeviceSwitch#mac_auth_protocol}
   */
   readonly macAuthProtocol?: string;
   /**
   * Max number of mac addresses, default is 0 for unlimited, otherwise range is 1 or higher, with upper bound constrained by platform
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
   */
   readonly macLimit?: number;
   /**
   * enum: `access`, `inet`, `trunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mode DeviceSwitch#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mode DeviceSwitch#mode}
   */
   readonly mode?: string;
   /**
   * Media maximum transmission unit (MTU) is the largest data unit that can be forwarded without fragmentation. The default value is 1514.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mtu DeviceSwitch#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mtu DeviceSwitch#mtu}
   */
   readonly mtu?: number;
   /**
   * Only if `mode`==`trunk`, the list of network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
   /**
   * Additional note for the port config override
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#note DeviceSwitch#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#note DeviceSwitch#note}
   */
   readonly note?: string;
   /**
   * Only if `mode`==`access` and `port_auth`!=`dot1x` whether the port should retain dynamically learned MAC addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#persist_mac DeviceSwitch#persist_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#persist_mac DeviceSwitch#persist_mac}
   */
   readonly persistMac?: boolean | cdktf.IResolvable;
   /**
   * Whether PoE capabilities are disabled for a port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * if dot1x is desired, set to dot1x. enum: `dot1x`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_auth DeviceSwitch#port_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_auth DeviceSwitch#port_auth}
   */
   readonly portAuth?: string;
   /**
   * Native network/vlan for untagged traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_network DeviceSwitch#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_network DeviceSwitch#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Only `port_auth`=`dot1x`, reauthentication interval range between 10 and 65535 (default: 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#reauth_interval DeviceSwitch#reauth_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#reauth_interval DeviceSwitch#reauth_interval}
   */
   readonly reauthInterval?: string;
   /**
   * Only if `port_auth`==`dot1x` sets server fail fallback vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_fail_network DeviceSwitch#server_fail_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_fail_network DeviceSwitch#server_fail_network}
   */
   readonly serverFailNetwork?: string;
   /**
   * Only if `port_auth`==`dot1x` when radius server reject / fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_reject_network DeviceSwitch#server_reject_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_reject_network DeviceSwitch#server_reject_network}
   */
   readonly serverRejectNetwork?: string;
   /**
   * enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#speed DeviceSwitch#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#speed DeviceSwitch#speed}
   */
   readonly speed?: string;
   /**
   * Switch storm control
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#storm_control DeviceSwitch#storm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#storm_control DeviceSwitch#storm_control}
   */
   readonly stormControl?: DeviceSwitchLocalPortConfigStormControl;
   /**
   * When enabled, the port is not expected to receive BPDU frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_edge DeviceSwitch#stp_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_edge DeviceSwitch#stp_edge}
   */
   readonly stpEdge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_no_root_port DeviceSwitch#stp_no_root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_no_root_port DeviceSwitch#stp_no_root_port}
   */
   readonly stpNoRootPort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_p2p DeviceSwitch#stp_p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_p2p DeviceSwitch#stp_p2p}
   */
   readonly stpP2P?: boolean | cdktf.IResolvable;
   /**
   * Port usage name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#usage DeviceSwitch#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#usage DeviceSwitch#usage}
   */
   readonly usage: string;
   /**
   * If this is connected to a vstp network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_vstp DeviceSwitch#use_vstp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_vstp DeviceSwitch#use_vstp}
   */
   readonly useVstp?: boolean | cdktf.IResolvable;
   /**
   * Network/vlan for voip traffic, must also set port_network. to authenticate device, set port_auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#voip_network DeviceSwitch#voip_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#voip_network DeviceSwitch#voip_network}
   */
   readonly voipNetwork?: string;
 }
@@ -6074,11 +6080,11 @@ export class DeviceSwitchLocalPortConfigMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchMistNac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
 }
@@ -6203,39 +6209,39 @@ export interface DeviceSwitchNetworks {
   /**
   * Only required for EVPN-VXLAN networks, IPv4 Virtual Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gateway DeviceSwitch#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gateway DeviceSwitch#gateway}
   */
   readonly gateway?: string;
   /**
   * Only required for EVPN-VXLAN networks, IPv6 Virtual Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gateway6 DeviceSwitch#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gateway6 DeviceSwitch#gateway6}
   */
   readonly gateway6?: string;
   /**
   * whether to stop clients to talk to each other, default is false (when enabled, a unique isolation_vlan_id is required). NOTE: this features requires uplink device to also a be Juniper device and `inter_switch_link` to be set. See also `inter_isolation_network_link` and `community_vlan_id` in port_usage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#isolation DeviceSwitch#isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#isolation DeviceSwitch#isolation}
   */
   readonly isolation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#isolation_vlan_id DeviceSwitch#isolation_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#isolation_vlan_id DeviceSwitch#isolation_vlan_id}
   */
   readonly isolationVlanId?: string;
   /**
   * Optional for pure switching, required when L3 / routing features are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#subnet DeviceSwitch#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#subnet DeviceSwitch#subnet}
   */
   readonly subnet?: string;
   /**
   * Optional for pure switching, required when L3 / routing features are used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#subnet6 DeviceSwitch#subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#subnet6 DeviceSwitch#subnet6}
   */
   readonly subnet6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vlan_id DeviceSwitch#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vlan_id DeviceSwitch#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -6520,41 +6526,41 @@ export class DeviceSwitchNetworksMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchOobIpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#gateway DeviceSwitch#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#gateway DeviceSwitch#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip DeviceSwitch#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip DeviceSwitch#ip}
   */
   readonly ip?: string;
   /**
   * Used only if `subnet` is not specified in `networks`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#netmask DeviceSwitch#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#netmask DeviceSwitch#netmask}
   */
   readonly netmask?: string;
   /**
   * Optional, the network to be used for mgmt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
   * If supported on the platform. If enabled, DNS will be using this routing-instance, too
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_mgmt_vrf DeviceSwitch#use_mgmt_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_mgmt_vrf DeviceSwitch#use_mgmt_vrf}
   */
   readonly useMgmtVrf?: boolean | cdktf.IResolvable;
   /**
   * For host-out traffic (NTP/TACPLUS/RADIUS/SYSLOG/SNMP), if alternative source network/ip is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_mgmt_vrf_for_host_out DeviceSwitch#use_mgmt_vrf_for_host_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_mgmt_vrf_for_host_out DeviceSwitch#use_mgmt_vrf_for_host_out}
   */
   readonly useMgmtVrfForHostOut?: boolean | cdktf.IResolvable;
 }
@@ -6824,61 +6830,61 @@ export interface DeviceSwitchOspfAreasNetworks {
   /**
   * Required if `auth_type`==`md5`. Property key is the key number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_keys DeviceSwitch#auth_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_keys DeviceSwitch#auth_keys}
   */
   readonly authKeys?: { [key: string]: string };
   /**
   * Required if `auth_type`==`password`, the password, max length is 8
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_password DeviceSwitch#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_password DeviceSwitch#auth_password}
   */
   readonly authPassword?: string;
   /**
   * auth type. enum: `md5`, `none`, `password`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_type DeviceSwitch#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_type DeviceSwitch#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bfd_minimum_interval DeviceSwitch#bfd_minimum_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bfd_minimum_interval DeviceSwitch#bfd_minimum_interval}
   */
   readonly bfdMinimumInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dead_interval DeviceSwitch#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dead_interval DeviceSwitch#dead_interval}
   */
   readonly deadInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
   */
   readonly exportPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#hello_interval DeviceSwitch#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#hello_interval DeviceSwitch#hello_interval}
   */
   readonly helloInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
   */
   readonly importPolicy?: string;
   /**
   * interface type (nbma = non-broadcast multi-access). enum: `broadcast`, `nbma`, `p2mp`, `p2p`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#interface_type DeviceSwitch#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#interface_type DeviceSwitch#interface_type}
   */
   readonly interfaceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#metric DeviceSwitch#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#metric DeviceSwitch#metric}
   */
   readonly metric?: number;
   /**
   * By default, we'll re-advertise all learned OSPF routes toward overlay
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_readvertise_to_overlay DeviceSwitch#no_readvertise_to_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_readvertise_to_overlay DeviceSwitch#no_readvertise_to_overlay}
   */
   readonly noReadvertiseToOverlay?: boolean | cdktf.IResolvable;
   /**
   * Whether to send OSPF-Hello
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#passive DeviceSwitch#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#passive DeviceSwitch#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
 }
@@ -7311,17 +7317,17 @@ export class DeviceSwitchOspfAreasNetworksMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchOspfAreas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#include_loopback DeviceSwitch#include_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#include_loopback DeviceSwitch#include_loopback}
   */
   readonly includeLoopback?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks: { [key: string]: DeviceSwitchOspfAreasNetworks } | cdktf.IResolvable;
   /**
   * OSPF type. enum: `default`, `nssa`, `stub`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
 }
@@ -7492,7 +7498,7 @@ export interface DeviceSwitchOspfConfigAreas {
   /**
   * Disable OSPF summary routes for this area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_summary DeviceSwitch#no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_summary DeviceSwitch#no_summary}
   */
   readonly noSummary?: boolean | cdktf.IResolvable;
 }
@@ -7608,29 +7614,29 @@ export interface DeviceSwitchOspfConfig {
   /**
   * Property key is the area name. Defines the OSPF areas configured on the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#areas DeviceSwitch#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#areas DeviceSwitch#areas}
   */
   readonly areas?: { [key: string]: DeviceSwitchOspfConfigAreas } | cdktf.IResolvable;
   /**
   * Enable OSPF on the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * optional, for basic scenario, `import_policy` can be specified and can be applied to all networks in all areas if not explicitly specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#export_policy DeviceSwitch#export_policy}
   */
   readonly exportPolicy?: string;
   /**
   * optional, for basic scenario, `import_policy` can be specified and can be applied to all networks in all areas if not explicitly specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#import_policy DeviceSwitch#import_policy}
   */
   readonly importPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#reference_bandwidth DeviceSwitch#reference_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#reference_bandwidth DeviceSwitch#reference_bandwidth}
   */
   readonly referenceBandwidth?: string;
 }
@@ -7842,43 +7848,43 @@ export interface DeviceSwitchOtherIpConfigs {
   /**
   * For EVPN, if anycast is desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#evpn_anycast DeviceSwitch#evpn_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#evpn_anycast DeviceSwitch#evpn_anycast}
   */
   readonly evpnAnycast?: boolean | cdktf.IResolvable;
   /**
   * Required if `type`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip DeviceSwitch#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip DeviceSwitch#ip}
   */
   readonly ip?: string;
   /**
   * Required if `type6`==`static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ip6 DeviceSwitch#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ip6 DeviceSwitch#ip6}
   */
   readonly ip6?: string;
   /**
   * Optional, `subnet` from `network` definition will be used if defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#netmask DeviceSwitch#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#netmask DeviceSwitch#netmask}
   */
   readonly netmask?: string;
   /**
   * Optional, `subnet` from `network` definition will be used if defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#netmask6 DeviceSwitch#netmask6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#netmask6 DeviceSwitch#netmask6}
   */
   readonly netmask6?: string;
   /**
   * enum: `dhcp`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
   * enum: `autoconf`, `dhcp`, `disabled`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type6 DeviceSwitch#type6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type6 DeviceSwitch#type6}
   */
   readonly type6?: string;
 }
@@ -8168,95 +8174,95 @@ export interface DeviceSwitchPortConfig {
   /**
   * To disable LACP support for the AE interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ae_disable_lacp DeviceSwitch#ae_disable_lacp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ae_disable_lacp DeviceSwitch#ae_disable_lacp}
   */
   readonly aeDisableLacp?: boolean | cdktf.IResolvable;
   /**
   * Users could force to use the designated AE name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ae_idx DeviceSwitch#ae_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ae_idx DeviceSwitch#ae_idx}
   */
   readonly aeIdx?: number;
   /**
   * To use fast timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ae_lacp_slow DeviceSwitch#ae_lacp_slow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ae_lacp_slow DeviceSwitch#ae_lacp_slow}
   */
   readonly aeLacpSlow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#aggregated DeviceSwitch#aggregated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#aggregated DeviceSwitch#aggregated}
   */
   readonly aggregated?: boolean | cdktf.IResolvable;
   /**
   * To generate port up/down alarm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#critical DeviceSwitch#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#critical DeviceSwitch#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#description DeviceSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#description DeviceSwitch#description}
   */
   readonly description?: string;
   /**
   * If `speed` and `duplex` are specified, whether to disable autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#duplex DeviceSwitch#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#duplex DeviceSwitch#duplex}
   */
   readonly duplex?: string;
   /**
   * Enable dynamic usage for this port. Set to `dynamic` to enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dynamic_usage DeviceSwitch#dynamic_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dynamic_usage DeviceSwitch#dynamic_usage}
   */
   readonly dynamicUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#esilag DeviceSwitch#esilag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#esilag DeviceSwitch#esilag}
   */
   readonly esilag?: boolean | cdktf.IResolvable;
   /**
   * Media maximum transmission unit (MTU) is the largest data unit that can be forwarded without fragmentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mtu DeviceSwitch#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mtu DeviceSwitch#mtu}
   */
   readonly mtu?: number;
   /**
   * List of network names. Required if `usage`==`inet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
   /**
   * Prevent helpdesk to override the port config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_local_overwrite DeviceSwitch#no_local_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_local_overwrite DeviceSwitch#no_local_overwrite}
   */
   readonly noLocalOverwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * Required if `usage`==`vlan_tunnel`. Q-in-Q tunneling using All-in-one bundling. This also enables standard L2PT for interfaces that are not encapsulation tunnel interfaces and uses MAC rewrite operation. [View more information](https://www.juniper.net/documentation/us/en/software/junos/multicast-l2/topics/topic-map/q-in-q.html#id-understanding-qinq-tunneling-and-vlan-translation)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_network DeviceSwitch#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_network DeviceSwitch#port_network}
   */
   readonly portNetwork?: string;
   /**
   * enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#speed DeviceSwitch#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#speed DeviceSwitch#speed}
   */
   readonly speed?: string;
   /**
   * Port usage name. For Q-in-Q, use `vlan_tunnel`. If EVPN is used, use `evpn_uplink`or `evpn_downlink`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#usage DeviceSwitch#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#usage DeviceSwitch#usage}
   */
   readonly usage: string;
 }
@@ -8831,41 +8837,41 @@ export class DeviceSwitchPortConfigMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchPortConfigOverwrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#description DeviceSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#description DeviceSwitch#description}
   */
   readonly description?: string;
   /**
   * Whether the port is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disabled DeviceSwitch#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disabled DeviceSwitch#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Link connection mode. enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#duplex DeviceSwitch#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#duplex DeviceSwitch#duplex}
   */
   readonly duplex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
   */
   readonly macLimit?: string;
   /**
   * Whether PoE capabilities are disabled for a port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * Native network/vlan for untagged traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_network DeviceSwitch#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_network DeviceSwitch#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Port Speed, default is auto to automatically negotiate speed enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#speed DeviceSwitch#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#speed DeviceSwitch#speed}
   */
   readonly speed?: string;
 }
@@ -9155,37 +9161,37 @@ export interface DeviceSwitchPortMirroring {
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#input_networks_ingress DeviceSwitch#input_networks_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#input_networks_ingress DeviceSwitch#input_networks_ingress}
   */
   readonly inputNetworksIngress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#input_port_ids_egress DeviceSwitch#input_port_ids_egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#input_port_ids_egress DeviceSwitch#input_port_ids_egress}
   */
   readonly inputPortIdsEgress?: string[];
   /**
   * At least one of the `input_port_ids_ingress`, `input_port_ids_egress` or `input_networks_ingress ` should be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#input_port_ids_ingress DeviceSwitch#input_port_ids_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#input_port_ids_ingress DeviceSwitch#input_port_ids_ingress}
   */
   readonly inputPortIdsIngress?: string[];
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#output_ip_address DeviceSwitch#output_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#output_ip_address DeviceSwitch#output_ip_address}
   */
   readonly outputIpAddress?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#output_network DeviceSwitch#output_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#output_network DeviceSwitch#output_network}
   */
   readonly outputNetwork?: string;
   /**
   * Exactly one of the `output_ip_address`, `output_port_id` or `output_network` should be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#output_port_id DeviceSwitch#output_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#output_port_id DeviceSwitch#output_port_id}
   */
   readonly outputPortId?: string;
 }
@@ -9444,13 +9450,13 @@ export class DeviceSwitchPortMirroringMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchPortUsagesRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#equals DeviceSwitch#equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#equals DeviceSwitch#equals}
   */
   readonly equalTo?: string;
   /**
   * Use `equals_any` to match any item in a list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#equals_any DeviceSwitch#equals_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#equals_any DeviceSwitch#equals_any}
   */
   readonly equalsAny?: string[];
   /**
@@ -9458,19 +9464,19 @@ export interface DeviceSwitchPortUsagesRules {
   * "split(.)[1]": "a.b.c" -> "b"
   * "split(-)[1][0:3]: "a1234-b5678-c90" -> "b56"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#expression DeviceSwitch#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#expression DeviceSwitch#expression}
   */
   readonly expression?: string;
   /**
   * enum: `link_peermac`, `lldp_chassis_id`, `lldp_hardware_revision`, `lldp_manufacturer_name`, `lldp_oui`, `lldp_serial_number`, `lldp_system_description`, `lldp_system_name`, `radius_dynamicfilter`, `radius_usermac`, `radius_username`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#src DeviceSwitch#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#src DeviceSwitch#src}
   */
   readonly src: string;
   /**
   * `port_usage` name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#usage DeviceSwitch#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#usage DeviceSwitch#usage}
   */
   readonly usage?: string;
 }
@@ -9701,37 +9707,37 @@ export interface DeviceSwitchPortUsagesStormControl {
   /**
   * Whether to disable the port when storm control is triggered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_port DeviceSwitch#disable_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_port DeviceSwitch#disable_port}
   */
   readonly disablePort?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on broadcast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_broadcast DeviceSwitch#no_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_broadcast DeviceSwitch#no_broadcast}
   */
   readonly noBroadcast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_multicast DeviceSwitch#no_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_multicast DeviceSwitch#no_multicast}
   */
   readonly noMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on registered multicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_registered_multicast DeviceSwitch#no_registered_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_registered_multicast DeviceSwitch#no_registered_multicast}
   */
   readonly noRegisteredMulticast?: boolean | cdktf.IResolvable;
   /**
   * Whether to disable storm control on unknown unicast traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#no_unknown_unicast DeviceSwitch#no_unknown_unicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#no_unknown_unicast DeviceSwitch#no_unknown_unicast}
   */
   readonly noUnknownUnicast?: boolean | cdktf.IResolvable;
   /**
   * Bandwidth-percentage, configures the storm control level as a percentage of the available bandwidth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#percentage DeviceSwitch#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#percentage DeviceSwitch#percentage}
   */
   readonly percentage?: number;
 }
@@ -9972,259 +9978,259 @@ export interface DeviceSwitchPortUsages {
   /**
   * Only if `mode`==`trunk`. Whether to trunk all network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#all_networks DeviceSwitch#all_networks}
   */
   readonly allNetworks?: boolean | cdktf.IResolvable;
   /**
-  * Only applies when `mode`!=`dynamic`. Controls whether DHCP server traffic is allowed on ports using this configuration if DHCP snooping is enabled. This is a tri-state setting; true: ports become trusted ports allowing DHCP server traffic, false: ports become untrusted blocking DHCP server traffic, undefined: use system defaults (access ports default to untrusted, trunk ports default to trusted).
+  * Only applies when `mode`!=`dynamic`. Controls whether DHCP server traffic is allowed on ports using this configuration if DHCP snooping is enabled. This is a tri-state setting; `true`: ports become trusted ports allowing DHCP server traffic, `false`: ports become untrusted blocking DHCP server traffic, undefined: use system defaults (access ports default to untrusted, trunk ports default to trusted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#allow_dhcpd DeviceSwitch#allow_dhcpd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#allow_dhcpd DeviceSwitch#allow_dhcpd}
   */
   readonly allowDhcpd?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#allow_multiple_supplicants DeviceSwitch#allow_multiple_supplicants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#allow_multiple_supplicants DeviceSwitch#allow_multiple_supplicants}
   */
   readonly allowMultipleSupplicants?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Bypass auth for known clients if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bypass_auth_when_server_down DeviceSwitch#bypass_auth_when_server_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bypass_auth_when_server_down DeviceSwitch#bypass_auth_when_server_down}
   */
   readonly bypassAuthWhenServerDown?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`=`dot1x`. Bypass auth for all (including unknown clients) if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bypass_auth_when_server_down_for_unknown_client DeviceSwitch#bypass_auth_when_server_down_for_unknown_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bypass_auth_when_server_down_for_unknown_client DeviceSwitch#bypass_auth_when_server_down_for_unknown_client}
   */
   readonly bypassAuthWhenServerDownForUnknownClient?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Bypass auth for VOIP if set to true when RADIUS server is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bypass_auth_when_server_down_for_voip DeviceSwitch#bypass_auth_when_server_down_for_voip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bypass_auth_when_server_down_for_voip DeviceSwitch#bypass_auth_when_server_down_for_voip}
   */
   readonly bypassAuthWhenServerDownForVoip?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. To be used together with `isolation` under networks. Signaling that this port connects to the networks isolated but wired clients belong to the same community can talk to each other
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#community_vlan_id DeviceSwitch#community_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#community_vlan_id DeviceSwitch#community_vlan_id}
   */
   readonly communityVlanId?: number;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#description DeviceSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#description DeviceSwitch#description}
   */
   readonly description?: string;
   /**
   * Only if `mode`!=`dynamic`. If speed and duplex are specified, whether to disable autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_autoneg DeviceSwitch#disable_autoneg}
   */
   readonly disableAutoneg?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether the port is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disabled DeviceSwitch#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disabled DeviceSwitch#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Link connection mode. enum: `auto`, `full`, `half`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#duplex DeviceSwitch#duplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#duplex DeviceSwitch#duplex}
   */
   readonly duplex?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`, if dynamic vlan is used, specify the possible networks/vlans RADIUS can return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dynamic_vlan_networks DeviceSwitch#dynamic_vlan_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dynamic_vlan_networks DeviceSwitch#dynamic_vlan_networks}
   */
   readonly dynamicVlanNetworks?: string[];
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Whether to enable MAC Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_mac_auth DeviceSwitch#enable_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_mac_auth DeviceSwitch#enable_mac_auth}
   */
   readonly enableMacAuth?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_qos DeviceSwitch#enable_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_qos DeviceSwitch#enable_qos}
   */
   readonly enableQos?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Which network to put the device into if the device cannot do dot1x. default is null (i.e. not allowed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#guest_network DeviceSwitch#guest_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#guest_network DeviceSwitch#guest_network}
   */
   readonly guestNetwork?: string;
   /**
   * Only if `mode`!=`dynamic`. `inter_isolation_network_link` is used together with `isolation` under networks, signaling that this port connects to isolated networks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#inter_isolation_network_link DeviceSwitch#inter_isolation_network_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#inter_isolation_network_link DeviceSwitch#inter_isolation_network_link}
   */
   readonly interIsolationNetworkLink?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. `inter_switch_link` is used together with `isolation` under networks. NOTE: `inter_switch_link` works only between Juniper devices. This has to be applied to both ports connected together
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#inter_switch_link DeviceSwitch#inter_switch_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#inter_switch_link DeviceSwitch#inter_switch_link}
   */
   readonly interSwitchLink?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `enable_mac_auth`==`true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_only DeviceSwitch#mac_auth_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_only DeviceSwitch#mac_auth_only}
   */
   readonly macAuthOnly?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` + `enable_mac_auth`==`true` + `mac_auth_only`==`false`, dot1x will be given priority then mac_auth. Enable this to prefer mac_auth over dot1x.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_preferred DeviceSwitch#mac_auth_preferred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_preferred DeviceSwitch#mac_auth_preferred}
   */
   readonly macAuthPreferred?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `enable_mac_auth` ==`true`. This type is ignored if mist_nac is enabled. enum: `eap-md5`, `eap-peap`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_auth_protocol DeviceSwitch#mac_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_auth_protocol DeviceSwitch#mac_auth_protocol}
   */
   readonly macAuthProtocol?: string;
   /**
   * Only if `mode`!=`dynamic` max number of mac addresses, default is 0 for unlimited, otherwise range is 1 to 16383 (upper bound constrained by platform)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac_limit DeviceSwitch#mac_limit}
   */
   readonly macLimit?: string;
   /**
   * `mode`==`dynamic` must only be used if the port usage name is `dynamic`. enum: `access`, `dynamic`, `inet`, `trunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mode DeviceSwitch#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mode DeviceSwitch#mode}
   */
   readonly mode?: string;
   /**
   * Only if `mode`!=`dynamic` media maximum transmission unit (MTU) is the largest data unit that can be forwarded without fragmentation. Value between 256 and 9216, default value is 1514.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mtu DeviceSwitch#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mtu DeviceSwitch#mtu}
   */
   readonly mtu?: string;
   /**
   * Only if `mode`==`trunk`, the list of network/vlans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
   /**
   * Only if `mode`==`access` and `port_auth`!=`dot1x`. Whether the port should retain dynamically learned MAC addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#persist_mac DeviceSwitch#persist_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#persist_mac DeviceSwitch#persist_mac}
   */
   readonly persistMac?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether PoE capabilities are disabled for a port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#poe_disabled DeviceSwitch#poe_disabled}
   */
   readonly poeDisabled?: boolean | cdktf.IResolvable;
   /**
   * PoE priority. enum: `low`, `high`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#poe_priority DeviceSwitch#poe_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#poe_priority DeviceSwitch#poe_priority}
   */
   readonly poePriority?: string;
   /**
   * Only if `mode`!=`dynamic`. If dot1x is desired, set to dot1x. enum: `dot1x`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_auth DeviceSwitch#port_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_auth DeviceSwitch#port_auth}
   */
   readonly portAuth?: string;
   /**
   * Only if `mode`!=`dynamic`. Native network/vlan for untagged traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_network DeviceSwitch#port_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_network DeviceSwitch#port_network}
   */
   readonly portNetwork?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`=`dot1x` reauthentication interval range between 10 and 65535 (default: 3600)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#reauth_interval DeviceSwitch#reauth_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#reauth_interval DeviceSwitch#reauth_interval}
   */
   readonly reauthInterval?: string;
   /**
   * Only if `mode`==`dynamic` Control when the DPC port should be changed to the default port usage. enum: `link_down`, `none` (let the DPC port keep at the current port usage)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#reset_default_when DeviceSwitch#reset_default_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#reset_default_when DeviceSwitch#reset_default_when}
   */
   readonly resetDefaultWhen?: string;
   /**
   * Only if `mode`==`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#rules DeviceSwitch#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#rules DeviceSwitch#rules}
   */
   readonly rules?: DeviceSwitchPortUsagesRules[] | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. Sets server fail fallback vlan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_fail_network DeviceSwitch#server_fail_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_fail_network DeviceSwitch#server_fail_network}
   */
   readonly serverFailNetwork?: string;
   /**
   * Only if `mode`!=`dynamic` and `port_auth`==`dot1x`. When radius server reject / fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_reject_network DeviceSwitch#server_reject_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_reject_network DeviceSwitch#server_reject_network}
   */
   readonly serverRejectNetwork?: string;
   /**
   * Only if `mode`!=`dynamic`, Port speed, default is auto to automatically negotiate speed enum: `100m`, `10m`, `1g`, `2.5g`, `5g`, `10g`, `25g`, `40g`, `100g`,`auto`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#speed DeviceSwitch#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#speed DeviceSwitch#speed}
   */
   readonly speed?: string;
   /**
   * Switch storm control. Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#storm_control DeviceSwitch#storm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#storm_control DeviceSwitch#storm_control}
   */
   readonly stormControl?: DeviceSwitchPortUsagesStormControl;
   /**
   * Only if `mode`!=`dynamic` and `stp_required`==`false`. Drop bridge protocol data units (BPDUs ) that enter any interface or a specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_disable DeviceSwitch#stp_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_disable DeviceSwitch#stp_disable}
   */
   readonly stpDisable?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. When enabled, the port is not expected to receive BPDU frames
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_edge DeviceSwitch#stp_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_edge DeviceSwitch#stp_edge}
   */
   readonly stpEdge?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_no_root_port DeviceSwitch#stp_no_root_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_no_root_port DeviceSwitch#stp_no_root_port}
   */
   readonly stpNoRootPort?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_p2p DeviceSwitch#stp_p2p}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_p2p DeviceSwitch#stp_p2p}
   */
   readonly stpP2P?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Whether to remain in block state if no BPDU is received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#stp_required DeviceSwitch#stp_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#stp_required DeviceSwitch#stp_required}
   */
   readonly stpRequired?: boolean | cdktf.IResolvable;
   /**
   * If this is connected to a vstp network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_vstp DeviceSwitch#use_vstp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_vstp DeviceSwitch#use_vstp}
   */
   readonly useVstp?: boolean | cdktf.IResolvable;
   /**
   * Only if `mode`!=`dynamic`. Network/vlan for voip traffic, must also set port_network. to authenticate device, set port_auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#voip_network DeviceSwitch#voip_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#voip_network DeviceSwitch#voip_network}
   */
   readonly voipNetwork?: string;
 }
@@ -11558,35 +11564,35 @@ export interface DeviceSwitchRadiusConfigAcctServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#host DeviceSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#host DeviceSwitch#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_enabled DeviceSwitch#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_enabled DeviceSwitch#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_format DeviceSwitch#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_format DeviceSwitch#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_kek DeviceSwitch#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_kek DeviceSwitch#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_mack DeviceSwitch#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_mack DeviceSwitch#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#secret DeviceSwitch#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#secret DeviceSwitch#secret}
   */
   readonly secret: string;
 }
@@ -11872,41 +11878,41 @@ export interface DeviceSwitchRadiusConfigAuthServers {
   /**
   * IP/ hostname of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#host DeviceSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#host DeviceSwitch#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_enabled DeviceSwitch#keywrap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_enabled DeviceSwitch#keywrap_enabled}
   */
   readonly keywrapEnabled?: boolean | cdktf.IResolvable;
   /**
   * enum: `ascii`, `hex`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_format DeviceSwitch#keywrap_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_format DeviceSwitch#keywrap_format}
   */
   readonly keywrapFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_kek DeviceSwitch#keywrap_kek}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_kek DeviceSwitch#keywrap_kek}
   */
   readonly keywrapKek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#keywrap_mack DeviceSwitch#keywrap_mack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#keywrap_mack DeviceSwitch#keywrap_mack}
   */
   readonly keywrapMack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
   * Whether to require Message-Authenticator in requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#require_message_authenticator DeviceSwitch#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#require_message_authenticator DeviceSwitch#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: boolean | cdktf.IResolvable;
   /**
   * Secret of RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#secret DeviceSwitch#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#secret DeviceSwitch#secret}
   */
   readonly secret: string;
 }
@@ -12219,63 +12225,63 @@ export class DeviceSwitchRadiusConfigAuthServersList extends cdktf.ComplexList {
 }
 export interface DeviceSwitchRadiusConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acct_immediate_update DeviceSwitch#acct_immediate_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acct_immediate_update DeviceSwitch#acct_immediate_update}
   */
   readonly acctImmediateUpdate?: boolean | cdktf.IResolvable;
   /**
   * How frequently should interim accounting be reported, 60-65535. default is 0 (use one specified in Access-Accept request from RADIUS Server). Very frequent messages can affect the performance of the radius server, 600 and up is recommended when enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acct_interim_interval DeviceSwitch#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acct_interim_interval DeviceSwitch#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acct_servers DeviceSwitch#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acct_servers DeviceSwitch#acct_servers}
   */
   readonly acctServers?: DeviceSwitchRadiusConfigAcctServers[] | cdktf.IResolvable;
   /**
   * enum: `ordered`, `unordered`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_server_selection DeviceSwitch#auth_server_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_server_selection DeviceSwitch#auth_server_selection}
   */
   readonly authServerSelection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_servers DeviceSwitch#auth_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_servers DeviceSwitch#auth_servers}
   */
   readonly authServers?: DeviceSwitchRadiusConfigAuthServers[] | cdktf.IResolvable;
   /**
   * Radius auth session retries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_servers_retries DeviceSwitch#auth_servers_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_servers_retries DeviceSwitch#auth_servers_retries}
   */
   readonly authServersRetries?: number;
   /**
   * Radius auth session timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#auth_servers_timeout DeviceSwitch#auth_servers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#auth_servers_timeout DeviceSwitch#auth_servers_timeout}
   */
   readonly authServersTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#coa_enabled DeviceSwitch#coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#coa_enabled DeviceSwitch#coa_enabled}
   */
   readonly coaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#coa_port DeviceSwitch#coa_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#coa_port DeviceSwitch#coa_port}
   */
   readonly coaPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#fast_dot1x_timers DeviceSwitch#fast_dot1x_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#fast_dot1x_timers DeviceSwitch#fast_dot1x_timers}
   */
   readonly fastDot1XTimers?: boolean | cdktf.IResolvable;
   /**
   * Use `network`or `source_ip`. Which network the RADIUS server resides, if there's static IP for this network, we'd use it as source-ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
   * Use `network`or `source_ip`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#source_ip DeviceSwitch#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#source_ip DeviceSwitch#source_ip}
   */
   readonly sourceIp?: string;
 }
@@ -12688,11 +12694,11 @@ export class DeviceSwitchRadiusConfigOutputReference extends cdktf.ComplexObject
 }
 export interface DeviceSwitchRemoteSyslogArchive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#files DeviceSwitch#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#files DeviceSwitch#files}
   */
   readonly files?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#size DeviceSwitch#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#size DeviceSwitch#size}
   */
   readonly size?: string;
 }
@@ -12817,13 +12823,13 @@ export interface DeviceSwitchRemoteSyslogConsoleContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#facility DeviceSwitch#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#facility DeviceSwitch#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#severity DeviceSwitch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#severity DeviceSwitch#severity}
   */
   readonly severity?: string;
 }
@@ -12968,7 +12974,7 @@ export class DeviceSwitchRemoteSyslogConsoleContentsList extends cdktf.ComplexLi
 }
 export interface DeviceSwitchRemoteSyslogConsole {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contents DeviceSwitch#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contents DeviceSwitch#contents}
   */
   readonly contents?: DeviceSwitchRemoteSyslogConsoleContents[] | cdktf.IResolvable;
 }
@@ -13062,11 +13068,11 @@ export class DeviceSwitchRemoteSyslogConsoleOutputReference extends cdktf.Comple
 }
 export interface DeviceSwitchRemoteSyslogFilesArchive {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#files DeviceSwitch#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#files DeviceSwitch#files}
   */
   readonly files?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#size DeviceSwitch#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#size DeviceSwitch#size}
   */
   readonly size?: string;
 }
@@ -13191,13 +13197,13 @@ export interface DeviceSwitchRemoteSyslogFilesContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#facility DeviceSwitch#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#facility DeviceSwitch#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#severity DeviceSwitch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#severity DeviceSwitch#severity}
   */
   readonly severity?: string;
 }
@@ -13342,33 +13348,33 @@ export class DeviceSwitchRemoteSyslogFilesContentsList extends cdktf.ComplexList
 }
 export interface DeviceSwitchRemoteSyslogFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#archive DeviceSwitch#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#archive DeviceSwitch#archive}
   */
   readonly archive?: DeviceSwitchRemoteSyslogFilesArchive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contents DeviceSwitch#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contents DeviceSwitch#contents}
   */
   readonly contents?: DeviceSwitchRemoteSyslogFilesContents[] | cdktf.IResolvable;
   /**
   * Only if `protocol`==`tcp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enable_tls DeviceSwitch#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enable_tls DeviceSwitch#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#explicit_priority DeviceSwitch#explicit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#explicit_priority DeviceSwitch#explicit_priority}
   */
   readonly explicitPriority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#file DeviceSwitch#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#file DeviceSwitch#file}
   */
   readonly file?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#match DeviceSwitch#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#match DeviceSwitch#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#structured_data DeviceSwitch#structured_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#structured_data DeviceSwitch#structured_data}
   */
   readonly structuredData?: boolean | cdktf.IResolvable;
 }
@@ -13660,13 +13666,13 @@ export interface DeviceSwitchRemoteSyslogServersContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#facility DeviceSwitch#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#facility DeviceSwitch#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#severity DeviceSwitch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#severity DeviceSwitch#severity}
   */
   readonly severity?: string;
 }
@@ -13811,65 +13817,65 @@ export class DeviceSwitchRemoteSyslogServersContentsList extends cdktf.ComplexLi
 }
 export interface DeviceSwitchRemoteSyslogServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contents DeviceSwitch#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contents DeviceSwitch#contents}
   */
   readonly contents?: DeviceSwitchRemoteSyslogServersContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#explicit_priority DeviceSwitch#explicit_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#explicit_priority DeviceSwitch#explicit_priority}
   */
   readonly explicitPriority?: boolean | cdktf.IResolvable;
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#facility DeviceSwitch#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#facility DeviceSwitch#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#host DeviceSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#host DeviceSwitch#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#match DeviceSwitch#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#match DeviceSwitch#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
   * enum: `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#protocol DeviceSwitch#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#protocol DeviceSwitch#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#routing_instance DeviceSwitch#routing_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#routing_instance DeviceSwitch#routing_instance}
   */
   readonly routingInstance?: string;
   /**
   * Name of the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#server_name DeviceSwitch#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#server_name DeviceSwitch#server_name}
   */
   readonly serverName?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#severity DeviceSwitch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#severity DeviceSwitch#severity}
   */
   readonly severity?: string;
   /**
   * If source_address is configured, will use the vlan firstly otherwise use source_ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#source_address DeviceSwitch#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#source_address DeviceSwitch#source_address}
   */
   readonly sourceAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#structured_data DeviceSwitch#structured_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#structured_data DeviceSwitch#structured_data}
   */
   readonly structuredData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#tag DeviceSwitch#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#tag DeviceSwitch#tag}
   */
   readonly tag?: string;
 }
@@ -14335,13 +14341,13 @@ export interface DeviceSwitchRemoteSyslogUsersContents {
   /**
   * enum: `any`, `authorization`, `change-log`, `config`, `conflict-log`, `daemon`, `dfc`, `external`, `firewall`, `ftp`, `interactive-commands`, `kernel`, `ntp`, `pfe`, `security`, `user`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#facility DeviceSwitch#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#facility DeviceSwitch#facility}
   */
   readonly facility?: string;
   /**
   * enum: `alert`, `any`, `critical`, `emergency`, `error`, `info`, `notice`, `warning`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#severity DeviceSwitch#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#severity DeviceSwitch#severity}
   */
   readonly severity?: string;
 }
@@ -14486,15 +14492,15 @@ export class DeviceSwitchRemoteSyslogUsersContentsList extends cdktf.ComplexList
 }
 export interface DeviceSwitchRemoteSyslogUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contents DeviceSwitch#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contents DeviceSwitch#contents}
   */
   readonly contents?: DeviceSwitchRemoteSyslogUsersContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#match DeviceSwitch#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#match DeviceSwitch#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#user DeviceSwitch#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#user DeviceSwitch#user}
   */
   readonly user?: string;
 }
@@ -14668,47 +14674,47 @@ export class DeviceSwitchRemoteSyslogUsersList extends cdktf.ComplexList {
 }
 export interface DeviceSwitchRemoteSyslog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#archive DeviceSwitch#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#archive DeviceSwitch#archive}
   */
   readonly archive?: DeviceSwitchRemoteSyslogArchive;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#cacerts DeviceSwitch#cacerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#cacerts DeviceSwitch#cacerts}
   */
   readonly cacerts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#console DeviceSwitch#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#console DeviceSwitch#console}
   */
   readonly console?: DeviceSwitchRemoteSyslogConsole;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#files DeviceSwitch#files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#files DeviceSwitch#files}
   */
   readonly files?: DeviceSwitchRemoteSyslogFiles[] | cdktf.IResolvable;
   /**
   * If source_address is configured, will use the vlan firstly otherwise use source_ip
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#send_to_all_servers DeviceSwitch#send_to_all_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#send_to_all_servers DeviceSwitch#send_to_all_servers}
   */
   readonly sendToAllServers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#servers DeviceSwitch#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#servers DeviceSwitch#servers}
   */
   readonly servers?: DeviceSwitchRemoteSyslogServers[] | cdktf.IResolvable;
   /**
   * enum: `millisecond`, `year`, `year millisecond`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#time_format DeviceSwitch#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#time_format DeviceSwitch#time_format}
   */
   readonly timeFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#users DeviceSwitch#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#users DeviceSwitch#users}
   */
   readonly users?: DeviceSwitchRemoteSyslogUsers[] | cdktf.IResolvable;
 }
@@ -15061,13 +15067,710 @@ export class DeviceSwitchRemoteSyslogOutputReference extends cdktf.ComplexObject
     return this._users.internalValue;
   }
 }
+export interface DeviceSwitchRoutingPoliciesTermsActions {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#accept DeviceSwitch#accept}
+  */
+  readonly accept?: boolean | cdktf.IResolvable;
+  /**
+  * When used as export policy, optional
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#community DeviceSwitch#community}
+  */
+  readonly community?: string[];
+  /**
+  * Optional, for an import policy, local_preference can be changed, value in range 1-4294967294. Can be a Variable (e.g. `{{bgp_as}}`)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#local_preference DeviceSwitch#local_preference}
+  */
+  readonly localPreference?: string;
+  /**
+  * When used as export policy, optional. By default, the local AS will be prepended, to change it. Can be a Variable (e.g. `{{as_path}}`)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#prepend_as_path DeviceSwitch#prepend_as_path}
+  */
+  readonly prependAsPath?: string[];
+}
+
+export function deviceSwitchRoutingPoliciesTermsActionsToTerraform(struct?: DeviceSwitchRoutingPoliciesTermsActions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    accept: cdktf.booleanToTerraform(struct!.accept),
+    community: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.community),
+    local_preference: cdktf.stringToTerraform(struct!.localPreference),
+    prepend_as_path: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.prependAsPath),
+  }
+}
+
+
+export function deviceSwitchRoutingPoliciesTermsActionsToHclTerraform(struct?: DeviceSwitchRoutingPoliciesTermsActions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    accept: {
+      value: cdktf.booleanToHclTerraform(struct!.accept),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    community: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.community),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    local_preference: {
+      value: cdktf.stringToHclTerraform(struct!.localPreference),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    prepend_as_path: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.prependAsPath),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DeviceSwitchRoutingPoliciesTermsActionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DeviceSwitchRoutingPoliciesTermsActions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accept !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accept = this._accept;
+    }
+    if (this._community !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.community = this._community;
+    }
+    if (this._localPreference !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.localPreference = this._localPreference;
+    }
+    if (this._prependAsPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prependAsPath = this._prependAsPath;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DeviceSwitchRoutingPoliciesTermsActions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._accept = undefined;
+      this._community = undefined;
+      this._localPreference = undefined;
+      this._prependAsPath = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._accept = value.accept;
+      this._community = value.community;
+      this._localPreference = value.localPreference;
+      this._prependAsPath = value.prependAsPath;
+    }
+  }
+
+  // accept - computed: false, optional: true, required: false
+  private _accept?: boolean | cdktf.IResolvable; 
+  public get accept() {
+    return this.getBooleanAttribute('accept');
+  }
+  public set accept(value: boolean | cdktf.IResolvable) {
+    this._accept = value;
+  }
+  public resetAccept() {
+    this._accept = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get acceptInput() {
+    return this._accept;
+  }
+
+  // community - computed: false, optional: true, required: false
+  private _community?: string[]; 
+  public get community() {
+    return this.getListAttribute('community');
+  }
+  public set community(value: string[]) {
+    this._community = value;
+  }
+  public resetCommunity() {
+    this._community = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get communityInput() {
+    return this._community;
+  }
+
+  // local_preference - computed: false, optional: true, required: false
+  private _localPreference?: string; 
+  public get localPreference() {
+    return this.getStringAttribute('local_preference');
+  }
+  public set localPreference(value: string) {
+    this._localPreference = value;
+  }
+  public resetLocalPreference() {
+    this._localPreference = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get localPreferenceInput() {
+    return this._localPreference;
+  }
+
+  // prepend_as_path - computed: false, optional: true, required: false
+  private _prependAsPath?: string[]; 
+  public get prependAsPath() {
+    return this.getListAttribute('prepend_as_path');
+  }
+  public set prependAsPath(value: string[]) {
+    this._prependAsPath = value;
+  }
+  public resetPrependAsPath() {
+    this._prependAsPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prependAsPathInput() {
+    return this._prependAsPath;
+  }
+}
+export interface DeviceSwitchRoutingPoliciesTermsMatching {
+  /**
+  * BGP AS, value in range 1-4294967294. Can be a Variable (e.g. `{{bgp_as}}`)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#as_path DeviceSwitch#as_path}
+  */
+  readonly asPath?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#community DeviceSwitch#community}
+  */
+  readonly community?: string[];
+  /**
+  * zero or more criteria/filter can be specified to match the term, all criteria have to be met
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#prefix DeviceSwitch#prefix}
+  */
+  readonly prefix?: string[];
+  /**
+  * enum: `bgp`, `direct`, `evpn`, `ospf`, `static`
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#protocol DeviceSwitch#protocol}
+  */
+  readonly protocol?: string[];
+}
+
+export function deviceSwitchRoutingPoliciesTermsMatchingToTerraform(struct?: DeviceSwitchRoutingPoliciesTermsMatching | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    as_path: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.asPath),
+    community: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.community),
+    prefix: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.prefix),
+    protocol: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.protocol),
+  }
+}
+
+
+export function deviceSwitchRoutingPoliciesTermsMatchingToHclTerraform(struct?: DeviceSwitchRoutingPoliciesTermsMatching | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    as_path: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.asPath),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    community: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.community),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    prefix: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.prefix),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    protocol: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.protocol),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DeviceSwitchRoutingPoliciesTermsMatchingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DeviceSwitchRoutingPoliciesTermsMatching | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._asPath !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.asPath = this._asPath;
+    }
+    if (this._community !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.community = this._community;
+    }
+    if (this._prefix !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.prefix = this._prefix;
+    }
+    if (this._protocol !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.protocol = this._protocol;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DeviceSwitchRoutingPoliciesTermsMatching | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._asPath = undefined;
+      this._community = undefined;
+      this._prefix = undefined;
+      this._protocol = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._asPath = value.asPath;
+      this._community = value.community;
+      this._prefix = value.prefix;
+      this._protocol = value.protocol;
+    }
+  }
+
+  // as_path - computed: false, optional: true, required: false
+  private _asPath?: string[]; 
+  public get asPath() {
+    return this.getListAttribute('as_path');
+  }
+  public set asPath(value: string[]) {
+    this._asPath = value;
+  }
+  public resetAsPath() {
+    this._asPath = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get asPathInput() {
+    return this._asPath;
+  }
+
+  // community - computed: false, optional: true, required: false
+  private _community?: string[]; 
+  public get community() {
+    return this.getListAttribute('community');
+  }
+  public set community(value: string[]) {
+    this._community = value;
+  }
+  public resetCommunity() {
+    this._community = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get communityInput() {
+    return this._community;
+  }
+
+  // prefix - computed: false, optional: true, required: false
+  private _prefix?: string[]; 
+  public get prefix() {
+    return this.getListAttribute('prefix');
+  }
+  public set prefix(value: string[]) {
+    this._prefix = value;
+  }
+  public resetPrefix() {
+    this._prefix = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixInput() {
+    return this._prefix;
+  }
+
+  // protocol - computed: false, optional: true, required: false
+  private _protocol?: string[]; 
+  public get protocol() {
+    return this.getListAttribute('protocol');
+  }
+  public set protocol(value: string[]) {
+    this._protocol = value;
+  }
+  public resetProtocol() {
+    this._protocol = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get protocolInput() {
+    return this._protocol;
+  }
+}
+export interface DeviceSwitchRoutingPoliciesTerms {
+  /**
+  * When used as import policy
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#actions DeviceSwitch#actions}
+  */
+  readonly actions?: DeviceSwitchRoutingPoliciesTermsActions;
+  /**
+  * zero or more criteria/filter can be specified to match the term, all criteria have to be met
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#matching DeviceSwitch#matching}
+  */
+  readonly matching?: DeviceSwitchRoutingPoliciesTermsMatching;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
+  */
+  readonly name: string;
+}
+
+export function deviceSwitchRoutingPoliciesTermsToTerraform(struct?: DeviceSwitchRoutingPoliciesTerms | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    actions: deviceSwitchRoutingPoliciesTermsActionsToTerraform(struct!.actions),
+    matching: deviceSwitchRoutingPoliciesTermsMatchingToTerraform(struct!.matching),
+    name: cdktf.stringToTerraform(struct!.name),
+  }
+}
+
+
+export function deviceSwitchRoutingPoliciesTermsToHclTerraform(struct?: DeviceSwitchRoutingPoliciesTerms | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    actions: {
+      value: deviceSwitchRoutingPoliciesTermsActionsToHclTerraform(struct!.actions),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DeviceSwitchRoutingPoliciesTermsActions",
+    },
+    matching: {
+      value: deviceSwitchRoutingPoliciesTermsMatchingToHclTerraform(struct!.matching),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DeviceSwitchRoutingPoliciesTermsMatching",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DeviceSwitchRoutingPoliciesTermsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DeviceSwitchRoutingPoliciesTerms | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._actions?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.actions = this._actions?.internalValue;
+    }
+    if (this._matching?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.matching = this._matching?.internalValue;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DeviceSwitchRoutingPoliciesTerms | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._actions.internalValue = undefined;
+      this._matching.internalValue = undefined;
+      this._name = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._actions.internalValue = value.actions;
+      this._matching.internalValue = value.matching;
+      this._name = value.name;
+    }
+  }
+
+  // actions - computed: false, optional: true, required: false
+  private _actions = new DeviceSwitchRoutingPoliciesTermsActionsOutputReference(this, "actions");
+  public get actions() {
+    return this._actions;
+  }
+  public putActions(value: DeviceSwitchRoutingPoliciesTermsActions) {
+    this._actions.internalValue = value;
+  }
+  public resetActions() {
+    this._actions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get actionsInput() {
+    return this._actions.internalValue;
+  }
+
+  // matching - computed: false, optional: true, required: false
+  private _matching = new DeviceSwitchRoutingPoliciesTermsMatchingOutputReference(this, "matching");
+  public get matching() {
+    return this._matching;
+  }
+  public putMatching(value: DeviceSwitchRoutingPoliciesTermsMatching) {
+    this._matching.internalValue = value;
+  }
+  public resetMatching() {
+    this._matching.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchingInput() {
+    return this._matching.internalValue;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+}
+
+export class DeviceSwitchRoutingPoliciesTermsList extends cdktf.ComplexList {
+  public internalValue? : DeviceSwitchRoutingPoliciesTerms[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DeviceSwitchRoutingPoliciesTermsOutputReference {
+    return new DeviceSwitchRoutingPoliciesTermsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DeviceSwitchRoutingPolicies {
+  /**
+  * at least criteria/filter must be specified to match the term, all criteria have to be met
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#terms DeviceSwitch#terms}
+  */
+  readonly terms?: DeviceSwitchRoutingPoliciesTerms[] | cdktf.IResolvable;
+}
+
+export function deviceSwitchRoutingPoliciesToTerraform(struct?: DeviceSwitchRoutingPolicies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    terms: cdktf.listMapper(deviceSwitchRoutingPoliciesTermsToTerraform, false)(struct!.terms),
+  }
+}
+
+
+export function deviceSwitchRoutingPoliciesToHclTerraform(struct?: DeviceSwitchRoutingPolicies | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    terms: {
+      value: cdktf.listMapperHcl(deviceSwitchRoutingPoliciesTermsToHclTerraform, false)(struct!.terms),
+      isBlock: true,
+      type: "set",
+      storageClassType: "DeviceSwitchRoutingPoliciesTermsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DeviceSwitchRoutingPoliciesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectKey the key of this item in the map
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
+    super(terraformResource, terraformAttribute, false, complexObjectKey);
+  }
+
+  public get internalValue(): DeviceSwitchRoutingPolicies | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._terms?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.terms = this._terms?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DeviceSwitchRoutingPolicies | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._terms.internalValue = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._terms.internalValue = value.terms;
+    }
+  }
+
+  // terms - computed: false, optional: true, required: false
+  private _terms = new DeviceSwitchRoutingPoliciesTermsList(this, "terms", true);
+  public get terms() {
+    return this._terms;
+  }
+  public putTerms(value: DeviceSwitchRoutingPoliciesTerms[] | cdktf.IResolvable) {
+    this._terms.internalValue = value;
+  }
+  public resetTerms() {
+    this._terms.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get termsInput() {
+    return this._terms.internalValue;
+  }
+}
+
+export class DeviceSwitchRoutingPoliciesMap extends cdktf.ComplexMap {
+  public internalValue? : { [key: string]: DeviceSwitchRoutingPolicies } | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string) {
+    super(terraformResource, terraformAttribute)
+  }
+
+  /**
+  * @param key the key of the item to return
+  */
+  public get(key: string): DeviceSwitchRoutingPoliciesOutputReference {
+    return new DeviceSwitchRoutingPoliciesOutputReference(this.terraformResource, this.terraformAttribute, key);
+  }
+}
 export interface DeviceSwitchSnmpConfigClientListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#client_list_name DeviceSwitch#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#client_list_name DeviceSwitch#client_list_name}
   */
   readonly clientListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#clients DeviceSwitch#clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#clients DeviceSwitch#clients}
   */
   readonly clients?: string[];
 }
@@ -15212,23 +15915,23 @@ export class DeviceSwitchSnmpConfigClientListStructList extends cdktf.ComplexLis
 }
 export interface DeviceSwitchSnmpConfigTrapGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#categories DeviceSwitch#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#categories DeviceSwitch#categories}
   */
   readonly categories?: string[];
   /**
   * Categories list can refer to https://www.juniper.net/documentation/software/topics/task/configuration/snmp_trap-groups-configuring-junos-nm.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#group_name DeviceSwitch#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#group_name DeviceSwitch#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#targets DeviceSwitch#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#targets DeviceSwitch#targets}
   */
   readonly targets?: string[];
   /**
   * enum: `all`, `v1`, `v2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#version DeviceSwitch#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#version DeviceSwitch#version}
   */
   readonly version?: string;
 }
@@ -15431,23 +16134,23 @@ export class DeviceSwitchSnmpConfigTrapGroupsList extends cdktf.ComplexList {
 }
 export interface DeviceSwitchSnmpConfigV2CConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#authorization DeviceSwitch#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#authorization DeviceSwitch#authorization}
   */
   readonly authorization?: string;
   /**
   * Client_list_name here should refer to client_list above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#client_list_name DeviceSwitch#client_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#client_list_name DeviceSwitch#client_list_name}
   */
   readonly clientListName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#community_name DeviceSwitch#community_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#community_name DeviceSwitch#community_name}
   */
   readonly communityName?: string;
   /**
   * View name here should be defined in views above
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#view DeviceSwitch#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#view DeviceSwitch#view}
   */
   readonly view?: string;
 }
@@ -15650,17 +16353,17 @@ export class DeviceSwitchSnmpConfigV2CConfigList extends cdktf.ComplexList {
 }
 export interface DeviceSwitchSnmpConfigV3ConfigNotify {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#tag DeviceSwitch#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#tag DeviceSwitch#tag}
   */
   readonly tag: string;
   /**
   * enum: `inform`, `trap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type: string;
 }
@@ -15825,11 +16528,11 @@ export class DeviceSwitchSnmpConfigV3ConfigNotifyList extends cdktf.ComplexList 
 }
 export interface DeviceSwitchSnmpConfigV3ConfigNotifyFilterContents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#include DeviceSwitch#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#include DeviceSwitch#include}
   */
   readonly include?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#oid DeviceSwitch#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#oid DeviceSwitch#oid}
   */
   readonly oid: string;
 }
@@ -15971,11 +16674,11 @@ export class DeviceSwitchSnmpConfigV3ConfigNotifyFilterContentsList extends cdkt
 }
 export interface DeviceSwitchSnmpConfigV3ConfigNotifyFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contents DeviceSwitch#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contents DeviceSwitch#contents}
   */
   readonly contents?: DeviceSwitchSnmpConfigV3ConfigNotifyFilterContents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#profile_name DeviceSwitch#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#profile_name DeviceSwitch#profile_name}
   */
   readonly profileName?: string;
 }
@@ -16120,31 +16823,31 @@ export class DeviceSwitchSnmpConfigV3ConfigNotifyFilterList extends cdktf.Comple
 }
 export interface DeviceSwitchSnmpConfigV3ConfigTargetAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#address DeviceSwitch#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#address DeviceSwitch#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#address_mask DeviceSwitch#address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#address_mask DeviceSwitch#address_mask}
   */
   readonly addressMask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
   * Refer to notify tag, can be multiple with blank
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#tag_list DeviceSwitch#tag_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#tag_list DeviceSwitch#tag_list}
   */
   readonly tagList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#target_address_name DeviceSwitch#target_address_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#target_address_name DeviceSwitch#target_address_name}
   */
   readonly targetAddressName: string;
   /**
   * Refer to notify target parameters name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#target_parameters DeviceSwitch#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#target_parameters DeviceSwitch#target_parameters}
   */
   readonly targetParameters?: string;
 }
@@ -16398,35 +17101,35 @@ export interface DeviceSwitchSnmpConfigV3ConfigTargetParameters {
   /**
   * enum: `v1`, `v2c`, `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#message_processing_model DeviceSwitch#message_processing_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#message_processing_model DeviceSwitch#message_processing_model}
   */
   readonly messageProcessingModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name: string;
   /**
   * Refer to profile-name in notify_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#notify_filter DeviceSwitch#notify_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#notify_filter DeviceSwitch#notify_filter}
   */
   readonly notifyFilter?: string;
   /**
   * enum: `authentication`, `none`, `privacy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_level DeviceSwitch#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_level DeviceSwitch#security_level}
   */
   readonly securityLevel?: string;
   /**
   * enum: `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_model DeviceSwitch#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_model DeviceSwitch#security_model}
   */
   readonly securityModel?: string;
   /**
   * Refer to security_name in usm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_name DeviceSwitch#security_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_name DeviceSwitch#security_name}
   */
   readonly securityName?: string;
 }
@@ -16683,29 +17386,29 @@ export interface DeviceSwitchSnmpConfigV3ConfigUsmUsers {
   /**
   * Not required if `authentication_type`==`authentication-none`. Include alphabetic, numeric, and special characters, but it cannot include control characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#authentication_password DeviceSwitch#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#authentication_password DeviceSwitch#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * sha224, sha256, sha384, sha512 are supported in 21.1 and newer release. enum: `authentication-md5`, `authentication-none`, `authentication-sha`, `authentication-sha224`, `authentication-sha256`, `authentication-sha384`, `authentication-sha512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#authentication_type DeviceSwitch#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#authentication_type DeviceSwitch#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * Not required if `encryption_type`==`privacy-none`. Include alphabetic, numeric, and special characters, but it cannot include control characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#encryption_password DeviceSwitch#encryption_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#encryption_password DeviceSwitch#encryption_password}
   */
   readonly encryptionPassword?: string;
   /**
   * enum: `privacy-3des`, `privacy-aes128`, `privacy-des`, `privacy-none`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#encryption_type DeviceSwitch#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#encryption_type DeviceSwitch#encryption_type}
   */
   readonly encryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name?: string;
 }
@@ -16939,17 +17642,17 @@ export interface DeviceSwitchSnmpConfigV3ConfigUsm {
   /**
   * enum: `local_engine`, `remote_engine`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#engine_type DeviceSwitch#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#engine_type DeviceSwitch#engine_type}
   */
   readonly engineType: string;
   /**
   * Required only if `engine_type`==`remote_engine`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#remote_engine_id DeviceSwitch#remote_engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#remote_engine_id DeviceSwitch#remote_engine_id}
   */
   readonly remoteEngineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#users DeviceSwitch#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#users DeviceSwitch#users}
   */
   readonly users?: DeviceSwitchSnmpConfigV3ConfigUsmUsers[] | cdktf.IResolvable;
 }
@@ -17122,43 +17825,43 @@ export interface DeviceSwitchSnmpConfigV3ConfigVacmAccessPrefixListStruct {
   /**
   * Only required if `type`==`context_prefix`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#context_prefix DeviceSwitch#context_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#context_prefix DeviceSwitch#context_prefix}
   */
   readonly contextPrefix?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#notify_view DeviceSwitch#notify_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#notify_view DeviceSwitch#notify_view}
   */
   readonly notifyView?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#read_view DeviceSwitch#read_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#read_view DeviceSwitch#read_view}
   */
   readonly readView?: string;
   /**
   * enum: `authentication`, `none`, `privacy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_level DeviceSwitch#security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_level DeviceSwitch#security_level}
   */
   readonly securityLevel?: string;
   /**
   * enum: `any`, `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_model DeviceSwitch#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_model DeviceSwitch#security_model}
   */
   readonly securityModel?: string;
   /**
   * enum: `context_prefix`, `default_context_prefix`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#type DeviceSwitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#type DeviceSwitch#type}
   */
   readonly type?: string;
   /**
   * Refer to view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#write_view DeviceSwitch#write_view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#write_view DeviceSwitch#write_view}
   */
   readonly writeView?: string;
 }
@@ -17448,11 +18151,11 @@ export class DeviceSwitchSnmpConfigV3ConfigVacmAccessPrefixListStructList extend
 }
 export interface DeviceSwitchSnmpConfigV3ConfigVacmAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#group_name DeviceSwitch#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#group_name DeviceSwitch#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#prefix_list DeviceSwitch#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#prefix_list DeviceSwitch#prefix_list}
   */
   readonly prefixList?: DeviceSwitchSnmpConfigV3ConfigVacmAccessPrefixListStruct[] | cdktf.IResolvable;
 }
@@ -17599,11 +18302,11 @@ export interface DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroupContent {
   /**
   * Refer to group_name under access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#group DeviceSwitch#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#group DeviceSwitch#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_name DeviceSwitch#security_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_name DeviceSwitch#security_name}
   */
   readonly securityName?: string;
 }
@@ -17748,13 +18451,13 @@ export class DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroupContentList extend
 }
 export interface DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#content DeviceSwitch#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#content DeviceSwitch#content}
   */
   readonly content?: DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroupContent[] | cdktf.IResolvable;
   /**
   * enum: `usm`, `v1`, `v2c`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_model DeviceSwitch#security_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_model DeviceSwitch#security_model}
   */
   readonly securityModel?: string;
 }
@@ -17877,11 +18580,11 @@ export class DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroupOutputReference ex
 }
 export interface DeviceSwitchSnmpConfigV3ConfigVacm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#access DeviceSwitch#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#access DeviceSwitch#access}
   */
   readonly access?: DeviceSwitchSnmpConfigV3ConfigVacmAccess[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#security_to_group DeviceSwitch#security_to_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#security_to_group DeviceSwitch#security_to_group}
   */
   readonly securityToGroup?: DeviceSwitchSnmpConfigV3ConfigVacmSecurityToGroup;
 }
@@ -18004,27 +18707,27 @@ export class DeviceSwitchSnmpConfigV3ConfigVacmOutputReference extends cdktf.Com
 }
 export interface DeviceSwitchSnmpConfigV3Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#notify DeviceSwitch#notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#notify DeviceSwitch#notify}
   */
   readonly notify?: DeviceSwitchSnmpConfigV3ConfigNotify[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#notify_filter DeviceSwitch#notify_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#notify_filter DeviceSwitch#notify_filter}
   */
   readonly notifyFilter?: DeviceSwitchSnmpConfigV3ConfigNotifyFilter[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#target_address DeviceSwitch#target_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#target_address DeviceSwitch#target_address}
   */
   readonly targetAddress?: DeviceSwitchSnmpConfigV3ConfigTargetAddress[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#target_parameters DeviceSwitch#target_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#target_parameters DeviceSwitch#target_parameters}
   */
   readonly targetParameters?: DeviceSwitchSnmpConfigV3ConfigTargetParameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#usm DeviceSwitch#usm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#usm DeviceSwitch#usm}
   */
   readonly usm?: DeviceSwitchSnmpConfigV3ConfigUsm[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vacm DeviceSwitch#vacm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vacm DeviceSwitch#vacm}
   */
   readonly vacm?: DeviceSwitchSnmpConfigV3ConfigVacm;
 }
@@ -18265,15 +18968,15 @@ export interface DeviceSwitchSnmpConfigViews {
   /**
   * If the root oid configured is included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#include DeviceSwitch#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#include DeviceSwitch#include}
   */
   readonly include?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#oid DeviceSwitch#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#oid DeviceSwitch#oid}
   */
   readonly oid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#view_name DeviceSwitch#view_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#view_name DeviceSwitch#view_name}
   */
   readonly viewName?: string;
 }
@@ -18447,57 +19150,57 @@ export class DeviceSwitchSnmpConfigViewsList extends cdktf.ComplexList {
 }
 export interface DeviceSwitchSnmpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#client_list DeviceSwitch#client_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#client_list DeviceSwitch#client_list}
   */
   readonly clientList?: DeviceSwitchSnmpConfigClientListStruct[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#contact DeviceSwitch#contact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#contact DeviceSwitch#contact}
   */
   readonly contact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#description DeviceSwitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#description DeviceSwitch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#engine_id DeviceSwitch#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#engine_id DeviceSwitch#engine_id}
   */
   readonly engineId?: string;
   /**
   * enum: `local`, `use_mac_address`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#engine_id_type DeviceSwitch#engine_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#engine_id_type DeviceSwitch#engine_id_type}
   */
   readonly engineIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#location DeviceSwitch#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#location DeviceSwitch#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#name DeviceSwitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#name DeviceSwitch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#trap_groups DeviceSwitch#trap_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#trap_groups DeviceSwitch#trap_groups}
   */
   readonly trapGroups?: DeviceSwitchSnmpConfigTrapGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#v2c_config DeviceSwitch#v2c_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#v2c_config DeviceSwitch#v2c_config}
   */
   readonly v2CConfig?: DeviceSwitchSnmpConfigV2CConfig[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#v3_config DeviceSwitch#v3_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#v3_config DeviceSwitch#v3_config}
   */
   readonly v3Config?: DeviceSwitchSnmpConfigV3Config;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#views DeviceSwitch#views}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#views DeviceSwitch#views}
   */
   readonly views?: DeviceSwitchSnmpConfigViews[] | cdktf.IResolvable;
 }
@@ -18941,7 +19644,7 @@ export interface DeviceSwitchStpConfig {
   /**
   * Switch STP priority. Range [0, 4k, 8k.. 60k] in steps of 4k. Bridge priority applies to both VSTP and RSTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#bridge_priority DeviceSwitch#bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#bridge_priority DeviceSwitch#bridge_priority}
   */
   readonly bridgePriority?: string;
 }
@@ -19035,13 +19738,13 @@ export class DeviceSwitchStpConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface DeviceSwitchSwitchMgmtLocalAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#password DeviceSwitch#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#password DeviceSwitch#password}
   */
   readonly password?: string;
   /**
   * enum: `admin`, `helpdesk`, `none`, `read`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#role DeviceSwitch#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#role DeviceSwitch#role}
   */
   readonly role?: string;
 }
@@ -19186,17 +19889,17 @@ export interface DeviceSwitchSwitchMgmtProtectReCustom {
   /**
   * matched dst port, "0" means any. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port_range DeviceSwitch#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port_range DeviceSwitch#port_range}
   */
   readonly portRange?: string;
   /**
   * enum: `any`, `icmp`, `tcp`, `udp`. Note: For `protocol`==`any` and  `port_range`==`any`, configure `trusted_hosts` instead
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#protocol DeviceSwitch#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#protocol DeviceSwitch#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#subnets DeviceSwitch#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#subnets DeviceSwitch#subnets}
   */
   readonly subnets: string[];
 }
@@ -19369,11 +20072,11 @@ export interface DeviceSwitchSwitchMgmtProtectRe {
   /**
   * optionally, services we'll allow. enum: `icmp`, `ssh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#allowed_services DeviceSwitch#allowed_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#allowed_services DeviceSwitch#allowed_services}
   */
   readonly allowedServices?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#custom DeviceSwitch#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#custom DeviceSwitch#custom}
   */
   readonly custom?: DeviceSwitchSwitchMgmtProtectReCustom[] | cdktf.IResolvable;
   /**
@@ -19381,19 +20084,19 @@ export interface DeviceSwitchSwitchMgmtProtectRe {
   * e.g. ntp / dns / traffic to mist will be allowed by default
   *      if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable hit count for Protect_RE policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#hit_count DeviceSwitch#hit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#hit_count DeviceSwitch#hit_count}
   */
   readonly hitCount?: boolean | cdktf.IResolvable;
   /**
   * host/subnets we'll allow traffic to/from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#trusted_hosts DeviceSwitch#trusted_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#trusted_hosts DeviceSwitch#trusted_hosts}
   */
   readonly trustedHosts?: string[];
 }
@@ -19603,19 +20306,19 @@ export class DeviceSwitchSwitchMgmtProtectReOutputReference extends cdktf.Comple
 }
 export interface DeviceSwitchSwitchMgmtTacacsAcctServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#host DeviceSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#host DeviceSwitch#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#secret DeviceSwitch#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#secret DeviceSwitch#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#timeout DeviceSwitch#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#timeout DeviceSwitch#timeout}
   */
   readonly timeout?: number;
 }
@@ -19818,19 +20521,19 @@ export class DeviceSwitchSwitchMgmtTacacsAcctServersList extends cdktf.ComplexLi
 }
 export interface DeviceSwitchSwitchMgmtTacacsTacplusServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#host DeviceSwitch#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#host DeviceSwitch#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#port DeviceSwitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#port DeviceSwitch#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#secret DeviceSwitch#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#secret DeviceSwitch#secret}
   */
   readonly secret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#timeout DeviceSwitch#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#timeout DeviceSwitch#timeout}
   */
   readonly timeout?: number;
 }
@@ -20033,27 +20736,27 @@ export class DeviceSwitchSwitchMgmtTacacsTacplusServersList extends cdktf.Comple
 }
 export interface DeviceSwitchSwitchMgmtTacacs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#acct_servers DeviceSwitch#acct_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#acct_servers DeviceSwitch#acct_servers}
   */
   readonly acctServers?: DeviceSwitchSwitchMgmtTacacsAcctServers[] | cdktf.IResolvable;
   /**
   * enum: `admin`, `helpdesk`, `none`, `read`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#default_role DeviceSwitch#default_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#default_role DeviceSwitch#default_role}
   */
   readonly defaultRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Which network the TACACS server resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#network DeviceSwitch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#network DeviceSwitch#network}
   */
   readonly network?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#tacplus_servers DeviceSwitch#tacplus_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#tacplus_servers DeviceSwitch#tacplus_servers}
   */
   readonly tacplusServers?: DeviceSwitchSwitchMgmtTacacsTacplusServers[] | cdktf.IResolvable;
 }
@@ -20265,57 +20968,57 @@ export interface DeviceSwitchSwitchMgmt {
   /**
   * AP_affinity_threshold ap_affinity_threshold can be added as a field under site/setting. By default, this value is set to 12. If the field is set in both site/setting and org/setting, the value from site/setting will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#ap_affinity_threshold DeviceSwitch#ap_affinity_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#ap_affinity_threshold DeviceSwitch#ap_affinity_threshold}
   */
   readonly apAffinityThreshold?: number;
   /**
   * Set Banners for switches. Allows markup formatting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#cli_banner DeviceSwitch#cli_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#cli_banner DeviceSwitch#cli_banner}
   */
   readonly cliBanner?: string;
   /**
   * Sets timeout for switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#cli_idle_timeout DeviceSwitch#cli_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#cli_idle_timeout DeviceSwitch#cli_idle_timeout}
   */
   readonly cliIdleTimeout?: number;
   /**
   * Rollback timer for commit confirmed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#config_revert_timer DeviceSwitch#config_revert_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#config_revert_timer DeviceSwitch#config_revert_timer}
   */
   readonly configRevertTimer?: number;
   /**
   * Enable to provide the FQDN with DHCP option 81
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#dhcp_option_fqdn DeviceSwitch#dhcp_option_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#dhcp_option_fqdn DeviceSwitch#dhcp_option_fqdn}
   */
   readonly dhcpOptionFqdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#disable_oob_down_alarm DeviceSwitch#disable_oob_down_alarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#disable_oob_down_alarm DeviceSwitch#disable_oob_down_alarm}
   */
   readonly disableOobDownAlarm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#fips_enabled DeviceSwitch#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#fips_enabled DeviceSwitch#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Property key is the user name. For Local user authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#local_accounts DeviceSwitch#local_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#local_accounts DeviceSwitch#local_accounts}
   */
   readonly localAccounts?: { [key: string]: DeviceSwitchSwitchMgmtLocalAccounts } | cdktf.IResolvable;
   /**
   * IP Address or FQDN of the Mist Edge used to proxy the switch management traffic to the Mist Cloud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mxedge_proxy_host DeviceSwitch#mxedge_proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mxedge_proxy_host DeviceSwitch#mxedge_proxy_host}
   */
   readonly mxedgeProxyHost?: string;
   /**
   * Mist Edge port used to proxy the switch management traffic to the Mist Cloud. Value in range 1-65535
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mxedge_proxy_port DeviceSwitch#mxedge_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mxedge_proxy_port DeviceSwitch#mxedge_proxy_port}
   */
   readonly mxedgeProxyPort?: string;
   /**
@@ -20323,27 +21026,27 @@ export interface DeviceSwitchSwitchMgmt {
   * when enabled, all traffic that is not essential to our operation will be dropped 
   * e.g. ntp / dns / traffic to mist will be allowed by default, if dhcpd is enabled, we'll make sure it works
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#protect_re DeviceSwitch#protect_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#protect_re DeviceSwitch#protect_re}
   */
   readonly protectRe?: DeviceSwitchSwitchMgmtProtectRe;
   /**
   * By default, only the configuration generated by Mist is cleaned up during the configuration process. If `true`, all the existing configuration will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#remove_existing_configs DeviceSwitch#remove_existing_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#remove_existing_configs DeviceSwitch#remove_existing_configs}
   */
   readonly removeExistingConfigs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#root_password DeviceSwitch#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#root_password DeviceSwitch#root_password}
   */
   readonly rootPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#tacacs DeviceSwitch#tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#tacacs DeviceSwitch#tacacs}
   */
   readonly tacacs?: DeviceSwitchSwitchMgmtTacacs;
   /**
   * To use mxedge as proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#use_mxedge_proxy DeviceSwitch#use_mxedge_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#use_mxedge_proxy DeviceSwitch#use_mxedge_proxy}
   */
   readonly useMxedgeProxy?: boolean | cdktf.IResolvable;
 }
@@ -20845,17 +21548,17 @@ export interface DeviceSwitchVirtualChassisMembers {
   /**
   * fpc0, same as the mac of device_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#mac DeviceSwitch#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#mac DeviceSwitch#mac}
   */
   readonly mac: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#member_id DeviceSwitch#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#member_id DeviceSwitch#member_id}
   */
   readonly memberId: number;
   /**
   * Both vc_role master and backup will be matched to routing-engine role in Junos preprovisioned VC config. enum: `backup`, `linecard`, `master`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#vc_role DeviceSwitch#vc_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#vc_role DeviceSwitch#vc_role}
   */
   readonly vcRole: string;
 }
@@ -21022,13 +21725,13 @@ export interface DeviceSwitchVirtualChassis {
   /**
   * List of Virtual Chassis members
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#members DeviceSwitch#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#members DeviceSwitch#members}
   */
   readonly members?: DeviceSwitchVirtualChassisMembers[] | cdktf.IResolvable;
   /**
   * To configure whether the VC is preprovisioned or nonprovisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preprovisioned DeviceSwitch#preprovisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preprovisioned DeviceSwitch#preprovisioned}
   */
   readonly preprovisioned?: boolean | cdktf.IResolvable;
 }
@@ -21153,7 +21856,7 @@ export interface DeviceSwitchVrfConfig {
   /**
   * Whether to enable VRF (when supported on the device)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -21249,7 +21952,7 @@ export interface DeviceSwitchVrfInstancesExtraRoutes {
   /**
   * Next-hop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#via DeviceSwitch#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#via DeviceSwitch#via}
   */
   readonly via: string;
 }
@@ -21362,7 +22065,7 @@ export interface DeviceSwitchVrfInstancesExtraRoutes6 {
   /**
   * Next-hop address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#via DeviceSwitch#via}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#via DeviceSwitch#via}
   */
   readonly via?: string;
 }
@@ -21476,27 +22179,27 @@ export class DeviceSwitchVrfInstancesExtraRoutes6Map extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchVrfInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#evpn_auto_loopback_subnet DeviceSwitch#evpn_auto_loopback_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#evpn_auto_loopback_subnet DeviceSwitch#evpn_auto_loopback_subnet}
   */
   readonly evpnAutoLoopbackSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#evpn_auto_loopback_subnet6 DeviceSwitch#evpn_auto_loopback_subnet6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#evpn_auto_loopback_subnet6 DeviceSwitch#evpn_auto_loopback_subnet6}
   */
   readonly evpnAutoLoopbackSubnet6?: string;
   /**
   * Property key is the destination CIDR (e.g. "10.0.0.0/8")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#extra_routes DeviceSwitch#extra_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#extra_routes DeviceSwitch#extra_routes}
   */
   readonly extraRoutes?: { [key: string]: DeviceSwitchVrfInstancesExtraRoutes } | cdktf.IResolvable;
   /**
   * Property key is the destination CIDR (e.g. "2a02:1234:420a:10c9::/64")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#extra_routes6 DeviceSwitch#extra_routes6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#extra_routes6 DeviceSwitch#extra_routes6}
   */
   readonly extraRoutes6?: { [key: string]: DeviceSwitchVrfInstancesExtraRoutes6 } | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#networks DeviceSwitch#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#networks DeviceSwitch#networks}
   */
   readonly networks?: string[];
 }
@@ -21728,11 +22431,11 @@ export interface DeviceSwitchVrrpConfigGroups {
   /**
   * If `true`, allow preemption (a backup router can preempt a primary router)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#preempt DeviceSwitch#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#preempt DeviceSwitch#preempt}
   */
   readonly preempt?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#priority DeviceSwitch#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#priority DeviceSwitch#priority}
   */
   readonly priority?: number;
 }
@@ -21875,13 +22578,13 @@ export class DeviceSwitchVrrpConfigGroupsMap extends cdktf.ComplexMap {
 }
 export interface DeviceSwitchVrrpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#enabled DeviceSwitch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#enabled DeviceSwitch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Property key is the VRRP name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#groups DeviceSwitch#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#groups DeviceSwitch#groups}
   */
   readonly groups?: { [key: string]: DeviceSwitchVrrpConfigGroups } | cdktf.IResolvable;
 }
@@ -22004,7 +22707,7 @@ export class DeviceSwitchVrrpConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch mist_device_switch}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch mist_device_switch}
 */
 export class DeviceSwitch extends cdktf.TerraformResource {
 
@@ -22020,7 +22723,7 @@ export class DeviceSwitch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceSwitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceSwitch to import
-  * @param importFromId The id of the existing DeviceSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceSwitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceSwitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -22032,7 +22735,7 @@ export class DeviceSwitch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/resources/device_switch mist_device_switch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/resources/device_switch mist_device_switch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -22043,8 +22746,8 @@ export class DeviceSwitch extends cdktf.TerraformResource {
       terraformResourceType: 'mist_device_switch',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -22087,6 +22790,7 @@ export class DeviceSwitch extends cdktf.TerraformResource {
     this._remoteSyslog.internalValue = config.remoteSyslog;
     this._role = config.role;
     this._routerId = config.routerId;
+    this._routingPolicies.internalValue = config.routingPolicies;
     this._siteId = config.siteId;
     this._snmpConfig.internalValue = config.snmpConfig;
     this._stpConfig.internalValue = config.stpConfig;
@@ -22657,6 +23361,22 @@ export class DeviceSwitch extends cdktf.TerraformResource {
     return this._routerId;
   }
 
+  // routing_policies - computed: false, optional: true, required: false
+  private _routingPolicies = new DeviceSwitchRoutingPoliciesMap(this, "routing_policies");
+  public get routingPolicies() {
+    return this._routingPolicies;
+  }
+  public putRoutingPolicies(value: { [key: string]: DeviceSwitchRoutingPolicies } | cdktf.IResolvable) {
+    this._routingPolicies.internalValue = value;
+  }
+  public resetRoutingPolicies() {
+    this._routingPolicies.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get routingPoliciesInput() {
+    return this._routingPolicies.internalValue;
+  }
+
   // serial - computed: true, optional: false, required: false
   public get serial() {
     return this.getStringAttribute('serial');
@@ -22895,6 +23615,7 @@ export class DeviceSwitch extends cdktf.TerraformResource {
       remote_syslog: deviceSwitchRemoteSyslogToTerraform(this._remoteSyslog.internalValue),
       role: cdktf.stringToTerraform(this._role),
       router_id: cdktf.stringToTerraform(this._routerId),
+      routing_policies: cdktf.hashMapper(deviceSwitchRoutingPoliciesToTerraform)(this._routingPolicies.internalValue),
       site_id: cdktf.stringToTerraform(this._siteId),
       snmp_config: deviceSwitchSnmpConfigToTerraform(this._snmpConfig.internalValue),
       stp_config: deviceSwitchStpConfigToTerraform(this._stpConfig.internalValue),
@@ -23109,6 +23830,12 @@ export class DeviceSwitch extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      routing_policies: {
+        value: cdktf.hashMapperHcl(deviceSwitchRoutingPoliciesToHclTerraform)(this._routingPolicies.internalValue),
+        isBlock: true,
+        type: "map",
+        storageClassType: "DeviceSwitchRoutingPoliciesMap",
       },
       site_id: {
         value: cdktf.stringToHclTerraform(this._siteId),

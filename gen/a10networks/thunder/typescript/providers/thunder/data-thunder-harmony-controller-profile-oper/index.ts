@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderHarmonyControllerProfileOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#id DataThunderHarmonyControllerProfileOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#id DataThunderHarmonyControllerProfileOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,85 +17,85 @@ export interface DataThunderHarmonyControllerProfileOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#oper DataThunderHarmonyControllerProfileOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#oper DataThunderHarmonyControllerProfileOper#oper}
   */
   readonly oper?: DataThunderHarmonyControllerProfileOperOper;
 }
 export interface DataThunderHarmonyControllerProfileOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#broker_info DataThunderHarmonyControllerProfileOper#broker_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#broker_info DataThunderHarmonyControllerProfileOper#broker_info}
   */
   readonly brokerInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#deregistration_error_message DataThunderHarmonyControllerProfileOper#deregistration_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#deregistration_error_message DataThunderHarmonyControllerProfileOper#deregistration_error_message}
   */
   readonly deregistrationErrorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#deregistration_status DataThunderHarmonyControllerProfileOper#deregistration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#deregistration_status DataThunderHarmonyControllerProfileOper#deregistration_status}
   */
   readonly deregistrationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#deregistration_status_code DataThunderHarmonyControllerProfileOper#deregistration_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#deregistration_status_code DataThunderHarmonyControllerProfileOper#deregistration_status_code}
   */
   readonly deregistrationStatusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#heartbeat_error_message DataThunderHarmonyControllerProfileOper#heartbeat_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#heartbeat_error_message DataThunderHarmonyControllerProfileOper#heartbeat_error_message}
   */
   readonly heartbeatErrorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#heartbeat_status DataThunderHarmonyControllerProfileOper#heartbeat_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#heartbeat_status DataThunderHarmonyControllerProfileOper#heartbeat_status}
   */
   readonly heartbeatStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#kafka_broker_state DataThunderHarmonyControllerProfileOper#kafka_broker_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#kafka_broker_state DataThunderHarmonyControllerProfileOper#kafka_broker_state}
   */
   readonly kafkaBrokerState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#number_of_tenant_mapped_partitions DataThunderHarmonyControllerProfileOper#number_of_tenant_mapped_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#number_of_tenant_mapped_partitions DataThunderHarmonyControllerProfileOper#number_of_tenant_mapped_partitions}
   */
   readonly numberOfTenantMappedPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#number_of_tenant_unmapped_partitions DataThunderHarmonyControllerProfileOper#number_of_tenant_unmapped_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#number_of_tenant_unmapped_partitions DataThunderHarmonyControllerProfileOper#number_of_tenant_unmapped_partitions}
   */
   readonly numberOfTenantUnmappedPartitions?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#overall_status DataThunderHarmonyControllerProfileOper#overall_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#overall_status DataThunderHarmonyControllerProfileOper#overall_status}
   */
   readonly overallStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#peer_device_info DataThunderHarmonyControllerProfileOper#peer_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#peer_device_info DataThunderHarmonyControllerProfileOper#peer_device_info}
   */
   readonly peerDeviceInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#registration_error_message DataThunderHarmonyControllerProfileOper#registration_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#registration_error_message DataThunderHarmonyControllerProfileOper#registration_error_message}
   */
   readonly registrationErrorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#registration_status DataThunderHarmonyControllerProfileOper#registration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#registration_status DataThunderHarmonyControllerProfileOper#registration_status}
   */
   readonly registrationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#registration_status_code DataThunderHarmonyControllerProfileOper#registration_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#registration_status_code DataThunderHarmonyControllerProfileOper#registration_status_code}
   */
   readonly registrationStatusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#schema_registry_status DataThunderHarmonyControllerProfileOper#schema_registry_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#schema_registry_status DataThunderHarmonyControllerProfileOper#schema_registry_status}
   */
   readonly schemaRegistryStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#service_registry DataThunderHarmonyControllerProfileOper#service_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#service_registry DataThunderHarmonyControllerProfileOper#service_registry}
   */
   readonly serviceRegistry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#service_registry_error_message DataThunderHarmonyControllerProfileOper#service_registry_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#service_registry_error_message DataThunderHarmonyControllerProfileOper#service_registry_error_message}
   */
   readonly serviceRegistryErrorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#tunnel_error_message DataThunderHarmonyControllerProfileOper#tunnel_error_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#tunnel_error_message DataThunderHarmonyControllerProfileOper#tunnel_error_message}
   */
   readonly tunnelErrorMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#tunnel_status DataThunderHarmonyControllerProfileOper#tunnel_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#tunnel_status DataThunderHarmonyControllerProfileOper#tunnel_status}
   */
   readonly tunnelStatus?: string;
 }
@@ -701,7 +701,7 @@ export class DataThunderHarmonyControllerProfileOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper thunder_harmony_controller_profile_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper thunder_harmony_controller_profile_oper}
 */
 export class DataThunderHarmonyControllerProfileOper extends cdktf.TerraformDataSource {
 
@@ -717,7 +717,7 @@ export class DataThunderHarmonyControllerProfileOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderHarmonyControllerProfileOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderHarmonyControllerProfileOper to import
-  * @param importFromId The id of the existing DataThunderHarmonyControllerProfileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderHarmonyControllerProfileOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderHarmonyControllerProfileOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -729,7 +729,7 @@ export class DataThunderHarmonyControllerProfileOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/harmony_controller_profile_oper thunder_harmony_controller_profile_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/harmony_controller_profile_oper thunder_harmony_controller_profile_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -740,8 +740,8 @@ export class DataThunderHarmonyControllerProfileOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_harmony_controller_profile_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

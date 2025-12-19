@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant
+// https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DeploymentFreezeTenantConfig extends cdktf.TerraformMetaArgumen
   /**
   * The deployment freeze ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant#deploymentfreeze_id DeploymentFreezeTenant#deploymentfreeze_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant#deploymentfreeze_id DeploymentFreezeTenant#deploymentfreeze_id}
   */
   readonly deploymentfreezeId: string;
   /**
   * The environment ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant#environment_id DeploymentFreezeTenant#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant#environment_id DeploymentFreezeTenant#environment_id}
   */
   readonly environmentId: string;
   /**
   * The project ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant#project_id DeploymentFreezeTenant#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant#project_id DeploymentFreezeTenant#project_id}
   */
   readonly projectId: string;
   /**
   * The tenant ID associated with this freeze scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant#tenant_id DeploymentFreezeTenant#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant#tenant_id DeploymentFreezeTenant#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant octopusdeploy_deployment_freeze_tenant}
+* Represents a {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant octopusdeploy_deployment_freeze_tenant}
 */
 export class DeploymentFreezeTenant extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class DeploymentFreezeTenant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeploymentFreezeTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeploymentFreezeTenant to import
-  * @param importFromId The id of the existing DeploymentFreezeTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeploymentFreezeTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeploymentFreezeTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DeploymentFreezeTenant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.0/docs/resources/deployment_freeze_tenant octopusdeploy_deployment_freeze_tenant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/octopusdeploy/octopusdeploy/1.7.1/docs/resources/deployment_freeze_tenant octopusdeploy_deployment_freeze_tenant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DeploymentFreezeTenant extends cdktf.TerraformResource {
       terraformResourceType: 'octopusdeploy_deployment_freeze_tenant',
       terraformGeneratorMetadata: {
         providerName: 'octopusdeploy',
-        providerVersion: '1.7.0',
-        providerVersionConstraint: '1.7.0'
+        providerVersion: '1.7.1',
+        providerVersionConstraint: '1.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

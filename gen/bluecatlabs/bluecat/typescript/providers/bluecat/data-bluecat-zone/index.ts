@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone
+// https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataBluecatZoneConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Optional list of property keys to keep when filtering.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#allowed_property_keys DataBluecatZone#allowed_property_keys}
+  */
+  readonly allowedPropertyKeys?: string[];
+  /**
   * The Configuration. Getting the Zone in the default Configuration if doesn't specify
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#configuration DataBluecatZone#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#configuration DataBluecatZone#configuration}
   */
   readonly configuration?: string;
   /**
   * Zone's deployable property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#deployable DataBluecatZone#deployable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#deployable DataBluecatZone#deployable}
   */
   readonly deployable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#id DataBluecatZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#id DataBluecatZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Zone's properties.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#properties DataBluecatZone#properties}
-  */
-  readonly properties?: string;
-  /**
   * The list of server roles. The format of each server role will be 'role type, server fqdn'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#server_roles DataBluecatZone#server_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#server_roles DataBluecatZone#server_roles}
   */
   readonly serverRoles?: string[];
   /**
   * The view which contains the details of the zone. If not provided, zone will be got under default view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#view DataBluecatZone#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#view DataBluecatZone#view}
   */
   readonly view?: string;
   /**
   * The absolute name of zone or sub zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#zone DataBluecatZone#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#zone DataBluecatZone#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone bluecat_zone}
+* Represents a {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone bluecat_zone}
 */
 export class DataBluecatZone extends cdktf.TerraformDataSource {
 
@@ -69,7 +69,7 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBluecatZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBluecatZone to import
-  * @param importFromId The id of the existing DataBluecatZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBluecatZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBluecatZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.0/docs/data-sources/zone bluecat_zone} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/bluecatlabs/bluecat/2.2.1/docs/data-sources/zone bluecat_zone} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
       terraformResourceType: 'bluecat_zone',
       terraformGeneratorMetadata: {
         providerName: 'bluecat',
-        providerVersion: '2.2.0',
-        providerVersionConstraint: '2.2.0'
+        providerVersion: '2.2.1',
+        providerVersionConstraint: '2.2.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -103,10 +103,10 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._allowedPropertyKeys = config.allowedPropertyKeys;
     this._configuration = config.configuration;
     this._deployable = config.deployable;
     this._id = config.id;
-    this._properties = config.properties;
     this._serverRoles = config.serverRoles;
     this._view = config.view;
     this._zone = config.zone;
@@ -115,6 +115,22 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // allowed_property_keys - computed: false, optional: true, required: false
+  private _allowedPropertyKeys?: string[]; 
+  public get allowedPropertyKeys() {
+    return cdktf.Fn.tolist(this.getListAttribute('allowed_property_keys'));
+  }
+  public set allowedPropertyKeys(value: string[]) {
+    this._allowedPropertyKeys = value;
+  }
+  public resetAllowedPropertyKeys() {
+    this._allowedPropertyKeys = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get allowedPropertyKeysInput() {
+    return this._allowedPropertyKeys;
+  }
 
   // configuration - computed: false, optional: true, required: false
   private _configuration?: string; 
@@ -164,20 +180,14 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // properties - computed: false, optional: true, required: false
-  private _properties?: string; 
+  // properties - computed: true, optional: false, required: false
   public get properties() {
     return this.getStringAttribute('properties');
   }
-  public set properties(value: string) {
-    this._properties = value;
-  }
-  public resetProperties() {
-    this._properties = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get propertiesInput() {
-    return this._properties;
+
+  // properties_raw - computed: true, optional: false, required: false
+  public get propertiesRaw() {
+    return this.getStringAttribute('properties_raw');
   }
 
   // server_roles - computed: false, optional: true, required: false
@@ -231,10 +241,10 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      allowed_property_keys: cdktf.listMapper(cdktf.stringToTerraform, false)(this._allowedPropertyKeys),
       configuration: cdktf.stringToTerraform(this._configuration),
       deployable: cdktf.stringToTerraform(this._deployable),
       id: cdktf.stringToTerraform(this._id),
-      properties: cdktf.stringToTerraform(this._properties),
       server_roles: cdktf.listMapper(cdktf.stringToTerraform, false)(this._serverRoles),
       view: cdktf.stringToTerraform(this._view),
       zone: cdktf.stringToTerraform(this._zone),
@@ -243,6 +253,12 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      allowed_property_keys: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._allowedPropertyKeys),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
       configuration: {
         value: cdktf.stringToHclTerraform(this._configuration),
         isBlock: false,
@@ -257,12 +273,6 @@ export class DataBluecatZone extends cdktf.TerraformDataSource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      properties: {
-        value: cdktf.stringToHclTerraform(this._properties),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

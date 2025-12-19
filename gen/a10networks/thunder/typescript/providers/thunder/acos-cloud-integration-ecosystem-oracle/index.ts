@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface AcosCloudIntegrationEcosystemOracleAConfig extends cdktf.Terraf
   /**
   * 'enable': Enable Configuration; 'disable': Disable Configuration;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#action AcosCloudIntegrationEcosystemOracleA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#action AcosCloudIntegrationEcosystemOracleA#action}
   */
   readonly action?: string;
   /**
   * OCI compartment  id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#compartment_id AcosCloudIntegrationEcosystemOracleA#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#compartment_id AcosCloudIntegrationEcosystemOracleA#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#fingerprint AcosCloudIntegrationEcosystemOracleA#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#fingerprint AcosCloudIntegrationEcosystemOracleA#fingerprint}
   */
   readonly fingerprint?: string;
   /**
   * '5': 5 seconds; '10': 10 seconds; '15': 15 seconds; '20': 20 seconds;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#health_check_interval AcosCloudIntegrationEcosystemOracleA#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#health_check_interval AcosCloudIntegrationEcosystemOracleA#health_check_interval}
   */
   readonly healthCheckInterval?: string;
   /**
   * Configure the host name for bootstrap server(e.g www.a10networks.com)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#host_name AcosCloudIntegrationEcosystemOracleA#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#host_name AcosCloudIntegrationEcosystemOracleA#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#id AcosCloudIntegrationEcosystemOracleA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#id AcosCloudIntegrationEcosystemOracleA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,47 +45,47 @@ export interface AcosCloudIntegrationEcosystemOracleAConfig extends cdktf.Terraf
   /**
   * Configure the bootstrap server's IPv4 address (the host IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#ipv4_address AcosCloudIntegrationEcosystemOracleA#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#ipv4_address AcosCloudIntegrationEcosystemOracleA#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Configure the bootstrap server's IPv6 address (the host IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#ipv6_address AcosCloudIntegrationEcosystemOracleA#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#ipv6_address AcosCloudIntegrationEcosystemOracleA#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Configure the http port to use (port 8500)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#port AcosCloudIntegrationEcosystemOracleA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#port AcosCloudIntegrationEcosystemOracleA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#private_key_path AcosCloudIntegrationEcosystemOracleA#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#private_key_path AcosCloudIntegrationEcosystemOracleA#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * OCI tenancy  id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#tenancy_id AcosCloudIntegrationEcosystemOracleA#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#tenancy_id AcosCloudIntegrationEcosystemOracleA#tenancy_id}
   */
   readonly tenancyId?: string;
   /**
   * OCI user id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#user_id AcosCloudIntegrationEcosystemOracleA#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#user_id AcosCloudIntegrationEcosystemOracleA#user_id}
   */
   readonly userId?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#uuid AcosCloudIntegrationEcosystemOracleA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#uuid AcosCloudIntegrationEcosystemOracleA#uuid}
   */
   readonly uuid?: string;
   /**
   * service_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#service_label AcosCloudIntegrationEcosystemOracleA#service_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#service_label AcosCloudIntegrationEcosystemOracleA#service_label}
   */
   readonly serviceLabel?: AcosCloudIntegrationEcosystemOracleServiceLabelA[] | cdktf.IResolvable;
 }
@@ -93,7 +93,7 @@ export interface AcosCloudIntegrationEcosystemOracleServiceLabelA {
   /**
   * Name service group to be monitored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#service_label_name AcosCloudIntegrationEcosystemOracleA#service_label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#service_label_name AcosCloudIntegrationEcosystemOracleA#service_label_name}
   */
   readonly serviceLabelName?: string;
 }
@@ -209,7 +209,7 @@ export class AcosCloudIntegrationEcosystemOracleServiceLabelAList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle thunder_acos_cloud_integration_ecosystem_oracle}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle thunder_acos_cloud_integration_ecosystem_oracle}
 */
 export class AcosCloudIntegrationEcosystemOracleA extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class AcosCloudIntegrationEcosystemOracleA extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a AcosCloudIntegrationEcosystemOracleA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosCloudIntegrationEcosystemOracleA to import
-  * @param importFromId The id of the existing AcosCloudIntegrationEcosystemOracleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosCloudIntegrationEcosystemOracleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosCloudIntegrationEcosystemOracleA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class AcosCloudIntegrationEcosystemOracleA extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_cloud_integration_ecosystem_oracle thunder_acos_cloud_integration_ecosystem_oracle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_cloud_integration_ecosystem_oracle thunder_acos_cloud_integration_ecosystem_oracle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class AcosCloudIntegrationEcosystemOracleA extends cdktf.TerraformResourc
       terraformResourceType: 'thunder_acos_cloud_integration_ecosystem_oracle',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

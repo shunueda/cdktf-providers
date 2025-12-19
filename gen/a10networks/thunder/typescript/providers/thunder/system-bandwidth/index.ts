@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface SystemBandwidthAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth#id SystemBandwidthA#id}
+  * Adjust bandwidth critical threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#critical_threshold SystemBandwidthA#critical_threshold}
+  */
+  readonly criticalThreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#id SystemBandwidthA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +23,27 @@ export interface SystemBandwidthAConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth#uuid SystemBandwidthA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#uuid SystemBandwidthA#uuid}
   */
   readonly uuid?: string;
   /**
+  * Adjust bandwidth warning threshold
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#warning_threshold SystemBandwidthA#warning_threshold}
+  */
+  readonly warningThreshold?: number;
+  /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth#sampling_enable SystemBandwidthA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#sampling_enable SystemBandwidthA#sampling_enable}
   */
   readonly samplingEnable?: SystemBandwidthSamplingEnableA[] | cdktf.IResolvable;
 }
 export interface SystemBandwidthSamplingEnableA {
   /**
-  * 'all': all; 'input-bytes-per-sec': In Bytes per second; 'output-bytes-per-sec': Out Bytes per second;
+  * 'all': all; 'input-bytes-per-sec': In Bytes per second; 'output-bytes-per-sec': Out Bytes per second; 'ppsl_drop_egr': Packet-Per-Sec Limit Drop at egress; 'ppsl_drop_ing': Packet-Per-Sec Limit Drop at ingress; 'ppsl_ignore_limit': Packet-Per-Sec Limit ignored packets count; 'licexpire_drop': License Expire Drop; 'bwl_drop': BW Limit Drop;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth#counters1 SystemBandwidthA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#counters1 SystemBandwidthA#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +159,7 @@ export class SystemBandwidthSamplingEnableAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth thunder_system_bandwidth}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth thunder_system_bandwidth}
 */
 export class SystemBandwidthA extends cdktf.TerraformResource {
 
@@ -163,7 +175,7 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemBandwidthA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemBandwidthA to import
-  * @param importFromId The id of the existing SystemBandwidthA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemBandwidthA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemBandwidthA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +187,7 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/system_bandwidth thunder_system_bandwidth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/system_bandwidth thunder_system_bandwidth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +198,8 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_system_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -197,14 +209,32 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._criticalThreshold = config.criticalThreshold;
     this._id = config.id;
     this._uuid = config.uuid;
+    this._warningThreshold = config.warningThreshold;
     this._samplingEnable.internalValue = config.samplingEnable;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // critical_threshold - computed: false, optional: true, required: false
+  private _criticalThreshold?: number; 
+  public get criticalThreshold() {
+    return this.getNumberAttribute('critical_threshold');
+  }
+  public set criticalThreshold(value: number) {
+    this._criticalThreshold = value;
+  }
+  public resetCriticalThreshold() {
+    this._criticalThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get criticalThresholdInput() {
+    return this._criticalThreshold;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -238,6 +268,22 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
     return this._uuid;
   }
 
+  // warning_threshold - computed: false, optional: true, required: false
+  private _warningThreshold?: number; 
+  public get warningThreshold() {
+    return this.getNumberAttribute('warning_threshold');
+  }
+  public set warningThreshold(value: number) {
+    this._warningThreshold = value;
+  }
+  public resetWarningThreshold() {
+    this._warningThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get warningThresholdInput() {
+    return this._warningThreshold;
+  }
+
   // sampling_enable - computed: false, optional: true, required: false
   private _samplingEnable = new SystemBandwidthSamplingEnableAList(this, "sampling_enable", false);
   public get samplingEnable() {
@@ -260,14 +306,22 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      critical_threshold: cdktf.numberToTerraform(this._criticalThreshold),
       id: cdktf.stringToTerraform(this._id),
       uuid: cdktf.stringToTerraform(this._uuid),
+      warning_threshold: cdktf.numberToTerraform(this._warningThreshold),
       sampling_enable: cdktf.listMapper(systemBandwidthSamplingEnableAToTerraform, true)(this._samplingEnable.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      critical_threshold: {
+        value: cdktf.numberToHclTerraform(this._criticalThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -279,6 +333,12 @@ export class SystemBandwidthA extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      warning_threshold: {
+        value: cdktf.numberToHclTerraform(this._warningThreshold),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       sampling_enable: {
         value: cdktf.listMapperHcl(systemBandwidthSamplingEnableAToHclTerraform, true)(this._samplingEnable.internalValue),

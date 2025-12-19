@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions
+// https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataMistDeviceVersionsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Fetch version for device model, use/combine with `type` as needed (for switch and gateway devices)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions#model DataMistDeviceVersions#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions#model DataMistDeviceVersions#model}
   */
   readonly model: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions#org_id DataMistDeviceVersions#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions#org_id DataMistDeviceVersions#org_id}
   */
   readonly orgId: string;
   /**
   * enum: `ap`, `gateway`, `switch`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions#type DataMistDeviceVersions#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions#type DataMistDeviceVersions#type}
   */
   readonly type: string;
 }
@@ -111,7 +111,7 @@ export class DataMistDeviceVersionsDeviceVersionsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions mist_device_versions}
+* Represents a {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions mist_device_versions}
 */
 export class DataMistDeviceVersions extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataMistDeviceVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMistDeviceVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMistDeviceVersions to import
-  * @param importFromId The id of the existing DataMistDeviceVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMistDeviceVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMistDeviceVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataMistDeviceVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.2/docs/data-sources/device_versions mist_device_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/juniper/mist/0.6.3/docs/data-sources/device_versions mist_device_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataMistDeviceVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'mist_device_versions',
       terraformGeneratorMetadata: {
         providerName: 'mist',
-        providerVersion: '0.6.2',
-        providerVersionConstraint: '0.6.2'
+        providerVersion: '0.6.3',
+        providerVersionConstraint: '0.6.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

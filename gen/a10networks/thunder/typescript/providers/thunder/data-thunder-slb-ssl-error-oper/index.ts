@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslErrorOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#id DataThunderSlbSslErrorOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#id DataThunderSlbSslErrorOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslErrorOperConfig extends cdktf.TerraformMetaArg
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#oper DataThunderSlbSslErrorOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#oper DataThunderSlbSslErrorOper#oper}
   */
   readonly oper?: DataThunderSlbSslErrorOperOper;
 }
@@ -25,1471 +25,1471 @@ export interface DataThunderSlbSslErrorOperOper {
   /**
   * app data in handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#app_data_in_handshake DataThunderSlbSslErrorOper#app_data_in_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#app_data_in_handshake DataThunderSlbSslErrorOper#app_data_in_handshake}
   */
   readonly appDataInHandshake?: number;
   /**
   * attempt to reuse sess in diff context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#attempt_to_reuse_sess_in_diff_context DataThunderSlbSslErrorOper#attempt_to_reuse_sess_in_diff_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#attempt_to_reuse_sess_in_diff_context DataThunderSlbSslErrorOper#attempt_to_reuse_sess_in_diff_context}
   */
   readonly attemptToReuseSessInDiffContext?: number;
   /**
   * bad alert record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_alert_record DataThunderSlbSslErrorOper#bad_alert_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_alert_record DataThunderSlbSslErrorOper#bad_alert_record}
   */
   readonly badAlertRecord?: number;
   /**
   * bad authentication type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_authentication_type DataThunderSlbSslErrorOper#bad_authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_authentication_type DataThunderSlbSslErrorOper#bad_authentication_type}
   */
   readonly badAuthenticationType?: number;
   /**
   * bad change cipher spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_change_cipher_spec DataThunderSlbSslErrorOper#bad_change_cipher_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_change_cipher_spec DataThunderSlbSslErrorOper#bad_change_cipher_spec}
   */
   readonly badChangeCipherSpec?: number;
   /**
   * bad checksum
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_checksum DataThunderSlbSslErrorOper#bad_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_checksum DataThunderSlbSslErrorOper#bad_checksum}
   */
   readonly badChecksum?: number;
   /**
   * bad data returned by callback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_data_returned_by_callback DataThunderSlbSslErrorOper#bad_data_returned_by_callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_data_returned_by_callback DataThunderSlbSslErrorOper#bad_data_returned_by_callback}
   */
   readonly badDataReturnedByCallback?: number;
   /**
   * bad decompression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_decompression DataThunderSlbSslErrorOper#bad_decompression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_decompression DataThunderSlbSslErrorOper#bad_decompression}
   */
   readonly badDecompression?: number;
   /**
   * bad dh g length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_dh_g_length DataThunderSlbSslErrorOper#bad_dh_g_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_dh_g_length DataThunderSlbSslErrorOper#bad_dh_g_length}
   */
   readonly badDhGLength?: number;
   /**
   * bad dh p length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_dh_p_length DataThunderSlbSslErrorOper#bad_dh_p_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_dh_p_length DataThunderSlbSslErrorOper#bad_dh_p_length}
   */
   readonly badDhPLength?: number;
   /**
   * bad dh pub key length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_dh_pub_key_length DataThunderSlbSslErrorOper#bad_dh_pub_key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_dh_pub_key_length DataThunderSlbSslErrorOper#bad_dh_pub_key_length}
   */
   readonly badDhPubKeyLength?: number;
   /**
   * bad digest length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_digest_length DataThunderSlbSslErrorOper#bad_digest_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_digest_length DataThunderSlbSslErrorOper#bad_digest_length}
   */
   readonly badDigestLength?: number;
   /**
   * bad dsa signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_dsa_signature DataThunderSlbSslErrorOper#bad_dsa_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_dsa_signature DataThunderSlbSslErrorOper#bad_dsa_signature}
   */
   readonly badDsaSignature?: number;
   /**
   * bad ecc cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_ecc_cert DataThunderSlbSslErrorOper#bad_ecc_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_ecc_cert DataThunderSlbSslErrorOper#bad_ecc_cert}
   */
   readonly badEccCert?: number;
   /**
   * bad ecdsa sig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_ecdsa_sig DataThunderSlbSslErrorOper#bad_ecdsa_sig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_ecdsa_sig DataThunderSlbSslErrorOper#bad_ecdsa_sig}
   */
   readonly badEcdsaSig?: number;
   /**
   * bad ecpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_ecpoint DataThunderSlbSslErrorOper#bad_ecpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_ecpoint DataThunderSlbSslErrorOper#bad_ecpoint}
   */
   readonly badEcpoint?: number;
   /**
   * bad handshake length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_handshake_length DataThunderSlbSslErrorOper#bad_handshake_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_handshake_length DataThunderSlbSslErrorOper#bad_handshake_length}
   */
   readonly badHandshakeLength?: number;
   /**
   * bad hello request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_hello_request DataThunderSlbSslErrorOper#bad_hello_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_hello_request DataThunderSlbSslErrorOper#bad_hello_request}
   */
   readonly badHelloRequest?: number;
   /**
   * bad length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_length DataThunderSlbSslErrorOper#bad_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_length DataThunderSlbSslErrorOper#bad_length}
   */
   readonly badLength?: number;
   /**
   * bad mac decode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_mac_decode DataThunderSlbSslErrorOper#bad_mac_decode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_mac_decode DataThunderSlbSslErrorOper#bad_mac_decode}
   */
   readonly badMacDecode?: number;
   /**
   * bad message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_message_type DataThunderSlbSslErrorOper#bad_message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_message_type DataThunderSlbSslErrorOper#bad_message_type}
   */
   readonly badMessageType?: number;
   /**
   * bad packet length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_packet_length DataThunderSlbSslErrorOper#bad_packet_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_packet_length DataThunderSlbSslErrorOper#bad_packet_length}
   */
   readonly badPacketLength?: number;
   /**
   * bad protocol version number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_protocol_version_number DataThunderSlbSslErrorOper#bad_protocol_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_protocol_version_number DataThunderSlbSslErrorOper#bad_protocol_version_number}
   */
   readonly badProtocolVersionNumber?: number;
   /**
   * bad response argument
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_response_argument DataThunderSlbSslErrorOper#bad_response_argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_response_argument DataThunderSlbSslErrorOper#bad_response_argument}
   */
   readonly badResponseArgument?: number;
   /**
   * bad rsa decrypt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_rsa_decrypt DataThunderSlbSslErrorOper#bad_rsa_decrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_rsa_decrypt DataThunderSlbSslErrorOper#bad_rsa_decrypt}
   */
   readonly badRsaDecrypt?: number;
   /**
   * bad rsa e length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_rsa_e_length DataThunderSlbSslErrorOper#bad_rsa_e_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_rsa_e_length DataThunderSlbSslErrorOper#bad_rsa_e_length}
   */
   readonly badRsaELength?: number;
   /**
   * bad rsa encrypt
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_rsa_encrypt DataThunderSlbSslErrorOper#bad_rsa_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_rsa_encrypt DataThunderSlbSslErrorOper#bad_rsa_encrypt}
   */
   readonly badRsaEncrypt?: number;
   /**
   * bad rsa modulus length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_rsa_modulus_length DataThunderSlbSslErrorOper#bad_rsa_modulus_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_rsa_modulus_length DataThunderSlbSslErrorOper#bad_rsa_modulus_length}
   */
   readonly badRsaModulusLength?: number;
   /**
   * bad rsa signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_rsa_signature DataThunderSlbSslErrorOper#bad_rsa_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_rsa_signature DataThunderSlbSslErrorOper#bad_rsa_signature}
   */
   readonly badRsaSignature?: number;
   /**
   * bad signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_signature DataThunderSlbSslErrorOper#bad_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_signature DataThunderSlbSslErrorOper#bad_signature}
   */
   readonly badSignature?: number;
   /**
   * bad ssl filetype
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_ssl_filetype DataThunderSlbSslErrorOper#bad_ssl_filetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_ssl_filetype DataThunderSlbSslErrorOper#bad_ssl_filetype}
   */
   readonly badSslFiletype?: number;
   /**
   * bad ssl session id length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_ssl_session_id_length DataThunderSlbSslErrorOper#bad_ssl_session_id_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_ssl_session_id_length DataThunderSlbSslErrorOper#bad_ssl_session_id_length}
   */
   readonly badSslSessionIdLength?: number;
   /**
   * bad state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_state DataThunderSlbSslErrorOper#bad_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_state DataThunderSlbSslErrorOper#bad_state}
   */
   readonly badState?: number;
   /**
   * bad write retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bad_write_retry DataThunderSlbSslErrorOper#bad_write_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bad_write_retry DataThunderSlbSslErrorOper#bad_write_retry}
   */
   readonly badWriteRetry?: number;
   /**
   * bio not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bio_not_set DataThunderSlbSslErrorOper#bio_not_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bio_not_set DataThunderSlbSslErrorOper#bio_not_set}
   */
   readonly bioNotSet?: number;
   /**
   * block cipher pad is wrong
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#block_cipher_pad_is_wrong DataThunderSlbSslErrorOper#block_cipher_pad_is_wrong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#block_cipher_pad_is_wrong DataThunderSlbSslErrorOper#block_cipher_pad_is_wrong}
   */
   readonly blockCipherPadIsWrong?: number;
   /**
   * bn lib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#bn_lib DataThunderSlbSslErrorOper#bn_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#bn_lib DataThunderSlbSslErrorOper#bn_lib}
   */
   readonly bnLib?: number;
   /**
   * ca dn length mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ca_dn_length_mismatch DataThunderSlbSslErrorOper#ca_dn_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ca_dn_length_mismatch DataThunderSlbSslErrorOper#ca_dn_length_mismatch}
   */
   readonly caDnLengthMismatch?: number;
   /**
   * ca dn too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ca_dn_too_long DataThunderSlbSslErrorOper#ca_dn_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ca_dn_too_long DataThunderSlbSslErrorOper#ca_dn_too_long}
   */
   readonly caDnTooLong?: number;
   /**
   * ccs received early
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ccs_received_early DataThunderSlbSslErrorOper#ccs_received_early}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ccs_received_early DataThunderSlbSslErrorOper#ccs_received_early}
   */
   readonly ccsReceivedEarly?: number;
   /**
   * cert length mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#cert_length_mismatch DataThunderSlbSslErrorOper#cert_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#cert_length_mismatch DataThunderSlbSslErrorOper#cert_length_mismatch}
   */
   readonly certLengthMismatch?: number;
   /**
   * certificate verify failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#certificate_verify_failed DataThunderSlbSslErrorOper#certificate_verify_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#certificate_verify_failed DataThunderSlbSslErrorOper#certificate_verify_failed}
   */
   readonly certificateVerifyFailed?: number;
   /**
   * challenge is different
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#challenge_is_different DataThunderSlbSslErrorOper#challenge_is_different}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#challenge_is_different DataThunderSlbSslErrorOper#challenge_is_different}
   */
   readonly challengeIsDifferent?: number;
   /**
   * cipher code wrong length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#cipher_code_wrong_length DataThunderSlbSslErrorOper#cipher_code_wrong_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#cipher_code_wrong_length DataThunderSlbSslErrorOper#cipher_code_wrong_length}
   */
   readonly cipherCodeWrongLength?: number;
   /**
   * cipher or hash unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#cipher_or_hash_unavailable DataThunderSlbSslErrorOper#cipher_or_hash_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#cipher_or_hash_unavailable DataThunderSlbSslErrorOper#cipher_or_hash_unavailable}
   */
   readonly cipherOrHashUnavailable?: number;
   /**
   * cipher table src error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#cipher_table_src_error DataThunderSlbSslErrorOper#cipher_table_src_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#cipher_table_src_error DataThunderSlbSslErrorOper#cipher_table_src_error}
   */
   readonly cipherTableSrcError?: number;
   /**
   * clienthello tlsext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#clienthello_tlsext DataThunderSlbSslErrorOper#clienthello_tlsext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#clienthello_tlsext DataThunderSlbSslErrorOper#clienthello_tlsext}
   */
   readonly clienthelloTlsext?: number;
   /**
   * compressed length too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#compressed_length_too_long DataThunderSlbSslErrorOper#compressed_length_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#compressed_length_too_long DataThunderSlbSslErrorOper#compressed_length_too_long}
   */
   readonly compressedLengthTooLong?: number;
   /**
   * compression failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#compression_failure DataThunderSlbSslErrorOper#compression_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#compression_failure DataThunderSlbSslErrorOper#compression_failure}
   */
   readonly compressionFailure?: number;
   /**
   * compression library error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#compression_library_error DataThunderSlbSslErrorOper#compression_library_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#compression_library_error DataThunderSlbSslErrorOper#compression_library_error}
   */
   readonly compressionLibraryError?: number;
   /**
   * connection id is different
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#connection_id_is_different DataThunderSlbSslErrorOper#connection_id_is_different}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#connection_id_is_different DataThunderSlbSslErrorOper#connection_id_is_different}
   */
   readonly connectionIdIsDifferent?: number;
   /**
   * connection type not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#connection_type_not_set DataThunderSlbSslErrorOper#connection_type_not_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#connection_type_not_set DataThunderSlbSslErrorOper#connection_type_not_set}
   */
   readonly connectionTypeNotSet?: number;
   /**
   * cookie mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#cookie_mismatch DataThunderSlbSslErrorOper#cookie_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#cookie_mismatch DataThunderSlbSslErrorOper#cookie_mismatch}
   */
   readonly cookieMismatch?: number;
   /**
   * data between ccs and finished
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#data_between_ccs_and_finished DataThunderSlbSslErrorOper#data_between_ccs_and_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#data_between_ccs_and_finished DataThunderSlbSslErrorOper#data_between_ccs_and_finished}
   */
   readonly dataBetweenCcsAndFinished?: number;
   /**
   * data length too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#data_length_too_long DataThunderSlbSslErrorOper#data_length_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#data_length_too_long DataThunderSlbSslErrorOper#data_length_too_long}
   */
   readonly dataLengthTooLong?: number;
   /**
   * decryption failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#decryption_failed DataThunderSlbSslErrorOper#decryption_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#decryption_failed DataThunderSlbSslErrorOper#decryption_failed}
   */
   readonly decryptionFailed?: number;
   /**
   * decryption failed or bad record mac
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#decryption_failed_or_bad_record_mac DataThunderSlbSslErrorOper#decryption_failed_or_bad_record_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#decryption_failed_or_bad_record_mac DataThunderSlbSslErrorOper#decryption_failed_or_bad_record_mac}
   */
   readonly decryptionFailedOrBadRecordMac?: number;
   /**
   * dh public value length is wrong
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#dh_public_value_length_is_wrong DataThunderSlbSslErrorOper#dh_public_value_length_is_wrong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#dh_public_value_length_is_wrong DataThunderSlbSslErrorOper#dh_public_value_length_is_wrong}
   */
   readonly dhPublicValueLengthIsWrong?: number;
   /**
   * digest check failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#digest_check_failed DataThunderSlbSslErrorOper#digest_check_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#digest_check_failed DataThunderSlbSslErrorOper#digest_check_failed}
   */
   readonly digestCheckFailed?: number;
   /**
   * encrypted length too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#encrypted_length_too_long DataThunderSlbSslErrorOper#encrypted_length_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#encrypted_length_too_long DataThunderSlbSslErrorOper#encrypted_length_too_long}
   */
   readonly encryptedLengthTooLong?: number;
   /**
   * error generating tmp rsa key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#error_generating_tmp_rsa_key DataThunderSlbSslErrorOper#error_generating_tmp_rsa_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#error_generating_tmp_rsa_key DataThunderSlbSslErrorOper#error_generating_tmp_rsa_key}
   */
   readonly errorGeneratingTmpRsaKey?: number;
   /**
   * error in received cipher list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#error_in_received_cipher_list DataThunderSlbSslErrorOper#error_in_received_cipher_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#error_in_received_cipher_list DataThunderSlbSslErrorOper#error_in_received_cipher_list}
   */
   readonly errorInReceivedCipherList?: number;
   /**
   * excessive message size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#excessive_message_size DataThunderSlbSslErrorOper#excessive_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#excessive_message_size DataThunderSlbSslErrorOper#excessive_message_size}
   */
   readonly excessiveMessageSize?: number;
   /**
   * extra data in message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#extra_data_in_message DataThunderSlbSslErrorOper#extra_data_in_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#extra_data_in_message DataThunderSlbSslErrorOper#extra_data_in_message}
   */
   readonly extraDataInMessage?: number;
   /**
   * got a fin before a ccs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#got_a_fin_before_a_ccs DataThunderSlbSslErrorOper#got_a_fin_before_a_ccs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#got_a_fin_before_a_ccs DataThunderSlbSslErrorOper#got_a_fin_before_a_ccs}
   */
   readonly gotAFinBeforeACcs?: number;
   /**
   * http request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#http_request DataThunderSlbSslErrorOper#http_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#http_request DataThunderSlbSslErrorOper#http_request}
   */
   readonly httpRequest?: number;
   /**
   * https proxy request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#https_proxy_request DataThunderSlbSslErrorOper#https_proxy_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#https_proxy_request DataThunderSlbSslErrorOper#https_proxy_request}
   */
   readonly httpsProxyRequest?: number;
   /**
   * illegal padding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#illegal_padding DataThunderSlbSslErrorOper#illegal_padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#illegal_padding DataThunderSlbSslErrorOper#illegal_padding}
   */
   readonly illegalPadding?: number;
   /**
   * inappropriate fallback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#inappropriate_fallback DataThunderSlbSslErrorOper#inappropriate_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#inappropriate_fallback DataThunderSlbSslErrorOper#inappropriate_fallback}
   */
   readonly inappropriateFallback?: number;
   /**
   * invalid challenge length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#invalid_challenge_length DataThunderSlbSslErrorOper#invalid_challenge_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#invalid_challenge_length DataThunderSlbSslErrorOper#invalid_challenge_length}
   */
   readonly invalidChallengeLength?: number;
   /**
   * invalid command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#invalid_command DataThunderSlbSslErrorOper#invalid_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#invalid_command DataThunderSlbSslErrorOper#invalid_command}
   */
   readonly invalidCommand?: number;
   /**
   * invalid purpose
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#invalid_purpose DataThunderSlbSslErrorOper#invalid_purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#invalid_purpose DataThunderSlbSslErrorOper#invalid_purpose}
   */
   readonly invalidPurpose?: number;
   /**
   * invalid status response
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#invalid_status_response DataThunderSlbSslErrorOper#invalid_status_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#invalid_status_response DataThunderSlbSslErrorOper#invalid_status_response}
   */
   readonly invalidStatusResponse?: number;
   /**
   * invalid trust
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#invalid_trust DataThunderSlbSslErrorOper#invalid_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#invalid_trust DataThunderSlbSslErrorOper#invalid_trust}
   */
   readonly invalidTrust?: number;
   /**
   * key arg too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#key_arg_too_long DataThunderSlbSslErrorOper#key_arg_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#key_arg_too_long DataThunderSlbSslErrorOper#key_arg_too_long}
   */
   readonly keyArgTooLong?: number;
   /**
   * krb5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5 DataThunderSlbSslErrorOper#krb5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5 DataThunderSlbSslErrorOper#krb5}
   */
   readonly krb5?: number;
   /**
   * krb5 client cc principal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_client_cc_principal DataThunderSlbSslErrorOper#krb5_client_cc_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_client_cc_principal DataThunderSlbSslErrorOper#krb5_client_cc_principal}
   */
   readonly krb5ClientCcPrincipal?: number;
   /**
   * krb5 client get cred
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_client_get_cred DataThunderSlbSslErrorOper#krb5_client_get_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_client_get_cred DataThunderSlbSslErrorOper#krb5_client_get_cred}
   */
   readonly krb5ClientGetCred?: number;
   /**
   * krb5 client init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_client_init DataThunderSlbSslErrorOper#krb5_client_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_client_init DataThunderSlbSslErrorOper#krb5_client_init}
   */
   readonly krb5ClientInit?: number;
   /**
   * krb5 client mk_req
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_client_mk_req DataThunderSlbSslErrorOper#krb5_client_mk_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_client_mk_req DataThunderSlbSslErrorOper#krb5_client_mk_req}
   */
   readonly krb5ClientMkReq?: number;
   /**
   * krb5 server bad ticket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_bad_ticket DataThunderSlbSslErrorOper#krb5_server_bad_ticket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_bad_ticket DataThunderSlbSslErrorOper#krb5_server_bad_ticket}
   */
   readonly krb5ServerBadTicket?: number;
   /**
   * krb5 server init
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_init DataThunderSlbSslErrorOper#krb5_server_init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_init DataThunderSlbSslErrorOper#krb5_server_init}
   */
   readonly krb5ServerInit?: number;
   /**
   * krb5 server rd_req
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_rd_req DataThunderSlbSslErrorOper#krb5_server_rd_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_rd_req DataThunderSlbSslErrorOper#krb5_server_rd_req}
   */
   readonly krb5ServerRdReq?: number;
   /**
   * krb5 server tkt expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_expired DataThunderSlbSslErrorOper#krb5_server_tkt_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_expired DataThunderSlbSslErrorOper#krb5_server_tkt_expired}
   */
   readonly krb5ServerTktExpired?: number;
   /**
   * krb5 server tkt not yet valid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_not_yet_valid DataThunderSlbSslErrorOper#krb5_server_tkt_not_yet_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_not_yet_valid DataThunderSlbSslErrorOper#krb5_server_tkt_not_yet_valid}
   */
   readonly krb5ServerTktNotYetValid?: number;
   /**
   * krb5 server tkt skew
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_skew DataThunderSlbSslErrorOper#krb5_server_tkt_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#krb5_server_tkt_skew DataThunderSlbSslErrorOper#krb5_server_tkt_skew}
   */
   readonly krb5ServerTktSkew?: number;
   /**
   * length mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#length_mismatch DataThunderSlbSslErrorOper#length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#length_mismatch DataThunderSlbSslErrorOper#length_mismatch}
   */
   readonly lengthMismatch?: number;
   /**
   * length too short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#length_too_short DataThunderSlbSslErrorOper#length_too_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#length_too_short DataThunderSlbSslErrorOper#length_too_short}
   */
   readonly lengthTooShort?: number;
   /**
   * library bug
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#library_bug DataThunderSlbSslErrorOper#library_bug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#library_bug DataThunderSlbSslErrorOper#library_bug}
   */
   readonly libraryBug?: number;
   /**
   * library has no ciphers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#library_has_no_ciphers DataThunderSlbSslErrorOper#library_has_no_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#library_has_no_ciphers DataThunderSlbSslErrorOper#library_has_no_ciphers}
   */
   readonly libraryHasNoCiphers?: number;
   /**
   * mast key too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#mast_key_too_long DataThunderSlbSslErrorOper#mast_key_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#mast_key_too_long DataThunderSlbSslErrorOper#mast_key_too_long}
   */
   readonly mastKeyTooLong?: number;
   /**
   * message too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#message_too_long DataThunderSlbSslErrorOper#message_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#message_too_long DataThunderSlbSslErrorOper#message_too_long}
   */
   readonly messageTooLong?: number;
   /**
   * missing dh dsa cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_dh_dsa_cert DataThunderSlbSslErrorOper#missing_dh_dsa_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_dh_dsa_cert DataThunderSlbSslErrorOper#missing_dh_dsa_cert}
   */
   readonly missingDhDsaCert?: number;
   /**
   * missing dh key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_dh_key DataThunderSlbSslErrorOper#missing_dh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_dh_key DataThunderSlbSslErrorOper#missing_dh_key}
   */
   readonly missingDhKey?: number;
   /**
   * missing dh rsa cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_dh_rsa_cert DataThunderSlbSslErrorOper#missing_dh_rsa_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_dh_rsa_cert DataThunderSlbSslErrorOper#missing_dh_rsa_cert}
   */
   readonly missingDhRsaCert?: number;
   /**
   * missing dsa signing cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_dsa_signing_cert DataThunderSlbSslErrorOper#missing_dsa_signing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_dsa_signing_cert DataThunderSlbSslErrorOper#missing_dsa_signing_cert}
   */
   readonly missingDsaSigningCert?: number;
   /**
   * missing export tmp dh key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_export_tmp_dh_key DataThunderSlbSslErrorOper#missing_export_tmp_dh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_export_tmp_dh_key DataThunderSlbSslErrorOper#missing_export_tmp_dh_key}
   */
   readonly missingExportTmpDhKey?: number;
   /**
   * missing export tmp rsa key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_export_tmp_rsa_key DataThunderSlbSslErrorOper#missing_export_tmp_rsa_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_export_tmp_rsa_key DataThunderSlbSslErrorOper#missing_export_tmp_rsa_key}
   */
   readonly missingExportTmpRsaKey?: number;
   /**
   * missing rsa certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_rsa_certificate DataThunderSlbSslErrorOper#missing_rsa_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_rsa_certificate DataThunderSlbSslErrorOper#missing_rsa_certificate}
   */
   readonly missingRsaCertificate?: number;
   /**
   * missing rsa encrypting cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_rsa_encrypting_cert DataThunderSlbSslErrorOper#missing_rsa_encrypting_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_rsa_encrypting_cert DataThunderSlbSslErrorOper#missing_rsa_encrypting_cert}
   */
   readonly missingRsaEncryptingCert?: number;
   /**
   * missing rsa signing cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_rsa_signing_cert DataThunderSlbSslErrorOper#missing_rsa_signing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_rsa_signing_cert DataThunderSlbSslErrorOper#missing_rsa_signing_cert}
   */
   readonly missingRsaSigningCert?: number;
   /**
   * missing tmp dh key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_tmp_dh_key DataThunderSlbSslErrorOper#missing_tmp_dh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_tmp_dh_key DataThunderSlbSslErrorOper#missing_tmp_dh_key}
   */
   readonly missingTmpDhKey?: number;
   /**
   * missing tmp rsa key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_tmp_rsa_key DataThunderSlbSslErrorOper#missing_tmp_rsa_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_tmp_rsa_key DataThunderSlbSslErrorOper#missing_tmp_rsa_key}
   */
   readonly missingTmpRsaKey?: number;
   /**
   * missing tmp rsa pkey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_tmp_rsa_pkey DataThunderSlbSslErrorOper#missing_tmp_rsa_pkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_tmp_rsa_pkey DataThunderSlbSslErrorOper#missing_tmp_rsa_pkey}
   */
   readonly missingTmpRsaPkey?: number;
   /**
   * missing verify message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#missing_verify_message DataThunderSlbSslErrorOper#missing_verify_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#missing_verify_message DataThunderSlbSslErrorOper#missing_verify_message}
   */
   readonly missingVerifyMessage?: number;
   /**
   * multiple sgc restarts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#multiple_sgc_restarts DataThunderSlbSslErrorOper#multiple_sgc_restarts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#multiple_sgc_restarts DataThunderSlbSslErrorOper#multiple_sgc_restarts}
   */
   readonly multipleSgcRestarts?: number;
   /**
   * no certificate assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_certificate_assigned DataThunderSlbSslErrorOper#no_certificate_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_certificate_assigned DataThunderSlbSslErrorOper#no_certificate_assigned}
   */
   readonly noCertificateAssigned?: number;
   /**
   * no certificate returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_certificate_returned DataThunderSlbSslErrorOper#no_certificate_returned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_certificate_returned DataThunderSlbSslErrorOper#no_certificate_returned}
   */
   readonly noCertificateReturned?: number;
   /**
   * no certificate set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_certificate_set DataThunderSlbSslErrorOper#no_certificate_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_certificate_set DataThunderSlbSslErrorOper#no_certificate_set}
   */
   readonly noCertificateSet?: number;
   /**
   * no certificate specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_certificate_specified DataThunderSlbSslErrorOper#no_certificate_specified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_certificate_specified DataThunderSlbSslErrorOper#no_certificate_specified}
   */
   readonly noCertificateSpecified?: number;
   /**
   * no certificates returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_certificates_returned DataThunderSlbSslErrorOper#no_certificates_returned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_certificates_returned DataThunderSlbSslErrorOper#no_certificates_returned}
   */
   readonly noCertificatesReturned?: number;
   /**
   * no cipher list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_cipher_list DataThunderSlbSslErrorOper#no_cipher_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_cipher_list DataThunderSlbSslErrorOper#no_cipher_list}
   */
   readonly noCipherList?: number;
   /**
   * no cipher match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_cipher_match DataThunderSlbSslErrorOper#no_cipher_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_cipher_match DataThunderSlbSslErrorOper#no_cipher_match}
   */
   readonly noCipherMatch?: number;
   /**
   * no ciphers available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_ciphers_available DataThunderSlbSslErrorOper#no_ciphers_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_ciphers_available DataThunderSlbSslErrorOper#no_ciphers_available}
   */
   readonly noCiphersAvailable?: number;
   /**
   * no ciphers passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_ciphers_passed DataThunderSlbSslErrorOper#no_ciphers_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_ciphers_passed DataThunderSlbSslErrorOper#no_ciphers_passed}
   */
   readonly noCiphersPassed?: number;
   /**
   * no ciphers specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_ciphers_specified DataThunderSlbSslErrorOper#no_ciphers_specified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_ciphers_specified DataThunderSlbSslErrorOper#no_ciphers_specified}
   */
   readonly noCiphersSpecified?: number;
   /**
   * no client cert received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_client_cert_received DataThunderSlbSslErrorOper#no_client_cert_received}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_client_cert_received DataThunderSlbSslErrorOper#no_client_cert_received}
   */
   readonly noClientCertReceived?: number;
   /**
   * no compression specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_compression_specified DataThunderSlbSslErrorOper#no_compression_specified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_compression_specified DataThunderSlbSslErrorOper#no_compression_specified}
   */
   readonly noCompressionSpecified?: number;
   /**
   * no method specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_method_specified DataThunderSlbSslErrorOper#no_method_specified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_method_specified DataThunderSlbSslErrorOper#no_method_specified}
   */
   readonly noMethodSpecified?: number;
   /**
   * no private key assigned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_private_key_assigned DataThunderSlbSslErrorOper#no_private_key_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_private_key_assigned DataThunderSlbSslErrorOper#no_private_key_assigned}
   */
   readonly noPrivateKeyAssigned?: number;
   /**
   * no privatekey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_privatekey DataThunderSlbSslErrorOper#no_privatekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_privatekey DataThunderSlbSslErrorOper#no_privatekey}
   */
   readonly noPrivatekey?: number;
   /**
   * no protocols available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_protocols_available DataThunderSlbSslErrorOper#no_protocols_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_protocols_available DataThunderSlbSslErrorOper#no_protocols_available}
   */
   readonly noProtocolsAvailable?: number;
   /**
   * no publickey
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_publickey DataThunderSlbSslErrorOper#no_publickey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_publickey DataThunderSlbSslErrorOper#no_publickey}
   */
   readonly noPublickey?: number;
   /**
   * no required digest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_required_digest DataThunderSlbSslErrorOper#no_required_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_required_digest DataThunderSlbSslErrorOper#no_required_digest}
   */
   readonly noRequiredDigest?: number;
   /**
   * no shared cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_shared_cipher DataThunderSlbSslErrorOper#no_shared_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_shared_cipher DataThunderSlbSslErrorOper#no_shared_cipher}
   */
   readonly noSharedCipher?: number;
   /**
   * no verify callback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#no_verify_callback DataThunderSlbSslErrorOper#no_verify_callback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#no_verify_callback DataThunderSlbSslErrorOper#no_verify_callback}
   */
   readonly noVerifyCallback?: number;
   /**
   * non sslv2 initial packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#non_sslv2_initial_packet DataThunderSlbSslErrorOper#non_sslv2_initial_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#non_sslv2_initial_packet DataThunderSlbSslErrorOper#non_sslv2_initial_packet}
   */
   readonly nonSslv2InitialPacket?: number;
   /**
   * null ssl ctx
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#null_ssl_ctx DataThunderSlbSslErrorOper#null_ssl_ctx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#null_ssl_ctx DataThunderSlbSslErrorOper#null_ssl_ctx}
   */
   readonly nullSslCtx?: number;
   /**
   * null ssl method passed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#null_ssl_method_passed DataThunderSlbSslErrorOper#null_ssl_method_passed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#null_ssl_method_passed DataThunderSlbSslErrorOper#null_ssl_method_passed}
   */
   readonly nullSslMethodPassed?: number;
   /**
   * old session cipher not returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#old_session_cipher_not_returned DataThunderSlbSslErrorOper#old_session_cipher_not_returned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#old_session_cipher_not_returned DataThunderSlbSslErrorOper#old_session_cipher_not_returned}
   */
   readonly oldSessionCipherNotReturned?: number;
   /**
   * packet length too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#packet_length_too_long DataThunderSlbSslErrorOper#packet_length_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#packet_length_too_long DataThunderSlbSslErrorOper#packet_length_too_long}
   */
   readonly packetLengthTooLong?: number;
   /**
   * parse tlsext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#parse_tlsext DataThunderSlbSslErrorOper#parse_tlsext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#parse_tlsext DataThunderSlbSslErrorOper#parse_tlsext}
   */
   readonly parseTlsext?: number;
   /**
   * path too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#path_too_long DataThunderSlbSslErrorOper#path_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#path_too_long DataThunderSlbSslErrorOper#path_too_long}
   */
   readonly pathTooLong?: number;
   /**
   * peer did not return a certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_did_not_return_a_certificate DataThunderSlbSslErrorOper#peer_did_not_return_a_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_did_not_return_a_certificate DataThunderSlbSslErrorOper#peer_did_not_return_a_certificate}
   */
   readonly peerDidNotReturnACertificate?: number;
   /**
   * peer error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_error DataThunderSlbSslErrorOper#peer_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_error DataThunderSlbSslErrorOper#peer_error}
   */
   readonly peerError?: number;
   /**
   * peer error certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_error_certificate DataThunderSlbSslErrorOper#peer_error_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_error_certificate DataThunderSlbSslErrorOper#peer_error_certificate}
   */
   readonly peerErrorCertificate?: number;
   /**
   * peer error no certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_error_no_certificate DataThunderSlbSslErrorOper#peer_error_no_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_error_no_certificate DataThunderSlbSslErrorOper#peer_error_no_certificate}
   */
   readonly peerErrorNoCertificate?: number;
   /**
   * peer error no cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_error_no_cipher DataThunderSlbSslErrorOper#peer_error_no_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_error_no_cipher DataThunderSlbSslErrorOper#peer_error_no_cipher}
   */
   readonly peerErrorNoCipher?: number;
   /**
   * peer error unsupported certificate type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#peer_error_unsupported_certificate_type DataThunderSlbSslErrorOper#peer_error_unsupported_certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#peer_error_unsupported_certificate_type DataThunderSlbSslErrorOper#peer_error_unsupported_certificate_type}
   */
   readonly peerErrorUnsupportedCertificateType?: number;
   /**
   * pre mac length too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#pre_mac_length_too_long DataThunderSlbSslErrorOper#pre_mac_length_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#pre_mac_length_too_long DataThunderSlbSslErrorOper#pre_mac_length_too_long}
   */
   readonly preMacLengthTooLong?: number;
   /**
   * problems mapping cipher functions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#problems_mapping_cipher_functions DataThunderSlbSslErrorOper#problems_mapping_cipher_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#problems_mapping_cipher_functions DataThunderSlbSslErrorOper#problems_mapping_cipher_functions}
   */
   readonly problemsMappingCipherFunctions?: number;
   /**
   * protocol is shutdown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#protocol_is_shutdown DataThunderSlbSslErrorOper#protocol_is_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#protocol_is_shutdown DataThunderSlbSslErrorOper#protocol_is_shutdown}
   */
   readonly protocolIsShutdown?: number;
   /**
   * public key encrypt error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#public_key_encrypt_error DataThunderSlbSslErrorOper#public_key_encrypt_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#public_key_encrypt_error DataThunderSlbSslErrorOper#public_key_encrypt_error}
   */
   readonly publicKeyEncryptError?: number;
   /**
   * public key is not rsa
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#public_key_is_not_rsa DataThunderSlbSslErrorOper#public_key_is_not_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#public_key_is_not_rsa DataThunderSlbSslErrorOper#public_key_is_not_rsa}
   */
   readonly publicKeyIsNotRsa?: number;
   /**
   * public key not rsa
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#public_key_not_rsa DataThunderSlbSslErrorOper#public_key_not_rsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#public_key_not_rsa DataThunderSlbSslErrorOper#public_key_not_rsa}
   */
   readonly publicKeyNotRsa?: number;
   /**
   * read bio not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#read_bio_not_set DataThunderSlbSslErrorOper#read_bio_not_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#read_bio_not_set DataThunderSlbSslErrorOper#read_bio_not_set}
   */
   readonly readBioNotSet?: number;
   /**
   * read wrong packet type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#read_wrong_packet_type DataThunderSlbSslErrorOper#read_wrong_packet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#read_wrong_packet_type DataThunderSlbSslErrorOper#read_wrong_packet_type}
   */
   readonly readWrongPacketType?: number;
   /**
   * record length mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#record_length_mismatch DataThunderSlbSslErrorOper#record_length_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#record_length_mismatch DataThunderSlbSslErrorOper#record_length_mismatch}
   */
   readonly recordLengthMismatch?: number;
   /**
   * record too large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#record_too_large DataThunderSlbSslErrorOper#record_too_large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#record_too_large DataThunderSlbSslErrorOper#record_too_large}
   */
   readonly recordTooLarge?: number;
   /**
   * record too small
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#record_too_small DataThunderSlbSslErrorOper#record_too_small}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#record_too_small DataThunderSlbSslErrorOper#record_too_small}
   */
   readonly recordTooSmall?: number;
   /**
   * required cipher missing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#required_cipher_missing DataThunderSlbSslErrorOper#required_cipher_missing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#required_cipher_missing DataThunderSlbSslErrorOper#required_cipher_missing}
   */
   readonly requiredCipherMissing?: number;
   /**
   * reuse cert length not zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#reuse_cert_length_not_zero DataThunderSlbSslErrorOper#reuse_cert_length_not_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#reuse_cert_length_not_zero DataThunderSlbSslErrorOper#reuse_cert_length_not_zero}
   */
   readonly reuseCertLengthNotZero?: number;
   /**
   * reuse cert type not zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#reuse_cert_type_not_zero DataThunderSlbSslErrorOper#reuse_cert_type_not_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#reuse_cert_type_not_zero DataThunderSlbSslErrorOper#reuse_cert_type_not_zero}
   */
   readonly reuseCertTypeNotZero?: number;
   /**
   * reuse cipher list not zero
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#reuse_cipher_list_not_zero DataThunderSlbSslErrorOper#reuse_cipher_list_not_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#reuse_cipher_list_not_zero DataThunderSlbSslErrorOper#reuse_cipher_list_not_zero}
   */
   readonly reuseCipherListNotZero?: number;
   /**
   * scsv received when renegotiating
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#scsv_received_when_renegotiating DataThunderSlbSslErrorOper#scsv_received_when_renegotiating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#scsv_received_when_renegotiating DataThunderSlbSslErrorOper#scsv_received_when_renegotiating}
   */
   readonly scsvReceivedWhenRenegotiating?: number;
   /**
   * serverhello tlsext
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#serverhello_tlsext DataThunderSlbSslErrorOper#serverhello_tlsext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#serverhello_tlsext DataThunderSlbSslErrorOper#serverhello_tlsext}
   */
   readonly serverhelloTlsext?: number;
   /**
   * session id context uninitialized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#session_id_context_uninitialized DataThunderSlbSslErrorOper#session_id_context_uninitialized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#session_id_context_uninitialized DataThunderSlbSslErrorOper#session_id_context_uninitialized}
   */
   readonly sessionIdContextUninitialized?: number;
   /**
   * short read
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#short_read DataThunderSlbSslErrorOper#short_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#short_read DataThunderSlbSslErrorOper#short_read}
   */
   readonly shortRead?: number;
   /**
   * signature for non signing certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#signature_for_non_signing_certificate DataThunderSlbSslErrorOper#signature_for_non_signing_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#signature_for_non_signing_certificate DataThunderSlbSslErrorOper#signature_for_non_signing_certificate}
   */
   readonly signatureForNonSigningCertificate?: number;
   /**
   * ssl23 doing session id reuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl23_doing_session_id_reuse DataThunderSlbSslErrorOper#ssl23_doing_session_id_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl23_doing_session_id_reuse DataThunderSlbSslErrorOper#ssl23_doing_session_id_reuse}
   */
   readonly ssl23DoingSessionIdReuse?: number;
   /**
   * ssl2 connection id too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl2_connection_id_too_long DataThunderSlbSslErrorOper#ssl2_connection_id_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl2_connection_id_too_long DataThunderSlbSslErrorOper#ssl2_connection_id_too_long}
   */
   readonly ssl2ConnectionIdTooLong?: number;
   /**
   * ssl3 ext invalid servername
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl3_ext_invalid_servername DataThunderSlbSslErrorOper#ssl3_ext_invalid_servername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl3_ext_invalid_servername DataThunderSlbSslErrorOper#ssl3_ext_invalid_servername}
   */
   readonly ssl3ExtInvalidServername?: number;
   /**
   * ssl3 ext invalid servername type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl3_ext_invalid_servername_type DataThunderSlbSslErrorOper#ssl3_ext_invalid_servername_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl3_ext_invalid_servername_type DataThunderSlbSslErrorOper#ssl3_ext_invalid_servername_type}
   */
   readonly ssl3ExtInvalidServernameType?: number;
   /**
   * ssl3 session id too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl3_session_id_too_long DataThunderSlbSslErrorOper#ssl3_session_id_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl3_session_id_too_long DataThunderSlbSslErrorOper#ssl3_session_id_too_long}
   */
   readonly ssl3SessionIdTooLong?: number;
   /**
   * ssl3 session id too short
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl3_session_id_too_short DataThunderSlbSslErrorOper#ssl3_session_id_too_short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl3_session_id_too_short DataThunderSlbSslErrorOper#ssl3_session_id_too_short}
   */
   readonly ssl3SessionIdTooShort?: number;
   /**
   * ssl ctx has no default ssl version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_ctx_has_no_default_ssl_version DataThunderSlbSslErrorOper#ssl_ctx_has_no_default_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_ctx_has_no_default_ssl_version DataThunderSlbSslErrorOper#ssl_ctx_has_no_default_ssl_version}
   */
   readonly sslCtxHasNoDefaultSslVersion?: number;
   /**
   * ssl handshake failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_handshake_failure DataThunderSlbSslErrorOper#ssl_handshake_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_handshake_failure DataThunderSlbSslErrorOper#ssl_handshake_failure}
   */
   readonly sslHandshakeFailure?: number;
   /**
   * ssl library has no ciphers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_library_has_no_ciphers DataThunderSlbSslErrorOper#ssl_library_has_no_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_library_has_no_ciphers DataThunderSlbSslErrorOper#ssl_library_has_no_ciphers}
   */
   readonly sslLibraryHasNoCiphers?: number;
   /**
   * ssl session id callback failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_session_id_callback_failed DataThunderSlbSslErrorOper#ssl_session_id_callback_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_session_id_callback_failed DataThunderSlbSslErrorOper#ssl_session_id_callback_failed}
   */
   readonly sslSessionIdCallbackFailed?: number;
   /**
   * ssl session id conflict
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_session_id_conflict DataThunderSlbSslErrorOper#ssl_session_id_conflict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_session_id_conflict DataThunderSlbSslErrorOper#ssl_session_id_conflict}
   */
   readonly sslSessionIdConflict?: number;
   /**
   * ssl session id context too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_session_id_context_too_long DataThunderSlbSslErrorOper#ssl_session_id_context_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_session_id_context_too_long DataThunderSlbSslErrorOper#ssl_session_id_context_too_long}
   */
   readonly sslSessionIdContextTooLong?: number;
   /**
   * ssl session id has bad length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_session_id_has_bad_length DataThunderSlbSslErrorOper#ssl_session_id_has_bad_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_session_id_has_bad_length DataThunderSlbSslErrorOper#ssl_session_id_has_bad_length}
   */
   readonly sslSessionIdHasBadLength?: number;
   /**
   * ssl session id is different
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#ssl_session_id_is_different DataThunderSlbSslErrorOper#ssl_session_id_is_different}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#ssl_session_id_is_different DataThunderSlbSslErrorOper#ssl_session_id_is_different}
   */
   readonly sslSessionIdIsDifferent?: number;
   /**
   * sslv3 alert bad certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_bad_certificate DataThunderSlbSslErrorOper#sslv3_alert_bad_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_bad_certificate DataThunderSlbSslErrorOper#sslv3_alert_bad_certificate}
   */
   readonly sslv3AlertBadCertificate?: number;
   /**
   * sslv3 alert bad record mac
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_bad_record_mac DataThunderSlbSslErrorOper#sslv3_alert_bad_record_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_bad_record_mac DataThunderSlbSslErrorOper#sslv3_alert_bad_record_mac}
   */
   readonly sslv3AlertBadRecordMac?: number;
   /**
   * sslv3 alert certificate expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_expired DataThunderSlbSslErrorOper#sslv3_alert_certificate_expired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_expired DataThunderSlbSslErrorOper#sslv3_alert_certificate_expired}
   */
   readonly sslv3AlertCertificateExpired?: number;
   /**
   * sslv3 alert certificate revoked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_revoked DataThunderSlbSslErrorOper#sslv3_alert_certificate_revoked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_revoked DataThunderSlbSslErrorOper#sslv3_alert_certificate_revoked}
   */
   readonly sslv3AlertCertificateRevoked?: number;
   /**
   * sslv3 alert certificate unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_unknown DataThunderSlbSslErrorOper#sslv3_alert_certificate_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_certificate_unknown DataThunderSlbSslErrorOper#sslv3_alert_certificate_unknown}
   */
   readonly sslv3AlertCertificateUnknown?: number;
   /**
   * sslv3 alert decompression failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_decompression_failure DataThunderSlbSslErrorOper#sslv3_alert_decompression_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_decompression_failure DataThunderSlbSslErrorOper#sslv3_alert_decompression_failure}
   */
   readonly sslv3AlertDecompressionFailure?: number;
   /**
   * sslv3 alert handshake failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_handshake_failure DataThunderSlbSslErrorOper#sslv3_alert_handshake_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_handshake_failure DataThunderSlbSslErrorOper#sslv3_alert_handshake_failure}
   */
   readonly sslv3AlertHandshakeFailure?: number;
   /**
   * sslv3 alert illegal parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_illegal_parameter DataThunderSlbSslErrorOper#sslv3_alert_illegal_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_illegal_parameter DataThunderSlbSslErrorOper#sslv3_alert_illegal_parameter}
   */
   readonly sslv3AlertIllegalParameter?: number;
   /**
   * sslv3 alert no certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_no_certificate DataThunderSlbSslErrorOper#sslv3_alert_no_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_no_certificate DataThunderSlbSslErrorOper#sslv3_alert_no_certificate}
   */
   readonly sslv3AlertNoCertificate?: number;
   /**
   * sslv3 alert peer error cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_cert DataThunderSlbSslErrorOper#sslv3_alert_peer_error_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_cert DataThunderSlbSslErrorOper#sslv3_alert_peer_error_cert}
   */
   readonly sslv3AlertPeerErrorCert?: number;
   /**
   * sslv3 alert peer error no cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_no_cert DataThunderSlbSslErrorOper#sslv3_alert_peer_error_no_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_no_cert DataThunderSlbSslErrorOper#sslv3_alert_peer_error_no_cert}
   */
   readonly sslv3AlertPeerErrorNoCert?: number;
   /**
   * sslv3 alert peer error no cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_no_cipher DataThunderSlbSslErrorOper#sslv3_alert_peer_error_no_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_no_cipher DataThunderSlbSslErrorOper#sslv3_alert_peer_error_no_cipher}
   */
   readonly sslv3AlertPeerErrorNoCipher?: number;
   /**
   * sslv3 alert peer error unsupp cert type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_unsupp_cert_type DataThunderSlbSslErrorOper#sslv3_alert_peer_error_unsupp_cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_peer_error_unsupp_cert_type DataThunderSlbSslErrorOper#sslv3_alert_peer_error_unsupp_cert_type}
   */
   readonly sslv3AlertPeerErrorUnsuppCertType?: number;
   /**
   * sslv3 alert unexpected msg
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unexpected_msg DataThunderSlbSslErrorOper#sslv3_alert_unexpected_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unexpected_msg DataThunderSlbSslErrorOper#sslv3_alert_unexpected_msg}
   */
   readonly sslv3AlertUnexpectedMsg?: number;
   /**
   * sslv3 alert unknown remote err type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unknown_remote_err_type DataThunderSlbSslErrorOper#sslv3_alert_unknown_remote_err_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unknown_remote_err_type DataThunderSlbSslErrorOper#sslv3_alert_unknown_remote_err_type}
   */
   readonly sslv3AlertUnknownRemoteErrType?: number;
   /**
   * sslv3 alert unspported cert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unspported_cert DataThunderSlbSslErrorOper#sslv3_alert_unspported_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#sslv3_alert_unspported_cert DataThunderSlbSslErrorOper#sslv3_alert_unspported_cert}
   */
   readonly sslv3AlertUnspportedCert?: number;
   /**
   * tls client cert req with anon cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tls_client_cert_req_with_anon_cipher DataThunderSlbSslErrorOper#tls_client_cert_req_with_anon_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tls_client_cert_req_with_anon_cipher DataThunderSlbSslErrorOper#tls_client_cert_req_with_anon_cipher}
   */
   readonly tlsClientCertReqWithAnonCipher?: number;
   /**
   * tls invalid ecpointformat list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tls_invalid_ecpointformat_list DataThunderSlbSslErrorOper#tls_invalid_ecpointformat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tls_invalid_ecpointformat_list DataThunderSlbSslErrorOper#tls_invalid_ecpointformat_list}
   */
   readonly tlsInvalidEcpointformatList?: number;
   /**
   * tls peer did not respond with cert list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tls_peer_did_not_respond_with_cert_list DataThunderSlbSslErrorOper#tls_peer_did_not_respond_with_cert_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tls_peer_did_not_respond_with_cert_list DataThunderSlbSslErrorOper#tls_peer_did_not_respond_with_cert_list}
   */
   readonly tlsPeerDidNotRespondWithCertList?: number;
   /**
   * tls rsa encrypted value length is wrong
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tls_rsa_encrypted_value_length_is_wrong DataThunderSlbSslErrorOper#tls_rsa_encrypted_value_length_is_wrong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tls_rsa_encrypted_value_length_is_wrong DataThunderSlbSslErrorOper#tls_rsa_encrypted_value_length_is_wrong}
   */
   readonly tlsRsaEncryptedValueLengthIsWrong?: number;
   /**
   * tlsv1 alert access denied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_access_denied DataThunderSlbSslErrorOper#tlsv1_alert_access_denied}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_access_denied DataThunderSlbSslErrorOper#tlsv1_alert_access_denied}
   */
   readonly tlsv1AlertAccessDenied?: number;
   /**
   * tlsv1 alert decode error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decode_error DataThunderSlbSslErrorOper#tlsv1_alert_decode_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decode_error DataThunderSlbSslErrorOper#tlsv1_alert_decode_error}
   */
   readonly tlsv1AlertDecodeError?: number;
   /**
   * tlsv1 alert decrypt error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decrypt_error DataThunderSlbSslErrorOper#tlsv1_alert_decrypt_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decrypt_error DataThunderSlbSslErrorOper#tlsv1_alert_decrypt_error}
   */
   readonly tlsv1AlertDecryptError?: number;
   /**
   * tlsv1 alert decryption failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decryption_failed DataThunderSlbSslErrorOper#tlsv1_alert_decryption_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_decryption_failed DataThunderSlbSslErrorOper#tlsv1_alert_decryption_failed}
   */
   readonly tlsv1AlertDecryptionFailed?: number;
   /**
   * tlsv1 alert export restriction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_export_restriction DataThunderSlbSslErrorOper#tlsv1_alert_export_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_export_restriction DataThunderSlbSslErrorOper#tlsv1_alert_export_restriction}
   */
   readonly tlsv1AlertExportRestriction?: number;
   /**
   * tlsv1 alert insufficient security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_insufficient_security DataThunderSlbSslErrorOper#tlsv1_alert_insufficient_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_insufficient_security DataThunderSlbSslErrorOper#tlsv1_alert_insufficient_security}
   */
   readonly tlsv1AlertInsufficientSecurity?: number;
   /**
   * tlsv1 alert internal error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_internal_error DataThunderSlbSslErrorOper#tlsv1_alert_internal_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_internal_error DataThunderSlbSslErrorOper#tlsv1_alert_internal_error}
   */
   readonly tlsv1AlertInternalError?: number;
   /**
   * tlsv1 alert no renegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_no_renegotiation DataThunderSlbSslErrorOper#tlsv1_alert_no_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_no_renegotiation DataThunderSlbSslErrorOper#tlsv1_alert_no_renegotiation}
   */
   readonly tlsv1AlertNoRenegotiation?: number;
   /**
   * tlsv1 alert protocol version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_protocol_version DataThunderSlbSslErrorOper#tlsv1_alert_protocol_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_protocol_version DataThunderSlbSslErrorOper#tlsv1_alert_protocol_version}
   */
   readonly tlsv1AlertProtocolVersion?: number;
   /**
   * tlsv1 alert record overflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_record_overflow DataThunderSlbSslErrorOper#tlsv1_alert_record_overflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_record_overflow DataThunderSlbSslErrorOper#tlsv1_alert_record_overflow}
   */
   readonly tlsv1AlertRecordOverflow?: number;
   /**
   * tlsv1 alert unknown ca
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_unknown_ca DataThunderSlbSslErrorOper#tlsv1_alert_unknown_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_unknown_ca DataThunderSlbSslErrorOper#tlsv1_alert_unknown_ca}
   */
   readonly tlsv1AlertUnknownCa?: number;
   /**
   * tlsv1 alert user cancelled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_user_cancelled DataThunderSlbSslErrorOper#tlsv1_alert_user_cancelled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tlsv1_alert_user_cancelled DataThunderSlbSslErrorOper#tlsv1_alert_user_cancelled}
   */
   readonly tlsv1AlertUserCancelled?: number;
   /**
   * tried to use unsupported cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#tried_to_use_unsupported_cipher DataThunderSlbSslErrorOper#tried_to_use_unsupported_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#tried_to_use_unsupported_cipher DataThunderSlbSslErrorOper#tried_to_use_unsupported_cipher}
   */
   readonly triedToUseUnsupportedCipher?: number;
   /**
   * unable to decode dh certs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_decode_dh_certs DataThunderSlbSslErrorOper#unable_to_decode_dh_certs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_decode_dh_certs DataThunderSlbSslErrorOper#unable_to_decode_dh_certs}
   */
   readonly unableToDecodeDhCerts?: number;
   /**
   * unable to extract public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_extract_public_key DataThunderSlbSslErrorOper#unable_to_extract_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_extract_public_key DataThunderSlbSslErrorOper#unable_to_extract_public_key}
   */
   readonly unableToExtractPublicKey?: number;
   /**
   * unable to find dh parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_find_dh_parameters DataThunderSlbSslErrorOper#unable_to_find_dh_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_find_dh_parameters DataThunderSlbSslErrorOper#unable_to_find_dh_parameters}
   */
   readonly unableToFindDhParameters?: number;
   /**
   * unable to find public key parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_find_public_key_parameters DataThunderSlbSslErrorOper#unable_to_find_public_key_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_find_public_key_parameters DataThunderSlbSslErrorOper#unable_to_find_public_key_parameters}
   */
   readonly unableToFindPublicKeyParameters?: number;
   /**
   * unable to find ssl method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_find_ssl_method DataThunderSlbSslErrorOper#unable_to_find_ssl_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_find_ssl_method DataThunderSlbSslErrorOper#unable_to_find_ssl_method}
   */
   readonly unableToFindSslMethod?: number;
   /**
   * unable to load ssl2 md5 routines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl2_md5_routines DataThunderSlbSslErrorOper#unable_to_load_ssl2_md5_routines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl2_md5_routines DataThunderSlbSslErrorOper#unable_to_load_ssl2_md5_routines}
   */
   readonly unableToLoadSsl2Md5Routines?: number;
   /**
   * unable to load ssl3 md5 routines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl3_md5_routines DataThunderSlbSslErrorOper#unable_to_load_ssl3_md5_routines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl3_md5_routines DataThunderSlbSslErrorOper#unable_to_load_ssl3_md5_routines}
   */
   readonly unableToLoadSsl3Md5Routines?: number;
   /**
   * unable to load ssl3 sha1 routines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl3_sha1_routines DataThunderSlbSslErrorOper#unable_to_load_ssl3_sha1_routines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unable_to_load_ssl3_sha1_routines DataThunderSlbSslErrorOper#unable_to_load_ssl3_sha1_routines}
   */
   readonly unableToLoadSsl3Sha1Routines?: number;
   /**
   * unexpected message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unexpected_message DataThunderSlbSslErrorOper#unexpected_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unexpected_message DataThunderSlbSslErrorOper#unexpected_message}
   */
   readonly unexpectedMessage?: number;
   /**
   * unexpected record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unexpected_record DataThunderSlbSslErrorOper#unexpected_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unexpected_record DataThunderSlbSslErrorOper#unexpected_record}
   */
   readonly unexpectedRecord?: number;
   /**
   * uninitialized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#uninitialized DataThunderSlbSslErrorOper#uninitialized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#uninitialized DataThunderSlbSslErrorOper#uninitialized}
   */
   readonly uninitialized?: number;
   /**
   * unknown alert type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_alert_type DataThunderSlbSslErrorOper#unknown_alert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_alert_type DataThunderSlbSslErrorOper#unknown_alert_type}
   */
   readonly unknownAlertType?: number;
   /**
   * unknown certificate type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_certificate_type DataThunderSlbSslErrorOper#unknown_certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_certificate_type DataThunderSlbSslErrorOper#unknown_certificate_type}
   */
   readonly unknownCertificateType?: number;
   /**
   * unknown cipher returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_cipher_returned DataThunderSlbSslErrorOper#unknown_cipher_returned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_cipher_returned DataThunderSlbSslErrorOper#unknown_cipher_returned}
   */
   readonly unknownCipherReturned?: number;
   /**
   * unknown cipher type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_cipher_type DataThunderSlbSslErrorOper#unknown_cipher_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_cipher_type DataThunderSlbSslErrorOper#unknown_cipher_type}
   */
   readonly unknownCipherType?: number;
   /**
   * unknown key exchange type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_key_exchange_type DataThunderSlbSslErrorOper#unknown_key_exchange_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_key_exchange_type DataThunderSlbSslErrorOper#unknown_key_exchange_type}
   */
   readonly unknownKeyExchangeType?: number;
   /**
   * unknown pkey type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_pkey_type DataThunderSlbSslErrorOper#unknown_pkey_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_pkey_type DataThunderSlbSslErrorOper#unknown_pkey_type}
   */
   readonly unknownPkeyType?: number;
   /**
   * unknown protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_protocol DataThunderSlbSslErrorOper#unknown_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_protocol DataThunderSlbSslErrorOper#unknown_protocol}
   */
   readonly unknownProtocol?: number;
   /**
   * unknown remote error type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_remote_error_type DataThunderSlbSslErrorOper#unknown_remote_error_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_remote_error_type DataThunderSlbSslErrorOper#unknown_remote_error_type}
   */
   readonly unknownRemoteErrorType?: number;
   /**
   * unknown ssl version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_ssl_version DataThunderSlbSslErrorOper#unknown_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_ssl_version DataThunderSlbSslErrorOper#unknown_ssl_version}
   */
   readonly unknownSslVersion?: number;
   /**
   * unknown state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unknown_state DataThunderSlbSslErrorOper#unknown_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unknown_state DataThunderSlbSslErrorOper#unknown_state}
   */
   readonly unknownState?: number;
   /**
   * unsupported cipher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_cipher DataThunderSlbSslErrorOper#unsupported_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_cipher DataThunderSlbSslErrorOper#unsupported_cipher}
   */
   readonly unsupportedCipher?: number;
   /**
   * unsupported compression algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_compression_algorithm DataThunderSlbSslErrorOper#unsupported_compression_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_compression_algorithm DataThunderSlbSslErrorOper#unsupported_compression_algorithm}
   */
   readonly unsupportedCompressionAlgorithm?: number;
   /**
   * unsupported digest type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_digest_type DataThunderSlbSslErrorOper#unsupported_digest_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_digest_type DataThunderSlbSslErrorOper#unsupported_digest_type}
   */
   readonly unsupportedDigestType?: number;
   /**
   * unsupported elliptic curve
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_elliptic_curve DataThunderSlbSslErrorOper#unsupported_elliptic_curve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_elliptic_curve DataThunderSlbSslErrorOper#unsupported_elliptic_curve}
   */
   readonly unsupportedEllipticCurve?: number;
   /**
   * unsupported option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_option DataThunderSlbSslErrorOper#unsupported_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_option DataThunderSlbSslErrorOper#unsupported_option}
   */
   readonly unsupportedOption?: number;
   /**
   * unsupported protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_protocol DataThunderSlbSslErrorOper#unsupported_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_protocol DataThunderSlbSslErrorOper#unsupported_protocol}
   */
   readonly unsupportedProtocol?: number;
   /**
   * unsupported ssl version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_ssl_version DataThunderSlbSslErrorOper#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_ssl_version DataThunderSlbSslErrorOper#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: number;
   /**
   * unsupported status type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#unsupported_status_type DataThunderSlbSslErrorOper#unsupported_status_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#unsupported_status_type DataThunderSlbSslErrorOper#unsupported_status_type}
   */
   readonly unsupportedStatusType?: number;
   /**
   * write bio not set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#write_bio_not_set DataThunderSlbSslErrorOper#write_bio_not_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#write_bio_not_set DataThunderSlbSslErrorOper#write_bio_not_set}
   */
   readonly writeBioNotSet?: number;
   /**
   * wrong cipher returned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_cipher_returned DataThunderSlbSslErrorOper#wrong_cipher_returned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_cipher_returned DataThunderSlbSslErrorOper#wrong_cipher_returned}
   */
   readonly wrongCipherReturned?: number;
   /**
   * wrong message type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_message_type DataThunderSlbSslErrorOper#wrong_message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_message_type DataThunderSlbSslErrorOper#wrong_message_type}
   */
   readonly wrongMessageType?: number;
   /**
   * wrong number of key bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_number_of_key_bits DataThunderSlbSslErrorOper#wrong_number_of_key_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_number_of_key_bits DataThunderSlbSslErrorOper#wrong_number_of_key_bits}
   */
   readonly wrongNumberOfKeyBits?: number;
   /**
   * wrong signature length
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_signature_length DataThunderSlbSslErrorOper#wrong_signature_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_signature_length DataThunderSlbSslErrorOper#wrong_signature_length}
   */
   readonly wrongSignatureLength?: number;
   /**
   * wrong signature size
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_signature_size DataThunderSlbSslErrorOper#wrong_signature_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_signature_size DataThunderSlbSslErrorOper#wrong_signature_size}
   */
   readonly wrongSignatureSize?: number;
   /**
   * wrong ssl version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_ssl_version DataThunderSlbSslErrorOper#wrong_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_ssl_version DataThunderSlbSslErrorOper#wrong_ssl_version}
   */
   readonly wrongSslVersion?: number;
   /**
   * wrong version number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#wrong_version_number DataThunderSlbSslErrorOper#wrong_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#wrong_version_number DataThunderSlbSslErrorOper#wrong_version_number}
   */
   readonly wrongVersionNumber?: number;
   /**
   * x509 lib
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#x509_lib DataThunderSlbSslErrorOper#x509_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#x509_lib DataThunderSlbSslErrorOper#x509_lib}
   */
   readonly x509Lib?: number;
   /**
   * x509 verification setup problems
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#x509_verification_setup_problems DataThunderSlbSslErrorOper#x509_verification_setup_problems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#x509_verification_setup_problems DataThunderSlbSslErrorOper#x509_verification_setup_problems}
   */
   readonly x509VerificationSetupProblems?: number;
 }
@@ -8649,7 +8649,7 @@ export class DataThunderSlbSslErrorOperOperOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper thunder_slb_ssl_error_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper thunder_slb_ssl_error_oper}
 */
 export class DataThunderSlbSslErrorOper extends cdktf.TerraformDataSource {
 
@@ -8665,7 +8665,7 @@ export class DataThunderSlbSslErrorOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSslErrorOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslErrorOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslErrorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslErrorOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslErrorOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8677,7 +8677,7 @@ export class DataThunderSlbSslErrorOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_error_oper thunder_slb_ssl_error_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_error_oper thunder_slb_ssl_error_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8688,8 +8688,8 @@ export class DataThunderSlbSslErrorOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_error_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

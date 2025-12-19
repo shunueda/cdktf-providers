@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DdosDstZoneIpProtoProtoTcpUdpConfig extends cdktf.TerraformMeta
   /**
   * Blacklist and Drop all incoming packets for this ip-proto
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#deny DdosDstZoneIpProtoProtoTcpUdp#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#deny DdosDstZoneIpProtoProtoTcpUdp#deny}
   */
   readonly deny?: number;
   /**
   * Drop fragmented packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#drop_frag_pkt DdosDstZoneIpProtoProtoTcpUdp#drop_frag_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#drop_frag_pkt DdosDstZoneIpProtoProtoTcpUdp#drop_frag_pkt}
   */
   readonly dropFragPkt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#id DdosDstZoneIpProtoProtoTcpUdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#id DdosDstZoneIpProtoProtoTcpUdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,69 +29,81 @@ export interface DdosDstZoneIpProtoProtoTcpUdpConfig extends cdktf.TerraformMeta
   /**
   * Configure IP Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#ip_filtering_policy DdosDstZoneIpProtoProtoTcpUdp#ip_filtering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#ip_filtering_policy DdosDstZoneIpProtoProtoTcpUdp#ip_filtering_policy}
   */
   readonly ipFilteringPolicy?: string;
   /**
   * 'tcp': ip-proto tcp; 'udp': ip-proto udp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#protocol DdosDstZoneIpProtoProtoTcpUdp#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#protocol DdosDstZoneIpProtoProtoTcpUdp#protocol}
   */
   readonly protocol: string;
   /**
+  * Drop packet with same Source Port and Dest Port
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#same_source_dest_port_drop DdosDstZoneIpProtoProtoTcpUdp#same_source_dest_port_drop}
+  */
+  readonly sameSourceDestPortDrop?: number;
+  /**
   * Set T2 counter value of current context to specified value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#set_counter_base_val DdosDstZoneIpProtoProtoTcpUdp#set_counter_base_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#set_counter_base_val DdosDstZoneIpProtoProtoTcpUdp#set_counter_base_val}
   */
   readonly setCounterBaseVal?: number;
   /**
+  * Enable sFlow IP filtering policy per port per rule counter polling
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#sflow_ip_filtering_policy DdosDstZoneIpProtoProtoTcpUdp#sflow_ip_filtering_policy}
+  */
+  readonly sflowIpFilteringPolicy?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#uuid DdosDstZoneIpProtoProtoTcpUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#uuid DdosDstZoneIpProtoProtoTcpUdp#uuid}
   */
   readonly uuid?: string;
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#zone_name DdosDstZoneIpProtoProtoTcpUdp#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#zone_name DdosDstZoneIpProtoProtoTcpUdp#zone_name}
   */
   readonly zoneName: string;
   /**
   * glid_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid_cfg DdosDstZoneIpProtoProtoTcpUdp#glid_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid_cfg DdosDstZoneIpProtoProtoTcpUdp#glid_cfg}
   */
   readonly glidCfg?: DdosDstZoneIpProtoProtoTcpUdpGlidCfg;
   /**
-  * ip_filtering_policy_oper block
+  * ip_filtering_policy_statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#ip_filtering_policy_oper DdosDstZoneIpProtoProtoTcpUdp#ip_filtering_policy_oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#ip_filtering_policy_statistics DdosDstZoneIpProtoProtoTcpUdp#ip_filtering_policy_statistics}
   */
-  readonly ipFilteringPolicyOper?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper;
+  readonly ipFilteringPolicyStatistics?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics;
 }
 export interface DdosDstZoneIpProtoProtoTcpUdpGlidCfg {
   /**
   * Configure action-list to take
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#action_list DdosDstZoneIpProtoProtoTcpUdp#action_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#action_list DdosDstZoneIpProtoProtoTcpUdp#action_list}
   */
   readonly actionList?: string;
   /**
   * Global limit ID for the whole zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid DdosDstZoneIpProtoProtoTcpUdp#glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid DdosDstZoneIpProtoProtoTcpUdp#glid}
   */
   readonly glid?: string;
   /**
   * 'drop': Drop packets for glid exceed (Default); 'ignore': Do nothing for glid exceed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid_action DdosDstZoneIpProtoProtoTcpUdp#glid_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#glid_action DdosDstZoneIpProtoProtoTcpUdp#glid_action}
   */
   readonly glidAction?: string;
   /**
   * Global limit ID per address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#per_addr_glid DdosDstZoneIpProtoProtoTcpUdp#per_addr_glid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#per_addr_glid DdosDstZoneIpProtoProtoTcpUdp#per_addr_glid}
   */
   readonly perAddrGlid?: string;
 }
@@ -260,16 +272,16 @@ export class DdosDstZoneIpProtoProtoTcpUdpGlidCfgOutputReference extends cdktf.C
     return this._perAddrGlid;
   }
 }
-export interface DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper {
+export interface DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#uuid DdosDstZoneIpProtoProtoTcpUdp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#uuid DdosDstZoneIpProtoProtoTcpUdp#uuid}
   */
   readonly uuid?: string;
 }
 
-export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToTerraform(struct?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference | DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper): any {
+export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsToTerraform(struct?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsOutputReference | DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -280,7 +292,7 @@ export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToTerraform(st
 }
 
 
-export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToHclTerraform(struct?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference | DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper): any {
+export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsToHclTerraform(struct?: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsOutputReference | DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -298,7 +310,7 @@ export function ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToHclTerraform
   return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
 }
 
-export class DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference extends cdktf.ComplexObject {
+export class DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -309,7 +321,7 @@ export class DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference e
     super(terraformResource, terraformAttribute, false, 0);
   }
 
-  public get internalValue(): DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper | undefined {
+  public get internalValue(): DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._uuid !== undefined) {
@@ -319,7 +331,7 @@ export class DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference e
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper | undefined) {
+  public set internalValue(value: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._uuid = undefined;
@@ -348,7 +360,7 @@ export class DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp thunder_ddos_dst_zone_ip_proto_proto_tcp_udp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp thunder_ddos_dst_zone_ip_proto_proto_tcp_udp}
 */
 export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
 
@@ -364,7 +376,7 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DdosDstZoneIpProtoProtoTcpUdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DdosDstZoneIpProtoProtoTcpUdp to import
-  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoTcpUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DdosDstZoneIpProtoProtoTcpUdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DdosDstZoneIpProtoProtoTcpUdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +388,7 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp thunder_ddos_dst_zone_ip_proto_proto_tcp_udp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ddos_dst_zone_ip_proto_proto_tcp_udp thunder_ddos_dst_zone_ip_proto_proto_tcp_udp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +399,8 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ddos_dst_zone_ip_proto_proto_tcp_udp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -403,11 +415,13 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
     this._id = config.id;
     this._ipFilteringPolicy = config.ipFilteringPolicy;
     this._protocol = config.protocol;
+    this._sameSourceDestPortDrop = config.sameSourceDestPortDrop;
     this._setCounterBaseVal = config.setCounterBaseVal;
+    this._sflowIpFilteringPolicy = config.sflowIpFilteringPolicy;
     this._uuid = config.uuid;
     this._zoneName = config.zoneName;
     this._glidCfg.internalValue = config.glidCfg;
-    this._ipFilteringPolicyOper.internalValue = config.ipFilteringPolicyOper;
+    this._ipFilteringPolicyStatistics.internalValue = config.ipFilteringPolicyStatistics;
   }
 
   // ==========
@@ -491,6 +505,22 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
     return this._protocol;
   }
 
+  // same_source_dest_port_drop - computed: false, optional: true, required: false
+  private _sameSourceDestPortDrop?: number; 
+  public get sameSourceDestPortDrop() {
+    return this.getNumberAttribute('same_source_dest_port_drop');
+  }
+  public set sameSourceDestPortDrop(value: number) {
+    this._sameSourceDestPortDrop = value;
+  }
+  public resetSameSourceDestPortDrop() {
+    this._sameSourceDestPortDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sameSourceDestPortDropInput() {
+    return this._sameSourceDestPortDrop;
+  }
+
   // set_counter_base_val - computed: false, optional: true, required: false
   private _setCounterBaseVal?: number; 
   public get setCounterBaseVal() {
@@ -505,6 +535,22 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get setCounterBaseValInput() {
     return this._setCounterBaseVal;
+  }
+
+  // sflow_ip_filtering_policy - computed: false, optional: true, required: false
+  private _sflowIpFilteringPolicy?: number; 
+  public get sflowIpFilteringPolicy() {
+    return this.getNumberAttribute('sflow_ip_filtering_policy');
+  }
+  public set sflowIpFilteringPolicy(value: number) {
+    this._sflowIpFilteringPolicy = value;
+  }
+  public resetSflowIpFilteringPolicy() {
+    this._sflowIpFilteringPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sflowIpFilteringPolicyInput() {
+    return this._sflowIpFilteringPolicy;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -552,20 +598,20 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
     return this._glidCfg.internalValue;
   }
 
-  // ip_filtering_policy_oper - computed: false, optional: true, required: false
-  private _ipFilteringPolicyOper = new DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperOutputReference(this, "ip_filtering_policy_oper");
-  public get ipFilteringPolicyOper() {
-    return this._ipFilteringPolicyOper;
+  // ip_filtering_policy_statistics - computed: false, optional: true, required: false
+  private _ipFilteringPolicyStatistics = new DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsOutputReference(this, "ip_filtering_policy_statistics");
+  public get ipFilteringPolicyStatistics() {
+    return this._ipFilteringPolicyStatistics;
   }
-  public putIpFilteringPolicyOper(value: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOper) {
-    this._ipFilteringPolicyOper.internalValue = value;
+  public putIpFilteringPolicyStatistics(value: DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatistics) {
+    this._ipFilteringPolicyStatistics.internalValue = value;
   }
-  public resetIpFilteringPolicyOper() {
-    this._ipFilteringPolicyOper.internalValue = undefined;
+  public resetIpFilteringPolicyStatistics() {
+    this._ipFilteringPolicyStatistics.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get ipFilteringPolicyOperInput() {
-    return this._ipFilteringPolicyOper.internalValue;
+  public get ipFilteringPolicyStatisticsInput() {
+    return this._ipFilteringPolicyStatistics.internalValue;
   }
 
   // =========
@@ -579,11 +625,13 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ip_filtering_policy: cdktf.stringToTerraform(this._ipFilteringPolicy),
       protocol: cdktf.stringToTerraform(this._protocol),
+      same_source_dest_port_drop: cdktf.numberToTerraform(this._sameSourceDestPortDrop),
       set_counter_base_val: cdktf.numberToTerraform(this._setCounterBaseVal),
+      sflow_ip_filtering_policy: cdktf.numberToTerraform(this._sflowIpFilteringPolicy),
       uuid: cdktf.stringToTerraform(this._uuid),
       zone_name: cdktf.stringToTerraform(this._zoneName),
       glid_cfg: ddosDstZoneIpProtoProtoTcpUdpGlidCfgToTerraform(this._glidCfg.internalValue),
-      ip_filtering_policy_oper: ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsToTerraform(this._ipFilteringPolicyStatistics.internalValue),
     };
   }
 
@@ -619,8 +667,20 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      same_source_dest_port_drop: {
+        value: cdktf.numberToHclTerraform(this._sameSourceDestPortDrop),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       set_counter_base_val: {
         value: cdktf.numberToHclTerraform(this._setCounterBaseVal),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      sflow_ip_filtering_policy: {
+        value: cdktf.numberToHclTerraform(this._sflowIpFilteringPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "number",
@@ -643,11 +703,11 @@ export class DdosDstZoneIpProtoProtoTcpUdp extends cdktf.TerraformResource {
         type: "list",
         storageClassType: "DdosDstZoneIpProtoProtoTcpUdpGlidCfgList",
       },
-      ip_filtering_policy_oper: {
-        value: ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperToHclTerraform(this._ipFilteringPolicyOper.internalValue),
+      ip_filtering_policy_statistics: {
+        value: ddosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsToHclTerraform(this._ipFilteringPolicyStatistics.internalValue),
         isBlock: true,
         type: "list",
-        storageClassType: "DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyOperList",
+        storageClassType: "DdosDstZoneIpProtoProtoTcpUdpIpFilteringPolicyStatisticsList",
       },
     };
 

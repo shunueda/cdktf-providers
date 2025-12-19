@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbHttpProxyStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#id DataThunderSlbHttpProxyStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#id DataThunderSlbHttpProxyStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbHttpProxyStatsConfig extends cdktf.TerraformMetaA
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#stats DataThunderSlbHttpProxyStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#stats DataThunderSlbHttpProxyStats#stats}
   */
   readonly stats?: DataThunderSlbHttpProxyStatsStats;
 }
@@ -25,1307 +25,1307 @@ export interface DataThunderSlbHttpProxyStatsStats {
   /**
   * HTTP req (cache succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#cache_rsp DataThunderSlbHttpProxyStats#cache_rsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#cache_rsp DataThunderSlbHttpProxyStats#cache_rsp}
   */
   readonly cacheRsp?: number;
   /**
   * Chunk less than equal to 1K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#chunk_sz_1k DataThunderSlbHttpProxyStats#chunk_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#chunk_sz_1k DataThunderSlbHttpProxyStats#chunk_sz_1k}
   */
   readonly chunkSz1K?: number;
   /**
   * Chunk less than equal to 2K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#chunk_sz_2k DataThunderSlbHttpProxyStats#chunk_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#chunk_sz_2k DataThunderSlbHttpProxyStats#chunk_sz_2k}
   */
   readonly chunkSz2K?: number;
   /**
   * Chunk less than equal to 4K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#chunk_sz_4k DataThunderSlbHttpProxyStats#chunk_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#chunk_sz_4k DataThunderSlbHttpProxyStats#chunk_sz_4k}
   */
   readonly chunkSz4K?: number;
   /**
   * Chunk less than equal to 512
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#chunk_sz_512 DataThunderSlbHttpProxyStats#chunk_sz_512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#chunk_sz_512 DataThunderSlbHttpProxyStats#chunk_sz_512}
   */
   readonly chunkSz512?: number;
   /**
   * Chunk greater than 4K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#chunk_sz_gt_4k DataThunderSlbHttpProxyStats#chunk_sz_gt_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#chunk_sz_gt_4k DataThunderSlbHttpProxyStats#chunk_sz_gt_4k}
   */
   readonly chunkSzGt4K?: number;
   /**
   * Client RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#client_rst DataThunderSlbHttpProxyStats#client_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#client_rst DataThunderSlbHttpProxyStats#client_rst}
   */
   readonly clientRst?: number;
   /**
   * Close on DDoS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#close_on_ddos DataThunderSlbHttpProxyStats#close_on_ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#close_on_ddos DataThunderSlbHttpProxyStats#close_on_ddos}
   */
   readonly closeOnDdos?: number;
   /**
   * Tot data after compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_after DataThunderSlbHttpProxyStats#compression_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_after DataThunderSlbHttpProxyStats#compression_after}
   */
   readonly compressionAfter?: number;
   /**
   * Tot data after brotli compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_after_br DataThunderSlbHttpProxyStats#compression_after_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_after_br DataThunderSlbHttpProxyStats#compression_after_br}
   */
   readonly compressionAfterBr?: number;
   /**
   * Tot data after compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_after_total DataThunderSlbHttpProxyStats#compression_after_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_after_total DataThunderSlbHttpProxyStats#compression_after_total}
   */
   readonly compressionAfterTotal?: number;
   /**
   * Tot data before compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_before DataThunderSlbHttpProxyStats#compression_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_before DataThunderSlbHttpProxyStats#compression_before}
   */
   readonly compressionBefore?: number;
   /**
   * Tot data before brotli compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_before_br DataThunderSlbHttpProxyStats#compression_before_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_before_br DataThunderSlbHttpProxyStats#compression_before_br}
   */
   readonly compressionBeforeBr?: number;
   /**
   * Tot data before compress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#compression_before_total DataThunderSlbHttpProxyStats#compression_before_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#compression_before_total DataThunderSlbHttpProxyStats#compression_before_total}
   */
   readonly compressionBeforeTotal?: number;
   /**
   * Total HTTP CONNECT requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#connect_req DataThunderSlbHttpProxyStats#connect_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#connect_req DataThunderSlbHttpProxyStats#connect_req}
   */
   readonly connectReq?: number;
   /**
   * Curr Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#curr_proxy DataThunderSlbHttpProxyStats#curr_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#curr_proxy DataThunderSlbHttpProxyStats#curr_proxy}
   */
   readonly currProxy?: number;
   /**
   * Tot data after decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_after DataThunderSlbHttpProxyStats#decompression_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_after DataThunderSlbHttpProxyStats#decompression_after}
   */
   readonly decompressionAfter?: number;
   /**
   * Tot data after brotli decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_after_br DataThunderSlbHttpProxyStats#decompression_after_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_after_br DataThunderSlbHttpProxyStats#decompression_after_br}
   */
   readonly decompressionAfterBr?: number;
   /**
   * Tot data after decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_after_total DataThunderSlbHttpProxyStats#decompression_after_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_after_total DataThunderSlbHttpProxyStats#decompression_after_total}
   */
   readonly decompressionAfterTotal?: number;
   /**
   * Tot data before decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_before DataThunderSlbHttpProxyStats#decompression_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_before DataThunderSlbHttpProxyStats#decompression_before}
   */
   readonly decompressionBefore?: number;
   /**
   * Tot data before brotli decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_before_br DataThunderSlbHttpProxyStats#decompression_before_br}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_before_br DataThunderSlbHttpProxyStats#decompression_before_br}
   */
   readonly decompressionBeforeBr?: number;
   /**
   * Tot data before decompress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#decompression_before_total DataThunderSlbHttpProxyStats#decompression_before_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#decompression_before_total DataThunderSlbHttpProxyStats#decompression_before_total}
   */
   readonly decompressionBeforeTotal?: number;
   /**
   * DoH DNS Malformed Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_malformed_query DataThunderSlbHttpProxyStats#doh_dns_malformed_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_malformed_query DataThunderSlbHttpProxyStats#doh_dns_malformed_query}
   */
   readonly dohDnsMalformedQuery?: number;
   /**
   * DoH Query type A
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_a DataThunderSlbHttpProxyStats#doh_dns_query_type_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_a DataThunderSlbHttpProxyStats#doh_dns_query_type_a}
   */
   readonly dohDnsQueryTypeA?: number;
   /**
   * DoH Query type AAAA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_aaaa DataThunderSlbHttpProxyStats#doh_dns_query_type_aaaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_aaaa DataThunderSlbHttpProxyStats#doh_dns_query_type_aaaa}
   */
   readonly dohDnsQueryTypeAaaa?: number;
   /**
   * DoH Query type ANY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_any DataThunderSlbHttpProxyStats#doh_dns_query_type_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_any DataThunderSlbHttpProxyStats#doh_dns_query_type_any}
   */
   readonly dohDnsQueryTypeAny?: number;
   /**
   * DoH Query type CNAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_cname DataThunderSlbHttpProxyStats#doh_dns_query_type_cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_cname DataThunderSlbHttpProxyStats#doh_dns_query_type_cname}
   */
   readonly dohDnsQueryTypeCname?: number;
   /**
   * DoH Query type MX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_mx DataThunderSlbHttpProxyStats#doh_dns_query_type_mx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_mx DataThunderSlbHttpProxyStats#doh_dns_query_type_mx}
   */
   readonly dohDnsQueryTypeMx?: number;
   /**
   * DoH Query type NS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_ns DataThunderSlbHttpProxyStats#doh_dns_query_type_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_ns DataThunderSlbHttpProxyStats#doh_dns_query_type_ns}
   */
   readonly dohDnsQueryTypeNs?: number;
   /**
   * DoH Query type Others
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_others DataThunderSlbHttpProxyStats#doh_dns_query_type_others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_others DataThunderSlbHttpProxyStats#doh_dns_query_type_others}
   */
   readonly dohDnsQueryTypeOthers?: number;
   /**
   * DoH Query type SOA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_soa DataThunderSlbHttpProxyStats#doh_dns_query_type_soa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_soa DataThunderSlbHttpProxyStats#doh_dns_query_type_soa}
   */
   readonly dohDnsQueryTypeSoa?: number;
   /**
   * DoH Query type SRV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_srv DataThunderSlbHttpProxyStats#doh_dns_query_type_srv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_query_type_srv DataThunderSlbHttpProxyStats#doh_dns_query_type_srv}
   */
   readonly dohDnsQueryTypeSrv?: number;
   /**
   * DoH DNS Response rcode ERR_FORMAT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_format DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_format DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_format}
   */
   readonly dohDnsRespRcodeErrFormat?: number;
   /**
   * DoH DNS Response rcode ERR_NAME
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_name DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_name DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_name}
   */
   readonly dohDnsRespRcodeErrName?: number;
   /**
   * DoH DNS Response rcode ERR_SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_server DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_server DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_server}
   */
   readonly dohDnsRespRcodeErrServer?: number;
   /**
   * DoH DNS Response rcode ERR_TYPE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_type DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_err_type DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_err_type}
   */
   readonly dohDnsRespRcodeErrType?: number;
   /**
   * DoH DNS Response rcode NOTAUTH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_notauth DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_notauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_notauth DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_notauth}
   */
   readonly dohDnsRespRcodeNotauth?: number;
   /**
   * DoH DNS Response rcode NOTZONE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_notzone DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_notzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_notzone DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_notzone}
   */
   readonly dohDnsRespRcodeNotzone?: number;
   /**
   * DoH DNS Response rcode NXRRSET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_nxrrset DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_nxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_nxrrset DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_nxrrset}
   */
   readonly dohDnsRespRcodeNxrrset?: number;
   /**
   * DoH DNS Response rcode OTHER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_other DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_other DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_other}
   */
   readonly dohDnsRespRcodeOther?: number;
   /**
   * DoH DNS Response rcode REFUSE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_refuse DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_refuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_refuse DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_refuse}
   */
   readonly dohDnsRespRcodeRefuse?: number;
   /**
   * DoH DNS Response rcode YXDOMAIN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_yxdomain DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_yxdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_yxdomain DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_yxdomain}
   */
   readonly dohDnsRespRcodeYxdomain?: number;
   /**
   * DoH DNS Response rcode YXRRSET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_yxrrset DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_yxrrset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_dns_resp_rcode_yxrrset DataThunderSlbHttpProxyStats#doh_dns_resp_rcode_yxrrset}
   */
   readonly dohDnsRespRcodeYxrrset?: number;
   /**
   * DoH GET base64url decode failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_get_base64_decode_failed DataThunderSlbHttpProxyStats#doh_get_base64_decode_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_get_base64_decode_failed DataThunderSlbHttpProxyStats#doh_get_base64_decode_failed}
   */
   readonly dohGetBase64DecodeFailed?: number;
   /**
   * DoH GET dns arg not found in uri
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_get_dns_arg_failed DataThunderSlbHttpProxyStats#doh_get_dns_arg_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_get_dns_arg_failed DataThunderSlbHttpProxyStats#doh_get_dns_arg_failed}
   */
   readonly dohGetDnsArgFailed?: number;
   /**
   * DoH GET URI too long
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_get_uri_too_long DataThunderSlbHttpProxyStats#doh_get_uri_too_long}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_get_uri_too_long DataThunderSlbHttpProxyStats#doh_get_uri_too_long}
   */
   readonly dohGetUriTooLong?: number;
   /**
   * DoH Memory alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_malloc_fail DataThunderSlbHttpProxyStats#doh_malloc_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_malloc_fail DataThunderSlbHttpProxyStats#doh_malloc_fail}
   */
   readonly dohMallocFail?: number;
   /**
   * DoH Non DoH HTTP request method rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_non_doh_method DataThunderSlbHttpProxyStats#doh_non_doh_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_non_doh_method DataThunderSlbHttpProxyStats#doh_non_doh_method}
   */
   readonly dohNonDohMethod?: number;
   /**
   * DoH non DoH Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req DataThunderSlbHttpProxyStats#doh_non_doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req DataThunderSlbHttpProxyStats#doh_non_doh_req}
   */
   readonly dohNonDohReq?: number;
   /**
   * DoH non DoH GET Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req_get DataThunderSlbHttpProxyStats#doh_non_doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req_get DataThunderSlbHttpProxyStats#doh_non_doh_req_get}
   */
   readonly dohNonDohReqGet?: number;
   /**
   * DoH non DoH POST Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req_post DataThunderSlbHttpProxyStats#doh_non_doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_non_doh_req_post DataThunderSlbHttpProxyStats#doh_non_doh_req_post}
   */
   readonly dohNonDohReqPost?: number;
   /**
   * DoH URI Path not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_path_not_found DataThunderSlbHttpProxyStats#doh_path_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_path_not_found DataThunderSlbHttpProxyStats#doh_path_not_found}
   */
   readonly dohPathNotFound?: number;
   /**
   * DoH POST content-type not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_post_content_type_mismatch DataThunderSlbHttpProxyStats#doh_post_content_type_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_post_content_type_mismatch DataThunderSlbHttpProxyStats#doh_post_content_type_mismatch}
   */
   readonly dohPostContentTypeMismatch?: number;
   /**
   * DoH POST payload extract failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_post_payload_extract_failed DataThunderSlbHttpProxyStats#doh_post_payload_extract_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_post_payload_extract_failed DataThunderSlbHttpProxyStats#doh_post_payload_extract_failed}
   */
   readonly dohPostPayloadExtractFailed?: number;
   /**
   * DoH POST payload not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_post_payload_not_found DataThunderSlbHttpProxyStats#doh_post_payload_not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_post_payload_not_found DataThunderSlbHttpProxyStats#doh_post_payload_not_found}
   */
   readonly dohPostPayloadNotFound?: number;
   /**
   * DoH POST Payload too large
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_post_payload_too_large DataThunderSlbHttpProxyStats#doh_post_payload_too_large}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_post_payload_too_large DataThunderSlbHttpProxyStats#doh_post_payload_too_large}
   */
   readonly dohPostPayloadTooLarge?: number;
   /**
   * DoH serv Query timed out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_query_time_out DataThunderSlbHttpProxyStats#doh_query_time_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_query_time_out DataThunderSlbHttpProxyStats#doh_query_time_out}
   */
   readonly dohQueryTimeOut?: number;
   /**
   * DoH Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req DataThunderSlbHttpProxyStats#doh_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req DataThunderSlbHttpProxyStats#doh_req}
   */
   readonly dohReq?: number;
   /**
   * DoH GET Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_get DataThunderSlbHttpProxyStats#doh_req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_get DataThunderSlbHttpProxyStats#doh_req_get}
   */
   readonly dohReqGet?: number;
   /**
   * DoH POST Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_post DataThunderSlbHttpProxyStats#doh_req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_post DataThunderSlbHttpProxyStats#doh_req_post}
   */
   readonly dohReqPost?: number;
   /**
   * DoH Request Send Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_send_failed DataThunderSlbHttpProxyStats#doh_req_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_send_failed DataThunderSlbHttpProxyStats#doh_req_send_failed}
   */
   readonly dohReqSendFailed?: number;
   /**
   * DoH TCP Retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_tcp_retry DataThunderSlbHttpProxyStats#doh_req_tcp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_tcp_retry DataThunderSlbHttpProxyStats#doh_req_tcp_retry}
   */
   readonly dohReqTcpRetry?: number;
   /**
   * DoH TCP Retry failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_tcp_retry_fail DataThunderSlbHttpProxyStats#doh_req_tcp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_tcp_retry_fail DataThunderSlbHttpProxyStats#doh_req_tcp_retry_fail}
   */
   readonly dohReqTcpRetryFail?: number;
   /**
   * DoH UDP Retry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_udp_retry DataThunderSlbHttpProxyStats#doh_req_udp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_udp_retry DataThunderSlbHttpProxyStats#doh_req_udp_retry}
   */
   readonly dohReqUdpRetry?: number;
   /**
   * DoH UDP Retry failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_req_udp_retry_fail DataThunderSlbHttpProxyStats#doh_req_udp_retry_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_req_udp_retry_fail DataThunderSlbHttpProxyStats#doh_req_udp_retry_fail}
   */
   readonly dohReqUdpRetryFail?: number;
   /**
   * DoH Responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp DataThunderSlbHttpProxyStats#doh_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp DataThunderSlbHttpProxyStats#doh_resp}
   */
   readonly dohResp?: number;
   /**
   * DoH Resp hdr alloc failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_header_alloc_failed DataThunderSlbHttpProxyStats#doh_resp_header_alloc_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_header_alloc_failed DataThunderSlbHttpProxyStats#doh_resp_header_alloc_failed}
   */
   readonly dohRespHeaderAllocFailed?: number;
   /**
   * DoH Resp queue failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_que_failed DataThunderSlbHttpProxyStats#doh_resp_que_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_que_failed DataThunderSlbHttpProxyStats#doh_resp_que_failed}
   */
   readonly dohRespQueFailed?: number;
   /**
   * DoH Response Send Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_send_failed DataThunderSlbHttpProxyStats#doh_resp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_send_failed DataThunderSlbHttpProxyStats#doh_resp_send_failed}
   */
   readonly dohRespSendFailed?: number;
   /**
   * DoH Response setup failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_setup_failed DataThunderSlbHttpProxyStats#doh_resp_setup_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_setup_failed DataThunderSlbHttpProxyStats#doh_resp_setup_failed}
   */
   readonly dohRespSetupFailed?: number;
   /**
   * DoH TCP Frags Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_tcp_frags DataThunderSlbHttpProxyStats#doh_resp_tcp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_tcp_frags DataThunderSlbHttpProxyStats#doh_resp_tcp_frags}
   */
   readonly dohRespTcpFrags?: number;
   /**
   * DoH UDP Frags Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_resp_udp_frags DataThunderSlbHttpProxyStats#doh_resp_udp_frags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_resp_udp_frags DataThunderSlbHttpProxyStats#doh_resp_udp_frags}
   */
   readonly dohRespUdpFrags?: number;
   /**
   * DoH Retry with TCP SG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_retry_w_tcp DataThunderSlbHttpProxyStats#doh_retry_w_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_retry_w_tcp DataThunderSlbHttpProxyStats#doh_retry_w_tcp}
   */
   readonly dohRetryWTcp?: number;
   /**
   * DoH Server Select Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_serv_sel_failed DataThunderSlbHttpProxyStats#doh_serv_sel_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_serv_sel_failed DataThunderSlbHttpProxyStats#doh_serv_sel_failed}
   */
   readonly dohServSelFailed?: number;
   /**
   * DoH Source NAT failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_snat_failed DataThunderSlbHttpProxyStats#doh_snat_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_snat_failed DataThunderSlbHttpProxyStats#doh_snat_failed}
   */
   readonly dohSnatFailed?: number;
   /**
   * DoH TC Responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_tc_resp DataThunderSlbHttpProxyStats#doh_tc_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_tc_resp DataThunderSlbHttpProxyStats#doh_tc_resp}
   */
   readonly dohTcResp?: number;
   /**
   * DoH TCP DNS Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_tcp_dns_req DataThunderSlbHttpProxyStats#doh_tcp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_tcp_dns_req DataThunderSlbHttpProxyStats#doh_tcp_dns_req}
   */
   readonly dohTcpDnsReq?: number;
   /**
   * DoH TCP DNS Responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_tcp_dns_resp DataThunderSlbHttpProxyStats#doh_tcp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_tcp_dns_resp DataThunderSlbHttpProxyStats#doh_tcp_dns_resp}
   */
   readonly dohTcpDnsResp?: number;
   /**
   * DoH serv TCP DNS send failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_tcp_send_failed DataThunderSlbHttpProxyStats#doh_tcp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_tcp_send_failed DataThunderSlbHttpProxyStats#doh_tcp_send_failed}
   */
   readonly dohTcpSendFailed?: number;
   /**
   * DoH UDP DNS Requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_udp_dns_req DataThunderSlbHttpProxyStats#doh_udp_dns_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_udp_dns_req DataThunderSlbHttpProxyStats#doh_udp_dns_req}
   */
   readonly dohUdpDnsReq?: number;
   /**
   * DoH UDP DNS Responses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_udp_dns_resp DataThunderSlbHttpProxyStats#doh_udp_dns_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_udp_dns_resp DataThunderSlbHttpProxyStats#doh_udp_dns_resp}
   */
   readonly dohUdpDnsResp?: number;
   /**
   * DoH serv UDP DNS send failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#doh_udp_send_failed DataThunderSlbHttpProxyStats#doh_udp_send_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#doh_udp_send_failed DataThunderSlbHttpProxyStats#doh_udp_send_failed}
   */
   readonly dohUdpSendFailed?: number;
   /**
   * Fwd req fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#fwdreq_fail DataThunderSlbHttpProxyStats#fwdreq_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#fwdreq_fail DataThunderSlbHttpProxyStats#fwdreq_fail}
   */
   readonly fwdreqFail?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#fwdreqdata_fail DataThunderSlbHttpProxyStats#fwdreqdata_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#fwdreqdata_fail DataThunderSlbHttpProxyStats#fwdreqdata_fail}
   */
   readonly fwdreqdataFail?: number;
   /**
   * Server conn made
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#new_svrconn DataThunderSlbHttpProxyStats#new_svrconn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#new_svrconn DataThunderSlbHttpProxyStats#new_svrconn}
   */
   readonly newSvrconn?: number;
   /**
   * No proxy error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#noproxy DataThunderSlbHttpProxyStats#noproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#noproxy DataThunderSlbHttpProxyStats#noproxy}
   */
   readonly noproxy?: number;
   /**
   * No tuple error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#notuple DataThunderSlbHttpProxyStats#notuple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#notuple DataThunderSlbHttpProxyStats#notuple}
   */
   readonly notuple?: number;
   /**
   * Parse req fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#parsereq_fail DataThunderSlbHttpProxyStats#parsereq_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#parsereq_fail DataThunderSlbHttpProxyStats#parsereq_fail}
   */
   readonly parsereqFail?: number;
   /**
   * HTTP requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req DataThunderSlbHttpProxyStats#req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req DataThunderSlbHttpProxyStats#req}
   */
   readonly req?: number;
   /**
   * Rsp time less than 100m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_100m DataThunderSlbHttpProxyStats#req_100m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_100m DataThunderSlbHttpProxyStats#req_100m}
   */
   readonly req100M?: number;
   /**
   * Rsp time less than 100u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_100u DataThunderSlbHttpProxyStats#req_100u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_100u DataThunderSlbHttpProxyStats#req_100u}
   */
   readonly req100U?: number;
   /**
   * Rsp time less than 10m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_10m DataThunderSlbHttpProxyStats#req_10m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_10m DataThunderSlbHttpProxyStats#req_10m}
   */
   readonly req10M?: number;
   /**
   * Rsp time less than 10u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_10u DataThunderSlbHttpProxyStats#req_10u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_10u DataThunderSlbHttpProxyStats#req_10u}
   */
   readonly req10U?: number;
   /**
   * Rsp time less than 1m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_1m DataThunderSlbHttpProxyStats#req_1m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_1m DataThunderSlbHttpProxyStats#req_1m}
   */
   readonly req1M?: number;
   /**
   * Rsp time less than 1s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_1s DataThunderSlbHttpProxyStats#req_1s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_1s DataThunderSlbHttpProxyStats#req_1s}
   */
   readonly req1S?: number;
   /**
   * Rsp time less than 200m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_200m DataThunderSlbHttpProxyStats#req_200m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_200m DataThunderSlbHttpProxyStats#req_200m}
   */
   readonly req200M?: number;
   /**
   * Rsp time less than 200u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_200u DataThunderSlbHttpProxyStats#req_200u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_200u DataThunderSlbHttpProxyStats#req_200u}
   */
   readonly req200U?: number;
   /**
   * Rsp time less than 20m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_20m DataThunderSlbHttpProxyStats#req_20m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_20m DataThunderSlbHttpProxyStats#req_20m}
   */
   readonly req20M?: number;
   /**
   * Rsp time less than 20u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_20u DataThunderSlbHttpProxyStats#req_20u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_20u DataThunderSlbHttpProxyStats#req_20u}
   */
   readonly req20U?: number;
   /**
   * Rsp time less than 2m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_2m DataThunderSlbHttpProxyStats#req_2m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_2m DataThunderSlbHttpProxyStats#req_2m}
   */
   readonly req2M?: number;
   /**
   * Rsp time less than 2s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_2s DataThunderSlbHttpProxyStats#req_2s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_2s DataThunderSlbHttpProxyStats#req_2s}
   */
   readonly req2S?: number;
   /**
   * Rsp time less than 500m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_500m DataThunderSlbHttpProxyStats#req_500m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_500m DataThunderSlbHttpProxyStats#req_500m}
   */
   readonly req500M?: number;
   /**
   * Rsp time less than 500u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_500u DataThunderSlbHttpProxyStats#req_500u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_500u DataThunderSlbHttpProxyStats#req_500u}
   */
   readonly req500U?: number;
   /**
   * Rsp time less than 50m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_50m DataThunderSlbHttpProxyStats#req_50m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_50m DataThunderSlbHttpProxyStats#req_50m}
   */
   readonly req50M?: number;
   /**
   * Rsp time less than 50u
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_50u DataThunderSlbHttpProxyStats#req_50u}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_50u DataThunderSlbHttpProxyStats#req_50u}
   */
   readonly req50U?: number;
   /**
   * Rsp time less than 5m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_5m DataThunderSlbHttpProxyStats#req_5m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_5m DataThunderSlbHttpProxyStats#req_5m}
   */
   readonly req5M?: number;
   /**
   * Rsp time less than 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_5s DataThunderSlbHttpProxyStats#req_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_5s DataThunderSlbHttpProxyStats#req_5s}
   */
   readonly req5S?: number;
   /**
   * Method CONNECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_connect DataThunderSlbHttpProxyStats#req_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_connect DataThunderSlbHttpProxyStats#req_connect}
   */
   readonly reqConnect?: number;
   /**
   * Req content len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_content_len DataThunderSlbHttpProxyStats#req_content_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_content_len DataThunderSlbHttpProxyStats#req_content_len}
   */
   readonly reqContentLen?: number;
   /**
   * Method DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_delete DataThunderSlbHttpProxyStats#req_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_delete DataThunderSlbHttpProxyStats#req_delete}
   */
   readonly reqDelete?: number;
   /**
   * Total HTTP requests enter SSLi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_enter_ssli DataThunderSlbHttpProxyStats#req_enter_ssli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_enter_ssli DataThunderSlbHttpProxyStats#req_enter_ssli}
   */
   readonly reqEnterSsli?: number;
   /**
   * Method GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_get DataThunderSlbHttpProxyStats#req_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_get DataThunderSlbHttpProxyStats#req_get}
   */
   readonly reqGet?: number;
   /**
   * Method HEAD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_head DataThunderSlbHttpProxyStats#req_head}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_head DataThunderSlbHttpProxyStats#req_head}
   */
   readonly reqHead?: number;
   /**
   * Request 2.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_http2 DataThunderSlbHttpProxyStats#req_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_http2 DataThunderSlbHttpProxyStats#req_http2}
   */
   readonly reqHttp2?: number;
   /**
   * Request 3.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_http3 DataThunderSlbHttpProxyStats#req_http3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_http3 DataThunderSlbHttpProxyStats#req_http3}
   */
   readonly reqHttp3?: number;
   /**
   * Packets ofo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_ofo DataThunderSlbHttpProxyStats#req_ofo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_ofo DataThunderSlbHttpProxyStats#req_ofo}
   */
   readonly reqOfo?: number;
   /**
   * Method OPTIONS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_options DataThunderSlbHttpProxyStats#req_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_options DataThunderSlbHttpProxyStats#req_options}
   */
   readonly reqOptions?: number;
   /**
   * Rsp time greater than equal to 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_over_5s DataThunderSlbHttpProxyStats#req_over_5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_over_5s DataThunderSlbHttpProxyStats#req_over_5s}
   */
   readonly reqOver5S?: number;
   /**
   * Request over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_over_limit DataThunderSlbHttpProxyStats#req_over_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_over_limit DataThunderSlbHttpProxyStats#req_over_limit}
   */
   readonly reqOverLimit?: number;
   /**
   * Method POST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_post DataThunderSlbHttpProxyStats#req_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_post DataThunderSlbHttpProxyStats#req_post}
   */
   readonly reqPost?: number;
   /**
   * Method PUT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_put DataThunderSlbHttpProxyStats#req_put}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_put DataThunderSlbHttpProxyStats#req_put}
   */
   readonly reqPut?: number;
   /**
   * Request rate over limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_rate_over_limit DataThunderSlbHttpProxyStats#req_rate_over_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_rate_over_limit DataThunderSlbHttpProxyStats#req_rate_over_limit}
   */
   readonly reqRateOverLimit?: number;
   /**
   * Packets retrans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_retran DataThunderSlbHttpProxyStats#req_retran}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_retran DataThunderSlbHttpProxyStats#req_retran}
   */
   readonly reqRetran?: number;
   /**
   * HTTP requests(succ)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_succ DataThunderSlbHttpProxyStats#req_succ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_succ DataThunderSlbHttpProxyStats#req_succ}
   */
   readonly reqSucc?: number;
   /**
   * Req less than equal to 16K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_16k DataThunderSlbHttpProxyStats#req_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_16k DataThunderSlbHttpProxyStats#req_sz_16k}
   */
   readonly reqSz16K?: number;
   /**
   * Req less than equal to 1K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_1k DataThunderSlbHttpProxyStats#req_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_1k DataThunderSlbHttpProxyStats#req_sz_1k}
   */
   readonly reqSz1K?: number;
   /**
   * Req less than equal to 256K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_256k DataThunderSlbHttpProxyStats#req_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_256k DataThunderSlbHttpProxyStats#req_sz_256k}
   */
   readonly reqSz256K?: number;
   /**
   * Req less than equal to 2K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_2k DataThunderSlbHttpProxyStats#req_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_2k DataThunderSlbHttpProxyStats#req_sz_2k}
   */
   readonly reqSz2K?: number;
   /**
   * Req less than equal to 32K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_32k DataThunderSlbHttpProxyStats#req_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_32k DataThunderSlbHttpProxyStats#req_sz_32k}
   */
   readonly reqSz32K?: number;
   /**
   * Req less than equal to 4K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_4k DataThunderSlbHttpProxyStats#req_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_4k DataThunderSlbHttpProxyStats#req_sz_4k}
   */
   readonly reqSz4K?: number;
   /**
   * Req less than equal to 64K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_64k DataThunderSlbHttpProxyStats#req_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_64k DataThunderSlbHttpProxyStats#req_sz_64k}
   */
   readonly reqSz64K?: number;
   /**
   * Req less than equal to 8K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_8k DataThunderSlbHttpProxyStats#req_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_8k DataThunderSlbHttpProxyStats#req_sz_8k}
   */
   readonly reqSz8K?: number;
   /**
   * Req greater than 256K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_sz_gt_256k DataThunderSlbHttpProxyStats#req_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_sz_gt_256k DataThunderSlbHttpProxyStats#req_sz_gt_256k}
   */
   readonly reqSzGt256K?: number;
   /**
   * Method TRACE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_trace DataThunderSlbHttpProxyStats#req_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_trace DataThunderSlbHttpProxyStats#req_trace}
   */
   readonly reqTrace?: number;
   /**
   * Method TRACK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_track DataThunderSlbHttpProxyStats#req_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_track DataThunderSlbHttpProxyStats#req_track}
   */
   readonly reqTrack?: number;
   /**
   * Method UNKNOWN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#req_unknown DataThunderSlbHttpProxyStats#req_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#req_unknown DataThunderSlbHttpProxyStats#req_unknown}
   */
   readonly reqUnknown?: number;
   /**
   * Status code 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_100 DataThunderSlbHttpProxyStats#response_100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_100 DataThunderSlbHttpProxyStats#response_100}
   */
   readonly response100?: number;
   /**
   * Status code 101
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_101 DataThunderSlbHttpProxyStats#response_101}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_101 DataThunderSlbHttpProxyStats#response_101}
   */
   readonly response101?: number;
   /**
   * Status code 102
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_102 DataThunderSlbHttpProxyStats#response_102}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_102 DataThunderSlbHttpProxyStats#response_102}
   */
   readonly response102?: number;
   /**
   * Status code 1XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_1xx DataThunderSlbHttpProxyStats#response_1xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_1xx DataThunderSlbHttpProxyStats#response_1xx}
   */
   readonly response1Xx?: number;
   /**
   * Status code 200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_200 DataThunderSlbHttpProxyStats#response_200}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_200 DataThunderSlbHttpProxyStats#response_200}
   */
   readonly response200?: number;
   /**
   * Status code 201
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_201 DataThunderSlbHttpProxyStats#response_201}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_201 DataThunderSlbHttpProxyStats#response_201}
   */
   readonly response201?: number;
   /**
   * Status code 202
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_202 DataThunderSlbHttpProxyStats#response_202}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_202 DataThunderSlbHttpProxyStats#response_202}
   */
   readonly response202?: number;
   /**
   * Status code 203
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_203 DataThunderSlbHttpProxyStats#response_203}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_203 DataThunderSlbHttpProxyStats#response_203}
   */
   readonly response203?: number;
   /**
   * Status code 204
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_204 DataThunderSlbHttpProxyStats#response_204}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_204 DataThunderSlbHttpProxyStats#response_204}
   */
   readonly response204?: number;
   /**
   * Status code 205
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_205 DataThunderSlbHttpProxyStats#response_205}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_205 DataThunderSlbHttpProxyStats#response_205}
   */
   readonly response205?: number;
   /**
   * Status code 206
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_206 DataThunderSlbHttpProxyStats#response_206}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_206 DataThunderSlbHttpProxyStats#response_206}
   */
   readonly response206?: number;
   /**
   * Status code 207
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_207 DataThunderSlbHttpProxyStats#response_207}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_207 DataThunderSlbHttpProxyStats#response_207}
   */
   readonly response207?: number;
   /**
   * Status code 2XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_2xx DataThunderSlbHttpProxyStats#response_2xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_2xx DataThunderSlbHttpProxyStats#response_2xx}
   */
   readonly response2Xx?: number;
   /**
   * Status code 300
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_300 DataThunderSlbHttpProxyStats#response_300}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_300 DataThunderSlbHttpProxyStats#response_300}
   */
   readonly response300?: number;
   /**
   * Status code 301
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_301 DataThunderSlbHttpProxyStats#response_301}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_301 DataThunderSlbHttpProxyStats#response_301}
   */
   readonly response301?: number;
   /**
   * Status code 302
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_302 DataThunderSlbHttpProxyStats#response_302}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_302 DataThunderSlbHttpProxyStats#response_302}
   */
   readonly response302?: number;
   /**
   * Status code 303
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_303 DataThunderSlbHttpProxyStats#response_303}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_303 DataThunderSlbHttpProxyStats#response_303}
   */
   readonly response303?: number;
   /**
   * Status code 304
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_304 DataThunderSlbHttpProxyStats#response_304}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_304 DataThunderSlbHttpProxyStats#response_304}
   */
   readonly response304?: number;
   /**
   * Status code 305
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_305 DataThunderSlbHttpProxyStats#response_305}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_305 DataThunderSlbHttpProxyStats#response_305}
   */
   readonly response305?: number;
   /**
   * Status code 306
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_306 DataThunderSlbHttpProxyStats#response_306}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_306 DataThunderSlbHttpProxyStats#response_306}
   */
   readonly response306?: number;
   /**
   * Status code 307
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_307 DataThunderSlbHttpProxyStats#response_307}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_307 DataThunderSlbHttpProxyStats#response_307}
   */
   readonly response307?: number;
   /**
   * Status code 3XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_3xx DataThunderSlbHttpProxyStats#response_3xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_3xx DataThunderSlbHttpProxyStats#response_3xx}
   */
   readonly response3Xx?: number;
   /**
   * Status code 400
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_400 DataThunderSlbHttpProxyStats#response_400}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_400 DataThunderSlbHttpProxyStats#response_400}
   */
   readonly response400?: number;
   /**
   * Status code 401
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_401 DataThunderSlbHttpProxyStats#response_401}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_401 DataThunderSlbHttpProxyStats#response_401}
   */
   readonly response401?: number;
   /**
   * Status code 402
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_402 DataThunderSlbHttpProxyStats#response_402}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_402 DataThunderSlbHttpProxyStats#response_402}
   */
   readonly response402?: number;
   /**
   * Status code 403
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_403 DataThunderSlbHttpProxyStats#response_403}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_403 DataThunderSlbHttpProxyStats#response_403}
   */
   readonly response403?: number;
   /**
   * Status code 404
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_404 DataThunderSlbHttpProxyStats#response_404}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_404 DataThunderSlbHttpProxyStats#response_404}
   */
   readonly response404?: number;
   /**
   * Status code 405
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_405 DataThunderSlbHttpProxyStats#response_405}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_405 DataThunderSlbHttpProxyStats#response_405}
   */
   readonly response405?: number;
   /**
   * Status code 406
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_406 DataThunderSlbHttpProxyStats#response_406}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_406 DataThunderSlbHttpProxyStats#response_406}
   */
   readonly response406?: number;
   /**
   * Status code 407
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_407 DataThunderSlbHttpProxyStats#response_407}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_407 DataThunderSlbHttpProxyStats#response_407}
   */
   readonly response407?: number;
   /**
   * Status code 408
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_408 DataThunderSlbHttpProxyStats#response_408}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_408 DataThunderSlbHttpProxyStats#response_408}
   */
   readonly response408?: number;
   /**
   * Status code 409
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_409 DataThunderSlbHttpProxyStats#response_409}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_409 DataThunderSlbHttpProxyStats#response_409}
   */
   readonly response409?: number;
   /**
   * Status code 410
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_410 DataThunderSlbHttpProxyStats#response_410}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_410 DataThunderSlbHttpProxyStats#response_410}
   */
   readonly response410?: number;
   /**
   * Status code 411
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_411 DataThunderSlbHttpProxyStats#response_411}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_411 DataThunderSlbHttpProxyStats#response_411}
   */
   readonly response411?: number;
   /**
   * Status code 412
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_412 DataThunderSlbHttpProxyStats#response_412}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_412 DataThunderSlbHttpProxyStats#response_412}
   */
   readonly response412?: number;
   /**
   * Status code 413
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_413 DataThunderSlbHttpProxyStats#response_413}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_413 DataThunderSlbHttpProxyStats#response_413}
   */
   readonly response413?: number;
   /**
   * Status code 414
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_414 DataThunderSlbHttpProxyStats#response_414}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_414 DataThunderSlbHttpProxyStats#response_414}
   */
   readonly response414?: number;
   /**
   * Status code 415
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_415 DataThunderSlbHttpProxyStats#response_415}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_415 DataThunderSlbHttpProxyStats#response_415}
   */
   readonly response415?: number;
   /**
   * Status code 416
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_416 DataThunderSlbHttpProxyStats#response_416}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_416 DataThunderSlbHttpProxyStats#response_416}
   */
   readonly response416?: number;
   /**
   * Status code 417
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_417 DataThunderSlbHttpProxyStats#response_417}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_417 DataThunderSlbHttpProxyStats#response_417}
   */
   readonly response417?: number;
   /**
   * Status code 418
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_418 DataThunderSlbHttpProxyStats#response_418}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_418 DataThunderSlbHttpProxyStats#response_418}
   */
   readonly response418?: number;
   /**
   * Status code 422
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_422 DataThunderSlbHttpProxyStats#response_422}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_422 DataThunderSlbHttpProxyStats#response_422}
   */
   readonly response422?: number;
   /**
   * Status code 423
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_423 DataThunderSlbHttpProxyStats#response_423}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_423 DataThunderSlbHttpProxyStats#response_423}
   */
   readonly response423?: number;
   /**
   * Status code 424
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_424 DataThunderSlbHttpProxyStats#response_424}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_424 DataThunderSlbHttpProxyStats#response_424}
   */
   readonly response424?: number;
   /**
   * Status code 425
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_425 DataThunderSlbHttpProxyStats#response_425}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_425 DataThunderSlbHttpProxyStats#response_425}
   */
   readonly response425?: number;
   /**
   * Status code 426
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_426 DataThunderSlbHttpProxyStats#response_426}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_426 DataThunderSlbHttpProxyStats#response_426}
   */
   readonly response426?: number;
   /**
   * Status code 449
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_449 DataThunderSlbHttpProxyStats#response_449}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_449 DataThunderSlbHttpProxyStats#response_449}
   */
   readonly response449?: number;
   /**
   * Status code 450
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_450 DataThunderSlbHttpProxyStats#response_450}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_450 DataThunderSlbHttpProxyStats#response_450}
   */
   readonly response450?: number;
   /**
   * Status code 4XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_4xx DataThunderSlbHttpProxyStats#response_4xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_4xx DataThunderSlbHttpProxyStats#response_4xx}
   */
   readonly response4Xx?: number;
   /**
   * Status code 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_500 DataThunderSlbHttpProxyStats#response_500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_500 DataThunderSlbHttpProxyStats#response_500}
   */
   readonly response500?: number;
   /**
   * Status code 501
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_501 DataThunderSlbHttpProxyStats#response_501}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_501 DataThunderSlbHttpProxyStats#response_501}
   */
   readonly response501?: number;
   /**
   * Status code 502
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_502 DataThunderSlbHttpProxyStats#response_502}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_502 DataThunderSlbHttpProxyStats#response_502}
   */
   readonly response502?: number;
   /**
   * Status code 503
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_503 DataThunderSlbHttpProxyStats#response_503}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_503 DataThunderSlbHttpProxyStats#response_503}
   */
   readonly response503?: number;
   /**
   * Status code 504
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_504 DataThunderSlbHttpProxyStats#response_504}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_504 DataThunderSlbHttpProxyStats#response_504}
   */
   readonly response504?: number;
   /**
   * Status code 505
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_505 DataThunderSlbHttpProxyStats#response_505}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_505 DataThunderSlbHttpProxyStats#response_505}
   */
   readonly response505?: number;
   /**
   * Status code 506
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_506 DataThunderSlbHttpProxyStats#response_506}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_506 DataThunderSlbHttpProxyStats#response_506}
   */
   readonly response506?: number;
   /**
   * Status code 507
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_507 DataThunderSlbHttpProxyStats#response_507}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_507 DataThunderSlbHttpProxyStats#response_507}
   */
   readonly response507?: number;
   /**
   * Status code 508
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_508 DataThunderSlbHttpProxyStats#response_508}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_508 DataThunderSlbHttpProxyStats#response_508}
   */
   readonly response508?: number;
   /**
   * Status code 509
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_509 DataThunderSlbHttpProxyStats#response_509}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_509 DataThunderSlbHttpProxyStats#response_509}
   */
   readonly response509?: number;
   /**
   * Status code 510
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_510 DataThunderSlbHttpProxyStats#response_510}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_510 DataThunderSlbHttpProxyStats#response_510}
   */
   readonly response510?: number;
   /**
   * Status code 5XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_5xx DataThunderSlbHttpProxyStats#response_5xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_5xx DataThunderSlbHttpProxyStats#response_5xx}
   */
   readonly response5Xx?: number;
   /**
   * Status code 6XX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_6xx DataThunderSlbHttpProxyStats#response_6xx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_6xx DataThunderSlbHttpProxyStats#response_6xx}
   */
   readonly response6Xx?: number;
   /**
   * Resp 2.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_http2 DataThunderSlbHttpProxyStats#response_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_http2 DataThunderSlbHttpProxyStats#response_http2}
   */
   readonly responseHttp2?: number;
   /**
   * Resp 3.0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_http3 DataThunderSlbHttpProxyStats#response_http3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_http3 DataThunderSlbHttpProxyStats#response_http3}
   */
   readonly responseHttp3?: number;
   /**
   * Status code unknown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#response_unknown DataThunderSlbHttpProxyStats#response_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#response_unknown DataThunderSlbHttpProxyStats#response_unknown}
   */
   readonly responseUnknown?: number;
   /**
   * Resp chunk encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_chunk DataThunderSlbHttpProxyStats#rsp_chunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_chunk DataThunderSlbHttpProxyStats#rsp_chunk}
   */
   readonly rspChunk?: number;
   /**
   * Resp content len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_content_len DataThunderSlbHttpProxyStats#rsp_content_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_content_len DataThunderSlbHttpProxyStats#rsp_content_len}
   */
   readonly rspContentLen?: number;
   /**
   * Resp less than equal to 16K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_16k DataThunderSlbHttpProxyStats#rsp_sz_16k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_16k DataThunderSlbHttpProxyStats#rsp_sz_16k}
   */
   readonly rspSz16K?: number;
   /**
   * Resp less than equal to 1K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_1k DataThunderSlbHttpProxyStats#rsp_sz_1k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_1k DataThunderSlbHttpProxyStats#rsp_sz_1k}
   */
   readonly rspSz1K?: number;
   /**
   * Resp less than equal to 256K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_256k DataThunderSlbHttpProxyStats#rsp_sz_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_256k DataThunderSlbHttpProxyStats#rsp_sz_256k}
   */
   readonly rspSz256K?: number;
   /**
   * Resp less than equal to 2K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_2k DataThunderSlbHttpProxyStats#rsp_sz_2k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_2k DataThunderSlbHttpProxyStats#rsp_sz_2k}
   */
   readonly rspSz2K?: number;
   /**
   * Resp less than equal to 32K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_32k DataThunderSlbHttpProxyStats#rsp_sz_32k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_32k DataThunderSlbHttpProxyStats#rsp_sz_32k}
   */
   readonly rspSz32K?: number;
   /**
   * Resp less than equal to 4K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_4k DataThunderSlbHttpProxyStats#rsp_sz_4k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_4k DataThunderSlbHttpProxyStats#rsp_sz_4k}
   */
   readonly rspSz4K?: number;
   /**
   * Resp less than equal to 64K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_64k DataThunderSlbHttpProxyStats#rsp_sz_64k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_64k DataThunderSlbHttpProxyStats#rsp_sz_64k}
   */
   readonly rspSz64K?: number;
   /**
   * Resp less than equal to 8K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_8k DataThunderSlbHttpProxyStats#rsp_sz_8k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_8k DataThunderSlbHttpProxyStats#rsp_sz_8k}
   */
   readonly rspSz8K?: number;
   /**
   * Resp greater than 256K
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#rsp_sz_gt_256k DataThunderSlbHttpProxyStats#rsp_sz_gt_256k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#rsp_sz_gt_256k DataThunderSlbHttpProxyStats#rsp_sz_gt_256k}
   */
   readonly rspSzGt256K?: number;
   /**
   * Server reselection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#server_resel DataThunderSlbHttpProxyStats#server_resel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#server_resel DataThunderSlbHttpProxyStats#server_resel}
   */
   readonly serverResel?: number;
   /**
   * Server RST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#server_rst DataThunderSlbHttpProxyStats#server_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#server_rst DataThunderSlbHttpProxyStats#server_rst}
   */
   readonly serverRst?: number;
   /**
   * Source NAT failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#snat_fail DataThunderSlbHttpProxyStats#snat_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#snat_fail DataThunderSlbHttpProxyStats#snat_fail}
   */
   readonly snatFail?: number;
   /**
   * Server premature close
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#svr_prem_close DataThunderSlbHttpProxyStats#svr_prem_close}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#svr_prem_close DataThunderSlbHttpProxyStats#svr_prem_close}
   */
   readonly svrPremClose?: number;
   /**
   * Server selection fail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#svrsel_fail DataThunderSlbHttpProxyStats#svrsel_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#svrsel_fail DataThunderSlbHttpProxyStats#svrsel_fail}
   */
   readonly svrselFail?: number;
   /**
   * Total Proxy Conns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#total_proxy DataThunderSlbHttpProxyStats#total_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#total_proxy DataThunderSlbHttpProxyStats#total_proxy}
   */
   readonly totalProxy?: number;
 }
@@ -7702,7 +7702,7 @@ export class DataThunderSlbHttpProxyStatsStatsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats thunder_slb_http_proxy_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats thunder_slb_http_proxy_stats}
 */
 export class DataThunderSlbHttpProxyStats extends cdktf.TerraformDataSource {
 
@@ -7718,7 +7718,7 @@ export class DataThunderSlbHttpProxyStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbHttpProxyStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbHttpProxyStats to import
-  * @param importFromId The id of the existing DataThunderSlbHttpProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbHttpProxyStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbHttpProxyStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7730,7 +7730,7 @@ export class DataThunderSlbHttpProxyStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_http_proxy_stats thunder_slb_http_proxy_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_http_proxy_stats thunder_slb_http_proxy_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7741,8 +7741,8 @@ export class DataThunderSlbHttpProxyStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_http_proxy_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

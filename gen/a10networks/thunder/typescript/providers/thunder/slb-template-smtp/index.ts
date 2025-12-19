@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SlbTemplateSmtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'optional': STARTTLS is optional requirement; 'enforced': Must issue STARTTLS command before mail transaction;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#client_starttls_type SlbTemplateSmtp#client_starttls_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#client_starttls_type SlbTemplateSmtp#client_starttls_type}
   */
   readonly clientStarttlsType?: string;
   /**
   * Would transfer error code(554) to client, when getting it from connection establishing with real-server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#error_code_to_client SlbTemplateSmtp#error_code_to_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#error_code_to_client SlbTemplateSmtp#error_code_to_client}
   */
   readonly errorCodeToClient?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#id SlbTemplateSmtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#id SlbTemplateSmtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,61 +29,61 @@ export interface SlbTemplateSmtpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Change the LF to CRLF for smtp end of line
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#lf_to_crlf SlbTemplateSmtp#lf_to_crlf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#lf_to_crlf SlbTemplateSmtp#lf_to_crlf}
   */
   readonly lfToCrlf?: number;
   /**
   * SMTP Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#name SlbTemplateSmtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#name SlbTemplateSmtp#name}
   */
   readonly name: string;
   /**
   * Config the domain of the email servers (Server's domain, default is "mail-server-domain")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#server_domain SlbTemplateSmtp#server_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#server_domain SlbTemplateSmtp#server_domain}
   */
   readonly serverDomain?: string;
   /**
   * 'optional': STARTTLS is optional requirement; 'enforced': Must issue STARTTLS command before mail transaction;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#server_starttls_type SlbTemplateSmtp#server_starttls_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#server_starttls_type SlbTemplateSmtp#server_starttls_type}
   */
   readonly serverStarttlsType?: string;
   /**
   * Set SMTP service ready message (SMTP service ready message, default is "ESMTP mail service ready")
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#service_ready_msg SlbTemplateSmtp#service_ready_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#service_ready_msg SlbTemplateSmtp#service_ready_msg}
   */
   readonly serviceReadyMsg?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#user_tag SlbTemplateSmtp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#user_tag SlbTemplateSmtp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#uuid SlbTemplateSmtp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#uuid SlbTemplateSmtp#uuid}
   */
   readonly uuid?: string;
   /**
   * client_domain_switching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#client_domain_switching SlbTemplateSmtp#client_domain_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#client_domain_switching SlbTemplateSmtp#client_domain_switching}
   */
   readonly clientDomainSwitching?: SlbTemplateSmtpClientDomainSwitching[] | cdktf.IResolvable;
   /**
   * command_disable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#command_disable SlbTemplateSmtp#command_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#command_disable SlbTemplateSmtp#command_disable}
   */
   readonly commandDisable?: SlbTemplateSmtpCommandDisable[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#template SlbTemplateSmtp#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#template SlbTemplateSmtp#template}
   */
   readonly template?: SlbTemplateSmtpTemplate;
 }
@@ -91,19 +91,19 @@ export interface SlbTemplateSmtpClientDomainSwitching {
   /**
   * Domain name string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#match_string SlbTemplateSmtp#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#match_string SlbTemplateSmtp#match_string}
   */
   readonly matchString?: string;
   /**
   * Select service group (Service group name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#service_group SlbTemplateSmtp#service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#service_group SlbTemplateSmtp#service_group}
   */
   readonly serviceGroup?: string;
   /**
   * 'contains': Specify domain name string if domain contains another string; 'ends-with': Specify domain name string if domain ends with another string; 'starts-with': Specify domain string if domain starts with another string;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#switching_type SlbTemplateSmtp#switching_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#switching_type SlbTemplateSmtp#switching_type}
   */
   readonly switchingType?: string;
 }
@@ -279,7 +279,7 @@ export interface SlbTemplateSmtpCommandDisable {
   /**
   * 'expn': Disable SMTP EXPN commands; 'turn': Disable SMTP TURN commands; 'vrfy': Disable SMTP VRFY commands;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#disable_type SlbTemplateSmtp#disable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#disable_type SlbTemplateSmtp#disable_type}
   */
   readonly disableType?: string;
 }
@@ -397,7 +397,7 @@ export interface SlbTemplateSmtpTemplate {
   /**
   * Logging template (Logging Config name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#logging SlbTemplateSmtp#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#logging SlbTemplateSmtp#logging}
   */
   readonly logging?: string;
 }
@@ -481,7 +481,7 @@ export class SlbTemplateSmtpTemplateOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp thunder_slb_template_smtp}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp thunder_slb_template_smtp}
 */
 export class SlbTemplateSmtp extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class SlbTemplateSmtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbTemplateSmtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbTemplateSmtp to import
-  * @param importFromId The id of the existing SlbTemplateSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbTemplateSmtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbTemplateSmtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class SlbTemplateSmtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_template_smtp thunder_slb_template_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_template_smtp thunder_slb_template_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class SlbTemplateSmtp extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_template_smtp',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

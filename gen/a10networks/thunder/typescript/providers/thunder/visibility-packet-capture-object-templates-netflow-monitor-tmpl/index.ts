@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplConfig 
   /**
   * Specify name of the capture-config to use with this template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#capture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#capture_config VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#capture_config}
   */
   readonly captureConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#id VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#id VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplConfig 
   /**
   * Packet Capture Template Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#name VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#name VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#user_tag VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
   */
   readonly uuid?: string;
   /**
   * trigger_stats_inc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_inc VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_inc}
   */
   readonly triggerStatsInc?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTriggerStatsInc;
   /**
   * trigger_stats_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_rate VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_rate}
   */
   readonly triggerStatsRate?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTriggerStatsRate;
   /**
   * trigger_stats_severity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#trigger_stats_severity VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#trigger_stats_severity}
   */
   readonly triggerStatsSeverity?: VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTriggerStatsSeverity;
 }
@@ -61,367 +61,367 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTrigger
   /**
   * Enable automatic packet-capture for Custom FW4 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw4_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw4_records_sen}
   */
   readonly customDenyResetEventFw4RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw6_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw6_records_sen}
   */
   readonly customDenyResetEventFw6RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_created_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_created_records_s}
   */
   readonly customFwIddosEntryCreatedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_deleted_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_deleted_records_s}
   */
   readonly customFwIddosEntryDeletedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW Session Limit Exceeded Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_sesn_limit_exceeded_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_sesn_limit_exceeded_records_s}
   */
   readonly customFwSesnLimitExceededRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom GTP C Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_c_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_c_tunnel_event_records_sent_}
   */
   readonly customGtpCTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Deny Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_deny_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_deny_event_records_sent_fail}
   */
   readonly customGtpDenyEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Info Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_info_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_info_event_records_sent_fail}
   */
   readonly customGtpInfoEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP U Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_u_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_u_tunnel_event_records_sent_}
   */
   readonly customGtpUTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_created_recor}
   */
   readonly customNatIddosL3EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_deleted_recor}
   */
   readonly customNatIddosL3EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_created_recor}
   */
   readonly customNatIddosL4EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_deleted_recor}
   */
   readonly customNatIddosL4EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_creation_re}
   */
   readonly customPortBatchingDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_deletion_re}
   */
   readonly customPortBatchingDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_creation_rec}
   */
   readonly customPortBatchingNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_deletion_rec}
   */
   readonly customPortBatchingNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_creation_rec}
   */
   readonly customPortBatchingNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_deletion_rec}
   */
   readonly customPortBatchingNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_creation}
   */
   readonly customPortBatchingV2DsliteCreation?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_deletion}
   */
   readonly customPortBatchingV2DsliteDeletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_creation_}
   */
   readonly customPortBatchingV2Nat44Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_deletion_}
   */
   readonly customPortBatchingV2Nat44Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_creation_}
   */
   readonly customPortBatchingV2Nat64Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_deletion_}
   */
   readonly customPortBatchingV2Nat64Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_creation_rec}
   */
   readonly customPortMappingDsliteCreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_deletion_rec}
   */
   readonly customPortMappingDsliteDeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_creation_reco}
   */
   readonly customPortMappingNat44CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_deletion_reco}
   */
   readonly customPortMappingNat44DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_creation_reco}
   */
   readonly customPortMappingNat64CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_deletion_reco}
   */
   readonly customPortMappingNat64DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_creation_re}
   */
   readonly customSessionEventDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_deletion_re}
   */
   readonly customSessionEventDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_creation_recor}
   */
   readonly customSessionEventFw4CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_deletion_recor}
   */
   readonly customSessionEventFw4DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_creation_recor}
   */
   readonly customSessionEventFw6CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_deletion_recor}
   */
   readonly customSessionEventFw6DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_creation_rec}
   */
   readonly customSessionEventNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_deletion_rec}
   */
   readonly customSessionEventNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_creation_rec}
   */
   readonly customSessionEventNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_deletion_rec}
   */
   readonly customSessionEventNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Dslite Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#dslite_records_sent_failure}
   */
   readonly dsliteRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT44 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat44_records_sent_failure}
   */
   readonly nat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT64 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat64_records_sent_failure}
   */
   readonly nat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Ext Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_ext_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_ext_records_sent_failure}
   */
   readonly netflowV5ExtRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_records_sent_failure}
   */
   readonly netflowV5RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Batching Dslite Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_dslite_records_sent_failu}
   */
   readonly portBatchingDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat44_records_sent_failur}
   */
   readonly portBatchingNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat64_records_sent_failur}
   */
   readonly portBatchingNat64RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Dslite Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_dslite_records_sent_fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_dslite_records_sent_fa}
   */
   readonly portBatchingV2DsliteRecordsSentFa?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat44_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat44_records_sent_fai}
   */
   readonly portBatchingV2Nat44RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat64_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat64_records_sent_fai}
   */
   readonly portBatchingV2Nat64RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Dslite Event Records failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_dslite_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_dslite_records_sent_failur}
   */
   readonly portMappingDsliteRecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat44 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat44_records_sent_failure}
   */
   readonly portMappingNat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat64 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat64_records_sent_failure}
   */
   readonly portMappingNat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Dslite Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_dslite_records_sent_failu}
   */
   readonly sessionEventDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for FW4 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw4_records_sent_failure}
   */
   readonly sessionEventFw4RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for FW6 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw6_records_sent_failure}
   */
   readonly sessionEventFw6RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Nat44 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat44_records_sent_failur}
   */
   readonly sessionEventNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Nat64 Session Event Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat64_records_sent_failur}
   */
   readonly sessionEventNat64RecordsSentFailur?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -2247,379 +2247,379 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTrigger
   /**
   * Enable automatic packet-capture for Custom FW4 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw4_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw4_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw4_records_sen}
   */
   readonly customDenyResetEventFw4RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Deny/Reset Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw6_records_sen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_deny_reset_event_fw6_records_sen VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_deny_reset_event_fw6_records_sen}
   */
   readonly customDenyResetEventFw6RecordsSen?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_created_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_created_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_created_records_s}
   */
   readonly customFwIddosEntryCreatedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW iDDoS Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_deleted_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_iddos_entry_deleted_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_iddos_entry_deleted_records_s}
   */
   readonly customFwIddosEntryDeletedRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom FW Session Limit Exceeded Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_sesn_limit_exceeded_records_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_fw_sesn_limit_exceeded_records_s VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_fw_sesn_limit_exceeded_records_s}
   */
   readonly customFwSesnLimitExceededRecordsS?: number;
   /**
   * Enable automatic packet-capture for Custom GTP C Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_c_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_c_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_c_tunnel_event_records_sent_}
   */
   readonly customGtpCTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Deny Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_deny_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_deny_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_deny_event_records_sent_fail}
   */
   readonly customGtpDenyEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP Info Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_info_event_records_sent_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_info_event_records_sent_fail VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_info_event_records_sent_fail}
   */
   readonly customGtpInfoEventRecordsSentFail?: number;
   /**
   * Enable automatic packet-capture for Custom GTP U Tunnel Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_u_tunnel_event_records_sent_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_gtp_u_tunnel_event_records_sent_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_gtp_u_tunnel_event_records_sent_}
   */
   readonly customGtpUTunnelEventRecordsSent?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_created_recor}
   */
   readonly customNatIddosL3EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L3 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l3_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l3_entry_deleted_recor}
   */
   readonly customNatIddosL3EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Created Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_created_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_created_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_created_recor}
   */
   readonly customNatIddosL4EntryCreatedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom NAT iDDoS L4 Entry Deleted Records Sent Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_deleted_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_nat_iddos_l4_entry_deleted_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_nat_iddos_l4_entry_deleted_recor}
   */
   readonly customNatIddosL4EntryDeletedRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_creation_re}
   */
   readonly customPortBatchingDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_dslite_deletion_re}
   */
   readonly customPortBatchingDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_creation_rec}
   */
   readonly customPortBatchingNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat44_deletion_rec}
   */
   readonly customPortBatchingNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_creation_rec}
   */
   readonly customPortBatchingNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_nat64_deletion_rec}
   */
   readonly customPortBatchingNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_creation VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_creation}
   */
   readonly customPortBatchingV2DsliteCreation?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_dslite_deletion VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_dslite_deletion}
   */
   readonly customPortBatchingV2DsliteDeletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_creation_}
   */
   readonly customPortBatchingV2Nat44Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat44_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat44_deletion_}
   */
   readonly customPortBatchingV2Nat44Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_creation_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_creation_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_creation_}
   */
   readonly customPortBatchingV2Nat64Creation?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Batch V2 Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_deletion_}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_batching_v2_nat64_deletion_ VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_batching_v2_nat64_deletion_}
   */
   readonly customPortBatchingV2Nat64Deletion?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_creation_rec}
   */
   readonly customPortMappingDsliteCreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_dslite_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_dslite_deletion_rec}
   */
   readonly customPortMappingDsliteDeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_creation_reco}
   */
   readonly customPortMappingNat44CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat44_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat44_deletion_reco}
   */
   readonly customPortMappingNat44DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_creation_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_creation_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_creation_reco}
   */
   readonly customPortMappingNat64CreationReco?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Port Map Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_deletion_reco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_port_mapping_nat64_deletion_reco VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_port_mapping_nat64_deletion_reco}
   */
   readonly customPortMappingNat64DeletionReco?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_creation_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_creation_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_creation_re}
   */
   readonly customSessionEventDsliteCreationRe?: number;
   /**
   * Enable automatic packet-capture for Custom Dslite Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_deletion_re}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_dslite_deletion_re VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_dslite_deletion_re}
   */
   readonly customSessionEventDsliteDeletionRe?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_creation_recor}
   */
   readonly customSessionEventFw4CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW4 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw4_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw4_deletion_recor}
   */
   readonly customSessionEventFw4DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_creation_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_creation_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_creation_recor}
   */
   readonly customSessionEventFw6CreationRecor?: number;
   /**
   * Enable automatic packet-capture for Custom FW6 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_deletion_recor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_fw6_deletion_recor VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_fw6_deletion_recor}
   */
   readonly customSessionEventFw6DeletionRecor?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_creation_rec}
   */
   readonly customSessionEventNat44CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat44 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat44_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat44_deletion_rec}
   */
   readonly customSessionEventNat44DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Creation Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_creation_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_creation_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_creation_rec}
   */
   readonly customSessionEventNat64CreationRec?: number;
   /**
   * Enable automatic packet-capture for Custom Nat64 Session Deletion Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_deletion_rec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#custom_session_event_nat64_deletion_rec VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#custom_session_event_nat64_deletion_rec}
   */
   readonly customSessionEventNat64DeletionRec?: number;
   /**
   * Enable automatic packet-capture for Dslite Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#dslite_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#dslite_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#dslite_records_sent_failure}
   */
   readonly dsliteRecordsSentFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#duration VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#duration VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#duration}
   */
   readonly duration?: number;
   /**
   * Enable automatic packet-capture for NAT44 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat44_records_sent_failure}
   */
   readonly nat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for NAT64 Flow Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#nat64_records_sent_failure}
   */
   readonly nat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Ext Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_ext_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_ext_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_ext_records_sent_failure}
   */
   readonly netflowV5ExtRecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Netflow v5 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#netflow_v5_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#netflow_v5_records_sent_failure}
   */
   readonly netflowV5RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Batching Dslite Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_dslite_records_sent_failu}
   */
   readonly portBatchingDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat44_records_sent_failur}
   */
   readonly portBatchingNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_nat64_records_sent_failur}
   */
   readonly portBatchingNat64RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Dslite Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_dslite_records_sent_fa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_dslite_records_sent_fa VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_dslite_records_sent_fa}
   */
   readonly portBatchingV2DsliteRecordsSentFa?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat44 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat44_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat44_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat44_records_sent_fai}
   */
   readonly portBatchingV2Nat44RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Batching V2 Nat64 Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat64_records_sent_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_batching_v2_nat64_records_sent_fai VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_batching_v2_nat64_records_sent_fai}
   */
   readonly portBatchingV2Nat64RecordsSentFai?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Dslite Event Records failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_dslite_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_dslite_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_dslite_records_sent_failur}
   */
   readonly portMappingDsliteRecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat44 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat44_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat44_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat44_records_sent_failure}
   */
   readonly portMappingNat44RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Port Mapping Nat64 Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat64_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#port_mapping_nat64_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#port_mapping_nat64_records_sent_failure}
   */
   readonly portMappingNat64RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Dslite Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_dslite_records_sent_failu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_dslite_records_sent_failu VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_dslite_records_sent_failu}
   */
   readonly sessionEventDsliteRecordsSentFailu?: number;
   /**
   * Enable automatic packet-capture for FW4 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw4_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw4_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw4_records_sent_failure}
   */
   readonly sessionEventFw4RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for FW6 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw6_records_sent_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_fw6_records_sent_failure VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_fw6_records_sent_failure}
   */
   readonly sessionEventFw6RecordsSentFailure?: number;
   /**
   * Enable automatic packet-capture for Nat44 Session Event Records Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat44_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat44_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat44_records_sent_failur}
   */
   readonly sessionEventNat44RecordsSentFailur?: number;
   /**
   * Enable automatic packet-capture for Nat64 Session Event Records Falied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat64_records_sent_failur}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#session_event_nat64_records_sent_failur VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#session_event_nat64_records_sent_failur}
   */
   readonly sessionEventNat64RecordsSentFailur?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -4503,55 +4503,55 @@ export interface VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTrigger
   /**
   * Enable packet capture on all drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop}
   */
   readonly drop?: number;
   /**
   * Enable packet capture on all alert drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_alert VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_alert}
   */
   readonly dropAlert?: number;
   /**
   * Enable packet capture on all critical drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_critical VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_critical}
   */
   readonly dropCritical?: number;
   /**
   * Enable packet capture on all warning drop counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#drop_warning VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#drop_warning}
   */
   readonly dropWarning?: number;
   /**
   * Enable packet capture on all error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error}
   */
   readonly error?: number;
   /**
   * Enable packet capture on all alert error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_alert VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_alert}
   */
   readonly errorAlert?: number;
   /**
   * Enable packet capture on all critical error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_critical VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_critical}
   */
   readonly errorCritical?: number;
   /**
   * Enable packet capture on all warning error counters (Default disabled)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#error_warning VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#error_warning}
   */
   readonly errorWarning?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#uuid VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl#uuid}
   */
   readonly uuid?: string;
 }
@@ -4867,7 +4867,7 @@ export class VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmplTriggerStat
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl thunder_visibility_packet_capture_object_templates_netflow_monitor_tmpl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl thunder_visibility_packet_capture_object_templates_netflow_monitor_tmpl}
 */
 export class VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl extends cdktf.TerraformResource {
 
@@ -4883,7 +4883,7 @@ export class VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl extends cd
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4895,7 +4895,7 @@ export class VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl thunder_visibility_packet_capture_object_templates_netflow_monitor_tmpl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_netflow_monitor_tmpl thunder_visibility_packet_capture_object_templates_netflow_monitor_tmpl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4906,8 +4906,8 @@ export class VisibilityPacketCaptureObjectTemplatesNetflowMonitorTmpl extends cd
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_netflow_monitor_tmpl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

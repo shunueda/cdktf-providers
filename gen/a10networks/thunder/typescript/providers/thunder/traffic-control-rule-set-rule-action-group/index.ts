@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TrafficControlRuleSetRuleActionGroupAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group#id TrafficControlRuleSetRuleActionGroupA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#id TrafficControlRuleSetRuleActionGroupA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,31 @@ export interface TrafficControlRuleSetRuleActionGroupAConfig extends cdktf.Terra
   /**
   * Limit policy Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group#limit_policy TrafficControlRuleSetRuleActionGroupA#limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#limit_policy TrafficControlRuleSetRuleActionGroupA#limit_policy}
   */
   readonly limitPolicy?: number;
   /**
-  * Name
+  * Rule_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group#name TrafficControlRuleSetRuleActionGroupA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#rule_name TrafficControlRuleSetRuleActionGroupA#rule_name}
   */
-  readonly name: string;
+  readonly ruleName: string;
+  /**
+  * Rule_set_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#rule_set_name TrafficControlRuleSetRuleActionGroupA#rule_set_name}
+  */
+  readonly ruleSetName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group#uuid TrafficControlRuleSetRuleActionGroupA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#uuid TrafficControlRuleSetRuleActionGroupA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group thunder_traffic_control_rule_set_rule_action_group}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group thunder_traffic_control_rule_set_rule_action_group}
 */
 export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResource {
 
@@ -51,7 +57,7 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
   * Generates CDKTF code for importing a TrafficControlRuleSetRuleActionGroupA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TrafficControlRuleSetRuleActionGroupA to import
-  * @param importFromId The id of the existing TrafficControlRuleSetRuleActionGroupA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TrafficControlRuleSetRuleActionGroupA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TrafficControlRuleSetRuleActionGroupA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +69,7 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/traffic_control_rule_set_rule_action_group thunder_traffic_control_rule_set_rule_action_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/traffic_control_rule_set_rule_action_group thunder_traffic_control_rule_set_rule_action_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +80,8 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
       terraformResourceType: 'thunder_traffic_control_rule_set_rule_action_group',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -87,7 +93,8 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
     });
     this._id = config.id;
     this._limitPolicy = config.limitPolicy;
-    this._name = config.name;
+    this._ruleName = config.ruleName;
+    this._ruleSetName = config.ruleSetName;
     this._uuid = config.uuid;
   }
 
@@ -127,17 +134,30 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
     return this._limitPolicy;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // rule_name - computed: false, optional: false, required: true
+  private _ruleName?: string; 
+  public get ruleName() {
+    return this.getStringAttribute('rule_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set ruleName(value: string) {
+    this._ruleName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get ruleNameInput() {
+    return this._ruleName;
+  }
+
+  // rule_set_name - computed: false, optional: false, required: true
+  private _ruleSetName?: string; 
+  public get ruleSetName() {
+    return this.getStringAttribute('rule_set_name');
+  }
+  public set ruleSetName(value: string) {
+    this._ruleSetName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ruleSetNameInput() {
+    return this._ruleSetName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -164,7 +184,8 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
     return {
       id: cdktf.stringToTerraform(this._id),
       limit_policy: cdktf.numberToTerraform(this._limitPolicy),
-      name: cdktf.stringToTerraform(this._name),
+      rule_name: cdktf.stringToTerraform(this._ruleName),
+      rule_set_name: cdktf.stringToTerraform(this._ruleSetName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -183,8 +204,14 @@ export class TrafficControlRuleSetRuleActionGroupA extends cdktf.TerraformResour
         type: "simple",
         storageClassType: "number",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      rule_name: {
+        value: cdktf.stringToHclTerraform(this._ruleName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      rule_set_name: {
+        value: cdktf.stringToHclTerraform(this._ruleSetName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

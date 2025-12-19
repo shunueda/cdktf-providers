@@ -1,3 +1,3 @@
 # `thunder_boot_block_fix`
 
-Refer to the Terraform Registry for docs: [`thunder_boot_block_fix`](https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/boot_block_fix).
+Refer to the Terraform Registry for docs: [`thunder_boot_block_fix`](https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/boot_block_fix).

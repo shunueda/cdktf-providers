@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderThreatIntelWebrootGlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#id DataThunderThreatIntelWebrootGlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#id DataThunderThreatIntelWebrootGlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderThreatIntelWebrootGlobalStatsConfig extends cdktf.Te
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#stats DataThunderThreatIntelWebrootGlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#stats DataThunderThreatIntelWebrootGlobalStats#stats}
   */
   readonly stats?: DataThunderThreatIntelWebrootGlobalStatsStats;
 }
@@ -25,85 +25,85 @@ export interface DataThunderThreatIntelWebrootGlobalStatsStats {
   /**
   * Hits for botnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#botnets DataThunderThreatIntelWebrootGlobalStats#botnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#botnets DataThunderThreatIntelWebrootGlobalStats#botnets}
   */
   readonly botnets?: number;
   /**
   * Number of lookups in database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#database_lookup DataThunderThreatIntelWebrootGlobalStats#database_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#database_lookup DataThunderThreatIntelWebrootGlobalStats#database_lookup}
   */
   readonly databaseLookup?: number;
   /**
   * Hits for dos attacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#dos_attacks DataThunderThreatIntelWebrootGlobalStats#dos_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#dos_attacks DataThunderThreatIntelWebrootGlobalStats#dos_attacks}
   */
   readonly dosAttacks?: number;
   /**
   * Hits for mobile threats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#mobile_threats DataThunderThreatIntelWebrootGlobalStats#mobile_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#mobile_threats DataThunderThreatIntelWebrootGlobalStats#mobile_threats}
   */
   readonly mobileThreats?: number;
   /**
   * IP's not found in database or RTU cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#non_malicious_ips DataThunderThreatIntelWebrootGlobalStats#non_malicious_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#non_malicious_ips DataThunderThreatIntelWebrootGlobalStats#non_malicious_ips}
   */
   readonly nonMaliciousIps?: number;
   /**
   * Hits for phishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#phishing DataThunderThreatIntelWebrootGlobalStats#phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#phishing DataThunderThreatIntelWebrootGlobalStats#phishing}
   */
   readonly phishing?: number;
   /**
   * Hits for proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#proxy DataThunderThreatIntelWebrootGlobalStats#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#proxy DataThunderThreatIntelWebrootGlobalStats#proxy}
   */
   readonly proxy?: number;
   /**
   * Hits for reputation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#reputation DataThunderThreatIntelWebrootGlobalStats#reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#reputation DataThunderThreatIntelWebrootGlobalStats#reputation}
   */
   readonly reputation?: number;
   /**
   * Number of lookups in RTU cache
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#rtu_lookup DataThunderThreatIntelWebrootGlobalStats#rtu_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#rtu_lookup DataThunderThreatIntelWebrootGlobalStats#rtu_lookup}
   */
   readonly rtuLookup?: number;
   /**
   * Hits for scanners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#scanners DataThunderThreatIntelWebrootGlobalStats#scanners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#scanners DataThunderThreatIntelWebrootGlobalStats#scanners}
   */
   readonly scanners?: number;
   /**
   * Hits for spam sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#spam_sources DataThunderThreatIntelWebrootGlobalStats#spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#spam_sources DataThunderThreatIntelWebrootGlobalStats#spam_sources}
   */
   readonly spamSources?: number;
   /**
   * Hits for tor-proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#tor_proxy DataThunderThreatIntelWebrootGlobalStats#tor_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#tor_proxy DataThunderThreatIntelWebrootGlobalStats#tor_proxy}
   */
   readonly torProxy?: number;
   /**
   * Hits for web attacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#web_attacks DataThunderThreatIntelWebrootGlobalStats#web_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#web_attacks DataThunderThreatIntelWebrootGlobalStats#web_attacks}
   */
   readonly webAttacks?: number;
   /**
   * Hits for windows exploits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#windows_exploits DataThunderThreatIntelWebrootGlobalStats#windows_exploits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#windows_exploits DataThunderThreatIntelWebrootGlobalStats#windows_exploits}
   */
   readonly windowsExploits?: number;
 }
@@ -564,7 +564,7 @@ export class DataThunderThreatIntelWebrootGlobalStatsStatsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats thunder_threat_intel_webroot_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats thunder_threat_intel_webroot_global_stats}
 */
 export class DataThunderThreatIntelWebrootGlobalStats extends cdktf.TerraformDataSource {
 
@@ -580,7 +580,7 @@ export class DataThunderThreatIntelWebrootGlobalStats extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataThunderThreatIntelWebrootGlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderThreatIntelWebrootGlobalStats to import
-  * @param importFromId The id of the existing DataThunderThreatIntelWebrootGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderThreatIntelWebrootGlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderThreatIntelWebrootGlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -592,7 +592,7 @@ export class DataThunderThreatIntelWebrootGlobalStats extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_webroot_global_stats thunder_threat_intel_webroot_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_webroot_global_stats thunder_threat_intel_webroot_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -603,8 +603,8 @@ export class DataThunderThreatIntelWebrootGlobalStats extends cdktf.TerraformDat
       terraformResourceType: 'thunder_threat_intel_webroot_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

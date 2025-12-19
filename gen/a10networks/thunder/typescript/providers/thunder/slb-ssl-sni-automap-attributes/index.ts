@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbSslSniAutomapAttributesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#id SlbSslSniAutomapAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#id SlbSslSniAutomapAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface SlbSslSniAutomapAttributesConfig extends cdktf.TerraformMetaArg
   /**
   * Contexts are deleted in groups of this value. Default is 50
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#sni_delete_factor SlbSslSniAutomapAttributes#sni_delete_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#sni_delete_factor SlbSslSniAutomapAttributes#sni_delete_factor}
   */
   readonly sniDeleteFactor?: number;
   /**
   * Lower limit for free SNI contexts count. Default is 500
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#sni_lower_limit SlbSslSniAutomapAttributes#sni_lower_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#sni_lower_limit SlbSslSniAutomapAttributes#sni_lower_limit}
   */
   readonly sniLowerLimit?: number;
   /**
   * Upper limit for free SNI contexts count. Default is 2000
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#sni_upper_limit SlbSslSniAutomapAttributes#sni_upper_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#sni_upper_limit SlbSslSniAutomapAttributes#sni_upper_limit}
   */
   readonly sniUpperLimit?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#uuid SlbSslSniAutomapAttributes#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#uuid SlbSslSniAutomapAttributes#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes thunder_slb_ssl_sni_automap_attributes}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes thunder_slb_ssl_sni_automap_attributes}
 */
 export class SlbSslSniAutomapAttributes extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SlbSslSniAutomapAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbSslSniAutomapAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbSslSniAutomapAttributes to import
-  * @param importFromId The id of the existing SlbSslSniAutomapAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbSslSniAutomapAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbSslSniAutomapAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SlbSslSniAutomapAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_ssl_sni_automap_attributes thunder_slb_ssl_sni_automap_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_ssl_sni_automap_attributes thunder_slb_ssl_sni_automap_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SlbSslSniAutomapAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_ssl_sni_automap_attributes',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TechreportConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disable the polling techreport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#disable Techreport#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#disable Techreport#disable}
   */
   readonly disable?: number;
   /**
   * Enable 31 day poll techreports (default seven) on platforms with less than 32GB disk (no op otherwise)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#enable_full_history Techreport#enable_full_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#enable_full_history Techreport#enable_full_history}
   */
   readonly enableFullHistory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#id Techreport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#id Techreport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface TechreportConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#uuid Techreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#uuid Techreport#uuid}
   */
   readonly uuid?: string;
   /**
   * interval block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#interval Techreport#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#interval Techreport#interval}
   */
   readonly interval?: TechreportInterval;
   /**
   * max_logfile_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#max_logfile_size Techreport#max_logfile_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#max_logfile_size Techreport#max_logfile_size}
   */
   readonly maxLogfileSize?: TechreportMaxLogfileSize;
   /**
   * max_partitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#max_partitions Techreport#max_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#max_partitions Techreport#max_partitions}
   */
   readonly maxPartitions?: TechreportMaxPartitions;
   /**
   * priority_partition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#priority_partition_list Techreport#priority_partition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#priority_partition_list Techreport#priority_partition_list}
   */
   readonly priorityPartitionList?: TechreportPriorityPartitionListStruct[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface TechreportInterval {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#uuid Techreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#uuid Techreport#uuid}
   */
   readonly uuid?: string;
   /**
   * Showtech interval in minutes (default is 15)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#value Techreport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#value Techreport#value}
   */
   readonly value?: number;
 }
@@ -182,13 +182,13 @@ export interface TechreportMaxLogfileSize {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#uuid Techreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#uuid Techreport#uuid}
   */
   readonly uuid?: string;
   /**
   * Log file size for periodic techsupport (default is 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#value Techreport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#value Techreport#value}
   */
   readonly value?: number;
 }
@@ -303,13 +303,13 @@ export interface TechreportMaxPartitions {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#uuid Techreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#uuid Techreport#uuid}
   */
   readonly uuid?: string;
   /**
   * Maximum partions to show in per periodic techsupport (default is 30)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#value Techreport#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#value Techreport#value}
   */
   readonly value?: number;
 }
@@ -424,13 +424,13 @@ export interface TechreportPriorityPartitionListStruct {
   /**
   * Name of partition always want to show in showtech (shared is always shown by default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#part_name Techreport#part_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#part_name Techreport#part_name}
   */
   readonly partName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#uuid Techreport#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#uuid Techreport#uuid}
   */
   readonly uuid?: string;
 }
@@ -572,7 +572,7 @@ export class TechreportPriorityPartitionListStructList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport thunder_techreport}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport thunder_techreport}
 */
 export class Techreport extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class Techreport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Techreport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Techreport to import
-  * @param importFromId The id of the existing Techreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Techreport that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Techreport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class Techreport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/techreport thunder_techreport} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/techreport thunder_techreport} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class Techreport extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_techreport',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

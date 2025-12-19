@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RbaConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable RBA; 'disable': Disable RBA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#action Rba#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#action Rba#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#id Rba#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#id Rba#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface RbaConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * group_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#group_list Rba#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#group_list Rba#group_list}
   */
   readonly groupList?: RbaGroupListStruct[] | cdktf.IResolvable;
   /**
   * role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#role_list Rba#role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#role_list Rba#role_list}
   */
   readonly roleList?: RbaRoleListStruct[] | cdktf.IResolvable;
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_list Rba#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_list Rba#user_list}
   */
   readonly userList?: RbaUserListStruct[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface RbaGroupListPartitionListRoleListStruct {
   /**
   * Role in a given partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#role Rba#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#role Rba#role}
   */
   readonly role?: string;
 }
@@ -167,13 +167,13 @@ export interface RbaGroupListPartitionListRuleListStruct {
   /**
   * Lineage of object class for permitted operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#object Rba#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#object Rba#object}
   */
   readonly object?: string;
   /**
   * 'no-access': no-access; 'read': read; 'oper': oper; 'write': write;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#operation Rba#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#operation Rba#operation}
   */
   readonly operation?: string;
 }
@@ -320,31 +320,31 @@ export interface RbaGroupListPartitionListStruct {
   /**
   * partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#partition_name Rba#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#partition_name Rba#partition_name}
   */
   readonly partitionName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_tag Rba#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_tag Rba#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#role_list Rba#role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#role_list Rba#role_list}
   */
   readonly roleList?: RbaGroupListPartitionListRoleListStruct[] | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#rule_list Rba#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#rule_list Rba#rule_list}
   */
   readonly ruleList?: RbaGroupListPartitionListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -575,7 +575,7 @@ export interface RbaGroupListUserListStruct {
   /**
   * Users in the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user Rba#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user Rba#user}
   */
   readonly user?: string;
 }
@@ -693,31 +693,31 @@ export interface RbaGroupListStruct {
   /**
   * Name of a RBA group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#name Rba#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#name Rba#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_tag Rba#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_tag Rba#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * partition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#partition_list Rba#partition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#partition_list Rba#partition_list}
   */
   readonly partitionList?: RbaGroupListPartitionListStruct[] | cdktf.IResolvable;
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_list Rba#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_list Rba#user_list}
   */
   readonly userList?: RbaGroupListUserListStruct[] | cdktf.IResolvable;
 }
@@ -948,13 +948,13 @@ export interface RbaRoleListRuleListStruct {
   /**
   * Lineage of object class for permitted operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#object Rba#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#object Rba#object}
   */
   readonly object?: string;
   /**
   * 'no-access': no-access; 'read': read; 'oper': oper; 'write': write;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#operation Rba#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#operation Rba#operation}
   */
   readonly operation?: string;
 }
@@ -1101,37 +1101,37 @@ export interface RbaRoleListStruct {
   /**
   * 'no-access': no-access; 'read': read; 'write': write;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#default_privilege Rba#default_privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#default_privilege Rba#default_privilege}
   */
   readonly defaultPrivilege?: string;
   /**
   * Name for the RBA role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#name Rba#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#name Rba#name}
   */
   readonly name: string;
   /**
   * Partition RBA Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#partition_only Rba#partition_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#partition_only Rba#partition_only}
   */
   readonly partitionOnly?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_tag Rba#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_tag Rba#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#rule_list Rba#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#rule_list Rba#rule_list}
   */
   readonly ruleList?: RbaRoleListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1391,7 +1391,7 @@ export interface RbaUserListPartitionListRoleListStruct {
   /**
   * Role in a given partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#role Rba#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#role Rba#role}
   */
   readonly role?: string;
 }
@@ -1509,13 +1509,13 @@ export interface RbaUserListPartitionListRuleListStruct {
   /**
   * Lineage of object class for permitted operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#object Rba#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#object Rba#object}
   */
   readonly object?: string;
   /**
   * 'no-access': no-access; 'read': read; 'oper': oper; 'write': write;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#operation Rba#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#operation Rba#operation}
   */
   readonly operation?: string;
 }
@@ -1662,31 +1662,31 @@ export interface RbaUserListPartitionListStruct {
   /**
   * partition name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#partition_name Rba#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#partition_name Rba#partition_name}
   */
   readonly partitionName: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_tag Rba#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_tag Rba#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * role_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#role_list Rba#role_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#role_list Rba#role_list}
   */
   readonly roleList?: RbaUserListPartitionListRoleListStruct[] | cdktf.IResolvable;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#rule_list Rba#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#rule_list Rba#rule_list}
   */
   readonly ruleList?: RbaUserListPartitionListRuleListStruct[] | cdktf.IResolvable;
 }
@@ -1917,25 +1917,25 @@ export interface RbaUserListStruct {
   /**
   * Name of a user account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#name Rba#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#name Rba#name}
   */
   readonly name: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#user_tag Rba#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#user_tag Rba#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#uuid Rba#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#uuid Rba#uuid}
   */
   readonly uuid?: string;
   /**
   * partition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#partition_list Rba#partition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#partition_list Rba#partition_list}
   */
   readonly partitionList?: RbaUserListPartitionListStruct[] | cdktf.IResolvable;
 }
@@ -2135,7 +2135,7 @@ export class RbaUserListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba thunder_rba}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba thunder_rba}
 */
 export class Rba extends cdktf.TerraformResource {
 
@@ -2151,7 +2151,7 @@ export class Rba extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rba resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rba to import
-  * @param importFromId The id of the existing Rba that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rba that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rba to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2163,7 +2163,7 @@ export class Rba extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rba thunder_rba} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rba thunder_rba} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2174,8 +2174,8 @@ export class Rba extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_rba',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

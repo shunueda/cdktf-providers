@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface AlbListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#access_log_record_customized_headers_enabled AlbListener#access_log_record_customized_headers_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#access_log_record_customized_headers_enabled AlbListener#access_log_record_customized_headers_enabled}
   */
   readonly accessLogRecordCustomizedHeadersEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#ca_enabled AlbListener#ca_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#ca_enabled AlbListener#ca_enabled}
   */
   readonly caEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#dry_run AlbListener#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#dry_run AlbListener#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#gzip_enabled AlbListener#gzip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#gzip_enabled AlbListener#gzip_enabled}
   */
   readonly gzipEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#http2_enabled AlbListener#http2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#http2_enabled AlbListener#http2_enabled}
   */
   readonly http2Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#id AlbListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#id AlbListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#idle_timeout AlbListener#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#idle_timeout AlbListener#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#listener_description AlbListener#listener_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#listener_description AlbListener#listener_description}
   */
   readonly listenerDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#listener_port AlbListener#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#listener_port AlbListener#listener_port}
   */
   readonly listenerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#listener_protocol AlbListener#listener_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#listener_protocol AlbListener#listener_protocol}
   */
   readonly listenerProtocol: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#load_balancer_id AlbListener#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#load_balancer_id AlbListener#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#request_timeout AlbListener#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#request_timeout AlbListener#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#security_policy_id AlbListener#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#security_policy_id AlbListener#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#status AlbListener#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#status AlbListener#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#tags AlbListener#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#tags AlbListener#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * access_log_tracing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#access_log_tracing_config AlbListener#access_log_tracing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#access_log_tracing_config AlbListener#access_log_tracing_config}
   */
   readonly accessLogTracingConfig?: AlbListenerAccessLogTracingConfig;
   /**
   * acl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#acl_config AlbListener#acl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#acl_config AlbListener#acl_config}
   */
   readonly aclConfig?: AlbListenerAclConfig;
   /**
   * ca_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#ca_certificates AlbListener#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#ca_certificates AlbListener#ca_certificates}
   */
   readonly caCertificates?: AlbListenerCaCertificates[] | cdktf.IResolvable;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#certificates AlbListener#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#certificates AlbListener#certificates}
   */
   readonly certificates?: AlbListenerCertificates[] | cdktf.IResolvable;
   /**
   * default_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#default_actions AlbListener#default_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#default_actions AlbListener#default_actions}
   */
   readonly defaultActions: AlbListenerDefaultActions[] | cdktf.IResolvable;
   /**
   * quic_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#quic_config AlbListener#quic_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#quic_config AlbListener#quic_config}
   */
   readonly quicConfig?: AlbListenerQuicConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#timeouts AlbListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#timeouts AlbListener#timeouts}
   */
   readonly timeouts?: AlbListenerTimeouts;
   /**
   * x_forwarded_for_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_config AlbListener#x_forwarded_for_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_config AlbListener#x_forwarded_for_config}
   */
   readonly xForwardedForConfig?: AlbListenerXForwardedForConfig;
   /**
   * xforwarded_for_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwarded_for_config AlbListener#xforwarded_for_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwarded_for_config AlbListener#xforwarded_for_config}
   */
   readonly xforwardedForConfig?: AlbListenerXforwardedForConfig;
 }
 export interface AlbListenerAccessLogTracingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#tracing_enabled AlbListener#tracing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#tracing_enabled AlbListener#tracing_enabled}
   */
   readonly tracingEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#tracing_sample AlbListener#tracing_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#tracing_sample AlbListener#tracing_sample}
   */
   readonly tracingSample?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#tracing_type AlbListener#tracing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#tracing_type AlbListener#tracing_type}
   */
   readonly tracingType?: string;
 }
@@ -274,7 +274,7 @@ export class AlbListenerAccessLogTracingConfigOutputReference extends cdktf.Comp
 }
 export interface AlbListenerAclConfigAclRelations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#acl_id AlbListener#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#acl_id AlbListener#acl_id}
   */
   readonly aclId?: string;
 }
@@ -395,13 +395,13 @@ export class AlbListenerAclConfigAclRelationsList extends cdktf.ComplexList {
 }
 export interface AlbListenerAclConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#acl_type AlbListener#acl_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#acl_type AlbListener#acl_type}
   */
   readonly aclType?: string;
   /**
   * acl_relations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#acl_relations AlbListener#acl_relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#acl_relations AlbListener#acl_relations}
   */
   readonly aclRelations?: AlbListenerAclConfigAclRelations[] | cdktf.IResolvable;
 }
@@ -514,7 +514,7 @@ export class AlbListenerAclConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface AlbListenerCaCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#certificate_id AlbListener#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#certificate_id AlbListener#certificate_id}
   */
   readonly certificateId?: string;
 }
@@ -630,7 +630,7 @@ export class AlbListenerCaCertificatesList extends cdktf.ComplexList {
 }
 export interface AlbListenerCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#certificate_id AlbListener#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#certificate_id AlbListener#certificate_id}
   */
   readonly certificateId?: string;
 }
@@ -746,7 +746,7 @@ export class AlbListenerCertificatesList extends cdktf.ComplexList {
 }
 export interface AlbListenerDefaultActionsForwardGroupConfigServerGroupTuples {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#server_group_id AlbListener#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#server_group_id AlbListener#server_group_id}
   */
   readonly serverGroupId: string;
 }
@@ -861,7 +861,7 @@ export interface AlbListenerDefaultActionsForwardGroupConfig {
   /**
   * server_group_tuples block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#server_group_tuples AlbListener#server_group_tuples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#server_group_tuples AlbListener#server_group_tuples}
   */
   readonly serverGroupTuples: AlbListenerDefaultActionsForwardGroupConfigServerGroupTuples[] | cdktf.IResolvable;
 }
@@ -942,13 +942,13 @@ export class AlbListenerDefaultActionsForwardGroupConfigOutputReference extends 
 }
 export interface AlbListenerDefaultActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#type AlbListener#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#type AlbListener#type}
   */
   readonly type: string;
   /**
   * forward_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#forward_group_config AlbListener#forward_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#forward_group_config AlbListener#forward_group_config}
   */
   readonly forwardGroupConfig?: AlbListenerDefaultActionsForwardGroupConfig;
 }
@@ -1090,11 +1090,11 @@ export class AlbListenerDefaultActionsList extends cdktf.ComplexList {
 }
 export interface AlbListenerQuicConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#quic_listener_id AlbListener#quic_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#quic_listener_id AlbListener#quic_listener_id}
   */
   readonly quicListenerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#quic_upgrade_enabled AlbListener#quic_upgrade_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#quic_upgrade_enabled AlbListener#quic_upgrade_enabled}
   */
   readonly quicUpgradeEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1207,15 +1207,15 @@ export class AlbListenerQuicConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface AlbListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#create AlbListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#create AlbListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#delete AlbListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#delete AlbListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#update AlbListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#update AlbListener#update}
   */
   readonly update?: string;
 }
@@ -1367,71 +1367,71 @@ export class AlbListenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface AlbListenerXForwardedForConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_client_verify_alias AlbListener#x_forwarded_for_client_cert_client_verify_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_client_verify_alias AlbListener#x_forwarded_for_client_cert_client_verify_alias}
   */
   readonly xForwardedForClientCertClientVerifyAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_client_verify_enabled AlbListener#x_forwarded_for_client_cert_client_verify_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_client_verify_enabled AlbListener#x_forwarded_for_client_cert_client_verify_enabled}
   */
   readonly xForwardedForClientCertClientVerifyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_finger_print_alias AlbListener#x_forwarded_for_client_cert_finger_print_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_finger_print_alias AlbListener#x_forwarded_for_client_cert_finger_print_alias}
   */
   readonly xForwardedForClientCertFingerPrintAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_finger_print_enabled AlbListener#x_forwarded_for_client_cert_finger_print_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_finger_print_enabled AlbListener#x_forwarded_for_client_cert_finger_print_enabled}
   */
   readonly xForwardedForClientCertFingerPrintEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_issuer_dn_alias AlbListener#x_forwarded_for_client_cert_issuer_dn_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_issuer_dn_alias AlbListener#x_forwarded_for_client_cert_issuer_dn_alias}
   */
   readonly xForwardedForClientCertIssuerDnAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_issuer_dn_enabled AlbListener#x_forwarded_for_client_cert_issuer_dn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_issuer_dn_enabled AlbListener#x_forwarded_for_client_cert_issuer_dn_enabled}
   */
   readonly xForwardedForClientCertIssuerDnEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_subject_dn_alias AlbListener#x_forwarded_for_client_cert_subject_dn_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_subject_dn_alias AlbListener#x_forwarded_for_client_cert_subject_dn_alias}
   */
   readonly xForwardedForClientCertSubjectDnAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_cert_subject_dn_enabled AlbListener#x_forwarded_for_client_cert_subject_dn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_cert_subject_dn_enabled AlbListener#x_forwarded_for_client_cert_subject_dn_enabled}
   */
   readonly xForwardedForClientCertSubjectDnEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_source_ips_enabled AlbListener#x_forwarded_for_client_source_ips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_source_ips_enabled AlbListener#x_forwarded_for_client_source_ips_enabled}
   */
   readonly xForwardedForClientSourceIpsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_source_ips_trusted AlbListener#x_forwarded_for_client_source_ips_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_source_ips_trusted AlbListener#x_forwarded_for_client_source_ips_trusted}
   */
   readonly xForwardedForClientSourceIpsTrusted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_client_src_port_enabled AlbListener#x_forwarded_for_client_src_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_client_src_port_enabled AlbListener#x_forwarded_for_client_src_port_enabled}
   */
   readonly xForwardedForClientSrcPortEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_enabled AlbListener#x_forwarded_for_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_enabled AlbListener#x_forwarded_for_enabled}
   */
   readonly xForwardedForEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_host_enabled AlbListener#x_forwarded_for_host_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_host_enabled AlbListener#x_forwarded_for_host_enabled}
   */
   readonly xForwardedForHostEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_processing_mode AlbListener#x_forwarded_for_processing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_processing_mode AlbListener#x_forwarded_for_processing_mode}
   */
   readonly xForwardedForProcessingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_proto_enabled AlbListener#x_forwarded_for_proto_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_proto_enabled AlbListener#x_forwarded_for_proto_enabled}
   */
   readonly xForwardedForProtoEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_slb_id_enabled AlbListener#x_forwarded_for_slb_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_slb_id_enabled AlbListener#x_forwarded_for_slb_id_enabled}
   */
   readonly xForwardedForSlbIdEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#x_forwarded_for_slb_port_enabled AlbListener#x_forwarded_for_slb_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#x_forwarded_for_slb_port_enabled AlbListener#x_forwarded_for_slb_port_enabled}
   */
   readonly xForwardedForSlbPortEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1979,55 +1979,55 @@ export class AlbListenerXForwardedForConfigOutputReference extends cdktf.Complex
 }
 export interface AlbListenerXforwardedForConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcert_issuerdnalias AlbListener#xforwardedforclientcert_issuerdnalias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcert_issuerdnalias AlbListener#xforwardedforclientcert_issuerdnalias}
   */
   readonly xforwardedforclientcertIssuerdnalias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcert_issuerdnenabled AlbListener#xforwardedforclientcert_issuerdnenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcert_issuerdnenabled AlbListener#xforwardedforclientcert_issuerdnenabled}
   */
   readonly xforwardedforclientcertIssuerdnenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertclientverifyalias AlbListener#xforwardedforclientcertclientverifyalias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertclientverifyalias AlbListener#xforwardedforclientcertclientverifyalias}
   */
   readonly xforwardedforclientcertclientverifyalias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertclientverifyenabled AlbListener#xforwardedforclientcertclientverifyenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertclientverifyenabled AlbListener#xforwardedforclientcertclientverifyenabled}
   */
   readonly xforwardedforclientcertclientverifyenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertfingerprintalias AlbListener#xforwardedforclientcertfingerprintalias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertfingerprintalias AlbListener#xforwardedforclientcertfingerprintalias}
   */
   readonly xforwardedforclientcertfingerprintalias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertfingerprintenabled AlbListener#xforwardedforclientcertfingerprintenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertfingerprintenabled AlbListener#xforwardedforclientcertfingerprintenabled}
   */
   readonly xforwardedforclientcertfingerprintenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertsubjectdnalias AlbListener#xforwardedforclientcertsubjectdnalias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertsubjectdnalias AlbListener#xforwardedforclientcertsubjectdnalias}
   */
   readonly xforwardedforclientcertsubjectdnalias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientcertsubjectdnenabled AlbListener#xforwardedforclientcertsubjectdnenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientcertsubjectdnenabled AlbListener#xforwardedforclientcertsubjectdnenabled}
   */
   readonly xforwardedforclientcertsubjectdnenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforclientsrcportenabled AlbListener#xforwardedforclientsrcportenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforclientsrcportenabled AlbListener#xforwardedforclientsrcportenabled}
   */
   readonly xforwardedforclientsrcportenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforenabled AlbListener#xforwardedforenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforenabled AlbListener#xforwardedforenabled}
   */
   readonly xforwardedforenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforprotoenabled AlbListener#xforwardedforprotoenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforprotoenabled AlbListener#xforwardedforprotoenabled}
   */
   readonly xforwardedforprotoenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforslbidenabled AlbListener#xforwardedforslbidenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforslbidenabled AlbListener#xforwardedforslbidenabled}
   */
   readonly xforwardedforslbidenabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#xforwardedforslbportenabled AlbListener#xforwardedforslbportenabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#xforwardedforslbportenabled AlbListener#xforwardedforslbportenabled}
   */
   readonly xforwardedforslbportenabled?: boolean | cdktf.IResolvable;
 }
@@ -2459,7 +2459,7 @@ export class AlbListenerXforwardedForConfigOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener alicloud_alb_listener}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener alicloud_alb_listener}
 */
 export class AlbListener extends cdktf.TerraformResource {
 
@@ -2475,7 +2475,7 @@ export class AlbListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbListener to import
-  * @param importFromId The id of the existing AlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2487,7 +2487,7 @@ export class AlbListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/alb_listener alicloud_alb_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/alb_listener alicloud_alb_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2498,8 +2498,8 @@ export class AlbListener extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alb_listener',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

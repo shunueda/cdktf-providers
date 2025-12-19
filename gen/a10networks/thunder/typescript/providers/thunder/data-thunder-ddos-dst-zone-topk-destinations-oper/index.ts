@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderDdosDstZoneTopkDestinationsOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#id DataThunderDdosDstZoneTopkDestinationsOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#id DataThunderDdosDstZoneTopkDestinationsOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface DataThunderDdosDstZoneTopkDestinationsOperConfig extends cdktf.
   /**
   * ZoneName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#zone_name DataThunderDdosDstZoneTopkDestinationsOper#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#zone_name DataThunderDdosDstZoneTopkDestinationsOper#zone_name}
   */
   readonly zoneName: string;
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#oper DataThunderDdosDstZoneTopkDestinationsOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#oper DataThunderDdosDstZoneTopkDestinationsOper#oper}
   */
   readonly oper?: DataThunderDdosDstZoneTopkDestinationsOperOper;
 }
 export interface DataThunderDdosDstZoneTopkDestinationsOperOperEntryListIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_index DataThunderDdosDstZoneTopkDestinationsOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_index DataThunderDdosDstZoneTopkDestinationsOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_name DataThunderDdosDstZoneTopkDestinationsOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_name DataThunderDdosDstZoneTopkDestinationsOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#max_peak DataThunderDdosDstZoneTopkDestinationsOper#max_peak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#max_peak DataThunderDdosDstZoneTopkDestinationsOper#max_peak}
   */
   readonly maxPeak?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#psd_wdw_cnt DataThunderDdosDstZoneTopkDestinationsOper#psd_wdw_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#psd_wdw_cnt DataThunderDdosDstZoneTopkDestinationsOper#psd_wdw_cnt}
   */
   readonly psdWdwCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#rate DataThunderDdosDstZoneTopkDestinationsOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#rate DataThunderDdosDstZoneTopkDestinationsOper#rate}
   */
   readonly rate?: string;
 }
@@ -277,13 +277,13 @@ export class DataThunderDdosDstZoneTopkDestinationsOperOperEntryListIndicatorsLi
 }
 export interface DataThunderDdosDstZoneTopkDestinationsOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#address_str DataThunderDdosDstZoneTopkDestinationsOper#address_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#address_str DataThunderDdosDstZoneTopkDestinationsOper#address_str}
   */
   readonly addressStr?: string;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicators DataThunderDdosDstZoneTopkDestinationsOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicators DataThunderDdosDstZoneTopkDestinationsOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZoneTopkDestinationsOperOperEntryListIndicators[] | cdktf.IResolvable;
 }
@@ -428,11 +428,11 @@ export class DataThunderDdosDstZoneTopkDestinationsOperOperEntryListStructList e
 }
 export interface DataThunderDdosDstZoneTopkDestinationsOperOperIndicatorsDestinations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#address DataThunderDdosDstZoneTopkDestinationsOper#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#address DataThunderDdosDstZoneTopkDestinationsOper#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#rate DataThunderDdosDstZoneTopkDestinationsOper#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#rate DataThunderDdosDstZoneTopkDestinationsOper#rate}
   */
   readonly rate?: string;
 }
@@ -577,17 +577,17 @@ export class DataThunderDdosDstZoneTopkDestinationsOperOperIndicatorsDestination
 }
 export interface DataThunderDdosDstZoneTopkDestinationsOperOperIndicators {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_index DataThunderDdosDstZoneTopkDestinationsOper#indicator_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_index DataThunderDdosDstZoneTopkDestinationsOper#indicator_index}
   */
   readonly indicatorIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_name DataThunderDdosDstZoneTopkDestinationsOper#indicator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicator_name DataThunderDdosDstZoneTopkDestinationsOper#indicator_name}
   */
   readonly indicatorName?: string;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#destinations DataThunderDdosDstZoneTopkDestinationsOper#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#destinations DataThunderDdosDstZoneTopkDestinationsOper#destinations}
   */
   readonly destinations?: DataThunderDdosDstZoneTopkDestinationsOperOperIndicatorsDestinations[] | cdktf.IResolvable;
 }
@@ -761,31 +761,31 @@ export class DataThunderDdosDstZoneTopkDestinationsOperOperIndicatorsList extend
 }
 export interface DataThunderDdosDstZoneTopkDestinationsOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#details DataThunderDdosDstZoneTopkDestinationsOper#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#details DataThunderDdosDstZoneTopkDestinationsOper#details}
   */
   readonly details?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#finished DataThunderDdosDstZoneTopkDestinationsOper#finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#finished DataThunderDdosDstZoneTopkDestinationsOper#finished}
   */
   readonly finished?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#next_indicator DataThunderDdosDstZoneTopkDestinationsOper#next_indicator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#next_indicator DataThunderDdosDstZoneTopkDestinationsOper#next_indicator}
   */
   readonly nextIndicator?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#top_k_key DataThunderDdosDstZoneTopkDestinationsOper#top_k_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#top_k_key DataThunderDdosDstZoneTopkDestinationsOper#top_k_key}
   */
   readonly topKKey?: string;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#entry_list DataThunderDdosDstZoneTopkDestinationsOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#entry_list DataThunderDdosDstZoneTopkDestinationsOper#entry_list}
   */
   readonly entryList?: DataThunderDdosDstZoneTopkDestinationsOperOperEntryListStruct[] | cdktf.IResolvable;
   /**
   * indicators block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicators DataThunderDdosDstZoneTopkDestinationsOper#indicators}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#indicators DataThunderDdosDstZoneTopkDestinationsOper#indicators}
   */
   readonly indicators?: DataThunderDdosDstZoneTopkDestinationsOperOperIndicators[] | cdktf.IResolvable;
 }
@@ -1014,7 +1014,7 @@ export class DataThunderDdosDstZoneTopkDestinationsOperOperOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper thunder_ddos_dst_zone_topk_destinations_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper thunder_ddos_dst_zone_topk_destinations_oper}
 */
 export class DataThunderDdosDstZoneTopkDestinationsOper extends cdktf.TerraformDataSource {
 
@@ -1030,7 +1030,7 @@ export class DataThunderDdosDstZoneTopkDestinationsOper extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderDdosDstZoneTopkDestinationsOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderDdosDstZoneTopkDestinationsOper to import
-  * @param importFromId The id of the existing DataThunderDdosDstZoneTopkDestinationsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderDdosDstZoneTopkDestinationsOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderDdosDstZoneTopkDestinationsOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1042,7 +1042,7 @@ export class DataThunderDdosDstZoneTopkDestinationsOper extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/ddos_dst_zone_topk_destinations_oper thunder_ddos_dst_zone_topk_destinations_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/ddos_dst_zone_topk_destinations_oper thunder_ddos_dst_zone_topk_destinations_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1053,8 +1053,8 @@ export class DataThunderDdosDstZoneTopkDestinationsOper extends cdktf.TerraformD
       terraformResourceType: 'thunder_ddos_dst_zone_topk_destinations_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

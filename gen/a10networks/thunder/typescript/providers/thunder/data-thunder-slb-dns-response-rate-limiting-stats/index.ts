@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbDnsResponseRateLimitingStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#id DataThunderSlbDnsResponseRateLimitingStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#id DataThunderSlbDnsResponseRateLimitingStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbDnsResponseRateLimitingStatsConfig extends cdktf.
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#stats DataThunderSlbDnsResponseRateLimitingStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#stats DataThunderSlbDnsResponseRateLimitingStats#stats}
   */
   readonly stats?: DataThunderSlbDnsResponseRateLimitingStatsStats;
 }
@@ -25,97 +25,97 @@ export interface DataThunderSlbDnsResponseRateLimitingStatsStats {
   /**
   * Current Entry Count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#curr_entries DataThunderSlbDnsResponseRateLimitingStats#curr_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#curr_entries DataThunderSlbDnsResponseRateLimitingStats#curr_entries}
   */
   readonly currEntries?: number;
   /**
   * Entry Creation Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_create_failed DataThunderSlbDnsResponseRateLimitingStats#err_entry_create_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_create_failed DataThunderSlbDnsResponseRateLimitingStats#err_entry_create_failed}
   */
   readonly errEntryCreateFailed?: number;
   /**
   * Entry Creation Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_create_oom DataThunderSlbDnsResponseRateLimitingStats#err_entry_create_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_create_oom DataThunderSlbDnsResponseRateLimitingStats#err_entry_create_oom}
   */
   readonly errEntryCreateOom?: number;
   /**
   * Entry Extension Creation Out of Memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_ext_create_oom DataThunderSlbDnsResponseRateLimitingStats#err_entry_ext_create_oom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_ext_create_oom DataThunderSlbDnsResponseRateLimitingStats#err_entry_ext_create_oom}
   */
   readonly errEntryExtCreateOom?: number;
   /**
   * Entry Insert Failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_insert_failed DataThunderSlbDnsResponseRateLimitingStats#err_entry_insert_failed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#err_entry_insert_failed DataThunderSlbDnsResponseRateLimitingStats#err_entry_insert_failed}
   */
   readonly errEntryInsertFailed?: number;
   /**
   * Failed to Match Vport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#err_vport_fail_match DataThunderSlbDnsResponseRateLimitingStats#err_vport_fail_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#err_vport_fail_match DataThunderSlbDnsResponseRateLimitingStats#err_vport_fail_match}
   */
   readonly errVportFailMatch?: number;
   /**
   * Other Thread Refilling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#other_thread_refill DataThunderSlbDnsResponseRateLimitingStats#other_thread_refill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#other_thread_refill DataThunderSlbDnsResponseRateLimitingStats#other_thread_refill}
   */
   readonly otherThreadRefill?: number;
   /**
   * Total Entry Created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_created DataThunderSlbDnsResponseRateLimitingStats#total_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_created DataThunderSlbDnsResponseRateLimitingStats#total_created}
   */
   readonly totalCreated?: number;
   /**
   * Total Credit Exceeded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_credit_exceeded DataThunderSlbDnsResponseRateLimitingStats#total_credit_exceeded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_credit_exceeded DataThunderSlbDnsResponseRateLimitingStats#total_credit_exceeded}
   */
   readonly totalCreditExceeded?: number;
   /**
   * Total Entry Freed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_freed DataThunderSlbDnsResponseRateLimitingStats#total_freed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_freed DataThunderSlbDnsResponseRateLimitingStats#total_freed}
   */
   readonly totalFreed?: number;
   /**
   * Total Entry Inserted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_inserted DataThunderSlbDnsResponseRateLimitingStats#total_inserted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_inserted DataThunderSlbDnsResponseRateLimitingStats#total_inserted}
   */
   readonly totalInserted?: number;
   /**
   * Total Logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_logs DataThunderSlbDnsResponseRateLimitingStats#total_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_logs DataThunderSlbDnsResponseRateLimitingStats#total_logs}
   */
   readonly totalLogs?: number;
   /**
   * Total Overflow Entry Hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_overflow_entry_hits DataThunderSlbDnsResponseRateLimitingStats#total_overflow_entry_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_overflow_entry_hits DataThunderSlbDnsResponseRateLimitingStats#total_overflow_entry_hits}
   */
   readonly totalOverflowEntryHits?: number;
   /**
   * Total Entry Ready To Free
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_ready_to_free DataThunderSlbDnsResponseRateLimitingStats#total_ready_to_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_ready_to_free DataThunderSlbDnsResponseRateLimitingStats#total_ready_to_free}
   */
   readonly totalReadyToFree?: number;
   /**
   * Total Refills
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_refill DataThunderSlbDnsResponseRateLimitingStats#total_refill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_refill DataThunderSlbDnsResponseRateLimitingStats#total_refill}
   */
   readonly totalRefill?: number;
   /**
   * Total Entry Withdrew
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#total_withdrew DataThunderSlbDnsResponseRateLimitingStats#total_withdrew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#total_withdrew DataThunderSlbDnsResponseRateLimitingStats#total_withdrew}
   */
   readonly totalWithdrew?: number;
 }
@@ -634,7 +634,7 @@ export class DataThunderSlbDnsResponseRateLimitingStatsStatsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats thunder_slb_dns_response_rate_limiting_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats thunder_slb_dns_response_rate_limiting_stats}
 */
 export class DataThunderSlbDnsResponseRateLimitingStats extends cdktf.TerraformDataSource {
 
@@ -650,7 +650,7 @@ export class DataThunderSlbDnsResponseRateLimitingStats extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataThunderSlbDnsResponseRateLimitingStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbDnsResponseRateLimitingStats to import
-  * @param importFromId The id of the existing DataThunderSlbDnsResponseRateLimitingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbDnsResponseRateLimitingStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbDnsResponseRateLimitingStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -662,7 +662,7 @@ export class DataThunderSlbDnsResponseRateLimitingStats extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_dns_response_rate_limiting_stats thunder_slb_dns_response_rate_limiting_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_dns_response_rate_limiting_stats thunder_slb_dns_response_rate_limiting_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -673,8 +673,8 @@ export class DataThunderSlbDnsResponseRateLimitingStats extends cdktf.TerraformD
       terraformResourceType: 'thunder_slb_dns_response_rate_limiting_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

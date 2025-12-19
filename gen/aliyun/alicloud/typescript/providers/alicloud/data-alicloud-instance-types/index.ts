@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudInstanceTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#availability_zone DataAlicloudInstanceTypes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#availability_zone DataAlicloudInstanceTypes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#cpu_core_count DataAlicloudInstanceTypes#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#cpu_core_count DataAlicloudInstanceTypes#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#eni_amount DataAlicloudInstanceTypes#eni_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#eni_amount DataAlicloudInstanceTypes#eni_amount}
   */
   readonly eniAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#gpu_amount DataAlicloudInstanceTypes#gpu_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#gpu_amount DataAlicloudInstanceTypes#gpu_amount}
   */
   readonly gpuAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#gpu_spec DataAlicloudInstanceTypes#gpu_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#gpu_spec DataAlicloudInstanceTypes#gpu_spec}
   */
   readonly gpuSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#id DataAlicloudInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#id DataAlicloudInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#image_id DataAlicloudInstanceTypes#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#image_id DataAlicloudInstanceTypes#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#instance_charge_type DataAlicloudInstanceTypes#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#instance_charge_type DataAlicloudInstanceTypes#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#instance_type DataAlicloudInstanceTypes#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#instance_type DataAlicloudInstanceTypes#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#instance_type_family DataAlicloudInstanceTypes#instance_type_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#instance_type_family DataAlicloudInstanceTypes#instance_type_family}
   */
   readonly instanceTypeFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#is_outdated DataAlicloudInstanceTypes#is_outdated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#is_outdated DataAlicloudInstanceTypes#is_outdated}
   */
   readonly isOutdated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#kubernetes_node_role DataAlicloudInstanceTypes#kubernetes_node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#kubernetes_node_role DataAlicloudInstanceTypes#kubernetes_node_role}
   */
   readonly kubernetesNodeRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#memory_size DataAlicloudInstanceTypes#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#memory_size DataAlicloudInstanceTypes#memory_size}
   */
   readonly memorySize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#minimum_eni_ipv6_address_quantity DataAlicloudInstanceTypes#minimum_eni_ipv6_address_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#minimum_eni_ipv6_address_quantity DataAlicloudInstanceTypes#minimum_eni_ipv6_address_quantity}
   */
   readonly minimumEniIpv6AddressQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#minimum_eni_private_ip_address_quantity DataAlicloudInstanceTypes#minimum_eni_private_ip_address_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#minimum_eni_private_ip_address_quantity DataAlicloudInstanceTypes#minimum_eni_private_ip_address_quantity}
   */
   readonly minimumEniPrivateIpAddressQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#network_type DataAlicloudInstanceTypes#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#network_type DataAlicloudInstanceTypes#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#output_file DataAlicloudInstanceTypes#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#output_file DataAlicloudInstanceTypes#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#sorted_by DataAlicloudInstanceTypes#sorted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#sorted_by DataAlicloudInstanceTypes#sorted_by}
   */
   readonly sortedBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#spot_strategy DataAlicloudInstanceTypes#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#spot_strategy DataAlicloudInstanceTypes#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#system_disk_category DataAlicloudInstanceTypes#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#system_disk_category DataAlicloudInstanceTypes#system_disk_category}
   */
   readonly systemDiskCategory?: string;
 }
@@ -256,7 +256,7 @@ export class DataAlicloudInstanceTypesInstanceTypesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types alicloud_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types alicloud_instance_types}
 */
 export class DataAlicloudInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -272,7 +272,7 @@ export class DataAlicloudInstanceTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudInstanceTypes to import
-  * @param importFromId The id of the existing DataAlicloudInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class DataAlicloudInstanceTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/data-sources/instance_types alicloud_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/data-sources/instance_types alicloud_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class DataAlicloudInstanceTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

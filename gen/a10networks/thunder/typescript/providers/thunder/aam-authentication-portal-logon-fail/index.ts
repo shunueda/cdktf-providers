@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface AamAuthenticationPortalLogonFailAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#id AamAuthenticationPortalLogonFailA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#id AamAuthenticationPortalLogonFailA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
+  * Portal_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#name AamAuthenticationPortalLogonFailA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#portal_name AamAuthenticationPortalLogonFailA#portal_name}
   */
-  readonly name: string;
+  readonly portalName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#uuid AamAuthenticationPortalLogonFailA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#uuid AamAuthenticationPortalLogonFailA#uuid}
   */
   readonly uuid?: string;
   /**
   * background block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#background AamAuthenticationPortalLogonFailA#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#background AamAuthenticationPortalLogonFailA#background}
   */
   readonly background?: AamAuthenticationPortalLogonFailBackgroundA;
   /**
   * fail_msg_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_msg_cfg AamAuthenticationPortalLogonFailA#fail_msg_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_msg_cfg AamAuthenticationPortalLogonFailA#fail_msg_cfg}
   */
   readonly failMsgCfg?: AamAuthenticationPortalLogonFailFailMsgCfgA;
   /**
   * title_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_cfg AamAuthenticationPortalLogonFailA#title_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_cfg AamAuthenticationPortalLogonFailA#title_cfg}
   */
   readonly titleCfg?: AamAuthenticationPortalLogonFailTitleCfgA;
 }
@@ -49,25 +49,25 @@ export interface AamAuthenticationPortalLogonFailBackgroundA {
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#bgcolor_name AamAuthenticationPortalLogonFailA#bgcolor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#bgcolor_name AamAuthenticationPortalLogonFailA#bgcolor_name}
   */
   readonly bgcolorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#bgcolor_value AamAuthenticationPortalLogonFailA#bgcolor_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#bgcolor_value AamAuthenticationPortalLogonFailA#bgcolor_value}
   */
   readonly bgcolorValue?: string;
   /**
   * Specify background image filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#bgfile AamAuthenticationPortalLogonFailA#bgfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#bgfile AamAuthenticationPortalLogonFailA#bgfile}
   */
   readonly bgfile?: string;
   /**
   * 'tile': Tile; 'stretch': Stretch; 'fit': Fit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#bgstyle AamAuthenticationPortalLogonFailA#bgstyle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#bgstyle AamAuthenticationPortalLogonFailA#bgstyle}
   */
   readonly bgstyle?: string;
 }
@@ -240,55 +240,55 @@ export interface AamAuthenticationPortalLogonFailFailMsgCfgA {
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_color AamAuthenticationPortalLogonFailA#fail_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_color AamAuthenticationPortalLogonFailA#fail_color}
   */
   readonly failColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_color_name AamAuthenticationPortalLogonFailA#fail_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_color_name AamAuthenticationPortalLogonFailA#fail_color_name}
   */
   readonly failColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_color_value AamAuthenticationPortalLogonFailA#fail_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_color_value AamAuthenticationPortalLogonFailA#fail_color_value}
   */
   readonly failColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_face AamAuthenticationPortalLogonFailA#fail_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_face AamAuthenticationPortalLogonFailA#fail_face}
   */
   readonly failFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_font AamAuthenticationPortalLogonFailA#fail_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_font AamAuthenticationPortalLogonFailA#fail_font}
   */
   readonly failFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_font_custom AamAuthenticationPortalLogonFailA#fail_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_font_custom AamAuthenticationPortalLogonFailA#fail_font_custom}
   */
   readonly failFontCustom?: string;
   /**
   * Configure logon failure message in default logon fail page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_msg AamAuthenticationPortalLogonFailA#fail_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_msg AamAuthenticationPortalLogonFailA#fail_msg}
   */
   readonly failMsg?: number;
   /**
   * Specify font size (Default: 3)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_size AamAuthenticationPortalLogonFailA#fail_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_size AamAuthenticationPortalLogonFailA#fail_size}
   */
   readonly failSize?: number;
   /**
   * Specify logon failure message (Default: Login Failed!!)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#fail_text AamAuthenticationPortalLogonFailA#fail_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#fail_text AamAuthenticationPortalLogonFailA#fail_text}
   */
   readonly failText?: string;
 }
@@ -606,55 +606,55 @@ export interface AamAuthenticationPortalLogonFailTitleCfgA {
   /**
   * Configure title in default logon fail page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title AamAuthenticationPortalLogonFailA#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title AamAuthenticationPortalLogonFailA#title}
   */
   readonly title?: number;
   /**
   * Specify font color (Default: black)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_color AamAuthenticationPortalLogonFailA#title_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_color AamAuthenticationPortalLogonFailA#title_color}
   */
   readonly titleColor?: number;
   /**
   * 'aqua': aqua; 'black': black; 'blue': blue; 'fuchsia': fuchsia; 'gray': gray; 'green': green; 'lime': lime; 'maroon': maroon; 'navy': navy; 'olive': olive; 'orange': orange; 'purple': purple; 'red': red; 'silver': silver; 'teal': teal; 'white': white; 'yellow': yellow;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_color_name AamAuthenticationPortalLogonFailA#title_color_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_color_name AamAuthenticationPortalLogonFailA#title_color_name}
   */
   readonly titleColorName?: string;
   /**
   * Specify 6-digit HEX color value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_color_value AamAuthenticationPortalLogonFailA#title_color_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_color_value AamAuthenticationPortalLogonFailA#title_color_value}
   */
   readonly titleColorValue?: string;
   /**
   * 'Arial': Arial; 'Courier_New': Courier New; 'Georgia': Georgia; 'Times_New_Roman': Times New Roman; 'Verdana': Verdana;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_face AamAuthenticationPortalLogonFailA#title_face}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_face AamAuthenticationPortalLogonFailA#title_face}
   */
   readonly titleFace?: string;
   /**
   * Sepcify font (Default: Arial)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_font AamAuthenticationPortalLogonFailA#title_font}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_font AamAuthenticationPortalLogonFailA#title_font}
   */
   readonly titleFont?: number;
   /**
   * Specify custom font
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_font_custom AamAuthenticationPortalLogonFailA#title_font_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_font_custom AamAuthenticationPortalLogonFailA#title_font_custom}
   */
   readonly titleFontCustom?: string;
   /**
   * Specify font size (Default: 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_size AamAuthenticationPortalLogonFailA#title_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_size AamAuthenticationPortalLogonFailA#title_size}
   */
   readonly titleSize?: number;
   /**
   * Specify title (Default: Try Too Many Times)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#title_text AamAuthenticationPortalLogonFailA#title_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#title_text AamAuthenticationPortalLogonFailA#title_text}
   */
   readonly titleText?: string;
 }
@@ -970,7 +970,7 @@ export class AamAuthenticationPortalLogonFailTitleCfgAOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail thunder_aam_authentication_portal_logon_fail}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail thunder_aam_authentication_portal_logon_fail}
 */
 export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
 
@@ -986,7 +986,7 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AamAuthenticationPortalLogonFailA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AamAuthenticationPortalLogonFailA to import
-  * @param importFromId The id of the existing AamAuthenticationPortalLogonFailA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AamAuthenticationPortalLogonFailA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AamAuthenticationPortalLogonFailA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -998,7 +998,7 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/aam_authentication_portal_logon_fail thunder_aam_authentication_portal_logon_fail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/aam_authentication_portal_logon_fail thunder_aam_authentication_portal_logon_fail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1009,8 +1009,8 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_aam_authentication_portal_logon_fail',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1021,7 +1021,7 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
-    this._name = config.name;
+    this._portalName = config.portalName;
     this._uuid = config.uuid;
     this._background.internalValue = config.background;
     this._failMsgCfg.internalValue = config.failMsgCfg;
@@ -1048,17 +1048,17 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // portal_name - computed: false, optional: false, required: true
+  private _portalName?: string; 
+  public get portalName() {
+    return this.getStringAttribute('portal_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set portalName(value: string) {
+    this._portalName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get portalNameInput() {
+    return this._portalName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -1132,7 +1132,7 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
+      portal_name: cdktf.stringToTerraform(this._portalName),
       uuid: cdktf.stringToTerraform(this._uuid),
       background: aamAuthenticationPortalLogonFailBackgroundAToTerraform(this._background.internalValue),
       fail_msg_cfg: aamAuthenticationPortalLogonFailFailMsgCfgAToTerraform(this._failMsgCfg.internalValue),
@@ -1148,8 +1148,8 @@ export class AamAuthenticationPortalLogonFailA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      portal_name: {
+        value: cdktf.stringToHclTerraform(this._portalName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

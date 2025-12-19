@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSslCountersOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#id DataThunderSlbSslCountersOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#id DataThunderSlbSslCountersOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSslCountersOperConfig extends cdktf.TerraformMeta
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#oper DataThunderSlbSslCountersOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#oper DataThunderSlbSslCountersOper#oper}
   */
   readonly oper?: DataThunderSlbSslCountersOperOper;
 }
@@ -25,1165 +25,1165 @@ export interface DataThunderSlbSslCountersOperOper {
   /**
   * Sent certificate verify for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#cert_vfy DataThunderSlbSslCountersOper#cert_vfy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#cert_vfy DataThunderSlbSslCountersOper#cert_vfy}
   */
   readonly certVfy?: number;
   /**
   * Cumulative SSL sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#cumulative_sessions DataThunderSlbSslCountersOper#cumulative_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#cumulative_sessions DataThunderSlbSslCountersOper#cumulative_sessions}
   */
   readonly cumulativeSessions?: number;
   /**
   * TLS version downgraded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#downgraded DataThunderSlbSslCountersOper#downgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#downgraded DataThunderSlbSslCountersOper#downgraded}
   */
   readonly downgraded?: number;
   /**
   * Average handshake time in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#hs_avg_time DataThunderSlbSslCountersOper#hs_avg_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#hs_avg_time DataThunderSlbSslCountersOper#hs_avg_time}
   */
   readonly hsAvgTime?: number;
   /**
   * Total handshake failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#hs_failures DataThunderSlbSslCountersOper#hs_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#hs_failures DataThunderSlbSslCountersOper#hs_failures}
   */
   readonly hsFailures?: number;
   /**
   * Failed 1024-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_1024_failures DataThunderSlbSslCountersOper#kex_dhe_1024_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_1024_failures DataThunderSlbSslCountersOper#kex_dhe_1024_failures}
   */
   readonly kexDhe1024Failures?: number;
   /**
   * Successful 1024-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_1024_successes DataThunderSlbSslCountersOper#kex_dhe_1024_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_1024_successes DataThunderSlbSslCountersOper#kex_dhe_1024_successes}
   */
   readonly kexDhe1024Successes?: number;
   /**
   * Failed 2048-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_2048_failures DataThunderSlbSslCountersOper#kex_dhe_2048_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_2048_failures DataThunderSlbSslCountersOper#kex_dhe_2048_failures}
   */
   readonly kexDhe2048Failures?: number;
   /**
   * Successful 2048-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_2048_successes DataThunderSlbSslCountersOper#kex_dhe_2048_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_2048_successes DataThunderSlbSslCountersOper#kex_dhe_2048_successes}
   */
   readonly kexDhe2048Successes?: number;
   /**
   * Failed 512-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_512_failures DataThunderSlbSslCountersOper#kex_dhe_512_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_512_failures DataThunderSlbSslCountersOper#kex_dhe_512_failures}
   */
   readonly kexDhe512Failures?: number;
   /**
   * Successful 512-bit DHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_dhe_512_successes DataThunderSlbSslCountersOper#kex_dhe_512_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_dhe_512_successes DataThunderSlbSslCountersOper#kex_dhe_512_successes}
   */
   readonly kexDhe512Successes?: number;
   /**
   * Failed secp256r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp256r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp256r1_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp256r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp256r1_failures}
   */
   readonly kexEcdheSecp256R1Failures?: number;
   /**
   * Successful secp256r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp256r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp256r1_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp256r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp256r1_successes}
   */
   readonly kexEcdheSecp256R1Successes?: number;
   /**
   * Failed secp384r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp384r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp384r1_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp384r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp384r1_failures}
   */
   readonly kexEcdheSecp384R1Failures?: number;
   /**
   * Successful secp384r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp384r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp384r1_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp384r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp384r1_successes}
   */
   readonly kexEcdheSecp384R1Successes?: number;
   /**
   * Failed secp521r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp521r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp521r1_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp521r1_failures DataThunderSlbSslCountersOper#kex_ecdhe_secp521r1_failures}
   */
   readonly kexEcdheSecp521R1Failures?: number;
   /**
   * Successful secp521r1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp521r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp521r1_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_secp521r1_successes DataThunderSlbSslCountersOper#kex_ecdhe_secp521r1_successes}
   */
   readonly kexEcdheSecp521R1Successes?: number;
   /**
   * Failed sm2p256v1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_sm2_failures DataThunderSlbSslCountersOper#kex_ecdhe_sm2_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_sm2_failures DataThunderSlbSslCountersOper#kex_ecdhe_sm2_failures}
   */
   readonly kexEcdheSm2Failures?: number;
   /**
   * Successful sm2p256v1 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_sm2_successes DataThunderSlbSslCountersOper#kex_ecdhe_sm2_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_sm2_successes DataThunderSlbSslCountersOper#kex_ecdhe_sm2_successes}
   */
   readonly kexEcdheSm2Successes?: number;
   /**
   * Failed x25519 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x25519_failures DataThunderSlbSslCountersOper#kex_ecdhe_x25519_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x25519_failures DataThunderSlbSslCountersOper#kex_ecdhe_x25519_failures}
   */
   readonly kexEcdheX25519Failures?: number;
   /**
   * Successful x25519 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x25519_successes DataThunderSlbSslCountersOper#kex_ecdhe_x25519_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x25519_successes DataThunderSlbSslCountersOper#kex_ecdhe_x25519_successes}
   */
   readonly kexEcdheX25519Successes?: number;
   /**
   * Failed x448 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x448_failures DataThunderSlbSslCountersOper#kex_ecdhe_x448_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x448_failures DataThunderSlbSslCountersOper#kex_ecdhe_x448_failures}
   */
   readonly kexEcdheX448Failures?: number;
   /**
   * Successful x448 ECDHE key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x448_successes DataThunderSlbSslCountersOper#kex_ecdhe_x448_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_ecdhe_x448_successes DataThunderSlbSslCountersOper#kex_ecdhe_x448_successes}
   */
   readonly kexEcdheX448Successes?: number;
   /**
   * Failed 1024-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_1024_failures DataThunderSlbSslCountersOper#kex_rsa_1024_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_1024_failures DataThunderSlbSslCountersOper#kex_rsa_1024_failures}
   */
   readonly kexRsa1024Failures?: number;
   /**
   * Successful 1024-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_1024_successes DataThunderSlbSslCountersOper#kex_rsa_1024_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_1024_successes DataThunderSlbSslCountersOper#kex_rsa_1024_successes}
   */
   readonly kexRsa1024Successes?: number;
   /**
   * Failed 2048-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_2048_failures DataThunderSlbSslCountersOper#kex_rsa_2048_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_2048_failures DataThunderSlbSslCountersOper#kex_rsa_2048_failures}
   */
   readonly kexRsa2048Failures?: number;
   /**
   * Successful 2048-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_2048_successes DataThunderSlbSslCountersOper#kex_rsa_2048_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_2048_successes DataThunderSlbSslCountersOper#kex_rsa_2048_successes}
   */
   readonly kexRsa2048Successes?: number;
   /**
   * Failed 4096-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_4096_failures DataThunderSlbSslCountersOper#kex_rsa_4096_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_4096_failures DataThunderSlbSslCountersOper#kex_rsa_4096_failures}
   */
   readonly kexRsa4096Failures?: number;
   /**
   * Successful 4096-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_4096_successes DataThunderSlbSslCountersOper#kex_rsa_4096_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_4096_successes DataThunderSlbSslCountersOper#kex_rsa_4096_successes}
   */
   readonly kexRsa4096Successes?: number;
   /**
   * Failed 512-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_512_failures DataThunderSlbSslCountersOper#kex_rsa_512_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_512_failures DataThunderSlbSslCountersOper#kex_rsa_512_failures}
   */
   readonly kexRsa512Failures?: number;
   /**
   * Successful 512-bit RSA key exchanges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#kex_rsa_512_successes DataThunderSlbSslCountersOper#kex_rsa_512_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#kex_rsa_512_successes DataThunderSlbSslCountersOper#kex_rsa_512_successes}
   */
   readonly kexRsa512Successes?: number;
   /**
   * Virtual Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#port DataThunderSlbSslCountersOper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#port DataThunderSlbSslCountersOper#port}
   */
   readonly port?: number;
   /**
   * Failed SSL2 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_ssl2_failures DataThunderSlbSslCountersOper#renego_ssl2_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_ssl2_failures DataThunderSlbSslCountersOper#renego_ssl2_failures}
   */
   readonly renegoSsl2Failures?: number;
   /**
   * Successful SSL2 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_ssl2_successes DataThunderSlbSslCountersOper#renego_ssl2_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_ssl2_successes DataThunderSlbSslCountersOper#renego_ssl2_successes}
   */
   readonly renegoSsl2Successes?: number;
   /**
   * Failed SSL3 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_ssl3_failures DataThunderSlbSslCountersOper#renego_ssl3_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_ssl3_failures DataThunderSlbSslCountersOper#renego_ssl3_failures}
   */
   readonly renegoSsl3Failures?: number;
   /**
   * Successful SSL3 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_ssl3_successes DataThunderSlbSslCountersOper#renego_ssl3_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_ssl3_successes DataThunderSlbSslCountersOper#renego_ssl3_successes}
   */
   readonly renegoSsl3Successes?: number;
   /**
   * Failed TLS1.0 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls10_failures DataThunderSlbSslCountersOper#renego_tls10_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls10_failures DataThunderSlbSslCountersOper#renego_tls10_failures}
   */
   readonly renegoTls10Failures?: number;
   /**
   * Successful TLS1.0 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls10_successes DataThunderSlbSslCountersOper#renego_tls10_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls10_successes DataThunderSlbSslCountersOper#renego_tls10_successes}
   */
   readonly renegoTls10Successes?: number;
   /**
   * Failed TLS1.1 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls11_failures DataThunderSlbSslCountersOper#renego_tls11_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls11_failures DataThunderSlbSslCountersOper#renego_tls11_failures}
   */
   readonly renegoTls11Failures?: number;
   /**
   * Successful TLS1.1 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls11_successes DataThunderSlbSslCountersOper#renego_tls11_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls11_successes DataThunderSlbSslCountersOper#renego_tls11_successes}
   */
   readonly renegoTls11Successes?: number;
   /**
   * Failed TLS1.2 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls12_failures DataThunderSlbSslCountersOper#renego_tls12_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls12_failures DataThunderSlbSslCountersOper#renego_tls12_failures}
   */
   readonly renegoTls12Failures?: number;
   /**
   * Successful TLS1.2 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls12_successes DataThunderSlbSslCountersOper#renego_tls12_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls12_successes DataThunderSlbSslCountersOper#renego_tls12_successes}
   */
   readonly renegoTls12Successes?: number;
   /**
   * Failed TLS1.3 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls13_failures DataThunderSlbSslCountersOper#renego_tls13_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls13_failures DataThunderSlbSslCountersOper#renego_tls13_failures}
   */
   readonly renegoTls13Failures?: number;
   /**
   * Successful TLS1.3 renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renego_tls13_successes DataThunderSlbSslCountersOper#renego_tls13_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renego_tls13_successes DataThunderSlbSslCountersOper#renego_tls13_successes}
   */
   readonly renegoTls13Successes?: number;
   /**
   * Total renegotiations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#renegotiation_total DataThunderSlbSslCountersOper#renegotiation_total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#renegotiation_total DataThunderSlbSslCountersOper#renegotiation_total}
   */
   readonly renegotiationTotal?: number;
   /**
   * Session cache current connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sess_cache_curr_conn DataThunderSlbSslCountersOper#sess_cache_curr_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sess_cache_curr_conn DataThunderSlbSslCountersOper#sess_cache_curr_conn}
   */
   readonly sessCacheCurrConn?: number;
   /**
   * Session cache hits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sess_cache_hit DataThunderSlbSslCountersOper#sess_cache_hit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sess_cache_hit DataThunderSlbSslCountersOper#sess_cache_hit}
   */
   readonly sessCacheHit?: number;
   /**
   * Session cache misses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sess_cache_miss DataThunderSlbSslCountersOper#sess_cache_miss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sess_cache_miss DataThunderSlbSslCountersOper#sess_cache_miss}
   */
   readonly sessCacheMiss?: number;
   /**
   * Session cache new entries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sess_cache_new DataThunderSlbSslCountersOper#sess_cache_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sess_cache_new DataThunderSlbSslCountersOper#sess_cache_new}
   */
   readonly sessCacheNew?: number;
   /**
   * Session cache timeouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sess_cache_timeout DataThunderSlbSslCountersOper#sess_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sess_cache_timeout DataThunderSlbSslCountersOper#sess_cache_timeout}
   */
   readonly sessCacheTimeout?: number;
   /**
   * Conn closed before SNI auto mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_automap_conn_closed DataThunderSlbSslCountersOper#sni_automap_conn_closed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_automap_conn_closed DataThunderSlbSslCountersOper#sni_automap_conn_closed}
   */
   readonly sniAutomapConnClosed?: number;
   /**
   * Failed SNI auto mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_automap_failures DataThunderSlbSslCountersOper#sni_automap_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_automap_failures DataThunderSlbSslCountersOper#sni_automap_failures}
   */
   readonly sniAutomapFailures?: number;
   /**
   * Failed SNI auto map due to max active limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_automap_max_active_conn DataThunderSlbSslCountersOper#sni_automap_max_active_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_automap_max_active_conn DataThunderSlbSslCountersOper#sni_automap_max_active_conn}
   */
   readonly sniAutomapMaxActiveConn?: number;
   /**
   * Failed SNI auto map due to missing cert/key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_automap_missing_cert DataThunderSlbSslCountersOper#sni_automap_missing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_automap_missing_cert DataThunderSlbSslCountersOper#sni_automap_missing_cert}
   */
   readonly sniAutomapMissingCert?: number;
   /**
   * Successful SNI auto mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_automap_successes DataThunderSlbSslCountersOper#sni_automap_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_automap_successes DataThunderSlbSslCountersOper#sni_automap_successes}
   */
   readonly sniAutomapSuccesses?: number;
   /**
   * SNI bypass event due to certificate expired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_bypass_expired_cert DataThunderSlbSslCountersOper#sni_bypass_expired_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_bypass_expired_cert DataThunderSlbSslCountersOper#sni_bypass_expired_cert}
   */
   readonly sniBypassExpiredCert?: number;
   /**
   * SNI bypass event due to matched explicit bypass list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_bypass_explicit_list DataThunderSlbSslCountersOper#sni_bypass_explicit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_bypass_explicit_list DataThunderSlbSslCountersOper#sni_bypass_explicit_list}
   */
   readonly sniBypassExplicitList?: number;
   /**
   * SNI bypass event due to missing cert/key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#sni_bypass_missing_cert DataThunderSlbSslCountersOper#sni_bypass_missing_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#sni_bypass_missing_cert DataThunderSlbSslCountersOper#sni_bypass_missing_cert}
   */
   readonly sniBypassMissingCert?: number;
   /**
   * Failed SSL2 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl2_failures DataThunderSlbSslCountersOper#ssl2_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl2_failures DataThunderSlbSslCountersOper#ssl2_failures}
   */
   readonly ssl2Failures?: number;
   /**
   * Successful SSL2 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl2_successes DataThunderSlbSslCountersOper#ssl2_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl2_successes DataThunderSlbSslCountersOper#ssl2_successes}
   */
   readonly ssl2Successes?: number;
   /**
   * Failed SSL3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_failures DataThunderSlbSslCountersOper#ssl3_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_failures DataThunderSlbSslCountersOper#ssl3_failures}
   */
   readonly ssl3Failures?: number;
   /**
   * SSL3_RSA_DES_192_CBC3_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_failures}
   */
   readonly ssl3RsaDes192Cbc3ShaFailures?: number;
   /**
   * SSL3_RSA_DES_192_CBC3_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_id}
   */
   readonly ssl3RsaDes192Cbc3ShaId?: string;
   /**
   * SSL3_RSA_DES_192_CBC3_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_192_cbc3_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_192_cbc3_sha_successes}
   */
   readonly ssl3RsaDes192Cbc3ShaSuccesses?: number;
   /**
   * SSL3_RSA_DES_40_CBC_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_failures}
   */
   readonly ssl3RsaDes40CbcShaFailures?: number;
   /**
   * SSL3_RSA_DES_40_CBC_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_id}
   */
   readonly ssl3RsaDes40CbcShaId?: string;
   /**
   * SSL3_RSA_DES_40_CBC_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_40_cbc_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_40_cbc_sha_successes}
   */
   readonly ssl3RsaDes40CbcShaSuccesses?: number;
   /**
   * SSL3_RSA_DES_64_CBC_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_failures}
   */
   readonly ssl3RsaDes64CbcShaFailures?: number;
   /**
   * SSL3_RSA_DES_64_CBC_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_id}
   */
   readonly ssl3RsaDes64CbcShaId?: string;
   /**
   * SSL3_RSA_DES_64_CBC_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_des_64_cbc_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_des_64_cbc_sha_successes}
   */
   readonly ssl3RsaDes64CbcShaSuccesses?: number;
   /**
   * SSL3_RSA_RC4_128_MD5 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_failures}
   */
   readonly ssl3RsaRc4128Md5Failures?: number;
   /**
   * SSL3_RSA_RC4_128_MD5 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_id}
   */
   readonly ssl3RsaRc4128Md5Id?: string;
   /**
   * SSL3_RSA_RC4_128_MD5 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_md5_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_md5_successes}
   */
   readonly ssl3RsaRc4128Md5Successes?: number;
   /**
   * SSL3_RSA_RC4_128_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_failures}
   */
   readonly ssl3RsaRc4128ShaFailures?: number;
   /**
   * SSL3_RSA_RC4_128_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_id}
   */
   readonly ssl3RsaRc4128ShaId?: string;
   /**
   * SSL3_RSA_RC4_128_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_128_sha_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_128_sha_successes}
   */
   readonly ssl3RsaRc4128ShaSuccesses?: number;
   /**
   * SSL3_RSA_RC4_40_MD5 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_failures DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_failures}
   */
   readonly ssl3RsaRc440Md5Failures?: number;
   /**
   * SSL3_RSA_RC4_40_MD5 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_id DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_id}
   */
   readonly ssl3RsaRc440Md5Id?: string;
   /**
   * SSL3_RSA_RC4_40_MD5 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_rsa_rc4_40_md5_successes DataThunderSlbSslCountersOper#ssl3_rsa_rc4_40_md5_successes}
   */
   readonly ssl3RsaRc440Md5Successes?: number;
   /**
   * Successful SSL3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#ssl3_successes DataThunderSlbSslCountersOper#ssl3_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#ssl3_successes DataThunderSlbSslCountersOper#ssl3_successes}
   */
   readonly ssl3Successes?: number;
   /**
   * Failed TLS1.0 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls10_failures DataThunderSlbSslCountersOper#tls10_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls10_failures DataThunderSlbSslCountersOper#tls10_failures}
   */
   readonly tls10Failures?: number;
   /**
   * Successful TLS1.0 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls10_successes DataThunderSlbSslCountersOper#tls10_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls10_successes DataThunderSlbSslCountersOper#tls10_successes}
   */
   readonly tls10Successes?: number;
   /**
   * Failed TLS1.1 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls11_failures DataThunderSlbSslCountersOper#tls11_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls11_failures DataThunderSlbSslCountersOper#tls11_failures}
   */
   readonly tls11Failures?: number;
   /**
   * Successful TLS1.1 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls11_successes DataThunderSlbSslCountersOper#tls11_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls11_successes DataThunderSlbSslCountersOper#tls11_successes}
   */
   readonly tls11Successes?: number;
   /**
   * Failed TLS1.2 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls12_failures DataThunderSlbSslCountersOper#tls12_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls12_failures DataThunderSlbSslCountersOper#tls12_failures}
   */
   readonly tls12Failures?: number;
   /**
   * Successful TLS1.2 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls12_successes DataThunderSlbSslCountersOper#tls12_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls12_successes DataThunderSlbSslCountersOper#tls12_successes}
   */
   readonly tls12Successes?: number;
   /**
   * TLS13_AES_128_GCM_SHA256 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_failures}
   */
   readonly tls13Aes128GcmSha256Failures?: number;
   /**
   * TLS13_AES_128_GCM_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_id}
   */
   readonly tls13Aes128GcmSha256Id?: string;
   /**
   * TLS13_AES_128_GCM_SHA256 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls13_aes_128_gcm_sha256_successes}
   */
   readonly tls13Aes128GcmSha256Successes?: number;
   /**
   * TLS13_AES_256_GCM_SHA384 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_failures}
   */
   readonly tls13Aes256GcmSha384Failures?: number;
   /**
   * TLS13_AES_256_GCM_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_id}
   */
   readonly tls13Aes256GcmSha384Id?: string;
   /**
   * TLS13_AES_256_GCM_SHA384 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls13_aes_256_gcm_sha384_successes}
   */
   readonly tls13Aes256GcmSha384Successes?: number;
   /**
   * TLS13_CHACHA20_POLY1305_SHA256 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_failures}
   */
   readonly tls13Chacha20Poly1305Sha256Failures?: number;
   /**
   * TLS13_CHACHA20_POLY1305_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_id}
   */
   readonly tls13Chacha20Poly1305Sha256Id?: string;
   /**
   * TLS13_CHACHA20_POLY1305_SHA256 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls13_chacha20_poly1305_sha256_successes}
   */
   readonly tls13Chacha20Poly1305Sha256Successes?: number;
   /**
   * Failed TLS1.3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_failures DataThunderSlbSslCountersOper#tls13_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_failures DataThunderSlbSslCountersOper#tls13_failures}
   */
   readonly tls13Failures?: number;
   /**
   * Successful TLS1.3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls13_successes DataThunderSlbSslCountersOper#tls13_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls13_successes DataThunderSlbSslCountersOper#tls13_successes}
   */
   readonly tls13Successes?: number;
   /**
   * TLS1_DHE_RSA_AES_128_GCM_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_failures}
   */
   readonly tls1DheRsaAes128GcmSha256Failures?: number;
   /**
   * TLS1_DHE_RSA_AES_128_GCM_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_id}
   */
   readonly tls1DheRsaAes128GcmSha256Id?: string;
   /**
   * TLS1_DHE_RSA_AES_128_GCM_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_gcm_sha256_successes}
   */
   readonly tls1DheRsaAes128GcmSha256Successes?: number;
   /**
   * TLS1_DHE_RSA_AES_128_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_failures}
   */
   readonly tls1DheRsaAes128Sha256Failures?: number;
   /**
   * TLS1_DHE_RSA_AES_128_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_id}
   */
   readonly tls1DheRsaAes128Sha256Id?: string;
   /**
   * TLS1_DHE_RSA_AES_128_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha256_successes}
   */
   readonly tls1DheRsaAes128Sha256Successes?: number;
   /**
   * TLS1_DHE_RSA_AES_128_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_failures}
   */
   readonly tls1DheRsaAes128ShaFailures?: number;
   /**
   * TLS1_DHE_RSA_AES_128_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_id}
   */
   readonly tls1DheRsaAes128ShaId?: string;
   /**
   * TLS1_DHE_RSA_AES_128_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_128_sha_successes}
   */
   readonly tls1DheRsaAes128ShaSuccesses?: number;
   /**
   * TLS1_DHE_RSA_AES_256_GCM_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_failures}
   */
   readonly tls1DheRsaAes256GcmSha384Failures?: number;
   /**
   * TLS1_DHE_RSA_AES_256_GCM_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_id}
   */
   readonly tls1DheRsaAes256GcmSha384Id?: string;
   /**
   * TLS1_DHE_RSA_AES_256_GCM_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_gcm_sha384_successes}
   */
   readonly tls1DheRsaAes256GcmSha384Successes?: number;
   /**
   * TLS1_DHE_RSA_AES_256_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_failures}
   */
   readonly tls1DheRsaAes256Sha256Failures?: number;
   /**
   * TLS1_DHE_RSA_AES_256_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_id}
   */
   readonly tls1DheRsaAes256Sha256Id?: string;
   /**
   * TLS1_DHE_RSA_AES_256_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha256_successes}
   */
   readonly tls1DheRsaAes256Sha256Successes?: number;
   /**
   * TLS1_DHE_RSA_AES_256_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_failures}
   */
   readonly tls1DheRsaAes256ShaFailures?: number;
   /**
   * TLS1_DHE_RSA_AES_256_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_id}
   */
   readonly tls1DheRsaAes256ShaId?: string;
   /**
   * TLS1_DHE_RSA_AES_256_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_aes_256_sha_successes}
   */
   readonly tls1DheRsaAes256ShaSuccesses?: number;
   /**
   * TLS1_DHE_RSA_CHACHA20_POLY1305_SHA256 Cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_failures}
   */
   readonly tls1DheRsaChacha20Poly1305Sha256Failures?: number;
   /**
   * TLS1_DHE_RSA_CHACHA20_POLY1305_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_id}
   */
   readonly tls1DheRsaChacha20Poly1305Sha256Id?: string;
   /**
   * TLS1_DHE_RSA_CHACHA20_POLY1305_SHA256 Cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_dhe_rsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_dhe_rsa_chacha20_poly1305_sha256_successes}
   */
   readonly tls1DheRsaChacha20Poly1305Sha256Successes?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_GCM_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_failures}
   */
   readonly tls1EcdheEcdsaAes128GcmSha256Failures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_GCM_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_id}
   */
   readonly tls1EcdheEcdsaAes128GcmSha256Id?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_GCM_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_gcm_sha256_successes}
   */
   readonly tls1EcdheEcdsaAes128GcmSha256Successes?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_failures}
   */
   readonly tls1EcdheEcdsaAes128Sha256Failures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_id}
   */
   readonly tls1EcdheEcdsaAes128Sha256Id?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha256_successes}
   */
   readonly tls1EcdheEcdsaAes128Sha256Successes?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_failures}
   */
   readonly tls1EcdheEcdsaAes128ShaFailures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_id}
   */
   readonly tls1EcdheEcdsaAes128ShaId?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_128_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_128_sha_successes}
   */
   readonly tls1EcdheEcdsaAes128ShaSuccesses?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_GCM_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_failures}
   */
   readonly tls1EcdheEcdsaAes256GcmSha384Failures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_GCM_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_id}
   */
   readonly tls1EcdheEcdsaAes256GcmSha384Id?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_GCM_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_gcm_sha384_successes}
   */
   readonly tls1EcdheEcdsaAes256GcmSha384Successes?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_failures}
   */
   readonly tls1EcdheEcdsaAes256Sha384Failures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_id}
   */
   readonly tls1EcdheEcdsaAes256Sha384Id?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha384_successes}
   */
   readonly tls1EcdheEcdsaAes256Sha384Successes?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_failures}
   */
   readonly tls1EcdheEcdsaAes256ShaFailures?: number;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_id}
   */
   readonly tls1EcdheEcdsaAes256ShaId?: string;
   /**
   * TLS1_ECDHE_ECDSA_AES_256_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_aes_256_sha_successes}
   */
   readonly tls1EcdheEcdsaAes256ShaSuccesses?: number;
   /**
   * TLS1_ECDHE_ECDSA_CHACHA20_POLY1305_SHA256 Cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_failures}
   */
   readonly tls1EcdheEcdsaChacha20Poly1305Sha256Failures?: number;
   /**
   * TLS1_ECDHE_ECDSA_CHACHA20_POLY1305_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_id}
   */
   readonly tls1EcdheEcdsaChacha20Poly1305Sha256Id?: string;
   /**
   * TLS1_ECDHE_ECDSA_CHACHA20_POLY1305_SHA256 Cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_ecdsa_chacha20_poly1305_sha256_successes}
   */
   readonly tls1EcdheEcdsaChacha20Poly1305Sha256Successes?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_GCM_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_failures}
   */
   readonly tls1EcdheRsaAes128GcmSha256Failures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_GCM_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_id}
   */
   readonly tls1EcdheRsaAes128GcmSha256Id?: string;
   /**
   * TLS1_ECDHE_RSA_AES_128_GCM_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_gcm_sha256_successes}
   */
   readonly tls1EcdheRsaAes128GcmSha256Successes?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_failures}
   */
   readonly tls1EcdheRsaAes128Sha256Failures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_id}
   */
   readonly tls1EcdheRsaAes128Sha256Id?: string;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha256_successes}
   */
   readonly tls1EcdheRsaAes128Sha256Successes?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_failures}
   */
   readonly tls1EcdheRsaAes128ShaFailures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_id}
   */
   readonly tls1EcdheRsaAes128ShaId?: string;
   /**
   * TLS1_ECDHE_RSA_AES_128_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_128_sha_successes}
   */
   readonly tls1EcdheRsaAes128ShaSuccesses?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_GCM_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_failures}
   */
   readonly tls1EcdheRsaAes256GcmSha384Failures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_GCM_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_id}
   */
   readonly tls1EcdheRsaAes256GcmSha384Id?: string;
   /**
   * TLS1_ECDHE_RSA_AES_256_GCM_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_gcm_sha384_successes}
   */
   readonly tls1EcdheRsaAes256GcmSha384Successes?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_failures}
   */
   readonly tls1EcdheRsaAes256Sha384Failures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_id}
   */
   readonly tls1EcdheRsaAes256Sha384Id?: string;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha384_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha384_successes}
   */
   readonly tls1EcdheRsaAes256Sha384Successes?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_failures}
   */
   readonly tls1EcdheRsaAes256ShaFailures?: number;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_id}
   */
   readonly tls1EcdheRsaAes256ShaId?: string;
   /**
   * TLS1_ECDHE_RSA_AES_256_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_aes_256_sha_successes}
   */
   readonly tls1EcdheRsaAes256ShaSuccesses?: number;
   /**
   * TLS1_ECDHE_RSA_CHACHA20_POLY1305_SHA256 Cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_failures}
   */
   readonly tls1EcdheRsaChacha20Poly1305Sha256Failures?: number;
   /**
   * TLS1_ECDHE_RSA_CHACHA20_POLY1305_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_id}
   */
   readonly tls1EcdheRsaChacha20Poly1305Sha256Id?: string;
   /**
   * TLS1_ECDHE_RSA_CHACHA20_POLY1305_SHA256 Cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_rsa_chacha20_poly1305_sha256_successes}
   */
   readonly tls1EcdheRsaChacha20Poly1305Sha256Successes?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_GCM_SM3 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_failures}
   */
   readonly tls1EcdheSm2Sms4GcmSm3Failures?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_GCM_SM3 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_id}
   */
   readonly tls1EcdheSm2Sms4GcmSm3Id?: string;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_GCM_SM3 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_gcm_sm3_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_gcm_sm3_successes}
   */
   readonly tls1EcdheSm2Sms4GcmSm3Successes?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SHA256 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_failures}
   */
   readonly tls1EcdheSm2Sms4Sha256Failures?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_id}
   */
   readonly tls1EcdheSm2Sms4Sha256Id?: string;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SHA256 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sha256_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sha256_successes}
   */
   readonly tls1EcdheSm2Sms4Sha256Successes?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SM3 cipher failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_failures DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_failures}
   */
   readonly tls1EcdheSm2Sms4Sm3Failures?: number;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SM3 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_id DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_id}
   */
   readonly tls1EcdheSm2Sms4Sm3Id?: string;
   /**
   * TLS1_ECDHE_SM2_WITH_SMS4_SM3 cipher successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_ecdhe_sm2_sms4_sm3_successes DataThunderSlbSslCountersOper#tls1_ecdhe_sm2_sms4_sm3_successes}
   */
   readonly tls1EcdheSm2Sms4Sm3Successes?: number;
   /**
   * TLS1_RSA_AES_128_GCM_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_failures}
   */
   readonly tls1RsaAes128GcmSha256Failures?: number;
   /**
   * TLS1_RSA_AES_128_GCM_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_id}
   */
   readonly tls1RsaAes128GcmSha256Id?: string;
   /**
   * TLS1_RSA_AES_128_GCM_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_gcm_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_gcm_sha256_successes}
   */
   readonly tls1RsaAes128GcmSha256Successes?: number;
   /**
   * TLS1_RSA_AES_128_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_failures}
   */
   readonly tls1RsaAes128Sha256Failures?: number;
   /**
   * TLS1_RSA_AES_128_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_id}
   */
   readonly tls1RsaAes128Sha256Id?: string;
   /**
   * TLS1_RSA_AES_128_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha256_successes}
   */
   readonly tls1RsaAes128Sha256Successes?: number;
   /**
   * TLS1_RSA_AES_128_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_failures}
   */
   readonly tls1RsaAes128ShaFailures?: number;
   /**
   * TLS1_RSA_AES_128_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_id DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_id}
   */
   readonly tls1RsaAes128ShaId?: string;
   /**
   * TLS1_RSA_AES_128_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_128_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_128_sha_successes}
   */
   readonly tls1RsaAes128ShaSuccesses?: number;
   /**
   * TLS1_RSA_AES_256_GCM_SHA384 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_failures}
   */
   readonly tls1RsaAes256GcmSha384Failures?: number;
   /**
   * TLS1_RSA_AES_256_GCM_SHA384 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_id}
   */
   readonly tls1RsaAes256GcmSha384Id?: string;
   /**
   * TLS1_RSA_AES_256_GCM_SHA384 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_gcm_sha384_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_gcm_sha384_successes}
   */
   readonly tls1RsaAes256GcmSha384Successes?: number;
   /**
   * TLS1_RSA_AES_256_SHA256 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_failures}
   */
   readonly tls1RsaAes256Sha256Failures?: number;
   /**
   * TLS1_RSA_AES_256_SHA256 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_id}
   */
   readonly tls1RsaAes256Sha256Id?: string;
   /**
   * TLS1_RSA_AES_256_SHA256 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha256_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha256_successes}
   */
   readonly tls1RsaAes256Sha256Successes?: number;
   /**
   * TLS1_RSA_AES_256_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_failures}
   */
   readonly tls1RsaAes256ShaFailures?: number;
   /**
   * TLS1_RSA_AES_256_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_id DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_id}
   */
   readonly tls1RsaAes256ShaId?: string;
   /**
   * TLS1_RSA_AES_256_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_aes_256_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_aes_256_sha_successes}
   */
   readonly tls1RsaAes256ShaSuccesses?: number;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_MD5 Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_failures DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_failures DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_failures}
   */
   readonly tls1RsaExport1024Rc456Md5Failures?: number;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_MD5 Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_id DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_id DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_id}
   */
   readonly tls1RsaExport1024Rc456Md5Id?: string;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_MD5 Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_successes DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_md5_successes DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_md5_successes}
   */
   readonly tls1RsaExport1024Rc456Md5Successes?: number;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_SHA Failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_failures DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_failures}
   */
   readonly tls1RsaExport1024Rc456ShaFailures?: number;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_SHA Cipher ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_id DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_id DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_id}
   */
   readonly tls1RsaExport1024Rc456ShaId?: string;
   /**
   * TLS1_RSA_EXPORT1024_RC4_56_SHA Successes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_successes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#tls1_rsa_export1024_rc4_56_sha_successes DataThunderSlbSslCountersOper#tls1_rsa_export1024_rc4_56_sha_successes}
   */
   readonly tls1RsaExport1024Rc456ShaSuccesses?: number;
   /**
   * virtual server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#vserver DataThunderSlbSslCountersOper#vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#vserver DataThunderSlbSslCountersOper#vserver}
   */
   readonly vserver?: string;
 }
@@ -6864,7 +6864,7 @@ export class DataThunderSlbSslCountersOperOperOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper thunder_slb_ssl_counters_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper thunder_slb_ssl_counters_oper}
 */
 export class DataThunderSlbSslCountersOper extends cdktf.TerraformDataSource {
 
@@ -6880,7 +6880,7 @@ export class DataThunderSlbSslCountersOper extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSslCountersOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSslCountersOper to import
-  * @param importFromId The id of the existing DataThunderSlbSslCountersOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSslCountersOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSslCountersOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6892,7 +6892,7 @@ export class DataThunderSlbSslCountersOper extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_ssl_counters_oper thunder_slb_ssl_counters_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_ssl_counters_oper thunder_slb_ssl_counters_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6903,8 +6903,8 @@ export class DataThunderSlbSslCountersOper extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_ssl_counters_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'permit': Route map permits set operations; 'deny': Route map denies set operations;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#action RouteMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#action RouteMap#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#id RouteMap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#id RouteMap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface RouteMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Sequence to insert to/delete from existing route-map entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#sequence RouteMap#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#sequence RouteMap#sequence}
   */
   readonly sequence: number;
   /**
   * Route map tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#tag RouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#tag RouteMap#tag}
   */
   readonly tag: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#user_tag RouteMap#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#user_tag RouteMap#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#uuid RouteMap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#uuid RouteMap#uuid}
   */
   readonly uuid?: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#match RouteMap#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#match RouteMap#match}
   */
   readonly match?: RouteMapMatch;
   /**
   * set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#set RouteMap#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#set RouteMap#set}
   */
   readonly set?: RouteMapSet;
 }
@@ -61,7 +61,7 @@ export interface RouteMapMatchAsPath {
   /**
   * AS path access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -147,13 +147,13 @@ export interface RouteMapMatchCommunityNameCfg {
   /**
   * Do exact matching of communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#exact_match RouteMap#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#exact_match RouteMap#exact_match}
   */
   readonly exactMatch?: number;
   /**
   * One or more Community Lists (numbered or named)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -268,7 +268,7 @@ export interface RouteMapMatchCommunity {
   /**
   * name_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name_cfg RouteMap#name_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name_cfg RouteMap#name_cfg}
   */
   readonly nameCfg?: RouteMapMatchCommunityNameCfg;
 }
@@ -354,13 +354,13 @@ export interface RouteMapMatchExtcommunityExtcommunityLName {
   /**
   * Do exact matching of ecommunities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#exact_match RouteMap#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#exact_match RouteMap#exact_match}
   */
   readonly exactMatch?: number;
   /**
   * One or more Extended Community Lists (numbered or named)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -475,7 +475,7 @@ export interface RouteMapMatchExtcommunity {
   /**
   * extcommunity_l_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#extcommunity_l_name RouteMap#extcommunity_l_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#extcommunity_l_name RouteMap#extcommunity_l_name}
   */
   readonly extcommunityLName?: RouteMapMatchExtcommunityExtcommunityLName;
 }
@@ -561,13 +561,13 @@ export interface RouteMapMatchGroup {
   /**
   * HA or VRRP-A group id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#group_id RouteMap#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#group_id RouteMap#group_id}
   */
   readonly groupId?: number;
   /**
   * 'active': HA or VRRP-A in Active State; 'standby': HA or VRRP-A in Standby State;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ha_state RouteMap#ha_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ha_state RouteMap#ha_state}
   */
   readonly haState?: string;
 }
@@ -682,31 +682,31 @@ export interface RouteMapMatchInterface {
   /**
   * Ethernet interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ethernet RouteMap#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ethernet RouteMap#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Loopback interface (Port number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#loopback RouteMap#loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#loopback RouteMap#loopback}
   */
   readonly loopback?: number;
   /**
   * Trunk Interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#trunk RouteMap#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#trunk RouteMap#trunk}
   */
   readonly trunk?: number;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#tunnel RouteMap#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#tunnel RouteMap#tunnel}
   */
   readonly tunnel?: number;
   /**
   * Virtual ethernet interface (Virtual ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ve RouteMap#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ve RouteMap#ve}
   */
   readonly ve?: number;
 }
@@ -908,7 +908,7 @@ export interface RouteMapMatchIpAddressPrefixListStruct {
   /**
   * IP prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -994,25 +994,25 @@ export interface RouteMapMatchIpAddress {
   /**
   * IP access-list number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl1 RouteMap#acl1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl1 RouteMap#acl1}
   */
   readonly acl1?: number;
   /**
   * IP access-list number (expanded range)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl2 RouteMap#acl2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl2 RouteMap#acl2}
   */
   readonly acl2?: number;
   /**
   * IP access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
   /**
   * prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#prefix_list RouteMap#prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#prefix_list RouteMap#prefix_list}
   */
   readonly prefixList?: RouteMapMatchIpAddressPrefixListStruct;
 }
@@ -1185,7 +1185,7 @@ export interface RouteMapMatchIpNextHopPrefixList1 {
   /**
   * IP prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -1271,25 +1271,25 @@ export interface RouteMapMatchIpNextHop {
   /**
   * IP access-list number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl1 RouteMap#acl1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl1 RouteMap#acl1}
   */
   readonly acl1?: number;
   /**
   * IP access-list number (expanded range)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl2 RouteMap#acl2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl2 RouteMap#acl2}
   */
   readonly acl2?: number;
   /**
   * IP access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
   /**
   * prefix_list_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#prefix_list_1 RouteMap#prefix_list_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#prefix_list_1 RouteMap#prefix_list_1}
   */
   readonly prefixList1?: RouteMapMatchIpNextHopPrefixList1;
 }
@@ -1462,19 +1462,19 @@ export interface RouteMapMatchIpPeer {
   /**
   * IP access-list number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl1 RouteMap#acl1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl1 RouteMap#acl1}
   */
   readonly acl1?: number;
   /**
   * IP access-list number (expanded range)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl2 RouteMap#acl2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl2 RouteMap#acl2}
   */
   readonly acl2?: number;
   /**
   * IP access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -1618,19 +1618,19 @@ export interface RouteMapMatchIpRib {
   /**
   * Exact match a prefix (Prefix IPv4 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#exact RouteMap#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#exact RouteMap#exact}
   */
   readonly exact?: string;
   /**
   * IP address is reachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#reachable RouteMap#reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#reachable RouteMap#reachable}
   */
   readonly reachable?: string;
   /**
   * IP address is unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#unreachable RouteMap#unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#unreachable RouteMap#unreachable}
   */
   readonly unreachable?: string;
 }
@@ -1774,25 +1774,25 @@ export interface RouteMapMatchIp {
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#address RouteMap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#address RouteMap#address}
   */
   readonly address?: RouteMapMatchIpAddress;
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#next_hop RouteMap#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#next_hop RouteMap#next_hop}
   */
   readonly nextHop?: RouteMapMatchIpNextHop;
   /**
   * peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#peer RouteMap#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#peer RouteMap#peer}
   */
   readonly peer?: RouteMapMatchIpPeer;
   /**
   * rib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#rib RouteMap#rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#rib RouteMap#rib}
   */
   readonly rib?: RouteMapMatchIpRib;
 }
@@ -1965,7 +1965,7 @@ export interface RouteMapMatchIpv6Address1PrefixList2 {
   /**
   * IPv6 prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -2051,13 +2051,13 @@ export interface RouteMapMatchIpv6Address1 {
   /**
   * IPv6 access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
   /**
   * prefix_list_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#prefix_list_2 RouteMap#prefix_list_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#prefix_list_2 RouteMap#prefix_list_2}
   */
   readonly prefixList2?: RouteMapMatchIpv6Address1PrefixList2;
 }
@@ -2172,19 +2172,19 @@ export interface RouteMapMatchIpv6NextHop1 {
   /**
   * IPv6 access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#next_hop_acl_name RouteMap#next_hop_acl_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#next_hop_acl_name RouteMap#next_hop_acl_name}
   */
   readonly nextHopAclName?: string;
   /**
   * IPv6 prefix-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#prefix_list_name RouteMap#prefix_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#prefix_list_name RouteMap#prefix_list_name}
   */
   readonly prefixListName?: string;
   /**
   * IPv6 address of next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#v6_addr RouteMap#v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#v6_addr RouteMap#v6_addr}
   */
   readonly v6Addr?: string;
 }
@@ -2328,19 +2328,19 @@ export interface RouteMapMatchIpv6Peer1 {
   /**
   * IPv6 access-list number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl1 RouteMap#acl1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl1 RouteMap#acl1}
   */
   readonly acl1?: number;
   /**
   * IP access-list number (expanded range)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#acl2 RouteMap#acl2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#acl2 RouteMap#acl2}
   */
   readonly acl2?: number;
   /**
   * IP access-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -2484,19 +2484,19 @@ export interface RouteMapMatchIpv6Rib {
   /**
   * Exact match a prefix (Prefix IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#exact RouteMap#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#exact RouteMap#exact}
   */
   readonly exact?: string;
   /**
   * IPv6 address is reachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#reachable RouteMap#reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#reachable RouteMap#reachable}
   */
   readonly reachable?: string;
   /**
   * IPv6 address is unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#unreachable RouteMap#unreachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#unreachable RouteMap#unreachable}
   */
   readonly unreachable?: string;
 }
@@ -2640,25 +2640,25 @@ export interface RouteMapMatchIpv6 {
   /**
   * address_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#address_1 RouteMap#address_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#address_1 RouteMap#address_1}
   */
   readonly address1?: RouteMapMatchIpv6Address1;
   /**
   * next_hop_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#next_hop_1 RouteMap#next_hop_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#next_hop_1 RouteMap#next_hop_1}
   */
   readonly nextHop1?: RouteMapMatchIpv6NextHop1;
   /**
   * peer_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#peer_1 RouteMap#peer_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#peer_1 RouteMap#peer_1}
   */
   readonly peer1?: RouteMapMatchIpv6Peer1;
   /**
   * rib block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#rib RouteMap#rib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#rib RouteMap#rib}
   */
   readonly rib?: RouteMapMatchIpv6Rib;
 }
@@ -2831,13 +2831,13 @@ export interface RouteMapMatchLargeCommunityLNameCfg {
   /**
   * Do exact matching of large-communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#exact_match RouteMap#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#exact_match RouteMap#exact_match}
   */
   readonly exactMatch?: number;
   /**
   * One or more Large Community Lists (numbered or named)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
 }
@@ -2952,7 +2952,7 @@ export interface RouteMapMatchLargeCommunity {
   /**
   * l_name_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_name_cfg RouteMap#l_name_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_name_cfg RouteMap#l_name_cfg}
   */
   readonly lNameCfg?: RouteMapMatchLargeCommunityLNameCfg;
 }
@@ -3038,7 +3038,7 @@ export interface RouteMapMatchLocalPreference {
   /**
   * Preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#val RouteMap#val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#val RouteMap#val}
   */
   readonly val?: number;
 }
@@ -3124,7 +3124,7 @@ export interface RouteMapMatchMetric {
   /**
   * Metric value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: number;
 }
@@ -3210,19 +3210,19 @@ export interface RouteMapMatchOrigin {
   /**
   * remote EGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#egp RouteMap#egp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#egp RouteMap#egp}
   */
   readonly egp?: number;
   /**
   * local IGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#igp RouteMap#igp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#igp RouteMap#igp}
   */
   readonly igp?: number;
   /**
   * unknown heritage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#incomplete RouteMap#incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#incomplete RouteMap#incomplete}
   */
   readonly incomplete?: number;
 }
@@ -3366,7 +3366,7 @@ export interface RouteMapMatchRouteTypeExternal {
   /**
   * 'type-1': Match OSPF External Type 1 metrics; 'type-2': Match OSPF External Type 2 metrics;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -3452,7 +3452,7 @@ export interface RouteMapMatchRouteType {
   /**
   * external block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#external RouteMap#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#external RouteMap#external}
   */
   readonly external?: RouteMapMatchRouteTypeExternal;
 }
@@ -3538,13 +3538,25 @@ export interface RouteMapMatchScaleout {
   /**
   * Scaleout Cluster-id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#cluster_id RouteMap#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#cluster_id RouteMap#cluster_id}
   */
   readonly clusterId?: number;
   /**
   * 'up': Scaleout is up and running; 'down': Scaleout is down or disabled;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#operational_state RouteMap#operational_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ipv4 RouteMap#ipv4}
+  */
+  readonly ipv4?: string;
+  /**
+  * 'up': Scaleout is up and running; 'down': Scaleout is down or disabled;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ipv6 RouteMap#ipv6}
+  */
+  readonly ipv6?: string;
+  /**
+  * 'up': Scaleout is up and running; 'down': Scaleout is down or disabled;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#operational_state RouteMap#operational_state}
   */
   readonly operationalState?: string;
 }
@@ -3556,6 +3568,8 @@ export function routeMapMatchScaleoutToTerraform(struct?: RouteMapMatchScaleoutO
   }
   return {
     cluster_id: cdktf.numberToTerraform(struct!.clusterId),
+    ipv4: cdktf.stringToTerraform(struct!.ipv4),
+    ipv6: cdktf.stringToTerraform(struct!.ipv6),
     operational_state: cdktf.stringToTerraform(struct!.operationalState),
   }
 }
@@ -3572,6 +3586,18 @@ export function routeMapMatchScaleoutToHclTerraform(struct?: RouteMapMatchScaleo
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    ipv4: {
+      value: cdktf.stringToHclTerraform(struct!.ipv4),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     operational_state: {
       value: cdktf.stringToHclTerraform(struct!.operationalState),
@@ -3603,6 +3629,14 @@ export class RouteMapMatchScaleoutOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.clusterId = this._clusterId;
     }
+    if (this._ipv4 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4;
+    }
+    if (this._ipv6 !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6;
+    }
     if (this._operationalState !== undefined) {
       hasAnyValues = true;
       internalValueResult.operationalState = this._operationalState;
@@ -3614,11 +3648,15 @@ export class RouteMapMatchScaleoutOutputReference extends cdktf.ComplexObject {
     if (value === undefined) {
       this.isEmptyObject = false;
       this._clusterId = undefined;
+      this._ipv4 = undefined;
+      this._ipv6 = undefined;
       this._operationalState = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._clusterId = value.clusterId;
+      this._ipv4 = value.ipv4;
+      this._ipv6 = value.ipv6;
       this._operationalState = value.operationalState;
     }
   }
@@ -3637,6 +3675,38 @@ export class RouteMapMatchScaleoutOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get clusterIdInput() {
     return this._clusterId;
+  }
+
+  // ipv4 - computed: false, optional: true, required: false
+  private _ipv4?: string; 
+  public get ipv4() {
+    return this.getStringAttribute('ipv4');
+  }
+  public set ipv4(value: string) {
+    this._ipv4 = value;
+  }
+  public resetIpv4() {
+    this._ipv4 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6?: string; 
+  public get ipv6() {
+    return this.getStringAttribute('ipv6');
+  }
+  public set ipv6(value: string) {
+    this._ipv6 = value;
+  }
+  public resetIpv6() {
+    this._ipv6 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6;
   }
 
   // operational_state - computed: false, optional: true, required: false
@@ -3659,7 +3729,7 @@ export interface RouteMapMatchTag {
   /**
   * Tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: number;
 }
@@ -3745,91 +3815,91 @@ export interface RouteMapMatch {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#uuid RouteMap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#uuid RouteMap#uuid}
   */
   readonly uuid?: string;
   /**
   * as_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#as_path RouteMap#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#as_path RouteMap#as_path}
   */
   readonly asPath?: RouteMapMatchAsPath;
   /**
   * community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#community RouteMap#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#community RouteMap#community}
   */
   readonly community?: RouteMapMatchCommunity;
   /**
   * extcommunity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#extcommunity RouteMap#extcommunity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#extcommunity RouteMap#extcommunity}
   */
   readonly extcommunity?: RouteMapMatchExtcommunity;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#group RouteMap#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#group RouteMap#group}
   */
   readonly group?: RouteMapMatchGroup;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#interface RouteMap#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#interface RouteMap#interface}
   */
   readonly interface?: RouteMapMatchInterface;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ip RouteMap#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ip RouteMap#ip}
   */
   readonly ip?: RouteMapMatchIp;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ipv6 RouteMap#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ipv6 RouteMap#ipv6}
   */
   readonly ipv6?: RouteMapMatchIpv6;
   /**
   * large_community block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#large_community RouteMap#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#large_community RouteMap#large_community}
   */
   readonly largeCommunity?: RouteMapMatchLargeCommunity;
   /**
   * local_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#local_preference RouteMap#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#local_preference RouteMap#local_preference}
   */
   readonly localPreference?: RouteMapMatchLocalPreference;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#metric RouteMap#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#metric RouteMap#metric}
   */
   readonly metric?: RouteMapMatchMetric;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#origin RouteMap#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#origin RouteMap#origin}
   */
   readonly origin?: RouteMapMatchOrigin;
   /**
   * route_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#route_type RouteMap#route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#route_type RouteMap#route_type}
   */
   readonly routeType?: RouteMapMatchRouteType;
   /**
   * scaleout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#scaleout RouteMap#scaleout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#scaleout RouteMap#scaleout}
   */
   readonly scaleout?: RouteMapMatchScaleout;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#tag RouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#tag RouteMap#tag}
   */
   readonly tag?: RouteMapMatchTag;
 }
@@ -4321,13 +4391,13 @@ export interface RouteMapSetAggregatorAggregatorAs {
   /**
   * AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#asn RouteMap#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#asn RouteMap#asn}
   */
   readonly asn?: number;
   /**
   * IP address of aggregator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ip RouteMap#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ip RouteMap#ip}
   */
   readonly ip?: string;
 }
@@ -4442,7 +4512,7 @@ export interface RouteMapSetAggregator {
   /**
   * aggregator_as block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#aggregator_as RouteMap#aggregator_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#aggregator_as RouteMap#aggregator_as}
   */
   readonly aggregatorAs?: RouteMapSetAggregatorAggregatorAs;
 }
@@ -4528,19 +4598,19 @@ export interface RouteMapSetAsPath {
   /**
   * AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#num RouteMap#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#num RouteMap#num}
   */
   readonly num?: string;
   /**
   * AS number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#num2 RouteMap#num2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#num2 RouteMap#num2}
   */
   readonly num2?: string;
   /**
   * Prepend to the as-path (AS number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#prepend RouteMap#prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#prepend RouteMap#prepend}
   */
   readonly prepend?: string;
 }
@@ -4684,37 +4754,37 @@ export interface RouteMapSetCommListStruct {
   /**
   * Delete matching communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#delete RouteMap#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#delete RouteMap#delete}
   */
   readonly delete?: number;
   /**
   * Community-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name RouteMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name RouteMap#name}
   */
   readonly name?: string;
   /**
   * Delete matching communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#name_delete RouteMap#name_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#name_delete RouteMap#name_delete}
   */
   readonly nameDelete?: number;
   /**
   * Community-list number (expanded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#v_exp RouteMap#v_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#v_exp RouteMap#v_exp}
   */
   readonly vExp?: number;
   /**
   * Delete matching communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#v_exp_delete RouteMap#v_exp_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#v_exp_delete RouteMap#v_exp_delete}
   */
   readonly vExpDelete?: number;
   /**
   * Community-list number (standard)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#v_std RouteMap#v_std}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#v_std RouteMap#v_std}
   */
   readonly vStd?: number;
 }
@@ -4945,37 +5015,37 @@ export interface RouteMapSetDampeningCfg {
   /**
   * Enable route-flap dampening
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening RouteMap#dampening}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening RouteMap#dampening}
   */
   readonly dampening?: number;
   /**
   * Reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_half_time RouteMap#dampening_half_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_half_time RouteMap#dampening_half_time}
   */
   readonly dampeningHalfTime?: number;
   /**
   * Maximum duration to suppress a stable route(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_max_supress RouteMap#dampening_max_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_max_supress RouteMap#dampening_max_supress}
   */
   readonly dampeningMaxSupress?: number;
   /**
   * Un-reachability Half-life time for the penalty(minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_penalty RouteMap#dampening_penalty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_penalty RouteMap#dampening_penalty}
   */
   readonly dampeningPenalty?: number;
   /**
   * Value to start reusing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_reuse RouteMap#dampening_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_reuse RouteMap#dampening_reuse}
   */
   readonly dampeningReuse?: number;
   /**
   * Value to start suppressing a route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_supress RouteMap#dampening_supress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_supress RouteMap#dampening_supress}
   */
   readonly dampeningSupress?: number;
 }
@@ -5206,19 +5276,19 @@ export interface RouteMapSetDdos {
   /**
   * Class-List Cid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#class_list_cid RouteMap#class_list_cid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#class_list_cid RouteMap#class_list_cid}
   */
   readonly classListCid?: number;
   /**
   * Class-List Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#class_list_name RouteMap#class_list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#class_list_name RouteMap#class_list_name}
   */
   readonly classListName?: string;
   /**
   * Zone Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#zone RouteMap#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#zone RouteMap#zone}
   */
   readonly zone?: string;
 }
@@ -5362,7 +5432,7 @@ export interface RouteMapSetExtcommunityRt {
   /**
   * VPN extended community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -5448,7 +5518,7 @@ export interface RouteMapSetExtcommunitySoo {
   /**
   * VPN extended community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -5534,13 +5604,13 @@ export interface RouteMapSetExtcommunity {
   /**
   * rt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#rt RouteMap#rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#rt RouteMap#rt}
   */
   readonly rt?: RouteMapSetExtcommunityRt;
   /**
   * soo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#soo RouteMap#soo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#soo RouteMap#soo}
   */
   readonly soo?: RouteMapSetExtcommunitySoo;
 }
@@ -5655,7 +5725,7 @@ export interface RouteMapSetIpNextHop {
   /**
   * IP address of next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#address RouteMap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#address RouteMap#address}
   */
   readonly address?: string;
 }
@@ -5741,7 +5811,7 @@ export interface RouteMapSetIp {
   /**
   * next_hop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#next_hop RouteMap#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#next_hop RouteMap#next_hop}
   */
   readonly nextHop?: RouteMapSetIpNextHop;
 }
@@ -5827,7 +5897,7 @@ export interface RouteMapSetIpv6NextHop1Local {
   /**
   * IPv6 address of next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#address RouteMap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#address RouteMap#address}
   */
   readonly address?: string;
 }
@@ -5913,13 +5983,13 @@ export interface RouteMapSetIpv6NextHop1 {
   /**
   * global address of next hop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#address RouteMap#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#address RouteMap#address}
   */
   readonly address?: string;
   /**
   * local block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#local RouteMap#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#local RouteMap#local}
   */
   readonly local?: RouteMapSetIpv6NextHop1Local;
 }
@@ -6034,7 +6104,7 @@ export interface RouteMapSetIpv6 {
   /**
   * next_hop_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#next_hop_1 RouteMap#next_hop_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#next_hop_1 RouteMap#next_hop_1}
   */
   readonly nextHop1?: RouteMapSetIpv6NextHop1;
 }
@@ -6120,37 +6190,37 @@ export interface RouteMapSetLargeCommListStruct {
   /**
   * Large Community-list name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_name RouteMap#l_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_name RouteMap#l_name}
   */
   readonly lName?: string;
   /**
   * Large Community-list number (expanded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_v_exp RouteMap#l_v_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_v_exp RouteMap#l_v_exp}
   */
   readonly lVExp?: number;
   /**
   * Delete matching large communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_v_exp_delete RouteMap#l_v_exp_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_v_exp_delete RouteMap#l_v_exp_delete}
   */
   readonly lVExpDelete?: number;
   /**
   * Large Community-list number (standard)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_v_std RouteMap#l_v_std}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_v_std RouteMap#l_v_std}
   */
   readonly lVStd?: number;
   /**
   * Delete matching large communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#l_v_std_delete RouteMap#l_v_std_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#l_v_std_delete RouteMap#l_v_std_delete}
   */
   readonly lVStdDelete?: number;
   /**
   * Delete matching large communities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#large_name_delete RouteMap#large_name_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#large_name_delete RouteMap#large_name_delete}
   */
   readonly largeNameDelete?: number;
 }
@@ -6381,7 +6451,7 @@ export interface RouteMapSetLevel {
   /**
   * 'level-1': Export into a level-1 area; 'level-1-2': Export into level-1 and level-2; 'level-2': Export into level-2 sub-domain;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -6467,7 +6537,7 @@ export interface RouteMapSetLocalPreference {
   /**
   * Preference value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#val RouteMap#val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#val RouteMap#val}
   */
   readonly val?: number;
 }
@@ -6553,7 +6623,7 @@ export interface RouteMapSetMetric {
   /**
   * Metric Value (from -4294967295 to 4294967295)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -6639,7 +6709,7 @@ export interface RouteMapSetMetricType {
   /**
   * 'external': IS-IS external metric type; 'internal': IS-IS internal metric type; 'type-1': OSPF external type 1 metric; 'type-2': OSPF external type 2 metric;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: string;
 }
@@ -6725,19 +6795,19 @@ export interface RouteMapSetOrigin {
   /**
   * remote EGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#egp RouteMap#egp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#egp RouteMap#egp}
   */
   readonly egp?: number;
   /**
   * local IGP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#igp RouteMap#igp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#igp RouteMap#igp}
   */
   readonly igp?: number;
   /**
   * unknown heritage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#incomplete RouteMap#incomplete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#incomplete RouteMap#incomplete}
   */
   readonly incomplete?: number;
 }
@@ -6881,7 +6951,7 @@ export interface RouteMapSetOriginatorId {
   /**
   * IP address of originator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#originator_ip RouteMap#originator_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#originator_ip RouteMap#originator_ip}
   */
   readonly originatorIp?: string;
 }
@@ -6967,7 +7037,7 @@ export interface RouteMapSetTag {
   /**
   * Tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#value RouteMap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#value RouteMap#value}
   */
   readonly value?: number;
 }
@@ -7053,7 +7123,7 @@ export interface RouteMapSetWeight {
   /**
   * Weight value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#weight_val RouteMap#weight_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#weight_val RouteMap#weight_val}
   */
   readonly weightVal?: number;
 }
@@ -7139,127 +7209,127 @@ export interface RouteMapSet {
   /**
   * BGP atomic aggregate attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#atomic_aggregate RouteMap#atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#atomic_aggregate RouteMap#atomic_aggregate}
   */
   readonly atomicAggregate?: number;
   /**
   * BGP community attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#community RouteMap#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#community RouteMap#community}
   */
   readonly community?: string;
   /**
   * BGP large community attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#large_community RouteMap#large_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#large_community RouteMap#large_community}
   */
   readonly largeCommunity?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#uuid RouteMap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#uuid RouteMap#uuid}
   */
   readonly uuid?: string;
   /**
   * aggregator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#aggregator RouteMap#aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#aggregator RouteMap#aggregator}
   */
   readonly aggregator?: RouteMapSetAggregator;
   /**
   * as_path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#as_path RouteMap#as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#as_path RouteMap#as_path}
   */
   readonly asPath?: RouteMapSetAsPath;
   /**
   * comm_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#comm_list RouteMap#comm_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#comm_list RouteMap#comm_list}
   */
   readonly commList?: RouteMapSetCommListStruct;
   /**
   * dampening_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#dampening_cfg RouteMap#dampening_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#dampening_cfg RouteMap#dampening_cfg}
   */
   readonly dampeningCfg?: RouteMapSetDampeningCfg;
   /**
   * ddos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ddos RouteMap#ddos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ddos RouteMap#ddos}
   */
   readonly ddos?: RouteMapSetDdos;
   /**
   * extcommunity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#extcommunity RouteMap#extcommunity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#extcommunity RouteMap#extcommunity}
   */
   readonly extcommunity?: RouteMapSetExtcommunity;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ip RouteMap#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ip RouteMap#ip}
   */
   readonly ip?: RouteMapSetIp;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#ipv6 RouteMap#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#ipv6 RouteMap#ipv6}
   */
   readonly ipv6?: RouteMapSetIpv6;
   /**
   * large_comm_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#large_comm_list RouteMap#large_comm_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#large_comm_list RouteMap#large_comm_list}
   */
   readonly largeCommList?: RouteMapSetLargeCommListStruct;
   /**
   * level block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#level RouteMap#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#level RouteMap#level}
   */
   readonly level?: RouteMapSetLevel;
   /**
   * local_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#local_preference RouteMap#local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#local_preference RouteMap#local_preference}
   */
   readonly localPreference?: RouteMapSetLocalPreference;
   /**
   * metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#metric RouteMap#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#metric RouteMap#metric}
   */
   readonly metric?: RouteMapSetMetric;
   /**
   * metric_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#metric_type RouteMap#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#metric_type RouteMap#metric_type}
   */
   readonly metricType?: RouteMapSetMetricType;
   /**
   * origin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#origin RouteMap#origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#origin RouteMap#origin}
   */
   readonly origin?: RouteMapSetOrigin;
   /**
   * originator_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#originator_id RouteMap#originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#originator_id RouteMap#originator_id}
   */
   readonly originatorId?: RouteMapSetOriginatorId;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#tag RouteMap#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#tag RouteMap#tag}
   */
   readonly tag?: RouteMapSetTag;
   /**
   * weight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#weight RouteMap#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#weight RouteMap#weight}
   */
   readonly weight?: RouteMapSetWeight;
 }
@@ -7923,7 +7993,7 @@ export class RouteMapSetOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map thunder_route_map}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map thunder_route_map}
 */
 export class RouteMap extends cdktf.TerraformResource {
 
@@ -7939,7 +8009,7 @@ export class RouteMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RouteMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RouteMap to import
-  * @param importFromId The id of the existing RouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RouteMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RouteMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7951,7 +8021,7 @@ export class RouteMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/route_map thunder_route_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/route_map thunder_route_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7962,8 +8032,8 @@ export class RouteMap extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_route_map',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

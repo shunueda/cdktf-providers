@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface SlbConnectionReuseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse#id SlbConnectionReuse#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse#id SlbConnectionReuse#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface SlbConnectionReuseConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse#uuid SlbConnectionReuse#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse#uuid SlbConnectionReuse#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse#sampling_enable SlbConnectionReuse#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse#sampling_enable SlbConnectionReuse#sampling_enable}
   */
   readonly samplingEnable?: SlbConnectionReuseSamplingEnable[] | cdktf.IResolvable;
 }
 export interface SlbConnectionReuseSamplingEnable {
   /**
-  * 'all': all; 'current_open': Open persist; 'current_active': Active persist; 'nbind': Total bind; 'nunbind': Total unbind; 'nestab': Total established; 'ntermi': Total terminated; 'ntermi_err': Total terminated by err; 'delay_unbind': Delayed unbind; 'long_resp': Long resp; 'miss_resp': Missed resp; 'unbound_data_rcv': Unbound data rcvd; 'pause_conn': Pause request; 'pause_conn_fail': Pause request fail; 'resume_conn': Resume request; 'not_remove_from_rport': Not remove from list;
+  * 'all': all; 'current_open': Open persist; 'current_active': Active persist; 'nbind': Total bind; 'nunbind': Total unbind; 'nestab': Total established; 'ntermi': Total terminated; 'ntermi_err': Total terminated by err; 'delay_unbind': Delayed unbind; 'long_resp': Long resp; 'miss_resp': Missed resp; 'unbound_data_rcv': Unbound data rcvd; 'pause_conn': Pause request; 'pause_conn_fail': Pause request fail; 'resume_conn': Resume request; 'not_remove_from_rport': Not remove from list; 'zero_pconn_value': Zero current pconn counter value; 'zero_pconn_bind_value': Zero current pconn bind counter value; 'current_http1_conn_in_the_pool': Current http1 conn in the pool; 'current_http2_conn_in_the_pool': Current http2 conn in the pool;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse#counters1 SlbConnectionReuse#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse#counters1 SlbConnectionReuse#counters1}
   */
   readonly counters1?: string;
 }
@@ -147,7 +147,7 @@ export class SlbConnectionReuseSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse thunder_slb_connection_reuse}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse thunder_slb_connection_reuse}
 */
 export class SlbConnectionReuse extends cdktf.TerraformResource {
 
@@ -163,7 +163,7 @@ export class SlbConnectionReuse extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbConnectionReuse resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbConnectionReuse to import
-  * @param importFromId The id of the existing SlbConnectionReuse that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbConnectionReuse that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbConnectionReuse to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class SlbConnectionReuse extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/slb_connection_reuse thunder_slb_connection_reuse} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/slb_connection_reuse thunder_slb_connection_reuse} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class SlbConnectionReuse extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_slb_connection_reuse',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

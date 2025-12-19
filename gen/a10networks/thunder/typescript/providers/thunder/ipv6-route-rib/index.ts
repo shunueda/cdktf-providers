@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Ipv6RouteRibConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#id Ipv6RouteRib#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#id Ipv6RouteRib#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface Ipv6RouteRibConfig extends cdktf.TerraformMetaArguments {
   /**
   * IPV6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ipv6_address Ipv6RouteRib#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ipv6_address Ipv6RouteRib#ipv6_address}
   */
   readonly ipv6Address: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#uuid Ipv6RouteRib#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#uuid Ipv6RouteRib#uuid}
   */
   readonly uuid?: string;
   /**
   * ipv6_nexthop_ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ipv6_nexthop_ipv6 Ipv6RouteRib#ipv6_nexthop_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ipv6_nexthop_ipv6 Ipv6RouteRib#ipv6_nexthop_ipv6}
   */
   readonly ipv6NexthopIpv6?: Ipv6RouteRibIpv6NexthopIpv6[] | cdktf.IResolvable;
   /**
   * ipv6_nexthop_tunnel block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ipv6_nexthop_tunnel Ipv6RouteRib#ipv6_nexthop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ipv6_nexthop_tunnel Ipv6RouteRib#ipv6_nexthop_tunnel}
   */
   readonly ipv6NexthopTunnel?: Ipv6RouteRibIpv6NexthopTunnel[] | cdktf.IResolvable;
 }
@@ -43,37 +43,37 @@ export interface Ipv6RouteRibIpv6NexthopIpv6 {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#description Ipv6RouteRib#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#description Ipv6RouteRib#description}
   */
   readonly description?: string;
   /**
   * Distance value for this route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#distance Ipv6RouteRib#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#distance Ipv6RouteRib#distance}
   */
   readonly distance?: number;
   /**
   * Ethernet interface (Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ethernet Ipv6RouteRib#ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ethernet Ipv6RouteRib#ethernet}
   */
   readonly ethernet?: number;
   /**
   * Forwarding router's address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ipv6_nexthop Ipv6RouteRib#ipv6_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ipv6_nexthop Ipv6RouteRib#ipv6_nexthop}
   */
   readonly ipv6Nexthop?: string;
   /**
   * Trunk interface (Trunk interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#trunk Ipv6RouteRib#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#trunk Ipv6RouteRib#trunk}
   */
   readonly trunk?: number;
   /**
   * Virtual Ethernet interface (Virtual Ethernet interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ve Ipv6RouteRib#ve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ve Ipv6RouteRib#ve}
   */
   readonly ve?: number;
 }
@@ -336,25 +336,25 @@ export interface Ipv6RouteRibIpv6NexthopTunnel {
   /**
   * Description for static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#description Ipv6RouteRib#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#description Ipv6RouteRib#description}
   */
   readonly description?: string;
   /**
   * Distance value for this route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#distance_nexthop_tunnel Ipv6RouteRib#distance_nexthop_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#distance_nexthop_tunnel Ipv6RouteRib#distance_nexthop_tunnel}
   */
   readonly distanceNexthopTunnel?: number;
   /**
   * Forwarding router's address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#ipv6_nexthop_tunnel_addr Ipv6RouteRib#ipv6_nexthop_tunnel_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#ipv6_nexthop_tunnel_addr Ipv6RouteRib#ipv6_nexthop_tunnel_addr}
   */
   readonly ipv6NexthopTunnelAddr?: string;
   /**
   * Tunnel interface (Tunnel interface number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#tunnel Ipv6RouteRib#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#tunnel Ipv6RouteRib#tunnel}
   */
   readonly tunnel?: number;
 }
@@ -557,7 +557,7 @@ export class Ipv6RouteRibIpv6NexthopTunnelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib thunder_ipv6_route_rib}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib thunder_ipv6_route_rib}
 */
 export class Ipv6RouteRib extends cdktf.TerraformResource {
 
@@ -573,7 +573,7 @@ export class Ipv6RouteRib extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6RouteRib resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6RouteRib to import
-  * @param importFromId The id of the existing Ipv6RouteRib that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6RouteRib that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6RouteRib to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -585,7 +585,7 @@ export class Ipv6RouteRib extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/ipv6_route_rib thunder_ipv6_route_rib} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/ipv6_route_rib thunder_ipv6_route_rib} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -596,8 +596,8 @@ export class Ipv6RouteRib extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_ipv6_route_rib',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DomainGroupDomainRateConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Domain_group_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#domain_group_name DomainGroupDomainRate#domain_group_name}
+  */
+  readonly domainGroupName: string;
+  /**
   * 'configuration': Configure domain group rate limit;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#dummy_name DomainGroupDomainRate#dummy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#dummy_name DomainGroupDomainRate#dummy_name}
   */
   readonly dummyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#id DomainGroupDomainRate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#id DomainGroupDomainRate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#name DomainGroupDomainRate#name}
-  */
-  readonly name: string;
-  /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#user_tag DomainGroupDomainRate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#user_tag DomainGroupDomainRate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#uuid DomainGroupDomainRate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#uuid DomainGroupDomainRate#uuid}
   */
   readonly uuid?: string;
   /**
   * domain_list_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#domain_list_list DomainGroupDomainRate#domain_list_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#domain_list_list DomainGroupDomainRate#domain_list_list}
   */
   readonly domainListList?: DomainGroupDomainRateDomainListListStruct[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface DomainGroupDomainRateDomainListListStruct {
   /**
   * Specify name of the domain list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#name DomainGroupDomainRate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#name DomainGroupDomainRate#name}
   */
   readonly name: string;
   /**
   * Per suffix domain rate limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#per_suffix_rate DomainGroupDomainRate#per_suffix_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#per_suffix_rate DomainGroupDomainRate#per_suffix_rate}
   */
   readonly perSuffixRate?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#user_tag DomainGroupDomainRate#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#user_tag DomainGroupDomainRate#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#uuid DomainGroupDomainRate#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#uuid DomainGroupDomainRate#uuid}
   */
   readonly uuid?: string;
 }
@@ -267,7 +267,7 @@ export class DomainGroupDomainRateDomainListListStructList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate thunder_domain_group_domain_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate thunder_domain_group_domain_rate}
 */
 export class DomainGroupDomainRate extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DomainGroupDomainRate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DomainGroupDomainRate to import
-  * @param importFromId The id of the existing DomainGroupDomainRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DomainGroupDomainRate that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DomainGroupDomainRate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/domain_group_domain_rate thunder_domain_group_domain_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/domain_group_domain_rate thunder_domain_group_domain_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_domain_group_domain_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -317,9 +317,9 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._domainGroupName = config.domainGroupName;
     this._dummyName = config.dummyName;
     this._id = config.id;
-    this._name = config.name;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
     this._domainListList.internalValue = config.domainListList;
@@ -328,6 +328,19 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // domain_group_name - computed: false, optional: false, required: true
+  private _domainGroupName?: string; 
+  public get domainGroupName() {
+    return this.getStringAttribute('domain_group_name');
+  }
+  public set domainGroupName(value: string) {
+    this._domainGroupName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainGroupNameInput() {
+    return this._domainGroupName;
+  }
 
   // dummy_name - computed: false, optional: false, required: true
   private _dummyName?: string; 
@@ -356,19 +369,6 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
-  }
-
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
   }
 
   // user_tag - computed: false, optional: true, required: false
@@ -425,9 +425,9 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      domain_group_name: cdktf.stringToTerraform(this._domainGroupName),
       dummy_name: cdktf.stringToTerraform(this._dummyName),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
       domain_list_list: cdktf.listMapper(domainGroupDomainRateDomainListListStructToTerraform, true)(this._domainListList.internalValue),
@@ -436,6 +436,12 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      domain_group_name: {
+        value: cdktf.stringToHclTerraform(this._domainGroupName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       dummy_name: {
         value: cdktf.stringToHclTerraform(this._dummyName),
         isBlock: false,
@@ -444,12 +450,6 @@ export class DomainGroupDomainRate extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

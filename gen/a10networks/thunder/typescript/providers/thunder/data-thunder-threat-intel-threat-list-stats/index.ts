@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderThreatIntelThreatListStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#id DataThunderThreatIntelThreatListStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#id DataThunderThreatIntelThreatListStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderThreatIntelThreatListStatsConfig extends cdktf.Terra
   /**
   * Threat category List name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#name DataThunderThreatIntelThreatListStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#name DataThunderThreatIntelThreatListStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#stats DataThunderThreatIntelThreatListStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#stats DataThunderThreatIntelThreatListStats#stats}
   */
   readonly stats?: DataThunderThreatIntelThreatListStatsStats;
 }
@@ -31,73 +31,73 @@ export interface DataThunderThreatIntelThreatListStatsStats {
   /**
   * Hits for botnets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#botnets DataThunderThreatIntelThreatListStats#botnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#botnets DataThunderThreatIntelThreatListStats#botnets}
   */
   readonly botnets?: number;
   /**
   * Hits for dos attacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#dos_attacks DataThunderThreatIntelThreatListStats#dos_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#dos_attacks DataThunderThreatIntelThreatListStats#dos_attacks}
   */
   readonly dosAttacks?: number;
   /**
   * Hits for mobile threats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#mobile_threats DataThunderThreatIntelThreatListStats#mobile_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#mobile_threats DataThunderThreatIntelThreatListStats#mobile_threats}
   */
   readonly mobileThreats?: number;
   /**
   * Hits for phishing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#phishing DataThunderThreatIntelThreatListStats#phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#phishing DataThunderThreatIntelThreatListStats#phishing}
   */
   readonly phishing?: number;
   /**
   * Hits for proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#proxy DataThunderThreatIntelThreatListStats#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#proxy DataThunderThreatIntelThreatListStats#proxy}
   */
   readonly proxy?: number;
   /**
   * Hits for reputation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#reputation DataThunderThreatIntelThreatListStats#reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#reputation DataThunderThreatIntelThreatListStats#reputation}
   */
   readonly reputation?: number;
   /**
   * Hits for scanners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#scanners DataThunderThreatIntelThreatListStats#scanners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#scanners DataThunderThreatIntelThreatListStats#scanners}
   */
   readonly scanners?: number;
   /**
   * Hits for spam sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#spam_sources DataThunderThreatIntelThreatListStats#spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#spam_sources DataThunderThreatIntelThreatListStats#spam_sources}
   */
   readonly spamSources?: number;
   /**
   * Hits for tor-proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#tor_proxy DataThunderThreatIntelThreatListStats#tor_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#tor_proxy DataThunderThreatIntelThreatListStats#tor_proxy}
   */
   readonly torProxy?: number;
   /**
   * Total hits for threat-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#total_hits DataThunderThreatIntelThreatListStats#total_hits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#total_hits DataThunderThreatIntelThreatListStats#total_hits}
   */
   readonly totalHits?: number;
   /**
   * Hits for web attacks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#web_attacks DataThunderThreatIntelThreatListStats#web_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#web_attacks DataThunderThreatIntelThreatListStats#web_attacks}
   */
   readonly webAttacks?: number;
   /**
   * Hits for windows exploits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#windows_exploits DataThunderThreatIntelThreatListStats#windows_exploits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#windows_exploits DataThunderThreatIntelThreatListStats#windows_exploits}
   */
   readonly windowsExploits?: number;
 }
@@ -500,7 +500,7 @@ export class DataThunderThreatIntelThreatListStatsStatsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats thunder_threat_intel_threat_list_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats thunder_threat_intel_threat_list_stats}
 */
 export class DataThunderThreatIntelThreatListStats extends cdktf.TerraformDataSource {
 
@@ -516,7 +516,7 @@ export class DataThunderThreatIntelThreatListStats extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataThunderThreatIntelThreatListStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderThreatIntelThreatListStats to import
-  * @param importFromId The id of the existing DataThunderThreatIntelThreatListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderThreatIntelThreatListStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderThreatIntelThreatListStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -528,7 +528,7 @@ export class DataThunderThreatIntelThreatListStats extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/threat_intel_threat_list_stats thunder_threat_intel_threat_list_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/threat_intel_threat_list_stats thunder_threat_intel_threat_list_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -539,8 +539,8 @@ export class DataThunderThreatIntelThreatListStats extends cdktf.TerraformDataSo
       terraformResourceType: 'thunder_threat_intel_threat_list_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

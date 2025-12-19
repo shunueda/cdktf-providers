@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface EventBridgeApiDestinationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#api_destination_name EventBridgeApiDestination#api_destination_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#api_destination_name EventBridgeApiDestination#api_destination_name}
   */
   readonly apiDestinationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#connection_name EventBridgeApiDestination#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#connection_name EventBridgeApiDestination#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#description EventBridgeApiDestination#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#description EventBridgeApiDestination#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#id EventBridgeApiDestination#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#id EventBridgeApiDestination#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface EventBridgeApiDestinationConfig extends cdktf.TerraformMetaArgu
   /**
   * http_api_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#http_api_parameters EventBridgeApiDestination#http_api_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#http_api_parameters EventBridgeApiDestination#http_api_parameters}
   */
   readonly httpApiParameters: EventBridgeApiDestinationHttpApiParameters;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#timeouts EventBridgeApiDestination#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#timeouts EventBridgeApiDestination#timeouts}
   */
   readonly timeouts?: EventBridgeApiDestinationTimeouts;
 }
 export interface EventBridgeApiDestinationHttpApiParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#endpoint EventBridgeApiDestination#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#endpoint EventBridgeApiDestination#endpoint}
   */
   readonly endpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#method EventBridgeApiDestination#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#method EventBridgeApiDestination#method}
   */
   readonly method: string;
 }
@@ -152,15 +152,15 @@ export class EventBridgeApiDestinationHttpApiParametersOutputReference extends c
 }
 export interface EventBridgeApiDestinationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#create EventBridgeApiDestination#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#create EventBridgeApiDestination#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#delete EventBridgeApiDestination#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#delete EventBridgeApiDestination#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#update EventBridgeApiDestination#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#update EventBridgeApiDestination#update}
   */
   readonly update?: string;
 }
@@ -312,7 +312,7 @@ export class EventBridgeApiDestinationTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination alicloud_event_bridge_api_destination}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination alicloud_event_bridge_api_destination}
 */
 export class EventBridgeApiDestination extends cdktf.TerraformResource {
 
@@ -328,7 +328,7 @@ export class EventBridgeApiDestination extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventBridgeApiDestination resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventBridgeApiDestination to import
-  * @param importFromId The id of the existing EventBridgeApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventBridgeApiDestination that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventBridgeApiDestination to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -340,7 +340,7 @@ export class EventBridgeApiDestination extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/event_bridge_api_destination alicloud_event_bridge_api_destination} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/event_bridge_api_destination alicloud_event_bridge_api_destination} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,8 +351,8 @@ export class EventBridgeApiDestination extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_event_bridge_api_destination',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

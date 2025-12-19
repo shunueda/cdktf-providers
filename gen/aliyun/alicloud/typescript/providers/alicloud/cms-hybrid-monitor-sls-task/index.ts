@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CmsHybridMonitorSlsTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#collect_interval CmsHybridMonitorSlsTask#collect_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#collect_interval CmsHybridMonitorSlsTask#collect_interval}
   */
   readonly collectInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#collect_target_type CmsHybridMonitorSlsTask#collect_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#collect_target_type CmsHybridMonitorSlsTask#collect_target_type}
   */
   readonly collectTargetType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#description CmsHybridMonitorSlsTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#description CmsHybridMonitorSlsTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#id CmsHybridMonitorSlsTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#id CmsHybridMonitorSlsTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#namespace CmsHybridMonitorSlsTask#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#namespace CmsHybridMonitorSlsTask#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#task_name CmsHybridMonitorSlsTask#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#task_name CmsHybridMonitorSlsTask#task_name}
   */
   readonly taskName: string;
   /**
   * attach_labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#attach_labels CmsHybridMonitorSlsTask#attach_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#attach_labels CmsHybridMonitorSlsTask#attach_labels}
   */
   readonly attachLabels?: CmsHybridMonitorSlsTaskAttachLabels[] | cdktf.IResolvable;
   /**
   * sls_process_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#sls_process_config CmsHybridMonitorSlsTask#sls_process_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#sls_process_config CmsHybridMonitorSlsTask#sls_process_config}
   */
   readonly slsProcessConfig: CmsHybridMonitorSlsTaskSlsProcessConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#timeouts CmsHybridMonitorSlsTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#timeouts CmsHybridMonitorSlsTask#timeouts}
   */
   readonly timeouts?: CmsHybridMonitorSlsTaskTimeouts;
 }
 export interface CmsHybridMonitorSlsTaskAttachLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#name CmsHybridMonitorSlsTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#name CmsHybridMonitorSlsTask#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#value CmsHybridMonitorSlsTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#value CmsHybridMonitorSlsTask#value}
   */
   readonly value?: string;
 }
@@ -204,11 +204,11 @@ export class CmsHybridMonitorSlsTaskAttachLabelsList extends cdktf.ComplexList {
 }
 export interface CmsHybridMonitorSlsTaskSlsProcessConfigExpress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#express CmsHybridMonitorSlsTask#express}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#express CmsHybridMonitorSlsTask#express}
   */
   readonly express?: string;
 }
@@ -353,15 +353,15 @@ export class CmsHybridMonitorSlsTaskSlsProcessConfigExpressList extends cdktf.Co
 }
 export interface CmsHybridMonitorSlsTaskSlsProcessConfigFilterFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#operator CmsHybridMonitorSlsTask#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#operator CmsHybridMonitorSlsTask#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
   */
   readonly slsKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#value CmsHybridMonitorSlsTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#value CmsHybridMonitorSlsTask#value}
   */
   readonly value?: string;
 }
@@ -535,13 +535,13 @@ export class CmsHybridMonitorSlsTaskSlsProcessConfigFilterFiltersList extends cd
 }
 export interface CmsHybridMonitorSlsTaskSlsProcessConfigFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#relation CmsHybridMonitorSlsTask#relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#relation CmsHybridMonitorSlsTask#relation}
   */
   readonly relation?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#filters CmsHybridMonitorSlsTask#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#filters CmsHybridMonitorSlsTask#filters}
   */
   readonly filters?: CmsHybridMonitorSlsTaskSlsProcessConfigFilterFilters[] | cdktf.IResolvable;
 }
@@ -654,11 +654,11 @@ export class CmsHybridMonitorSlsTaskSlsProcessConfigFilterOutputReference extend
 }
 export interface CmsHybridMonitorSlsTaskSlsProcessConfigGroupBy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
   */
   readonly slsKeyName?: string;
 }
@@ -803,23 +803,23 @@ export class CmsHybridMonitorSlsTaskSlsProcessConfigGroupByList extends cdktf.Co
 }
 export interface CmsHybridMonitorSlsTaskSlsProcessConfigStatistics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#alias CmsHybridMonitorSlsTask#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#function CmsHybridMonitorSlsTask#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#function CmsHybridMonitorSlsTask#function}
   */
   readonly function?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#parameter_one CmsHybridMonitorSlsTask#parameter_one}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#parameter_one CmsHybridMonitorSlsTask#parameter_one}
   */
   readonly parameterOne?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#parameter_two CmsHybridMonitorSlsTask#parameter_two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#parameter_two CmsHybridMonitorSlsTask#parameter_two}
   */
   readonly parameterTwo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#sls_key_name CmsHybridMonitorSlsTask#sls_key_name}
   */
   readonly slsKeyName?: string;
 }
@@ -1053,25 +1053,25 @@ export interface CmsHybridMonitorSlsTaskSlsProcessConfig {
   /**
   * express block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#express CmsHybridMonitorSlsTask#express}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#express CmsHybridMonitorSlsTask#express}
   */
   readonly express?: CmsHybridMonitorSlsTaskSlsProcessConfigExpress[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#filter CmsHybridMonitorSlsTask#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#filter CmsHybridMonitorSlsTask#filter}
   */
   readonly filter?: CmsHybridMonitorSlsTaskSlsProcessConfigFilter;
   /**
   * group_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#group_by CmsHybridMonitorSlsTask#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#group_by CmsHybridMonitorSlsTask#group_by}
   */
   readonly groupBy?: CmsHybridMonitorSlsTaskSlsProcessConfigGroupBy[] | cdktf.IResolvable;
   /**
   * statistics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#statistics CmsHybridMonitorSlsTask#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#statistics CmsHybridMonitorSlsTask#statistics}
   */
   readonly statistics?: CmsHybridMonitorSlsTaskSlsProcessConfigStatistics[] | cdktf.IResolvable;
 }
@@ -1242,15 +1242,15 @@ export class CmsHybridMonitorSlsTaskSlsProcessConfigOutputReference extends cdkt
 }
 export interface CmsHybridMonitorSlsTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#create CmsHybridMonitorSlsTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#create CmsHybridMonitorSlsTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#delete CmsHybridMonitorSlsTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#delete CmsHybridMonitorSlsTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#update CmsHybridMonitorSlsTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#update CmsHybridMonitorSlsTask#update}
   */
   readonly update?: string;
 }
@@ -1402,7 +1402,7 @@ export class CmsHybridMonitorSlsTaskTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task alicloud_cms_hybrid_monitor_sls_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task alicloud_cms_hybrid_monitor_sls_task}
 */
 export class CmsHybridMonitorSlsTask extends cdktf.TerraformResource {
 
@@ -1418,7 +1418,7 @@ export class CmsHybridMonitorSlsTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsHybridMonitorSlsTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsHybridMonitorSlsTask to import
-  * @param importFromId The id of the existing CmsHybridMonitorSlsTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsHybridMonitorSlsTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsHybridMonitorSlsTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1430,7 +1430,7 @@ export class CmsHybridMonitorSlsTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/cms_hybrid_monitor_sls_task alicloud_cms_hybrid_monitor_sls_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/cms_hybrid_monitor_sls_task alicloud_cms_hybrid_monitor_sls_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1441,8 +1441,8 @@ export class CmsHybridMonitorSlsTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_hybrid_monitor_sls_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

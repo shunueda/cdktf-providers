@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetflowMonitorDisableLogByDestinationIpConfig extends cdktf.Ter
   /**
   * Disable logging for icmp traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#icmp NetflowMonitorDisableLogByDestinationIp#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#icmp NetflowMonitorDisableLogByDestinationIp#icmp}
   */
   readonly icmp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#id NetflowMonitorDisableLogByDestinationIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#id NetflowMonitorDisableLogByDestinationIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface NetflowMonitorDisableLogByDestinationIpConfig extends cdktf.Ter
   /**
   * Configure an IP subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#ipv4_addr NetflowMonitorDisableLogByDestinationIp#ipv4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#ipv4_addr NetflowMonitorDisableLogByDestinationIp#ipv4_addr}
   */
   readonly ipv4Addr: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#name NetflowMonitorDisableLogByDestinationIp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#monitor_name NetflowMonitorDisableLogByDestinationIp#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * Disable logging for other L4 protocols
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#others NetflowMonitorDisableLogByDestinationIp#others}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#others NetflowMonitorDisableLogByDestinationIp#others}
   */
   readonly others?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#user_tag NetflowMonitorDisableLogByDestinationIp#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#user_tag NetflowMonitorDisableLogByDestinationIp#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#uuid NetflowMonitorDisableLogByDestinationIp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#uuid NetflowMonitorDisableLogByDestinationIp#uuid}
   */
   readonly uuid?: string;
   /**
   * tcp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_list NetflowMonitorDisableLogByDestinationIp#tcp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_list NetflowMonitorDisableLogByDestinationIp#tcp_list}
   */
   readonly tcpList?: NetflowMonitorDisableLogByDestinationIpTcpListStruct[] | cdktf.IResolvable;
   /**
   * udp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_list NetflowMonitorDisableLogByDestinationIp#udp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_list NetflowMonitorDisableLogByDestinationIp#udp_list}
   */
   readonly udpList?: NetflowMonitorDisableLogByDestinationIpUdpListStruct[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface NetflowMonitorDisableLogByDestinationIpTcpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_port_end NetflowMonitorDisableLogByDestinationIp#tcp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_port_end NetflowMonitorDisableLogByDestinationIp#tcp_port_end}
   */
   readonly tcpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_port_start NetflowMonitorDisableLogByDestinationIp#tcp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#tcp_port_start NetflowMonitorDisableLogByDestinationIp#tcp_port_start}
   */
   readonly tcpPortStart?: number;
 }
@@ -220,13 +220,13 @@ export interface NetflowMonitorDisableLogByDestinationIpUdpListStruct {
   /**
   * Port Range End
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_port_end NetflowMonitorDisableLogByDestinationIp#udp_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_port_end NetflowMonitorDisableLogByDestinationIp#udp_port_end}
   */
   readonly udpPortEnd?: number;
   /**
   * Destination Port (Single Destination Port or Port Range Start)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_port_start NetflowMonitorDisableLogByDestinationIp#udp_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#udp_port_start NetflowMonitorDisableLogByDestinationIp#udp_port_start}
   */
   readonly udpPortStart?: number;
 }
@@ -371,7 +371,7 @@ export class NetflowMonitorDisableLogByDestinationIpUdpListStructList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip thunder_netflow_monitor_disable_log_by_destination_ip}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip thunder_netflow_monitor_disable_log_by_destination_ip}
 */
 export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
   * Generates CDKTF code for importing a NetflowMonitorDisableLogByDestinationIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowMonitorDisableLogByDestinationIp to import
-  * @param importFromId The id of the existing NetflowMonitorDisableLogByDestinationIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowMonitorDisableLogByDestinationIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowMonitorDisableLogByDestinationIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_disable_log_by_destination_ip thunder_netflow_monitor_disable_log_by_destination_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_disable_log_by_destination_ip thunder_netflow_monitor_disable_log_by_destination_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
       terraformResourceType: 'thunder_netflow_monitor_disable_log_by_destination_ip',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -424,7 +424,7 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
     this._icmp = config.icmp;
     this._id = config.id;
     this._ipv4Addr = config.ipv4Addr;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._others = config.others;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
@@ -481,17 +481,17 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
     return this._ipv4Addr;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // others - computed: false, optional: true, required: false
@@ -583,7 +583,7 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
       icmp: cdktf.numberToTerraform(this._icmp),
       id: cdktf.stringToTerraform(this._id),
       ipv4_addr: cdktf.stringToTerraform(this._ipv4Addr),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       others: cdktf.numberToTerraform(this._others),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -612,8 +612,8 @@ export class NetflowMonitorDisableLogByDestinationIp extends cdktf.TerraformReso
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

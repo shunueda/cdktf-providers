@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityMonitorAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#id VisibilityMonitorA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#id VisibilityMonitorA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,91 +17,91 @@ export interface VisibilityMonitorAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Start indexing associated sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#index_sessions VisibilityMonitorA#index_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#index_sessions VisibilityMonitorA#index_sessions}
   */
   readonly indexSessions?: number;
   /**
   * 'per-cpu': Use per cpu list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#index_sessions_type VisibilityMonitorA#index_sessions_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#index_sessions_type VisibilityMonitorA#index_sessions_type}
   */
   readonly indexSessionsType?: string;
   /**
   * Enable topk for primary entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#mon_entity_topk VisibilityMonitorA#mon_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#mon_entity_topk VisibilityMonitorA#mon_entity_topk}
   */
   readonly monEntityTopk?: number;
   /**
   * 'source': Monitor traffic from all sources; 'dest': Monitor traffic to any destination; 'service': Monitor traffic to any service; 'source-nat-ip': Monitor traffic to all source nat IPs;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#monitor_key VisibilityMonitorA#monitor_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#monitor_key VisibilityMonitorA#monitor_key}
   */
   readonly monitorKey?: string;
   /**
   * 'traffic': Mointor traffic; 'xflow': Monitor xflow samples;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#primary_monitor VisibilityMonitorA#primary_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#primary_monitor VisibilityMonitorA#primary_monitor}
   */
   readonly primaryMonitor: string;
   /**
   * Enable topk for sources to primary-entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#source_entity_topk VisibilityMonitorA#source_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#source_entity_topk VisibilityMonitorA#source_entity_topk}
   */
   readonly sourceEntityTopk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
   /**
   * agent_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#agent_list VisibilityMonitorA#agent_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#agent_list VisibilityMonitorA#agent_list}
   */
   readonly agentList?: VisibilityMonitorAgentListStructA[] | cdktf.IResolvable;
   /**
   * debug_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_list VisibilityMonitorA#debug_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_list VisibilityMonitorA#debug_list}
   */
   readonly debugList?: VisibilityMonitorDebugListStructA[] | cdktf.IResolvable;
   /**
   * delete_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#delete_debug_file VisibilityMonitorA#delete_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#delete_debug_file VisibilityMonitorA#delete_debug_file}
   */
   readonly deleteDebugFile?: VisibilityMonitorDeleteDebugFileA;
   /**
   * netflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#netflow VisibilityMonitorA#netflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#netflow VisibilityMonitorA#netflow}
   */
   readonly netflow?: VisibilityMonitorNetflowA;
   /**
   * replay_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#replay_debug_file VisibilityMonitorA#replay_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#replay_debug_file VisibilityMonitorA#replay_debug_file}
   */
   readonly replayDebugFile?: VisibilityMonitorReplayDebugFileA;
   /**
   * secondary_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#secondary_monitor VisibilityMonitorA#secondary_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#secondary_monitor VisibilityMonitorA#secondary_monitor}
   */
   readonly secondaryMonitor?: VisibilityMonitorSecondaryMonitorA;
   /**
   * sflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#sflow VisibilityMonitorA#sflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#sflow VisibilityMonitorA#sflow}
   */
   readonly sflow?: VisibilityMonitorSflowA;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#template VisibilityMonitorA#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#template VisibilityMonitorA#template}
   */
   readonly template?: VisibilityMonitorTemplateA;
 }
@@ -109,7 +109,7 @@ export interface VisibilityMonitorAgentListSamplingEnableA {
   /**
   * 'all': all; 'sflow-packets-received': sFlow Packets Received; 'sflow-samples-received': sFlow Samples Received; 'sflow-samples-bad-len': sFlow Samples Bad Length; 'sflow-samples-non-std': sFlow Samples Non-standard; 'sflow-samples-skipped': sFlow Samples Skipped; 'sflow-sample-record-bad-len': sFlow Sample Records Bad Length; 'sflow-samples-sent-for-detection': sFlow Samples Processed For Detection; 'sflow-sample-record-invalid-layer2': sFlow Sample Records Unknown Layer-2; 'sflow-sample-ipv6-hdr-parse-fail': sFlow Sample IPv6 Record Header Parse Failures; 'sflow-disabled': sFlow Packet Samples Processing Disabled; 'netflow-disabled': Netflow Flow Samples Processing Disabled; 'netflow-v5-packets-received': Netflow v5 Packets Received; 'netflow-v5-samples-received': Netflow v5 Samples Received; 'netflow-v5-samples-sent-for-detection': Netflow v5 Samples Processed For Detection; 'netflow-v5-sample-records-bad-len': Netflow v5 Sample Records Bad Length; 'netflow-v5-max-records-exceed': Netflow v5 Sample Max Records Error; 'netflow-v9-packets-received': Netflow v9 Packets Received; 'netflow-v9-samples-received': Netflow v9 Samples Received; 'netflow-v9-samples-sent-for-detection': Netflow v9 Samples Processed For Detection; 'netflow-v9-sample-records-bad-len': Netflow v9 Sample Records Bad Length; 'netflow-v9-max-records-exceed': Netflow v9 Sample Max Records Error; 'netflow-v10-packets-received': Netflow v10 Packets Received; 'netflow-v10-samples-received': Netflow v10 Samples Received; 'netflow-v10-samples-sent-for-detection': Netflow v10 Samples Procssed For Detection; 'netflow-v10-sample-records-bad-len': Netflow v10 Sample Records Bad Length; 'netflow-v10-max-records-exceed': Netflow v10 Sample Max records Error; 'netflow-tcp-sample-received': Netflow TCP Samples Received; 'netflow-udp-sample-received': Netflow UDP Samples received; 'netflow-icmp-sample-received': Netflow ICMP Samples Received; 'netflow-other-sample-received': Netflow OTHER Samples Received; 'netflow-record-copy-oom-error': Netflow Data Record Copy Fail OOM; 'netflow-record-rse-invalid': Netflow Data Record Reduced Size Invalid; 'netflow-sample-flow-dur-error': Netflow Sample Flow Duration Error;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#counters1 VisibilityMonitorA#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#counters1 VisibilityMonitorA#counters1}
   */
   readonly counters1?: string;
 }
@@ -227,37 +227,37 @@ export interface VisibilityMonitorAgentListStructA {
   /**
   * Specify name for the agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#agent_name VisibilityMonitorA#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#agent_name VisibilityMonitorA#agent_name}
   */
   readonly agentName: string;
   /**
   * Configure agent's IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#agent_v4_addr VisibilityMonitorA#agent_v4_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#agent_v4_addr VisibilityMonitorA#agent_v4_addr}
   */
   readonly agentV4Addr?: string;
   /**
   * Configure agent's IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#agent_v6_addr VisibilityMonitorA#agent_v6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#agent_v6_addr VisibilityMonitorA#agent_v6_addr}
   */
   readonly agentV6Addr?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#user_tag VisibilityMonitorA#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#user_tag VisibilityMonitorA#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#sampling_enable VisibilityMonitorA#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#sampling_enable VisibilityMonitorA#sampling_enable}
   */
   readonly samplingEnable?: VisibilityMonitorAgentListSamplingEnableA[] | cdktf.IResolvable;
 }
@@ -517,25 +517,25 @@ export interface VisibilityMonitorDebugListStructA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -731,19 +731,19 @@ export interface VisibilityMonitorDeleteDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -887,19 +887,19 @@ export interface VisibilityMonitorNetflowA {
   /**
   * Netflow port to receive packets (Netflow port number(default 9996))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#listening_port VisibilityMonitorA#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#listening_port VisibilityMonitorA#listening_port}
   */
   readonly listeningPort?: number;
   /**
   * Configure active timeout of the netflow templates received in mins (Template active timeout(mins)(default 30mins))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#template_active_timeout VisibilityMonitorA#template_active_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#template_active_timeout VisibilityMonitorA#template_active_timeout}
   */
   readonly templateActiveTimeout?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1043,19 +1043,19 @@ export interface VisibilityMonitorReplayDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -1199,25 +1199,25 @@ export interface VisibilityMonitorSecondaryMonitorDebugListStructA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -1413,19 +1413,19 @@ export interface VisibilityMonitorSecondaryMonitorDeleteDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -1569,19 +1569,19 @@ export interface VisibilityMonitorSecondaryMonitorReplayDebugFileA {
   /**
   * Specify source/dest ip addr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_ip_addr VisibilityMonitorA#debug_ip_addr}
   */
   readonly debugIpAddr?: string;
   /**
   * Specify port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_port VisibilityMonitorA#debug_port}
   */
   readonly debugPort?: number;
   /**
   * 'TCP': TCP; 'UDP': UDP; 'ICMP': ICMP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_protocol VisibilityMonitorA#debug_protocol}
   */
   readonly debugProtocol?: string;
 }
@@ -1725,43 +1725,43 @@ export interface VisibilityMonitorSecondaryMonitorA {
   /**
   * Enable topk for secondary entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#mon_entity_topk VisibilityMonitorA#mon_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#mon_entity_topk VisibilityMonitorA#mon_entity_topk}
   */
   readonly monEntityTopk?: number;
   /**
   * 'service': Monitor traffic to any service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#secondary_monitoring_key VisibilityMonitorA#secondary_monitoring_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#secondary_monitoring_key VisibilityMonitorA#secondary_monitoring_key}
   */
   readonly secondaryMonitoringKey?: string;
   /**
   * Enable topk for sources to secondary-entities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#source_entity_topk VisibilityMonitorA#source_entity_topk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#source_entity_topk VisibilityMonitorA#source_entity_topk}
   */
   readonly sourceEntityTopk?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
   /**
   * debug_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#debug_list VisibilityMonitorA#debug_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#debug_list VisibilityMonitorA#debug_list}
   */
   readonly debugList?: VisibilityMonitorSecondaryMonitorDebugListStructA[] | cdktf.IResolvable;
   /**
   * delete_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#delete_debug_file VisibilityMonitorA#delete_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#delete_debug_file VisibilityMonitorA#delete_debug_file}
   */
   readonly deleteDebugFile?: VisibilityMonitorSecondaryMonitorDeleteDebugFileA;
   /**
   * replay_debug_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#replay_debug_file VisibilityMonitorA#replay_debug_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#replay_debug_file VisibilityMonitorA#replay_debug_file}
   */
   readonly replayDebugFile?: VisibilityMonitorSecondaryMonitorReplayDebugFileA;
 }
@@ -2021,13 +2021,13 @@ export interface VisibilityMonitorSflowA {
   /**
   * sFlow port to receive packets (sFlow port number(default 6343))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#listening_port VisibilityMonitorA#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#listening_port VisibilityMonitorA#listening_port}
   */
   readonly listeningPort?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#uuid VisibilityMonitorA#uuid}
   */
   readonly uuid?: string;
 }
@@ -2140,7 +2140,7 @@ export class VisibilityMonitorSflowAOutputReference extends cdktf.ComplexObject 
 }
 export interface VisibilityMonitorTemplateNotificationA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#notif_template_name VisibilityMonitorA#notif_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#notif_template_name VisibilityMonitorA#notif_template_name}
   */
   readonly notifTemplateName?: string;
 }
@@ -2258,7 +2258,7 @@ export interface VisibilityMonitorTemplateA {
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#notification VisibilityMonitorA#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#notification VisibilityMonitorA#notification}
   */
   readonly notification?: VisibilityMonitorTemplateNotificationA[] | cdktf.IResolvable;
 }
@@ -2342,7 +2342,7 @@ export class VisibilityMonitorTemplateAOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor thunder_visibility_monitor}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor thunder_visibility_monitor}
 */
 export class VisibilityMonitorA extends cdktf.TerraformResource {
 
@@ -2358,7 +2358,7 @@ export class VisibilityMonitorA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VisibilityMonitorA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityMonitorA to import
-  * @param importFromId The id of the existing VisibilityMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityMonitorA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityMonitorA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2370,7 +2370,7 @@ export class VisibilityMonitorA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_monitor thunder_visibility_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_monitor thunder_visibility_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2381,8 +2381,8 @@ export class VisibilityMonitorA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_visibility_monitor',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

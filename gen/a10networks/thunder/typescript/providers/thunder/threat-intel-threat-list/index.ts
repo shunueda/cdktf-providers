@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ThreatIntelThreatListConfig extends cdktf.TerraformMetaArgument
   /**
   * Enable all categories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#all_categories ThreatIntelThreatList#all_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#all_categories ThreatIntelThreatList#all_categories}
   */
   readonly allCategories?: number;
   /**
   * Botnet C&C channels, and infected zombie machines controlled by Bot master
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#botnets ThreatIntelThreatList#botnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#botnets ThreatIntelThreatList#botnets}
   */
   readonly botnets?: number;
   /**
   * IP's participating in DOS, DDOS, anomalous sync flood, and anomalous traffic detection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#dos_attacks ThreatIntelThreatList#dos_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#dos_attacks ThreatIntelThreatList#dos_attacks}
   */
   readonly dosAttacks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#id ThreatIntelThreatList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#id ThreatIntelThreatList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface ThreatIntelThreatListConfig extends cdktf.TerraformMetaArgument
   /**
   * IP's associated with mobile threats
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#mobile_threats ThreatIntelThreatList#mobile_threats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#mobile_threats ThreatIntelThreatList#mobile_threats}
   */
   readonly mobileThreats?: number;
   /**
   * Threat category List name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#name ThreatIntelThreatList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#name ThreatIntelThreatList#name}
   */
   readonly name: string;
   /**
   * IP addresses hosting phishing sites, ad click fraud or gaming fraud
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#phishing ThreatIntelThreatList#phishing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#phishing ThreatIntelThreatList#phishing}
   */
   readonly phishing?: number;
   /**
   * IP addresses providing proxy services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#proxy ThreatIntelThreatList#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#proxy ThreatIntelThreatList#proxy}
   */
   readonly proxy?: number;
   /**
   * IP addresses currently known to be infected with malware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#reputation ThreatIntelThreatList#reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#reputation ThreatIntelThreatList#reputation}
   */
   readonly reputation?: number;
   /**
   * IP's associated with probes, host scan, domain scan, and password brute force attack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#scanners ThreatIntelThreatList#scanners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#scanners ThreatIntelThreatList#scanners}
   */
   readonly scanners?: number;
   /**
   * IP's tunneling spam messages through a proxy, anomalous SMTP activities, and forum spam activities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#spam_sources ThreatIntelThreatList#spam_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#spam_sources ThreatIntelThreatList#spam_sources}
   */
   readonly spamSources?: number;
   /**
   * IP's providing tor proxy services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#tor_proxy ThreatIntelThreatList#tor_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#tor_proxy ThreatIntelThreatList#tor_proxy}
   */
   readonly torProxy?: number;
   /**
   * 'webroot': Configure Webroot threat categories;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#type ThreatIntelThreatList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#type ThreatIntelThreatList#type}
   */
   readonly type?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#user_tag ThreatIntelThreatList#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#user_tag ThreatIntelThreatList#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#uuid ThreatIntelThreatList#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#uuid ThreatIntelThreatList#uuid}
   */
   readonly uuid?: string;
   /**
   * IP's associated with cross site scripting, iFrame injection, SQL injection, cross domain injection, or domain password brute fo
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#web_attacks ThreatIntelThreatList#web_attacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#web_attacks ThreatIntelThreatList#web_attacks}
   */
   readonly webAttacks?: number;
   /**
   * IP's associated with malware, shell code, rootkits, worms or viruses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#windows_exploits ThreatIntelThreatList#windows_exploits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#windows_exploits ThreatIntelThreatList#windows_exploits}
   */
   readonly windowsExploits?: number;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#sampling_enable ThreatIntelThreatList#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#sampling_enable ThreatIntelThreatList#sampling_enable}
   */
   readonly samplingEnable?: ThreatIntelThreatListSamplingEnable[] | cdktf.IResolvable;
 }
@@ -121,7 +121,7 @@ export interface ThreatIntelThreatListSamplingEnable {
   /**
   * 'all': all; 'spam-sources': Hits for spam sources; 'windows-exploits': Hits for windows exploits; 'web-attacks': Hits for web attacks; 'botnets': Hits for botnets; 'scanners': Hits for scanners; 'dos-attacks': Hits for dos attacks; 'reputation': Hits for reputation; 'phishing': Hits for phishing; 'proxy': Hits for proxy; 'mobile-threats': Hits for mobile threats; 'tor-proxy': Hits for tor-proxy; 'total-hits': Total hits for threat-list;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#counters1 ThreatIntelThreatList#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#counters1 ThreatIntelThreatList#counters1}
   */
   readonly counters1?: string;
 }
@@ -237,7 +237,7 @@ export class ThreatIntelThreatListSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list thunder_threat_intel_threat_list}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list thunder_threat_intel_threat_list}
 */
 export class ThreatIntelThreatList extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class ThreatIntelThreatList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatIntelThreatList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatIntelThreatList to import
-  * @param importFromId The id of the existing ThreatIntelThreatList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatIntelThreatList that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatIntelThreatList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class ThreatIntelThreatList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/threat_intel_threat_list thunder_threat_intel_threat_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/threat_intel_threat_list thunder_threat_intel_threat_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class ThreatIntelThreatList extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_threat_intel_threat_list',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

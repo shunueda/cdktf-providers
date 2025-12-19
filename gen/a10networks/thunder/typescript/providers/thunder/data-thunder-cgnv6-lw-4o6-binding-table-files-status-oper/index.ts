@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6Lw4O6BindingTableFilesStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#id DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#id DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,21 +17,21 @@ export interface DataThunderCgnv6Lw4O6BindingTableFilesStatusOperConfig extends 
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#oper DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#oper DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#oper}
   */
   readonly oper?: DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOper;
 }
 export interface DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOperEntryListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#active DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#active DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#active}
   */
   readonly active?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#modified DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#modified DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#modified}
   */
   readonly modified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#name DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#name DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#name}
   */
   readonly name?: string;
 }
@@ -205,13 +205,13 @@ export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOperEntryListStruct
 }
 export interface DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#entry_count DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#entry_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#entry_count DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#entry_count}
   */
   readonly entryCount?: number;
   /**
   * entry_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#entry_list DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#entry_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#entry_list DataThunderCgnv6Lw4O6BindingTableFilesStatusOper#entry_list}
   */
   readonly entryList?: DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOperEntryListStruct[] | cdktf.IResolvable;
 }
@@ -324,7 +324,7 @@ export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOperOperOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper thunder_cgnv6_lw_4o6_binding_table_files_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper thunder_cgnv6_lw_4o6_binding_table_files_status_oper}
 */
 export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOper extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOper extends cdktf.Terr
   * Generates CDKTF code for importing a DataThunderCgnv6Lw4O6BindingTableFilesStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6Lw4O6BindingTableFilesStatusOper to import
-  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6BindingTableFilesStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6Lw4O6BindingTableFilesStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6Lw4O6BindingTableFilesStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOper extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper thunder_cgnv6_lw_4o6_binding_table_files_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_lw_4o6_binding_table_files_status_oper thunder_cgnv6_lw_4o6_binding_table_files_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataThunderCgnv6Lw4O6BindingTableFilesStatusOper extends cdktf.Terr
       terraformResourceType: 'thunder_cgnv6_lw_4o6_binding_table_files_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

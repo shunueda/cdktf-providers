@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface FileGeoLocationLocalConfig extends cdktf.TerraformMetaArguments
   /**
   * 'create': create; 'import': import; 'export': export; 'copy': copy; 'rename': rename; 'check': check; 'replace': replace; 'delete': delete;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#action FileGeoLocationLocal#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#action FileGeoLocationLocal#action}
   */
   readonly action?: string;
   /**
   * destination file name for copy and rename action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#dst_file FileGeoLocationLocal#dst_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#dst_file FileGeoLocationLocal#dst_file}
   */
   readonly dstFile?: string;
   /**
   * geo-location database local file name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#file FileGeoLocationLocal#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#file FileGeoLocationLocal#file}
   */
   readonly file?: string;
   /**
   * full path of the uploaded file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#file_handle FileGeoLocationLocal#file_handle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#file_handle FileGeoLocationLocal#file_handle}
   */
   readonly fileHandle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#id FileGeoLocationLocal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#id FileGeoLocationLocal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface FileGeoLocationLocalConfig extends cdktf.TerraformMetaArguments
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#user_tag FileGeoLocationLocal#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#user_tag FileGeoLocationLocal#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#uuid FileGeoLocationLocal#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#uuid FileGeoLocationLocal#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local thunder_file_geo_location_local}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local thunder_file_geo_location_local}
 */
 export class FileGeoLocationLocal extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class FileGeoLocationLocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileGeoLocationLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileGeoLocationLocal to import
-  * @param importFromId The id of the existing FileGeoLocationLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileGeoLocationLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileGeoLocationLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class FileGeoLocationLocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/file_geo_location_local thunder_file_geo_location_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/file_geo_location_local thunder_file_geo_location_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class FileGeoLocationLocal extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_file_geo_location_local',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

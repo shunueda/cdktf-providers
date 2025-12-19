@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateAConfig extends cdktf.TerraformMetaArguments {
   /**
+  * Aam_auth_server_rad_inst_tmpl_name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#aam_auth_server_rad_inst_tmpl_name VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#aam_auth_server_rad_inst_tmpl_name}
+  */
+  readonly aamAuthServerRadInstTmplName: string;
+  /**
   * Enable automatic packet-capture for Accounting Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#accounting_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#accounting_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#accounting_failure}
   */
   readonly accountingFailure?: number;
   /**
   * Enable automatic packet-capture for Authentication Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#authen_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#authen_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#authen_failure}
   */
   readonly authenFailure?: number;
   /**
   * Enable automatic packet-capture for Authorization Failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#authorize_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#authorize_failure VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#authorize_failure}
   */
   readonly authorizeFailure?: number;
   /**
   * Time in seconds to look for the anomaly, default is 60
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#duration VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#id VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#name VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#name}
-  */
-  readonly name: string;
-  /**
   * Enable automatic packet-capture for Other Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#other_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#other_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#other_error}
   */
   readonly otherError?: number;
   /**
   * Set the threshold to the number of times greater than the previous duration to start the capture, default is 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#threshold_exceeded_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#threshold_exceeded_by VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#threshold_exceeded_by}
   */
   readonly thresholdExceededBy?: number;
   /**
   * Enable automatic packet-capture for Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#timeout_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#timeout_error VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#timeout_error}
   */
   readonly timeoutError?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#uuid VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate}
 */
 export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
   * Generates CDKTF code for importing a VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA to import
-  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTriggerStatsRateA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
       terraformResourceType: 'thunder_visibility_packet_capture_object_templates_aam_auth_server_rad_inst_tmpl_trigger_stats_rate',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -121,12 +121,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
       connection: config.connection,
       forEach: config.forEach
     });
+    this._aamAuthServerRadInstTmplName = config.aamAuthServerRadInstTmplName;
     this._accountingFailure = config.accountingFailure;
     this._authenFailure = config.authenFailure;
     this._authorizeFailure = config.authorizeFailure;
     this._duration = config.duration;
     this._id = config.id;
-    this._name = config.name;
     this._otherError = config.otherError;
     this._thresholdExceededBy = config.thresholdExceededBy;
     this._timeoutError = config.timeoutError;
@@ -136,6 +136,19 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // aam_auth_server_rad_inst_tmpl_name - computed: false, optional: false, required: true
+  private _aamAuthServerRadInstTmplName?: string; 
+  public get aamAuthServerRadInstTmplName() {
+    return this.getStringAttribute('aam_auth_server_rad_inst_tmpl_name');
+  }
+  public set aamAuthServerRadInstTmplName(value: string) {
+    this._aamAuthServerRadInstTmplName = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get aamAuthServerRadInstTmplNameInput() {
+    return this._aamAuthServerRadInstTmplName;
+  }
 
   // accounting_failure - computed: false, optional: true, required: false
   private _accountingFailure?: number; 
@@ -217,19 +230,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
     return this._id;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
-  }
-  public set name(value: string) {
-    this._name = value;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
-  }
-
   // other_error - computed: false, optional: true, required: false
   private _otherError?: number; 
   public get otherError() {
@@ -300,12 +300,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      aam_auth_server_rad_inst_tmpl_name: cdktf.stringToTerraform(this._aamAuthServerRadInstTmplName),
       accounting_failure: cdktf.numberToTerraform(this._accountingFailure),
       authen_failure: cdktf.numberToTerraform(this._authenFailure),
       authorize_failure: cdktf.numberToTerraform(this._authorizeFailure),
       duration: cdktf.numberToTerraform(this._duration),
       id: cdktf.stringToTerraform(this._id),
-      name: cdktf.stringToTerraform(this._name),
       other_error: cdktf.numberToTerraform(this._otherError),
       threshold_exceeded_by: cdktf.numberToTerraform(this._thresholdExceededBy),
       timeout_error: cdktf.numberToTerraform(this._timeoutError),
@@ -315,6 +315,12 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      aam_auth_server_rad_inst_tmpl_name: {
+        value: cdktf.stringToHclTerraform(this._aamAuthServerRadInstTmplName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       accounting_failure: {
         value: cdktf.numberToHclTerraform(this._accountingFailure),
         isBlock: false,
@@ -341,12 +347,6 @@ export class VisibilityPacketCaptureObjectTemplatesAamAuthServerRadInstTmplTrigg
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

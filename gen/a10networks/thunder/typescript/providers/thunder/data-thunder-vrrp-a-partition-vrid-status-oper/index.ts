@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderVrrpAPartitionVridStatusOperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#id DataThunderVrrpAPartitionVridStatusOper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#id DataThunderVrrpAPartitionVridStatusOper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,33 +17,33 @@ export interface DataThunderVrrpAPartitionVridStatusOperConfig extends cdktf.Ter
   /**
   * oper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#oper DataThunderVrrpAPartitionVridStatusOper#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#oper DataThunderVrrpAPartitionVridStatusOper#oper}
   */
   readonly oper?: DataThunderVrrpAPartitionVridStatusOperOper;
 }
 export interface DataThunderVrrpAPartitionVridStatusOperOperAllPartitionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_device_id DataThunderVrrpAPartitionVridStatusOper#active_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_device_id DataThunderVrrpAPartitionVridStatusOper#active_device_id}
   */
   readonly activeDeviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_priority DataThunderVrrpAPartitionVridStatusOper#active_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_priority DataThunderVrrpAPartitionVridStatusOper#active_priority}
   */
   readonly activePriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_weight DataThunderVrrpAPartitionVridStatusOper#active_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#active_weight DataThunderVrrpAPartitionVridStatusOper#active_weight}
   */
   readonly activeWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#local_device_id DataThunderVrrpAPartitionVridStatusOper#local_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#local_device_id DataThunderVrrpAPartitionVridStatusOper#local_device_id}
   */
   readonly localDeviceId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#partition_name DataThunderVrrpAPartitionVridStatusOper#partition_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#partition_name DataThunderVrrpAPartitionVridStatusOper#partition_name}
   */
   readonly partitionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#vrid DataThunderVrrpAPartitionVridStatusOper#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#vrid DataThunderVrrpAPartitionVridStatusOper#vrid}
   */
   readonly vrid?: number;
 }
@@ -306,7 +306,7 @@ export interface DataThunderVrrpAPartitionVridStatusOperOper {
   /**
   * all_partition_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#all_partition_list DataThunderVrrpAPartitionVridStatusOper#all_partition_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#all_partition_list DataThunderVrrpAPartitionVridStatusOper#all_partition_list}
   */
   readonly allPartitionList?: DataThunderVrrpAPartitionVridStatusOperOperAllPartitionListStruct[] | cdktf.IResolvable;
 }
@@ -390,7 +390,7 @@ export class DataThunderVrrpAPartitionVridStatusOperOperOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper thunder_vrrp_a_partition_vrid_status_oper}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper thunder_vrrp_a_partition_vrid_status_oper}
 */
 export class DataThunderVrrpAPartitionVridStatusOper extends cdktf.TerraformDataSource {
 
@@ -406,7 +406,7 @@ export class DataThunderVrrpAPartitionVridStatusOper extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataThunderVrrpAPartitionVridStatusOper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderVrrpAPartitionVridStatusOper to import
-  * @param importFromId The id of the existing DataThunderVrrpAPartitionVridStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderVrrpAPartitionVridStatusOper that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderVrrpAPartitionVridStatusOper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -418,7 +418,7 @@ export class DataThunderVrrpAPartitionVridStatusOper extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/vrrp_a_partition_vrid_status_oper thunder_vrrp_a_partition_vrid_status_oper} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/vrrp_a_partition_vrid_status_oper thunder_vrrp_a_partition_vrid_status_oper} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -429,8 +429,8 @@ export class DataThunderVrrpAPartitionVridStatusOper extends cdktf.TerraformData
       terraformResourceType: 'thunder_vrrp_a_partition_vrid_status_oper',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

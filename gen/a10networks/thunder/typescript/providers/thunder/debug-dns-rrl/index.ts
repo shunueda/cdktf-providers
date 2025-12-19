@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DebugDnsRrlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Dummy
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl#dumy DebugDnsRrl#dumy}
-  */
-  readonly dumy?: number;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl#id DebugDnsRrl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl#id DebugDnsRrl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Debug level (Level 1-4)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl#level DebugDnsRrl#level}
+  */
+  readonly level?: number;
+  /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl#uuid DebugDnsRrl#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl#uuid DebugDnsRrl#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl thunder_debug_dns_rrl}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl thunder_debug_dns_rrl}
 */
 export class DebugDnsRrl extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DebugDnsRrl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DebugDnsRrl to import
-  * @param importFromId The id of the existing DebugDnsRrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DebugDnsRrl that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DebugDnsRrl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/debug_dns_rrl thunder_debug_dns_rrl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/debug_dns_rrl thunder_debug_dns_rrl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_debug_dns_rrl',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -79,30 +79,14 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._dumy = config.dumy;
     this._id = config.id;
+    this._level = config.level;
     this._uuid = config.uuid;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // dumy - computed: false, optional: true, required: false
-  private _dumy?: number; 
-  public get dumy() {
-    return this.getNumberAttribute('dumy');
-  }
-  public set dumy(value: number) {
-    this._dumy = value;
-  }
-  public resetDumy() {
-    this._dumy = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get dumyInput() {
-    return this._dumy;
-  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -118,6 +102,22 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // level - computed: false, optional: true, required: false
+  private _level?: number; 
+  public get level() {
+    return this.getNumberAttribute('level');
+  }
+  public set level(value: number) {
+    this._level = value;
+  }
+  public resetLevel() {
+    this._level = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get levelInput() {
+    return this._level;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -142,25 +142,25 @@ export class DebugDnsRrl extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      dumy: cdktf.numberToTerraform(this._dumy),
       id: cdktf.stringToTerraform(this._id),
+      level: cdktf.numberToTerraform(this._level),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      dumy: {
-        value: cdktf.numberToHclTerraform(this._dumy),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
-      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      level: {
+        value: cdktf.numberToHclTerraform(this._level),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       uuid: {
         value: cdktf.stringToHclTerraform(this._uuid),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderSlbSwitchStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#id DataThunderSlbSwitchStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#id DataThunderSlbSwitchStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderSlbSwitchStatsConfig extends cdktf.TerraformMetaArgu
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#stats DataThunderSlbSwitchStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#stats DataThunderSlbSwitchStats#stats}
   */
   readonly stats?: DataThunderSlbSwitchStatsStats;
 }
@@ -25,649 +25,685 @@ export interface DataThunderSlbSwitchStatsStats {
   /**
   * ACL Denys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#acl_deny DataThunderSlbSwitchStats#acl_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#acl_deny DataThunderSlbSwitchStats#acl_deny}
   */
   readonly aclDeny?: number;
   /**
   * Bad Pkt Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#badpkt_drop DataThunderSlbSwitchStats#badpkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#badpkt_drop DataThunderSlbSwitchStats#badpkt_drop}
   */
   readonly badpktDrop?: number;
   /**
   * BPDUs Received
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#bpdu_rcvd DataThunderSlbSwitchStats#bpdu_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#bpdu_rcvd DataThunderSlbSwitchStats#bpdu_rcvd}
   */
   readonly bpduRcvd?: number;
   /**
   * BPDUs Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#bpdu_sent DataThunderSlbSwitchStats#bpdu_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#bpdu_sent DataThunderSlbSwitchStats#bpdu_sent}
   */
   readonly bpduSent?: number;
   /**
   * BW Limit ignored packets count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#bw_ignore_limit DataThunderSlbSwitchStats#bw_ignore_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#bw_ignore_limit DataThunderSlbSwitchStats#bw_ignore_limit}
   */
   readonly bwIgnoreLimit?: number;
   /**
   * BW Limit Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#bwl_drop DataThunderSlbSwitchStats#bwl_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#bwl_drop DataThunderSlbSwitchStats#bwl_drop}
   */
   readonly bwlDrop?: number;
   /**
   * Linux Closed Port SYN Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#closed_port_syn_drop DataThunderSlbSwitchStats#closed_port_syn_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#closed_port_syn_drop DataThunderSlbSwitchStats#closed_port_syn_drop}
   */
   readonly closedPortSynDrop?: number;
   /**
   * SYN rate exceeded Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ctrl_syn_rate_drop DataThunderSlbSwitchStats#ctrl_syn_rate_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ctrl_syn_rate_drop DataThunderSlbSwitchStats#ctrl_syn_rate_drop}
   */
   readonly ctrlSynRateDrop?: number;
   /**
   * ARP PKT dropped due to interface state checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#dev_based_arp_drop DataThunderSlbSwitchStats#dev_based_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#dev_based_arp_drop DataThunderSlbSwitchStats#dev_based_arp_drop}
   */
   readonly devBasedArpDrop?: number;
   /**
   * ARP PKT dropped due to interface is down
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#dev_link_down_arp_drop DataThunderSlbSwitchStats#dev_link_down_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#dev_link_down_arp_drop DataThunderSlbSwitchStats#dev_link_down_arp_drop}
   */
   readonly devLinkDownArpDrop?: number;
   /**
   * FPGA Error PKT1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#fpga_error_pkt1 DataThunderSlbSwitchStats#fpga_error_pkt1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#fpga_error_pkt1 DataThunderSlbSwitchStats#fpga_error_pkt1}
   */
   readonly fpgaErrorPkt1?: number;
   /**
   * FPGA Error PKT2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#fpga_error_pkt2 DataThunderSlbSwitchStats#fpga_error_pkt2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#fpga_error_pkt2 DataThunderSlbSwitchStats#fpga_error_pkt2}
   */
   readonly fpgaErrorPkt2?: number;
   /**
   * FW SMP Zone Mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#fw_smp_zone_mismatch DataThunderSlbSwitchStats#fw_smp_zone_mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#fw_smp_zone_mismatch DataThunderSlbSwitchStats#fw_smp_zone_mismatch}
   */
   readonly fwSmpZoneMismatch?: number;
   /**
   * FWLB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#fwlb DataThunderSlbSwitchStats#fwlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#fwlb DataThunderSlbSwitchStats#fwlb}
   */
   readonly fwlb?: number;
   /**
   * ARP PKT dropped due to inactive nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#inactive_nat_pool_arp_drop DataThunderSlbSwitchStats#inactive_nat_pool_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#inactive_nat_pool_arp_drop DataThunderSlbSwitchStats#inactive_nat_pool_arp_drop}
   */
   readonly inactiveNatPoolArpDrop?: number;
   /**
   * ARP PKT dropped due to inactive static nat pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#inactive_static_nat_pool_arp_drop DataThunderSlbSwitchStats#inactive_static_nat_pool_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#inactive_static_nat_pool_arp_drop DataThunderSlbSwitchStats#inactive_static_nat_pool_arp_drop}
   */
   readonly inactiveStaticNatPoolArpDrop?: number;
   /**
   * Incorrect Length Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#incorrect_len_drop DataThunderSlbSwitchStats#incorrect_len_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#incorrect_len_drop DataThunderSlbSwitchStats#incorrect_len_drop}
   */
   readonly incorrectLenDrop?: number;
   /**
   * Invalid ARP PKT Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#invalid_rx_arp_pkt DataThunderSlbSwitchStats#invalid_rx_arp_pkt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#invalid_rx_arp_pkt DataThunderSlbSwitchStats#invalid_rx_arp_pkt}
   */
   readonly invalidRxArpPkt?: number;
   /**
   * ARP PKT dropped due to invalid sender MAC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#invalid_sender_mac_arp_drop DataThunderSlbSwitchStats#invalid_sender_mac_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#invalid_sender_mac_arp_drop DataThunderSlbSwitchStats#invalid_sender_mac_arp_drop}
   */
   readonly invalidSenderMacArpDrop?: number;
   /**
   * IP Defrag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_defrag DataThunderSlbSwitchStats#ip_defrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_defrag DataThunderSlbSwitchStats#ip_defrag}
   */
   readonly ipDefrag?: number;
   /**
   * IP Invalid Length Frag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_defrag_invalid_len DataThunderSlbSwitchStats#ip_defrag_invalid_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_defrag_invalid_len DataThunderSlbSwitchStats#ip_defrag_invalid_len}
   */
   readonly ipDefragInvalidLen?: number;
   /**
   * IP Fragment oversize
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_frag_oversize DataThunderSlbSwitchStats#ip_frag_oversize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_frag_oversize DataThunderSlbSwitchStats#ip_frag_oversize}
   */
   readonly ipFragOversize?: number;
   /**
   * IP frag sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_frag_sent DataThunderSlbSwitchStats#ip_frag_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_frag_sent DataThunderSlbSwitchStats#ip_frag_sent}
   */
   readonly ipFragSent?: number;
   /**
   * IP Fragment too many
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_frag_too_many DataThunderSlbSwitchStats#ip_frag_too_many}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_frag_too_many DataThunderSlbSwitchStats#ip_frag_too_many}
   */
   readonly ipFragTooMany?: number;
   /**
+  * IP ICMP Error Drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_icmp_error_drop DataThunderSlbSwitchStats#ip_icmp_error_drop}
+  */
+  readonly ipIcmpErrorDrop?: number;
+  /**
   * ARP PKT dropped due to IP not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ip_not_found_arp_drop DataThunderSlbSwitchStats#ip_not_found_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ip_not_found_arp_drop DataThunderSlbSwitchStats#ip_not_found_arp_drop}
   */
   readonly ipNotFoundArpDrop?: number;
   /**
   * IP(ESP) Fragment Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_esp DataThunderSlbSwitchStats#ipfrag_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_esp DataThunderSlbSwitchStats#ipfrag_esp}
   */
   readonly ipfragEsp?: number;
   /**
   * IP(ICMP) Fragment Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_icmp DataThunderSlbSwitchStats#ipfrag_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_icmp DataThunderSlbSwitchStats#ipfrag_icmp}
   */
   readonly ipfragIcmp?: number;
   /**
   * IP Frag IPIP Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_ipip_dropped DataThunderSlbSwitchStats#ipfrag_ipip_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_ipip_dropped DataThunderSlbSwitchStats#ipfrag_ipip_dropped}
   */
   readonly ipfragIpipDropped?: number;
   /**
   * IP(OSPF) Fragment Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_ospf DataThunderSlbSwitchStats#ipfrag_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_ospf DataThunderSlbSwitchStats#ipfrag_ospf}
   */
   readonly ipfragOspf?: number;
   /**
   * IP Fragment Overlap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_overlap DataThunderSlbSwitchStats#ipfrag_overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_overlap DataThunderSlbSwitchStats#ipfrag_overlap}
   */
   readonly ipfragOverlap?: number;
   /**
   * IP Frag Overload Drops
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_overload DataThunderSlbSwitchStats#ipfrag_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_overload DataThunderSlbSwitchStats#ipfrag_overload}
   */
   readonly ipfragOverload?: number;
   /**
   * IP Fragment Reasm Fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_reasmfails DataThunderSlbSwitchStats#ipfrag_reasmfails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_reasmfails DataThunderSlbSwitchStats#ipfrag_reasmfails}
   */
   readonly ipfragReasmfails?: number;
   /**
   * IP Fragment Reasm OKs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_reasmoks DataThunderSlbSwitchStats#ipfrag_reasmoks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_reasmoks DataThunderSlbSwitchStats#ipfrag_reasmoks}
   */
   readonly ipfragReasmoks?: number;
   /**
   * IP(TCP) Fragment Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_tcp DataThunderSlbSwitchStats#ipfrag_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_tcp DataThunderSlbSwitchStats#ipfrag_tcp}
   */
   readonly ipfragTcp?: number;
   /**
   * IP Frag TCP Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_tcp_dropped DataThunderSlbSwitchStats#ipfrag_tcp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_tcp_dropped DataThunderSlbSwitchStats#ipfrag_tcp_dropped}
   */
   readonly ipfragTcpDropped?: number;
   /**
   * IP Fragment Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_timeout DataThunderSlbSwitchStats#ipfrag_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_timeout DataThunderSlbSwitchStats#ipfrag_timeout}
   */
   readonly ipfragTimeout?: number;
   /**
   * IP(UDP) Fragment Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_udp DataThunderSlbSwitchStats#ipfrag_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_udp DataThunderSlbSwitchStats#ipfrag_udp}
   */
   readonly ipfragUdp?: number;
   /**
   * IP Frag UDP Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipfrag_udp_dropped DataThunderSlbSwitchStats#ipfrag_udp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipfrag_udp_dropped DataThunderSlbSwitchStats#ipfrag_udp_dropped}
   */
   readonly ipfragUdpDropped?: number;
   /**
   * IPIPv6 Jumbo Frag Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipipv6_jumbo_frag_drop DataThunderSlbSwitchStats#ipipv6_jumbo_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipipv6_jumbo_frag_drop DataThunderSlbSwitchStats#ipipv6_jumbo_frag_drop}
   */
   readonly ipipv6JumboFragDrop?: number;
   /**
   * IPSec Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipsec_drop DataThunderSlbSwitchStats#ipsec_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipsec_drop DataThunderSlbSwitchStats#ipsec_drop}
   */
   readonly ipsecDrop?: number;
   /**
   * IPv4 Frag 6RD Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv4_frag_6rd_drop DataThunderSlbSwitchStats#ipv4_frag_6rd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_frag_6rd_drop DataThunderSlbSwitchStats#ipv4_frag_6rd_drop}
   */
   readonly ipv4Frag6RdDrop?: number;
   /**
   * IPv4 Frag 6RD OK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv4_frag_6rd_ok DataThunderSlbSwitchStats#ipv4_frag_6rd_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_frag_6rd_ok DataThunderSlbSwitchStats#ipv4_frag_6rd_ok}
   */
   readonly ipv4Frag6RdOk?: number;
   /**
   * IPv4 No Route Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv4_noroute_drop DataThunderSlbSwitchStats#ipv4_noroute_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_noroute_drop DataThunderSlbSwitchStats#ipv4_noroute_drop}
   */
   readonly ipv4NorouteDrop?: number;
   /**
   * IPv4 No L3 VLAN FWD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv4_novlanfwd_drop DataThunderSlbSwitchStats#ipv4_novlanfwd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_novlanfwd_drop DataThunderSlbSwitchStats#ipv4_novlanfwd_drop}
   */
   readonly ipv4NovlanfwdDrop?: number;
   /**
+  * IPv4 RPF drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_rpf_drop DataThunderSlbSwitchStats#ipv4_rpf_drop}
+  */
+  readonly ipv4RpfDrop?: number;
+  /**
+  * IPv4 source routed packet drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv4_src_routed_pkt_drop DataThunderSlbSwitchStats#ipv4_src_routed_pkt_drop}
+  */
+  readonly ipv4SrcRoutedPktDrop?: number;
+  /**
   * IPv6 Jumbo Frag Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_jumbo_frag_drop DataThunderSlbSwitchStats#ipv6_jumbo_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_jumbo_frag_drop DataThunderSlbSwitchStats#ipv6_jumbo_frag_drop}
   */
   readonly ipv6JumboFragDrop?: number;
   /**
   * IPv6 DAD on Adverts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_adverts DataThunderSlbSwitchStats#ipv6_ndisc_dad_adverts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_adverts DataThunderSlbSwitchStats#ipv6_ndisc_dad_adverts}
   */
   readonly ipv6NdiscDadAdverts?: number;
   /**
   * IPv6 DAD on Advertise drop for prefix mismatch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_prefix_mismatch_drop DataThunderSlbSwitchStats#ipv6_ndisc_dad_prefix_mismatch_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_prefix_mismatch_drop DataThunderSlbSwitchStats#ipv6_ndisc_dad_prefix_mismatch_drop}
   */
   readonly ipv6NdiscDadPrefixMismatchDrop?: number;
   /**
   * IPv6 DAD on Solicits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_solicits DataThunderSlbSwitchStats#ipv6_ndisc_dad_solicits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_ndisc_dad_solicits DataThunderSlbSwitchStats#ipv6_ndisc_dad_solicits}
   */
   readonly ipv6NdiscDadSolicits?: number;
   /**
   * IPv6 DAD MAC Changed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_ndisc_mac_changes DataThunderSlbSwitchStats#ipv6_ndisc_mac_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_ndisc_mac_changes DataThunderSlbSwitchStats#ipv6_ndisc_mac_changes}
   */
   readonly ipv6NdiscMacChanges?: number;
   /**
   * IPv6 DAD Out-of-memory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_ndisc_out_of_memory DataThunderSlbSwitchStats#ipv6_ndisc_out_of_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_ndisc_out_of_memory DataThunderSlbSwitchStats#ipv6_ndisc_out_of_memory}
   */
   readonly ipv6NdiscOutOfMemory?: number;
   /**
   * IPv6 No Route Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_noroute_drop DataThunderSlbSwitchStats#ipv6_noroute_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_noroute_drop DataThunderSlbSwitchStats#ipv6_noroute_drop}
   */
   readonly ipv6NorouteDrop?: number;
   /**
   * IPv6 No L3 VLAN FWD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6_novlanfwd_drop DataThunderSlbSwitchStats#ipv6_novlanfwd_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_novlanfwd_drop DataThunderSlbSwitchStats#ipv6_novlanfwd_drop}
   */
   readonly ipv6NovlanfwdDrop?: number;
   /**
+  * IPv6 RPF drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_rpf_drop DataThunderSlbSwitchStats#ipv6_rpf_drop}
+  */
+  readonly ipv6RpfDrop?: number;
+  /**
+  * IPv6 source routed packet drop
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6_src_routed_pkt_drop DataThunderSlbSwitchStats#ipv6_src_routed_pkt_drop}
+  */
+  readonly ipv6SrcRoutedPktDrop?: number;
+  /**
   * IPv6 Frag ESP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_esp DataThunderSlbSwitchStats#ipv6frag_esp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_esp DataThunderSlbSwitchStats#ipv6frag_esp}
   */
   readonly ipv6FragEsp?: number;
   /**
   * IPv6 Frag gre Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_gre_dropped DataThunderSlbSwitchStats#ipv6frag_gre_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_gre_dropped DataThunderSlbSwitchStats#ipv6frag_gre_dropped}
   */
   readonly ipv6FragGreDropped?: number;
   /**
   * IPv6 Frag ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_icmp DataThunderSlbSwitchStats#ipv6frag_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_icmp DataThunderSlbSwitchStats#ipv6frag_icmp}
   */
   readonly ipv6FragIcmp?: number;
   /**
   * IPv6 Frag IPIP Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_ipip_dropped DataThunderSlbSwitchStats#ipv6frag_ipip_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_ipip_dropped DataThunderSlbSwitchStats#ipv6frag_ipip_dropped}
   */
   readonly ipv6FragIpipDropped?: number;
   /**
   * IPv6 Frag IPIP OKs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_ipip_ok DataThunderSlbSwitchStats#ipv6frag_ipip_ok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_ipip_ok DataThunderSlbSwitchStats#ipv6frag_ipip_ok}
   */
   readonly ipv6FragIpipOk?: number;
   /**
   * IPv6 Frag OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_ospf DataThunderSlbSwitchStats#ipv6frag_ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_ospf DataThunderSlbSwitchStats#ipv6frag_ospf}
   */
   readonly ipv6FragOspf?: number;
   /**
   * IPv6 Frag TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_tcp DataThunderSlbSwitchStats#ipv6frag_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_tcp DataThunderSlbSwitchStats#ipv6frag_tcp}
   */
   readonly ipv6FragTcp?: number;
   /**
   * IPv6 Frag TCP Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_tcp_dropped DataThunderSlbSwitchStats#ipv6frag_tcp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_tcp_dropped DataThunderSlbSwitchStats#ipv6frag_tcp_dropped}
   */
   readonly ipv6FragTcpDropped?: number;
   /**
   * IPv6 Frag UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_udp DataThunderSlbSwitchStats#ipv6frag_udp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_udp DataThunderSlbSwitchStats#ipv6frag_udp}
   */
   readonly ipv6FragUdp?: number;
   /**
   * IPv6 Frag UDP Dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ipv6frag_udp_dropped DataThunderSlbSwitchStats#ipv6frag_udp_dropped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ipv6frag_udp_dropped DataThunderSlbSwitchStats#ipv6frag_udp_dropped}
   */
   readonly ipv6FragUdpDropped?: number;
   /**
   * Jumbo Frag Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#jumbo_frag_drop DataThunderSlbSwitchStats#jumbo_frag_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#jumbo_frag_drop DataThunderSlbSwitchStats#jumbo_frag_drop}
   */
   readonly jumboFragDrop?: number;
   /**
   * L2 Default Vlan FWD Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l2_def_vlan_drop DataThunderSlbSwitchStats#l2_def_vlan_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l2_def_vlan_drop DataThunderSlbSwitchStats#l2_def_vlan_drop}
   */
   readonly l2DefVlanDrop?: number;
   /**
   * L2 Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l2_forward DataThunderSlbSwitchStats#l2_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l2_forward DataThunderSlbSwitchStats#l2_forward}
   */
   readonly l2Forward?: number;
   /**
   * L3 IP Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l3_forward_ip DataThunderSlbSwitchStats#l3_forward_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l3_forward_ip DataThunderSlbSwitchStats#l3_forward_ip}
   */
   readonly l3ForwardIp?: number;
   /**
   * L3 IPv6 Forward
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l3_forward_ipv6 DataThunderSlbSwitchStats#l3_forward_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l3_forward_ipv6 DataThunderSlbSwitchStats#l3_forward_ipv6}
   */
   readonly l3ForwardIpv6?: number;
   /**
   * L4 In Ctrl CPU
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l4_in_ctrl_cpu DataThunderSlbSwitchStats#l4_in_ctrl_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l4_in_ctrl_cpu DataThunderSlbSwitchStats#l4_in_ctrl_cpu}
   */
   readonly l4InCtrlCpu?: number;
   /**
   * L4 Process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#l4_process DataThunderSlbSwitchStats#l4_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#l4_process DataThunderSlbSwitchStats#l4_process}
   */
   readonly l4Process?: number;
   /**
   * LACP interface error corrected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#lacp_tx_intf_err_drop DataThunderSlbSwitchStats#lacp_tx_intf_err_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#lacp_tx_intf_err_drop DataThunderSlbSwitchStats#lacp_tx_intf_err_drop}
   */
   readonly lacpTxIntfErrDrop?: number;
   /**
   * License Expire Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#licexpire_drop DataThunderSlbSwitchStats#licexpire_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#licexpire_drop DataThunderSlbSwitchStats#licexpire_drop}
   */
   readonly licexpireDrop?: number;
   /**
   * Link Down Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#linkdown_drop DataThunderSlbSwitchStats#linkdown_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#linkdown_drop DataThunderSlbSwitchStats#linkdown_drop}
   */
   readonly linkdownDrop?: number;
   /**
+  * MAC movement
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#mac_movement DataThunderSlbSwitchStats#mac_movement}
+  */
+  readonly macMovement?: number;
+  /**
   * Max ARP Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#max_arp_drop DataThunderSlbSwitchStats#max_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#max_arp_drop DataThunderSlbSwitchStats#max_arp_drop}
   */
   readonly maxArpDrop?: number;
   /**
   * Management Service Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#mgmt_svc_drop DataThunderSlbSwitchStats#mgmt_svc_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#mgmt_svc_drop DataThunderSlbSwitchStats#mgmt_svc_drop}
   */
   readonly mgmtSvcDrop?: number;
   /**
   * No IP Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#no_ip_drop DataThunderSlbSwitchStats#no_ip_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#no_ip_drop DataThunderSlbSwitchStats#no_ip_drop}
   */
   readonly noIpDrop?: number;
   /**
   * Packet-Per-Sec Limit Drop at egress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ppsl_drop_egr DataThunderSlbSwitchStats#ppsl_drop_egr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ppsl_drop_egr DataThunderSlbSwitchStats#ppsl_drop_egr}
   */
   readonly ppslDropEgr?: number;
   /**
   * Packet-Per-Sec Limit Drop at ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ppsl_drop_ing DataThunderSlbSwitchStats#ppsl_drop_ing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ppsl_drop_ing DataThunderSlbSwitchStats#ppsl_drop_ing}
   */
   readonly ppslDropIng?: number;
   /**
   * Packet-Per-Sec Limit ignored packets count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ppsl_ignore_limit DataThunderSlbSwitchStats#ppsl_ignore_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ppsl_ignore_limit DataThunderSlbSwitchStats#ppsl_ignore_limit}
   */
   readonly ppslIgnoreLimit?: number;
   /**
   * Prot Down Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#prot_down_drop DataThunderSlbSwitchStats#prot_down_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#prot_down_drop DataThunderSlbSwitchStats#prot_down_drop}
   */
   readonly protDownDrop?: number;
   /**
   * Redirect failed in the fwd direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#redirect_fwd_fail DataThunderSlbSwitchStats#redirect_fwd_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#redirect_fwd_fail DataThunderSlbSwitchStats#redirect_fwd_fail}
   */
   readonly redirectFwdFail?: number;
   /**
   * Redirect succeeded in the fwd direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#redirect_fwd_sent DataThunderSlbSwitchStats#redirect_fwd_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#redirect_fwd_sent DataThunderSlbSwitchStats#redirect_fwd_sent}
   */
   readonly redirectFwdSent?: number;
   /**
   * Redirect failed in the rev direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#redirect_rev_fail DataThunderSlbSwitchStats#redirect_rev_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#redirect_rev_fail DataThunderSlbSwitchStats#redirect_rev_fail}
   */
   readonly redirectRevFail?: number;
   /**
   * Redirect succeeded in the rev direction
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#redirect_rev_sent DataThunderSlbSwitchStats#redirect_rev_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#redirect_rev_sent DataThunderSlbSwitchStats#redirect_rev_sent}
   */
   readonly redirectRevSent?: number;
   /**
   * Redirect connection setup failed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#redirect_setup_fail DataThunderSlbSwitchStats#redirect_setup_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#redirect_setup_fail DataThunderSlbSwitchStats#redirect_setup_fail}
   */
   readonly redirectSetupFail?: number;
   /**
   * ARP REQ Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#rx_arp_req DataThunderSlbSwitchStats#rx_arp_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#rx_arp_req DataThunderSlbSwitchStats#rx_arp_req}
   */
   readonly rxArpReq?: number;
   /**
   * ARP RESP Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#rx_arp_resp DataThunderSlbSwitchStats#rx_arp_resp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#rx_arp_resp DataThunderSlbSwitchStats#rx_arp_resp}
   */
   readonly rxArpResp?: number;
   /**
   * Received kernel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#rx_kernel DataThunderSlbSwitchStats#rx_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#rx_kernel DataThunderSlbSwitchStats#rx_kernel}
   */
   readonly rxKernel?: number;
   /**
   * ARP PKT dropped due to scaleout checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#scaleout_arp_drop DataThunderSlbSwitchStats#scaleout_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#scaleout_arp_drop DataThunderSlbSwitchStats#scaleout_arp_drop}
   */
   readonly scaleoutArpDrop?: number;
   /**
   * ARP PKT dropped due to scaleout hairpin checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#scaleout_hairpin_arp_drop DataThunderSlbSwitchStats#scaleout_hairpin_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#scaleout_hairpin_arp_drop DataThunderSlbSwitchStats#scaleout_hairpin_arp_drop}
   */
   readonly scaleoutHairpinArpDrop?: number;
   /**
   * Self generated grat ARP PKT dropped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#self_grat_arp_drop DataThunderSlbSwitchStats#self_grat_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#self_grat_arp_drop DataThunderSlbSwitchStats#self_grat_arp_drop}
   */
   readonly selfGratArpDrop?: number;
   /**
   * Self generated grat ARP PKT dropped for NAT IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#self_grat_nat_ip_arp_drop DataThunderSlbSwitchStats#self_grat_nat_ip_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#self_grat_nat_ip_arp_drop DataThunderSlbSwitchStats#self_grat_nat_ip_arp_drop}
   */
   readonly selfGratNatIpArpDrop?: number;
   /**
   * Service Chain Packets Rcvd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#service_chain_rcvd DataThunderSlbSwitchStats#service_chain_rcvd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#service_chain_rcvd DataThunderSlbSwitchStats#service_chain_rcvd}
   */
   readonly serviceChainRcvd?: number;
   /**
   * Service Chain Packets Sent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#service_chain_sent DataThunderSlbSwitchStats#service_chain_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#service_chain_sent DataThunderSlbSwitchStats#service_chain_sent}
   */
   readonly serviceChainSent?: number;
   /**
   * Shared IP mode non ctrl packet to linux drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#sp_non_ctrl_pkt_drop DataThunderSlbSwitchStats#sp_non_ctrl_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#sp_non_ctrl_pkt_drop DataThunderSlbSwitchStats#sp_non_ctrl_pkt_drop}
   */
   readonly spNonCtrlPktDrop?: number;
   /**
   * SPORT Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#sport_drop DataThunderSlbSwitchStats#sport_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#sport_drop DataThunderSlbSwitchStats#sport_drop}
   */
   readonly sportDrop?: number;
   /**
   * TLS12-Request-Per-Sec Limit Drop at ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls12_drop_req DataThunderSlbSwitchStats#tls12_drop_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls12_drop_req DataThunderSlbSwitchStats#tls12_drop_req}
   */
   readonly tls12DropReq?: number;
   /**
   * TLS12-Request-Per-Sec Limit ignored packets count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls12_ignore_req DataThunderSlbSwitchStats#tls12_ignore_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls12_ignore_req DataThunderSlbSwitchStats#tls12_ignore_req}
   */
   readonly tls12IgnoreReq?: number;
   /**
   * TLS12--TLS13-Request-Per-Sec Limit Drop at ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls12_tls13_drop_req DataThunderSlbSwitchStats#tls12_tls13_drop_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls12_tls13_drop_req DataThunderSlbSwitchStats#tls12_tls13_drop_req}
   */
   readonly tls12Tls13DropReq?: number;
   /**
   * TLS12-TLS13-Request-Per-Sec Limit ignored packets count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls12_tls13_ignore_req DataThunderSlbSwitchStats#tls12_tls13_ignore_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls12_tls13_ignore_req DataThunderSlbSwitchStats#tls12_tls13_ignore_req}
   */
   readonly tls12Tls13IgnoreReq?: number;
   /**
   * TLS13-Request-Per-Sec Limit Drop at ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls13_drop_req DataThunderSlbSwitchStats#tls13_drop_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls13_drop_req DataThunderSlbSwitchStats#tls13_drop_req}
   */
   readonly tls13DropReq?: number;
   /**
   * TLS13-Request-Per-Sec Limit ignored packets count
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#tls13_ignore_req DataThunderSlbSwitchStats#tls13_ignore_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#tls13_ignore_req DataThunderSlbSwitchStats#tls13_ignore_req}
   */
   readonly tls13IgnoreReq?: number;
   /**
   * TTL Exceeded Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#ttl_exceeded_drop DataThunderSlbSwitchStats#ttl_exceeded_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#ttl_exceeded_drop DataThunderSlbSwitchStats#ttl_exceeded_drop}
   */
   readonly ttlExceededDrop?: number;
   /**
   * Unknown Prot Drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#unknown_prot_drop DataThunderSlbSwitchStats#unknown_prot_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#unknown_prot_drop DataThunderSlbSwitchStats#unknown_prot_drop}
   */
   readonly unknownProtDrop?: number;
   /**
   * Unnumbered NAT error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#unnumbered_nat_error DataThunderSlbSwitchStats#unnumbered_nat_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#unnumbered_nat_error DataThunderSlbSwitchStats#unnumbered_nat_error}
   */
   readonly unnumberedNatError?: number;
   /**
   * Unsupported protocol for unnumbered
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#unnumbered_unsupported_drop DataThunderSlbSwitchStats#unnumbered_unsupported_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#unnumbered_unsupported_drop DataThunderSlbSwitchStats#unnumbered_unsupported_drop}
   */
   readonly unnumberedUnsupportedDrop?: number;
   /**
   * URPF check packet drop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#urpf_pkt_drop DataThunderSlbSwitchStats#urpf_pkt_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#urpf_pkt_drop DataThunderSlbSwitchStats#urpf_pkt_drop}
   */
   readonly urpfPktDrop?: number;
   /**
   * ARP PKT dropped due to virtual IP not found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#virtual_ip_not_found_arp_drop DataThunderSlbSwitchStats#virtual_ip_not_found_arp_drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#virtual_ip_not_found_arp_drop DataThunderSlbSwitchStats#virtual_ip_not_found_arp_drop}
   */
   readonly virtualIpNotFoundArpDrop?: number;
   /**
   * VLAN Flood
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#vlan_flood DataThunderSlbSwitchStats#vlan_flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#vlan_flood DataThunderSlbSwitchStats#vlan_flood}
   */
   readonly vlanFlood?: number;
 }
@@ -702,6 +738,7 @@ export function dataThunderSlbSwitchStatsStatsToTerraform(struct?: DataThunderSl
     ip_frag_oversize: cdktf.numberToTerraform(struct!.ipFragOversize),
     ip_frag_sent: cdktf.numberToTerraform(struct!.ipFragSent),
     ip_frag_too_many: cdktf.numberToTerraform(struct!.ipFragTooMany),
+    ip_icmp_error_drop: cdktf.numberToTerraform(struct!.ipIcmpErrorDrop),
     ip_not_found_arp_drop: cdktf.numberToTerraform(struct!.ipNotFoundArpDrop),
     ipfrag_esp: cdktf.numberToTerraform(struct!.ipfragEsp),
     ipfrag_icmp: cdktf.numberToTerraform(struct!.ipfragIcmp),
@@ -722,6 +759,8 @@ export function dataThunderSlbSwitchStatsStatsToTerraform(struct?: DataThunderSl
     ipv4_frag_6rd_ok: cdktf.numberToTerraform(struct!.ipv4Frag6RdOk),
     ipv4_noroute_drop: cdktf.numberToTerraform(struct!.ipv4NorouteDrop),
     ipv4_novlanfwd_drop: cdktf.numberToTerraform(struct!.ipv4NovlanfwdDrop),
+    ipv4_rpf_drop: cdktf.numberToTerraform(struct!.ipv4RpfDrop),
+    ipv4_src_routed_pkt_drop: cdktf.numberToTerraform(struct!.ipv4SrcRoutedPktDrop),
     ipv6_jumbo_frag_drop: cdktf.numberToTerraform(struct!.ipv6JumboFragDrop),
     ipv6_ndisc_dad_adverts: cdktf.numberToTerraform(struct!.ipv6NdiscDadAdverts),
     ipv6_ndisc_dad_prefix_mismatch_drop: cdktf.numberToTerraform(struct!.ipv6NdiscDadPrefixMismatchDrop),
@@ -730,6 +769,8 @@ export function dataThunderSlbSwitchStatsStatsToTerraform(struct?: DataThunderSl
     ipv6_ndisc_out_of_memory: cdktf.numberToTerraform(struct!.ipv6NdiscOutOfMemory),
     ipv6_noroute_drop: cdktf.numberToTerraform(struct!.ipv6NorouteDrop),
     ipv6_novlanfwd_drop: cdktf.numberToTerraform(struct!.ipv6NovlanfwdDrop),
+    ipv6_rpf_drop: cdktf.numberToTerraform(struct!.ipv6RpfDrop),
+    ipv6_src_routed_pkt_drop: cdktf.numberToTerraform(struct!.ipv6SrcRoutedPktDrop),
     ipv6frag_esp: cdktf.numberToTerraform(struct!.ipv6FragEsp),
     ipv6frag_gre_dropped: cdktf.numberToTerraform(struct!.ipv6FragGreDropped),
     ipv6frag_icmp: cdktf.numberToTerraform(struct!.ipv6FragIcmp),
@@ -750,6 +791,7 @@ export function dataThunderSlbSwitchStatsStatsToTerraform(struct?: DataThunderSl
     lacp_tx_intf_err_drop: cdktf.numberToTerraform(struct!.lacpTxIntfErrDrop),
     licexpire_drop: cdktf.numberToTerraform(struct!.licexpireDrop),
     linkdown_drop: cdktf.numberToTerraform(struct!.linkdownDrop),
+    mac_movement: cdktf.numberToTerraform(struct!.macMovement),
     max_arp_drop: cdktf.numberToTerraform(struct!.maxArpDrop),
     mgmt_svc_drop: cdktf.numberToTerraform(struct!.mgmtSvcDrop),
     no_ip_drop: cdktf.numberToTerraform(struct!.noIpDrop),
@@ -940,6 +982,12 @@ export function dataThunderSlbSwitchStatsStatsToHclTerraform(struct?: DataThunde
       type: "simple",
       storageClassType: "number",
     },
+    ip_icmp_error_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipIcmpErrorDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     ip_not_found_arp_drop: {
       value: cdktf.numberToHclTerraform(struct!.ipNotFoundArpDrop),
       isBlock: false,
@@ -1060,6 +1108,18 @@ export function dataThunderSlbSwitchStatsStatsToHclTerraform(struct?: DataThunde
       type: "simple",
       storageClassType: "number",
     },
+    ipv4_rpf_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipv4RpfDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv4_src_routed_pkt_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipv4SrcRoutedPktDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     ipv6_jumbo_frag_drop: {
       value: cdktf.numberToHclTerraform(struct!.ipv6JumboFragDrop),
       isBlock: false,
@@ -1104,6 +1164,18 @@ export function dataThunderSlbSwitchStatsStatsToHclTerraform(struct?: DataThunde
     },
     ipv6_novlanfwd_drop: {
       value: cdktf.numberToHclTerraform(struct!.ipv6NovlanfwdDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6_rpf_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipv6RpfDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ipv6_src_routed_pkt_drop: {
+      value: cdktf.numberToHclTerraform(struct!.ipv6SrcRoutedPktDrop),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1224,6 +1296,12 @@ export function dataThunderSlbSwitchStatsStatsToHclTerraform(struct?: DataThunde
     },
     linkdown_drop: {
       value: cdktf.numberToHclTerraform(struct!.linkdownDrop),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    mac_movement: {
+      value: cdktf.numberToHclTerraform(struct!.macMovement),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1560,6 +1638,10 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.ipFragTooMany = this._ipFragTooMany;
     }
+    if (this._ipIcmpErrorDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipIcmpErrorDrop = this._ipIcmpErrorDrop;
+    }
     if (this._ipNotFoundArpDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipNotFoundArpDrop = this._ipNotFoundArpDrop;
@@ -1640,6 +1722,14 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.ipv4NovlanfwdDrop = this._ipv4NovlanfwdDrop;
     }
+    if (this._ipv4RpfDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4RpfDrop = this._ipv4RpfDrop;
+    }
+    if (this._ipv4SrcRoutedPktDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4SrcRoutedPktDrop = this._ipv4SrcRoutedPktDrop;
+    }
     if (this._ipv6JumboFragDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipv6JumboFragDrop = this._ipv6JumboFragDrop;
@@ -1671,6 +1761,14 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
     if (this._ipv6NovlanfwdDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.ipv6NovlanfwdDrop = this._ipv6NovlanfwdDrop;
+    }
+    if (this._ipv6RpfDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6RpfDrop = this._ipv6RpfDrop;
+    }
+    if (this._ipv6SrcRoutedPktDrop !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6SrcRoutedPktDrop = this._ipv6SrcRoutedPktDrop;
     }
     if (this._ipv6FragEsp !== undefined) {
       hasAnyValues = true;
@@ -1751,6 +1849,10 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
     if (this._linkdownDrop !== undefined) {
       hasAnyValues = true;
       internalValueResult.linkdownDrop = this._linkdownDrop;
+    }
+    if (this._macMovement !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.macMovement = this._macMovement;
     }
     if (this._maxArpDrop !== undefined) {
       hasAnyValues = true;
@@ -1926,6 +2028,7 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipFragOversize = undefined;
       this._ipFragSent = undefined;
       this._ipFragTooMany = undefined;
+      this._ipIcmpErrorDrop = undefined;
       this._ipNotFoundArpDrop = undefined;
       this._ipfragEsp = undefined;
       this._ipfragIcmp = undefined;
@@ -1946,6 +2049,8 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipv4Frag6RdOk = undefined;
       this._ipv4NorouteDrop = undefined;
       this._ipv4NovlanfwdDrop = undefined;
+      this._ipv4RpfDrop = undefined;
+      this._ipv4SrcRoutedPktDrop = undefined;
       this._ipv6JumboFragDrop = undefined;
       this._ipv6NdiscDadAdverts = undefined;
       this._ipv6NdiscDadPrefixMismatchDrop = undefined;
@@ -1954,6 +2059,8 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipv6NdiscOutOfMemory = undefined;
       this._ipv6NorouteDrop = undefined;
       this._ipv6NovlanfwdDrop = undefined;
+      this._ipv6RpfDrop = undefined;
+      this._ipv6SrcRoutedPktDrop = undefined;
       this._ipv6FragEsp = undefined;
       this._ipv6FragGreDropped = undefined;
       this._ipv6FragIcmp = undefined;
@@ -1974,6 +2081,7 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._lacpTxIntfErrDrop = undefined;
       this._licexpireDrop = undefined;
       this._linkdownDrop = undefined;
+      this._macMovement = undefined;
       this._maxArpDrop = undefined;
       this._mgmtSvcDrop = undefined;
       this._noIpDrop = undefined;
@@ -2037,6 +2145,7 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipFragOversize = value.ipFragOversize;
       this._ipFragSent = value.ipFragSent;
       this._ipFragTooMany = value.ipFragTooMany;
+      this._ipIcmpErrorDrop = value.ipIcmpErrorDrop;
       this._ipNotFoundArpDrop = value.ipNotFoundArpDrop;
       this._ipfragEsp = value.ipfragEsp;
       this._ipfragIcmp = value.ipfragIcmp;
@@ -2057,6 +2166,8 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipv4Frag6RdOk = value.ipv4Frag6RdOk;
       this._ipv4NorouteDrop = value.ipv4NorouteDrop;
       this._ipv4NovlanfwdDrop = value.ipv4NovlanfwdDrop;
+      this._ipv4RpfDrop = value.ipv4RpfDrop;
+      this._ipv4SrcRoutedPktDrop = value.ipv4SrcRoutedPktDrop;
       this._ipv6JumboFragDrop = value.ipv6JumboFragDrop;
       this._ipv6NdiscDadAdverts = value.ipv6NdiscDadAdverts;
       this._ipv6NdiscDadPrefixMismatchDrop = value.ipv6NdiscDadPrefixMismatchDrop;
@@ -2065,6 +2176,8 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._ipv6NdiscOutOfMemory = value.ipv6NdiscOutOfMemory;
       this._ipv6NorouteDrop = value.ipv6NorouteDrop;
       this._ipv6NovlanfwdDrop = value.ipv6NovlanfwdDrop;
+      this._ipv6RpfDrop = value.ipv6RpfDrop;
+      this._ipv6SrcRoutedPktDrop = value.ipv6SrcRoutedPktDrop;
       this._ipv6FragEsp = value.ipv6FragEsp;
       this._ipv6FragGreDropped = value.ipv6FragGreDropped;
       this._ipv6FragIcmp = value.ipv6FragIcmp;
@@ -2085,6 +2198,7 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
       this._lacpTxIntfErrDrop = value.lacpTxIntfErrDrop;
       this._licexpireDrop = value.licexpireDrop;
       this._linkdownDrop = value.linkdownDrop;
+      this._macMovement = value.macMovement;
       this._maxArpDrop = value.maxArpDrop;
       this._mgmtSvcDrop = value.mgmtSvcDrop;
       this._noIpDrop = value.noIpDrop;
@@ -2508,6 +2622,22 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
     return this._ipFragTooMany;
   }
 
+  // ip_icmp_error_drop - computed: false, optional: true, required: false
+  private _ipIcmpErrorDrop?: number; 
+  public get ipIcmpErrorDrop() {
+    return this.getNumberAttribute('ip_icmp_error_drop');
+  }
+  public set ipIcmpErrorDrop(value: number) {
+    this._ipIcmpErrorDrop = value;
+  }
+  public resetIpIcmpErrorDrop() {
+    this._ipIcmpErrorDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipIcmpErrorDropInput() {
+    return this._ipIcmpErrorDrop;
+  }
+
   // ip_not_found_arp_drop - computed: false, optional: true, required: false
   private _ipNotFoundArpDrop?: number; 
   public get ipNotFoundArpDrop() {
@@ -2828,6 +2958,38 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
     return this._ipv4NovlanfwdDrop;
   }
 
+  // ipv4_rpf_drop - computed: false, optional: true, required: false
+  private _ipv4RpfDrop?: number; 
+  public get ipv4RpfDrop() {
+    return this.getNumberAttribute('ipv4_rpf_drop');
+  }
+  public set ipv4RpfDrop(value: number) {
+    this._ipv4RpfDrop = value;
+  }
+  public resetIpv4RpfDrop() {
+    this._ipv4RpfDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4RpfDropInput() {
+    return this._ipv4RpfDrop;
+  }
+
+  // ipv4_src_routed_pkt_drop - computed: false, optional: true, required: false
+  private _ipv4SrcRoutedPktDrop?: number; 
+  public get ipv4SrcRoutedPktDrop() {
+    return this.getNumberAttribute('ipv4_src_routed_pkt_drop');
+  }
+  public set ipv4SrcRoutedPktDrop(value: number) {
+    this._ipv4SrcRoutedPktDrop = value;
+  }
+  public resetIpv4SrcRoutedPktDrop() {
+    this._ipv4SrcRoutedPktDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4SrcRoutedPktDropInput() {
+    return this._ipv4SrcRoutedPktDrop;
+  }
+
   // ipv6_jumbo_frag_drop - computed: false, optional: true, required: false
   private _ipv6JumboFragDrop?: number; 
   public get ipv6JumboFragDrop() {
@@ -2954,6 +3116,38 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get ipv6NovlanfwdDropInput() {
     return this._ipv6NovlanfwdDrop;
+  }
+
+  // ipv6_rpf_drop - computed: false, optional: true, required: false
+  private _ipv6RpfDrop?: number; 
+  public get ipv6RpfDrop() {
+    return this.getNumberAttribute('ipv6_rpf_drop');
+  }
+  public set ipv6RpfDrop(value: number) {
+    this._ipv6RpfDrop = value;
+  }
+  public resetIpv6RpfDrop() {
+    this._ipv6RpfDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6RpfDropInput() {
+    return this._ipv6RpfDrop;
+  }
+
+  // ipv6_src_routed_pkt_drop - computed: false, optional: true, required: false
+  private _ipv6SrcRoutedPktDrop?: number; 
+  public get ipv6SrcRoutedPktDrop() {
+    return this.getNumberAttribute('ipv6_src_routed_pkt_drop');
+  }
+  public set ipv6SrcRoutedPktDrop(value: number) {
+    this._ipv6SrcRoutedPktDrop = value;
+  }
+  public resetIpv6SrcRoutedPktDrop() {
+    this._ipv6SrcRoutedPktDrop = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6SrcRoutedPktDropInput() {
+    return this._ipv6SrcRoutedPktDrop;
   }
 
   // ipv6frag_esp - computed: false, optional: true, required: false
@@ -3274,6 +3468,22 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
   // Temporarily expose input value. Use with caution.
   public get linkdownDropInput() {
     return this._linkdownDrop;
+  }
+
+  // mac_movement - computed: false, optional: true, required: false
+  private _macMovement?: number; 
+  public get macMovement() {
+    return this.getNumberAttribute('mac_movement');
+  }
+  public set macMovement(value: number) {
+    this._macMovement = value;
+  }
+  public resetMacMovement() {
+    this._macMovement = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get macMovementInput() {
+    return this._macMovement;
   }
 
   // max_arp_drop - computed: false, optional: true, required: false
@@ -3854,7 +4064,7 @@ export class DataThunderSlbSwitchStatsStatsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats thunder_slb_switch_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats thunder_slb_switch_stats}
 */
 export class DataThunderSlbSwitchStats extends cdktf.TerraformDataSource {
 
@@ -3870,7 +4080,7 @@ export class DataThunderSlbSwitchStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderSlbSwitchStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderSlbSwitchStats to import
-  * @param importFromId The id of the existing DataThunderSlbSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderSlbSwitchStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderSlbSwitchStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3882,7 +4092,7 @@ export class DataThunderSlbSwitchStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/slb_switch_stats thunder_slb_switch_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/slb_switch_stats thunder_slb_switch_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3893,8 +4103,8 @@ export class DataThunderSlbSwitchStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_slb_switch_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderAamAuthenticationRelayHttpBasicInstanceStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#id DataThunderAamAuthenticationRelayHttpBasicInstanceStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#id DataThunderAamAuthenticationRelayHttpBasicInstanceStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataThunderAamAuthenticationRelayHttpBasicInstanceStatsConfig e
   /**
   * Specify HTTP basic authentication relay name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#name DataThunderAamAuthenticationRelayHttpBasicInstanceStats#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#name DataThunderAamAuthenticationRelayHttpBasicInstanceStats#name}
   */
   readonly name: string;
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#stats DataThunderAamAuthenticationRelayHttpBasicInstanceStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#stats DataThunderAamAuthenticationRelayHttpBasicInstanceStats#stats}
   */
   readonly stats?: DataThunderAamAuthenticationRelayHttpBasicInstanceStatsStats;
 }
@@ -31,49 +31,49 @@ export interface DataThunderAamAuthenticationRelayHttpBasicInstanceStatsStats {
   /**
   * Bad Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#bad_req DataThunderAamAuthenticationRelayHttpBasicInstanceStats#bad_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#bad_req DataThunderAamAuthenticationRelayHttpBasicInstanceStats#bad_req}
   */
   readonly badReq?: number;
   /**
   * Forbidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#forbidden DataThunderAamAuthenticationRelayHttpBasicInstanceStats#forbidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#forbidden DataThunderAamAuthenticationRelayHttpBasicInstanceStats#forbidden}
   */
   readonly forbidden?: number;
   /**
   * No Credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#no_creds DataThunderAamAuthenticationRelayHttpBasicInstanceStats#no_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#no_creds DataThunderAamAuthenticationRelayHttpBasicInstanceStats#no_creds}
   */
   readonly noCreds?: number;
   /**
   * Not Found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#not_found DataThunderAamAuthenticationRelayHttpBasicInstanceStats#not_found}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#not_found DataThunderAamAuthenticationRelayHttpBasicInstanceStats#not_found}
   */
   readonly notFound?: number;
   /**
   * Internal Server Error
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#server_error DataThunderAamAuthenticationRelayHttpBasicInstanceStats#server_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#server_error DataThunderAamAuthenticationRelayHttpBasicInstanceStats#server_error}
   */
   readonly serverError?: number;
   /**
   * Success
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#success DataThunderAamAuthenticationRelayHttpBasicInstanceStats#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#success DataThunderAamAuthenticationRelayHttpBasicInstanceStats#success}
   */
   readonly success?: number;
   /**
   * Unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#unauth DataThunderAamAuthenticationRelayHttpBasicInstanceStats#unauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#unauth DataThunderAamAuthenticationRelayHttpBasicInstanceStats#unauth}
   */
   readonly unauth?: number;
   /**
   * Service Unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#unavailable DataThunderAamAuthenticationRelayHttpBasicInstanceStats#unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#unavailable DataThunderAamAuthenticationRelayHttpBasicInstanceStats#unavailable}
   */
   readonly unavailable?: number;
 }
@@ -360,7 +360,7 @@ export class DataThunderAamAuthenticationRelayHttpBasicInstanceStatsStatsOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats thunder_aam_authentication_relay_http_basic_instance_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats thunder_aam_authentication_relay_http_basic_instance_stats}
 */
 export class DataThunderAamAuthenticationRelayHttpBasicInstanceStats extends cdktf.TerraformDataSource {
 
@@ -376,7 +376,7 @@ export class DataThunderAamAuthenticationRelayHttpBasicInstanceStats extends cdk
   * Generates CDKTF code for importing a DataThunderAamAuthenticationRelayHttpBasicInstanceStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderAamAuthenticationRelayHttpBasicInstanceStats to import
-  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayHttpBasicInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderAamAuthenticationRelayHttpBasicInstanceStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderAamAuthenticationRelayHttpBasicInstanceStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -388,7 +388,7 @@ export class DataThunderAamAuthenticationRelayHttpBasicInstanceStats extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/aam_authentication_relay_http_basic_instance_stats thunder_aam_authentication_relay_http_basic_instance_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/aam_authentication_relay_http_basic_instance_stats thunder_aam_authentication_relay_http_basic_instance_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -399,8 +399,8 @@ export class DataThunderAamAuthenticationRelayHttpBasicInstanceStats extends cdk
       terraformResourceType: 'thunder_aam_authentication_relay_http_basic_instance_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

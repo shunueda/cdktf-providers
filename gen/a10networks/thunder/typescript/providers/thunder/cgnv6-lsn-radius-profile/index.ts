@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface Cgnv6LsnRadiusProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#id Cgnv6LsnRadiusProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#id Cgnv6LsnRadiusProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface Cgnv6LsnRadiusProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * LSN RADIUS Profile Index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#lid_profile_index Cgnv6LsnRadiusProfile#lid_profile_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#lid_profile_index Cgnv6LsnRadiusProfile#lid_profile_index}
   */
   readonly lidProfileIndex: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#user_tag Cgnv6LsnRadiusProfile#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#user_tag Cgnv6LsnRadiusProfile#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#uuid Cgnv6LsnRadiusProfile#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#uuid Cgnv6LsnRadiusProfile#uuid}
   */
   readonly uuid?: string;
   /**
   * radius block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#radius Cgnv6LsnRadiusProfile#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#radius Cgnv6LsnRadiusProfile#radius}
   */
   readonly radius?: Cgnv6LsnRadiusProfileRadius[] | cdktf.IResolvable;
 }
@@ -43,37 +43,37 @@ export interface Cgnv6LsnRadiusProfileRadius {
   /**
   * 'custom1': Configure RADIUS Attribute Custom 1; 'custom2': Configure RADIUS Attribute Custom 2; 'custom3': Configure RADIUS Attribute Custom 3; 'custom4': Configure RADIUS Attribute Custom 4; 'custom5': Configure RADIUS Attribute Custom 5; 'custom6': Configure RADIUS Attribute Custom 6; 'imei': Configure RADIUS Attribute IMEI; 'imsi': Configure RADIUS Attribute IMSI; 'msisdn': Configure RADIUS Attribute MSISDN; 'default': Configure default;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#attribute Cgnv6LsnRadiusProfile#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#attribute Cgnv6LsnRadiusProfile#attribute}
   */
   readonly attribute?: string;
   /**
   * LSN Limit ID (LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#default_lsn_lid Cgnv6LsnRadiusProfile#default_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#default_lsn_lid Cgnv6LsnRadiusProfile#default_lsn_lid}
   */
   readonly defaultLsnLid?: number;
   /**
   * Value of the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#exact_value Cgnv6LsnRadiusProfile#exact_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#exact_value Cgnv6LsnRadiusProfile#exact_value}
   */
   readonly exactValue?: string;
   /**
   * LSN Limit ID (LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#exact_value_lsn_lid Cgnv6LsnRadiusProfile#exact_value_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#exact_value_lsn_lid Cgnv6LsnRadiusProfile#exact_value_lsn_lid}
   */
   readonly exactValueLsnLid?: number;
   /**
   * Value of the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#starts_with Cgnv6LsnRadiusProfile#starts_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#starts_with Cgnv6LsnRadiusProfile#starts_with}
   */
   readonly startsWith?: string;
   /**
   * LSN Limit ID (LID index)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#starts_with_lsn_lid Cgnv6LsnRadiusProfile#starts_with_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#starts_with_lsn_lid Cgnv6LsnRadiusProfile#starts_with_lsn_lid}
   */
   readonly startsWithLsnLid?: number;
 }
@@ -334,7 +334,7 @@ export class Cgnv6LsnRadiusProfileRadiusList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile thunder_cgnv6_lsn_radius_profile}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile thunder_cgnv6_lsn_radius_profile}
 */
 export class Cgnv6LsnRadiusProfile extends cdktf.TerraformResource {
 
@@ -350,7 +350,7 @@ export class Cgnv6LsnRadiusProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cgnv6LsnRadiusProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cgnv6LsnRadiusProfile to import
-  * @param importFromId The id of the existing Cgnv6LsnRadiusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cgnv6LsnRadiusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cgnv6LsnRadiusProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class Cgnv6LsnRadiusProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/cgnv6_lsn_radius_profile thunder_cgnv6_lsn_radius_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/cgnv6_lsn_radius_profile thunder_cgnv6_lsn_radius_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class Cgnv6LsnRadiusProfile extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_cgnv6_lsn_radius_profile',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

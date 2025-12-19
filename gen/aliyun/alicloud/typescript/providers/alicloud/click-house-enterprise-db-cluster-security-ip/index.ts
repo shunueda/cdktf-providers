@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip
+// https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ClickHouseEnterpriseDbClusterSecurityIpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#db_instance_id ClickHouseEnterpriseDbClusterSecurityIp#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#db_instance_id ClickHouseEnterpriseDbClusterSecurityIp#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#group_name ClickHouseEnterpriseDbClusterSecurityIp#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#group_name ClickHouseEnterpriseDbClusterSecurityIp#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#id ClickHouseEnterpriseDbClusterSecurityIp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#id ClickHouseEnterpriseDbClusterSecurityIp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#security_ip_list ClickHouseEnterpriseDbClusterSecurityIp#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#security_ip_list ClickHouseEnterpriseDbClusterSecurityIp#security_ip_list}
   */
   readonly securityIpList: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#timeouts ClickHouseEnterpriseDbClusterSecurityIp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#timeouts ClickHouseEnterpriseDbClusterSecurityIp#timeouts}
   */
   readonly timeouts?: ClickHouseEnterpriseDbClusterSecurityIpTimeouts;
 }
 export interface ClickHouseEnterpriseDbClusterSecurityIpTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#create ClickHouseEnterpriseDbClusterSecurityIp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#create ClickHouseEnterpriseDbClusterSecurityIp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#delete ClickHouseEnterpriseDbClusterSecurityIp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#delete ClickHouseEnterpriseDbClusterSecurityIp#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#update ClickHouseEnterpriseDbClusterSecurityIp#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#update ClickHouseEnterpriseDbClusterSecurityIp#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ClickHouseEnterpriseDbClusterSecurityIpTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip alicloud_click_house_enterprise_db_cluster_security_ip}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip alicloud_click_house_enterprise_db_cluster_security_ip}
 */
 export class ClickHouseEnterpriseDbClusterSecurityIp extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ClickHouseEnterpriseDbClusterSecurityIp extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ClickHouseEnterpriseDbClusterSecurityIp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickHouseEnterpriseDbClusterSecurityIp to import
-  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterSecurityIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterSecurityIp that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickHouseEnterpriseDbClusterSecurityIp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ClickHouseEnterpriseDbClusterSecurityIp extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.265.0/docs/resources/click_house_enterprise_db_cluster_security_ip alicloud_click_house_enterprise_db_cluster_security_ip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.266.0/docs/resources/click_house_enterprise_db_cluster_security_ip alicloud_click_house_enterprise_db_cluster_security_ip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ClickHouseEnterpriseDbClusterSecurityIp extends cdktf.TerraformReso
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_security_ip',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.265.0',
-        providerVersionConstraint: '1.265.0'
+        providerVersion: '1.266.0',
+        providerVersionConstraint: '1.266.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

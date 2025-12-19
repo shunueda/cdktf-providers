@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface AcosEventsLogdbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable logging for all widgets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_all AcosEventsLogdb#enable_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_all AcosEventsLogdb#enable_all}
   */
   readonly enableAll?: number;
   /**
   * Enable CGN logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_cgn AcosEventsLogdb#enable_cgn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_cgn AcosEventsLogdb#enable_cgn}
   */
   readonly enableCgn?: number;
   /**
   * Enable Firewall logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_fw AcosEventsLogdb#enable_fw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_fw AcosEventsLogdb#enable_fw}
   */
   readonly enableFw?: number;
   /**
   * Enable HTTP forward proxy logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_http_forward_proxy AcosEventsLogdb#enable_http_forward_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_http_forward_proxy AcosEventsLogdb#enable_http_forward_proxy}
   */
   readonly enableHttpForwardProxy?: number;
   /**
   * Enable link-cost logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_link_cost AcosEventsLogdb#enable_link_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_link_cost AcosEventsLogdb#enable_link_cost}
   */
   readonly enableLinkCost?: number;
   /**
   * Enable MQTT logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_mqtt AcosEventsLogdb#enable_mqtt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_mqtt AcosEventsLogdb#enable_mqtt}
   */
   readonly enableMqtt?: number;
   /**
   * Enable SMTP logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_smtp AcosEventsLogdb#enable_smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_smtp AcosEventsLogdb#enable_smtp}
   */
   readonly enableSmtp?: number;
   /**
   * Enable SSLi logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#enable_ssli AcosEventsLogdb#enable_ssli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#enable_ssli AcosEventsLogdb#enable_ssli}
   */
   readonly enableSsli?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#id AcosEventsLogdb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#id AcosEventsLogdb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,13 +65,13 @@ export interface AcosEventsLogdbConfig extends cdktf.TerraformMetaArguments {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#uuid AcosEventsLogdb#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#uuid AcosEventsLogdb#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb thunder_acos_events_logdb}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb thunder_acos_events_logdb}
 */
 export class AcosEventsLogdb extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class AcosEventsLogdb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AcosEventsLogdb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AcosEventsLogdb to import
-  * @param importFromId The id of the existing AcosEventsLogdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AcosEventsLogdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AcosEventsLogdb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class AcosEventsLogdb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/acos_events_logdb thunder_acos_events_logdb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/acos_events_logdb thunder_acos_events_logdb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class AcosEventsLogdb extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_acos_events_logdb',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

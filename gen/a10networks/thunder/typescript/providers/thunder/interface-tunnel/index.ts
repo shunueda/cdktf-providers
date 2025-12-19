@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface InterfaceTunnelConfig extends cdktf.TerraformMetaArguments {
   /**
   * 'enable': Enable; 'disable': Disable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#action InterfaceTunnel#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#action InterfaceTunnel#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#id InterfaceTunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#id InterfaceTunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,85 +23,79 @@ export interface InterfaceTunnelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tunnel interface number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ifnum InterfaceTunnel#ifnum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ifnum InterfaceTunnel#ifnum}
   */
   readonly ifnum: number;
   /**
   * Configure Load Interval (Seconds (5-300, Multiple of 5), default 300)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#load_interval InterfaceTunnel#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#load_interval InterfaceTunnel#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * Interface mtu (Interface MTU, default 1 (min MTU is 1280 for IPv6))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu InterfaceTunnel#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu InterfaceTunnel#mtu}
   */
   readonly mtu?: number;
   /**
   * Name for the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#name InterfaceTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#name InterfaceTunnel#name}
   */
   readonly name?: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#packet_capture_template InterfaceTunnel#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#packet_capture_template InterfaceTunnel#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
-  * Configure security level for interface. 100 - Most Secure
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#security_level InterfaceTunnel#security_level}
-  */
-  readonly securityLevel?: number;
-  /**
   * Speed in Gbit/Sec (Default 10 Gbps)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#speed InterfaceTunnel#speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#speed InterfaceTunnel#speed}
   */
   readonly speed?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#user_tag InterfaceTunnel#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#user_tag InterfaceTunnel#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ip InterfaceTunnel#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ip InterfaceTunnel#ip}
   */
   readonly ip?: InterfaceTunnelIp;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ipv6 InterfaceTunnel#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ipv6 InterfaceTunnel#ipv6}
   */
   readonly ipv6?: InterfaceTunnelIpv6;
   /**
   * lw_4o6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#lw_4o6 InterfaceTunnel#lw_4o6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#lw_4o6 InterfaceTunnel#lw_4o6}
   */
   readonly lw4O6?: InterfaceTunnelLw4O6;
   /**
   * map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#map InterfaceTunnel#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#map InterfaceTunnel#map}
   */
   readonly map?: InterfaceTunnelMap;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#sampling_enable InterfaceTunnel#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#sampling_enable InterfaceTunnel#sampling_enable}
   */
   readonly samplingEnable?: InterfaceTunnelSamplingEnable[] | cdktf.IResolvable;
 }
@@ -109,13 +103,13 @@ export interface InterfaceTunnelIpAddressIpCfg {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ipv4_address InterfaceTunnel#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ipv4_address InterfaceTunnel#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IP subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ipv4_netmask InterfaceTunnel#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ipv4_netmask InterfaceTunnel#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
 }
@@ -262,13 +256,13 @@ export interface InterfaceTunnelIpAddress {
   /**
   * Use DHCP to configure IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#dhcp InterfaceTunnel#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#dhcp InterfaceTunnel#dhcp}
   */
   readonly dhcp?: number;
   /**
   * ip_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ip_cfg InterfaceTunnel#ip_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ip_cfg InterfaceTunnel#ip_cfg}
   */
   readonly ipCfg?: InterfaceTunnelIpAddressIpCfg[] | cdktf.IResolvable;
 }
@@ -383,13 +377,13 @@ export interface InterfaceTunnelIpOspfOspfGlobalAuthenticationCfg {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
   */
   readonly authentication?: number;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#value InterfaceTunnel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#value InterfaceTunnel#value}
   */
   readonly value?: string;
 }
@@ -504,13 +498,13 @@ export interface InterfaceTunnelIpOspfOspfGlobalBfdCfg {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#bfd InterfaceTunnel#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#bfd InterfaceTunnel#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
   */
   readonly disable?: number;
 }
@@ -625,13 +619,13 @@ export interface InterfaceTunnelIpOspfOspfGlobalDatabaseFilterCfg {
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#database_filter InterfaceTunnel#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#database_filter InterfaceTunnel#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#out InterfaceTunnel#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#out InterfaceTunnel#out}
   */
   readonly out?: number;
 }
@@ -746,7 +740,7 @@ export interface InterfaceTunnelIpOspfOspfGlobalMessageDigestCfgMd5 {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#md5_value InterfaceTunnel#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#md5_value InterfaceTunnel#md5_value}
   */
   readonly md5Value?: string;
 }
@@ -832,13 +826,13 @@ export interface InterfaceTunnelIpOspfOspfGlobalMessageDigestCfg {
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#message_digest_key InterfaceTunnel#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#message_digest_key InterfaceTunnel#message_digest_key}
   */
   readonly messageDigestKey?: number;
   /**
   * md5 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#md5 InterfaceTunnel#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#md5 InterfaceTunnel#md5}
   */
   readonly md5?: InterfaceTunnelIpOspfOspfGlobalMessageDigestCfgMd5;
 }
@@ -985,31 +979,31 @@ export interface InterfaceTunnelIpOspfOspfGlobalNetwork {
   /**
   * Specify OSPF broadcast multi-access network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#broadcast InterfaceTunnel#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#broadcast InterfaceTunnel#broadcast}
   */
   readonly broadcast?: number;
   /**
   * Specify OSPF NBMA network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#non_broadcast InterfaceTunnel#non_broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#non_broadcast InterfaceTunnel#non_broadcast}
   */
   readonly nonBroadcast?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#p2mp_nbma InterfaceTunnel#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#p2mp_nbma InterfaceTunnel#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
   /**
   * Specify OSPF point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#point_to_multipoint InterfaceTunnel#point_to_multipoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#point_to_multipoint InterfaceTunnel#point_to_multipoint}
   */
   readonly pointToMultipoint?: number;
   /**
   * Specify OSPF point-to-point network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#point_to_point InterfaceTunnel#point_to_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#point_to_point InterfaceTunnel#point_to_point}
   */
   readonly pointToPoint?: number;
 }
@@ -1211,97 +1205,97 @@ export interface InterfaceTunnelIpOspfOspfGlobal {
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication_key InterfaceTunnel#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication_key InterfaceTunnel#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
   */
   readonly cost?: number;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * 'all': All functionality;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
   */
   readonly disable?: string;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * OSPF interface MTU (MTU size)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu InterfaceTunnel#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu InterfaceTunnel#mtu}
   */
   readonly mtu?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication_cfg InterfaceTunnel#authentication_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication_cfg InterfaceTunnel#authentication_cfg}
   */
   readonly authenticationCfg?: InterfaceTunnelIpOspfOspfGlobalAuthenticationCfg;
   /**
   * bfd_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#bfd_cfg InterfaceTunnel#bfd_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#bfd_cfg InterfaceTunnel#bfd_cfg}
   */
   readonly bfdCfg?: InterfaceTunnelIpOspfOspfGlobalBfdCfg;
   /**
   * database_filter_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#database_filter_cfg InterfaceTunnel#database_filter_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#database_filter_cfg InterfaceTunnel#database_filter_cfg}
   */
   readonly databaseFilterCfg?: InterfaceTunnelIpOspfOspfGlobalDatabaseFilterCfg;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#message_digest_cfg InterfaceTunnel#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#message_digest_cfg InterfaceTunnel#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceTunnelIpOspfOspfGlobalMessageDigestCfg[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#network InterfaceTunnel#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#network InterfaceTunnel#network}
   */
   readonly network?: InterfaceTunnelIpOspfOspfGlobalNetwork;
 }
@@ -1822,13 +1816,13 @@ export interface InterfaceTunnelIpOspfOspfIpListMessageDigestCfg {
   /**
   * The OSPF password (1-16)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#md5_value InterfaceTunnel#md5_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#md5_value InterfaceTunnel#md5_value}
   */
   readonly md5Value?: string;
   /**
   * Message digest authentication password (key) (Key id)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#message_digest_key InterfaceTunnel#message_digest_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#message_digest_key InterfaceTunnel#message_digest_key}
   */
   readonly messageDigestKey?: number;
 }
@@ -1975,91 +1969,91 @@ export interface InterfaceTunnelIpOspfOspfIpListStruct {
   /**
   * Enable authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
   */
   readonly authentication?: number;
   /**
   * Authentication password (key) (The OSPF password (key))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication_key InterfaceTunnel#authentication_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication_key InterfaceTunnel#authentication_key}
   */
   readonly authenticationKey?: string;
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
   */
   readonly cost?: number;
   /**
   * 'all': Filter all LSA;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#database_filter InterfaceTunnel#database_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#database_filter InterfaceTunnel#database_filter}
   */
   readonly databaseFilter?: string;
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Address of interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ip_addr InterfaceTunnel#ip_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ip_addr InterfaceTunnel#ip_addr}
   */
   readonly ipAddr: string;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
   */
   readonly mtuIgnore?: number;
   /**
   * Outgoing LSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#out InterfaceTunnel#out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#out InterfaceTunnel#out}
   */
   readonly out?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
   */
   readonly priority?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
   */
   readonly retransmitInterval?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
   */
   readonly transmitDelay?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * 'message-digest': Use message-digest authentication; 'null': Use no authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#value InterfaceTunnel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#value InterfaceTunnel#value}
   */
   readonly value?: string;
   /**
   * message_digest_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#message_digest_cfg InterfaceTunnel#message_digest_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#message_digest_cfg InterfaceTunnel#message_digest_cfg}
   */
   readonly messageDigestCfg?: InterfaceTunnelIpOspfOspfIpListMessageDigestCfg[] | cdktf.IResolvable;
 }
@@ -2580,13 +2574,13 @@ export interface InterfaceTunnelIpOspf {
   /**
   * ospf_global block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ospf_global InterfaceTunnel#ospf_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ospf_global InterfaceTunnel#ospf_global}
   */
   readonly ospfGlobal?: InterfaceTunnelIpOspfOspfGlobal;
   /**
   * ospf_ip_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ospf_ip_list InterfaceTunnel#ospf_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ospf_ip_list InterfaceTunnel#ospf_ip_list}
   */
   readonly ospfIpList?: InterfaceTunnelIpOspfOspfIpListStruct[] | cdktf.IResolvable;
 }
@@ -2701,7 +2695,7 @@ export interface InterfaceTunnelIpRipAuthenticationKeyChain {
   /**
   * Authentication key-chain (Name of key-chain)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#key_chain InterfaceTunnel#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#key_chain InterfaceTunnel#key_chain}
   */
   readonly keyChain?: string;
 }
@@ -2787,7 +2781,7 @@ export interface InterfaceTunnelIpRipAuthenticationMode {
   /**
   * 'md5': Keyed message digest; 'text': Clear text authentication;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mode InterfaceTunnel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mode InterfaceTunnel#mode}
   */
   readonly mode?: string;
 }
@@ -2873,7 +2867,7 @@ export interface InterfaceTunnelIpRipAuthenticationStr {
   /**
   * The RIP authentication string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#string InterfaceTunnel#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#string InterfaceTunnel#string}
   */
   readonly string?: string;
 }
@@ -2959,19 +2953,19 @@ export interface InterfaceTunnelIpRipAuthentication {
   /**
   * key_chain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#key_chain InterfaceTunnel#key_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#key_chain InterfaceTunnel#key_chain}
   */
   readonly keyChain?: InterfaceTunnelIpRipAuthenticationKeyChain;
   /**
   * mode block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mode InterfaceTunnel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mode InterfaceTunnel#mode}
   */
   readonly mode?: InterfaceTunnelIpRipAuthenticationMode;
   /**
   * str block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#str InterfaceTunnel#str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#str InterfaceTunnel#str}
   */
   readonly str?: InterfaceTunnelIpRipAuthenticationStr;
 }
@@ -3115,13 +3109,13 @@ export interface InterfaceTunnelIpRipReceiveCfg {
   /**
   * Advertisement reception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#receive InterfaceTunnel#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#receive InterfaceTunnel#receive}
   */
   readonly receive?: number;
   /**
   * '2': RIP version 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#version InterfaceTunnel#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#version InterfaceTunnel#version}
   */
   readonly version?: string;
 }
@@ -3236,13 +3230,13 @@ export interface InterfaceTunnelIpRipSendCfg {
   /**
   * Advertisement transmission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#send InterfaceTunnel#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#send InterfaceTunnel#send}
   */
   readonly send?: number;
   /**
   * '2': RIP version 2;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#version InterfaceTunnel#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#version InterfaceTunnel#version}
   */
   readonly version?: string;
 }
@@ -3357,7 +3351,7 @@ export interface InterfaceTunnelIpRipSplitHorizonCfg {
   /**
   * 'poisoned': Perform split horizon with poisoned reverse; 'disable': Disable split horizon; 'enable': Perform split horizon without poisoned reverse;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#state InterfaceTunnel#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#state InterfaceTunnel#state}
   */
   readonly state?: string;
 }
@@ -3443,43 +3437,43 @@ export interface InterfaceTunnelIpRip {
   /**
   * Enable receiving packet through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#receive_packet InterfaceTunnel#receive_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#receive_packet InterfaceTunnel#receive_packet}
   */
   readonly receivePacket?: number;
   /**
   * Enable sending packets through the specified interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#send_packet InterfaceTunnel#send_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#send_packet InterfaceTunnel#send_packet}
   */
   readonly sendPacket?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#authentication InterfaceTunnel#authentication}
   */
   readonly authentication?: InterfaceTunnelIpRipAuthentication;
   /**
   * receive_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#receive_cfg InterfaceTunnel#receive_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#receive_cfg InterfaceTunnel#receive_cfg}
   */
   readonly receiveCfg?: InterfaceTunnelIpRipReceiveCfg;
   /**
   * send_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#send_cfg InterfaceTunnel#send_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#send_cfg InterfaceTunnel#send_cfg}
   */
   readonly sendCfg?: InterfaceTunnelIpRipSendCfg;
   /**
   * split_horizon_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#split_horizon_cfg InterfaceTunnel#split_horizon_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#split_horizon_cfg InterfaceTunnel#split_horizon_cfg}
   */
   readonly splitHorizonCfg?: InterfaceTunnelIpRipSplitHorizonCfg;
 }
@@ -3739,55 +3733,55 @@ export interface InterfaceTunnelIp {
   /**
   * Enable Membership Query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#generate_membership_query InterfaceTunnel#generate_membership_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#generate_membership_query InterfaceTunnel#generate_membership_query}
   */
   readonly generateMembershipQuery?: number;
   /**
   * 1 - 255 (Default is 125)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#generate_membership_query_val InterfaceTunnel#generate_membership_query_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#generate_membership_query_val InterfaceTunnel#generate_membership_query_val}
   */
   readonly generateMembershipQueryVal?: number;
   /**
   * Configure interface as inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
   */
   readonly inside?: number;
   /**
   * Max Response Time (Default is 100)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#max_resp_time InterfaceTunnel#max_resp_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#max_resp_time InterfaceTunnel#max_resp_time}
   */
   readonly maxRespTime?: number;
   /**
   * Configure interface as outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#address InterfaceTunnel#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#address InterfaceTunnel#address}
   */
   readonly address?: InterfaceTunnelIpAddress;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
   */
   readonly ospf?: InterfaceTunnelIpOspf;
   /**
   * rip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#rip InterfaceTunnel#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#rip InterfaceTunnel#rip}
   */
   readonly rip?: InterfaceTunnelIpRip;
 }
@@ -4105,13 +4099,13 @@ export interface InterfaceTunnelIpv6AddressCfg {
   /**
   * 'anycast': Configure an IPv6 anycast address; 'link-local': Configure an IPv6 link local address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#address_type InterfaceTunnel#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#address_type InterfaceTunnel#address_type}
   */
   readonly addressType?: string;
   /**
   * Set the IPv6 address of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ipv6_addr InterfaceTunnel#ipv6_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ipv6_addr InterfaceTunnel#ipv6_addr}
   */
   readonly ipv6Addr?: string;
 }
@@ -4258,13 +4252,13 @@ export interface InterfaceTunnelIpv6OspfCostCfg {
   /**
   * Interface cost
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#cost InterfaceTunnel#cost}
   */
   readonly cost?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -4411,13 +4405,13 @@ export interface InterfaceTunnelIpv6OspfDeadIntervalCfg {
   /**
   * Interval after which a neighbor is declared dead (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#dead_interval InterfaceTunnel#dead_interval}
   */
   readonly deadInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -4564,13 +4558,13 @@ export interface InterfaceTunnelIpv6OspfHelloIntervalCfg {
   /**
   * Time between HELLO packets (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#hello_interval InterfaceTunnel#hello_interval}
   */
   readonly helloInterval?: number;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
 }
@@ -4717,13 +4711,13 @@ export interface InterfaceTunnelIpv6OspfMtuIgnoreCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Ignores the MTU in DBD packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu_ignore InterfaceTunnel#mtu_ignore}
   */
   readonly mtuIgnore?: number;
 }
@@ -4870,31 +4864,31 @@ export interface InterfaceTunnelIpv6OspfNeighborCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neig_inst InterfaceTunnel#neig_inst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neig_inst InterfaceTunnel#neig_inst}
   */
   readonly neigInst?: number;
   /**
   * OSPFv3 neighbor (Neighbor IPv6 address)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neighbor InterfaceTunnel#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neighbor InterfaceTunnel#neighbor}
   */
   readonly neighbor?: string;
   /**
   * OSPF cost for point-to-multipoint neighbor (metric)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neighbor_cost InterfaceTunnel#neighbor_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neighbor_cost InterfaceTunnel#neighbor_cost}
   */
   readonly neighborCost?: number;
   /**
   * OSPF dead-router polling interval (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neighbor_poll_interval InterfaceTunnel#neighbor_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neighbor_poll_interval InterfaceTunnel#neighbor_poll_interval}
   */
   readonly neighborPollInterval?: number;
   /**
   * OSPF priority of non-broadcast neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neighbor_priority InterfaceTunnel#neighbor_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neighbor_priority InterfaceTunnel#neighbor_priority}
   */
   readonly neighborPriority?: number;
 }
@@ -5128,19 +5122,19 @@ export interface InterfaceTunnelIpv6OspfNetworkListStruct {
   /**
   * 'broadcast': Specify OSPF broadcast multi-access network; 'non-broadcast': Specify OSPF NBMA network; 'point-to-point': Specify OSPF point-to-point network; 'point-to-multipoint': Specify OSPF point-to-multipoint network;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#broadcast_type InterfaceTunnel#broadcast_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#broadcast_type InterfaceTunnel#broadcast_type}
   */
   readonly broadcastType?: string;
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#network_instance_id InterfaceTunnel#network_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#network_instance_id InterfaceTunnel#network_instance_id}
   */
   readonly networkInstanceId?: number;
   /**
   * Specify non-broadcast point-to-multipoint network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#p2mp_nbma InterfaceTunnel#p2mp_nbma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#p2mp_nbma InterfaceTunnel#p2mp_nbma}
   */
   readonly p2MpNbma?: number;
 }
@@ -5316,13 +5310,13 @@ export interface InterfaceTunnelIpv6OspfPriorityCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Router priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#priority InterfaceTunnel#priority}
   */
   readonly priority?: number;
 }
@@ -5469,13 +5463,13 @@ export interface InterfaceTunnelIpv6OspfRetransmitIntervalCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Time between retransmitting lost link state advertisements (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#retransmit_interval InterfaceTunnel#retransmit_interval}
   */
   readonly retransmitInterval?: number;
 }
@@ -5622,13 +5616,13 @@ export interface InterfaceTunnelIpv6OspfTransmitDelayCfg {
   /**
   * Specify the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Link state transmit delay (Seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#transmit_delay InterfaceTunnel#transmit_delay}
   */
   readonly transmitDelay?: number;
 }
@@ -5775,73 +5769,73 @@ export interface InterfaceTunnelIpv6Ospf {
   /**
   * Bidirectional Forwarding Detection (BFD)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#bfd InterfaceTunnel#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#bfd InterfaceTunnel#bfd}
   */
   readonly bfd?: number;
   /**
   * Disable BFD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#disable InterfaceTunnel#disable}
   */
   readonly disable?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * cost_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#cost_cfg InterfaceTunnel#cost_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#cost_cfg InterfaceTunnel#cost_cfg}
   */
   readonly costCfg?: InterfaceTunnelIpv6OspfCostCfg[] | cdktf.IResolvable;
   /**
   * dead_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#dead_interval_cfg InterfaceTunnel#dead_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#dead_interval_cfg InterfaceTunnel#dead_interval_cfg}
   */
   readonly deadIntervalCfg?: InterfaceTunnelIpv6OspfDeadIntervalCfg[] | cdktf.IResolvable;
   /**
   * hello_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#hello_interval_cfg InterfaceTunnel#hello_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#hello_interval_cfg InterfaceTunnel#hello_interval_cfg}
   */
   readonly helloIntervalCfg?: InterfaceTunnelIpv6OspfHelloIntervalCfg[] | cdktf.IResolvable;
   /**
   * mtu_ignore_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#mtu_ignore_cfg InterfaceTunnel#mtu_ignore_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#mtu_ignore_cfg InterfaceTunnel#mtu_ignore_cfg}
   */
   readonly mtuIgnoreCfg?: InterfaceTunnelIpv6OspfMtuIgnoreCfg[] | cdktf.IResolvable;
   /**
   * neighbor_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#neighbor_cfg InterfaceTunnel#neighbor_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#neighbor_cfg InterfaceTunnel#neighbor_cfg}
   */
   readonly neighborCfg?: InterfaceTunnelIpv6OspfNeighborCfg[] | cdktf.IResolvable;
   /**
   * network_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#network_list InterfaceTunnel#network_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#network_list InterfaceTunnel#network_list}
   */
   readonly networkList?: InterfaceTunnelIpv6OspfNetworkListStruct[] | cdktf.IResolvable;
   /**
   * priority_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#priority_cfg InterfaceTunnel#priority_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#priority_cfg InterfaceTunnel#priority_cfg}
   */
   readonly priorityCfg?: InterfaceTunnelIpv6OspfPriorityCfg[] | cdktf.IResolvable;
   /**
   * retransmit_interval_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#retransmit_interval_cfg InterfaceTunnel#retransmit_interval_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#retransmit_interval_cfg InterfaceTunnel#retransmit_interval_cfg}
   */
   readonly retransmitIntervalCfg?: InterfaceTunnelIpv6OspfRetransmitIntervalCfg[] | cdktf.IResolvable;
   /**
   * transmit_delay_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#transmit_delay_cfg InterfaceTunnel#transmit_delay_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#transmit_delay_cfg InterfaceTunnel#transmit_delay_cfg}
   */
   readonly transmitDelayCfg?: InterfaceTunnelIpv6OspfTransmitDelayCfg[] | cdktf.IResolvable;
 }
@@ -6246,25 +6240,25 @@ export interface InterfaceTunnelIpv6RouterOspfAreaListStruct {
   /**
   * OSPF area ID in IP address format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#area_id_addr InterfaceTunnel#area_id_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#area_id_addr InterfaceTunnel#area_id_addr}
   */
   readonly areaIdAddr?: string;
   /**
   * OSPF area ID as a decimal value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#area_id_num InterfaceTunnel#area_id_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#area_id_num InterfaceTunnel#area_id_num}
   */
   readonly areaIdNum?: number;
   /**
   * Set the interface instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#instance_id InterfaceTunnel#instance_id}
   */
   readonly instanceId?: number;
   /**
   * Set the OSPFv3 process tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#tag InterfaceTunnel#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#tag InterfaceTunnel#tag}
   */
   readonly tag?: string;
 }
@@ -6469,13 +6463,13 @@ export interface InterfaceTunnelIpv6RouterOspf {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * area_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#area_list InterfaceTunnel#area_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#area_list InterfaceTunnel#area_list}
   */
   readonly areaList?: InterfaceTunnelIpv6RouterOspfAreaListStruct[] | cdktf.IResolvable;
 }
@@ -6590,13 +6584,13 @@ export interface InterfaceTunnelIpv6RouterRipng {
   /**
   * RIP Routing for IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#rip InterfaceTunnel#rip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#rip InterfaceTunnel#rip}
   */
   readonly rip?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
 }
@@ -6711,13 +6705,13 @@ export interface InterfaceTunnelIpv6Router {
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
   */
   readonly ospf?: InterfaceTunnelIpv6RouterOspf;
   /**
   * ripng block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ripng InterfaceTunnel#ripng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ripng InterfaceTunnel#ripng}
   */
   readonly ripng?: InterfaceTunnelIpv6RouterRipng;
 }
@@ -6832,43 +6826,43 @@ export interface InterfaceTunnelIpv6 {
   /**
   * Configure interface as inside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
   */
   readonly inside?: number;
   /**
   * Enable IPv6 processing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ipv6_enable InterfaceTunnel#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ipv6_enable InterfaceTunnel#ipv6_enable}
   */
   readonly ipv6Enable?: number;
   /**
   * Configure interface as outside
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
   /**
   * address_cfg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#address_cfg InterfaceTunnel#address_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#address_cfg InterfaceTunnel#address_cfg}
   */
   readonly addressCfg?: InterfaceTunnelIpv6AddressCfg[] | cdktf.IResolvable;
   /**
   * ospf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#ospf InterfaceTunnel#ospf}
   */
   readonly ospf?: InterfaceTunnelIpv6Ospf;
   /**
   * router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#router InterfaceTunnel#router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#router InterfaceTunnel#router}
   */
   readonly router?: InterfaceTunnelIpv6Router;
 }
@@ -7128,19 +7122,19 @@ export interface InterfaceTunnelLw4O6 {
   /**
   * Configure LW-4over6 outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
   */
   readonly inside?: number;
   /**
   * Configure LW-4over6 inside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
 }
@@ -7284,31 +7278,31 @@ export interface InterfaceTunnelMap {
   /**
   * Configure MAP inside interface (connected to MAP domains)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#inside InterfaceTunnel#inside}
   */
   readonly inside?: number;
   /**
   * Configure MAP inside interface (connected to MAP domains)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#map_t_inside InterfaceTunnel#map_t_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#map_t_inside InterfaceTunnel#map_t_inside}
   */
   readonly mapTInside?: number;
   /**
   * Configure MAP outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#map_t_outside InterfaceTunnel#map_t_outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#map_t_outside InterfaceTunnel#map_t_outside}
   */
   readonly mapTOutside?: number;
   /**
   * Configure MAP outside interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#outside InterfaceTunnel#outside}
   */
   readonly outside?: number;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#uuid InterfaceTunnel#uuid}
   */
   readonly uuid?: string;
 }
@@ -7510,7 +7504,7 @@ export interface InterfaceTunnelSamplingEnable {
   /**
   * 'all': all; 'num-rx-pkts': received packets; 'num-total-rx-bytes': received bytes; 'num-tx-pkts': sent packets; 'num-total-tx-bytes': sent bytes; 'num-rx-err-pkts': received error packets; 'num-tx-err-pkts': sent error packets; 'rate_pkt_sent': Packet sent rate packets/sec; 'rate_byte_sent': Byte sent rate bits/sec; 'rate_pkt_rcvd': Packet received rate packets/sec; 'rate_byte_rcvd': Byte received rate bits/sec;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#counters1 InterfaceTunnel#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#counters1 InterfaceTunnel#counters1}
   */
   readonly counters1?: string;
 }
@@ -7626,7 +7620,7 @@ export class InterfaceTunnelSamplingEnableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel thunder_interface_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel thunder_interface_tunnel}
 */
 export class InterfaceTunnel extends cdktf.TerraformResource {
 
@@ -7642,7 +7636,7 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceTunnel to import
-  * @param importFromId The id of the existing InterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7654,7 +7648,7 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/interface_tunnel thunder_interface_tunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/interface_tunnel thunder_interface_tunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7665,8 +7659,8 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_interface_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -7683,7 +7677,6 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
     this._mtu = config.mtu;
     this._name = config.name;
     this._packetCaptureTemplate = config.packetCaptureTemplate;
-    this._securityLevel = config.securityLevel;
     this._speed = config.speed;
     this._userTag = config.userTag;
     this._uuid = config.uuid;
@@ -7805,22 +7798,6 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get packetCaptureTemplateInput() {
     return this._packetCaptureTemplate;
-  }
-
-  // security_level - computed: false, optional: true, required: false
-  private _securityLevel?: number; 
-  public get securityLevel() {
-    return this.getNumberAttribute('security_level');
-  }
-  public set securityLevel(value: number) {
-    this._securityLevel = value;
-  }
-  public resetSecurityLevel() {
-    this._securityLevel = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get securityLevelInput() {
-    return this._securityLevel;
   }
 
   // speed - computed: false, optional: true, required: false
@@ -7964,7 +7941,6 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
       mtu: cdktf.numberToTerraform(this._mtu),
       name: cdktf.stringToTerraform(this._name),
       packet_capture_template: cdktf.stringToTerraform(this._packetCaptureTemplate),
-      security_level: cdktf.numberToTerraform(this._securityLevel),
       speed: cdktf.numberToTerraform(this._speed),
       user_tag: cdktf.stringToTerraform(this._userTag),
       uuid: cdktf.stringToTerraform(this._uuid),
@@ -8019,12 +7995,6 @@ export class InterfaceTunnel extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
-      },
-      security_level: {
-        value: cdktf.numberToHclTerraform(this._securityLevel),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "number",
       },
       speed: {
         value: cdktf.numberToHclTerraform(this._speed),

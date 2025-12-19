@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetflowMonitorSourceAddressAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#id NetflowMonitorSourceAddressA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#id NetflowMonitorSourceAddressA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface NetflowMonitorSourceAddressAConfig extends cdktf.TerraformMetaA
   /**
   * Specify source IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#ip NetflowMonitorSourceAddressA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#ip NetflowMonitorSourceAddressA#ip}
   */
   readonly ip?: string;
   /**
   * Specify source IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#ipv6 NetflowMonitorSourceAddressA#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#ipv6 NetflowMonitorSourceAddressA#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Name
+  * Monitor_name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#name NetflowMonitorSourceAddressA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#monitor_name NetflowMonitorSourceAddressA#monitor_name}
   */
-  readonly name: string;
+  readonly monitorName: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#uuid NetflowMonitorSourceAddressA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#uuid NetflowMonitorSourceAddressA#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address thunder_netflow_monitor_source_address}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address thunder_netflow_monitor_source_address}
 */
 export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetflowMonitorSourceAddressA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetflowMonitorSourceAddressA to import
-  * @param importFromId The id of the existing NetflowMonitorSourceAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetflowMonitorSourceAddressA that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetflowMonitorSourceAddressA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/netflow_monitor_source_address thunder_netflow_monitor_source_address} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/netflow_monitor_source_address thunder_netflow_monitor_source_address} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_netflow_monitor_source_address',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -94,7 +94,7 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
     this._id = config.id;
     this._ip = config.ip;
     this._ipv6 = config.ipv6;
-    this._name = config.name;
+    this._monitorName = config.monitorName;
     this._uuid = config.uuid;
   }
 
@@ -150,17 +150,17 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
     return this._ipv6;
   }
 
-  // name - computed: false, optional: false, required: true
-  private _name?: string; 
-  public get name() {
-    return this.getStringAttribute('name');
+  // monitor_name - computed: false, optional: false, required: true
+  private _monitorName?: string; 
+  public get monitorName() {
+    return this.getStringAttribute('monitor_name');
   }
-  public set name(value: string) {
-    this._name = value;
+  public set monitorName(value: string) {
+    this._monitorName = value;
   }
   // Temporarily expose input value. Use with caution.
-  public get nameInput() {
-    return this._name;
+  public get monitorNameInput() {
+    return this._monitorName;
   }
 
   // uuid - computed: true, optional: true, required: false
@@ -188,7 +188,7 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       ip: cdktf.stringToTerraform(this._ip),
       ipv6: cdktf.stringToTerraform(this._ipv6),
-      name: cdktf.stringToTerraform(this._name),
+      monitor_name: cdktf.stringToTerraform(this._monitorName),
       uuid: cdktf.stringToTerraform(this._uuid),
     };
   }
@@ -213,8 +213,8 @@ export class NetflowMonitorSourceAddressA extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      name: {
-        value: cdktf.stringToHclTerraform(this._name),
+      monitor_name: {
+        value: cdktf.stringToHclTerraform(this._monitorName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

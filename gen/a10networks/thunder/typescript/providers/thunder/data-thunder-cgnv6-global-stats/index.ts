@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataThunderCgnv6GlobalStatsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#id DataThunderCgnv6GlobalStats#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#id DataThunderCgnv6GlobalStats#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataThunderCgnv6GlobalStatsConfig extends cdktf.TerraformMetaAr
   /**
   * stats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#stats DataThunderCgnv6GlobalStats#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#stats DataThunderCgnv6GlobalStats#stats}
   */
   readonly stats?: DataThunderCgnv6GlobalStatsStats;
 }
@@ -25,19 +25,19 @@ export interface DataThunderCgnv6GlobalStatsStats {
   /**
   * Total ICMP ports allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#icmp_total_ports_allocated DataThunderCgnv6GlobalStats#icmp_total_ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#icmp_total_ports_allocated DataThunderCgnv6GlobalStats#icmp_total_ports_allocated}
   */
   readonly icmpTotalPortsAllocated?: number;
   /**
   * Total TCP ports allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#tcp_total_ports_allocated DataThunderCgnv6GlobalStats#tcp_total_ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#tcp_total_ports_allocated DataThunderCgnv6GlobalStats#tcp_total_ports_allocated}
   */
   readonly tcpTotalPortsAllocated?: number;
   /**
   * Total UDP ports allocated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#udp_total_ports_allocated DataThunderCgnv6GlobalStats#udp_total_ports_allocated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#udp_total_ports_allocated DataThunderCgnv6GlobalStats#udp_total_ports_allocated}
   */
   readonly udpTotalPortsAllocated?: number;
 }
@@ -179,7 +179,7 @@ export class DataThunderCgnv6GlobalStatsStatsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats thunder_cgnv6_global_stats}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats thunder_cgnv6_global_stats}
 */
 export class DataThunderCgnv6GlobalStats extends cdktf.TerraformDataSource {
 
@@ -195,7 +195,7 @@ export class DataThunderCgnv6GlobalStats extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataThunderCgnv6GlobalStats resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataThunderCgnv6GlobalStats to import
-  * @param importFromId The id of the existing DataThunderCgnv6GlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataThunderCgnv6GlobalStats that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataThunderCgnv6GlobalStats to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DataThunderCgnv6GlobalStats extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/data-sources/cgnv6_global_stats thunder_cgnv6_global_stats} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/data-sources/cgnv6_global_stats thunder_cgnv6_global_stats} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DataThunderCgnv6GlobalStats extends cdktf.TerraformDataSource {
       terraformResourceType: 'thunder_cgnv6_global_stats',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set
+// https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RuleSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#id RuleSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#id RuleSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,79 +17,79 @@ export interface RuleSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#name RuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#name RuleSet#name}
   */
   readonly name: string;
   /**
   * Name of the packet capture template to be bind with this object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#packet_capture_template RuleSet#packet_capture_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#packet_capture_template RuleSet#packet_capture_template}
   */
   readonly packetCaptureTemplate?: string;
   /**
   * Rule set entry comment (Notes for this rule set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#remark RuleSet#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#remark RuleSet#remark}
   */
   readonly remark?: string;
   /**
   * 'enable': Enable session based statistic (Default); 'disable': Disable session based statistic;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#session_statistic RuleSet#session_statistic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#session_statistic RuleSet#session_statistic}
   */
   readonly sessionStatistic?: string;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#user_tag RuleSet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#user_tag RuleSet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * app block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#app RuleSet#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#app RuleSet#app}
   */
   readonly app?: RuleSetApp;
   /**
   * application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#application RuleSet#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#application RuleSet#application}
   */
   readonly application?: RuleSetApplication;
   /**
   * rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#rule_list RuleSet#rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#rule_list RuleSet#rule_list}
   */
   readonly ruleList?: RuleSetRuleListStruct[] | cdktf.IResolvable;
   /**
   * rules_by_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#rules_by_zone RuleSet#rules_by_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#rules_by_zone RuleSet#rules_by_zone}
   */
   readonly rulesByZone?: RuleSetRulesByZone;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
   */
   readonly samplingEnable?: RuleSetSamplingEnable[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#tag RuleSet#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#tag RuleSet#tag}
   */
   readonly tag?: RuleSetTag;
   /**
   * track_app_rule_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#track_app_rule_list RuleSet#track_app_rule_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#track_app_rule_list RuleSet#track_app_rule_list}
   */
   readonly trackAppRuleList?: RuleSetTrackAppRuleListStruct;
 }
@@ -97,7 +97,7 @@ export interface RuleSetApp {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -183,7 +183,7 @@ export interface RuleSetApplication {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -269,25 +269,25 @@ export interface RuleSetRuleListActionGroupLoggingTemplateListStruct {
   /**
   * Logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_cgnv6_log RuleSet#permit_cgnv6_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_cgnv6_log RuleSet#permit_cgnv6_log}
   */
   readonly permitCgnv6Log?: string;
   /**
   * Logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_fw_log RuleSet#permit_fw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_fw_log RuleSet#permit_fw_log}
   */
   readonly permitFwLog?: string;
   /**
   * 'fw-logging-template': Logging with specified fw template; 'cgnv6-logging-template': Logging with specified cgnv6 template; 'netflow-monitor': Logging with specified netflow/ipfix monitor;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_log_template_type RuleSet#permit_log_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_log_template_type RuleSet#permit_log_template_type}
   */
   readonly permitLogTemplateType?: string;
   /**
   * Name of netflow monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_netflow_log RuleSet#permit_netflow_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_netflow_log RuleSet#permit_netflow_log}
   */
   readonly permitNetflowLog?: string;
 }
@@ -492,169 +492,211 @@ export interface RuleSetRuleListActionGroup {
   /**
   * Apply CGNv6 policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6 RuleSet#cgnv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6 RuleSet#cgnv6}
   */
   readonly cgnv6?: number;
   /**
   * 'lsn-lid': Apply specified CGNv6 LSN LID;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_ds_lite RuleSet#cgnv6_ds_lite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_ds_lite RuleSet#cgnv6_ds_lite}
   */
   readonly cgnv6DsLite?: string;
   /**
   * LSN LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_ds_lite_lsn_lid RuleSet#cgnv6_ds_lite_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_ds_lite_lsn_lid RuleSet#cgnv6_ds_lite_lsn_lid}
   */
   readonly cgnv6DsLiteLsnLid?: number;
   /**
   * LSN LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_lsn_lid RuleSet#cgnv6_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_lsn_lid RuleSet#cgnv6_lsn_lid}
   */
   readonly cgnv6LsnLid?: number;
   /**
   * 'lsn-lid': Apply specified CGNv6 LSN LID; 'fixed-nat': Apply CGNv6 Fixed NAT; 'ds-lite': Apply CGNv6 DS-Lite;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_policy RuleSet#cgnv6_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_policy RuleSet#cgnv6_policy}
   */
   readonly cgnv6Policy?: string;
   /**
   * Logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#deny_fw_log RuleSet#deny_fw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#deny_fw_log RuleSet#deny_fw_log}
   */
   readonly denyFwLog?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#deny_log RuleSet#deny_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#deny_log RuleSet#deny_log}
   */
   readonly denyLog?: number;
   /**
   * 'fw-logging-template': Logging with specified fw template;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#deny_log_template_type RuleSet#deny_log_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#deny_log_template_type RuleSet#deny_log_template_type}
   */
   readonly denyLogTemplateType?: string;
   /**
+  * Limit policy Template (only works for inbound rule)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#deny_reset_limit_policy RuleSet#deny_reset_limit_policy}
+  */
+  readonly denyResetLimitPolicy?: number;
+  /**
   * DSCP Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_number RuleSet#dscp_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_number RuleSet#dscp_number}
   */
   readonly dscpNumber?: number;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_value RuleSet#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_value RuleSet#dscp_value}
   */
   readonly dscpValue?: string;
   /**
   * Forward packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#forward RuleSet#forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#forward RuleSet#forward}
   */
   readonly forward?: number;
   /**
   * Enable DS-Lite tunnel inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#inspect_payload RuleSet#inspect_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#inspect_payload RuleSet#inspect_payload}
   */
   readonly inspectPayload?: number;
   /**
   * Apply IPsec encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#ipsec RuleSet#ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#ipsec RuleSet#ipsec}
   */
   readonly ipsec?: number;
   /**
   * Apply IPsec Group encapsulation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#ipsec_group RuleSet#ipsec_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#ipsec_group RuleSet#ipsec_group}
   */
   readonly ipsecGroup?: number;
   /**
   * Listen on port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#listen_on_port RuleSet#listen_on_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#listen_on_port RuleSet#listen_on_port}
   */
   readonly listenOnPort?: number;
   /**
+  * on-timeout for Syn-cookie (Timeout in seconds, default is 120 seconds (2 minutes))
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#on_timeout RuleSet#on_timeout}
+  */
+  readonly onTimeout?: number;
+  /**
   * Limit policy Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_limit_policy RuleSet#permit_limit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_limit_policy RuleSet#permit_limit_policy}
   */
   readonly permitLimitPolicy?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_log RuleSet#permit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_log RuleSet#permit_log}
   */
   readonly permitLog?: number;
   /**
   * Use the user's source MAC for the next hop rather than the routing table (default:off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#permit_respond_to_user_mac RuleSet#permit_respond_to_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#permit_respond_to_user_mac RuleSet#permit_respond_to_user_mac}
   */
   readonly permitRespondToUserMac?: number;
   /**
   * Logging template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_fw_log RuleSet#reset_fw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_fw_log RuleSet#reset_fw_log}
   */
   readonly resetFwLog?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_log RuleSet#reset_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_log RuleSet#reset_log}
   */
   readonly resetLog?: number;
   /**
   * 'fw-logging-template': Logging with specified fw template;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_log_template_type RuleSet#reset_log_template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_log_template_type RuleSet#reset_log_template_type}
   */
   readonly resetLogTemplateType?: string;
   /**
   * Use the user's source MAC for the next hop rather than the routing table (default:off)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_respond_to_user_mac RuleSet#reset_respond_to_user_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_respond_to_user_mac RuleSet#reset_respond_to_user_mac}
   */
   readonly resetRespondToUserMac?: number;
   /**
   * DSCP setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#set_dscp RuleSet#set_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#set_dscp RuleSet#set_dscp}
   */
   readonly setDscp?: number;
   /**
+  * Skip Unicast Reverse Path Forwarding check
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#skip_urpf_check RuleSet#skip_urpf_check}
+  */
+  readonly skipUrpfCheck?: number;
+  /**
+  * Configure Firewall rule Syn-Cookie Protection
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#syn_cookie RuleSet#syn_cookie}
+  */
+  readonly synCookie?: number;
+  /**
+  * 'enable': enable; 'disable': disable;
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#syn_cookie_enable RuleSet#syn_cookie_enable}
+  */
+  readonly synCookieEnable?: string;
+  /**
+  * Firewall rule TCP parameters
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#tcp RuleSet#tcp}
+  */
+  readonly tcp?: number;
+  /**
+  * Decimal number
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#threshold_val RuleSet#threshold_val}
+  */
+  readonly thresholdVal?: number;
+  /**
   * 'permit': permit; 'deny': deny; 'reset': reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#type RuleSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#type RuleSet#type}
   */
   readonly type?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * VPN IPsec Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#vpn_ipsec_group_name RuleSet#vpn_ipsec_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#vpn_ipsec_group_name RuleSet#vpn_ipsec_group_name}
   */
   readonly vpnIpsecGroupName?: string;
   /**
   * VPN IPsec name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#vpn_ipsec_name RuleSet#vpn_ipsec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#vpn_ipsec_name RuleSet#vpn_ipsec_name}
   */
   readonly vpnIpsecName?: string;
   /**
   * logging_template_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#logging_template_list RuleSet#logging_template_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#logging_template_list RuleSet#logging_template_list}
   */
   readonly loggingTemplateList?: RuleSetRuleListActionGroupLoggingTemplateListStruct[] | cdktf.IResolvable;
 }
@@ -673,6 +715,7 @@ export function ruleSetRuleListActionGroupToTerraform(struct?: RuleSetRuleListAc
     deny_fw_log: cdktf.stringToTerraform(struct!.denyFwLog),
     deny_log: cdktf.numberToTerraform(struct!.denyLog),
     deny_log_template_type: cdktf.stringToTerraform(struct!.denyLogTemplateType),
+    deny_reset_limit_policy: cdktf.numberToTerraform(struct!.denyResetLimitPolicy),
     dscp_number: cdktf.numberToTerraform(struct!.dscpNumber),
     dscp_value: cdktf.stringToTerraform(struct!.dscpValue),
     forward: cdktf.numberToTerraform(struct!.forward),
@@ -680,6 +723,7 @@ export function ruleSetRuleListActionGroupToTerraform(struct?: RuleSetRuleListAc
     ipsec: cdktf.numberToTerraform(struct!.ipsec),
     ipsec_group: cdktf.numberToTerraform(struct!.ipsecGroup),
     listen_on_port: cdktf.numberToTerraform(struct!.listenOnPort),
+    on_timeout: cdktf.numberToTerraform(struct!.onTimeout),
     permit_limit_policy: cdktf.numberToTerraform(struct!.permitLimitPolicy),
     permit_log: cdktf.numberToTerraform(struct!.permitLog),
     permit_respond_to_user_mac: cdktf.numberToTerraform(struct!.permitRespondToUserMac),
@@ -688,6 +732,11 @@ export function ruleSetRuleListActionGroupToTerraform(struct?: RuleSetRuleListAc
     reset_log_template_type: cdktf.stringToTerraform(struct!.resetLogTemplateType),
     reset_respond_to_user_mac: cdktf.numberToTerraform(struct!.resetRespondToUserMac),
     set_dscp: cdktf.numberToTerraform(struct!.setDscp),
+    skip_urpf_check: cdktf.numberToTerraform(struct!.skipUrpfCheck),
+    syn_cookie: cdktf.numberToTerraform(struct!.synCookie),
+    syn_cookie_enable: cdktf.stringToTerraform(struct!.synCookieEnable),
+    tcp: cdktf.numberToTerraform(struct!.tcp),
+    threshold_val: cdktf.numberToTerraform(struct!.thresholdVal),
     type: cdktf.stringToTerraform(struct!.type),
     uuid: cdktf.stringToTerraform(struct!.uuid),
     vpn_ipsec_group_name: cdktf.stringToTerraform(struct!.vpnIpsecGroupName),
@@ -751,6 +800,12 @@ export function ruleSetRuleListActionGroupToHclTerraform(struct?: RuleSetRuleLis
       type: "simple",
       storageClassType: "string",
     },
+    deny_reset_limit_policy: {
+      value: cdktf.numberToHclTerraform(struct!.denyResetLimitPolicy),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     dscp_number: {
       value: cdktf.numberToHclTerraform(struct!.dscpNumber),
       isBlock: false,
@@ -789,6 +844,12 @@ export function ruleSetRuleListActionGroupToHclTerraform(struct?: RuleSetRuleLis
     },
     listen_on_port: {
       value: cdktf.numberToHclTerraform(struct!.listenOnPort),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    on_timeout: {
+      value: cdktf.numberToHclTerraform(struct!.onTimeout),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -837,6 +898,36 @@ export function ruleSetRuleListActionGroupToHclTerraform(struct?: RuleSetRuleLis
     },
     set_dscp: {
       value: cdktf.numberToHclTerraform(struct!.setDscp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    skip_urpf_check: {
+      value: cdktf.numberToHclTerraform(struct!.skipUrpfCheck),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_cookie: {
+      value: cdktf.numberToHclTerraform(struct!.synCookie),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    syn_cookie_enable: {
+      value: cdktf.stringToHclTerraform(struct!.synCookieEnable),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tcp: {
+      value: cdktf.numberToHclTerraform(struct!.tcp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    threshold_val: {
+      value: cdktf.numberToHclTerraform(struct!.thresholdVal),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -923,6 +1014,10 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.denyLogTemplateType = this._denyLogTemplateType;
     }
+    if (this._denyResetLimitPolicy !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.denyResetLimitPolicy = this._denyResetLimitPolicy;
+    }
     if (this._dscpNumber !== undefined) {
       hasAnyValues = true;
       internalValueResult.dscpNumber = this._dscpNumber;
@@ -950,6 +1045,10 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
     if (this._listenOnPort !== undefined) {
       hasAnyValues = true;
       internalValueResult.listenOnPort = this._listenOnPort;
+    }
+    if (this._onTimeout !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.onTimeout = this._onTimeout;
     }
     if (this._permitLimitPolicy !== undefined) {
       hasAnyValues = true;
@@ -982,6 +1081,26 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
     if (this._setDscp !== undefined) {
       hasAnyValues = true;
       internalValueResult.setDscp = this._setDscp;
+    }
+    if (this._skipUrpfCheck !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.skipUrpfCheck = this._skipUrpfCheck;
+    }
+    if (this._synCookie !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookie = this._synCookie;
+    }
+    if (this._synCookieEnable !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.synCookieEnable = this._synCookieEnable;
+    }
+    if (this._tcp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tcp = this._tcp;
+    }
+    if (this._thresholdVal !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.thresholdVal = this._thresholdVal;
     }
     if (this._type !== undefined) {
       hasAnyValues = true;
@@ -1017,6 +1136,7 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._denyFwLog = undefined;
       this._denyLog = undefined;
       this._denyLogTemplateType = undefined;
+      this._denyResetLimitPolicy = undefined;
       this._dscpNumber = undefined;
       this._dscpValue = undefined;
       this._forward = undefined;
@@ -1024,6 +1144,7 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._ipsec = undefined;
       this._ipsecGroup = undefined;
       this._listenOnPort = undefined;
+      this._onTimeout = undefined;
       this._permitLimitPolicy = undefined;
       this._permitLog = undefined;
       this._permitRespondToUserMac = undefined;
@@ -1032,6 +1153,11 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._resetLogTemplateType = undefined;
       this._resetRespondToUserMac = undefined;
       this._setDscp = undefined;
+      this._skipUrpfCheck = undefined;
+      this._synCookie = undefined;
+      this._synCookieEnable = undefined;
+      this._tcp = undefined;
+      this._thresholdVal = undefined;
       this._type = undefined;
       this._uuid = undefined;
       this._vpnIpsecGroupName = undefined;
@@ -1048,6 +1174,7 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._denyFwLog = value.denyFwLog;
       this._denyLog = value.denyLog;
       this._denyLogTemplateType = value.denyLogTemplateType;
+      this._denyResetLimitPolicy = value.denyResetLimitPolicy;
       this._dscpNumber = value.dscpNumber;
       this._dscpValue = value.dscpValue;
       this._forward = value.forward;
@@ -1055,6 +1182,7 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._ipsec = value.ipsec;
       this._ipsecGroup = value.ipsecGroup;
       this._listenOnPort = value.listenOnPort;
+      this._onTimeout = value.onTimeout;
       this._permitLimitPolicy = value.permitLimitPolicy;
       this._permitLog = value.permitLog;
       this._permitRespondToUserMac = value.permitRespondToUserMac;
@@ -1063,6 +1191,11 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
       this._resetLogTemplateType = value.resetLogTemplateType;
       this._resetRespondToUserMac = value.resetRespondToUserMac;
       this._setDscp = value.setDscp;
+      this._skipUrpfCheck = value.skipUrpfCheck;
+      this._synCookie = value.synCookie;
+      this._synCookieEnable = value.synCookieEnable;
+      this._tcp = value.tcp;
+      this._thresholdVal = value.thresholdVal;
       this._type = value.type;
       this._uuid = value.uuid;
       this._vpnIpsecGroupName = value.vpnIpsecGroupName;
@@ -1199,6 +1332,22 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
     return this._denyLogTemplateType;
   }
 
+  // deny_reset_limit_policy - computed: false, optional: true, required: false
+  private _denyResetLimitPolicy?: number; 
+  public get denyResetLimitPolicy() {
+    return this.getNumberAttribute('deny_reset_limit_policy');
+  }
+  public set denyResetLimitPolicy(value: number) {
+    this._denyResetLimitPolicy = value;
+  }
+  public resetDenyResetLimitPolicy() {
+    this._denyResetLimitPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get denyResetLimitPolicyInput() {
+    return this._denyResetLimitPolicy;
+  }
+
   // dscp_number - computed: false, optional: true, required: false
   private _dscpNumber?: number; 
   public get dscpNumber() {
@@ -1309,6 +1458,22 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
   // Temporarily expose input value. Use with caution.
   public get listenOnPortInput() {
     return this._listenOnPort;
+  }
+
+  // on_timeout - computed: false, optional: true, required: false
+  private _onTimeout?: number; 
+  public get onTimeout() {
+    return this.getNumberAttribute('on_timeout');
+  }
+  public set onTimeout(value: number) {
+    this._onTimeout = value;
+  }
+  public resetOnTimeout() {
+    this._onTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get onTimeoutInput() {
+    return this._onTimeout;
   }
 
   // permit_limit_policy - computed: false, optional: true, required: false
@@ -1439,6 +1604,86 @@ export class RuleSetRuleListActionGroupOutputReference extends cdktf.ComplexObje
     return this._setDscp;
   }
 
+  // skip_urpf_check - computed: false, optional: true, required: false
+  private _skipUrpfCheck?: number; 
+  public get skipUrpfCheck() {
+    return this.getNumberAttribute('skip_urpf_check');
+  }
+  public set skipUrpfCheck(value: number) {
+    this._skipUrpfCheck = value;
+  }
+  public resetSkipUrpfCheck() {
+    this._skipUrpfCheck = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get skipUrpfCheckInput() {
+    return this._skipUrpfCheck;
+  }
+
+  // syn_cookie - computed: false, optional: true, required: false
+  private _synCookie?: number; 
+  public get synCookie() {
+    return this.getNumberAttribute('syn_cookie');
+  }
+  public set synCookie(value: number) {
+    this._synCookie = value;
+  }
+  public resetSynCookie() {
+    this._synCookie = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieInput() {
+    return this._synCookie;
+  }
+
+  // syn_cookie_enable - computed: false, optional: true, required: false
+  private _synCookieEnable?: string; 
+  public get synCookieEnable() {
+    return this.getStringAttribute('syn_cookie_enable');
+  }
+  public set synCookieEnable(value: string) {
+    this._synCookieEnable = value;
+  }
+  public resetSynCookieEnable() {
+    this._synCookieEnable = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get synCookieEnableInput() {
+    return this._synCookieEnable;
+  }
+
+  // tcp - computed: false, optional: true, required: false
+  private _tcp?: number; 
+  public get tcp() {
+    return this.getNumberAttribute('tcp');
+  }
+  public set tcp(value: number) {
+    this._tcp = value;
+  }
+  public resetTcp() {
+    this._tcp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tcpInput() {
+    return this._tcp;
+  }
+
+  // threshold_val - computed: false, optional: true, required: false
+  private _thresholdVal?: number; 
+  public get thresholdVal() {
+    return this.getNumberAttribute('threshold_val');
+  }
+  public set thresholdVal(value: number) {
+    this._thresholdVal = value;
+  }
+  public resetThresholdVal() {
+    this._thresholdVal = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get thresholdValInput() {
+    return this._thresholdVal;
+  }
+
   // type - computed: false, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1523,19 +1768,19 @@ export interface RuleSetRuleListAppListStruct {
   /**
   * Application object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#obj_grp_application RuleSet#obj_grp_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#obj_grp_application RuleSet#obj_grp_application}
   */
   readonly objGrpApplication?: string;
   /**
   * Specify application(s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#protocol RuleSet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#protocol RuleSet#protocol}
   */
   readonly protocol?: string;
   /**
   * 'aaa': Protocol/application used for AAA (Authentification, Authorization and Accounting) purposes.; 'adult-content': Adult content protocol/application.; 'advertising': Advertising networks and applications.; 'application-enforcing-tls': Application known to enforce HSTS and thus use of TLS.; 'analytics-and-statistics': User analytics and statistics protocol/application.; 'anonymizers-and-proxies': Traffic-anonymization protocol/application.; 'audio-chat': Protocol/application used for Audio Chat.; 'basic': Covers all protocols required for basic classification, including most networking protocols as well as standard protocols like HTTP.; 'blog': Blogging platform protocol/application.; 'cdn': Protocol/application used for Content-Delivery Networks.; 'certification-authority': Certification Authority for SSL/TLS certificate.; 'chat': Protocol/application used for Text Chat.; 'classified-ads': Protocol/application used for Classified Advertisements.; 'cloud-based-services': SaaS and/or PaaS cloud based services.; 'crowdfunding': Service for funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet.; 'cryptocurrency': Services for mining cryptocurrencies, for example a Crypto Web Browser (an application that mines crypto currency in the background while its user browses the web).; 'database': Database-specific protocols.; 'disposable-email': Service offering Disposable Email Accounts (DEA). DEA is a technique to share temporary email address between many users.; 'ebook-reader': Services for e-book readers, i.e. connected devices that display electronic books (typically using e-ink displays to reduce glare and eye strain).; 'education': Protocols offering education services and online courses.; 'email': Native email protocol.; 'enterprise': Protocol/application used in an enterprise network.; 'file-management': Protocol/application designed specifically for file management and exchange. This can include bona fide network protocols (like SMB) as well as web/cloud services (like Dropbox).; 'file-transfer': Protocol that offers file transferring as a secondary feature. This typically includes IM, WebMail, and other protocols that allow file transfers in addition to their principal function.; 'forum': Online forum protocol/application.; 'gaming': Protocol/application used by games.; 'healthcare': Protocols offering medical services, i.e protocols used in medical environment.; 'instant-messaging-and-multimedia-conferencing': Protocol/application used for Instant Messaging or Multi-Conferencing.; 'internet-of-things': Internet Of Things protocol/application.; 'map-service': Digital Maps service (web site and their related API).; 'mobile': Mobile-specific protocol/application.; 'multimedia-streaming': Protocol/application used for multimedia streaming.; 'networking': Protocol used for (inter) networking purpose.; 'news-portal': Protocol/application used for News Portals.; 'payment-service': Application offering online services for accepting electronic payments by a variety of payment methods (credit card, bank-based payments such as direct debit, bank transfer, etc).; 'peer-to-peer': Protocol/application used for Peer-to-peer purposes.; 'remote-access': Protocol/application used for remote access.; 'scada': SCADA (Supervisory control and data acquisition) protocols, all generations.; 'social-networks': Social networking application.; 'software-update': Auto-update protocol.; 'speedtest': Speedtest application allowing to access quality of Internet connection (upload, download, latency, etc).; 'standards-based': Protocol issued from standardized bodies such as IETF, ITU, IEEE, ETSI, OIF.; 'transportation': Transportation services, for example smartphone applications that allow users to hail a taxi.; 'video-chat': Protocol/application used for Video Chat.; 'voip': Application used for Voice-Over-IP.; 'vpn-tunnels': Protocol/application used for VPN or tunneling purposes.; 'web': Application based on HTTP/HTTPS.; 'web-e-commerce': Protocol/application used for E-commerce websites.; 'web-search-engines': Protocol/application used for Web search portals.; 'web-websites': Protocol/application used for Company Websites.; 'webmails': Web-based e-mail application.; 'web-ext-adult': Web Extension Adult; 'web-ext-auctions': Web Extension Auctions; 'web-ext-blogs': Web Extension Blogs; 'web-ext-business-and-economy': Web Extension Business and Economy; 'web-ext-cdns': Web Extension CDNs; 'web-ext-collaboration': Web Extension Collaboration; 'web-ext-computer-and-internet-info': Web Extension Computer and Internet Info; 'web-ext-computer-and-internet-security': Web Extension Computer and Internet Security; 'web-ext-dating': Web Extension Dating; 'web-ext-educational-institutions': Web Extension Educational Institutions; 'web-ext-entertainment-and-arts': Web Extension Entertainment and Arts; 'web-ext-fashion-and-beauty': Web Extension Fashion and Beauty; 'web-ext-file-share': Web Extension File Share; 'web-ext-financial-services': Web Extension Financial Services; 'web-ext-gambling': Web Extension Gambling; 'web-ext-games': Web Extension Games; 'web-ext-government': Web Extension Government; 'web-ext-health-and-medicine': Web Extension Health and Medicine; 'web-ext-individual-stock-advice-and-tools': Web Extension Individual Stock Advice and Tools; 'web-ext-internet-portals': Web Extension Internet Portals; 'web-ext-job-search': Web Extension Job Search; 'web-ext-local-information': Web Extension Local Information; 'web-ext-malware': Web Extension Malware; 'web-ext-motor-vehicles': Web Extension Motor Vehicles; 'web-ext-music': Web Extension Music; 'web-ext-news': Web Extension News; 'web-ext-p2p': Web Extension P2P; 'web-ext-parked-sites': Web Extension Parked Sites; 'web-ext-proxy-avoid-and-anonymizers': Web Extension Proxy Avoid and Anonymizers; 'web-ext-real-estate': Web Extension Real Estate; 'web-ext-reference-and-research': Web Extension Reference and Research; 'web-ext-search-engines': Web Extension Search Engines; 'web-ext-shopping': Web Extension Shopping; 'web-ext-social-network': Web Extension Social Network; 'web-ext-society': Web Extension Society; 'web-ext-software': Web Extension Software; 'web-ext-sports': Web Extension Sports; 'web-ext-streaming-media': Web Extension Streaming Media; 'web-ext-training-and-tools': Web Extension Training and Tools; 'web-ext-translation': Web Extension Translation; 'web-ext-travel': Web Extension Travel; 'web-ext-web-advertisements': Web Extension Web Advertisements; 'web-ext-web-based-email': Web Extension Web based Email; 'web-ext-web-hosting': Web Extension Web Hosting; 'web-ext-web-service': Web Extension Web Service;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#protocol_tag RuleSet#protocol_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#protocol_tag RuleSet#protocol_tag}
   */
   readonly protocolTag?: string;
 }
@@ -1711,37 +1956,37 @@ export interface RuleSetRuleListDestListStruct {
   /**
   * IPv4 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_ip_subnet RuleSet#dst_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_ip_subnet RuleSet#dst_ip_subnet}
   */
   readonly dstIpSubnet?: string;
   /**
   * IPv6 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_ipv6_subnet RuleSet#dst_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_ipv6_subnet RuleSet#dst_ipv6_subnet}
   */
   readonly dstIpv6Subnet?: string;
   /**
   * Network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_obj_grp_network RuleSet#dst_obj_grp_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_obj_grp_network RuleSet#dst_obj_grp_network}
   */
   readonly dstObjGrpNetwork?: string;
   /**
   * Network object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_obj_network RuleSet#dst_obj_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_obj_network RuleSet#dst_obj_network}
   */
   readonly dstObjNetwork?: string;
   /**
   * SLB Real server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_slb_server RuleSet#dst_slb_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_slb_server RuleSet#dst_slb_server}
   */
   readonly dstSlbServer?: string;
   /**
   * SLB Virtual server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_slb_vserver RuleSet#dst_slb_vserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_slb_vserver RuleSet#dst_slb_vserver}
   */
   readonly dstSlbVserver?: string;
 }
@@ -2004,19 +2249,19 @@ export interface RuleSetRuleListDscpListStruct {
   /**
   * Ending DSCP Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_range_end RuleSet#dscp_range_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_range_end RuleSet#dscp_range_end}
   */
   readonly dscpRangeEnd?: number;
   /**
   * Start DSCP Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_range_start RuleSet#dscp_range_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_range_start RuleSet#dscp_range_start}
   */
   readonly dscpRangeStart?: number;
   /**
   * 'default': Default dscp (000000); 'af11': AF11 (001010); 'af12': AF12 (001100); 'af13': AF13 (001110); 'af21': AF21 (010010); 'af22': AF22 (010100); 'af23': AF23 (010110); 'af31': AF31 (011010); 'af32': AF32 (011100); 'af33': AF33 (011110); 'af41': AF41 (100010); 'af42': AF42 (100100); 'af43': AF43 (100110); 'cs1': CS1 (001000); 'cs2': CS2 (010000); 'cs3': CS3 (011000); 'cs4': CS4 (100000); 'cs5': CS5 (101000); 'cs6': CS6 (110000); 'cs7': CS7 (111000); 'ef': EF (101110);
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_value RuleSet#dscp_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_value RuleSet#dscp_value}
   */
   readonly dscpValue?: string;
 }
@@ -2192,11 +2437,11 @@ export interface RuleSetRuleListMoveRule {
   /**
   * 'top': top; 'before': before; 'after': after; 'bottom': bottom;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#location RuleSet#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#location RuleSet#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#target_rule RuleSet#target_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#target_rule RuleSet#target_rule}
   */
   readonly targetRule?: string;
 }
@@ -2309,9 +2554,9 @@ export class RuleSetRuleListMoveRuleOutputReference extends cdktf.ComplexObject 
 }
 export interface RuleSetRuleListSamplingEnable {
   /**
-  * 'all': all; 'hit-count': Hit counts; 'permit-bytes': Permitted bytes counter; 'deny-bytes': Denied bytes counter; 'reset-bytes': Reset bytes counter; 'permit-packets': Permitted packets counter; 'deny-packets': Denied packets counter; 'reset-packets': Reset packets counter; 'active-session-tcp': Active TCP session counter; 'active-session-udp': Active UDP session counter; 'active-session-icmp': Active ICMP session counter; 'active-session-other': Active other protocol session counter; 'session-tcp': TCP session counter; 'session-udp': UDP session counter; 'session-icmp': ICMP session counter; 'session-other': Other protocol session counter; 'active-session-sctp': Active SCTP session counter; 'session-sctp': SCTP session counter; 'hitcount-timestamp': Last hit counts timestamp; 'rate-limit-drops': Rate Limit Drops;
+  * 'all': all; 'hit-count': Hit counts; 'permit-bytes': Permitted bytes counter; 'deny-bytes': Denied bytes counter; 'reset-bytes': Reset bytes counter; 'permit-packets': Permitted packets counter; 'deny-packets': Denied packets counter; 'reset-packets': Reset packets counter; 'active-session-tcp': Active TCP session counter; 'active-session-udp': Active UDP session counter; 'active-session-icmp': Active ICMP session counter; 'active-session-other': Active other protocol session counter; 'session-tcp': TCP session counter; 'session-udp': UDP session counter; 'session-icmp': ICMP session counter; 'session-other': Other protocol session counter; 'active-session-sctp': Active SCTP session counter; 'session-sctp': SCTP session counter; 'hitcount-timestamp': Last hit counts timestamp; 'rate-limit-drops': Rate Limit Drops; 'syn-cookie-syn-ack-sent': SYN cookie SYN ACK sent; 'syn-cookie-verification-passed': SYN cookie verification passed; 'syn-cookie-verification-failed': SYN cookie verification failed; 'syn-cookie-conn-setup-failed': SYN cookie connection setup failed; 'tcp-half-open-count': TCP half open sessions matching the rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#counters1 RuleSet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#counters1 RuleSet#counters1}
   */
   readonly counters1?: string;
 }
@@ -2429,151 +2674,151 @@ export interface RuleSetRuleListServiceListStruct {
   /**
   * 'FTP': FTP; 'TFTP': TFTP; 'SIP': SIP; 'DNS': DNS; 'PPTP': PPTP; 'RTSP': RTSP; 'ESP': ESP;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#alg RuleSet#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#alg RuleSet#alg}
   */
   readonly alg?: string;
   /**
   * Equal to the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#eq_dst_port RuleSet#eq_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#eq_dst_port RuleSet#eq_dst_port}
   */
   readonly eqDstPort?: number;
   /**
   * Equal to the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#eq_src_port RuleSet#eq_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#eq_src_port RuleSet#eq_src_port}
   */
   readonly eqSrcPort?: number;
   /**
   * Greater than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#gt_dst_port RuleSet#gt_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#gt_dst_port RuleSet#gt_dst_port}
   */
   readonly gtDstPort?: number;
   /**
   * Greater than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#gt_src_port RuleSet#gt_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#gt_src_port RuleSet#gt_src_port}
   */
   readonly gtSrcPort?: number;
   /**
   * ICMP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmp RuleSet#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmp RuleSet#icmp}
   */
   readonly icmp?: number;
   /**
   * ICMP code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmp_code RuleSet#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmp_code RuleSet#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * ICMP type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmp_type RuleSet#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmp_type RuleSet#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * ICMPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmpv6 RuleSet#icmpv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmpv6 RuleSet#icmpv6}
   */
   readonly icmpv6?: number;
   /**
   * ICMPv6 code number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmpv6_code RuleSet#icmpv6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmpv6_code RuleSet#icmpv6_code}
   */
   readonly icmpv6Code?: number;
   /**
   * ICMPv6 type number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#icmpv6_type RuleSet#icmpv6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#icmpv6_type RuleSet#icmpv6_type}
   */
   readonly icmpv6Type?: number;
   /**
   * Lower than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#lt_dst_port RuleSet#lt_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#lt_dst_port RuleSet#lt_dst_port}
   */
   readonly ltDstPort?: number;
   /**
   * Lower than the port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#lt_src_port RuleSet#lt_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#lt_src_port RuleSet#lt_src_port}
   */
   readonly ltSrcPort?: number;
   /**
   * service object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#obj_grp_service RuleSet#obj_grp_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#obj_grp_service RuleSet#obj_grp_service}
   */
   readonly objGrpService?: string;
   /**
   * Ending Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#port_num_end_dst RuleSet#port_num_end_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#port_num_end_dst RuleSet#port_num_end_dst}
   */
   readonly portNumEndDst?: number;
   /**
   * Ending Port Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#port_num_end_src RuleSet#port_num_end_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#port_num_end_src RuleSet#port_num_end_src}
   */
   readonly portNumEndSrc?: number;
   /**
   * Protocol ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#proto_id RuleSet#proto_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#proto_id RuleSet#proto_id}
   */
   readonly protoId?: number;
   /**
   * 'tcp': tcp; 'udp': udp; 'sctp': sctp;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#protocols RuleSet#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#protocols RuleSet#protocols}
   */
   readonly protocols?: string;
   /**
   * Port range (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#range_dst_port RuleSet#range_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#range_dst_port RuleSet#range_dst_port}
   */
   readonly rangeDstPort?: number;
   /**
   * Port range (Starting Port Number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#range_src_port RuleSet#range_src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#range_src_port RuleSet#range_src_port}
   */
   readonly rangeSrcPort?: number;
   /**
   * SCTP Template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#sctp_template RuleSet#sctp_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#sctp_template RuleSet#sctp_template}
   */
   readonly sctpTemplate?: string;
   /**
   * 'any-code': Any ICMP code; 'frag-required': Code 4, fragmentation required; 'host-unreachable': Code 1, destination host unreachable; 'network-unreachable': Code 0, destination network unreachable; 'port-unreachable': Code 3, destination port unreachable; 'proto-unreachable': Code 2, destination protocol unreachable; 'route-failed': Code 5, source route failed;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#special_code RuleSet#special_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#special_code RuleSet#special_code}
   */
   readonly specialCode?: string;
   /**
   * 'any-type': Any ICMP type; 'echo-reply': Type 0, echo reply; 'echo-request': Type 8, echo request; 'info-reply': Type 16, information reply; 'info-request': Type 15, information request; 'mask-reply': Type 18, address mask reply; 'mask-request': Type 17, address mask request; 'parameter-problem': Type 12, parameter problem; 'redirect': Type 5, redirect message; 'source-quench': Type 4, source quench; 'time-exceeded': Type 11, time exceeded; 'timestamp': Type 13, timestamp; 'timestamp-reply': Type 14, timestamp reply; 'dest-unreachable': Type 3, destination unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#special_type RuleSet#special_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#special_type RuleSet#special_type}
   */
   readonly specialType?: string;
   /**
   * 'any-code': Any ICMPv6 code; 'addr-unreachable': Code 3, address unreachable; 'admin-prohibited': Code 1, admin prohibited; 'no-route': Code 0, no route to destination; 'not-neighbour': Code 2, not neighbor; 'port-unreachable': Code 4, destination port unreachable;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#special_v6_code RuleSet#special_v6_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#special_v6_code RuleSet#special_v6_code}
   */
   readonly specialV6Code?: string;
   /**
   * 'any-type': Any ICMPv6 type; 'dest-unreachable': Type 1, destination unreachable; 'echo-reply': Type 129, echo reply; 'echo-request': Type 128, echo request; 'packet-too-big': Type 2, packet too big; 'param-prob': Type 4, parameter problem; 'time-exceeded': Type 3, time exceeded;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#special_v6_type RuleSet#special_v6_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#special_v6_type RuleSet#special_v6_type}
   */
   readonly specialV6Type?: string;
 }
@@ -3387,31 +3632,31 @@ export interface RuleSetRuleListSourceListStruct {
   /**
   * IPv4 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_ip_subnet RuleSet#src_ip_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_ip_subnet RuleSet#src_ip_subnet}
   */
   readonly srcIpSubnet?: string;
   /**
   * IPv6 IP Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_ipv6_subnet RuleSet#src_ipv6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_ipv6_subnet RuleSet#src_ipv6_subnet}
   */
   readonly srcIpv6Subnet?: string;
   /**
   * Network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_obj_grp_network RuleSet#src_obj_grp_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_obj_grp_network RuleSet#src_obj_grp_network}
   */
   readonly srcObjGrpNetwork?: string;
   /**
   * Network object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_obj_network RuleSet#src_obj_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_obj_network RuleSet#src_obj_network}
   */
   readonly srcObjNetwork?: string;
   /**
   * SLB Real server name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_slb_server RuleSet#src_slb_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_slb_server RuleSet#src_slb_server}
   */
   readonly srcSlbServer?: string;
 }
@@ -3645,379 +3890,385 @@ export interface RuleSetRuleListStruct {
   /**
   * 'permit': permit; 'deny': deny; 'reset': reset;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#action RuleSet#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#action RuleSet#action}
   */
   readonly action?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#application_any RuleSet#application_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#application_any RuleSet#application_any}
   */
   readonly applicationAny?: string;
   /**
   * 'lsn-lid': Apply specified CGNv6 LSN LID;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_ds_lite RuleSet#cgnv6_ds_lite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_ds_lite RuleSet#cgnv6_ds_lite}
   */
   readonly cgnv6DsLite?: string;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_ds_lite_log RuleSet#cgnv6_ds_lite_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_ds_lite_log RuleSet#cgnv6_ds_lite_log}
   */
   readonly cgnv6DsLiteLog?: number;
   /**
   * LSN LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_ds_lite_lsn_lid RuleSet#cgnv6_ds_lite_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_ds_lite_lsn_lid RuleSet#cgnv6_ds_lite_lsn_lid}
   */
   readonly cgnv6DsLiteLsnLid?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_fixed_nat_log RuleSet#cgnv6_fixed_nat_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_fixed_nat_log RuleSet#cgnv6_fixed_nat_log}
   */
   readonly cgnv6FixedNatLog?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_log RuleSet#cgnv6_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_log RuleSet#cgnv6_log}
   */
   readonly cgnv6Log?: number;
   /**
   * LSN LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_lsn_lid RuleSet#cgnv6_lsn_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_lsn_lid RuleSet#cgnv6_lsn_lid}
   */
   readonly cgnv6LsnLid?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_lsn_log RuleSet#cgnv6_lsn_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_lsn_log RuleSet#cgnv6_lsn_log}
   */
   readonly cgnv6LsnLog?: number;
   /**
   * 'lsn-lid': Apply specified CGNv6 LSN LID; 'fixed-nat': Apply CGNv6 Fixed NAT; 'ds-lite': Apply CGNv6 DS-Lite;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#cgnv6_policy RuleSet#cgnv6_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#cgnv6_policy RuleSet#cgnv6_policy}
   */
   readonly cgnv6Policy?: string;
   /**
   * Match destination IP against class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_class_list RuleSet#dst_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_class_list RuleSet#dst_class_list}
   */
   readonly dstClassList?: string;
   /**
   * Match destination IP against domain-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_domain_list RuleSet#dst_domain_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_domain_list RuleSet#dst_domain_list}
   */
   readonly dstDomainList?: string;
   /**
   * Geolocation name list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_geoloc_list RuleSet#dst_geoloc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_geoloc_list RuleSet#dst_geoloc_list}
   */
   readonly dstGeolocList?: string;
   /**
   * Use Geolocation list from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_geoloc_list_shared RuleSet#dst_geoloc_list_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_geoloc_list_shared RuleSet#dst_geoloc_list_shared}
   */
   readonly dstGeolocListShared?: number;
   /**
   * Single geolocation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_geoloc_name RuleSet#dst_geoloc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_geoloc_name RuleSet#dst_geoloc_name}
   */
   readonly dstGeolocName?: string;
   /**
   * 'any': Any IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_ipv4_any RuleSet#dst_ipv4_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_ipv4_any RuleSet#dst_ipv4_any}
   */
   readonly dstIpv4Any?: string;
   /**
   * 'any': Any IPv6 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_ipv6_any RuleSet#dst_ipv6_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_ipv6_any RuleSet#dst_ipv6_any}
   */
   readonly dstIpv6Any?: string;
   /**
   * Bind threat-list for destination IP based filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_threat_list RuleSet#dst_threat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_threat_list RuleSet#dst_threat_list}
   */
   readonly dstThreatList?: string;
   /**
   * Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_zone RuleSet#dst_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_zone RuleSet#dst_zone}
   */
   readonly dstZone?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dst_zone_any RuleSet#dst_zone_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dst_zone_any RuleSet#dst_zone_any}
   */
   readonly dstZoneAny?: string;
   /**
   * Listen on port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#forward_listen_on_port RuleSet#forward_listen_on_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#forward_listen_on_port RuleSet#forward_listen_on_port}
   */
   readonly forwardListenOnPort?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#forward_log RuleSet#forward_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#forward_log RuleSet#forward_log}
   */
   readonly forwardLog?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#fw_log RuleSet#fw_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#fw_log RuleSet#fw_log}
   */
   readonly fwLog?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#fwlog RuleSet#fwlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#fwlog RuleSet#fwlog}
   */
   readonly fwlog?: number;
   /**
   * Configure GTP Policy Template (GTP Template Policy Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#gtp_template RuleSet#gtp_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#gtp_template RuleSet#gtp_template}
   */
   readonly gtpTemplate?: string;
   /**
   * TCP/UDP idle-timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#idle_timeout RuleSet#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#idle_timeout RuleSet#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
   * Enable DS-Lite tunnel inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#inspect_payload RuleSet#inspect_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#inspect_payload RuleSet#inspect_payload}
   */
   readonly inspectPayload?: number;
   /**
   * 'v4': IPv4 rule; 'v6': IPv6 rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#ip_version RuleSet#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#ip_version RuleSet#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * Apply a Template LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#lid RuleSet#lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#lid RuleSet#lid}
   */
   readonly lid?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#lidlog RuleSet#lidlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#lidlog RuleSet#lidlog}
   */
   readonly lidlog?: number;
   /**
   * Listen on port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#listen_on_port RuleSet#listen_on_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#listen_on_port RuleSet#listen_on_port}
   */
   readonly listenOnPort?: number;
   /**
   * Apply a Template LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#listen_on_port_lid RuleSet#listen_on_port_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#listen_on_port_lid RuleSet#listen_on_port_lid}
   */
   readonly listenOnPortLid?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#listen_on_port_lidlog RuleSet#listen_on_port_lidlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#listen_on_port_lidlog RuleSet#listen_on_port_lidlog}
   */
   readonly listenOnPortLidlog?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#log RuleSet#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#log RuleSet#log}
   */
   readonly log?: number;
   /**
   * Rule name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#name RuleSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#name RuleSet#name}
   */
   readonly name: string;
   /**
+  * Name of the packet capture template to be bind with this object
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#packet_capture_template RuleSet#packet_capture_template}
+  */
+  readonly packetCaptureTemplate?: string;
+  /**
   * 'cgnv6': Apply CGNv6 policy; 'forward': Forward packet; 'ipsec': Apply IPsec encapsulation; 'ipsec-group': Apply IPsec encapsulation from a group;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#policy RuleSet#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#policy RuleSet#policy}
   */
   readonly policy?: string;
   /**
   * Rule entry comment (Notes for this rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#remark RuleSet#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#remark RuleSet#remark}
   */
   readonly remark?: string;
   /**
   * Apply a Template LID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_lid RuleSet#reset_lid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_lid RuleSet#reset_lid}
   */
   readonly resetLid?: number;
   /**
   * Enable logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#reset_lidlog RuleSet#reset_lidlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#reset_lidlog RuleSet#reset_lidlog}
   */
   readonly resetLidlog?: number;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#service_any RuleSet#service_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#service_any RuleSet#service_any}
   */
   readonly serviceAny?: string;
   /**
   * Match source IP against class-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_class_list RuleSet#src_class_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_class_list RuleSet#src_class_list}
   */
   readonly srcClassList?: string;
   /**
   * Geolocation name list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_geoloc_list RuleSet#src_geoloc_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_geoloc_list RuleSet#src_geoloc_list}
   */
   readonly srcGeolocList?: string;
   /**
   * Use Geolocation list from shared partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_geoloc_list_shared RuleSet#src_geoloc_list_shared}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_geoloc_list_shared RuleSet#src_geoloc_list_shared}
   */
   readonly srcGeolocListShared?: number;
   /**
   * Single geolocation name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_geoloc_name RuleSet#src_geoloc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_geoloc_name RuleSet#src_geoloc_name}
   */
   readonly srcGeolocName?: string;
   /**
   * 'any': Any IPv4 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_ipv4_any RuleSet#src_ipv4_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_ipv4_any RuleSet#src_ipv4_any}
   */
   readonly srcIpv4Any?: string;
   /**
   * 'any': Any IPv6 address;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_ipv6_any RuleSet#src_ipv6_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_ipv6_any RuleSet#src_ipv6_any}
   */
   readonly srcIpv6Any?: string;
   /**
   * Bind threat-list for source IP based filtering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_threat_list RuleSet#src_threat_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_threat_list RuleSet#src_threat_list}
   */
   readonly srcThreatList?: string;
   /**
   * Zone name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_zone RuleSet#src_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_zone RuleSet#src_zone}
   */
   readonly srcZone?: string;
   /**
   * 'any': any;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#src_zone_any RuleSet#src_zone_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#src_zone_any RuleSet#src_zone_any}
   */
   readonly srcZoneAny?: string;
   /**
   * 'enable': Enable rule; 'disable': Disable rule;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#status RuleSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#status RuleSet#status}
   */
   readonly status?: string;
   /**
   * Enable application statistic (functional only in action permit)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#track_application RuleSet#track_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#track_application RuleSet#track_application}
   */
   readonly trackApplication?: number;
   /**
   * Customized tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#user_tag RuleSet#user_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#user_tag RuleSet#user_tag}
   */
   readonly userTag?: string;
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * VPN IPsec Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#vpn_ipsec_group_name RuleSet#vpn_ipsec_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#vpn_ipsec_group_name RuleSet#vpn_ipsec_group_name}
   */
   readonly vpnIpsecGroupName?: string;
   /**
   * VPN IPsec name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#vpn_ipsec_name RuleSet#vpn_ipsec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#vpn_ipsec_name RuleSet#vpn_ipsec_name}
   */
   readonly vpnIpsecName?: string;
   /**
   * action_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#action_group RuleSet#action_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#action_group RuleSet#action_group}
   */
   readonly actionGroup?: RuleSetRuleListActionGroup;
   /**
   * app_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#app_list RuleSet#app_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#app_list RuleSet#app_list}
   */
   readonly appList?: RuleSetRuleListAppListStruct[] | cdktf.IResolvable;
   /**
   * dest_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dest_list RuleSet#dest_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dest_list RuleSet#dest_list}
   */
   readonly destList?: RuleSetRuleListDestListStruct[] | cdktf.IResolvable;
   /**
   * dscp_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#dscp_list RuleSet#dscp_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#dscp_list RuleSet#dscp_list}
   */
   readonly dscpList?: RuleSetRuleListDscpListStruct[] | cdktf.IResolvable;
   /**
   * move_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#move_rule RuleSet#move_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#move_rule RuleSet#move_rule}
   */
   readonly moveRule?: RuleSetRuleListMoveRule;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
   */
   readonly samplingEnable?: RuleSetRuleListSamplingEnable[] | cdktf.IResolvable;
   /**
   * service_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#service_list RuleSet#service_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#service_list RuleSet#service_list}
   */
   readonly serviceList?: RuleSetRuleListServiceListStruct[] | cdktf.IResolvable;
   /**
   * source_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#source_list RuleSet#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#source_list RuleSet#source_list}
   */
   readonly sourceList?: RuleSetRuleListSourceListStruct[] | cdktf.IResolvable;
 }
@@ -4063,6 +4314,7 @@ export function ruleSetRuleListStructToTerraform(struct?: RuleSetRuleListStruct 
     listen_on_port_lidlog: cdktf.numberToTerraform(struct!.listenOnPortLidlog),
     log: cdktf.numberToTerraform(struct!.log),
     name: cdktf.stringToTerraform(struct!.name),
+    packet_capture_template: cdktf.stringToTerraform(struct!.packetCaptureTemplate),
     policy: cdktf.stringToTerraform(struct!.policy),
     remark: cdktf.stringToTerraform(struct!.remark),
     reset_lid: cdktf.numberToTerraform(struct!.resetLid),
@@ -4307,6 +4559,12 @@ export function ruleSetRuleListStructToHclTerraform(struct?: RuleSetRuleListStru
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    packet_capture_template: {
+      value: cdktf.stringToHclTerraform(struct!.packetCaptureTemplate),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4645,6 +4903,10 @@ export class RuleSetRuleListStructOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._packetCaptureTemplate !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.packetCaptureTemplate = this._packetCaptureTemplate;
+    }
     if (this._policy !== undefined) {
       hasAnyValues = true;
       internalValueResult.policy = this._policy;
@@ -4799,6 +5061,7 @@ export class RuleSetRuleListStructOutputReference extends cdktf.ComplexObject {
       this._listenOnPortLidlog = undefined;
       this._log = undefined;
       this._name = undefined;
+      this._packetCaptureTemplate = undefined;
       this._policy = undefined;
       this._remark = undefined;
       this._resetLid = undefined;
@@ -4870,6 +5133,7 @@ export class RuleSetRuleListStructOutputReference extends cdktf.ComplexObject {
       this._listenOnPortLidlog = value.listenOnPortLidlog;
       this._log = value.log;
       this._name = value.name;
+      this._packetCaptureTemplate = value.packetCaptureTemplate;
       this._policy = value.policy;
       this._remark = value.remark;
       this._resetLid = value.resetLid;
@@ -5458,6 +5722,22 @@ export class RuleSetRuleListStructOutputReference extends cdktf.ComplexObject {
     return this._name;
   }
 
+  // packet_capture_template - computed: false, optional: true, required: false
+  private _packetCaptureTemplate?: string; 
+  public get packetCaptureTemplate() {
+    return this.getStringAttribute('packet_capture_template');
+  }
+  public set packetCaptureTemplate(value: string) {
+    this._packetCaptureTemplate = value;
+  }
+  public resetPacketCaptureTemplate() {
+    this._packetCaptureTemplate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get packetCaptureTemplateInput() {
+    return this._packetCaptureTemplate;
+  }
+
   // policy - computed: false, optional: true, required: false
   private _policy?: string; 
   public get policy() {
@@ -5930,7 +6210,7 @@ export interface RuleSetRulesByZoneSamplingEnable {
   /**
   * 'all': all; 'dummy': Entry for a10countergen;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#counters1 RuleSet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#counters1 RuleSet#counters1}
   */
   readonly counters1?: string;
 }
@@ -6048,13 +6328,13 @@ export interface RuleSetRulesByZone {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
   /**
   * sampling_enable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#sampling_enable RuleSet#sampling_enable}
   */
   readonly samplingEnable?: RuleSetRulesByZoneSamplingEnable[] | cdktf.IResolvable;
 }
@@ -6169,7 +6449,7 @@ export interface RuleSetSamplingEnable {
   /**
   * 'all': all; 'unmatched-drops': Unmatched drops counter; 'permit': Permitted counter; 'deny': Denied counter; 'reset': Reset counter;
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#counters1 RuleSet#counters1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#counters1 RuleSet#counters1}
   */
   readonly counters1?: string;
 }
@@ -6287,7 +6567,7 @@ export interface RuleSetTag {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -6373,7 +6653,7 @@ export interface RuleSetTrackAppRuleListStruct {
   /**
   * uuid of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#uuid RuleSet#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#uuid RuleSet#uuid}
   */
   readonly uuid?: string;
 }
@@ -6457,7 +6737,7 @@ export class RuleSetTrackAppRuleListStructOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set thunder_rule_set}
+* Represents a {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set thunder_rule_set}
 */
 export class RuleSet extends cdktf.TerraformResource {
 
@@ -6473,7 +6753,7 @@ export class RuleSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RuleSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RuleSet to import
-  * @param importFromId The id of the existing RuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RuleSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RuleSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6485,7 +6765,7 @@ export class RuleSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.4.2/docs/resources/rule_set thunder_rule_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/a10networks/thunder/1.5.0/docs/resources/rule_set thunder_rule_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6496,8 +6776,8 @@ export class RuleSet extends cdktf.TerraformResource {
       terraformResourceType: 'thunder_rule_set',
       terraformGeneratorMetadata: {
         providerName: 'thunder',
-        providerVersion: '1.4.2',
-        providerVersionConstraint: '1.4.2'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
